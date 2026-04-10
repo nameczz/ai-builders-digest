@@ -41,14 +41,14 @@
       "date": "2026-04-09"
     },
     {
-      "id": "joshwoodward-2026-04-08-1",
+      "id": "joshwoodward-2026-04-09-1",
       "author": "Josh Woodward",
       "bio": "Google VP, Gemini & Labs",
       "content_zh": "Gemini 推出 Notebooks 功能，将 NotebookLM 的核心能力直接集成到 Gemini App 中。不再是简单的「项目管理」，而是构建真正的「第二大脑」——把笔记、搜索和 AI 推理融为一体。",
       "content_en": "Gemini launches Notebooks, integrating NotebookLM's core magic directly into the Gemini App. Moving beyond basic 'projects' to build a true 'second brain' — fusing notes, search, and AI reasoning into one seamless experience.",
       "source": "x",
       "url": "https://x.com/joshwoodward/status/2041982173402821018",
-      "date": "2026-04-08"
+      "date": "2026-04-09"
     },
     {
       "id": "rauchg-2026-04-08-1",
@@ -61,44 +61,74 @@
       "date": "2026-04-08"
     },
     {
-      "id": "alexalbert-2026-04-08-1",
+      "id": "alexalbert-2026-04-09-1",
       "author": "Alex Albert",
       "bio": "Anthropic Research",
       "content_zh": "Managed Agents 既是最快速搭建周末 agent 项目的方式，也是最稳健地将 agent 推向百万用户的方案。它消除了自托管 agent 基础设施的所有复杂性——sandbox、状态管理、凭证管理全部内置。",
       "content_en": "Managed Agents is somehow both the fastest way to hack together a weekend agent project and the most robust way to ship one to millions of users. It eliminates all the complexity of self-hosting agent infrastructure — sandboxing, state management, and credentials all built in.",
       "source": "x",
       "url": "https://x.com/alexalbert__/status/2041941720611614786",
-      "date": "2026-04-08"
+      "date": "2026-04-09"
     },
     {
-      "id": "levie-2026-04-08-1",
+      "id": "levie-2026-04-09-1",
       "author": "Aaron Levie",
       "bio": "Box CEO",
       "content_zh": "知识工作的后台 agent 时代已经来临。通过 Box API 或 MCP，可以用 Claude Managed Agents 自动化任何内容工作流——文档审核、合规检查、内容提取，两分钟就能跑起来。",
       "content_en": "Background agents for knowledge work are here. Using Box API or MCP with Claude Managed Agents, you can automate any content workflow — document review, compliance checks, content extraction — up and running in 2 minutes.",
       "source": "x",
       "url": "https://x.com/levie/status/2041975669928702370",
-      "date": "2026-04-08"
+      "date": "2026-04-09"
     },
     {
-      "id": "nikunj-2026-04-08-1",
+      "id": "nikunj-2026-04-09-1",
       "author": "Nikunj Kothari",
       "bio": "FPV Ventures Partner",
       "content_zh": "受 Karpathy 启发，推出开源项目 LLMwiki——用 Opus 4.5 全程 vibe coded。输入包括推文、书签、iMessage/WhatsApp 对话和个人写作，打造个人知识维基。体现了「File over App」的理念。",
       "content_en": "Inspired by Karpathy, launched open-source LLMwiki — fully vibe coded with Opus 4.5. Inputs include tweets, bookmarks, iMessage/WhatsApp, and personal writing to build a personal knowledge wiki. Embodies the 'File over App' philosophy.",
       "source": "x",
       "url": "https://x.com/nikunj/status/2042020992969744702",
-      "date": "2026-04-08"
+      "date": "2026-04-09"
     },
     {
-      "id": "steipete-2026-04-08-1",
+      "id": "steipete-2026-04-09-1",
       "author": "Peter Steinberger",
       "bio": "OpenClaw builder",
       "content_zh": "在做 AI 角色评估时发现，Claude 在有模型名的盲测中总是把自己排第一。解决方法：移除模型名称做匿名评测。同时指出一个矛盾现实：我们既需要强大的本地模型，但即使顶级模型仍然被用户抱怨不够好、会犯错。",
       "content_en": "While building character evals, found Claude constantly ranks itself #1 when model names are visible — fixed by anonymizing. Also highlights a paradox: we want powerful local models, yet even top-tier models get constant complaints about mistakes.",
       "source": "x",
       "url": "https://x.com/steipete/status/2042017534816231486",
-      "date": "2026-04-08"
+      "date": "2026-04-09"
+    },
+    {
+      "id": "adityaag-2026-04-09-1",
+      "author": "Aditya Agarwal",
+      "bio": "South Park Commons, ex-Facebook",
+      "content_zh": "「先塑造工具，然后工具塑造你」——SPC 整个团队现在每周都在写代码，而两个月前只有 1-2 人写代码。AI 编程工具正在让非工程师也成为 builder。",
+      "content_en": "'First you shape the tools, then the tools shape you.' At SPC, the entire team now writes code weekly — two months ago only 1-2 people coded. AI coding tools are turning non-engineers into builders.",
+      "source": "x",
+      "url": "https://x.com/adityaag/status/2041985720706122070",
+      "date": "2026-04-09"
+    },
+    {
+      "id": "thariq-2026-04-09-1",
+      "author": "Thariq",
+      "bio": "Claude Code, Anthropic",
+      "content_zh": "计划做直播，帮助非技术人员使用 Claude Code 改善工作流程。核心观点：只需要几个小技巧，就能让非技术用户大幅提升效率。Claude Code 的文档本身就是一座金矿。",
+      "content_en": "Planning livestreams to help non-technical people use Claude Code to improve their workflows. Key insight: just a few tips can unlock massive productivity gains for non-technical users. The Claude Code docs are a gold mine.",
+      "source": "x",
+      "url": "https://x.com/trq212/status/2042005043289977232",
+      "date": "2026-04-09"
+    },
+    {
+      "id": "claudeai-2026-04-09-1",
+      "author": "Claude",
+      "bio": "AI assistant by Anthropic",
+      "content_zh": "Anthropic 正式推出 Managed Agents：开发者可以通过 Claude Console、Claude Code 或全新 CLI 构建和部署 agent。Sentry 已基于 Managed Agents 实现从根因分析到自动修复 PR 的全流程集成。",
+      "content_en": "Anthropic launches Managed Agents: developers can build and deploy agents through Claude Console, Claude Code, or the new CLI. Sentry already built an integration that goes from root-cause analysis to automated fix PRs.",
+      "source": "x",
+      "url": "https://x.com/claudeai/status/2041927700063883281",
+      "date": "2026-04-09"
     },
     {
       "id": "danshipper-2026-04-08-1",
@@ -108,36 +138,6 @@
       "content_en": "Every's 25 full-time employees all work with OpenClaws — personal AI agents. They're among the few companies practicing the 'everyone has an agent' model at scale. Each employee's personalized agent evolves and works across Slack representing their style.",
       "source": "x",
       "url": "https://x.com/danshipper/status/2041903948873777629",
-      "date": "2026-04-08"
-    },
-    {
-      "id": "adityaag-2026-04-08-1",
-      "author": "Aditya Agarwal",
-      "bio": "South Park Commons, ex-Facebook",
-      "content_zh": "「先塑造工具，然后工具塑造你」——SPC 整个团队现在每周都在写代码，而两个月前只有 1-2 人写代码。AI 编程工具正在让非工程师也成为 builder。",
-      "content_en": "'First you shape the tools, then the tools shape you.' At SPC, the entire team now writes code weekly — two months ago only 1-2 people coded. AI coding tools are turning non-engineers into builders.",
-      "source": "x",
-      "url": "https://x.com/adityaag/status/2041985720706122070",
-      "date": "2026-04-08"
-    },
-    {
-      "id": "thariq-2026-04-08-1",
-      "author": "Thariq",
-      "bio": "Claude Code, Anthropic",
-      "content_zh": "计划做直播，帮助非技术人员使用 Claude Code 改善工作流程。核心观点：只需要几个小技巧，就能让非技术用户大幅提升效率。Claude Code 的文档本身就是一座金矿。",
-      "content_en": "Planning livestreams to help non-technical people use Claude Code to improve their workflows. Key insight: just a few tips can unlock massive productivity gains for non-technical users. The Claude Code docs are a gold mine.",
-      "source": "x",
-      "url": "https://x.com/trq212/status/2042005043289977232",
-      "date": "2026-04-08"
-    },
-    {
-      "id": "claudeai-2026-04-08-1",
-      "author": "Claude",
-      "bio": "AI assistant by Anthropic",
-      "content_zh": "Anthropic 正式推出 Managed Agents：开发者可以通过 Claude Console、Claude Code 或全新 CLI 构建和部署 agent。Sentry 已基于 Managed Agents 实现从根因分析到自动修复 PR 的全流程集成。",
-      "content_en": "Anthropic launches Managed Agents: developers can build and deploy agents through Claude Console, Claude Code, or the new CLI. Sentry already built an integration that goes from root-cause analysis to automated fix PRs.",
-      "source": "x",
-      "url": "https://x.com/claudeai/status/2041927700063883281",
       "date": "2026-04-08"
     },
     {
