@@ -34,14 +34,14 @@ function SourceTag({ source }: { source: DigestItem["source"] }) {
   }
   if (source === "podcast") {
     return (
-      <span className="inline-flex items-center gap-1 px-[7px] py-[2px] rounded-[6px] bg-[var(--tag-podcast-bg)] text-[var(--tag-podcast-text)] text-[10px] font-medium tracking-[0.5px] uppercase">
-        Podcast
+      <span className="inline-flex items-center justify-center w-[22px] h-[22px] rounded-[6px] bg-[var(--tag-podcast-bg)] text-[var(--tag-podcast-text)]">
+        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><line x1="12" y1="19" x2="12" y2="23"/></svg>
       </span>
     );
   }
   return (
-    <span className="inline-flex items-center gap-1 px-[7px] py-[2px] rounded-[6px] bg-[var(--tag-blog-bg)] text-[var(--tag-blog-text)] text-[10px] font-medium tracking-[0.5px] uppercase">
-      Blog
+    <span className="inline-flex items-center justify-center w-[22px] h-[22px] rounded-[6px] bg-[var(--tag-blog-bg)] text-[var(--tag-blog-text)]">
+      <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
     </span>
   );
 }
