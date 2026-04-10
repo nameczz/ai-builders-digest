@@ -1,0 +1,184 @@
+{
+  "items": [
+    {
+      "id": "joshwoodward-2026-04-10-1",
+      "author": "Josh Woodward",
+      "bio": "Google product lead, NotebookLM",
+      "content_zh": "Gemini 推出 Notebooks 功能，将 NotebookLM 的核心能力直接集成到 Gemini App 中。不再是简单的「项目管理」，而是构建真正的「第二大脑」——把笔记、搜索和 AI 推理融为一体。",
+      "content_en": "Gemini launches Notebooks, integrating NotebookLM's core magic directly into the Gemini App. Moving beyond basic 'projects' to build a true 'second brain' — fusing notes, search, and AI reasoning into one seamless experience.",
+      "source": "x",
+      "url": "https://x.com/joshwoodward/status/2041982173402821018",
+      "date": "2026-04-10"
+    },
+    {
+      "id": "kevinweil-2026-04-10-1",
+      "author": "Kevin Weil",
+      "bio": "OpenAI CPO",
+      "content_zh": "OpenAI 的模型一次性解决了五个 Erdos 数学难题，而且随着模型能力提升，证明过程越来越优雅。AI 数学推理能力正在快速突破。",
+      "content_en": "OpenAI's models solved five Erdos math problems at once, with proofs getting more elegant as models improve. AI mathematical reasoning capabilities are advancing rapidly.",
+      "source": "x",
+      "url": "https://x.com/kevinweil/status/2042073869880848481",
+      "date": "2026-04-10"
+    },
+    {
+      "id": "petergyang-2026-04-10-1",
+      "author": "Peter Yang",
+      "bio": "Product advisor, ex-Roblox",
+      "content_zh": "深度分析 AI 订阅模式的可持续性：Claude Max、ChatGPT Pro 等无限量订阅可能不会持续太久。Anthropic 已经限制了 OpenClaw 的访问，暗示「全包」模式的经济模型正在受到挑战。",
+      "content_en": "Deep dive on AI subscription sustainability: all-you-can-use plans like Claude Max and ChatGPT Pro may not last forever. Anthropic already cut back OpenClaw access, signaling the economics of 'unlimited' AI subscriptions are being challenged.",
+      "source": "x",
+      "url": "https://x.com/petergyang/status/2041989206495653915",
+      "date": "2026-04-10"
+    },
+    {
+      "id": "amasad-2026-04-10-1",
+      "author": "Amjad Masad",
+      "bio": "Replit CEO",
+      "content_zh": "Replit 正在加速个人创业者的崛起——通过给 builder 提供完整的「虚拟团队」能力，单人 bootstrapped 业务增长明显加快。Solo builder 时代正在到来。",
+      "content_en": "Replit is accelerating the rise of solo entrepreneurs by giving builders entire virtual teams. Bootstrapped solo businesses are growing faster than ever — the solo builder era is here.",
+      "source": "x",
+      "url": "https://x.com/amasad/status/2042133509939298511",
+      "date": "2026-04-10"
+    },
+    {
+      "id": "rauchg-2026-04-10-1",
+      "author": "Guillermo Rauch",
+      "bio": "Vercel CEO",
+      "content_zh": "Rauch 提出 Web 的黄金时代即将到来：LLM 天然精通 Web 技术，浏览器正在成为每个人的 IDE，没有 App Store 的限制。随着编程超级智能的到来，Web 将成为 AI 最自然的载体。同时推出 AI Gateway 产品：零停机、无锁定、免密钥、数据不用于训练。",
+      "content_en": "Rauch argues the web's brightest days are ahead: LLMs are proficient in web tech, the browser is now everyone's IDE, with no App Store gatekeeping. As coding superintelligence approaches, the web is AI's natural medium. Also launched AI Gateway — zero downtime, no lock-in, no keys, no training on your data.",
+      "source": "x",
+      "url": "https://x.com/rauchg/status/2041883605711122488",
+      "date": "2026-04-10"
+    },
+    {
+      "id": "alexalbert-2026-04-10-1",
+      "author": "Alex Albert",
+      "bio": "Anthropic, Claude relations",
+      "content_zh": "Managed Agents 既是最快速搭建周末 agent 项目的方式，也是最稳健地将 agent 推向百万用户的方案。它消除了自托管 agent 基础设施的所有复杂性——sandbox、状态管理、凭证管理全部内置。",
+      "content_en": "Managed Agents is somehow both the fastest way to hack together a weekend agent project and the most robust way to ship one to millions of users. It eliminates all the complexity of self-hosting agent infrastructure — sandboxing, state management, and credentials all built in.",
+      "source": "x",
+      "url": "https://x.com/alexalbert__/status/2041941720611614786",
+      "date": "2026-04-10"
+    },
+    {
+      "id": "levie-2026-04-10-1",
+      "author": "Aaron Levie",
+      "bio": "Box CEO",
+      "content_zh": "知识工作的后台 agent 时代已经来临。通过 Box API 或 MCP，可以用 Claude Managed Agents 自动化任何内容工作流——文档审核、合规检查、内容提取，两分钟就能跑起来。",
+      "content_en": "Background agents for knowledge work are here. Using Box API or MCP with Claude Managed Agents, you can automate any content workflow — document review, compliance checks, content extraction — up and running in 2 minutes.",
+      "source": "x",
+      "url": "https://x.com/levie/status/2041975669928702370",
+      "date": "2026-04-10"
+    },
+    {
+      "id": "garrytan-2026-04-10-1",
+      "author": "Garry Tan",
+      "bio": "Y Combinator CEO",
+      "content_zh": "Garry Tan 推崇「10x 工程师」理念——如果你还在听 1x 速度工程师的建议，那就落后了。同时分享了 markdown + agent 技能触发的工作流：agent 可以根据上下文自动判断何时需要触发特定技能。",
+      "content_en": "Garry Tan champions the '10x engineer' ethos — if you're taking advice from 1x speed engineers, you're falling behind. Also shared a markdown + agent skill triggering workflow where agents automatically decide when to invoke specific capabilities based on context.",
+      "source": "x",
+      "url": "https://x.com/garrytan/status/2042109985346490483",
+      "date": "2026-04-10"
+    },
+    {
+      "id": "nikunj-2026-04-10-1",
+      "author": "Nikunj Handa",
+      "bio": "AI builder",
+      "content_zh": "受 Karpathy 启发，推出开源项目 LLMwiki——用 Opus 4.5 全程 vibe coded。输入包括推文、书签、iMessage/WhatsApp 对话和个人写作，打造个人知识维基。体现了「File over App」的理念。",
+      "content_en": "Inspired by Karpathy, launched open-source LLMwiki — fully vibe coded with Opus 4.5. Inputs include tweets, bookmarks, iMessage/WhatsApp, and personal writing to build a personal knowledge wiki. Embodies the 'File over App' philosophy.",
+      "source": "x",
+      "url": "https://x.com/nikunj/status/2042020992969744702",
+      "date": "2026-04-10"
+    },
+    {
+      "id": "steipete-2026-04-10-1",
+      "author": "Peter Steinberger",
+      "bio": "Developer tools builder",
+      "content_zh": "在做 AI 角色评估时发现，Claude 在有模型名的盲测中总是把自己排第一。解决方法：移除模型名称做匿名评测。同时指出一个矛盾现实：我们既需要强大的本地模型，但即使顶级模型仍然被用户抱怨不够好、会犯错。",
+      "content_en": "While building character evals, found Claude constantly ranks itself #1 when model names are visible — fixed by anonymizing. Also highlights a paradox: we want powerful local models, yet even top-tier models get constant complaints about mistakes and not following instructions.",
+      "source": "x",
+      "url": "https://x.com/steipete/status/2042017534816231486",
+      "date": "2026-04-10"
+    },
+    {
+      "id": "danshipper-2026-04-10-1",
+      "author": "Dan Shipper",
+      "bio": "Every CEO, AI writer",
+      "content_zh": "Every 公司 25 名全职员工全部使用 OpenClaw（个人 AI agent）工作，是全球少数完全实践「人人有 agent」模式的公司之一。每个员工的 AI 人格化 agent 可以自我进化，在 Slack 等平台代表个人风格工作，团队成员互相学习各自 agent 的能力。",
+      "content_en": "Every's 25 full-time employees all work with OpenClaws — personal AI agents. They're among the few companies practicing the 'everyone has an agent' model at scale. Each employee's personalized agent evolves to reflect their style and expertise, and team members learn from each other's agents in shared channels.",
+      "source": "x",
+      "url": "https://x.com/danshipper/status/2041903948873777629",
+      "date": "2026-04-10"
+    },
+    {
+      "id": "adityaag-2026-04-10-1",
+      "author": "Aditya Agarwal",
+      "bio": "South Park Commons, ex-Facebook",
+      "content_zh": "「先塑造工具，然后工具塑造你」——SPC 整个团队现在每周都在写代码，而两个月前只有 1-2 人写代码。AI 编程工具正在让非工程师也成为 builder。",
+      "content_en": "'First you shape the tools, then the tools shape you.' At SPC, the entire team now writes code weekly — two months ago only 1-2 people coded. AI coding tools are turning non-engineers into builders.",
+      "source": "x",
+      "url": "https://x.com/adityaag/status/2041985720706122070",
+      "date": "2026-04-10"
+    },
+    {
+      "id": "trq212-2026-04-10-1",
+      "author": "Thor",
+      "bio": "Claude Code advocate",
+      "content_zh": "计划做直播，帮助非技术人员使用 Claude Code 改善工作流程。核心观点：只需要几个小技巧，就能让非技术用户大幅提升效率。Claude Code 的文档本身就是一座金矿。",
+      "content_en": "Planning streams to help non-technical people use Claude Code to improve their workflows. Core insight: just a few tips can make a huge difference for non-technical users. The Claude Code docs themselves are a gold mine.",
+      "source": "x",
+      "url": "https://x.com/trq212/status/2042005043289977232",
+      "date": "2026-04-10"
+    },
+    {
+      "id": "podcast-every-ai-20260408",
+      "author": "AI & I by Every",
+      "bio": "AI podcast by Dan Shipper",
+      "content_zh": "本期深入探讨「人人有 agent」的公司实践。Every 团队让每位员工拥有个性化 AI agent（OpenClaw/Plus One），这些 agent 能自我进化、反映个人风格。关键发现：1) 团队在共享频道中互相学习彼此 agent 的能力；2) agent 的信任来源于使用者的个人声誉；3) 非技术人员完成应用开发的比率大幅提升。这不是工具升级，而是工作方式的根本性转变。",
+      "content_en": "Deep dive into 'everyone has an agent' company practices at Every. Each employee gets a personalized AI agent (OpenClaw/Plus One) that evolves to reflect their personality and expertise. Key findings: 1) Teams learn from each other's agents in shared channels; 2) Agent trust derives from the user's personal reputation; 3) Non-technical staff app completion rates surged. This isn't a tool upgrade — it's a fundamental shift in how work happens.",
+      "source": "podcast",
+      "url": "https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL",
+      "date": "2026-04-08"
+    },
+    {
+      "id": "blog-anthropic-managed-agents-engineering-20260408",
+      "author": "Anthropic Engineering",
+      "bio": "Anthropic engineering blog",
+      "content_zh": "Anthropic 工程博客详解 Managed Agents 的架构设计——核心理念是「将大脑与双手解耦」。借鉴操作系统虚拟化硬件的思路，将 agent 基础设施抽象为通用接口，使其能够适应未来尚未被想到的程序。Agent harness 需要持续演进：随着模型能力提升（如 Opus 4.5 不再有「上下文焦虑」），之前的工程补丁会变成冗余。",
+      "content_en": "Anthropic Engineering details Managed Agents architecture — core idea is 'decoupling the brain from the hands.' Inspired by how operating systems virtualize hardware into general abstractions, they built agent infrastructure with interfaces meant to outlast any particular implementation. Key insight: agent harnesses must evolve as models improve — fixes for older model quirks (like 'context anxiety') become dead weight on newer models.",
+      "source": "blog",
+      "url": "https://www.anthropic.com/engineering/managed-agents",
+      "date": "2026-04-08"
+    },
+    {
+      "id": "blog-claude-managed-agents-launch-20260408",
+      "author": "Claude Blog",
+      "bio": "Official Claude product blog",
+      "content_zh": "Claude Managed Agents 正式发布公测——一套可组合的 API，用于构建和部署云端 agent。开发者不再需要自建 sandbox、状态管理、权限系统和追踪链路，从原型到上线从数月缩短到数天。支持长时间运行的自主会话、多 agent 协调，以及通过 Console、Claude Code 和新 CLI 进行部署。",
+      "content_en": "Claude Managed Agents launches in public beta — composable APIs for building and deploying cloud-hosted agents at scale. Developers no longer need to build their own sandboxing, state management, permissioning, or tracing. Go from prototype to launch in days, not months. Features include long-running autonomous sessions, multi-agent coordination, and deployment via Console, Claude Code, or the new CLI.",
+      "source": "blog",
+      "url": "https://claude.com/blog/claude-managed-agents",
+      "date": "2026-04-08"
+    },
+    {
+      "id": "podcast-latentspace-20260407",
+      "author": "Latent Space Podcast",
+      "bio": "AI podcast by Swyx & Alessio",
+      "content_zh": "本期邀请了 Anthropic 的工程负责人讨论 Claude 的工具使用架构。核心观点：好的工具设计比好的 prompt 更重要。当你给模型一个设计良好的 API，它自然知道怎么用。播客还深入探讨了 MCP 协议的设计哲学——标准化工具接口是 agent 生态的基础设施。",
+      "content_en": "This episode features Anthropic's engineering lead discussing Claude's tool-use architecture. Key insight: good tool design matters more than good prompts. When you give a model a well-designed API, it naturally knows how to use it. The podcast also dives deep into MCP protocol design philosophy — standardized tool interfaces are the infrastructure for the agent ecosystem.",
+      "source": "podcast",
+      "url": "https://www.latent.space/p/anthropic-tools",
+      "date": "2026-04-07"
+    },
+    {
+      "id": "podcast-nopriors-20260405",
+      "author": "No Priors Podcast",
+      "bio": "AI podcast by Elad Gil & Sarah Guo",
+      "content_zh": "本期讨论 AI 创业公司的定价策略。关键洞察：按结果收费（outcome-based pricing）比按 token 收费更可持续，因为它把价值和成本对齐了。嘉宾分享了从按座收费切换到按结果收费后，客户留存率提升了 40%。",
+      "content_en": "This episode discusses pricing strategies for AI startups. Key insight: outcome-based pricing is more sustainable than per-token pricing because it aligns value with cost. The guest shared that switching from per-seat to outcome-based pricing improved customer retention by 40%.",
+      "source": "podcast",
+      "url": "https://www.nopriors.ai/p/pricing-ai",
+      "date": "2026-04-05"
+    }
+  ]
+}

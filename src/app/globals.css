@@ -1,0 +1,105 @@
+@import "tailwindcss";
+
+:root {
+  /* ── Surfaces ── */
+  --parchment: #f5f4ed;
+  --ivory: #faf9f5;
+  --white: #ffffff;
+  --warm-sand: #e8e6dc;
+  --dark-surface: #30302e;
+  --near-black: #141413;
+
+  /* ── Brand ── */
+  --terracotta: #c96442;
+  --coral: #d97757;
+
+  /* ── Neutrals (all warm-toned) ── */
+  --charcoal: #4d4c48;
+  --olive-gray: #5e5d59;
+  --stone-gray: #87867f;
+  --warm-silver: #b0aea5;
+
+  /* ── Borders ── */
+  --border-cream: #f0eee6;
+  --border-warm: #e8e6dc;
+  --ring-warm: #d1cfc5;
+  --ring-deep: #c2c0b6;
+
+  /* ── Source tags ── */
+  --tag-x-bg: #eae8e0;
+  --tag-x-text: #4d4c48;
+  --tag-podcast-bg: #f0e6e0;
+  --tag-podcast-text: #c96442;
+  --tag-blog-bg: #e6ebe0;
+  --tag-blog-text: #5e6d50;
+
+  /* ── Focus ── */
+  --focus-blue: #3898ec;
+}
+
+@theme inline {
+  --color-parchment: var(--parchment);
+  --color-ivory: var(--ivory);
+  --color-warm-sand: var(--warm-sand);
+  --color-near-black: var(--near-black);
+  --color-dark-surface: var(--dark-surface);
+  --color-terracotta: var(--terracotta);
+  --color-coral: var(--coral);
+  --color-charcoal: var(--charcoal);
+  --color-olive-gray: var(--olive-gray);
+  --color-stone-gray: var(--stone-gray);
+  --color-warm-silver: var(--warm-silver);
+  --color-border-cream: var(--border-cream);
+  --color-border-warm: var(--border-warm);
+  --color-ring-warm: var(--ring-warm);
+  --font-sans: var(--font-geist-sans), system-ui, -apple-system, sans-serif;
+  --font-mono: var(--font-geist-mono), monospace;
+}
+
+body {
+  background: var(--parchment);
+  color: var(--near-black);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html { scroll-behavior: smooth; }
+
+/* ── Serif heading class ── */
+.font-serif-heading {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-weight: 500;
+}
+
+/* ── Staggered card entrance ── */
+@keyframes cardIn {
+  from { opacity: 0; transform: translateY(6px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.card-animate {
+  animation: cardIn 0.3s ease-out both;
+}
+
+/* ── Shimmer loading ── */
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+.shimmer {
+  background: linear-gradient(90deg, var(--border-cream) 25%, var(--warm-sand) 50%, var(--border-cream) 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s ease-in-out infinite;
+}
+
+/* ── Scrollbar ── */
+::-webkit-scrollbar { width: 5px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--ring-warm); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: var(--stone-gray); }
+
+/* ── Date input ── */
+input[type="date"]::-webkit-calendar-picker-indicator {
+  opacity: 0.4;
+  cursor: pointer;
+}
