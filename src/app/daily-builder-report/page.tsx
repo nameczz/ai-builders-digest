@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 
-interface PulseIndex { dates: string[] }
+interface ReportIndex { dates: string[] }
 interface DaySummary {
   date: string;
   top3: { source: string; title: string; metric: string }[];
@@ -14,18 +14,18 @@ function sourceIcon(s: string) {
   return s === "hacker_news" ? "🟠" : s === "github" ? "⚫" : s === "huggingface" ? "🟡" : "🔶";
 }
 
-export default function PulseIndexPage() {
+export default function DailyBuilderReportIndexPage() {
   const [dates, setDates] = useState<string[]>([]);
   const [summaries, setSummaries] = useState<Record<string, DaySummary>>({});
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch("/pulse/index.json")
+    fetch("/daily-builder-report/index.json")
       .then((r) => r.json())
-      .then((data: PulseIndex) => {
+      .then((data: ReportIndex) => {
         setDates(data.dates);
         data.dates.forEach((d) => {
-          fetch(`/pulse/${d}.json`)
+          fetch(`/daily-builder-report/${d}.json`)
             .then((r) => r.json())
             .then((pulse) => {
               setSummaries((prev) => ({ ...prev, [d]: { date: d, top3: pulse.top3 || [], stats: pulse.stats || {} } }));
@@ -43,7 +43,7 @@ export default function PulseIndexPage() {
       <header className="border-b" style={{ borderColor: "var(--border-cream)" }}>
         <div className="max-w-2xl mx-auto px-6 py-4 flex items-center justify-between">
           <Link href="/" className="text-sm" style={{ color: "var(--stone-gray)" }}>← AI Builders Digest</Link>
-          <span className="font-serif-heading" style={{ color: "var(--near-black)" }}>BuilderPulse</span>
+          <span className="font-serif-heading" style={{ color: "var(--near-black)" }}>Daily Builder Report</span>
           <div className="w-20" />
         </div>
       </header>
@@ -69,7 +69,7 @@ export default function PulseIndexPage() {
               return (
                 <Link
                   key={d}
-                  href={`/pulse/${d}`}
+                  href={`/daily-builder-report/${d}`}
                   className="block rounded-lg p-5 transition-all card-animate group"
                   style={{
                     background: "var(--ivory)",

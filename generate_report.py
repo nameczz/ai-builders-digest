@@ -1,11 +1,11 @@
-"""Generate BuilderPulse-style daily report from collected data."""
+"""Generate Daily Builder Report from collected data."""
 
 import json
 import os
 from datetime import date
 
 
-REPORT_TEMPLATE = """# BuilderPulse Daily — {date}
+REPORT_TEMPLATE = """# Daily Builder Report — {date}
 
 > 综合 Hacker News、GitHub Trending、Product Hunt、HuggingFace 等来源，更新于 {time}（上海时间）。
 

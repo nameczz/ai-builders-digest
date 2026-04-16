@@ -80,7 +80,7 @@ def main():
     output_dir = os.path.join("output", today)
     os.makedirs(output_dir, exist_ok=True)
 
-    print(f"=== BuilderPulse Daily Collector — {today} ===\n")
+    print(f"=== Daily Builder Report Collector — {today} ===\n")
 
     sources = {}
     errors = []

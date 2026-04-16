@@ -7,14 +7,14 @@ import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import type { Components } from "react-markdown";
 
-export default function PulseReport() {
+export default function DailyReport() {
   const params = useParams();
   const dateStr = params.date as string;
   const [markdown, setMarkdown] = useState<string | null>(null);
   const [error, setError] = useState(false);
 
   useEffect(() => {
-    fetch(`/pulse/${dateStr}.md`)
+    fetch(`/daily-builder-report/${dateStr}.md`)
       .then((r) => {
         if (!r.ok) throw new Error();
         return r.text();
@@ -30,7 +30,7 @@ export default function PulseReport() {
           <h1 className="font-serif-heading text-2xl mb-4" style={{ color: "var(--near-black)" }}>
             {dateStr} 暂无报告
           </h1>
-          <Link href="/pulse" className="text-sm underline" style={{ color: "var(--terracotta)" }}>
+          <Link href="/daily-builder-report" className="text-sm underline" style={{ color: "var(--terracotta)" }}>
             ← 返回
           </Link>
         </div>
@@ -162,11 +162,11 @@ export default function PulseReport() {
         style={{ background: "var(--parchment)", borderColor: "var(--border-cream)" }}
       >
         <div className="max-w-2xl mx-auto px-6 py-3 flex items-center justify-between">
-          <Link href="/pulse" className="text-sm" style={{ color: "var(--stone-gray)" }}>
+          <Link href="/daily-builder-report" className="text-sm" style={{ color: "var(--stone-gray)" }}>
             ← 返回
           </Link>
           <span className="font-serif-heading text-sm" style={{ color: "var(--near-black)" }}>
-            BuilderPulse Daily
+            Daily Builder Report
           </span>
           <span className="text-xs font-mono" style={{ color: "var(--stone-gray)" }}>
             {dateStr}
@@ -184,7 +184,7 @@ export default function PulseReport() {
           className="mt-16 pt-6 border-t text-xs text-center"
           style={{ borderColor: "var(--border-warm)", color: "var(--stone-gray)" }}
         >
-          BuilderPulse Daily · Sources: Hacker News · GitHub · Product Hunt · HuggingFace · Google Trends
+          Daily Builder Report · Sources: Hacker News · GitHub · Product Hunt · HuggingFace · Google Trends
         </div>
       </main>
     </div>

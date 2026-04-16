@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "title": "BuilderPulse Daily Report Input",
+  "title": "Daily Builder Report Input",
   "description": "汇总 6 个数据源后喂给 LLM 的统一输入格式。LLM 基于此 JSON 生成完整的每日报告。",
   "type": "object",
   "required": ["date", "generated_at", "sources"],

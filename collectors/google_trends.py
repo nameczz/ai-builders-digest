@@ -1,6 +1,6 @@
 """Google Trends data collector using pytrends.
 
-Seed keywords reverse-engineered from BuilderPulse Daily output.
+Seed keywords reverse-engineered from Daily Builder Report output.
 Includes noise filtering and category classification.
 """
 

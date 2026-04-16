@@ -1,6 +1,6 @@
-"""Generate frontend-friendly JSON for BuilderPulse pages.
+"""Generate frontend-friendly JSON for Daily Builder Report pages.
 
-Reads output/{date}/daily_report_input.json → outputs public/pulse/{date}.json + updates index.json.
+Reads output/{date}/daily_report_input.json → outputs public/daily-builder-report/{date}.json + updates index.json.
 Keeps HTML comments intact for frontend rendering.
 """
 
@@ -50,7 +50,7 @@ def _top3_summary(sources: dict) -> list[dict]:
     return highlights
 
 
-def _prepare_pulse_json(data: dict) -> dict:
+def _prepare_report_json(data: dict) -> dict:
     """Transform daily_report_input.json into frontend-optimized format."""
     sources = data.get("sources", {})
 
@@ -114,8 +114,8 @@ def _prepare_pulse_json(data: dict) -> dict:
 
 
 def main():
-    pulse_dir = os.path.join("public", "pulse")
-    os.makedirs(pulse_dir, exist_ok=True)
+    report_dir = os.path.join("public", "daily-builder-report")
+    os.makedirs(report_dir, exist_ok=True)
 
     # Find all output dates
     output_dirs = sorted(glob.glob("output/*/daily_report_input.json"))
@@ -128,11 +128,11 @@ def main():
         with open(input_path) as f:
             data = json.load(f)
 
-        pulse_data = _prepare_pulse_json(data)
+        report_data = _prepare_report_json(data)
 
-        out_path = os.path.join(pulse_dir, f"{date_str}.json")
+        out_path = os.path.join(report_dir, f"{date_str}.json")
         with open(out_path, "w", encoding="utf-8") as f:
-            json.dump(pulse_data, f, ensure_ascii=False, indent=2)
+            json.dump(report_data, f, ensure_ascii=False, indent=2)
 
         size_kb = os.path.getsize(out_path) / 1024
         print(f"  -> {out_path} ({size_kb:.1f} KB)")
@@ -141,7 +141,7 @@ def main():
         md_path = os.path.join("output", date_str, "report_zh.md")
         if os.path.exists(md_path):
             import shutil
-            md_out = os.path.join(pulse_dir, f"{date_str}.md")
+            md_out = os.path.join(report_dir, f"{date_str}.md")
             shutil.copy2(md_path, md_out)
             print(f"  -> {md_out} (report markdown)")
 
@@ -149,7 +149,7 @@ def main():
 
     # Update index.json
     dates.sort(reverse=True)
-    index_path = os.path.join(pulse_dir, "index.json")
+    index_path = os.path.join(report_dir, "index.json")
     with open(index_path, "w", encoding="utf-8") as f:
         json.dump({"dates": dates}, f, ensure_ascii=False, indent=2)
     print(f"\nIndex: {index_path} ({len(dates)} dates)")

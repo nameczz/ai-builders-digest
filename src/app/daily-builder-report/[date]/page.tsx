@@ -1,9 +1,9 @@
 import fs from "fs";
 import path from "path";
-import PulseReport from "./PulseReport";
+import DailyReport from "./DailyReport";
 
 export async function generateStaticParams() {
-  const indexPath = path.join(process.cwd(), "public", "pulse", "index.json");
+  const indexPath = path.join(process.cwd(), "public", "daily-builder-report", "index.json");
   try {
     const raw = fs.readFileSync(indexPath, "utf-8");
     const { dates } = JSON.parse(raw) as { dates: string[] };
@@ -13,6 +13,6 @@ export async function generateStaticParams() {
   }
 }
 
-export default function PulseReportPage() {
-  return <PulseReport />;
+export default function DailyReportPage() {
+  return <DailyReport />;
 }
