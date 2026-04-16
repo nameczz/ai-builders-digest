@@ -18,7 +18,7 @@
 > 2. {第二重要}
 > 3. {第三重要}
 
-交叉参考 Hacker News、GitHub、Product Hunt、HuggingFace、Google 趋势。更新于 {从 generated_at 取}（上海时间）。
+交叉参考 Hacker News、GitHub、Product Hunt、HuggingFace、Google 趋势及 Reddit。更新于 {从 generated_at 取}（上海时间）。
 
 ---
 
@@ -189,9 +189,18 @@
 
 ## 数据文件位置
 
-采集数据在 `output/{date}/daily_report_input.json`，包含：
+### 自采集数据
+`output/{date}/daily_report_input.json`，包含：
 - `sources.hacker_news` — HN 帖子 + 评论（HTML 格式，需要清理实体后翻译引用）
 - `sources.github_trending` — GitHub Trending 仓库（weekly + daily_only，含 has_commercial/has_funding）
 - `sources.product_hunt` — Product Hunt 产品（查的是昨天数据，票数已累积）
 - `sources.huggingface` — HF 模型 + Spaces（含 model_size、license、is_mcp_server）
 - `sources.google_trends` — Google Trends 关键词（rising_7d/rising_3m/cooling_down/from_zero，含 category 分类）
+
+### Reddit 补充数据（从 BuilderPulse 原版 repo 获取）
+从 `https://github.com/BuilderPulse/BuilderPulse/blob/main/zh/2026/{date}.md` 获取原版报告。
+提取其中的 Reddit 相关内容（r/SaaS 营收讨论、r/SideProject 项目、Reddit 用户故事），
+融合到我们的报告对应模块中。特别关注：
+- 竞争情报 → 收入和定价问题（Reddit 上的 MRR 分享、定价策略讨论）
+- 发现机会 → 独立开发者产品（Reddit r/SideProject 的项目）
+- 行动触发 → 2h/周末项目的痛点验证（Reddit 上的真实用户故事）
