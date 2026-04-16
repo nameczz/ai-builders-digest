@@ -1,0 +1,173 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "BuilderPulse Daily Report Input",
+  "description": "汇总 6 个数据源后喂给 LLM 的统一输入格式。LLM 基于此 JSON 生成完整的每日报告。",
+  "type": "object",
+  "required": ["date", "generated_at", "sources"],
+  "properties": {
+    "date": {
+      "type": "string",
+      "format": "date",
+      "description": "报告日期，如 2026-04-13"
+    },
+    "generated_at": {
+      "type": "string",
+      "format": "date-time",
+      "description": "数据生成时间 ISO 8601，如 2026-04-13T12:20:00+08:00"
+    },
+    "sources": {
+      "type": "object",
+      "required": ["hacker_news", "github_trending", "product_hunt", "huggingface", "google_trends", "reddit"],
+      "properties": {
+        "hacker_news": {
+          "type": "object",
+          "description": "HN 数据按类型分组",
+          "properties": {
+            "top_stories": {
+              "type": "array",
+              "description": "按分数排序的热门帖子（前 30）",
+              "items": { "$ref": "hacker_news.json#/definitions/story" }
+            },
+            "show_hn": {
+              "type": "array",
+              "description": "Show HN 帖子（前 20）",
+              "items": { "$ref": "hacker_news.json#/definitions/story" }
+            },
+            "ask_hn": {
+              "type": "array",
+              "description": "Ask HN 帖子（前 10）",
+              "items": { "$ref": "hacker_news.json#/definitions/story" }
+            }
+          }
+        },
+        "github_trending": {
+          "type": "object",
+          "properties": {
+            "daily": {
+              "type": "array",
+              "description": "今日 trending 仓库（前 25）",
+              "items": { "$ref": "github_trending.json#/definitions/repository" }
+            },
+            "weekly": {
+              "type": "array",
+              "description": "本周 trending 仓库（前 25）",
+              "items": { "$ref": "github_trending.json#/definitions/repository" }
+            }
+          }
+        },
+        "product_hunt": {
+          "type": "object",
+          "properties": {
+            "top_products": {
+              "type": "array",
+              "description": "今日 Product Hunt 热门产品（前 15）",
+              "items": { "$ref": "product_hunt.json#/definitions/product" }
+            }
+          }
+        },
+        "huggingface": {
+          "type": "object",
+          "properties": {
+            "trending_models": {
+              "type": "array",
+              "description": "Trending 模型（前 20）",
+              "items": { "$ref": "huggingface.json#/definitions/hf_item" }
+            },
+            "trending_spaces": {
+              "type": "array",
+              "description": "Trending Spaces（前 10）",
+              "items": { "$ref": "huggingface.json#/definitions/hf_item" }
+            }
+          }
+        },
+        "google_trends": {
+          "type": "object",
+          "properties": {
+            "rising_7d": {
+              "type": "array",
+              "description": "7 天上升关键词",
+              "items": { "$ref": "google_trends.json#/definitions/trend_item" }
+            },
+            "rising_3m": {
+              "type": "array",
+              "description": "3 个月上升关键词",
+              "items": { "$ref": "google_trends.json#/definitions/trend_item" }
+            },
+            "cooling_down": {
+              "type": "array",
+              "description": "降温词（3个月有但7天无）",
+              "items": { "$ref": "google_trends.json#/definitions/trend_item" }
+            },
+            "from_zero": {
+              "type": "array",
+              "description": "从零起飞新词",
+              "items": { "$ref": "google_trends.json#/definitions/trend_item" }
+            }
+          }
+        },
+        "reddit": {
+          "type": "object",
+          "description": "按子版块分组",
+          "properties": {
+            "SideProject": {
+              "type": "array",
+              "items": { "$ref": "reddit.json#/definitions/post" }
+            },
+            "SaaS": {
+              "type": "array",
+              "items": { "$ref": "reddit.json#/definitions/post" }
+            },
+            "selfhosted": {
+              "type": "array",
+              "items": { "$ref": "reddit.json#/definitions/post" }
+            },
+            "opensource": {
+              "type": "array",
+              "items": { "$ref": "reddit.json#/definitions/post" }
+            },
+            "LocalLLaMA": {
+              "type": "array",
+              "items": { "$ref": "reddit.json#/definitions/post" }
+            }
+          }
+        }
+      }
+    },
+    "cross_references": {
+      "type": "array",
+      "description": "跨数据源交叉验证的信号，如同一项目/关键词出现在 2+ 个数据源",
+      "items": {
+        "type": "object",
+        "required": ["signal", "sources", "confidence"],
+        "properties": {
+          "signal": {
+            "type": "string",
+            "description": "信号关键词或项目名，如 claude managed agents"
+          },
+          "sources": {
+            "type": "array",
+            "items": { "type": "string" },
+            "description": "出现的数据源列表，如 [\"google_trends\", \"github_trending\", \"hacker_news\"]"
+          },
+          "confidence": {
+            "type": "string",
+            "enum": ["high", "medium", "low"],
+            "description": "置信度：high = 3+ 源验证，medium = 2 源，low = 仅搜索端"
+          },
+          "details": {
+            "type": "object",
+            "description": "各数据源的具体数据点",
+            "additionalProperties": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "previous_day_highlights": {
+      "type": "array",
+      "description": "前一天的高亮信号（用于对比升温/降温）",
+      "items": { "type": "string" }
+    }
+  }
+}

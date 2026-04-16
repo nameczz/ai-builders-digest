@@ -1,0 +1,5 @@
+requests>=2.31
+aiohttp>=3.9
+beautifulsoup4>=4.12
+pytrends>=4.9
+python-dotenv>=1.0

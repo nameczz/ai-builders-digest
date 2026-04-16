@@ -1,0 +1,114 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Hacker News Daily Data",
+  "description": "HN 每日采集数据格式，覆盖 top stories / Show HN / Ask HN / What Are You Working On 等帖子及精选评论",
+  "type": "object",
+  "required": ["date", "source", "stories"],
+  "properties": {
+    "date": {
+      "type": "string",
+      "format": "date",
+      "description": "采集日期，如 2026-04-13"
+    },
+    "source": {
+      "type": "string",
+      "const": "hacker_news"
+    },
+    "api_endpoint": {
+      "type": "string",
+      "default": "https://hacker-news.firebaseio.com/v0/"
+    },
+    "stories": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/story"
+      }
+    }
+  },
+  "definitions": {
+    "story": {
+      "type": "object",
+      "required": ["id", "title", "score", "comments_count", "author", "story_type", "created_at"],
+      "properties": {
+        "id": {
+          "type": "integer",
+          "description": "HN item ID"
+        },
+        "title": {
+          "type": "string",
+          "description": "帖子标题"
+        },
+        "url": {
+          "type": "string",
+          "format": "uri",
+          "description": "外链 URL（自帖可能为空）"
+        },
+        "score": {
+          "type": "integer",
+          "description": "得分/点赞数，如 842"
+        },
+        "comments_count": {
+          "type": "integer",
+          "description": "评论数，如 468"
+        },
+        "author": {
+          "type": "string",
+          "description": "发帖人用户名，如 tradertef"
+        },
+        "story_type": {
+          "type": "string",
+          "enum": ["show_hn", "ask_hn", "tell_hn", "story"],
+          "description": "帖子类型：Show HN / Ask HN / Tell HN / 普通"
+        },
+        "created_at": {
+          "type": "string",
+          "format": "date-time",
+          "description": "发帖时间 ISO 8601"
+        },
+        "text": {
+          "type": "string",
+          "description": "自帖正文（Ask HN / Tell HN 等）"
+        },
+        "top_comments": {
+          "type": "array",
+          "description": "精选高分评论，报告中用于引用社区观点",
+          "maxItems": 10,
+          "items": {
+            "$ref": "#/definitions/comment"
+          }
+        },
+        "tags": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "人工/LLM 标注的主题标签，如 [\"pricing\", \"indie-hacker\", \"ai-agent\"]"
+        }
+      }
+    },
+    "comment": {
+      "type": "object",
+      "required": ["author", "text"],
+      "properties": {
+        "id": {
+          "type": "integer",
+          "description": "评论 item ID"
+        },
+        "author": {
+          "type": "string",
+          "description": "评论者用户名，如 @senko"
+        },
+        "text": {
+          "type": "string",
+          "description": "评论内容（纯文本）"
+        },
+        "score": {
+          "type": "integer",
+          "description": "评论得分（HN API 不直接提供，需按子评论数估算）"
+        },
+        "created_at": {
+          "type": "string",
+          "format": "date-time"
+        }
+      }
+    }
+  }
+}

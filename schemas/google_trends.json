@@ -1,0 +1,110 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Google Trends Daily Data",
+  "description": "Google Trends 搜索趋势数据，覆盖 7天/3个月两个窗口的 rising queries、Breakout 标记、升温降温对比",
+  "type": "object",
+  "required": ["date", "source", "rising_7d", "rising_3m"],
+  "properties": {
+    "date": {
+      "type": "string",
+      "format": "date"
+    },
+    "source": {
+      "type": "string",
+      "const": "google_trends"
+    },
+    "api_note": {
+      "type": "string",
+      "default": "使用 pytrends 库（非官方），或 SerpApi Google Trends API"
+    },
+    "seed_keywords": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "种子关键词列表，用于查询 related rising queries，如 [\"AI agent\", \"indie hacker\", \"self hosted\", \"open source\"]"
+    },
+    "rising_7d": {
+      "type": "array",
+      "description": "7 天窗口的上升关键词",
+      "items": {
+        "$ref": "#/definitions/trend_item"
+      }
+    },
+    "rising_3m": {
+      "type": "array",
+      "description": "3 个月窗口的上升关键词",
+      "items": {
+        "$ref": "#/definitions/trend_item"
+      }
+    },
+    "cooling_down": {
+      "type": "array",
+      "description": "降温词：3个月 rising/breakout 但 7天不再 rising 的关键词",
+      "items": {
+        "$ref": "#/definitions/trend_item"
+      }
+    },
+    "from_zero": {
+      "type": "array",
+      "description": "从零起飞的新词：7天 rising 但 3个月无记录",
+      "items": {
+        "$ref": "#/definitions/trend_item"
+      }
+    },
+    "sustained": {
+      "type": "array",
+      "description": "持续上升：同时在 7天和3个月窗口都 rising 的关键词",
+      "items": {
+        "$ref": "#/definitions/trend_item"
+      }
+    }
+  },
+  "definitions": {
+    "trend_item": {
+      "type": "object",
+      "required": ["keyword", "rising_percentage", "time_window"],
+      "properties": {
+        "keyword": {
+          "type": "string",
+          "description": "搜索关键词，如 claude managed agents"
+        },
+        "rising_percentage": {
+          "type": ["integer", "string"],
+          "description": "上升百分比，如 3750 表示 +3750%。Breakout 级别用字符串 \"Breakout\""
+        },
+        "is_breakout": {
+          "type": "boolean",
+          "description": "是否为 Breakout 级别（搜索量从几乎为零暴涨）",
+          "default": false
+        },
+        "time_window": {
+          "type": "string",
+          "enum": ["7d", "3m"],
+          "description": "时间窗口：7天或3个月"
+        },
+        "category": {
+          "type": "string",
+          "enum": ["ai_agent", "ai_model", "self_hosted", "free_alternative", "dev_tool", "saas", "other"],
+          "description": "LLM 标注的分类"
+        },
+        "seed_keyword": {
+          "type": "string",
+          "description": "来源种子关键词，如从 \"AI agent\" 种子发现的"
+        },
+        "related_queries": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "相关搜索词"
+        },
+        "cross_validated": {
+          "type": "boolean",
+          "description": "是否与其他数据源交叉验证",
+          "default": false
+        },
+        "cross_source": {
+          "type": "string",
+          "description": "交叉验证来源，如 github_trending / hacker_news"
+        }
+      }
+    }
+  }
+}

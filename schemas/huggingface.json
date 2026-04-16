@@ -1,0 +1,97 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "HuggingFace Trending Daily Data",
+  "description": "HuggingFace Trending 模型和 Spaces 数据，覆盖 trending 分数、likes、能力标签、许可证",
+  "type": "object",
+  "required": ["date", "source", "trending_models", "trending_spaces"],
+  "properties": {
+    "date": {
+      "type": "string",
+      "format": "date"
+    },
+    "source": {
+      "type": "string",
+      "const": "huggingface"
+    },
+    "api_endpoint": {
+      "type": "string",
+      "default": "https://huggingface.co/api/models?sort=trending / https://huggingface.co/api/spaces?sort=trending"
+    },
+    "trending_models": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/hf_item"
+      }
+    },
+    "trending_spaces": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/hf_item"
+      }
+    }
+  },
+  "definitions": {
+    "hf_item": {
+      "type": "object",
+      "required": ["id", "item_type", "trending_score"],
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "模型/Space ID，如 THUDM/GLM-5.1"
+        },
+        "item_type": {
+          "type": "string",
+          "enum": ["model", "space"],
+          "description": "类型：模型或 Space"
+        },
+        "trending_score": {
+          "type": "number",
+          "description": "trending 分数，如 1081"
+        },
+        "likes": {
+          "type": "integer",
+          "description": "点赞数，如 962"
+        },
+        "downloads": {
+          "type": "integer",
+          "description": "下载量（仅 model 有效）"
+        },
+        "pipeline_tag": {
+          "type": "string",
+          "description": "任务类型，如 text-generation / text-to-speech / image-to-video"
+        },
+        "license": {
+          "type": "string",
+          "description": "许可证，如 MIT / Apache-2.0 / cc-by-nc-4.0"
+        },
+        "tags": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "标签，如 [\"moe\", \"multilingual\", \"vision\"]"
+        },
+        "author": {
+          "type": "string",
+          "description": "作者/组织，如 THUDM / google / openai"
+        },
+        "created_at": {
+          "type": "string",
+          "format": "date-time",
+          "description": "创建时间"
+        },
+        "last_modified": {
+          "type": "string",
+          "format": "date-time",
+          "description": "最后更新时间"
+        },
+        "model_size": {
+          "type": "string",
+          "description": "模型参数量描述，如 31B / 4B / 8B"
+        },
+        "sdk": {
+          "type": "string",
+          "description": "Space 使用的 SDK，如 gradio / streamlit（仅 space 有效）"
+        }
+      }
+    }
+  }
+}

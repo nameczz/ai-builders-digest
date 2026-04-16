@@ -1,0 +1,129 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Reddit Daily Data",
+  "description": "Reddit 多个子版块的热门帖子数据，覆盖 r/SideProject, r/SaaS, r/selfhosted 等开发者社区",
+  "type": "object",
+  "required": ["date", "source", "subreddits"],
+  "properties": {
+    "date": {
+      "type": "string",
+      "format": "date"
+    },
+    "source": {
+      "type": "string",
+      "const": "reddit"
+    },
+    "api_endpoint": {
+      "type": "string",
+      "default": "https://oauth.reddit.com/r/{subreddit}/hot"
+    },
+    "target_subreddits": {
+      "type": "array",
+      "items": { "type": "string" },
+      "default": ["SideProject", "SaaS", "selfhosted", "opensource", "webdev", "MachineLearning", "LocalLLaMA"],
+      "description": "目标子版块列表"
+    },
+    "subreddits": {
+      "type": "object",
+      "description": "按子版块分组的帖子数据",
+      "additionalProperties": {
+        "type": "array",
+        "items": {
+          "$ref": "#/definitions/post"
+        }
+      }
+    }
+  },
+  "definitions": {
+    "post": {
+      "type": "object",
+      "required": ["id", "subreddit", "title", "author", "upvotes", "created_at"],
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Reddit post ID"
+        },
+        "subreddit": {
+          "type": "string",
+          "description": "子版块名，如 SideProject"
+        },
+        "title": {
+          "type": "string",
+          "description": "帖子标题"
+        },
+        "author": {
+          "type": "string",
+          "description": "发帖人，如 No-Contract-9123"
+        },
+        "upvotes": {
+          "type": "integer",
+          "description": "赞数，如 872"
+        },
+        "upvote_ratio": {
+          "type": "number",
+          "description": "赞比，如 0.95"
+        },
+        "comments_count": {
+          "type": "integer",
+          "description": "评论数"
+        },
+        "url": {
+          "type": "string",
+          "format": "uri",
+          "description": "帖子链接"
+        },
+        "external_url": {
+          "type": "string",
+          "format": "uri",
+          "description": "外链（如果帖子链接了外部网站）"
+        },
+        "selftext": {
+          "type": "string",
+          "description": "自帖正文"
+        },
+        "created_at": {
+          "type": "string",
+          "format": "date-time",
+          "description": "发帖时间 ISO 8601"
+        },
+        "flair": {
+          "type": "string",
+          "description": "帖子标签/flair，如 Show-off / Question"
+        },
+        "top_comments": {
+          "type": "array",
+          "description": "精选高赞评论",
+          "maxItems": 5,
+          "items": {
+            "$ref": "#/definitions/comment"
+          }
+        }
+      }
+    },
+    "comment": {
+      "type": "object",
+      "required": ["author", "text", "score"],
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "author": {
+          "type": "string",
+          "description": "评论者"
+        },
+        "text": {
+          "type": "string",
+          "description": "评论内容"
+        },
+        "score": {
+          "type": "integer",
+          "description": "评论得分"
+        },
+        "created_at": {
+          "type": "string",
+          "format": "date-time"
+        }
+      }
+    }
+  }
+}

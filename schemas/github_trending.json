@@ -1,0 +1,100 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "GitHub Trending Daily Data",
+  "description": "GitHub Trending 每日/每周数据，覆盖仓库基本信息、星数增长、许可证、商业化状态",
+  "type": "object",
+  "required": ["date", "source", "repositories"],
+  "properties": {
+    "date": {
+      "type": "string",
+      "format": "date"
+    },
+    "source": {
+      "type": "string",
+      "const": "github_trending"
+    },
+    "api_endpoint": {
+      "type": "string",
+      "default": "https://github.com/trending + GitHub REST API"
+    },
+    "repositories": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/repository"
+      }
+    }
+  },
+  "definitions": {
+    "repository": {
+      "type": "object",
+      "required": ["repo", "description", "language", "weekly_stars"],
+      "properties": {
+        "repo": {
+          "type": "string",
+          "description": "owner/name 格式，如 NousResearch/hermes-agent"
+        },
+        "description": {
+          "type": "string",
+          "description": "仓库描述，如 The agent that grows with you"
+        },
+        "language": {
+          "type": "string",
+          "description": "主要编程语言，如 Python / TypeScript / C++"
+        },
+        "weekly_stars": {
+          "type": "integer",
+          "description": "本周新增星数，报告核心指标，如 38426"
+        },
+        "daily_stars": {
+          "type": "integer",
+          "description": "当日新增星数"
+        },
+        "total_stars": {
+          "type": "integer",
+          "description": "仓库总星数"
+        },
+        "forks": {
+          "type": "integer",
+          "description": "fork 数"
+        },
+        "open_issues": {
+          "type": "integer",
+          "description": "开放 issue 数"
+        },
+        "license": {
+          "type": "string",
+          "description": "开源协议，如 MIT / Apache-2.0 / GPL-3.0"
+        },
+        "topics": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "仓库 topics 标签，如 [\"ai-agent\", \"llm\"]"
+        },
+        "created_at": {
+          "type": "string",
+          "format": "date",
+          "description": "仓库创建日期"
+        },
+        "owner_type": {
+          "type": "string",
+          "enum": ["user", "organization"],
+          "description": "所有者类型：个人/组织"
+        },
+        "has_funding": {
+          "type": "boolean",
+          "description": "是否有 FUNDING.yml 或已知融资",
+          "default": false
+        },
+        "has_commercial": {
+          "type": "boolean",
+          "description": "是否已有商业化产品/SaaS",
+          "default": false
+        },
+        "readme_summary": {
+          "type": "string",
+          "description": "LLM 生成的 README 一句话摘要"
+        }
+      }
+    }
+  }
+}

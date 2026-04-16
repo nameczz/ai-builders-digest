@@ -1,0 +1,93 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Product Hunt Daily Data",
+  "description": "Product Hunt 每日上榜产品数据，覆盖票数、描述、maker 信息",
+  "type": "object",
+  "required": ["date", "source", "products"],
+  "properties": {
+    "date": {
+      "type": "string",
+      "format": "date"
+    },
+    "source": {
+      "type": "string",
+      "const": "product_hunt"
+    },
+    "api_endpoint": {
+      "type": "string",
+      "default": "https://api.producthunt.com/v2/api/graphql"
+    },
+    "products": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/product"
+      }
+    }
+  },
+  "definitions": {
+    "product": {
+      "type": "object",
+      "required": ["name", "tagline", "votes", "launched_at"],
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Product Hunt 产品 ID"
+        },
+        "name": {
+          "type": "string",
+          "description": "产品名称，如 Ray"
+        },
+        "tagline": {
+          "type": "string",
+          "description": "一句话描述，如 Personal CFO in the terminal"
+        },
+        "description": {
+          "type": "string",
+          "description": "产品详细描述"
+        },
+        "votes": {
+          "type": "integer",
+          "description": "投票数/upvotes，如 233"
+        },
+        "comments_count": {
+          "type": "integer",
+          "description": "评论数"
+        },
+        "url": {
+          "type": "string",
+          "format": "uri",
+          "description": "Product Hunt 产品页链接"
+        },
+        "website": {
+          "type": "string",
+          "format": "uri",
+          "description": "产品官网"
+        },
+        "maker": {
+          "type": "string",
+          "description": "maker 用户名"
+        },
+        "topics": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "分类标签，如 [\"developer-tools\", \"fintech\"]"
+        },
+        "launched_at": {
+          "type": "string",
+          "format": "date",
+          "description": "发布日期"
+        },
+        "thumbnail_url": {
+          "type": "string",
+          "format": "uri",
+          "description": "产品缩略图"
+        },
+        "pricing_type": {
+          "type": "string",
+          "enum": ["free", "freemium", "paid", "subscription", "open_source"],
+          "description": "定价类型"
+        }
+      }
+    }
+  }
+}
