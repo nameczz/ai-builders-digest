@@ -9,7 +9,7 @@ export interface DigestItem {
   date: string;
 }
 
-export interface MonthlyData {
+export interface DailyData {
   items: DigestItem[];
 }
 

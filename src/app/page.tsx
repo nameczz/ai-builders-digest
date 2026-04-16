@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect, useCallback, useMemo } from "react";
-import type { DigestItem, MonthlyData, Language } from "@/types";
+import type { DigestItem, DailyData, Language } from "@/types";
 
 /* ─── helpers ─── */
 
@@ -157,23 +157,31 @@ function Filters({
 /* ─── main ─── */
 
 export default function Home() {
+  const INITIAL_DAYS = 7;
+  const LOAD_MORE_DAYS = 7;
+
   const [items, setItems] = useState<DigestItem[]>([]);
   const [lang, setLang] = useState<Language>("zh");
   const [selectedAuthor, setSelectedAuthor] = useState("");
   const [selectedDate, setSelectedDate] = useState("");
-  const [allMonths, setAllMonths] = useState<string[]>([]);
+  const [allDates, setAllDates] = useState<string[]>([]);
   const [loadedCount, setLoadedCount] = useState(0);
   const [loading, setLoading] = useState(true);
   const [loadingMore, setLoadingMore] = useState(false);
   const [hasMore, setHasMore] = useState(true);
 
-  const loadMonth = useCallback(async (month: string): Promise<DigestItem[]> => {
-    try {
-      const res = await fetch(`/data/${month}.json`);
-      if (!res.ok) return [];
-      const data: MonthlyData = await res.json();
-      return data.items || [];
-    } catch { return []; }
+  const loadDays = useCallback(async (dates: string[]): Promise<DigestItem[]> => {
+    const results = await Promise.all(
+      dates.map(async (date) => {
+        try {
+          const res = await fetch(`/data/${date}.json`);
+          if (!res.ok) return [];
+          const data: DailyData = await res.json();
+          return data.items || [];
+        } catch { return []; }
+      })
+    );
+    return results.flat();
   }, []);
 
   useEffect(() => {
@@ -181,31 +189,33 @@ export default function Home() {
       try {
         const res = await fetch("/data/index.json");
         if (!res.ok) throw new Error("no index");
-        const idx: { months: string[] } = await res.json();
-        const months = idx.months.sort((a: string, b: string) => b.localeCompare(a));
-        setAllMonths(months);
-        if (months.length > 0) {
-          const newItems = await loadMonth(months[0]);
+        const idx: { dates: string[] } = await res.json();
+        const dates = idx.dates.sort((a: string, b: string) => b.localeCompare(a));
+        setAllDates(dates);
+        const batch = dates.slice(0, INITIAL_DAYS);
+        if (batch.length > 0) {
+          const newItems = await loadDays(batch);
           setItems(newItems);
-          setLoadedCount(1);
-          setHasMore(months.length > 1);
+          setLoadedCount(batch.length);
+          setHasMore(dates.length > batch.length);
         } else { setHasMore(false); }
       } catch { setHasMore(false); }
       setLoading(false);
     }
     init();
-  }, [loadMonth]);
+  }, [loadDays]);
 
-  const loadOlderMonth = useCallback(async () => {
-    if (loadingMore || !hasMore || loadedCount >= allMonths.length) return;
+  const loadOlderDays = useCallback(async () => {
+    if (loadingMore || !hasMore || loadedCount >= allDates.length) return;
     setLoadingMore(true);
-    const newItems = await loadMonth(allMonths[loadedCount]);
+    const batch = allDates.slice(loadedCount, loadedCount + LOAD_MORE_DAYS);
+    const newItems = await loadDays(batch);
     if (newItems.length > 0) setItems((prev) => [...prev, ...newItems]);
-    const nc = loadedCount + 1;
+    const nc = loadedCount + batch.length;
     setLoadedCount(nc);
-    setHasMore(nc < allMonths.length);
+    setHasMore(nc < allDates.length);
     setLoadingMore(false);
-  }, [loadingMore, hasMore, loadedCount, allMonths, loadMonth]);
+  }, [loadingMore, hasMore, loadedCount, allDates, loadDays]);
 
   const authors = useMemo(() => Array.from(new Set(items.map((i) => i.author))).sort(), [items]);
 
@@ -332,7 +342,7 @@ export default function Home() {
           {!loading && hasMore && filtered.length > 0 && (
             <div className="flex justify-center pt-12">
               <button
-                onClick={loadOlderMonth}
+                onClick={loadOlderDays}
                 disabled={loadingMore}
                 className="inline-flex items-center gap-2 px-4 py-[7px] rounded-[8px] bg-[var(--warm-sand)] text-[var(--charcoal)] text-[13px] font-medium shadow-[var(--warm-sand)_0px_0px_0px_0px,var(--ring-warm)_0px_0px_0px_1px] hover:shadow-[var(--ring-warm)_0px_0px_0px_1px,rgba(0,0,0,0.05)_0px_4px_24px] transition-all disabled:opacity-50"
               >
