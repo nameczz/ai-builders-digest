@@ -1,0 +1,12 @@
+{
+  "date": "2026-04-16",
+  "source": "hacker_news",
+  "api_endpoint": "https://hacker-news.firebaseio.com/v0",
+  "stories": [],
+  "_meta": {
+    "top_stories_count": 0,
+    "show_hn_count": 0,
+    "ask_hn_count": 0,
+    "mega_threads": 0
+  }
+}

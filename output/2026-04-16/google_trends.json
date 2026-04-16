@@ -1,0 +1,30 @@
+{
+  "date": "2026-04-16",
+  "source": "google_trends",
+  "seed_keywords": [
+    "AI agent",
+    "claude code",
+    "AI coding",
+    "vibe coding",
+    "LLM",
+    "open source LLM",
+    "MCP server",
+    "AI benchmark",
+    "self hosted",
+    "free alternative",
+    "open source alternative",
+    "discord alternative",
+    "developer tools",
+    "PaaS",
+    "indie hacker",
+    "SaaS",
+    "AI security",
+    "AI vulnerability"
+  ],
+  "noise_filter": "Filtered: games, shopping, movies, sports, login/signup",
+  "rising_7d": [],
+  "rising_3m": [],
+  "cooling_down": [],
+  "from_zero": [],
+  "sustained": []
+}
