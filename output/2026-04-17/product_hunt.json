@@ -1,0 +1,367 @@
+{
+  "date": "2026-04-17",
+  "source": "product_hunt",
+  "api_endpoint": "https://api.producthunt.com/v2/api/graphql",
+  "products": [
+    {
+      "id": "1123805",
+      "name": "Claude Code Desktop App Redesigned",
+      "tagline": "Run parallel coding agents from one desktop workspace",
+      "description": "Claude Code's desktop app is redesigned for parallel agentic coding. Run sessions across multiple repos, review diffs, edit files, and ship without leaving the app. Built for developers running Claude Code on Pro, Max, Team, or Enterprise.",
+      "votes": 504,
+      "comments_count": 15,
+      "url": "https://www.producthunt.com/products/claude-redesigned?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+personal+%28ID%3A+281817%29",
+      "website": "https://www.producthunt.com/r/XHD24MRF7YMM2X?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+personal+%28ID%3A+281817%29",
+      "maker": "",
+      "topics": [
+        "Productivity",
+        "Software Engineering",
+        "Artificial Intelligence"
+      ],
+      "launched_at": "2026-04-16",
+      "thumbnail_url": "https://ph-files.imgix.net/4faacf78-5fc5-4eda-b939-c037b6261b35.png?auto=format"
+    },
+    {
+      "id": "1121949",
+      "name": "X-Pilot",
+      "tagline": " Explain anything accurately, from document to video course",
+      "description": "X-Pilot turns docs into video courses for people who explain anything and can't risk hallucinations. Every visual is rendered programmatically via Remotion in isolated sandboxes — deterministic, not generative. Formulas, diagrams, and code stay accurate.",
+      "votes": 353,
+      "comments_count": 35,
+      "url": "https://www.producthunt.com/products/x-pilot-5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+personal+%28ID%3A+281817%29",
+      "website": "https://www.producthunt.com/r/PKLR5DDFXUK34H?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+personal+%28ID%3A+281817%29",
+      "maker": "[REDACTED]",
+      "topics": [
+        "Education",
+        "Artificial Intelligence",
+        "Video"
+      ],
+      "launched_at": "2026-04-16",
+      "thumbnail_url": "https://ph-files.imgix.net/ebe2c8da-3805-4427-ae02-c887920959e5.png?auto=format"
+    },
+    {
+      "id": "1124759",
+      "name": "Resend CLI 2.0",
+      "tagline": "Built for humans, AI agents, and CI/CD pipelines",
+      "description": "Skills for AI agents, React Email support, Automations, and Webhook listening. All from the terminal.",
+      "votes": 330,
+      "comments_count": 16,
+      "url": "https://www.producthunt.com/products/resend?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+personal+%28ID%3A+281817%29",
+      "website": "https://www.producthunt.com/r/VRGLFFJVSN3G53?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+personal+%28ID%3A+281817%29",
+      "maker": "[REDACTED]",
+      "topics": [
+        "Email",
+        "Developer Tools",
+        "GitHub"
+      ],
+      "launched_at": "2026-04-16",
+      "thumbnail_url": "https://ph-files.imgix.net/3b8d849e-6bd0-45b5-9bd5-899c7e802277.jpeg?auto=format"
+    },
+    {
+      "id": "1123704",
+      "name": "Google Chrome Skills",
+      "tagline": "Turn your best AI prompts into one-click tools in Chrome",
+      "description": "Skills in Google Chrome turn your best AI prompts into reusable one-click workflows. It lets you discover, save and remix AI workflows and repeat them instantly. Save any prompt from chat history, trigger it with / or +, and run it across the page or multiple tabs. Includes a ready-to-use Skills library you can customize. From shopping comparisons to productivity boosts, streamline browsing with smarter, repeatable AI actions.",
+      "votes": 247,
+      "comments_count": 5,
+      "url": "https://www.producthunt.com/products/google-chrome-skills?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+personal+%28ID%3A+281817%29",
+      "website": "https://www.producthunt.com/r/2NHG5EG623FQGA?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+personal+%28ID%3A+281817%29",
+      "maker": "",
+      "topics": [
+        "Task Management",
+        "Artificial Intelligence",
+        "Search"
+      ],
+      "launched_at": "2026-04-16",
+      "thumbnail_url": "https://ph-files.imgix.net/b57707ff-0c48-412d-aaf7-23919cf4e701.png?auto=format"
+    },
+    {
+      "id": "1123897",
+      "name": "Fellow for iOS",
+      "tagline": "AI meeting notes for in-person meetings",
+      "description": "Fellow for iOS turns your phone into a powerful AI note taker. Record any meeting without a bot or computer: Fellow handles the transcription and AI note-taking automatically. Before meetings, prep with Ask Fellow, edit agendas, and set your recording preferences right from your calendar. Afterward, replay audio and video, read through transcripts and notes, and manage action items by accepting AI suggestions or creating your own.",
+      "votes": 212,
+      "comments_count": 16,
+      "url": "https://www.producthunt.com/products/fellow-app?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+personal+%28ID%3A+281817%29",
+      "website": "https://www.producthunt.com/r/Y672G5PI6INWOO?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+personal+%28ID%3A+281817%29",
+      "maker": "[REDACTED]",
+      "topics": [
+        "iOS",
+        "Notes",
+        "Meetings"
+      ],
+      "launched_at": "2026-04-16",
+      "thumbnail_url": "https://ph-files.imgix.net/2fdff170-5959-40db-a2f5-53b77951c42b.jpeg?auto=format"
+    },
+    {
+      "id": "1123313",
+      "name": "stagewise",
+      "tagline": "The coding agent that works in its own browser environment",
+      "description": "stagewise is an open-source coding agent that can actually see your app. It works in its own browser environment, reads the DOM and console, and edits the code behind what it’s looking at. Use any model, bring your own key, and keep full control.",
+      "votes": 181,
+      "comments_count": 13,
+      "url": "https://www.producthunt.com/products/stagewise-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+personal+%28ID%3A+281817%29",
+      "website": "https://www.producthunt.com/r/UI5E7WRV537R24?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+personal+%28ID%3A+281817%29",
+      "maker": "[REDACTED]",
+      "topics": [
+        "Open Source",
+        "Developer Tools",
+        "GitHub",
+        "No-Code"
+      ],
+      "launched_at": "2026-04-16",
+      "thumbnail_url": "https://ph-files.imgix.net/dce06f38-1e02-4b54-8576-eb37c478fd10.png?auto=format"
+    },
+    {
+      "id": "1124517",
+      "name": "Google Gemini 3.1 Flash TTS",
+      "tagline": "Text-to-speech API with natural language voice direction",
+      "description": "Google's TTS API with inline audio tags, multi-speaker dialogue, and 70+ language support. For developers building voice agents, dubbing tools, or AI content products via the Gemini API and Vertex AI.",
+      "votes": 159,
+      "comments_count": 3,
+      "url": "https://www.producthunt.com/products/google-gemini-3-1-flash-tts?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+personal+%28ID%3A+281817%29",
+      "website": "https://www.producthunt.com/r/OXFOZPCWGRRUKE?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+personal+%28ID%3A+281817%29",
+      "maker": "[REDACTED]",
+      "topics": [
+        "API",
+        "Artificial Intelligence",
+        "Audio"
+      ],
+      "launched_at": "2026-04-16",
+      "thumbnail_url": "https://ph-files.imgix.net/9a9b9ab8-6c0d-43aa-b113-ac2f567dc3dc.png?auto=format"
+    },
+    {
+      "id": "1115562",
+      "name": "ClayHog",
+      "tagline": "See what AI says about your brand and competitors",
+      "description": "See what ChatGPT, Gemini, Perplexity, Claude & AI Overviews really say about your brand. Track your visibility, measure sentiment, and uncover why competitors rank above you in AI answers. Free 7-day trial.",
+      "votes": 158,
+      "comments_count": 18,
+      "url": "https://www.producthunt.com/products/clayhog?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+personal+%28ID%3A+281817%29",
+      "website": "https://www.producthunt.com/r/3V7XYQBAIIO7SV?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+personal+%28ID%3A+281817%29",
+      "maker": "[REDACTED]",
+      "topics": [
+        "Analytics",
+        "Marketing",
+        "Search"
+      ],
+      "launched_at": "2026-04-16",
+      "thumbnail_url": "https://ph-files.imgix.net/d60a8e5b-5ce8-48d3-8eab-0de61011eea8.png?auto=format"
+    },
+    {
+      "id": "1124671",
+      "name": "Subagents in Gemini CLI",
+      "tagline": "Gemini CLI now runs specialist subagents in your terminal",
+      "description": "Gemini CLI's new subagents feature lets the main agent delegate complex tasks to specialised agents, each with isolated context, custom tools, and scoped permissions. For developers building or automating from the terminal.",
+      "votes": 141,
+      "comments_count": 6,
+      "url": "https://www.producthunt.com/products/google?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+personal+%28ID%3A+281817%29",
+      "website": "https://www.producthunt.com/r/DDOT45P5POSHLX?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+personal+%28ID%3A+281817%29",
+      "maker": "",
+      "topics": [
+        "Productivity",
+        "Task Management",
+        "GitHub"
+      ],
+      "launched_at": "2026-04-16",
+      "thumbnail_url": "https://ph-files.imgix.net/dbcb8f2e-2fb0-4638-8ba7-9c1a277abedb.png?auto=format"
+    },
+    {
+      "id": "1114392",
+      "name": "Mantle SAFEs",
+      "tagline": "Issue & sign SAFEs for free. No DocuSign required.",
+      "description": "Manage your SAFEs without the friction. Just enter your details, and Mantle handles the rest—from generating the YC template to managing e-signatures. No DocuSign subscription required. Once signed, your cap table updates automatically. Keep your burn low and your equity organized from day one.",
+      "votes": 128,
+      "comments_count": 1,
+      "url": "https://www.producthunt.com/products/withmantle?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+personal+%28ID%3A+281817%29",
+      "website": "https://www.producthunt.com/r/6ZPCEE566I6EXG?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+personal+%28ID%3A+281817%29",
+      "maker": "[REDACTED]",
+      "topics": [
+        "Fintech",
+        "Venture Capital",
+        "SaaS"
+      ],
+      "launched_at": "2026-04-16",
+      "thumbnail_url": "https://ph-files.imgix.net/490b6248-3cc9-488c-88a9-a5857beb2c52.png?auto=format"
+    },
+    {
+      "id": "1125035",
+      "name": "OpenAI Agents SDK",
+      "tagline": "Build production agents with harness and sandbox",
+      "description": "The updated OpenAI Agents SDK introduces a model-native harness and native sandbox execution. Build agents that safely inspect files, run commands, and execute code for long-horizon tasks across built-in providers like E2B, Modal, Daytona, and Vercel.",
+      "votes": 128,
+      "comments_count": 5,
+      "url": "https://www.producthunt.com/products/openai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+personal+%28ID%3A+281817%29",
+      "website": "https://www.producthunt.com/r/2U6SMXWWJ56JNV?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+personal+%28ID%3A+281817%29",
+      "maker": "[REDACTED]",
+      "topics": [
+        "Artificial Intelligence",
+        "Development"
+      ],
+      "launched_at": "2026-04-16",
+      "thumbnail_url": "https://ph-files.imgix.net/f904aec8-e324-4aed-ae3b-ff68795ce44f.png?auto=format"
+    },
+    {
+      "id": "1125041",
+      "name": "Foyer",
+      "tagline": "Make your site speak and sell",
+      "description": "Most websites are mute. Visitors land, scroll, leave. Foyer turns that around with one line of code; your site becomes a sales executive that speaks to every visitor, navigates them through your product, handles objections, remembers context, and closes the deal. No chatbot vibes. Built for founders and marketers who are driving traffic but hemorrhaging conversions. We built this because we hit the problem ourselves. It's live, it works, and we're using it on our own site right now.",
+      "votes": 118,
+      "comments_count": 17,
+      "url": "https://www.producthunt.com/products/foyer-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+personal+%28ID%3A+281817%29",
+      "website": "https://www.producthunt.com/r/4SNYGJEOJMWAJI?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+personal+%28ID%3A+281817%29",
+      "maker": "[REDACTED]",
+      "topics": [
+        "Sales",
+        "Marketing",
+        "Artificial Intelligence"
+      ],
+      "launched_at": "2026-04-16",
+      "thumbnail_url": "https://ph-files.imgix.net/bde2ea84-62c7-4975-9f6f-b26316ac26e6.svg?auto=format"
+    },
+    {
+      "id": "1124989",
+      "name": "Agent Card",
+      "tagline": "Prepaid virtual Visa cards for AI agents",
+      "description": "AgentCard gives AI agents their own one-time-use virtual Visa cards. Link your card, let your agent issue a single-use card for each purchase — you're only charged when it actually pays, and cards auto-cancel after one use. Works with Claude, ChatGPT, Cursor, and any MCP-compatible agent via CLI, MCP, or Chrome Extension.",
+      "votes": 113,
+      "comments_count": 10,
+      "url": "https://www.producthunt.com/products/agent-card?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+personal+%28ID%3A+281817%29",
+      "website": "https://www.producthunt.com/r/LU2HZAHTWFLMB6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+personal+%28ID%3A+281817%29",
+      "maker": "[REDACTED]",
+      "topics": [
+        "Fintech",
+        "Developer Tools",
+        "Artificial Intelligence"
+      ],
+      "launched_at": "2026-04-16",
+      "thumbnail_url": "https://ph-files.imgix.net/fe1af902-ec8a-48d0-acd1-f9dbc06335b8.gif?auto=format"
+    },
+    {
+      "id": "1123029",
+      "name": "Astropad Workbench",
+      "tagline": "Remote desktop for AI agents running on headless Macs",
+      "description": "Running AI agents on a headless Mac mini? You still need to see what's happening. Check logs, restart stuck tasks, monitor outputs. Workbench is remote desktop built for the AI era, so you can babysit your agents from anywhere, without being tethered to your desk. Apple-native, with voice dictation and low-latency streaming powered by LIQUID, our proprietary tech. Built by ex-Apple engineers.",
+      "votes": 111,
+      "comments_count": 6,
+      "url": "https://www.producthunt.com/products/workbench-4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+personal+%28ID%3A+281817%29",
+      "website": "https://www.producthunt.com/r/4UAWIFI7SH7FKN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+personal+%28ID%3A+281817%29",
+      "maker": "[REDACTED]",
+      "topics": [
+        "Productivity",
+        "Developer Tools",
+        "Artificial Intelligence"
+      ],
+      "launched_at": "2026-04-16",
+      "thumbnail_url": "https://ph-files.imgix.net/050c91ec-839b-409a-99be-469c91a6275a.png?auto=format"
+    },
+    {
+      "id": "1124420",
+      "name": "HackerEarth OnScreen",
+      "tagline": "An always-on, zero-bias AI hiring tool",
+      "description": "Introducing HackerEarth OnScreen, an AI hiring tool powered by always-on, zero-bias interview agents. OnScreen uses lifelike video avatars to create genuine two-way interactions, making every interview feel like a real conversation. These agents show up for every candidate, every time, never cancelling, never drifting, and never showing bias. With a smart browser, real-time video proctoring, and AI-likeness detection, OnScreen ensures every interview is verified and truly cheat-proof.",
+      "votes": 111,
+      "comments_count": 19,
+      "url": "https://www.producthunt.com/products/hackerearth?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+personal+%28ID%3A+281817%29",
+      "website": "https://www.producthunt.com/r/24VGODOMA67JZG?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+personal+%28ID%3A+281817%29",
+      "maker": "[REDACTED]",
+      "topics": [
+        "Hiring",
+        "SaaS",
+        "Artificial Intelligence"
+      ],
+      "launched_at": "2026-04-16",
+      "thumbnail_url": "https://ph-files.imgix.net/9966c929-bd66-44ec-95de-f6e9e6530950.png?auto=format"
+    },
+    {
+      "id": "1120127",
+      "name": "Avec",
+      "tagline": "Tinder for Email to handle your inbox in seconds",
+      "description": "Avec is the free AI email app that lets you handle your Gmail inbox in seconds! (1) Smart filtering: Avec surfaces the emails that need your attention first, and learns your preferences over time. (2) Write with your voice: Record a quick voice note and let Avec turn it into a clear email that sounds like you. (3) Clear your inbox: Not every email deserves the same attention. After you’ve handled the important ones, clear the rest with a swipe. Unsubscribe and block spammy senders with one tap.",
+      "votes": 108,
+      "comments_count": 15,
+      "url": "https://www.producthunt.com/products/avec?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+personal+%28ID%3A+281817%29",
+      "website": "https://www.producthunt.com/r/FHAW6D2P4NEWGZ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+personal+%28ID%3A+281817%29",
+      "maker": "[REDACTED]",
+      "topics": [
+        "Email",
+        "Artificial Intelligence",
+        "Audio"
+      ],
+      "launched_at": "2026-04-16",
+      "thumbnail_url": "https://ph-files.imgix.net/bea9f6d6-e16d-43be-9d0e-ec357d2a1596.png?auto=format"
+    },
+    {
+      "id": "1124605",
+      "name": "FunKey",
+      "tagline": "Mechanical keyboard & mouse sounds for your Mac",
+      "description": "FunKey adds satisfying mechanical keyboard and mouse click sounds to your Mac, making typing more immersive and enjoyable. Every key press sounds realistic and plays instantly as you type. Perfect for coding, designing, writing, or everyday work. Features • Realistic mechanical keyboard sounds • Instant sound feedback while typing • Easy access from the Mac menu bar • Fast, lightweight, native macOS app",
+      "votes": 107,
+      "comments_count": 3,
+      "url": "https://www.producthunt.com/products/funkey?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+personal+%28ID%3A+281817%29",
+      "website": "https://www.producthunt.com/r/ZNH7P2DODBBNCF?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+personal+%28ID%3A+281817%29",
+      "maker": "[REDACTED]",
+      "topics": [
+        "Productivity",
+        "Menu Bar Apps",
+        "Tech"
+      ],
+      "launched_at": "2026-04-16",
+      "thumbnail_url": "https://ph-files.imgix.net/c1304595-c2ea-4a33-83bb-d9a1c5197f6c.webp?auto=format"
+    },
+    {
+      "id": "1124035",
+      "name": "Chinilla",
+      "tagline": "Design systems, simulate them and watch where they break",
+      "description": "Like a flight simulator for systems. Drag components, wire them together, hit play, and watch real traffic flow through your system. See queues fill up, databases choke, and bottlenecks form in real time. Scrub a timeline to inspect any moment. Fix what breaks, run it again. That's how you go from knowing patterns to understanding systems. Export to PNG, Mermaid, or Python for your docs and repos. 7 blocks, 12 behaviors, AI that turns code or prompts into live diagrams. Free in your browser.",
+      "votes": 106,
+      "comments_count": 10,
+      "url": "https://www.producthunt.com/products/chinilla?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+personal+%28ID%3A+281817%29",
+      "website": "https://www.producthunt.com/r/ZDDKCVNLGCPD34?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+personal+%28ID%3A+281817%29",
+      "maker": "[REDACTED]",
+      "topics": [
+        "Education",
+        "Developer Tools",
+        "Artificial Intelligence"
+      ],
+      "launched_at": "2026-04-16",
+      "thumbnail_url": "https://ph-files.imgix.net/a80f7009-39f4-49ba-93ce-09da76a2d9e8.png?auto=format"
+    },
+    {
+      "id": "1124786",
+      "name": "Windsurf 2.0",
+      "tagline": "Introducing the Agent Command Center and Devin in Windsurf",
+      "description": "Windsurf 2.0 turns your IDE into a command center for managing dozens of AI agents at once. New: the Agent Command Center gives you a Kanban view of every agent running across local and cloud environments. Spaces group agent sessions, PRs, and files by project so context carries over. Plus, Devin — an autonomous cloud agent with its own VM — is now built in. Delegate tasks with one click, keep coding locally (or close your laptop), and review PRs when they're ready. Included with every plan.",
+      "votes": 98,
+      "comments_count": 6,
+      "url": "https://www.producthunt.com/products/windsurf?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+personal+%28ID%3A+281817%29",
+      "website": "https://www.producthunt.com/r/6LS25FN4A3SPZC?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+personal+%28ID%3A+281817%29",
+      "maker": "",
+      "topics": [
+        "Task Management",
+        "Software Engineering",
+        "Artificial Intelligence"
+      ],
+      "launched_at": "2026-04-16",
+      "thumbnail_url": "https://ph-files.imgix.net/eeb9b2eb-49ed-4be5-8db0-4bd1a01d39e4.png?auto=format"
+    },
+    {
+      "id": "1122177",
+      "name": "Libertify.com",
+      "tagline": "Turn any document into an interactive video",
+      "description": "Libertify transforms your documents into interactive experiences that capture attention, drive exploration, and reveal real intent. See what people read, skip, and misunderstand — and turn every interaction into insight you can act on.",
+      "votes": 97,
+      "comments_count": 3,
+      "url": "https://www.producthunt.com/products/libertify-com?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+personal+%28ID%3A+281817%29",
+      "website": "https://www.producthunt.com/r/RTSNUMTVKQPB3E?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+personal+%28ID%3A+281817%29",
+      "maker": "",
+      "topics": [
+        "Artificial Intelligence",
+        "Video",
+        "Pitch Paris"
+      ],
+      "launched_at": "2026-04-16",
+      "thumbnail_url": "https://ph-files.imgix.net/3661b00a-1f27-4e2a-a38f-c31f267e8b3c.png?auto=format"
+    }
+  ]
+}
