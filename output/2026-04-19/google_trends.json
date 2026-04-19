@@ -1,0 +1,10 @@
+{
+  "date": "2026-04-19",
+  "source": "google_trends",
+  "rising_7d": [],
+  "rising_3m": [],
+  "cooling_down": [],
+  "from_zero": [],
+  "sustained": [],
+  "_error": "HTTPSConnectionPool(host='trends.google.com', port=443): Read timed out. (read timeout=2)"
+}
