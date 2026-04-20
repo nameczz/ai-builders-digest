@@ -7,48 +7,54 @@ import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import type { Components } from "react-markdown";
 
+type Lang = "zh" | "en";
+
+// Defensive: Next dev's [date] dynamic route can intercept missing static files
+// and return an HTML error page with 200. Treat HTML responses as missing content.
+function isMarkdown(text: string): boolean {
+  if (!text || !text.trim()) return false;
+  const head = text.trimStart().slice(0, 60).toLowerCase();
+  if (head.startsWith("<!doctype") || head.startsWith("<html")) return false;
+  return true;
+}
+
 export default function DailyReport() {
   const params = useParams();
   const dateStr = params.date as string;
+  const [lang, setLang] = useState<Lang>("zh");
   const [markdown, setMarkdown] = useState<string | null>(null);
+  const [suggestion, setSuggestion] = useState<string | null>(null);
   const [error, setError] = useState(false);
 
   useEffect(() => {
-    fetch(`/daily-builder-report/${dateStr}.md`)
+    setMarkdown(null);
+    setError(false);
+    fetch(`/daily-builder-report/${dateStr}.${lang}.md`)
       .then((r) => {
         if (!r.ok) throw new Error();
         return r.text();
       })
-      .then(setMarkdown)
+      .then((text) => {
+        if (!isMarkdown(text)) throw new Error("empty");
+        setMarkdown(text);
+      })
       .catch(() => setError(true));
+  }, [dateStr, lang]);
+
+  useEffect(() => {
+    fetch(`/daily-builder-report/${dateStr}.suggestion.md`)
+      .then((r) => (r.ok ? r.text() : null))
+      .then((text) => setSuggestion(text && isMarkdown(text) ? text : null))
+      .catch(() => setSuggestion(null));
   }, [dateStr]);
 
-  if (error) {
-    return (
-      <div className="min-h-screen flex items-center justify-center" style={{ background: "var(--parchment)" }}>
-        <div className="text-center">
-          <h1 className="font-serif-heading text-2xl mb-4" style={{ color: "var(--near-black)" }}>
-            {dateStr} 暂无报告
-          </h1>
-          <Link href="/daily-builder-report" className="text-sm underline" style={{ color: "var(--terracotta)" }}>
-            ← 返回
-          </Link>
-        </div>
-      </div>
-    );
-  }
-
-  if (!markdown) {
-    return (
-      <div className="min-h-screen" style={{ background: "var(--parchment)" }}>
-        <div className="max-w-2xl mx-auto px-6 py-20">
-          {[1, 2, 3, 4, 5].map((i) => (
-            <div key={i} className="shimmer rounded-lg mb-4" style={{ height: "3.5rem" }} />
-          ))}
-        </div>
-      </div>
-    );
-  }
+  const label = {
+    back: lang === "zh" ? "← 返回" : "← Back",
+    noReport: lang === "zh" ? `${dateStr} 暂无报告` : `No report for ${dateStr}`,
+    footer: lang === "zh"
+      ? "Daily Builder Report · 数据来自 BuilderPulse"
+      : "Daily Builder Report · Data from BuilderPulse",
+  };
 
   const mdComponents: Components = {
     h1: ({ children }) => (
@@ -68,7 +74,6 @@ export default function DailyReport() {
     ),
     p: ({ children }) => {
       const text = typeof children === "string" ? children : "";
-      // Takeaway block
       if (text.startsWith("**Takeaway**") || text.startsWith("Takeaway") ||
           (Array.isArray(children) && children.length > 0 &&
            typeof children[0] === "object" && children[0] !== null &&
@@ -154,37 +159,96 @@ export default function DailyReport() {
     ),
   };
 
-  return (
-    <div className="min-h-screen" style={{ background: "var(--parchment)" }}>
-      {/* Sticky Nav */}
-      <header
-        className="sticky top-0 z-50 border-b"
-        style={{ background: "var(--parchment)", borderColor: "var(--border-cream)" }}
-      >
-        <div className="max-w-2xl mx-auto px-6 py-3 flex items-center justify-between">
-          <Link href="/daily-builder-report" className="text-sm" style={{ color: "var(--stone-gray)" }}>
-            ← 返回
-          </Link>
-          <span className="font-serif-heading text-sm" style={{ color: "var(--near-black)" }}>
-            Daily Builder Report
-          </span>
-          <span className="text-xs font-mono" style={{ color: "var(--stone-gray)" }}>
+  const header = (
+    <header
+      className="sticky top-0 z-50 border-b"
+      style={{ background: "var(--parchment)", borderColor: "var(--border-cream)" }}
+    >
+      <div className="max-w-2xl mx-auto px-6 py-3 flex items-center justify-between gap-3">
+        <Link href="/daily-builder-report" className="text-sm shrink-0" style={{ color: "var(--stone-gray)" }}>
+          {label.back}
+        </Link>
+        <span className="font-serif-heading text-sm truncate" style={{ color: "var(--near-black)" }}>
+          Daily Builder Report
+        </span>
+        <div className="flex items-center gap-3 shrink-0">
+          <span className="text-xs font-mono hidden sm:inline" style={{ color: "var(--stone-gray)" }}>
             {dateStr}
           </span>
+          <button
+            onClick={() => setLang((l) => (l === "zh" ? "en" : "zh"))}
+            className="text-[13px] transition-colors"
+            style={{ color: "var(--stone-gray)" }}
+            onMouseEnter={(e) => { e.currentTarget.style.color = "var(--terracotta)"; }}
+            onMouseLeave={(e) => { e.currentTarget.style.color = "var(--stone-gray)"; }}
+          >
+            {lang === "zh" ? "EN" : "中文"}
+          </button>
         </div>
-      </header>
+      </div>
+    </header>
+  );
+
+  if (error) {
+    return (
+      <div className="min-h-screen" style={{ background: "var(--parchment)" }}>
+        {header}
+        <div className="max-w-2xl mx-auto px-6 py-20 text-center">
+          <h1 className="font-serif-heading text-2xl mb-4" style={{ color: "var(--near-black)" }}>
+            {label.noReport}
+          </h1>
+          <Link href="/daily-builder-report" className="text-sm underline" style={{ color: "var(--terracotta)" }}>
+            {label.back}
+          </Link>
+        </div>
+      </div>
+    );
+  }
+
+  if (!markdown) {
+    return (
+      <div className="min-h-screen" style={{ background: "var(--parchment)" }}>
+        {header}
+        <div className="max-w-2xl mx-auto px-6 py-20">
+          {[1, 2, 3, 4, 5].map((i) => (
+            <div key={i} className="shimmer rounded-lg mb-4" style={{ height: "3.5rem" }} />
+          ))}
+        </div>
+      </div>
+    );
+  }
+
+  return (
+    <div className="min-h-screen" style={{ background: "var(--parchment)" }}>
+      {header}
 
       <main className="max-w-2xl mx-auto px-6 py-8 pulse-animate">
         <ReactMarkdown remarkPlugins={[remarkGfm]} components={mdComponents}>
           {markdown}
         </ReactMarkdown>
 
-        {/* Footer */}
+        {suggestion && (
+          <section
+            className="mt-16 pt-10"
+            style={{ borderTop: "2px dashed var(--border-warm)" }}
+          >
+            <div
+              className="mb-6 inline-block text-xs px-2 py-1 rounded"
+              style={{ background: "var(--warm-sand)", color: "var(--charcoal)", letterSpacing: "0.05em" }}
+            >
+              {lang === "zh" ? "博主视角 · AI 生成" : "Blogger Angle · AI-generated"}
+            </div>
+            <ReactMarkdown remarkPlugins={[remarkGfm]} components={mdComponents}>
+              {suggestion}
+            </ReactMarkdown>
+          </section>
+        )}
+
         <div
           className="mt-16 pt-6 border-t text-xs text-center"
           style={{ borderColor: "var(--border-warm)", color: "var(--stone-gray)" }}
         >
-          Daily Builder Report · Sources: Hacker News · GitHub · Product Hunt · HuggingFace · Google Trends
+          {label.footer}
         </div>
       </main>
     </div>

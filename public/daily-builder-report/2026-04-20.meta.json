@@ -1,0 +1,15 @@
+{
+  "date": "2026-04-20",
+  "top3_zh": [
+    "同一 48 小时窗口内，三个 SaaS 平台相继披露数据泄露：[Vercel](https://news.ycombinator.com/item?id=47824463)（两篇故事合计 522 + 376 HN 点数）、[Notion 公开页面邮箱泄露](https://news.ycombinator.com/item?id=47824945)（323 点，109 条评论），以及 [Fiverr 客户文件被索引](https://news.ycombinator.com/item?id=47769796)（827 个 Ask HN 点数，231 条评论，官方已否认）。",
+    "[bill-chambers 的 tokens 排行榜](https://tokens.billchambers.me/leaderboard)收到 578 份社区提交，显示 Opus 4.7 平均请求 token 比 4.6 高 +38.5%——但 Artificial Analysis 的 Intelligence Index 证实 4.7 每个完成任务的成本约低 11%（输出 token 消耗更少 + 得分高出 4 分），揭示了一个正在实际烧光独立开发者每周配额的按调用计费 vs 按任务计费的定价混淆问题。",
+    "[Ask HN: 你作为独立工程师/顾问是怎么拿到第一批项目的？](https://news.ycombinator.com/item?id=47822940)不到一天斩获 244 点数和 111 条评论——回答中压倒性地是\"给前同事发冷邮件 + 拿出粗糙的 demo + 朋友的朋友介绍\"，零提及付费广告或中介，再次印证：2026 年独立创业者 #1 未解难题仍是分发，而非产品。"
+  ],
+  "top3_en": [
+    "Three SaaS platforms went public with breaches in the same 48-hour window: [Vercel](https://news.ycombinator.com/item?id=47824463) (522 + 376 HN points across two stories), [Notion's public-page email leak](https://news.ycombinator.com/item?id=47824945) (323 points, 109 comments), and [Fiverr's indexed customer files](https://news.ycombinator.com/item?id=47769796) (827 Ask HN points, 231 comments, now officially denied).",
+    "578 community submissions on [bill-chambers' tokens leaderboard](https://tokens.billchambers.me/leaderboard) show Opus 4.7 averages +38.5% request tokens vs 4.6 — but Artificial Analysis's Intelligence Index confirms 4.7 is ~11% *cheaper* per completed task (lower output-token burn + 4-point score gain), exposing a per-call vs per-task pricing confusion that is actively burning solo developers' weekly limits in under 2 hours.",
+    "[Ask HN: How did you land your first projects as a solo engineer/consultant?](https://news.ycombinator.com/item?id=47822940) pulled 244 points and 111 comments in under a day — the answer thread is overwhelmingly \"cold email + ugly demo + friend-of-friend\" with zero mentions of paid ads or agencies, confirming distribution (not product) remains the #1 unsolved problem for 2026 indie operators."
+  ],
+  "intro_zh": "大家都在争论 [Opus 4.7 请求 token 上涨 +38.5%](https://tokens.billchambers.me/leaderboard) 是否是一次隐性涨价——但这是在看错计分板。今天真正的信号是：同一个新闻周期内，三个 SaaS 平台接连遭遇数据泄露：[Vercel](https://decipher.sc/2026/04/19/vercel-says-internal-systems-hit-in-breach/)（两篇故事合计 898 HN 点数）、[Notion 泄露所有公开页面编辑者的邮箱](https://news.ycombinator.com/item?id=47824945)（323 点），以及 [Fiverr 至今仍否认其客户文件被索引的事件](https://news.ycombinator.com/item?id=47769796)（827 个 Ask HN 点数）。",
+  "intro_en": "Everyone is debating whether [Opus 4.7's +38.5% request-token bump](https://tokens.billchambers.me/leaderboard) is a stealth price hike — wrong scoreboard. Today's real signal is three SaaS platforms breached in the same news cycle: [Vercel](https://decipher.sc/2026/04/19/vercel-says-internal-systems-hit-in-breach/) (898 HN points across two stories), [Notion leaking every public-page editor's email](https://news.ycombinator.com/item?id=47824945) (323 points), and [Fiverr still denying its indexed-customer-files incident](https://news.ycombinator.com/item?id=47769796) (827 Ask HN points)."
+}

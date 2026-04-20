@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect, useCallback, useMemo } from "react";
+import Link from "next/link";
 import type { DigestItem, DailyData, Language } from "@/types";
 
 /* ─── helpers ─── */
@@ -256,12 +257,20 @@ export default function Home() {
               </span>
             </div>
           </div>
-          <button
-            onClick={() => setLang((l) => (l === "zh" ? "en" : "zh"))}
-            className="text-[13px] text-[var(--stone-gray)] hover:text-[var(--terracotta)] transition-colors"
-          >
-            {lang === "zh" ? "EN" : "中文"}
-          </button>
+          <div className="flex items-center gap-4">
+            <Link
+              href="/daily-builder-report"
+              className="text-[13px] text-[var(--stone-gray)] hover:text-[var(--terracotta)] transition-colors"
+            >
+              {lang === "zh" ? "每日情报" : "Daily Report"}
+            </Link>
+            <button
+              onClick={() => setLang((l) => (l === "zh" ? "en" : "zh"))}
+              className="text-[13px] text-[var(--stone-gray)] hover:text-[var(--terracotta)] transition-colors"
+            >
+              {lang === "zh" ? "EN" : "中文"}
+            </button>
+          </div>
         </div>
       </header>
 

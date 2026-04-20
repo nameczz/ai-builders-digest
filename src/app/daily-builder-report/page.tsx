@@ -2,21 +2,21 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import ReactMarkdown from "react-markdown";
+import remarkGfm from "remark-gfm";
 
 interface ReportIndex { dates: string[] }
-interface DaySummary {
+interface DayMeta {
   date: string;
-  top3: { source: string; title: string; metric: string }[];
-  stats: Record<string, number>;
-}
-
-function sourceIcon(s: string) {
-  return s === "hacker_news" ? "🟠" : s === "github" ? "⚫" : s === "huggingface" ? "🟡" : "🔶";
+  top3_zh: string[];
+  top3_en: string[];
+  intro_zh: string;
+  intro_en: string;
 }
 
 export default function DailyBuilderReportIndexPage() {
   const [dates, setDates] = useState<string[]>([]);
-  const [summaries, setSummaries] = useState<Record<string, DaySummary>>({});
+  const [metas, setMetas] = useState<Record<string, DayMeta>>({});
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -25,10 +25,10 @@ export default function DailyBuilderReportIndexPage() {
       .then((data: ReportIndex) => {
         setDates(data.dates);
         data.dates.forEach((d) => {
-          fetch(`/daily-builder-report/${d}.json`)
-            .then((r) => r.json())
-            .then((pulse) => {
-              setSummaries((prev) => ({ ...prev, [d]: { date: d, top3: pulse.top3 || [], stats: pulse.stats || {} } }));
+          fetch(`/daily-builder-report/${d}.meta.json`)
+            .then((r) => (r.ok ? r.json() : null))
+            .then((meta: DayMeta | null) => {
+              if (meta) setMetas((prev) => ({ ...prev, [d]: meta }));
             })
             .catch(() => {});
         });
@@ -53,18 +53,17 @@ export default function DailyBuilderReportIndexPage() {
           每日情报
         </h1>
         <p className="mb-8 text-sm" style={{ color: "var(--olive-gray)", lineHeight: 1.6 }}>
-          综合 Hacker News、GitHub、Product Hunt、HuggingFace、Google Trends，追踪 AI &amp; 独立开发者生态每日信号。
+          来自 <a href="https://github.com/BuilderPulse/BuilderPulse" target="_blank" rel="noopener noreferrer" style={{ color: "var(--terracotta)" }}>BuilderPulse</a> 每日整理，追踪 AI &amp; 独立开发者生态。
         </p>
 
-        {/* Report List */}
         {loading ? (
           <div className="space-y-3">
-            {[1, 2, 3].map((i) => <div key={i} className="shimmer rounded-lg" style={{ height: "5rem" }} />)}
+            {[1, 2, 3].map((i) => <div key={i} className="shimmer rounded-lg" style={{ height: "8rem" }} />)}
           </div>
         ) : (
           <div className="space-y-4">
             {dates.map((d, i) => {
-              const summary = summaries[d];
+              const meta = metas[d];
               const isToday = d === new Date().toISOString().split("T")[0];
               return (
                 <Link
@@ -87,20 +86,45 @@ export default function DailyBuilderReportIndexPage() {
                         <span className="text-[10px] px-1.5 py-0.5 rounded" style={{ background: "var(--terracotta)", color: "var(--ivory)" }}>今日</span>
                       )}
                     </div>
-                    <span className="text-xs" style={{ color: "var(--stone-gray)" }}>
-                      {summary?.stats ? `${summary.stats.hn_count + summary.stats.gh_count + summary.stats.ph_count + summary.stats.hf_model_count} 条数据` : ""}
-                    </span>
                   </div>
-                  {summary?.top3?.length > 0 && (
-                    <div className="space-y-1">
-                      {summary.top3.map((t, j) => (
-                        <div key={j} className="flex items-baseline gap-2 text-sm" style={{ color: "var(--olive-gray)" }}>
-                          <span className="shrink-0">{sourceIcon(t.source)}</span>
-                          <span className="truncate">{t.title}</span>
-                          <span className="shrink-0 font-mono text-xs" style={{ color: "var(--terracotta)" }}>{t.metric}</span>
-                        </div>
+
+                  {meta?.intro_zh && (
+                    <p className="mb-3 text-sm line-clamp-3" style={{ color: "var(--olive-gray)", lineHeight: 1.6 }}>
+                      <ReactMarkdown
+                        remarkPlugins={[remarkGfm]}
+                        components={{
+                          p: ({ children }) => <>{children}</>,
+                          a: ({ children }) => <span style={{ color: "var(--olive-gray)" }}>{children}</span>,
+                          strong: ({ children }) => <strong style={{ color: "var(--near-black)" }}>{children}</strong>,
+                        }}
+                      >
+                        {meta.intro_zh}
+                      </ReactMarkdown>
+                    </p>
+                  )}
+
+                  {meta?.top3_zh && meta.top3_zh.length > 0 && (
+                    <ol className="space-y-1.5 pl-0" style={{ listStyle: "none" }}>
+                      {meta.top3_zh.map((t, j) => (
+                        <li key={j} className="flex items-start gap-2 text-sm" style={{ color: "var(--olive-gray)", lineHeight: 1.55 }}>
+                          <span className="shrink-0 font-mono" style={{ color: "var(--terracotta)", fontSize: "12px", marginTop: "2px" }}>
+                            {j + 1}.
+                          </span>
+                          <span className="line-clamp-2">
+                            <ReactMarkdown
+                              remarkPlugins={[remarkGfm]}
+                              components={{
+                                p: ({ children }) => <>{children}</>,
+                                a: ({ children }) => <span style={{ color: "var(--olive-gray)" }}>{children}</span>,
+                                strong: ({ children }) => <strong style={{ color: "var(--near-black)" }}>{children}</strong>,
+                              }}
+                            >
+                              {t}
+                            </ReactMarkdown>
+                          </span>
+                        </li>
                       ))}
-                    </div>
+                    </ol>
                   )}
                 </Link>
               );
@@ -110,7 +134,7 @@ export default function DailyBuilderReportIndexPage() {
       </main>
 
       <footer className="border-t mt-12 py-6 text-center text-xs" style={{ borderColor: "var(--border-cream)", color: "var(--stone-gray)" }}>
-        Sources: Hacker News · GitHub · Product Hunt · HuggingFace · Google Trends
+        Source: <a href="https://github.com/BuilderPulse/BuilderPulse" target="_blank" rel="noopener noreferrer" style={{ color: "var(--terracotta)" }}>BuilderPulse</a>
       </footer>
     </div>
   );
