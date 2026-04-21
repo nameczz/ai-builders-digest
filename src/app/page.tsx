@@ -259,6 +259,12 @@ export default function Home() {
           </div>
           <div className="flex items-center gap-4">
             <Link
+              href="/suggestions"
+              className="text-[13px] text-[var(--stone-gray)] hover:text-[var(--terracotta)] transition-colors"
+            >
+              {lang === "zh" ? "博主选题" : "Suggestions"}
+            </Link>
+            <Link
               href="/daily-builder-report"
               className="text-[13px] text-[var(--stone-gray)] hover:text-[var(--terracotta)] transition-colors"
             >

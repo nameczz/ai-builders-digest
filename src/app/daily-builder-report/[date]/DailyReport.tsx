@@ -23,7 +23,6 @@ export default function DailyReport() {
   const dateStr = params.date as string;
   const [lang, setLang] = useState<Lang>("zh");
   const [markdown, setMarkdown] = useState<string | null>(null);
-  const [suggestion, setSuggestion] = useState<string | null>(null);
   const [error, setError] = useState(false);
 
   useEffect(() => {
@@ -40,13 +39,6 @@ export default function DailyReport() {
       })
       .catch(() => setError(true));
   }, [dateStr, lang]);
-
-  useEffect(() => {
-    fetch(`/daily-builder-report/${dateStr}.suggestion.md`)
-      .then((r) => (r.ok ? r.text() : null))
-      .then((text) => setSuggestion(text && isMarkdown(text) ? text : null))
-      .catch(() => setSuggestion(null));
-  }, [dateStr]);
 
   const label = {
     back: lang === "zh" ? "← 返回" : "← Back",
@@ -226,23 +218,6 @@ export default function DailyReport() {
         <ReactMarkdown remarkPlugins={[remarkGfm]} components={mdComponents}>
           {markdown}
         </ReactMarkdown>
-
-        {suggestion && (
-          <section
-            className="mt-16 pt-10"
-            style={{ borderTop: "2px dashed var(--border-warm)" }}
-          >
-            <div
-              className="mb-6 inline-block text-xs px-2 py-1 rounded"
-              style={{ background: "var(--warm-sand)", color: "var(--charcoal)", letterSpacing: "0.05em" }}
-            >
-              {lang === "zh" ? "博主视角 · AI 生成" : "Blogger Angle · AI-generated"}
-            </div>
-            <ReactMarkdown remarkPlugins={[remarkGfm]} components={mdComponents}>
-              {suggestion}
-            </ReactMarkdown>
-          </section>
-        )}
 
         <div
           className="mt-16 pt-6 border-t text-xs text-center"

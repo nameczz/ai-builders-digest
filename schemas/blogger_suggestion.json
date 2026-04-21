@@ -1,0 +1,137 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Blogger Suggestion Daily Data",
+  "description": "公众号「碳基生物爱AI」每日博主选题建议，按方法论 v2.0（交集模型 + HKR + 角色代入 + 写作原型 + 锚点）生成",
+  "type": "object",
+  "required": ["date", "generated_at", "model", "sources", "items"],
+  "properties": {
+    "date": { "type": "string", "format": "date" },
+    "generated_at": { "type": "string", "format": "date-time" },
+    "model": { "type": "string" },
+    "sources": {
+      "type": "array",
+      "items": { "type": "string", "enum": ["builderpulse", "follow-builders"] },
+      "minItems": 1
+    },
+    "items": {
+      "type": "array",
+      "description": "1-3 个选题，S/A 级优先。即使今日数据偏弱也至少输出 1 条保底。",
+      "minItems": 1,
+      "maxItems": 3,
+      "items": { "$ref": "#/definitions/suggestion" }
+    },
+    "notes": {
+      "type": "string",
+      "description": "可选：说明今日整体数据质量或选题被删的原因"
+    }
+  },
+  "definitions": {
+    "suggestion": {
+      "type": "object",
+      "required": [
+        "id", "title", "intersection", "hkr",
+        "writing_archetype", "anchor", "angle",
+        "opening", "story_hook", "takeaway", "sources"
+      ],
+      "properties": {
+        "id": { "type": "string", "description": "YYYY-MM-DD-N" },
+        "title": {
+          "type": "string",
+          "description": "吸睛标题，冷静带数字、禁止震惊体"
+        },
+        "intersection": {
+          "type": "object",
+          "description": "选题交集模型三要素，各一句话",
+          "required": ["expertise", "reader_interest", "timeliness"],
+          "properties": {
+            "expertise": { "type": "string", "description": "我们的专业领域视角是什么" },
+            "reader_interest": { "type": "string", "description": "读者的普遍兴趣在哪" },
+            "timeliness": { "type": "string", "description": "为什么是今天 —— 具体的时间节点" }
+          }
+        },
+        "hkr": {
+          "type": "object",
+          "description": "HKR 三项评分，3 分制，总分 ≥ 7 算 S 级；≥ 6 且至少两项 3 分算 A 级；5-6 算 B 级保底",
+          "required": ["happy", "knowledge", "resonance"],
+          "properties": {
+            "happy": { "$ref": "#/definitions/hkrScore" },
+            "knowledge": { "$ref": "#/definitions/hkrScore" },
+            "resonance": { "$ref": "#/definitions/hkrScore" },
+            "total": { "type": "integer", "minimum": 3, "maximum": 9 },
+            "grade": { "type": "string", "enum": ["S", "A", "B"] }
+          }
+        },
+        "writing_archetype": {
+          "type": "string",
+          "enum": ["调查实验型", "产品体验型", "现象解读型", "工具分享型"],
+          "description": "按白皮书第 2 节提炼的四种写作原型"
+        },
+        "anchor": {
+          "type": "object",
+          "description": "创意工作法的锚点类型 + 今日对应的具体线索",
+          "required": ["type", "hook_ref"],
+          "properties": {
+            "type": {
+              "type": "string",
+              "enum": ["热点", "痛点", "炫技"]
+            },
+            "hook_ref": {
+              "type": "string",
+              "description": "今日数据里哪条新闻/数字/现象对应这个锚点"
+            }
+          }
+        },
+        "angle": {
+          "type": "string",
+          "description": "一句话切入视角 —— 为什么是这个角度"
+        },
+        "opening": {
+          "type": "string",
+          "description": "开篇 2 句引子，可直接粘到公众号开头"
+        },
+        "story_hook": {
+          "type": "object",
+          "description": "微型故事的前两步（挑战 + 脑洞）",
+          "required": ["challenge", "twist"],
+          "properties": {
+            "challenge": {
+              "type": "string",
+              "description": "想解决什么问题 / 看到什么现象"
+            },
+            "twist": {
+              "type": "string",
+              "description": "想到了什么骚操作 / 哪里反直觉"
+            }
+          }
+        },
+        "takeaway": {
+          "type": "string",
+          "description": "读者读完能带走的判断/行动/话术"
+        },
+        "sources": {
+          "type": "array",
+          "description": "支撑选题的来源引用，至少 2 条",
+          "minItems": 2,
+          "items": { "$ref": "#/definitions/source" }
+        }
+      }
+    },
+    "hkrScore": {
+      "type": "object",
+      "required": ["score", "why"],
+      "properties": {
+        "score": { "type": "integer", "minimum": 1, "maximum": 3 },
+        "why": { "type": "string", "description": "一句话说明为什么打这个分" }
+      }
+    },
+    "source": {
+      "type": "object",
+      "required": ["tag", "ref", "url"],
+      "properties": {
+        "tag": { "type": "string", "enum": ["builderpulse", "follow-builders"] },
+        "ref": { "type": "string" },
+        "url": { "type": "string", "format": "uri" }
+      }
+    }
+  }
+}
