@@ -1,0 +1,15 @@
+{
+  "date": "2026-04-23",
+  "top3_zh": [
+    "[Over-editing refers to a model modifying code beyond what is necessary](https://news.ycombinator.com/item?id=47866913)（285 HN 分 / 170 评论 / @nrehiew）是继\"幻觉（hallucination）\"以来，编码 agent 领域首个有清晰*命名*的缺陷类别——170 条评论线程列举了具体的真实事故，目前还没有任何打分工具上线。",
+    "[SpaceX says it has agreement to acquire Cursor for $60B](https://news.ycombinator.com/item?id=47855293)（791 分，**947 评论**）是本周的定价与信任事件——刚从 Claude Code 迁移到 Cursor 的开发者，正在重新盘算和 72 小时前同样的\"要不要换\"算术题，这次是在新东家、未知路线图的背景下。",
+    "[Qwen3.6-27B: Flagship-Level Coding in a 27B Dense Model](https://news.ycombinator.com/item?id=47863217)（679 分）与 [ChatGPT Images 2.0](https://news.ycombinator.com/item?id=47852835)（1,003 分）和 [Google 第八代 TPU](https://news.ycombinator.com/item?id=47862497)（396 分）在同一个早上发布——一个周期内三个前沿发布，稠密 27B 的论点直接挑战了本月的 MoE 主流叙事。"
+  ],
+  "top3_en": [
+    "[Over-editing refers to a model modifying code beyond what is necessary](https://news.ycombinator.com/item?id=47866913) (285 HN points / 170 comments / @nrehiew) is the first clean *named* defect category for coding agents since \"hallucination\" — the 170-comment thread names specific real-world incidents, and nobody has shipped a scoring tool yet.",
+    "[SpaceX says it has agreement to acquire Cursor for $60B](https://news.ycombinator.com/item?id=47855293) (791 points, **947 comments**) is the week's pricing-and-trust event — developers who just migrated from Claude Code to Cursor are now running the same \"should I switch?\" math they ran 72 hours ago, this time under a new owner with an unknown roadmap.",
+    "[Qwen3.6-27B: Flagship-Level Coding in a 27B Dense Model](https://news.ycombinator.com/item?id=47863217) (679 points) lands the same morning as [ChatGPT Images 2.0](https://news.ycombinator.com/item?id=47852835) (1,003 points) and [Google's 8th-generation TPU](https://news.ycombinator.com/item?id=47862497) (396 points) — three frontier releases in one cycle, with the dense-27B argument pushing directly against this month's MoE orthodoxy."
+  ],
+  "intro_zh": "今天大家都在用 benchmark 和速度给 AI 编码 agent 重新排名——但这是错误的评分维度。[@nrehiew 的这篇 HN 帖子](https://news.ycombinator.com/item?id=47866913)拿到 285 分，给真正的缺陷起了个名字：**over-editing**（过度编辑）——你只要求改一行代码，模型却重写了八个不相关的文件。这篇[博客文章](https://nrehiew.github.io/blog/minimal_editing/)把它当作可量化的 bug 类别来分析，170 条评论里，人人都能在这个描述框架里认出自己凌晨三点调试的经历。",
+  "intro_en": "Everyone is re-ranking AI coding agents on benchmarks and speed today — wrong scoreboard. A [285-point HN post from @nrehiew](https://news.ycombinator.com/item?id=47866913) gave the real defect a name: **over-editing** — the model rewriting eight unrelated files when you asked for a one-line change. The [blog post](https://nrehiew.github.io/blog/minimal_editing/) treats it as a quantifiable bug class, and 170 comments recognize their own 3am debugging sessions in the framing."
+}
