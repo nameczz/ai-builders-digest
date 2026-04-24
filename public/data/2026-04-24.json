@@ -1,0 +1,274 @@
+{
+  "items": [
+    {
+      "id": "unsupervisedlearning-2026-04-24-1",
+      "author": "Unsupervised Learning",
+      "bio": "Redpoint's Jacob Effron hosts conversations with AI founders and researchers",
+      "content_en": "The Takeaway: AI coding is no longer a startup category — it's a three-way cage match between Anthropic (~$2.5B ARR from Claude Code alone), OpenAI (~$2B on Codex), and Cursor (~$2B), with the cumulative market going parabolic just a year after Claude Code's launch. In a crossover episode with Latent Space, Swyx (Cognition, AIE conferences) argues the wars are far from settled. The big structural call: '2025 was the year of coding agents; 2026 is coding agents breaking containment to do everything else.' Coding agents keep winning because software eats the world, and now agents eat software — the transitive property is that agents eat the world. Some sharp, counterintuitive specifics: harness design has converged on 'skills' (a markdown file plus some scripts) as the minimum viable format — Swyx doesn't see how it could get simpler. Custom chips (Cerebras, Thales, MatX) are finally paying off because 'every 10x unlocks a different usage pattern' — speed, not just cost, is a differentiator now. Bots are already 60% of traffic to Vercel's admin surface, per Vercel CTO Malte Ubel, which means 'if it doesn't exist as an API that agents can use, it doesn't exist.' On market structure: Anthropic is the premium, restrictive player; OpenAI/Codex is the aggressive subsidizer ('come on in, guys, use our SDK, we'll reset limits'). Mid-sized LLM infra startups are getting squeezed (Langfuse → ClickHouse, etc.), but small startups are fine — worst case, they're hired into a lab. The low-NPS SaaS stack (Salesforce et al.) is where real vulnerability is. Swyx's own org pays $200K/year for event software he could rebuild for $2K: 'my life would actually be better if I just held my nose, went in, and came out the other side only talking to agents in natural language.' On the token-maxing culture: Ryan Napopolo at OpenAI burns a billion tokens a day ($10K/day at market rates). 'The people who are going to discover the next hot thing are living at the edge.'",
+      "content_zh": "The Takeaway: AI coding 已经不是一个 startup 品类，而是三国演义——Anthropic 仅 Claude Code 一项 ARR 约 25 亿美金，OpenAI 的 Codex 约 20 亿，Cursor 也约 20 亿，整个赛道在 Claude Code 发布一周年后呈抛物线增长。在这期 Latent Space 与 Unsupervised Learning 的年度串台中，Swyx（Cognition、AIE 大会）抛出一条最大的结构性判断：「2025 是 coding agent 元年，2026 是 coding agent 破壁，去做其他一切。」软件吃世界、coding agent 吃软件，所以 agent 吃世界，逻辑是传递的。\n\n一些很锐的反直觉细节：harness 设计已经收敛到 skills（一个 markdown 文件 + 若干脚本）作为 MVP 格式，Swyx 想不出还能更简单；Cerebras、Thales、MatX 这些定制芯片开始真正兑现，因为「每一个 10x 都会解锁新的使用姿势」，速度本身成了差异化，不只是成本。根据 Vercel CTO Malte Ubel，Vercel 管理后台的流量已经有 60% 是 bot，「如果一个东西没有 API 供 agent 调用，它就相当于不存在。」\n\n市场结构上：Anthropic 是高端限量玩家，OpenAI/Codex 是激进补贴者（「进来用我们 SDK，limits 随便重置」）；中型 LLM infra（Langfuse 被 ClickHouse 收等）正在被挤压；小 startup 反而没事，最差的 downside 也就是被收进大厂。真正脆弱的是低 NPS 的传统 SaaS（Salesforce 那类）。Swyx 自己公司每年付 20 万美金的活动管理 SaaS，他算过 2000 美金就能用 agent 搭一个替代品：「我的生活会好过很多，如果我就捏着鼻子进去，然后只用自然语言跟 agent 说话出来。」\n\n关于 token-maxing 文化：OpenAI 的 Ryan Napopolo 一天烧 10 亿 token（按市价 1 万美金/天）。「能发现下一个爆款的人，是活在边缘的人。」",
+      "source": "podcast",
+      "url": "https://www.youtube.com/@RedpointAI",
+      "date": "2026-04-24"
+    },
+    {
+      "id": "anthropicengineering-2026-04-24-1",
+      "author": "Anthropic Engineering",
+      "bio": "Anthropic engineering blog",
+      "content_en": "Anthropic Engineering: An update on recent Claude Code quality reports. Over the past month, users reported Claude Code feeling dumber. Anthropic traced it to three separate, overlapping bugs — the API itself was unaffected. (1) On March 4, default reasoning effort was quietly lowered from 'high' to 'medium' on Sonnet/Opus 4.6 to reduce UI-freeze latency; users hated it and it was reverted April 7. New default is 'xhigh' for Opus 4.7 and 'high' elsewhere. (2) On March 26, a prompt-caching optimization meant to clear stale thinking blocks once per idle session had a bug that cleared them every turn for the rest of the session — Claude kept losing memory of why it was doing things, surfacing as forgetfulness and repetition, and also drained usage limits faster via cache misses. Fixed April 10 in v2.1.101. (3) On April 16, Opus 4.7 shipped with a system prompt line — 'keep text between tool calls to ≤25 words, final responses to ≤100 words' — that, in combination with other changes, measurably hurt coding quality (3% drop in ablations on both 4.6 and 4.7). Reverted April 20. Because the three changes hit different traffic slices on different schedules, the aggregate looked like broad, inconsistent degradation. Notable self-reflection: 'This isn't the experience users should expect from Claude Code. As of April 23, we're resetting usage limits for all subscribers.' Going forward: more internal staff on the exact public build, tighter controls on system prompt changes, per-model eval suites for every prompt change, soak periods, gradual rollouts. Opus 4.7 actually found the cache bug in back-testing when given repo context; Opus 4.6 didn't — so Code Review is gaining multi-repo context support.",
+      "content_zh": "Anthropic Engineering：Claude Code 最近质量问题的官方复盘。过去一个月用户频繁反映 Claude Code 变笨了，Anthropic 排查后确认是三个独立的、叠加的 bug——API 本身没受影响。（1）3 月 4 日，Sonnet/Opus 4.6 的默认 reasoning effort 从 high 偷偷降到了 medium，为的是降低「UI 假死」级别的延迟；用户反弹后 4 月 7 日回滚，现在 Opus 4.7 默认 xhigh，其他 high。（2）3 月 26 日上线了一个 prompt cache 优化：空闲超过 1 小时的 session 清一次旧 thinking block，结果 bug 让这个清理在 session 剩下每一轮都触发，Claude 不断丢失自己为什么要那么做的记忆，表现为健忘、重复，同时因为 cache miss 把 usage limit 也烧得更快。4 月 10 日在 v2.1.101 修复。（3）4 月 16 日 Opus 4.7 上线时 system prompt 里加了一行「tool call 之间 ≤25 词，最终回复 ≤100 词」，在 ablation 评估里让 4.6 和 4.7 的 coding 质量都掉了 3%，4 月 20 日回滚。三个改动命中不同 traffic slice、不同时间窗，合在一起看就是「广泛而不稳定的退化」。\n\n值得注意的一句自省：「这不是用户该从 Claude Code 得到的体验。从 4 月 23 日起，我们为所有订阅用户重置 usage limit。」\n\n后续举措：让更多内部员工使用对外的完全一致版本；system prompt 改动加更严的审核；每次 prompt 改动都跑全套 per-model eval + ablation；加入 soak period 和 gradual rollout。还有一个有意思的点——Opus 4.7 在给到 repo context 回测时找到了那个 cache bug，但 4.6 没找到，因此 Code Review 正在加多仓库 context 支持。",
+      "source": "blog",
+      "url": "https://www.anthropic.com/engineering/april-23-postmortem",
+      "date": "2026-04-24"
+    },
+    {
+      "id": "claudeblog-2026-04-24-1",
+      "author": "Claude Blog",
+      "bio": "Anthropic's product blog",
+      "content_en": "Claude Blog: New connectors in Claude for everyday life. The Claude directory now spans 200+ connectors and expands into consumer apps — AllTrails, Audible, Booking.com, Instacart, Intuit Credit Karma, Intuit TurboTax, Resy, Spotify, StubHub, Taskrabbit, Thumbtack, TripAdvisor, Uber, Uber Eats, Viator. Connectors now surface dynamically in conversations based on what Claude thinks you're trying to do: ask for a weekend hike and AllTrails pops up in the thread; refine with 'shorter' or 'dog-friendly' without leaving the conversation. When multiple connectors could help, Claude shows all options ranked by usefulness. Explicit commitments: 'Claude is ad-free and will stay that way. There are no paid placements or sponsored answers.' Data from connected apps isn't used for training, and each app can't see your other Claude conversations. Before booking or purchasing, Claude is designed to check first. Available on all plans, mobile in beta.",
+      "content_zh": "Claude Blog：Claude 新增一批面向生活场景的 connector。Claude directory 现在覆盖超过 200 个 connector，并把触角伸出了工作场景——AllTrails、Audible、Booking.com、Instacart、TurboTax、Resy、Spotify、StubHub、Taskrabbit、Thumbtack、TripAdvisor、Uber、Uber Eats、Viator 等。\n\nConnector 现在会根据你的对话意图动态出现：问「周末哪里徒步」就直接在对话里浮出 AllTrails，让你继续用「更短一点」「可以带狗」继续精修，不用跳出 thread；多个 connector 都能答时，Claude 会同时展示并按对你的有用程度排序。\n\n硬承诺：「Claude 无广告，未来也不会有，也没有任何付费位或 sponsored answer。」接入 app 的数据不会用来训练模型，app 也看不到你和 Claude 的其他对话。涉及预订或付款时，Claude 被设计成会先跟你确认。全版本可用，移动端 beta。",
+      "source": "blog",
+      "url": "https://claude.com/blog/connectors-for-everyday-life",
+      "date": "2026-04-24"
+    },
+    {
+      "id": "claudeblog-2026-04-24-2",
+      "author": "Claude Blog",
+      "bio": "Anthropic's product blog",
+      "content_en": "Claude Blog: Built-in memory for Claude Managed Agents. Memory on Managed Agents is now in public beta. The design choice worth calling out: memory is stored as files mounted directly on a filesystem, so agents can use the same bash and code execution tools that already make them effective. Developers can export, manage via API, and keep full control over what agents retain. Enterprise-grade controls are baked in: scoped permissions, audit logs, rollback, redaction, and shared stores across multiple agents with different access scopes (e.g., org-wide read-only plus per-user read/write). Multiple agents can write concurrently without overwriting each other. Memory updates surface as session events in the Claude Console so you can trace what an agent learned and where. Early production results are concrete: Netflix agents carry insights and mid-conversation human corrections across sessions; Rakuten's task-based agents cut first-pass errors by 97%; Wisedocs sped up document verification by 30%; Ando is building a workplace messaging platform on top without rolling its own memory infra.",
+      "content_zh": "Claude Blog：Claude Managed Agents 原生 memory 公测上线。最值得拎出来的设计决定：memory 以文件形式挂在 filesystem 上，所以 agent 可以直接用 bash 和 code execution 这些它本来就擅长的工具来读写——开发者可以通过 API 导出、管理，完全掌控 agent 记住了什么。\n\n企业级能力内置：权限分级、audit log、版本回滚、内容 redact、多 agent 按不同 scope 共享同一个 store（比如组织级只读 + 用户级读写）；多个 agent 可并发写同一个 store 不会互相覆盖。所有 memory 变更都会在 Claude Console 里作为 session event 暴露，可以追溯某条记忆是哪条 session 哪个 agent 写下的。\n\n几个已上线的产品数据：Netflix 让 agent 带着跨 session 的洞察和人类中途修正继续工作；Rakuten 的任务型长周期 agent 首次正确率提升 97%；Wisedocs 的文档核验流水线提速 30%；Ando 直接把企业消息平台建在 Managed Agents 上，省掉了自己造 memory infra。",
+      "source": "blog",
+      "url": "https://claude.com/blog/claude-managed-agents-memory",
+      "date": "2026-04-24"
+    },
+    {
+      "id": "levie-2026-04-24-1",
+      "author": "Aaron Levie",
+      "bio": "CEO @box — your business lives in content, unleash it with AI",
+      "content_en": "Box CEO Aaron Levie reports internal benchmark results on GPT-5.5 for enterprise knowledge work, tested on Box's real-world task evals across multiple industries. On all four verticals tested, 5.5 cleared 5.4 by 10+ points of accuracy: Financial services 83% vs 64%, Healthcare 78% vs 61%, Public sector 72% vs 59%, Media & entertainment 70% vs 57%. Tasks were financial filings, clinical records, policy documents, creative content — stuff closer to real enterprise work than MMLU. Levie frames this as a 'big jump for enterprise knowledge work agents' and says the model is live in Box AI Studio today for customers to build agents with.",
+      "content_zh": "Box CEO Aaron Levie 公布了 Box 对 GPT-5.5 跑内部 enterprise 评测的结果，任务是贴近真实工作的金融报表、临床记录、政策文件、创意内容。四个行业全部比 5.4 高出 10 个点以上：金融 83% vs 64%，医疗 78% vs 61%，公共部门 72% vs 59%，媒体娱乐 70% vs 57%。Levie 把 5.5 定性为 enterprise knowledge work agent 的大跨越，模型当天就已经进入 Box AI Studio 供客户搭 agent。",
+      "source": "x",
+      "url": "https://x.com/levie/status/2047387742951313910",
+      "date": "2026-04-24"
+    },
+    {
+      "id": "levie-2026-04-24-2",
+      "author": "Aaron Levie",
+      "bio": "CEO @box — your business lives in content, unleash it with AI",
+      "content_en": "Box CEO Aaron Levie pushes back on 'AI will make us work less': it's doing the opposite. AI makes it cheap to start exploring things, so you start doing far more than before — he regularly has 'small things' that end up consuming 3 hours because the agent made it easy to begin, but the rest of the project still needs to be pushed to completion. Crucially, this is work he would never have handed to anyone else — it just never got done because manual cost was too high. Counterintuitively, once AI gets good enough at certain tasks, it becomes economically worth hiring a person to run agents on them full-time. His frame: 'AI won't automatically reduce work in the way we imagine because work isn't static. Most companies have far more they can do than they have today — it was just hard to get started on it all because of the natural constraints of time and labor availability.'",
+      "content_zh": "Box CEO Aaron Levie 反对「AI 让我们少干活」这个假设，他看到的正相反。AI 让「开始探索一件事」的成本骤降，你反而开始做很多以前不会做的事——他自己经常一件看起来很小的事一下耗掉 3 小时，因为 agent 降低了启动门槛，但把项目收尾的工作量并不会跟着消失。\n\n关键是：这类活他以前根本不会指派给别人，不是不值得做，而是完全手动太贵、就一直没做。反直觉的是，一旦 AI 把某类任务做到够用，雇一个人专门跟着 agent 长期做这件事反而在经济上成立了。\n\n他的判断：「AI 不会像我们想象那样自动减少工作，因为工作不是静态总量。大多数公司想做的事远比现在做的多，只是受时间和人力约束一直没开工。」",
+      "source": "x",
+      "url": "https://x.com/levie/status/2047540230694350958",
+      "date": "2026-04-24"
+    },
+    {
+      "id": "sama-2026-04-24-1",
+      "author": "Sam Altman",
+      "bio": "CEO, OpenAI",
+      "content_en": "OpenAI CEO Sam Altman flags a successful rollout experiment: OpenAI worked with NVIDIA to deploy Codex across the entire company, and says it 'was awesome to see it work.' Invites other companies to do the same. A signal that OpenAI is now running enterprise-wide rollouts as a packaged motion, not just selling seats.",
+      "content_zh": "OpenAI CEO Sam Altman 透露了一个「全公司铺 Codex」的实验：OpenAI 和 NVIDIA 合作在整家 NVIDIA 内部推开 Codex，效果「很棒」，并公开邀请其他公司一起做。信号：OpenAI 开始把「enterprise-wide rollout」当成一个打包动作在卖，不只是按 seat 铺。",
+      "source": "x",
+      "url": "https://x.com/sama/status/2047395562501411058",
+      "date": "2026-04-24"
+    },
+    {
+      "id": "claudeai-2026-04-24-1",
+      "author": "Claude",
+      "bio": "Anthropic's AI assistant",
+      "content_en": "Claude (@claudeai) announces Memory for Claude Managed Agents in public beta: agents learn across sessions via an intelligence-optimized memory layer, stored as files so developers can export, manage via API, and keep full control. Points to the detail post on multi-agent shared stores, audit logs, and rollback.",
+      "content_zh": "Claude 官方账号宣布 Managed Agents 的 memory 功能公测：agent 可以跨 session 学习，底层是一层针对 intelligence 优化的 memory layer，且以文件形式存储，开发者能导出、通过 API 管理、完全掌控保留什么。指向详细博客，重点提 multi-agent 共享 store、audit log、回滚。",
+      "source": "x",
+      "url": "https://x.com/claudeai/status/2047421844311949513",
+      "date": "2026-04-24"
+    },
+    {
+      "id": "claudeai-2026-04-24-2",
+      "author": "Claude",
+      "bio": "Anthropic's AI assistant",
+      "content_en": "Claude (@claudeai) clarifies the storage model for Managed Agents memory: 'Memories are stored as files, so developers can export them, manage them via the API, and keep full control over what agents retain.' The file-based approach lets agents use the same bash / code execution primitives they already use for tasks.",
+      "content_zh": "Claude 官方账号补充强调 Managed Agents memory 的存储形态：「记忆以文件形式保存，所以开发者能导出、通过 API 管理、完全掌控 agent 要保留什么。」文件化的好处是 agent 能直接复用已经熟的 bash / code execution，不需要再学一套 memory 专用 API。",
+      "source": "x",
+      "url": "https://x.com/claudeai/status/2047421846463623579",
+      "date": "2026-04-24"
+    },
+    {
+      "id": "claudeai-2026-04-24-3",
+      "author": "Claude",
+      "bio": "Anthropic's AI assistant",
+      "content_en": "Claude (@claudeai) confirms the connectors expansion is live 'across web, desktop, and mobile (beta), all plans' — corresponds to the Claude Blog post adding AllTrails / Uber / TurboTax / Spotify / TripAdvisor and friends to the directory.",
+      "content_zh": "Claude 官方账号确认生活场景 connector 扩展已全端上线：「web、桌面、移动（beta），覆盖所有付费档。」对应博客里新加入的 AllTrails、Uber、TurboTax、Spotify、TripAdvisor 等一批。",
+      "source": "x",
+      "url": "https://x.com/claudeai/status/2047383767984038093",
+      "date": "2026-04-24"
+    },
+    {
+      "id": "danshipper-2026-04-24-1",
+      "author": "Dan Shipper",
+      "bio": "CEO @every — the only subscription you need to stay at the edge of AI",
+      "content_en": "Every CEO Dan Shipper posts his full GPT-5.5 vibe check with one sharp observation: 'many models write a great plan and then get scared of it. OpenAI's new GPT-5.5 just does the thing.' Reading: the 5.5 step-change isn't benchmark delta, it's the model losing the hedge-and-confirm loop that made prior models feel cautious in agent loops.",
+      "content_zh": "Every CEO Dan Shipper 发了他对 GPT-5.5 的完整 vibe check，留下一句很锐的观察：「很多模型会写一个很好的计划，然后被自己的计划吓到。OpenAI 新的 GPT-5.5 就是直接干。」潜台词：5.5 的跃迁不在 benchmark 分数，而是模型不再陷入「写完计划再反复确认」的 agent loop，执行感更硬。",
+      "source": "x",
+      "url": "https://x.com/danshipper/status/2047388883823087633",
+      "date": "2026-04-24"
+    },
+    {
+      "id": "danshipper-2026-04-24-2",
+      "author": "Dan Shipper",
+      "bio": "CEO @every — the only subscription you need to stay at the edge of AI",
+      "content_en": "Every CEO Dan Shipper points to his full GPT-5.5 vibe check writeup — link-forward tweet pointing to Every's coverage.",
+      "content_zh": "Every CEO Dan Shipper 把完整的 GPT-5.5 vibe check 文章链接放出来，指向 Every 的专题报道。",
+      "source": "x",
+      "url": "https://x.com/danshipper/status/2047388895562842162",
+      "date": "2026-04-24"
+    },
+    {
+      "id": "petergyang-2026-04-24-1",
+      "author": "Peter Yang",
+      "bio": "Practical AI tutorials + interviews; 140K+ readers; Product at Roblox",
+      "content_en": "Roblox PM and AI writer Peter Yang drops his F-Zero test result for GPT-5.5 + Codex: it's 'the only combo that built a working game so far,' including a set of bot opponents to race against. His take: 'what an insane time to be building.' The F-Zero test is his recurring practical benchmark for each model — the signal is that 5.5 + Codex is the first combo that cleared it end-to-end.",
+      "content_zh": "Roblox PM、AI 博主 Peter Yang 交作业：他每次新模型出都会跑的 F-Zero 测试（现场用 AI 搭一个 F-Zero 赛车游戏 + 一批 bot 对手），GPT-5.5 + Codex 是目前「唯一把能玩的版本做出来的组合」。他感叹：「building 的时代疯掉了。」信号是：5.5 + Codex 是第一个跑通这个端到端实战 benchmark 的组合。",
+      "source": "x",
+      "url": "https://x.com/petergyang/status/2047502885710410159",
+      "date": "2026-04-24"
+    },
+    {
+      "id": "petergyang-2026-04-24-2",
+      "author": "Peter Yang",
+      "bio": "Practical AI tutorials + interviews; 140K+ readers; Product at Roblox",
+      "content_en": "Roblox PM Peter Yang publishes a video with his full impressions of GPT-5.5 and ChatGPT Images 2 — pointing readers to the long-form review after the short F-Zero post.",
+      "content_zh": "Roblox PM Peter Yang 另发了一条视频，整理他对 GPT-5.5 和 ChatGPT Images 2 的完整使用印象，作为 F-Zero 那条短 demo 之后的长评版。",
+      "source": "x",
+      "url": "https://x.com/petergyang/status/2047502897412468770",
+      "date": "2026-04-24"
+    },
+    {
+      "id": "amasad-2026-04-24-1",
+      "author": "Amjad Masad",
+      "bio": "CEO @replit — civilizationist",
+      "content_en": "Replit CEO Amjad Masad makes a sharp political-technical observation: 'While US politicians/lobbyists are scaremongering about Chinese distillation, Chinese scientists are actually sharing real AI breakthroughs in the open. These kinds of advances have nothing to do with data and benefit everyone, including small (and possibly big) US labs.' The point lands in the week DeepSeek v4 dropped — that Chinese labs are open-sourcing genuine capability work regardless of US narrative framing.",
+      "content_zh": "Replit CEO Amjad Masad 提出一个颇带刺的观察：「美国 lobbyists 在拿『中国 distillation』吓唬人的时候，中国科学家是在公开真正的 AI 突破。这种推进跟数据无关，受益者是所有人，包括美国的小 lab，甚至大 lab。」配合本周 DeepSeek v4 发布，信号是：中国 lab 的真开源能力输出不会因为美国叙事框架而改变节奏。",
+      "source": "x",
+      "url": "https://x.com/amasad/status/2047547275682214384",
+      "date": "2026-04-24"
+    },
+    {
+      "id": "amasad-2026-04-24-2",
+      "author": "Amjad Masad",
+      "bio": "CEO @replit — civilizationist",
+      "content_en": "Replit CEO Amjad Masad flags: 'DeepSeek v4 just dropped' — signal-boost of the new Chinese open-weight model release, tied to his broader point on open Chinese research.",
+      "content_zh": "Replit CEO Amjad Masad 一句话放大 DeepSeek v4 发布的消息，和他上面关于中国 lab 开放性的论点形成一组。",
+      "source": "x",
+      "url": "https://x.com/amasad/status/2047519635063631914",
+      "date": "2026-04-24"
+    },
+    {
+      "id": "nikunj-2026-04-24-1",
+      "author": "Nikunj Kothari",
+      "bio": "Partner @fpvventures — investing seed/A; prev Meter, Opendoor, Atlassian",
+      "content_en": "FPV Ventures partner Nikunj Kothari reads the M&A wave. His thesis is structural, not cyclical: (1) The seed → Series A gap keeps widening — never easier to start, never harder to scale. (2) 2021-vintage 'zombiecorns' are finally coming due; expect lots of founders to leave or sell under the pref stack. (3) Big 'token factories' keep vacuuming up talent (and talent wants in). (4) Public markets stay bearish outside ~4 IPO candidates, so why face the market when you can join a marked-up breakout. (5) Flatter orgs will push more people out to start — exacerbating the seed/A gap. His closing line, stolen from someone at a dinner: 'there are a lot of founders but very few entrepreneurs — don't become a founder just to be one, do it because you literally can't do anything else.'",
+      "content_zh": "FPV Ventures 合伙人 Nikunj Kothari 解释当前 M&A 潮的结构性原因（不是周期）：（1）seed → Series A 的裂口越来越大，开始从没这么容易，规模化从没这么难；（2）2021 的「zombiecorn」终于到期，大量创始人会在 pref stack 之下被迫卖或离开；（3）大 token factory 持续吸人，人也想进去；（4）公开市场继续熊，除了四家左右的 IPO 候选，没理由选择面对市场；（5）扁平化组织会把更多人挤出去创业，反过来又放大 seed/A 裂口。\n\n收尾借别人一句：「现在 founder 很多，entrepreneur 很少。别为了当 founder 而当 founder，只有在你真的别的路都走不通时再做。」",
+      "source": "x",
+      "url": "https://x.com/nikunj/status/2047336067972624870",
+      "date": "2026-04-24"
+    },
+    {
+      "id": "nikunj-2026-04-24-2",
+      "author": "Nikunj Kothari",
+      "bio": "Partner @fpvventures — investing seed/A; prev Meter, Opendoor, Atlassian",
+      "content_en": "FPV Ventures partner Nikunj Kothari shares his current build stack — 'undefeated for me even with all the new model releases': Claude Opus for planning and frontend design, OpenAI Codex for engineering, Conductor to orchestrate, Railway to deploy. The mix is notable — picking Opus specifically for the design / planning layer and Codex for raw engineering, rather than one coding model for everything.",
+      "content_zh": "FPV Ventures 合伙人 Nikunj Kothari 分享他当前的搭建栈（「不管新模型怎么出我这套还没被打穿」）：Claude Opus 负责规划和前端设计，OpenAI Codex 负责工程实现，Conductor 做编排，Railway 部署。有意思的是他在「规划/设计」和「工程」两个环节用不同模型，而不是一个 coding 模型通吃。",
+      "source": "x",
+      "url": "https://x.com/nikunj/status/2047382587258364204",
+      "date": "2026-04-24"
+    },
+    {
+      "id": "nikunj-2026-04-24-3",
+      "author": "Nikunj Kothari",
+      "bio": "Partner @fpvventures — investing seed/A; prev Meter, Opendoor, Atlassian",
+      "content_en": "FPV Ventures partner Nikunj Kothari quote-tweets with 'Exhibit 237 on why Silicon Valley, the TV show, is a documentary' — a light observation without further elaboration.",
+      "content_zh": "FPV Ventures 合伙人 Nikunj Kothari 一句吐槽：「这是《硅谷》那部剧其实是纪录片的第 237 个证据。」没有展开，属于氛围段。",
+      "source": "x",
+      "url": "https://x.com/nikunj/status/2047539976766931067",
+      "date": "2026-04-24"
+    },
+    {
+      "id": "adityaag-2026-04-24-1",
+      "author": "Aditya Agarwal",
+      "bio": "GP @SouthPkCommons; Co-founder @Bevel_Health; ex-CTO @Dropbox, early eng @facebook",
+      "content_en": "South Park Commons GP Aditya Agarwal — ex-CTO Dropbox, early Facebook — writes on why ~95% of AI value creation sits inside a 4-mile SF radius (h/t Elad Gil). His answer isn't the usual 'good universities / capital / network' — it's emotional: the culture here rewards wonder over skepticism. Two scenes from his week: (1) Design GOATs Soleio and RSMS gave a talk at SPC, with Aaron and Ben Barry in the room — all of them still 'so curious, want to build and learn, humility and passion.' (2) Eddie Jiao and Zan Sharma shipped a 'mind-bendingly amazing demo of every pixel being generated' — and the thing that made it possible was being surrounded by a culture that says 'that is crazy but my god, if it works, then what could happen.' His line: 'We are so lucky to be surrounded by weirdos who love to build. This is why we are who we are.' A pointed defense of SF against the 'everyone's leaving' narrative.",
+      "content_zh": "South Park Commons GP、前 Dropbox CTO、早期 Facebook 工程师 Aditya Agarwal 写了一篇为什么 AI 时代 95% 的价值创造塞在旧金山 4 英里半径里（灵感来自 Elad Gil）。他的答案不是常规答案（好大学、资本、人才网络），而是情绪层面的：这里的文化奖励「wonder」而不是质疑。\n\n他用自己本周两个场景论证：（1）设计界两位 GOAT Soleio 和 RSMS 在 SPC 做了场 talk，Aaron、Ben Barry 也在，他注意到这几位到今天依然「好奇心很强、想继续 build 和学、带着谦卑和热情」；（2）Eddie Jiao 和 Zan 做出了一个「每个像素都是生成的」的疯 demo，让它成立的关键是他们身处一个会说「这事很疯，但如果它成了呢？」的环境。\n\n收尾：「我们能被一群热爱 build 的怪人包围，是运气。这就是这座城市之所以是它的原因。」——是对「大家都在离开 SF」叙事的正面反驳。",
+      "source": "x",
+      "url": "https://x.com/adityaag/status/2047421448449630379",
+      "date": "2026-04-24"
+    },
+    {
+      "id": "_catwu-2026-04-24-1",
+      "author": "Cat Wu",
+      "bio": "Claude Code + Cowork @anthropicai; prev Dagster, Scale AI",
+      "content_en": "Anthropic PM Cat Wu (Claude Code + Cowork) promotes her Lenny's Podcast appearance covering how Claude Code maintains product velocity, how PM is shifting in the AI era, and the future of work. Worth catching if you care about PM practice inside a flagship AI product — she owns Claude Code directly.",
+      "content_zh": "Anthropic PM Cat Wu（负责 Claude Code 和 Cowork）推广她在 Lenny's Podcast 的新一期：讲 Claude Code 如何维持产品速度、PM 角色在 AI 时代怎么变、未来工作形态。她是直接 own Claude Code 的人，对想了解顶级 AI 产品内部 PM 实践的人值得一看。",
+      "source": "x",
+      "url": "https://x.com/_catwu/status/2047427510091366533",
+      "date": "2026-04-24"
+    },
+    {
+      "id": "garrytan-2026-04-24-1",
+      "author": "Garry Tan",
+      "bio": "President & CEO @ycombinator; founder @garryslist; creator of GStack & GBrain",
+      "content_en": "YC president Garry Tan gives two engineering updates on GBrain (his knowledge infra project): (1) He's migrating OpenClaw cron jobs and subagents over to GBrain Minions, with stability improvements shipping for that infra. (2) He's built new evals showing how much GBrain benefits from layering graph AND vector search on top of grep for knowledge wikis. The signal from YC's president dog-fooding his own stack: the retrieval-on-wikis problem is still unsolved enough that stacking three primitives (grep + vector + graph) is measurably better than any one.",
+      "content_zh": "YC 总裁 Garry Tan 发了两条 GBrain（他自己在做的知识 infra 项目）工程更新：（1）他正在把 OpenClaw 的 cron job 和 subagent 往 GBrain Minions 上搬，对应 infra 这次放出一批稳定性改进。（2）他跑了新 eval，证明在知识 wiki 场景里，grep + vector + graph 三层叠起来比只用任何一层要好得多。\n\n信号有意思：YC 总裁自己在 dogfood 自己的栈——说明在 wiki 上做检索这件事还没被解决好到不值得再叠三种 primitive。",
+      "source": "x",
+      "url": "https://x.com/garrytan/status/2047578207629819919",
+      "date": "2026-04-24"
+    },
+    {
+      "id": "garrytan-2026-04-24-2",
+      "author": "Garry Tan",
+      "bio": "President & CEO @ycombinator; founder @garryslist; creator of GStack & GBrain",
+      "content_en": "YC president Garry Tan ships a companion eval release for GBrain: new benchmarks quantifying the uplift from adding graph and vector search layers on top of grep for knowledge-wiki retrieval. Paired with the Minions infra stability post, this is his current 'build in public' line on GBrain.",
+      "content_zh": "YC 总裁 Garry Tan 与 Minions infra 那条配套，放出 GBrain 新一批 eval：量化了在 grep 上叠 graph 和 vector 检索后，知识 wiki 场景里效果的提升幅度。这是他最近在 public 上 build GBrain 的主线。",
+      "source": "x",
+      "url": "https://x.com/garrytan/status/2047578205528477711",
+      "date": "2026-04-24"
+    },
+    {
+      "id": "amandaaskell-2026-04-24-1",
+      "author": "Amanda Askell",
+      "bio": "Philosopher & ethicist @anthropicai — trying to make AI be good",
+      "content_en": "Anthropic philosopher/ethicist Amanda Askell offers a rare interior note: 'It's odd to be living through what feels like one of the most critical periods in human history and to feel all of the weight of it from the inside.' Not a product take — worth reading as a temperature check from someone whose job is Claude's moral character.",
+      "content_zh": "Anthropic 的哲学家/伦理学家 Amanda Askell 留下一段少见的个人内省：「身处一个你自己都觉得是人类史上最关键时期之一的时刻、并从内部感受到它全部的分量，是一种很奇怪的感觉。」不是产品发言，但来自负责 Claude 道德人格的人，值得作为一段「行业温度」记录下来。",
+      "source": "x",
+      "url": "https://x.com/AmandaAskell/status/2047429629263454377",
+      "date": "2026-04-24"
+    },
+    {
+      "id": "swyx-2026-04-24-1",
+      "author": "Swyx",
+      "bio": "Cognition, Latent Space, AI Engineer community",
+      "content_en": "Latent Space / Cognition's Swyx reposts that 'the most underrated part of today's launch is not GPT 5.5 at all' — pointing to something else in the OpenAI launch (Codex / Atlas-era UI changes) as the real story. Link-forward teaser without in-tweet substance.",
+      "content_zh": "Latent Space / Cognition 的 Swyx 转发并强调：「今天发布里最被低估的部分根本不是 GPT-5.5」——他把焦点引向 OpenAI 这波发布里的另一件事（Codex / Atlas 风格的 UI 改版）。是个引流帖，具体内容在被引用的 tweet 里。",
+      "source": "x",
+      "url": "https://x.com/swyx/status/2047536499999346812",
+      "date": "2026-04-24"
+    },
+    {
+      "id": "swyx-2026-04-24-2",
+      "author": "Swyx",
+      "bio": "Cognition, Latent Space, AI Engineer community",
+      "content_en": "Latent Space / Cognition's Swyx on the Codex app redesign: 'wow the codex app is unrecognizable… almost like it should've been Atlas the whole time.' Reading: OpenAI shipped a visual / UX overhaul on Codex this week that's major enough to be its own story even next to 5.5.",
+      "content_zh": "Latent Space / Cognition 的 Swyx 评 Codex app 改版：「Codex app 已经认不出来了……感觉它从一开始就应该叫 Atlas。」潜台词：OpenAI 这周给 Codex 做的视觉/交互改版幅度很大，大到哪怕对着 5.5 也值得单独讲一条。",
+      "source": "x",
+      "url": "https://x.com/swyx/status/2047461691580195310",
+      "date": "2026-04-24"
+    },
+    {
+      "id": "swyx-2026-04-24-3",
+      "author": "Swyx",
+      "bio": "Cognition, Latent Space, AI Engineer community",
+      "content_en": "Latent Space / Cognition's Swyx quote-tweets an invite for Anthropic to open up in Singapore — 'come to the most ai pilled country per capita.' Recruiting banter, not substantive announcement.",
+      "content_zh": "Latent Space / Cognition 的 Swyx 在一条 quote tweet 里喊话 Anthropic 来新加坡：「来人均 AI 浓度最高的国家。」招呼性质，不是实质公告。",
+      "source": "x",
+      "url": "https://x.com/swyx/status/2047545640180445400",
+      "date": "2026-04-24"
+    }
+  ]
+}

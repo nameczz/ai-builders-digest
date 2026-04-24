@@ -1,0 +1,96 @@
+{
+  "date": "2026-04-20",
+  "generated_at": "2026-04-20T08:30:00Z",
+  "model": "claude-opus-4-7",
+  "sources": ["builderpulse", "follow-builders"],
+  "items": [
+    {
+      "id": "2026-04-20-1",
+      "title": "Anthropic 罕见公开复盘：过去一个月 Claude Code 变笨，是它自己打补丁打出来的三个 bug",
+      "intersection": {
+        "expertise": "我们能逐 bug 解读 Anthropic 官方 postmortem 的工程含义，把「模型变笨」翻译成具体的代码事故时间线",
+        "reader_interest": "几乎所有付费 Claude Code 用户在过去一个月都在群里吐槽过它变笨、健忘、限额秒空",
+        "timeliness": "Anthropic Engineering 罕见发布详细 postmortem，今天给所有订阅者重置使用限额"
+      },
+      "hkr": {
+        "happy": { "score": 3, "why": "戏剧反转——原来不是你 prompt 写烂了；postmortem 第三个 bug 离谱到喜剧，官方亲自往系统 prompt 里加 25 字/100 字限制把模型搞蠢" },
+        "knowledge": { "score": 3, "why": "把「为什么变笨」拆到三个具体 bug 与修复时间点，是教科书级工程复盘，覆盖默认 effort 降级、cache 优化丢思考历史、verbosity 系统 prompt 三类完全不同的故障" },
+        "resonance": { "score": 3, "why": "上个月每个用过 Claude Code 的人都吐槽过健忘与限额秒空，今天终于知道不是自己的错觉" },
+        "total": 9,
+        "grade": "S"
+      },
+      "writing_archetype": "现象解读型",
+      "anchor": { "type": "热点", "hook_ref": "Anthropic Engineering 官方 postmortem + bill-chambers token 排行榜 580 条匿名提交" },
+      "angle": "你的代码没变烂，是 Claude Code 自己病了一个月——官方亲口承认的三个 bug 拆解",
+      "opening": "上个月你是不是觉得 Claude Code 突然变笨、变健忘、限额还秒空？4 月 23 日 Anthropic Engineering 发了一份罕见的 postmortem，承认从 3 月 4 日到 4 月 20 日之间一共有三个不同的 bug 在毁掉你的体验，今天给所有订阅者重置了使用限额。",
+      "story_hook": {
+        "challenge": "整个 3 月初到 4 月中，全网开发者集体抱怨 Claude Code 变笨、忘事、限额秒空，社区一度怀疑 Anthropic 在偷偷降智模型；bill-chambers 的匿名 token 排行榜 580 条提交显示 Opus 4.7 单次调用 token 较 4.6 平均增加 38.5%",
+        "twist": "postmortem 的第三个 bug 离谱到喜剧——Anthropic 自己往 Claude Code 系统 prompt 里加了一句『Length limits: keep text between tool calls to ≤25 words. Keep final responses to ≤100 words unless the task requires more detail』，结果模型变蠢，4 月 20 日才回滚；第二个 bug 更隐蔽：缓存优化本来只想在 1 小时空闲后清一次旧的 thinking history，结果实现时变成每一轮都清，让 Claude 越来越健忘"
+      },
+      "takeaway": "大模型公司也会把自己的产品打补丁打出 bug；遇到模型行为异常先去翻官方 changelog 与 GitHub 讨论，别先怀疑是自己的 prompt 写错了；同时也别盲信单次 token 数字——单次调用与单任务成本可能讲完全相反的故事",
+      "sources": [
+        { "tag": "follow-builders", "ref": "Anthropic Engineering postmortem 三个 bug 完整复盘（v2.1.116）", "url": "https://www.anthropic.com/engineering/april-23-postmortem" },
+        { "tag": "builderpulse", "ref": "BuilderPulse zh 头条信号 #2 + @tiffanyh HN 评论：不到 300 行 HTML/CSS/JS 用完每周限额", "url": "https://news.ycombinator.com/item?id=47823855" }
+      ]
+    },
+    {
+      "id": "2026-04-20-2",
+      "title": "Vercel 这次入侵真正的主角不是 Vercel——是你三年前忘记的那个 OAuth 应用",
+      "intersection": {
+        "expertise": "我们能讲清 SaaS 供应链入侵的 OAuth 跳板机制，而不只是「又一家被黑了」",
+        "reader_interest": "几乎每个独立开发者和 PM 都给 Zapier、AI 助手、Hackathon demo 授权过 Google Workspace OAuth",
+        "timeliness": "4 月 19 日 Vercel 公开 IOC 明确指出第三方 AI 工具的 OAuth 应用是入侵跳板，48 小时内还叠加 Notion 公开页泄露编辑邮箱与 Fiverr 1040 表单两起事件"
+      },
+      "hkr": {
+        "happy": { "score": 2, "why": "安全题材天然不算「好玩」，但「你忘了的 OAuth 让别家被黑然后波及到你」这条供应链链路有反转感" },
+        "knowledge": { "score": 3, "why": "把 OAuth 作为供应链跳板讲清楚，并附 BuilderPulse 提供的 OAuthTriage 120 行 Python 工具方案——可立即落地" },
+        "resonance": { "score": 3, "why": "PM、独立创始人、Workspace 管理员都管这事；三起事件 48 小时连发把这个长期被忽略的痛点推到台前" },
+        "total": 8,
+        "grade": "S"
+      },
+      "writing_archetype": "现象解读型",
+      "anchor": { "type": "热点", "hook_ref": "Vercel 4-19 IOC 公告 + HN 主帖 609 点赞 / 343 评论" },
+      "angle": "Vercel 不是个例，每个授权过 AI 工具 OAuth 的 SaaS 都站在同一个雷区上",
+      "opening": "Vercel 这周公开了入侵报告，所有人盯着「Vercel 被黑」这个标题，但真正吓人的句子藏在 IOC 里：攻击是通过一款第三方 AI 工具的 Google Workspace OAuth 应用渗入的，可能影响了许多组织中数百名用户。",
+      "story_hook": {
+        "challenge": "中型团队过去三年随手授权了 40 到 80 个第三方 OAuth 应用——AI 助手、Zapier 连接器、忘记的 Hackathon demo——没人记得自己授过什么；轮换一个泄露的 API 密钥要约 4 小时高级工程师时间",
+        "twist": "真正的攻击面不是单一供应商，而是这些休眠的 OAuth 授权；BuilderPulse 给出的 OAuthTriage 思路是 120 行 Python 调 admin.directory.tokens.list，按敏感范围乘最近使用时间排序，2 小时就能筛出「该撤销的 5 个」"
+      },
+      "takeaway": "今晚花 30 分钟登 Google Workspace 管理后台，按敏感范围与最近使用时间排序你的 OAuth 授权；那五个一年没动过又持有 gmail.send 或 drive.readonly 的应用，立刻撤销",
+      "sources": [
+        { "tag": "builderpulse", "ref": "Vercel 4-19 IOC 公告 + decipher.sc 报道 376 点赞", "url": "https://decipher.sc/2026/04/19/vercel-says-internal-systems-hit-in-breach/" },
+        { "tag": "builderpulse", "ref": "HN Vercel breach 主帖 609 点赞 / 343 评论", "url": "https://news.ycombinator.com/item?id=47824463" }
+      ]
+    },
+    {
+      "id": "2026-04-20-3",
+      "title": "1432 美元月费降到 233 美元，这次给云大厂当搬家工人的是 Claude Code",
+      "intersection": {
+        "expertise": "我们能讲清 LLM 辅助基础设施迁移从「demo」变成「可重复工作流」的临界点",
+        "reader_interest": "独立开发者和早期团队几乎人人为 AWS / DigitalOcean 账单挠过头，但被「迁移成本」劝退",
+        "timeliness": "@isayeter 的 DigitalOcean→Hetzner 帖发布 24 小时仍以 HN 864 点赞挂在首页，@antirez 同期确认自己也用 Claude Code 迁了两台服务器"
+      },
+      "hkr": {
+        "happy": { "score": 3, "why": "数字戏剧性强——1432 美元降到 233 美元是 6 倍降本；故事钩子是 Claude Code 在依赖库不可用时自己重写代码，有「骚操作」感" },
+        "knowledge": { "score": 2, "why": "实用价值在于：跨服务（MySQL/Redis/Nginx/几十站点）的端到端迁移现在有公开案例可参考，不再是 Twitter 上的零散小 demo" },
+        "resonance": { "score": 3, "why": "云账单是独立开发者最高频的钱痛，r/SideProject 同期帖把 400 美元月费 SaaS 换成 10 欧月费 Hetzner 验证了同样模式" },
+        "total": 8,
+        "grade": "S"
+      },
+      "writing_archetype": "调查实验型",
+      "anchor": { "type": "痛点", "hook_ref": "@isayeter HN 帖 864 点赞 + @antirez 置顶评论" },
+      "angle": "把云账单砍掉 6 倍这件事，今年起 Claude Code 真能替你干完",
+      "opening": "@isayeter 的 DigitalOcean → Hetzner 迁移帖在 HN 上挂了 24 小时仍是 864 分。原因不是 1432 美元降到 233 美元这个 6 倍降本数字，而是 @antirez 在置顶评论里的一句话：Claude Code 端到端迁了两台服务器，依赖库不可用时它甚至会重写部分代码。",
+      "story_hook": {
+        "challenge": "跨多服务（MySQL、Redis、Nginx、几十个站点）的迁移，过去要写一周脚本、断三次服务，独立开发者基本被劝退；亚马逊有时收价是竞品的 20 倍，还逼你签长期合约才给折扣",
+        "twist": "Claude Code 自己读旧仓库、识别不可用的依赖并重写、跑测试、迁数据，全程接近 hands-off；同期 r/SideProject 一位运营把 400 美元月费的 Sendible+Later 换成 10 欧月费的 Hetzner VPS——同一种成本压力从两个完全不同的角度同时爆发"
+      },
+      "takeaway": "你账单里那 70% 浪费在云大厂溢价上的钱，今年可以让 Claude Code 帮你搬走；先挑一个非关键的小服务跑通迁移流水线，验证可控之后再迁主业务，别一次性 all-in",
+      "sources": [
+        { "tag": "builderpulse", "ref": "HN @isayeter DigitalOcean→Hetzner 帖 864 点赞 + @antirez 置顶评论确认 Claude Code 迁移", "url": "https://news.ycombinator.com/item?id=47815774" },
+        { "tag": "builderpulse", "ref": "r/SideProject @Ok-Constant6488 把 400 美元月费 Sendible+Later 换成 10 欧月费 Hetzner VPS", "url": "https://www.reddit.com/r/SideProject/comments/1sk8fn3/my_girlfriend_runs_a_small_social_media_agency_i/" }
+      ]
+    }
+  ],
+  "notes": "今日 Anthropic 罕见公开 postmortem 与 Vercel OAuth 入侵叠加，三条 S 级选题集中反映 LLM 工具链可信度与供应链风险议题；Hetzner 迁移作为「Claude Code 实际能跑的事」补足正面案例。"
+}

@@ -1,0 +1,69 @@
+{
+  "date": "2026-04-22",
+  "generated_at": "2026-04-24T09:15:00Z",
+  "model": "claude-opus-4-7",
+  "sources": ["builderpulse", "follow-builders"],
+  "items": [
+    {
+      "id": "2026-04-22-1",
+      "title": "Claude Code 这一个月真的变笨了——Anthropic 罕见发致歉文，三个 Bug 已复盘",
+      "intersection": {
+        "expertise": "深度追踪编程 Agent 性能与大模型产品化的灰色区域，能逐条拆 postmortem 里的三个 bug",
+        "reader_interest": "独立开发者和 AI 产品经理过去一个月天天抱怨 Claude Code 降智，今天终于有官方说法",
+        "timeliness": "Anthropic 4 月 23 日刚发了罕见的技术 postmortem，同时宣布给所有订阅用户重置 usage 限额"
+      },
+      "hkr": {
+        "happy": { "score": 3, "why": "顶级实验室主动承认三个 bug 并发致歉文本身就是最稀缺的瓜；更 juicy 的是他们拿 Opus 4.7 反过来 Code Review 自己的代码，才找到其中一个 bug，Opus 4.6 都找不出来" },
+        "knowledge": { "score": 3, "why": "三个 bug 全是值得拆解的工程决策——默认 reasoning effort 从 high 悄悄降到 medium、stale session prompt cache 清 thinking 的并发边界条件、为了省 token 硬塞的「回答不超过 100 字」系统提示词——每一个都是 AI 产品化最常见的坑" },
+        "resonance": { "score": 3, "why": "过去一个月几乎每个 Claude Code 用户都怀疑过「是我用错了还是模型变笨了」，HN Pro 计划移除帖 420 条评论里一半是这种情绪；同一周首页还挂着 212 点的 Tell HN「我受够了 AI 一切」，今天 Anthropic 亲口承认至少这一条是真的" },
+        "total": 9,
+        "grade": "S"
+      },
+      "writing_archetype": "现象解读型",
+      "anchor": { "type": "热点", "hook_ref": "HN 首页「Claude Code 从 Pro 计划中移除」413 点 + Anthropic 4/23 官方 postmortem + 全体订阅用户 usage 补偿" },
+      "angle": "从社区「Claude Code 集体降智」的怀疑讲起，层层扒到 Anthropic 今天自己公开的三个 bug 细节，最后讲大厂发 postmortem 并用自己更新的模型反查自己代码这件事的罕见意义",
+      "opening": "如果过去一个月你觉得 Claude Code 变笨了，不是你的错觉。Anthropic 4 月 23 日发了一篇罕见的致歉 postmortem，承认三个 bug 让 Claude Code、Claude Agent SDK 和 Claude Cowork 在过去 30 天里持续降智，并宣布给所有订阅用户重置 usage 限额。",
+      "story_hook": {
+        "challenge": "从 3 月初开始用户就抱怨 Claude 在遗忘、在重复、在挑错的工具；但 Anthropic 内部 eval 和员工日常使用都复现不出来，问题信号被淹没在正常用户反馈的噪声里整整一个多月",
+        "twist": "三个 bug 居然都来自本意是「优化」的改动：把默认 reasoning effort 从 high 降到 medium、给长时间闲置的会话清除旧 thinking 结果「清完没停」在每一轮都清、为了让 Opus 4.7 少说废话加了一句「text between tool calls ≤25 words」的系统提示词；更戏剧的是，其中一个 cache bug 是 Anthropic 反过来用自家更新的 Opus 4.7 去做 Code Review 才找到的——Opus 4.6 找不出来"
+      },
+      "takeaway": "读者可以带走三样东西：一，一份 AI 产品 postmortem 的模板级案例；二，大模型产品化时「降低延迟」和「保住智商」之间的权衡有多容易翻车；三，给所有做 Agent 产品的人一个提醒——系统提示词里每一句「短一点」，都可能在你看不到的 eval 之外悄悄掉智商",
+      "sources": [
+        { "tag": "follow-builders", "ref": "Anthropic Engineering 博客 4/23 postmortem 原文", "url": "https://www.anthropic.com/engineering/april-23-postmortem" },
+        { "tag": "builderpulse", "ref": "HN 首页「Anthropic 将 Claude Code 从 Pro 计划中移除」413 点 / 420 评论", "url": "https://news.ycombinator.com/item?id=47854477" },
+        { "tag": "builderpulse", "ref": "Tell HN「我受够了 AI 一切」212 点 / 3 小时", "url": "https://news.ycombinator.com/item?id=47857461" }
+      ]
+    },
+    {
+      "id": "2026-04-22-2",
+      "title": "Peter Yang 用 F-Zero 赛车测了一年多模型，GPT-5.5 + Codex 是第一个真做出能玩那款的",
+      "intersection": {
+        "expertise": "关注 vibe coding 的能力边界——到底哪个模型组合真能一次性交出可跑的完整软件",
+        "reader_interest": "独立开发者、vibe coder、AI 产品经理最关心的现实问题：Claude Code 涨价之后要不要切到 GPT-5.5 + Codex",
+        "timeliness": "2026 年 4 月 23 日 GPT-5.5 当天发布，Peter Yang 立刻跑了他那套持续一年多的 F-Zero 私人基准"
+      },
+      "hkr": {
+        "happy": { "score": 3, "why": "「每次新模型出我都拿 F-Zero 测一遍」这种私人小基准持续一年本身就是好故事；而且这次交付的是一款你能亲自坐进去和 AI 对手赛车的复古游戏，可观赏性远高于 SWE-Bench 跑分" },
+        "knowledge": { "score": 2, "why": "一次具体的能力对照实验，对「vibe coding 现在到底能不能替代人类一次性写出完整游戏」给出实打实的数据点，并能延伸到 Box 的企业 eval 作为第二个独立验证" },
+        "resonance": { "score": 3, "why": "正好撞在 Claude Code Pro 涨价的迁移焦虑上——所有在观望切换的开发者都在等 GPT-5.5 + Codex 的第一手实测；Aaron Levie 同天发出 Box 上金融 83% vs 64%、医疗 78% vs 61% 的企业侧数据，让企业 PM 也能共振" },
+        "total": 8,
+        "grade": "S"
+      },
+      "writing_archetype": "调查实验型",
+      "anchor": { "type": "炫技", "hook_ref": "@petergyang 4/23 推文 150 赞 / 21 评论：GPT-5.5 + Codex 首次通过他的 F-Zero 测试" },
+      "angle": "从一个博主自创的「每次新模型都用 F-Zero 测一遍」的私人小实验讲起，串出编程 Agent 从「看起来会写代码」到「一次交出能玩的完整游戏」的跃迁节点，并带出同日 Box 企业侧 eval 的双重印证",
+      "opening": "Peter Yang 有个测模型的私人基准——让模型一次性写一个能玩的 F-Zero 赛车游戏，还要带能陪你赛跑的 AI 对手。一年多来他拿这个基准测过十几款新模型，直到 4 月 23 日 GPT-5.5 发布当天，第一次有个组合真的交出了那款能玩的。",
+      "story_hook": {
+        "challenge": "一年多以来，每次大模型发布 Peter Yang 都跑同一个测试——写一个 F-Zero 赛车游戏，带能跟你赛的 AI 机器人；过去所有模型，包括 Claude Opus 和前几代 GPT，要么跑不起来、要么 AI 对手傻得不能看",
+        "twist": "GPT-5.5 + Codex 是第一个组合，不仅交出了能跑的游戏，还顺手生成了一批不同风格的 AI 对手陪你赛；同一天 Aaron Levie 把 GPT-5.5 放进 Box 的企业知识工作 eval，拿到十个百分点的跳跃——金融服务 83% vs 64%、医疗 78% vs 61%、公共部门 72% vs 59%——独立 vibe coding 和企业知识工作两条线的「从能用到真好用」几乎同一天落地"
+      },
+      "takeaway": "读者可以带走两样东西：一，GPT-5.5 + Codex 这对组合现在是 vibe coding 的实际 SOTA，考虑从 Claude Code 迁移的独立开发者值得立刻跑一次自己手头的私人基准；二，个人小基准——F-Zero、自家金融 eval、一份公司 PRD 的改写——正在比 SWE-Bench 更像真实能力雷达，因为它们没法被训练集过拟合",
+      "sources": [
+        { "tag": "follow-builders", "ref": "@petergyang 4/23 推文：GPT-5.5 + Codex 首次通过 F-Zero 测试，150 赞 / 12 转 / 21 评", "url": "https://x.com/petergyang/status/2047502885710410159" },
+        { "tag": "follow-builders", "ref": "@levie 4/23 推文：GPT-5.5 在 Box 企业 eval 比 5.4 提升约 10 个百分点，金融 83% vs 64%", "url": "https://x.com/levie/status/2047387742951313910" },
+        { "tag": "builderpulse", "ref": "BuilderPulse zh 信号 #3：Kimi K2.6 开放权重跨源验证，同周给开发者提供第三条替代路径", "url": "https://www.kimi.com/blog/kimi-k2-6" }
+      ]
+    }
+  ],
+  "notes": "今日数据极强：Anthropic postmortem、GPT-5.5 发布、Claude Managed Agents Memory beta、Cloud Code Pro 计划移除、Tell HN「受够 AI」都挤在同一周。选题 1 是全行业罕见的大厂技术致歉文（S 9），选题 2 是同周 GPT-5.5 实测 + 企业 eval 双重印证（S 8）。未采纳 Aaron Levie「AI 让我们工作更多」单独成篇，因单条推文素材密度不足；其核心观察作为选题 2 的企业侧数据引入。"
+}

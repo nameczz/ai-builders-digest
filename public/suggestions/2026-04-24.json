@@ -1,0 +1,67 @@
+{
+  "date": "2026-04-24",
+  "generated_at": "2026-04-24T08:38:00Z",
+  "model": "claude-opus-4-7",
+  "sources": ["builderpulse", "follow-builders"],
+  "items": [
+    {
+      "id": "2026-04-24-1",
+      "title": "Anthropic 亲自写了一份事故复盘：Claude Code 这一个月变蠢的三个 bug",
+      "intersection": {
+        "expertise": "我们是 Claude Code 重度用户，能把复盘里的三个技术 bug 翻译给公众号读者",
+        "reader_interest": "每个用 Claude Code 的中文开发者这个月都在吐槽「变蠢了」，现在官方给了答案",
+        "timeliness": "4 月 23 日 Anthropic 工程团队公开发布事故复盘，HN 625 分 / 485 条评论，是今年罕见的厂商主动复盘"
+      },
+      "hkr": {
+        "happy": {"score": 3, "why": "厂商主动承认事故并点名到具体子系统，在 AI 圈罕见"},
+        "knowledge": {"score": 3, "why": "三个 bug 各自是一个完整的工程教训：默认值选错、缓存优化副作用、提示词字数限制反噬能力"},
+        "resonance": {"score": 3, "why": "过去一个月所有 Claude Code 用户都感受过「变笨」，读完复盘会有「我不是一个人」的强烈共鸣"},
+        "total": 9,
+        "grade": "S"
+      },
+      "writing_archetype": "现象解读型",
+      "anchor": {"type": "热点", "hook_ref": "HN 625 分 / 485 条评论 / Anthropic Engineering 官方"},
+      "angle": "从用户体感「Claude Code 变蠢」的现象切入，拆开 Anthropic 公布的三个 bug，看一个前沿 AI 厂商在信任受损时如何选择「把事故复盘公开」这条路",
+      "opening": "过去一个月，如果你也觉得 Claude Code 变笨了——经常忘记上下文、输出越来越短、莫名重复动作——那不是错觉。4 月 23 日，Anthropic 工程团队发了一份长达数千字的事故复盘，亲口承认了这件事。",
+      "story_hook": {
+        "challenge": "过去一个月 Claude Code 用户反馈「模型变蠢」「忘记上下文」「输出变浅」「usage 消耗比以前快」，Anthropic 自己的内部评测却一直复现不出来",
+        "twist": "复盘显示三个 bug 同时在跑——3 月 4 日默认 reasoning effort 从 high 降到 medium、3 月 26 日 caching 优化把每一轮的 thinking 都清掉了、4 月 16 日系统提示词加了『工具调用之间 ≤25 字』的字数限制——三件事各影响一部分用户和一部分时间段，叠起来就变成「广泛但不一致」的退化。更反直觉的是，Anthropic 事后用 Opus 4.7 回查这些有问题的 PR，Opus 4.7 找出了 bug，Opus 4.6 没找到——于是他们顺手决定把 Code Review 工具接入更多代码仓库作为上下文"
+      },
+      "takeaway": "这份事故复盘真正值得读两遍的，不是三个 bug 的技术细节，而是它透露的一个正在发生的行业变化：当 Anthropic 开始把「发布工程事故复盘」当成产品交付的一部分，「厂商透明度」就从公关词变成了采购标准——下一次你选模型、选云、选 SaaS 的时候，问一句「你们上次出事有没有写复盘」不再是刁难，而是默认动作",
+      "sources": [
+        {"tag": "builderpulse", "ref": "BuilderPulse 2026-04-24 zh/en Top 3 信号与 Action 章节", "url": "https://www.anthropic.com/engineering/april-23-postmortem"},
+        {"tag": "follow-builders", "ref": "Anthropic Engineering 原文 / follow-builders blogs feed 2026-04-24", "url": "https://news.ycombinator.com/item?id=47878905"}
+      ]
+    },
+    {
+      "id": "2026-04-24-2",
+      "title": "就在 GPT-5.5 发布的同一天，DeepSeek v4 悄悄开源了百万 token 上下文",
+      "intersection": {
+        "expertise": "我们长期追踪开源权重与闭源 API 的差距",
+        "reader_interest": "中文开发者对 DeepSeek 关注度高，开源权重对独立开发者意味着「可以不走 API 按次付费」",
+        "timeliness": "4 月 24 日 DeepSeek V4-Pro 在 HuggingFace 以 1,235 趋势分登顶，同一天 GPT-5.5 发布 + Anthropic 事故复盘同时占据 HN 首页"
+      },
+      "hkr": {
+        "happy": {"score": 3, "why": "同一天三种风格完全不同的发布——OpenAI 开发布会、Anthropic 发道歉、DeepSeek 一句话不说直接丢模型——反差本身就是好故事"},
+        "knowledge": {"score": 2, "why": "百万 token 上下文 + MIT 许可 + FP8/8 位量化的组合，对想本地部署的人是实打实的技术信息"},
+        "resonance": {"score": 2, "why": "中文读者对 DeepSeek 有天然关注度，但「百万上下文本地跑」对大多数读者仍偏硬核"},
+        "total": 7,
+        "grade": "S"
+      },
+      "writing_archetype": "产品体验型",
+      "anchor": {"type": "热点", "hook_ref": "HuggingFace 趋势分 1,235 / HN 365 分 / @amasad 公开点名"},
+      "angle": "在闭源实验室互相晒 benchmark 的那一天，一家中国厂商用 MIT 许可把「前沿级百万上下文」拽回到所有人都能本地跑的位置，改写「超过 200K 上下文必须用托管 API」这条默认规则",
+      "opening": "2026 年 4 月 24 日这天很热闹。OpenAI 发 GPT-5.5，Anthropic 发事故复盘，而 DeepSeek——没开发布会、没写博客，直接在 HuggingFace 丢出一个 MIT 许可、百万 token 上下文、Day 1 附带 FP8 和 8 位量化的 V4-Pro。",
+      "story_hook": {
+        "challenge": "过去一个季度，「上下文超过 200K 就必须上托管 API」是每家闭源实验室的默认卖点，独立开发者要嘛按次付费、要嘛接受更短的上下文",
+        "twist": "DeepSeek V4 第一天就把「百万 token 上下文 + MIT 许可 + 量化版本」三件套一次发齐——单张 H100 或一台 96GB 内存的 Mac 就能跑，按次调用账单直接换成一次性硬件投入。同一天 Replit CEO Amjad Masad 在 X 上直接点名：「当美国政客还在散布『中国蒸馏论』的时候，中国科学家在开源真正的 AI 突破」"
+      },
+      "takeaway": "选模型这件事在 2026 年已经不只是「看 benchmark 分」，而是「看你的场景经济学」——如果你的 workflow 每天烧百万上下文，开源权重加自己的机器从「不划算」变成「更划算」，是一条被重新打开的路",
+      "sources": [
+        {"tag": "builderpulse", "ref": "BuilderPulse 2026-04-24 HuggingFace 趋势榜与 DeepSeek V4 章节", "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro"},
+        {"tag": "follow-builders", "ref": "@amasad 2026-04-24 X 发文『DeepSeek v4 just dropped』", "url": "https://x.com/amasad/status/2047519635063631914"}
+      ]
+    }
+  ],
+  "notes": "今日信号集中在「厂商信任」与「开源对闭源」两条主线——Anthropic 事故复盘（S=9）是主打，DeepSeek V4 悄然开源（S=7）作为反衬"
+}

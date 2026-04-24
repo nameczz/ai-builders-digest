@@ -1,0 +1,67 @@
+{
+  "date": "2026-04-23",
+  "generated_at": "2026-04-24T08:15:00Z",
+  "model": "claude-opus-4-7",
+  "sources": ["builderpulse", "follow-builders"],
+  "items": [
+    {
+      "id": "2026-04-23-1",
+      "title": "Claude Code 最近变笨是真的，Anthropic 今天自曝一个月里三连 bug",
+      "intersection": {
+        "expertise": "我们从 Day 1 就在重度使用 Claude Code，对每一次响应质量都有第一手体感",
+        "reader_interest": "读者群里付 200 美元订阅 Claude 的人过去一个月几乎都在问「最近是不是变笨了」，这是一次集体疑问的权威回答",
+        "timeliness": "4 月 23 日 Anthropic Engineering 发布官方 postmortem，并为所有订阅用户重置 usage limits"
+      },
+      "hkr": {
+        "happy": { "score": 3, "why": "大模型厂商罕见地详细披露三个同时发生的独立 bug，精确到 commit 日期和具体代码变更，带强烈反差" },
+        "knowledge": { "score": 3, "why": "三个 bug 分别来自 reasoning effort 默认值、thinking 缓存逻辑、verbosity 控制的 system prompt，拆开讲能让读者学到「感觉不对」的复杂系统里问题往往不在模型层" },
+        "resonance": { "score": 3, "why": "每一个 Claude Code 用户读到三条 bug 都会产生『原来是这个原因』的顿悟，带强社群共鸣" },
+        "total": 9,
+        "grade": "S"
+      },
+      "writing_archetype": "现象解读型",
+      "anchor": { "type": "痛点", "hook_ref": "Anthropic Engineering 2026-04-23 postmortem + 全员重置 usage limits" },
+      "angle": "把「最近 Claude 变笨」的集体困惑，还原成一张 3-4、3-26、4-16 三个变更叠加的时间线，并借此讲清楚一件事：用户对 LLM 产品的体感，往往取决于模型外层的编排、缓存和 system prompt，而不是模型本身",
+      "opening": "过去一个月，几乎每天都有开发者在群里问 Claude Code 是不是悄悄变笨了。4 月 23 日 Anthropic 亲自发了一篇 postmortem，答案是：不是错觉，是三个完全独立的 bug 在过去一个月叠着生效",
+      "story_hook": {
+        "challenge": "所有 Claude Code 重度用户同时感到模型响应质量在降级，但 API 基准测试和内部评测都没变化，谁也说不清具体是什么在退步",
+        "twist": "三个 bug 彼此独立——默认 reasoning effort 从 high 降到 medium、thinking 缓存每轮清零而非一次性清零、system prompt 加了一条 25 词硬性上限——碰巧在同一段时间内叠到了一起，单独看都不致命，合起来就是「Claude 明显变笨」的体感"
+      },
+      "takeaway": "当复杂 LLM 产品「感觉不对」时，第一反应不该是怀疑模型权重退步，而该去查编排层、缓存层和 system prompt 层；这也是为什么 Anthropic 自己用 Opus 4.7 做 Code Review 回溯能发现 bug，而 4.6 做同样事情发现不了——真实线上问题的根因，通常藏在模型看不到的管道里",
+      "sources": [
+        { "tag": "follow-builders", "ref": "Anthropic Engineering 2026-04-23 postmortem 原文", "url": "https://www.anthropic.com/engineering/april-23-postmortem" },
+        { "tag": "builderpulse", "ref": "HN 热议 Claude Code 从 Pro 计划移除 664 分 / BuilderPulse zh 2026-04-23", "url": "https://news.ycombinator.com/item?id=47854477" }
+      ]
+    },
+    {
+      "id": "2026-04-23-2",
+      "title": "当 Hacker News 头条换成一台连电子燃油喷射都嫌多的拖拉机",
+      "intersection": {
+        "expertise": "我们长期观察硅谷开发者文化与情绪拐点，能把单条新闻放进更大的叙事结构里",
+        "reader_interest": "中文 AI 创作者圈子里「AI 疲劳」的情绪也在蔓延，读者想知道这只是自己的感觉，还是一种结构性信号",
+        "timeliness": "4 月 23 日 Ursa Ag 半价无电子拖拉机以 1479 分登顶 HN，同一天 Tell HN「我受够了 AI」324 分仍在 Best 榜，Google Trends 上 anytype +250% 和 photomator +2500% 同步上升"
+      },
+      "hkr": {
+        "happy": { "score": 3, "why": "Hacker News 头条是一台拖拉机这件事本身就自带悬念和反差，读者一看就想点进去" },
+        "knowledge": { "score": 2, "why": "现象堆叠能引出「反特性定价」与「反云生产力工具群」两个具体商业概念，但不会有很重的技术干货" },
+        "resonance": { "score": 3, "why": "戳的是每个被 SaaS 订阅、AI 遥测、每周一个新 agent 产品折磨到疲惫的读者，容易引发『对对对我也这么想』" }
+      },
+      "hkr_total_note": "为了避免 schema 里冗余，正式打分在上面 hkr 字段",
+      "writing_archetype": "现象解读型",
+      "anchor": { "type": "热点", "hook_ref": "HN 头条 1479 分 Ursa Ag 无电子拖拉机" },
+      "angle": "从一台阿尔伯塔省拖拉机出发，连到 HN 的「我受够了 AI」帖子、连到 anytype 和 photomator 的搜索回升、连到 GitHub CLI 加遥测的集体暴怒——看似不相关的信号，其实指向同一件事：市场正在从『更多功能』转向『少碰我的东西』",
+      "opening": "今天 Hacker News 的第一名不是 GPT-5.5、不是 DeepSeek v4，是一家阿尔伯塔省创业公司卖的半价拖拉机：零电子设备、零订阅、零遥测，1479 分 501 条评论。往下刷两条，一篇标题叫「我受够了 AI 无处不在」的 Tell HN 还挂在 Best 榜上",
+      "story_hook": {
+        "challenge": "过去十年 SaaS 与消费硬件的默认叙事，是不断加功能、加 AI、加订阅、加数据收集——每一次添加都为更高的价格找理由",
+        "twist": "Ursa Ag 反过来，把卖点直接定为『什么都没加』，价格却定在 John Deere 的一半；同一天 Framework Laptop 13 Pro 以热插拔回 2021 年机箱的向后兼容拿下 1433 分；Google Trends 上一批非 AI 的本地优先工具集体回升。这已经不是个体姿态，是一种正在被价格和搜索数据共同定义的新品类"
+      },
+      "takeaway": "2026 年最便宜的差异化定位杠杆，可能不是『我比别人多一个能力』，而是『我比别人少做了一件你本来就不想要的事』——无订阅、无遥测、无云，每一个「无」都是一次主动放弃，也是一次主动定价",
+      "sources": [
+        { "tag": "builderpulse", "ref": "HN 头条 Ursa Ag 无电子拖拉机 1479 分 / BuilderPulse zh 2026-04-23", "url": "https://news.ycombinator.com/item?id=47865868" },
+        { "tag": "builderpulse", "ref": "Tell HN: I'm sick of AI everything 324 分 / BuilderPulse zh 2026-04-23", "url": "https://news.ycombinator.com/item?id=47857461" },
+        { "tag": "builderpulse", "ref": "GitHub CLI adds telemetry 428 分 / BuilderPulse zh 2026-04-23", "url": "https://news.ycombinator.com/item?id=47862331" }
+      ]
+    }
+  ],
+  "notes": "今日数据非常强，S 级两条，足以支撑一期双选题；Claude Code postmortem 是实用向主推，反 AI 浪潮是文化向补充，二者都直接对应中国 AI 创作者近一个月的真实体感"
+}
