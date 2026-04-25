@@ -33,7 +33,7 @@ const jetbrainsMono = JetBrains_Mono({
 
 export const metadata: Metadata = {
   title: "碳基生物爱 AI · BUILDERS DIGEST",
-  description: "每日精选 AI builder 的发声、综合行业脉动与一份给中文 AI 博主的选题建议。",
+  description: "每日精选 AI builder 的发声、综合行业风向标与一份给中文 AI 博主的选题建议。",
   openGraph: {
     title: "碳基生物爱 AI · Builders Digest",
     description: "Follow builders, not influencers.",

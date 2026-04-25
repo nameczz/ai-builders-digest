@@ -18,7 +18,7 @@ export default async function PulseIndexPage() {
         <header className="pb-6 border-b-2 border-ink">
           <div className="kicker mb-3">DAILY EDITION INDEX</div>
           <h1 className="font-display font-semibold text-[clamp(2.4rem,5vw,4rem)] leading-[1.02] tracking-tight text-ink">
-            脉动·卷期目录
+            风向标·卷期目录
           </h1>
           <p className="font-han text-base mt-4 text-ink-mute italic max-w-2xl">
             每日综合 HN、GitHub Trending、Product Hunt、HuggingFace、Google Trends 与 Reddit 六源信号，由编辑提炼成五章节专栏。

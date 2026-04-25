@@ -34,9 +34,9 @@ export default async function PulseDetailPage({
         {/* === Title block === */}
         <header className="grid md:grid-cols-[3fr_1fr] gap-8 items-end pb-7 border-b-2 border-ink">
           <div>
-            <div className="kicker mb-3">第 {date.replace(/-/g, ".")} 期 · DAILY PULSE</div>
+            <div className="kicker mb-3">第 {date.replace(/-/g, ".")} 期 · DAILY BAROMETER</div>
             <h1 className="font-display font-semibold text-[clamp(2.4rem,5vw,4rem)] leading-[1.02] tracking-tight text-ink">
-              今日脉动
+              今日风向标
             </h1>
             {data.intro && (
               <p className="font-han text-base mt-5 text-ink-soft italic max-w-2xl leading-7">— {data.intro}</p>

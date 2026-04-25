@@ -118,14 +118,14 @@ function LeadStory({ pulse, suggestionsDate }: { pulse: PulseDay; suggestionsDat
 /* ──────────────────────────────────────────────────────── */
 
 function FeatureColumn({ pulse, pulseDate }: { pulse: PulseDay | null; pulseDate?: string }) {
-  if (!pulse) return <EmptyState label="尚无 PULSE 数据" hint="python scripts/fetch-pulse.py" />;
+  if (!pulse) return <EmptyState label="尚无风向标数据" hint="python scripts/fetch-pulse.py" />;
 
   // Pick 2 representative blocks (first non-empty section)
   const featBlocks = pulse.sections.flatMap((s) => s.blocks.map((b) => ({ b, sec: s.title }))).slice(0, 2);
 
   return (
     <section>
-      <SectionMast number="I" title="头条·脉动" subtitle="TODAY'S PULSE" />
+      <SectionMast number="I" title="头条·风向标" subtitle="TODAY'S BAROMETER" />
 
       {featBlocks.map(({ b, sec }, idx) => (
         <article key={b.id} className={idx > 0 ? "mt-9 pt-7 border-t border-rule-soft" : ""}>
