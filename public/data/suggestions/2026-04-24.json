@@ -1,0 +1,123 @@
+{
+  "date": "2026-04-24",
+  "items": [
+    {
+      "id": "2026-04-24-1",
+      "title": "Box CEO：AI 让我工作更多，不是更少",
+      "angle": "用 Aaron Levie 的亲身反直觉告白，拆解「AI 效率神话」的底层逻辑——它是欲望放大器，不是时间节省器",
+      "opening": "Box 的 CEO Aaron Levie 昨天说了一句让所有 AI 信徒不舒服的话：「我经常遇到看似小事，agent 让它变得容易启动，结果我花了三个小时。」他没在抱怨 AI——他在描述一个被所有人忽视的副作用：AI 把「不值得开始」的事变成了「反正可以试试」。",
+      "story_hook": {
+        "challenge": "所有 AI 工具都在宣传「节省时间」，用户的实际体验是任务量在膨胀",
+        "twist": "效率工具降低了启动门槛，但完成项目的人力成本没有变——你只是把更多事情纳入了工作范围"
+      },
+      "takeaway": "在用 AI 之前先问自己：这件事如果没有 AI 我会做吗？如果答案是「不会」，你不是在节省时间，你是在制造新工作",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Aaron Levie 推特：AI 让我做了更多原本不会开始的事，最终花了三小时",
+          "url": "https://x.com/levie/status/2047540230694350958"
+        },
+        {
+          "tag": "pulse",
+          "ref": "HN 765分「I cancelled Claude」——用户因效率体验恶化集体出走，455条评论",
+          "url": "https://nickyreinert.de/en/2026/2026-04-24-claude-critics/"
+        }
+      ]
+    },
+    {
+      "id": "2026-04-24-2",
+      "title": "一个纯文本配置文件一周涨 3 万 Star，超过任何新模型",
+      "angle": "从 andrej-karpathy-skills 爆红看「如何用好 AI」的知识稀缺性——模型已经商品化，方法论还没有",
+      "opening": "GitHub 本周增长最快的项目不是 DeepSeek V4，不是任何 agent 框架。它是一个文本文件：forrestchang/andrej-karpathy-skills，内容只是一份 CLAUDE.md 配置，汇总了 Karpathy 对 LLM 编程陷阱的观察。七天涨了 29,435 个 Star。对比同期 DeepSeek-V4-Pro 在 HuggingFace 的下载量：30次。",
+      "story_hook": {
+        "challenge": "模型发布的速度已经超过普通开发者的消化速度，新模型的边际关注度正在下降",
+        "twist": "「如何正确使用 AI」的方法论文件，关注度是最新开源旗舰模型的近千倍——稀缺的不是模型，是使用方法"
+      },
+      "takeaway": "把你调试出来的 AI 工作流配置、踩坑记录整理成 CLAUDE.md 或 AGENTS.md 并开源——这是今天成本最低、传播速度最快的内容形式",
+      "refs": [
+        {
+          "tag": "pulse",
+          "ref": "GitHub Trending #1 forrestchang/andrej-karpathy-skills，一周 29,435 Star，内容仅为 CLAUDE.md 配置",
+          "url": "https://github.com/forrestchang/andrej-karpathy-skills"
+        },
+        {
+          "tag": "builders",
+          "ref": "Garry Tan 推特：正在为 GBrain 创建新 evals，验证 graph+vector+grep 组合效果——方法层面的探索",
+          "url": "https://x.com/garrytan/status/2047578205528477711"
+        }
+      ]
+    },
+    {
+      "id": "2026-04-24-3",
+      "title": "Anthropic 主动发布事故报告：承认 Claude Code 质量变差了",
+      "angle": "一家顶级 AI 公司公开复盘质量事故，这件事本身比「Claude 变差」更值得关注——透明度能修复信任吗",
+      "opening": "2026年4月23日，Anthropic Engineering 发了一篇博文：「An update on recent Claude Code quality reports」。他们承认，过去一个月里有三次独立改动影响了 Claude Code、Claude Agent SDK 和 Claude Cowork 的质量，直到4月20日才全部修复。文章详细列出了根因、修复时间线和后续预防措施。第二天，HN 上「I cancelled Claude」拿到765分。",
+      "story_hook": {
+        "challenge": "用户已经离开了，事后报告能召回他们吗——透明度和信任修复之间到底隔着什么",
+        "twist": "AI 公司的惯例是沉默或模糊回应质量投诉，Anthropic 这次选择了详细的公开复盘，但时机比事故本身晚了一个月"
+      },
+      "takeaway": "当你的产品出质量问题时，最好的公关不是否认也不是通用道歉——Anthropic 的事故报告格式值得独立产品学习：根因分析 + 修复时间线 + 具体预防措施，三段缺一不可",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Anthropic Engineering 博客：Claude Code 质量问题事故完整复盘（2026-04-23）",
+          "url": "https://www.anthropic.com/engineering/april-23-postmortem"
+        },
+        {
+          "tag": "pulse",
+          "ref": "HN 765分「I cancelled Claude」，455条评论，事故报告发布次日爆发",
+          "url": "https://nickyreinert.de/en/2026/2026-04-24-claude-critics/"
+        }
+      ]
+    },
+    {
+      "id": "2026-04-24-4",
+      "title": "美国政客喊封锁中国 AI，DeepSeek V4 直接开源百万上下文",
+      "angle": "Amjad Masad 点出中美 AI 竞争最荒诞的反差：喊封锁的不懂技术，做技术的在分享",
+      "opening": "Replit CEO Amjad Masad 昨天发了一条推：「美国政客在为『中国蒸馏』制造恐慌，中国科学家却在开放分享真正的 AI 突破。」他说的就是 DeepSeek V4——百万 token 上下文，MIT 协议，FP8 推理，HuggingFace 热度 2340。封锁的对象，正在免费送你最好的工具。",
+      "story_hook": {
+        "challenge": "政策层面的封锁叙事和技术层面的开放现实之间，存在一个越来越大的认知裂缝",
+        "twist": "开源的 1M 上下文模型让所有人受益，包括美国小型 AI 实验室——「被封锁的对象」在给竞争者送礼"
+      },
+      "takeaway": "DeepSeek V4 MIT 开源可自部署，1M 上下文，今天就可以开始构建「整个代码库自然语言问答」原型——不需要 API 费，只需要计算资源",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Amjad Masad 推特：中国科学家在开放分享 AI 突破，美国政客在喊封锁蒸馏",
+          "url": "https://x.com/amasad/status/2047547275682214384"
+        },
+        {
+          "tag": "pulse",
+          "ref": "HuggingFace 热榜 #1 DeepSeek-V4-Pro，热度 2340，1M 上下文，MIT 开源",
+          "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro"
+        }
+      ]
+    },
+    {
+      "id": "2026-04-24-5",
+      "title": "GPT-5.5 发布日：一个 PM 用它两小时做出了一款游戏",
+      "angle": "不看发布会，看谁在用它建东西——Peter Yang 的 F-Zero demo 是今天最有说服力的产品力证明",
+      "opening": "GPT-5.5 昨天悄悄上线了 API，没有大发布会，没有倒计时。Product Hunt 的 Peter Yang 做了他的「F-Zero 测试」——每次有新模型，他都尝试用它做一个 F-Zero 赛车游戏。这次，GPT-5.5 + Codex 是第一个真正构建出可运行游戏的组合，还生成了 AI 对手赛车。他说：「什么疯狂的时代。」",
+      "story_hook": {
+        "challenge": "每次大模型发布，媒体比拼的是 benchmark 分数，开发者真正关心的是能不能用它做出东西",
+        "twist": "衡量一个模型的最真实方式不是 MMLU，而是「它能不能帮我把一个想法从零完成到可演示」"
+      },
+      "takeaway": "设计你自己的「F-Zero 测试」——找一个你反复用来测试新工具的标准任务，用它作为每次模型更新的基准，比 benchmark 更能帮你做选型决策",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Peter Yang 推特：GPT-5.5 + Codex 是第一个通过 F-Zero 测试的模型组合，生成了可运行游戏",
+          "url": "https://x.com/petergyang/status/2047502885710410159"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Swyx 推特：今天发布最被低估的部分不是 GPT-5.5 本身",
+          "url": "https://x.com/swyx/status/2047536499999346812"
+        }
+      ]
+    }
+  ],
+  "notes": "今日数据极其丰富，五条选题角度差异明显：效率悖论、方法论稀缺、企业透明度、地缘政治、产品竞争。Topic 3（Anthropic 事故报告）和 Topic 1（用户流失）都涉及 Claude 质量，但 Topic 1 切的是用户心理，Topic 3 切的是企业危机公关模板，受众和行动含义不同。缺少「独立开发者首次创收」类的草根叙事素材，如有可在次日补充。",
+  "generated_at": "2026-04-25T01:20:25+00:00",
+  "model": "claude-sonnet-4-6"
+}

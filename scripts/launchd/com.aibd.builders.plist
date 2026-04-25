@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.aibd.builders</string>
+
+    <!-- Runs at 09:00 local time every day -->
+    <key>StartCalendarInterval</key>
+    <dict>
+        <key>Hour</key>
+        <integer>9</integer>
+        <key>Minute</key>
+        <integer>0</integer>
+    </dict>
+
+    <key>ProgramArguments</key>
+    <array>
+        <string>/bin/bash</string>
+        <string>-lc</string>
+        <string>cd __REPO_ROOT__ &amp;&amp; bash scripts/morning.sh</string>
+    </array>
+
+    <key>WorkingDirectory</key>
+    <string>__REPO_ROOT__</string>
+
+    <!-- If set, claude CLI uses API key billing instead of Claude Code OAuth.
+         Recommended for headless / unattended runs (no Keychain dependency).
+         Leave commented to use your Claude Code login subscription. -->
+    <!--
+    <key>EnvironmentVariables</key>
+    <dict>
+        <key>ANTHROPIC_API_KEY</key>
+        <string>sk-ant-...</string>
+    </dict>
+    -->
+
+
+    <key>StandardOutPath</key>
+    <string>__HOME__/Library/Logs/aibd-builders.launchd.log</string>
+    <key>StandardErrorPath</key>
+    <string>__HOME__/Library/Logs/aibd-builders.launchd.err</string>
+
+    <!-- Don't fire immediately on load (we only want the scheduled trigger) -->
+    <key>RunAtLoad</key>
+    <false/>
+
+    <!-- If the Mac was asleep at 09:00, run as soon as it wakes -->
+    <key>StartCalendarIntervalCatchUp</key>
+    <true/>
+</dict>
+</plist>

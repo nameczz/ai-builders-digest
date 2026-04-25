@@ -1,104 +1,271 @@
 @import "tailwindcss";
 
 :root {
-  /* ── Surfaces ── */
-  --parchment: #f5f4ed;
-  --ivory: #faf9f5;
-  --white: #ffffff;
-  --warm-sand: #e8e6dc;
-  --dark-surface: #30302e;
-  --near-black: #141413;
+  /* ── Paper & Ink ── */
+  --paper:        #f4ede0;
+  --paper-soft:   #ebe4d3;
+  --paper-deep:   #ddd2b8;
+  --ink:          #171513;
+  --ink-soft:     #2a2622;
+  --ink-mute:     #5e574d;
+  --ink-faint:    #9c9489;
+  --rule:         #b8ad97;
+  --rule-soft:    #d4c9b1;
 
-  /* ── Brand ── */
-  --terracotta: #c96442;
-  --coral: #d97757;
+  /* ── Accents (use sparingly) ── */
+  --vermilion:    #bd3b1a;       /* 印泥红 — single hero accent */
+  --vermilion-deep: #8e2c14;
+  --indigo:       #233348;       /* secondary, mostly for links */
+  --highlighter:  #f3d27a;       /* marker overlay */
 
-  /* ── Neutrals (all warm-toned) ── */
-  --charcoal: #4d4c48;
-  --olive-gray: #5e5d59;
-  --stone-gray: #87867f;
-  --warm-silver: #b0aea5;
+  /* ── Source tag fills (small) ── */
+  --tag-ink:      #1a1714;
+  --tag-paper:    #ede4cf;
 
-  /* ── Borders ── */
-  --border-cream: #f0eee6;
-  --border-warm: #e8e6dc;
-  --ring-warm: #d1cfc5;
-  --ring-deep: #c2c0b6;
-
-  /* ── Source tags ── */
-  --tag-x-bg: #eae8e0;
-  --tag-x-text: #4d4c48;
-  --tag-podcast-bg: #f0e6e0;
-  --tag-podcast-text: #c96442;
-  --tag-blog-bg: #e6ebe0;
-  --tag-blog-text: #5e6d50;
-
-  /* ── Focus ── */
-  --focus-blue: #3898ec;
+  /* ── Type ── */
+  --font-display: 'Fraunces';
+  --font-body:    'Newsreader';
+  --font-han:     'Noto Serif SC';
+  --font-mono:    'JetBrains Mono';
 }
 
 @theme inline {
-  --color-parchment: var(--parchment);
-  --color-ivory: var(--ivory);
-  --color-warm-sand: var(--warm-sand);
-  --color-near-black: var(--near-black);
-  --color-dark-surface: var(--dark-surface);
-  --color-terracotta: var(--terracotta);
-  --color-coral: var(--coral);
-  --color-charcoal: var(--charcoal);
-  --color-olive-gray: var(--olive-gray);
-  --color-stone-gray: var(--stone-gray);
-  --color-warm-silver: var(--warm-silver);
-  --color-border-cream: var(--border-cream);
-  --color-border-warm: var(--border-warm);
-  --color-ring-warm: var(--ring-warm);
-  --font-sans: var(--font-geist-sans), system-ui, -apple-system, sans-serif;
-  --font-mono: var(--font-geist-mono), monospace;
+  --color-paper:        var(--paper);
+  --color-paper-soft:   var(--paper-soft);
+  --color-paper-deep:   var(--paper-deep);
+  --color-ink:          var(--ink);
+  --color-ink-soft:     var(--ink-soft);
+  --color-ink-mute:     var(--ink-mute);
+  --color-ink-faint:    var(--ink-faint);
+  --color-rule:         var(--rule);
+  --color-rule-soft:    var(--rule-soft);
+  --color-vermilion:    var(--vermilion);
+  --color-vermilion-deep: var(--vermilion-deep);
+  --color-indigo:       var(--indigo);
+  --color-highlighter:  var(--highlighter);
+
+  --font-sans:    var(--font-body), Georgia, 'Source Serif', serif;
+  --font-display: var(--font-display), 'Times New Roman', serif;
+  --font-han:     var(--font-han), 'Songti SC', SimSun, serif;
+  --font-mono:    var(--font-mono), Menlo, monospace;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-feature-settings: "ss01", "ss02", "kern";
 }
 
 body {
-  background: var(--parchment);
-  color: var(--near-black);
-  font-family: var(--font-sans);
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-body), var(--font-han), Georgia, serif;
+  font-size: 16px;
+  line-height: 1.7;
+  text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-html { scroll-behavior: smooth; }
+/* ── Paper texture ── */
+.paper-bg {
+  background-color: var(--paper);
+  background-image:
+    radial-gradient(at 18% 22%, rgba(189, 59, 26, 0.025) 0, transparent 38%),
+    radial-gradient(at 82% 78%, rgba(35, 51, 72, 0.020) 0, transparent 42%),
+    repeating-linear-gradient(0deg, rgba(23, 21, 19, 0.012) 0, rgba(23, 21, 19, 0.012) 1px, transparent 1px, transparent 4px);
+}
 
-/* ── Serif heading class ── */
-.font-serif-heading {
-  font-family: Georgia, 'Times New Roman', serif;
+/* ── Display & headings ── */
+.font-display {
+  font-family: var(--font-display), 'Times New Roman', serif;
+  font-feature-settings: "ss01", "ss02", "swsh";
+  letter-spacing: -0.015em;
+}
+
+.font-han {
+  font-family: var(--font-han), 'Songti SC', SimSun, serif;
+}
+
+.font-mono {
+  font-family: var(--font-mono), monospace;
+}
+
+/* ── Smallcaps masthead labels ── */
+.smallcaps {
+  font-family: var(--font-mono), monospace;
+  font-size: 11px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--ink-mute);
   font-weight: 500;
 }
 
-/* ── Staggered card entrance ── */
-@keyframes cardIn {
-  from { opacity: 0; transform: translateY(6px); }
-  to { opacity: 1; transform: translateY(0); }
-}
-.card-animate {
-  animation: cardIn 0.3s ease-out both;
+.kicker {
+  font-family: var(--font-mono), monospace;
+  font-size: 10px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--vermilion);
+  font-weight: 600;
 }
 
-/* ── Shimmer loading ── */
-@keyframes shimmer {
-  0% { background-position: -200% 0; }
-  100% { background-position: 200% 0; }
+/* ── Newsprint rules ── */
+.rule-thin   { border-top: 1px solid var(--rule-soft); }
+.rule-bold   { border-top: 2px solid var(--ink); }
+.rule-double {
+  border-top: 1px solid var(--ink);
+  box-shadow: 0 3px 0 -2px var(--ink);
+  padding-top: 4px;
 }
-.shimmer {
-  background: linear-gradient(90deg, var(--border-cream) 25%, var(--warm-sand) 50%, var(--border-cream) 75%);
-  background-size: 200% 100%;
-  animation: shimmer 1.5s ease-in-out infinite;
+.rule-vermilion { border-top: 2px solid var(--vermilion); }
+
+/* ── Drop cap ── */
+.dropcap::first-letter {
+  font-family: var(--font-display), serif;
+  float: left;
+  font-size: 4.4rem;
+  line-height: 0.85;
+  font-weight: 600;
+  margin: 0.45rem 0.55rem 0 -0.05rem;
+  color: var(--vermilion);
+  font-feature-settings: "ss01";
+}
+
+/* ── Pull quote ── */
+.pullquote {
+  position: relative;
+  padding: 1.2rem 0 1.2rem 2.2rem;
+  border-left: 2px solid var(--vermilion);
+  font-family: var(--font-display), serif;
+  font-style: italic;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  color: var(--ink-soft);
+}
+.pullquote::before {
+  content: "❝";
+  position: absolute;
+  left: -0.6rem;
+  top: -0.8rem;
+  font-size: 3rem;
+  color: var(--vermilion);
+  font-family: var(--font-display), serif;
+  line-height: 1;
+  opacity: 0.55;
+}
+
+/* ── Highlighter marker ── */
+.marker {
+  background: linear-gradient(transparent 62%, var(--highlighter) 62%, var(--highlighter) 92%, transparent 92%);
+  padding: 0 0.06em;
+}
+
+/* ── Folio (corner page-number style) ── */
+.folio {
+  font-family: var(--font-mono), monospace;
+  font-size: 10px;
+  letter-spacing: 0.2em;
+  color: var(--ink-faint);
+}
+
+/* ── Seal (印章) badge ── */
+.seal {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--vermilion);
+  color: var(--paper);
+  font-family: var(--font-han), serif;
+  font-weight: 700;
+  font-size: 14px;
+  width: 36px;
+  height: 36px;
+  border-radius: 4px;
+  letter-spacing: -0.05em;
+  box-shadow:
+    inset 0 0 0 1px rgba(255, 255, 255, 0.2),
+    0 1px 0 rgba(23, 21, 19, 0.08);
+  transform: rotate(-3deg);
+  flex-shrink: 0;
+}
+
+.seal-mini {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--vermilion);
+  color: var(--paper);
+  font-family: var(--font-han), serif;
+  font-weight: 700;
+  font-size: 10px;
+  padding: 1px 4px;
+  border-radius: 2px;
+  letter-spacing: 0;
+  vertical-align: middle;
+}
+
+/* ── Number display (for trends % etc) ── */
+.numeral {
+  font-family: var(--font-display), serif;
+  font-feature-settings: "tnum", "lnum";
+  font-weight: 600;
+  letter-spacing: -0.03em;
+}
+
+/* ── Decorative ornament ── */
+.ornament {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  color: var(--rule);
+}
+.ornament::before, .ornament::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: var(--rule-soft);
+}
+.ornament > span {
+  color: var(--vermilion);
+  font-family: var(--font-display), serif;
+  font-size: 1rem;
+  letter-spacing: 0.5em;
+  padding-left: 0.5em;
+}
+
+/* ── Underline link style ── */
+.editorial-link {
+  color: var(--ink);
+  text-decoration: underline;
+  text-decoration-color: var(--rule);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+  transition: color 120ms, text-decoration-color 120ms;
+}
+.editorial-link:hover {
+  color: var(--vermilion);
+  text-decoration-color: var(--vermilion);
+}
+
+/* ── Stagger entrance ── */
+@keyframes inkRise {
+  from { opacity: 0; transform: translateY(4px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.ink-rise {
+  animation: inkRise 480ms ease-out both;
 }
 
 /* ── Scrollbar ── */
-::-webkit-scrollbar { width: 5px; }
+::-webkit-scrollbar { width: 6px; height: 6px; }
 ::-webkit-scrollbar-track { background: transparent; }
-::-webkit-scrollbar-thumb { background: var(--ring-warm); border-radius: 3px; }
-::-webkit-scrollbar-thumb:hover { background: var(--stone-gray); }
+::-webkit-scrollbar-thumb { background: var(--rule); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: var(--ink-mute); }
 
-/* ── Date input ── */
+/* ── Selection ── */
+::selection { background: var(--vermilion); color: var(--paper); }
+
+/* ── Date input fix ── */
 input[type="date"]::-webkit-calendar-picker-indicator {
   opacity: 0.4;
   cursor: pointer;
