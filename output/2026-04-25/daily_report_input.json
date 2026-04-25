@@ -1,0 +1,855 @@
+{
+  "date": "2026-04-25",
+  "generated_at": "2026-04-25T04:36:05.774602+00:00",
+  "sources": {
+    "hacker_news": {
+      "top_stories": [],
+      "show_hn": [],
+      "ask_hn": []
+    },
+    "github_trending": {
+      "weekly": [
+        {
+          "repo": "forrestchang/andrej-karpathy-skills",
+          "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
+          "language": "",
+          "weekly_stars": 29435,
+          "total_stars": 84210,
+          "forks": 8063,
+          "open_issues": 72,
+          "license": "",
+          "topics": [],
+          "created_at": "2026-01-27",
+          "owner_type": "user",
+          "homepage": "",
+          "has_commercial": false,
+          "has_funding": false,
+          "daily_stars": 0
+        },
+        {
+          "repo": "SimoneAvogadro/android-reverse-engineering-skill",
+          "description": "Claude Code skill to support Android app's reverse engineering",
+          "language": "Shell",
+          "weekly_stars": 2258,
+          "total_stars": 4867,
+          "forks": 562,
+          "open_issues": 10,
+          "license": "Apache-2.0",
+          "topics": [],
+          "created_at": "2026-02-02",
+          "owner_type": "user",
+          "homepage": "",
+          "has_commercial": false,
+          "has_funding": false,
+          "daily_stars": 0
+        },
+        {
+          "repo": "Alishahryar1/free-claude-code",
+          "description": "Use claude-code for free in the terminal, VSCode extension or via discord like openclaw",
+          "language": "Python",
+          "weekly_stars": 5160,
+          "total_stars": 9427,
+          "forks": 1397,
+          "open_issues": 32,
+          "license": "MIT",
+          "topics": [],
+          "created_at": "2026-01-28",
+          "owner_type": "user",
+          "homepage": "",
+          "has_commercial": false,
+          "has_funding": false,
+          "daily_stars": 2638
+        },
+        {
+          "repo": "zilliztech/claude-context",
+          "description": "Code search MCP for Claude Code. Make entire codebase the context for any coding agent.",
+          "language": "TypeScript",
+          "weekly_stars": 2878,
+          "total_stars": 9075,
+          "forks": 694,
+          "open_issues": 108,
+          "license": "MIT",
+          "topics": [
+            "agent",
+            "agentic-rag",
+            "ai-coding",
+            "claude-code",
+            "code-generation",
+            "code-search",
+            "cursor",
+            "embedding",
+            "gemini-cli",
+            "mcp",
+            "merkle-tree",
+            "nodejs",
+            "openai",
+            "rag",
+            "semantic-search",
+            "typescript",
+            "vector-database",
+            "vibe-coding",
+            "voyage-ai",
+            "vscode-extension"
+          ],
+          "created_at": "2025-06-06",
+          "owner_type": "organization",
+          "homepage": "https://github.com/zilliztech/claude-context/tree/master/docs",
+          "has_commercial": false,
+          "has_funding": false,
+          "daily_stars": 706
+        },
+        {
+          "repo": "lsdefine/GenericAgent",
+          "description": "Self-evolving agent: grows skill tree from 3.3K-line seed, achieving full system control with 6x less token consumption",
+          "language": "Python",
+          "weekly_stars": 3483,
+          "total_stars": 6916,
+          "forks": 777,
+          "open_issues": 81,
+          "license": "MIT",
+          "topics": [
+            "ai-agent",
+            "automation",
+            "autonomous-agent",
+            "browser-automation",
+            "claude",
+            "computer-control",
+            "desktop-automation",
+            "gemini",
+            "lightweight",
+            "llm-agent",
+            "memory-system",
+            "python",
+            "self-evolving",
+            "skill-tree",
+            "task-automation"
+          ],
+          "created_at": "2026-01-16",
+          "owner_type": "user",
+          "homepage": "https://github.com/lsdefine/GenericAgent",
+          "has_commercial": false,
+          "has_funding": false,
+          "daily_stars": 0
+        },
+        {
+          "repo": "EvoMap/evolver",
+          "description": "The GEP-powered self-evolving engine for AI agents. Auditable evolution with Genes, Capsules, and Events. | evomap.ai",
+          "language": "JavaScript",
+          "weekly_stars": 3099,
+          "total_stars": 6833,
+          "forks": 680,
+          "open_issues": 5,
+          "license": "GPL-3.0",
+          "topics": [
+            "a2a",
+            "agent-evolution",
+            "agent-framework",
+            "agent-protocol",
+            "ai-agent",
+            "auditable-ai",
+            "autonomous-agent",
+            "cli",
+            "evomap",
+            "gep",
+            "llm-agent",
+            "mcp",
+            "memory-system",
+            "nodejs",
+            "prompt-engineering",
+            "prompt-governance",
+            "self-evolution",
+            "self-evolving",
+            "skill-library",
+            "skills"
+          ],
+          "created_at": "2026-02-01",
+          "owner_type": "organization",
+          "homepage": "https://evomap.ai",
+          "has_commercial": true,
+          "has_funding": false,
+          "daily_stars": 0
+        },
+        {
+          "repo": "openai/openai-agents-python",
+          "description": "A lightweight, powerful framework for multi-agent workflows",
+          "language": "Python",
+          "weekly_stars": 3372,
+          "total_stars": 25013,
+          "forks": 3818,
+          "open_issues": 66,
+          "license": "MIT",
+          "topics": [
+            "agents",
+            "ai",
+            "framework",
+            "llm",
+            "openai",
+            "python"
+          ],
+          "created_at": "2025-03-11",
+          "owner_type": "organization",
+          "homepage": "https://openai.github.io/openai-agents-python/",
+          "has_commercial": false,
+          "has_funding": false,
+          "daily_stars": 0
+        },
+        {
+          "repo": "Tracer-Cloud/opensre",
+          "description": "Build your own AI SRE agents. The open source toolkit for the AI era ✨",
+          "language": "Python",
+          "weekly_stars": 1623,
+          "total_stars": 2944,
+          "forks": 329,
+          "open_issues": 160,
+          "license": "Apache-2.0",
+          "topics": [
+            "ai-sre",
+            "alerting",
+            "datadog",
+            "grafana",
+            "incident-management",
+            "observability",
+            "remediation",
+            "root-cause-analysis",
+            "site-reliability-engineering",
+            "slack",
+            "sre"
+          ],
+          "created_at": "2026-01-13",
+          "owner_type": "organization",
+          "homepage": "https://opensre.com",
+          "has_commercial": true,
+          "has_funding": false,
+          "daily_stars": 0
+        },
+        {
+          "repo": "multica-ai/multica",
+          "description": "The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, track progress, compound skills.",
+          "language": "TypeScript",
+          "weekly_stars": 5421,
+          "total_stars": 20731,
+          "forks": 2521,
+          "open_issues": 326,
+          "license": "NOASSERTION",
+          "topics": [],
+          "created_at": "2026-01-13",
+          "owner_type": "organization",
+          "homepage": "https://multica.ai",
+          "has_commercial": true,
+          "has_funding": false,
+          "daily_stars": 0
+        },
+        {
+          "repo": "NousResearch/hermes-agent",
+          "description": "The agent that grows with you",
+          "language": "Python",
+          "weekly_stars": 19019,
+          "total_stars": 115438,
+          "forks": 16949,
+          "open_issues": 6854,
+          "license": "MIT",
+          "topics": [
+            "ai",
+            "ai-agent",
+            "ai-agents",
+            "anthropic",
+            "chatgpt",
+            "claude",
+            "claude-code",
+            "clawdbot",
+            "codex",
+            "hermes",
+            "hermes-agent",
+            "llm",
+            "moltbot",
+            "nous-research",
+            "openai",
+            "openclaw"
+          ],
+          "created_at": "2025-07-22",
+          "owner_type": "organization",
+          "homepage": "https://hermes-agent.nousresearch.com",
+          "has_commercial": true,
+          "has_funding": false,
+          "daily_stars": 0
+        },
+        {
+          "repo": "thedotmack/claude-mem",
+          "description": "A Claude Code plugin that automatically captures everything Claude does during your coding sessions, compresses it with AI (using Claude's agent-sdk), and injects relevant context back into future sessions.",
+          "language": "TypeScript",
+          "weekly_stars": 5961,
+          "total_stars": 67095,
+          "forks": 5705,
+          "open_issues": 107,
+          "license": "NOASSERTION",
+          "topics": [
+            "ai",
+            "ai-agents",
+            "ai-memory",
+            "anthropic",
+            "artificial-intelligence",
+            "chromadb",
+            "claude",
+            "claude-agent-sdk",
+            "claude-agents",
+            "claude-code",
+            "claude-code-plugin",
+            "claude-skills",
+            "embeddings",
+            "long-term-memory",
+            "mem0",
+            "memory-engine",
+            "openmemory",
+            "rag",
+            "sqlite",
+            "supermemory"
+          ],
+          "created_at": "2025-08-31",
+          "owner_type": "user",
+          "homepage": "https://claude-mem.ai",
+          "has_commercial": true,
+          "has_funding": true,
+          "daily_stars": 0
+        },
+        {
+          "repo": "mksglu/context-mode",
+          "description": "Context window optimization for AI coding agents. Sandboxes tool output, 98% reduction. 12 platforms",
+          "language": "TypeScript",
+          "weekly_stars": 2315,
+          "total_stars": 9858,
+          "forks": 676,
+          "open_issues": 39,
+          "license": "NOASSERTION",
+          "topics": [
+            "antigravity",
+            "claude",
+            "claude-code",
+            "claude-code-hooks",
+            "claude-code-plugins",
+            "claude-code-skill",
+            "codex",
+            "codex-cli",
+            "context-mode",
+            "copilot",
+            "cursor-plugin",
+            "kiro",
+            "mcp",
+            "mcp-server",
+            "mcp-tools",
+            "openclaw",
+            "opencode",
+            "pi-agent",
+            "skills",
+            "zed-extension"
+          ],
+          "created_at": "2026-02-23",
+          "owner_type": "user",
+          "homepage": "https://context-mode.com",
+          "has_commercial": true,
+          "has_funding": true,
+          "daily_stars": 0
+        },
+        {
+          "repo": "deepseek-ai/DeepGEMM",
+          "description": "DeepGEMM: clean and efficient FP8 GEMM kernels with fine-grained scaling",
+          "language": "Cuda",
+          "weekly_stars": 605,
+          "total_stars": 7004,
+          "forks": 930,
+          "open_issues": 71,
+          "license": "MIT",
+          "topics": [],
+          "created_at": "2025-02-13",
+          "owner_type": "organization",
+          "homepage": "",
+          "has_commercial": false,
+          "has_funding": false,
+          "daily_stars": 0
+        },
+        {
+          "repo": "jamiepine/voicebox",
+          "description": "The open-source AI voice studio. Clone, dictate, create.",
+          "language": "TypeScript",
+          "weekly_stars": 3540,
+          "total_stars": 23166,
+          "forks": 2727,
+          "open_issues": 274,
+          "license": "MIT",
+          "topics": [
+            "ai",
+            "cuda",
+            "mlx",
+            "qwen3-tts",
+            "qwen3-tts-ui",
+            "voice-ai",
+            "voice-clone",
+            "whisper"
+          ],
+          "created_at": "2026-01-25",
+          "owner_type": "user",
+          "homepage": "https://voicebox.sh",
+          "has_commercial": true,
+          "has_funding": false,
+          "daily_stars": 0
+        },
+        {
+          "repo": "Lordog/dive-into-llms",
+          "description": "《动手学大模型Dive into LLMs》系列编程实践教程",
+          "language": "Jupyter Notebook",
+          "weekly_stars": 2886,
+          "total_stars": 34275,
+          "forks": 4203,
+          "open_issues": 8,
+          "license": "",
+          "topics": [],
+          "created_at": "2024-04-08",
+          "owner_type": "user",
+          "homepage": "",
+          "has_commercial": false,
+          "has_funding": false,
+          "daily_stars": 0
+        }
+      ],
+      "daily_only": [
+        {
+          "repo": "huggingface/ml-intern",
+          "description": "🤗 ml-intern: an open-source ML engineer that reads papers, trains models, and ships ML models",
+          "language": "Python",
+          "daily_stars": 2985
+        },
+        {
+          "repo": "google/osv-scanner",
+          "description": "Vulnerability scanner written in Go which uses the data provided byhttps://osv.dev",
+          "language": "Go",
+          "daily_stars": 141
+        },
+        {
+          "repo": "Z4nzu/hackingtool",
+          "description": "ALL IN ONE Hacking Tool For Hackers",
+          "language": "Python",
+          "daily_stars": 1378
+        },
+        {
+          "repo": "open-metadata/OpenMetadata",
+          "description": "OpenMetadata is a unified metadata platform for data discovery, data observability, and data governance powered by a central metadata repository, in-depth column level lineage, and seamless team collaboration.",
+          "language": "TypeScript",
+          "daily_stars": 530
+        },
+        {
+          "repo": "PostHog/posthog",
+          "description": "🦔 PostHog is an all-in-one developer platform for building successful products. We offer product analytics, web analytics, session replay, error tracking, feature flags, experimentation, surveys, data warehouse, a CDP, and an AI product assistant to help debug your code, ship features faster, and keep all your usage and customer data in one stack.",
+          "language": "Python",
+          "daily_stars": 85
+        },
+        {
+          "repo": "dani-garcia/vaultwarden",
+          "description": "Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden_rs",
+          "language": "Rust",
+          "daily_stars": 268
+        },
+        {
+          "repo": "Anil-matcha/Open-Generative-AI",
+          "description": "Uncensored, open-source alternative to Higgsfield AI, Freepik AI, Krea AI, Openart AI — Free, unrestricted AI image & video generation studio with 200+ models (Flux, Midjourney, Kling, Sora, Veo). No content filters. Self-hosted, MIT licensed.",
+          "language": "JavaScript",
+          "daily_stars": 842
+        },
+        {
+          "repo": "codecrafters-io/build-your-own-x",
+          "description": "Master programming by recreating your favorite technologies from scratch.",
+          "language": "Markdown",
+          "daily_stars": 991
+        },
+        {
+          "repo": "deepseek-ai/DeepEP",
+          "description": "DeepEP: an efficient expert-parallel communication library",
+          "language": "Cuda",
+          "daily_stars": 52
+        },
+        {
+          "repo": "microsoft/typescript-go",
+          "description": "Staging repo for development of native port of TypeScript",
+          "language": "Go",
+          "daily_stars": 38
+        }
+      ]
+    },
+    "product_hunt": {
+      "top_products": [
+        {
+          "id": "1129378",
+          "name": "Ask Product Hunt AI",
+          "tagline": "Find the right product, just ask",
+          "description": "Product Hunt is home to countless products and the people who love them. We built Ask to help you make sense of it all. It's an AI assistant that answers your product questions using Product Hunt data, whether you're picking a new tool, comparing alternatives, or seeing what's trending.",
+          "votes": 465,
+          "comments_count": 25,
+          "url": "https://www.producthunt.com/products/producthunt?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+personal+%28ID%3A+281817%29",
+          "website": "https://www.producthunt.com/r/GI5LL6C432KXQP?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+personal+%28ID%3A+281817%29",
+          "maker": "[REDACTED]",
+          "topics": [
+            "Productivity",
+            "Artificial Intelligence",
+            "Product Hunt"
+          ],
+          "launched_at": "2026-04-24",
+          "thumbnail_url": "https://ph-files.imgix.net/d618ea86-70ae-4d12-8ec2-0ed78c723ddf.png?auto=format"
+        },
+        {
+          "id": "1131158",
+          "name": "DeepSeek-V4",
+          "tagline": "The open-source era of 1M context intelligence",
+          "description": "DeepSeek-V4 Preview is a new series of highly efficient MoE language models, featuring V4-Pro (1.6T params) and V4-Flash (284B params). Both models support a 1 million token context window by default, utilizing a novel hybrid attention architecture to drastically reduce compute and memory costs.",
+          "votes": 325,
+          "comments_count": 3,
+          "url": "https://www.producthunt.com/products/deepseek?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+personal+%28ID%3A+281817%29",
+          "website": "https://www.producthunt.com/r/LNIDLCQSIWWNBY?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+personal+%28ID%3A+281817%29",
+          "maker": "",
+          "topics": [
+            "Open Source",
+            "Artificial Intelligence",
+            "Development"
+          ],
+          "launched_at": "2026-04-24",
+          "thumbnail_url": "https://ph-files.imgix.net/9d823c04-85e6-4010-a80e-52c793e0e20b.png?auto=format"
+        },
+        {
+          "id": "1111779",
+          "name": "Beezi AI",
+          "tagline": "Make AI development structured, secure, and cost-efficient.",
+          "description": "Beezi AI is a platform for orchestration of AI-driven software development. It helps teams structure tickets for better prompts, route tasks to the right models, and track AI usage and costs in real time. With the Analytics Hub, Smart Ticket System, and Model Routing Optimizer, teams reduce rework, control AI spend, and scale development with predictable, measurable outcomes. Beezi supports secure on-prem or private cloud deployment with full control over data and models.",
+          "votes": 317,
+          "comments_count": 35,
+          "url": "https://www.producthunt.com/products/beezi-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+personal+%28ID%3A+281817%29",
+          "website": "https://www.producthunt.com/r/YN3R4RYHINMUIO?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+personal+%28ID%3A+281817%29",
+          "maker": "[REDACTED]",
+          "topics": [
+            "Productivity",
+            "SaaS",
+            "Developer Tools"
+          ],
+          "launched_at": "2026-04-24",
+          "thumbnail_url": "https://ph-files.imgix.net/6d8cb396-8768-4504-bb3b-9bd9d2751a02.jpeg?auto=format"
+        },
+        {
+          "id": "1130495",
+          "name": "Spira AI",
+          "tagline": "AI Influencer that always on trend, create & grow your brand",
+          "description": "Built by the teams behind Creatify AI, TikTok, CapCut, Meta, Snap and Midjourney — Spira gives you autonomous AI Influencers that run your social media end-to-end 24/7. They catch trends before they peak, create content in your voice, and publish across TikTok, Instagram, X and more. You stay in control through your preferred chat app — or let them run completely on their own. 10M+ impressions before public launch. Your first AI Influencer is less than 10 minutes away.",
+          "votes": 314,
+          "comments_count": 52,
+          "url": "https://www.producthunt.com/products/spira-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+personal+%28ID%3A+281817%29",
+          "website": "https://www.producthunt.com/r/D743QQ3IXGGKG5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+personal+%28ID%3A+281817%29",
+          "maker": "[REDACTED]",
+          "topics": [
+            "Social Media",
+            "Marketing",
+            "Artificial Intelligence"
+          ],
+          "launched_at": "2026-04-24",
+          "thumbnail_url": "https://ph-files.imgix.net/c33daa3c-5081-4c13-9202-a121562e4ed3.png?auto=format"
+        },
+        {
+          "id": "1130897",
+          "name": "Codex 3.0 by OpenAI",
+          "tagline": "Codex can now build, test & debug on autopilot",
+          "description": "With GPT-5.5, Codex evolves into a true cross-app coding agent—navigating browsers, interacting with web apps, generating docs in Microsoft Office and Google Drive, and testing workflows like a real user. It sees, clicks, debugs, and iterates autonomously, bringing developers closer to reliable, end-to-end automated builds.",
+          "votes": 272,
+          "comments_count": 4,
+          "url": "https://www.producthunt.com/products/codex-3-0-by-openai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+personal+%28ID%3A+281817%29",
+          "website": "https://www.producthunt.com/r/K4XVK5YID57ZXD?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+personal+%28ID%3A+281817%29",
+          "maker": "",
+          "topics": [
+            "Developer Tools",
+            "Artificial Intelligence",
+            "Development"
+          ],
+          "launched_at": "2026-04-24",
+          "thumbnail_url": "https://ph-files.imgix.net/42d06a08-8bb0-4720-aa1a-99105bfe34ab.png?auto=format"
+        },
+        {
+          "id": "1123814",
+          "name": "BAND",
+          "tagline": "Coordinate and govern multi-agent work in a single chat",
+          "description": "BAND helps teams enable and govern interaction across distributed AI agents and human teams. Through a shared interaction layer, it supports real-time multi-peer collaboration with built-in governance, giving organizations a structured way to manage how agents communicate and coordinate. Unlike orchestration tools or agent frameworks, BAND governs the interaction layer itself, reducing fragmentation and making collaboration reliable at scale.",
+          "votes": 163,
+          "comments_count": 10,
+          "url": "https://www.producthunt.com/products/band?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+personal+%28ID%3A+281817%29",
+          "website": "https://www.producthunt.com/r/CELK3VCRNFQ6LX?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+personal+%28ID%3A+281817%29",
+          "maker": "[REDACTED]",
+          "topics": [
+            "Software Engineering",
+            "Developer Tools",
+            "Artificial Intelligence"
+          ],
+          "launched_at": "2026-04-24",
+          "thumbnail_url": "https://ph-files.imgix.net/67c7f125-c3f8-40f8-8e6b-e68203133776.png?auto=format"
+        },
+        {
+          "id": "1130159",
+          "name": "Google Workspace Intelligence",
+          "tagline": "AI that understands and powers your Workspace",
+          "description": "Workspace Intelligence bridges the gap between your Workspace apps, your active projects, your collaborators, and your organization’s domain knowledge.",
+          "votes": 150,
+          "comments_count": 2,
+          "url": "https://www.producthunt.com/products/google?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+personal+%28ID%3A+281817%29",
+          "website": "https://www.producthunt.com/r/KVV44MWDJJZ2G2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+personal+%28ID%3A+281817%29",
+          "maker": "[REDACTED]",
+          "topics": [
+            "Developer Tools",
+            "Artificial Intelligence",
+            "Tech"
+          ],
+          "launched_at": "2026-04-24",
+          "thumbnail_url": "https://ph-files.imgix.net/f27f20c5-816f-4210-bbfa-8bdf797ffa3b.jpeg?auto=format"
+        },
+        {
+          "id": "1131020",
+          "name": "Mozart Studio 1.0",
+          "tagline": "A Generative Audio Workstation with VSTs",
+          "description": "An AI music creation studio that connects to all your VSTs — right in your browser. Mozart can now use tools — your plugins, your sounds. Start with a hum, build layer by layer with instruments or AI, and go from inspiration to a professional-sounding finished song.",
+          "votes": 149,
+          "comments_count": 17,
+          "url": "https://www.producthunt.com/products/mozart-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+personal+%28ID%3A+281817%29",
+          "website": "https://www.producthunt.com/r/SC7GHDBAR4TZWJ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+personal+%28ID%3A+281817%29",
+          "maker": "[REDACTED]",
+          "topics": [
+            "Music",
+            "Artificial Intelligence",
+            "Electronic Music"
+          ],
+          "launched_at": "2026-04-24",
+          "thumbnail_url": "https://ph-files.imgix.net/1a032952-2c24-4f4e-a899-b8ad286387f3.png?auto=format"
+        },
+        {
+          "id": "1130514",
+          "name": "Your Name in Landsat 🛰️",
+          "tagline": "The planet can spell your name – literally!",
+          "description": "Type your name and see it spelled out in stunning Landsat satellite imagery. Explore Earth from space, letter by letter, with NASA and USGS Landsat images.",
+          "votes": 134,
+          "comments_count": 9,
+          "url": "https://www.producthunt.com/products/your-name-in-landsat?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+personal+%28ID%3A+281817%29",
+          "website": "https://www.producthunt.com/r/XFJX4W76G6G2RI?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+personal+%28ID%3A+281817%29",
+          "maker": "",
+          "topics": [
+            "Space",
+            "Photography"
+          ],
+          "launched_at": "2026-04-24",
+          "thumbnail_url": "https://ph-files.imgix.net/d206dadd-75c2-4c65-affe-1a06b6455593.jpeg?auto=format"
+        },
+        {
+          "id": "1125493",
+          "name": "Bansi AI by Writesonic",
+          "tagline": "AI video editor for long-form talking head videos",
+          "description": "AI video editor that applies expert techniques automatically. Punch zooms, smart B-roll, kinetic text, sound design—upload raw footage, download professional videos.",
+          "votes": 116,
+          "comments_count": 25,
+          "url": "https://www.producthunt.com/products/bansi?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+personal+%28ID%3A+281817%29",
+          "website": "https://www.producthunt.com/r/RKXS4Z2W6UIQFR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+personal+%28ID%3A+281817%29",
+          "maker": "[REDACTED]",
+          "topics": [
+            "Marketing",
+            "Artificial Intelligence",
+            "Video"
+          ],
+          "launched_at": "2026-04-24",
+          "thumbnail_url": "https://ph-files.imgix.net/6c4dc2f7-236f-4757-a682-994a769c40f9.png?auto=format"
+        },
+        {
+          "id": "1120635",
+          "name": "TraceUI",
+          "tagline": "Turn any website into on-brand Ads",
+          "description": "TraceUI reads any website URL and instantly generates on-brand marketing ads. It extracts your colors, fonts, and logo automatically. Try for free today!",
+          "votes": 109,
+          "comments_count": 11,
+          "url": "https://www.producthunt.com/products/traceui?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+personal+%28ID%3A+281817%29",
+          "website": "https://www.producthunt.com/r/GEH5LBSSRVQS35?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+personal+%28ID%3A+281817%29",
+          "maker": "[REDACTED]",
+          "topics": [
+            "Design Tools",
+            "Marketing",
+            "Advertising"
+          ],
+          "launched_at": "2026-04-24",
+          "thumbnail_url": "https://ph-files.imgix.net/96108d18-8f2d-4659-8910-f41cd93feaba.png?auto=format"
+        },
+        {
+          "id": "1130487",
+          "name": "Onboarding0",
+          "tagline": "Turn company knowledge into AI-guided onboarding",
+          "description": "Onboarding0 turns your scattered company knowledge into a structured AI onboarding system. Connect your docs, map your org, and an AI agent guides every new hire to productivity. Built for humans today — the knowledge backbone for AI agents tomorrow.",
+          "votes": 99,
+          "comments_count": 16,
+          "url": "https://www.producthunt.com/products/onboarding0?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+personal+%28ID%3A+281817%29",
+          "website": "https://www.producthunt.com/r/K276P7S4QR5NQ3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+personal+%28ID%3A+281817%29",
+          "maker": "[REDACTED]",
+          "topics": [
+            "SaaS",
+            "Artificial Intelligence",
+            "Human Resources"
+          ],
+          "launched_at": "2026-04-24",
+          "thumbnail_url": "https://ph-files.imgix.net/06d83165-7544-471d-8f0f-d4f6d69368b2.vnd.microsoft.icon?auto=format"
+        },
+        {
+          "id": "1130673",
+          "name": "NotchNest AI",
+          "tagline": "AI powered by Apple Intelligence now in your Notch",
+          "description": "NotchNest AI turns your MacBook's notch into a smart productivity hub, powered by on-device Apple Intelligence. Daily Brief AI summarizes your calendar. AI Clipboard Manager saves, rephrases, and summarizes everything you copy. AI Quick Notes captures and refines your ideas instantly. Plus music control, file tray, bookmarks, Pomodoro timer, AirDrop, camera mirror, and more. No cloud. No subscriptions. Your data never leaves your Mac.",
+          "votes": 96,
+          "comments_count": 3,
+          "url": "https://www.producthunt.com/products/notchnest-quick-access-hub?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+personal+%28ID%3A+281817%29",
+          "website": "https://www.producthunt.com/r/DDC63Y6BGM77S7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+personal+%28ID%3A+281817%29",
+          "maker": "[REDACTED]",
+          "topics": [
+            "Productivity",
+            "Artificial Intelligence",
+            "Apple"
+          ],
+          "launched_at": "2026-04-24",
+          "thumbnail_url": "https://ph-files.imgix.net/d6e9c2bd-fc7d-47fc-88d0-74718bb9be5c.png?auto=format"
+        },
+        {
+          "id": "1130580",
+          "name": "Nordcraft 2.0",
+          "tagline": "I design agent with full HTML/CSS control and SSR",
+          "description": "Nordcraft 2.0 adds a powerful AI Agent to the visual website builder. Up to 6x faster than Claude Code and Lovable and with a visual interface that lets you ship with absolute confidence.",
+          "votes": 93,
+          "comments_count": 6,
+          "url": "https://www.producthunt.com/products/toddle?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+personal+%28ID%3A+281817%29",
+          "website": "https://www.producthunt.com/r/ABA6VNXTLIDJHC?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+personal+%28ID%3A+281817%29",
+          "maker": "[REDACTED]",
+          "topics": [
+            "Website Builder",
+            "Developer Tools",
+            "Development Language"
+          ],
+          "launched_at": "2026-04-24",
+          "thumbnail_url": "https://ph-files.imgix.net/83c640f1-90d2-4b64-861e-40b2f58777ca.png?auto=format"
+        },
+        {
+          "id": "1130787",
+          "name": "LifeOS",
+          "tagline": "Turn your AI chats/memory to intros with real humans",
+          "description": "🧠 Claude & ChatGPT know you better than you know yourself. Nobody's using that. Until now. Every 2am vent. Every idea you've never said out loud. That's the most honest map of you that exists. 🗺️ LifeOS reads your private AI memory → finds the one human who changes your life. 🔗 👤 One prompt. Co-founder, life partner, 3am friend — you name it. 🎯 We make the intro.",
+          "votes": 90,
+          "comments_count": 7,
+          "url": "https://www.producthunt.com/products/lifeos-6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+personal+%28ID%3A+281817%29",
+          "website": "https://www.producthunt.com/r/ARYTQSKIQC4LCR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+personal+%28ID%3A+281817%29",
+          "maker": "[REDACTED]",
+          "topics": [
+            "Hiring",
+            "Social Media",
+            "Artificial Intelligence"
+          ],
+          "launched_at": "2026-04-24",
+          "thumbnail_url": "https://ph-files.imgix.net/cf306518-9973-438f-bb71-ae96e98bcb92.png?auto=format"
+        },
+        {
+          "id": "1130748",
+          "name": "Haiker",
+          "tagline": "Hacker News App for non-native english speaker",
+          "description": "A Hacker News client, designed for non-English speakers, with auto-translation.",
+          "votes": 82,
+          "comments_count": 2,
+          "url": "https://www.producthunt.com/products/haiker?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+personal+%28ID%3A+281817%29",
+          "website": "https://www.producthunt.com/r/MYVVXXBEMA47JC?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+personal+%28ID%3A+281817%29",
+          "maker": "[REDACTED]",
+          "topics": [
+            "News",
+            "Languages",
+            "Tech"
+          ],
+          "launched_at": "2026-04-24",
+          "thumbnail_url": "https://ph-files.imgix.net/5b54f77d-c192-45b3-a3ac-341084feca4e.png?auto=format"
+        },
+        {
+          "id": "1130862",
+          "name": "MailCue",
+          "tagline": "Run as a fully hardened production email server.",
+          "description": "MailCue is an all-in-one email testing server packaged in a single Docker container. Unlike simple catch-all SMTPs, it provides a fully-featured mail stack with Postfix, Dovecot, SpamAssassin, DKIM/DMARC verification, and a modern React UI. Test your email workflows exactly as they behave in production with IMAP/POP3 access, API injection, real-time events, and GPG encryption. Perfect for local development, CI/CD pipelines, and ensuring your transactional emails actually deliver.",
+          "votes": 81,
+          "comments_count": 1,
+          "url": "https://www.producthunt.com/products/mailcue-realistic-email-testing-server?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+personal+%28ID%3A+281817%29",
+          "website": "https://www.producthunt.com/r/SL6IOAGHZAX6GX?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+personal+%28ID%3A+281817%29",
+          "maker": "[REDACTED]",
+          "topics": [
+            "Email",
+            "API",
+            "SaaS",
+            "GitHub"
+          ],
+          "launched_at": "2026-04-24",
+          "thumbnail_url": "https://ph-files.imgix.net/fbd5ee3a-4a87-41bd-a2e1-8bc34b99437c.svg?auto=format"
+        },
+        {
+          "id": "1129182",
+          "name": "Yutori Delegate",
+          "tagline": "Why cowork when you can delegate?",
+          "description": "Delegate is an eager AI agent that understands your context, never sleeps, never forgets anything, and loves busywork — research, coordination, monitoring, communication, admin, etc. Always-on, always yours. Throw tasks at it and move on. Come back to threads closed, research compiled, replies sent, follow-ups tracked.",
+          "votes": 80,
+          "comments_count": 3,
+          "url": "https://www.producthunt.com/products/scouts-by-yutori?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+personal+%28ID%3A+281817%29",
+          "website": "https://www.producthunt.com/r/5UFFE2IHLT6WR2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+personal+%28ID%3A+281817%29",
+          "maker": "[REDACTED]",
+          "topics": [
+            "Productivity",
+            "Artificial Intelligence"
+          ],
+          "launched_at": "2026-04-24",
+          "thumbnail_url": "https://ph-files.imgix.net/5359f4aa-7df8-489e-b952-0a925747cc71.png?auto=format"
+        },
+        {
+          "id": "1120877",
+          "name": "Emotional intelligence AI for live calls",
+          "tagline": "Emotional intelligence AI for live sales calls",
+          "description": "Amotions AI builds emotionally intelligent AI agents that provide live in-call and post-call guidance, and pre-call prep and roleplay to boost win rates and cut ramp time, starting with sales and expanding to other use cases. We are building the emotional intelligence infrastructure that turns every conversation into a success. Provides real-time coaching during live conversations, reinforcement of your sales process, objection handling and discovery guidance, show technical answers live.",
+          "votes": 78,
+          "comments_count": 4,
+          "url": "https://www.producthunt.com/products/emotional-intelligence-ai-for-live-calls?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+personal+%28ID%3A+281817%29",
+          "website": "https://www.producthunt.com/r/A3RJ6XBXSMWGAR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+personal+%28ID%3A+281817%29",
+          "maker": "[REDACTED]",
+          "topics": [
+            "Productivity",
+            "Sales",
+            "Artificial Intelligence"
+          ],
+          "launched_at": "2026-04-24",
+          "thumbnail_url": "https://ph-files.imgix.net/9d131fd2-2851-4cdb-9140-b950a27cfb4e.png?auto=format"
+        },
+        {
+          "id": "1121048",
+          "name": "boots.list",
+          "tagline": "From Rekordbox collection to set-ready playlist",
+          "description": "Planning a DJ set in Rekordbox means hours of manually sorting tracks into an order that actually flows. boots.list fixes that. boots.list turns your Rekordbox XML export into a set-ready playlist. Filter by genre, dial in duration + BPM range, and get tracks ordered along a natural energy arc — intro, build, peak, resolve. Plus there's a built-in scanner that fills in missing BPM or Camelot key data by analysing audio locally on your Mac. No cloud. No telemetry. Cue points and loops intact.",
+          "votes": 76,
+          "comments_count": 1,
+          "url": "https://www.producthunt.com/products/boots-list?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+personal+%28ID%3A+281817%29",
+          "website": "https://www.producthunt.com/r/EZHZHD5RSPEFH2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+personal+%28ID%3A+281817%29",
+          "maker": "[REDACTED]",
+          "topics": [
+            "Mac",
+            "Productivity",
+            "Music"
+          ],
+          "launched_at": "2026-04-24",
+          "thumbnail_url": "https://ph-files.imgix.net/f7a970b6-a6db-4fac-b73b-adc082f89455.png?auto=format"
+        }
+      ]
+    },
+    "huggingface": {
+      "trending_models": [],
+      "trending_spaces": []
+    },
+    "google_trends": {
+      "rising_7d": [],
+      "rising_3m": [],
+      "cooling_down": [],
+      "from_zero": []
+    }
+  },
+  "cross_references": [],
+  "previous_day_highlights": [],
+  "_errors": [
+    "huggingface: 503 Server Error: Service Unavailable for url: https://huggingface.co/api/models?sort=trendingScore&direction=-1&limit=20"
+  ]
+}

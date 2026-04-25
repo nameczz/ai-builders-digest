@@ -1,0 +1,15 @@
+{
+  "date": "2026-04-25",
+  "top3_zh": [
+    "[DeepSeek V4](https://api-docs.deepseek.com/news/news260424) 是今天最干净的新模型发布：1,843 个 Hacker News 点数、1,435 条评论，Product Hunt #3 且有 316 票，HuggingFace 的 DeepSeek-V4-Pro 趋势分 2,382，Google 对 “deepseek v4” 的搜索上涨 550%。",
+    "Claude 可靠性抱怨已经从感觉转向控制：[Anthropic's quality report](https://www.anthropic.com/engineering/april-23-postmortem) 有 916 点，[I cancelled Claude](https://nickyreinert.de/en/2026/2026-04-24-claude-critics/) 有 815 点，而 [Tell HN: Claude 4.7 is ignoring stop hooks](https://news.ycombinator.com/item?id=47895029) 给出了可执行的 exit-code 修复方式。",
+    "[I am building a cloud](https://crawshaw.io/blog/building-a-cloud) 达到 1,087 点，因为这位 Tailscale 创始人的论点很直白：VM 形态、Kubernetes 层和昂贵默认配置，正在和 agent 编写的软件所需要的 root-on-Linux 简洁性错位。"
+  ],
+  "top3_en": [
+    "[DeepSeek V4](https://api-docs.deepseek.com/news/news260424) is the day's cleanest new model launch: 1,843 Hacker News points, 1,435 comments, Product Hunt #3 at 316 votes, HuggingFace's DeepSeek-V4-Pro at a 2,382 trending score, and Google searches for \"deepseek v4\" up 550%.",
+    "Claude reliability complaints shifted from vibes to controls: [Anthropic's quality report](https://www.anthropic.com/engineering/april-23-postmortem) sits at 916 points, [I cancelled Claude](https://nickyreinert.de/en/2026/2026-04-24-claude-critics/) at 815 points, and [Tell HN: Claude 4.7 is ignoring stop hooks](https://news.ycombinator.com/item?id=47895029) produced the actionable exit-code fix.",
+    "[I am building a cloud](https://crawshaw.io/blog/building-a-cloud) reached 1,087 points because the Tailscale-founder thesis is plain: VM shapes, Kubernetes layers, and expensive defaults are misaligned with agent-written software that wants root-on-Linux simplicity."
+  ],
+  "intro_zh": "所有人都在争论 [DeepSeek V4](https://api-docs.deepseek.com/news/news260424) 和 GPT-5.5 谁更强——这不是正确的计分板。对创始人真正有用的信号是：DeepSeek 带着清晰文档发布了 1M 上下文，而 Claude 用户正在公开调试失效的 stop hooks。这两个故事放在一起说明，下一层付费价值不是更聪明的模型，而是围绕模型的确定性控制。",
+  "intro_en": "Everyone is debating [DeepSeek V4](https://api-docs.deepseek.com/news/news260424) versus GPT-5.5 — wrong scoreboard. The useful founder signal is that DeepSeek shipped 1M context with clean docs while Claude users are publicly debugging broken stop hooks, and those two stories together say the next paid layer is not a smarter model; it is deterministic control around the model."
+}
