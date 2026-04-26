@@ -48,8 +48,7 @@ npm run dev   # 本地预览，需先有 public/data/ 数据
 
 | 时段 | 脚本 | 内容 | 模型 | 时长 |
 | --- | --- | --- | --- | --- |
-| **09:00 北京时间** | `bash scripts/morning.sh` | follow-builders X / Podcast / Blog 拉取 + 中文化 | Haiku（并发 6） | ~90s |
-| **12:30 北京时间** | `bash scripts/noon.sh` | Pulse（HN/GH/PH/HF/Reddit/Trends）+ 编辑提炼 + 选题 | Sonnet | ~4min |
+| **17:10 北京时间** | `bash scripts/morning.sh && bash scripts/noon.sh` | follow-builders + Pulse + 选题，顺序拉取、总结、翻译、commit、push | Haiku + Sonnet | ~6min |
 
 也提供单步：
 
@@ -79,20 +78,19 @@ bash scripts/launchd/install.sh status
 bash scripts/launchd/install.sh uninstall
 ```
 
-- 自动每天 9:00 跑 morning、12:30 跑 noon
-- Mac 在那两个时间点睡着了：醒来后自动补跑（`StartCalendarIntervalCatchUp`）
+- 自动每天 17:10 顺序跑 morning 和 noon
+- Mac 在 17:10 睡着了：醒来后自动补跑（`StartCalendarIntervalCatchUp`）
 - Mac 关机：跳过那一天
-- 日志：`~/Library/Logs/aibd-{builders,pulse}.launchd.{log,err}`
+- 日志：`~/Library/Logs/aibd-daily.launchd.{log,err}`、`~/Library/Logs/aibd-{morning,noon}-YYYY-MM-DD.log`
 
-立刻测试一次：`launchctl start com.aibd.builders`。
+立刻测试一次：`launchctl start com.aibd.daily`。
 
 ### B. crontab（最朴素）
 
 ```bash
 crontab -e
 # 加两行（路径换成你自己的）
-0 9 * * *   cd /Users/you/ai-builders-digest && bash scripts/morning.sh
-30 12 * * * cd /Users/you/ai-builders-digest && bash scripts/noon.sh
+10 17 * * * cd /Users/you/ai-builders-digest && AIBD_PUSH=1 bash scripts/morning.sh && AIBD_PUSH=1 bash scripts/noon.sh
 ```
 
 - 缺点：Mac 睡着了会跳过这次（不像 launchd 会补跑）
