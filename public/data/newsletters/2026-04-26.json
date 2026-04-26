@@ -1,0 +1,21 @@
+{
+  "date": "2026-04-26",
+  "generated_at": "2026-04-26T09:13:56+00:00",
+  "inbox_id": "sanyoumu@agentmail.to",
+  "window": {
+    "start": "2026-04-26T00:00:00+00:00",
+    "end": "2026-04-26T23:59:59.999999+00:00"
+  },
+  "count": 0,
+  "highlights": [],
+  "items": [],
+  "skipped": [
+    {
+      "message_id": "<fRzoD1cZSZ6UMNLtcRF31Q@geopod-ismtpd-3>",
+      "subject": "Confirm your AI Valley signup",
+      "from": "AI Valley <aivalley@mail.beehiiv.com>",
+      "reason": "system"
+    }
+  ],
+  "notes": "自动归档模式：未调用 LLM，仅按邮件主题和正文片段归档。"
+}

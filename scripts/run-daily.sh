@@ -20,9 +20,14 @@ done
 
 echo "==> run-daily $DATE  llm_flag='$LLM_FLAG'  commit=$COMMIT"
 
-python3 scripts/fetch-builders.py     --date "$DATE" $LLM_FLAG
-python3 scripts/fetch-pulse.py        --date "$DATE" $LLM_FLAG
+python3 scripts/fetch-builders.py       --date "$DATE" $LLM_FLAG
+python3 scripts/fetch-pulse.py          --date "$DATE" $LLM_FLAG
 python3 scripts/generate-suggestions.py --date "$DATE" $LLM_FLAG
+if [[ -n "${AGENTMAIL_API_KEY:-}" ]]; then
+  python3 scripts/fetch-newsletters.py  --date "$DATE" $LLM_FLAG
+else
+  echo "==> AGENTMAIL_API_KEY not set; skipping newsletters"
+fi
 
 if [[ "$COMMIT" == "1" ]]; then
   if [[ -n "$(git status --porcelain public/data)" ]]; then

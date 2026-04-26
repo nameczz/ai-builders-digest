@@ -3,121 +3,146 @@
   "items": [
     {
       "id": "2026-04-26-1",
-      "title": "本周 GitHub 增速第一的「产品」没有一行代码",
-      "angle": "从「一个 Markdown 文件涨 3 万星」反推：开发者现在最稀缺的不是新工具，而是让现有工具少犯错的操作手册",
-      "opening": "本周 GitHub 上涨星最快的不是新框架，不是新模型，而是一个没有代码、没有 demo、没有界面的 .md 文件。andrej-karpathy-skills 单周新增 29,917 颗星，击败了所有库、工具和 agent 框架。这意味着什么？开发者已经不缺工具了——他们缺的是一份让 AI 少出错的使用手册。",
+      "title": "Anthropic 把 $20 用户亲手推进竞争对手怀里",
+      "angle": "从平台定价决策的反噬角度看：把核心功能移出中间层，最忠实用户会成为你最有力的负面传播者",
+      "opening": "今天「claude code removed from pro plan」搜索量涨了 23,250%。不是模型崩了，不是服务挂了——只是 Anthropic 把 Claude Code 从 $20/月的 Pro 计划里移除了。24 小时内，一个叫 free-claude-code 的 GitHub 仓库新增了 8,668 颗星。",
       "story_hook": {
-        "challenge": "AI 编码工具爆炸式涌现，但开发者的核心抱怨始终是「AI 总犯低级错误」",
-        "twist": "解法不是更好的模型或 IDE，而是一份 Markdown 文件，而且它的传播速度比任何代码库都快"
+        "challenge": "付费用户不会静默接受降权，他们会立刻行动——而且行动方向是帮竞争对手做推广",
+        "twist": "Claude Code 本周 GitHub 趋势的最大受益者，是一个专门教你免费绕过 Claude Code 付费墙的仓库"
       },
-      "takeaway": "「工程文化文档」是被严重低估的内容品类：写一份你自己的 CLAUDE.md 并发布到 GitHub，是现在成本最低、影响力最高的技术内容动作",
+      "takeaway": "把高价值功能移出中间订阅层之前，先估算被激怒用户的传播半径；这次 Anthropic 的决策为所有做 AI 工具的人提供了一份真实的「定价失误复盘」",
       "refs": [
         {
           "tag": "pulse",
-          "ref": "andrej-karpathy-skills 本周 GitHub 增速第一，周增 29,917 星，总计 88,493 星",
-          "url": "https://github.com/forrestchang/andrej-karpathy-skills"
+          "ref": "Google Trends：claude code removed from pro plan 搜索量 +23,250%",
+          "url": "https://trends.google.com/trends/explore?q=claude+code&date=now+7-d"
         },
         {
           "tag": "pulse",
-          "ref": "claude-context 周增 3,301 星，将整个代码库变成 Claude Code 上下文 MCP",
-          "url": "https://github.com/zilliztech/claude-context"
+          "ref": "GitHub free-claude-code 本周新增 8,668 星",
+          "url": "https://github.com/Alishahryar1/free-claude-code"
+        },
+        {
+          "tag": "builders",
+          "ref": "Peter Steinberger 关于 GPT-5.5 Fast 模式与 Claude 竞争生态更新",
+          "url": "https://x.com/steipete/status/2048275589224628677"
         }
       ]
     },
     {
       "id": "2026-04-26-2",
-      "title": "Anthropic 涨价 48 小时，开源平替已涨 8,668 星",
-      "angle": "一个定价决策如何在两天内催生出有竞争力的开源替代品，以及这对所有 AI 工具的护城河意味着什么",
-      "opening": "Anthropic 把 Claude Code 从 $20/月的 Pro 计划里移除，单独定价。结果：相关搜索破圈至 25,750，free-claude-code 仓库不到一周涨了 8,668 颗星，现在总星数 11,864。历史一再证明：一个足够好用的付费工具一旦涨价，社区复制它的速度会快得令人咋舌。",
+      "title": "本周 GitHub 第一名没有一行代码",
+      "angle": "从知识形态变迁角度切入：当「如何使用工具」比「工具本身」传播更快，内容创作者和开发者的竞争优势在哪里重叠",
+      "opening": "andrej-karpathy-skills 本周新增 29,917 星，成为 GitHub 全站周增第一。打开仓库，里面只有一个文本文件：CLAUDE.md。没有函数，没有依赖，没有 README 以外的任何东西。它打败了本周所有开源框架。",
       "story_hook": {
-        "challenge": "Claude Code 是目前最好用的 AI 编码助手之一，用户依赖度极高",
-        "twist": "但高依赖恰恰是它的弱点——工具越好用，涨价后的反弹越猛，开源平替的动力越强，护城河反而更薄"
+        "challenge": "开发者花几个月写一个开源框架，一个纯文字配置文件一周内超越了他们的全部积累",
+        "twist": "GitHub 的传播机制没有变，Star 按钮还在那里——但最值得 Star 的内容，已经不再是代码了"
       },
-      "takeaway": "AI 编码工具的「护城河」正在被社区系统性拆解：付费功能→开源仿制→生态分裂，这个循环正在提速，现在是评估工具链单点依赖风险的好时机",
+      "takeaway": "在 AI 工具饱和期，「如何更好地用工具」的经验比工具本身更稀缺，且传播成本接近零；你在某个垂直领域积累的 CLAUDE.md 规则集，可能是比写一个新工具更快的传播路径",
       "refs": [
         {
           "tag": "pulse",
-          "ref": "claude code removed from pro plan Google Trends 破圈值 25,750，本周所有追踪词绝对第一",
-          "url": "https://trends.google.com/trends/explore?q=claude+code&date=now+7-d"
+          "ref": "GitHub andrej-karpathy-skills 本周新增 29,917 星，总星 88,801",
+          "url": "https://github.com/forrestchang/andrej-karpathy-skills"
         },
         {
-          "tag": "pulse",
-          "ref": "free-claude-code 周增 8,668 星，支持终端/VSCode/Discord 免费使用 Claude Code",
-          "url": "https://github.com/Alishahryar1/free-claude-code"
+          "tag": "builders",
+          "ref": "Dan Shipper：模型的真面目取决于我们如何提问，而非模型本身是什么",
+          "url": "https://x.com/danshipper/status/2048026505461080076"
+        },
+        {
+          "tag": "builders",
+          "ref": "Nan Yu：最聪明的选择是相对新但已度过淘汰考验的东西",
+          "url": "https://x.com/thenanyu/status/2048172709075402787"
         }
       ]
     },
     {
       "id": "2026-04-26-3",
-      "title": "消费级 GPU 现在可以本地跑 GPT-4 级别的长文本模型了",
-      "angle": "DeepSeek-V4-Pro FP8 量化 + MIT 许可的组合，第一次让独立开发者以极低成本自托管真正具备竞争力的推理能力",
-      "opening": "DeepSeek-V4-Pro 本周在 HuggingFace 以 2617 分断层领跑趋势榜，FP8 量化 + MIT 许可的组合意味着：你现在可以用消费级 GPU 在本地跑一个真正有竞争力的长文本推理模型，不依赖任何 API，不支付任何许可费。AI 的使用成本刚刚又掉了一个台阶。",
+      "title": "DeepSeek 和 Kimi 同日引爆，你有 48 小时做决定",
+      "angle": "从开发者技术选型压力角度切入：模型竞争已进入周级迭代，「等等再看」的成本正在变得和「选错了」一样高",
+      "opening": "今天 DeepSeek-V4-Pro 以趋势分 2629 登顶 HuggingFace，同一天 Kimi-K2.6 搜索量飙升 +14,450%。这不是偶然同步——这是开源模型竞争已经密集到「不同厂商同天发布旗舰」的程度。",
       "story_hook": {
-        "challenge": "过去「本地部署大模型」意味着要么性能不够，要么硬件门槛太高",
-        "twist": "DeepSeek-V4-Pro 的 FP8 量化打穿了硬件门槛，MIT 许可扫清了商用法律风险——两个障碍同时消失"
+        "challenge": "当两个旗舰模型同日爆发，选型窗口不是扩大了，而是缩短了——72 小时后社区测评会填满所有频道，早评测的人设定话语权",
+        "twist": "DeepSeek-V4-Pro 是 MIT 协议，Kimi-K2.6 支持图文多模态，下载量 376,485——这两个都不是「等等看看」的模型，但大多数开发者今天根本没时间跑 benchmark"
       },
-      "takeaway": "现在值得认真评估：你的产品有哪些场景可以把 API 调用替换成本地 DeepSeek-V4-Pro 部署？延迟、成本、数据隐私三个维度可能都会赢",
+      "takeaway": "现在就跑一个你自己场景的最小评估：取 10 个你实际工作中的 prompt，在 DeepSeek-V4-Pro 和 Kimi-K2.6 上各跑一遍，48 小时内的结论比下周的社区共识更有价值",
       "refs": [
         {
           "tag": "pulse",
-          "ref": "DeepSeek-V4-Pro HuggingFace 趋势分 2617，下载量 78,864，FP8 量化，MIT 许可",
+          "ref": "HuggingFace DeepSeek-V4-Pro 趋势分 2629，下载量 123,431，MIT 协议",
           "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro"
         },
         {
           "tag": "pulse",
-          "ref": "Kimi-K2.6 趋势分 997，下载量 291,840，关联搜索破圈值 14,450",
+          "ref": "HuggingFace Kimi-K2.6 趋势分 999，下载量 376,485，图文多模态",
           "url": "https://huggingface.co/moonshotai/Kimi-K2.6"
+        },
+        {
+          "tag": "builders",
+          "ref": "Nan Yu：采用最前沿技术的代价就是不断改变做事方式",
+          "url": "https://x.com/thenanyu/status/2048138965262201281"
         }
       ]
     },
     {
       "id": "2026-04-26-4",
-      "title": "3300 行代码能自我演化、少用 6 倍 token，但没人在卖它",
-      "angle": "GenericAgent 是本周最被低估的开源项目：技术指标惊人，商业化真空明显，窗口现在还开着",
-      "opening": "GenericAgent 本周涨了 3,006 颗星。它从 3,300 行种子代码出发，能自我演化扩展功能，比同类 agent 框架少用 6 倍 token。没有产品页面，没有定价，没有 SaaS。这是典型的「技术超前、商业缺席」——而这个窗口，现在还开着。",
+      "title": "AI 打破经验壁垒之后，资历成了负担",
+      "angle": "从职场权力结构重组角度切入：「经验」作为稀缺品的时代已经结束，但大多数组织的激励机制还没跟上",
+      "opening": "Aaron Levie 今天发了一条推：「AI 让任何人现在都能做资深员工几年前才能做到的事。」这句话的另一面没人说出来——那些靠「我知道你不知道的」来维持地位的资深员工，他们的职场安全感正在被结构性地抹平。",
       "story_hook": {
-        "challenge": "大多数开发者在 agent 框架上的抱怨集中在两点：token 消耗太高、扩展性差",
-        "twist": "GenericAgent 同时解决了这两个问题，但作者选择纯开源路线，留下了清晰的产品真空等人来填"
+        "challenge": "公司的激励结构仍然假设「经验 = 稀缺 = 高薪」，但 AI 让这个等式的第一步失效了",
+        "twist": "Peter Yang 用一个 7 岁小孩的例子说清楚了终点：下一代对 AI 的基准预期是「瞬间实现任何想法」，而不是「帮我节省一点时间」——这两个预期中间，是整整一代产品经理需要跨越的认知鸿沟"
       },
-      "takeaway": "fork GenericAgent，包装成有 UI 的 agent 构建平台或托管 API，是本周最明确的「有技术没产品」商业化机会",
+      "takeaway": "在你的团队里找一件「以前需要 3 年经验才能做」的事，测试 AI 能把门槛压到多低；这个实验的结果，比任何职业规划文章都更能帮你判断自己的护城河在哪里",
       "refs": [
         {
-          "tag": "pulse",
-          "ref": "GenericAgent 周增 3,006 星，从 3,300 行种子代码自我演化，比同类少用 6 倍 token",
-          "url": "https://github.com/lsdefine/GenericAgent"
+          "tag": "builders",
+          "ref": "Aaron Levie：AI 打破经验壁垒，抓住这波红利的人会大幅领先",
+          "url": "https://x.com/levie/status/2048223146063609965"
+        },
+        {
+          "tag": "builders",
+          "ref": "Peter Yang：用 Codex 问一个 7 岁小孩，瞬间实现任何想法已成基本要求",
+          "url": "https://x.com/petergyang/status/2048220045726322934"
         },
         {
           "tag": "pulse",
-          "ref": "multica 开源托管 agent 平台周增 5,118 星，商业化雏形存在但以开源为主",
-          "url": "https://github.com/multica-ai/multica"
+          "ref": "HN：The West Forgot How to Make Things. Now It's Forgetting How to Code，269 分 140 评论",
+          "url": "https://techtrenches.dev/p/the-west-forgot-how-to-make-things"
         }
       ]
     },
     {
       "id": "2026-04-26-5",
-      "title": "$0 广告费、8 个月做到 $11K：一个 SaaS 的 SEO+freemium 公式",
-      "angle": "在 AI 噪音最密集的一周，用最古老方法（SEO + 免费试用）做到 $11K 收入的案例，反而是最值得复制的信号",
-      "opening": "这周 AI 圈被 Claude Code 涨价、DeepSeek-V4 发布、karpathy 的 CLAUDE.md 刷屏。但 Reddit 上最值得截图的帖子是这个：一个独立开发者用八个月时间、零广告预算，靠 organic SEO + freemium 做到了 $11,000 累计收入和 $2,750 MRR。他的核心逻辑只有一句：「先给用户尝试的理由，在产品感觉成熟前就发布。」",
+      "title": "写 3300 行代码，让 AI 自己写剩下的",
+      "angle": "从 Agent 自进化范式角度切入：「给 AI 一个种子，让它生长」正在从实验变成可量化的工程路径",
+      "opening": "GenericAgent 本周 GitHub 新增 3,006 星，Google Trends 搜索量 +999%（触顶）。它宣称的做法只有一句话：从 3,300 行种子代码开始自我进化，token 消耗减少 6 倍。这个数字如果是真的，意味着「训练 Agent 写 Agent」的成本已经低到个人开发者可以重复的程度。",
       "story_hook": {
-        "challenge": "大多数独立开发者面临的问题是：有产品但没流量，有流量但没付费转化",
-        "twist": "这个案例的反直觉点在于顺序——他在产品还不成熟时就发布，用 freemium 驱动 SEO，用 SEO 驱动付费，和大多数人的直觉完全相反"
+        "challenge": "大多数开发者把 Agent 当工具用，GenericAgent 在问一个不同的问题：如果 Agent 可以优化自己，人需要写多少代码才能启动这个循环",
+        "twist": "hermes-agent 本周同样新增 18,223 星，定位「随你成长的 Agent」——两个方向同时爆发说明这不是炒作周期的开始，是验证周期的开始"
       },
-      "takeaway": "复制这个公式的三个动作：①今天就发布，不要等「成熟」②免费版做到真正有用③从第一天就做 SEO 内容，不要等到有付费用户再做",
+      "takeaway": "找一个你日常重复 3 次以上的 AI 工作流，用 GenericAgent 或 hermes-agent 跑一次「让它自己优化提示词」的实验；记录 token 消耗变化，这是比读文档更快建立直觉的方式",
       "refs": [
         {
           "tag": "pulse",
-          "ref": "Reddit r/SaaS：独立开发者 8 个月 $0 广告做到 $11K 收入和 $2,750 MRR",
-          "url": "https://www.reddit.com/r/SaaS/comments/1ssukhp/my_saas_crossed_11000_in_revenue_all_organically/"
+          "ref": "GitHub GenericAgent 本周新增 3,006 星，自我进化 token 消耗减少 6 倍",
+          "url": "https://github.com/lsdefine/GenericAgent"
         },
         {
           "tag": "pulse",
-          "ref": "Edgee Team「Strava for coding assistants」PLG 模式：先量化 ROI，再以数据驱动付费升级",
-          "url": "https://www.producthunt.com/products/edgee"
+          "ref": "GitHub hermes-agent 本周新增 18,223 星，定位「随你成长的 Agent」",
+          "url": "https://github.com/NousResearch/hermes-agent"
+        },
+        {
+          "tag": "builders",
+          "ref": "Swyx：又一个工程师上了「代码不便宜」这趟车",
+          "url": "https://x.com/swyx/status/2048125100437000512"
         }
       ]
     }
   ],
-  "notes": "今日 builders 数据为空（2026-04-26 X/播客/博客数据未采集），所有选题均基于 pulse 侧信源，无法满足「至少 1 条 builders 引用」的规范。建议补采 builders 数据后审查是否有更强一手素材可替换当前引用。本日最强叙事主轴是「Claude Code 定价事件（搜索破圈 25,750）+ karpathy CLAUDE.md（周增 29,917 星）」，两者共同指向 AI 工具生态的重组拐点，选题 1 和 2 可联动发布形成系列。",
-  "generated_at": "2026-04-26T07:16:28+00:00",
+  "notes": "今日 builders 数据质量偏参差，部分推文因缺上下文导致 AI 摘要失真（特别是 Sam Altman 和 Nan Yu 的几条），已规避使用。今日最强叙事主线是 Claude Code 付费调整引发的生态重组，两条副线是「纯文本知识包」与「自进化 Agent」，三线结合可以覆盖本周 AI 工具圈的核心结构性变化。",
+  "generated_at": "2026-04-26T09:22:59+00:00",
   "model": "claude-sonnet-4-6"
 }

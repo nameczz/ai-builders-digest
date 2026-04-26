@@ -86,6 +86,44 @@ export interface SuggestionsDay {
   notes?: string;
 }
 
+// ── Newsletters ────────────────────────────────────────────────
+export interface NewsletterStory {
+  id: string;
+  title_zh: string;
+  title_original?: string;
+  source: string;
+  from?: string;
+  subject?: string;
+  url?: string;
+  message_id?: string;
+  published_at?: string;
+  importance: "high" | "medium" | "low";
+  summary_zh: string;
+  why_important?: string;
+  impact?: string;
+  tags?: string[];
+  related_sources?: string[];
+}
+
+export interface NewsletterSkippedMessage {
+  message_id: string;
+  subject: string;
+  from: string;
+  reason: string;
+}
+
+export interface NewsletterDay {
+  date: string;
+  generated_at: string;
+  inbox_id: string;
+  window: { start: string; end: string };
+  count: number;
+  highlights: string[];
+  items: NewsletterStory[];
+  skipped?: NewsletterSkippedMessage[];
+  notes?: string;
+}
+
 // ── Index files (date listings) ────────────────────────────────
 export interface DateIndex {
   updated_at: string;

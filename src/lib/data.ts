@@ -2,6 +2,7 @@ import { promises as fs } from "node:fs";
 import path from "node:path";
 import type {
   BuildersDay,
+  NewsletterDay,
   PulseDay,
   SuggestionsDay,
   DateIndex,
@@ -18,7 +19,9 @@ async function readJson<T>(rel: string): Promise<T | null> {
   }
 }
 
-export async function loadIndex(kind: "builders" | "pulse" | "suggestions"): Promise<DateIndex> {
+export type DataKind = "builders" | "pulse" | "suggestions" | "newsletters";
+
+export async function loadIndex(kind: DataKind): Promise<DateIndex> {
   const idx = await readJson<DateIndex>(`${kind}/index.json`);
   return idx ?? { updated_at: "", dates: [], latest: "" };
 }
@@ -35,7 +38,11 @@ export async function loadSuggestions(date: string): Promise<SuggestionsDay | nu
   return readJson<SuggestionsDay>(`suggestions/${date}.json`);
 }
 
-export async function listDates(kind: "builders" | "pulse" | "suggestions"): Promise<string[]> {
+export async function loadNewsletters(date: string): Promise<NewsletterDay | null> {
+  return readJson<NewsletterDay>(`newsletters/${date}.json`);
+}
+
+export async function listDates(kind: DataKind): Promise<string[]> {
   return (await loadIndex(kind)).dates;
 }
 

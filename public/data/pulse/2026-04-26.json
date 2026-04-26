@@ -1,11 +1,11 @@
 {
   "date": "2026-04-26",
   "top3": [
-    "Claude Code 从 Pro 计划移除引发用户恐慌，关联搜索量破圈至 25,750，催生 free-claude-code 等开源平替本周 GitHub 新增 8,668 星",
-    "DeepSeek-V4-Pro 在 HuggingFace 趋势榜以 2617 分断层领跑，Kimi-K2.6 搜索量破圈至 14,450，开源长文本推理竞赛进入白热化",
-    "Andrej Karpathy 的 CLAUDE.md 最佳实践文档本周新增 29,917 颗星，成为近期增速最快的 AI 工程规范类仓库"
+    "Claude Code 被从 Pro 计划移除，引发搜索量 +23,250% 的爆炸式出走，付费用户集体涌向免费替代方案",
+    "DeepSeek V4 Pro 以趋势分 2629 登顶 HuggingFace，同日 Kimi K2.6 搜索量飙升 +14,450%，开源模型选型窗口在 48 小时内剧变",
+    "andrej-karpathy-skills 本周新增 29,917 星成 GitHub 第一，整条 Trending 榜被 Claude Code 周边生态包圆"
   ],
-  "intro": "今天的主线是 Claude Code 生态的撕裂与重组：官方将其从 Pro 计划移除激起社区反弹，催生了一批免费平替工具；与此同时，DeepSeek-V4 和 Kimi-K2.6 的开源攻势让编码基础设施的竞争格局进一步复杂化，而一份 Markdown 文件却成了本周全 GitHub 增速最快的「产品」。",
+  "intro": "今天的信号高度集中：Claude Code 付费策略调整触发用户集体出走，而模型侧 DeepSeek V4 Pro 与 Kimi K2.6 同日引爆搜索，开发者工具生态正在以 Claude Code 为中心快速重组。两条线索交叉出现一个关键窗口：AI 编程助手的付费模式正在被重新定价，这是本周最值得盯紧的结构性变化。",
   "sections": [
     {
       "id": "discovery",
@@ -13,12 +13,18 @@
       "blocks": [
         {
           "id": "indie-products",
-          "heading": "今天有哪些独立开发者的新产品？",
-          "summary_md": "[QuickCompare by Trismik](https://www.producthunt.com/products/quickcompare-by-trismik) 让用户把自己的数据集直接跑在不同 LLM 上做横向对比，切中了「选模型靠直觉」的真实痛点——对于要在 Claude/GPT-5.5/DeepSeek-V4 之间做选型的开发者，这类工具比跑基准榜单更有说服力。\n\n[Edgee Team](https://www.producthunt.com/products/edgee) 把自己定位为「coding assistants 的 Strava」，记录 AI 编码助手的使用数据和生产力指标；在 Claude Code 收费风波持续发酵的今天，能量化 ROI 的工具有明显的商业价值。[Euphony](https://www.producthunt.com/products/euphony-2) 则把 AI 聊天历史和 Codex 日志渲染成可浏览视图，填补了 AI 工作流可视化的空白。[Pica](https://www.producthunt.com/products/pica) 是 macOS 原生字体管理工具，来自 Chris Messina，走的是精品 utility 路线。",
+          "heading": "今天有哪些值得关注的新产品？",
+          "summary_md": "Product Hunt 今日最受关注的是 [Claude Connectors](https://www.producthunt.com/products/claude-connectors)，Anthropic 开放日常工具连接器，Claude 正在从对话工具变成工作流引擎。[GPT-5.5](https://www.producthunt.com/products/openai) 同步上线，OpenAI 称其为「最直觉化模型」——两大平台同日上新，模型竞争已进入周级迭代节奏。\n\n更值得独立开发者注意的是两个夹缝产品：[Edgee Team](https://www.producthunt.com/products/edgee) 定位为「Strava for coding assistants」，把 AI 编程助手的使用数据变成可追踪的团队指标；[QuickCompare by Trismik](https://www.producthunt.com/products/quickcompare-by-trismik) 允许在自己的数据集上横向对比 LLM，直接切中企业选型的核心痛点。这两个方向都在 AI 工具泛滥后的「可观测性」赛道上，商业价值清晰。",
           "items": [
             {
-              "title": "QuickCompare by Trismik",
-              "url": "https://www.producthunt.com/products/quickcompare-by-trismik",
+              "title": "Claude Connectors",
+              "url": "https://www.producthunt.com/products/claude-connectors",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "GPT-5.5 by OpenAI",
+              "url": "https://www.producthunt.com/products/openai",
               "source": "ProductHunt",
               "score": 0
             },
@@ -29,65 +35,65 @@
               "score": 0
             },
             {
-              "title": "Euphony",
-              "url": "https://www.producthunt.com/products/euphony-2",
-              "source": "ProductHunt",
-              "score": 0
-            },
-            {
-              "title": "Pica",
-              "url": "https://www.producthunt.com/products/pica",
+              "title": "QuickCompare by Trismik",
+              "url": "https://www.producthunt.com/products/quickcompare-by-trismik",
               "source": "ProductHunt",
               "score": 0
             }
           ],
-          "takeaway": "LLM 对比工具和 AI 工作流可视化正在成为独立开发者的新蓝海，门槛低但用户粘性高"
+          "takeaway": "AI 助手的可观测性即将成为独立产品赛道，Edgee 的团队指标切入角值得抄作业"
         },
         {
           "id": "github-traction",
           "heading": "GitHub 上哪些高增长开源项目还没有商业化？",
-          "summary_md": "本周增速最猛的是 [free-claude-code](https://github.com/Alishahryar1/free-claude-code)（周增 8,668 星，总计 11,864 星），允许用户在终端、VSCode 或 Discord 免费使用 Claude Code；没有收费产品，纯社区驱动，但用户规模已相当可观。\n\n[lsdefine/GenericAgent](https://github.com/lsdefine/GenericAgent) 周增 3,006 星，主打「从 3,300 行种子代码自我演化、比同类方案少用 6 倍 token」，连商业化思路都没有，却正在验证自进化 agent 的可行性。[Tracer-Cloud/opensre](https://github.com/Tracer-Cloud/opensre) 周增 1,385 星，开源 AI SRE agent 工具集，企业运维场景明确，商业化路径清晰但尚未启动。[multica-ai/multica](https://github.com/multica-ai/multica) 周增 5,118 星，开源托管 agent 平台，已有商业化雏形但仍以开源为主。",
+          "summary_md": "[forrestchang/andrej-karpathy-skills](https://github.com/forrestchang/andrej-karpathy-skills) 本周新增 29,917 星，总星 88,801——内容只是一个 CLAUDE.md 配置文件，却成为本周 GitHub 增长第一，无任何商业化。[Alishahryar1/free-claude-code](https://github.com/Alishahryar1/free-claude-code) 周增 8,668 星、总星 12,018，帮用户在终端、VSCode 和 Discord 免费使用 Claude Code，正是 Claude Code 付费调整的直接受益者。\n\n[multica-ai/multica](https://github.com/multica-ai/multica) 周增 5,118 星，是开源托管 Agent 平台，把编程 Agent 变成「可分配任务、追踪进度、复合技能」的团队成员，已有 21,217 总星却无明显变现。[lsdefine/GenericAgent](https://github.com/lsdefine/GenericAgent) 周增 3,006 星，宣称从 3,300 行种子代码自我进化、token 消耗减少 6 倍，自进化 Agent 框架方向。",
           "items": [
+            {
+              "title": "andrej-karpathy-skills",
+              "url": "https://github.com/forrestchang/andrej-karpathy-skills",
+              "source": "GitHub",
+              "score": 29917
+            },
             {
               "title": "free-claude-code",
               "url": "https://github.com/Alishahryar1/free-claude-code",
-              "source": "HN",
+              "source": "GitHub",
               "score": 8668
-            },
-            {
-              "title": "GenericAgent",
-              "url": "https://github.com/lsdefine/GenericAgent",
-              "source": "HN",
-              "score": 3006
             },
             {
               "title": "multica",
               "url": "https://github.com/multica-ai/multica",
-              "source": "HN",
+              "source": "GitHub",
               "score": 5118
             },
             {
-              "title": "opensre",
-              "url": "https://github.com/Tracer-Cloud/opensre",
-              "source": "HN",
-              "score": 1385
+              "title": "GenericAgent",
+              "url": "https://github.com/lsdefine/GenericAgent",
+              "source": "GitHub",
+              "score": 3006
             }
           ],
-          "takeaway": "free-claude-code 和 GenericAgent 都是「有用户没产品」的典型，商业化窗口明显敞开"
+          "takeaway": "本周高增长项目清一色围绕 Claude Code 生态，商业化空白极大，先做用户后想变现的窗口正开着"
         },
         {
           "id": "dev-pain",
-          "heading": "开发者在吐槽什么工具？",
-          "summary_md": "HN 上一则 [Tell HN：一个 app 每天悄悄把自己重装到我的 iPhone 上](https://news.ycombinator.com/item?id=47906253) 获得 188 分、86 条评论。这揭示了 iOS 生态里持续存在的「静默安装」灰色地带——尽管苹果收紧了后台权限，但仍有应用找到漏洞。对独立开发者而言，这是一个真实的用户痛点：移动端应用监控和隐私审计工具几乎没有面向普通用户的成熟产品。",
+          "heading": "开发者在吐槽什么？",
+          "summary_md": "HN 今日最激烈的讨论是 [Tell HN: An app is silently installing itself on my iPhone every day](https://news.ycombinator.com/item?id=47906253)，252 分、110 条评论。作者发现每天都有不明 App 静默安装到 iPhone，社区深入讨论了 MDM 企业配置文件和 iOS 供应链安全——这不只是个人安全问题，更是大量企业设备管理场景中普通用户感知盲区的集中暴露。\n\n同时，[The West Forgot How to Make Things. Now It's Forgetting How to Code](https://techtrenches.dev/p/the-west-forgot-how-to-make-things) 获 269 分、140 条评论，引发关于「AI 辅助编码是否正在蚕食程序员真实理解能力」的激烈辩论。这个焦虑在 GitHub 趋势被一个 CLAUDE.md 文件称霸的今天，显得格外应景。",
           "items": [
             {
               "title": "Tell HN: An app is silently installing itself on my iPhone every day",
               "url": "https://news.ycombinator.com/item?id=47906253",
               "source": "HN",
-              "score": 188
+              "score": 252
+            },
+            {
+              "title": "The West Forgot How to Make Things. Now It's Forgetting How to Code",
+              "url": "https://techtrenches.dev/p/the-west-forgot-how-to-make-things",
+              "source": "HN",
+              "score": 269
             }
           ],
-          "takeaway": "iOS 静默安装问题暴露出移动端隐私监控工具的产品空白"
+          "takeaway": "iOS 静默安装事件揭示了移动端 MDM 的普通用户感知盲区，做移动安全可视化工具的时机成熟"
         }
       ]
     },
@@ -98,60 +104,72 @@
         {
           "id": "dev-tools",
           "heading": "本周增长最快的开发者工具是什么？",
-          "summary_md": "本周最大黑马不是任何代码库，而是 [andrej-karpathy-skills](https://github.com/forrestchang/andrej-karpathy-skills)——一个从 Karpathy 对 LLM 编码陷阱的观察中提炼出来的单文件 CLAUDE.md，周增 29,917 星，总计 88,493 星，是本周全 GitHub 增速第一。它的爆发说明：工程规范文档本身就是产品，开发者对「让 AI agent 少犯错」的诉求已超过对新模型的渴望。\n\n[zilliztech/claude-context](https://github.com/zilliztech/claude-context) 周增 3,301 星，将整个代码库变成 Claude Code 的上下文 MCP，解决了大型项目中 agent「只见树木不见森林」的问题。配合 free-claude-code 的周增 8,668 星，Claude Code 生态工具链正在形成独立的开源供给侧。",
+          "summary_md": "本周开发工具趋势几乎被 Claude Code 生态独占。[andrej-karpathy-skills](https://github.com/forrestchang/andrej-karpathy-skills) 周增近 3 万星，证明开发者对「如何更好地用 Claude Code」的渴望已转化为大规模行动。[zilliztech/claude-context](https://github.com/zilliztech/claude-context) 周增 3,301 星，把整个代码库变成 Claude Code 的上下文，是大型项目代码理解问题的直接解法。\n\n[NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) 周增 18,223 星，总星 117,305，定位「随你成长的 Agent」，是本周 GitHub 周增量排名第二的项目——说明自主进化型 Agent 框架正在获得系统性关注，不是昙花一现。[openai/openai-agents-python](https://github.com/openai/openai-agents-python) 周增 3,061 星，轻量多 Agent 工作流框架，总星 25,227，适合不想引入重型框架的场景。",
           "items": [
             {
               "title": "andrej-karpathy-skills",
               "url": "https://github.com/forrestchang/andrej-karpathy-skills",
-              "source": "HN",
+              "source": "GitHub",
               "score": 29917
+            },
+            {
+              "title": "hermes-agent",
+              "url": "https://github.com/NousResearch/hermes-agent",
+              "source": "GitHub",
+              "score": 18223
             },
             {
               "title": "claude-context",
               "url": "https://github.com/zilliztech/claude-context",
-              "source": "HN",
+              "source": "GitHub",
               "score": 3301
             },
             {
-              "title": "free-claude-code",
-              "url": "https://github.com/Alishahryar1/free-claude-code",
-              "source": "HN",
-              "score": 8668
+              "title": "openai-agents-python",
+              "url": "https://github.com/openai/openai-agents-python",
+              "source": "GitHub",
+              "score": 3061
             }
           ],
-          "takeaway": "CLAUDE.md 工程规范比任何新 IDE 插件传播更快——工程文化文档是当前最被低估的开发者工具品类"
+          "takeaway": "Claude Code 配套工具（CLAUDE.md 优化、上下文增强、自进化 Agent 框架）是本周开发工具最强增长方向"
         },
         {
           "id": "hf-models",
           "heading": "HuggingFace 上最热的模型能做什么消费级产品？",
-          "summary_md": "[DeepSeek-V4-Pro](https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro) 以趋势分 2617 断层领跑，下载量 78,864，2,725 个 like，MIT 许可，支持 FP8 推理——这意味着开发者可以用消费级 GPU 本地运行一个真正具备竞争力的长文本推理模型，而不必依赖 API。[DeepSeek-V4-Flash](https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash) 趋势分 686，主打低延迟场景。\n\n[Kimi-K2.6](https://huggingface.co/moonshotai/Kimi-K2.6) 趋势分 997，下载量 291,840，支持图文混合输入，是消费级多模态应用的强力选项。[openai/privacy-filter](https://huggingface.co/openai/privacy-filter) 趋势分 765，是 OpenAI 开源的隐私过滤 token 分类模型，支持在浏览器端运行（基于 transformers.js），对构建数据脱敏类产品极具价值。[tencent/HY-World-2.0](https://huggingface.co/tencent/HY-World-2.0) 趋势分 175，将单张图片转换为可交互的 3D 世界模型，是游戏和 XR 场景的潜在基础设施。",
+          "summary_md": "[DeepSeek-V4-Pro](https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro) 今日趋势分 2629，下载量 123,431，点赞 2,738，MIT 协议，是本日 HF 绝对第一。同系列的 [DeepSeek-V4-Flash](https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash) 趋势分 690，适合做低延迟推理产品。[Kimi-K2.6](https://huggingface.co/moonshotai/Kimi-K2.6) 趋势分 999，下载量 376,485，支持图文多模态，是月之暗面在 HF 上目前推力最强的开源版本。\n\n[Qwen3.6-35B-A3B](https://huggingface.co/Qwen/Qwen3.6-35B-A3B) 是 MoE 架构，激活参数仅 3B，GGUF 版本下载量超 157 万，适合本地部署的消费级工作流。[openai/privacy-filter](https://huggingface.co/openai/privacy-filter) 趋势分 779，是 OpenAI 开源的隐私过滤 token 分类模型，可直接集成到处理用户数据的产品做 PII 检测，几乎是开箱即用的合规工具。",
           "items": [
             {
               "title": "DeepSeek-V4-Pro",
               "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
               "source": "HuggingFace",
-              "score": 2617
+              "score": 2629
             },
             {
               "title": "Kimi-K2.6",
               "url": "https://huggingface.co/moonshotai/Kimi-K2.6",
               "source": "HuggingFace",
-              "score": 997
+              "score": 999
+            },
+            {
+              "title": "Qwen3.6-27B",
+              "url": "https://huggingface.co/Qwen/Qwen3.6-27B",
+              "source": "HuggingFace",
+              "score": 813
             },
             {
               "title": "openai/privacy-filter",
               "url": "https://huggingface.co/openai/privacy-filter",
               "source": "HuggingFace",
-              "score": 765
+              "score": 779
             },
             {
-              "title": "tencent/HY-World-2.0",
-              "url": "https://huggingface.co/tencent/HY-World-2.0",
+              "title": "Qwen3.6-35B-A3B",
+              "url": "https://huggingface.co/Qwen/Qwen3.6-35B-A3B",
               "source": "HuggingFace",
-              "score": 175
+              "score": 496
             }
           ],
-          "takeaway": "DeepSeek-V4-Pro 的 FP8+MIT 组合让独立开发者首次能以极低成本自托管媲美 GPT-4 级别的长文本推理能力"
+          "takeaway": "DeepSeek V4 Pro 与 Kimi K2.6 同日引爆 HF，今天是这两个方向的最佳评估窗口"
         }
       ]
     },
@@ -160,56 +178,18 @@
       "title": "竞争情报",
       "blocks": [
         {
-          "id": "migrations",
-          "heading": "有没有「XX is dead」或迁移类文章？",
-          "summary_md": "本周最大的迁移信号来自 Google Trends：[claude code removed from pro plan](https://trends.google.com/trends/explore?q=claude+code&date=now+7-d) 相关搜索破圈至 25,750（极高异常值），说明 Anthropic 将 Claude Code 从 Pro 计划移除的决策触发了大规模用户流失焦虑。直接受益者是 free-claude-code（周增 8,668 星）和各类开源平替工具。\n\nProduct Hunt 上同期出现了 [GPT-5.5 by OpenAI](https://www.producthunt.com/products/openai) 和 [Codex 3.0](https://www.producthunt.com/products/codex-3-0-by-openai)，OpenAI 选择在 Claude Code 风波期间密集发布，时机耐人寻味。[DeepSeek-V4](https://www.producthunt.com/products/deepseek) 同步上榜，主打「1M context 开源智能」，三家同台竞技的格局在本周最为清晰。",
-          "items": [
-            {
-              "title": "claude code removed from pro plan (Google Trends breakout)",
-              "url": "https://trends.google.com/trends/explore?q=claude+code&date=now+7-d",
-              "source": "Google Trends",
-              "score": 25750
-            },
-            {
-              "title": "GPT-5.5 by OpenAI",
-              "url": "https://www.producthunt.com/products/openai",
-              "source": "ProductHunt",
-              "score": 0
-            },
-            {
-              "title": "Codex 3.0 by OpenAI",
-              "url": "https://www.producthunt.com/products/codex-3-0-by-openai",
-              "source": "ProductHunt",
-              "score": 0
-            },
-            {
-              "title": "DeepSeek-V4",
-              "url": "https://www.producthunt.com/products/deepseek",
-              "source": "ProductHunt",
-              "score": 0
-            }
-          ],
-          "takeaway": "Claude Code 移出 Pro 计划是本周最大的竞争格局重塑事件，直接推高了开源替代方案的关注度"
-        },
-        {
           "id": "pricing-revenue",
           "heading": "独立开发者在讨论什么营收和定价策略？",
-          "summary_md": "Claude Code 从 Pro 计划（$20/月）移除后被单独定价，这一动作本质上是将「AI 编码」从通用 AI 订阅中拆分出来单独变现——这对所有 AI 工具开发者都是一个定价信号：垂直场景的独立 SKU 比打包套餐更易提价。\n\n[Edgee Team](https://www.producthunt.com/products/edgee) 的「Strava 式」量化模型值得关注：先免费建立用户的 ROI 认知，再以数据驱动的付费转化，是 developer tool 领域最成熟的 PLG 路径之一。[QuickCompare by Trismik](https://www.producthunt.com/products/quickcompare-by-trismik) 采用「在你自己的数据上测试」策略，通过降低评估门槛来推动付费升级。",
-          "items": [
-            {
-              "title": "Edgee Team",
-              "url": "https://www.producthunt.com/products/edgee",
-              "source": "ProductHunt",
-              "score": 0
-            },
-            {
-              "title": "QuickCompare by Trismik",
-              "url": "https://www.producthunt.com/products/quickcompare-by-trismik",
-              "source": "ProductHunt",
-              "score": 0
-            }
-          ],
-          "takeaway": "把 AI 功能从通用套餐中拆出来单独定价，是 2026 年 AI 工具变现的主流趋势"
+          "summary_md": "今天最大的定价事件是：Claude Code 从 Pro 计划中被移除，Google Trends 数据显示「[claude code removed from pro plan](https://trends.google.com/trends/explore?q=claude+code&date=now+7-d)」搜索量飙升 +23,250%，「claude code removed from pro」+19,350%。这意味着大量 $20/月 Pro 用户突然失去访问权限，正在寻找替代方案——这直接解释了为什么 [free-claude-code](https://github.com/Alishahryar1/free-claude-code) 本周新增 8,668 星。\n\n这是一个教科书级别的市场信号：当平台调整付费门槛，用户的第一反应是找「免费替代」而非升级。对独立开发者来说，卡在两个付费层级之间的功能区间，往往就是新产品机会的入口。",
+          "items": [],
+          "takeaway": "Anthropic 把 Claude Code 移出 Pro 计划，正在为第三方替代工具创造强大的用户出走红利"
+        },
+        {
+          "id": "migrations",
+          "heading": "有没有迁移类信号？",
+          "summary_md": "[cursor alternative](https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d) 整体微降 -5.7%，但 rising 词中出现了「kimi k2.6」和「claude design」，说明搜索用户仍在横向对比 AI 编程工具，且正在把新开源模型纳入备选。[multica-ai/multica](https://github.com/multica-ai/multica) 周增 5,118 星，定位是把编程 Agent 变成真正的团队成员，正在承接那些觉得单个 Claude Code 不够用的团队用户。\n\n「[open source alternative](https://trends.google.com/trends/explore?q=open+source+alternative&date=now+7-d)」的 rising 词中出现了「figma open source alternative」，UI 设计工具的开源替代需求持续存在，值得做设计工具的人关注。",
+          "items": [],
+          "takeaway": "Claude Code 付费调整正在推动用户主动搜索替代品，迁移窗口已经打开且还在扩大"
         }
       ]
     },
@@ -218,25 +198,25 @@
       "title": "趋势判断",
       "blocks": [
         {
-          "id": "new-radar",
-          "heading": "新词雷达：有哪些从零起飞的新概念？",
-          "summary_md": "本周最强破圈信号是 [claude code removed from pro plan](https://trends.google.com/trends/explore?q=claude+code&date=now+7-d)（破圈值 25,750），在所有追踪词关联搜索中绝对第一，已不只是用户抱怨，而是一个影响整个 AI 编码工具市场的定价事件。\n\n[kimi k2.6](https://trends.google.com/trends/explore?q=self+hosted&date=now+7-d) 在「self hosted」关联词中破圈至 14,450，与 HuggingFace 上 291,840 次下载形成呼应，说明 Kimi 正在用本地部署能力快速打开开发者社区的认知。[gemini enterprise agent platform](https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d) 破圈值 3,250，是「ai agent」关联词里增速最快的新词，Gemini 的企业 agent 平台正在从概念走向落地搜索。[genericagent](https://trends.google.com/trends/explore?q=genericagent&date=now+7-d) 和 [android reverse engineering skill](https://trends.google.com/trends/explore?q=android+reverse+engineering+skill&date=now+7-d) 均飙升 +999%，与 GitHub Trending 上对应仓库的爆发完全同步，是典型的社区热点共振。",
-          "items": [],
-          "takeaway": "「kimi k2.6」和「claude code removed from pro」是本周最早的双向信号：一个预示开源长文本模型的新竞争者到来，一个预示 AI 编码工具定价体系的重构"
-        },
-        {
           "id": "keywords",
           "heading": "本周技术关键词频率有什么变化？",
-          "summary_md": "上升词：[genericagent](https://trends.google.com/trends/explore?q=genericagent&date=now+7-d) +999%、[android reverse engineering skill](https://trends.google.com/trends/explore?q=android+reverse+engineering+skill&date=now+7-d) +999%，均由 GitHub Trending 仓库爆发驱动；[andrej karpathy skills](https://trends.google.com/trends/explore?q=andrej+karpathy+skills&date=now+7-d) +10.6%，关联词「claude design」出现，说明 Karpathy 的影响力正在向 Claude 设计哲学扩散。\n\n下降词：[claude managed agents](https://trends.google.com/trends/explore?q=claude+managed+agents&date=now+7-d) -47.5%，降幅最大；[cursor alternative](https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d) -17.2%；[claude code](https://trends.google.com/trends/explore?q=claude+code&date=now+7-d) 整体趋势 -18%，但其关联词中「claude code removed from pro plan」破圈至 25,750，说明讨论主题已从「如何使用」转向「如何应对涨价」。",
+          "summary_md": "[andrej karpathy skills](https://trends.google.com/trends/explore?q=andrej+karpathy+skills&date=now+7-d) 涨幅 +25.5%，是本周追踪关键词中唯一明显正增长的词。rising 词中出现「claude design」，说明 Anthropic 可能正在铺垫新的设计类产品或功能，值得持续观察。\n\n[genericagent](https://trends.google.com/trends/explore?q=genericagent&date=now+7-d) 变化率达 +999%（触顶），对应 GitHub 上 [lsdefine/GenericAgent](https://github.com/lsdefine/GenericAgent) 本周新增 3,006 星——「自我进化 Agent」这个概念正从小圈子扩散到更广的搜索受众，是早期破圈的典型形态。",
           "items": [],
-          "takeaway": "Claude Code 涨价事件把相关搜索量从使用意图转向了抱怨和寻找替代，这是典型的用户情绪拐点"
+          "takeaway": "除 Karpathy skills 外所有 AI 大类关键词均在降温，热度正在从「品类词」向「具体工具名」集中"
         },
         {
           "id": "cooling",
           "heading": "哪些 AI 热词在降温？",
-          "summary_md": "[claude managed agents](https://trends.google.com/trends/explore?q=claude+managed+agents&date=now+7-d) 跌幅 -47.5%，是所有追踪词中降幅最大的；结合 Anthropic 近期的产品动作，托管 agent 平台的叙事暂时让位给了更基础的「怎么免费用 Claude Code」。[cursor alternative](https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d) -17.2%，Cursor 的竞争压力较上周有所缓解。[self hosted](https://trends.google.com/trends/explore?q=self+hosted&date=now+7-d) 整体 -10.4% 但关联词「kimi k2.6」破圈 14,450，说明自托管需求没有减少，只是用户注意力已聚焦到具体模型而非泛化的自托管概念。",
+          "summary_md": "降温信号集中在 Anthropic 生态：[claude managed agents](https://trends.google.com/trends/explore?q=claude+managed+agents&date=now+7-d) 跌幅高达 -49.2%，[claude code](https://trends.google.com/trends/explore?q=claude+code&date=now+7-d) 整体 -20.7%（尽管「removed from pro plan」词条局部爆炸），[claude context](https://trends.google.com/trends/explore?q=claude+context&date=now+7-d) -8.1%。\n\n同时，[self hosted](https://trends.google.com/trends/explore?q=self+hosted&date=now+7-d) -13.5%，[open source alternative](https://trends.google.com/trends/explore?q=open+source+alternative&date=now+7-d) -12.5%，说明自建基础设施的关注高峰已过，用户正回归直接使用托管方案。",
           "items": [],
-          "takeaway": "Claude 托管 agent 平台的热度快速退潮，开发者正在把注意力转回更实际的「本地部署」和「降低成本」"
+          "takeaway": "claude managed agents 暴跌 49% 是强信号：开发者验证过后正在大量离场，该方向短期商业化难度极高"
+        },
+        {
+          "id": "new-radar",
+          "heading": "新词雷达：有哪些从零起飞的新概念？",
+          "summary_md": "今天 breakout 词榜单异常密集，最值得关注的几个：\n\n- [claude code removed from pro plan](https://trends.google.com/trends/explore?q=claude+code&date=now+7-d) 飙升 +23,250%，是今日搜索量最大的 breakout 词，直接催生了 GitHub 上一批免费替代工具的爆炸式增长\n- [kimi k2.6](https://trends.google.com/trends/explore?q=self+hosted&date=now+7-d) 飙升 +14,450%，对应 HuggingFace 趋势分 999、下载量 376,485，开源多模态模型竞争格局当日即变\n- [gemini enterprise agent platform](https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d) 飙升 +3,600%，谷歌企业 Agent 平台正在引发市场关注，B 端 Agent 采购窗口可能提前\n- 「claude design」在多个 rising 词列表中反复出现（含 andrej karpathy skills 和 self hosted 两个词条），breakout 值 50-100，疑似 Anthropic 即将发布新产品的预热信号\n- 「figma open source alternative」进入 breakout 列表，设计工具开源替代需求有新一轮热度",
+          "items": [],
+          "takeaway": "「claude code removed from pro plan」是今日最强 breakout 词，「claude design」的反复出现值得当作前置信号跟踪"
         }
       ]
     },
@@ -247,28 +227,28 @@
         {
           "id": "weekend-build",
           "heading": "今天 2 小时和一个周末分别做什么？",
-          "summary_md": "**2 小时**：把 [andrej-karpathy-skills](https://github.com/forrestchang/andrej-karpathy-skills) 的 CLAUDE.md fork 下来，结合你自己项目的技术栈做定制，发布到 GitHub 并写一篇「我的 Claude Code 工程规范」——参考本周 29,917 颗星的增速，这类内容的传播成本极低，影响力极高。\n\n**一个周末**：在 [DeepSeek-V4-Pro](https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro)（FP8，MIT 许可）或 [Kimi-K2.6](https://huggingface.co/moonshotai/Kimi-K2.6) 上构建一个 LLM 对比评测工具，填补 QuickCompare 尚未深入的「自定义数据集 + 本地模型」场景——这正是 Claude Code 涨价后开发者最想要的组合。",
+          "summary_md": "**2 小时**：参考 [andrej-karpathy-skills](https://github.com/forrestchang/andrej-karpathy-skills) 的结构，为自己当前项目写一份定制 CLAUDE.md——不需要代码，只需要把你在用 Claude Code 时反复纠正的行为写成规则。这个「产品」本周证明了有近 3 万人有同样需求，而你的版本可以是你所在领域（后端、移动、数据）的专项版。\n\n**一个周末**：基于 Claude Code 付费变化这个明确痛点，做一个「本地 AI 编程助手路由器」——帮用户在不同免费/付费方案（free-claude-code、OpenRouter 路由、本地 Ollama）之间按规则自动切换。需求已被本周 GitHub 数据明确验证，竞争窗口刚打开，技术门槛不高。",
           "items": [],
-          "takeaway": "本周最快的 ROI 来自「工程文化内容」，成本是 2 小时写作，收益是持续的社区影响力"
+          "takeaway": "本周最好的创业机会来自 Anthropic 的定价决策，不是来自新技术"
         },
         {
           "id": "pricing-models",
           "heading": "值得学习的定价和变现模式有哪些？",
-          "summary_md": "Anthropic 将 Claude Code 从 Pro 套餐拆出单独定价，验证了一个模式：垂直场景独立 SKU 优于通用 AI 打包套餐。用户愿意为「专业 coding assistant」单独付费，而不是把它当成订阅里顺带的功能。Edgee Team 的「Strava for coding assistants」是另一种路径：先免费记录你的 AI 使用数据，帮你证明生产力提升，再以 ROI 证明换取付费升级——这是 PLG 在 AI 工具领域的精确落地。",
+          "summary_md": "今天有一个反面教材和一个正面参考。\n\n**反面**：Anthropic 把 Claude Code 移出 Pro 计划，「removed from pro plan」搜索量 +23,250%。把高价值功能从中间层下架，会激怒最忠实的用户群（$20 订阅者），并直接推动他们寻找免费替代，且这个迁移行为很难逆转。\n\n**正面**：[Edgee Team](https://www.producthunt.com/products/edgee) 用「Strava for coding assistants」作为定位，把使用数据可视化成团队指标，面向团队销售。这是典型的「个人免费使用，团队付费管理」路径，且 AI 编程助手数据天然有横向对比需求，产品价值主张极清晰，不依赖对某个大平台的绑定。",
           "items": [],
-          "takeaway": "「帮用户量化 AI 带来的 ROI，再以此为依据收费」是 2026 年 AI 工具最有说服力的付费转化路径"
+          "takeaway": "把核心功能移出低价层的代价极高，但这个错误正在为竞争者创造绝佳入场窗口"
         },
         {
           "id": "counterintuitive",
           "heading": "今天最反直觉的发现是什么？",
-          "summary_md": "本周 GitHub 增速第一的「产品」是 [andrej-karpathy-skills](https://github.com/forrestchang/andrej-karpathy-skills)——一个没有代码、没有 demo、没有界面的单文件 Markdown，以 29,917 周增星数击败了所有框架、模型和工具。这说明在 AI 编码工具爆炸的今天，「减少 AI 犯错的经验总结」比「新功能」更稀缺，更有传播价值。开发者现在最渴望的不是更多工具，而是一份让现有工具少出错的操作手册。",
+          "summary_md": "本周 GitHub 增长第一的项目 [andrej-karpathy-skills](https://github.com/forrestchang/andrej-karpathy-skills) 本周新增 29,917 星——它的全部内容就是一个纯文本文件 CLAUDE.md，没有代码、没有函数、没有依赖，却超越了本周所有开源框架和工具库。\n\n这意味着：在 AI 编程工具饱和的今天，「如何更好地使用工具」的知识，比「新工具本身」更稀缺，也更容易传播。prompt 配置文件正在取代代码库成为新的知识载体——而分发渠道仍然是 GitHub，传播机制仍然是 Star，只是内容形态彻底变了。",
           "items": [],
-          "takeaway": "「工程经验文档」已成为比代码库本身传播更快的内容品类，这是被严重低估的内容创作机会"
+          "takeaway": "一个 CLAUDE.md 文件的传播速度超越了大多数开源框架，知识本身正在成为最快扩散的产品形态"
         }
       ]
     }
   ],
-  "generated_at": "2026-04-26T07:13:17+00:00",
+  "generated_at": "2026-04-26T09:20:33+00:00",
   "reddit_highlights": [
     {
       "heading": "Indie 开发者正在讨论哪些收入和定价问题？",

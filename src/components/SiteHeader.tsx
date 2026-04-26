@@ -5,6 +5,7 @@ const NAV = [
   { href: "/builders", label: "BUILDERS" },
   { href: "/pulse", label: "BAROMETER" },
   { href: "/suggestions", label: "PICKS" },
+  { href: "/newsletters", label: "NEWSLETTERS" },
 ];
 
 function formatVol(date: string): string {
