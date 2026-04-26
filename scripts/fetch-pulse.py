@@ -4,7 +4,7 @@ fetch-pulse.py — assemble a BuilderPulse-style daily report.
 
 1. Pull HN / GitHub / ProductHunt / HuggingFace / GoogleTrends / Reddit-from-BP.
 2. Persist raw payloads to out/raw/{date}/{source}.json (gitignored).
-3. Run Claude CLI with prompts/build_pulse.md to refine into structured JSON.
+3. Run Codex CLI with prompts/build_pulse.md to refine into structured JSON.
 4. Inject reddit_highlights from BuilderPulse repo extraction.
 5. Write public/data/pulse/{date}.json + index.json.
 """
@@ -12,8 +12,6 @@ from __future__ import annotations
 
 import argparse
 import json
-import shutil
-import subprocess
 import sys
 from datetime import date
 from pathlib import Path
@@ -27,17 +25,13 @@ from lib import (  # noqa: E402
     product_hunt,
     reddit_from_builderpulse as rbp,
 )
-from lib.config import CLAUDE_BIN, CLAUDE_MODEL  # noqa: E402
 from lib.io_utils import now_iso, read_json, update_index, write_json  # noqa: E402
+from lib.llm import call_codex, has_codex  # noqa: E402
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
 RAW_DIR = REPO_ROOT / "out" / "raw"
 PULSE_DIR = REPO_ROOT / "public" / "data" / "pulse"
 PROMPT_PATH = REPO_ROOT / "prompts" / "build_pulse.md"
-
-
-def has_claude() -> bool:
-    return bool(shutil.which(CLAUDE_BIN))
 
 
 def collect_raw(date_str: str, skip_trends: bool = False) -> dict:
@@ -111,9 +105,9 @@ def trim_for_llm(bundle: dict) -> dict:
     }
 
 
-def call_claude(date_str: str, slim: dict) -> dict | None:
-    if not has_claude():
-        print("  ! claude binary missing; falling back to raw-archive mode")
+def call_llm(date_str: str, slim: dict) -> dict | None:
+    if not has_codex():
+        print("  ! codex binary missing; falling back to raw-archive mode")
         return None
     prompt_text = PROMPT_PATH.read_text(encoding="utf-8")
     user_msg = (
@@ -122,16 +116,10 @@ def call_claude(date_str: str, slim: dict) -> dict | None:
         "请直接输出符合 schema 的 JSON。"
     )
     try:
-        proc = subprocess.run(
-            [CLAUDE_BIN, "-p", user_msg, "--model", CLAUDE_MODEL],
-            capture_output=True,
-            text=True,
-            timeout=600,
-        )
+        out = call_codex(user_msg, timeout=600).strip()
     except Exception as exc:  # noqa: BLE001
-        print(f"  ! claude call failed: {exc}", file=sys.stderr)
+        print(f"  ! codex call failed: {exc}", file=sys.stderr)
         return None
-    out = proc.stdout.strip()
     # Some shells wrap with code fences; strip if present.
     if out.startswith("```"):
         out = out.split("\n", 1)[1].rsplit("```", 1)[0]
@@ -152,8 +140,8 @@ def call_claude(date_str: str, slim: dict) -> dict | None:
         repaired = _repair_unescaped_quotes(out[out.find("{") : out.rfind("}") + 1])
         parsed = _try(repaired)
     if parsed is None:
-        print("  ! Claude returned non-JSON, dumping raw", file=sys.stderr)
-        (RAW_DIR / date_str / "claude_raw.txt").write_text(out, encoding="utf-8")
+        print("  ! Codex returned non-JSON, dumping raw", file=sys.stderr)
+        (RAW_DIR / date_str / "codex_raw.txt").write_text(out, encoding="utf-8")
     return parsed
 
 
@@ -263,7 +251,7 @@ def fallback_pulse(date_str: str, slim: dict) -> dict:
     return {
         "date": date_str,
         "top3": [],
-        "intro": "（无 LLM 编辑模式：以下为原始数据归档，建议安装 claude CLI 重新生成。）",
+        "intro": "（无 LLM 编辑模式：以下为原始数据归档，建议安装 codex CLI 重新生成。）",
         "sections": [
             {"id": "discovery", "title": "发现机会", "blocks": blocks_disc},
             {"id": "tech-stack", "title": "技术选型", "blocks": blocks_tech},
@@ -277,7 +265,7 @@ def fallback_pulse(date_str: str, slim: dict) -> dict:
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--date", default=date.today().isoformat())
-    parser.add_argument("--no-llm", action="store_true", help="Skip Claude CLI, write raw-archive pulse")
+    parser.add_argument("--no-llm", action="store_true", help="Skip Codex CLI, write raw-archive pulse")
     parser.add_argument("--reuse-raw", action="store_true", help="Skip network fetch, reuse out/raw/{date}/")
     parser.add_argument("--skip-trends", action="store_true", help="Skip Google Trends (saves ~3 min)")
     args = parser.parse_args()
@@ -286,13 +274,13 @@ def main() -> int:
 
     if args.reuse_raw:
         raw_day = RAW_DIR / args.date
-        bundle = {p.stem: read_json(p) for p in raw_day.glob("*.json") if p.stem != "claude_raw"}
+        bundle = {p.stem: read_json(p) for p in raw_day.glob("*.json") if p.stem not in {"claude_raw", "codex_raw"}}
         print(f"  reused raw with sources: {list(bundle)}")
     else:
         bundle = collect_raw(args.date, skip_trends=args.skip_trends)
 
     slim = trim_for_llm(bundle)
-    refined = None if args.no_llm else call_claude(args.date, slim)
+    refined = None if args.no_llm else call_llm(args.date, slim)
     if refined is None:
         refined = fallback_pulse(args.date, slim)
 

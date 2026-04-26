@@ -11,21 +11,25 @@
 #   AIBD_PUSH=1        also git push after commit
 #   AIBD_SKIP_TRENDS=1 skip Google Trends (saves ~2min)
 #   AGENTMAIL_API_KEY  enables newsletter ingestion
-#   CLAUDE_MODEL       defaults to claude-sonnet-4-6 (better editor judgement than Haiku)
+#   CODEX_MODEL        defaults to gpt-5.5
 
 set -euo pipefail
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 cd "$ROOT"
 
 export PATH="$HOME/.local/bin:/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:$PATH"
-export CLAUDE_MODEL="${CLAUDE_MODEL:-claude-sonnet-4-6}"
+set -a
+[[ -f .env ]] && source .env
+[[ -f .env.local ]] && source .env.local
+set +a
+export CODEX_MODEL="${CODEX_MODEL:-gpt-5.5}"
 
 DATE="${1:-$(date +%Y-%m-%d)}"
 LOG_DIR="$HOME/Library/Logs"
 mkdir -p "$LOG_DIR"
 LOG="$LOG_DIR/aibd-noon-$DATE.log"
 
-echo "==> [$(date -Iseconds)] noon $DATE  model=$CLAUDE_MODEL" | tee -a "$LOG"
+echo "==> [$(date -Iseconds)] noon $DATE  model=$CODEX_MODEL" | tee -a "$LOG"
 
 PULSE_FLAGS=()
 [[ "${AIBD_SKIP_TRENDS:-0}" == "1" ]] && PULSE_FLAGS+=(--skip-trends)

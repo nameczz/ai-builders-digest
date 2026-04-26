@@ -24,8 +24,6 @@ from __future__ import annotations
 import argparse
 import hashlib
 import json
-import shutil
-import subprocess
 import sys
 from datetime import date, datetime, timezone
 from pathlib import Path
@@ -33,8 +31,8 @@ from pathlib import Path
 import urllib.request
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from lib.config import CLAUDE_BIN, CLAUDE_MODEL  # noqa: E402
 from lib.io_utils import now_iso, read_json, update_index, write_json  # noqa: E402
+from lib.llm import call_codex, has_codex  # noqa: E402
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
 OUT_DIR = REPO_ROOT / "public" / "data" / "builders"
@@ -58,38 +56,12 @@ def short_id(*parts: str) -> str:
     return h[:10]
 
 
-def has_claude() -> bool:
-    return bool(shutil.which(CLAUDE_BIN))
-
-
-def claude_translate(prompt: str) -> str:
-    """Call `claude -p` in lightweight mode for a one-shot Chinese summary.
-
-    --tools "" / --disable-slash-commands / --no-session-persistence keep the
-    runtime cold (~9s per call vs 60s+ with full agent boot).
-    """
+def codex_translate(prompt: str) -> str:
+    """Call Codex CLI for a one-shot Chinese summary."""
     try:
-        result = subprocess.run(
-            [
-                CLAUDE_BIN,
-                "-p",
-                prompt,
-                "--model",
-                CLAUDE_MODEL,
-                "--tools",
-                "",
-                "--disable-slash-commands",
-                "--no-session-persistence",
-                "--output-format",
-                "text",
-            ],
-            capture_output=True,
-            text=True,
-            timeout=60,
-        )
-        return result.stdout.strip().split("\n")[0] if "SessionEnd hook" in result.stdout else result.stdout.strip()
+        return call_codex(prompt, timeout=60).strip()
     except Exception as exc:  # noqa: BLE001
-        print(f"  ! claude call failed: {str(exc)[:80]}", file=sys.stderr)
+        print(f"  ! codex call failed: {str(exc)[:80]}", file=sys.stderr)
         return ""
 
 
@@ -100,11 +72,11 @@ def summarise_zh(kind: str, payload: str, use_llm: bool) -> str:
         f"你是中文科技媒体编辑。请把下面这条 AI builder 的{kind}用 1-2 句中文总结，"
         f"保留原话锋利度，去掉客套话，不要加任何前缀如『摘要：』。\n\n---\n{payload}\n---"
     )
-    return claude_translate(prompt)
+    return codex_translate(prompt)
 
 
 def translate_concurrent(items: list[dict], concurrency: int = 5) -> None:
-    """In-place mutate `items` by filling summary_zh via parallel claude calls."""
+    """In-place mutate `items` by filling summary_zh via parallel Codex calls."""
     from concurrent.futures import ThreadPoolExecutor, as_completed
 
     def one(it: dict) -> tuple[dict, str]:
@@ -309,9 +281,9 @@ def consolidate_to(target_date: str) -> int:
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--date", default=date.today().isoformat(), help="Run-date bucket (all new items go here)")
-    parser.add_argument("--no-llm", action="store_true", help="Skip Claude CLI translation")
+    parser.add_argument("--no-llm", action="store_true", help="Skip Codex CLI translation")
     parser.add_argument("--max-llm", type=int, default=50, help="Cap LLM calls per run for cost control")
-    parser.add_argument("--concurrency", type=int, default=5, help="Parallel claude CLI calls")
+    parser.add_argument("--concurrency", type=int, default=5, help="Parallel Codex CLI calls")
     parser.add_argument("--consolidate", action="store_true", help="One-shot: merge all existing per-date files into --date and delete the others")
     args = parser.parse_args()
 
@@ -322,9 +294,9 @@ def main() -> int:
         print(f"  done. {n} unique items merged into {args.date}.json")
         return 0
 
-    use_llm = (not args.no_llm) and has_claude()
+    use_llm = (not args.no_llm) and has_codex()
     if not use_llm and not args.no_llm:
-        print("warn: claude binary not found, running with --no-llm", file=sys.stderr)
+        print("warn: codex binary not found, running with --no-llm", file=sys.stderr)
 
     print(f"[builders] target_date={args.date} llm={use_llm}")
     feeds = {}

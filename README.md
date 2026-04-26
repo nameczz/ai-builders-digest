@@ -97,7 +97,7 @@ crontab -e
 
 ### C. GitHub Actions（推荐云端 / 不依赖本机）
 
-如果你不想 Mac 一直开着，需要把 `claude` CLI（OAuth）替换成 Anthropic API key + `anthropic` Python SDK。然后在 `.github/workflows/daily.yml` 用 `cron: '0 1 * * *'`（UTC，对应北京 9:00）。**当前脚本暂未内置 SDK 路径**——如果要走这条路告诉我，我来加。
+如果你不想 Mac 一直开着，需要在 runner 上登录并配置 `codex` CLI。然后在 `.github/workflows/daily.yml` 用 `cron: '0 1 * * *'`（UTC，对应北京 9:00）。**当前脚本暂未内置 API SDK 路径**——如果要走这条路告诉我，我来加。
 
 ### D. Claude Code skills（手工触发）
 
@@ -111,8 +111,8 @@ crontab -e
 
 | 变量                                | 用途                                                        |
 | ----------------------------------- | ----------------------------------------------------------- |
-| `CLAUDE_BIN`                        | Claude CLI 路径（默认 `claude`）                            |
-| `CLAUDE_MODEL`                      | 模型 ID（默认 `claude-sonnet-4-6`）                         |
+| `CODEX_BIN`                         | Codex CLI 路径（默认 `codex`）                              |
+| `CODEX_MODEL`                       | 模型 ID（默认 `gpt-5.5`）                                   |
 | `PRODUCT_HUNT_TOKEN`                | 切到 PH GraphQL（带票数 / topics）；无则走公开 Atom feed    |
 | `GITHUB_TOKEN`                      | 提高 GitHub API 速率配额（trending 仍走 HTML scrape）       |
 | `REDDIT_CLIENT_ID` / `REDDIT_SECRET`| 预留，当前未启用直拉                                        |
@@ -138,7 +138,7 @@ python scripts/fetch-pulse.py --date 2026-04-25 --skip-trends
 - Next.js 16 (App Router, Turbopack, SSG)
 - React 19 + Tailwind CSS v4
 - Python 3 标准库 + 可选 `pytrends`
-- Claude CLI 作为编辑提炼引擎
+- Codex CLI 作为编辑提炼引擎
 
 ## 目录
 

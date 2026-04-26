@@ -5,7 +5,7 @@ const NAV = [
   { href: "/builders", label: "BUILDERS" },
   { href: "/pulse", label: "BAROMETER" },
   { href: "/suggestions", label: "PICKS" },
-  { href: "/newsletters", label: "NEWSLETTERS" },
+  { href: "/newsletters", label: "MAIL" },
 ];
 
 function formatVol(date: string): string {
@@ -60,8 +60,8 @@ export function SiteHeader({ activeDate }: { activeDate?: string }) {
         <div className="rule-double mt-5 mb-2" />
 
         {/* nav row */}
-        <nav className="flex items-center justify-between flex-wrap gap-3">
-          <ul className="flex items-center gap-1 text-xs">
+        <nav className="flex items-center justify-between flex-wrap gap-3 overflow-hidden">
+          <ul className="flex items-center gap-1 text-xs flex-wrap min-w-0">
             {NAV.map((n, i) => (
               <li key={n.href} className="flex items-center gap-1">
                 {i > 0 && <span className="text-ink-faint mx-1">·</span>}

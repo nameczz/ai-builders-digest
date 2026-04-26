@@ -30,12 +30,10 @@
         <key>AIBD_PUSH</key>
         <string>1</string>
 
-        <!-- If set, claude CLI uses API key billing instead of Claude Code OAuth.
-             Recommended for headless / unattended runs (no Keychain dependency).
-             Leave commented to use your Claude Code login subscription. -->
+        <!-- Optional Codex CLI overrides for unattended runs. -->
         <!--
-        <key>ANTHROPIC_API_KEY</key>
-        <string>sk-ant-...</string>
+        <key>CODEX_MODEL</key>
+        <string>gpt-5.5</string>
         -->
     </dict>
 

@@ -9,22 +9,22 @@
 # ENV (optional):
 #   AIBD_NO_COMMIT=1   skip git add/commit
 #   AIBD_PUSH=1        also git push after commit
-#   CLAUDE_MODEL       defaults to claude-haiku-4-5
+#   CODEX_MODEL        defaults to gpt-5.5
 
 set -euo pipefail
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 cd "$ROOT"
 
-# Make claude CLI / python discoverable when launchd starts us with a sparse PATH
+# Make codex CLI / python discoverable when launchd starts us with a sparse PATH
 export PATH="$HOME/.local/bin:/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:$PATH"
-export CLAUDE_MODEL="${CLAUDE_MODEL:-claude-haiku-4-5}"
+export CODEX_MODEL="${CODEX_MODEL:-gpt-5.5}"
 
 DATE="${1:-$(date +%Y-%m-%d)}"
 LOG_DIR="$HOME/Library/Logs"
 mkdir -p "$LOG_DIR"
 LOG="$LOG_DIR/aibd-morning-$DATE.log"
 
-echo "==> [$(date -Iseconds)] morning $DATE  model=$CLAUDE_MODEL" | tee -a "$LOG"
+echo "==> [$(date -Iseconds)] morning $DATE  model=$CODEX_MODEL" | tee -a "$LOG"
 
 python3 scripts/fetch-builders.py --date "$DATE" --max-llm 50 --concurrency 6 2>&1 | tee -a "$LOG"
 

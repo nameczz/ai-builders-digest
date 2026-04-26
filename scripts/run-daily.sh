@@ -6,6 +6,11 @@ set -euo pipefail
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 cd "$ROOT"
 
+set -a
+[[ -f .env ]] && source .env
+[[ -f .env.local ]] && source .env.local
+set +a
+
 DATE="${1:-$(date +%Y-%m-%d)}"
 shift || true
 

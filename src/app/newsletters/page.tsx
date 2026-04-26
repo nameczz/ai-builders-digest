@@ -21,7 +21,7 @@ export default async function NewslettersIndexPage() {
             AI Newsletter 日报
           </h1>
           <p className="font-han text-base mt-4 text-ink-mute italic max-w-2xl">
-            从 AgentMail 订阅邮箱拉取 AI newsletter，去重后按重要性筛选，并整理成中文编辑摘要。
+            从 AgentMail 订阅邮箱每天只挑一篇最值得认真看的 AI newsletter，整理成中文精读摘要。
           </p>
         </header>
 
@@ -35,7 +35,7 @@ export default async function NewslettersIndexPage() {
             {previews.map(({ date, data }, i) =>
               data ? (
                 <li key={date} className="py-8 first:pt-0">
-                  <Link href={`/newsletters/${date}`} className="group grid md:grid-cols-[120px_1fr_2fr] gap-6 items-baseline">
+                  <Link href={`/newsletters/${date}`} className="group grid md:grid-cols-[90px_minmax(0,1.2fr)_minmax(0,1fr)] gap-6 items-baseline min-w-0">
                     <div>
                       <div className="folio">No. {String(previews.length - i).padStart(3, "0")}</div>
                       <div className="font-display font-semibold text-3xl text-ink mt-1 group-hover:text-vermilion transition-colors">
@@ -45,9 +45,16 @@ export default async function NewslettersIndexPage() {
                     </div>
 
                     <div>
-                      {data.highlights.length > 0 && (
+                      {data.items[0] ? (
+                        <div className="min-w-0">
+                          <div className="kicker mb-2">今日精读</div>
+                          <h2 className="font-han text-[16px] leading-snug text-ink-soft group-hover:text-vermilion break-words">
+                            {data.items[0].title_zh}
+                          </h2>
+                        </div>
+                      ) : data.highlights.length > 0 && (
                         <ol className="space-y-2">
-                          {data.highlights.slice(0, 3).map((t, j) => (
+                          {data.highlights.slice(0, 1).map((t, j) => (
                             <li key={j} className="flex gap-2">
                               <span className="numeral text-sm text-vermilion flex-shrink-0">{j + 1}.</span>
                               <span className="font-han text-[14px] text-ink-soft leading-snug line-clamp-2">{t}</span>
@@ -58,13 +65,14 @@ export default async function NewslettersIndexPage() {
                     </div>
 
                     <p className="font-han text-[14px] italic text-ink-mute leading-7 line-clamp-4">
-                      共筛出 {data.items.length} 条重点，来自 {new Set(data.items.map((it) => it.source)).size} 个 newsletter 来源。
+                      {data.items[0]
+                        ? `来自 ${data.items[0].source} · ${data.items[0].importance.toUpperCase()} · 点击进入精读`
+                        : "今天没有可精读的正式 newsletter。"}
                     </p>
                   </Link>
 
                   <div className="mt-4 flex items-center gap-4 text-xs">
-                    <span className="folio">{data.items.filter((it) => it.importance === "high").length} HIGH</span>
-                    <span className="folio">{data.items.filter((it) => it.importance === "medium").length} MEDIUM</span>
+                    <span className="folio">{data.items.length > 0 ? "1 PICK" : "NO PICK"}</span>
                     {data.skipped && <span className="folio">SKIPPED × {data.skipped.length}</span>}
                   </div>
                 </li>

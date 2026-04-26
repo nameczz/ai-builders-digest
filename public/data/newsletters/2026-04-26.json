@@ -1,6 +1,6 @@
 {
   "date": "2026-04-26",
-  "generated_at": "2026-04-26T09:13:56+00:00",
+  "generated_at": "2026-04-26T14:53:24+00:00",
   "inbox_id": "sanyoumu@agentmail.to",
   "window": {
     "start": "2026-04-26T00:00:00+00:00",
@@ -11,11 +11,17 @@
   "items": [],
   "skipped": [
     {
+      "message_id": "<20260426142818.3.950bc3733b21fffb.4lv7oj8s@mg-d1.substack.com>",
+      "subject": "Welcome to Dr. Fei-Fei Li",
+      "from": "Fei-Fei Li <drfeifei@substack.com>",
+      "reason": "system"
+    },
+    {
       "message_id": "<fRzoD1cZSZ6UMNLtcRF31Q@geopod-ismtpd-3>",
       "subject": "Confirm your AI Valley signup",
       "from": "AI Valley <aivalley@mail.beehiiv.com>",
       "reason": "system"
     }
   ],
-  "notes": "自动归档模式：未调用 LLM，仅按邮件主题和正文片段归档。"
+  "notes": "当天没有可精读的正式 newsletter。"
 }

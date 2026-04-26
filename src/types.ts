@@ -99,8 +99,11 @@ export interface NewsletterStory {
   published_at?: string;
   importance: "high" | "medium" | "low";
   summary_zh: string;
+  deep_read_zh?: string;
   why_important?: string;
   impact?: string;
+  key_points?: string[];
+  reading_notes?: string[];
   tags?: string[];
   related_sources?: string[];
 }

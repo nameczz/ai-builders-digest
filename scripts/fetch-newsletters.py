@@ -5,8 +5,8 @@ fetch-newsletters.py — pull AgentMail newsletters, de-duplicate, summarize int
 ENV:
   AGENTMAIL_API_KEY   required
   AGENTMAIL_INBOX_ID  optional; defaults to first inbox returned by AgentMail
-  CLAUDE_BIN          optional; defaults to claude
-  CLAUDE_MODEL        optional; defaults to claude-sonnet-4-6
+  CODEX_BIN           optional; defaults to codex
+  CODEX_MODEL         optional; defaults to gpt-5.5
 
 Usage:
   python3 scripts/fetch-newsletters.py --date 2026-04-26
@@ -18,8 +18,6 @@ import argparse
 import hashlib
 import json
 import re
-import shutil
-import subprocess
 import sys
 import urllib.error
 import urllib.parse
@@ -29,8 +27,9 @@ from pathlib import Path
 from typing import Any
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from lib.config import CLAUDE_BIN, CLAUDE_MODEL, get  # noqa: E402
+from lib.config import get  # noqa: E402
 from lib.io_utils import now_iso, update_index, write_json  # noqa: E402
+from lib.llm import call_codex, has_codex  # noqa: E402
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
 NEWSLETTER_DIR = REPO_ROOT / "public" / "data" / "newsletters"
@@ -128,9 +127,10 @@ def first_content_url(msg: dict[str, Any]) -> str:
 
 def fallback_digest(date_str: str, inbox_id: str, start: datetime, end: datetime, messages: list[dict[str, Any]], skipped: list[dict[str, str]]) -> dict[str, Any]:
     items = []
-    for msg in messages[:12]:
+    if messages:
+        msg = messages[0]
         title = msg.get("subject") or "Untitled newsletter item"
-        body = clean_text(msg.get("extracted_text") or msg.get("text") or msg.get("preview") or "", 700)
+        body = clean_text(msg.get("extracted_text") or msg.get("text") or msg.get("preview") or "", 1200)
         digest = hashlib.sha1((msg.get("message_id", "") + title).encode()).hexdigest()[:10]
         items.append(
             {
@@ -144,9 +144,12 @@ def fallback_digest(date_str: str, inbox_id: str, start: datetime, end: datetime
                 "message_id": msg.get("message_id", ""),
                 "published_at": msg.get("timestamp", ""),
                 "importance": "medium",
-                "summary_zh": body or (msg.get("preview") or "暂无正文摘要。"),
-                "why_important": "自动归档模式：尚未调用 LLM 做重要性判断。",
-                "impact": "建议稍后开启 LLM 重新生成中文编辑摘要。",
+                "summary_zh": body[:500] or (msg.get("preview") or "暂无正文摘要。"),
+                "deep_read_zh": body or "自动归档模式：尚未调用 LLM 做精读摘要。",
+                "why_important": "自动归档模式：先选择当天第一封正式 newsletter，尚未调用 LLM 做重要性判断。",
+                "impact": "建议稍后开启 LLM 重新生成每天一篇的精读版本。",
+                "key_points": [],
+                "reading_notes": [],
                 "tags": ["newsletter"],
             }
         )
@@ -156,16 +159,16 @@ def fallback_digest(date_str: str, inbox_id: str, start: datetime, end: datetime
         "inbox_id": inbox_id,
         "window": {"start": start.isoformat(), "end": end.isoformat()},
         "count": len(items),
-        "highlights": [it["title_zh"] for it in items[:3]],
+        "highlights": [f"今日精读：{items[0]['title_zh']}"] if items else [],
         "items": items,
         "skipped": skipped,
-        "notes": "自动归档模式：未调用 LLM，仅按邮件主题和正文片段归档。",
+        "notes": "自动归档模式：未调用 LLM；仅保留 1 篇作为精读占位。" if items else "当天没有可精读的正式 newsletter。",
     }
 
 
-def call_claude(date_str: str, inbox_id: str, messages: list[dict[str, Any]]) -> dict[str, Any] | None:
-    if not shutil.which(CLAUDE_BIN):
-        print("  ! claude binary missing; falling back", file=sys.stderr)
+def call_llm(date_str: str, inbox_id: str, messages: list[dict[str, Any]]) -> dict[str, Any] | None:
+    if not has_codex():
+        print("  ! codex binary missing; falling back", file=sys.stderr)
         return None
     prompt = PROMPT_PATH.read_text(encoding="utf-8")
     slim = []
@@ -186,13 +189,11 @@ def call_claude(date_str: str, inbox_id: str, messages: list[dict[str, Any]]) ->
         f"{prompt}\n\n## 日期\n{date_str}\n\n## Inbox\n{inbox_id}\n\n"
         f"## 邮件数据\n```json\n{json.dumps(slim, ensure_ascii=False, indent=2)}\n```\n"
     )
-    proc = subprocess.run(
-        [CLAUDE_BIN, "-p", user_msg, "--model", CLAUDE_MODEL],
-        capture_output=True,
-        text=True,
-        timeout=600,
-    )
-    out = proc.stdout.strip()
+    try:
+        out = call_codex(user_msg, timeout=600).strip()
+    except Exception as exc:  # noqa: BLE001
+        print(f"  ! codex call failed: {exc}", file=sys.stderr)
+        return None
     if out.startswith("```"):
         out = out.split("\n", 1)[1].rsplit("```", 1)[0]
     try:
@@ -205,24 +206,27 @@ def call_claude(date_str: str, inbox_id: str, messages: list[dict[str, Any]]) ->
             except json.JSONDecodeError:
                 pass
     (RAW_DIR / date_str).mkdir(parents=True, exist_ok=True)
-    (RAW_DIR / date_str / "claude_raw.txt").write_text(out, encoding="utf-8")
-    print("  ! Claude returned non-JSON; falling back", file=sys.stderr)
+    (RAW_DIR / date_str / "codex_raw.txt").write_text(out, encoding="utf-8")
+    print("  ! Codex returned non-JSON; falling back", file=sys.stderr)
     return None
 
 
 def normalize_digest(base: dict[str, Any], date_str: str, inbox_id: str, start: datetime, end: datetime, skipped: list[dict[str, str]]) -> dict[str, Any]:
-    items = base.get("items") or []
+    items = (base.get("items") or [])[:1]
     for i, item in enumerate(items):
         item.setdefault("id", f"newsletter-{i+1:02d}")
         item.setdefault("importance", "medium")
         item.setdefault("tags", [])
+        item.setdefault("key_points", [])
+        item.setdefault("reading_notes", [])
+        item.setdefault("deep_read_zh", item.get("summary_zh", ""))
     return {
         "date": date_str,
         "generated_at": now_iso(),
         "inbox_id": inbox_id,
         "window": {"start": start.isoformat(), "end": end.isoformat()},
         "count": len(items),
-        "highlights": base.get("highlights") or [it.get("title_zh", "") for it in items[:3]],
+        "highlights": (base.get("highlights") or [f"今日精读：{items[0].get('title_zh', '')}" if items else ""])[:1] if items else [],
         "items": items,
         "skipped": skipped,
         "notes": base.get("notes", ""),
@@ -273,7 +277,7 @@ def main() -> int:
     if args.no_llm:
         digest = fallback_digest(args.date, inbox_id, start, end, selected, skipped)
     else:
-        llm = call_claude(args.date, inbox_id, selected)
+        llm = call_llm(args.date, inbox_id, selected)
         digest = normalize_digest(llm, args.date, inbox_id, start, end, skipped) if llm else fallback_digest(args.date, inbox_id, start, end, selected, skipped)
 
     write_json(NEWSLETTER_DIR / f"{args.date}.json", digest)

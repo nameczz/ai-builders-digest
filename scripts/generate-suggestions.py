@@ -1,21 +1,20 @@
 #!/usr/bin/env python3
 """
-generate-suggestions.py — call Claude CLI on builders + pulse to produce
+generate-suggestions.py — call Codex CLI on builders + pulse to produce
 public/data/suggestions/{date}.json (5 picks).
 """
 from __future__ import annotations
 
 import argparse
 import json
-import shutil
-import subprocess
 import sys
 from datetime import date
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from lib.config import CLAUDE_BIN, CLAUDE_MODEL  # noqa: E402
+from lib.config import CODEX_MODEL  # noqa: E402
 from lib.io_utils import now_iso, read_json, update_index, write_json  # noqa: E402
+from lib.llm import call_codex, has_codex  # noqa: E402
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
 BUILDERS_DIR = REPO_ROOT / "public" / "data" / "builders"
@@ -66,9 +65,9 @@ def slim_pulse(p: dict) -> dict:
     }
 
 
-def call_claude(date_str: str, builders: dict, pulse: dict) -> dict | None:
-    if not shutil.which(CLAUDE_BIN):
-        print("  ! claude binary missing; skipping suggestions")
+def call_llm(date_str: str, builders: dict, pulse: dict) -> dict | None:
+    if not has_codex():
+        print("  ! codex binary missing; skipping suggestions")
         return None
     prompt = PROMPT_PATH.read_text(encoding="utf-8")
     payload = {
@@ -82,16 +81,10 @@ def call_claude(date_str: str, builders: dict, pulse: dict) -> dict | None:
         "请直接输出 JSON。"
     )
     try:
-        proc = subprocess.run(
-            [CLAUDE_BIN, "-p", user_msg, "--model", CLAUDE_MODEL],
-            capture_output=True,
-            text=True,
-            timeout=600,
-        )
+        out = call_codex(user_msg, timeout=600).strip()
     except Exception as exc:  # noqa: BLE001
-        print(f"  ! claude call failed: {exc}", file=sys.stderr)
+        print(f"  ! codex call failed: {exc}", file=sys.stderr)
         return None
-    out = proc.stdout.strip()
     if out.startswith("```"):
         out = out.split("\n", 1)[1].rsplit("```", 1)[0]
     try:
@@ -103,7 +96,7 @@ def call_claude(date_str: str, builders: dict, pulse: dict) -> dict | None:
                 return json.loads(out[i : j + 1])
             except json.JSONDecodeError:
                 pass
-        print("  ! Claude returned non-JSON, dumping raw", file=sys.stderr)
+        print("  ! Codex returned non-JSON, dumping raw", file=sys.stderr)
         (OUT_DIR / f"{date_str}.raw.txt").write_text(out, encoding="utf-8")
         return None
 
@@ -123,7 +116,7 @@ def fallback(date_str: str, builders: dict, pulse: dict) -> dict:
                 "refs": [{"tag": "builders", "ref": b.get("author", ""), "url": b.get("url", "")}],
             }
         )
-    return {"date": date_str, "items": items, "notes": "fallback mode: claude CLI not available"}
+    return {"date": date_str, "items": items, "notes": "fallback mode: codex CLI not available"}
 
 
 def main() -> int:
@@ -145,13 +138,13 @@ def main() -> int:
     builders = read_json(builders_path)
     pulse = read_json(pulse_path)
 
-    refined = None if args.no_llm else call_claude(args.date, builders, pulse)
+    refined = None if args.no_llm else call_llm(args.date, builders, pulse)
     if refined is None:
         refined = fallback(args.date, builders, pulse)
 
     refined["date"] = args.date
     refined["generated_at"] = now_iso()
-    refined["model"] = CLAUDE_MODEL if not args.no_llm else "fallback"
+    refined["model"] = CODEX_MODEL if not args.no_llm else "fallback"
 
     out_path = OUT_DIR / f"{args.date}.json"
     write_json(out_path, refined)
