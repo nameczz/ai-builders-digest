@@ -1,0 +1,236 @@
+{
+  "date": "2026-04-26",
+  "top3": [],
+  "intro": "（无 LLM 编辑模式：以下为原始数据归档，建议安装 claude CLI 重新生成。）",
+  "sections": [
+    {
+      "id": "discovery",
+      "title": "发现机会",
+      "blocks": [
+        {
+          "id": "indie-products",
+          "heading": "今天有哪些独立开发者的新产品？",
+          "summary_md": "（自动归档模式）今日 Show HN 与 Product Hunt 上线的独立开发者产品列表。",
+          "items": [
+            {
+              "title": "PromptPaste",
+              "url": "https://www.producthunt.com/products/promptpaste",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Clawdi",
+              "url": "https://www.producthunt.com/products/clawdi",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Inrō AI",
+              "url": "https://www.producthunt.com/products/inro",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Gemini Personal Intelligence",
+              "url": "https://www.producthunt.com/products/gemini-personal-intelligence",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Architecto",
+              "url": "https://www.producthunt.com/products/architecto",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "ZeroHuman.",
+              "url": "https://www.producthunt.com/products/zerohuman",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Genspark for Excel",
+              "url": "https://www.producthunt.com/products/genspark-for-excel",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Grok Voice Think Fast 1.0",
+              "url": "https://www.producthunt.com/products/grok-voice-think-fast-1-0",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "MiMo-V2.5 Voice",
+              "url": "https://www.producthunt.com/products/mimo-v2-5-voice",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "XChat",
+              "url": "https://www.producthunt.com/products/chat-by-x",
+              "source": "ProductHunt"
+            }
+          ],
+          "takeaway": ""
+        },
+        {
+          "id": "github-traction",
+          "heading": "GitHub 上哪些高增长开源项目还没有商业化？",
+          "summary_md": "（自动归档模式）本周 GitHub Trending 高速增长的仓库。",
+          "items": [
+            {
+              "title": "Alishahryar1/free-claude-code",
+              "url": "https://github.com/Alishahryar1/free-claude-code",
+              "source": "GitHub",
+              "score": 8668
+            },
+            {
+              "title": "forrestchang/andrej-karpathy-skills",
+              "url": "https://github.com/forrestchang/andrej-karpathy-skills",
+              "source": "GitHub",
+              "score": 29917
+            },
+            {
+              "title": "sponsors/thunderbird",
+              "url": "https://github.com/sponsors/thunderbird",
+              "source": "GitHub",
+              "score": 2799
+            },
+            {
+              "title": "zilliztech/claude-context",
+              "url": "https://github.com/zilliztech/claude-context",
+              "source": "GitHub",
+              "score": 3301
+            },
+            {
+              "title": "lsdefine/GenericAgent",
+              "url": "https://github.com/lsdefine/GenericAgent",
+              "source": "GitHub",
+              "score": 3006
+            },
+            {
+              "title": "SimoneAvogadro/android-reverse-engineering-skill",
+              "url": "https://github.com/SimoneAvogadro/android-reverse-engineering-skill",
+              "source": "GitHub",
+              "score": 1981
+            },
+            {
+              "title": "tractorjuice/arc-kit",
+              "url": "https://github.com/tractorjuice/arc-kit",
+              "source": "GitHub",
+              "score": 1004
+            },
+            {
+              "title": "Tracer-Cloud/opensre",
+              "url": "https://github.com/Tracer-Cloud/opensre",
+              "source": "GitHub",
+              "score": 1385
+            },
+            {
+              "title": "openai/openai-agents-python",
+              "url": "https://github.com/openai/openai-agents-python",
+              "source": "GitHub",
+              "score": 3061
+            },
+            {
+              "title": "deepseek-ai/DeepGEMM",
+              "url": "https://github.com/deepseek-ai/DeepGEMM",
+              "source": "GitHub",
+              "score": 614
+            }
+          ],
+          "takeaway": ""
+        }
+      ]
+    },
+    {
+      "id": "tech-stack",
+      "title": "技术选型",
+      "blocks": [
+        {
+          "id": "hf-models",
+          "heading": "HuggingFace 上最热的模型能做什么消费级产品？",
+          "summary_md": "（自动归档模式）HuggingFace trending 模型列表。",
+          "items": [
+            {
+              "title": "deepseek-ai/DeepSeek-V4-Pro",
+              "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+              "source": "HuggingFace",
+              "score": 2602
+            },
+            {
+              "title": "moonshotai/Kimi-K2.6",
+              "url": "https://huggingface.co/moonshotai/Kimi-K2.6",
+              "source": "HuggingFace",
+              "score": 993
+            },
+            {
+              "title": "Qwen/Qwen3.6-27B",
+              "url": "https://huggingface.co/Qwen/Qwen3.6-27B",
+              "source": "HuggingFace",
+              "score": 805
+            },
+            {
+              "title": "openai/privacy-filter",
+              "url": "https://huggingface.co/openai/privacy-filter",
+              "source": "HuggingFace",
+              "score": 752
+            },
+            {
+              "title": "deepseek-ai/DeepSeek-V4-Flash",
+              "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash",
+              "source": "HuggingFace",
+              "score": 683
+            },
+            {
+              "title": "Qwen/Qwen3.6-35B-A3B",
+              "url": "https://huggingface.co/Qwen/Qwen3.6-35B-A3B",
+              "source": "HuggingFace",
+              "score": 515
+            },
+            {
+              "title": "unsloth/Qwen3.6-27B-GGUF",
+              "url": "https://huggingface.co/unsloth/Qwen3.6-27B-GGUF",
+              "source": "HuggingFace",
+              "score": 389
+            },
+            {
+              "title": "unsloth/Qwen3.6-35B-A3B-GGUF",
+              "url": "https://huggingface.co/unsloth/Qwen3.6-35B-A3B-GGUF",
+              "source": "HuggingFace",
+              "score": 276
+            },
+            {
+              "title": "HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
+              "url": "https://huggingface.co/HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
+              "source": "HuggingFace",
+              "score": 210
+            },
+            {
+              "title": "deepseek-ai/DeepSeek-V4-Pro-Base",
+              "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-Base",
+              "source": "HuggingFace",
+              "score": 201
+            }
+          ],
+          "takeaway": ""
+        }
+      ]
+    },
+    {
+      "id": "competition",
+      "title": "竞争情报",
+      "blocks": []
+    },
+    {
+      "id": "trends",
+      "title": "趋势判断",
+      "blocks": []
+    },
+    {
+      "id": "actions",
+      "title": "行动触发",
+      "blocks": []
+    }
+  ],
+  "generated_at": "2026-04-26T04:37:11+00:00",
+  "reddit_highlights": [
+    {
+      "heading": "Indie 开发者正在讨论哪些收入和定价问题？",
+      "body_md": "**🔍 信号**：Reddit 最新鲜的强金钱讨论是 [@GuidanceSelect7706 通过 organic SEO 和 freemium distribution 跨过 $11K revenue 和 $2,750 MRR](https://www.reddit.com/r/SaaS/comments/1ssukhp/my_saas_crossed_11000_in_revenue_all_organically/)。\n\n如果忽略明显讽刺，今天的新鲜收入阶梯异常有用。@GuidanceSelect7706 报告八个月做到 $11,000 累计收入和 $2,750 MRR，$0 ad spend，有 freemium 入口，并且从一开始就做 SEO。这是一个实用 bootstrap pattern：给用户尝试理由，在产品感觉成熟前就发布，让反馈塑造付费转化。\n\nFeed 里还有几个重复但仍有指导意义的数字。@zkvqx 的 B2B SaaS exit 做到 $25K/mo，核心是帮 finance teams 找 money leaks。@baskaro23 的 rankbeyond.co 在一个月后跨过 $300 MRR，靠 dogfooding 自己的 organic-traffic product。@Sad_Molasses_2146 说 Clickmodus 在放弃宽泛的 ZoomInfo-style visitor-identification clone 后，围绕创始人自己的挫败感重建，做到 $7K MRR。@Capable_Document3744 报告 SalesRobot 在修复 backend instability 和 churn 后，全时收入达到 $1,247,943。\n\nReddit 之外也出现定价对比。DeepSeek 的 API 评论引用低 per-token pricing；USB 适配器文章把具体 $80 硬件购买与更贵 Thunderbolt adapters 对照；Product Hunt 的安全工具大多太早，看不出 pricing。主题是先证明价值，再谈定价复杂度。\n\n**关键判断**：只有当免费层创造真实 usage data 时，才复制 organic freemium ladder；否则，要为 finance leak detection 或 hardware misbuy prevention 这类狭窄 saved-cost outcome 收费。\n\n**反向视角**：Reddit 金钱贴是自报数据，可能省略 churn、refunds、acquisition costs 和 product names。\n\n---",
+      "source_url": "https://raw.githubusercontent.com/BuilderPulse/BuilderPulse/main/zh/2026/2026-04-26.md"
+    }
+  ]
+}
