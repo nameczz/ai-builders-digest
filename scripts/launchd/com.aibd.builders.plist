@@ -24,16 +24,20 @@
     <key>WorkingDirectory</key>
     <string>__REPO_ROOT__</string>
 
-    <!-- If set, claude CLI uses API key billing instead of Claude Code OAuth.
-         Recommended for headless / unattended runs (no Keychain dependency).
-         Leave commented to use your Claude Code login subscription. -->
-    <!--
     <key>EnvironmentVariables</key>
     <dict>
+        <!-- Commit + push generated data after a successful run. -->
+        <key>AIBD_PUSH</key>
+        <string>1</string>
+
+        <!-- If set, claude CLI uses API key billing instead of Claude Code OAuth.
+             Recommended for headless / unattended runs (no Keychain dependency).
+             Leave commented to use your Claude Code login subscription. -->
+        <!--
         <key>ANTHROPIC_API_KEY</key>
         <string>sk-ant-...</string>
+        -->
     </dict>
-    -->
 
 
     <key>StandardOutPath</key>

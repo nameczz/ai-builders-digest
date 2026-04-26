@@ -16,7 +16,7 @@ export default async function SuggestionsIndexPage() {
       <SiteHeader />
       <main className="max-w-6xl mx-auto px-6 pt-10 pb-4 flex-1">
         <header className="pb-6 border-b-2 border-ink">
-          <div className="kicker mb-3">EDITOR'S DESK · 选题档案</div>
+          <div className="kicker mb-3">EDITOR&apos;S DESK · 选题档案</div>
           <h1 className="font-display font-semibold text-[clamp(2.4rem,5vw,4rem)] leading-[1.02] tracking-tight text-ink">
             每日博主选题
           </h1>

@@ -1,6 +1,5 @@
 import Link from "next/link";
 import { SiteHeader, SiteFooter } from "@/components/SiteHeader";
-import { SourceBadge } from "@/components/SourceBadge";
 import {
   loadIndex,
   loadPulse,
@@ -70,7 +69,7 @@ function LeadStory({ pulse, suggestionsDate }: { pulse: PulseDay; suggestionsDat
     <section className="grid md:grid-cols-[2fr_1fr] gap-10">
       {/* huge top1 */}
       <article className="ink-rise">
-        <div className="kicker mb-3">号外 · TODAY'S TOP SIGNAL</div>
+        <div className="kicker mb-3">号外 · TODAY&apos;S TOP SIGNAL</div>
         <h1 className="font-display font-semibold text-[clamp(2rem,4.5vw,3.4rem)] leading-[1.05] tracking-tight text-ink">
           <Link href={`/pulse/${pulse.date}`} className="hover:text-vermilion-deep transition-colors">
             {lead}
@@ -107,7 +106,7 @@ function LeadStory({ pulse, suggestionsDate }: { pulse: PulseDay; suggestionsDat
             href={`/suggestions/${suggestionsDate}`}
             className="block mt-6 pt-4 border-t border-rule font-mono text-[10px] tracking-[0.2em] text-ink-mute hover:text-vermilion"
           >
-            今日五条选题 EDITOR'S DESK →
+            今日五条选题 EDITOR&apos;S DESK →
           </Link>
         )}
       </aside>

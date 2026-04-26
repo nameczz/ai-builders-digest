@@ -28,7 +28,7 @@ export default async function SuggestionDetailPage({
       <main className="max-w-3xl mx-auto px-6 pt-10 pb-4 flex-1">
         <header className="pb-6 border-b-2 border-ink">
           <div className="flex items-baseline gap-3 mb-3">
-            <span className="kicker">EDITOR'S DESK</span>
+            <span className="kicker">EDITOR&apos;S DESK</span>
             <span className="folio">第 {date.replace(/-/g, ".")} 期</span>
           </div>
           <h1 className="font-display font-semibold text-[clamp(2.4rem,5vw,4rem)] leading-[1.02] tracking-tight text-ink">

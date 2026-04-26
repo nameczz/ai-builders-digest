@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { notFound } from "next/navigation";
 import { SiteHeader, SiteFooter } from "@/components/SiteHeader";
 import { DateSwitcher } from "@/components/DateSwitcher";
@@ -51,7 +50,7 @@ export default async function PulseDetailPage({
         {/* === TOP3 === */}
         {data.top3.length > 0 && (
           <section className="my-10">
-            <div className="kicker mb-5">本日值得关注 · TODAY'S THREE</div>
+            <div className="kicker mb-5">本日值得关注 · TODAY&apos;S THREE</div>
             <ol className="grid md:grid-cols-3 gap-px bg-ink border-y-2 border-ink">
               {data.top3.map((t, i) => (
                 <li key={i} className="bg-paper p-6 flex flex-col">
