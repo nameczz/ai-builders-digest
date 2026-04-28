@@ -1,0 +1,148 @@
+{
+  "date": "2026-04-28",
+  "items": [
+    {
+      "id": "2026-04-28-1",
+      "title": "Agent开始绕过API了",
+      "angle": "从“网页是人用的界面”切到“网页正在变成Agent的备用API”。",
+      "opening": "GitHub API 限流了，Codex 没有停下等接口恢复，而是直接打开浏览器去 GitHub 页面里点。更狠的是，Agent 已经能自己在评论框打字、关 issue。",
+      "story_hook": {
+        "challenge": "过去大家以为 Agent 要靠 API 和 MCP 才能稳定办事，但现实服务大量没有开放接口、接口还会限流。",
+        "twist": "Agent 不再等平台配合，而是把网页本身当成可操作层，先用浏览器把事办了。"
+      },
+      "takeaway": "开发者做 Agent 产品时，不能只设计 API 集成，还要考虑浏览器操作、审计、回放和失败恢复这些真实工作层能力。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Peter Steinberger 称 Codex 遇到 GitHub API 限流后直接用浏览器操作 GitHub",
+          "url": "https://x.com/steipete/status/2049035044702843053"
+        },
+        {
+          "tag": "builders",
+          "ref": "Peter Steinberger 展示 Agent 在评论框输入并关闭 issue",
+          "url": "https://x.com/steipete/status/2049035851493953750"
+        },
+        {
+          "tag": "pulse",
+          "ref": "ProductHunt Kōan 做 agentic observability",
+          "url": "https://www.producthunt.com/products/koan-agentic-observability-platform"
+        }
+      ]
+    },
+    {
+      "id": "2026-04-28-2",
+      "title": "别养一群Agent",
+      "angle": "从“多 Agent 越多越强”反过来写：成熟用户真正需要的是一个总控入口。",
+      "opening": "今天最反直觉的一句话是：成熟 AI 用户不是每天指挥一堆 Agent，而是只和一个总控 Agent 对话。另一边，GitHub 上各种 skills repo 正在暴涨，说明问题不在 Agent 数量，而在编排层。",
+      "story_hook": {
+        "challenge": "开发者正在给每个任务接一个 Agent、每个工具写一套技能，工作台越来越像失控的插件市场。",
+        "twist": "真正有价值的界面可能只有一个：它负责判断任务、调用技能、派发子 Agent、合并结果。"
+      },
+      "takeaway": "如果要做 AI 工作流产品，优先设计路由、权限、技能版本和结果合并，而不是继续堆新的 Agent 名字。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Zara Zhang 认为成熟 AI 用户只和一个总控 Agent 对话",
+          "url": "https://x.com/zarazhangrui/status/2049027061768192288"
+        },
+        {
+          "tag": "pulse",
+          "ref": "mattpocock/skills 周增 10757 star",
+          "url": "https://github.com/mattpocock/skills"
+        },
+        {
+          "tag": "pulse",
+          "ref": "addyosmani/agent-skills 周增 6256 star",
+          "url": "https://github.com/addyosmani/agent-skills"
+        }
+      ]
+    },
+    {
+      "id": "2026-04-28-3",
+      "title": "$20套餐背后的焦虑",
+      "angle": "用 Codex 低价和 Claude Code 迁移搜索同时爆发，拆 AI 编程工具的价格战。",
+      "opening": "Sam Altman 说 20 美元套餐就能用 Codex，性价比很狠。但同一天，Google Trends 里“claude code removed from pro plan”飙升，GitHub 上 free-claude-code 一周涨了 13415 star。",
+      "story_hook": {
+        "challenge": "AI 编程工具正在变成日常生产力入口，但套餐、额度和平台策略仍然不稳定。",
+        "twist": "用户不是不想付费，而是不想把核心工作流押在随时变规则的平台上。"
+      },
+      "takeaway": "接下来会有一波围绕 AI 编程的成本监控、迁移评估、开源替代和模型路由工具，开发者可以直接从这个痛点切入。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Sam Altman 称 20 美元套餐可用 Codex",
+          "url": "https://x.com/sama/status/2048913887614115857"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Google Trends 中 claude code removed from pro plan 飙升",
+          "url": "https://trends.google.com/trends/explore?q=claude+code&date=now+7-d"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Alishahryar1/free-claude-code 周增 13415 star",
+          "url": "https://github.com/Alishahryar1/free-claude-code"
+        }
+      ]
+    },
+    {
+      "id": "2026-04-28-4",
+      "title": "免费注册正在骗你",
+      "angle": "把 AI SaaS 的增长指标从注册、融资、团队规模拉回到第一天收费。",
+      "opening": "Amjad Masad 说 20 个 builder，8 周，只盯一个目标：赚到第一美元。Peter Yang 更直接：别拿免费注册骗自己，第一天就收费，没人持续付钱就不是需求。",
+      "story_hook": {
+        "challenge": "AI 产品太容易做 demo，也太容易用免费用户和融资故事制造虚假繁荣。",
+        "twist": "Reddit 上有人把价格从 49 美元提到 299 美元后，churn 反而减半，说明低价不一定带来真实客户。"
+      },
+      "takeaway": "AI SaaS 早期验证要先看付费意愿、留存和 churn，不要把免费试用、等待名单和点赞误判成需求。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Amjad Masad 发起 20 个 builder 8 周赚到第一美元",
+          "url": "https://x.com/amasad/status/2048912698583453933"
+        },
+        {
+          "tag": "builders",
+          "ref": "Peter Yang 建议 AI SaaS 第一天收费并关注 churn",
+          "url": "https://x.com/petergyang/status/2048771729821229091"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Reddit 讨论从 $49/mo 提到 $299/mo 后 churn 减半",
+          "url": "https://www.reddit.com/r/SaaS/comments/1swvs7i/charged_299month_instead_of_49_churn_dropped_by/"
+        }
+      ]
+    },
+    {
+      "id": "2026-04-28-5",
+      "title": "企业怕的不是模型弱",
+      "angle": "从硅谷和全球 2000 强的认知鸿沟切入，写企业采用 AI Agent 的真实阻力。",
+      "opening": "硅谷已经在讨论 Agent 接管一切，但 Matt Turck 看到的企业现实是：两年前买的 AI 聊天几乎没产出，除了工程师爱用编程 AI，其他部门并不买账。问题不是模型不够强，而是组织不敢把流程交出去。",
+      "story_hook": {
+        "challenge": "创业公司在卖智能，企业客户真正担心的是权限、隐私、稳定性、责任和审计。",
+        "twist": "今天最有机会的不是再做一个聊天框，而是做让企业敢用 Agent 的基础设施。"
+      },
+      "takeaway": "面向企业的 AI 产品要把可观测性、隐私过滤、权限控制和私有化部署放到卖点前排，而不是只展示模型能力。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Matt Turck 指出硅谷与全球 2000 强之间的 AI 认知鸿沟",
+          "url": "https://x.com/mattturck/status/2048896617424527499"
+        },
+        {
+          "tag": "builders",
+          "ref": "Peter Yang 列举政府、医疗、银行等仍缺 API/MCP 的服务",
+          "url": "https://x.com/petergyang/status/2048918016642154698"
+        },
+        {
+          "tag": "pulse",
+          "ref": "openai/privacy-filter 在 HuggingFace 今日模型榜出现",
+          "url": "https://huggingface.co/openai/privacy-filter"
+        }
+      ]
+    }
+  ],
+  "notes": "今日主线不是模型能力本身，而是 Agent 进入真实工作的系统层：浏览器操作、技能编排、成本迁移、商业验证和企业治理。",
+  "generated_at": "2026-04-28T09:22:03+00:00",
+  "model": "gpt-5.5"
+}
