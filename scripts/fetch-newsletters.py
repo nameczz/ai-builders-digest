@@ -16,9 +16,11 @@ from __future__ import annotations
 
 import argparse
 import hashlib
+import http.client
 import json
 import re
 import sys
+import time as time_module
 import urllib.error
 import urllib.parse
 import urllib.request
@@ -46,16 +48,22 @@ NOISE_URL_RE = re.compile(r"unsubscribe|preferences|privacy|terms|beehiiv\.com/c
 
 
 def api_get(path: str, api_key: str) -> dict[str, Any]:
-    req = urllib.request.Request(
-        f"{API_BASE}{path}",
-        headers={"Authorization": f"Bearer {api_key}", "Accept": "application/json"},
-    )
-    try:
-        with urllib.request.urlopen(req, timeout=45) as resp:
-            return json.loads(resp.read().decode("utf-8"))
-    except urllib.error.HTTPError as exc:
-        body = exc.read().decode("utf-8", errors="replace")
-        raise RuntimeError(f"AgentMail GET {path} failed: HTTP {exc.code}: {body[:500]}") from exc
+    headers = {"Authorization": f"Bearer {api_key}", "Accept": "application/json"}
+    last_exc: Exception | None = None
+    for attempt in range(3):
+        req = urllib.request.Request(f"{API_BASE}{path}", headers=headers)
+        try:
+            with urllib.request.urlopen(req, timeout=90) as resp:
+                return json.loads(resp.read().decode("utf-8"))
+        except urllib.error.HTTPError as exc:
+            body = exc.read().decode("utf-8", errors="replace")
+            raise RuntimeError(f"AgentMail GET {path} failed: HTTP {exc.code}: {body[:500]}") from exc
+        except (http.client.IncompleteRead, TimeoutError, urllib.error.URLError) as exc:
+            last_exc = exc
+            if attempt == 2:
+                break
+            time_module.sleep(1.5 * (attempt + 1))
+    raise RuntimeError(f"AgentMail GET {path} failed after retries: {last_exc}")
 
 
 def pick_inbox(api_key: str, explicit: str | None) -> str:
@@ -127,42 +135,41 @@ def first_content_url(msg: dict[str, Any]) -> str:
 
 def fallback_digest(date_str: str, inbox_id: str, start: datetime, end: datetime, messages: list[dict[str, Any]], skipped: list[dict[str, str]]) -> dict[str, Any]:
     items = []
-    if messages:
-        msg = messages[0]
+    for idx, msg in enumerate(messages[:8]):
         title = msg.get("subject") or "Untitled newsletter item"
         body = clean_text(msg.get("extracted_text") or msg.get("text") or msg.get("preview") or "", 1200)
         digest = hashlib.sha1((msg.get("message_id", "") + title).encode()).hexdigest()[:10]
-        items.append(
-            {
-                "id": f"newsletter-{digest}",
-                "title_zh": title,
-                "title_original": title,
-                "source": source_name(msg),
-                "from": msg.get("from", ""),
-                "subject": msg.get("subject", ""),
-                "url": first_content_url(msg),
-                "message_id": msg.get("message_id", ""),
-                "published_at": msg.get("timestamp", ""),
-                "importance": "medium",
-                "summary_zh": body[:500] or (msg.get("preview") or "暂无正文摘要。"),
-                "deep_read_zh": body or "自动归档模式：尚未调用 LLM 做精读摘要。",
-                "why_important": "自动归档模式：先选择当天第一封正式 newsletter，尚未调用 LLM 做重要性判断。",
-                "impact": "建议稍后开启 LLM 重新生成每天一篇的精读版本。",
-                "key_points": [],
-                "reading_notes": [],
-                "tags": ["newsletter"],
-            }
-        )
+        item = {
+            "id": f"newsletter-{digest}",
+            "title_zh": title,
+            "title_original": title,
+            "source": source_name(msg),
+            "from": msg.get("from", ""),
+            "subject": msg.get("subject", ""),
+            "url": first_content_url(msg),
+            "message_id": msg.get("message_id", ""),
+            "published_at": msg.get("timestamp", ""),
+            "importance": "high" if idx == 0 else "medium",
+            "summary_zh": body[:500] or (msg.get("preview") or "暂无正文摘要。"),
+            "why_important": "自动归档模式：尚未调用 LLM 做重要性判断。",
+            "impact": "建议稍后开启 LLM 重新生成中文编辑版。",
+            "key_points": [],
+            "reading_notes": [],
+            "tags": ["newsletter"],
+        }
+        if idx == 0:
+            item["deep_read_zh"] = body or "自动归档模式：尚未调用 LLM 做精读摘要。"
+        items.append(item)
     return {
         "date": date_str,
         "generated_at": now_iso(),
         "inbox_id": inbox_id,
         "window": {"start": start.isoformat(), "end": end.isoformat()},
         "count": len(items),
-        "highlights": [f"今日精读：{items[0]['title_zh']}"] if items else [],
+        "highlights": [f"今日精读：{items[0]['title_zh']}"] + [item["title_zh"] for item in items[1:4]] if items else [],
         "items": items,
         "skipped": skipped,
-        "notes": "自动归档模式：未调用 LLM；仅保留 1 篇作为精读占位。" if items else "当天没有可精读的正式 newsletter。",
+        "notes": "自动归档模式：未调用 LLM；第一条作为今日精读，其余为信息流占位。" if items else "当天没有可汇总的正式 newsletter。",
     }
 
 
@@ -212,21 +219,25 @@ def call_llm(date_str: str, inbox_id: str, messages: list[dict[str, Any]]) -> di
 
 
 def normalize_digest(base: dict[str, Any], date_str: str, inbox_id: str, start: datetime, end: datetime, skipped: list[dict[str, str]]) -> dict[str, Any]:
-    items = (base.get("items") or [])[:1]
+    items = (base.get("items") or [])[:8]
     for i, item in enumerate(items):
         item.setdefault("id", f"newsletter-{i+1:02d}")
-        item.setdefault("importance", "medium")
+        item.setdefault("importance", "high" if i == 0 else "medium")
         item.setdefault("tags", [])
         item.setdefault("key_points", [])
         item.setdefault("reading_notes", [])
-        item.setdefault("deep_read_zh", item.get("summary_zh", ""))
+        item.setdefault("related_sources", [])
+        if i == 0:
+            item.setdefault("deep_read_zh", item.get("summary_zh", ""))
+        else:
+            item.setdefault("deep_read_zh", "")
     return {
         "date": date_str,
         "generated_at": now_iso(),
         "inbox_id": inbox_id,
         "window": {"start": start.isoformat(), "end": end.isoformat()},
         "count": len(items),
-        "highlights": (base.get("highlights") or [f"今日精读：{items[0].get('title_zh', '')}" if items else ""])[:1] if items else [],
+        "highlights": (base.get("highlights") or [f"今日精读：{items[0].get('title_zh', '')}" if items else ""])[:5] if items else [],
         "items": items,
         "skipped": skipped,
         "notes": base.get("notes", ""),

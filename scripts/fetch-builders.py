@@ -24,6 +24,7 @@ from __future__ import annotations
 import argparse
 import hashlib
 import json
+import re
 import sys
 from datetime import date, datetime, timezone
 from pathlib import Path
@@ -54,6 +55,23 @@ def http_get_json(url: str) -> dict:
 def short_id(*parts: str) -> str:
     h = hashlib.sha1("::".join(parts).encode("utf-8")).hexdigest()
     return h[:10]
+
+
+URL_ONLY_RE = re.compile(r"https?://\S+|t\.co/\S+", re.I)
+
+
+def upstream_zh(obj: dict) -> str:
+    """Use upstream Chinese summaries when the central feed provides them."""
+    for key in ("summary_zh", "summaryZh", "zh", "translation_zh", "translationZh"):
+        val = obj.get(key)
+        if isinstance(val, str) and val.strip():
+            return val.strip()
+    return ""
+
+
+def has_meaningful_text(text: str) -> bool:
+    """Drop URL-only X posts; they cannot become useful Chinese excerpts."""
+    return bool(URL_ONLY_RE.sub("", text or "").strip())
 
 
 def codex_translate(prompt: str) -> str:
@@ -127,7 +145,7 @@ def collect_x(feed: dict, fallback_date: str) -> list[dict]:
     for builder in feed.get("x", []):
         for tw in builder.get("tweets", []):
             text = (tw.get("text") or "").strip()
-            if not text or len(text) < 20:
+            if not text or len(text) < 20 or not has_meaningful_text(text):
                 continue
             created = _normalise_date(tw.get("createdAt"), fallback_date)
             items.append(
@@ -139,7 +157,7 @@ def collect_x(feed: dict, fallback_date: str) -> list[dict]:
                     "bio": (builder.get("bio") or "").strip().replace("\n", " ")[:160],
                     "title": "",
                     "summary_en": text,
-                    "summary_zh": "",
+                    "summary_zh": upstream_zh(tw),
                     "url": tw.get("url") or "",
                     "posted_at": tw.get("createdAt"),
                     "tags": [f"@{builder.get('handle')}"] if builder.get("handle") else [],
@@ -164,7 +182,7 @@ def collect_podcasts(feed: dict, fallback_date: str) -> list[dict]:
                 "bio": "",
                 "title": title,
                 "summary_en": snippet,
-                "summary_zh": "",
+                "summary_zh": upstream_zh(ep),
                 "url": ep.get("url") or "",
                 "posted_at": ep.get("publishedAt"),
                 "tags": ["podcast"],
@@ -189,7 +207,7 @@ def collect_blogs(feed: dict, fallback_date: str) -> list[dict]:
                 "bio": "",
                 "title": title,
                 "summary_en": snippet,
-                "summary_zh": "",
+                "summary_zh": upstream_zh(post),
                 "url": post.get("url") or "",
                 "posted_at": post.get("publishedAt"),
                 "tags": ["blog"],

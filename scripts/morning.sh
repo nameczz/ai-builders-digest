@@ -16,7 +16,7 @@ ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 cd "$ROOT"
 
 # Make codex CLI / python discoverable when launchd starts us with a sparse PATH
-export PATH="$HOME/.local/bin:/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:$PATH"
+export PATH="$HOME/.local/bin:/opt/homebrew/opt/node@24/bin:/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:$PATH"
 export CODEX_MODEL="${CODEX_MODEL:-gpt-5.5}"
 
 DATE="${1:-$(date +%Y-%m-%d)}"

@@ -21,7 +21,7 @@ export default async function NewslettersIndexPage() {
             AI Newsletter 日报
           </h1>
           <p className="font-han text-base mt-4 text-ink-mute italic max-w-2xl">
-            从 AgentMail 订阅邮箱每天只挑一篇最值得认真看的 AI newsletter，整理成中文精读摘要。
+            从 AgentMail 订阅邮箱做信息流式中文汇总，并把每天最重要的一篇放在开头精读。
           </p>
         </header>
 
@@ -47,7 +47,7 @@ export default async function NewslettersIndexPage() {
                     <div>
                       {data.items[0] ? (
                         <div className="min-w-0">
-                          <div className="kicker mb-2">今日精读</div>
+                          <div className="kicker mb-2">头条精读</div>
                           <h2 className="font-han text-[16px] leading-snug text-ink-soft group-hover:text-vermilion break-words">
                             {data.items[0].title_zh}
                           </h2>
@@ -66,13 +66,13 @@ export default async function NewslettersIndexPage() {
 
                     <p className="font-han text-[14px] italic text-ink-mute leading-7 line-clamp-4">
                       {data.items[0]
-                        ? `来自 ${data.items[0].source} · ${data.items[0].importance.toUpperCase()} · 点击进入精读`
-                        : "今天没有可精读的正式 newsletter。"}
+                        ? `来自 ${data.items[0].source} · ${data.items.length} 条汇总 · 点击查看信息流`
+                        : "今天没有可汇总的正式 newsletter。"}
                     </p>
                   </Link>
 
                   <div className="mt-4 flex items-center gap-4 text-xs">
-                    <span className="folio">{data.items.length > 0 ? "1 PICK" : "NO PICK"}</span>
+                    <span className="folio">{data.items.length > 0 ? `${data.items.length} ITEMS` : "NO ITEMS"}</span>
                     {data.skipped && <span className="folio">SKIPPED × {data.skipped.length}</span>}
                   </div>
                 </li>

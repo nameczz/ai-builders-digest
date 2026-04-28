@@ -25,8 +25,11 @@ class _TrendingParser(HTMLParser):
             self._cur = {"repo": "", "description": "", "language": "", "weekly_stars": 0, "total_stars": 0}
         elif self._cur is None:
             return
-        elif tag == "a" and self._cur.get("repo") == "" and a.get("href", "").count("/") == 2:
-            self._cur["repo"] = a["href"].lstrip("/")
+        elif tag == "a" and self._cur.get("repo") == "":
+            href = (a.get("href") or "").strip()
+            parts = href.strip("/").split("/")
+            if len(parts) == 2 and parts[0] not in {"sponsors", "topics", "collections", "marketplace"}:
+                self._cur["repo"] = "/".join(parts)
         elif tag == "p":
             self._capture = "description"
             self._buf = ""
