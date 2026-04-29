@@ -1,23 +1,42 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Fraunces, Newsreader, Noto_Serif_SC, JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const fraunces = Fraunces({
+  variable: "--font-display",
   subsets: ["latin"],
+  axes: ["opsz", "SOFT"],
+  display: "swap",
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const newsreader = Newsreader({
+  variable: "--font-body",
   subsets: ["latin"],
+  style: ["normal", "italic"],
+  axes: ["opsz"],
+  display: "swap",
+});
+
+const notoSerifSC = Noto_Serif_SC({
+  variable: "--font-han",
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700", "900"],
+  display: "swap",
+});
+
+const jetbrainsMono = JetBrains_Mono({
+  variable: "--font-mono",
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
+  display: "swap",
 });
 
 export const metadata: Metadata = {
-  title: "AI Builders Digest",
-  description: "公众号「碳基生物爱AI」| 每日精选 AI builder 的观点、动态与播客摘要",
+  title: "碳基生物爱 AI · BUILDERS DIGEST",
+  description: "每日精选 AI builder 的发声、综合行业风向标与一份给中文 AI 博主的选题建议。",
   openGraph: {
-    title: "AI Builders Digest",
-    description: "跟踪 AI 领域顶尖 builder 的最新动态和观点",
+    title: "碳基生物爱 AI · Builders Digest",
+    description: "Follow builders, not influencers.",
     type: "website",
   },
 };
@@ -30,14 +49,9 @@ export default function RootLayout({
   return (
     <html
       lang="zh"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
+      className={`${fraunces.variable} ${newsreader.variable} ${notoSerifSC.variable} ${jetbrainsMono.variable} h-full antialiased`}
     >
-      <head>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
-      </head>
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="paper-bg min-h-full flex flex-col">{children}</body>
     </html>
   );
 }

@@ -1,0 +1,397 @@
+{
+  "date": "2026-04-26",
+  "generated_at": "2026-04-26T09:11:03+00:00",
+  "count": 26,
+  "items": [
+    {
+      "id": "a2bbcf4a21",
+      "date": "2026-04-26",
+      "source": "x",
+      "author": "Amanda Askell",
+      "bio": "Philosopher & ethicist trying to make AI be good @AnthropicAI. Personal account. All opinions come from my training data.",
+      "title": "",
+      "summary_en": "What I'm learning from flight simulators is that it would be a bit boring to be an amateur cessna pilot but a lot of fun to be an amateur fighter jet pilot.",
+      "summary_zh": "飞行模拟器告诉我，业余塞斯纳飞行员太无聊，只有战斗机才够刺激。",
+      "url": "https://x.com/AmandaAskell/status/2048294481955631163",
+      "posted_at": "2026-04-26T06:53:54.000Z",
+      "tags": [
+        "@AmandaAskell"
+      ]
+    },
+    {
+      "id": "c4412b507f",
+      "date": "2026-04-26",
+      "source": "x",
+      "author": "Garry Tan",
+      "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "title": "",
+      "summary_en": "Releaseing GBrain v0.22 - lots of fixes to search and retireval and a new eval system (gbrain-evals is now a separate repo to prevent checkout bloat) https://t.co/qVAQjQeReV",
+      "summary_zh": "GBrain v0.22 发布，搜索和检索功能大量优化，新的评估系统独立为单独仓库以避免代码库臃肿。",
+      "url": "https://x.com/garrytan/status/2048290087318773807",
+      "posted_at": "2026-04-26T06:36:26.000Z",
+      "tags": [
+        "@garrytan"
+      ]
+    },
+    {
+      "id": "a738b5231f",
+      "date": "2026-04-26",
+      "source": "x",
+      "author": "Garry Tan",
+      "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "title": "",
+      "summary_en": "To install for free, Go to Claude Code and type Install GStack and to run the browser, type /open-gstack-browser\n\nhttps://t.co/VPvWDzUxms",
+      "summary_zh": "在Claude Code里免费安装GStack，输入`/open-gstack-browser`命令在浏览器运行。",
+      "url": "https://x.com/garrytan/status/2048279121034101147",
+      "posted_at": "2026-04-26T05:52:52.000Z",
+      "tags": [
+        "@garrytan"
+      ]
+    },
+    {
+      "id": "a680cb65a7",
+      "date": "2026-04-26",
+      "source": "x",
+      "author": "Garry Tan",
+      "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "title": "",
+      "summary_en": "Did you ever want to control your browser side-by-side with Claude Code? Now, with /open-gstack-browser skill and GStack Browser, you can https://t.co/dT0dUd3MhF",
+      "summary_zh": "Claude Code 可以直接并排控制浏览器了，通过 /open-gstack-browser skill 和 GStack Browser 实现。",
+      "url": "https://x.com/garrytan/status/2048278995121094868",
+      "posted_at": "2026-04-26T05:52:22.000Z",
+      "tags": [
+        "@garrytan"
+      ]
+    },
+    {
+      "id": "0d2eadf225",
+      "date": "2026-04-26",
+      "source": "x",
+      "author": "Peter Steinberger",
+      "bio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world. @OpenClaw🦞 + @OpenAI",
+      "title": "",
+      "summary_en": "Summarize 📝0.14.0 is out.\n\nGPT-5.5 Fast mode via `--fast`, Reddit thread extraction in the browser extension, local PDF `--extract`, and fixes for auto model config + Meta site compatibility. https://t.co/sbqbYupQ9Y",
+      "summary_zh": "0.14.0 版本推出 GPT-5.5 Fast 模式、Reddit 和本地 PDF 内容提取功能，同时修复了自动模型配置和 Meta 网站兼容性问题。",
+      "url": "https://x.com/steipete/status/2048275589224628677",
+      "posted_at": "2026-04-26T05:38:50.000Z",
+      "tags": [
+        "@steipete"
+      ]
+    },
+    {
+      "id": "580f964ede",
+      "date": "2026-04-26",
+      "source": "x",
+      "author": "Amjad Masad",
+      "bio": "ceo @replit. civilizationist",
+      "title": "",
+      "summary_en": "2000s: every company is an internet company\n\n2010s: every company is a software company\n\n2020s: every company is an AI company\n\n2025+: every company is a cybersecurity company",
+      "summary_zh": "企业身份在迭代升级：互联网→软件→AI→网络安全。每个时代都重新定义什么是必需品，而这一次，安全成了底线。",
+      "url": "https://x.com/amasad/status/2048265772775162078",
+      "posted_at": "2026-04-26T04:59:49.000Z",
+      "tags": [
+        "@amasad"
+      ]
+    },
+    {
+      "id": "4d6826749c",
+      "date": "2026-04-26",
+      "source": "x",
+      "author": "Peter Steinberger",
+      "bio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world. @OpenClaw🦞 + @OpenAI",
+      "title": "",
+      "summary_en": "CodexBar 🎚️ 0.23 is out:\n\nMistral support, Claude Designs/Daily Routines usage, Cursor Extra usage, GPT-5.5 pricing, cleaner widgets/menus, and a bunch of reliability fixes. https://t.co/X4FXCEmAFG",
+      "summary_zh": "CodexBar 0.23 发布，新增 Mistral 支持，并集成 Claude Designs/Daily Routines 和 Cursor Extra 等新工具功能，UI 更新清晰，修复稳定性问题。",
+      "url": "https://x.com/steipete/status/2048252455817785357",
+      "posted_at": "2026-04-26T04:06:54.000Z",
+      "tags": [
+        "@steipete"
+      ]
+    },
+    {
+      "id": "f35ec4284b",
+      "date": "2026-04-26",
+      "source": "x",
+      "author": "Aaron Levie",
+      "bio": "ceo @box - your business lives in content. unleash it with AI",
+      "title": "",
+      "summary_en": "Great read. AI lets you get tremendous leverage that wasn’t available before in almost any domain. \n\nThat means we’re at a unique moment in history where anyone with a high level of ambition and core skills in any area can overcome a lot of historical experience requirements for their role.\n\nThis can apply to anyone who’s junior or senior, but it’s pretty sweet that you can do far more than you could have accomplished as a newer employee than even a couple years ago. The people that take advantage of this will get ahead massively. \n\nAnd the companies that find this talent within or outside should put them in key positions to get as much out of them as possible. These people will seem strange and from the future, but they will help you figure out where things are going. Everyone company should be doing whatever they can to find them.",
+      "summary_zh": "AI打破了经验壁垒，任何人现在都能做资深员工几年前才能做到的事，抓住这波红利的人会大幅领先。公司必须找到这些诡异的\"未来人\"，否则就会被甩掉。",
+      "url": "https://x.com/levie/status/2048223146063609965",
+      "posted_at": "2026-04-26T02:10:26.000Z",
+      "tags": [
+        "@levie"
+      ]
+    },
+    {
+      "id": "8472a2a6b9",
+      "date": "2026-04-26",
+      "source": "x",
+      "author": "Peter Yang",
+      "bio": "Practical AI tutorials and interviews for busy people | Join 140K+ readers at https://t.co/XYKTmGVH14 | Product at Roblox",
+      "title": "",
+      "summary_en": "If you want to know what the next generation expects from AI just use Codex with a 7 year old.\n\n\"What do you mean it can't build a pet dragon raising game instantly? I'm bored\" https://t.co/M9wWoIGUtA",
+      "summary_zh": "用Codex问一个7岁小孩就明白下一代对AI的期望有多离谱——瞬间实现任何想法已成基本要求，说做不了就只能等着被嫌弃。",
+      "url": "https://x.com/petergyang/status/2048220045726322934",
+      "posted_at": "2026-04-26T01:58:07.000Z",
+      "tags": [
+        "@petergyang"
+      ]
+    },
+    {
+      "id": "a0d393e6f1",
+      "date": "2026-04-26",
+      "source": "x",
+      "author": "Nan Yu",
+      "bio": "head of product @linear",
+      "title": "",
+      "summary_en": "The entire West Coast of the United States from Santa Cruz on up. SF, Marin, Seattle, Portland…\n\nIf only we built housing so that people could actually live there https://t.co/k4eBM6IgcU",
+      "summary_zh": "美国西海岸从旧金山到西雅图、波特兰等地住房短缺成灾，讽刺的是要解决这个问题其实很简单——建造足够的住房就行。",
+      "url": "https://x.com/thenanyu/status/2048210021553405955",
+      "posted_at": "2026-04-26T01:18:17.000Z",
+      "tags": [
+        "@thenanyu"
+      ]
+    },
+    {
+      "id": "0e1d838a14",
+      "date": "2026-04-26",
+      "source": "x",
+      "author": "Peter Yang",
+      "bio": "Practical AI tutorials and interviews for busy people | Join 140K+ readers at https://t.co/XYKTmGVH14 | Product at Roblox",
+      "title": "",
+      "summary_en": "Are there good human-curated skill repos for design, coding, product, etc that's not \"here's 100 skills you separate the slop yourself\"",
+      "summary_zh": "市面上充斥着\"自己从100项技能里淘金\"的垃圾资源库，作者在呼吁有没有真正精选过的设计、编码、产品等技能仓库。",
+      "url": "https://x.com/petergyang/status/2048190683782201767",
+      "posted_at": "2026-04-26T00:01:27.000Z",
+      "tags": [
+        "@petergyang"
+      ]
+    },
+    {
+      "id": "72a180972b",
+      "date": "2026-04-26",
+      "source": "x",
+      "author": "Peter Steinberger",
+      "bio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world. @OpenClaw🦞 + @OpenAI",
+      "title": "",
+      "summary_en": "GitHub folks are amazing while we melt their servers. https://t.co/A4TFl16Jlr",
+      "summary_zh": "GitHub团队确实厉害，虽然我们的操作直接把他们的服务器搞崩了。",
+      "url": "https://x.com/steipete/status/2048185940267380815",
+      "posted_at": "2026-04-25T23:42:36.000Z",
+      "tags": [
+        "@steipete"
+      ]
+    },
+    {
+      "id": "9adbbbb3f6",
+      "date": "2026-04-26",
+      "source": "x",
+      "author": "Nan Yu",
+      "bio": "head of product @linear",
+      "title": "",
+      "summary_en": "The problem with being on the very bleeding edge of adoption is you’re going to constantly be changing how you do things as the industry learns. \n\nThe sweet spot is just a couple steps behind. Whatever is relatively new, but survives all of the churn.",
+      "summary_zh": "采用最前沿技术的代价就是不断改变做事方式；最聪明的选择是那些相对新但已经度过淘汰考验的东西。",
+      "url": "https://x.com/thenanyu/status/2048172709075402787",
+      "posted_at": "2026-04-25T22:50:01.000Z",
+      "tags": [
+        "@thenanyu"
+      ]
+    },
+    {
+      "id": "8bba6ba911",
+      "date": "2026-04-26",
+      "source": "x",
+      "author": "Sam Altman",
+      "bio": "AI is cool i guess",
+      "title": "",
+      "summary_en": "how can they write code so fast?! https://t.co/xjZACrnogB",
+      "summary_zh": "他们怎么写代码写这么快?!",
+      "url": "https://x.com/sama/status/2048165186482389253",
+      "posted_at": "2026-04-25T22:20:08.000Z",
+      "tags": [
+        "@sama"
+      ]
+    },
+    {
+      "id": "2f84b2fd71",
+      "date": "2026-04-26",
+      "source": "x",
+      "author": "Sam Altman",
+      "bio": "AI is cool i guess",
+      "title": "",
+      "summary_en": "(and we will fix the former)",
+      "summary_zh": "我看到你提供的只是一句话 \"(and we will fix the former)\"，这不是一条完整的推文，缺少前面的上下文。请提供完整的推文内容，这样我才能准确理解其核心内容并做出恰当的总结。",
+      "url": "https://x.com/sama/status/2048160448340767038",
+      "posted_at": "2026-04-25T22:01:18.000Z",
+      "tags": [
+        "@sama"
+      ]
+    },
+    {
+      "id": "48a361413c",
+      "date": "2026-04-26",
+      "source": "x",
+      "author": "Sam Altman",
+      "bio": "AI is cool i guess",
+      "title": "",
+      "summary_en": "we still get looksmaxxed on frontend a little but we IQmog hard now",
+      "summary_zh": "前端虽然有点样子，但核心技术上我们完全碾压。",
+      "url": "https://x.com/sama/status/2048160404376105179",
+      "posted_at": "2026-04-25T22:01:08.000Z",
+      "tags": [
+        "@sama"
+      ]
+    },
+    {
+      "id": "5b098eb3c3",
+      "date": "2026-04-26",
+      "source": "x",
+      "author": "Nan Yu",
+      "bio": "head of product @linear",
+      "title": "",
+      "summary_en": "This is another way of saying the same thing, believe it or not \n\nhttps://t.co/mhISOTPiX4",
+      "summary_zh": "我看不到那个链接指向的内容，所以无法对这条推文进行准确总结。能否分享一下链接里的具体内容，或者告诉我这条推文在评论什么？",
+      "url": "https://x.com/thenanyu/status/2048138965262201281",
+      "posted_at": "2026-04-25T20:35:56.000Z",
+      "tags": [
+        "@thenanyu"
+      ]
+    },
+    {
+      "id": "48981cbc62",
+      "date": "2026-04-26",
+      "source": "x",
+      "author": "Peter Yang",
+      "bio": "Practical AI tutorials and interviews for busy people | Join 140K+ readers at https://t.co/XYKTmGVH14 | Product at Roblox",
+      "title": "",
+      "summary_en": "I often have to get Codex to fix my OpenClaw set up 🥲",
+      "summary_zh": "OpenClaw 的配置设置经常出问题，只能靠 Codex 来救火。",
+      "url": "https://x.com/petergyang/status/2048136116474437869",
+      "posted_at": "2026-04-25T20:24:37.000Z",
+      "tags": [
+        "@petergyang"
+      ]
+    },
+    {
+      "id": "8474331b52",
+      "date": "2026-04-26",
+      "source": "x",
+      "author": "Swyx",
+      "bio": "achieve ambition with intentionality, intensity, integrity & insanity.  affiliations: - @dxtipshq  - @cognition - @temporalio - @aidotengineer - @latentspacepod",
+      "title": "",
+      "summary_en": "btw we are cooking something with @hhua_ \n\n(not final yet but keep calendar open after ICML in Seoul) https://t.co/uSUtTZeqmF https://t.co/3jNffEWsUG",
+      "summary_zh": "和@hhua_在秘密筹备什么项目，还没最后定型，Seoul ICML之后留好档期。",
+      "url": "https://x.com/swyx/status/2048126046487322835",
+      "posted_at": "2026-04-25T19:44:36.000Z",
+      "tags": [
+        "@swyx"
+      ]
+    },
+    {
+      "id": "a1711da495",
+      "date": "2026-04-26",
+      "source": "x",
+      "author": "Swyx",
+      "bio": "achieve ambition with intentionality, intensity, integrity & insanity.  affiliations: - @dxtipshq  - @cognition - @temporalio - @aidotengineer - @latentspacepod",
+      "title": "",
+      "summary_en": "wow another engineer on the “code is not cheap” train\n\nhttps://t.co/yJDi7S1b0f",
+      "summary_zh": "我无法打开那条链接，所以不确定推文的完整语境。能否给我链接内容或者完整推文的截图？这样我才能准确理解那个工程师的具体观点，写出更有针对性的总结。\n\n现在只看\"wow another engineer on the 'code is not cheap' train\"这句，我理解的大意是在讽刺跟风\"代码成本高\"这个观点，但需要知道被链接的内容才能判断是在讽刺还是在评论某个热门话题的流行度。",
+      "url": "https://x.com/swyx/status/2048125100437000512",
+      "posted_at": "2026-04-25T19:40:50.000Z",
+      "tags": [
+        "@swyx"
+      ]
+    },
+    {
+      "id": "71e7ac85f8",
+      "date": "2026-04-26",
+      "source": "x",
+      "author": "Nikunj Kothari",
+      "bio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
+      "title": "",
+      "summary_en": "Every time I pass by my neighbors side door I get this visceral feeling this is a portal to another universe.. https://t.co/wmLKvqlRnw",
+      "summary_zh": "每次经过邻居的侧门，作者都会有种原始的直觉——那扇门仿佛是通往另一个宇宙的传送门。这是一条带着诗意和想象力的日常观察，充满了对日常细节的敏锐捕捉。",
+      "url": "https://x.com/nikunj/status/2048107926012002461",
+      "posted_at": "2026-04-25T18:32:36.000Z",
+      "tags": [
+        "@nikunj"
+      ]
+    },
+    {
+      "id": "92c9642364",
+      "date": "2026-04-26",
+      "source": "x",
+      "author": "Zara Zhang",
+      "bio": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://t.co/KCuEajezlL YouTube: https://t.co/8xzbGWtf6w",
+      "title": "",
+      "summary_en": "When I sit down at my computer and start typing, that's not the beginning of writing. It's the LAST step. 80% of the writing is already done. It just happened in my head.\n\n- Writing ≠ generating text\n- Building product ≠ writing PRDs\n- Designing ≠ making mockups\n- Engineering ≠ writing code",
+      "summary_zh": "写作、设计、工程的本质不是输出行为，而是脑力劳动；80%的工作在脑子里完成，坐在电脑前敲键盘只是记录结果。",
+      "url": "https://x.com/zarazhangrui/status/2048101948826751429",
+      "posted_at": "2026-04-25T18:08:51.000Z",
+      "tags": [
+        "@zarazhangrui"
+      ]
+    },
+    {
+      "id": "9d20e3bedb",
+      "date": "2026-04-26",
+      "source": "x",
+      "author": "Nikunj Kothari",
+      "bio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
+      "title": "",
+      "summary_en": "Brevity and clarity is what’s missing in most writing..\n\nI’ll go weeks without writing something publicly because I feel like I’m putting the onus of my muddy thoughts on the reader. \n\nThe best writing is able to communicate cleanly the crux of the matter and share a thread that’s simmering but not explored fully. \n\nWriting is still easier since you can edit and reframe anytime. I’m in awe of folks who are able to speak clearly and on the spot on any topic. \n\nOne day I hope to get there 🤞",
+      "summary_zh": "大多数写作缺乏简洁和清晰，而真正好的写作能干净地传达问题核心，并保留半成熟但未完全探索的思想线索。",
+      "url": "https://x.com/nikunj/status/2048056524845482131",
+      "posted_at": "2026-04-25T15:08:21.000Z",
+      "tags": [
+        "@nikunj"
+      ]
+    },
+    {
+      "id": "8fb172681b",
+      "date": "2026-04-26",
+      "source": "x",
+      "author": "Dan Shipper",
+      "bio": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "title": "",
+      "summary_en": "what we observe is never the model itself, only the model exposed to our method of questioning",
+      "summary_zh": "我们对模型的认知永远是受限的——它的真面目取决于我们如何提问，而非模型本身是什么。换句话说，模型的能力和缺陷都由我们的提问方法塑造。",
+      "url": "https://x.com/danshipper/status/2048026505461080076",
+      "posted_at": "2026-04-25T13:09:04.000Z",
+      "tags": [
+        "@danshipper"
+      ]
+    },
+    {
+      "id": "336aba8326",
+      "date": "2026-04-26",
+      "source": "x",
+      "author": "Swyx",
+      "bio": "achieve ambition with intentionality, intensity, integrity & insanity.  affiliations: - @dxtipshq  - @cognition - @temporalio - @aidotengineer - @latentspacepod",
+      "title": "",
+      "summary_en": "fun to think about what the pm thinks vs what the engineer thinks in this scenario",
+      "summary_zh": "产品经理和工程师对这个场景的想法肯定截然不同，值得细想。",
+      "url": "https://x.com/swyx/status/2047948378659754373",
+      "posted_at": "2026-04-25T07:58:37.000Z",
+      "tags": [
+        "@swyx"
+      ]
+    },
+    {
+      "id": "27f0d6ebab",
+      "date": "2026-04-26",
+      "source": "podcast",
+      "author": "No Priors",
+      "bio": "",
+      "title": "Scaling Global Organizations in the Age of AI with ServiceNow CEO Bill McDermott",
+      "summary_en": "Speaker 1 | 00:00 - 00:40\nThe cost to replace an enterprise platform in this SaaS apocalypse that people talk about is an extraordinary expense. Let's take that cost, and then let's take the cost associated with the human capital doing that instead of something else because the platform was doing the work for you. And then let's add up the cost of the GPU factory and the tokens that will materially affect their business model. And so for a simple application on our platform, it would be 10 times greater in cost to try to replicate it with a language model. People that run businesses understand that people make mistakes.\n\nSpeaker 1 | 00:40 - 00:44\nThey never will forgive software for making a mistake.\n\nSpeaker 2 | 00:50 - 01:11\nHi, listeners. Welcome back to No Priors. Today, I'm here with Bill McDermott, CEO of ServiceNow, and the closest thing we have to a rock star in enterprise technology. We talk about leadership in the age of AI, what enterprise customers actually want, the difference between SaaS platforms and the SaaSpocalypse theory, and the next ten years of ServiceNow. Welcome.\n\nSpeaker 2 | 01:11 - 01:12\nThank you so much for being here.\n\nSpeaker 1 | 01:12 - 01:14\nThank you for having me, Sarah. Thank you.\n\nSpeaker 2 | 01:14 - 01:27\nSo I want to talk about your career and leadership and what's going on with ServiceNow. But I want to start at the beginning. I read Winter Stream last week. And you It's an amazing book. You talk about the deli you bought when you were 16.\n\nSpeaker 2 | 01:29 - 01:39\nFirst of all, that's a very strange thing to do. But it's such an amazing story. Can you tell me a little bit first about your thought process, and then we can talk about how you manage it?\n\nSpeaker 1 | 01:39 - 02:11\nYeah. I don't deserve too much credit for, you know,",
+      "summary_zh": "用AI语言模型复制企业平台的成本是现有方案的10倍，因为需要额外支付GPU和tokens的成本；人们会原谅人类犯错，但永远不会原谅软件出错。",
+      "url": "https://www.youtube.com/watch?v=tNNFJa5pUEg",
+      "posted_at": "2026-04-17T20:44:00.000Z",
+      "tags": [
+        "podcast"
+      ]
+    }
+  ]
+}

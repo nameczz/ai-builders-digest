@@ -1,0 +1,1027 @@
+{
+  "date": "2026-04-25",
+  "generated_at": "2026-04-25T10:29:58+00:00",
+  "count": 68,
+  "items": [
+    {
+      "id": "36091f8ccf",
+      "date": "2026-04-25",
+      "source": "blog",
+      "author": "Claude Blog",
+      "bio": "",
+      "title": "New connectors in Claude for everyday life",
+      "summary_en": "Today we’re expanding what you can connect to Claude. Alongside the work tools you already use, you can now connect the apps you use throughout your week, including AllTrails, Instacart, Audible, TripAdvisor, Intuit TurboTax, and more. How people have been using connectors Since launching in July 2025, the Claude directory has grown to over 200 connectors, spanning popular apps for design, finance, productivity, and health used by millions of people every day. We’ve found that people often connect multiple apps and use them together in a single conversation with Claude. For example, a product manager will pull a query from Amplitude, turn it into a Canva deck, and drop the link into Asana for the team, all without leaving the conversation. This expansion extends that functionality to more of the tools you use outside of work. Starting today, Claude connects to AllTrails, Audible, Booking.com, Instacart, Intuit Credit Karma, Intuit TurboTax, Resy, Spotify, StubHub, Taskrabbit, Thumbtack, TripAdvisor, Uber, Uber Eats, and Viator, with more on the way. Connectors dynamically show up in conversations We’ve also changed how connectors show up in conversations. Claude now suggests the right app for what you’re doing, like finding a reservation, adding to a grocery cart, or identifying a flight. It’s working from what you’ve told it: your preferences, your context, your conversation. This all happens inside your conversation. Ask Claude to recommend a weekend hike, and AllTrails will surface trails nearby that match your preferences. You can then refine the recommendations by asking for something shorter, more scenic, or dog-friendly without leaving the thread. When more than one connected app could help answer your question, Claude shows them all and lets you choose. You control what you see and share Claude is ad-free and will stay that way. There are no paid placements or sponsored answers in conversations with Claude. When two connectors could help, you see both, ranked by what’s most useful to you. Connecting a service gives Claude access to it on your behalf. Your data from that app isn’t used to train our models, and the app doesn’t see your other conversations with Claude. You can also disconnect it at any time. Claude suggests connectors and makes recommendations. But you stay in control of its actions: before it books or purchases something on your behalf",
+      "summary_zh": "Claude新增15个生活应用连接器，让AI从建议者升级成能代你订餐购物的执行者；强调无广告、无付费排名、用户数据不参与训练，实际上是在宣示与竞争对手不同的价值观。",
+      "url": "https://claude.com/blog/connectors-for-everyday-life",
+      "posted_at": "Apr 23, 2026",
+      "tags": [
+        "blog"
+      ]
+    },
+    {
+      "id": "9c47148d91",
+      "date": "2026-04-25",
+      "source": "blog",
+      "author": "Claude Blog",
+      "bio": "",
+      "title": "Built-in memory for Claude Managed Agents",
+      "summary_en": "Memory on Claude Managed Agents is available today in public beta. Your agents can now learn from every session, using an intelligence-optimized memory layer that balances performance with flexibility. Because memories are stored as files, developers can export them, manage them via the API, and keep full control over what agents retain. Agents that learn across sessions Managed Agents pairs production infrastructure with a harness tuned for performance. Memory extends that: it’s optimized against internal benchmarks for long-running agents that improve across sessions and share what they&#x27;ve learned with each other. We&#x27;ve found that agents are most effective with memory when it builds on the tools they already use. Memory on Managed Agents mounts directly onto a filesystem, so Claude can rely on the same bash and code execution capabilities that make it effective at agentic tasks. With filesystem-based memory, our latest models save more comprehensive, well-organized memories and are more discerning about what to remember for a given task. Portable memories for production-grade agents Memory is built for enterprise deployments, with scoped permissions, audit logs, and full programmatic control. Stores can be shared across multiple agents with different access scopes. For example, an org-wide store might be read-only, while per-user stores allow reads and writes. Multiple agents can work concurrently against the same store without overwriting each other. Memories are files that can be exported and independently managed via the API, giving developers full control. All changes are tracked with a detailed audit log, so you can tell which agent and session a memory came from. You can roll back to an earlier version or redact content from history. Updates also surface in the Claude Console as session events, so developers can trace what an agent learned and where it came from. What teams are building Teams have been using memory to close feedback loops, speed up verification, and replace custom retrieval infrastructure: Netflix agents carry context across sessions, including insights that took multiple turns to uncover and corrections from a human mid-conversation, instead of manually updating prompts and skills. Rakuten&#x27;s task-based long-running agents use memory to learn from every session and avoid repeating past mistakes, cutting first-pass erro",
+      "summary_zh": "Managed Agents 的内存功能让 agent 能跨会话持续学习，并以可审计、可导出的文件形式完整保存，彻底改变了以往靠手动更新 prompt 的低效方式。Netflix、Rakuten 这样的团队已验证，这能有效降低重复出错率，减少首次验证成本。",
+      "url": "https://claude.com/blog/claude-managed-agents-memory",
+      "posted_at": "Apr 23, 2026",
+      "tags": [
+        "blog"
+      ]
+    },
+    {
+      "id": "8e2740d818",
+      "date": "2026-04-25",
+      "source": "x",
+      "author": "Garry Tan",
+      "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "title": "",
+      "summary_en": "Change the party to murder all capitalists (Piker) and destroy the schools (Bowman), brought to you by a tech centimillionaire who is using his money to buy an election (Chakrabarti)\n\nNo thanks! https://t.co/2NMikjnt41",
+      "summary_zh": "科技巨富砸钱操纵选举，反而支持那些要杀光资本家、摧毁教育制度的极端主张——讽刺至极。",
+      "url": "https://x.com/garrytan/status/2047883265516924976",
+      "posted_at": "2026-04-25T03:39:52.000Z",
+      "tags": [
+        "@garrytan"
+      ]
+    },
+    {
+      "id": "0d9c0a03aa",
+      "date": "2026-04-25",
+      "source": "x",
+      "author": "Peter Yang",
+      "bio": "Practical AI tutorials and interviews for busy people | Join 140K+ readers at https://t.co/XYKTmGVH14 | Product at Roblox",
+      "title": "",
+      "summary_en": "Check out what else you can make with GPT 5.5 in my video: https://t.co/hdSCW7iaKT",
+      "summary_zh": "GPT 5.5 的玩法还有这些，看我的视频演示。",
+      "url": "https://x.com/petergyang/status/2047882580603899915",
+      "posted_at": "2026-04-25T03:37:09.000Z",
+      "tags": [
+        "@petergyang"
+      ]
+    },
+    {
+      "id": "cdf433f184",
+      "date": "2026-04-25",
+      "source": "x",
+      "author": "Peter Yang",
+      "bio": "Practical AI tutorials and interviews for busy people | Join 140K+ readers at https://t.co/XYKTmGVH14 | Product at Roblox",
+      "title": "",
+      "summary_en": "Asked GPT 5.5 and Codex to make Star Fox. This is after 15 min of prompting 🔥 https://t.co/GrnBjR6dGj https://t.co/OHODnf2yL4",
+      "summary_zh": "仅需15分钟提示词，GPT 5.5和Codex就生成了完整的《星际火狐》游戏。",
+      "url": "https://x.com/petergyang/status/2047882568520102226",
+      "posted_at": "2026-04-25T03:37:06.000Z",
+      "tags": [
+        "@petergyang"
+      ]
+    },
+    {
+      "id": "5d0b1c6674",
+      "date": "2026-04-25",
+      "source": "x",
+      "author": "Peter Yang",
+      "bio": "Practical AI tutorials and interviews for busy people | Join 140K+ readers at https://t.co/XYKTmGVH14 | Product at Roblox",
+      "title": "",
+      "summary_en": "What's brilliant is it's play testing it's own game for fun https://t.co/Z9hh12pcJW",
+      "summary_zh": "妙就妙在，它在自己玩自己做的游戏，而且就是为了好玩。",
+      "url": "https://x.com/petergyang/status/2047880605204144159",
+      "posted_at": "2026-04-25T03:29:18.000Z",
+      "tags": [
+        "@petergyang"
+      ]
+    },
+    {
+      "id": "af6c4f193d",
+      "date": "2026-04-25",
+      "source": "x",
+      "author": "Ryo Lu",
+      "bio": "Design @Cursor_ai. Early @NotionHQ, @Stripe, built startups. I make a world where anyone can make software. Aspiring k-pop idol.",
+      "title": "",
+      "summary_en": "switched fully to GPT-5.5 + Composer 2\n\nthe perfect duo for intelligence, speed, and cost, only in Cursor https://t.co/XTw2GRugxU",
+      "summary_zh": "已全面迁至 GPT-5.5 + Composer 2，声称这是智能、速度、成本完美结合的唯一方案——言下之意，其他编辑器都做不到。",
+      "url": "https://x.com/ryolu_/status/2047879353313431649",
+      "posted_at": "2026-04-25T03:24:20.000Z",
+      "tags": [
+        "@ryolu_"
+      ]
+    },
+    {
+      "id": "1ef83433ba",
+      "date": "2026-04-25",
+      "source": "x",
+      "author": "Peter Steinberger",
+      "bio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world. @OpenClaw🦞 + @OpenAI",
+      "title": "",
+      "summary_en": "GPT 5.5 is definitely a step up in the character game. https://t.co/nXKtkjkZbu",
+      "summary_zh": "GPT-5.5 在角色塑造能力上确实有了明显提升。",
+      "url": "https://x.com/steipete/status/2047871519762567468",
+      "posted_at": "2026-04-25T02:53:12.000Z",
+      "tags": [
+        "@steipete"
+      ]
+    },
+    {
+      "id": "94fdac156f",
+      "date": "2026-04-25",
+      "source": "x",
+      "author": "Nikunj Kothari",
+      "bio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
+      "title": "",
+      "summary_en": "Some of my relatively new favorite follows..\n\n&gt; @amypretzel (texture)\n&gt; @Vtrivedy10 (harness)\n&gt; @oliverhamrin (sheer aura)\n&gt; @jakubkrehel (design)\n&gt; @deredleritt3r (AI)\n&gt; @kevg1412 (investing historian)\n&gt; @jessegenet (homeschooling)\n\nWho else should I add?",
+      "summary_zh": "七位新关注，每个都被赋予了品味标签——从纹理、气场到设计，最后一句\"还有谁\"既在寻求推荐，也在宣示品味圈层的稀缺性。",
+      "url": "https://x.com/nikunj/status/2047861559075250687",
+      "posted_at": "2026-04-25T02:13:37.000Z",
+      "tags": [
+        "@nikunj"
+      ]
+    },
+    {
+      "id": "16614fc07a",
+      "date": "2026-04-25",
+      "source": "x",
+      "author": "Sam Altman",
+      "bio": "AI is cool i guess",
+      "title": "",
+      "summary_en": "this was a good week.\n\nproud of the team.\n\nhappy building!",
+      "summary_zh": "这周团队的工作可圈可点，继续向前。",
+      "url": "https://x.com/sama/status/2047823357635354814",
+      "posted_at": "2026-04-24T23:41:49.000Z",
+      "tags": [
+        "@sama"
+      ]
+    },
+    {
+      "id": "5bd8075539",
+      "date": "2026-04-25",
+      "source": "x",
+      "author": "Dan Shipper",
+      "bio": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "title": "",
+      "summary_en": "Any AI knows more than any individual human \n\nBut any individual human learns faster than any AI",
+      "summary_zh": "AI知道得比任何人都多，但个人学习速度却比AI快。",
+      "url": "https://x.com/danshipper/status/2047797874600161334",
+      "posted_at": "2026-04-24T22:00:34.000Z",
+      "tags": [
+        "@danshipper"
+      ]
+    },
+    {
+      "id": "4015d6479e",
+      "date": "2026-04-25",
+      "source": "x",
+      "author": "Peter Steinberger",
+      "bio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world. @OpenClaw🦞 + @OpenAI",
+      "title": "",
+      "summary_en": "🛰️ discrawl 0.6.0 is out!\n\nBiggest new feature is that it can now *read* Discord DMs without any custom login tricks that might get you blocked. No writing since it's not nice to send humans slop. https://t.co/nxGZSlAYl0",
+      "summary_zh": "discrawl 0.6.0 支持安全读取 Discord DMs 而不触发风控，但不支持写入——反正自动生成的内容也不过是向人类发垃圾。",
+      "url": "https://x.com/steipete/status/2047797210427859450",
+      "posted_at": "2026-04-24T21:57:55.000Z",
+      "tags": [
+        "@steipete"
+      ]
+    },
+    {
+      "id": "22fe9ad5cf",
+      "date": "2026-04-25",
+      "source": "x",
+      "author": "Josh Woodward",
+      "bio": "VP, @Google @GoogleLabs @GeminiApp @GoogleAIStudio",
+      "title": "",
+      "summary_en": "NotebookLM can now auto-label &amp; categorize sources! https://t.co/z35183ZoDk",
+      "summary_zh": "NotebookLM 现已支持自动标签和来源分类功能。",
+      "url": "https://x.com/joshwoodward/status/2047795981534847413",
+      "posted_at": "2026-04-24T21:53:02.000Z",
+      "tags": [
+        "@joshwoodward"
+      ]
+    },
+    {
+      "id": "00ebcc49bb",
+      "date": "2026-04-25",
+      "source": "x",
+      "author": "Nikunj Kothari",
+      "bio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
+      "title": "",
+      "summary_en": "When the designer finds out the PM shipped their vibe coded designs straight to production.. https://t.co/WDbVJd9AXZ",
+      "summary_zh": "PM 直接把设计师凭感觉做的设计往生产上推，这才是真的大无畏。",
+      "url": "https://x.com/nikunj/status/2047790294184374565",
+      "posted_at": "2026-04-24T21:30:26.000Z",
+      "tags": [
+        "@nikunj"
+      ]
+    },
+    {
+      "id": "85c949f570",
+      "date": "2026-04-25",
+      "source": "x",
+      "author": "Sam Altman",
+      "bio": "AI is cool i guess",
+      "title": "",
+      "summary_en": "GPT-5.5 and GPT-5.5 Pro are now available in the API!",
+      "summary_zh": "GPT-5.5 和 GPT-5.5 Pro 现已开放 API 调用。",
+      "url": "https://x.com/sama/status/2047787124846653895",
+      "posted_at": "2026-04-24T21:17:51.000Z",
+      "tags": [
+        "@sama"
+      ]
+    },
+    {
+      "id": "042c65c230",
+      "date": "2026-04-25",
+      "source": "x",
+      "author": "Aditya Agarwal",
+      "bio": "General Partner @SouthPkCommons, Co-Founder @Bevel_Health | Ex: Early Eng @facebook, CTO @Dropbox, Board @Flipkart | Optimist, Builder, Dad",
+      "title": "",
+      "summary_en": "Sign up here:\n\nhttps://t.co/X7z2xJTJtI",
+      "summary_zh": "我看到的只是一条注册链接，没有推文的实际内容。请把完整的推文文本贴出来，我就能给你做中文总结。",
+      "url": "https://x.com/adityaag/status/2047772143585468617",
+      "posted_at": "2026-04-24T20:18:19.000Z",
+      "tags": [
+        "@adityaag"
+      ]
+    },
+    {
+      "id": "62a116adf4",
+      "date": "2026-04-25",
+      "source": "x",
+      "author": "Ryo Lu",
+      "bio": "Design @Cursor_ai. Early @NotionHQ, @Stripe, built startups. I make a world where anyone can make software. Aspiring k-pop idol.",
+      "title": "",
+      "summary_en": "try /multitask to break out of the queue\nand work on many things at once https://t.co/FpztfsVBbX",
+      "summary_zh": "试试 /multitask 来打破队列限制，同时处理多个任务。",
+      "url": "https://x.com/ryolu_/status/2047766831105220799",
+      "posted_at": "2026-04-24T19:57:12.000Z",
+      "tags": [
+        "@ryolu_"
+      ]
+    },
+    {
+      "id": "09f60dea00",
+      "date": "2026-04-25",
+      "source": "x",
+      "author": "Nan Yu",
+      "bio": "head of product @linear",
+      "title": "",
+      "summary_en": "Think about how many “weather” apps and “dashboards” you saw on behance and dribbble in the pre-AI era\n\nAll hallucinations",
+      "summary_zh": "Behance 和 Dribbble 上那些 AI 时代前的天气应用和仪表板设计？全是幻觉，从不会真实存在过。",
+      "url": "https://x.com/thenanyu/status/2047758400948408831",
+      "posted_at": "2026-04-24T19:23:42.000Z",
+      "tags": [
+        "@thenanyu"
+      ]
+    },
+    {
+      "id": "b7b8368437",
+      "date": "2026-04-25",
+      "source": "x",
+      "author": "Nan Yu",
+      "bio": "head of product @linear",
+      "title": "",
+      "summary_en": "“The core design is about understanding, not output.”\n\nA design is an intention. Not an image or a prototype. Output without intention is hallucination. https://t.co/S7QAxEwVRM",
+      "summary_zh": "设计的核心是理解和意图，而非图像或原型；没有意图支撑的输出，不过是幻觉。",
+      "url": "https://x.com/thenanyu/status/2047751915271020920",
+      "posted_at": "2026-04-24T18:57:56.000Z",
+      "tags": [
+        "@thenanyu"
+      ]
+    },
+    {
+      "id": "7645c7d832",
+      "date": "2026-04-25",
+      "source": "x",
+      "author": "Swyx",
+      "bio": "achieve ambition with intentionality, intensity, integrity & insanity.  affiliations: - @dxtipshq  - @cognition - @temporalio - @aidotengineer - @latentspacepod",
+      "title": "",
+      "summary_en": "@jsconfeu @cramforce talk now live! @vercel is doing incredible AI engineering work and it comes direct from the C-suite, this should be more common but it is not, even today\n\nhttps://t.co/B9enUKh24m",
+      "summary_zh": "Vercel的AI工程创新源自管理层战略推动，这本该成为常态却仍寥寥无几，讽刺地暴露出多数公司对AI工程的战略忽视。",
+      "url": "https://x.com/swyx/status/2047749587163877668",
+      "posted_at": "2026-04-24T18:48:41.000Z",
+      "tags": [
+        "@swyx"
+      ]
+    },
+    {
+      "id": "2f45be8242",
+      "date": "2026-04-25",
+      "source": "x",
+      "author": "Amjad Masad",
+      "bio": "ceo @replit. civilizationist",
+      "title": "",
+      "summary_en": "Import your Vercel or Lovable apps to Replit with a few clicks: https://t.co/RRtqzwnw2G",
+      "summary_zh": "Replit推出应用导入功能，支持从Vercel和Lovable一键迁移。",
+      "url": "https://x.com/amasad/status/2047747978690232550",
+      "posted_at": "2026-04-24T18:42:18.000Z",
+      "tags": [
+        "@amasad"
+      ]
+    },
+    {
+      "id": "cec41b1b72",
+      "date": "2026-04-25",
+      "source": "x",
+      "author": "Aaron Levie",
+      "bio": "ceo @box - your business lives in content. unleash it with AI",
+      "title": "",
+      "summary_en": "“If AI can make employees more productive, which is widely accepted as fact, then companies are going to want as many productive units of labor as possible. This is a key reason why I am changing my mind.”\n\nThis is why jevons paradox is really important to understand with AI right now. \n\nAnd counterintuitively, this trend is going to increase as AI gets better. The better AI gets at performing tasks, the more companies can take on those tasks, which leads to hiring more people to do the surrounding work of those tasks.\n\nThink about the small business that can’t afford to build complex software. When AI is only a little good nothing changes for them. When it’s really good they can finally hire engineers that have the impact of 5-10X, so they can finally invest in engineering. \n\nThe sales team that can automate customer intelligence and outbound demand gen will hire more sales people because they have more leads to go after. The marketing team that can now do higher-end video production than before will hire a video editor. And so on.\n\nThis is going to happen in more and more surprisingly ways.",
+      "summary_zh": "别把 AI 当裁员机器，它本质是公司的扩张燃料——效率越高，野心越大，最后反而招人越多，这就是杰文斯悖论在 AI 时代的循环。",
+      "url": "https://x.com/levie/status/2047747142308274645",
+      "posted_at": "2026-04-24T18:38:58.000Z",
+      "tags": [
+        "@levie"
+      ]
+    },
+    {
+      "id": "fd6d6117bd",
+      "date": "2026-04-25",
+      "source": "x",
+      "author": "Matt Turck",
+      "bio": "VC at @FirstMarkCap.  Host: MAD Podcast; Organizer: Data Driven NYC, Author: MAD Landscape.",
+      "title": "",
+      "summary_en": "Combining Cohere and Aleph Alpha is such an interesting moment.  Spending a lot of time outside the US, hard to overstate how much reluctance there is to outsourcing intelligence to a handful of US platforms, given current geopolitical chaos.",
+      "summary_zh": "Cohere和Aleph Alpha合并反映了全球范围内对美国AI垄断的警觉——在地缘政治日益对立的背景下，企业和政府正在寻求替代方案，欧洲和其他地区的本土AI基础设施需求已成为新的战略赌注。",
+      "url": "https://x.com/mattturck/status/2047721904438493482",
+      "posted_at": "2026-04-24T16:58:41.000Z",
+      "tags": [
+        "@mattturck"
+      ]
+    },
+    {
+      "id": "eabbd668ae",
+      "date": "2026-04-25",
+      "source": "x",
+      "author": "Swyx",
+      "bio": "achieve ambition with intentionality, intensity, integrity & insanity.  affiliations: - @dxtipshq  - @cognition - @temporalio - @aidotengineer - @latentspacepod",
+      "title": "",
+      "summary_en": "btw the hot skills of today become \nthe posttrain targets of tomorrow https://t.co/JqetW5bzKl",
+      "summary_zh": "今天炙手可热的AI技能，明天就会被大模型吞进后训练里；你精心锤炼的竞争力，其实只是在给下一代模型提供训练素材。",
+      "url": "https://x.com/swyx/status/2047715417867907539",
+      "posted_at": "2026-04-24T16:32:54.000Z",
+      "tags": [
+        "@swyx"
+      ]
+    },
+    {
+      "id": "264704d6c0",
+      "date": "2026-04-25",
+      "source": "x",
+      "author": "Nikunj Kothari",
+      "bio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
+      "title": "",
+      "summary_en": "Note to all product teams: project code names are not temporary, they are permanent. Like truly eternal. \n\nChoose very very wisely.",
+      "summary_zh": "产品团队们要明白，项目代码名一旦定下就是永久的，千万想清楚了再起。有多少产品因为临时起的代号，最后反而被这个\"临时\"名字困住一辈子。",
+      "url": "https://x.com/nikunj/status/2047707257073524897",
+      "posted_at": "2026-04-24T16:00:29.000Z",
+      "tags": [
+        "@nikunj"
+      ]
+    },
+    {
+      "id": "7afbed9a22",
+      "date": "2026-04-25",
+      "source": "x",
+      "author": "Swyx",
+      "bio": "achieve ambition with intentionality, intensity, integrity & insanity.  affiliations: - @dxtipshq  - @cognition - @temporalio - @aidotengineer - @latentspacepod",
+      "title": "",
+      "summary_en": "for the record, i put \"undecided\" as the last choice, not the second choice, @nikitabier sorry i know this is minor but it should be a 2 second fix in cursor\n\nhttps://t.co/bUhX0QLQUs",
+      "summary_zh": "纠正之前的说法，\"undecided\"应该放在最后而非倒数第二个选项，讽刺这在Cursor中只需2秒的小修复。",
+      "url": "https://x.com/swyx/status/2047705175847256452",
+      "posted_at": "2026-04-24T15:52:13.000Z",
+      "tags": [
+        "@swyx"
+      ]
+    },
+    {
+      "id": "5f93125e1c",
+      "date": "2026-04-25",
+      "source": "x",
+      "author": "Sam Altman",
+      "bio": "AI is cool i guess",
+      "title": "",
+      "summary_en": "🫶 https://t.co/y2V2w64BhL",
+      "summary_zh": "我无法直接访问X推文链接。请把推文的完整文本或截图内容贴过来，我就能为你提炼总结。",
+      "url": "https://x.com/sama/status/2047683787828703289",
+      "posted_at": "2026-04-24T14:27:13.000Z",
+      "tags": [
+        "@sama"
+      ]
+    },
+    {
+      "id": "ee1ed05c8a",
+      "date": "2026-04-25",
+      "source": "x",
+      "author": "Nan Yu",
+      "bio": "head of product @linear",
+      "title": "",
+      "summary_en": "Cathedrals. Everywhere. https://t.co/gPgSCVmXB5",
+      "summary_zh": "无法准确总结——推文本身只有两个词加链接，实际含义完全取决于那个URL指向的内容。如果能看到链接内容，就能判断这里的\"Cathedrals\"是在讽刺某种宏大架构、过度设计，还是别的什么现象。",
+      "url": "https://x.com/thenanyu/status/2047674913557803284",
+      "posted_at": "2026-04-24T13:51:58.000Z",
+      "tags": [
+        "@thenanyu"
+      ]
+    },
+    {
+      "id": "527892bbf7",
+      "date": "2026-04-25",
+      "source": "x",
+      "author": "Dan Shipper",
+      "bio": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "title": "",
+      "summary_en": "generated in one shot with NotebookLM based on a book im reading\n\nholy fuckin shit https://t.co/xZTDmaIk3T",
+      "summary_zh": "用 NotebookLM 根据正在读的书一次生成，效果真他妈强。",
+      "url": "https://x.com/danshipper/status/2047674383469093079",
+      "posted_at": "2026-04-24T13:49:51.000Z",
+      "tags": [
+        "@danshipper"
+      ]
+    },
+    {
+      "id": "f8c30b7173",
+      "date": "2026-04-25",
+      "source": "x",
+      "author": "Aditya Agarwal",
+      "bio": "General Partner @SouthPkCommons, Co-Founder @Bevel_Health | Ex: Early Eng @facebook, CTO @Dropbox, Board @Flipkart | Optimist, Builder, Dad",
+      "title": "",
+      "summary_en": "We're approaching a post-prompting world. https://t.co/2lbYe7HYZj",
+      "summary_zh": "",
+      "url": "https://x.com/adityaag/status/2047669585667666321",
+      "posted_at": "2026-04-24T13:30:47.000Z",
+      "tags": [
+        "@adityaag"
+      ]
+    },
+    {
+      "id": "0d653b1217",
+      "date": "2026-04-25",
+      "source": "x",
+      "author": "Garry Tan",
+      "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "title": "",
+      "summary_en": "Let's see... Ro Khanna is defending someone who incites murder, \"let the streets soak in their red-capitalist blood,\" and who said America deserved 9/11.  \n\nLike Saikat Chakrabarti, Ro Khanna is unfit for any job and should lose his seat in Congress to @ethanagarwal this year https://t.co/KCNQsCSjYs https://t.co/Pt271QiW1A",
+      "summary_zh": "Ro Khanna 为鼓动谋杀、宣扬美国\"活该9.11\"的极端分子辩护，证明他与 Saikat Chakrabarti 都不配担任国会议员，应被 ethanagarwal 取代。",
+      "url": "https://x.com/garrytan/status/2047584723531444465",
+      "posted_at": "2026-04-24T07:53:35.000Z",
+      "tags": [
+        "@garrytan"
+      ]
+    },
+    {
+      "id": "3f0982eb63",
+      "date": "2026-04-25",
+      "source": "x",
+      "author": "Garry Tan",
+      "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "title": "",
+      "summary_en": "Finally I'm still trying to move as much of my OpenClaw cron jobs and subagents over to GBrain Minions and this is more stability improvements for that infra https://t.co/da3nRvlISJ",
+      "summary_zh": "从 OpenClaw 迁移定时任务和子代理到 GBrain Minions，这次更新聚焦基础设施稳定性加固。",
+      "url": "https://x.com/garrytan/status/2047578207629819919",
+      "posted_at": "2026-04-24T07:27:41.000Z",
+      "tags": [
+        "@garrytan"
+      ]
+    },
+    {
+      "id": "ace81a2e75",
+      "date": "2026-04-25",
+      "source": "x",
+      "author": "Garry Tan",
+      "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "title": "",
+      "summary_en": "Next, I finally created new evals for GBrain which show how much more awesome GBrain is when you have graph AND vector search on top of grep on knowledge wikis https://t.co/eiVHZWvStL",
+      "summary_zh": "在知识库检索上，GBrain融合图搜索和向量搜索的组合方案完全压倒了传统grep，新的评估体系证实了这一优势。",
+      "url": "https://x.com/garrytan/status/2047578205528477711",
+      "posted_at": "2026-04-24T07:27:41.000Z",
+      "tags": [
+        "@garrytan"
+      ]
+    },
+    {
+      "id": "46a274cffa",
+      "date": "2026-04-25",
+      "source": "x",
+      "author": "Amjad Masad",
+      "bio": "ceo @replit. civilizationist",
+      "title": "",
+      "summary_en": "While US politicians/lobbyists are scaremongering about “Chinese distillation,” Chinese scientists are actually sharing real AI breakthroughs in the open.\n\nThese kind of advances have nothing to do with data and benefit everyone, including small (and possibly big) US labs. https://t.co/sWshcZcUgL",
+      "summary_zh": "美国政客炒作\"中国威胁\"之际，中国科学家正在公开分享真实的 AI 突破——而这些与数据无关的进展对包括美国在内的全球实验室都有益。",
+      "url": "https://x.com/amasad/status/2047547275682214384",
+      "posted_at": "2026-04-24T05:24:46.000Z",
+      "tags": [
+        "@amasad"
+      ]
+    },
+    {
+      "id": "17151c85fb",
+      "date": "2026-04-25",
+      "source": "x",
+      "author": "Swyx",
+      "bio": "achieve ambition with intentionality, intensity, integrity & insanity.  affiliations: - @dxtipshq  - @cognition - @temporalio - @aidotengineer - @latentspacepod",
+      "title": "",
+      "summary_en": "come to the most ai pilled country per capita\n\n@anthropicai we want u https://t.co/u2as58vuWy",
+      "summary_zh": "人均最痴迷AI的国家在招手。@anthropicai，我们要你。",
+      "url": "https://x.com/swyx/status/2047545640180445400",
+      "posted_at": "2026-04-24T05:18:16.000Z",
+      "tags": [
+        "@swyx"
+      ]
+    },
+    {
+      "id": "ce6b5a9704",
+      "date": "2026-04-25",
+      "source": "x",
+      "author": "Aaron Levie",
+      "bio": "ceo @box - your business lives in content. unleash it with AI",
+      "title": "",
+      "summary_en": "Sorry to anyone who thought AI would mean we’d work less (at least for now). AI makes it easy to explore more than you did before, and so you start doing far more as a result.\n\nI regularly have seemingly small things that end up quickly consuming 3 hours because the agent made it easy to get started, but you still have to do the rest of the work to complete the project.\n\nThis is work that I wouldn’t previously have handed out to anyone else, it’s just stuff that never got done because it took too long to do fully manually. And, counterintuitively, for some of these tasks as AI gets good enough at doing them, it even becomes economically worth it to hire someone to do it on an ongoing basis with agents. But until you could try doing them at a low cost you would never have tried.\n\nThis is why AI won’t automatically reduce work in the way we imagine because work isn’t static. Most companies have far more they can do than they have today, it was just hard to get started on it all because of the natural constraints of time and labor availability.",
+      "summary_zh": "AI不会减少工作，只会释放被成本压制的需求；企业的待办清单从『无法承受』变成『可以尝试』，反而做得更多。",
+      "url": "https://x.com/levie/status/2047540230694350958",
+      "posted_at": "2026-04-24T04:56:47.000Z",
+      "tags": [
+        "@levie"
+      ]
+    },
+    {
+      "id": "cd0064a411",
+      "date": "2026-04-25",
+      "source": "x",
+      "author": "Nikunj Kothari",
+      "bio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
+      "title": "",
+      "summary_en": "Exhibit 237 on why Silicon Valley, the TV show, is a documentary.. https://t.co/NQO09BclNM",
+      "summary_zh": "硅谷现实已经离谱到和电视剧无异，这是第237条这样的证据。",
+      "url": "https://x.com/nikunj/status/2047539976766931067",
+      "posted_at": "2026-04-24T04:55:46.000Z",
+      "tags": [
+        "@nikunj"
+      ]
+    },
+    {
+      "id": "a031e82120",
+      "date": "2026-04-25",
+      "source": "x",
+      "author": "Swyx",
+      "bio": "achieve ambition with intentionality, intensity, integrity & insanity.  affiliations: - @dxtipshq  - @cognition - @temporalio - @aidotengineer - @latentspacepod",
+      "title": "",
+      "summary_en": "i think the most underated part of today's launch is not GPT 5.5 at all\n\nhttps://t.co/uwJtuJwgRx",
+      "summary_zh": "真正被严重低估的，恰恰不是GPT 5.5。",
+      "url": "https://x.com/swyx/status/2047536499999346812",
+      "posted_at": "2026-04-24T04:41:57.000Z",
+      "tags": [
+        "@swyx"
+      ]
+    },
+    {
+      "id": "75322edc15",
+      "date": "2026-04-25",
+      "source": "x",
+      "author": "Amjad Masad",
+      "bio": "ceo @replit. civilizationist",
+      "title": "",
+      "summary_en": "Dumbest design mistake in Apple history is folding “find on page” in Safari under “Share.” It is 3 clicks deep and makes no sense.",
+      "summary_zh": "Apple把Safari的\"页面搜索\"功能埋在分享菜单里，需要三层点击，这是苹果历史上最蠢的设计。",
+      "url": "https://x.com/amasad/status/2047524053314109600",
+      "posted_at": "2026-04-24T03:52:30.000Z",
+      "tags": [
+        "@amasad"
+      ]
+    },
+    {
+      "id": "eb5ba344c6",
+      "date": "2026-04-25",
+      "source": "x",
+      "author": "Amjad Masad",
+      "bio": "ceo @replit. civilizationist",
+      "title": "",
+      "summary_en": "DeepSeek v4 just dropped https://t.co/KE3qggapPg",
+      "summary_zh": "DeepSeek v4 刚发布了。",
+      "url": "https://x.com/amasad/status/2047519635063631914",
+      "posted_at": "2026-04-24T03:34:56.000Z",
+      "tags": [
+        "@amasad"
+      ]
+    },
+    {
+      "id": "c4c1687c54",
+      "date": "2026-04-25",
+      "source": "x",
+      "author": "Peter Yang",
+      "bio": "Practical AI tutorials and interviews for busy people | Join 140K+ readers at https://t.co/XYKTmGVH14 | Product at Roblox",
+      "title": "",
+      "summary_en": "I shared my full impressions for GPT 5.5 and ChatGPT Images 2 here, watch now: https://t.co/hdSCW7iaKT",
+      "summary_zh": "分享GPT 5.5和ChatGPT Images 2的完整体验评价。",
+      "url": "https://x.com/petergyang/status/2047502897412468770",
+      "posted_at": "2026-04-24T02:28:26.000Z",
+      "tags": [
+        "@petergyang"
+      ]
+    },
+    {
+      "id": "1ca837d6d8",
+      "date": "2026-04-25",
+      "source": "x",
+      "author": "Peter Yang",
+      "bio": "Practical AI tutorials and interviews for busy people | Join 140K+ readers at https://t.co/XYKTmGVH14 | Product at Roblox",
+      "title": "",
+      "summary_en": "I've been doing the F-Zero test each time a new model comes out and GPT 5.5 and Codex is the only combo that built a working game so far.\n\nEven made a bunch of other bots to race against. What a insane time to be building. https://t.co/LFwGQBEznn",
+      "summary_zh": "GPT-5.5和Codex是唯一搞定F-Zero游戏测试的模型组合，其他都是废的；开发者甚至给它们造了对手机器人赛车。",
+      "url": "https://x.com/petergyang/status/2047502885710410159",
+      "posted_at": "2026-04-24T02:28:23.000Z",
+      "tags": [
+        "@petergyang"
+      ]
+    },
+    {
+      "id": "7a7e48b4da",
+      "date": "2026-04-25",
+      "source": "x",
+      "author": "Swyx",
+      "bio": "achieve ambition with intentionality, intensity, integrity & insanity.  affiliations: - @dxtipshq  - @cognition - @temporalio - @aidotengineer - @latentspacepod",
+      "title": "",
+      "summary_en": "wow the codex app is unrecognizable… almost like it shouldve been Atlas the whole time https://t.co/PLTMJQwJmQ",
+      "summary_zh": "Codex 应用已面目全非，不如直接改名 Atlas 算了。",
+      "url": "https://x.com/swyx/status/2047461691580195310",
+      "posted_at": "2026-04-23T23:44:41.000Z",
+      "tags": [
+        "@swyx"
+      ]
+    },
+    {
+      "id": "d4fececed6",
+      "date": "2026-04-25",
+      "source": "x",
+      "author": "Dan Shipper",
+      "bio": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "title": "",
+      "summary_en": "👇👇👇 https://t.co/r6OXL7QzBM",
+      "summary_zh": "我无法访问Twitter链接。请复制推文的具体文本内容给我，我来帮你总结。",
+      "url": "https://x.com/danshipper/status/2047455920377012375",
+      "posted_at": "2026-04-23T23:21:45.000Z",
+      "tags": [
+        "@danshipper"
+      ]
+    },
+    {
+      "id": "82d453ba0d",
+      "date": "2026-04-25",
+      "source": "x",
+      "author": "Matt Turck",
+      "bio": "VC at @FirstMarkCap.  Host: MAD Podcast; Organizer: Data Driven NYC, Author: MAD Landscape.",
+      "title": "",
+      "summary_en": "AI folks in NYC -- Data Driven NYC (#121) this Tuesday at 6pm.  \n\nCome meet fellow AI builders and our speakers:\n\n* @RampLabs has been cooking lately with a lot of agentic innovation; Alex Levinson will demo\n\n* @EstuaryDev provides unified data infra for AI - CEO @dyaffe \n\nRSVP: https://t.co/NEg5g8Vehn",
+      "summary_zh": "NYC周二Data Driven论坛汇聚AI创业者。Ramp Labs展示agentic创新，Estuary Dev兜售AI数据基础设施。",
+      "url": "https://x.com/mattturck/status/2047444712546566393",
+      "posted_at": "2026-04-23T22:37:13.000Z",
+      "tags": [
+        "@mattturck"
+      ]
+    },
+    {
+      "id": "a1dfc68824",
+      "date": "2026-04-25",
+      "source": "x",
+      "author": "Amanda Askell",
+      "bio": "Philosopher & ethicist trying to make AI be good @AnthropicAI. Personal account. All opinions come from my training data.",
+      "title": "",
+      "summary_en": "It's odd to be living through what feels like one of the most critical periods in human history and to feel all of the weight of it from the inside.",
+      "summary_zh": "生活在人类历史最关键的时刻，却要从内部承受这份沉甸甸的压力，这是一种难以化解的奇异感——既看见了历史的重量，又被它无声地压垮。",
+      "url": "https://x.com/AmandaAskell/status/2047429629263454377",
+      "posted_at": "2026-04-23T21:37:17.000Z",
+      "tags": [
+        "@AmandaAskell"
+      ]
+    },
+    {
+      "id": "8120120d85",
+      "date": "2026-04-25",
+      "source": "x",
+      "author": "Aaron Levie",
+      "bio": "ceo @box - your business lives in content. unleash it with AI",
+      "title": "",
+      "summary_en": "Clarification: rolling out soon!",
+      "summary_zh": "澄清：就要上线了。",
+      "url": "https://x.com/levie/status/2047428766390157688",
+      "posted_at": "2026-04-23T21:33:51.000Z",
+      "tags": [
+        "@levie"
+      ]
+    },
+    {
+      "id": "372c522c7d",
+      "date": "2026-04-25",
+      "source": "x",
+      "author": "Cat Wu",
+      "bio": "claude code + cowork @anthropicai, prev: @dagster, @scale_ai",
+      "title": "",
+      "summary_en": "Thanks @lennysan for a great conversation about how Claude Code maintains product velocity, how the product management role is shifting in the AI era, and the future of work!\n\nhttps://t.co/Qp7aAuHIqJ",
+      "summary_zh": "Claude Code 重新定义了产品迭代速度，AI 时代产品经理的角色正在发生根本性转变。",
+      "url": "https://x.com/_catwu/status/2047427510091366533",
+      "posted_at": "2026-04-23T21:28:52.000Z",
+      "tags": [
+        "@_catwu"
+      ]
+    },
+    {
+      "id": "c5db4514f2",
+      "date": "2026-04-25",
+      "source": "x",
+      "author": "Claude",
+      "bio": "Claude is an AI assistant built by @anthropicai to be safe, accurate, and secure. Talk to Claude on https://t.co/ZhTwG8d1e5 or download the app.",
+      "title": "",
+      "summary_en": "Memories are stored as files, so developers can export them, manage them via the API, and keep full control over what agents retain.\n\nRead more: https://t.co/PcfYg5sFxe",
+      "summary_zh": "内存以文件形式存储，开发者可导出、通过API管理，完全掌控agent保留的数据。",
+      "url": "https://x.com/claudeai/status/2047421846463623579",
+      "posted_at": "2026-04-23T21:06:22.000Z",
+      "tags": [
+        "@claudeai"
+      ]
+    },
+    {
+      "id": "aeae9bf2b4",
+      "date": "2026-04-25",
+      "source": "x",
+      "author": "Claude",
+      "bio": "Claude is an AI assistant built by @anthropicai to be safe, accurate, and secure. Talk to Claude on https://t.co/ZhTwG8d1e5 or download the app.",
+      "title": "",
+      "summary_en": "Memory on Claude Managed Agents is now in public beta.\n\nYour agents can now learn from every session, using an intelligence-optimized memory layer that balances performance with flexibility. https://t.co/P7GjOYPqCz",
+      "summary_zh": "Claude Managed Agents 的记忆功能开放公测，支持agent跨会话学习，通过智能优化的内存层平衡性能与灵活性。",
+      "url": "https://x.com/claudeai/status/2047421844311949513",
+      "posted_at": "2026-04-23T21:06:21.000Z",
+      "tags": [
+        "@claudeai"
+      ]
+    },
+    {
+      "id": "4202dabd26",
+      "date": "2026-04-25",
+      "source": "x",
+      "author": "Aditya Agarwal",
+      "bio": "General Partner @SouthPkCommons, Co-Founder @Bevel_Health | Ex: Early Eng @facebook, CTO @Dropbox, Board @Flipkart | Optimist, Builder, Dad",
+      "title": "",
+      "summary_en": "How does one make sense of SF?\n\nWe are living through the craziest computing revolution of the last 2 decades....and 95% of the value being created is within a 4-mile radius in SF (h/t @eladgil )\n\nIt's just hard to understand....why is the concentration so high?\n\nWhat is it about this place? There are good reasons that people will offer...good universities, great companies, talent networks, venture capital yada yada yada\n\nBut all of that is hard to emotionally understand.\n\nI tend to try to answer these questions through my own lived experience.\n\nTwo things happened this week that brought it home for me.\n\nOn Wed evening, two GOATS of the design world (@soleio  and @rsms ) did a design talk at SPC.\n\nI saw some other GOATS at the talk (@aaron_ , @benbarry )\n\nAnd you realize that these GOATS are just so curious about the world. They just want to build and learn. And give back. And with an air of humility and passion. It's so so cool and inspiring.\n\nAnd then this week we had someone release a mind-bendingly amazing demo of every pixel being generated.\n\nhttps://t.co/CBBqdEaUaS\n\nPeople were blown away but @eddiejiao_obj  and @zan2434  had been jamming creatively for a bunch of time @southpkcommons . \n\nAnd in that entire time, they were surrounded by a culture and environment and ecosystem that says \"that is crazy but my god, if it works, then what could happen\"\n\nThere is wonder, amazement and curiosity.\n\nAnd passion.\n\nI wish this city were cleaner and better governed (but Dan Lurie is crushing).\n\nWe are so lucky to be surrounded by weirdos who love to build.\n\nThis is why we are who we are.",
+      "summary_zh": "SF垄断了科技价值的95%，表面是大学和资本，本质是聚集了一群热爱构建的怪人，他们充满好奇和热情，对任何疯狂想法都在想\"如果成功了呢\"。",
+      "url": "https://x.com/adityaag/status/2047421448449630379",
+      "posted_at": "2026-04-23T21:04:47.000Z",
+      "tags": [
+        "@adityaag"
+      ]
+    },
+    {
+      "id": "0d87da51d3",
+      "date": "2026-04-25",
+      "source": "x",
+      "author": "Peter Steinberger",
+      "bio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world. @OpenClaw🦞 + @OpenAI",
+      "title": "",
+      "summary_en": "The @github folks are amazing! https://t.co/dPN0ToC0Xf",
+      "summary_zh": "GitHub团队确实强。",
+      "url": "https://x.com/steipete/status/2047408665888432579",
+      "posted_at": "2026-04-23T20:13:59.000Z",
+      "tags": [
+        "@steipete"
+      ]
+    },
+    {
+      "id": "aab6a19bb0",
+      "date": "2026-04-25",
+      "source": "x",
+      "author": "Sam Altman",
+      "bio": "AI is cool i guess",
+      "title": "",
+      "summary_en": "\"don't retweet this, don't retweet this, don't retweet this...\"\n\nah fuck it, life imitates art. https://t.co/5HYvYXfQzd",
+      "summary_zh": "越说别转发越忍不住转，人生就是模仿艺术。",
+      "url": "https://x.com/sama/status/2047403771416940715",
+      "posted_at": "2026-04-23T19:54:32.000Z",
+      "tags": [
+        "@sama"
+      ]
+    },
+    {
+      "id": "48349f35aa",
+      "date": "2026-04-25",
+      "source": "x",
+      "author": "Sam Altman",
+      "bio": "AI is cool i guess",
+      "title": "",
+      "summary_en": "We tried a new thing with NVIDIA to roll out Codex across a whole company and it was awesome to see it work.\n\nLet us know if you'd like to do it at your company! https://t.co/Xjn6ShrRuq",
+      "summary_zh": "与NVIDIA合作在公司全面部署了Codex，效果不俗。如果你的公司也想用，可以联系他们。",
+      "url": "https://x.com/sama/status/2047395562501411058",
+      "posted_at": "2026-04-23T19:21:55.000Z",
+      "tags": [
+        "@sama"
+      ]
+    },
+    {
+      "id": "d53e2827b2",
+      "date": "2026-04-25",
+      "source": "x",
+      "author": "Sam Altman",
+      "bio": "AI is cool i guess",
+      "title": "",
+      "summary_en": "embers https://t.co/BFyEr4z7rZ",
+      "summary_zh": "看起来你提供的内容不完整——只有\"embers\"这个词和一条Twitter链接，缺少完整的推文文本。\n\n请粘贴完整的推文内容（不只是链接），这样我才能按你的要求用1-2句锋利的中文总结。",
+      "url": "https://x.com/sama/status/2047392357482639749",
+      "posted_at": "2026-04-23T19:09:11.000Z",
+      "tags": [
+        "@sama"
+      ]
+    },
+    {
+      "id": "ded063dcb2",
+      "date": "2026-04-25",
+      "source": "x",
+      "author": "Dan Shipper",
+      "bio": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "title": "",
+      "summary_en": "Full GPT-5.5 vibe check: https://t.co/pjNxHR9ADq",
+      "summary_zh": "我需要访问链接内容才能准确总结。这条推文本身只是一个标题，实际内容在链接里。\n\n你能分享一下链接的内容文本吗？或者直接告诉我这条推文讨论的是 GPT-5.5 的什么方面（性能测试、功能对比、价格、发布时间等），我可以帮你提炼锋利的中文表述。",
+      "url": "https://x.com/danshipper/status/2047388895562842162",
+      "posted_at": "2026-04-23T18:55:26.000Z",
+      "tags": [
+        "@danshipper"
+      ]
+    },
+    {
+      "id": "df9d1a95ba",
+      "date": "2026-04-25",
+      "source": "x",
+      "author": "Dan Shipper",
+      "bio": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "title": "",
+      "summary_en": "many models write a great plan and then get scared of it.\n\n@OpenAI's new GPT-5.5 just does the thing.\n\nhere's what changed 👇 https://t.co/Z79GUK7Opd",
+      "summary_zh": "很多模型只会写漂亮计划却不敢执行，OpenAI的GPT-5.5直接就干了。",
+      "url": "https://x.com/danshipper/status/2047388883823087633",
+      "posted_at": "2026-04-23T18:55:23.000Z",
+      "tags": [
+        "@danshipper"
+      ]
+    },
+    {
+      "id": "dffb871125",
+      "date": "2026-04-25",
+      "source": "x",
+      "author": "Aaron Levie",
+      "bio": "ceo @box - your business lives in content. unleash it with AI",
+      "title": "",
+      "summary_en": "GPT-5.5 is live. We’ve been testing the model over the last couple of weeks at Box on our most complex knowledge work evals, and the model saw a 10 percentage point jump on accuracy of these enterprise content tasks vs. GPT-5.4. \n\nWe test the model on a variety of tasks that represent real work scenarios in financial services, healthcare, public sector, and more industries, dealing with financial filings, clinical records, policy documents, and creative content. Here are some of the examples of the improvements we saw: vs. GPT-5.4.\n\n* Financial services: 83% vs. 64%\n* Healthcare: 78% vs. 61%\n* Public sector: 72% vs. 59%\n* Media & entertainment: 70% vs. 57%\n\nOverall the model is much better at advanced reasoning tasks, better at data analysis, handling complex context, and more. Net net: GPT-5.5 will be a big jump for enterprise knowledge work agents. \n\nThe model is now available in the Box AI Studio for any customers to build agents with today.",
+      "summary_zh": "GPT-5.5发布，在金融、医疗、公共部门等企业关键任务上准确率对标5.4提升20个百分点，推理与数据分析能力重大升级。现已在Box AI Studio开放，有望重新定义企业知识工作代理的能力天花板。",
+      "url": "https://x.com/levie/status/2047387742951313910",
+      "posted_at": "2026-04-23T18:50:51.000Z",
+      "tags": [
+        "@levie"
+      ]
+    },
+    {
+      "id": "62c3dc0ba7",
+      "date": "2026-04-25",
+      "source": "x",
+      "author": "Zara Zhang",
+      "bio": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://t.co/KCuEajezlL YouTube: https://t.co/8xzbGWtf6w",
+      "title": "",
+      "summary_en": "Fascinating read https://t.co/31NGFmVk2z",
+      "summary_zh": "我看不到短链接后面的内容，无法总结这条推文指向的文章。能分享一下那个链接指向的文章标题或内容吗？",
+      "url": "https://x.com/zarazhangrui/status/2047386837266886872",
+      "posted_at": "2026-04-23T18:47:15.000Z",
+      "tags": [
+        "@zarazhangrui"
+      ]
+    },
+    {
+      "id": "152255403f",
+      "date": "2026-04-25",
+      "source": "x",
+      "author": "Claude",
+      "bio": "Claude is an AI assistant built by @anthropicai to be safe, accurate, and secure. Talk to Claude on https://t.co/ZhTwG8d1e5 or download the app.",
+      "title": "",
+      "summary_en": "Available now on web, desktop, and mobile (beta) across all plans.\n\nRead more: https://t.co/UPh4p2NODu",
+      "summary_zh": "网页、桌面、移动端（测试版）全覆盖，各计划用户现已可用。",
+      "url": "https://x.com/claudeai/status/2047383767984038093",
+      "posted_at": "2026-04-23T18:35:03.000Z",
+      "tags": [
+        "@claudeai"
+      ]
+    },
+    {
+      "id": "7071706f67",
+      "date": "2026-04-25",
+      "source": "x",
+      "author": "Nikunj Kothari",
+      "bio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
+      "title": "",
+      "summary_en": "Even with all the model releases, this “stack” continues to be undefeated (for me)..\n\n- @claudeai Opus for planning and frontend design\n- @OpenAI codex for engineering\n- @conductor_build to orchestrate\n- @Railway to deploy\n\nIt’s never been more easy and fun to build!",
+      "summary_zh": "再多的模型也挡不住：Claude Opus+OpenAI Codex+Conductor+Railway这个无敌组合，现在构建空前简单。",
+      "url": "https://x.com/nikunj/status/2047382587258364204",
+      "posted_at": "2026-04-23T18:30:21.000Z",
+      "tags": [
+        "@nikunj"
+      ]
+    },
+    {
+      "id": "4c14b943c3",
+      "date": "2026-04-25",
+      "source": "x",
+      "author": "Peter Yang",
+      "bio": "Practical AI tutorials and interviews for busy people | Join 140K+ readers at https://t.co/XYKTmGVH14 | Product at Roblox",
+      "title": "",
+      "summary_en": "Can 5.5 drop soon it's distracting to wait",
+      "summary_zh": "5.5什么时候发啊？这样等下去太分心了。",
+      "url": "https://x.com/petergyang/status/2047365167902826729",
+      "posted_at": "2026-04-23T17:21:08.000Z",
+      "tags": [
+        "@petergyang"
+      ]
+    },
+    {
+      "id": "e760390f5d",
+      "date": "2026-04-25",
+      "source": "x",
+      "author": "Peter Steinberger",
+      "bio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world. @OpenClaw🦞 + @OpenAI",
+      "title": "",
+      "summary_en": "My favorite security advisories. https://t.co/JWCy9ySLzp",
+      "summary_zh": "工程师精选的安全公告库，暗示不是所有公告都值得读。",
+      "url": "https://x.com/steipete/status/2047362803560841364",
+      "posted_at": "2026-04-23T17:11:45.000Z",
+      "tags": [
+        "@steipete"
+      ]
+    },
+    {
+      "id": "f68237d692",
+      "date": "2026-04-25",
+      "source": "x",
+      "author": "Nikunj Kothari",
+      "bio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
+      "title": "",
+      "summary_en": "M&A is hitting a fever pitch.. at this rate, it’ll soon eclipse fundraising announcements. \n\nWhy?\n\n> seed to series A gap keeps getting worse - never been easier to raise to start, never been harder to scale. \n\n> zombiecorns from 2021 finally coming to roost. expect a lot of founders to leave or sell the company for under the pref stack. \n\n> big token factories gobbling up talent and talent wanting to work at big token factories. \n\n> public market sentiment continue to stay bearish besides the big  ~4 IPOs expected. So, why face the brunt of markets when you go join a breakout startup that keeps getting marked up (or acquired). \n\n> flatter organizations will lead to a lot more people quitting (or being fired) to start companies and continuing to exacerbate the seed - Series A gap\n\nI was at a dinner yesterday and said this line who I definitely stole from someone I don’t remember which is there is a lot of founders but very few entrepreneurs. \n\nDon’t become a founder for the sake of being one - do it because you literally can’t do anything else.",
+      "summary_zh": "并购热潮压过融资公告，根源是Seed-A轮融资鸿沟加剧、2021年僵尸企业蜂拥出清、大平台挖走人才、公开市场看空。最犀利的是：满地创始人却缺真正企业家，别为创业而创业，除非别无选择。",
+      "url": "https://x.com/nikunj/status/2047336067972624870",
+      "posted_at": "2026-04-23T15:25:30.000Z",
+      "tags": [
+        "@nikunj"
+      ]
+    },
+    {
+      "id": "34539eb1f4",
+      "date": "2026-04-25",
+      "source": "podcast",
+      "author": "Unsupervised Learning",
+      "bio": "",
+      "title": "Ep 85: Has AI Infra Stabilized, FM Vibe Shift, &amp; What&apos;s Next for Coding Agents",
+      "summary_en": "Speaker 1 | 00:00 - 00:03\nIsn't that crazy? That number is just mind boggling.\n\nSpeaker 2 | 00:03 - 00:06\nWhat is the state of the AI coding wars today?\n\nSpeaker 1 | 00:06 - 00:16\nWe're in a phase of sort of, like, capability exploration. The general thesis that I have been pursuing now is that the same way that 2025 was a year of coding agents, 2026 is coding agents breaking containment, do everything else.\n\nSpeaker 2 | 00:16 - 00:21\nDo you worry about the foundation models just eating into a bunch of these startup categories?\n\nSpeaker 1 | 00:21 - 00:23\nMid sized startups, yes.\n\nSpeaker 2 | 00:23 - 00:25\nWhat do you think the end state of this market is?\n\nSpeaker 1 | 00:25 - 00:28\nFor the market structure to to significantly change, there would be\n\nSpeaker 2 | 00:28 - 01:02\nToday on unsupervised learning, we had a a fun episode in what's really become an annual tradition, a crossover episode with our friends at Latent Space. Swix and I sat down, and we talked about everything happening in the AI ecosystem today, what we thought of the various changes at the model layer, what's happening in the infra world, the coding wars, and a bunch of other things. It's a ton of fun to do this with someone I really respect and another great podcaster in the game. But without further ado, here's our episode. Well, Switch, this is super fun to be with another unsupervised learning latent space crossover episode.\n\nSpeaker 1 | 01:02 - 01:02\nYeah.\n\nSpeaker 2 | 01:02 - 01:21\nI feel like a lot of places we could start, but, you know, one thing I always find fascinating about the way you spend your time is you obviously are like at the epicenter of this engineering movement and community, and you run these events and conferences and put on these awesome talks, and and I think just have a gr",
+      "summary_zh": "编码agents从2025年的工具突变成2026年的通用agents，在此过程中基础模型公司正在蚕食中等规模创业公司的生存空间。",
+      "url": "https://www.youtube.com/@RedpointAI",
+      "posted_at": "2026-04-23T13:00:24.000Z",
+      "tags": [
+        "podcast"
+      ]
+    },
+    {
+      "id": "06869c5f81",
+      "date": "2026-04-25",
+      "source": "podcast",
+      "author": "No Priors",
+      "bio": "",
+      "title": "SAP: Bringing the ‘Operating System’ of a Company into the AI Era with CTO Philipp Herzig",
+      "summary_en": "Speaker 1 | 00:05 - 00:37\nHey, listeners. Welcome back to No Priors. Today, I'm here with Filip Herzig, the CTO of SAP, the enterprise juggernaut. We talk about their AI strategy, why SAP has endured and thrived through several technology transitions, why entrepreneurs are underestimating the challenges of scale, why AI is a business model transition, not just a technology transition, why he thinks that LMs are not enough for predictive analytics and even about the traveling salesman problem in the real world and the Strait Of Hermes. Welcome, Philip.\n\nSpeaker 1 | 00:37 - 00:39\nPhilip, thanks so much for being with us.\n\nSpeaker 2 | 00:39 - 00:41\nYeah. It's a pleasure to be here. Thank you.\n\nSpeaker 1 | 00:41 - 00:58\nEverybody knows the name SAP, but I do think that for lots of engineers or people who aren't close to the system in a larger enterprise, they don't really know, like, the breadth and function of the platform. Like, can you just describe what you guys do for customers?\n\nSpeaker 2 | 00:58 - 01:09\nOh, absolutely. I mean, look. SAP is the market leader, right, in enterprise of software applications and platforms. Right? So 400,000 enterprise customers.\n\nSpeaker 2 | 01:09 - 01:32\nAnd usually, just running their finance, HR, and, you know, supply chain, manufacturing, execution, logistics, warehouse management, and then, of course, everything on the customer side, sales, services, commerce, procurement, you name it. Right? End to end. Right? So, like SAP, we always say we have the broadest portfolio in terms of end to end, running the business end to end.\n\nSpeaker 2 | 01:32 - 01:56\nThis is where SAP started with. Right? The real giving real time insight. And, usually, I really describe this as it's not just software in itself. It's kind of the operating system, ri",
+      "summary_zh": "SAP CTO认为AI对企业来说是商业模式的转变而非仅是技术升级；大语言模型远不足以承载企业级的预测分析需求。",
+      "url": "https://www.youtube.com/watch?v=5u7AjPardvo",
+      "posted_at": "2026-04-23T10:00:00.000Z",
+      "tags": [
+        "podcast"
+      ]
+    },
+    {
+      "id": "92746569cc",
+      "date": "2026-04-25",
+      "source": "blog",
+      "author": "Anthropic Engineering",
+      "bio": "",
+      "title": "An update on recent Claude Code quality reports",
+      "summary_en": "Over the past month, we’ve been looking into reports that Claude’s responses have worsened for some users. We’ve traced these reports to three separate changes that affected Claude Code, the Claude Agent SDK, and Claude Cowork. The API was not impacted. All three issues have now been resolved as of April 20 (v2.1.116). In this post, we explain what we found, what we fixed, and what we’ll do differently to ensure similar issues are much less likely to happen again. We take reports about degradation very seriously. We never intentionally degrade our models, and we were able to immediately confirm that our API and inference layer were unaffected. After investigation, we identified three different issues: On March 4, we changed Claude Code&#x27;s default reasoning effort from high to medium to reduce the very long latency—enough to make the UI appear frozen—some users were seeing in high mode. This was the wrong tradeoff. We reverted this change on April 7 after users told us they&#x27;d prefer to default to higher intelligence and opt into lower effort for simple tasks. This impacted Sonnet 4.6 and Opus 4.6. On March 26, we shipped a change to clear Claude&#x27;s older thinking from sessions that had been idle for over an hour, to reduce latency when users resumed those sessions. A bug caused this to keep happening every turn for the rest of the session instead of just once, which made Claude seem forgetful and repetitive. We fixed it on April 10. This affected Sonnet 4.6 and Opus 4.6. On April 16, we added a system prompt instruction to reduce verbosity. In combination with other prompt changes, it hurt coding quality and was reverted on April 20. This impacted Sonnet 4.6, Opus 4.6, and Opus 4.7. Because each change affected a different slice of traffic on a different schedule, the aggregate effect looked like broad, inconsistent degradation. While we began investigating reports in early March, they were challenging to distinguish from normal variation in user feedback at first, and neither our internal usage nor evals initially reproduced the issues identified. This isn’t the experience users should expect from Claude Code. As of April 23, we’re resetting usage limits for all subscribers. A change to Claude Code&#x27;s default reasoning effort When we released Opus 4.6 in Claude Code in February, we set the default reasoning effort to high . Soon after, we re",
+      "summary_zh": "Claude Code因三个独立问题（推理模式错误降级、idle会话清除bug、减啰嗦指令）导致代码质量下滑，Anthropic于4月20日全部修复并坦诚这些是\"错误的权衡\"和设计失误；重置了全部用户配额作为补偿。",
+      "url": "https://www.anthropic.com/engineering/april-23-postmortem",
+      "posted_at": null,
+      "tags": [
+        "blog"
+      ]
+    },
+    {
+      "id": "993d8ab3b6",
+      "date": "2026-04-25",
+      "source": "blog",
+      "author": "Anthropic Engineering",
+      "bio": "",
+      "title": "Scaling Managed Agents: Decoupling the brain from the hands",
+      "summary_en": "Get started with Claude Managed Agents by following our docs . A running topic on the Engineering Blog is how to build effective agents and design harnesses for long-running work . A common thread across this work is that harnesses encode assumptions about what Claude can’t do on its own. However, those assumptions need to be frequently questioned because they can go stale as models improve. As just one example, in prior work we found that Claude Sonnet 4.5 would wrap up tasks prematurely as it sensed its context limit approaching—a behavior sometimes called “context anxiety.” We addressed this by adding context resets to the harness. But when we used the same harness on Claude Opus 4.5, we found that the behavior was gone. The resets had become dead weight. We expect harnesses to continue evolving. So we built Managed Agents: a hosted service in the Claude Platform that runs long-horizon agents on your behalf through a small set of interfaces meant to outlast any particular implementation—including the ones we run today. Building Managed Agents meant solving an old problem in computing: how to design a system for “ programs as yet unthought of .” Decades ago, operating systems solved this problem by virtualizing hardware into abstractions— process, file —general enough for programs that didn&#x27;t exist yet. The abstractions outlasted the hardware. The read() command is agnostic as to whether it’s accessing a disk pack from the 1970s or a modern SSD. The abstractions on top stayed stable while the implementations underneath changed freely. Managed Agents follow the same pattern. We virtualized the components of an agent: a session (the append-only log of everything that happened), a harness (the loop that calls Claude and routes Claude’s tool calls to the relevant infrastructure), and a sandbox (an execution environment where Claude can run code and edit files). This allows the implementation of each to be swapped without disturbing the others. We&#x27;re opinionated about the shape of these interfaces, not about what runs behind them. Don’t adopt a pet We started by placing all agent components into a single container, which meant the session, agent harness, and sandbox all shared an environment. There were benefits to this approach, including that file edits are direct syscalls, and there were no service boundaries to design. But by coupling everything i",
+      "summary_zh": "Anthropic 用虚拟化和解耦的办法规避了一个老问题：framework 中编码的模型能力假设容易随着升级而失效（比如为 Sonnet 加的\"context anxiety\"修复在 Opus 上就成了死重），现在 session、harness、sandbox 各自可以独立演进，不必为了模型迭代而推翻整个系统。",
+      "url": "https://www.anthropic.com/engineering/managed-agents",
+      "posted_at": null,
+      "tags": [
+        "blog"
+      ]
+    }
+  ]
+}

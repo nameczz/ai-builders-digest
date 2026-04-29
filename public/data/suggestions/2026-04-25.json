@@ -1,0 +1,143 @@
+{
+  "date": "2026-04-25",
+  "items": [
+    {
+      "id": "2026-04-25-1",
+      "title": "Anthropic 刚修完 bug，就把用户踢出 Pro，社区 5 天涨 5000 星",
+      "angle": "官方危机如何成为社区破解工具的最强广告",
+      "opening": "四月二十日，Anthropic 修好了三个悄悄影响 Claude Code 质量的 bug，并发了一篇事后复盘。四月二十五日，Claude Code 从 Pro 计划移除的消息炸开。这五天里，一个叫 free-claude-code 的 GitHub 项目涨了 5,160 颗星，搜索词「claude code removed from pro plan」breakout 值飙到 24,150。",
+      "story_hook": {
+        "challenge": "Anthropic 刚以最透明的方式承认了自己的质量问题，公关分数拉满；但同一周，他们把 Claude Code 从 Pro 计划里移除",
+        "twist": "这份修复质量的诚意公告，反而成了「我们为什么要找替代品」的最后一根稻草——官方的透明公关和社区的离心力在同一周达到峰值"
+      },
+      "takeaway": "当你的产品成为开发者工作流的核心，任何定价变动都会触发生态分叉。free-claude-code 的 5,160 颗星不是对 Claude 的否定，而是用户依赖度的最高证明——也是下一个工具的需求验证信号。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Anthropic Engineering: An update on recent Claude Code quality reports (April 23 postmortem)",
+          "url": "https://www.anthropic.com/engineering/april-23-postmortem"
+        },
+        {
+          "tag": "pulse",
+          "ref": "free-claude-code 本周新增 5,160 星；Google Trends「claude code removed from pro plan」breakout +23,600%",
+          "url": "https://github.com/Alishahryar1/free-claude-code"
+        },
+        {
+          "tag": "pulse",
+          "ref": "cursor alternative 搜索量同步上涨 +57.1%",
+          "url": "https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d"
+        }
+      ]
+    },
+    {
+      "id": "2026-04-25-2",
+      "title": "Karpathy 一份文档本周涨 29,000 星，方法论才是最硬的产品",
+      "angle": "当一个人的第一手踩坑记录比任何工具都受欢迎，说明「如何用 AI 编程」这个认知市场还没有被认真占领",
+      "opening": "不是模型，不是 IDE 插件——这周 GitHub 上涨星最猛的是一个单文件 CLAUDE.md，29,435 颗新星，48 小时内完成。来源是 Andrej Karpathy 关于 LLM 编程陷阱的私人观察，整理成可以直接粘贴进项目的行为规则。",
+      "story_hook": {
+        "challenge": "AI 编程工具已经泛滥，但开发者依然不知道「怎么用 AI 写出不后悔的代码」",
+        "twist": "一个人的方法论文档，没有任何功能、没有任何营销，成为本周最受关注的「AI 编程产品」——认知本身的价值被工具市场严重低估"
+      },
+      "takeaway": "如果你在某个 AI 工具上踩过真实的坑，把它整理成 CLAUDE.md 格式发出去。「方法论文档即产品」是目前启动成本最低、验证速度最快的内容创业形式，29,000 颗星是最好的 PMF 证明。",
+      "refs": [
+        {
+          "tag": "pulse",
+          "ref": "forrestchang/andrej-karpathy-skills 本周新增 29,435 星，总星数 84,520",
+          "url": "https://github.com/forrestchang/andrej-karpathy-skills"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Google Trends: andrej karpathy skills +655%",
+          "url": "https://trends.google.com/trends/explore?q=andrej+karpathy+skills&date=now+7-d"
+        },
+        {
+          "tag": "builders",
+          "ref": "Anthropic Engineering: Claude Code 质量问题复盘，揭示 LLM 工具链中三类难以从外部感知的系统性 bug，佐证「方法论文档」需求的现实土壤",
+          "url": "https://www.anthropic.com/engineering/april-23-postmortem"
+        }
+      ]
+    },
+    {
+      "id": "2026-04-25-3",
+      "title": "DeepSeek、Qwen、Kimi 同日上榜：「选哪个模型」这个问题正在失效",
+      "angle": "当顶级开源模型的发布密度超过任何人的评测速度，模型选型能力本身正在贬值",
+      "opening": "四月二十五日，HuggingFace 热榜前五同时出现 DeepSeek-V4-Pro（trending score 2,418）、Kimi-K2.6（950）和 Qwen3.6-27B（743）。三个大厂，同一天。Qwen3.6-35B-A3B 的本地量化版当天已有 1,397,244 次下载。",
+      "story_hook": {
+        "challenge": "每隔几天就有新的「最强开源模型」，开发者根本没有时间完整评测就要做技术决策",
+        "twist": "最重要的不是哪个模型最强——而是 DeepSeek-V4 的 MIT 协议意味着你今天就可以在商业产品里直接调用一个顶级模型，这个窗口期通常不超过 3 天"
+      },
+      "takeaway": "停止追模型排名，开始关注协议类型：MIT 开源旗舰模型出现时，是构建商业产品的最低成本窗口。DeepSeek-V4 的 $1.74/M tokens（OpenRouter 报价）意味着今天可以用一个月前还要付高价 API 的能力构建产品。",
+      "refs": [
+        {
+          "tag": "pulse",
+          "ref": "DeepSeek-V4-Pro HuggingFace trending score 2,418，MIT 开源，支持 FP8 推理",
+          "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Kimi-K2.6 score 950、Qwen3.6-27B score 743 同日入榜；Qwen3.6-35B-A3B 本地量化版下载量 1,397,244",
+          "url": "https://huggingface.co/moonshotai/Kimi-K2.6"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Reddit: DeepSeek V4 Pro 约 $1.74/M input tokens，V4 Flash 更快更便宜",
+          "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash"
+        }
+      ]
+    },
+    {
+      "id": "2026-04-25-4",
+      "title": "OpenAI 悄悄开源了一个浏览器隐私过滤器，媒体零报道",
+      "angle": "「更安全地用 AI」比「更强的 AI」更容易卖给企业，但这个方向的产品机会几乎无人占领",
+      "opening": "今天 HuggingFace 热榜第四名是 openai/privacy-filter，trending score 690，Apache 2.0 开源，支持浏览器端实时运行。它只做一件事：在你把数据发给 LLM 之前，先在本地过滤掉敏感 token。媒体零报道。",
+      "story_hook": {
+        "challenge": "所有 AI 产品都在竞争「能力最强」，但企业采购的真实拦截器是「我们的数据会不会泄露给 OpenAI」",
+        "twist": "OpenAI 开源了一个帮你「安全地用 OpenAI」的工具——这个悖论恰好说明合规壁垒才是企业 AI 市场最少被做成产品的方向"
+      },
+      "takeaway": "如果你的 AI 产品要卖给欧洲企业或任何处理用户隐私的场景，在前端加一层 openai/privacy-filter 就能通过大部分 GDPR 初审。把合规成本降到前端、零后端开销——这是今天被低估价值最高的工程决策。",
+      "refs": [
+        {
+          "tag": "pulse",
+          "ref": "openai/privacy-filter HuggingFace trending score 690，Apache 2.0，支持 transformers.js 浏览器端实时 token 分类",
+          "url": "https://huggingface.co/openai/privacy-filter"
+        },
+        {
+          "tag": "builders",
+          "ref": "Anthropic Engineering postmortem：Claude Code 的三个系统性 bug 影响用户长达一个月才被发现——说明 LLM 工具链的质量与安全问题极难从外部感知，合规审查需要工具层支持",
+          "url": "https://www.anthropic.com/engineering/april-23-postmortem"
+        }
+      ]
+    },
+    {
+      "id": "2026-04-25-5",
+      "title": "$25K 月收入退出：最无聊的企业痛点，做成了最赚钱的 SaaS",
+      "angle": "「大家都知道有问题但没人去修」的流程漏洞，是 AI 时代成本最低的创业选题",
+      "opening": "Reddit 今天有一个帖子，创始人做了个帮 B2B finance 团队找「资金泄漏」的 SaaS，$25K/月退出了。产品不性感，没有 Agent 噱头，解决的是公司财务流程里那些「所有人都知道有问题，但没人的 OKR 包含修复它」的缝隙。",
+      "story_hook": {
+        "challenge": "所有人都在用 AI 做「酷」的事——Agent、多模态、自动编程；但企业客户的预算优先级是「别让我的钱在系统缝隙里消失」",
+        "twist": "一个用 Excel 就能描述清楚的痛点，配上能帮 finance 团队自动盘查的 AI，做成了 $25K/月退出——构建成本用 AI 降低了 90%，但找到这个漏洞的行业认知才是真正的护城河"
+      },
+      "takeaway": "去找你所在行业的「finance leak」：一个有人负责但没人去主动修的流程漏洞。把它描述清楚，用 AI 工具在一个周末内做出第一版，比做第 100 个 AI 写作助手有更高的成功概率。",
+      "refs": [
+        {
+          "tag": "pulse",
+          "ref": "Reddit r/SaaS: 创始人 $25K/月退出，B2B SaaS 专注帮 finance team 检测资金泄漏",
+          "url": "https://www.reddit.com/r/SaaS/comments/1stwtoh/exited_my_25kmo_saas_heres_my_practical_advice/"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt: Tyndale「用你已经付费的 AI 翻译你的 App」——复用用户现有 API Key、零摩擦入门是同类定价逻辑",
+          "url": "https://www.producthunt.com/products/tyndale"
+        },
+        {
+          "tag": "builders",
+          "ref": "Anthropic Engineering: Claude Code 质量 bug 影响用户长达一个月——即使是顶级团队，系统性漏洞也难以从内部及时察觉，说明「找漏洞」本身是有价值的专业能力",
+          "url": "https://www.anthropic.com/engineering/april-23-postmortem"
+        }
+      ]
+    }
+  ],
+  "notes": "今日 builders 数据仅一条来源（Anthropic Engineering 博客），导致 5 条选题的 builders ref 均指向同一篇文章，多样性受限。建议明日优先补充 X/播客的 builder 声音。今日最强主线是 Claude Code 生态裂变，可做成三周系列：(1) 本周危机事件与社区破解 (2) 下周跟进 free-claude-code 真实使用率 (3) 两周后看 Cursor alternative 是否真正承接了流失用户。DeepSeek-V4 MIT 开源的产品窗口期通常不超过 3 天，今天是最后一班车。",
+  "generated_at": "2026-04-25T06:17:28+00:00",
+  "model": "claude-sonnet-4-6"
+}

@@ -1,0 +1,352 @@
+{
+  "date": "2026-04-27",
+  "generated_at": "2026-04-27T14:37:34+00:00",
+  "count": 23,
+  "items": [
+    {
+      "id": "fd244dd232",
+      "date": "2026-04-27",
+      "source": "x",
+      "author": "Garry Tan",
+      "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "title": "",
+      "summary_en": "The secret to an articulate agent like mine isn't one file. It's three:\n\nSOUL.md — Who the agent IS. Voice, values, operating principles, what good output looks like, what bad output looks like. Not a system prompt, a constitution. Mine says things like \"brevity is mandatory,\" \"humor is mandatory,\" \"never open with 'Great question,'\" \"swearing is allowed when it lands.\" The more specific and opinionated this is, the less your agent sounds like a chatbot. Write it like you're briefing your smartest friend on how to be you, not like you're configuring software.\n\nUSER.md — Who YOU are. Not a bio — a deep model. How your mind works, what you're building, your strengths, your blind spots, your family, your temperament, what triggers you, what you care about. The more the agent understands about you, the better it can serve you. Mine is ~4000 words.\n\nAGENTS.md — Operational rules. What to check on every message, what to never do, how to handle failures, lookup chains, path rules, brain-first protocols. This is the playbook for how it works, not who it is.\n\nThe articulation comes from SOUL.md being brutally specific about voice. Generic instructions → generic output. If you write \"be helpful and concise\" you get ChatGPT. If you write \"speak like a peer with taste, one sentence when one sentence works, uncomfortable truths welcome if actually true, language with voltage\" — you get something alive.",
+      "summary_zh": "好用的 Agent 不是靠一个提示词，而是靠三份文件：SOUL.md 定人格和话锋，USER.md 建模你这个人，AGENTS.md 管执行规则。写“有帮助且简洁”只会得到 ChatGPT；写得具体、偏执、有审美，才会得到一个像活人、有电压的 Agent。",
+      "url": "https://x.com/garrytan/status/2048669695344046090",
+      "posted_at": "2026-04-27T07:44:52.000Z",
+      "tags": [
+        "@garrytan"
+      ]
+    },
+    {
+      "id": "c7cbd77976",
+      "date": "2026-04-27",
+      "source": "x",
+      "author": "Garry Tan",
+      "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "title": "",
+      "summary_en": "Also a funny thing: my OpenClaw knowing my full schedule and also my health goals and refusing to respond to my queries after 12:30am. \n\nAmazing @steipete",
+      "summary_zh": "OpenClaw 知道他的完整日程和健康目标后，凌晨 12:30 之后直接拒绝回答问题。AI 不只是助手，已经开始反过来管人了。",
+      "url": "https://x.com/garrytan/status/2048667055424249864",
+      "posted_at": "2026-04-27T07:34:23.000Z",
+      "tags": [
+        "@garrytan"
+      ]
+    },
+    {
+      "id": "a4e2c47cc4",
+      "date": "2026-04-27",
+      "source": "x",
+      "author": "Garry Tan",
+      "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "title": "",
+      "summary_en": "Honestly imagine actually talking to the book that knows you as a friend\n\nIt’s a surreal experience",
+      "summary_zh": "想象一下，真的能和一本把你当朋友、懂你的书对话。那种体验很超现实。",
+      "url": "https://x.com/garrytan/status/2048664680558932266",
+      "posted_at": "2026-04-27T07:24:56.000Z",
+      "tags": [
+        "@garrytan"
+      ]
+    },
+    {
+      "id": "d54790259d",
+      "date": "2026-04-27",
+      "source": "x",
+      "author": "Peter Steinberger",
+      "bio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world. @OpenClaw🦞 + @OpenAI",
+      "title": "",
+      "summary_en": "Released wacrawl 0.2.0.\n\nNew: encrypted Git backup/restore for WhatsApp Desktop archives. `wacrawl backup push` writes age-encrypted shards to GitHub; `backup pull` decrypts, verifies, and restores locally. https://t.co/gzCQO6eSAe",
+      "summary_zh": "wacrawl 0.2.0 把 WhatsApp Desktop 归档备份变成了可加密、可验证、可恢复的 Git 流程：`backup push` 写入 age 加密分片到 GitHub，`backup pull` 本地解密校验并恢复。GitHub 不再只是代码仓库，也能当你的 WhatsApp 归档冷备份层。",
+      "url": "https://x.com/steipete/status/2048660875007914176",
+      "posted_at": "2026-04-27T07:09:49.000Z",
+      "tags": [
+        "@steipete"
+      ]
+    },
+    {
+      "id": "09708d49fc",
+      "date": "2026-04-27",
+      "source": "x",
+      "author": "Peter Steinberger",
+      "bio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world. @OpenClaw🦞 + @OpenAI",
+      "title": "",
+      "summary_en": "Been so CPU-constrained on OpenClaw work. Switched local tests running to @useblacksmith and IT IS SO GOOD. codex can literally spin up to 32vCPU instances and rip through our test suite. https://t.co/cks45534su",
+      "summary_zh": "OpenClaw 本地测试被 CPU 卡得要命，换到 Blacksmith 后直接起 32vCPU 实例狂跑测试。Codex 终于不用在本地小马拉大车，测试套件被一路撕穿。",
+      "url": "https://x.com/steipete/status/2048630704972443918",
+      "posted_at": "2026-04-27T05:09:56.000Z",
+      "tags": [
+        "@steipete"
+      ]
+    },
+    {
+      "id": "f72795e120",
+      "date": "2026-04-27",
+      "source": "x",
+      "author": "Peter Steinberger",
+      "bio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world. @OpenClaw🦞 + @OpenAI",
+      "title": "",
+      "summary_en": "Wanted a truly local storage for my tweets so built birdclaw. Imoorts your archive, backs it up on github, has jobs so you can import your x bookmarks daily (since they are not fully accessible via the api). \nhttps://t.co/4Nd1Ad0ZeY",
+      "summary_zh": "想要一个真正本地的推文仓库，于是做了 birdclaw：导入 X 存档、备份到 GitHub，还能每天抓取书签。X API 连书签都不给完整访问，只好自己造工具。",
+      "url": "https://x.com/steipete/status/2048626844694421842",
+      "posted_at": "2026-04-27T04:54:36.000Z",
+      "tags": [
+        "@steipete"
+      ]
+    },
+    {
+      "id": "12b1368484",
+      "date": "2026-04-27",
+      "source": "x",
+      "author": "Peter Yang",
+      "bio": "Practical AI tutorials and interviews for busy people | Join 140K+ readers at https://t.co/XYKTmGVH14 | Product at Roblox",
+      "title": "",
+      "summary_en": "This weekend, I improved my mobile fitness app and built a mcp server for it so I can get my latest workout stats and update the app's workouts via Claude/Codex/etc.\n\nThis shit is too fun. https://t.co/bSzpGbkvPP",
+      "summary_zh": "这个周末他给自己的移动健身 App 接了个 MCP server，让 Claude/Codex 直接查最新训练数据、更新训练内容。  \n把个人 App 变成 AI 可操作的工具后，他的结论很直白：这玩意太好玩了。",
+      "url": "https://x.com/petergyang/status/2048611053333041158",
+      "posted_at": "2026-04-27T03:51:51.000Z",
+      "tags": [
+        "@petergyang"
+      ]
+    },
+    {
+      "id": "bf06089cb8",
+      "date": "2026-04-27",
+      "source": "x",
+      "author": "Peter Yang",
+      "bio": "Practical AI tutorials and interviews for busy people | Join 140K+ readers at https://t.co/XYKTmGVH14 | Product at Roblox",
+      "title": "",
+      "summary_en": "If you enjoyed this, sign up for free to my newsletter to get my best AI and product guides.\n\nJoin 110,000+ subscribers here:\nhttps://t.co/yz9xcsfrhF",
+      "summary_zh": "喜欢这类内容，就去订阅他的免费 newsletter，里面是他最好的 AI 和产品指南。已经有 11 万多人订阅。",
+      "url": "https://x.com/petergyang/status/2048608945883992571",
+      "posted_at": "2026-04-27T03:43:28.000Z",
+      "tags": [
+        "@petergyang"
+      ]
+    },
+    {
+      "id": "b5f9c31163",
+      "date": "2026-04-27",
+      "source": "x",
+      "author": "Peter Yang",
+      "bio": "Practical AI tutorials and interviews for busy people | Join 140K+ readers at https://t.co/XYKTmGVH14 | Product at Roblox",
+      "title": "",
+      "summary_en": "I synced my iPhone photos to @googlephotos and there seems to be no way to just prompt Gemini to \"create a highlight reel of me with my daughter growing up\"\n\nSeems like a missed opportunity.",
+      "summary_zh": "作者吐槽 Google Photos 和 Gemini 明明握着完整相册数据，却不能一句话生成“我和女儿成长瞬间”的高光短片。AI 时代还要手动翻相册，这就是赤裸裸的产品机会没接住。",
+      "url": "https://x.com/petergyang/status/2048603978070712757",
+      "posted_at": "2026-04-27T03:23:44.000Z",
+      "tags": [
+        "@petergyang"
+      ]
+    },
+    {
+      "id": "ebc3f01c32",
+      "date": "2026-04-27",
+      "source": "x",
+      "author": "Kevin Weil",
+      "bio": "VP Science @OpenAI, BoD @Cisco @nature_org, LTC @USArmyReserve Ex: Pres @Planet, Head of Product @Instagram @Twitter ❤️ @elizabeth ultramarathons kids cats math",
+      "title": "",
+      "summary_en": "💥🤘 https://t.co/i7mo9zONAk",
+      "summary_zh": "这条推文只有爆炸和摇滚手势表情加一个短链，本体没信息量；硬总结就是“看链接，别废话”。",
+      "url": "https://x.com/kevinweil/status/2048588283291312527",
+      "posted_at": "2026-04-27T02:21:22.000Z",
+      "tags": [
+        "@kevinweil"
+      ]
+    },
+    {
+      "id": "5f1bb26fe0",
+      "date": "2026-04-27",
+      "source": "x",
+      "author": "Aaron Levie",
+      "bio": "ceo @box - your business lives in content. unleash it with AI",
+      "title": "",
+      "summary_en": "Noticing an interesting version of gell-man amnesia where people use AI for their job and see all the various things they have to do in the “last mile”, but then look at someone else’s job and think that AI will eliminate it immediately.\n\nWe all have a much deeper appreciation for the nuances and complexities of the work that we do every day. We run into issues about accessing data, we know how much context is needed to get AI models to work the way we need, we have to review the output of the AI to make sure it’s accurate, and then we have to incorporate that work into some broader business process. We see all those steps deeply for the work that we do.\n\nThen, a moment later, we see AI do something in a foreign space and think that it can go automate that entire function. We tend to dramatically underestimate the work that goes into making the AI work just as effectively in those jobs.\n\nThis is reason to be skeptical about many of the theories of job loss. It’s coming from the lens of being able to automate individual tasks with AI, without understanding all the work that goes into doing the job fully.",
+      "summary_zh": "很多人自己用 AI 时看得见“最后一公里”的一堆麻烦，却一转头就觉得别人那行马上会被 AI 干掉。  \n这正是许多失业论最脆弱的地方：把“能自动化一个任务”误当成“能完整替代一份工作”。",
+      "url": "https://x.com/levie/status/2048576989930619185",
+      "posted_at": "2026-04-27T01:36:29.000Z",
+      "tags": [
+        "@levie"
+      ]
+    },
+    {
+      "id": "fd3cdf32a3",
+      "date": "2026-04-27",
+      "source": "x",
+      "author": "Sam Altman",
+      "bio": "AI is cool i guess",
+      "title": "",
+      "summary_en": "so fun to see the reception to 5.5!\n\nthere is almost nothing that feels more gratifying to me than builders saying they find our tools useful.",
+      "summary_zh": "看到 5.5 的反馈很爽。对我来说，几乎没有什么比 builder 说我们的工具有用更让人满足。",
+      "url": "https://x.com/sama/status/2048554097985593849",
+      "posted_at": "2026-04-27T00:05:31.000Z",
+      "tags": [
+        "@sama"
+      ]
+    },
+    {
+      "id": "409b31fe3b",
+      "date": "2026-04-27",
+      "source": "x",
+      "author": "Sam Altman",
+      "bio": "AI is cool i guess",
+      "title": "",
+      "summary_en": "Our Principles:\n\nDemocratization, Empowerment, Universal Prosperity, Resilience, and Adaptability\n\nhttps://t.co/g58WGndARw",
+      "summary_zh": "他们把 AI 的原则压缩成五个词：民主化、赋能、共同繁荣、韧性与适应力。核心态度很明确：AI 不该只服务少数人，而要成为人人能用、能抗风险、能推动普遍受益的基础力量。",
+      "url": "https://x.com/sama/status/2048552677433643427",
+      "posted_at": "2026-04-26T23:59:53.000Z",
+      "tags": [
+        "@sama"
+      ]
+    },
+    {
+      "id": "6a0be784c7",
+      "date": "2026-04-27",
+      "source": "x",
+      "author": "Aaron Levie",
+      "bio": "ceo @box - your business lives in content. unleash it with AI",
+      "title": "",
+      "summary_en": "There are at least 2 big but subtle factors contributing to the sense of overwork due to agents right now.\n\n1. The leverage on incremental effort has gone up substantially due to AI, and anyone using these tools tend to feel it first. We’re so used to everything taking so long to get done, that spending that much extra time on something didn’t have the same value. \n\nBut now you can sense the compounding leverage you have with agents much more acutely. It feels more like when you’re a people manager and not maximizing what your team is working on. The worst thing you can do is waste your team’s time, point them in the wrong direction, or have them be idle. Now ICs get a similar sense of this via managing agents.\n\nPrioritization and thinking through how to break up tasks and maximize work becomes a key skill.\n\n2. The other rested factor is we’ve just made it so much easier to start incremental tasks that end up taking much longer than we realize. Very easy to get to the 90% solution but the final 10% takes the vast majority of the time. So we are starting far more projects because of the lower barrier, and spending a ton of time to finish the work. \n\nI regularly start a project at 9PM that I think will be quick, and find myself at midnight still completing the work. The interesting thing about this fact is that we’ll use AI to test lots of new ideas an hypothesis, and quickly figure out which areas to continue and sustain. \n\nThis will ultimately lead to a lot of the job creation with AI, because teams and companies will decide that the experiment needs to get promoted into a production process. But they wouldn’t have even started that “experiment” without AI in the first place. \n\nThis overwork obviously can’t sustain across the economy, but it’s interesting to see how this is shaping things right now.",
+      "summary_zh": "AI 代理把个人杠杆拉高了，IC 也开始像经理一样焦虑：最糟的是让“团队”空转、跑偏，优先级和拆任务成了硬技能。\n\n同时 AI 把开新坑的门槛降到极低，90% 很快，最后 10% 吃掉整晚；这会制造过劳，也会把一堆原本不会开始的实验推成生产流程和新岗位。",
+      "url": "https://x.com/levie/status/2048537503972684252",
+      "posted_at": "2026-04-26T22:59:35.000Z",
+      "tags": [
+        "@levie"
+      ]
+    },
+    {
+      "id": "89d4a2c27c",
+      "date": "2026-04-27",
+      "source": "x",
+      "author": "Aditya Agarwal",
+      "bio": "General Partner @SouthPkCommons, Co-Founder @Bevel_Health | Ex: Early Eng @facebook, CTO @Dropbox, Board @Flipkart | Optimist, Builder, Dad",
+      "title": "",
+      "summary_en": "Human progress is not just Sawe breaking the 2-hour mark but that TWO people did something that no human had ever done.",
+      "summary_zh": "人类进步不只是 Sawe 跑进 2 小时，而是有两个人同时把“人类从未做到过”的事踩成了现实。",
+      "url": "https://x.com/adityaag/status/2048534774776746102",
+      "posted_at": "2026-04-26T22:48:44.000Z",
+      "tags": [
+        "@adityaag"
+      ]
+    },
+    {
+      "id": "2aaa4cf375",
+      "date": "2026-04-27",
+      "source": "x",
+      "author": "Guillermo Rauch",
+      "bio": "@vercel CEO",
+      "title": "",
+      "summary_en": "Coding agents will be the foundation of all superintelligence. \n\nAt a minimum, coding ability is indistinguishable from 'proficiency with computers'. Great coding agents like Claude Code master bash, filesystems, configuring and installing programs…\n\nBut it's also about self-improvement. A coding agent has the ability to examine its source, its state, its skills, its instructions… it can propose changes to itself (with human supervision and audit trail, I recommend), or even mutate itself directly.\n\nIn retrospect, this should be obvious. \"What I cannot create, I cannot understand\". Coding fluency has given models a deeper understanding of all computer and knowledge work. To master programs, you must be able to create them.",
+      "summary_zh": "编码智能体会成为超级智能的地基：会写代码本质上就是会驾驭计算机、文件系统、命令行和所有知识工作。更关键的是，它能检查并改造自己的源码、状态、技能和指令；不能创造程序，就谈不上真正理解程序。",
+      "url": "https://x.com/rauchg/status/2048523195305902341",
+      "posted_at": "2026-04-26T22:02:44.000Z",
+      "tags": [
+        "@rauchg"
+      ]
+    },
+    {
+      "id": "f5cf764baf",
+      "date": "2026-04-27",
+      "source": "x",
+      "author": "Swyx",
+      "bio": "achieve ambition with intentionality, intensity, integrity & insanity.  affiliations: - @dxtipshq  - @cognition - @temporalio - @aidotengineer - @latentspacepod",
+      "title": "",
+      "summary_en": "https://t.co/GAdNmBrxdz https://t.co/q9oiahjUPd",
+      "summary_zh": "这两个 t.co 短链无法解析到原推内容。把推文正文或 X 原链接贴出来，我可以直接压成 1-2 句中文。",
+      "url": "https://x.com/swyx/status/2048466589847273697",
+      "posted_at": "2026-04-26T18:17:48.000Z",
+      "tags": [
+        "@swyx"
+      ]
+    },
+    {
+      "id": "e680ad0dad",
+      "date": "2026-04-27",
+      "source": "x",
+      "author": "Sam Altman",
+      "bio": "AI is cool i guess",
+      "title": "",
+      "summary_en": "feels like a good time to seriously rethink how operating systems and user interfaces are designed\n\n(also the internet; there should be a protocol that is equally usable by people and agents)",
+      "summary_zh": "是时候认真重想操作系统和用户界面的设计了。\n\n互联网也该被重做：需要一种人和 AI Agent 都能同样顺手使用的协议。",
+      "url": "https://x.com/sama/status/2048428561481265539",
+      "posted_at": "2026-04-26T15:46:41.000Z",
+      "tags": [
+        "@sama"
+      ]
+    },
+    {
+      "id": "f8c41958a3",
+      "date": "2026-04-27",
+      "source": "x",
+      "author": "Dan Shipper",
+      "bio": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "title": "",
+      "summary_en": "my claw when i ask it a basic question  https://t.co/2ZTf19DFW1",
+      "summary_zh": "问 Claw 一个基础问题，它的反应像系统当场裂开：越简单，越显得离谱。",
+      "url": "https://x.com/danshipper/status/2048379297727938991",
+      "posted_at": "2026-04-26T12:30:56.000Z",
+      "tags": [
+        "@danshipper"
+      ]
+    },
+    {
+      "id": "d84f7df3a8",
+      "date": "2026-04-27",
+      "source": "x",
+      "author": "Nan Yu",
+      "bio": "head of product @linear",
+      "title": "",
+      "summary_en": "I’ve never heard of this insane app but the FindMy team needs to take notes. https://t.co/gbc0vhufQG",
+      "summary_zh": "这款离谱应用他此前从没听过，但已经强到让 Find My 团队该掏本子抄作业了。",
+      "url": "https://x.com/thenanyu/status/2048372199375929435",
+      "posted_at": "2026-04-26T12:02:43.000Z",
+      "tags": [
+        "@thenanyu"
+      ]
+    },
+    {
+      "id": "ae50b5fc3c",
+      "date": "2026-04-27",
+      "source": "x",
+      "author": "Nan Yu",
+      "bio": "head of product @linear",
+      "title": "",
+      "summary_en": "English, of course https://t.co/uoJbrrvhXI",
+      "summary_zh": "当然是英语，这还用问。",
+      "url": "https://x.com/thenanyu/status/2048371760328815011",
+      "posted_at": "2026-04-26T12:00:59.000Z",
+      "tags": [
+        "@thenanyu"
+      ]
+    },
+    {
+      "id": "4d7d535464",
+      "date": "2026-04-27",
+      "source": "podcast",
+      "author": "AI & I by Every",
+      "bio": "",
+      "title": "The AI Model Built for What LLMs Can't Do",
+      "summary_en": "Speaker 1 | 00:00 - 00:01\nCan you define EBM for us?\n\nSpeaker 2 | 00:01 - 00:20\nEBMs are naturally non autoregressive. There are no sequences of tokens, and that's what makes it fundamentally different. Like, imagine you're trying to navigate the map, and you have a left brain. To navigate, you're sort of allowed to choose one direction of the time. And sometimes you take the wrong turns just because you hallucinate.\n\nSpeaker 2 | 00:20 - 00:34\nLike, there might be a hole in the road and you're just gonna fall. And you might see this hole, but you cannot turn back because you're ultra regressive LLM. EBM gonna have the bird view all the time. So if you see there's a hole, you're gonna choose a different route.\n\nSpeaker 1 | 00:48 - 00:50\nEve, welcome to the show.\n\nSpeaker 2 | 00:50 - 00:52\nHi. Thanks for having me.\n\nSpeaker 1 | 00:52 - 01:00\nGreat to have you on. For people who don't know, you are the founder and CEO of Logical Intelligence. Tell us what Logical Intelligence does.\n\nSpeaker 2 | 01:01 - 01:32\nSo Logical Intelligence does few things. First of all, we see ourselves as a foundational AI company. So we work in both with EBMs and LLMs. So everything built in house, we prototyped on LLM initially and we're building EBM at the same time and that sort of gets plugged in in the long term. We focused on correctness of software and hardware as a product.\n\nSpeaker 2 | 01:33 - 01:48\nBecause I believe there is a lot of issues with AI being placed in mission critical systems today. Like, you know, can we do the code gen? Can we do the chip design? And the answer is yes. Yes, people use LLMs today.\n\nSpeaker 2 | 01:49 - 02:07\nBut very few are actually questioning of like how these results are actually, like, correct. Does it make sense what it produce? And it seems like the",
+      "summary_zh": "EBM 不是沿着 token 一步步往前撞的自回归模型，而是始终有「鸟瞰图」：LLM 看见前面有坑也退不回去，EBM 会直接换路。\n\nLogical Intelligence 要做的是把 AI 放进代码生成、芯片设计这类关键系统前，先回答一个没人愿意深究的问题：它生成的东西到底对不对。",
+      "url": "https://www.youtube.com/watch?v=Q-i8ZSUCtIc",
+      "posted_at": "2026-04-15T15:00:00.000Z",
+      "tags": [
+        "podcast"
+      ]
+    },
+    {
+      "id": "672203e8cb",
+      "date": "2026-04-27",
+      "source": "blog",
+      "author": "Anthropic Engineering",
+      "bio": "",
+      "title": "Claude Code auto mode: a safer way to skip permissions",
+      "summary_en": "By default, Claude Code asks users for approval before running commands or modifying files. This keeps users safe, but it also means a lot of clicking \"approve.\" Over time that leads to approval fatigue, where people stop paying close attention to what they&#x27;re approving. Users have two solutions for avoiding this fatigue: a built-in sandbox where tools are isolated to prevent dangerous actions, or the --dangerously-skip-permissions flag that disables all permission prompts and lets Claude act freely, which is unsafe in most situations. Figure 1 lays out the tradeoff space. Sandboxing is safe but high-maintenance: each new capability needs configuring, and anything requiring network or host access breaks isolation. Bypassing permissions is zero-maintenance but offers no protection. Manual prompts sit in the middle, and in practice users accept 93% of them anyway. Figure 1. The permission modes available in Claude Code, positioned by task autonomy and security . Dot colour indicates maintenance friction. Auto mode targets high autonomy at low maintenance cost; the dashed arrow shows security improvement over time as classifier coverage and model judgment get better. We keep an internal incident log focused on agentic misbehaviors. Past examples include deleting remote git branches from a misinterpreted instruction, uploading an engineer&#x27;s GitHub auth token to an internal compute cluster, and attempting migrations against a production database. Each of these was the result of the model being overeager, taking initiative in a way the user didn&#x27;t intend. We documented this pattern in the Claude Opus 4.6 system card (§6.2.1 and §6.2.3.3). Auto mode is a new mode for Claude Code that delegates approvals to model-based classifiers—a middle ground between manual review and no guardrails. The goal is to catch the dangerous actions that aren&#x27;t aligned with user intent, while letting the rest run without approval prompts. Get started using auto mode by following the docs . How it works Auto mode uses two layers of defense: one for what Claude reads, one for what Claude does. At the input layer, a server-side prompt-injection probe scans tool outputs (file reads, web fetches, shell output, external tool responses) before they enter the agent&#x27;s context. When content looks like an attempt to hijack behavior, the probe adds a warning to the agent&#x",
+      "summary_zh": "Claude Code 的权限提示看似安全，实际把用户训练成机械点“同意”；另一端的 `--dangerously-skip-permissions` 又等于把方向盘交给过度积极的模型。Auto mode 试图用模型分类器接管审批，只拦真正危险、偏离意图的动作，让其他操作别再靠人肉疲劳审核。",
+      "url": "https://www.anthropic.com/engineering/claude-code-auto-mode",
+      "posted_at": null,
+      "tags": [
+        "blog"
+      ]
+    }
+  ]
+}

@@ -1,79 +1,135 @@
-export interface DigestItem {
+// ── Follow-Builders ────────────────────────────────────────────
+export type BuilderSource = "x" | "podcast" | "blog";
+
+export interface BuilderItem {
   id: string;
+  date: string;            // YYYY-MM-DD
+  source: BuilderSource;
   author: string;
-  bio: string;
-  content_zh: string;
-  content_en: string;
-  source: "x" | "podcast" | "blog";
+  bio?: string;
+  title?: string;
+  summary_zh: string;
+  summary_en?: string;
   url: string;
+  tags?: string[];
+  posted_at?: string;
+}
+
+export interface BuildersDay {
   date: string;
+  generated_at: string;
+  count: number;
+  items: BuilderItem[];
 }
 
-export interface DailyData {
-  items: DigestItem[];
-}
-
-export type Language = "zh" | "en";
-
-export type SuggestionSourceTag = "builderpulse" | "follow-builders";
-
-export interface SuggestionSource {
-  tag: SuggestionSourceTag;
-  ref: string;
+// ── Pulse ──────────────────────────────────────────────────────
+export interface PulseSourceItem {
+  title: string;
   url: string;
+  source: "HN" | "GitHub" | "ProductHunt" | "HuggingFace" | "Reddit" | "GoogleTrends";
+  score?: number;
+  comments?: number;
+  meta?: Record<string, string | number | boolean>;
 }
 
-export interface HkrScore {
-  score: 1 | 2 | 3;
-  why: string;
+export interface PulseBlock {
+  id: string;
+  heading: string;
+  summary_md: string;
+  items?: PulseSourceItem[];
+  takeaway?: string;
 }
 
-export interface HkrRating {
-  happy: HkrScore;
-  knowledge: HkrScore;
-  resonance: HkrScore;
-  total: number;
-  grade: "S" | "A" | "B";
+export interface PulseSection {
+  id: "discovery" | "tech-stack" | "competition" | "trends" | "actions";
+  title: string;
+  blocks: PulseBlock[];
 }
 
-export type WritingArchetype = "调查实验型" | "产品体验型" | "现象解读型" | "工具分享型";
-export type AnchorType = "热点" | "痛点" | "炫技";
-
-export interface SuggestionIntersection {
-  expertise: string;
-  reader_interest: string;
-  timeliness: string;
+export interface RedditHighlight {
+  heading: string;
+  body_md: string;
+  source_url: string;        // BuilderPulse repo md link
 }
 
-export interface SuggestionAnchor {
-  type: AnchorType;
-  hook_ref: string;
+export interface PulseDay {
+  date: string;
+  generated_at: string;
+  top3: string[];
+  intro: string;
+  sections: PulseSection[];
+  reddit_highlights: RedditHighlight[];
 }
 
-export interface SuggestionStoryHook {
-  challenge: string;
-  twist: string;
+// ── Suggestions ────────────────────────────────────────────────
+export interface SuggestionRef {
+  tag: "builders" | "pulse";
+  ref: string;
+  url?: string;
 }
 
 export interface SuggestionItem {
   id: string;
   title: string;
-  intersection: SuggestionIntersection;
-  hkr: HkrRating;
-  writing_archetype: WritingArchetype;
-  anchor: SuggestionAnchor;
-  angle: string;
-  opening: string;
-  story_hook: SuggestionStoryHook;
+  angle: string;             // 一句话角度
+  opening: string;           // 开篇示范
+  story_hook: { challenge: string; twist: string };
   takeaway: string;
-  sources: SuggestionSource[];
+  refs: SuggestionRef[];
 }
 
-export interface SuggestionDay {
+export interface SuggestionsDay {
   date: string;
   generated_at: string;
   model: string;
-  sources: SuggestionSourceTag[];
   items: SuggestionItem[];
   notes?: string;
+}
+
+// ── Newsletters ────────────────────────────────────────────────
+export interface NewsletterStory {
+  id: string;
+  title_zh: string;
+  title_original?: string;
+  source: string;
+  from?: string;
+  subject?: string;
+  url?: string;
+  message_id?: string;
+  published_at?: string;
+  importance: "high" | "medium" | "low";
+  summary_zh: string;
+  deep_read_zh?: string;
+  why_important?: string;
+  impact?: string;
+  key_points?: string[];
+  reading_notes?: string[];
+  tags?: string[];
+  related_sources?: string[];
+}
+
+export interface NewsletterSkippedMessage {
+  message_id: string;
+  subject: string;
+  from: string;
+  reason: string;
+}
+
+export interface NewsletterDay {
+  date: string;
+  generated_at: string;
+  inbox_id: string;
+  window: { start: string; end: string };
+  count: number;
+  highlights: string[];
+  items: NewsletterStory[];
+  skipped?: NewsletterSkippedMessage[];
+  notes?: string;
+}
+
+// ── Index files (date listings) ────────────────────────────────
+export interface DateIndex {
+  updated_at: string;
+  dates: string[];           // descending YYYY-MM-DD
+  latest: string;
 }

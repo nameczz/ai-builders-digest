@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.aibd.pulse</string>
+
+    <!-- Runs at 12:30 local time every day -->
+    <key>StartCalendarInterval</key>
+    <dict>
+        <key>Hour</key>
+        <integer>12</integer>
+        <key>Minute</key>
+        <integer>30</integer>
+    </dict>
+
+    <key>ProgramArguments</key>
+    <array>
+        <string>/bin/bash</string>
+        <string>-lc</string>
+        <string>cd __REPO_ROOT__ &amp;&amp; bash scripts/noon.sh</string>
+    </array>
+
+    <key>WorkingDirectory</key>
+    <string>__REPO_ROOT__</string>
+
+    <key>EnvironmentVariables</key>
+    <dict>
+        <!-- Commit + push generated data after a successful run. -->
+        <key>AIBD_PUSH</key>
+        <string>1</string>
+
+        <!-- See builders plist for how to enable ANTHROPIC_API_KEY billing. -->
+        <!--
+        <key>ANTHROPIC_API_KEY</key>
+        <string>sk-ant-...</string>
+        -->
+    </dict>
+
+
+    <key>StandardOutPath</key>
+    <string>__HOME__/Library/Logs/aibd-pulse.launchd.log</string>
+    <key>StandardErrorPath</key>
+    <string>__HOME__/Library/Logs/aibd-pulse.launchd.err</string>
+
+    <key>RunAtLoad</key>
+    <false/>
+
+    <key>StartCalendarIntervalCatchUp</key>
+    <true/>
+</dict>
+</plist>

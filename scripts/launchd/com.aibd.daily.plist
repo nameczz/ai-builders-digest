@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.aibd.daily</string>
+
+    <!-- Runs at 17:10 local time every day -->
+    <key>StartCalendarInterval</key>
+    <dict>
+        <key>Hour</key>
+        <integer>17</integer>
+        <key>Minute</key>
+        <integer>10</integer>
+    </dict>
+
+    <key>ProgramArguments</key>
+    <array>
+        <string>/bin/bash</string>
+        <string>-lc</string>
+        <string>cd __REPO_ROOT__ &amp;&amp; AIBD_PUSH=1 bash scripts/morning.sh &amp;&amp; AIBD_PUSH=1 bash scripts/noon.sh</string>
+    </array>
+
+    <key>WorkingDirectory</key>
+    <string>__REPO_ROOT__</string>
+
+    <key>EnvironmentVariables</key>
+    <dict>
+        <!-- Commit + push generated data after each successful stage. -->
+        <key>AIBD_PUSH</key>
+        <string>1</string>
+
+        <!-- Optional Codex CLI overrides for unattended runs. -->
+        <!--
+        <key>CODEX_MODEL</key>
+        <string>gpt-5.5</string>
+        -->
+    </dict>
+
+    <key>StandardOutPath</key>
+    <string>__HOME__/Library/Logs/aibd-daily.launchd.log</string>
+    <key>StandardErrorPath</key>
+    <string>__HOME__/Library/Logs/aibd-daily.launchd.err</string>
+
+    <key>RunAtLoad</key>
+    <false/>
+
+    <!-- If the Mac was asleep at 17:10, run as soon as it wakes -->
+    <key>StartCalendarIntervalCatchUp</key>
+    <true/>
+</dict>
+</plist>
