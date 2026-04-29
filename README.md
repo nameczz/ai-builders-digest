@@ -48,7 +48,8 @@ npm run dev   # 本地预览，需先有 public/data/ 数据
 
 | 时段 | 脚本 | 内容 | 模型 | 时长 |
 | --- | --- | --- | --- | --- |
-| **17:10 北京时间** | `bash scripts/morning.sh && bash scripts/noon.sh` | follow-builders + Pulse + 选题，顺序拉取、总结、翻译、commit、push | Haiku + Sonnet | ~6min |
+| **08:30 北京时间** | `bash scripts/newsletters.sh` | AgentMail newsletters 拉取、去重、总结、commit、push | Codex | ~1-3min |
+| **16:30 北京时间** | `bash scripts/morning.sh && bash scripts/noon.sh` | follow-builders + Pulse + 选题，顺序拉取、总结、翻译、commit、push | Codex | ~6-10min |
 
 也提供单步：
 
@@ -56,6 +57,7 @@ npm run dev   # 本地预览，需先有 public/data/ 数据
 python scripts/fetch-builders.py     --date 2026-04-25
 python scripts/fetch-pulse.py        --date 2026-04-25
 python scripts/generate-suggestions.py --date 2026-04-25
+python scripts/fetch-newsletters.py  --date 2026-04-25
 ```
 
 Shell 脚本环境变量（可选）：
@@ -78,19 +80,20 @@ bash scripts/launchd/install.sh status
 bash scripts/launchd/install.sh uninstall
 ```
 
-- 自动每天 17:10 顺序跑 morning 和 noon
-- Mac 在 17:10 睡着了：醒来后自动补跑（`StartCalendarIntervalCatchUp`）
+- 自动每天 08:30 跑 newsletters，16:30 顺序跑 morning 和 noon
+- Mac 在定时时间睡着了：醒来后自动补跑（`StartCalendarIntervalCatchUp`）
 - Mac 关机：跳过那一天
-- 日志：`~/Library/Logs/aibd-daily.launchd.{log,err}`、`~/Library/Logs/aibd-{morning,noon}-YYYY-MM-DD.log`
+- 日志：`~/Library/Logs/aibd-{newsletters,daily}.launchd.{log,err}`、`~/Library/Logs/aibd-{newsletters,morning,noon}-YYYY-MM-DD.log`
 
-立刻测试一次：`launchctl start com.aibd.daily`。
+立刻测试一次：`launchctl start com.aibd.newsletters` 或 `launchctl start com.aibd.daily`。
 
 ### B. crontab（最朴素）
 
 ```bash
 crontab -e
 # 加两行（路径换成你自己的）
-10 17 * * * cd /Users/you/ai-builders-digest && AIBD_PUSH=1 bash scripts/morning.sh && AIBD_PUSH=1 bash scripts/noon.sh
+30 8 * * * cd /Users/you/ai-builders-digest && AIBD_PUSH=1 bash scripts/newsletters.sh
+30 16 * * * cd /Users/you/ai-builders-digest && AIBD_PUSH=1 bash scripts/morning.sh && AIBD_PUSH=1 bash scripts/noon.sh
 ```
 
 - 缺点：Mac 睡着了会跳过这次（不像 launchd 会补跑）
@@ -113,8 +116,11 @@ crontab -e
 | ----------------------------------- | ----------------------------------------------------------- |
 | `CODEX_BIN`                         | Codex CLI 路径（默认 `codex`）                              |
 | `CODEX_MODEL`                       | 模型 ID（默认 `gpt-5.5`）                                   |
-| `PRODUCT_HUNT_TOKEN`                | 切到 PH GraphQL（带票数 / topics）；无则走公开 Atom feed    |
+| `PRODUCT_HUNT_TOKEN`                | 切到 PH GraphQL（带票数 / topics）；可填 developer token    |
+| `PH_API_KEY` / `PH_API_SECRET`      | 可替代 `PRODUCT_HUNT_TOKEN`，脚本会用 client credentials 自动换 token |
 | `GITHUB_TOKEN`                      | 提高 GitHub API 速率配额（trending 仍走 HTML scrape）       |
+| `AGENTMAIL_API_KEY`                 | 启用 newsletter ingestion；未设置则跳过 newsletters          |
+| `AGENTMAIL_INBOX_ID`                | 可选；指定 AgentMail inbox，默认使用第一个 inbox             |
 | `REDDIT_CLIENT_ID` / `REDDIT_SECRET`| 预留，当前未启用直拉                                        |
 
 ### Google Trends 依赖

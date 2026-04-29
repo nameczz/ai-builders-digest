@@ -30,6 +30,8 @@ def get(key: str, default: Optional[str] = None) -> Optional[str]:
 
 
 PRODUCT_HUNT_TOKEN = get("PRODUCT_HUNT_TOKEN")
+PH_API_KEY = get("PH_API_KEY")
+PH_API_SECRET = get("PH_API_SECRET")
 GITHUB_TOKEN = get("GITHUB_TOKEN")
 REDDIT_CLIENT_ID = get("REDDIT_CLIENT_ID")
 REDDIT_SECRET = get("REDDIT_SECRET")

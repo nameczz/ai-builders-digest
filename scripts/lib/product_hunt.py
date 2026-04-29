@@ -1,22 +1,26 @@
 """Product Hunt fetcher.
 
 Default path: public Atom feed (no key).
-Optional path: GraphQL API if PRODUCT_HUNT_TOKEN is set.
+Optional path: GraphQL API if PRODUCT_HUNT_TOKEN is set, or if PH_API_KEY
+and PH_API_SECRET can be exchanged for a client-level access token.
 """
 from __future__ import annotations
 
 import json
 import re
 import xml.etree.ElementTree as ET
+import urllib.request
 
 from . import http
-from .config import PRODUCT_HUNT_TOKEN
+from .config import PH_API_KEY, PH_API_SECRET, PRODUCT_HUNT_TOKEN
 
 
 ATOM_URL = "https://www.producthunt.com/feed"
 GRAPHQL_URL = "https://api.producthunt.com/v2/api/graphql"
+TOKEN_URL = "https://api.producthunt.com/v2/oauth/token"
 
 ATOM_NS = {"a": "http://www.w3.org/2005/Atom"}
+_CLIENT_TOKEN: str | None = None
 
 
 def fetch_atom() -> list[dict]:
@@ -51,7 +55,8 @@ def fetch_atom() -> list[dict]:
 
 
 def fetch_graphql(date_str: str) -> list[dict]:
-    if not PRODUCT_HUNT_TOKEN:
+    token = get_access_token()
+    if not token:
         return []
     query = """
     query TodayPosts($postedAfter: DateTime!, $postedBefore: DateTime!) {
@@ -74,13 +79,11 @@ def fetch_graphql(date_str: str) -> list[dict]:
             },
         }
     ).encode("utf-8")
-    import urllib.request
-
     req = urllib.request.Request(
         GRAPHQL_URL,
         data=body,
         headers={
-            "Authorization": f"Bearer {PRODUCT_HUNT_TOKEN}",
+            "Authorization": f"Bearer {token}",
             "Content-Type": "application/json",
             "User-Agent": http.UA,
         },
@@ -104,8 +107,48 @@ def fetch_graphql(date_str: str) -> list[dict]:
     ]
 
 
-def collect(date_str: str) -> dict:
+def get_access_token() -> str | None:
+    """Return a Bearer token for Product Hunt GraphQL.
+
+    Prefer PRODUCT_HUNT_TOKEN because it can be a long-lived developer token.
+    Fall back to exchanging PH_API_KEY/PH_API_SECRET via OAuth client credentials.
+    """
+    global _CLIENT_TOKEN
     if PRODUCT_HUNT_TOKEN:
+        return PRODUCT_HUNT_TOKEN
+    if _CLIENT_TOKEN:
+        return _CLIENT_TOKEN
+    if not PH_API_KEY or not PH_API_SECRET:
+        return None
+
+    body = json.dumps(
+        {
+            "client_id": PH_API_KEY,
+            "client_secret": PH_API_SECRET,
+            "grant_type": "client_credentials",
+        }
+    ).encode("utf-8")
+    req = urllib.request.Request(
+        TOKEN_URL,
+        data=body,
+        headers={
+            "Accept": "application/json",
+            "Content-Type": "application/json",
+            "User-Agent": http.UA,
+        },
+        method="POST",
+    )
+    with urllib.request.urlopen(req, timeout=30) as resp:
+        data = json.loads(resp.read().decode("utf-8"))
+    token = data.get("access_token")
+    if isinstance(token, str) and token:
+        _CLIENT_TOKEN = token
+        return token
+    return None
+
+
+def collect(date_str: str) -> dict:
+    if PRODUCT_HUNT_TOKEN or (PH_API_KEY and PH_API_SECRET):
         try:
             products = fetch_graphql(date_str)
             return {"date": date_str, "source": "product_hunt", "mode": "graphql", "products": products}

@@ -1,0 +1,178 @@
+{
+  "date": "2026-04-29",
+  "items": [
+    {
+      "id": "2026-04-29-1",
+      "title": "Agent 写完代码，谁来审它？",
+      "angle": "从 Peter Steinberger 的 Codex 自动复审流水线切入，讲 AI 编程真正的机会正在从“生成代码”转向“治理代码”。",
+      "opening": "Peter Steinberger 把 Codex 接进了每次 main 分支提交，10 分钟就抓到一个他自己写出的 bug。更夸张的是：如果 review agent 发现低级错误，它会再拉起新的 Codex 修复、提 PR、复查，最多循环 5 轮。AI 编程的下一站，可能不是更会写代码，而是更会抓同类写坏的代码。",
+      "story_hook": {
+        "challenge": "大家还在讨论 agent 能不能替代程序员，但真实工程里更棘手的问题是：agent 生成的代码谁负责兜底。",
+        "twist": "最先暴露需求的不是大公司治理平台，而是个人 builder 自己搭的 Codex 复审循环。"
+      },
+      "takeaway": "读者可以把 agent workflow 拆成生成、审查、修复、复查四层，而不是只盯 IDE 里的代码补全；做产品时优先卡住“提交前最后一道闸”。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Peter Steinberger：每次 main 提交后自动拉起 Codex 抓回归和安全漏洞",
+          "url": "https://x.com/steipete/status/2049290741013262522"
+        },
+        {
+          "tag": "builders",
+          "ref": "Peter Steinberger：Codex 发现问题后继续派 agent 修复并复查，最多循环 5 轮",
+          "url": "https://x.com/steipete/status/2049356949523730699"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Google Trends 弱信号：ai agent deletes database 突破 +24,900",
+          "url": "https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt：CodeScene CodeHealth MCP Server",
+          "url": "https://www.producthunt.com/products/codescene-codehealth-mcp-server?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+personal+%28ID%3A+281817%29"
+        }
+      ]
+    },
+    {
+      "id": "2026-04-29-2",
+      "title": "别做 Agent，做 Agent 的浏览器",
+      "angle": "从 Dan Shipper 和 Vercel Labs 的说法切入，讲下一代应用不是塞一个 chatbot，而是专门为人和 agent 共享上下文而设计。",
+      "opening": "Dan Shipper 说，在 Codex 里直接用 PostHog，比在浏览器里塞一个 agent 强太多。因为 Codex 不只是看页面，它能写查询、读结果、拉起 PR，甚至验证生产数据。过去我们给人设计软件，现在有人开始给 agent 设计软件。",
+      "story_hook": {
+        "challenge": "多数产品还在把 AI 当成页面右下角的助手，但 builder 们已经开始重写应用的默认交互对象。",
+        "twist": "真正的新入口可能不是浏览器里的 agent，而是 agent 工作台里的浏览器。"
+      },
+      "takeaway": "读者做 AI 产品时应判断自己的界面是否适合 agent 读取、操作、回写和审计；“agent-native UI”可能比再加一个聊天框更有价值。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Dan Shipper：Codex 里用 PostHog 强过浏览器里的 agent",
+          "url": "https://x.com/danshipper/status/2049236793761976357"
+        },
+        {
+          "tag": "builders",
+          "ref": "Dan Shipper：Codex-native / Cursor-native 应用是一大片新软件机会",
+          "url": "https://x.com/danshipper/status/2049223943735726150"
+        },
+        {
+          "tag": "builders",
+          "ref": "Guillermo Rauch：Vercel Labs 招人为智能体打造开发工具，相关工具 2280 万+下载",
+          "url": "https://x.com/rauchg/status/2049216048831025232"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub：zilliztech/claude-context 周增 3,767 stars",
+          "url": "https://github.com/zilliztech/claude-context"
+        }
+      ]
+    },
+    {
+      "id": "2026-04-29-3",
+      "title": "AI 应用还需要 GUI 吗？",
+      "angle": "从 Zara Zhang 的“应用变成 idea file”出发，对照 SVG/Slides 和开源生成式工具热度，讨论 GUI 从固定界面变成可生成资产。",
+      "opening": "Zara Zhang 抛了一个很激进的判断：Web 应用不再需要预设 GUI，把代码仓库丢出来，让用户和他们的 agent 自己改 UI。她另一条推还补了一刀：别让 AI 生成图片，让它生成 SVG，因为这更容易融进真实设计系统。界面正在从“产品经理定稿”变成“用户现场生成”。",
+      "story_hook": {
+        "challenge": "传统 SaaS 靠统一界面降低学习成本，但 agent 时代用户可能更想要可改、可生成、可嵌入的界面。",
+        "twist": "最先被改写的不是复杂后台，而是 slides、SVG、可视化工作台这些轻量表达层。"
+      },
+      "takeaway": "读者可以重新评估自己的产品哪些界面必须固定，哪些可以开放为模板、schema、组件或代码仓库，让用户和 agent 二次生成。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Zara Zhang：Web 应用不再需要预设 GUI，应用变成 Karpathy 式 idea file",
+          "url": "https://x.com/zarazhangrui/status/2049186121314415054"
+        },
+        {
+          "tag": "builders",
+          "ref": "Zara Zhang：让 AI 生成 SVG，而不是图片，更适合融入 HTML Slides",
+          "url": "https://x.com/zarazhangrui/status/2049258231042805806"
+        },
+        {
+          "tag": "builders",
+          "ref": "Amjad Masad：AI slides 让他从外包幻灯片转向享受自己制作",
+          "url": "https://x.com/amasad/status/2049168449709170874"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub：Open-Generative-AI 周增 4,071 stars，强调 self-hosted 和 200+ 模型",
+          "url": "https://github.com/Anil-matcha/Open-Generative-AI"
+        }
+      ]
+    },
+    {
+      "id": "2026-04-29-4",
+      "title": "Agent 没少，噪音变多了",
+      "angle": "用 Garry Tan 的“永无止境九月新手潮”对照 Google Trends 主词降温和 GitHub skills 暴涨，解释 agent 市场从概念期进入配置期。",
+      "opening": "Garry Tan 说，如果你已经听腻了 Agent，2026 年会让你彻底崩溃：它会变成永无止境的“九月新手潮”。但奇怪的是，Google Trends 里 claude code 下降了 14%，ai agent 也微降。热词退烧了吗？可能恰恰相反：用户不再搜索概念，开始找具体的 skills、模板和免费方案。",
+      "story_hook": {
+        "challenge": "表面上 agent 大词降温，社交媒体却越来越吵，开发者社区的相关 repo 还在暴涨。",
+        "twist": "这不是赛道冷却，而是从“解释 agent 是什么”进入“我该装哪个技能包”的阶段。"
+      },
+      "takeaway": "读者判断趋势时不要只看大词热度，要同时看 GitHub repo、长尾搜索词和问题词；产品命名也要从泛 agent 转向具体任务。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Garry Tan：2026 年 agent 会变成永无止境的九月新手潮",
+          "url": "https://x.com/garrytan/status/2049351894007710031"
+        },
+        {
+          "tag": "builders",
+          "ref": "Aaron Levie：Agent 会把软件需求放大 100 倍，而不是消灭软件工作",
+          "url": "https://x.com/levie/status/2049333853777764495"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Google Trends：claude code 下降 -14.0%，ai agent 微降 -0.7%",
+          "url": "https://trends.google.com/trends/explore?q=claude+code&date=now+7-d"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub：forrestchang/andrej-karpathy-skills 周增 25,836 stars",
+          "url": "https://github.com/forrestchang/andrej-karpathy-skills"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub：mattpocock/skills 周增 18,218 stars",
+          "url": "https://github.com/mattpocock/skills"
+        }
+      ]
+    },
+    {
+      "id": "2026-04-29-5",
+      "title": "免费服务扛不住人类级 Bot",
+      "angle": "从 Amjad Masad 的“git push 微支付”切入，讨论 agent 时代免费基础设施会被滥用逼出新定价。",
+      "opening": "Amjad Masad 提了个听起来很冒犯、但可能越来越现实的方案：每次 git push 收几分钱。原因不是平台贪心，而是人类级 bot 时代，免费服务迟早会被打爆。KYC 拦不住自动化，价格信号可能反而是最轻的防滥用系统。",
+      "story_hook": {
+        "challenge": "开发者习惯了免费额度和开源基础设施，但 agent 会把调用频率、垃圾流量和滥用成本放大。",
+        "twist": "未来的防滥用机制未必是更重的身份验证，而是更细颗粒度的微支付。"
+      },
+      "takeaway": "读者做 agent 基础设施时要提前设计成本边界：免费层、速率限制、按动作收费、团队治理和审计日志，不能只靠增长后再补风控。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Amjad Masad：人类级 bot 时代，免费服务会被打爆，建议每次 git push 收几分钱",
+          "url": "https://x.com/amasad/status/2049242460078100638"
+        },
+        {
+          "tag": "builders",
+          "ref": "Aaron Levie：Agentic coding 会让产能暴涨，但维护、安全、升级这些税不会消失",
+          "url": "https://x.com/levie/status/2049163935182733396"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt：Plurai 定位为定制 evals 和 guardrails，40 条评论",
+          "url": "https://www.producthunt.com/products/plurai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+personal+%28ID%3A+281817%29"
+        },
+        {
+          "tag": "pulse",
+          "ref": "HuggingFace：openai/privacy-filter trending score 1,017，下载 57,743",
+          "url": "https://huggingface.co/openai/privacy-filter"
+        }
+      ]
+    }
+  ],
+  "notes": "今日主线非常集中：agent 不再是演示玩具，而是进入代码、浏览器、设计、基础设施和计费系统后的真实治理问题。独立开发者素材相对少，但工程工作流和 agent-native 产品机会足够强。",
+  "generated_at": "2026-04-29T08:53:15+00:00",
+  "model": "gpt-5.5"
+}

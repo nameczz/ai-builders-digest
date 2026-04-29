@@ -1,0 +1,487 @@
+{
+  "date": "2026-04-29",
+  "generated_at": "2026-04-29T08:52:13+00:00",
+  "count": 32,
+  "items": [
+    {
+      "id": "0369fda569",
+      "date": "2026-04-29",
+      "source": "x",
+      "author": "Peter Steinberger",
+      "bio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world. @OpenClaw🦞 + @OpenAI",
+      "title": "",
+      "summary_en": "codex now runs on each commit we land, reviews it - and if a booboo is found, a new codex spins up and (if still relevant) makes a PR for the fix. \n\nThen a review agent spins up. If an issue is found, another agent will fix the issues. (up to 5 loops) https://t.co/k6o7tNcDyf",
+      "summary_zh": "Codex 已经接入每次提交：自动审查，发现低级错误就拉起新的 Codex 继续修，仍然有效的话直接提 PR。修完再由 review agent 复查，发现问题继续派 agent 修，最多循环 5 轮。",
+      "url": "https://x.com/steipete/status/2049356949523730699",
+      "posted_at": "2026-04-29T05:15:46.000Z",
+      "tags": [
+        "@steipete"
+      ]
+    },
+    {
+      "id": "cc379190e2",
+      "date": "2026-04-29",
+      "source": "x",
+      "author": "Garry Tan",
+      "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "title": "",
+      "summary_en": "If you’re sick of hearing about agents 2026 is going to be the eternal September for you https://t.co/6Cnl40IPt9",
+      "summary_zh": "如果你已经听腻了 Agent，2026 年会让你彻底崩溃：它将变成永无止境的“九月新手潮”。这不是热词退烧，而是更大规模的人群和噪音涌入。",
+      "url": "https://x.com/garrytan/status/2049351894007710031",
+      "posted_at": "2026-04-29T04:55:41.000Z",
+      "tags": [
+        "@garrytan"
+      ]
+    },
+    {
+      "id": "4ca4fd76f5",
+      "date": "2026-04-29",
+      "source": "x",
+      "author": "Peter Yang",
+      "bio": "Practical AI tutorials and interviews for busy people | Join 140K+ readers at https://t.co/XYKTmGVH14 | Product at Roblox",
+      "title": "",
+      "summary_en": "This is actually brilliant for personal agents @Shpigford - stealing this for my OpenClaw now. https://t.co/gghJwyIA1W",
+      "summary_zh": "这招对个人智能体确实聪明，已经聪明到可以直接拿来用。作者说要把它“偷”进自己的 OpenClaw。",
+      "url": "https://x.com/petergyang/status/2049347897310003443",
+      "posted_at": "2026-04-29T04:39:48.000Z",
+      "tags": [
+        "@petergyang"
+      ]
+    },
+    {
+      "id": "5313bb0cf7",
+      "date": "2026-04-29",
+      "source": "x",
+      "author": "Peter Yang",
+      "bio": "Practical AI tutorials and interviews for busy people | Join 140K+ readers at https://t.co/XYKTmGVH14 | Product at Roblox",
+      "title": "",
+      "summary_en": "I have alot of respect for solo AI builders.\n\nThe world is their playground now.",
+      "summary_zh": "我很尊重独立 AI Builder：现在整个世界都成了他们的游乐场。",
+      "url": "https://x.com/petergyang/status/2049345724559847585",
+      "posted_at": "2026-04-29T04:31:10.000Z",
+      "tags": [
+        "@petergyang"
+      ]
+    },
+    {
+      "id": "5b6779257a",
+      "date": "2026-04-29",
+      "source": "x",
+      "author": "Nikunj Kothari",
+      "bio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
+      "title": "",
+      "summary_en": "Did you listen to me anon? https://t.co/NcxfP9hB2t",
+      "summary_zh": "作者在用一句挑衅式反问追问读者是否听进了他的提醒，重点信息需要点开链接才知道。",
+      "url": "https://x.com/nikunj/status/2049337947066183856",
+      "posted_at": "2026-04-29T04:00:16.000Z",
+      "tags": [
+        "@nikunj"
+      ]
+    },
+    {
+      "id": "256ed5d7bf",
+      "date": "2026-04-29",
+      "source": "x",
+      "author": "Garry Tan",
+      "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "title": "",
+      "summary_en": "kind of hilarious this works https://t.co/z1JYNjn65m",
+      "summary_zh": "这玩意儿居然真能跑，荒诞到有点好笑。看起来像黑魔法，但效果摆在那儿。",
+      "url": "https://x.com/garrytan/status/2049334723009458388",
+      "posted_at": "2026-04-29T03:47:27.000Z",
+      "tags": [
+        "@garrytan"
+      ]
+    },
+    {
+      "id": "20469cfe3b",
+      "date": "2026-04-29",
+      "source": "x",
+      "author": "Aaron Levie",
+      "bio": "ceo @box - your business lives in content. unleash it with AI",
+      "title": "",
+      "summary_en": "Will keep saying this, but software jobs aren’t going away. Agents are the single biggest form of leverage for anyone technical in history. Probably has never been a better time to be technical in terms of being able to accomplish something solo, in a team, or company.\n\nWe think that most of the world’s software has already been built and that agents will just reduce work from an existing pie. In fact, we are about to experience 100X more software than before. \n\nThink about how many apps you regularly use that need to get better. How many legacy on prem systems that have to get replatformed for the cloud. How many SMBs never could hire developers. How many security issues are about to be uncovered and need to get patched. How many IT organizations are about to bring automation to workflows they never could have automated. How much data is about to processed and connected in most organizations. This is all what the agents will be working on.\n\nAnd every one of those agents will need a person to kick them off, manage their work, orchestrate them, and get their output into a workable and useful form. That person will generally need to be technical (or become technical quickly), and this will create a huge amount of opportunity for anyone up to the task.",
+      "summary_zh": "软件工作不会消失，Agent 是技术人历史上最大的杠杆：不是从现有蛋糕里抠掉工时，而是把软件需求放大 100 倍。未来每个 Agent 都需要有人启动、管理、编排并把产出变成可用成果，机会会流向技术人，或者逼人快速变成技术人。",
+      "url": "https://x.com/levie/status/2049333853777764495",
+      "posted_at": "2026-04-29T03:44:00.000Z",
+      "tags": [
+        "@levie"
+      ]
+    },
+    {
+      "id": "1c8285e156",
+      "date": "2026-04-29",
+      "source": "x",
+      "author": "Sam Altman",
+      "bio": "AI is cool i guess",
+      "title": "",
+      "summary_en": "at this point @ajambrosino is mogmogging\n\nenjoy the next few updates",
+      "summary_zh": "@ajambrosino 现在基本是在“mogmogging”式碾压。接下来几次更新，等着看戏就行。",
+      "url": "https://x.com/sama/status/2049315574120055054",
+      "posted_at": "2026-04-29T02:31:21.000Z",
+      "tags": [
+        "@sama"
+      ]
+    },
+    {
+      "id": "177a9c20e7",
+      "date": "2026-04-29",
+      "source": "x",
+      "author": "Garry Tan",
+      "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "title": "",
+      "summary_en": "10 years since AlphaGo\nIncredible https://t.co/KHgiT01Uu8",
+      "summary_zh": "AlphaGo 已经过去 10 年了，这个时间跨度本身就够震撼。那场胜利不是旧闻，而是 AI 时代真正开始露出牙齿的时刻。",
+      "url": "https://x.com/garrytan/status/2049297833594101943",
+      "posted_at": "2026-04-29T01:20:52.000Z",
+      "tags": [
+        "@garrytan"
+      ]
+    },
+    {
+      "id": "94d1d31bf2",
+      "date": "2026-04-29",
+      "source": "x",
+      "author": "Peter Steinberger",
+      "bio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world. @OpenClaw🦞 + @OpenAI",
+      "title": "",
+      "summary_en": "I'm now spinning up a codex instance on every commit landing on main, looking for booboos (regressions, security issues)\n\nIt's live for 10 min and already found one of mine. https://t.co/P0xgFTSpkS https://t.co/xQcehMY7V5",
+      "summary_zh": "他开始在每次 main 分支提交后自动拉起一个 Codex 实例，专门抓回归和安全漏洞。上线 10 分钟就抓到了他自己写出的一个问题。",
+      "url": "https://x.com/steipete/status/2049290741013262522",
+      "posted_at": "2026-04-29T00:52:41.000Z",
+      "tags": [
+        "@steipete"
+      ]
+    },
+    {
+      "id": "db77d34a38",
+      "date": "2026-04-29",
+      "source": "x",
+      "author": "Peter Steinberger",
+      "bio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world. @OpenClaw🦞 + @OpenAI",
+      "title": "",
+      "summary_en": "I smell a leak. https://t.co/B5tlqY6ORA",
+      "summary_zh": "我闻到了泄密的味道。",
+      "url": "https://x.com/steipete/status/2049290265026773172",
+      "posted_at": "2026-04-29T00:50:47.000Z",
+      "tags": [
+        "@steipete"
+      ]
+    },
+    {
+      "id": "62ea0957e1",
+      "date": "2026-04-29",
+      "source": "x",
+      "author": "Aditya Agarwal",
+      "bio": "General Partner @SouthPkCommons, Co-Founder @Bevel_Health | Ex: Early Eng @facebook, CTO @Dropbox, Board @Flipkart | Optimist, Builder, Dad",
+      "title": "",
+      "summary_en": "I cannot explain how awesome this is. https://t.co/gFrA5Yj4Em",
+      "summary_zh": "作者强烈推荐链接中的内容，认为它好到难以用语言解释。  \n原推文没有提供具体上下文，锋利度主要来自这种不加解释的极高评价。",
+      "url": "https://x.com/adityaag/status/2049259492727234748",
+      "posted_at": "2026-04-28T22:48:31.000Z",
+      "tags": [
+        "@adityaag"
+      ]
+    },
+    {
+      "id": "e8ea5b3a97",
+      "date": "2026-04-29",
+      "source": "x",
+      "author": "Zara Zhang",
+      "bio": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://t.co/KCuEajezlL YouTube: https://t.co/8xzbGWtf6w",
+      "title": "",
+      "summary_en": "Don't get AI to generate images; get them to generate SVGs!\n\nVector illustrations that seamlessly blend into the design style is the perfect complement to HTML Slides \n\n(Here I'm using the @QuiverAI API inside @AnyGenIO's Frontend Slides feature https://t.co/HDcFWYzJXa) https://t.co/taG21gR6yj",
+      "summary_zh": "别让 AI 生成图片，让它生成 SVG：矢量插画更容易无缝融入设计风格，尤其适合作为 HTML Slides 的视觉补足。这里用的是 AnyGenIO 的 Frontend Slides 功能内嵌 QuiverAI API。",
+      "url": "https://x.com/zarazhangrui/status/2049258231042805806",
+      "posted_at": "2026-04-28T22:43:30.000Z",
+      "tags": [
+        "@zarazhangrui"
+      ]
+    },
+    {
+      "id": "8b036e43d3",
+      "date": "2026-04-29",
+      "source": "x",
+      "author": "Thariq",
+      "bio": "Claude Code @anthropicai.   prev YC W20, mit media lab.   towards machines of loving grace",
+      "title": "",
+      "summary_en": "my white whale is when CC sometimes looks like it hangs during big file writes, I think we found it 😭",
+      "summary_zh": "我的“白鲸”终于逮到了：CC 有时在写大文件时看起来像卡死。现在看起来，我们可能真的找到原因了。",
+      "url": "https://x.com/trq212/status/2049252080892973563",
+      "posted_at": "2026-04-28T22:19:04.000Z",
+      "tags": [
+        "@trq212"
+      ]
+    },
+    {
+      "id": "685b594901",
+      "date": "2026-04-29",
+      "source": "x",
+      "author": "Amjad Masad",
+      "bio": "ceo @replit. civilizationist",
+      "title": "",
+      "summary_en": "Thrilled to support the education GOAT as he reinvents education (again). https://t.co/4WlNa1WWI8",
+      "summary_zh": "支持“教育界 GOAT”再次重塑教育。语气很笃定：这不是小修小补，而是又一次教育再发明。",
+      "url": "https://x.com/amasad/status/2049245424624820412",
+      "posted_at": "2026-04-28T21:52:37.000Z",
+      "tags": [
+        "@amasad"
+      ]
+    },
+    {
+      "id": "f493d2cd97",
+      "date": "2026-04-29",
+      "source": "x",
+      "author": "Amjad Masad",
+      "bio": "ceo @replit. civilizationist",
+      "title": "",
+      "summary_en": "It's honestly impressive that GitHub kept the service up at all, given this kind of growth. \n\nI predicted this years ago: Free services will become untenable with the advent of human-level bots. \n\nWorth exploring micro-payments: Even cents per git push might be enough to reduce spam and make this sustainable. Maybe powered by Bitcoin to keep this open and accessible (as opposed to KYCing users).",
+      "summary_zh": "在“人类级 bot”时代，免费服务迟早会被打爆，GitHub 能撑住这种增长已经算奇迹。与其靠 KYC 拦人，不如试试微支付：每次 git push 收几分钱，既压垃圾流量，也让服务可持续。",
+      "url": "https://x.com/amasad/status/2049242460078100638",
+      "posted_at": "2026-04-28T21:40:50.000Z",
+      "tags": [
+        "@amasad"
+      ]
+    },
+    {
+      "id": "4f471b15d5",
+      "date": "2026-04-29",
+      "source": "x",
+      "author": "Dan Shipper",
+      "bio": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "title": "",
+      "summary_en": "using posthog inside of codex\n\nit is SO MUCH better to browse posthog inside of codex—codex can write queries and see the results, and it makes our collaboration extremely seamless. codex can also kick off agents that write PRs or run production DB requests to back up insights it's finding\n\na browser inside your desktop coding orchestration tool > an agent in your browser",
+      "summary_zh": "在 Codex 里直接用 PostHog，比在浏览器里塞一个 agent 强太多：Codex 能写查询、看结果，还能顺手拉起 agent 写 PR 或跑生产数据库请求来验证洞察。桌面编码编排工具里的浏览器，压过浏览器里的 agent。",
+      "url": "https://x.com/danshipper/status/2049236793761976357",
+      "posted_at": "2026-04-28T21:18:19.000Z",
+      "tags": [
+        "@danshipper"
+      ]
+    },
+    {
+      "id": "c0e632c89d",
+      "date": "2026-04-29",
+      "source": "x",
+      "author": "Thariq",
+      "bio": "Claude Code @anthropicai.   prev YC W20, mit media lab.   towards machines of loving grace",
+      "title": "",
+      "summary_en": "a big part of this is we're working on making the no flicker renderer excellent so we can ship it as the default renderer, more updates coming there\n\nbut lots of other papercuts coming",
+      "summary_zh": "他们正在把 no flicker renderer 打磨到足够优秀，目标是直接作为默认渲染器发布。除此之外，还会继续处理一堆恼人的小毛刺。",
+      "url": "https://x.com/trq212/status/2049234229926695188",
+      "posted_at": "2026-04-28T21:08:08.000Z",
+      "tags": [
+        "@trq212"
+      ]
+    },
+    {
+      "id": "22bfd1363c",
+      "date": "2026-04-29",
+      "source": "x",
+      "author": "Thariq",
+      "bio": "Claude Code @anthropicai.   prev YC W20, mit media lab.   towards machines of loving grace",
+      "title": "",
+      "summary_en": "we're doing a lot more of this, hunting down some of the most annoying bugs in Claude Code\n\nlet me know if you have any white whales https://t.co/AedPpTEjpj",
+      "summary_zh": "Claude Code 正在加大力度追杀那些最烦人的顽固 bug。你要是也有久攻不下的“白鲸”，现在就该扔出来。",
+      "url": "https://x.com/trq212/status/2049234228290961690",
+      "posted_at": "2026-04-28T21:08:07.000Z",
+      "tags": [
+        "@trq212"
+      ]
+    },
+    {
+      "id": "e5cca007d4",
+      "date": "2026-04-29",
+      "source": "x",
+      "author": "Peter Yang",
+      "bio": "Practical AI tutorials and interviews for busy people | Join 140K+ readers at https://t.co/XYKTmGVH14 | Product at Roblox",
+      "title": "",
+      "summary_en": "What if we measure how good AI models are by what era of games it can one shot a single level for (or maybe build with 30 min of work):\n\nAtari\nNES\nSNES, Sega Genesis\nPlayStation, N64\nPS2, Xbox, GameCube, Dreamcast\nXbox 360, PS3, Wii\nPS4, Xbox One, Switch\nPS5, Xbox Series X/S\n\nI think we're still in the NES era?",
+      "summary_zh": "可以用 AI 一次生成一个游戏关卡的复杂度来衡量模型能力：从 Atari、NES 一路排到 PS5。按这个标准看，现在的 AI 大概还卡在 NES 时代。",
+      "url": "https://x.com/petergyang/status/2049232534064734331",
+      "posted_at": "2026-04-28T21:01:23.000Z",
+      "tags": [
+        "@petergyang"
+      ]
+    },
+    {
+      "id": "701239badd",
+      "date": "2026-04-29",
+      "source": "x",
+      "author": "Nikunj Kothari",
+      "bio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
+      "title": "",
+      "summary_en": "@varadh @trq212 I had way TOO much fun building this button https://t.co/kRdWoIzCjs",
+      "summary_zh": "这个按钮做起来爽过头了。语气像是一个 builder 被小功能击中：越小越能折腾，越折腾越上头。",
+      "url": "https://x.com/nikunj/status/2049228229572256236",
+      "posted_at": "2026-04-28T20:44:17.000Z",
+      "tags": [
+        "@nikunj"
+      ]
+    },
+    {
+      "id": "9e2cf4d529",
+      "date": "2026-04-29",
+      "source": "x",
+      "author": "Dan Shipper",
+      "bio": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "title": "",
+      "summary_en": "we might need to coin a new term:\n\nCodex-native\nCowork-native\nCursor-native\n\napps designed to be used inside of the in-app browser of your agent of choice. the agent can use it and you can use it too, full context is shared, and you can both see what the other is doing.\n\nhuge opportunity to build software here",
+      "summary_zh": "这类应用该叫“Codex-native / Cowork-native / Cursor-native”：专为智能体内置浏览器设计，人和 agent 共享完整上下文、互相可见、一起操作。这里不是插件小改造，而是一大片新软件机会。",
+      "url": "https://x.com/danshipper/status/2049223943735726150",
+      "posted_at": "2026-04-28T20:27:15.000Z",
+      "tags": [
+        "@danshipper"
+      ]
+    },
+    {
+      "id": "870f3e1cba",
+      "date": "2026-04-29",
+      "source": "x",
+      "author": "Dan Shipper",
+      "bio": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "title": "",
+      "summary_en": "we might need to coin a new term:\n\nCodex-native\nCowork-native\nCursor-native\n\napps designed to be used inside of the in-app browser of your agent of choice. the agent can use it and you can use it too, full context is shared, and you can both see what the other is doing.\n\nhuge opportunity to build software here",
+      "summary_zh": "可能需要新造一个词：Codex-native / Cowork-native / Cursor-native，指那些专为智能体内置浏览器设计、人与 agent 共享上下文并互相可见操作的应用。这里有一大片新的软件机会。",
+      "url": "https://x.com/danshipper/status/2049223933766041688",
+      "posted_at": "2026-04-28T20:27:13.000Z",
+      "tags": [
+        "@danshipper"
+      ]
+    },
+    {
+      "id": "e9b7397244",
+      "date": "2026-04-29",
+      "source": "x",
+      "author": "Guillermo Rauch",
+      "bio": "@vercel CEO",
+      "title": "",
+      "summary_en": "We're growing the Vercel Labs team. Our mission is to build the devtools of the AI era.\n\nWe used to build tools for humans, now we're building them for agents. @ctatedev & team have shipped the tools that agents love: 𝚊𝚐𝚎𝚗𝚝-𝚋𝚛𝚘𝚠𝚜𝚎𝚛, 𝚙𝚘𝚛𝚝𝚕𝚎𝚜𝚜, 𝚜𝚔𝚒𝚕𝚕𝚜, 𝚌𝚑𝚊𝚝, 𝚓𝚞𝚜𝚝-𝚋𝚊𝚜𝚑, 𝚓𝚜𝚘𝚗-𝚛𝚎𝚗𝚍𝚎𝚛… 22.8M+ downloads to date.\n\nDream job. DMs open 😀",
+      "summary_zh": "Vercel Labs 在扩招，目标是打造 AI 时代的开发工具：过去工具为人服务，现在要为智能体服务。agent-browser、portless、skills、chat、just-bash、json-render 等工具已累计 2280 万+下载，这是在招会给智能体造基础设施的人。",
+      "url": "https://x.com/rauchg/status/2049216048831025232",
+      "posted_at": "2026-04-28T19:55:53.000Z",
+      "tags": [
+        "@rauchg"
+      ]
+    },
+    {
+      "id": "3b6c3edb22",
+      "date": "2026-04-29",
+      "source": "x",
+      "author": "Zara Zhang",
+      "bio": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://t.co/KCuEajezlL YouTube: https://t.co/8xzbGWtf6w",
+      "title": "",
+      "summary_en": "Very interested in this\n\nI used to build web apps with GUI; now I just share GitHub repos with the code and people can customize the UI however they like\n\nKind of like Karpathy's \"idea file\": just write down the idea, and people's agents can build it for them in a customized way https://t.co/Rsxt1kyrM8",
+      "summary_zh": "作者认为 Web 应用不再需要预设 GUI，直接把代码仓库丢出来，让用户和他们的 agent 自己改 UI。应用正在变成 Karpathy 式的「idea file」：写下想法，剩下交给个性化 agent 生成。",
+      "url": "https://x.com/zarazhangrui/status/2049186121314415054",
+      "posted_at": "2026-04-28T17:56:58.000Z",
+      "tags": [
+        "@zarazhangrui"
+      ]
+    },
+    {
+      "id": "ccb17a1ed7",
+      "date": "2026-04-29",
+      "source": "x",
+      "author": "Nikunj Kothari",
+      "bio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
+      "title": "",
+      "summary_en": "No one will believe me but this happened this morning..\n\nX (clearly a founder): I’m talking to all the Tier 1 VCs - and have second meetings. \n\nY (angel, friend maybe): You mean the neolab index funds?\n\n💀\n\n📌 Sightglass on 7th St",
+      "summary_zh": "某位创始人吹嘘自己在和一线 VC 见面，还进了第二轮；旁边天使投资人一句“你说的是那些 Neolab 指数基金吧？”直接把“顶级 VC”滤镜戳穿。",
+      "url": "https://x.com/nikunj/status/2049179647519125976",
+      "posted_at": "2026-04-28T17:31:14.000Z",
+      "tags": [
+        "@nikunj"
+      ]
+    },
+    {
+      "id": "4189dfd036",
+      "date": "2026-04-29",
+      "source": "x",
+      "author": "Amjad Masad",
+      "bio": "ceo @replit. civilizationist",
+      "title": "",
+      "summary_en": "The slides are actually really good. I used to pay people to make me slides and the process was always frustrating, but now I actually enjoy making them. https://t.co/vILNW8SC6u",
+      "summary_zh": "这套 slides 真的做得很好。以前我花钱请人做幻灯片还总是被流程折磨，现在反而开始享受自己做了。",
+      "url": "https://x.com/amasad/status/2049168449709170874",
+      "posted_at": "2026-04-28T16:46:44.000Z",
+      "tags": [
+        "@amasad"
+      ]
+    },
+    {
+      "id": "bbf68de3af",
+      "date": "2026-04-29",
+      "source": "x",
+      "author": "Aaron Levie",
+      "bio": "ceo @box - your business lives in content. unleash it with AI",
+      "title": "",
+      "summary_en": "Agentic coding is a huge boon for software developers that want to get far more done, great for IT people to build vastly more custom systems internally, great for domain experts that want to automate workflows or wire systems together, and absolutely fantastic for anyone curious to learn how to start coding. \n\nWhat it’s less great for is casually building complex software that you have to maintain on an ongoing basis and take on all the risk for. Upgrades, maintenance, keeping up to date with latest security issues, and so on, are taxes most knowledge workers aren’t familiar with or prepared for.\n\nNet net: we’re going to get 100X more software and vastly more software developers in the future. But that’s different from *everyone* rolling their own.",
+      "summary_zh": "Agentic coding 会让开发者、IT、领域专家和初学者的产能暴涨，未来软件和软件开发者都会多出几个数量级。  \n但别幻想所有人都能随手造复杂软件并长期维护：升级、安全、维护这些税，大多数知识工作者根本没准备好。",
+      "url": "https://x.com/levie/status/2049163935182733396",
+      "posted_at": "2026-04-28T16:28:48.000Z",
+      "tags": [
+        "@levie"
+      ]
+    },
+    {
+      "id": "2224ce54ca",
+      "date": "2026-04-29",
+      "source": "x",
+      "author": "Claude",
+      "bio": "Claude is an AI assistant built by @anthropicai to be safe, accurate, and secure. Talk to Claude on https://t.co/ZhTwG8d1e5 or download the app.",
+      "title": "",
+      "summary_en": "More connectors launching today: Adobe Creative Cloud, Ableton, Splice, Canva Affinity, SketchUp, and Resolume.\n\nWe've also joined the Blender Development Fund as a patron to support open-source development of the software.\n\nRead more: https://t.co/vg3l9MWNTg",
+      "summary_zh": "今天又接入了 Adobe Creative Cloud、Ableton、Splice、Canva Affinity、SketchUp 和 Resolume，覆盖创作工具链的一大截。还加入 Blender Development Fund 当赞助方，直接给开源 3D 软件开发输血。",
+      "url": "https://x.com/claudeai/status/2049143442601546054",
+      "posted_at": "2026-04-28T15:07:22.000Z",
+      "tags": [
+        "@claudeai"
+      ]
+    },
+    {
+      "id": "60ab8f53eb",
+      "date": "2026-04-29",
+      "source": "x",
+      "author": "Claude",
+      "bio": "Claude is an AI assistant built by @anthropicai to be safe, accurate, and secure. Talk to Claude on https://t.co/ZhTwG8d1e5 or download the app.",
+      "title": "",
+      "summary_en": "With the Autodesk Fusion connector, designers and engineers can create and modify 3D models through conversation. https://t.co/0LTEBmjs6R",
+      "summary_zh": "Autodesk Fusion 接入对话式连接器后，设计师和工程师可以直接用自然语言创建、修改 3D 模型。建模工作流正在从点菜单、调参数，转向“说出意图就能动手改”。",
+      "url": "https://x.com/claudeai/status/2049143440508616863",
+      "posted_at": "2026-04-28T15:07:22.000Z",
+      "tags": [
+        "@claudeai"
+      ]
+    },
+    {
+      "id": "033c679446",
+      "date": "2026-04-29",
+      "source": "x",
+      "author": "Claude",
+      "bio": "Claude is an AI assistant built by @anthropicai to be safe, accurate, and secure. Talk to Claude on https://t.co/ZhTwG8d1e5 or download the app.",
+      "title": "",
+      "summary_en": "Claude now connects to the tools creative professionals already use.\n\nWith the new Blender connector, you can debug a scene, build new tools, or batch-apply changes across every object, directly from Claude. https://t.co/Kc3cBHTNpV",
+      "summary_zh": "Claude 接入了创意专业人士已经在用的工具。新的 Blender 连接器让你能直接从 Claude 调试场景、构建新工具，或批量修改所有对象。",
+      "url": "https://x.com/claudeai/status/2049143438281445811",
+      "posted_at": "2026-04-28T15:07:21.000Z",
+      "tags": [
+        "@claudeai"
+      ]
+    },
+    {
+      "id": "05da9be92a",
+      "date": "2026-04-29",
+      "source": "x",
+      "author": "Nan Yu",
+      "bio": "head of product @linear",
+      "title": "",
+      "summary_en": "The luxury of having excess compute https://t.co/GGPrHA54z7",
+      "summary_zh": "算力过剩本身就是一种奢侈品：不是每个团队都能靠“多试几次、多跑几轮”把问题砸开。",
+      "url": "https://x.com/thenanyu/status/2049075513444999515",
+      "posted_at": "2026-04-28T10:37:27.000Z",
+      "tags": [
+        "@thenanyu"
+      ]
+    }
+  ]
+}

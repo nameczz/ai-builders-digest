@@ -1,17 +1,18 @@
 #!/usr/bin/env bash
-# Install (or refresh) the launchd job that drives the daily pipeline.
+# Install (or refresh) the launchd jobs that drive the daily pipeline.
 #
 # Usage:
-#   bash scripts/launchd/install.sh           # install daily job
+#   bash scripts/launchd/install.sh           # install daily jobs
 #   bash scripts/launchd/install.sh uninstall # remove all aibd jobs
 #   bash scripts/launchd/install.sh status    # show loaded jobs
 #
-# After install, the job runs at:
-#   17:10 local — builders + pulse + suggestions + commit + push
+# After install, jobs run at:
+#   08:30 local — newsletters + commit + push
+#   16:30 local — builders + pulse + suggestions + commit + push
 #
 # Logs:
-#   ~/Library/Logs/aibd-daily.launchd.{log,err}
-#   ~/Library/Logs/aibd-{morning,noon}-YYYY-MM-DD.log
+#   ~/Library/Logs/aibd-{newsletters,daily}.launchd.{log,err}
+#   ~/Library/Logs/aibd-{newsletters,morning,noon}-YYYY-MM-DD.log
 #
 # Notes for cron-style users: macOS launchd is preferred over crontab because
 # it runs even if you missed the time slot (as long as your Mac was asleep
@@ -22,7 +23,7 @@ REPO_ROOT="$(cd "$(dirname "$0")/../.." && pwd)"
 LAUNCH_AGENTS="$HOME/Library/LaunchAgents"
 mkdir -p "$LAUNCH_AGENTS"
 
-ACTIVE_JOBS=("com.aibd.daily")
+ACTIVE_JOBS=("com.aibd.newsletters" "com.aibd.daily")
 LEGACY_JOBS=("com.aibd.builders" "com.aibd.pulse")
 ALL_JOBS=("${ACTIVE_JOBS[@]}" "${LEGACY_JOBS[@]}")
 
@@ -52,10 +53,12 @@ case "$action" in
       echo "  loaded ✓"
     done
     echo
-    echo "Installed. Job will fire at:"
-    echo "  17:10  $LAUNCH_AGENTS/com.aibd.daily.plist"
+    echo "Installed. Jobs will fire at:"
+    echo "  08:30  $LAUNCH_AGENTS/com.aibd.newsletters.plist"
+    echo "  16:30  $LAUNCH_AGENTS/com.aibd.daily.plist"
     echo
     echo "Test now without waiting:"
+    echo "  launchctl start com.aibd.newsletters"
     echo "  launchctl start com.aibd.daily"
     ;;
 

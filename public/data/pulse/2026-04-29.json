@@ -1,0 +1,351 @@
+{
+  "date": "2026-04-29",
+  "top3": [
+    "今天最值得关注的是 AI 编程从模型能力竞争转向上下文、技能与治理层竞争，GitHub Trending 前列几乎被 Claude Code 生态占据。",
+    "Product Hunt 的新产品集中在 AI 开发者基础设施：eval、guardrails、MCP、隐私过滤、终端代理都在争夺工作流入口。",
+    "Google Trends 的弱信号显示，市场开始从追逐「ai agent」转向担心「ai agent deletes database」这类生产事故。"
+  ],
+  "intro": "今天的主线不是某个新模型突然爆红，而是 AI agent 进入真实工程环境后的配套层爆发：技能库、上下文检索、代码健康、隐私过滤和生产事故防护同时升温。对 Builder 来说，机会不在再造一个聊天框，而在让代理更可控、更懂项目、更少闯祸。",
+  "sections": [
+    {
+      "id": "discovery",
+      "title": "发现机会",
+      "blocks": [
+        {
+          "id": "indie-products",
+          "heading": "今天有哪些独立开发者的新产品？",
+          "summary_md": "Product Hunt 今天的独立产品虽然 votes 数据为 0，但评论数已经能看出早期讨论热度。[Plurai](https://www.producthunt.com/products/plurai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+personal+%28ID%3A+281817%29) 拿到 40 条评论，定位是为具体用例定制 evals 和 guardrails；[Open Wearables](https://www.producthunt.com/products/open-wearables?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+personal+%28ID%3A+281817%29) 有 33 条评论，把开放基础设施切进可穿戴健康产品；[CodeScene: CodeHealth MCP Server](https://www.producthunt.com/products/codescene-codehealth-mcp-server?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+personal+%28ID%3A+281817%29) 有 20 条评论，直接把 AI 生成代码的可维护性问题包装成 MCP 服务。\n\n今天值得关注的是，这批产品都不是泛 AI 应用，而是围绕「AI 进入现有工作流后会出什么问题」来做小而深的基础设施。Plurai 解决上线前评估，CodeScene 解决代码健康，KarmaBox 则用 13 条评论验证了「口袋里的 Claude Code」这种随身代理形态仍有吸引力。",
+          "items": [
+            {
+              "title": "Plurai",
+              "url": "https://www.producthunt.com/products/plurai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+personal+%28ID%3A+281817%29",
+              "source": "ProductHunt",
+              "score": 40
+            },
+            {
+              "title": "Open Wearables",
+              "url": "https://www.producthunt.com/products/open-wearables?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+personal+%28ID%3A+281817%29",
+              "source": "ProductHunt",
+              "score": 33
+            },
+            {
+              "title": "CodeScene: CodeHealth MCP Server",
+              "url": "https://www.producthunt.com/products/codescene-codehealth-mcp-server?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+personal+%28ID%3A+281817%29",
+              "source": "ProductHunt",
+              "score": 20
+            }
+          ],
+          "takeaway": "AI 工具的新机会正在从「生成更多」转向「生成之后可评估、可维护、可审计」。"
+        },
+        {
+          "id": "github-traction",
+          "heading": "GitHub 上哪些高增长开源项目还没有商业化？",
+          "summary_md": "GitHub weekly 的高增长几乎被 AI coding agent 周边占满。[forrestchang/andrej-karpathy-skills](https://github.com/forrestchang/andrej-karpathy-skills) 一周新增 25,836 stars，总星 97,862；[mattpocock/skills](https://github.com/mattpocock/skills) 一周新增 18,218 stars，总星 40,014；[addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) 一周新增 6,179 stars，总星 25,640。这说明开发者正在把「如何指挥代理」沉淀成可复制资产，而不只是写一次 prompt。\n\n另一个未被充分商业化的方向是代码上下文和代理基础设施。[zilliztech/claude-context](https://github.com/zilliztech/claude-context) 一周新增 3,767 stars，总星 10,164，把整个代码库变成 coding agent 上下文；[Tracer-Cloud/opensre](https://github.com/Tracer-Cloud/opensre) 一周新增 1,681 stars，总星 3,869，指向 AI SRE agent。商业化切口可以是团队级技能仓库、上下文索引托管、审计日志和企业策略控制。",
+          "items": [
+            {
+              "title": "forrestchang/andrej-karpathy-skills",
+              "url": "https://github.com/forrestchang/andrej-karpathy-skills",
+              "source": "GitHub",
+              "score": 25836
+            },
+            {
+              "title": "mattpocock/skills",
+              "url": "https://github.com/mattpocock/skills",
+              "source": "GitHub",
+              "score": 18218
+            },
+            {
+              "title": "zilliztech/claude-context",
+              "url": "https://github.com/zilliztech/claude-context",
+              "source": "GitHub",
+              "score": 3767
+            }
+          ],
+          "takeaway": "最强牵引力不在单个代理，而在让代理拥有团队记忆、工作规范和项目上下文。"
+        }
+      ]
+    },
+    {
+      "id": "tech-stack",
+      "title": "技术选型",
+      "blocks": [
+        {
+          "id": "dev-tools",
+          "heading": "本周增长最快的开发者工具是什么？",
+          "summary_md": "本周开发者工具的增长中心是「agent skills + code context + protocol bridge」。[mattpocock/skills](https://github.com/mattpocock/skills) 周增 18,218 stars，[ComposioHQ/awesome-codex-skills](https://github.com/ComposioHQ/awesome-codex-skills) 日榜周增口径 953 stars，[davila7/claude-code-templates](https://github.com/davila7/claude-code-templates) 也有 346 stars 增量，说明技能模板已经从个人偏好变成可分发的开发者工具。\n\n更底层的工具也在出现：[CJackHwang/ds2api](https://github.com/CJackHwang/ds2api) 周增 997 stars，做 DeepSeek 到通用 API 的协议转换；[zilliztech/claude-context](https://github.com/zilliztech/claude-context) 周增 3,767 stars，做代码搜索 MCP。选型上，如果你正在做 AI devtool，不要只接一个模型 API，而要优先支持 MCP、技能目录、上下文检索和多模型协议适配。",
+          "items": [
+            {
+              "title": "mattpocock/skills",
+              "url": "https://github.com/mattpocock/skills",
+              "source": "GitHub",
+              "score": 18218
+            },
+            {
+              "title": "zilliztech/claude-context",
+              "url": "https://github.com/zilliztech/claude-context",
+              "source": "GitHub",
+              "score": 3767
+            },
+            {
+              "title": "CJackHwang/ds2api",
+              "url": "https://github.com/CJackHwang/ds2api",
+              "source": "GitHub",
+              "score": 997
+            }
+          ],
+          "takeaway": "AI devtool 的默认技术栈正在变成 MCP、技能文件、上下文索引和 API 兼容层。"
+        },
+        {
+          "id": "hf-models",
+          "heading": "HuggingFace 上最热的模型能做什么消费级产品？",
+          "summary_md": "HuggingFace 今天的模型热度显示，消费级产品机会集中在本地多模态、隐私过滤和低成本内容生成。[deepseek-ai/DeepSeek-V4-Pro](https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro) trending score 3,015，下载 174,402，适合做高质量文本生成和对话型工作流；[openai/privacy-filter](https://huggingface.co/openai/privacy-filter) trending score 1,017，下载 57,743，是少见的高热度 token-classification 模型，可直接服务于隐私遮罩、客服质检和企业知识库脱敏。\n\n多模态侧，[Qwen/Qwen3.6-27B](https://huggingface.co/Qwen/Qwen3.6-27B) 下载 508,728，[unsloth/Qwen3.6-27B-GGUF](https://huggingface.co/unsloth/Qwen3.6-27B-GGUF) 下载 702,161，说明量化、本地部署、多模态理解仍有强需求。Spaces 里 [smolagents/ml-intern](https://huggingface.co/spaces/smolagents/ml-intern) trending score 177，[microsoft/TRELLIS.2](https://huggingface.co/spaces/microsoft/TRELLIS.2) likes 1,506，分别指向自动化研究助理和 3D 生成体验。",
+          "items": [
+            {
+              "title": "deepseek-ai/DeepSeek-V4-Pro",
+              "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+              "source": "HuggingFace",
+              "score": 3015
+            },
+            {
+              "title": "openai/privacy-filter",
+              "url": "https://huggingface.co/openai/privacy-filter",
+              "source": "HuggingFace",
+              "score": 1017
+            },
+            {
+              "title": "Qwen/Qwen3.6-27B",
+              "url": "https://huggingface.co/Qwen/Qwen3.6-27B",
+              "source": "HuggingFace",
+              "score": 943
+            }
+          ],
+          "takeaway": "消费级 AI 产品可以从模型能力转向本地运行、隐私保护和多模态工作流包装。"
+        },
+        {
+          "id": "show-hn",
+          "heading": "Show HN 高关注项目用的什么技术栈？",
+          "summary_md": "今天没有 Show HN 数据，但 HN top 的唯一高分技术文章 [Bugs Rust won't catch](https://corrode.dev/blog/bugs-rust-wont-catch/) 得到 229 points 和 87 条评论，仍然给技术选型提供了一个反向提醒：Rust 能消除内存安全和并发层面的许多错误，但业务不变量、状态建模、分布式边界、权限和数据迁移问题并不会因为语言选择自动消失。\n\n这对 AI coding 工具尤其重要。当前 GitHub 热榜大量项目围绕 Claude Code、skills 和 MCP 展开，但如果代理只会生成类型正确的代码，仍可能写出业务上错误、迁移上危险或维护上不可读的实现。技术栈选择需要加入测试生成、架构约束、代码健康扫描和权限边界，而不是把安全感全部寄托在语言或模型上。",
+          "items": [
+            {
+              "title": "Bugs Rust won't catch",
+              "url": "https://corrode.dev/blog/bugs-rust-wont-catch/",
+              "source": "HN",
+              "score": 229
+            }
+          ],
+          "takeaway": "类型系统和 AI 代理都不是银弹，真正的护城河是把工程约束显式化。"
+        }
+      ]
+    },
+    {
+      "id": "competition",
+      "title": "竞争情报",
+      "blocks": [
+        {
+          "id": "migrations",
+          "heading": "有没有「XX is dead」或迁移类文章？",
+          "summary_md": "今天没有直接的「XX is dead」类 HN 文章，但迁移信号藏在开源项目描述里。[fspecii/ace-step-ui](https://github.com/fspecii/ace-step-ui) 在 GitHub daily 中以 162 stars 增量出现，明确定位为「Ultimate Open Source Suno Alternative」；[Anil-matcha/Open-Generative-AI](https://github.com/Anil-matcha/Open-Generative-AI) weekly 增长 4,071 stars，总星 9,898，描述中直接对标 Higgsfield AI、Freepik AI、Krea AI、Openart AI，并强调自托管、MIT 和 200+ 模型。\n\n这类迁移不是从旧技术到新技术，而是从封闭 SaaS 到开放替代品。竞争情报的重点应放在用户为什么想离开：价格、内容限制、模型可控性、批量自动化和本地数据安全。对独立开发者来说，最佳进入点不是全量复制大厂产品，而是做一个可替代的窄场景工作台。",
+          "items": [
+            {
+              "title": "Anil-matcha/Open-Generative-AI",
+              "url": "https://github.com/Anil-matcha/Open-Generative-AI",
+              "source": "GitHub",
+              "score": 4071
+            },
+            {
+              "title": "fspecii/ace-step-ui",
+              "url": "https://github.com/fspecii/ace-step-ui",
+              "source": "GitHub",
+              "score": 162
+            }
+          ],
+          "takeaway": "开源替代品的竞争窗口来自封闭 SaaS 的价格、限制和数据控制焦虑。"
+        }
+      ]
+    },
+    {
+      "id": "trends",
+      "title": "趋势判断",
+      "blocks": [
+        {
+          "id": "keywords",
+          "heading": "本周技术关键词频率有什么变化？",
+          "summary_md": "Google Trends 里最异常的上升词是 [finceptterminal](https://trends.google.com/trends/explore?q=finceptterminal&date=now+7-d) 飙升 +999.0%，对应 GitHub weekly 中 [Fincept-Corporation/FinceptTerminal](https://github.com/Fincept-Corporation/FinceptTerminal) 一周新增 5,926 stars、总星 17,470。这个信号值得看，因为它不是通用 AI agent，而是把市场分析、投资研究和经济数据做成可交互终端，说明垂直专业终端仍能在 AI 噪声里突围。\n\n相反，[claude code](https://trends.google.com/trends/explore?q=claude+code&date=now+7-d) 下降 -14.0%，[claude context](https://trends.google.com/trends/explore?q=claude+context&date=now+7-d) 下降 -12.8%，但 GitHub 上 Claude Code 生态仍在涨。这意味着搜索热度可能从主词转移到了更具体的 repo、模板和技能名，Builder 不应只看大词降温，而要看生态内部的长尾组件是否继续扩散。",
+          "items": [
+            {
+              "title": "finceptterminal",
+              "url": "https://trends.google.com/trends/explore?q=finceptterminal&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 999
+            },
+            {
+              "title": "claude code",
+              "url": "https://trends.google.com/trends/explore?q=claude+code&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": -14
+            }
+          ],
+          "takeaway": "大词降温不等于生态退潮，真正的增长会迁移到具体工具、模板和垂直终端。"
+        },
+        {
+          "id": "vc-radar",
+          "heading": "VC 和 YC 在关注什么主题？",
+          "summary_md": "今天的 VC 雷达可以归纳为三个方向：agent infrastructure、vertical AI terminal、AI safety for production。GitHub 上 [zilliztech/claude-context](https://github.com/zilliztech/claude-context) 周增 3,767 stars，[Tracer-Cloud/opensre](https://github.com/Tracer-Cloud/opensre) 周增 1,681 stars，说明代理进入代码库和运维系统后，需要上下文层、观测层和动作边界。Product Hunt 上 Plurai、CodeScene MCP、noirdoc 也都围绕 eval、代码健康和隐私保护。\n\n另一个强信号是垂直终端。[finceptterminal](https://trends.google.com/trends/explore?q=finceptterminal&date=now+7-d) 搜索 +999.0%，FinceptTerminal 周增 5,926 stars，和 Venture Factory AI、Gro v2 这类业务流程工具一起说明，投资人会继续寻找「AI + 专业工作台」而不是泛助手。YC 风格的机会是找一个高频高价值岗位，把 agent、数据源和交付结果闭环在一个界面里。",
+          "items": [
+            {
+              "title": "zilliztech/claude-context",
+              "url": "https://github.com/zilliztech/claude-context",
+              "source": "GitHub",
+              "score": 3767
+            },
+            {
+              "title": "Fincept-Corporation/FinceptTerminal",
+              "url": "https://github.com/Fincept-Corporation/FinceptTerminal",
+              "source": "GitHub",
+              "score": 5926
+            },
+            {
+              "title": "Plurai",
+              "url": "https://www.producthunt.com/products/plurai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+personal+%28ID%3A+281817%29",
+              "source": "ProductHunt",
+              "score": 40
+            }
+          ],
+          "takeaway": "资本会更关心代理能否进入真实岗位闭环，而不是聊天体验是否更聪明。"
+        },
+        {
+          "id": "cooling",
+          "heading": "哪些 AI 热词在降温？",
+          "summary_md": "降温最明显的是 Claude Code 主词和泛 agent 词。[claude managed agents](https://trends.google.com/trends/explore?q=claude+managed+agents&date=now+7-d) 下降 -40.3%，[andrej karpathy skills](https://trends.google.com/trends/explore?q=andrej+karpathy+skills&date=now+7-d) 下降 -33.7%，[claude code](https://trends.google.com/trends/explore?q=claude+code&date=now+7-d) 下降 -14.0%，[ai agent](https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d) 基本持平但微降 -0.7%。这不是说用户不关心代理，而是早期兴奋已经进入分化期。\n\n真正危险的是泛词产品会越来越难被发现。用户现在搜索的是具体问题：cursor pricing、free claude code github、ai agent deletes database、mattpocock skills。做产品时，命名和 SEO 不应只押「AI agent」，而要围绕具体痛点页面、迁移页面、事故复盘页面和替代方案页面铺开。",
+          "items": [
+            {
+              "title": "claude managed agents",
+              "url": "https://trends.google.com/trends/explore?q=claude+managed+agents&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": -40.3
+            },
+            {
+              "title": "andrej karpathy skills",
+              "url": "https://trends.google.com/trends/explore?q=andrej+karpathy+skills&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": -33.7
+            },
+            {
+              "title": "ai agent",
+              "url": "https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": -0.7
+            }
+          ],
+          "takeaway": "泛 AI agent 叙事降温后，增长会流向能命中具体事故、价格和替代需求的页面。"
+        },
+        {
+          "id": "new-radar",
+          "heading": "新词雷达：有哪些从零起飞的新概念？",
+          "summary_md": "今天最值得记录的新词不是一个产品名，而是一类恐惧：[ai agent](https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d) 的关联查询里「ai agent deletes database」突破 +24,900，「ai agent production database wipe」突破 +2,250。这类搜索说明市场开始把 agent 当成能造成生产事故的真实执行者，而不是演示玩具。对应的创业机会是权限沙箱、dry-run、变更审批、数据库写操作隔离和事故回放。\n\n另一个弱信号是 [skills](https://trends.google.com/trends/explore?q=skills&date=now+7-d) 虽然整体 -9.5%，但 rising 里出现「mattpocock skills」+500、「matt pocock skills」+250；[free claude code](https://trends.google.com/trends/explore?q=free+claude+code&date=now+7-d) 的 rising 出现「free claude code github」+50。新概念不是「skills」本身，而是可复制、可安装、可审计的代理行为包。",
+          "items": [
+            {
+              "title": "ai agent deletes database",
+              "url": "https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 24900
+            },
+            {
+              "title": "mattpocock skills",
+              "url": "https://trends.google.com/trends/explore?q=skills&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 500
+            },
+            {
+              "title": "free claude code github",
+              "url": "https://trends.google.com/trends/explore?q=free+claude+code&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 50
+            }
+          ],
+          "takeaway": "新雷达的核心词是「代理事故防护」和「可安装的代理技能包」。"
+        }
+      ]
+    },
+    {
+      "id": "actions",
+      "title": "行动触发",
+      "blocks": [
+        {
+          "id": "weekend-build",
+          "heading": "今天 2 小时和一个周末分别做什么？",
+          "summary_md": "2 小时可以做一个最小版「agent 变更预检器」：接入本地 git diff，调用一个模型检查数据库迁移、删除操作、权限变更和外部 API 调用，把结果输出成 Markdown checklist。这个方向直接回应 Google Trends 里「ai agent deletes database」+24,900 的弱信号，也能借 CodeScene MCP、Plurai、noirdoc 的热度验证需求。\n\n一个周末可以把它扩展成 MCP server 或 GitHub Action：支持 PR 评论、危险文件规则、dry-run 提示、团队自定义 skills。定价可以从免费 CLI 开始，团队版按 repo 或 seat 收费，企业版卖审计日志、策略模板和私有部署。不要一开始做完整 IDE 插件，先占据「代理提交前最后一道闸」这个窄入口。",
+          "items": [
+            {
+              "title": "CodeScene: CodeHealth MCP Server",
+              "url": "https://www.producthunt.com/products/codescene-codehealth-mcp-server?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+personal+%28ID%3A+281817%29",
+              "source": "ProductHunt",
+              "score": 20
+            },
+            {
+              "title": "Plurai",
+              "url": "https://www.producthunt.com/products/plurai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+personal+%28ID%3A+281817%29",
+              "source": "ProductHunt",
+              "score": 40
+            }
+          ],
+          "takeaway": "最快可做的产品是 agent 写代码之后、进入生产之前的风险闸门。"
+        },
+        {
+          "id": "pricing-models",
+          "heading": "值得学习的定价和变现模式有哪些？",
+          "summary_md": "今天最值得学习的不是传统订阅页，而是开源牵引后的团队治理收费。skills 类项目在 GitHub 上高速增长，[mattpocock/skills](https://github.com/mattpocock/skills) 周增 18,218 stars，[addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) 周增 6,179 stars，说明个人开发者愿意公开分享代理工作法；但公司真正会付费的是集中管理、版本控制、权限、合规和团队分发。\n\n另一个模式是「开放替代 + 托管便利」。[Open-Generative-AI](https://github.com/Anil-matcha/Open-Generative-AI) 周增 4,071 stars，强调 self-hosted 和 MIT；[Open Wearables](https://www.producthunt.com/products/open-wearables?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+personal+%28ID%3A+281817%29) 有 33 条评论，做开放健康基础设施。可以免费开放核心，把收入放在托管、连接器、模型配额、团队权限和专属数据源上。",
+          "items": [
+            {
+              "title": "mattpocock/skills",
+              "url": "https://github.com/mattpocock/skills",
+              "source": "GitHub",
+              "score": 18218
+            },
+            {
+              "title": "Anil-matcha/Open-Generative-AI",
+              "url": "https://github.com/Anil-matcha/Open-Generative-AI",
+              "source": "GitHub",
+              "score": 4071
+            },
+            {
+              "title": "Open Wearables",
+              "url": "https://www.producthunt.com/products/open-wearables?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+personal+%28ID%3A+281817%29",
+              "source": "ProductHunt",
+              "score": 33
+            }
+          ],
+          "takeaway": "开源负责获客，团队治理、托管便利和合规能力负责收费。"
+        },
+        {
+          "id": "counterintuitive",
+          "heading": "今天最反直觉的发现是什么？",
+          "summary_md": "最反直觉的是：Claude Code 和 ai agent 这些主关键词在 Google Trends 上降温，但相关开源组件却在 GitHub 上爆发。[claude code](https://trends.google.com/trends/explore?q=claude+code&date=now+7-d) 下降 -14.0%，[ai agent](https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d) 微降 -0.7%；与此同时，andrej-karpathy-skills 周增 25,836 stars，mattpocock/skills 周增 18,218 stars，free-claude-code 周增 15,110 stars。\n\n这说明用户已经越过「这是什么」阶段，进入「怎么免费用、怎么配置好、怎么接入代码库、怎么避免事故」阶段。对 Builder 来说，判断一个赛道不能只看大词搜索趋势；当主词降温、长尾 repo 和问题词上升时，往往意味着市场从教育期进入工具采购期。",
+          "items": [
+            {
+              "title": "claude code",
+              "url": "https://trends.google.com/trends/explore?q=claude+code&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": -14
+            },
+            {
+              "title": "forrestchang/andrej-karpathy-skills",
+              "url": "https://github.com/forrestchang/andrej-karpathy-skills",
+              "source": "GitHub",
+              "score": 25836
+            },
+            {
+              "title": "Alishahryar1/free-claude-code",
+              "url": "https://github.com/Alishahryar1/free-claude-code",
+              "source": "GitHub",
+              "score": 15110
+            }
+          ],
+          "takeaway": "主词降温可能不是赛道结束，而是用户开始寻找具体解决方案。"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2026-04-29T08:26:51+00:00",
+  "reddit_highlights": []
+}

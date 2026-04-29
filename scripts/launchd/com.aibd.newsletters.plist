@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
     <key>Label</key>
-    <string>com.aibd.daily</string>
+    <string>com.aibd.newsletters</string>
 
-    <!-- Runs at 16:30 local time every day -->
+    <!-- Runs at 08:30 local time every day -->
     <key>StartCalendarInterval</key>
     <dict>
         <key>Hour</key>
-        <integer>16</integer>
+        <integer>8</integer>
         <key>Minute</key>
         <integer>30</integer>
     </dict>
@@ -18,7 +18,7 @@
     <array>
         <string>/bin/bash</string>
         <string>-lc</string>
-        <string>cd __REPO_ROOT__ &amp;&amp; AIBD_PUSH=1 bash scripts/morning.sh &amp;&amp; AIBD_PUSH=1 bash scripts/noon.sh</string>
+        <string>cd __REPO_ROOT__ &amp;&amp; bash scripts/newsletters.sh</string>
     </array>
 
     <key>WorkingDirectory</key>
@@ -26,7 +26,7 @@
 
     <key>EnvironmentVariables</key>
     <dict>
-        <!-- Commit + push generated data after each successful stage. -->
+        <!-- Commit + push generated data after a successful run. -->
         <key>AIBD_PUSH</key>
         <string>1</string>
 
@@ -38,14 +38,14 @@
     </dict>
 
     <key>StandardOutPath</key>
-    <string>__HOME__/Library/Logs/aibd-daily.launchd.log</string>
+    <string>__HOME__/Library/Logs/aibd-newsletters.launchd.log</string>
     <key>StandardErrorPath</key>
-    <string>__HOME__/Library/Logs/aibd-daily.launchd.err</string>
+    <string>__HOME__/Library/Logs/aibd-newsletters.launchd.err</string>
 
     <key>RunAtLoad</key>
     <false/>
 
-    <!-- If the Mac was asleep at 16:30, run as soon as it wakes -->
+    <!-- If the Mac was asleep at 08:30, run as soon as it wakes -->
     <key>StartCalendarIntervalCatchUp</key>
     <true/>
 </dict>
