@@ -1,0 +1,168 @@
+{
+  "date": "2026-04-30",
+  "items": [
+    {
+      "id": "2026-04-30-1",
+      "title": "Agent 热榜背后还是玩具",
+      "angle": "从 GitHub 暴涨项目和 builder 吐槽的反差切入：Agentic 开发环境火了，但可靠性还没配得上入口级地位。",
+      "opening": "一边是 mattpocock/skills 单周涨 24702 星，Warp 把自己写成 agentic development environment。另一边，Aditya Agarwal 直接泼冷水：很多吹 OpenClaw、HermesAgent 的人根本没真正用过。问题不是 Agent 不酷，而是它离消费级的顺滑、简单、可靠还差很远。",
+      "story_hook": {
+        "challenge": "开发者正在疯狂追 agent 工具链，但真正用起来仍像一堆代码生成和工具调用循环。",
+        "twist": "最有价值的可能不是更聪明的一次性聊天，而是能常驻、记状态、会适应的执行系统。"
+      },
+      "takeaway": "做 AI 开发工具时，别只包装模型能力，要优先解决状态、上下文、回放、测试和团队配置迁移。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Aditya Agarwal 评价 OpenClaw、HermesAgent 仍是开发者玩具",
+          "url": "https://x.com/adityaag/status/2049530878083379427"
+        },
+        {
+          "tag": "builders",
+          "ref": "Ryo Lu 用 Cursor 搭本地和云端都能跑的多模型 Agent harness",
+          "url": "https://x.com/ryolu_/status/2049529609725804575"
+        },
+        {
+          "tag": "pulse",
+          "ref": "mattpocock/skills 单周新增 24702 星",
+          "url": "https://github.com/mattpocock/skills"
+        },
+        {
+          "tag": "pulse",
+          "ref": "warpdotdev/warp 单周新增 8262 星",
+          "url": "https://github.com/warpdotdev/warp"
+        }
+      ]
+    },
+    {
+      "id": "2026-04-30-2",
+      "title": "IT 要管数字员工了",
+      "angle": "把企业 Agent 从“自动化工具”重新定义为“需要 HR、权限、审计和问责的数字员工”。",
+      "opening": "Box 已经开始招聘和转训“内部 Agent 工程师”。Zara Zhang 的说法更直白：IT 不该只修系统、配权限，而要变成 AI Agent 的 HR。企业 Agent 真正进入流程后，最稀缺的人不是会写 prompt 的人，而是懂业务系统、权限和责任边界的人。",
+      "story_hook": {
+        "challenge": "企业想让 Agent 接上 Box、Salesforce、Workday 等关键系统，但一旦能动业务数据，就必须被管理。",
+        "twist": "Agent 落地的瓶颈可能不是模型，而是公司里没人负责给这些数字员工上岗、调度和追责。"
+      },
+      "takeaway": "B2B Agent 产品应把权限、日志、审批、回放和跨系统流程设计成核心卖点，而不是附属功能。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Aaron Levie 谈 Box 招聘和转训内部 Agent 工程师",
+          "url": "https://x.com/levie/status/2049714403050918067"
+        },
+        {
+          "tag": "builders",
+          "ref": "Zara Zhang 提出 IT 要成为 AI Agent 的 HR",
+          "url": "https://x.com/zarazhangrui/status/2049599305825341518"
+        },
+        {
+          "tag": "builders",
+          "ref": "Claude 介绍 ARIA 用 Managed Agents 做工业维修工单",
+          "url": "https://x.com/claudeai/status/2049523910173966597"
+        },
+        {
+          "tag": "pulse",
+          "ref": "trycua/cua 单周新增 1615 星，定位 Computer-Use Agents 基础设施",
+          "url": "https://github.com/trycua/cua"
+        }
+      ]
+    },
+    {
+      "id": "2026-04-30-3",
+      "title": "开发者不是反 AI",
+      "angle": "从 Zig 反 AI 贡献政策、VS Code 自动署名和 Sam Altman 的“对齐失败”切入，讲开发者真正反感的是不可控默认行为。",
+      "opening": "Zig 的反 AI 贡献政策在 HN 拿到 428 分、215 条评论。VS Code 自动把 GitHub Copilot 加为 co-author，也引发开发者不适。表面看是反 AI，实际冲突是：谁对代码负责，谁有权改项目规则，谁能解释每一次自动化动作。",
+      "story_hook": {
+        "challenge": "AI 工具越深入开发流程，越容易触碰署名、审计、责任归属和维护成本。",
+        "twist": "高级开发者并不是不想用 AI，他们只是不能接受 AI 悄悄替他们做决定。"
+      },
+      "takeaway": "面向开发者的 AI 产品默认应可关闭、可解释、可回滚，并把审计链路放在体验第一层。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Sam Altman 将某事件定义为“对齐失败”",
+          "url": "https://x.com/sama/status/2049715178611380317"
+        },
+        {
+          "tag": "pulse",
+          "ref": "The Zig project's rationale for their anti-AI contribution policy",
+          "url": "https://simonwillison.net/2026/Apr/30/zig-anti-ai/"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Tell HN: VS Code v1.117.0 automatically adds GitHub Copilot as your co author",
+          "url": "https://news.ycombinator.com/item?id=47958353"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Mozilla's Opposition to Chrome's Prompt API",
+          "url": "https://github.com/mozilla/standards-positions/issues/1213"
+        }
+      ]
+    },
+    {
+      "id": "2026-04-30-4",
+      "title": "聊天框开始交付文件",
+      "angle": "从 Gemini 直接导出 Docs、Sheets、Slides 到 Product Hunt 的 dashboard、测试、自动化产品，看 AI 产品从回答问题转向交付业务资产。",
+      "opening": "Gemini 现在不只是回答问题，而是能直接生成并导出 Word、PDF、Excel、CSV、Slides、Markdown、LaTeX。Product Hunt 上同一天又出现 Basedash Dashboard Agent、KushoAI for Playwright、Tabstack。AI 产品的新问题变成了：你到底交付了一个答案，还是交付了一个能进工作流的文件、测试或报表？",
+      "story_hook": {
+        "challenge": "聊天式 AI 很容易被用户当成一次性问答，难以形成业务闭环和付费理由。",
+        "twist": "真正可收费的不是“更聪明的回答”，而是能直接进入报表、测试、浏览器自动化和团队协作的产物。"
+      },
+      "takeaway": "做应用层 AI 时，应优先设计可导出、可编辑、可审计、可接入现有工具链的输出形态。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Josh Woodward 介绍 Gemini 支持生成并导出多种文件格式",
+          "url": "https://x.com/joshwoodward/status/2049524400131838436"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Basedash Dashboard Agent 用 prompt 生成完整 dashboard",
+          "url": "https://www.producthunt.com/products/basedash"
+        },
+        {
+          "tag": "pulse",
+          "ref": "KushoAI for Playwright 用录制生成测试",
+          "url": "https://www.producthunt.com/products/kushoai"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Tabstack 做网页数据提取和浏览器自动化",
+          "url": "https://www.producthunt.com/products/tabstack"
+        }
+      ]
+    },
+    {
+      "id": "2026-04-30-5",
+      "title": "干净数据也会有毒",
+      "angle": "用“只吃 1931 年前文本的古董模型”这个反直觉案例，拆掉对纯净数据和公共领域语料的浪漫想象。",
+      "opening": "有人为了逃离 AI 垃圾，训练了一个只吃 1931 年前公共领域文本的 13B 聊天模型。未来知识确实被剔干净了，结果模型成了一个自信输出时代偏见的聊天机器人。数据干净不等于价值观干净，公共领域也不等于低风险。",
+      "story_hook": {
+        "challenge": "很多团队把“无合成数据”“公共领域”“更干净语料”当成质量和安全的捷径。",
+        "twist": "越是历史语料，越可能把当时的偏见、歧视和错误常识完整保留下来。"
+      },
+      "takeaway": "评估模型数据集时，除了版权和污染，还要单独测试时代偏见、价值观漂移和高置信错误。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Swyx 介绍只用 1931 年前公共领域文本训练的 13B 古董聊天模型",
+          "url": "https://x.com/swyx/status/2049652947408372187"
+        },
+        {
+          "tag": "pulse",
+          "ref": "openai/privacy-filter 在 HuggingFace trending score 639",
+          "url": "https://huggingface.co/openai/privacy-filter"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Mozilla 反对 Chrome Prompt API，隐私和标准争议升温",
+          "url": "https://github.com/mozilla/standards-positions/issues/1213"
+        }
+      ]
+    }
+  ],
+  "notes": "今日主线集中在 Agentic 开发环境、企业 Agent 治理和 AI 默认行为争议；独立开发者营收素材偏弱，适合把选题重点放在可信执行、工作流交付和开发者控制权。",
+  "generated_at": "2026-04-30T13:50:11+00:00",
+  "model": "gpt-5.5"
+}
