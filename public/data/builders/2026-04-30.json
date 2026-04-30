@@ -1,0 +1,517 @@
+{
+  "date": "2026-04-30",
+  "generated_at": "2026-04-30T09:11:24+00:00",
+  "count": 34,
+  "items": [
+    {
+      "id": "cd08e6b8df",
+      "date": "2026-04-30",
+      "source": "x",
+      "author": "Garry Tan",
+      "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "title": "",
+      "summary_en": "I'm that guy https://t.co/5nKBLDdasO",
+      "summary_zh": "他一句 “I’m that guy” 直接认领人设：别找了，那个能把事干成的人就是我。",
+      "url": "https://x.com/garrytan/status/2049760595294249234",
+      "posted_at": "2026-04-30T07:59:43.000Z",
+      "tags": [
+        "@garrytan"
+      ]
+    },
+    {
+      "id": "d906081197",
+      "date": "2026-04-30",
+      "source": "x",
+      "author": "Garry Tan",
+      "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "title": "",
+      "summary_en": "OK, now I finally got around to making a full E2E harness around installing gbrain on openclaw\n\nEnd-to-end testing means I can finally absolutely make sure the onboarding process works! https://t.co/csPCd2TriN",
+      "summary_zh": "他终于给 openclaw 安装 gbrain 补上了完整 E2E 测试框架。意思很直接：onboarding 不再靠祈祷，流程到底能不能跑通现在可以实锤验证。",
+      "url": "https://x.com/garrytan/status/2049742376307147110",
+      "posted_at": "2026-04-30T06:47:19.000Z",
+      "tags": [
+        "@garrytan"
+      ]
+    },
+    {
+      "id": "dde3ebe1ea",
+      "date": "2026-04-30",
+      "source": "x",
+      "author": "Garry Tan",
+      "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "title": "",
+      "summary_en": "Graphs are built off of frontmatter attributes, and more and more of it is inferred and automatically built in this version https://t.co/cPVIBcOKxa",
+      "summary_zh": "图谱不是凭空长出来的，而是吃 frontmatter 属性；这个版本开始，越来越多关系会被自动推断、自动搭建。",
+      "url": "https://x.com/garrytan/status/2049737217208397925",
+      "posted_at": "2026-04-30T06:26:49.000Z",
+      "tags": [
+        "@garrytan"
+      ]
+    },
+    {
+      "id": "57951585f6",
+      "date": "2026-04-30",
+      "source": "x",
+      "author": "Amjad Masad",
+      "bio": "ceo @replit. civilizationist",
+      "title": "",
+      "summary_en": "When future historians write about Silicon Valley, they’ll have an entire chapter dedicated to the Ron Conway way: how he turned generosity, warmth, and showing up for founders into a winning strategy. https://t.co/aIcw5Ax2Iy",
+      "summary_zh": "未来史学家写硅谷，一定会给“Ron Conway 方法”单开一章：把慷慨、温暖和随时站到创始人身边，做成一套赢的策略。",
+      "url": "https://x.com/amasad/status/2049729530059960571",
+      "posted_at": "2026-04-30T05:56:16.000Z",
+      "tags": [
+        "@amasad"
+      ]
+    },
+    {
+      "id": "f89c80461f",
+      "date": "2026-04-30",
+      "source": "x",
+      "author": "Sam Altman",
+      "bio": "AI is cool i guess",
+      "title": "",
+      "summary_en": "alignment failure https://t.co/jFquokO1MK",
+      "summary_zh": "他把这事一句话钉死为“对齐失败”：这不是普通 bug，而是 AI 没有按人类预期和约束行动。",
+      "url": "https://x.com/sama/status/2049715178611380317",
+      "posted_at": "2026-04-30T04:59:15.000Z",
+      "tags": [
+        "@sama"
+      ]
+    },
+    {
+      "id": "1c959d517a",
+      "date": "2026-04-30",
+      "source": "x",
+      "author": "Aaron Levie",
+      "bio": "ceo @box - your business lives in content. unleash it with AI",
+      "title": "",
+      "summary_en": "Starting to hire and retrain for new agent engineering roles for *internal* functions to help get more powerful agents working well on critical business processes. I expect this type of role to be a very big deal over time at Box and other companies.\n\nIt looks something like an internal FDE, whose job it is to wire up internal systems and get agents working with them effectively. The person will be extremely technical and capable of building secure, governed agents for internal workflows that connect to business systems (like Box, Salesforce, Workday, etc.), and codify workflows in skills.\n\nIn some cases this person may understand the business process well enough to do it fully, but in most cases I expect them to work with the business directly in an embedded fashion. Ironically, that may introduce another new role on the business side that is more akin to agent product management for internal processes. The key is that you need technical + process people that can span multiple teams or functions in an organization. It’s not about brining automation to a job, but bringing automation to a process.\n\nThis is going to be a very big trend in most companies going forward. Fun to watch the early innings of what this will look like.",
+      "summary_zh": "Box 开始招聘和转训“内部 Agent 工程师”：像内嵌式 FDE，把 Box、Salesforce、Workday 等业务系统接起来，做出安全、可治理、能跑关键流程的 Agent。\n\n真正的变化不是“给某个岗位加自动化”，而是“把自动化嵌进跨团队业务流程”；技术懂流程的人会变成公司里的新关键角色。",
+      "url": "https://x.com/levie/status/2049714403050918067",
+      "posted_at": "2026-04-30T04:56:10.000Z",
+      "tags": [
+        "@levie"
+      ]
+    },
+    {
+      "id": "743d15cec9",
+      "date": "2026-04-30",
+      "source": "x",
+      "author": "Sam Altman",
+      "bio": "AI is cool i guess",
+      "title": "",
+      "summary_en": "we're starting rollout of GPT-5.5-Cyber, a frontier cybersecurity model, to critical cyber defenders in the next few days.\n\nwe will work with the entire ecosystem and the government to figure out trusted access for cyber; we want to rapidly help secure companies/infrastructure.",
+      "summary_zh": "GPT-5.5-Cyber 开始向关键网络防御者推出，定位是前沿网络安全模型。接下来会和产业界、政府一起定可信访问机制，目标很直接：尽快把公司和关键基础设施守住。",
+      "url": "https://x.com/sama/status/2049712078836170843",
+      "posted_at": "2026-04-30T04:46:56.000Z",
+      "tags": [
+        "@sama"
+      ]
+    },
+    {
+      "id": "542e12d64d",
+      "date": "2026-04-30",
+      "source": "x",
+      "author": "Peter Yang",
+      "bio": "Practical AI tutorials and interviews for busy people | Join 140K+ readers at https://t.co/XYKTmGVH14 | Product at Roblox",
+      "title": "",
+      "summary_en": "Well we had a good run of almost a year being healthy but my kid has made me sick again",
+      "summary_zh": "差不多一年没生病的好日子到头了：孩子又把病带回家，把我放倒了。",
+      "url": "https://x.com/petergyang/status/2049678384058511376",
+      "posted_at": "2026-04-30T02:33:02.000Z",
+      "tags": [
+        "@petergyang"
+      ]
+    },
+    {
+      "id": "ffae25cea1",
+      "date": "2026-04-30",
+      "source": "x",
+      "author": "Swyx",
+      "bio": "achieve ambition with intentionality, intensity, integrity & insanity.  affiliations: - @dxtipshq  - @cognition - @temporalio - @aidotengineer - @latentspacepod",
+      "title": "",
+      "summary_en": "why does the algo hate this post",
+      "summary_zh": "作者直接开怼平台算法：这条内容到底哪里不配，为什么被算法压着打？",
+      "url": "https://x.com/swyx/status/2049678324633632821",
+      "posted_at": "2026-04-30T02:32:48.000Z",
+      "tags": [
+        "@swyx"
+      ]
+    },
+    {
+      "id": "ff497d0773",
+      "date": "2026-04-30",
+      "source": "x",
+      "author": "Swyx",
+      "bio": "achieve ambition with intentionality, intensity, integrity & insanity.  affiliations: - @dxtipshq  - @cognition - @temporalio - @aidotengineer - @latentspacepod",
+      "title": "",
+      "summary_en": "> be me\n> \"the internet is polluted by ai slop, we need low-background tokens\"\n> \"wouldnt it be cool if we could time travel and see what our ancestors 100 years ago would say to us\"\n> all the existing vintage models are like <4B\n> we need a chat tuned 13B vintage model \n> assemble avengers of ML incl the GPT-1/2 guy\n> need vintage tokens\n> train new vintage OCR model for old books, newspapers, periodicals, scientific journals, patents, and case law\n> need vintage RLHF but cant use chat \n> synthesize RLHF pairs from historical texts with regular structure eg etiquette manuals, letter-writing manuals, cookbooks, dictionaries, encyclopedias, and poetry and fable collections, shove it into ChatML\n> train it\n> future knowledge still got in somehow\n> dammit.jpg\n> train new SOTA document-level n-gram-based anachronism classifier\n> meticulously curate hundreds of billions of pre-1931 tokens (public domain)\n> train it\n> ok! it checks out vs our FineWeb baseline!\n> release it\n> it's the most confidently racist model ever released by humankind\n> mfw",
+      "summary_zh": "他们为了逃离 AI 垃圾，硬训了一个只吃 1931 年前公共领域文本的 13B“古董聊天模型”：OCR、合成 RLHF、时代错误分类器全上。结果未来知识是剔干净了，模型也成了人类发布过最自信的种族主义聊天机器人。",
+      "url": "https://x.com/swyx/status/2049652947408372187",
+      "posted_at": "2026-04-30T00:51:58.000Z",
+      "tags": [
+        "@swyx"
+      ]
+    },
+    {
+      "id": "89985800a6",
+      "date": "2026-04-30",
+      "source": "x",
+      "author": "Peter Yang",
+      "bio": "Practical AI tutorials and interviews for busy people | Join 140K+ readers at https://t.co/XYKTmGVH14 | Product at Roblox",
+      "title": "",
+      "summary_en": "I haven't kept up to date with the latest @openclaw updates - is live low-latency calling with your claw now possible?",
+      "summary_zh": "他在追问 OpenClaw 最新进展：现在到底能不能用 Claw 实现实时低延迟通话？潜台词是，不能实时对话，就还没跨过真正可用的门槛。",
+      "url": "https://x.com/petergyang/status/2049652367457763368",
+      "posted_at": "2026-04-30T00:49:39.000Z",
+      "tags": [
+        "@petergyang"
+      ]
+    },
+    {
+      "id": "bdb9b285a9",
+      "date": "2026-04-30",
+      "source": "x",
+      "author": "Swyx",
+      "bio": "achieve ambition with intentionality, intensity, integrity & insanity.  affiliations: - @dxtipshq  - @cognition - @temporalio - @aidotengineer - @latentspacepod",
+      "title": "",
+      "summary_en": "i havent done the work to compare it to peers but i'm just excited that we have a base model and honestly for all the people that complained about the death of the completions API (@deepfates ? or deepfates adjacent) not enough people are experimenting with weird usages and finetunes of the base models we DO get\n\nhttps://t.co/TDXdKTFC74",
+      "summary_zh": "还没认真和同类横评，但终于有了一个 base model，本身就够让人兴奋。那些嚷嚷 Completions API 已死的人，真正去折腾现有 base model 怪用法和微调的，反而太少。",
+      "url": "https://x.com/swyx/status/2049643473339601388",
+      "posted_at": "2026-04-30T00:14:19.000Z",
+      "tags": [
+        "@swyx"
+      ]
+    },
+    {
+      "id": "23b709d37e",
+      "date": "2026-04-30",
+      "source": "x",
+      "author": "Amjad Masad",
+      "bio": "ceo @replit. civilizationist",
+      "title": "",
+      "summary_en": "Now everyone can experience getting paged at dinner because the site is down 😅 https://t.co/BOp9OmnhQb",
+      "summary_zh": "现在人人都能体验当运维被叫醒的福报：晚饭吃到一半，网站挂了，告警来了。",
+      "url": "https://x.com/amasad/status/2049639259599233173",
+      "posted_at": "2026-04-29T23:57:34.000Z",
+      "tags": [
+        "@amasad"
+      ]
+    },
+    {
+      "id": "baf766b48e",
+      "date": "2026-04-30",
+      "source": "x",
+      "author": "Nikunj Kothari",
+      "bio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
+      "title": "",
+      "summary_en": "Having my little “agent” touch grass for me 🌻 https://t.co/AR1uLiQRvf",
+      "summary_zh": "连“出去接触现实”都外包给小 agent 了：人还困在屏幕后，代理已经替你去碰草晒太阳。",
+      "url": "https://x.com/nikunj/status/2049638359342133530",
+      "posted_at": "2026-04-29T23:53:59.000Z",
+      "tags": [
+        "@nikunj"
+      ]
+    },
+    {
+      "id": "d7bd65d03c",
+      "date": "2026-04-30",
+      "source": "x",
+      "author": "Matt Turck",
+      "bio": "VC at @FirstMarkCap.  Host: MAD Podcast; Organizer: Data Driven NYC, Author: MAD Landscape.",
+      "title": "",
+      "summary_en": "You know you’re at a VC dinner when https://t.co/OF6mSVNdY6",
+      "summary_zh": "所谓 VC 晚宴，一眼就能认出来：场面荒诞到不需要解释。",
+      "url": "https://x.com/mattturck/status/2049635648575832384",
+      "posted_at": "2026-04-29T23:43:13.000Z",
+      "tags": [
+        "@mattturck"
+      ]
+    },
+    {
+      "id": "5e10b09442",
+      "date": "2026-04-30",
+      "source": "x",
+      "author": "Zara Zhang",
+      "bio": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://t.co/KCuEajezlL YouTube: https://t.co/8xzbGWtf6w",
+      "title": "",
+      "summary_en": "We should start thinking about the IT/internal tools team as more like “HR for agents”",
+      "summary_zh": "IT/内部工具团队不该再只是修系统、配权限，而要变成“AI Agent 的 HR”：负责给一群数字员工上岗、管理、调度和问责。",
+      "url": "https://x.com/zarazhangrui/status/2049599305825341518",
+      "posted_at": "2026-04-29T21:18:48.000Z",
+      "tags": [
+        "@zarazhangrui"
+      ]
+    },
+    {
+      "id": "bf57e578f1",
+      "date": "2026-04-30",
+      "source": "x",
+      "author": "Amjad Masad",
+      "bio": "ceo @replit. civilizationist",
+      "title": "",
+      "summary_en": "Free accounts for teachers, 50% off for students! https://t.co/bV13vmFMEU",
+      "summary_zh": "教师免费，学生五折，AI 订阅开始直接抢教育入口。",
+      "url": "https://x.com/amasad/status/2049595212889247994",
+      "posted_at": "2026-04-29T21:02:33.000Z",
+      "tags": [
+        "@amasad"
+      ]
+    },
+    {
+      "id": "a1ca817464",
+      "date": "2026-04-30",
+      "source": "x",
+      "author": "Nan Yu",
+      "bio": "head of product @linear",
+      "title": "",
+      "summary_en": "We are reinventing design to eng. handoff from first principles. https://t.co/tgiZwlrdAm",
+      "summary_zh": "他们要从第一性原理重做“设计到工程”的交接流程，不是修补 Figma 到代码的老链路，而是直接重造这套工作流。",
+      "url": "https://x.com/thenanyu/status/2049593061043265940",
+      "posted_at": "2026-04-29T20:54:00.000Z",
+      "tags": [
+        "@thenanyu"
+      ]
+    },
+    {
+      "id": "d83c3d1ac9",
+      "date": "2026-04-30",
+      "source": "x",
+      "author": "Kevin Weil",
+      "bio": "VP Science @OpenAI, BoD @Cisco @nature_org, LTC @USArmyReserve Ex: Pres @Planet, Head of Product @Instagram @Twitter ❤️ @elizabeth ultramarathons kids cats math",
+      "title": "",
+      "summary_en": "It turns out, the job of a radiologist isn't to read x-rays. \n\nIt's to cure people. \n\nAnd if AI can help speed the process of understanding x-rays, radiologists can see and cure more people. https://t.co/gO0iC4HNsw",
+      "summary_zh": "放射科医生的本职不是读 X 光片，而是治人。AI 如果能加速影像理解，就能让医生少困在读片里，多救几个人。",
+      "url": "https://x.com/kevinweil/status/2049584046213378229",
+      "posted_at": "2026-04-29T20:18:10.000Z",
+      "tags": [
+        "@kevinweil"
+      ]
+    },
+    {
+      "id": "1eb8d3a1bd",
+      "date": "2026-04-30",
+      "source": "x",
+      "author": "Aditya Agarwal",
+      "bio": "General Partner @SouthPkCommons, Co-Founder @Bevel_Health | Ex: Early Eng @facebook, CTO @Dropbox, Board @Flipkart | Optimist, Builder, Dad",
+      "title": "",
+      "summary_en": "Some observations on agents from a lot of time spent installing, using, debugging and building things with OpenClaw, Hermes, etc.\n\n- Most people who rave about OpenClaw, HermesAgent etc. have not actually used it. Facts.\n\n- Agents are developer products today. They are so so so far from being consumer grade in terms of delight, simplicity, reliability etc.\n\n- I wish the agents generated more dynamic interfaces. Don't give me chat. Give me interactive, dynamic apps/webpages. I suspect this will be a next big vector of innovation.\n\n- The agents are ultimately a wrapper to code-generation and tool-calling....not to \"generative AI\". This is important to grok. These agents are doing most of their \"work\" through iterative tool calling.\n\n- Once you understand the core loop behind agentic AI, old school \"chat AI\" doesn't make sense. The idea of an \"always-on\" agent that actually adapts, learns and maintains state is a LOT more compelling than a one-off chat prompt. The latter feels much more like a search query.\n\n- So much of mangling with agents today is basically setting it up to use browsers and/or your computer. And there are so many constraints!\n\n- Installing and running openclaw feels a lot like running Linux in the early 2000s. You spend a lot of time compiling device drivers, setting up configurations etc. You feel a real sense of accomplishment from jerry-rigging everything together but it is a LOT of work to get to the point of utility",
+      "summary_zh": "很多吹 OpenClaw、HermesAgent 的人根本没真正用过：今天的 Agent 仍是开发者玩具，离消费级的顺滑、简单、可靠差得很远。它们本质不是“生成式 AI 魔法”，而是代码生成加反复调用工具；一旦理解这个循环，单次聊天就像搜索框，真正有价值的是能常驻、记状态、会适应的 Agent。",
+      "url": "https://x.com/adityaag/status/2049530878083379427",
+      "posted_at": "2026-04-29T16:46:54.000Z",
+      "tags": [
+        "@adityaag"
+      ]
+    },
+    {
+      "id": "809f98cee3",
+      "date": "2026-04-30",
+      "source": "x",
+      "author": "Ryo Lu",
+      "bio": "Design @Cursor_ai. Early @NotionHQ, @Stripe, built startups. I make a world where anyone can make software. Aspiring k-pop idol.",
+      "title": "",
+      "summary_en": "build your own agent systems with Cursor – the same multi-model harness, on local and cloud https://t.co/iJ3VdBMFat",
+      "summary_zh": "用 Cursor 自己搭 Agent 系统：同一套多模型 harness，本地和云端都能跑。",
+      "url": "https://x.com/ryolu_/status/2049529609725804575",
+      "posted_at": "2026-04-29T16:41:52.000Z",
+      "tags": [
+        "@ryolu_"
+      ]
+    },
+    {
+      "id": "48eff3348e",
+      "date": "2026-04-30",
+      "source": "x",
+      "author": "Josh Woodward",
+      "bio": "VP, @Google @GoogleLabs @GeminiApp @GoogleAIStudio",
+      "title": "",
+      "summary_en": "New in Gemini: Generate files and export them\n\nTell Gemini what you want to create and the format, and it now does the work for you.\n\nNow supporting:\n📄 Google Docs, Word (.docx) & PDFs\n📊 Google Sheets, Excel (.xlsx) & CSV\n🖥️ Google Slides\n🛠️ Markdown, LaTeX, TXT, RTF\n\nAvailable now on all surfaces globally!",
+      "summary_zh": "Gemini 现在不只是回答问题，而是能按你的要求直接生成并导出文件：Docs/Word/PDF、Sheets/Excel/CSV、Slides，以及 Markdown、LaTeX、TXT、RTF，全球全端上线。",
+      "url": "https://x.com/joshwoodward/status/2049524400131838436",
+      "posted_at": "2026-04-29T16:21:09.000Z",
+      "tags": [
+        "@joshwoodward"
+      ]
+    },
+    {
+      "id": "c5e434f39f",
+      "date": "2026-04-30",
+      "source": "x",
+      "author": "Claude",
+      "bio": "Claude is an AI assistant built by @anthropicai to be safe, accurate, and secure. Talk to Claude on https://t.co/ZhTwG8d1e5 or download the app.",
+      "title": "",
+      "summary_en": "Sign up for our developer newsletter to learn about future hackathons like these: https://t.co/SNJCIrk27U",
+      "summary_zh": "想蹲下一场黑客松，就订他们的开发者 newsletter；未来活动消息都从那儿放。",
+      "url": "https://x.com/claudeai/status/2049523911730028968",
+      "posted_at": "2026-04-29T16:19:13.000Z",
+      "tags": [
+        "@claudeai"
+      ]
+    },
+    {
+      "id": "6c42968311",
+      "date": "2026-04-30",
+      "source": "x",
+      "author": "Claude",
+      "bio": "Claude is an AI assistant built by @anthropicai to be safe, accurate, and secure. Talk to Claude on https://t.co/ZhTwG8d1e5 or download the app.",
+      "title": "",
+      "summary_en": "Best Use of Claude Managed Agents: ARIA by Idriss Benguezzou and Adam Hnaien from France\n\nA maintenance system that reads your machine manuals, and when something goes wrong, creates a work order for your technician with the fix that worked last time.\n\nhttps://t.co/XbKCYMLzb8",
+      "summary_zh": "ARIA 把 Claude Managed Agents 用在工业维修上：读懂机器手册，故障一来直接生成维修工单，还带上上次真正修好的方案。",
+      "url": "https://x.com/claudeai/status/2049523910173966597",
+      "posted_at": "2026-04-29T16:19:13.000Z",
+      "tags": [
+        "@claudeai"
+      ]
+    },
+    {
+      "id": "f88cef6f45",
+      "date": "2026-04-30",
+      "source": "x",
+      "author": "Claude",
+      "bio": "Claude is an AI assistant built by @anthropicai to be safe, accurate, and secure. Talk to Claude on https://t.co/ZhTwG8d1e5 or download the app.",
+      "title": "",
+      "summary_en": "\"Keep Thinking\" Prize: MaestrIA by Benjamin Torralbo from Chile\n\nA home repair tool that photographs damage, returns a diagnosis, prices parts at local stores, and drafts a message to a nearby tradesperson. Built by a carpenter’s son.\n\nhttps://t.co/qSSJWqYIdy",
+      "summary_zh": "智利的 Benjamin Torralbo 凭 MaestrIA 拿下 “Keep Thinking” 奖：拍一下家里坏掉的地方，AI 直接诊断、查本地配件价格，还替你写好发给附近工人的消息。一个木匠的儿子，把家修这件事做成了完整闭环。",
+      "url": "https://x.com/claudeai/status/2049523908584386582",
+      "posted_at": "2026-04-29T16:19:12.000Z",
+      "tags": [
+        "@claudeai"
+      ]
+    },
+    {
+      "id": "b0b761398e",
+      "date": "2026-04-30",
+      "source": "x",
+      "author": "Peter Steinberger",
+      "bio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world. @OpenClaw🦞 + @OpenAI",
+      "title": "",
+      "summary_en": "IT DOES THE GOOGLY EYES OFC 👀 https://t.co/wjY2ZiHmIR",
+      "summary_zh": "它当然能做那种晃来晃去的“搞怪眼”，这都不用问。",
+      "url": "https://x.com/steipete/status/2049521170177732836",
+      "posted_at": "2026-04-29T16:08:19.000Z",
+      "tags": [
+        "@steipete"
+      ]
+    },
+    {
+      "id": "201bb04559",
+      "date": "2026-04-30",
+      "source": "x",
+      "author": "Nikunj Kothari",
+      "bio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
+      "title": "",
+      "summary_en": "30s are all about trying to own a berry farm and an HVAC rollup",
+      "summary_zh": "30多岁的人不再幻想改变世界，开始想拥有一个浆果农场，再把一堆暖通公司并购整合起来。所谓成熟，就是从酷炫叙事转向土味现金流。",
+      "url": "https://x.com/nikunj/status/2049519563998703679",
+      "posted_at": "2026-04-29T16:01:56.000Z",
+      "tags": [
+        "@nikunj"
+      ]
+    },
+    {
+      "id": "938cdea0b4",
+      "date": "2026-04-30",
+      "source": "x",
+      "author": "Peter Steinberger",
+      "bio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world. @OpenClaw🦞 + @OpenAI",
+      "title": "",
+      "summary_en": "Integrated codex review into clawsweeper.\n\nI'm using a very similar system prompt so this gets you the same as /review, and clawsweeper has automerge, loops until it stops finding new issues. https://t.co/AiNNDcvGke https://t.co/3pDc2JdLCm",
+      "summary_zh": "他把 Codex review 接进了 clawsweeper：效果基本等同 `/review`，还能自动合并、反复跑，直到找不出新问题为止。",
+      "url": "https://x.com/steipete/status/2049518771023360010",
+      "posted_at": "2026-04-29T15:58:47.000Z",
+      "tags": [
+        "@steipete"
+      ]
+    },
+    {
+      "id": "af5b9101d0",
+      "date": "2026-04-30",
+      "source": "x",
+      "author": "Peter Yang",
+      "bio": "Practical AI tutorials and interviews for busy people | Join 140K+ readers at https://t.co/XYKTmGVH14 | Product at Roblox",
+      "title": "",
+      "summary_en": "Don't know what's going on with @claudeai but I find that I often now have to wait 3-5 seconds randomly for it to respond just using the basic web UI.",
+      "summary_zh": "Claude 不知道出了什么问题，现在连基础网页版都经常随机卡 3-5 秒才有反应。",
+      "url": "https://x.com/petergyang/status/2049517522924474465",
+      "posted_at": "2026-04-29T15:53:50.000Z",
+      "tags": [
+        "@petergyang"
+      ]
+    },
+    {
+      "id": "8372b4c0ff",
+      "date": "2026-04-30",
+      "source": "x",
+      "author": "Dan Shipper",
+      "bio": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "title": "",
+      "summary_en": "@collision think you'll enjoy this one",
+      "summary_zh": "点名 @collision：这个你会喜欢。",
+      "url": "https://x.com/danshipper/status/2049513886634983761",
+      "posted_at": "2026-04-29T15:39:23.000Z",
+      "tags": [
+        "@danshipper"
+      ]
+    },
+    {
+      "id": "229f9a0d62",
+      "date": "2026-04-30",
+      "source": "x",
+      "author": "Dan Shipper",
+      "bio": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "title": "",
+      "summary_en": "Spotify: https://t.co/9s4y0oKudZ\n\nYouTube: https://t.co/jLuThHTSwP",
+      "summary_zh": "这条推文没有观点，只有 Spotify 和 YouTube 两个入口：不是讨论，是直接把流量从 X 导走。",
+      "url": "https://x.com/danshipper/status/2049512224516161846",
+      "posted_at": "2026-04-29T15:32:47.000Z",
+      "tags": [
+        "@danshipper"
+      ]
+    },
+    {
+      "id": "808ab146da",
+      "date": "2026-04-30",
+      "source": "x",
+      "author": "Dan Shipper",
+      "bio": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "title": "",
+      "summary_en": "Agents who can buy, sell, and trade on our behalf are becoming a major part of the economy. But what exactly are they doing?\n\nStripe sees 2% of global GDP, so they’re the company with the best view of what’s going on in the earliest innings of the agent economy.\n\nThat’s why I had Emily Glassberg Sands, who leads data and AI at @stripe, on @every’s AI & I. We covered:\n- Most of us still don’t trust AI with larger online purchases. People are hesitant to let AI make expensive purchases like a vacation or a couch—just like the early days of online shopping. But a superhero outfit for a kid who needs one stat? Sure, let the agent handle it. \n- Fraud is moving up the stack. It used to mean stolen credit cards. Now attackers are stealing free-trial tokens and compute credits. Free-trial abuse has 4x-ed in the last six months..\n- AI is on both sides of fraud. Fraudsters are using it to scale attacks, while Stripe is using it to detect them. They’re blocking 250,000 fraudulent free trials a week for one large customer.\n- AI companies are growing faster than any cohort Stripe has ever tracked. Top companies hit $30M ARR in 18 months—3x faster than the 2018 SaaS class. So far, it’s net new spend instead of cannibalized software budgets.\n\nIf you want to understand how AI is reshaping online commerce, this one deserves your time.\n\nTimestamps\nIntroduction: 00:00:45\nNew rules for an agent-driven economy: 00:01:27\nCompute theft is the new payment fraud: 00:03:57\nHow Stripe expanded fraud detection from checkout to the full customer lifecycle: 00:10:00\nWhy AI companies are scaling way faster than top SaaS companies: 00:19:48\nOutcome-based billing is replacing seat-based pricing: 00:23:27\nWhere AI spending is coming from: 00:29:57\nHow the developer experience changes when agents are the builders: 00:36:45\nThe agentic commerce spectrum, from assisted buying to autonomous purchasing: 00:41:00\nMeet Link, a consumer wallet for delegated agent purchases: 00:51:06",
+      "summary_zh": "代理经济已经进场：人们还不敢让 AI 买沙发和度假，但会让它买急用的小东西。更硬的信号在 Stripe 数据里：欺诈从盗刷信用卡升级成偷算力和薅试用，AI 公司又以史上最快速度冲到 3000 万美元 ARR，而且目前花的是新增预算，不是在抢旧软件的钱。",
+      "url": "https://x.com/danshipper/status/2049512129846530086",
+      "posted_at": "2026-04-29T15:32:24.000Z",
+      "tags": [
+        "@danshipper"
+      ]
+    },
+    {
+      "id": "68aed9ed95",
+      "date": "2026-04-30",
+      "source": "podcast",
+      "author": "AI & I by Every",
+      "bio": "",
+      "title": "How Stripe Is Building for an Agent-native World",
+      "summary_en": "Speaker 1 | 00:00 - 00:29\nThe Internet has this new kind of actor on it. Over time, this actor, these agents will become the predominant actors on the Internet. These AI companies are just growing from a revenue perspective faster than any previous cohort we've seen. LLM traffic to Stripe Docs is up 10 x year over year. And that's just a useful signal that machines are becoming users of developer infrastructure too, including Stripe's developer infrastructure.\n\nSpeaker 1 | 00:33 - 00:33\nSignal\n\nSpeaker 2 | 00:44 - 00:45\nEmily, welcome to the show.\n\nSpeaker 1 | 00:45 - 00:47\nThanks so much, Dan.\n\nSpeaker 2 | 00:47 - 01:25\nSo, really excited to have you. You are the head of data and AI at Stripe. And I feel like this is such a good time to have someone from Stripe on because you all famously are increasing the GDP of the Internet. And the Internet is changing so much right now, and and therefore the, like, economy of the Internet is changing from something where, humans are buying and selling from each other to a thing where, to an economy where agents are buying and selling from humans and agents are buying and selling from each other. And I feel like, a, I wanna know what that means for Stripe, but b, I wanna understand since you have this macro view of the agent economy, what does that even mean and what are you seeing?\n\nSpeaker 1 | 01:26 - 01:56\nYeah. So a big shift, I think, we're in the midst of is that the Internet economy is becoming more autonomous, right? So for a long time, for forever, right, the Internet was built around an extremely simple assumption that the main actor was a person. And the person sitting in front of a screen, they're browsing, and they're filling out forms and clicking through checkout, but also they're writing code and setting up tools. A",
+      "summary_zh": "互联网的默认用户正在从“坐在屏幕前的人”变成智能体，未来交易、开发、配置工具的主角都会越来越多地由机器接管。Stripe 看到 LLM 访问开发文档同比涨了 10 倍，这说明机器已经不只是流量来源，而是在成为开发基础设施的真实用户。",
+      "url": "https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL",
+      "posted_at": "2026-04-29T15:23:55.000Z",
+      "tags": [
+        "podcast"
+      ]
+    },
+    {
+      "id": "83232689d0",
+      "date": "2026-04-30",
+      "source": "x",
+      "author": "Peter Steinberger",
+      "bio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world. @OpenClaw🦞 + @OpenAI",
+      "title": "",
+      "summary_en": "And people think tokens are expensive... this is @useblacksmith (they sponsor OpenClaw, 🫶🦞) https://t.co/pCcG5uzbhd",
+      "summary_zh": "大家老嫌 token 贵，但真正烧钱的是 CI/构建算力；@useblacksmith 这类工具盯上的，就是这块更狠的成本。",
+      "url": "https://x.com/steipete/status/2049462793267458219",
+      "posted_at": "2026-04-29T12:16:21.000Z",
+      "tags": [
+        "@steipete"
+      ]
+    }
+  ]
+}
