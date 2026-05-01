@@ -1,0 +1,343 @@
+{
+  "date": "2026-05-01",
+  "top3": [
+    "今天最值得关注的是 AI 编程代理进入「技能层」竞争：mattpocock/skills 单周新增 30945 stars，forrestchang/andrej-karpathy-skills 单周新增 23062 stars。",
+    "「免费 Claude Code」和多模型终端工作区同时升温，Alishahryar1/free-claude-code 单周新增 14666 stars，HiveTerm、Warp、Symphony 都在抢同一个入口。",
+    "HuggingFace 热点从单纯大模型转向可产品化组件：openai/privacy-filter 有 92567 次下载，图像、视频、语音 Spaces 集中爆发。"
+  ],
+  "intro": "今天的主线不是又一个聊天机器人，而是 AI 开发工作流正在拆成三个可创业层：技能库、代理运行环境、隐私与多模态组件。Builder 应该关注那些能嵌进现有工作流的小工具，因为用户正在用搜索和 GitHub star 给「替代 Cursor、降低 Claude Code 成本、让 agent 可控」投票。",
+  "sections": [
+    {
+      "id": "discovery",
+      "title": "发现机会",
+      "blocks": [
+        {
+          "id": "indie-products",
+          "heading": "今天有哪些独立开发者的新产品？",
+          "summary_md": "[Winpodx](https://github.com/kernalix7/winpodx) 是今天 HN Show HN 里唯一有明确热度的新项目，拿到 77 票、38 条评论，定位是让 Linux 用户像原生窗口一样运行 Windows 应用。这个方向值得看，不是因为它要挑战 Wine，而是它把「兼容层」包装成更接近普通用户的桌面体验，评论密度也说明真实痛点存在。\n\nProduct Hunt 样本里没有给出票数和评论数，但产品方向高度集中在桌面隐私、AI 工作区和代理化工具：[PeekFocus](https://www.producthunt.com/products/peekfocus)、[ScreenVeil](https://www.producthunt.com/products/screenveil)、[HiveTerm](https://www.producthunt.com/products/hiveterm)、[Montage](https://www.producthunt.com/products/montage-3) 都不是大而全平台，而是围绕工作流中的一个瞬间做自动化。今天适合关注「一键遮挡」「多代理终端」「AI 文件整理」这种低解释成本产品。",
+          "items": [
+            {
+              "title": "Winpodx",
+              "url": "https://github.com/kernalix7/winpodx",
+              "source": "HN",
+              "score": 77
+            },
+            {
+              "title": "PeekFocus",
+              "url": "https://www.producthunt.com/products/peekfocus",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "HiveTerm",
+              "url": "https://www.producthunt.com/products/hiveterm",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "独立产品今天的机会在桌面工作流缝隙，而不是再造一个完整 AI IDE。"
+        },
+        {
+          "id": "github-traction",
+          "heading": "GitHub 上哪些高增长开源项目还没有商业化？",
+          "summary_md": "增长最夸张的是 [mattpocock/skills](https://github.com/mattpocock/skills)，单周新增 30945 stars、累计 50606 stars；[forrestchang/andrej-karpathy-skills](https://github.com/forrestchang/andrej-karpathy-skills) 单周新增 23062 stars、累计 103734 stars。这说明围绕 Claude Code 的「行为配置」「技能提示词」「工程纪律」已经从私人配置变成公共资产，但商业化仍主要停留在模板和开源仓库阶段。\n\n另一个缺口是代理基础设施：[trycua/cua](https://github.com/trycua/cua) 单周新增 1842 stars，做 Computer-Use Agents 的沙箱、SDK 和基准；[zilliztech/claude-context](https://github.com/zilliztech/claude-context) 单周新增 2330 stars，做 Claude Code 的代码搜索 MCP。真正的机会不是把这些仓库卖成 SaaS，而是把它们包装成团队可治理、可审计、可回滚的工程层。",
+          "items": [
+            {
+              "title": "mattpocock/skills",
+              "url": "https://github.com/mattpocock/skills",
+              "source": "GitHub",
+              "score": 30945
+            },
+            {
+              "title": "forrestchang/andrej-karpathy-skills",
+              "url": "https://github.com/forrestchang/andrej-karpathy-skills",
+              "source": "GitHub",
+              "score": 23062
+            },
+            {
+              "title": "trycua/cua",
+              "url": "https://github.com/trycua/cua",
+              "source": "GitHub",
+              "score": 1842
+            }
+          ],
+          "takeaway": "Claude Code 生态的下一层商业化会从「卖提示词」转向「卖团队级 agent 操作系统」。"
+        }
+      ]
+    },
+    {
+      "id": "tech-stack",
+      "title": "技术选型",
+      "blocks": [
+        {
+          "id": "dev-tools",
+          "heading": "本周增长最快的开发者工具是什么？",
+          "summary_md": "开发者工具里，技能框架和 agent 终端是最强信号。[mattpocock/skills](https://github.com/mattpocock/skills) 单周新增 30945 stars，[warpdotdev/warp](https://github.com/warpdotdev/warp) 单周新增 8399 stars、累计 50313 stars，[obra/superpowers](https://github.com/obra/superpowers) 单日榜口径显示单周新增 1632 stars、累计 174979 stars。它们共同指向一个选型变化：终端不再只是命令行，而是 agent 的协作面板。\n\nProduct Hunt 侧也在补同一块：[HiveTerm](https://www.producthunt.com/products/hiveterm) 主打 Claude、Codex、Gemini 和本地 stack 的统一工作区，[Symphony](https://www.producthunt.com/products/openai) 主打 Codex orchestration spec。今天选技术栈时，应该优先考虑能否接 MCP、能否多模型切换、能否把团队规范沉淀成 skills，而不是只比较单次补全质量。",
+          "items": [
+            {
+              "title": "mattpocock/skills",
+              "url": "https://github.com/mattpocock/skills",
+              "source": "GitHub",
+              "score": 30945
+            },
+            {
+              "title": "warpdotdev/warp",
+              "url": "https://github.com/warpdotdev/warp",
+              "source": "GitHub",
+              "score": 8399
+            },
+            {
+              "title": "HiveTerm",
+              "url": "https://www.producthunt.com/products/hiveterm",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "AI 开发工具的中心正在从编辑器补全迁移到终端、技能和编排协议。"
+        },
+        {
+          "id": "hf-models",
+          "heading": "HuggingFace 上最热的模型能做什么消费级产品？",
+          "summary_md": "HuggingFace 今天最热的是 [deepseek-ai/DeepSeek-V4-Pro](https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro)，trending score 1312、下载 321492、likes 3321；[DeepSeek-V4-Flash](https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash) 也有 281356 次下载。它们适合做低成本文本生成、客服、写作和本地代理底座，但更直接的消费级机会来自隐私与多模态。\n\n[openai/privacy-filter](https://huggingface.co/openai/privacy-filter) trending score 504、下载 92567、likes 1148，标签里有 token-classification 和 transformers.js，意味着浏览器端或桌面端隐私过滤可以成为独立产品组件。Spaces 里 [FireRed-Image-Edit-1.0-Fast](https://huggingface.co/spaces/prithivMLmods/FireRed-Image-Edit-1.0-Fast) 有 1076 likes，[TRELLIS.2](https://huggingface.co/spaces/microsoft/TRELLIS.2) 有 1524 likes，[OmniVoice](https://huggingface.co/spaces/k2-fsa/OmniVoice) 有 737 likes，说明图像编辑、3D 生成、语音工具仍然适合做垂直入口。",
+          "items": [
+            {
+              "title": "deepseek-ai/DeepSeek-V4-Pro",
+              "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+              "source": "HuggingFace",
+              "score": 1312
+            },
+            {
+              "title": "openai/privacy-filter",
+              "url": "https://huggingface.co/openai/privacy-filter",
+              "source": "HuggingFace",
+              "score": 504
+            },
+            {
+              "title": "microsoft/TRELLIS.2",
+              "url": "https://huggingface.co/spaces/microsoft/TRELLIS.2",
+              "source": "HuggingFace",
+              "score": 69
+            }
+          ],
+          "takeaway": "模型层的创业机会不在展示模型多强，而在把隐私过滤、图像编辑、语音和 3D 变成可嵌入工作流的组件。"
+        },
+        {
+          "id": "show-hn",
+          "heading": "Show HN 高关注项目用的什么技术栈？",
+          "summary_md": "[Winpodx](https://github.com/kernalix7/winpodx) 在 HN Show HN 拿到 77 票、38 条评论，仓库主题是让 Linux 以原生窗口运行 Windows apps。虽然原始数据未给语言统计，但从产品形态看，它属于桌面兼容层和窗口集成工具，技术选型重点通常会落在 Linux 桌面协议、容器或隔离环境、Windows 应用运行时桥接上。\n\n这个项目的价值不在炫技，而在把复杂底层能力变成一个用户能理解的动词：run Windows apps on Linux as native windows。对 builder 的启发是，底层工具商业化时，卖点应该围绕最终状态，而不是围绕实现细节；如果能把安装、文件关联、窗口管理和性能诊断做顺，Linux 桌面仍然有小而硬的付费人群。",
+          "items": [
+            {
+              "title": "Winpodx",
+              "url": "https://github.com/kernalix7/winpodx",
+              "source": "HN",
+              "score": 77
+            }
+          ],
+          "takeaway": "复杂兼容层最容易被用户接受的包装方式，是把它变成一个看起来像原生功能的桌面动作。"
+        }
+      ]
+    },
+    {
+      "id": "competition",
+      "title": "竞争情报",
+      "blocks": [
+        {
+          "id": "migrations",
+          "heading": "有没有迁移类需求正在出现？",
+          "summary_md": "今天没有 HN 迁移文章，但迁移信号很明显：[cursor alternative](https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d) 7 日变化 +64.7%，同时 GitHub 日榜出现 [warpdotdev/warp](https://github.com/warpdotdev/warp) 单周新增 8399 stars、[1jehuang/jcode](https://github.com/1jehuang/jcode) 单周新增 675 stars，Product Hunt 也有 [Zed 1.0](https://www.producthunt.com/products/zed)、[HiveTerm](https://www.producthunt.com/products/hiveterm) 和 [Symphony](https://www.producthunt.com/products/openai)。这不是单点替代，而是开发者在重新分配「编辑器、终端、agent、上下文」的边界。\n\n竞争上最危险的是只把自己定位成 Cursor 替代品。更好的切入是选择一个迁移理由：更快的本地编辑、更便宜的 Claude Code、可审计的 agent 编排、或多模型终端。用户搜索 alternative 时，往往不是想听愿景，而是想立刻知道迁移成本、插件兼容、上下文质量和团队管控。",
+          "items": [
+            {
+              "title": "cursor alternative",
+              "url": "https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 65
+            },
+            {
+              "title": "warpdotdev/warp",
+              "url": "https://github.com/warpdotdev/warp",
+              "source": "GitHub",
+              "score": 8399
+            },
+            {
+              "title": "Zed 1.0",
+              "url": "https://www.producthunt.com/products/zed",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "Cursor 替代潮给新工具留了窗口，但胜负会取决于迁移路径，而不是一句「更好用」。"
+        }
+      ]
+    },
+    {
+      "id": "trends",
+      "title": "趋势判断",
+      "blocks": [
+        {
+          "id": "keywords",
+          "heading": "本周技术关键词频率有什么变化？",
+          "summary_md": "最强上升词是 [cursor alternative](https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d) +64.7%，说明 AI IDE 的用户心智开始从「谁最强」转向「我能不能换」。[skills](https://trends.google.com/trends/explore?q=skills&date=now+7-d) +15.5%，同时 GitHub 上 mattpocock/skills 单周新增 30945 stars、andrej-karpathy-skills 单周新增 23062 stars，搜索和开源热度互相验证。\n\n[ai agent](https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d) 只涨 +5.8%，但关联查询里出现「claude ai agent deletes database」「ai agent production database wipe」这类破圈词，说明大众注意力不只是功能演示，也开始关注生产事故。对 builder 来说，今天趋势不是更多 autonomy，而是可控、可审计、可降级的 agent。",
+          "items": [
+            {
+              "title": "cursor alternative",
+              "url": "https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 65
+            },
+            {
+              "title": "skills",
+              "url": "https://trends.google.com/trends/explore?q=skills&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 16
+            },
+            {
+              "title": "ai agent",
+              "url": "https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 6
+            }
+          ],
+          "takeaway": "AI 工具的关键词正在从能力崇拜转向替代、技能化和事故治理。"
+        },
+        {
+          "id": "cooling",
+          "heading": "哪些 AI 热词在降温？",
+          "summary_md": "[ml intern](https://trends.google.com/trends/explore?q=ml+intern&date=now+7-d) 下滑 -68.5%，但 GitHub 的 huggingface/ml-intern 仍有单周 5665 stars，说明它更像开源圈热度，而不是大众搜索热词。[andrej karpathy skills](https://trends.google.com/trends/explore?q=andrej+karpathy+skills&date=now+7-d) 下滑 -55.4%，可能代表名人触发的第一波传播已经退潮，但 skills 这个上位词仍在涨。\n\n[claude managed agents](https://trends.google.com/trends/explore?q=claude+managed+agents&date=now+7-d) 下滑 -25.8%，[free claude code](https://trends.google.com/trends/explore?q=free+claude+code&date=now+7-d) 下滑 -6.3%，而 GitHub 上 free-claude-code 单周新增 14666 stars。这里的反差说明，搜索热度降温不等于需求消失；真正留存的是能降低成本、绕开限制、接入现有终端的实用工具。",
+          "items": [
+            {
+              "title": "ml intern",
+              "url": "https://trends.google.com/trends/explore?q=ml+intern&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": -69
+            },
+            {
+              "title": "andrej karpathy skills",
+              "url": "https://trends.google.com/trends/explore?q=andrej+karpathy+skills&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": -55
+            },
+            {
+              "title": "claude managed agents",
+              "url": "https://trends.google.com/trends/explore?q=claude+managed+agents&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": -26
+            }
+          ],
+          "takeaway": "热词降温后留下的不是概念，而是能省钱、控风险、嵌工作流的工具。"
+        },
+        {
+          "id": "new-radar",
+          "heading": "新词雷达：有哪些从零起飞的新概念？",
+          "summary_md": "今天最早的弱信号来自 Google Trends breakouts：关联到 [skills](https://trends.google.com/trends/explore?q=skills&date=now+7-d) 的「google scholarships digital skills ghana」飙升 +31700%，「mattpocock skills」+600%，「matt pocock skills」+450%。这说明 skills 一词有两条路径同时破圈：大众教育语境和 AI 编程配置语境，后者更值得 builder 跟进。\n\n关联到 [ai agent](https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d) 的「claude ai agent deletes database」+20850%，「pocketos」+19150%，「ai agent deletes database」+15350%；关联到 [claude code](https://trends.google.com/trends/explore?q=claude+code&date=now+7-d) 的「claude code 脆弱 性」+2350%，「deepseek v4」+800%。这些词共同指向一个新赛道：agent 事故复盘、权限隔离、生产库保护和模型切换策略。",
+          "items": [
+            {
+              "title": "claude ai agent deletes database",
+              "url": "https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 20850
+            },
+            {
+              "title": "pocketos",
+              "url": "https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 19150
+            },
+            {
+              "title": "claude code 脆弱 性",
+              "url": "https://trends.google.com/trends/explore?q=claude+code&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 2350
+            }
+          ],
+          "takeaway": "新词雷达显示，agent 安全事故正在从工程圈进入大众搜索。"
+        }
+      ]
+    },
+    {
+      "id": "actions",
+      "title": "行动触发",
+      "blocks": [
+        {
+          "id": "weekend-build",
+          "heading": "今天 2 小时和一个周末分别做什么？",
+          "summary_md": "2 小时内可以做一个「Claude Code skills 审计器」：读取项目里的 CLAUDE.md、skills 目录和 MCP 配置，输出权限风险、上下文污染、危险命令、缺失回滚策略。它可以直接借势 [mattpocock/skills](https://github.com/mattpocock/skills) 单周 30945 stars 和 [forrestchang/andrej-karpathy-skills](https://github.com/forrestchang/andrej-karpathy-skills) 单周 23062 stars 的热度。\n\n一个周末可以做成可用产品：VSCode 或终端插件，支持扫描仓库、生成团队规范、为 agent 命令加 dry-run、对生产数据库操作弹出强确认，并记录 agent 行为日志。增长钩子来自 [ai agent](https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d) 关联查询里「ai agent production database wipe」+4550% 这类焦虑词。",
+          "items": [
+            {
+              "title": "mattpocock/skills",
+              "url": "https://github.com/mattpocock/skills",
+              "source": "GitHub",
+              "score": 30945
+            },
+            {
+              "title": "ai agent production database wipe",
+              "url": "https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 4550
+            }
+          ],
+          "takeaway": "今天最适合动手的是 agent 安全和 skills 治理，因为热度和恐惧同时存在。"
+        },
+        {
+          "id": "pricing-models",
+          "heading": "值得学习的定价和变现模式有哪些？",
+          "summary_md": "今天可借鉴的变现模式不是按 token 加价，而是按风险和工作流节点收费。比如 [openai/privacy-filter](https://huggingface.co/openai/privacy-filter) 有 92567 次下载，可以启发一个本地隐私过滤 SDK：个人免费，团队按席位收取日志审计、PII 策略、浏览器端部署和合规导出费用。\n\n另一个模式是 agent workspace 的专业版。[HiveTerm](https://www.producthunt.com/products/hiveterm)、[Warp](https://github.com/warpdotdev/warp)、[Symphony](https://www.producthunt.com/products/openai) 都在争夺开发入口，独立开发者可以避开正面竞争，做「团队 skills 模板市场」「MCP 安全策略包」「Claude Code 成本控制面板」。定价可以从每席每月 10 到 30 美元开始，企业版卖审计、权限和私有部署。",
+          "items": [
+            {
+              "title": "openai/privacy-filter",
+              "url": "https://huggingface.co/openai/privacy-filter",
+              "source": "HuggingFace",
+              "score": 504
+            },
+            {
+              "title": "HiveTerm",
+              "url": "https://www.producthunt.com/products/hiveterm",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "Warp",
+              "url": "https://github.com/warpdotdev/warp",
+              "source": "GitHub",
+              "score": 8399
+            }
+          ],
+          "takeaway": "AI 工具的可持续收费点在治理、隐私、成本控制和团队协作，而不是单次生成。"
+        },
+        {
+          "id": "counterintuitive",
+          "heading": "今天最反直觉的发现是什么？",
+          "summary_md": "反直觉之处在于，最热的 AI 编程资产并不是一个更强模型，而是一堆看似朴素的 skills 文件。[mattpocock/skills](https://github.com/mattpocock/skills) 单周新增 30945 stars，[forrestchang/andrej-karpathy-skills](https://github.com/forrestchang/andrej-karpathy-skills) 单周新增 23062 stars，远超许多模型应用项目。这说明开发者真正缺的不是更多能力，而是让能力稳定复用的操作规程。\n\n另一个反直觉是 [free claude code](https://trends.google.com/trends/explore?q=free+claude+code&date=now+7-d) 搜索下滑 -6.3%，但 [Alishahryar1/free-claude-code](https://github.com/Alishahryar1/free-claude-code) 单周新增 14666 stars。搜索降温可能只是话题扩散结束，GitHub 增长才说明硬需求还在。Builder 不应只盯 Google Trends 上升词，也要看开源收藏这种更接近行动的信号。",
+          "items": [
+            {
+              "title": "mattpocock/skills",
+              "url": "https://github.com/mattpocock/skills",
+              "source": "GitHub",
+              "score": 30945
+            },
+            {
+              "title": "Alishahryar1/free-claude-code",
+              "url": "https://github.com/Alishahryar1/free-claude-code",
+              "source": "GitHub",
+              "score": 14666
+            },
+            {
+              "title": "free claude code",
+              "url": "https://trends.google.com/trends/explore?q=free+claude+code&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": -6
+            }
+          ],
+          "takeaway": "今天真正稀缺的不是模型能力，而是把 agent 变得便宜、稳定、可复用的工程纪律。"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2026-05-01T09:19:52+00:00",
+  "reddit_highlights": [
+    {
+      "heading": "哪些定价和变现模型值得研究？",
+      "body_md": "**🔍 信号**：今天值得研究的包括 Reddit 上 $299/month 且流失更低，Indie Hackers 上四个月 $500k ARR，一个 $1.7M/year 产品化咨询，Hera Launch 的 AI 视频工作流，Mintlify 的文档编辑器，以及 Tinfoil 的 private AI chat/API。\n\n**白话说：** 当买家第一句就明白省下的时间、避开的风险或拿到的成品时，定价才成立。\n\n最清楚的小创始人定价课，仍然是从 $49/month 提到 $299/month 且流失更低。教训不是“盲目涨价”。而是如果问题足够具体，更高价格可以吸引更认真的买家。`CopyFail` 报告遵循同样逻辑：\"which machines need action?\" 是比 \"security dashboard\" 更锋利的付费任务。\n\nIndie Hackers 的服务故事重要，因为它们展示了产品化咨询如何变成软件。$1.7M/year 技术增强咨询围绕一个可重复的两周服务增长。这个模式对今天的建议有用：创始人可以先卖五份手工 CopyFail 暴露报告，再构建完整平台。软件跟着 checklist 走。\n\nProduct Hunt 展示了成品定价。[Hera Launch](https://www.producthunt.com/products/hera-6) 和 [VideoOS](https://www.producthunt.com/products/jupitrr) 卖完成的视频输出。[Mintlify Editor](https://www.producthunt.com/products/mintlify) 卖协作文档。[Tinfoil](https://www.producthunt.com/products/tinfoil-private-ai-chat) 把隐私卖成产品界面。[Tabstack](https://www.producthunt.com/products/tabstack) 卖 Web 数据抽取和浏览器自动化。\n\n对 MicroSaaS 来说，今天最好的变现路径是 `报告优先`：免费本地检查、付费团队导出、月度监控，或带服务辅助的设置流程。\n\n**关键判断**：研究报告优先定价；免费检查建立信任，付费周期性导出销售负责人、风险和修复历史。\n\n**反向视角**：安全和 AI 买家可能期待基础检查免费，所以付费层需要团队工作流、证明或周期性价值。\n\n---",
+      "source_url": "https://raw.githubusercontent.com/BuilderPulse/BuilderPulse/main/zh/2026/2026-05-01.md"
+    }
+  ]
+}
