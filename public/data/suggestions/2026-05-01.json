@@ -3,156 +3,146 @@
   "items": [
     {
       "id": "2026-05-01-1",
-      "title": "Cursor 替代潮不在编辑器里",
-      "angle": "从 Claude Code 桌面改版和终端工作区升温切入，写 AI 编程入口正在从单一 IDE 迁移到可调度的多代理工作台。",
-      "opening": "Claude Code 这次桌面改版，重点不是把按钮做漂亮，而是承认一个事实：程序员已经不再只和一个 AI 对话。与此同时，Warp 单周新增 8399 stars，HiveTerm 也在抢多模型终端入口，新的战场可能根本不在编辑器里。",
+      "title": "程序员快变成调度员了",
+      "angle": "从 Claude Code 桌面版改版切入，讲 AI 编程的核心变化不是模型更强，而是人开始管理多个 agent 并行干活。",
+      "opening": "Claude Code 这次改版最重要的地方，不是又多了一个聊天框。它直接承认了一件事：AI 编程已经从“我问你答”，变成“我同时派几个工人去不同仓库干活”。",
       "story_hook": {
-        "challenge": "大家还在讨论谁是 Cursor 替代品，但用户真正想迁移的是编辑器、终端、上下文和 agent 调度权。",
-        "twist": "赢家未必是补全更强的 IDE，而是能让多个 agent 同时跑、可看 diff、可回滚、可审计的工作台。"
+        "challenge": "开发者想要更高产，但多个 agent、多个仓库、多个 diff 会把工作流变得更乱。",
+        "twist": "真正值钱的产品形态，可能不是更聪明的 coding agent，而是能让人坐在调度席上控场的桌面工作台。"
       },
-      "takeaway": "开发者选型时别只比较补全质量，要看工具能不能承载多模型、多仓库、多任务和团队规范。",
+      "takeaway": "做 AI 编程工具时，优先设计任务编排、diff 审查、测试回路和上下文切换，而不是只包装模型调用。",
       "refs": [
         {
           "tag": "builders",
-          "ref": "Claude Blog：Redesigning Claude Code on desktop for parallel agents",
+          "ref": "Claude Blog: Redesigning Claude Code on desktop for parallel agents",
           "url": "https://claude.com/blog/claude-code-desktop-redesign"
         },
         {
           "tag": "pulse",
-          "ref": "warpdotdev/warp 单周新增 8399 stars",
-          "url": "https://github.com/warpdotdev/warp"
+          "ref": "ProductHunt HiveTerm 指向多代理桌面工作台趋势",
+          "url": "https://www.producthunt.com/products/hiveterm"
         },
         {
           "tag": "pulse",
-          "ref": "Product Hunt：HiveTerm 多模型终端工作区",
-          "url": "https://www.producthunt.com/products/hiveterm"
+          "ref": "warpdotdev/warp 日榜周增口径 3403 星",
+          "url": "https://github.com/warpdotdev/warp"
         }
       ]
     },
     {
       "id": "2026-05-01-2",
-      "title": "最热资产不是模型，是规矩",
-      "angle": "用 skills 仓库暴涨和 Karpathy 的“理解不能外包”形成反差，写 AI 编程从模型崇拜进入工程纪律竞争。",
-      "opening": "今天 GitHub 上最刺眼的数字不是某个新模型，而是 mattpocock/skills 单周新增 30945 stars。更反直觉的是，Karpathy 同一天提醒大家：思考可以外包，理解不能外包。",
+      "title": "最热 AI 项目像配置文件",
+      "angle": "用 GitHub skills 项目暴涨反打“大模型万能论”：团队真正缺的不是新模型，而是可复用的 agent 行为规范。",
+      "opening": "今天 GitHub 最刺眼的数字不是某个新模型，而是 mattpocock/skills 一周新增 30945 星。听起来很土：技能、规则、prompt、examples。但这可能正是 AI 编程进入企业前最缺的一层。",
       "story_hook": {
-        "challenge": "AI 越能写代码，团队越缺的反而不是更强模型，而是可复用、可审计、能约束行为的操作规程。",
-        "twist": "所谓 agent 能力提升，最后可能沉淀成一堆朴素的 skills 文件、CLAUDE.md 和团队规则。"
+        "challenge": "公司想让 agent 稳定产出，但每个人都在用自己的 prompt、上下文和习惯。",
+        "twist": "越接近落地，越不像魔法，反而越像团队工程规范、版本控制和效果评测。"
       },
-      "takeaway": "把团队经验写成 skills、检查清单和回滚策略，可能比追逐下一个模型升级更直接提升产出稳定性。",
+      "takeaway": "把热门 agent 技巧产品化时，应该做团队级技能库、审计、版本管理和 before/after 评测，而不是只复制 README。",
       "refs": [
         {
           "tag": "builders",
-          "ref": "Andrej Karpathy：理解不能外包",
+          "ref": "Andrej Karpathy: 思考可以外包，理解不能外包",
           "url": "https://x.com/karpathy/status/2049907410303865030"
         },
         {
           "tag": "pulse",
-          "ref": "mattpocock/skills 单周新增 30945 stars",
+          "ref": "mattpocock/skills 一周新增 30945 星",
           "url": "https://github.com/mattpocock/skills"
         },
         {
           "tag": "pulse",
-          "ref": "forrestchang/andrej-karpathy-skills 单周新增 23062 stars",
+          "ref": "forrestchang/andrej-karpathy-skills 一周新增 23062 星",
           "url": "https://github.com/forrestchang/andrej-karpathy-skills"
         }
       ]
     },
     {
       "id": "2026-05-01-3",
-      "title": "Agent 安全开始收税了",
-      "angle": "从 Claude Security beta、网络安全拐点和数据库事故搜索暴涨切入，写 agent 安全从成本中心变成新收费点。",
-      "opening": "Cat Wu 说 Claude Security 已经进了 Claude Code：把仓库丢进去，它给你验证过的漏洞结论。另一边，Google Trends 里“ai agent production database wipe”暴涨，开发者终于开始为 agent 的破坏力付费。",
+      "title": "软件公司要靠 API 续命",
+      "angle": "从 Aaron Levie 的判断切入：agent 会让软件收入从人类 seat 转向无头 API 调用和消费计费。",
+      "opening": "Aaron Levie 说得很直：Agent 会把软件从 UI 生意逼成 API 生意。人的 seat 还在，但真正的新增用量，会来自那些不登录界面、只在后台调用你的 agent。",
       "story_hook": {
-        "challenge": "过去大家嫌安全流程拖慢开发，现在 agent 把提交、终端、数据库操作连在一起，事故半径突然变大。",
-        "twist": "最能赚钱的 AI 安全产品，可能不是新扫描器，而是嵌在 agent 工作流里的强确认、dry-run、审计日志和回滚。"
+        "challenge": "传统 SaaS 习惯按人头收费，但 agent 的使用量可能远超人类用户。",
+        "twist": "未来不是 UI 消失，而是 UI 变成控制台，API 才是主要收入入口。"
       },
-      "takeaway": "做 AI 工具别只卖效率，应该把权限、审计、隐私过滤和事故回放设计成核心付费功能。",
+      "takeaway": "SaaS 产品现在就该补齐 API 权限、用量计费、审计日志和 agent 专用套餐，否则会被外部 agent 绕过界面价值。",
       "refs": [
         {
           "tag": "builders",
-          "ref": "Cat Wu：Claude Security 公开 beta",
-          "url": "https://x.com/_catwu/status/2049964403177689130"
-        },
-        {
-          "tag": "builders",
-          "ref": "Aditya Agarwal：网络安全正在跨过关键拐点",
-          "url": "https://x.com/adityaag/status/2049941075872113145"
+          "ref": "Aaron Levie: Agent 会把软件从 UI 生意逼成 API 生意",
+          "url": "https://x.com/levie/status/2050051426446152159"
         },
         {
           "tag": "pulse",
-          "ref": "Google Trends：ai agent production database wipe +4550%",
-          "url": "https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d"
+          "ref": "HiveTerm 把 Claude、Codex、Gemini 放进 workspace",
+          "url": "https://www.producthunt.com/products/hiveterm"
         },
         {
           "tag": "pulse",
-          "ref": "openai/privacy-filter 下载 92567 次",
+          "ref": "openai/privacy-filter 下载 92567，指向可嵌入式 API 场景",
           "url": "https://huggingface.co/openai/privacy-filter"
         }
       ]
     },
     {
       "id": "2026-05-01-4",
-      "title": "SaaS 的座位费危险了",
-      "angle": "用 Aaron Levie 的 API 生意判断，对照 agent workspace 和隐私组件热度，写软件定价从人头转向机器调用和治理额度。",
-      "opening": "Aaron Levie 今天把话说得很直：Agent 会把软件从 UI 生意逼成 API 生意。人的 seat 还在，但如果 seat 不自带足够 API 用量，这个产品可能一开始就死了。",
+      "title": "AI 安全正在进编辑器",
+      "angle": "把 Claude Security beta、Claw 安全修复和 privacy-filter 连起来，讲安全从独立扫描工具变成编码环境里的实时动作。",
+      "opening": "以前安全工具像年检：写完代码，再交给扫描器挑毛病。今天的信号变了，Claude Security 直接塞进 Claude Code，仓库丢进去，漏洞发现和修复都在同一个写代码的地方完成。",
       "story_hook": {
-        "challenge": "传统 SaaS 靠人登录、点界面、按座位收费，但 agent 不看界面，只会批量调用 API。",
-        "twist": "未来真正的增量收入，可能来自 agent 的无头调用、策略包、审计额度和成本控制，而不是更多用户席位。"
+        "challenge": "AI agent 写代码越快，安全问题也会越快扩散。",
+        "twist": "安全产品的入口不再是单独 dashboard，而是开发者已经打开的编辑器、agent harness 和代码审查流程。"
       },
-      "takeaway": "做 B2B AI 产品时，要尽早设计 agent 用量、API 权限、日志审计和团队治理的计费模型。",
+      "takeaway": "开发者安全工具应优先嵌入 IDE、PR、agent 工作流，并给出可验证漏洞结论和修复补丁，而不是只生成风险列表。",
       "refs": [
         {
           "tag": "builders",
-          "ref": "Aaron Levie：Agent 会把软件从 UI 生意逼成 API 生意",
-          "url": "https://x.com/levie/status/2050051426446152159"
+          "ref": "Cat Wu: Claude Security 公开 beta，塞进网页版 Claude Code",
+          "url": "https://x.com/_catwu/status/2049964403177689130"
+        },
+        {
+          "tag": "builders",
+          "ref": "Peter Steinberger: 联合 NVIDIA、OpenAI、Microsoft、GitHub 等补 Claw 安全问题",
+          "url": "https://x.com/steipete/status/2049976855617314991"
         },
         {
           "tag": "pulse",
-          "ref": "HiveTerm 抢多模型 agent 工作区入口",
-          "url": "https://www.producthunt.com/products/hiveterm"
-        },
-        {
-          "tag": "pulse",
-          "ref": "openai/privacy-filter 可启发团队隐私过滤 SDK 定价",
+          "ref": "openai/privacy-filter 热度 499、下载 92567",
           "url": "https://huggingface.co/openai/privacy-filter"
         }
       ]
     },
     {
       "id": "2026-05-01-5",
-      "title": "AI 做图从玩具变成工位",
-      "angle": "把 GPT Image 2 做幻灯片、缩略图需求和 HuggingFace 图像 Spaces 热度放在一起，写多模态生成正在进入日常内容生产链。",
-      "opening": "Zara Zhang 说用 ChatGPT Image 2 做幻灯片已经会上瘾，Peter Yang 则直接问：谁真的做出了能打的 YouTube 缩略图？这说明 AI 作图的评价标准变了，不是像不像，而是能不能进工位、进会议、进增长漏斗。",
+      "title": "小工具赢过泛 AI 助手",
+      "angle": "用 WhatCable 和桌面效率工具反打泛 AI 助手：用户更愿意奖励一个窄到离谱但每天有用的入口。",
+      "opening": "一个检测 USB-C 线缆的小菜单栏应用，在 HN 拿到 180 分和 65 条评论。它没有 agent，没有宏大愿景，但它解决的问题足够具体：这根线到底能不能用。",
       "story_hook": {
-        "challenge": "过去 AI 图像生成靠惊艳传播，但真实工作流要的是尺寸稳定、文字可控、能改稿、能反复产出。",
-        "twist": "最有价值的产品未必是更大的图像模型，而是把封面、PPT、缩略图、广告素材变成可批量迭代的工具链。"
+        "challenge": "AI 创业者都想做大平台，但用户的真实痛点常常小到不像创业题目。",
+        "twist": "越窄的桌面入口，越容易绕开 AI SaaS 红海，因为用户不用被教育。"
       },
-      "takeaway": "内容团队可以从一个固定场景入手测试 AI 作图，比如公众号封面或视频缩略图，而不是泛泛尝试“生成海报”。",
+      "takeaway": "周末项目可以从菜单栏、截图、文件、隐私、外设检测这类高频小痛点切入，再把 AI 做成后台能力，而不是首页卖点。",
       "refs": [
         {
           "tag": "builders",
-          "ref": "Zara Zhang：用 ChatGPT Image 2 做幻灯片会上瘾",
-          "url": "https://x.com/zarazhangrui/status/2050084126414471221"
-        },
-        {
-          "tag": "builders",
-          "ref": "Peter Yang：征集 GPT Image 2 YouTube 缩略图 prompt",
-          "url": "https://x.com/petergyang/status/2050022980688966081"
+          "ref": "Dan Shipper: Codex + Chronicle 做专注力追踪器",
+          "url": "https://x.com/danshipper/status/2049913064561258986"
         },
         {
           "tag": "pulse",
-          "ref": "HuggingFace Space：FireRed-Image-Edit-1.0-Fast",
-          "url": "https://huggingface.co/spaces/prithivMLmods/FireRed-Image-Edit-1.0-Fast"
+          "ref": "WhatCable 在 HN 获得 180 分和 65 条评论",
+          "url": "https://github.com/darrylmorley/whatcable"
         },
         {
           "tag": "pulse",
-          "ref": "HuggingFace Space：microsoft/TRELLIS.2",
-          "url": "https://huggingface.co/spaces/microsoft/TRELLIS.2"
+          "ref": "PeekFocus 指向桌面效率和专注力工具需求",
+          "url": "https://www.producthunt.com/products/peekfocus"
         }
       ]
     }
   ],
-  "notes": "今日主线高度集中在 agent 工作流：入口迁移、skills 治理、安全事故和商业化计费都指向同一件事，AI 工具正在从“能生成”进入“能被团队稳定使用”。",
-  "generated_at": "2026-05-01T09:20:52+00:00",
+  "notes": "今日主线很清楚：热点不在泛聊天机器人，而在 agent 工作流、团队技能库、API 化、安全内嵌和窄桌面入口。适合写给开发者和独立产品人的角度，是“AI 正在变土，也正在变可收费”。",
+  "generated_at": "2026-05-01T13:12:38+00:00",
   "model": "gpt-5.5"
 }
