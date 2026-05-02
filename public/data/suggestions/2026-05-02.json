@@ -1,0 +1,173 @@
+{
+  "date": "2026-05-02",
+  "items": [
+    {
+      "id": "2026-05-02-1",
+      "title": "提示词市场正在变技能市场",
+      "angle": "从 GitHub 暴涨的 skills repo 切入：AI 时代真正变贵的不是 prompt，而是可执行、可审计、可复用的团队经验。",
+      "opening": "一个 skills 仓库一周涨了 33628 星，另一个 Karpathy skills 仓库涨了 21896 星。开发者突然意识到：写给人的文档不够了，下一代知识库要能被 Agent 直接执行。",
+      "story_hook": {
+        "challenge": "大家还在争论哪个模型更强时，真正的工程瓶颈已经变成了上下文、规则和操作规程怎么沉淀。",
+        "twist": "最像基础设施的东西，可能不是新 Agent，而是一堆看起来朴素的 markdown 技能文件。"
+      },
+      "takeaway": "团队应该开始把高频开发流程、代码规范、设计偏好和排障经验整理成版本化的 Agent skills，而不是继续散落在 prompt、群聊和个人记忆里。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Zara Zhang：很多人把 coding agent 当员工，他把它当联合创始人",
+          "url": "https://x.com/zarazhangrui/status/2050326543797469415"
+        },
+        {
+          "tag": "builders",
+          "ref": "Peter Steinberger：Codex 新出的 /goal 功能很炸",
+          "url": "https://x.com/steipete/status/2050275598178586921"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub 周榜 mattpocock/skills 一周新增 33628 星",
+          "url": "https://github.com/mattpocock/skills"
+        },
+        {
+          "tag": "pulse",
+          "ref": "mksglu/context-mode 主打 98% token reduction",
+          "url": "https://github.com/mksglu/context-mode"
+        }
+      ]
+    },
+    {
+      "id": "2026-05-02-2",
+      "title": "Slack搜索被Codex偷家了",
+      "angle": "从 Swyx 说 Codex 搜 Slack 比 Slack AI Search 好用切入，讨论 AI 产品的边界正在被任务型 Agent 重画。",
+      "opening": "一个写代码的 AI，顺手把 Slack 自家的 AI 搜索干赢了。这个信号比一次产品吐槽更狠：用户不会按厂商定义使用 AI，只会把问题交给最能解决事的入口。",
+      "story_hook": {
+        "challenge": "企业软件以为自己的数据和场景会形成护城河，但 Agent 可以跨工具读取、总结和执行。",
+        "twist": "被替代的不是 Slack，而是 Slack 里那个单独收费、单独包装的 AI Search 心智。"
+      },
+      "takeaway": "做 AI 产品时不要只问“我能不能加个搜索框”，而要问用户当前任务会不会被更通用的工作台顺手完成。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Swyx：Codex 连搜 Slack 都比 Slack 自家的 AI 搜索好用",
+          "url": "https://x.com/swyx/status/2050432398161264664"
+        },
+        {
+          "tag": "builders",
+          "ref": "Aaron Levie：AI 代理越多，系统记录层越重要",
+          "url": "https://x.com/levie/status/2050295657836277764"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Ask.com has closed，HN 251 分、129 评论",
+          "url": "https://www.ask.com/"
+        },
+        {
+          "tag": "pulse",
+          "ref": "HiveTerm 把 Claude、Codex、Gemini 放进一个 workspace",
+          "url": "https://www.producthunt.com/products/hiveterm"
+        }
+      ]
+    },
+    {
+      "id": "2026-05-02-3",
+      "title": "$36,500 ARR不是胜利",
+      "angle": "用 Nikunj 的真实营收和 8-9 美元单份报告成本，拆 AI 小产品从能收钱到能赚钱之间的断层。",
+      "opening": "一个 builder 晒出 36500 美元 ARR，听起来已经穿过了冷启动。但下一条细节更刺眼：每份报告成本就要 8-9 美元，所以几乎按成本价卖。",
+      "story_hook": {
+        "challenge": "AI 产品最容易证明有人愿意付钱，却最难证明毛利、复购和规模化交付成立。",
+        "twist": "第一笔收入不是终点，反而是逼你直面推理成本、定价锚和用户质量的开始。"
+      },
+      "takeaway": "独立开发者做 AI 产品时，应该尽早把成本、交付单位和付费边界写进定价，而不是只用低价验证需求。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Nikunj Kothari：项目 ARR 已经到 36500 美元",
+          "url": "https://x.com/nikunj/status/2050407946438467878"
+        },
+        {
+          "tag": "builders",
+          "ref": "Nikunj Kothari：报告产品用 Railway、Conductor、Claude 和 Stripe 收款，单份成本 8-9 美元",
+          "url": "https://x.com/nikunj/status/2050353986742698400"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Cloud Computer by Manus 适合按云机器、执行时长或并发环境计费",
+          "url": "https://www.producthunt.com/products/manus"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Postiz 适合按社媒账号、排程量和团队席位计费",
+          "url": "https://www.producthunt.com/products/postiz"
+        }
+      ]
+    },
+    {
+      "id": "2026-05-02-4",
+      "title": "端侧隐私才是AI刚需",
+      "angle": "把 Peter Yang 买 Mac 跑本地模型的自嘲，和 privacy-filter、ScreenVeil、Feather 放在一起看：本地 AI 的付费理由不是炫技，而是数据边界。",
+      "opening": "花近 3000 美元买 MacBook Pro，说是为了跑本地模型，其实可能只是给消费找借口。但今天的产品信号很一致：用户确实想让 AI 离自己的屏幕、截图和私密数据更近一点。",
+      "story_hook": {
+        "challenge": "本地模型常被讲成性能和参数竞赛，可普通用户真正能感知的是隐私、延迟和“不上传”的安全感。",
+        "twist": "最容易赚钱的本地 AI，可能不是聊天助手，而是截图打码、窗口遮挡、图片编辑这种小动作。"
+      },
+      "takeaway": "消费级 AI 产品可以优先从截图、剪贴板、邮件、录屏和图片编辑切入，用本地处理和隐私过滤建立明确付费理由。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Peter Yang：买 MacBook Pro 跑本地模型，更像给消费找体面借口",
+          "url": "https://x.com/petergyang/status/2050394924395434233"
+        },
+        {
+          "tag": "pulse",
+          "ref": "openai/privacy-filter，HuggingFace trending score 460、下载 99399",
+          "url": "https://huggingface.co/openai/privacy-filter"
+        },
+        {
+          "tag": "pulse",
+          "ref": "ScreenVeil 隐藏屏幕敏感内容",
+          "url": "https://www.producthunt.com/products/screenveil"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Feather 做本地 AI 图片编辑",
+          "url": "https://www.producthunt.com/products/feather-18"
+        }
+      ]
+    },
+    {
+      "id": "2026-05-02-5",
+      "title": "推理云正在分裂成无数小云",
+      "angle": "从 Baseten CEO 谈推理爆炸切入，连接 Manus 的 bot 云机器和 Montage 的 agentic UI：AI 基建正在从通用 API 走向垂直执行环境。",
+      "opening": "AI 推理不是简单变贵，而是开始长出不同形状。有人要通用模型 API，有人要专用模型，有人干脆给 bot 准备一台云电脑。",
+      "story_hook": {
+        "challenge": "过去大家把推理当作模型供应商的后端能力，现在越来越多产品要自己控制执行环境、成本、延迟和数据。",
+        "twist": "下一批基础设施公司不一定卖模型，可能卖的是 Agent 能住进去、跑起来、被监管的工作空间。"
+      },
+      "takeaway": "关注 AI 基建时，不要只盯模型排行榜，也要看谁在掌握运行时、浏览器、云机器、工作台和垂直任务环境。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "No Priors：Baseten CEO Tuhin Srivastava 谈 AI inference crunch 和 inference cloud",
+          "url": "https://www.youtube.com/watch?v=XAbKflCncDo"
+        },
+        {
+          "tag": "builders",
+          "ref": "Aaron Levie：企业真正需要 AI 补上慢流程和长期技术能力缺口",
+          "url": "https://x.com/levie/status/2050240083325030404"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Cloud Computer by Manus 是为 bot 和软件准备的云机器",
+          "url": "https://www.producthunt.com/products/manus"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Montage 主打 agentic user interfaces runtime framework",
+          "url": "https://www.producthunt.com/products/montage-3"
+        }
+      ]
+    }
+  ],
+  "notes": "今日最强主线不是单个模型发布，而是 Agent 产品化后的配套层：技能文件、上下文压缩、执行环境、端侧隐私和定价锚。可写性最高的是 skills 市场和 AI 小产品定价，素材具体、有数字、有冲突。",
+  "generated_at": "2026-05-02T09:15:22+00:00",
+  "model": "gpt-5.5"
+}

@@ -1,0 +1,375 @@
+{
+  "date": "2026-05-02",
+  "top3": [
+    "今天最值得关注的是 AI Coding 的上下文工程正在产品化：mattpocock/skills 一周新增 33628 星，context-mode 主打 98% token reduction，说明开发者开始把提示词、技能和上下文压缩当成基础设施。",
+    "消费者级 AI 产品机会集中在本地隐私与轻量工作流：openai/privacy-filter、Feather、ScreenVeil、PeekFocus 都指向同一个需求，即 AI 能力要更靠近端侧和个人数据边界。",
+    "老入口关闭与新入口崛起同时发生：Ask.com 关闭拿到 HN 251 分、129 评论，而 Warp、Zed、HiveTerm、Ara 等新型开发与经营入口正在争夺 AI 原生工作台。"
+  ],
+  "intro": "今天的数据主线很清楚：AI Agent 不再只是模型能力竞争，而是进入「上下文、工作台、端侧隐私、垂直执行环境」的产品化阶段。Builder 最该关注的不是再做一个聊天框，而是把高频工作流压缩成可复用技能、可托管环境和可收费的窄入口。",
+  "sections": [
+    {
+      "id": "discovery",
+      "title": "发现机会",
+      "blocks": [
+        {
+          "id": "indie-products",
+          "heading": "今天有哪些独立开发者的新产品？",
+          "summary_md": "HN Show HN 今日没有采集到条目，Product Hunt 数据也未提供票数与评论数，因此不能按热度精确排序；但从产品方向看，值得盯住的是几个窄场景工具：[Breaks](https://www.producthunt.com/products/breaks) 做菜单栏 Pomodoro，[PeekFocus](https://www.producthunt.com/products/peekfocus) 一键虚化非活动窗口，[ScreenVeil](https://www.producthunt.com/products/screenveil) 隐藏屏幕敏感内容，[Feather](https://www.producthunt.com/products/feather-18) 做本地 AI 图片编辑。它们共同点不是模型强，而是把 AI 或自动化嵌进一个极小、极频繁、可立即感知价值的桌面动作里。",
+          "items": [
+            {
+              "title": "Breaks",
+              "url": "https://www.producthunt.com/products/breaks",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "PeekFocus",
+              "url": "https://www.producthunt.com/products/peekfocus",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "ScreenVeil",
+              "url": "https://www.producthunt.com/products/screenveil",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "Feather",
+              "url": "https://www.producthunt.com/products/feather-18",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "小工具的机会不在大而全，而在把一个高频摩擦点做到无需解释。"
+        },
+        {
+          "id": "github-traction",
+          "heading": "GitHub 上哪些高增长开源项目还没有商业化？",
+          "summary_md": "GitHub 周榜最强信号是「技能文件」和「Agent 工程化」。[mattpocock/skills](https://github.com/mattpocock/skills) 一周新增 33628 星、总星 53508；[forrestchang/andrej-karpathy-skills](https://github.com/forrestchang/andrej-karpathy-skills) 一周新增 21896 星、总星 105382；[mksglu/context-mode](https://github.com/mksglu/context-mode) 一周新增 1938 星，直接把卖点写成 98% reduction。这里的商业化缺口很明显：团队不是缺模型，而是缺可审计、可版本化、可共享的 Agent 操作规程。",
+          "items": [
+            {
+              "title": "mattpocock/skills",
+              "url": "https://github.com/mattpocock/skills",
+              "source": "GitHub",
+              "score": 33628
+            },
+            {
+              "title": "forrestchang/andrej-karpathy-skills",
+              "url": "https://github.com/forrestchang/andrej-karpathy-skills",
+              "source": "GitHub",
+              "score": 21896
+            },
+            {
+              "title": "mksglu/context-mode",
+              "url": "https://github.com/mksglu/context-mode",
+              "source": "GitHub",
+              "score": 1938
+            }
+          ],
+          "takeaway": "Agent 时代的 Notion 模板市场，正在变成可执行技能市场。"
+        }
+      ]
+    },
+    {
+      "id": "tech-stack",
+      "title": "技术选型",
+      "blocks": [
+        {
+          "id": "deprecations",
+          "heading": "有没有大公司关闭或降级了产品？",
+          "summary_md": "HN 今日最像时代切换标志的新闻是 [Ask.com has closed](https://www.ask.com/)，251 分、129 评论。它不是典型开发者工具 EOL，但作为早期问答搜索入口关闭，提醒 Builder：通用搜索入口的心智正在被 AI 助手、垂直知识库和工作流内嵌问答吃掉。对新产品来说，别再把「搜索」当独立页面，而应把检索、解释、执行塞进用户已有任务里。",
+          "items": [
+            {
+              "title": "Ask.com has closed",
+              "url": "https://www.ask.com/",
+              "source": "HN",
+              "score": 251
+            }
+          ],
+          "takeaway": "搜索入口会老去，但任务内问答会继续增长。"
+        },
+        {
+          "id": "dev-tools",
+          "heading": "本周增长最快的开发者工具是什么？",
+          "summary_md": "本周开发者工具不是 IDE 单点爆发，而是「Agent 开发环境」成组抬头：[warpdotdev/warp](https://github.com/warpdotdev/warp) 日榜新增 3401 星，总星 52026，定位 agentic development environment；[1jehuang/jcode](https://github.com/1jehuang/jcode) 新增 403 星，是 Coding Agent Harness；[browserbase/skills](https://github.com/browserbase/skills) 新增 334 星，把浏览器工具接进 Claude Agent SDK。技术选型上，Rust 负责高性能本地壳，TypeScript 负责工作台与图谱，Shell 文件承担可移植技能协议。",
+          "items": [
+            {
+              "title": "warpdotdev/warp",
+              "url": "https://github.com/warpdotdev/warp",
+              "source": "GitHub",
+              "score": 3401
+            },
+            {
+              "title": "1jehuang/jcode",
+              "url": "https://github.com/1jehuang/jcode",
+              "source": "GitHub",
+              "score": 403
+            },
+            {
+              "title": "browserbase/skills",
+              "url": "https://github.com/browserbase/skills",
+              "source": "GitHub",
+              "score": 334
+            }
+          ],
+          "takeaway": "下一代开发工具的核心栈，是终端、浏览器、技能文件和 Agent Harness 的组合。"
+        },
+        {
+          "id": "hf-models",
+          "heading": "HuggingFace 上最热的模型能做什么消费级产品？",
+          "summary_md": "HuggingFace 热榜显示消费级机会集中在三类：通用推理、隐私过滤、多模态创作。[deepseek-ai/DeepSeek-V4-Pro](https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro) trending score 722、下载 381587；[openai/privacy-filter](https://huggingface.co/openai/privacy-filter) score 460、下载 99399，适合做本地邮件、截图、录屏的敏感信息清洗；[Qwen/Qwen3.6-27B](https://huggingface.co/Qwen/Qwen3.6-27B) 下载 1070778，配合图文输入可做个人知识整理和视觉问答。更轻的机会是把隐私过滤嵌进现有截图、剪贴板和浏览器插件。",
+          "items": [
+            {
+              "title": "deepseek-ai/DeepSeek-V4-Pro",
+              "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+              "source": "HuggingFace",
+              "score": 722
+            },
+            {
+              "title": "openai/privacy-filter",
+              "url": "https://huggingface.co/openai/privacy-filter",
+              "source": "HuggingFace",
+              "score": 460
+            },
+            {
+              "title": "Qwen/Qwen3.6-27B",
+              "url": "https://huggingface.co/Qwen/Qwen3.6-27B",
+              "source": "HuggingFace",
+              "score": 265
+            }
+          ],
+          "takeaway": "端侧隐私过滤比再做通用助手更容易形成明确付费理由。"
+        }
+      ]
+    },
+    {
+      "id": "competition",
+      "title": "竞争情报",
+      "blocks": [
+        {
+          "id": "migrations",
+          "heading": "有没有「XX is dead」或迁移类文章？",
+          "summary_md": "今天没有典型「XX is dead」迁移文章，但 [Ask.com has closed](https://www.ask.com/) 251 分、129 评论已经足够说明一类迁移：用户从站点型问答入口迁向任务型 AI 入口。与此同时，Product Hunt 上 [HiveTerm](https://www.producthunt.com/products/hiveterm) 直接把 Claude、Codex、Gemini 放进一个 workspace，[Ara](https://www.producthunt.com/products/dereference-the-100x-ide) 主张用短信构建业务。这些产品不是迁移搜索引擎，而是在迁移用户的工作起点。",
+          "items": [
+            {
+              "title": "Ask.com has closed",
+              "url": "https://www.ask.com/",
+              "source": "HN",
+              "score": 251
+            },
+            {
+              "title": "HiveTerm",
+              "url": "https://www.producthunt.com/products/hiveterm",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "Ara",
+              "url": "https://www.producthunt.com/products/dereference-the-100x-ide",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "真正的入口迁移不是换搜索框，而是换用户开始工作的地方。"
+        },
+        {
+          "id": "pricing-revenue",
+          "heading": "独立开发者在讨论什么营收和定价策略？",
+          "summary_md": "原始 HN 数据没有 MRR、ARR、pricing、subscription 或 revenue 关键词，但 Product Hunt 的产品形态给出定价线索：[Cloud Computer by Manus](https://www.producthunt.com/products/manus) 是为 bot 和软件准备的云机器，天然适合按计算时长或席位收费；[Postiz](https://www.producthunt.com/products/postiz) 是 agentic social media scheduler，适合按账号数和发布量收费；[TrafficClaw](https://www.producthunt.com/products/trafficclaw) 让用户对 SEO 与分析数据对话，适合按站点和数据源收费。AI 产品最稳的变现仍是绑定可计量资源，而不是只卖聊天次数。",
+          "items": [
+            {
+              "title": "Cloud Computer by Manus",
+              "url": "https://www.producthunt.com/products/manus",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "Postiz",
+              "url": "https://www.producthunt.com/products/postiz",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "TrafficClaw",
+              "url": "https://www.producthunt.com/products/trafficclaw",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "AI SaaS 的价格锚最好落在机器、账号、数据源和任务量上。"
+        }
+      ]
+    },
+    {
+      "id": "trends",
+      "title": "趋势判断",
+      "blocks": [
+        {
+          "id": "keywords",
+          "heading": "本周技术关键词频率有什么变化？",
+          "summary_md": "今日 google_trends_tracked 为空，不能给出搜索热度百分比；但从 GitHub 与 Product Hunt 的交叉频率看，「skills」「agentic」「coding agent」「cloud machine」是最强词组。[mattpocock/skills](https://github.com/mattpocock/skills) 周增 33628 星，[browserbase/skills](https://github.com/browserbase/skills) 日增 334 星，[obra/superpowers](https://github.com/obra/superpowers) 也把自己定义成 agentic skills framework。关键词背后的判断是：开发者正在把一次性提示词迁移成可复用、可维护、可分发的工程资产。",
+          "items": [
+            {
+              "title": "mattpocock/skills",
+              "url": "https://github.com/mattpocock/skills",
+              "source": "GitHub",
+              "score": 33628
+            },
+            {
+              "title": "browserbase/skills",
+              "url": "https://github.com/browserbase/skills",
+              "source": "GitHub",
+              "score": 334
+            },
+            {
+              "title": "obra/superpowers",
+              "url": "https://github.com/obra/superpowers",
+              "source": "GitHub",
+              "score": 1096
+            }
+          ],
+          "takeaway": "提示词会继续存在，但增长最快的是可执行、可共享的技能层。"
+        },
+        {
+          "id": "vc-radar",
+          "heading": "VC 和 YC 在关注什么主题？",
+          "summary_md": "如果只看今天样本，VC 雷达会落在三条线上：第一是 AI 原生开发环境，[Warp](https://github.com/warpdotdev/warp)、[Zed 1.0](https://www.producthunt.com/products/zed)、[HiveTerm](https://www.producthunt.com/products/hiveterm) 都在争夺工程师入口；第二是 Agent 执行基础设施，[Cloud Computer by Manus](https://www.producthunt.com/products/manus) 和 [Montage](https://www.producthunt.com/products/montage-3) 指向可运行、可编排的 agentic UI；第三是垂直 Agent，[Marx Finance](https://www.producthunt.com/products/marx-finance) 与 TradingAgents 把多 Agent 放进金融决策。",
+          "items": [
+            {
+              "title": "Warp",
+              "url": "https://github.com/warpdotdev/warp",
+              "source": "GitHub",
+              "score": 3401
+            },
+            {
+              "title": "Cloud Computer by Manus",
+              "url": "https://www.producthunt.com/products/manus",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "TauricResearch/TradingAgents",
+              "url": "https://github.com/TauricResearch/TradingAgents",
+              "source": "GitHub",
+              "score": 6152
+            }
+          ],
+          "takeaway": "资本会继续追逐能控制工作入口、运行环境和高价值垂直任务的 Agent 公司。"
+        },
+        {
+          "id": "new-radar",
+          "heading": "新词雷达：有哪些从零起飞的新概念？",
+          "summary_md": "google_trends_breakouts 今日为空，所以新词只能从产品命名与 repo 描述里读弱信号。最值得记录的是「agentic user interfaces」：[Montage](https://www.producthunt.com/products/montage-3) 直接把它写成 runtime framework；「cloud machine for bots」由 [Cloud Computer by Manus](https://www.producthunt.com/products/manus) 推出；「zero-server code intelligence」来自 [GitNexus](https://github.com/abhigyanpatwari/GitNexus)，周增 5376 星。它们共同指向一个新范式：AI 产品不再只是对话，而是带有运行时、界面协议和本地知识图谱的可操作系统。",
+          "items": [
+            {
+              "title": "Montage",
+              "url": "https://www.producthunt.com/products/montage-3",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "Cloud Computer by Manus",
+              "url": "https://www.producthunt.com/products/manus",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "abhigyanpatwari/GitNexus",
+              "url": "https://github.com/abhigyanpatwari/GitNexus",
+              "source": "GitHub",
+              "score": 5376
+            }
+          ],
+          "takeaway": "新词的方向很一致：Agent 需要自己的运行时、界面层和知识底座。"
+        }
+      ]
+    },
+    {
+      "id": "actions",
+      "title": "行动触发",
+      "blocks": [
+        {
+          "id": "weekend-build",
+          "heading": "今天 2 小时和一个周末分别做什么？",
+          "summary_md": "2 小时可以做一个「个人技能文件审计器」：读取用户的 CLAUDE.md、AGENTS.md、prompt 文件，输出重复指令、冲突规则和可模块化的 skills 清单，借 [mattpocock/skills](https://github.com/mattpocock/skills) 的热度切入。一个周末则可以做成浏览器版 repo knowledge graph：参考 [GitNexus](https://github.com/abhigyanpatwari/GitNexus) 周增 5376 星的需求，把 GitHub repo 拖进去后生成文件依赖图、README 风格解释和可追问 RAG。差异化不要做更强模型，而是做团队可保存、可分享、可回滚的知识资产。",
+          "items": [
+            {
+              "title": "mattpocock/skills",
+              "url": "https://github.com/mattpocock/skills",
+              "source": "GitHub",
+              "score": 33628
+            },
+            {
+              "title": "abhigyanpatwari/GitNexus",
+              "url": "https://github.com/abhigyanpatwari/GitNexus",
+              "source": "GitHub",
+              "score": 5376
+            }
+          ],
+          "takeaway": "周末项目要避开模型竞赛，贴着团队工作流的沉淀层做。"
+        },
+        {
+          "id": "pricing-models",
+          "heading": "值得学习的定价和变现模式有哪些？",
+          "summary_md": "今天可借鉴的定价模型有三种：像 [Cloud Computer by Manus](https://www.producthunt.com/products/manus) 一样按云机器、执行时长或并发环境计费；像 [Postiz](https://www.producthunt.com/products/postiz) 一样按社媒账号、排程量和团队席位计费；像 [openai/privacy-filter](https://huggingface.co/openai/privacy-filter) 可启发的隐私工具一样，按本地设备数、企业策略模板和合规导出收费。AI 产品如果只按 token 定价，用户很难感知价值；如果按受保护数据、托管执行环境或业务输出计费，预算归属会清晰很多。",
+          "items": [
+            {
+              "title": "Cloud Computer by Manus",
+              "url": "https://www.producthunt.com/products/manus",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "Postiz",
+              "url": "https://www.producthunt.com/products/postiz",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "openai/privacy-filter",
+              "url": "https://huggingface.co/openai/privacy-filter",
+              "source": "HuggingFace",
+              "score": 460
+            }
+          ],
+          "takeaway": "最好的 AI 定价锚，是用户已经愿意为之付费的资源边界。"
+        },
+        {
+          "id": "counterintuitive",
+          "heading": "今天最反直觉的发现是什么？",
+          "summary_md": "最反直觉的是：今天涨得最快的并不全是更强模型，而是写给 Agent 看的规则、技能和环境。[mattpocock/skills](https://github.com/mattpocock/skills) 周增 33628 星，[forrestchang/andrej-karpathy-skills](https://github.com/forrestchang/andrej-karpathy-skills) 周增 21896 星，甚至 Product Hunt 上 [DESIGN.md by Google Stitch](https://www.producthunt.com/products/design-md-by-google-stitch) 也是把设计系统存成 AI agents can read 的文件。也就是说，AI 时代最稀缺的不是灵感提示词，而是把团队偏好、设计规范、工程经验写成机器能执行的长期记忆。",
+          "items": [
+            {
+              "title": "mattpocock/skills",
+              "url": "https://github.com/mattpocock/skills",
+              "source": "GitHub",
+              "score": 33628
+            },
+            {
+              "title": "forrestchang/andrej-karpathy-skills",
+              "url": "https://github.com/forrestchang/andrej-karpathy-skills",
+              "source": "GitHub",
+              "score": 21896
+            },
+            {
+              "title": "DESIGN.md by Google Stitch",
+              "url": "https://www.producthunt.com/products/design-md-by-google-stitch",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "把经验写成 Agent 可执行文件，可能比写一个新 Agent 更值钱。"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2026-05-02T09:14:16+00:00",
+  "reddit_highlights": [
+    {
+      "heading": "哪些定价和变现模型值得研究？",
+      "body_md": "**🔍 信号**：今天值得研究的包括：$49/month 提到 $299/month 后 churn 下降、Indie Hackers 上 Hermes 的 $9.99 unlimited-token plan、Flowly 的 $13,000/year hidden app loss，以及 burn2feel 的 50-cent novelty payments。\n\n**白话说：** 当客户能看见避免的损失，或者看懂自己买的是一个玩笑，定价才成立。\n\nReddit 上 $299/month 的教训，是最干净的严肃定价模型。提价筛出了有真实问题的客户。这对 ClawRoute Inspector 很重要：免费版可以扫描 public repos，但 private-repo policy drift 和 team allowlists 应该放在 paid plan 后面，因为买家保护的是付费 AI usage 和 private code。\n\n[Hermes $9.99 unlimited-token plan](https://www.indiehackers.com/post/big-news-hermes-gets-a-new-chat-ui-affordable-9-99-plan-with-unlimited-tokens-847830123f) 是相反的锚点：给讨厌 quota 的用户一个简单 consumer-style pricing。它很诱人，但今天的证据提醒我们，不要在 agent workflows 里承诺 unlimited。Unlimited plans 会制造隐藏滥用和 policy pressure。\n\n[Flowly](https://www.indiehackers.com/product/flowly?post=Oqnoj4nLfDCyNhC1ElDd) 说它在 apps 正常工作的情况下每年亏 $13,000。这是 report products 的完美模型：软件不需要替换 workflow，只需要揭示 cost leak。50-cent burn2feel launch 说明 novelty pricing 能换来注意力，但那不是 BuilderPulse 的目标。\n\n**关键判断**：把 ClawRoute Inspector 定价为 `avoided loss`，而不是 unlimited access；面向 private-repo warnings 的 $19/mo，比又一个 all-you-can-eat agent plan 更干净。\n\n**反向视角**：团队可能期待它是免费的 lint rule，所以付费版需要 maintained vendor policies 和 private workflow reporting。\n\n---",
+      "source_url": "https://raw.githubusercontent.com/BuilderPulse/BuilderPulse/main/zh/2026/2026-05-02.md"
+    }
+  ]
+}
