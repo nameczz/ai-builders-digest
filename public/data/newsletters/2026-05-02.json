@@ -1,0 +1,59 @@
+{
+  "date": "2026-05-02",
+  "generated_at": "2026-05-02T13:44:24+00:00",
+  "inbox_id": "sanyoumu@agentmail.to",
+  "window": {
+    "start": "2026-05-02T00:00:00+00:00",
+    "end": "2026-05-02T23:59:59.999999+00:00"
+  },
+  "count": 1,
+  "highlights": [
+    "AI Engineer World’s Fair 2026 开启第二波讲者征集，新增方向显示 AI 工程社区关注点正从模型调用转向自研究、记忆、世界模型、Agentic Commerce 和垂直 AI。",
+    "活动规模继续扩大：主办方称今年进入 Moscone West，并连续第三年翻倍，还将增加整整一天的议程。",
+    "机器人方向被单独强调，主办方为优质机器人演示提供免费展区空间。",
+    "面向早期创业者新增 Startup Battlefield，给 pre-series A 公司提供向 VC 和评委路演的场景。"
+  ],
+  "items": [
+    {
+      "id": "ai-engineer-worlds-fair-2026-wave-2",
+      "title_zh": "AI Engineer World’s Fair 2026 新增自研究、记忆、世界模型等重点赛道",
+      "title_original": "AI Engineer World's Fair — Autoresearch, Memory, World Models, Tokenmaxxing, Agentic Commerce, and Vertic…",
+      "source": "AINews / Latent Space",
+      "from": "AINews <swyx+ainews@substack.com>",
+      "subject": "[AINews] AI Engineer World's Fair — Autoresearch, Memory, World Models, Tokenmaxxing, Agentic Commerce, and Vertic…",
+      "url": "https://www.latent.space/p/ainews-ai-engineer-worlds-fair-autoresearch",
+      "message_id": "<20260502072155.3.45987e826192abfc@mg-d1.substack.com>",
+      "published_at": "2026-05-02T07:21:55.000Z",
+      "importance": "high",
+      "summary_zh": "AINews 宣布 AI Engineer World’s Fair 2026 第二波讲者征集，重点寻找 Autoresearch、Memory、World Models、Tokenmaxxing、Agentic Commerce，以及法律、医疗、GTM、金融等垂直 AI 方向的项目和实践分享。文章还提到活动今年迁入 Moscone West，议程继续扩张，并为机器人演示、早期创业公司路演新增空间。",
+      "deep_read_zh": "这封邮件表面上是一次活动征稿，但更有价值的是它透露了 AI 工程社区在 2026 年的主题迁移。过去一年，AI builder 的主线已经不只是“接入更强模型”或“做一个聊天界面”，而是围绕如何把模型嵌入可持续改进的系统：Autoresearch 指向递归自我改进、训练与评测 harness；Memory 关注代理或模型如何随着用户使用而变好；World Models 则把空间智能和对抗推理放到前台；Agentic Commerce 进一步追问代理如何为数据、API 和其他代理付费。Tokenmaxxing 的表述也很值得注意：它不是单纯鼓励更多 token 消耗，而是问公司领导者如何让 AI 工程团队更 AI-native，同时避免因为指标驱动造成浪费。垂直 AI 方面，法律、医疗、GTM、金融被列为更快变化的方向，政府和教育也开放但被判断为相对慢一些。活动层面，主办方称 AIE 受众已达到每月超过百万独立 AI 工程师，今年进入 Moscone West，并连续第三年扩张，还新增一天议程。机器人方向也被显著抬高，优质机器人 demo 可获得免费展区空间。对 builder 来说，这封邮件的重点不是参会本身，而是可以把这些新 track 当成一份行业需求雷达：哪里开始有真实项目、哪里需要基础设施、哪里可能出现新公司。",
+      "why_important": "它把 AI 工程的前沿议题压缩成一组清晰赛道，能帮助判断未来几个月开发者社区、基础设施公司和早期创业团队会集中讨论什么。相比单篇观点文，这类征稿方向通常更接近社区真实项目供给和市场兴趣。",
+      "impact": "独立开发者和创业团队可以据此重新审视选题：单纯包装模型 API 的空间会继续变窄，而记忆、评测、自我改进、代理支付、垂直工作流和机器人演示会更容易获得注意力。AI infra 团队也可以从这些方向反推工具链需求。",
+      "key_points": [
+        "AI Engineer World’s Fair 2026 开启第二波讲者征集，新增多个重点方向。",
+        "新方向包括 Autoresearch、Memory、World Models、Tokenmaxxing、Agentic Commerce 和垂直 AI。",
+        "垂直 AI 明确点名法律、医疗、GTM、金融，也开放政府和教育方向。",
+        "主办方称 AIE 观看量趋势至少达到 2025 年峰值的两倍，每月服务超过百万独立 AI 工程师。",
+        "今年活动进入 Moscone West，并将增加整整一天的演讲日程。",
+        "机器人 demo 获得免费展区空间，pre-series A 创业公司将有 Startup Battlefield 路演机会。"
+      ],
+      "reading_notes": [
+        "这些新增 track 哪些已经有成熟产品，哪些仍停留在概念或研究演示阶段？",
+        "Memory 和 Autoresearch 会不会成为下一轮 agent 产品差异化的核心基础设施？",
+        "Agentic Commerce 是否意味着代理间支付、权限、身份和结算会成为新平台机会？",
+        "垂直 AI 中被点名的法律、医疗、GTM、金融，哪些最适合小团队切入？"
+      ],
+      "tags": [
+        "AI工程",
+        "Agent",
+        "AI基础设施",
+        "垂直AI",
+        "机器人",
+        "创业"
+      ],
+      "related_sources": []
+    }
+  ],
+  "skipped": [],
+  "notes": "今日邮件数据中只有一封正式 newsletter，因此将 AINews 的 AI Engineer World’s Fair 2026 征稿与赛道变化作为今日精读。没有发现重复来源；内容偏活动公告，但其中的新增赛道对 AI builder 判断技术与产品趋势有较高参考价值。"
+}
