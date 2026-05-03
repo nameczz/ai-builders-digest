@@ -1,0 +1,158 @@
+{
+  "date": "2026-05-03",
+  "items": [
+    {
+      "id": "2026-05-03-1",
+      "title": "一人一百个 agent 怎么管",
+      "angle": "从个人生产力跃迁切入：真正的瓶颈不再是会不会用 agent，而是团队如何管理并行智能体的行为规范。",
+      "opening": "Amjad 说现在可以一次开 10 个项目，每个项目再拉 10 个 agent 并行跑。这听起来像爽文，但 GitHub 今天最爆的不是新 IDE，而是 skills 仓库。",
+      "story_hook": {
+        "challenge": "AI 编程从单人单线程变成多人多 agent 并行，经验、规范和权限开始失控。",
+        "twist": "最值钱的产品可能不是更聪明的 agent，而是把高手的使用习惯变成团队资产的管理层。"
+      },
+      "takeaway": "读者应把自己的 Claude Code、Codex、Cursor 工作流沉淀成可复用 skills，并开始思考团队级版本管理、评测和权限边界。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Amjad Masad 关于 10 个项目 × 10 个 agent 并行的推文",
+          "url": "https://x.com/amasad/status/2050793150713864678"
+        },
+        {
+          "tag": "builders",
+          "ref": "Dan Shipper 关于未来工作由常驻 agent 和应用共同完成的推文",
+          "url": "https://x.com/danshipper/status/2050583747041640608"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub 高增长项目 mattpocock/skills 单周新增 35324 星",
+          "url": "https://github.com/mattpocock/skills"
+        }
+      ]
+    },
+    {
+      "id": "2026-05-03-2",
+      "title": "agent 删库成了新流量词",
+      "angle": "从事故治理切入：agent 产品的卖点正在从“能做更多”转向“别把生产环境搞坏”。",
+      "opening": "今天最刺眼的趋势词不是 ai agent，而是 ai agent deletes database。泛 agent 搜索在降温，删库事故却破圈，这说明市场注意力已经从炫技转到问责。",
+      "story_hook": {
+        "challenge": "agent 能操作文件、代码和数据库后，企业真正怕的不是它不够聪明，而是它太敢动手。",
+        "twist": "预算可能不会流向更酷的聊天壳，而会流向 PR 检测、权限审计、沙箱和回放。"
+      },
+      "takeaway": "做 agent 工具时，优先补上权限、日志、回滚、冲突检测和数据库高危操作拦截，而不是继续堆演示能力。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Peter Yang 关于用 Codex 或 Claude Code 清理本机和 Google Workspace 是半危险操作的推文",
+          "url": "https://x.com/petergyang/status/2050623358488997917"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Google Trends 中 ai agent deletes database 破圈值 21950",
+          "url": "https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d"
+        },
+        {
+          "tag": "pulse",
+          "ref": "ProductHunt 产品 Rosentic 主打 coding agents 合并前互相破坏检测",
+          "url": "https://www.producthunt.com/products/rosentic"
+        }
+      ]
+    },
+    {
+      "id": "2026-05-03-3",
+      "title": "便宜模型不够，聪明又回来了",
+      "angle": "从模型选型反转切入：当开源模型持续压价，真正稀缺的不是 token 成本，而是关键任务里的可靠智能。",
+      "opening": "Sam Altman 说自己原本以为大家更想要便宜、更快的模型，结果发现最关键的还是变聪明。另一边，Kimi K2.6 在 HN 引发 269 分讨论，开源编码模型正在重新定价开发者工具。",
+      "story_hook": {
+        "challenge": "开发者既想降低模型成本，又不敢在关键代码任务上牺牲推理质量。",
+        "twist": "答案不是押单一模型，而是把强推理、批量改写、视觉上下文和失败回放拆成模型路由系统。"
+      },
+      "takeaway": "构建 AI 编程产品时，应默认设计多模型路由和 eval，而不是把 Claude、GPT 或某个开源模型当唯一后端。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Sam Altman 关于更聪明模型仍是关键的推文",
+          "url": "https://x.com/sama/status/2050671161915371998"
+        },
+        {
+          "tag": "builders",
+          "ref": "Training Data 对 Greg Brockman 的访谈：人类注意力成为新瓶颈",
+          "url": "https://www.youtube.com/playlist?list=PLOhHNjZItNnMm5tdW61JpnyxeYH5NDDx8"
+        },
+        {
+          "tag": "pulse",
+          "ref": "HN 关于 Kimi K2.6 编码挑战的讨论获得 269 分和 122 条评论",
+          "url": "https://thinkpol.ca/2026/04/30/an-open-weights-chinese-model-just-beat-claude-gpt-5-5-and-gemini-in-a-programming-challenge/"
+        },
+        {
+          "tag": "pulse",
+          "ref": "HuggingFace 模型 moonshotai/Kimi-K2.6 下载 755634 次",
+          "url": "https://huggingface.co/moonshotai/Kimi-K2.6"
+        }
+      ]
+    },
+    {
+      "id": "2026-05-03-4",
+      "title": "3 万 MAU 也救不了开源 AI",
+      "angle": "从 Vibe-kanban 关停切入：AI 产品的死亡线不是有没有用户，而是有没有能覆盖算力、支持和销售成本的商业模型。",
+      "opening": "Vibe-kanban 还有 3 万 MAU，却在台上直接宣布关停。这个故事很适合泼冷水：开源热度、社区口碑和真实收入之间，隔着一条很硬的现金流缝隙。",
+      "story_hook": {
+        "challenge": "AI 工具有用户、有口碑、有开源生命力，但可能没有足够清晰的付费锚点。",
+        "twist": "真正可持续的 agent SaaS 可能要卖企业治理、资源隔离和事故避免，而不是卖“更好用”。"
+      },
+      "takeaway": "评估 AI 项目时，不只看 MAU 和 GitHub 星数，要追问它按什么收费、谁有预算、毛利是否会被 token 和支持成本吃掉。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Swyx 关于 Vibe-kanban 有 3 万 MAU 仍关停的推文",
+          "url": "https://x.com/swyx/status/2050753293601935777"
+        },
+        {
+          "tag": "builders",
+          "ref": "Nikunj Kothari 关于基金只找下行兜底、短视撒钱的推文",
+          "url": "https://x.com/nikunj/status/2050779734116856137"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Cloud Computer by Manus 将云端机器包装成 bots 和软件专用环境",
+          "url": "https://www.producthunt.com/products/manus"
+        },
+        {
+          "tag": "pulse",
+          "ref": "ProductHunt 产品 Huddle01 VMs 提供给 agents 的虚拟机",
+          "url": "https://www.producthunt.com/products/huddle01-cloud-2"
+        }
+      ]
+    },
+    {
+      "id": "2026-05-03-5",
+      "title": "别只盯着终端，硬科技回来了",
+      "angle": "从 builder 注意力迁移切入：AI 圈沉迷代码代理时，美国硬科技和太空叙事正在重新吸走人才、资本和想象力。",
+      "opening": "Aditya Agarwal 直接提醒：别再只盯着控制台和终端了，真正的硬科技正在大规模生长。这个判断和今天的 agent 热潮放在一起看，反而更有意思：软件生产力暴涨后，下一批瓶颈可能在物理世界。",
+      "story_hook": {
+        "challenge": "AI builder 社区把大量注意力放在 coding agent、skills 和模型路由上，但硬件、太空和现实基础设施也在加速。",
+        "twist": "AI 编程效率提高后，不一定只会催生更多 SaaS，也可能降低硬科技团队的软件和仿真成本。"
+      },
+      "takeaway": "开发者和 PM 可以把 AI 工具链能力外溢到硬件、机器人、仿真、制造和太空相关场景，而不是只在 IDE 里内卷。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Aditya Agarwal 关于美国硬科技正在大规模生长、下一步把东西射进太空的推文",
+          "url": "https://x.com/adityaag/status/2050660894234059050"
+        },
+        {
+          "tag": "builders",
+          "ref": "Aaron Levie 关于 AI 提升工程师产能后会重启被成本砍掉的软件项目的推文",
+          "url": "https://x.com/levie/status/2050684160151617603"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub 增长榜中 agent skills 和工作流资产爆发",
+          "url": "https://github.com/forrestchang/andrej-karpathy-skills"
+        }
+      ]
+    }
+  ],
+  "notes": "今日主线很清楚：agent 概念降温，agent 工程化升温。选题应少写泛泛的“AI 生产力”，多抓并行协作、事故治理、模型路由、商业模式和硬科技外溢这几个具体冲突。",
+  "generated_at": "2026-05-03T09:18:59+00:00",
+  "model": "gpt-5.5"
+}
