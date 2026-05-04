@@ -24,7 +24,7 @@ import time as time_module
 import urllib.error
 import urllib.parse
 import urllib.request
-from datetime import date, datetime, time, timezone
+from datetime import date, datetime, time, timezone, timedelta
 from pathlib import Path
 from typing import Any
 
@@ -98,6 +98,36 @@ def day_window(date_str: str) -> tuple[datetime, datetime]:
     return start, end
 
 
+def collection_window(date_str: str, now: datetime | None = None) -> tuple[datetime, datetime, str]:
+    """Return the newsletter collection window for a run.
+
+    The daily cron runs in the morning. Some newsletters arrive after that run,
+    so today's digest should start from yesterday's successful run marker instead
+    of midnight. The prior digest's ``generated_at`` is the durable marker because
+    it is committed with the generated data. If it is missing, fall back to the
+    requested UTC calendar day.
+    """
+    end = now or datetime.now(timezone.utc)
+    if end.tzinfo is None:
+        end = end.replace(tzinfo=timezone.utc)
+    else:
+        end = end.astimezone(timezone.utc)
+
+    d = date.fromisoformat(date_str)
+    prev_path = NEWSLETTER_DIR / f"{(d - timedelta(days=1)).isoformat()}.json"
+    if prev_path.exists():
+        try:
+            prev = json.loads(prev_path.read_text(encoding="utf-8"))
+        except json.JSONDecodeError:
+            prev = {}
+        marker = parse_ts(str(prev.get("generated_at") or ""))
+        if marker and marker < end:
+            return marker.astimezone(timezone.utc), end, "previous_digest_generated_at"
+
+    start, _ = day_window(date_str)
+    return start, end, "calendar_day_fallback"
+
+
 def clean_text(text: str, limit: int = 5000) -> str:
     text = re.sub(r"\n{3,}", "\n\n", text or "")
     text = re.sub(r"View image: \([^)]*\)\s*Caption:\s*", "", text)
@@ -133,9 +163,9 @@ def first_content_url(msg: dict[str, Any]) -> str:
     return ""
 
 
-def fallback_digest(date_str: str, inbox_id: str, start: datetime, end: datetime, messages: list[dict[str, Any]], skipped: list[dict[str, str]]) -> dict[str, Any]:
+def fallback_digest(date_str: str, inbox_id: str, start: datetime, end: datetime, messages: list[dict[str, Any]], skipped: list[dict[str, str]], window_source: str = "") -> dict[str, Any]:
     items = []
-    for idx, msg in enumerate(messages[:8]):
+    for idx, msg in enumerate(messages):
         title = msg.get("subject") or "Untitled newsletter item"
         body = clean_text(msg.get("extracted_text") or msg.get("text") or msg.get("preview") or "", 1200)
         digest = hashlib.sha1((msg.get("message_id", "") + title).encode()).hexdigest()[:10]
@@ -164,7 +194,7 @@ def fallback_digest(date_str: str, inbox_id: str, start: datetime, end: datetime
         "date": date_str,
         "generated_at": now_iso(),
         "inbox_id": inbox_id,
-        "window": {"start": start.isoformat(), "end": end.isoformat()},
+        "window": {"start": start.isoformat(), "end": end.isoformat(), "source": window_source},
         "count": len(items),
         "highlights": [f"今日精读：{items[0]['title_zh']}"] + [item["title_zh"] for item in items[1:4]] if items else [],
         "items": items,
@@ -218,8 +248,8 @@ def call_llm(date_str: str, inbox_id: str, messages: list[dict[str, Any]]) -> di
     return None
 
 
-def normalize_digest(base: dict[str, Any], date_str: str, inbox_id: str, start: datetime, end: datetime, skipped: list[dict[str, str]]) -> dict[str, Any]:
-    items = (base.get("items") or [])[:8]
+def normalize_digest(base: dict[str, Any], date_str: str, inbox_id: str, start: datetime, end: datetime, skipped: list[dict[str, str]], window_source: str = "") -> dict[str, Any]:
+    items = base.get("items") or []
     for i, item in enumerate(items):
         item.setdefault("id", f"newsletter-{i+1:02d}")
         item.setdefault("importance", "high" if i == 0 else "medium")
@@ -235,7 +265,7 @@ def normalize_digest(base: dict[str, Any], date_str: str, inbox_id: str, start: 
         "date": date_str,
         "generated_at": now_iso(),
         "inbox_id": inbox_id,
-        "window": {"start": start.isoformat(), "end": end.isoformat()},
+        "window": {"start": start.isoformat(), "end": end.isoformat(), "source": window_source},
         "count": len(items),
         "highlights": (base.get("highlights") or [f"今日精读：{items[0].get('title_zh', '')}" if items else ""])[:5] if items else [],
         "items": items,
@@ -248,15 +278,15 @@ def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--date", default=date.today().isoformat())
     parser.add_argument("--no-llm", action="store_true")
-    parser.add_argument("--limit", type=int, default=50)
+    parser.add_argument("--limit", type=int, default=200)
     args = parser.parse_args()
 
     api_key = get("AGENTMAIL_API_KEY")
     if not api_key:
         raise SystemExit("AGENTMAIL_API_KEY is required (put it in .env.local or the environment)")
     inbox_id = pick_inbox(api_key, get("AGENTMAIL_INBOX_ID"))
-    start, end = day_window(args.date)
-    print(f"==> fetch-newsletters {args.date} inbox={inbox_id}")
+    start, end, window_source = collection_window(args.date)
+    print(f"==> fetch-newsletters {args.date} inbox={inbox_id} window={start.isoformat()}..{end.isoformat()} source={window_source}")
 
     listing = api_get(f"/inboxes/{urllib.parse.quote(inbox_id, safe='')}/messages", api_key)
     raw_messages = listing.get("messages") or []
@@ -266,7 +296,7 @@ def main() -> int:
 
     for brief in raw_messages[: args.limit]:
         ts = parse_ts(brief.get("timestamp", ""))
-        if not ts or ts < start or ts > end:
+        if not ts or ts <= start or ts > end:
             continue
         subject = brief.get("subject") or ""
         if SKIP_SUBJECT_RE.search(subject):
@@ -286,10 +316,10 @@ def main() -> int:
     write_json(raw_dir / "skipped.json", skipped)
 
     if args.no_llm:
-        digest = fallback_digest(args.date, inbox_id, start, end, selected, skipped)
+        digest = fallback_digest(args.date, inbox_id, start, end, selected, skipped, window_source)
     else:
         llm = call_llm(args.date, inbox_id, selected)
-        digest = normalize_digest(llm, args.date, inbox_id, start, end, skipped) if llm else fallback_digest(args.date, inbox_id, start, end, selected, skipped)
+        digest = normalize_digest(llm, args.date, inbox_id, start, end, skipped, window_source) if llm else fallback_digest(args.date, inbox_id, start, end, selected, skipped, window_source)
 
     write_json(NEWSLETTER_DIR / f"{args.date}.json", digest)
     update_index(NEWSLETTER_DIR)

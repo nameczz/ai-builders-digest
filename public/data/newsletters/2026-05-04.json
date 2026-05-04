@@ -1,14 +1,87 @@
 {
   "date": "2026-05-04",
-  "generated_at": "2026-05-04T00:46:13+00:00",
+  "generated_at": "2026-05-04T01:02:02+00:00",
   "inbox_id": "sanyoumu@agentmail.to",
   "window": {
-    "start": "2026-05-04T00:00:00+00:00",
-    "end": "2026-05-04T23:59:59.999999+00:00"
+    "start": "2026-05-03T00:46:09+00:00",
+    "end": "2026-05-04T01:01:15.396534+00:00",
+    "source": "previous_digest_generated_at"
   },
-  "count": 0,
-  "highlights": [],
-  "items": [],
+  "count": 2,
+  "highlights": [
+    "今日精读：Starbucks 回撤门店自动化，被 The Neuron 用来引出一个更大的 AI 经济问题：当 AI 让商品和内容趋近低成本时，稀缺品可能转向人味、关系、排他性与真实出处。",
+    "The Neuron 还提到 OpenAI 与 Elon Musk 诉讼进入关键证词阶段，Musk 一边指控 OpenAI“偷走慈善机构”，一边承认 xAI 部分蒸馏 OpenAI 模型。",
+    "The Rundown AI 采访 UiPath CMO Michael Atalla，核心判断是企业 AI 的难点正从“能不能自动化任务”转向“如何编排 agent、自动化、人和系统”。",
+    "两封邮件共同指向同一条主线：AI 的价值不只在模型能力本身，而在它如何重组工作流、服务体验和人类参与的经济意义。"
+  ],
+  "items": [
+    {
+      "id": "human-scarcity-in-ai-economy",
+      "title_zh": "当 AI 让一切变便宜，真正稀缺的可能是“人味”",
+      "title_original": "What gets scarce when AI does everything?",
+      "source": "The Neuron",
+      "from": "The Neuron <theneuron@newsletter.theneurondaily.com>",
+      "subject": "😺 Starbucks just rolled back its automation push",
+      "url": "https://aleximas.substack.com/p/what-will-be-scarce",
+      "message_id": "<Ep2ElzZNT4eQW2O9zZ2q0Q@geopod-ismtpd-41>",
+      "published_at": "2026-05-03T18:32:54.000Z",
+      "importance": "high",
+      "summary_zh": "这封 The Neuron 以 Starbucks 回撤门店自动化为切口，讨论 AI 经济里“什么会变得稀缺”。邮件认为，如果 AI 把大量商品、内容和服务推向接近零边际成本，消费会转向 AI 难以复制的东西：关系、身份、排他性、真实来源和人类参与。它引用芝加哥大学经济学家 Alex Imas 的文章与实验，指出人们会为“别人得不到”的同一件物品支付约两倍价格，人类创作的排他性溢价也明显高于 AI 生成作品。邮件同时提到 OpenAI 与 Elon Musk 诉讼、Anthropic 估值、GPT-5.5-Cyber 等 AI 新闻，但最值得精读的是“人类元素成为稀缺品”这条经济框架。",
+      "deep_read_zh": "这篇精读的价值在于，它没有继续停留在“AI 会不会替代工作”的表层争论，而是把问题换成经济学里的稀缺性问题：如果 AI 让越来越多商品、内容、自动化服务接近零边际成本，市场会把钱花到哪里？The Neuron 用 Starbucks 的转向做现实入口：CEO Brian Niccol 表示，手写便签、陶瓷杯和更好的座位提升了顾客满意度，公司开始增加咖啡师，并从最繁忙的门店撤出部分自动化。Alex Imas 的判断是，AI 会让商品化部门继续变便宜，人们实际购买力上升后，支出会转向机器不容易复制的东西，比如关系、地位、排他性、出处和被某个真实的人服务的感觉。邮件里最有力量的事实是两个实验/数据点：同一件物品如果带有排他性，人们愿意支付约两倍价格；AI 生成艺术获得的排他性溢价不到人类艺术的一半。这个框架对 builder 的启发是，未来不是所有产品都只拼自动化效率，很多高价值场景反而要把“人的参与”设计成产品的一部分。需要警惕的是，The Neuron 也指出关系型行业内部可能出现类似 Spotify 的收入分布：少数顶级创作者、教师、服务者捕获大部分溢价，长尾仍然竞争激烈。",
+      "why_important": "它给“AGI 后什么工作还值钱”提供了一个比职业清单更清晰的判断框架：不是看任务能否自动化，而是看人类参与本身是否构成产品价值。对做 AI 产品的人来说，这会影响定价、体验设计和服务包装方式。",
+      "impact": "AI builder 可以把自动化当作底层能力，但在教育、医疗、咨询、内容、社区、线下服务等场景里，可能需要有意识地保留或放大人的存在感。产品差异化可能从“更快更便宜”转向“更可信、更有关系感、更有出处”。",
+      "key_points": [
+        "Starbucks 正在增加咖啡师，并从最繁忙咖啡馆撤出部分自动化，原因是手写便签、陶瓷杯和更好的座位提升了顾客满意度。",
+        "Alex Imas 的核心观点是：AI 让商品化部门趋向低成本后，稀缺性会转向关系、状态、排他性、出处和人类参与。",
+        "邮件称，在 Imas 的实验中，人们知道他人被排除时，会为同一物品支付约两倍价格。",
+        "AI 生成艺术获得的排他性溢价为 21%，人类创作艺术为 44%。",
+        "The Neuron 认为这种“关系型部门”可能成为 AI 经济里的新高价值区，但内部收入分配可能高度头部化。",
+        "邮件还提到 Musk 起诉 Altman 与 Brockman 的庭审进展，以及 xAI 部分蒸馏 OpenAI 模型的证词。"
+      ],
+      "reading_notes": [
+        "判断一个 AI 产品是否应该完全自动化前，先问：用户愿意为哪一部分“人类参与”付费？",
+        "排他性、真实来源和关系感是产品机制，不只是品牌叙事。",
+        "如果关系型服务头部化，独立 builder 如何避免只成为低价长尾供给？",
+        "Starbucks 案例可能说明，线下体验中的效率最优并不等于商业最优。"
+      ],
+      "tags": [
+        "AI经济",
+        "自动化",
+        "产品策略",
+        "人类服务"
+      ],
+      "related_sources": []
+    },
+    {
+      "id": "uipath-agentic-business-orchestration",
+      "title_zh": "UiPath：企业 AI 的下一关是编排 agent、自动化与人",
+      "title_original": "Exclusive: UiPath CMO Michael Atalla on AI at work",
+      "source": "The Rundown AI",
+      "from": "The Rundown AI <news@daily.therundown.ai>",
+      "subject": "Exclusive: UiPath CMO Michael Atalla on AI at work",
+      "url": "https://www.therundown.ai/p/exclusive-uipath-cmo-michael-atalla-on-ai-at-work",
+      "message_id": "<xonZ14HITeGGd8JTKDFj2A@geopod-ismtpd-54>",
+      "published_at": "2026-05-03T10:05:22.000Z",
+      "importance": "medium",
+      "summary_zh": "这封 The Rundown AI 是对 UiPath CMO Michael Atalla 的访谈摘要，围绕企业 AI 落地展开。UiPath 从五年前的 RPA 自动化任务，转向今天所谓的“agentic business orchestration”：把 AI agent、传统自动化、员工和企业系统连成端到端工作流。Atalla 的核心判断是，企业客户过去问“这个任务能不能自动化”，现在更关心“这些自动化、agent 和业务目标如何一起运转”。他还用自己在 Microsoft 推动 Office 365 的经历说明，范式迁移不只是卖新软件，而是帮助客户重新理解工作方式。",
+      "deep_read_zh": "",
+      "why_important": "这封邮件抓住了企业 AI 的真实瓶颈：很多公司已经有多个自动化和 AI 试点，但缺少跨系统、跨团队的可见性与编排层。对做企业 AI 的团队来说，单点 agent 能力可能不够，流程治理和系统集成会成为关键卖点。",
+      "impact": "企业 AI 产品会从“替代某个任务”走向“管理一组人机协作流程”。这对 RPA、工作流、AgentOps、权限治理、可观测性和业务指标对齐工具都有直接启发。",
+      "key_points": [
+        "UiPath 的叙事从“自动化任务、释放员工”升级为“编排 AI agent、自动化、人和系统”。",
+        "Atalla 认为许多企业已有大量并行自动化，但缺少把它们连接到业务目标的方式。",
+        "他强调技术应该减少工作摩擦，而不是制造新的复杂性。"
+      ],
+      "reading_notes": [],
+      "tags": [
+        "企业AI",
+        "agent",
+        "自动化",
+        "工作流"
+      ],
+      "related_sources": []
+    }
+  ],
   "skipped": [],
-  "notes": "邮件数据为空，未收到 2026-05-04 的正式 newsletter 正文片段，因此没有可汇总条目。"
+  "notes": "今日精读选择 The Neuron 的“AI 经济中的人类稀缺性”，因为它比单条产品新闻更有框架价值，能同时解释自动化回撤、服务体验和未来产品定价。当天输入中有 2 封正式 newsletter，均已保留为单篇总结；未纳入的内容主要是邮件中的广告、订阅入口和推广信息。"
 }
