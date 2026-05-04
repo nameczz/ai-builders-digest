@@ -1,0 +1,148 @@
+{
+  "date": "2026-05-04",
+  "items": [
+    {
+      "id": "2026-05-04-1",
+      "title": "34K stars，Prompt 过时了？",
+      "angle": "从 skills 爆发切入：AI 编程的核心资产正在从单次提示词，迁移到可复制、可审计、可安装的工程操作手册。",
+      "opening": "mattpocock/skills 一周新增 34848 stars。更有意思的是，Karpathy 也在谈从 vibe coding 走向 agentic engineering：真正值钱的不是一句神 prompt，而是能反复运行的工作流。",
+      "story_hook": {
+        "challenge": "大家还在卷模型和 prompt，但开发者真实行为已经转向收集、安装、复用 skills。",
+        "twist": "skills 看起来像文档，实际更像 AI 时代的 npm 包：能传播、能执行、能变成团队标准。"
+      },
+      "takeaway": "团队现在就该盘点自己的 AGENTS.md、CLAUDE.md、Codex skills，把高频工作流沉淀成可复用资产，而不是只收藏 prompt。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Training Data 访谈 Andrej Karpathy：From Vibe Coding to Agentic Engineering",
+          "url": "https://www.youtube.com/playlist?list=PLOhHNjZItNnMm5tdW61JpnyxeYH5NDDx8"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub：mattpocock/skills 单周新增 34848 stars",
+          "url": "https://github.com/mattpocock/skills"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub：ComposioHQ/awesome-codex-skills 单周新增 4279 stars",
+          "url": "https://github.com/ComposioHQ/awesome-codex-skills"
+        }
+      ]
+    },
+    {
+      "id": "2026-05-04-2",
+      "title": "Replit 把 Agent 当工厂开",
+      "angle": "从 Replit 的并行任务数字切入：下一代开发工具竞争的不是单个 Agent 多聪明，而是谁能调度更多上下文、任务和工具链。",
+      "opening": "Amjad 说 Replit 上同时跑着 10 个活跃任务、198 个草稿、700+ 个已完成任务。这不是聊天框升级，这是把软件开发变成一个小型任务工厂。",
+      "story_hook": {
+        "challenge": "多数产品还在展示一个 Agent 如何写代码，但真实生产力来自多个任务同时推进。",
+        "twist": "并行度越高，模型能力反而不是唯一瓶颈，调度、状态、权限和失败恢复才会先变成护城河。"
+      },
+      "takeaway": "做开发者工具时，不要只做更好用的聊天入口，要优先设计任务队列、上下文隔离、执行日志和多 Agent 协作面板。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Amjad Masad：Replit 上同时跑 10 个活跃任务、198 个草稿、700+ 已完成",
+          "url": "https://x.com/amasad/status/2051167532523074015"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub：ruvnet/ruflo 单周新增 4321 stars，定位 Claude 多 Agent 编排",
+          "url": "https://github.com/ruvnet/ruflo"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub：czlonkowski/n8n-mcp 把 MCP 接到 n8n workflow",
+          "url": "https://github.com/czlonkowski/n8n-mcp"
+        }
+      ]
+    },
+    {
+      "id": "2026-05-04-3",
+      "title": "企业 Agent 红利先变脏活",
+      "angle": "从 Aaron Levie 的企业落地判断切入：Agent 不是加个聊天框，而是数据、权限、流程、监控和评估的系统工程。",
+      "opening": "Aaron Levie 今天泼了一盆冷水：企业落地 Agent，不是把聊天框接进旧系统就完事。几十年的技术债，会先把自动化红利变成实施清单。",
+      "story_hook": {
+        "challenge": "市场想象的是 Agent 自动完成工作，企业现场遇到的是权限混乱、数据散落、流程没人敢改。",
+        "twist": "最赚钱的机会可能不在模型层，而在那些看起来很无聊的审计、隔离、评估和流程接线。"
+      },
+      "takeaway": "面向企业做 Agent 产品，应把预算理由写成降低事故、可追责、能接旧系统，而不是只宣传生成效率。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Aaron Levie：企业落地 Agent 是牵动数据、权限、流程、监控、评估和架构的系统改造",
+          "url": "https://x.com/levie/status/2051057677984469277"
+        },
+        {
+          "tag": "pulse",
+          "ref": "ProductHunt：Rosentic 检测 coding agents 合并前互相破坏",
+          "url": "https://www.producthunt.com/products/rosentic"
+        },
+        {
+          "tag": "pulse",
+          "ref": "ProductHunt：Cloud Computer by Manus 面向 bots 和软件的专用云机器",
+          "url": "https://www.producthunt.com/products/manus"
+        }
+      ]
+    },
+    {
+      "id": "2026-05-04-4",
+      "title": "2034，不做别人的上下文",
+      "angle": "从 Garry Tan 的 GBrain 和个人 AI 论述切入：AI 时代真正的自由，不是能不能调用模型，而是能不能拥有自己的 prompts、数据和上下文。",
+      "opening": "Garry Tan 今天连续讲 GBrain：开源、自己跑全栈，因为智能爆炸时代最重要的是掌握自己的上下文。听起来像价值观，落到产品上其实是一个很具体的问题：你的 prompt 和数据到底归谁？",
+      "story_hook": {
+        "challenge": "个人和小团队越来越依赖 AI，但上下文、记忆、工作流却被锁在不同平台里。",
+        "twist": "所谓个人 AI 的入口，可能不是更拟人的助手，而是一个能带走、能审计、能迁移的上下文仓库。"
+      },
+      "takeaway": "开发者应把 prompts、repo context、MCP 配置和私有数据当作核心资产管理，避免被单一 Agent 平台锁死。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Garry Tan：GBrain 开源、自己跑全栈，重点是掌握自己的上下文",
+          "url": "https://x.com/garrytan/status/2051110206466302136"
+        },
+        {
+          "tag": "builders",
+          "ref": "Garry Tan：个人 AI 要让个体拥有 prompts 和数据，2034 不必活成 1984",
+          "url": "https://x.com/garrytan/status/2051099735176659256"
+        },
+        {
+          "tag": "pulse",
+          "ref": "HuggingFace：openai/privacy-filter 适合嵌入截图、日志、聊天记录整理工具",
+          "url": "https://huggingface.co/openai/privacy-filter"
+        }
+      ]
+    },
+    {
+      "id": "2026-05-04-5",
+      "title": "消费 AI 不想聊天了",
+      "angle": "从 Zara 的“小东西可以自己做”切入：消费级 AI 的机会正在从对话转向图片、视频、3D、头像这类可见输出。",
+      "opening": "Zara 说，AI 之前，小东西贵到必须拉团队、过评审、说服委员会。今天 HuggingFace 热门 Spaces 却集中在视频、图片编辑和 3D：用户不是想多聊几句，而是想马上拿到一个东西。",
+      "story_hook": {
+        "challenge": "很多消费 AI 产品还在做更顺滑的聊天，但普通用户真正愿意分享和付费的是可见成果。",
+        "twist": "那些会在大厂产品会上被否掉的小功能，反而适合独立开发者用生成模型快速做成垂直工具。"
+      },
+      "takeaway": "做消费 AI 时，应优先选择有明确交付物的场景，比如图片修复、头像、短视频、3D 预览，而不是泛聊天助手。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Zara Zhang：去做那些会在大厂产品会上被一票否决的东西",
+          "url": "https://x.com/zarazhangrui/status/2051155065331941873"
+        },
+        {
+          "tag": "pulse",
+          "ref": "HuggingFace Spaces：r3gm/wan2-2-fp8da-aoti-preview 视频生成热度高",
+          "url": "https://huggingface.co/spaces/r3gm/wan2-2-fp8da-aoti-preview"
+        },
+        {
+          "tag": "pulse",
+          "ref": "ProductHunt：Aaavatar 做品牌化团队头像",
+          "url": "https://www.producthunt.com/products/aaavatar"
+        }
+      ]
+    }
+  ],
+  "notes": "今日主线是 Agent 从概念进入工程分发、并行执行和企业治理；消费侧素材相对弱，但视觉生成和小工具方向可以补一条轻量选题。",
+  "generated_at": "2026-05-04T09:26:21+00:00",
+  "model": "gpt-5.5"
+}
