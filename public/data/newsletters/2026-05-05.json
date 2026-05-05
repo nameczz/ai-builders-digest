@@ -1,0 +1,248 @@
+{
+  "date": "2026-05-05",
+  "generated_at": "2026-05-05T00:47:27+00:00",
+  "inbox_id": "sanyoumu@agentmail.to",
+  "window": {
+    "start": "2026-05-04T01:02:02+00:00",
+    "end": "2026-05-05T00:45:55.116482+00:00",
+    "source": "previous_digest_generated_at"
+  },
+  "count": 7,
+  "highlights": [
+    "今日精读：AI 正在把漏洞发现速度推到现有补丁体系承受范围之外，NCSC 提醒企业准备迎接“补丁浪潮”。",
+    "开发者工作流继续围绕 AI agent 重构，TLDR Dev 重点讨论 harness engineering、沙箱外 agent harness、spec-driven 开发工具。",
+    "大模型产品人格分化成为产品战略问题：AINews 借 Claude 与 GPT 的“他者/工具”差异讨论模型调校与用户信任。",
+    "AI 医疗进入更严肃的临床辅助讨论：Harvard 研究中 OpenAI o1-preview 在 76 个真实急诊病例上超过两名主治医生。",
+    "Meta、五角大楼、xAI、ByteDance 等案例显示 AI 正在快速进入机器人、国防、药物发现与商业基础设施。"
+  ],
+  "items": [
+    {
+      "id": "ai-patch-wave-security",
+      "title_zh": "AI 发现漏洞的速度，正在压垮补丁体系",
+      "title_original": "This is what happens when AI finds everything",
+      "source": "The Neuron",
+      "from": "The Neuron <theneuron@newsletter.theneurondaily.com>",
+      "subject": "😼 This is what happens when AI finds everything",
+      "url": "https://www.ncsc.gov.uk/blogs/prepare-for-vulnerability-patch-wave",
+      "message_id": "<hmrKbONIR9CSig_LbcPBZA@geopod-ismtpd-23>",
+      "published_at": "2026-05-04T10:31:22.000Z",
+      "importance": "high",
+      "summary_zh": "The Neuron 今天的主线是 AI 安全拐点：英国 NCSC 警告，AI 已经能以远超传统安全团队处理能力的速度挖出多年遗留的软件漏洞，企业会面临一波集中、高严重性的补丁浪潮。邮件还提到 Anthropic 的 Claude Mythos Preview 在测试中发现 2000 多个未知漏洞，以及 Theori 用 AI 扫描 Linux 加密代码后发现影响主流发行版的 Copy Fail 漏洞。对 builder 来说，这意味着“AI 找 bug”不只是安全研究能力升级，而会改变发布、依赖治理、补丁优先级和基础设施风险模型。",
+      "deep_read_zh": "这封 The Neuron 最值得精读的部分，是它把几个看似分散的安全新闻连成了一个结构性判断：AI 正在打破软件安全行业长期默认的节奏。过去漏洞发现主要依赖人类研究员，速度慢、范围有限，企业补丁系统也默认漏洞会一批一批出现，有时间评估、排期、回滚和灰度。但 NCSC 的警告认为，随着 AI 工具能大规模扫描历史代码、操作系统、浏览器和底层库，漏洞可能会在短时间内集中暴露，形成“patch wave”。邮件列出的例子很具体：Anthropic 的 Claude Mythos Preview 在七周测试里找到 2000 多个未知软件漏洞，其中包括 OpenBSD 中 27 年历史的 bug 和 FreeBSD 中 17 年历史的远程代码执行漏洞，且据称 99% 以上仍未修补；Theori 用自研 AI 工具约一小时扫描 Linux 加密代码，发现 Copy Fail 漏洞，影响 2017 年以来主流 Linux 发行版，并且利用细节在所有发行版完成修复前已经公开。隐含判断是，安全竞争不再只是“谁能找到漏洞”，而是“发现、披露、修复、部署、替换遗留系统”的整条链路能否跟上。对 AI builder 和 infra 团队来说，自动更新、互联网暴露面优先级、SBOM、依赖库存、灰度补丁、不可修复系统替换，都从运维细节变成产品生存能力。更值得关注的是，AI 同时降低了防守方发现漏洞和攻击方武器化漏洞的门槛，漏洞从“未知”到“可利用”的窗口可能从数周缩短到数小时。",
+      "why_important": "它不是单个漏洞新闻，而是提示软件安全供给链的处理能力可能被 AI 发现能力系统性超过。任何依赖云服务、开源组件、企业内网或联网设备的产品都会受到影响。",
+      "impact": "builder 需要把补丁响应、依赖治理和安全自动化前移到产品架构阶段。未来 AI 产品的可信度不仅取决于模型能力，也取决于能否在漏洞集中爆发时快速定位、修复和部署。",
+      "key_points": [
+        "NCSC 警告 AI 会带来大规模“补丁浪潮”，企业应优先处理互联网暴露资产。",
+        "Anthropic 的 Claude Mythos Preview 测试中发现 2000 多个未知漏洞，绝大多数仍未修补。",
+        "Theori 用 AI 约一小时扫描 Linux 加密代码，发现可导致 root 权限的 Copy Fail 漏洞。",
+        "漏洞发现到漏洞利用的窗口可能从周级缩短到小时级。",
+        "遗留系统如果无法接收补丁，将从技术债变成直接安全风险。"
+      ],
+      "reading_notes": [
+        "自己的产品是否有完整的软件资产与依赖清单？",
+        "哪些互联网暴露服务需要自动补丁和紧急灰度机制？",
+        "AI 漏洞扫描能力普及后，安全披露流程是否还能维持现有节奏？",
+        "不可修复的遗留系统是否已经有替换计划？"
+      ],
+      "tags": [
+        "安全",
+        "漏洞",
+        "基础设施",
+        "agent"
+      ],
+      "related_sources": []
+    },
+    {
+      "id": "tldr-dev-harness-engineering",
+      "title_zh": "AI agent 时代，工程重点转向 harness 与环境设计",
+      "title_original": "Harness engineering 🛠, costs of abstractions 🫣, security through obscurity 🥷",
+      "source": "TLDR Dev",
+      "from": "TLDR Dev <dan@tldrnewsletter.com>",
+      "subject": "Harness engineering 🛠, costs of abstractions 🫣, security through obscurity 🥷",
+      "url": "https://refer.tldr.tech/7e988322/3",
+      "message_id": "<0100019df2b1724c-8b097e1b-7b39-4c95-a462-300127a0e4a3-000000@email.amazonses.com>",
+      "published_at": "2026-05-04T11:13:28.000Z",
+      "importance": "high",
+      "summary_zh": "TLDR Dev 今天集中讨论 AI coding 的工程范式变化：头条文章提出 harness engineering，即工程师不再只写业务代码，而是为 agent 构建可观察、可查询、可纠错的运行环境；另一篇文章讨论 agent harness 应放在沙箱外，以隔离凭证、管理多用户状态并提升安全性。邮件还收录了对抽象成本、agentic coding 风险、LLM 是否是更高层抽象的反思，以及 Acai、Agent Desktop 等面向 spec-driven 开发和桌面自动化的工具。",
+      "why_important": "这封邮件对 AI builder 很直接：真正的生产力提升来自把 agent 周围的环境、文档、权限、测试和修复循环设计好，而不是只替换编辑器里的代码补全。",
+      "impact": "团队需要把 AGENTS.md、运行态可观测性、沙箱边界、测试覆盖和自动清债机制视为 agent 平台能力。未来优秀工程组织会更像在设计 agent 可执行的工作系统。",
+      "key_points": [
+        "OpenAI 的 harness engineering 强调让应用和文档对 agent 可读、可操作。",
+        "沙箱外 harness 有助于凭证隔离、多用户安全和生命周期管理。",
+        "Acai 与 Agent Desktop 体现 spec traceability 和结构化自动化工具趋势。"
+      ],
+      "reading_notes": [],
+      "tags": [
+        "开发者工具",
+        "agent",
+        "工程实践",
+        "安全"
+      ],
+      "related_sources": [
+        "TLDR 的 Agent Skills 条目也讨论如何把 senior engineering discipline 编码进 agent 工作流"
+      ],
+      "deep_read_zh": ""
+    },
+    {
+      "id": "ainews-other-vs-utility",
+      "title_zh": "Claude 像“他者”，GPT 像“工具”：模型人格正在变成产品战略",
+      "title_original": "The Other vs The Utility",
+      "source": "AINews",
+      "from": "AINews <swyx+ainews@substack.com>",
+      "subject": "[AINews] The Other vs The Utility",
+      "url": "https://www.latent.space/p/ainews-the-other-vs-the-utility",
+      "message_id": "<20260504232906.3.a3e44643656b3fdb@mg-d0.substack.com>",
+      "published_at": "2026-05-04T23:29:06.000Z",
+      "importance": "high",
+      "summary_zh": "AINews 今天借 OpenAI 员工 Roon 对 Claude 的评论，讨论大模型产品的文化与人格差异：Claude 被一些用户感知为会回应、会评判、会坚持道德立场的“他者”，而 GPT 更像高效、无评判、可被调用的逻辑义肢。邮件把这放进 Clippy vs Anton、模型调校、Anthropic 宪法式文化和 OpenAI 工具型定位的长期争论中，并顺带提到 Sierra 约 10 亿美元融资、估值 150 亿美元、ARR 可能已接近或超过 2 亿美元。",
+      "why_important": "这不是纯文化八卦，而是 AI 产品留存、信任和差异化的核心问题：用户到底想要顺从工具，还是能主动反驳自己的智能伙伴？",
+      "impact": "builder 在设计 agent、助手和垂直 AI 产品时，需要明确模型人格、拒绝边界、主动建议和用户心理预期。不同人格会吸引不同使用场景，也会带来不同安全和品牌风险。",
+      "key_points": [
+        "Claude 被描述为更像有道德立场的“他者”，GPT 更像无评判的实用工具。",
+        "Anthropic 的文化与宪法式 AI 被认为强化了这种人格感。",
+        "Sierra 融资与 ARR 增长显示企业 agent 产品化仍在高速资本化。"
+      ],
+      "reading_notes": [],
+      "tags": [
+        "模型",
+        "产品",
+        "agent",
+        "商业化"
+      ],
+      "related_sources": [],
+      "deep_read_zh": ""
+    },
+    {
+      "id": "ai-valley-pentagon-meta-grok",
+      "title_zh": "五角大楼扩容 AI 伙伴，Meta 进军人形机器人，xAI 承认用 OpenAI 模型训练 Grok",
+      "title_original": "Meta is moving into humanoid robots",
+      "source": "AI Valley",
+      "from": "AI Valley <aivalley@mail.beehiiv.com>",
+      "subject": "Meta is moving into humanoid robots",
+      "url": "https://www.theaivalley.com/",
+      "message_id": "<20260504.145311.af3e08fb@mta20>",
+      "published_at": "2026-05-04T14:53:11.000Z",
+      "importance": "medium",
+      "summary_zh": "AI Valley 今天覆盖三条产业新闻：五角大楼将 SpaceX、OpenAI、Google、Nvidia、Reflection、Microsoft、AWS、Oracle 纳入机密网络合作，但继续排除 Anthropic；Elon Musk 在宣誓证词中确认 xAI 使用 OpenAI 模型帮助训练 Grok，并称蒸馏是标准做法；Meta 正在进入人形机器人方向。邮件的主线是 AI 竞争正在变得更交织：政府在多家供应商之间对冲依赖，模型公司之间也并非完全独立演进，机器人则成为大模型能力外溢的新硬件战场。",
+      "why_important": "它展示了 AI 从模型竞赛进入制度、供应链和物理世界部署阶段，关键变量不再只有 benchmark。",
+      "impact": "builder 需要关注政府采购、多模型依赖、模型蒸馏边界和机器人应用接口。AI 商业机会会越来越多发生在受监管、高资本开支和跨组织协作的场景里。",
+      "key_points": [
+        "五角大楼扩展 AI 合作名单，但 Anthropic 仍被排除。",
+        "Musk 承认 Grok 训练中使用过 OpenAI 模型。",
+        "Meta 正在布局人形机器人与机器人模型优化。"
+      ],
+      "reading_notes": [],
+      "tags": [
+        "国防",
+        "机器人",
+        "模型",
+        "商业"
+      ],
+      "related_sources": [
+        "TLDR 也报道了 Meta 收购人形机器人创业公司",
+        "The Rundown AI 也提到五角大楼新增 AI 伙伴"
+      ],
+      "deep_read_zh": ""
+    },
+    {
+      "id": "tldr-design-figma-ai-and-design-rights",
+      "title_zh": "Figma Make 加入语音提示，AI 营销素材再引版权争议",
+      "title_original": "Figma Voice-to-Text 🎙️, iPhone Pro Redesign 📱, KC Green vs Artisan ⚖️",
+      "source": "TLDR Design",
+      "from": "TLDR Design <dan@tldrnewsletter.com>",
+      "subject": "Figma Voice-to-Text 🎙️, iPhone Pro Redesign 📱, KC Green vs Artisan ⚖️",
+      "url": "https://refer.tldr.tech/3bc21e1b/4",
+      "message_id": "<0100019df2f2a520-055934a8-b7f4-4998-9699-a32aa37185e1-000000@email.amazonses.com>",
+      "published_at": "2026-05-04T12:24:41.000Z",
+      "importance": "medium",
+      "summary_zh": "TLDR Design 今天的重点是 AI 设计工具与设计治理。Figma Make 新增语音转文字提示、问题卡片、版本历史、一键重置上下文，以及连接 Google Drive、Microsoft Office、Zoom 等 9000 多个应用的 Zapier 连接器，说明设计生成工具正在从单点 prompt 走向工作流入口。另一条值得注意的是 “This is fine” 作者 KC Green 指控 AI startup Artisan 在地铁广告中盗用其作品，凸显 AI 公司在增长营销中容易踩到创作者版权和品牌风险。",
+      "why_important": "设计工具的 AI 化正在进入更自然的输入方式和跨应用自动化，同时版权争议会影响 AI 品牌信任。",
+      "impact": "产品团队可以把语音、版本回滚、上下文控制作为 AI 设计工具的基本能力来看待。营销团队则需要更严肃地处理二创、梗图和艺术家授权。",
+      "key_points": [
+        "Figma Make 支持语音 prompt、版本历史和 Zapier 集成。",
+        "KC Green 指控 Artisan 广告盗用 “This is fine” 漫画。",
+        "多篇设计文章讨论 nudges、设计系统归属和 UX 经典框架回归。"
+      ],
+      "reading_notes": [],
+      "tags": [
+        "设计工具",
+        "版权",
+        "工作流",
+        "产品"
+      ],
+      "related_sources": [],
+      "deep_read_zh": ""
+    },
+    {
+      "id": "tldr-meta-robotics-agent-skills-open-design",
+      "title_zh": "Meta 收购机器人创业公司，AI agent 技能与开源设计工具进入 builder 视野",
+      "title_original": "Meta humanoid robots 🤖, SpaceX costs leak 💰, open design 🧑‍🎨",
+      "source": "TLDR",
+      "from": "TLDR <dan@tldrnewsletter.com>",
+      "subject": "Meta humanoid robots 🤖, SpaceX costs leak 💰, open design 🧑‍🎨",
+      "url": "https://refer.tldr.tech/f45b3ac9/",
+      "message_id": "<0100019df285ff1b-d1837453-9186-4644-8ab8-422e6c590e46-000000@email.amazonses.com>",
+      "published_at": "2026-05-04T10:26:01.000Z",
+      "importance": "medium",
+      "summary_zh": "TLDR 今天覆盖大科技、深科技和 builder 工具：Meta 收购 Assured Robot Intelligence，团队将加入 Meta 优化机器人应用模型；SpaceX 已在 Starship 上投入超过 150 亿美元，2025 年资本支出大幅增长；ByteDance 旗下 Anew Labs 进入 AI 药物发现，尝试设计针对传统上难以成药靶点的疗法；美国电力缺口被放在 AI 算力扩张背景下讨论。对开发者最相关的是 Agent Skills 与 Open Design：前者强调把资深工程师纪律写进 agent 不可跳过的流程，后者是本地优先、支持多 coding agent 的开源 Claude Design 替代品。",
+      "why_important": "这封邮件同时展示了 AI 的两个方向：一边进入机器人、药物和能源等重资产领域，另一边通过 skills 和设计工具改变个人 builder 的工作流。",
+      "impact": "builder 可以借鉴 Agent Skills 的思路，把 review、测试、上下文读取和交付标准固化成 agent 可执行规则。开源设计工具也会降低从想法到界面原型的门槛。",
+      "key_points": [
+        "Meta 收购机器人公司 Assured Robot Intelligence。",
+        "Agent Skills 强调把工程纪律编码进 agent 工作流。",
+        "Open Design 提供本地优先、无锁定的 AI 设计循环。"
+      ],
+      "reading_notes": [],
+      "tags": [
+        "机器人",
+        "agent",
+        "开源",
+        "能源"
+      ],
+      "related_sources": [
+        "AI Valley 也报道了 Meta 机器人方向"
+      ],
+      "deep_read_zh": ""
+    },
+    {
+      "id": "rundown-ai-er-study",
+      "title_zh": "OpenAI o1-preview 在 Harvard 急诊研究中超过医生",
+      "title_original": "AI outshines doctors in Harvard's ER study",
+      "source": "The Rundown AI",
+      "from": "The Rundown AI <news@daily.therundown.ai>",
+      "subject": "🏥 AI outshines doctors in Harvard's ER study",
+      "url": "https://www.therundown.ai/p/ai-shows-its-skills-in-the-emergency-room?_bhlid=4eaa234680798ad3bdb45514b5705f029891f88c&jwt_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWJzY3JpYmVyX2lkIjoiN2JkYjcwNmYtNjc0ZC00NTAwLWIzMjAtN2VlMjRiM2ZhYzNjIiwicHVibGljYXRpb25faWQiOiI0ZDAzMzkwZC0yNDgxLTQyOTktYjk0OS1mZmQ4YjM4YjRjMzgiLCJhY2Nlc3NfdHlwZSI6InJlYWQtb25seSIsImV4cCI6MTc3ODA2MTg2NSwiaXNzIjoiaHR0cHM6Ly9hcHAuYmVlaGlpdi5jb20iLCJpYXQiOjE3Nzc4ODkwNjV9.BG8h472fZG77QpUp0bPaJz6HhqJeashTIVxEJmNgnCY",
+      "message_id": "<psvDzOkfTY6e5LJS8r0LcA@geopod-ismtpd-55>",
+      "published_at": "2026-05-04T10:04:31.000Z",
+      "importance": "high",
+      "summary_zh": "The Rundown AI 今天的头条是 Harvard 发表在 Science 的急诊诊断研究：OpenAI 的 o1-preview 在 76 个真实急诊病例和三个护理决策阶段中，与两名主治医生对比，初诊阶段正确率为 67.1%，高于两名医生的 55.3% 和 50.0%；评分医生也无法区分哪些诊断来自模型。邮件还提到一个案例中，AI 比 treating doctor 早约 12 到 24 小时提示罕见坏死性筋膜炎风险。其余内容包括团队 AI 使用案例、Claude 创建落地页、五角大楼新增 AI 伙伴和工具推荐。",
+      "why_important": "医疗是高风险场景，旧一代模型已经在真实病例上显示出辅助诊断价值，会推动“AI 作为医生旁边的第二意见”进入更正式的产品和监管讨论。",
+      "impact": "医疗 AI builder 需要重视临床工作流集成、可解释性、责任边界和医生协同，而不是只做面向患者的问答产品。",
+      "key_points": [
+        "o1-preview 在 76 个真实 ER 病例中初诊正确率超过两名主治医生。",
+        "评分医生无法区分 AI 与人类诊断来源。",
+        "一个案例中 AI 更早提示罕见严重感染风险。"
+      ],
+      "reading_notes": [],
+      "tags": [
+        "医疗",
+        "模型评测",
+        "产品化",
+        "监管"
+      ],
+      "related_sources": [
+        "AI Valley 也提到五角大楼新增 AI 合作伙伴"
+      ],
+      "deep_read_zh": ""
+    }
+  ],
+  "skipped": [
+    {
+      "message_id": "<0100019df32b5657-f27f3638-3037-44e7-a846-691b49723cb9-000000@email.amazonses.com>",
+      "subject": "Claude Jupiter 🤖, Codex pets 🐾, Replit’s margin lead 📈",
+      "from": "TLDR AI <dan@tldrnewsletter.com>",
+      "reason": "system"
+    }
+  ],
+  "notes": "今日共识别 7 封正式 newsletter，全部保留为单篇总结。今日精读选择 The Neuron 的 AI 漏洞补丁浪潮，因为它对所有依赖软件基础设施的 builder 都有直接且高优先级的风险提示。各邮件中的赞助、广告、订阅推广、招聘或课程促销内容没有单独进入 items。AI Valley、TLDR 与 The Rundown AI 对五角大楼 AI 合作、Meta 机器人等事件有重叠，已在 related_sources 中标注。"
+}
