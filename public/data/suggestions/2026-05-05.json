@@ -1,0 +1,153 @@
+{
+  "date": "2026-05-05",
+  "items": [
+    {
+      "id": "2026-05-05-1",
+      "title": "AI 写代码不够，要会验尸",
+      "angle": "从 Crabbox 的 WebVNC 复现现场切入，讲 AI coding 从“能改代码”进入“能交证据链”的阶段。",
+      "opening": "一个 bug 以前靠截图、口头描述和 QA 复现。现在 Agent 可以直接拉起一台临时桌面，把 Linux、Windows、macOS 的现场搭好，修完以后连视频一起塞进 PR。",
+      "story_hook": {
+        "challenge": "AI 产品最怕的是 demo 好看，真实环境一跑就碎；测试和复现一直是开发流程里最难自动化的一环。",
+        "twist": "真正改变流程的不是更会写代码的模型，而是能把 bug 现场、修复过程和验证证据打包交付的运行环境。"
+      },
+      "takeaway": "开发团队该把 Agent 输出从 diff 升级为可复现证据：环境、操作轨迹、截图、视频和测试结果都要进 PR。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Peter Steinberger 关于 WebVNC crabboxes 复现问题的推文",
+          "url": "https://x.com/steipete/status/2051557150040711425"
+        },
+        {
+          "tag": "builders",
+          "ref": "Garry Tan 强调 AI 产品必须经得起测试折腾",
+          "url": "https://x.com/garrytan/status/2051536806932566406"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt Intuned Agent 做生产级浏览器自动化",
+          "url": "https://www.producthunt.com/products/intuned"
+        }
+      ]
+    },
+    {
+      "id": "2026-05-05-2",
+      "title": "AI Agent 退烧，工具名上位",
+      "angle": "用 Google Trends 里泛词下滑、具体 repo 暴涨的反差，判断 Agent 市场从概念期进入筛选期。",
+      "opening": "“AI agent”这个词在降温，但 ruflo、TradingAgents、skills 这些具体名字却在冲榜。用户不是不想用 Agent 了，而是不想再听平台故事了。",
+      "story_hook": {
+        "challenge": "过去一年所有产品都在把自己包装成 Agent，但开发者真正需要的是能安装、能跑、能复用的工作流。",
+        "twist": "热度没有消失，只是从大词迁移到了具体项目名；这通常意味着市场开始用脚投票。"
+      },
+      "takeaway": "做 Agent 产品时，首页别再写泛泛的 agent platform，要明确说清楚替用户完成哪一个可验证任务。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Peter Yang 判断 AI 的三大战场：代码、知识工作、个人智能体",
+          "url": "https://x.com/petergyang/status/2051508988936937764"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Google Trends 显示 ai agent 下降 -9.6%",
+          "url": "https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub ruvnet/ruflo 本周新增 6838 stars",
+          "url": "https://github.com/ruvnet/ruflo"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub TauricResearch/TradingAgents 本周新增 13293 stars",
+          "url": "https://github.com/TauricResearch/TradingAgents"
+        }
+      ]
+    },
+    {
+      "id": "2026-05-05-3",
+      "title": "Bun 改语言，AI 也被点醒",
+      "angle": "把 Bun 从 Zig 迁往 Rust 的工程选择，和企业 Agent 落地难题放在一起看：长期竞争力在维护生态。",
+      "opening": "今天最值得看的 AI 信号，可能不是 AI 新闻，而是 Bun 改语言。一个高性能运行时走到基础设施位置后，性能不再是唯一答案，谁能维护、谁能招聘、谁能排障开始变得更重要。",
+      "story_hook": {
+        "challenge": "技术产品早期靠锐度破圈，但一旦成为基础设施，就必须接受组织现实和生态现实的审判。",
+        "twist": "这和企业部署 AI Agent 是同一个问题：模型能力只是起点，真正难的是上下文、流程、IT、采用和长期维护。"
+      },
+      "takeaway": "技术选型要把招聘池、调试工具、插件生态和企业支持提前计入成本，而不是只看 benchmark。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Aaron Levie 认为企业 AI Agent 的硬活在 IT、流程、上下文和变革管理",
+          "url": "https://x.com/levie/status/2051344780328858040"
+        },
+        {
+          "tag": "builders",
+          "ref": "Aditya Agarwal 说没有北极星，速度本身毫无意义",
+          "url": "https://x.com/adityaag/status/2051330205902581842"
+        },
+        {
+          "tag": "pulse",
+          "ref": "HN 热议 Bun is being ported from Zig to Rust，485 points、340 comments",
+          "url": "https://github.com/oven-sh/bun/commit/46d3bc29f270fa881dd5730ef1549e88407701a5"
+        }
+      ]
+    },
+    {
+      "id": "2026-05-05-4",
+      "title": "上千个 Agent 开始审代码",
+      "angle": "从 deepsec 并行安全审查切入，讲 AI coding 的下一个入口可能不是生成代码，而是攻击代码。",
+      "opening": "如果一个 Agent 能写代码，那一千个 Agent 就可以一起拆你的代码库。`npx deepsec` 把安全审查变成并行任务，几分钟里做团队几个月都未必做完的漏洞搜索。",
+      "story_hook": {
+        "challenge": "AI coding 让代码产量暴涨，但安全审查、隐私脱敏和 API 可访问性没有同步扩容。",
+        "twist": "最值钱的 Agent 可能不是替你多写几百行，而是替你证明这些代码、数据和接口不会出事。"
+      },
+      "takeaway": "AI 工具创业者可以优先做审计型产品：代码安全、隐私过滤、API agent-ready 评分，都比通用聊天更接近预算。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Guillermo Rauch 发布开源安全审查 Agent 编排器 npx deepsec",
+          "url": "https://x.com/rauchg/status/2051386798899888539"
+        },
+        {
+          "tag": "pulse",
+          "ref": "HuggingFace openai/privacy-filter trending score 292",
+          "url": "https://huggingface.co/openai/privacy-filter"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt Agentic API Grader by SaaStr.ai",
+          "url": "https://www.producthunt.com/products/saastr-ai-your-ai-powered-b2b-advisor"
+        }
+      ]
+    },
+    {
+      "id": "2026-05-05-5",
+      "title": "Demo 能融资，留存会算账",
+      "angle": "用 Nikunj 对 2023-2025 创业公司的警告，对照 Replit 从写代码扩展到融资撮合，讨论 AI builder 的商业化分水岭。",
+      "opening": "AI 创业这两年有个危险错觉：发布视频够炸，就等于产品有势能。Nikunj 今天把话说穿了，能骗来 VC 钱不等于留存做起来，种子到 A 轮的账已经开始算。",
+      "story_hook": {
+        "challenge": "AI 产品太容易做出视觉冲击力，但真正难的是让用户持续回来、愿意付费、把它塞进工作流。",
+        "twist": "与此同时，Replit 已经从帮人写代码推进到帮创业者找投资人和约会议，平台正在把商业开发也纳入产品能力。"
+      },
+      "takeaway": "AI builder 要尽快把指标从发布传播改成留存、付费和业务闭环；融资叙事不能替代使用频次。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Nikunj Kothari 警告 2023-2025 创业公司靠发布视频和分发骗来 VC，但留存没起来",
+          "url": "https://x.com/nikunj/status/2051349526171287930"
+        },
+        {
+          "tag": "builders",
+          "ref": "Amjad Masad 说 Replit 正在帮创业者找投资人、约会议",
+          "url": "https://x.com/amasad/status/2051511694040744139"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt Airbyte Agents 打出 production-grade AI agent 的 context layer",
+          "url": "https://www.producthunt.com/products/airbyte-agents"
+        }
+      ]
+    }
+  ],
+  "notes": "今日主线是 Agent 工具链工程化：泛概念降温，具体可运行项目升温。适合写流程、测试、安全、维护和商业闭环，不适合再写模型发布流水账。",
+  "generated_at": "2026-05-05T09:27:22+00:00",
+  "model": "gpt-5.5"
+}
