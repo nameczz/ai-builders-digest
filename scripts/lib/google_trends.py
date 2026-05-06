@@ -21,10 +21,10 @@ from urllib.parse import quote_plus
 # Evergreen seed terms — always queried so we can spot category-level shifts.
 SEED_TERMS = [
     "ai agent",
-    "claude code",
+    "codex",
+    "codex cli",
     "self hosted",
     "open source alternative",
-    "claude managed agents",
     "cursor alternative",
     "ai coding agent",
     "context engineering",
