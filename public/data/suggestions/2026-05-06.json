@@ -1,7 +1,7 @@
 {
   "date": "2026-05-06",
   "items": [],
-  "notes": "今日 builders.items 为空；按规则每条选题至少需要 1 条 builders 真实信源，因此无法在不编造信源的情况下生成 3-5 条合规选题。",
-  "generated_at": "2026-05-06T09:42:35+00:00",
+  "notes": "无法生成符合规则的 3-5 条选题：今日 builders.items 为空，而每条选题要求至少 1 条 refs 来自 builders。为避免伪造信源，本次不输出选题。",
+  "generated_at": "2026-05-06T13:31:17+00:00",
   "model": "gpt-5.5"
 }

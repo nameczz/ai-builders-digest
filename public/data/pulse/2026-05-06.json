@@ -1,20 +1,52 @@
 {
   "date": "2026-05-06",
   "top3": [
-    "Cloudflare 把代理能力推进到真实交易层：AI Agent 现在可以创建账号、购买域名并部署项目，说明「会写代码」正在升级为「会完成商业动作」。",
-    "GitHub 增长榜被 Agentic Dev Environment 占据：Warp 一周新增 28493 星，ruflo 一周新增 9159 星，开发工具正在从 IDE 迁往多代理操作台。",
-    "HuggingFace 热榜同时出现 DeepSeek-V4-Pro、OpenAI privacy-filter 和多个图像编辑 Space，消费级 AI 产品的机会正在从聊天扩展到隐私过滤、视觉编辑与自动短视频。"
+    "Cloudflare 把 Agent 权限推进到开户、买域名和部署，今天最重要的信号是「代理开始真正接管商业基础设施」。",
+    "Warp、skills、ruflo、jcode 等项目一周暴涨，开发者工具的竞争正在从 IDE 转向「可编排的工程代理环境」。",
+    "HuggingFace 热榜同时出现文本、视频、隐私过滤、图像编辑和 any-to-any 模型，消费级 AI 产品机会正在从聊天框扩散到媒体生产与安全合规。"
   ],
-  "intro": "今天的主线不是又一个模型发布，而是 Agent 开始连接账号、域名、支付、部署和企业工作流。对独立开发者来说，机会不在泛泛包装聊天框，而在把开源 Agent 工具、合规数据处理和垂直任务闭环组合成能收费的工作台。",
+  "intro": "今天的主线不是单点模型发布，而是 Agent 从写代码走向开账户、买资源、调用支付和部署服务。开源侧的高速增长集中在终端、技能库、编排框架和金融研究代理，说明 Builder 机会正在迁移到「让代理可靠完成完整工作流」这一层。",
   "sections": [
     {
       "id": "discovery",
       "title": "发现机会",
       "blocks": [
         {
+          "id": "indie-products",
+          "heading": "今天有哪些独立开发者的新产品？",
+          "summary_md": "[Red Squares](https://red-squares.cian.lol/) 是今天最强的独立开发者信号，在 HN Show HN 拿到 386 分和 80 条评论。它把 GitHub outages 做成贡献图上的红色方块，本质上是一个把开发者共同怨念产品化的小玩具：轻、准、传播性强，不需要复杂技术栈也能击中社区情绪。\n\nProduct Hunt 侧更像是垂直场景的集合：[GetDynasty](https://www.producthunt.com/products/getdynasty) 切 startup founder 的信托与退出税，[moar](https://www.producthunt.com/products/moar-2) 把文档整理成 AI ready，[Gas City 1.0](https://www.producthunt.com/products/gas-city) 直接喊出 build your own software factory。PH 原始数据未给票数和评论数，所以今天真正可量化的独立产品强信号仍是 Red Squares。",
+          "items": [
+            {
+              "title": "Red Squares",
+              "url": "https://red-squares.cian.lol/",
+              "source": "HN",
+              "score": 386
+            },
+            {
+              "title": "GetDynasty",
+              "url": "https://www.producthunt.com/products/getdynasty",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "moar",
+              "url": "https://www.producthunt.com/products/moar-2",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "Gas City 1.0",
+              "url": "https://www.producthunt.com/products/gas-city",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "今天的小产品机会不是更大模型，而是把开发者熟悉的痛点包装成可分享、可截图、可讨论的轻产品。"
+        },
+        {
           "id": "github-traction",
           "heading": "GitHub 上哪些高增长开源项目还没有商业化？",
-          "summary_md": "GitHub weekly 里最值得盯的是 [warpdotdev/warp](https://github.com/warpdotdev/warp)，一周新增 28493 星，总星 55369，描述已经从终端变成「agentic development environment」。这说明开发者不是只要更快的命令行，而是要一个能理解项目、执行任务、调用工具的主控台。[mattpocock/skills](https://github.com/mattpocock/skills) 一周新增 25389 星，总星 61899，也把「个人工程师的 Claude/Codex 技能库」推到显性需求层。",
+          "summary_md": "GitHub weekly 的异常值集中在 agentic dev 和工作流层：[warpdotdev/warp](https://github.com/warpdotdev/warp) 一周 28,493 星，总星 55,488；[mattpocock/skills](https://github.com/mattpocock/skills) 一周 25,389 星，总星 62,307；[ruvnet/ruflo](https://github.com/ruvnet/ruflo) 一周 9,159 星，总星 44,753；[1jehuang/jcode](https://github.com/1jehuang/jcode) 一周 3,447 星，但总星只有 4,376，说明它是更早期的高斜率项目。\n\n可商业化的空白不在「再做一个 coding agent」，而在企业采用前的缺口：权限边界、审计日志、可回放执行、技能包市场、团队级模板和本地/云端混合运行。尤其是 skills 类仓库暴涨，说明工程团队正在寻找可复制的 agent 操作手册，而不是只买一个聊天式助手。",
           "items": [
             {
               "title": "warpdotdev/warp",
@@ -29,19 +61,19 @@
               "score": 25389
             },
             {
-              "title": "TauricResearch/TradingAgents",
-              "url": "https://github.com/TauricResearch/TradingAgents",
-              "source": "GitHub",
-              "score": 14697
-            },
-            {
               "title": "ruvnet/ruflo",
               "url": "https://github.com/ruvnet/ruflo",
               "source": "GitHub",
               "score": 9159
+            },
+            {
+              "title": "1jehuang/jcode",
+              "url": "https://github.com/1jehuang/jcode",
+              "source": "GitHub",
+              "score": 3447
             }
           ],
-          "takeaway": "开源增长最快的不是单点模型调用，而是把 Agent 变成可复用工作流资产。"
+          "takeaway": "本周开源增长最快的不是模型仓库，而是把代理变成工程生产系统的外壳、技能和编排层。"
         }
       ]
     },
@@ -52,7 +84,7 @@
         {
           "id": "dev-tools",
           "heading": "本周增长最快的开发者工具是什么？",
-          "summary_md": "开发者工具榜的信号很集中：[warpdotdev/warp](https://github.com/warpdotdev/warp) 以 28493 weekly stars 领跑，[ruvnet/ruflo](https://github.com/ruvnet/ruflo) 9159，[Hmbown/DeepSeek-TUI](https://github.com/Hmbown/DeepSeek-TUI) daily 也有 2434 weekly stars。Product Hunt 侧同样在卖「降低 Agent 成本」和「并行 Agent」：[WOZCODE](https://www.producthunt.com/products/wozcode) 主打 Claude Code 成本最多降 50%，[Kilo Code v7 for VS Code](https://www.producthunt.com/products/kilocode) 主打 parallel agents、diff reviewer 和多模型对比。",
+          "summary_md": "开发者工具的增速榜被「代理运行环境」占领：[Warp](https://github.com/warpdotdev/warp) 用 Rust 做 agentic development environment，一周 28,493 星；[DeepSeek-TUI](https://github.com/Hmbown/DeepSeek-TUI) 也是 Rust 终端 coding agent，日榜周增 6,184 星；[jcode](https://github.com/1jehuang/jcode) 作为 Coding Agent Harness，一周 3,447 星但总量还小，更值得盯早期采用曲线。\n\nProduct Hunt 也在同一方向补位：[Kilo Code v7 for VS Code](https://www.producthunt.com/products/kilocode) 强调并行 agents、diff reviewer 和多模型比较，[Superset 2.0](https://www.producthunt.com/products/superset-5) 说要在任意机器上跑上百个 coding agents。技术选型上，Rust 终端外壳、TypeScript 编排层、Shell 技能包正在形成新三件套。",
           "items": [
             {
               "title": "warpdotdev/warp",
@@ -61,45 +93,71 @@
               "score": 28493
             },
             {
-              "title": "ruvnet/ruflo",
-              "url": "https://github.com/ruvnet/ruflo",
+              "title": "Hmbown/DeepSeek-TUI",
+              "url": "https://github.com/Hmbown/DeepSeek-TUI",
               "source": "GitHub",
-              "score": 9159
+              "score": 6184
             },
             {
-              "title": "WOZCODE",
-              "url": "https://www.producthunt.com/products/wozcode",
+              "title": "1jehuang/jcode",
+              "url": "https://github.com/1jehuang/jcode",
+              "source": "GitHub",
+              "score": 3447
+            },
+            {
+              "title": "Kilo Code v7 for VS Code",
+              "url": "https://www.producthunt.com/products/kilocode",
               "source": "ProductHunt",
               "score": 0
             }
           ],
-          "takeaway": "2026 年的开发者工具竞争点，正在从补全质量转向多 Agent 编排、成本控制和审查闭环。"
+          "takeaway": "如果今天选开发者工具栈，优先押注终端原生、可并行代理、可审计 diff 和可复用技能包。"
         },
         {
           "id": "hf-models",
           "heading": "HuggingFace 上最热的模型能做什么消费级产品？",
-          "summary_md": "HuggingFace 模型热榜不是单一方向：[deepseek-ai/DeepSeek-V4-Pro](https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro) trending score 355、下载 786631 次，适合做通用写作、客服和代码助手；[openai/privacy-filter](https://huggingface.co/openai/privacy-filter) score 242、下载 155476 次，反而更像今天的可收费机会，可以包装成浏览器插件、团队知识库上传前脱敏、客服工单隐私扫描。[SulphurAI/Sulphur-2-base](https://huggingface.co/SulphurAI/Sulphur-2-base) score 251，标签是 text-to-video，能支撑短视频自动生成链路。",
+          "summary_md": "HuggingFace 模型热榜显示，消费级机会已经从纯聊天扩到视频、隐私和多模态工作流。[deepseek-ai/DeepSeek-V4-Pro](https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro) trending score 349、下载 786,631；[Mistral-Medium-3.5-128B](https://huggingface.co/mistralai/Mistral-Medium-3.5-128B) score 277，覆盖多语种；[Sulphur-2-base](https://huggingface.co/SulphurAI/Sulphur-2-base) 是 text-to-video，score 263；[openai/privacy-filter](https://huggingface.co/openai/privacy-filter) score 237、下载 155,476，适合做本地隐私清洗和合规网关。\n\nSpaces 侧更清楚：[wan2-2-fp8da-aoti-preview2](https://huggingface.co/spaces/r3gm/wan2-2-fp8da-aoti-preview2) score 104，[Qwen-Image-Edit-2509-LoRAs-Fast](https://huggingface.co/spaces/Onise/Qwen-Image-Edit-2509-LoRAs-Fast) score 76，[TRELLIS.2](https://huggingface.co/spaces/microsoft/TRELLIS.2) score 45。今天可做的不是泛 AI 平台，而是短视频素材、图片修复、隐私过滤、商品图 3D 化这类窄入口产品。",
           "items": [
             {
               "title": "deepseek-ai/DeepSeek-V4-Pro",
               "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
               "source": "HuggingFace",
-              "score": 355
-            },
-            {
-              "title": "openai/privacy-filter",
-              "url": "https://huggingface.co/openai/privacy-filter",
-              "source": "HuggingFace",
-              "score": 242
+              "score": 349
             },
             {
               "title": "SulphurAI/Sulphur-2-base",
               "url": "https://huggingface.co/SulphurAI/Sulphur-2-base",
               "source": "HuggingFace",
-              "score": 251
+              "score": 263
+            },
+            {
+              "title": "openai/privacy-filter",
+              "url": "https://huggingface.co/openai/privacy-filter",
+              "source": "HuggingFace",
+              "score": 237
+            },
+            {
+              "title": "microsoft/TRELLIS.2",
+              "url": "https://huggingface.co/spaces/microsoft/TRELLIS.2",
+              "source": "HuggingFace",
+              "score": 45
             }
           ],
-          "takeaway": "消费级 AI 的新入口可能不是更强聊天，而是隐私处理、视频生成和图像编辑这些高频小任务。"
+          "takeaway": "模型热度正在给消费产品明确方向：少做聊天入口，多做媒体生成、图像编辑、隐私清洗和垂直自动化。"
+        },
+        {
+          "id": "show-hn",
+          "heading": "Show HN 高关注项目用的什么技术栈？",
+          "summary_md": "今天唯一的 Show HN 高关注项目是 [Red Squares](https://red-squares.cian.lol/)，386 分、80 条评论。原始数据没有给源码或框架信息，但从产品形态看，它更接近静态网页加 GitHub 状态数据的轻量可视化，而不是重后端 SaaS。它赢在表达方式：把 outages 转成 contribution graph 的红色格子，让开发者一眼懂、一秒转发。\n\n这类项目的技术启发是，早期验证不需要完整账户系统。一个可公开访问的页面、一个稳定数据源、一个有梗但准确的视觉隐喻，就足以在 HN 拿到讨论。对 Builder 来说，真正要复制的是「把基础设施事件翻译成开发者熟悉的界面语言」。",
+          "items": [
+            {
+              "title": "Red Squares",
+              "url": "https://red-squares.cian.lol/",
+              "source": "HN",
+              "score": 386
+            }
+          ],
+          "takeaway": "Show HN 今天提醒我们：技术栈可以很薄，但开发者语境必须极准。"
         }
       ]
     },
@@ -109,34 +167,34 @@
       "blocks": [
         {
           "id": "migrations",
-          "heading": "有没有迁移类文章或平台切换信号？",
-          "summary_md": "今天没有明显的「XX is dead」文章，但迁移信号藏在工具增长里：Warp 28493 weekly stars、Zed 1900 weekly stars、DeepSeek-TUI 2434 weekly stars，说明开发者正在把工作流从传统编辑器和终端迁往 Agent 原生环境。与此同时，Product Hunt 上 [Superset 2.0](https://www.producthunt.com/products/superset-5) 主打在任意机器上运行 100s of coding agents，[Kilo Code v7 for VS Code](https://www.producthunt.com/products/kilocode) 则选择留在 VS Code 生态内做并行 Agent。",
+          "heading": "有没有「XX is dead」或迁移类文章？",
+          "summary_md": "HN top 里没有典型的「XX is dead」迁移文章，但 [Agents can now create Cloudflare accounts, buy domains, and deploy](https://blog.cloudflare.com/agents-stripe-projects/) 以 440 分和 237 条评论释放了更强的迁移信号：部署链路正在从人类控制台迁到代理可执行接口。Cloudflare 这类平台如果把开户、域名、支付和部署打通，未来小团队默认工作流可能不是登录多个后台，而是给代理一个任务边界。\n\n竞争上，这会挤压传统 no-code 部署面板、域名购买引导、模板化建站工具和早期 DevOps 产品。新的壁垒不是 UI 做得更顺，而是能否提供代理安全调用的权限模型、支付授权、资源限额和失败回滚。",
           "items": [
             {
-              "title": "zed-industries/zed",
-              "url": "https://github.com/zed-industries/zed",
-              "source": "GitHub",
-              "score": 1900
+              "title": "Agents can now create Cloudflare accounts, buy domains, and deploy",
+              "url": "https://blog.cloudflare.com/agents-stripe-projects/",
+              "source": "HN",
+              "score": 440
             },
             {
-              "title": "Hmbown/DeepSeek-TUI",
-              "url": "https://github.com/Hmbown/DeepSeek-TUI",
-              "source": "GitHub",
-              "score": 2434
+              "title": "pay.sh",
+              "url": "https://www.producthunt.com/products/solanafndn",
+              "source": "ProductHunt",
+              "score": 0
             },
             {
-              "title": "Superset 2.0",
-              "url": "https://www.producthunt.com/products/superset-5",
+              "title": "Open Finance MCP",
+              "url": "https://www.producthunt.com/products/open-finance-mcp",
               "source": "ProductHunt",
               "score": 0
             }
           ],
-          "takeaway": "迁移不是从 A 编辑器换到 B 编辑器，而是从「人操作工具」迁到「人管理 Agent 队列」。"
+          "takeaway": "真正的迁移不是从 A 工具搬到 B 工具，而是从人工控制台迁到代理可调用的商业 API。"
         },
         {
           "id": "pricing-revenue",
           "heading": "独立开发者在讨论什么营收和定价策略？",
-          "summary_md": "HN 原始数据里没有 MRR、ARR、pricing、subscription 或 revenue 关键词，但 Product Hunt 的定价信号很直接：[WOZCODE](https://www.producthunt.com/products/wozcode) 把卖点写成 Claude Code 成本最多降 50%，[Magic Studio by Once UI](https://www.producthunt.com/products/magic-studio-by-once-ui) 直接承诺把 Once UI 变成 $10k agency，[Agentic API Grader by SaaStr.ai](https://www.producthunt.com/products/saastr-ai-your-ai-powered-b2b-advisor) 则把 AI agent 作为 B2B API 的新客户来收费。",
+          "summary_md": "今天没有 HN 关键词直接命中 MRR、ARR、pricing 或 subscription，但 Product Hunt 的产品名已经把变现线索写出来了。[WOZCODE](https://www.producthunt.com/products/wozcode) 的承诺是把 Claude Code 成本最多降低 50%，这是非常直接的节省型定价；[Magic Studio by Once UI](https://www.producthunt.com/products/magic-studio-by-once-ui) 则用「Turn Once UI into a $10k agency」把工具包装成服务收入放大器；[GetDynasty](https://www.producthunt.com/products/getdynasty) 面向 founder exit tax，是高客单价专业服务入口。\n\n今天可学习的定价策略有三类：按节省成本抽成、按创造收入定价、按高风险专业场景收费。对独立开发者来说，最弱的是泛 productivity 订阅，最强的是能直接绑定税务、云成本、开发者 token 成本或 agency 收入的产品。",
           "items": [
             {
               "title": "WOZCODE",
@@ -151,13 +209,13 @@
               "score": 0
             },
             {
-              "title": "Agentic API Grader by SaaStr.ai",
-              "url": "https://www.producthunt.com/products/saastr-ai-your-ai-powered-b2b-advisor",
+              "title": "GetDynasty",
+              "url": "https://www.producthunt.com/products/getdynasty",
               "source": "ProductHunt",
               "score": 0
             }
           ],
-          "takeaway": "今天最清晰的变现角度是帮用户省 Agent 成本、卖可交付成果，或测试 API 是否适合 AI 客户。"
+          "takeaway": "今天最清晰的变现方向是把 AI 产品锚定到省钱、赚钱或避险，而不是卖模糊效率。"
         }
       ]
     },
@@ -166,70 +224,56 @@
       "title": "趋势判断",
       "blocks": [
         {
-          "id": "keywords",
-          "heading": "本周技术关键词频率有什么变化？",
-          "summary_md": "Google Trends 最强信号是 [ruflo](https://trends.google.com/trends/explore?q=ruflo&date=now+7-d) 上升 +350.3%，而 GitHub 上 ruvnet/ruflo weekly stars 达到 9159，总星 44480，搜索热度和开源增长互相验证。[claude managed agents](https://trends.google.com/trends/explore?q=claude+managed+agents&date=now+7-d) 上升 +47.4%，也和 Product Hunt 的 Kilo Code、Superset、Gas City 这些多 Agent 产品同频。相比之下，[ai agent](https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d) 只涨 +3.6%，说明泛词已经成熟，增量来自具体框架和具体玩法。",
+          "id": "vc-radar",
+          "heading": "VC 和 YC 在关注什么主题？",
+          "summary_md": "今天的 VC 雷达可以从产品和开源共同读出三条线。第一是 agent infrastructure：[Cloudflare agents](https://blog.cloudflare.com/agents-stripe-projects/) 在 HN 拿到 440 分、237 评论，说明平台公司正在把代理接入账户、支付、域名和部署这些高价值动作。第二是 coding agent ops，[Warp](https://github.com/warpdotdev/warp) 一周 28,493 星，[ruflo](https://github.com/ruvnet/ruflo) 一周 9,159 星，[Superset 2.0](https://www.producthunt.com/products/superset-5) 主打并行运行上百个 coding agents。\n\n第三是垂直金融和合规代理：[TradingAgents](https://github.com/TauricResearch/TradingAgents) 一周 14,697 星，[dexter](https://github.com/virattt/dexter) 一周 2,050 星，[Open Finance MCP](https://www.producthunt.com/products/open-finance-mcp) 把银行数据接进 ChatGPT 和 Claude。投资人会关注的不是单个 demo，而是谁能把权限、数据、执行和审计闭环。",
           "items": [
             {
-              "title": "ruflo",
-              "url": "https://trends.google.com/trends/explore?q=ruflo&date=now+7-d",
-              "source": "GoogleTrends",
-              "score": 350
+              "title": "Cloudflare Agents",
+              "url": "https://blog.cloudflare.com/agents-stripe-projects/",
+              "source": "HN",
+              "score": 440
             },
             {
-              "title": "claude managed agents",
-              "url": "https://trends.google.com/trends/explore?q=claude+managed+agents&date=now+7-d",
-              "source": "GoogleTrends",
-              "score": 47
+              "title": "TauricResearch/TradingAgents",
+              "url": "https://github.com/TauricResearch/TradingAgents",
+              "source": "GitHub",
+              "score": 14697
             },
             {
-              "title": "ai agent",
-              "url": "https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d",
-              "source": "GoogleTrends",
-              "score": 4
+              "title": "virattt/dexter",
+              "url": "https://github.com/virattt/dexter",
+              "source": "GitHub",
+              "score": 2050
             }
           ],
-          "takeaway": "不要再追泛 Agent 叙事，应该追具体框架、具体编排模式和具体使用场景。"
-        },
-        {
-          "id": "cooling",
-          "heading": "哪些 AI 热词在降温？",
-          "summary_md": "降温项里最值得注意的是 [warp](https://trends.google.com/trends/explore?q=warp&date=now+7-d) 变化 -21.9%，但 GitHub weekly stars 仍有 28493，这类背离说明它可能从搜索好奇期进入开发者安装期。[cursor alternative](https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d) 下滑 -22.8%，意味着用户不再只问「Cursor 替代品」，而是在试具体工具。[ghosttrack](https://trends.google.com/trends/explore?q=ghosttrack&date=now+7-d) 为 -100.0%，虽然 GitHub weekly stars 仍有 2434，但搜索侧已经快速冷却。",
-          "items": [
-            {
-              "title": "warp",
-              "url": "https://trends.google.com/trends/explore?q=warp&date=now+7-d",
-              "source": "GoogleTrends",
-              "score": -22
-            },
-            {
-              "title": "cursor alternative",
-              "url": "https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d",
-              "source": "GoogleTrends",
-              "score": -23
-            },
-            {
-              "title": "ghosttrack",
-              "url": "https://trends.google.com/trends/explore?q=ghosttrack&date=now+7-d",
-              "source": "GoogleTrends",
-              "score": -100
-            }
-          ],
-          "takeaway": "搜索降温不等于产品失败，但「替代品」这个定位正在失去传播效率。"
+          "takeaway": "VC 关注点正在从模型能力转向代理执行权、金融数据接入和企业级可控性。"
         },
         {
           "id": "new-radar",
           "heading": "新词雷达：有哪些从零起飞的新概念？",
-          "summary_md": "今天唯一明确 breakout 是 [ai agent](https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d) 的关联查询「microsoft agent-a-thon level 1 build your first ai agent」，breakout value 550。它不是一个产品名，而是一个教育入口信号：大厂正在把 Agent 变成活动、课程和认证路径。对 builder 来说，这提示了一个低成本机会：围绕 Agent 入门、企业内训、模板市场和挑战赛交付，做比工具本身更轻的服务层。",
+          "summary_md": "今天 google_trends_breakouts 和 google_trends_tracked 都为空，所以不能按要求引用破圈查询链接；但从 HN、GitHub 和 PH 的共同语言看，弱信号集中在三个新词簇：agentic development environment、coding agent harness、software factory。[Warp](https://github.com/warpdotdev/warp) 直接把自己定义成 agentic development environment，[jcode](https://github.com/1jehuang/jcode) 用 Coding Agent Harness 描述执行框架，[Gas City 1.0](https://www.producthunt.com/products/gas-city) 把产品定位成 build your own software factory。\n\n这些词的共同点是把 AI 从助手改写成生产系统。它们还没有形成统一品类名，但已经比「AI coding」更具体：有运行环境、有工作流编排、有多代理并发、有可复用技能。如果明后天 Google Trends 出现相关 breakout，应优先追踪 software factory 和 agent harness。",
           "items": [
             {
-              "title": "microsoft agent-a-thon level 1 build your first ai agent",
-              "url": "https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d",
-              "source": "GoogleTrends",
-              "score": 550
+              "title": "warpdotdev/warp",
+              "url": "https://github.com/warpdotdev/warp",
+              "source": "GitHub",
+              "score": 28493
+            },
+            {
+              "title": "1jehuang/jcode",
+              "url": "https://github.com/1jehuang/jcode",
+              "source": "GitHub",
+              "score": 3447
+            },
+            {
+              "title": "Gas City 1.0",
+              "url": "https://www.producthunt.com/products/gas-city",
+              "source": "ProductHunt",
+              "score": 0
             }
           ],
-          "takeaway": "Agent 的下一波新增用户，可能先从课程和挑战赛进入，而不是从 IDE 进入。"
+          "takeaway": "今天的新概念不是某个模型名，而是围绕代理生产系统形成的新词簇。"
         }
       ]
     },
@@ -240,7 +284,33 @@
         {
           "id": "weekend-build",
           "heading": "今天 2 小时和一个周末分别做什么？",
-          "summary_md": "今天 2 小时可以做一个「Agent 成本审计器」原型：读取 Claude Code 或 Codex 日志，按任务、模型、工具调用聚合成本，并给出节省建议，直接对标 [WOZCODE](https://www.producthunt.com/products/wozcode) 的 50% 降本叙事。一个周末可以做成 VS Code 或终端插件，接入 [mksglu/context-mode](https://github.com/mksglu/context-mode) 这类上下文压缩思路，再加团队排行榜和预算告警。",
+          "summary_md": "今天 2 小时可以做一个「Red Squares 式」开发者情绪小工具：选一个高频基础设施痛点，例如 GitHub outages、API rate limit、CI flakiness 或模型服务延迟，把公开状态页或手工数据转成一张开发者熟悉的图。目标不是功能完整，而是让人愿意截图转发。参考 [Red Squares](https://red-squares.cian.lol/) 386 分、80 评论的路径，先验证表达是否击中社区。\n\n一个周末则适合做 agent workflow wrapper：围绕 [Cloudflare agents](https://blog.cloudflare.com/agents-stripe-projects/) 暗示的开户、买域名、部署流程，做一个只服务单一场景的代理执行面板，例如「给 side project 自动买域名并部署 landing page」。关键功能是预算上限、权限确认、步骤日志和失败回滚，而不是再接十个模型。",
+          "items": [
+            {
+              "title": "Red Squares",
+              "url": "https://red-squares.cian.lol/",
+              "source": "HN",
+              "score": 386
+            },
+            {
+              "title": "Cloudflare Agents",
+              "url": "https://blog.cloudflare.com/agents-stripe-projects/",
+              "source": "HN",
+              "score": 440
+            },
+            {
+              "title": "InsForge",
+              "url": "https://github.com/InsForge/InsForge",
+              "source": "GitHub",
+              "score": 213
+            }
+          ],
+          "takeaway": "短线做可传播的小痛点，周末做带权限和回滚的单场景代理执行流。"
+        },
+        {
+          "id": "pricing-models",
+          "heading": "值得学习的定价和变现模式有哪些？",
+          "summary_md": "今天最值得学习的不是订阅按钮，而是价值锚点。[WOZCODE](https://www.producthunt.com/products/wozcode) 用「Cut Claude Code costs by up to 50%」把价格直接锚到节省成本，适合做按节省金额分成或阶梯套餐。[Magic Studio by Once UI](https://www.producthunt.com/products/magic-studio-by-once-ui) 用「$10k agency」锚到新增收入，适合卖模板、交付系统和白标服务。[Open Finance MCP](https://www.producthunt.com/products/open-finance-mcp) 则接入银行数据，适合按高信任场景收取专业版或用量费。\n\n如果你今天要给 AI 工具定价，优先问用户哪一项可以被财务确认：少花多少 token、少花多少人工、快多少天交付、少承担多少合规风险。能被确认的价值，才有机会从每月 19 美元升级到团队预算。",
           "items": [
             {
               "title": "WOZCODE",
@@ -249,64 +319,50 @@
               "score": 0
             },
             {
-              "title": "mksglu/context-mode",
-              "url": "https://github.com/mksglu/context-mode",
-              "source": "GitHub",
-              "score": 276
-            }
-          ],
-          "takeaway": "比再做一个 coding agent 更快的切入点，是做所有 coding agent 的成本和上下文控制层。"
-        },
-        {
-          "id": "pricing-models",
-          "heading": "值得学习的定价和变现模式有哪些？",
-          "summary_md": "今天可以学三类定价：第一是 [WOZCODE](https://www.producthunt.com/products/wozcode) 的节省分成叙事，用户天然能算 ROI；第二是 [Magic Studio by Once UI](https://www.producthunt.com/products/magic-studio-by-once-ui) 的 agency-in-a-box，把工具包装成可售卖服务能力；第三是 [Open Finance MCP](https://www.producthunt.com/products/open-finance-mcp) 和 [pay.sh](https://www.producthunt.com/products/solanafndn) 的 Agent 支付与金融数据入口，适合按连接数、调用量或成功交易收费。",
-          "items": [
+              "title": "Magic Studio by Once UI",
+              "url": "https://www.producthunt.com/products/magic-studio-by-once-ui",
+              "source": "ProductHunt",
+              "score": 0
+            },
             {
               "title": "Open Finance MCP",
               "url": "https://www.producthunt.com/products/open-finance-mcp",
               "source": "ProductHunt",
               "score": 0
-            },
-            {
-              "title": "pay.sh",
-              "url": "https://www.producthunt.com/products/solanafndn",
-              "source": "ProductHunt",
-              "score": 0
-            },
-            {
-              "title": "Magic Studio by Once UI",
-              "url": "https://www.producthunt.com/products/magic-studio-by-once-ui",
-              "source": "ProductHunt",
-              "score": 0
             }
           ],
-          "takeaway": "最容易收费的 AI 产品，会把价值锚定在省钱、赚钱或完成交易，而不是模型能力本身。"
+          "takeaway": "AI 产品的定价要从功能表迁移到财务结果：省钱、赚钱、避险三者至少占一个。"
         },
         {
           "id": "counterintuitive",
           "heading": "今天最反直觉的发现是什么？",
-          "summary_md": "最反直觉的是：最值得做的 AI 产品可能不是更强的 Agent，而是让 Agent 进入现实世界的接口。HN 上 [Agents can now create Cloudflare accounts, buy domains, and deploy](https://blog.cloudflare.com/agents-stripe-projects/) 拿到 291 分、162 评论，说明开发者真正兴奋的是账号、域名、部署、支付这条链路被打通。Product Hunt 上 [pay.sh](https://www.producthunt.com/products/solanafndn) 也在讲自主发现、访问和支付 API，这比单纯聊天更接近商业闭环。",
+          "summary_md": "最反直觉的是：在模型热榜极热的同一天，Builder 真正可做的机会反而更靠近「包装、权限和流程」。[DeepSeek-V4-Pro](https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro) trending score 349、下载 786,631，[Qwen3.6-35B-A3B](https://huggingface.co/Qwen/Qwen3.6-35B-A3B) 下载 3,030,186，看起来模型竞争很激烈；但 HN 和 GitHub 的高互动集中在 [Cloudflare agents](https://blog.cloudflare.com/agents-stripe-projects/)、[Warp](https://github.com/warpdotdev/warp)、[skills](https://github.com/mattpocock/skills) 这些让模型实际干活的层。\n\n这意味着独立开发者不必追逐训练新模型。更有效的打法是把已有模型接到具体任务、约束权限、记录过程、交付可见结果。模型越强，越会放大这层产品的价值，因为用户会更快从「它能说什么」转向「它能替我完成什么」。",
           "items": [
             {
-              "title": "Agents can now create Cloudflare accounts, buy domains, and deploy",
-              "url": "https://blog.cloudflare.com/agents-stripe-projects/",
-              "source": "HN",
-              "score": 291
+              "title": "deepseek-ai/DeepSeek-V4-Pro",
+              "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+              "source": "HuggingFace",
+              "score": 349
             },
             {
-              "title": "pay.sh",
-              "url": "https://www.producthunt.com/products/solanafndn",
-              "source": "ProductHunt",
-              "score": 0
+              "title": "Cloudflare Agents",
+              "url": "https://blog.cloudflare.com/agents-stripe-projects/",
+              "source": "HN",
+              "score": 440
+            },
+            {
+              "title": "mattpocock/skills",
+              "url": "https://github.com/mattpocock/skills",
+              "source": "GitHub",
+              "score": 25389
             }
           ],
-          "takeaway": "Agent 的护城河不在会说什么，而在它能合法、安全、可计费地替用户做什么。"
+          "takeaway": "模型越热，越应该做模型之上的执行、权限、审计和场景包装。"
         }
       ]
     }
   ],
-  "generated_at": "2026-05-06T09:42:23+00:00",
+  "generated_at": "2026-05-06T13:30:50+00:00",
   "reddit_highlights": [
     {
       "heading": "哪些定价和变现模型值得研究？",
