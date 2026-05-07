@@ -1,0 +1,120 @@
+{
+  "date": "2026-05-07",
+  "items": [
+    {
+      "id": "2026-05-07-1",
+      "title": "Claude Code 的印刷机时刻",
+      "angle": "从 Boris Cherny 的比喻切入：AI coding 真正改变的不是写代码速度，而是谁能把专业流程产品化。",
+      "opening": "Boris Cherny 把 AI coding 称为编程的印刷机时，台下已经有一群 Claude Code 重度用户。今天更有意思的是，Product Hunt 上的 Claude Agents for Financial Services 不是让你聊天，而是直接处理 pitch、KYC 和关账。",
+      "story_hook": {
+        "challenge": "程序员以为自己在获得一个更快的 IDE，但行业正在把专业知识封装成可复用的 agent 模板。",
+        "twist": "印刷机降低的是出版门槛，Claude Code 降低的可能是金融、法务、数据分析这些专业软件的生产门槛。"
+      },
+      "takeaway": "开发者应优先寻找可模板化的专业流程，而不是继续做泛用聊天入口。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Training Data 访谈 Anthropic Boris Cherny：Coding's Printing Press Moment",
+          "url": "https://www.youtube.com/playlist?list=PLOhHNjZItNnMm5tdW61JpnyxeYH5NDDx8"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt：Claude Agents for Financial Services",
+          "url": "https://www.producthunt.com/products/claude-code"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Google Trends：ai agent 近 7 天上涨 21.1%",
+          "url": "https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d"
+        }
+      ]
+    },
+    {
+      "id": "2026-05-07-2",
+      "title": "Agent 最缺的不是模型",
+      "angle": "用隐私过滤模型上榜反推：agent 要进入真实业务，第一道门槛是用户敢不敢交出数据。",
+      "opening": "今天 HuggingFace 热榜里最反直觉的不是大模型，而是 openai/privacy-filter 拿到 216 的 trending score。Claude Code 能让人上头，但真到 KYC、会议纪要、财务数据时，用户先问的不是效果，而是资料会不会泄漏。",
+      "story_hook": {
+        "challenge": "Agent 产品都想接管工作流，但高价值工作流通常伴随敏感数据和权限风险。",
+        "twist": "看起来不性感的隐私过滤，可能比更强的生成模型更接近付费理由。"
+      },
+      "takeaway": "做 agent 产品时，把脱敏、本地处理、权限日志做成核心卖点，而不是合规页脚。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Training Data 访谈 Anthropic Boris Cherny：Claude Code 重度使用与 coding agent 讨论",
+          "url": "https://www.youtube.com/playlist?list=PLOhHNjZItNnMm5tdW61JpnyxeYH5NDDx8"
+        },
+        {
+          "tag": "pulse",
+          "ref": "HuggingFace：openai/privacy-filter trending_score 216",
+          "url": "https://huggingface.co/openai/privacy-filter"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt：Askmeety 100% 本地 Mac 会议笔记",
+          "url": "https://www.producthunt.com/products/askmeety"
+        }
+      ]
+    },
+    {
+      "id": "2026-05-07-3",
+      "title": "MCP 正在吞掉后台",
+      "angle": "从 Claude Code 使用场景看 MCP：未来的后台不是给人点的，而是给 agent 调用的。",
+      "opening": "如果 Claude Code 是新的工作界面，那传统 SaaS 后台就会变得很尴尬。今天 Basedash MCP server、ClearMesh 和各种垂直 agent 同时出现，说明开发者正在把数据库、资产文件夹和业务对象变成 AI 可调用的上下文。",
+      "story_hook": {
+        "challenge": "过去的软件默认人打开后台、筛选数据、复制结果；agent 工作流要求系统直接暴露可执行上下文。",
+        "twist": "下一代开发者工具可能不是更漂亮的 dashboard，而是一个更容易被 agent 读懂和操作的接口层。"
+      },
+      "takeaway": "如果你已有内部工具或数据产品，应评估哪些对象可以通过 MCP 或类似协议开放给 AI 工具。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Training Data 访谈 Anthropic Boris Cherny：Coding's Printing Press Moment",
+          "url": "https://www.youtube.com/playlist?list=PLOhHNjZItNnMm5tdW61JpnyxeYH5NDDx8"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt：Basedash MCP server",
+          "url": "https://www.producthunt.com/products/basedash"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt：ClearMesh 把 Git-like 版本控制带到数据集和模型资产",
+          "url": "https://www.producthunt.com/products/clearmesh"
+        }
+      ]
+    },
+    {
+      "id": "2026-05-07-4",
+      "title": "AI 定价要卖确定性",
+      "angle": "把 Claude Code 的效率叙事和 DevPass、Lovie 的价格锚点放在一起，讨论 AI 工具如何从卖 token 转向卖结果。",
+      "opening": "Claude Code 让人兴奋，是因为它把模糊的编程过程压缩成可见的进展。但今天 Product Hunt 上更锋利的信号，是 DevPass 用三档固定价卖模型访问，Lovie 用 20 分钟、20 美元卖公司注册。",
+      "story_hook": {
+        "challenge": "AI 产品的成本常常不透明，用户不知道自己买的是 token、模型品牌，还是一个真实结果。",
+        "twist": "最容易成交的不是功能最多的工具，而是能把不确定流程压成一句承诺的产品。"
+      },
+      "takeaway": "设计 AI 产品定价时，用一次完整交付、固定套餐或明确时长替代抽象的模型调用额度。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Training Data 访谈 Anthropic Boris Cherny：Claude Code 与 AI coding 工作流",
+          "url": "https://www.youtube.com/playlist?list=PLOhHNjZItNnMm5tdW61JpnyxeYH5NDDx8"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt：DevPass by LLM Gateway 三档固定价访问 coding model",
+          "url": "https://www.producthunt.com/products/devpass-by-llm-gateway"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt：Lovie 20 分钟、20 美元完成公司注册",
+          "url": "https://www.producthunt.com/products/lovie-the-ai-native-formation-mcp"
+        }
+      ]
+    }
+  ],
+  "notes": "今日 builders 素材只有 Boris Cherny 一条，适合围绕 Claude Code 与 agent 工作流做主线；选题应避免硬写模型发布，重点放在专业流程、数据权限、MCP 接口和结果定价。",
+  "generated_at": "2026-05-07T11:03:20+00:00",
+  "model": "gpt-5.5"
+}
