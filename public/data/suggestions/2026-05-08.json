@@ -1,0 +1,168 @@
+{
+  "date": "2026-05-08",
+  "items": [
+    {
+      "id": "2026-05-08-1",
+      "title": "Coding Agent 不再困在 IDE",
+      "angle": "从 GStack thin-client、浏览器控制和 GitHub 高增长编排项目切入，讲 coding agent 的战场正在从写代码迁移到运行环境。",
+      "opening": "今天最有意思的不是某个 agent 又会写代码了，而是它们开始争夺同一个控制台。Garry Tan 连发几条 GStack 更新：Claude Code、OpenClaw、Hermes 可以共享浏览器、MCP 和 thin-client 能力。",
+      "story_hook": {
+        "challenge": "大家都在卷更聪明的 coding agent，但真正难的是让多个 agent 在同一套上下文、浏览器和权限里协作。",
+        "twist": "下一代开发工具的护城河可能不是 IDE，而是 agent 的运行时、技能库、审计日志和浏览器控制权。"
+      },
+      "takeaway": "做开发者工具时，不要只做聊天框或代码补全；更值得做的是 agent run recorder、权限隔离、任务编排和可回放执行记录。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Garry Tan 发布 GStack thin-client mode",
+          "url": "https://x.com/garrytan/status/2052629679572701455"
+        },
+        {
+          "tag": "builders",
+          "ref": "Garry Tan 介绍 GStack headed browser 与 /pair-agent",
+          "url": "https://x.com/garrytan/status/2052588782076281324"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub 高增长项目 ruvnet/ruflo，weekly stars 11,930",
+          "url": "https://github.com/ruvnet/ruflo"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub 高增长项目 openai/symphony，weekly stars 2,406",
+          "url": "https://github.com/openai/symphony"
+        }
+      ]
+    },
+    {
+      "id": "2026-05-08-2",
+      "title": "Claude 正在偷走 Office 入口",
+      "angle": "用 Claude 进入 Excel、PowerPoint、Word 和 Outlook，连接 Dan Shipper 的平台战争判断，讲 AI 公司如何从模型 API 变成办公基础设施。",
+      "opening": "Claude 今天不是发布一个新聊天功能，而是进入了 Excel、PowerPoint、Word，Outlook 也进了 public beta。表面看是插件，实际是 Anthropic 在抢企业工作流里的上下文入口。",
+      "story_hook": {
+        "challenge": "企业用户不缺一个能回答问题的 AI，缺的是能带着完整上下文穿过文档、邮件、表格和演示的 AI。",
+        "twist": "平台战争可能不是发生在模型榜单上，而是发生在谁能长期驻留在 Office、邮件和团队知识库里。"
+      },
+      "takeaway": "企业 AI 产品要把重点从单次生成转向跨应用上下文、权限、审计和团队记忆，否则很容易被平台级助手吸走入口。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Claude 宣布 Excel、PowerPoint、Word GA，Outlook public beta",
+          "url": "https://x.com/claudeai/status/2052445786651168849"
+        },
+        {
+          "tag": "builders",
+          "ref": "Dan Shipper 讨论 Anthropic API 走向完整云基础设施",
+          "url": "https://x.com/danshipper/status/2052501376195080381"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt Tracea，AI agents 的 Datadog",
+          "url": "https://www.producthunt.com/products/tracea"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt KodHau，给 AI agents 提供团队决策上下文",
+          "url": "https://www.producthunt.com/products/kodhau-senior-context-for-ai-agents"
+        }
+      ]
+    },
+    {
+      "id": "2026-05-08-3",
+      "title": "AI 安全不是少数人的活了",
+      "angle": "从 Firefox 用 Claude 在一个月内修复超过过去 15 个月的安全 bug 切入，讲 AI 安全从专家工具变成团队生产流程。",
+      "opening": "Alex Albert 今天抛出一个很硬的数字：Firefox 团队在 Claude Mythos Preview 帮助下，4 月修复的安全 bug 超过过去 15 个月总和。Sam Altman 也同一天说，OpenAI 想帮助公司尽快做好安全。",
+      "story_hook": {
+        "challenge": "安全过去是慢、贵、依赖专家的流程，普通工程团队很难持续投入。",
+        "twist": "AI 没有先替代安全团队，而是先把安全修复变成了普通开发流程里的高频动作。"
+      },
+      "takeaway": "开发团队应该把 AI 安全能力接进 bug triage、依赖扫描、代码审查和补丁验证，而不是只把它当成一次性漏洞解释器。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Alex Albert 称 Firefox 4 月修复安全 bug 超过过去 15 个月",
+          "url": "https://x.com/alexalbert__/status/2052468573516513762"
+        },
+        {
+          "tag": "builders",
+          "ref": "Sam Altman 表示希望帮助公司尽快加强安全",
+          "url": "https://x.com/sama/status/2052558319940944256"
+        },
+        {
+          "tag": "pulse",
+          "ref": "HuggingFace openai/privacy-filter，downloads 173,110",
+          "url": "https://huggingface.co/openai/privacy-filter"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt Tracea，覆盖 traces、RCA 和 team memory",
+          "url": "https://www.producthunt.com/products/tracea"
+        }
+      ]
+    },
+    {
+      "id": "2026-05-08-4",
+      "title": "DocuSign 替代品的窗口开了",
+      "angle": "用 Swyx 对 DocuSign 的强烈吐槽，连接 docuseal 的 GitHub 增长，讲老牌 SaaS 被开源替代的真实触发点不是功能，而是愤怒。",
+      "opening": "Swyx 今天对 DocuSign 的吐槽很粗暴，但这类情绪往往比产品调研更诚实。同一天，开源 DocuSign alternative docuseal 本周拿到 3,589 stars，说明替代叙事已经有用户在投票。",
+      "story_hook": {
+        "challenge": "老牌 SaaS 常常功能完整、流程成熟，但用户仍然因为价格、体验、隐私和限制积累怨气。",
+        "twist": "开源替代品不需要一开始更强，只要抓住一个高频痛点，让用户相信自己可以逃离。"
+      },
+      "takeaway": "做 SaaS 替代品时，优先选择价格高、隐私敏感、迁移成本可控、结果可验证的工作流；商业化放在托管、权限、审计和团队协作上。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Swyx 吐槽 DocuSign 使用体验",
+          "url": "https://x.com/swyx/status/2052632502683279417"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub docusealco/docuseal，open source DocuSign alternative",
+          "url": "https://github.com/docusealco/docuseal"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt MediaOptim，强调本地压缩与不上传",
+          "url": "https://www.producthunt.com/products/compress-anything-upload-nothing"
+        }
+      ]
+    },
+    {
+      "id": "2026-05-08-5",
+      "title": "AI 产品文案正在集体失焦",
+      "angle": "从 Zara Zhang 说新 AI app 信息都混在一起，连接 Product Hunt 上 agent 监控、金融、隐私产品同质化，讲 AI 产品如何重新找到尖锐定位。",
+      "opening": "Zara Zhang 今天说，她收到太多新 AI app 消息，但看起来全都混在一起。这句话刺中很多 builder 的问题：不是产品没做出来，而是用户根本记不住你到底解决哪一个痛点。",
+      "story_hook": {
+        "challenge": "AI 产品越来越多，但大多数都用同一套词：agent、workflow、productivity、copilot。",
+        "twist": "真正能被记住的产品，往往不是说自己更智能，而是明确承诺少出错、少上传、少花钱或少踩坑。"
+      },
+      "takeaway": "写 AI 产品定位时，把“更聪明”改成可验证的结果：节省多少钱、减少多少错误、替代哪个流程、降低哪种风险。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Zara Zhang 说新 AI app 信息都混在一起",
+          "url": "https://x.com/zarazhangrui/status/2052505923625857286"
+        },
+        {
+          "tag": "builders",
+          "ref": "Aaron Levie 讨论 AI 让软件更容易后差异化会转移",
+          "url": "https://x.com/levie/status/2052566788236509254"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt Fabraix，发现 AI agents 缺口",
+          "url": "https://www.producthunt.com/products/nyx-4"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt SecureLend Agents，AI underwriting",
+          "url": "https://www.producthunt.com/products/securelend-agents"
+        }
+      ]
+    }
+  ],
+  "notes": "今日主线很清楚：builder 讨论从模型能力转向 agent 的运行环境、企业上下文、安全修复和可控性。适合写“AI 变强之后，真正值钱的是控制面”这一组稿。",
+  "generated_at": "2026-05-08T10:08:27+00:00",
+  "model": "gpt-5.5"
+}
