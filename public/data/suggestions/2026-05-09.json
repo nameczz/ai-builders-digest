@@ -1,0 +1,125 @@
+{
+  "date": "2026-05-09",
+  "items": [
+    {
+      "id": "2026-05-09-1",
+      "title": "Prompt 变短，技能变贵",
+      "angle": "从 prompt 工程降温切入：真正的杠杆正在从“会写提示词”迁移到“把能力沉淀成可复用技能”。",
+      "opening": "以前大家比谁的 prompt 更长，现在 builder 开始反着做：给 agent 的技能越多，提示词越短。GitHub 上 mattpocock/skills 一周新增 14928 stars，说明开发者要的不是灵感句式，而是可迁移的能力包。",
+      "story_hook": {
+        "challenge": "AI 工具越强，临场 prompt 反而越像一次性胶水，难以复用、协作和审计。",
+        "twist": "模型能力提升没有消灭工具层，反而让“技能库”成为新的基础设施入口。"
+      },
+      "takeaway": "开发者和团队应该把高频 AI 工作流沉淀成技能、模板和执行约束，而不是继续堆长 prompt。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Peter Steinberger：给 Codex 的技能越多，提示词越少",
+          "url": "https://x.com/steipete/status/2052971550966440251"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub：mattpocock/skills 单周新增 14928 stars",
+          "url": "https://github.com/mattpocock/skills"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub：browserbase/skills 结合 Claude Agent SDK 与浏览器工具",
+          "url": "https://github.com/browserbase/skills"
+        }
+      ]
+    },
+    {
+      "id": "2026-05-09-2",
+      "title": "Agent 的座位不是人",
+      "angle": "从企业预算切入：agent 定价不会只是 token 账单，而会长成带身份、权限、预算和审计的新型席位制。",
+      "opening": "Aaron Levie 说，企业很快会像管午餐一样管 token：低价值任务烧完预算，真正重要的 agent 工作反而没算力。更反直觉的是，Matt Turck 认为企业 agent 最后可能看起来仍像席位制，只是这个席位不再属于人。",
+      "story_hook": {
+        "challenge": "大家以为 agent 成本问题是模型太贵，其实企业真正缺的是谁能用、用在哪、花了多少、能不能追责。",
+        "twist": "token 计费只是表层，未来付费边界可能回到组织管理软件最熟悉的权限、预算和审计。"
+      },
+      "takeaway": "做企业 agent 产品时，不要只设计调用量套餐，要优先设计团队预算、角色权限、任务日志和成本可见性。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Aaron Levie：企业会精细管理 token 和 agentic spend",
+          "url": "https://x.com/levie/status/2052903105256382679"
+        },
+        {
+          "tag": "builders",
+          "ref": "Matt Turck：企业级 Agent 可能更像非人席位制",
+          "url": "https://x.com/mattturck/status/2052839798063112303"
+        },
+        {
+          "tag": "pulse",
+          "ref": "decolua/9router：多模型路由与低成本 AI coding 入口",
+          "url": "https://github.com/decolua/9router"
+        }
+      ]
+    },
+    {
+      "id": "2026-05-09-3",
+      "title": "视频副驾终于不乱插嘴了",
+      "angle": "从 Realtime 2 的一个细节切入：能区分视频声音和用户声音，才是语音 AI 从玩具变成副驾的关键。",
+      "opening": "Zara Zhang 做了一个 YouTube 实时副驾：AI 一边看视频，一边听你提问，还能用语音回答刚讲过的内容。真正关键的不是“会说话”，而是它不会把视频里的声音误当成你的指令。",
+      "story_hook": {
+        "challenge": "多模态助手过去最大的问题不是不够聪明，而是进入真实场景后分不清谁在说话、什么该响应。",
+        "twist": "Realtime 体验的突破点可能不是更拟人的声音，而是更可靠的上下文分离和触发控制。"
+      },
+      "takeaway": "做语音或视频 AI 产品时，应把音源分离、触发条件和沉默策略当作核心产品能力，而不是只追求回答质量。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Zara Zhang：OpenAI Realtime 2 YouTube 实时副驾插件",
+          "url": "https://x.com/zarazhangrui/status/2052977849267892339"
+        },
+        {
+          "tag": "builders",
+          "ref": "Zara Zhang：GPT Realtime 2 体验像黑魔法",
+          "url": "https://x.com/zarazhangrui/status/2052895297903501601"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt：Codex in Chrome 指向浏览器内 agent 入口",
+          "url": "https://www.producthunt.com/products/openai"
+        }
+      ]
+    },
+    {
+      "id": "2026-05-09-4",
+      "title": "Cursor 替代潮不是换 IDE",
+      "angle": "从 cursor alternative 搜索上升切入：开发者不是单纯厌倦 Cursor，而是在拆分模型、路由、执行层和浏览器入口。",
+      "opening": "Google Trends 里 cursor alternative 一周上升 76.5%，但这不是“谁杀死 Cursor”的老故事。更准确的说法是：开发者开始把 AI coding stack 拆开，模型可以换，路由可以换，执行环境也可以换。",
+      "story_hook": {
+        "challenge": "AI coding 产品过去把模型、编辑器、上下文和执行绑在一个入口里，迁移成本低时用户会重新组合工作流。",
+        "twist": "Codex 的兴奋还没完全传到市场，但开源路由器和 Chrome 入口已经在提前改写竞争规则。"
+      },
+      "takeaway": "判断 AI coding 工具时，不要只比补全质量，要看它是否开放、可路由、可审计，并能接入用户已有工作流。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Dan Shipper：市场还没消化 Codex 兴奋，这是代际级套利窗口",
+          "url": "https://x.com/danshipper/status/2052865144066097217"
+        },
+        {
+          "tag": "builders",
+          "ref": "Garry Tan：128GB MacBook Pro 跑 100 万 token coding agent",
+          "url": "https://x.com/garrytan/status/2052996691586932783"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Google Trends：cursor alternative 上升 76.5%",
+          "url": "https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub：decolua/9router 单周新增 1781 stars",
+          "url": "https://github.com/decolua/9router"
+        }
+      ]
+    }
+  ],
+  "notes": "今日最强主线是 agent 从模型体验转向工作流控制：技能包、路由、预算、浏览器和实时语音都在争夺新的入口。缺少足够强的独立开发者营收原始故事，商业化选题更适合从企业控制层和开源替代切入。",
+  "generated_at": "2026-05-09T09:24:04+00:00",
+  "model": "gpt-5.5"
+}
