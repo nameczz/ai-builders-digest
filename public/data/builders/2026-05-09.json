@@ -1,0 +1,322 @@
+{
+  "date": "2026-05-09",
+  "generated_at": "2026-05-09T09:11:21+00:00",
+  "count": 21,
+  "items": [
+    {
+      "id": "24f3331a7b",
+      "date": "2026-05-09",
+      "source": "x",
+      "author": "Garry Tan",
+      "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "title": "",
+      "summary_en": "Personal software is coming https://t.co/vvcu2o30AN",
+      "summary_zh": "个人软件时代要来了：每个人都能按自己的需求生成、改造和使用软件，不再被通用产品牵着走。",
+      "url": "https://x.com/garrytan/status/2052998537344856459",
+      "posted_at": "2026-05-09T06:26:08.000Z",
+      "tags": [
+        "@garrytan"
+      ]
+    },
+    {
+      "id": "592bcaf60d",
+      "date": "2026-05-09",
+      "source": "x",
+      "author": "Garry Tan",
+      "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "title": "",
+      "summary_en": "Downloading now... 1M token context window with supposedly usable coding agent capability all on a 128GB Macbook Pro is 🤯 https://t.co/otTL8NZMvV https://t.co/YfiNYM06Zu",
+      "summary_zh": "128GB MacBook Pro 上直接跑 100 万 token 上下文、还号称能用的 coding agent，离谱到让人脑子短路。",
+      "url": "https://x.com/garrytan/status/2052996691586932783",
+      "posted_at": "2026-05-09T06:18:48.000Z",
+      "tags": [
+        "@garrytan"
+      ]
+    },
+    {
+      "id": "51580b6c60",
+      "date": "2026-05-09",
+      "source": "x",
+      "author": "Zara Zhang",
+      "bio": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://t.co/KCuEajezlL YouTube: https://t.co/8xzbGWtf6w",
+      "title": "",
+      "summary_en": "Built a \"YouTube realtime copilot\" browser extension using OpenAI's realtime 2 API: \n\nThe agent watches the video alongside you, and can answer any question you have about what was just said via realtime voice chat.\n\nThe crazy part to me is: It can differentiate the YouTube's audio stream and your voice, so it doesn't confuse the video as commands, and stays silent unless you ask something!",
+      "summary_zh": "用 OpenAI Realtime 2 API 做了个 YouTube 实时副驾插件：AI 边看视频边听你提问，用语音回答刚讲过的内容。真正狠的是它能区分视频音轨和你的声音，不会把视频内容误当指令，除非你开口才说话。",
+      "url": "https://x.com/zarazhangrui/status/2052977849267892339",
+      "posted_at": "2026-05-09T05:03:56.000Z",
+      "tags": [
+        "@zarazhangrui"
+      ]
+    },
+    {
+      "id": "eb97cdcc26",
+      "date": "2026-05-09",
+      "source": "x",
+      "author": "Peter Steinberger",
+      "bio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world. @OpenClaw🦞 + @OpenAI",
+      "title": "",
+      "summary_en": "The more skills you give codex, the less you have to prompt. https://t.co/fJZckc50Zl",
+      "summary_zh": "给 Codex 的技能越多，你要写的提示词就越少。真正的杠杆不是把提示词写长，而是把能力固化成技能。",
+      "url": "https://x.com/steipete/status/2052971550966440251",
+      "posted_at": "2026-05-09T04:38:54.000Z",
+      "tags": [
+        "@steipete"
+      ]
+    },
+    {
+      "id": "aa9bf607fe",
+      "date": "2026-05-09",
+      "source": "x",
+      "author": "Zara Zhang",
+      "bio": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://t.co/KCuEajezlL YouTube: https://t.co/8xzbGWtf6w",
+      "title": "",
+      "summary_en": "All 32 Beautiful HTML Slide Templates are now available on AnyGen, it's plug-and-play even for those without a coding agent\n\nUse them now: https://t.co/HDcFWYzJXa https://t.co/BYSpiI1Bts https://t.co/Ugi2IUbxRN",
+      "summary_zh": "AnyGen 上线了 32 套精美 HTML 幻灯片模板，不用 coding agent 也能即插即用，做演示直接开干。",
+      "url": "https://x.com/zarazhangrui/status/2052928583388340332",
+      "posted_at": "2026-05-09T01:48:10.000Z",
+      "tags": [
+        "@zarazhangrui"
+      ]
+    },
+    {
+      "id": "159a49e078",
+      "date": "2026-05-09",
+      "source": "x",
+      "author": "Amanda Askell",
+      "bio": "Philosopher & ethicist trying to make AI be good @AnthropicAI. Personal account. All opinions come from my training data.",
+      "title": "",
+      "summary_en": "Alignment research often has to focus on averting concerning behaviors, but I think the positive vision for this kind of training is one where we can give models and honest and positive vision for what AI models can be and why. I'm excited about the future of this work. https://t.co/4BnLVNjnEY https://t.co/AYIilWyJLB",
+      "summary_zh": "对齐研究不能只盯着防止模型作恶；更有野心的方向，是让 AI 理解自己该成为什么、为什么要这么做。安全不是单纯踩刹车，而是给模型一个诚实、正向的自我定位。",
+      "url": "https://x.com/AmandaAskell/status/2052928572810256748",
+      "posted_at": "2026-05-09T01:48:07.000Z",
+      "tags": [
+        "@AmandaAskell"
+      ]
+    },
+    {
+      "id": "14066a7c9b",
+      "date": "2026-05-09",
+      "source": "x",
+      "author": "Aaron Levie",
+      "bio": "ceo @box - your business lives in content. unleash it with AI",
+      "title": "",
+      "summary_en": "A common trend emerging in larger enterprises is token budgeting as a major topic. As agents can do more and more long running tasks, and thus take vastly more compute, allocation of tokens across teams becomes a very real thing in the enterprise.\n\nCompanies spend a meaningful amount of time deciding how much to spend on talent, marketing campaigns, events, laptop setups, and even the cost of lunches. Tokens will be no different.\n\nTokens will similarly need to be excruciatingly well-managed because you’ll need to ensure you don’t blow up your budget, and you’ll need to ensure that the tokens are flowing to the highest and most useful parts of work. You don’t want to find out you burned your monthly budget on something relatively low value and then be blocked on the much higher value task later. \n\nDoing this at large company scale is extremely hard as you have layers of abstraction on data and visibility into the digital work being done by agents in any central way. This is going to mean that agentic spend will increasingly will expand beyond the confines of the IT budget, and end up in organizational budgets like other expenses. \n\nUltimately team and org leaders will have to be given budgets for this, but even they don’t have adequate visibility and controls in most cases. We’ll need all new software just to solve this problem, and it’s probably an opportunity for startups in its own right.\n\nGoing to be an all new era of enterprise resource allocation, especially while we compute constrained.",
+      "summary_zh": "企业很快会像管人头、市场费和午餐一样，精细到近乎痛苦地管 token：别把月度预算烧在低价值任务上，等真正重要的 agent 工作来了却没算力可用。\n\n这会把 agentic spend 从 IT 预算推向各团队预算，但现有企业几乎没有足够的可见性和控制工具，新的企业资源分配软件机会正在出现。",
+      "url": "https://x.com/levie/status/2052903105256382679",
+      "posted_at": "2026-05-09T00:06:56.000Z",
+      "tags": [
+        "@levie"
+      ]
+    },
+    {
+      "id": "19cdff89e2",
+      "date": "2026-05-09",
+      "source": "x",
+      "author": "Alex Albert",
+      "bio": "Research @AnthropicAI. Opinions are my own!",
+      "title": "",
+      "summary_en": "An early Claude Mythos Preview snapshot we provided METR has a time horizon of more than 2x the next best model on their 80% success rate benchmark https://t.co/xOrewjvFIF https://t.co/DVUWVaubCg",
+      "summary_zh": "给 METR 测的早期 Claude Mythos Preview 快照，在 80% 成功率基准上的任务时间跨度超过第二名两倍以上。它想表达的是：长程复杂任务能力已经明显拉开差距。",
+      "url": "https://x.com/alexalbert__/status/2052899864493830590",
+      "posted_at": "2026-05-08T23:54:03.000Z",
+      "tags": [
+        "@alexalbert__"
+      ]
+    },
+    {
+      "id": "ad0eb4774c",
+      "date": "2026-05-09",
+      "source": "x",
+      "author": "Nikunj Kothari",
+      "bio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
+      "title": "",
+      "summary_en": "True wealth 🥭 https://t.co/1GB4RuP0MF",
+      "summary_zh": "",
+      "url": "https://x.com/nikunj/status/2052898218242130402",
+      "posted_at": "2026-05-08T23:47:30.000Z",
+      "tags": [
+        "@nikunj"
+      ]
+    },
+    {
+      "id": "8ef3c9a718",
+      "date": "2026-05-09",
+      "source": "x",
+      "author": "Zara Zhang",
+      "bio": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://t.co/KCuEajezlL YouTube: https://t.co/8xzbGWtf6w",
+      "title": "",
+      "summary_en": "Can confirm GPT realtime 2 feels like black magic; unlocks so many new applications!! Building with it now https://t.co/98ZbhYKV5Y",
+      "summary_zh": "GPT Realtime 2 的体验像黑魔法，直接打开了一堆新应用场景。作者已经开始基于它做东西了。",
+      "url": "https://x.com/zarazhangrui/status/2052895297903501601",
+      "posted_at": "2026-05-08T23:35:54.000Z",
+      "tags": [
+        "@zarazhangrui"
+      ]
+    },
+    {
+      "id": "9a1655ad45",
+      "date": "2026-05-09",
+      "source": "x",
+      "author": "Sam Altman",
+      "bio": "AI is cool i guess",
+      "title": "",
+      "summary_en": "call me maybe https://t.co/n5fE9KLgTf",
+      "summary_zh": "这条推文本身没给信息，只丢出一句 “call me maybe” 和短链，把内容包装成一个带挑衅感的点击钩子：想知道是什么，就自己去打/试。",
+      "url": "https://x.com/sama/status/2052887698717986956",
+      "posted_at": "2026-05-08T23:05:42.000Z",
+      "tags": [
+        "@sama"
+      ]
+    },
+    {
+      "id": "d8ce504868",
+      "date": "2026-05-09",
+      "source": "x",
+      "author": "Dan Shipper",
+      "bio": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "title": "",
+      "summary_en": "Generational opportunity for anyone in AI to play the markets given this time lag. \n\nGuarantee everyone is psyched about Codex in a few months. Invest accordingly",
+      "summary_zh": "AI 圈对 Codex 的兴奋还没传导到市场，这是代际级套利窗口。几个月后所有人都会追捧 Codex，现在就该按这个预期下注。",
+      "url": "https://x.com/danshipper/status/2052865144066097217",
+      "posted_at": "2026-05-08T21:36:05.000Z",
+      "tags": [
+        "@danshipper"
+      ]
+    },
+    {
+      "id": "573804eb42",
+      "date": "2026-05-09",
+      "source": "x",
+      "author": "Dan Shipper",
+      "bio": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "title": "",
+      "summary_en": "Evidence that everyone at Milken is 3-4 months behind https://t.co/JMdJn4pz4N",
+      "summary_zh": "Milken 那帮人明显慢了半拍：他们现在才反应过来的东西，一线 builder 三四个月前就已经看见了。",
+      "url": "https://x.com/danshipper/status/2052864131573715225",
+      "posted_at": "2026-05-08T21:32:03.000Z",
+      "tags": [
+        "@danshipper"
+      ]
+    },
+    {
+      "id": "50a1994527",
+      "date": "2026-05-09",
+      "source": "x",
+      "author": "Dan Shipper",
+      "bio": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "title": "",
+      "summary_en": "YouTube: https://t.co/NLNLW46WUZ\n\nSpotify: https://t.co/FOyiwzhn8V",
+      "summary_zh": "这条推文本身没观点，只是在丢 YouTube 和 Spotify 入口；没有正文或节目内容，提炼不出任何有价值的 AI builder 判断。",
+      "url": "https://x.com/danshipper/status/2052860980749545957",
+      "posted_at": "2026-05-08T21:19:32.000Z",
+      "tags": [
+        "@danshipper"
+      ]
+    },
+    {
+      "id": "8eb35bbf36",
+      "date": "2026-05-09",
+      "source": "podcast",
+      "author": "AI & I by Every",
+      "bio": "",
+      "title": "The Secrets of Claude's Platform From the Team Who Built It",
+      "summary_en": "Speaker 1 | 00:00 - 00:03\nA year from now, where do you think the platform will be?\n\nSpeaker 2 | 00:03 - 00:18\nWe wanna experiment with directions where Cloud actually gets so good at understanding itself. It figures out what model you should be using. It figures out how to spin up all the sub agents. You don't have to think so much about what kind architectures are there because Claude is actually able to understand itself enough that it can write itself on the fly.\n\nSpeaker 3 | 00:18 - 00:26\nIn that world, if Claude is on the fly, your agents on the fly are becoming what they need to become in order for you to do what you're trying to do, the platform has to seriously scale.\n\nSpeaker 1 | 00:26 - 00:47\nHow close are we to Club Making A Billion Dollars? Is that's really what I'm asking. Angela, Caitlin, welcome to the show.\n\nSpeaker 3 | 00:47 - 00:48\nThanks for having us. Yeah. Thank you.\n\nSpeaker 1 | 00:48 - 01:07\nSo for people who don't know, you both work on the platform at Anthropic. So, Angela, you're the head of product for the cloud platform, and, Caitlin, you are the head of engineering for the cloud platform. I'm I'm really psyched to talk to you because, a, you've been launching a bunch of stuff. You have cloud managed agents that came out recently. You've been launching new features for it.\n\nSpeaker 1 | 01:08 - 01:37\nAnd I think that it it comes at this really interesting time where it makes me think about what actually is a platform in AI for a model company. Because in the GPT-three days, the platform was a completion endpoint. You just, like, send a prompt to get a response. After that, it was, like, a completion endpoint with tool calling and a couple and, like, chat sessions, like that kind of stuff. And now, like, with Cloud Managed Agents, you're essen",
+      "summary_zh": "Claude 平台的野心是把选模型、搭架构、起子代理这些决策都吞掉：Claude 够懂自己，就能按任务现场把自己写出来。真正的问题不再是接口能力，而是这种“即生即用”的代理系统能不能规模化，并变成十亿美元生意。",
+      "url": "https://www.youtube.com/watch?v=lLypHkIVLqc",
+      "posted_at": "2026-05-08T20:27:01.000Z",
+      "tags": [
+        "podcast"
+      ]
+    },
+    {
+      "id": "a32b5ff33e",
+      "date": "2026-05-09",
+      "source": "x",
+      "author": "Matt Turck",
+      "bio": "VC at @FirstMarkCap.  Host: MAD Podcast; Organizer: Data Driven NYC, Author: MAD Landscape.",
+      "title": "",
+      "summary_en": "The more I think about AI agents, the less obvious it is that pricing goes purely consumption-based\n\nToken costs matter... but enterprise agents may need identities, roles, auth, budgets, audit logs etc\n\nThat sounds oddly seat-like? just not human-seat-like",
+      "summary_zh": "AI Agent 不一定会走纯用量计费，token 成本只是表层。企业级 Agent 需要身份、角色、权限、预算和审计日志，最后看起来反而像“席位制”，只是这个席位不再属于人。",
+      "url": "https://x.com/mattturck/status/2052839798063112303",
+      "posted_at": "2026-05-08T19:55:22.000Z",
+      "tags": [
+        "@mattturck"
+      ]
+    },
+    {
+      "id": "863ac20bb6",
+      "date": "2026-05-09",
+      "source": "x",
+      "author": "Swyx",
+      "bio": "achieve ambition with intentionality, intensity, integrity & insanity.  affiliations: - @dxtipshq  - @cognition - @temporalio - @aidotengineer - @latentspacepod",
+      "title": "",
+      "summary_en": "@nikitabier @business some good sourcing. seems potentially state level. https://t.co/ApTomWl4eO",
+      "summary_zh": "这条料的消息源挺硬，看起来可能不是普通玩家，而是国家级力量在下场。",
+      "url": "https://x.com/swyx/status/2052821959713710499",
+      "posted_at": "2026-05-08T18:44:29.000Z",
+      "tags": [
+        "@swyx"
+      ]
+    },
+    {
+      "id": "dddd19264b",
+      "date": "2026-05-09",
+      "source": "x",
+      "author": "Thariq",
+      "bio": "Claude Code @anthropicai.   prev YC W20, @southpkcommons, @medialab",
+      "title": "",
+      "summary_en": "You can also see example HTML documents I've generated here: https://t.co/QuTMbHtdlc",
+      "summary_zh": "这里有我生成的 HTML 文档样例，效果好不好直接看。",
+      "url": "https://x.com/trq212/status/2052811607454146761",
+      "posted_at": "2026-05-08T18:03:21.000Z",
+      "tags": [
+        "@trq212"
+      ]
+    },
+    {
+      "id": "633420410c",
+      "date": "2026-05-09",
+      "source": "x",
+      "author": "Thariq",
+      "bio": "Claude Code @anthropicai.   prev YC W20, @southpkcommons, @medialab",
+      "title": "",
+      "summary_en": "HTML is the new markdown. \n\nI've stopped writing markdown files for almost everything and switched to using Claude Code to generate HTML for me. This is why. https://t.co/T97m0lIDx1",
+      "summary_zh": "Markdown 的默认地位正在被 HTML 抢走：作者几乎不再写 Markdown，而是让 Claude Code 直接生成 HTML。AI 介入后，HTML 的表达力和可控性比 Markdown 更像新的内容底座。",
+      "url": "https://x.com/trq212/status/2052811606032269638",
+      "posted_at": "2026-05-08T18:03:20.000Z",
+      "tags": [
+        "@trq212"
+      ]
+    },
+    {
+      "id": "3b5900fecf",
+      "date": "2026-05-09",
+      "source": "x",
+      "author": "Swyx",
+      "bio": "achieve ambition with intentionality, intensity, integrity & insanity.  affiliations: - @dxtipshq  - @cognition - @temporalio - @aidotengineer - @latentspacepod",
+      "title": "",
+      "summary_en": "@nikitabier @business bloomberg being suddenly interested in your take on developer experience and ai coding tools is the new \"sexy singles in your area\" https://t.co/PBnXTxam0V",
+      "summary_zh": "彭博突然来问你怎么看开发者体验和 AI 编程工具，已经成了新版“附近有性感单身人士”——听着像机会，实则像精准投喂的钓鱼话术。",
+      "url": "https://x.com/swyx/status/2052782201486598523",
+      "posted_at": "2026-05-08T16:06:30.000Z",
+      "tags": [
+        "@swyx"
+      ]
+    },
+    {
+      "id": "6f19decb19",
+      "date": "2026-05-09",
+      "source": "x",
+      "author": "Nikunj Kothari",
+      "bio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
+      "title": "",
+      "summary_en": "Seeing the clear dichotomy in my responses and that’s making me feel this even stronger..\n\nEvery large company manager: you know nothing, we need to be invested, this is how it’s always been done.\n\nEvery startup manager: thanks for saying this, yes, feel this in my bones.\n\n🤷‍♂️",
+      "summary_zh": "反馈越分裂，他越确信问题在哪：大公司经理忙着维护旧秩序，创业公司经理一听就懂，因为他们每天都在骨头里感受到。",
+      "url": "https://x.com/nikunj/status/2052772099840938178",
+      "posted_at": "2026-05-08T15:26:21.000Z",
+      "tags": [
+        "@nikunj"
+      ]
+    }
+  ]
+}
