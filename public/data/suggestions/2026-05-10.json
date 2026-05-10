@@ -1,0 +1,178 @@
+{
+  "date": "2026-05-10",
+  "items": [
+    {
+      "id": "2026-05-10-1",
+      "title": "别再让 AI 报人天了",
+      "angle": "从估工口径切入：coding agent 的管理单位正在从人天变成分钟、工具调用和并行任务队列。",
+      "opening": "Sam Altman 把一堆 Codex 任务丢出去，陪孩子晒太阳，午睡回来发现全做完了。Nikunj Kothari 说得更狠：别再让模型装成人类报人天，它应该按自己真实执行方式估算。",
+      "story_hook": {
+        "challenge": "软件管理还在用人类协作时代的估工语言，但 agent 已经能并行执行、实时迭代。",
+        "twist": "最该被重写的不是 IDE，而是项目经理看任务、排期和验收的单位。"
+      },
+      "takeaway": "读者可以把 AI 任务拆成可并发、可验收的小队列，并要求模型用分钟、工具调用、依赖前置和迭代次数来规划。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Sam Altman 关于丢出 Codex 任务后回来全完成的推文",
+          "url": "https://x.com/sama/status/2053191344999604409"
+        },
+        {
+          "tag": "builders",
+          "ref": "Nikunj Kothari 关于不要让模型按人天估工的推文",
+          "url": "https://x.com/nikunj/status/2053159569015328953"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Google Trends 显示 codex cli 近 7 天上升 6.5%",
+          "url": "https://trends.google.com/trends/explore?q=codex+cli&date=now+7-d"
+        },
+        {
+          "tag": "pulse",
+          "ref": "openai/symphony 周增 2,307 星",
+          "url": "https://github.com/openai/symphony"
+        }
+      ]
+    },
+    {
+      "id": "2026-05-10-2",
+      "title": "AI 文档的 5% 垃圾税",
+      "angle": "从输出格式质量切入：AI 生成内容里那一点点糊弄，会通过引用、复制和自动化流程不断复利。",
+      "opening": "Peter Yang 说，AI 生成的 Markdown 看着能用，但总混着 5% 到 10% 的垃圾。真正可怕的是，这些垃圾不会停在原地，而会被后续文件引用、放大，最后变成没人敢动的“体系”。",
+      "story_hook": {
+        "challenge": "团队以为省下了修文档的时间，其实是在给未来的 agent 投喂污染过的上下文。",
+        "twist": "AI 文档的问题不在于不够漂亮，而在于它会变成下一轮 AI 工作的训练场和错误源。"
+      },
+      "takeaway": "读者应把 AI 产出的 Markdown、HTML、spec 当作代码审查对象，至少清理关键定义、接口、步骤和可被复用的段落。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Peter Yang 关于 5% Markdown 糊弄会被放大的推文",
+          "url": "https://x.com/petergyang/status/2053317001976881312"
+        },
+        {
+          "tag": "builders",
+          "ref": "Peter Yang 关于 agent 生成 md/html 至少混 10% 垃圾的推文",
+          "url": "https://x.com/petergyang/status/2053196581139321300"
+        },
+        {
+          "tag": "builders",
+          "ref": "Zara Zhang 关于 HTML 应服务人类消费的推文",
+          "url": "https://x.com/zarazhangrui/status/2053291803135410674"
+        },
+        {
+          "tag": "pulse",
+          "ref": "mattpocock/skills 周增 13,770 星",
+          "url": "https://github.com/mattpocock/skills"
+        }
+      ]
+    },
+    {
+      "id": "2026-05-10-3",
+      "title": "专家不会消失，会涨价",
+      "angle": "反驳“agent 取代专家”：AI 降低入门门槛后，真正被放大的反而是专家判断力。",
+      "opening": "Aaron Levie 的判断很反直觉：agent 会打穿复杂领域的入场门槛，但不会抹平经验差距。金融 agent 项目正在 GitHub 暴涨，说明市场不是不需要专家，而是想把专家的判断扩大十倍。",
+      "story_hook": {
+        "challenge": "AI 让新人也能进入金融、法律、企业流程等复杂领域，听起来像是在压低专家价值。",
+        "twist": "当基础产出变便宜，稀缺的反而变成历史上下文、现场直觉和最后一公里判断。"
+      },
+      "takeaway": "读者应把 agent 定位成专家杠杆，而不是专家替代品；产品化时卖可验收交付物和判断流程，不要只卖聊天框。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Aaron Levie 关于 agent 会放大专家优势的推文",
+          "url": "https://x.com/levie/status/2053267097493573921"
+        },
+        {
+          "tag": "builders",
+          "ref": "Dan Shipper 关于 benchmark 测的是专家提示能力的推文",
+          "url": "https://x.com/danshipper/status/2053191885116571935"
+        },
+        {
+          "tag": "pulse",
+          "ref": "TauricResearch/TradingAgents 周增 11,541 星",
+          "url": "https://github.com/TauricResearch/TradingAgents"
+        },
+        {
+          "tag": "pulse",
+          "ref": "anthropics/financial-services 周增 8,841 星",
+          "url": "https://github.com/anthropics/financial-services"
+        }
+      ]
+    },
+    {
+      "id": "2026-05-10-4",
+      "title": "Agent 入口正在碎片化",
+      "angle": "从产品入口切入：下一波机会不是做更大的通用助手，而是把 agent 塞进菜单栏、浏览器、CLI、定时任务和反馈流。",
+      "opening": "今天 Product Hunt 上的 AgentPeek、ClawTick、BugDrop 看起来都不宏大，但它们指向同一件事：agent 正在离开聊天框。Garry Tan 提到 GBrain 进入客户端-服务器模式，另一个信号是，AI 工具开始像基础设施一样被挂到各种入口上。",
+      "story_hook": {
+        "challenge": "大家还在问谁会做出下一个超级 AI 应用，但用户真实需要的是在具体工作流里少点几下。",
+        "twist": "赢家可能不是最聪明的 agent，而是最会占据入口、权限和上下文的人。"
+      },
+      "takeaway": "读者可以优先做窄入口产品：菜单栏状态、Chrome 自动化、定时任务、GitHub Issue 反馈、邮箱日历 MCP，而不是再造一个通用助手。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Garry Tan 关于 GBrain v0.31.1 支持 MCP 薄客户端的推文",
+          "url": "https://x.com/garrytan/status/2053306243704410460"
+        },
+        {
+          "tag": "builders",
+          "ref": "Peter Steinberger 关于 Codex 直接成了他的 DJ 的推文",
+          "url": "https://x.com/steipete/status/2053310800773685600"
+        },
+        {
+          "tag": "pulse",
+          "ref": "AgentPeek 产品页",
+          "url": "https://www.producthunt.com/products/agentpeek"
+        },
+        {
+          "tag": "pulse",
+          "ref": "ClawTick 产品页",
+          "url": "https://www.producthunt.com/products/clawtick"
+        },
+        {
+          "tag": "pulse",
+          "ref": "BugDrop 产品页",
+          "url": "https://www.producthunt.com/products/bugdrop-2"
+        }
+      ]
+    },
+    {
+      "id": "2026-05-10-5",
+      "title": "AI 工程师成了国家议程",
+      "angle": "从新加坡外长给 AI Engineer Singapore 站台切入：AI builder 生态正在从开发者圈层进入国家竞争叙事。",
+      "opening": "Swyx 提到，新加坡外长 Vivian Balakrishnan 会为 AI Engineer Singapore 做 keynote，而且还是 NanoClaw 重度粉丝。这不是普通会议嘉宾升级，而是一个信号：AI 工程师正在从边缘黑客角色变成国家级生产力角色。",
+      "story_hook": {
+        "challenge": "AI builder 原本像一群人在 X、GitHub 和 Discord 里自发折腾工具链。",
+        "twist": "当内阁部长开始给 AI 工程师大会站台，builder 文化就不只是技术潮流，而是政策、人才和产业竞争的一部分。"
+      },
+      "takeaway": "读者应关注 AI 工程能力如何被组织化：技能规范、MCP、浏览器控制、执行隔离和可审计工作流会成为团队与城市竞争力。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Swyx 关于新加坡外长为 AI Engineer Singapore 做 keynote 的推文",
+          "url": "https://x.com/swyx/status/2053370687931498603"
+        },
+        {
+          "tag": "builders",
+          "ref": "Swyx 关于用 Codex 模式使用率衡量 agent 采用率的推文",
+          "url": "https://x.com/swyx/status/2053364156510982164"
+        },
+        {
+          "tag": "pulse",
+          "ref": "browserbase/skills 周增 1,554 星",
+          "url": "https://github.com/browserbase/skills"
+        },
+        {
+          "tag": "pulse",
+          "ref": "openai/symphony 周增 2,307 星",
+          "url": "https://github.com/openai/symphony"
+        }
+      ]
+    }
+  ],
+  "notes": "今日最强主线是 agent 从概念词转向入口、协议和工作流基础设施；独立开发者素材偏工具链，消费级故事可留给视觉生成和语音接口另开专题。",
+  "generated_at": "2026-05-10T09:45:10+00:00",
+  "model": "gpt-5.5"
+}
