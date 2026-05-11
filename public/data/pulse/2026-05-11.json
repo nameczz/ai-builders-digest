@@ -1,0 +1,277 @@
+{
+  "date": "2026-05-11",
+  "top3": [
+    "今天最值得关注的是开发者开始从「全自动写代码」回撤到更可控的 agent harness、terminal TUI 和可复用 skills。",
+    "GitHub 周榜显示金融 agent、浏览器 agent、文档签署、短视频生成和本地深度研究都在获得明显 traction。",
+    "HuggingFace 热点从纯聊天模型转向视频、图像编辑、隐私过滤和 any-to-any 多模态能力，消费级产品机会更具体了。"
+  ],
+  "intro": "今天的主线不是 AI 是否会写代码，而是开发者正在寻找更可控、更低成本、更贴近工作流的 agent 基础设施。GitHub、Product Hunt 和 HuggingFace 同时指向一个判断：下一波机会在 agent 的上下文、路由、技能、垂直场景和可验证输出。",
+  "sections": [
+    {
+      "id": "discovery",
+      "title": "发现机会",
+      "blocks": [
+        {
+          "id": "github-traction",
+          "heading": "GitHub 上哪些高增长开源项目还没有商业化？",
+          "summary_md": "[Hmbown/DeepSeek-TUI](https://github.com/Hmbown/DeepSeek-TUI) 本周新增 22034 stars，总星 24660，用 Rust 做 terminal 里的 DeepSeek coding agent，说明命令行 agent 仍有强需求。[mattpocock/skills](https://github.com/mattpocock/skills) 本周 12722 stars，总星 70212，把工程师个人工作流沉淀成 skills，也在验证「可复用 agent 操作手册」的分发价值。[withastro/flue](https://github.com/withastro/flue) 本周 1014 stars，总星 3165，定位 sandbox agent framework，虽然体量较小，但更接近未来 agent app 的底层运行时。",
+          "items": [
+            {
+              "title": "Hmbown/DeepSeek-TUI",
+              "url": "https://github.com/Hmbown/DeepSeek-TUI",
+              "source": "GitHub",
+              "score": 22034
+            },
+            {
+              "title": "mattpocock/skills",
+              "url": "https://github.com/mattpocock/skills",
+              "source": "GitHub",
+              "score": 12722
+            },
+            {
+              "title": "withastro/flue",
+              "url": "https://github.com/withastro/flue",
+              "source": "GitHub",
+              "score": 1014
+            }
+          ],
+          "takeaway": "不要只做又一个聊天界面，agent 时代的机会在终端、skills、sandbox 和可移植工作流。"
+        }
+      ]
+    },
+    {
+      "id": "tech-stack",
+      "title": "技术选型",
+      "blocks": [
+        {
+          "id": "dev-tools",
+          "heading": "本周增长最快的开发者工具是什么？",
+          "summary_md": "开发者工具榜里，最强信号是 agent 基础设施分层。[ruvnet/ruflo](https://github.com/ruvnet/ruflo) 本周 10779 stars，总星 48707，主打 Claude 多 agent 编排；[decolua/9router](https://github.com/decolua/9router) 本周 3318 stars，总星 7696，卖点是把 Claude Code、Codex、Cursor、Cline、Copilot 接到 40 多个 provider，并做 fallback 和 token 优化；[browserbase/skills](https://github.com/browserbase/skills) 本周 1403 stars，总星 3127，则把 web access 变成 agent skill 集合。",
+          "items": [
+            {
+              "title": "ruvnet/ruflo",
+              "url": "https://github.com/ruvnet/ruflo",
+              "source": "GitHub",
+              "score": 10779
+            },
+            {
+              "title": "decolua/9router",
+              "url": "https://github.com/decolua/9router",
+              "source": "GitHub",
+              "score": 3318
+            },
+            {
+              "title": "browserbase/skills",
+              "url": "https://github.com/browserbase/skills",
+              "source": "GitHub",
+              "score": 1403
+            }
+          ],
+          "takeaway": "本周最值得抄的不是某个模型调用，而是 provider routing、agent skills 和多 agent 编排。"
+        },
+        {
+          "id": "hf-models",
+          "heading": "HuggingFace 上最热的模型能做什么消费级产品？",
+          "summary_md": "HuggingFace 今天的消费级机会集中在视频和图像编辑。[SulphurAI/Sulphur-2-base](https://huggingface.co/SulphurAI/Sulphur-2-base) trending score 401，下载 157648，是 text-to-video；[HiDream-ai/HiDream-O1-Image](https://huggingface.co/HiDream-ai/HiDream-O1-Image) score 199，支持 image-text-to-image；Spaces 里 [Onise/Qwen-Image-Edit-2509-LoRAs-Fast](https://huggingface.co/spaces/Onise/Qwen-Image-Edit-2509-LoRAs-Fast) score 202、likes 441，[FrameAI4687/Omni-Video-Factory](https://huggingface.co/spaces/FrameAI4687/Omni-Video-Factory) score 42、likes 1047。可以做的不是泛 AI 生成器，而是电商图修、短视频脚本转片、头像风格化、课程素材生成这类窄场景工具。",
+          "items": [
+            {
+              "title": "SulphurAI/Sulphur-2-base",
+              "url": "https://huggingface.co/SulphurAI/Sulphur-2-base",
+              "source": "HuggingFace",
+              "score": 401
+            },
+            {
+              "title": "HiDream-ai/HiDream-O1-Image",
+              "url": "https://huggingface.co/HiDream-ai/HiDream-O1-Image",
+              "source": "HuggingFace",
+              "score": 199
+            },
+            {
+              "title": "Onise/Qwen-Image-Edit-2509-LoRAs-Fast",
+              "url": "https://huggingface.co/spaces/Onise/Qwen-Image-Edit-2509-LoRAs-Fast",
+              "source": "HuggingFace",
+              "score": 202
+            }
+          ],
+          "takeaway": "多模态模型已经足够热，但更好的产品入口是具体行业素材工作，而不是万能生成按钮。"
+        }
+      ]
+    },
+    {
+      "id": "competition",
+      "title": "竞争情报",
+      "blocks": [
+        {
+          "id": "migrations",
+          "heading": "有没有迁移类或范式回撤信号？",
+          "summary_md": "HN 今天唯一高分文章是 [I'm going back to writing code by hand](https://blog.k10s.dev/im-going-back-to-writing-code-by-hand/)，336 points、155 comments。标题本身就是一个强信号：开发者并不是放弃 AI，而是在对「把代码生成权完全交出去」产生反作用力。结合 GitHub 上 DeepSeek-TUI、jcode、agent-skills 的增长，可以看到迁移方向不是从 AI 回到纯手写，而是从黑箱生成迁移到可审阅、可插拔、可控上下文的 coding workflow。",
+          "items": [
+            {
+              "title": "I'm going back to writing code by hand",
+              "url": "https://blog.k10s.dev/im-going-back-to-writing-code-by-hand/",
+              "source": "HN",
+              "score": 336
+            },
+            {
+              "title": "1jehuang/jcode",
+              "url": "https://github.com/1jehuang/jcode",
+              "source": "GitHub",
+              "score": 2328
+            },
+            {
+              "title": "addyosmani/agent-skills",
+              "url": "https://github.com/addyosmani/agent-skills",
+              "source": "GitHub",
+              "score": 1065
+            }
+          ],
+          "takeaway": "竞争焦点会从「谁能生成更多代码」转向「谁能让开发者更放心地接管代码」。"
+        }
+      ]
+    },
+    {
+      "id": "trends",
+      "title": "趋势判断",
+      "blocks": [
+        {
+          "id": "vc-radar",
+          "heading": "VC 和 YC 在关注什么主题？",
+          "summary_md": "今天没有 Google Trends 追踪词数据，但从 GitHub 和 Product Hunt 的横向信号看，VC radar 应该放在三个方向：金融 agent、企业数据 agent、agent 成本基础设施。[anthropics/financial-services](https://github.com/anthropics/financial-services) 本周 10272 stars、日榜 1449 stars，[TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents) 本周 8872 stars，[virattt/dexter](https://github.com/virattt/dexter) 本周 2741 stars，说明金融研究和交易 agent 已经进入密集试验期。Product Hunt 上 [Bruin](https://www.producthunt.com/products/bruin)、[Suprbox](https://www.producthunt.com/products/suprbox)、[Web Speed](https://www.producthunt.com/products/web-speed) 分别指向数据协作、企业存储安全和 90% cheaper agents。",
+          "items": [
+            {
+              "title": "anthropics/financial-services",
+              "url": "https://github.com/anthropics/financial-services",
+              "source": "GitHub",
+              "score": 10272
+            },
+            {
+              "title": "TauricResearch/TradingAgents",
+              "url": "https://github.com/TauricResearch/TradingAgents",
+              "source": "GitHub",
+              "score": 8872
+            },
+            {
+              "title": "Web Speed",
+              "url": "https://www.producthunt.com/products/web-speed",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "资本会继续追 agent，但更偏向金融、企业数据、成本优化和可治理基础设施。"
+        },
+        {
+          "id": "new-radar",
+          "heading": "新词雷达：有哪些从零起飞的新概念？",
+          "summary_md": "今天 `google_trends_breakouts` 为空，因此弱信号主要来自产品命名和仓库描述。值得盯的词是 agent skills、sandbox agent framework、persistent work context、bot detection、token tax。Product Hunt 的 [Weavable](https://www.producthunt.com/products/weavable) 直接打「persistent work context」，[Known Agents](https://www.producthunt.com/products/known-agents) 做网站 AI agent crawler 追踪，[CloakHQ/CloakBrowser](https://github.com/CloakHQ/CloakBrowser) 日榜 496 stars，强调通过 bot detection。它们共同说明，agent 普及后会催生一批二级市场：识别 agent、规训 agent、隐藏 agent、给 agent 记忆。",
+          "items": [
+            {
+              "title": "Weavable",
+              "url": "https://www.producthunt.com/products/weavable",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "Known Agents",
+              "url": "https://www.producthunt.com/products/known-agents",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "CloakHQ/CloakBrowser",
+              "url": "https://github.com/CloakHQ/CloakBrowser",
+              "source": "GitHub",
+              "score": 496
+            }
+          ],
+          "takeaway": "agent 生态的新词不是模型名，而是 context、skills、routing、detection 和 browser control。"
+        }
+      ]
+    },
+    {
+      "id": "actions",
+      "title": "行动触发",
+      "blocks": [
+        {
+          "id": "weekend-build",
+          "heading": "今天 2 小时和一个周末分别做什么？",
+          "summary_md": "2 小时内可以做一个「agent 成本与上下文检查器」：读取 Claude Code、Codex 或 Cursor 的本地日志，统计 token、provider、失败重试和最长上下文片段，用一个本地 dashboard 展示。周末版本可以接入 [decolua/9router](https://github.com/decolua/9router) 的 routing 思路，加上 provider fallback、敏感信息扫描和项目级 skill 模板。这个方向比做新 IDE 更轻，也更贴近今天 HN 对黑箱生成的反弹：用户真正要的是知道 agent 在花多少钱、读了什么、为什么改代码。",
+          "items": [
+            {
+              "title": "decolua/9router",
+              "url": "https://github.com/decolua/9router",
+              "source": "GitHub",
+              "score": 3318
+            },
+            {
+              "title": "openai/privacy-filter",
+              "url": "https://huggingface.co/openai/privacy-filter",
+              "source": "HuggingFace",
+              "score": 148
+            },
+            {
+              "title": "I'm going back to writing code by hand",
+              "url": "https://blog.k10s.dev/im-going-back-to-writing-code-by-hand/",
+              "source": "HN",
+              "score": 336
+            }
+          ],
+          "takeaway": "今天最适合动手的 MVP 是 agent observability，而不是又一个 coding agent。"
+        },
+        {
+          "id": "pricing-models",
+          "heading": "值得学习的定价和变现模式有哪些？",
+          "summary_md": "Product Hunt 上 [Web Speed](https://www.producthunt.com/products/web-speed) 的定位是「90% cheaper agents」，[Connector.wtf](https://www.producthunt.com/products/connector-wtf) 打「Plug Google Ads, Meta & LinkedIn into your AI chat. Free」，[Suprbox](https://www.producthunt.com/products/suprbox) 做企业数据存储安全。这三个提示了两种变现模型：一类是按节省的 token 和调用成本收费，适合开发者和团队；另一类是按连接器、合规存储、审计日志收费，适合企业。不要把 agent 产品简单卖成 seat，最好把价格锚点放在节省成本、降低风险或打通数据资产上。",
+          "items": [
+            {
+              "title": "Web Speed",
+              "url": "https://www.producthunt.com/products/web-speed",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "Connector.wtf",
+              "url": "https://www.producthunt.com/products/connector-wtf",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "Suprbox",
+              "url": "https://www.producthunt.com/products/suprbox",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "agent 工具的定价锚点应从功能席位转向成本节省、连接资产和风险控制。"
+        },
+        {
+          "id": "counterintuitive",
+          "heading": "今天最反直觉的发现是什么？",
+          "summary_md": "最反直觉的是，一边 HN 高分文章在说 [I'm going back to writing code by hand](https://blog.k10s.dev/im-going-back-to-writing-code-by-hand/) 拿到 336 points、155 comments，另一边 GitHub 增长最快的仍然是 coding agent 和 agent infra：[Hmbown/DeepSeek-TUI](https://github.com/Hmbown/DeepSeek-TUI) 本周 22034 stars，[1jehuang/jcode](https://github.com/1jehuang/jcode) 本周 2328 stars，[addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) 日榜 1065 stars。表面看是开发者反 AI，实际是开发者在要求更高的控制权、可解释性和可复用工作流。",
+          "items": [
+            {
+              "title": "I'm going back to writing code by hand",
+              "url": "https://blog.k10s.dev/im-going-back-to-writing-code-by-hand/",
+              "source": "HN",
+              "score": 336
+            },
+            {
+              "title": "Hmbown/DeepSeek-TUI",
+              "url": "https://github.com/Hmbown/DeepSeek-TUI",
+              "source": "GitHub",
+              "score": 22034
+            },
+            {
+              "title": "addyosmani/agent-skills",
+              "url": "https://github.com/addyosmani/agent-skills",
+              "source": "GitHub",
+              "score": 1065
+            }
+          ],
+          "takeaway": "开发者不是要少用 AI，而是要把 AI 从自动驾驶降级成可靠副驾。"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2026-05-11T10:19:27+00:00",
+  "reddit_highlights": []
+}
