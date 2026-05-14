@@ -1,0 +1,153 @@
+{
+  "date": "2026-05-14",
+  "items": [
+    {
+      "id": "2026-05-14-1",
+      "title": "Agent 也要做复盘了",
+      "angle": "从 Claude 的 dreaming 到 GitHub 记忆项目暴涨，看 agent 下一阶段的竞争点从“会回答”转向“会记住自己怎么失败”。",
+      "opening": "Claude 给 Managed Agents 加了 dreaming：它会定期复盘历史会话，清理低价值记忆，还会用 grader 挑错逼自己重做。同一天，GitHub 上 agentmemory 一周涨 4450 星，Product Hunt 也出现一批 shared/local AI memory 产品。真正的问题不是 agent 不够聪明，而是它每次都像第一天上班。",
+      "story_hook": {
+        "challenge": "模型能力在进步，但复杂任务仍然反复踩同样的坑，团队也很难把经验沉淀给 agent。",
+        "twist": "最像“智能进化”的功能，底层其实是复盘、评分、清理记忆这些朴素的工程管理动作。"
+      },
+      "takeaway": "开发者做 agent 产品时，应优先设计记忆、评测、回滚和团队共享机制，而不是只换更强模型。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Claude Blog：New in Claude Managed Agents: dreaming, outcomes, and multiagent orchestration",
+          "url": "https://claude.com/blog/new-in-claude-managed-agents"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub rohitg00/agentmemory 本周 4450 星",
+          "url": "https://github.com/rohitg00/agentmemory"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt：RoBrain shared AI memory",
+          "url": "https://www.producthunt.com/products/robrain"
+        }
+      ]
+    },
+    {
+      "id": "2026-05-14-2",
+      "title": "AI 裁员信，别全信",
+      "angle": "把 Peter Yang 对“AI 裁员叙事”的吐槽，和 Claude for Small Business 的团队化推进放在一起，拆开真假两种 AI 替代。",
+      "opening": "Q1 超过 8 万科技员工被裁，很多公开信都说是“AI 改变了工作方式”。Peter Yang 的翻译更直白：零利率时代招太多人，现在 AI 正好拿来背锅。但另一边，Claude for Small Business 在 HN 拿到 227 分、159 条评论，说明 AI 确实在进入团队工作流。",
+      "story_hook": {
+        "challenge": "同一个“AI 改变工作”的说法，既可能是降本叙事，也可能是真正的平台迁移。",
+        "twist": "判断公司有没有被 AI 改造，不能看公开信怎么写，要看流程、权限、数据和责任是否真的重构。"
+      },
+      "takeaway": "读者可以用“岗位减少、流程是否重写、工具是否进入团队权限系统”三项来判断 AI 替代是真是假。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Peter Yang 关于 AI 裁员公开信的评论",
+          "url": "https://x.com/petergyang/status/2054569893060809151"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Claude for Small Business 登上 HN 227 分、159 条评论",
+          "url": "https://www.anthropic.com/news/claude-for-small-business"
+        }
+      ]
+    },
+    {
+      "id": "2026-05-14-3",
+      "title": "音乐 AI 赢在不发布",
+      "angle": "从 Suno 的用户行为切入：生成式音乐最大的市场，可能不是替代 Spotify，而是把创作本身变成娱乐。",
+      "opening": "Suno 的 Mikey Shulman 说，过去是少数人生产音乐、80 亿人消费音乐；现在 Suno 每天 90% 的用户都在创作。这个数字的关键不是“人人都能当音乐人”，而是很多人根本不想发布作品，他们只是把创作当成刷短视频一样的娱乐。",
+      "story_hook": {
+        "challenge": "外界总把音乐 AI 放进版权、发行、职业音乐人的框架里讨论。",
+        "twist": "真正的新行为可能不是更多歌曲上线，而是用户把“生成一首只属于自己的歌”当成消费本身。"
+      },
+      "takeaway": "做 AI 创作产品时，不要只优化发布和分发，也要设计低压力、可重复、即时反馈的私人创作循环。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Training Data：Suno's Mikey Shulman: Everyone Can Make Music Now",
+          "url": "https://www.youtube.com/watch?v=Jq3BIGz4vXQ"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Google Trends：aitoearn 暴涨 +999.0%，个人 AI 与 AI 赚钱叙事升温",
+          "url": "https://trends.google.com/trends/explore?q=aitoearn&date=now+7-d"
+        },
+        {
+          "tag": "pulse",
+          "ref": "新词 openhuman breakout value 达到 182850",
+          "url": "https://trends.google.com/trends/explore?q=agentmemory&date=now+7-d"
+        }
+      ]
+    },
+    {
+      "id": "2026-05-14-4",
+      "title": "VC 拒绝不是死刑",
+      "angle": "用 Nikunj Kothari 的“共识资本”判断，反看今天 agent 基础设施开源项目暴涨：融资不是验证，开发者采用才是。",
+      "opening": "Nikunj Kothari 说，VC 已经变成共识资本；如果你只是为了当创始人而创业，融资拒绝会像死刑判决。但今天 GitHub 上 skills、agent-skills、9router、DeepSeek-TUI 都在暴涨，这些项目未必先有完美商业模式，却先拿到了开发者注意力。",
+      "story_hook": {
+        "challenge": "很多 AI 创业者把融资当成方向正确的证明，把拒绝当成方向错误的判决。",
+        "twist": "在 agent 基础设施这条线上，真正的早期共识不是来自投资人，而是来自开发者愿不愿意安装、fork、接入自己的工作流。"
+      },
+      "takeaway": "独立开发者应先用开源或可安装工具验证重复使用，再把团队共享、权限、审计、成本控制做成收费层。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Nikunj Kothari 关于 VC 共识资本的推文",
+          "url": "https://x.com/nikunj/status/2054599845214650442"
+        },
+        {
+          "tag": "pulse",
+          "ref": "mattpocock/skills 本周 15813 星",
+          "url": "https://github.com/mattpocock/skills"
+        },
+        {
+          "tag": "pulse",
+          "ref": "decolua/9router 本周 5796 星",
+          "url": "https://github.com/decolua/9router"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Hmbown/DeepSeek-TUI 本周 15975 星",
+          "url": "https://github.com/Hmbown/DeepSeek-TUI"
+        }
+      ]
+    },
+    {
+      "id": "2026-05-14-5",
+      "title": "别再做聪明助手了",
+      "angle": "把 Claude 多 agent 编排、Product Hunt 浏览器控制工具和 GitHub skills 热度合并看：市场缺的是可靠工作零件，不是又一个聊天框。",
+      "opening": "今天最反直觉的信号是：agent 越强，大家越在做看起来“不智能”的东西。技能库、路由器、浏览器控制、电脑控制、长期任务托管同时出现，说明开发者已经不满足于让 AI 说得对，而是要它在真实环境里做完事。",
+      "story_hook": {
+        "challenge": "AI 产品仍然习惯包装成更聪明的助手，但用户真正卡住的是执行、调试、权限、失败恢复。",
+        "twist": "越接近付费预算的能力，反而越不像魔法，更像基础设施。"
+      },
+      "takeaway": "新的产品定位应从“我的 AI 更聪明”改成“让任何 agent 更稳定地完成某类任务”。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Claude Blog：多 agent 编排与 webhooks",
+          "url": "https://claude.com/blog/new-in-claude-managed-agents"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt：Open Browser Use",
+          "url": "https://www.producthunt.com/products/open-browser-use"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt：Open Computer Use",
+          "url": "https://www.producthunt.com/products/open-computer-use"
+        },
+        {
+          "tag": "pulse",
+          "ref": "addyosmani/agent-skills 本周 11732 星",
+          "url": "https://github.com/addyosmani/agent-skills"
+        }
+      ]
+    }
+  ],
+  "notes": "今日主线很集中：agent 从聊天入口进入生产环境，记忆、技能、路由、浏览器控制和团队评测是最值得写的方向；Garry Tan 的素材与 AI builder 主题相关性较弱，建议不纳入今日选题。",
+  "generated_at": "2026-05-14T09:17:41+00:00",
+  "model": "gpt-5.5"
+}
