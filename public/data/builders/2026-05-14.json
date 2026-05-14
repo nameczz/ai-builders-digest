@@ -1,0 +1,82 @@
+{
+  "date": "2026-05-14",
+  "generated_at": "2026-05-14T09:10:29+00:00",
+  "count": 5,
+  "items": [
+    {
+      "id": "206dd4beb7",
+      "date": "2026-05-14",
+      "source": "blog",
+      "author": "Claude Blog",
+      "bio": "",
+      "title": "New in Claude Managed Agents: dreaming, outcomes, and multiagent orchestration",
+      "summary_en": "Today we&#x27;re launching dreaming in Claude Managed Agents as a research preview. Dreaming extends memory by reviewing past sessions to find patterns and help agents self-improve. We&#x27;re also making outcomes, multiagent orchestration, and webhooks available to developers building with Managed Agents. Together, these updates make agents more capable at handling complex tasks with minimal steering. Build self-improving agents with dreaming Dreaming is a scheduled process that reviews your agent sessions and memory stores, extracts patterns, and curates memories so your agents improve over time. You decide how much control you want: dreaming can update memory automatically, or you can review changes before they land. Dreaming surfaces patterns that a single agent can’t see on its own, including recurring mistakes, workflows that agents converge on, and preferences shared across a team. It also restructures memory so it stays high-signal as it evolves. This is especially useful for long-running work and multiagent orchestration. Together, memory and dreaming form a robust memory system for self-improving agents. Memory lets each agent capture what it learns as it works . Dreaming refines that memory between sessions , pulling shared learnings across agents and keeping it up-to-date. Dreaming is available in Managed Agents on the Claude Platform; developers can request access here . Deliver better outcomes With outcomes , you write a rubric describing what success looks like and the agent works toward it. A separate grader evaluates the output against your criteria in its own context window, so it isn&#x27;t influenced by the agent&#x27;s reasoning. When something isn&#x27;t right, the grader pinpoints what needs to change and the agent takes another pass. Agents do their best work when they know what \"good\" looks like. For example, a structural framework, a presentation standard, or a set of requirements that need to be met. With outcomes, agents can check their work against that bar and self-correct until the output is good enough, without a human needing to review each attempt. Outcomes is particularly useful for tasks that require attention to detail and exhaustive coverage. It also works for subjective quality, like whether copy matches a brand voice or a design follows visual guidelines. In testing, outcomes improved task success by up to 10 points ov",
+      "summary_zh": "Claude Managed Agents 把“记忆”推进到自我训练：dreaming 会定期复盘历史会话、提炼团队级模式、清理低信号记忆，让 agent 少犯同样的错。Outcomes 则把“好结果”写成评分尺，由独立 grader 挑错并逼 agent 重做，再叠加多 agent 编排和 webhooks，目标就是让复杂任务少靠人盯。",
+      "url": "https://claude.com/blog/new-in-claude-managed-agents",
+      "posted_at": "May 06, 2026",
+      "tags": [
+        "blog"
+      ]
+    },
+    {
+      "id": "ce4404a61e",
+      "date": "2026-05-14",
+      "source": "x",
+      "author": "Garry Tan",
+      "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "title": "",
+      "summary_en": "Legacy media besmirches itself when it quotes people who personally benefit from more fentanyl tourism \n\nDefund nonprofits that support people doing drugs until they die. Fund recovery and treatment in SF and everywhere in on the West Coast https://t.co/qWRYjVYWHd",
+      "summary_zh": "传统媒体引用从“芬太尼旅游”中获利的人，只是在自毁公信力。停止资助那些纵容吸毒者一路走向死亡的非营利组织，把钱投向旧金山和西海岸真正的戒毒与治疗。",
+      "url": "https://x.com/garrytan/status/2054778575988093249",
+      "posted_at": "2026-05-14T04:19:23.000Z",
+      "tags": [
+        "@garrytan"
+      ]
+    },
+    {
+      "id": "f767c9bdf0",
+      "date": "2026-05-14",
+      "source": "podcast",
+      "author": "Training Data",
+      "bio": "",
+      "title": "Suno's Mikey Shulman: Everyone Can Make Music Now",
+      "summary_en": "Speaker 1 | 00:00 - 00:25\nBefore Suno, basically everybody was a consumer of music. You know, compared to the 8,000,000,000 people on the planet, there are very few people who make music and the rest of us consume it. The crazy thing about Suno is that in any given day, 90% of the users are going to create something. And the thing that's hard to wrap your head around is you're not creating it to go bring it elsewhere by and large, to do something with it. People are creating music for the fun and enjoyment and fulfillment that comes with being creative.\n\nSpeaker 1 | 00:25 - 00:30\nAnd so that, the creation, is actually the entertaining bit. And that is the big step change.\n\nSpeaker 2 | 00:47 - 01:06\nI'm delighted to welcome Mikey Schulman. Mikey is founder and CEO of Suno, which is building a music company or a creative entertainment platform and has been one of the most novel consumer applications I've seen out of AI. And I'm very, very excited to ask you about your journey and what's ahead for Suno. So thank you for joining us today.\n\nSpeaker 1 | 01:06 - 01:08\nThank you for having me. I'm excited.\n\nSpeaker 2 | 01:09 - 01:25\nOkay, awesome. I want start with your background because it is very, very unexpected. You went from a physics PhD at Harvard, I think quantum computing with solid state spins, to building the largest AI music company in the world. What insight connected those two things for you?\n\nSpeaker 1 | 01:27 - 02:01\nYou know, I don't know how I don't know, like on paper, I guess I have no business building a consumer entertainment company, but a lot of people went from physics into AI, just like, you know, thirty years ago a lot of people went from physics into quantitative trading. I'll be honest, though. Like, I was an okay physicist only, and there are a lo",
+      "summary_zh": "过去音乐是少数人生产、80 亿人消费；Suno 让每天 90% 的用户都在创作。真正的跃迁不是让普通人去“发布作品”，而是把创作本身变成娱乐。",
+      "url": "https://www.youtube.com/watch?v=Jq3BIGz4vXQ",
+      "posted_at": "2026-05-13T18:55:00.000Z",
+      "tags": [
+        "podcast"
+      ]
+    },
+    {
+      "id": "aaa758eac5",
+      "date": "2026-05-14",
+      "source": "x",
+      "author": "Nikunj Kothari",
+      "bio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
+      "title": "",
+      "summary_en": "If you needed a signal that VC has truly become consensus capital, then this is the sign.. \n\nIf you are a founder for the sake of being a founder, then this will resonate since you NEED capital to run your business.\n\nIf you are obsessed and don't care what the world thinks, then you'll treat each rejection as potential learning - but NOT a verdict on why you shouldn't start that company.",
+      "summary_zh": "VC 已经彻底变成共识资本：如果你只是为了当创始人而创业，融资拒绝会像死刑判决，因为你的公司离不开钱。真正被问题缠住的人只会把每次拒绝当反馈，而不是当作“不该做”的判决。",
+      "url": "https://x.com/nikunj/status/2054599845214650442",
+      "posted_at": "2026-05-13T16:29:10.000Z",
+      "tags": [
+        "@nikunj"
+      ]
+    },
+    {
+      "id": "1d3d0adc83",
+      "date": "2026-05-14",
+      "source": "x",
+      "author": "Peter Yang",
+      "bio": "Practical AI tutorials and interviews for busy people | Join 140K+ readers at https://t.co/XYKTmGVH14 | Product at Roblox",
+      "title": "",
+      "summary_en": "Tell me if you've seen this before:\n\n\"Today is a hard day. We've made the difficult decision to cut 1,000+ employees. Our business has never been stronger, but AI has changed how we work...\"\n\nWhenever I read one of these, I mentally translate it to what's actually happening:\n\n\"Today is a hard day. We overhired during the zero-interest era and need to cut costs. AI is easy to blame, so…\"\n\nOver 80,000 tech employees were laid off in Q1, the highest since 2022-23.\n\nHere's my rant why these layoffs keep happening and 6 ways to take back control as an employee.\n\n📌 Read now: https://t.co/LGgVeVAE4t",
+      "summary_zh": "那些“AI 改变了工作方式所以裁员”的公开信，翻译成人话就是：零利率时代招太多人，现在要降成本，AI 正好拿来背锅。Q1 超 8 万科技员工被裁，这不是技术必然，而是公司把自己的周期性失误包装成时代叙事。",
+      "url": "https://x.com/petergyang/status/2054569893060809151",
+      "posted_at": "2026-05-13T14:30:09.000Z",
+      "tags": [
+        "@petergyang"
+      ]
+    }
+  ]
+}
