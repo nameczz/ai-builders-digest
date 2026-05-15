@@ -1,0 +1,319 @@
+{
+  "date": "2026-05-15",
+  "generated_at": "2026-05-15T00:48:02+00:00",
+  "inbox_id": "sanyoumu@agentmail.to",
+  "window": {
+    "start": "2026-05-14T00:47:14+00:00",
+    "end": "2026-05-15T00:46:02.185655+00:00",
+    "source": "previous_digest_generated_at"
+  },
+  "count": 9,
+  "highlights": [
+    "Ramp 支付数据首次显示 Anthropic 在付费企业 AI 采用率上超过 OpenAI，Claude Code 被认为是关键推动力，企业 AI 竞争从消费声量转向预算和工作流嵌入。",
+    "Agent-first 开发工具正在快速收敛：Codex 移动端、GitHub Copilot App、VS Code 多 Agent 体验和 Conductor 类工作台都在指向“并行任务编排”这一新形态。",
+    "Abridge 展示了垂直 AI 的另一条路线：从临床记录切入，扩展到医疗决策支持、预授权和实时临床智能层。",
+    "Notion、Amazon、Apple 都在把 Agent 能力嵌入既有平台，说明下一轮产品竞争重点是平台治理、上下文层和可执行工作流。",
+    "AI 基础设施继续升温：Cerebras 大规模 IPO、Vercel AI Gateway 数据显示 Agentic workload 已成为主流流量之一。"
+  ],
+  "items": [
+    {
+      "id": "anthropic-business-ai-lead-ramp",
+      "title_zh": "今日精读：Anthropic 首次超过 OpenAI，企业 AI 竞争进入预算战",
+      "title_original": "📈 OpenAI’s Anthropic enterprise problem is growing",
+      "source": "The Rundown AI",
+      "from": "The Rundown AI <news@daily.therundown.ai>",
+      "subject": "📈 OpenAI’s Anthropic enterprise problem is growing",
+      "url": "https://www.therundown.ai/p/the-enterprise-shift-openai-saw-coming?_bhlid=4eaa234680798ad3bdb45514b5705f029891f88c&jwt_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWJzY3JpYmVyX2lkIjoiN2JkYjcwNmYtNjc0ZC00NTAwLWIzMjAtN2VlMjRiM2ZhYzNjIiwicHVibGljYXRpb25faWQiOiI0ZDAzMzkwZC0yNDgxLTQyOTktYjk0OS1mZmQ4YjM4YjRjMzgiLCJhY2Nlc3NfdHlwZSI6InJlYWQtb25seSIsImV4cCI6MTc3ODkyNTg4MiwiaXNzIjoiaHR0cHM6Ly9hcHAuYmVlaGlpdi5jb20iLCJpYXQiOjE3Nzg3NTMwODJ9.J-CO4YrUFwM7g5rTPZZ1ux4zMSSGCHH3BFH1n7lCmKY",
+      "message_id": "<T74rNb9mQoWB4erIz4b-Mw@geopod-ismtpd-109>",
+      "published_at": "2026-05-14T10:04:48.000Z",
+      "importance": "high",
+      "summary_zh": "The Rundown AI 的主线是 Ramp 最新 AI Index：在付费企业用户采用率上，Anthropic 首次超过 OpenAI。邮件强调这不是完整市场份额，而是来自 5 万多家美国企业的公司卡和发票支出信号；Anthropic 4 月升至 34.4%，OpenAI 降至 32.3%，整体 AI 使用率继续升至 50.6%。它把 Claude Code 视为推动 Anthropic 从技术团队扩展到财务、法律、研究等工作流的重要引擎，同时提醒 Anthropic 仍有宕机、成本和开源替代的风险。",
+      "deep_read_zh": "今天最值得精读的是 Anthropic 与 OpenAI 在企业采用率上的位置变化。The Rundown 引用 Ramp 的 AI Index，指出 Anthropic 在 Ramp 追踪的付费企业用户中首次超过 OpenAI：Anthropic 达到 34.4%，OpenAI 为 32.3%。这个数据不能被解读为全市场份额，因为 Ramp 并不覆盖所有大型企业合同，也不代表消费者端影响力；但它有一个很强的信号价值：这是基于企业实际支付行为的支出数据，而不是搜索热度、社媒声量或下载量。\n\n这件事的重要性在于，AI 竞争正在从“谁的模型更出圈”转向“谁能进入企业预算、采购流程和日常工作流”。企业 AI 一旦成为预算项，切换成本就不只是换一个聊天产品，而是涉及权限、合规、流程、培训、集成和年度续约。邮件认为 Claude Code 是 Anthropic 反超的重要抓手，因为它先在技术团队中形成强使用场景，再外溢到金融、法律、研究等知识工作。对 OpenAI 来说，这也解释了近期 Codex、企业部署公司和更强企业推进动作背后的压力。\n\n更隐含的判断是：企业 AI 的胜负不会只由通用聊天体验决定，而会由“可落地的高频工作流”决定。Claude Code 代表的是把模型能力包装成开发者生产力和团队流程的一部分；Codex、Notion Developer Platform、GitHub Copilot App 等同一天新闻也在说明同一趋势：Agent 不再只是工具调用演示，而是在争夺企业内部的执行入口和上下文层。\n\n值得继续关注的是，Anthropic 的领先是否能抵消成本和稳定性风险，以及 OpenAI 能否用 Codex、部署服务和生态能力夺回企业采用曲线。对 builder 来说，这个信号比单个模型分数更关键：真正有价值的 AI 产品，可能不是更会聊天，而是更快进入用户已经付费、已经协作、已经有治理要求的工作系统。",
+      "why_important": "这是企业 AI 竞争格局的硬信号：用实际支出衡量，Anthropic 已经不只是 OpenAI 的追赶者。它说明 AI 应用层的分发优势正在转向工作流嵌入、采购信任和可量化生产力。",
+      "impact": "对 builder 来说，机会不只在做更好的模型界面，而在找到能进入企业预算和团队流程的高频场景。对平台公司来说，Agent 产品必须解决权限、成本、稳定性和上下文治理，否则很难真正成为企业基础设施。",
+      "key_points": [
+        "Ramp 追踪 5 万多家美国企业的公司卡和发票支付，属于支出信号而非完整市场份额。",
+        "Anthropic 4 月采用率升至 34.4%，OpenAI 降至 32.3%，Anthropic 首次领先。",
+        "整体 AI 使用率仍在上升，达到 50.6%。",
+        "Claude Code 被认为是 Anthropic 进入技术团队并向其他业务部门扩散的重要推动力。",
+        "Anthropic 仍面临 Claude 宕机、成本较高以及 OpenAI 和开源替代的压力。",
+        "OpenAI 近期 Codex 和企业部署动作，可被视为对企业市场竞争压力的回应。"
+      ],
+      "reading_notes": [
+        "看这类企业采用率数据时，要区分“支付信号”“使用量”“收入”和“全市场份额”。",
+        "重点观察 Claude Code 是否只是开发者工具爆发，还是能持续带动跨部门企业采用。",
+        "OpenAI 的反击重点可能不是消费端 ChatGPT，而是 Codex、部署服务和企业集成。",
+        "企业 AI 的护城河可能来自工作流、权限和上下文，而不只是模型能力。"
+      ],
+      "tags": [
+        "企业AI",
+        "模型竞争",
+        "agent",
+        "开发者工具"
+      ],
+      "related_sources": [
+        "The Neuron",
+        "TLDR AI",
+        "TLDR"
+      ]
+    },
+    {
+      "id": "ainews-everything-is-conductor",
+      "title_zh": "Agent-first 开发工作台正在收敛成 Conductor 形态",
+      "title_original": "[AINews] Everything is Conductor",
+      "source": "swyx.substack.com",
+      "from": "AINews <swyx+ainews@substack.com>",
+      "subject": "[AINews] Everything is Conductor",
+      "url": "https://www.latent.space/p/ainews-everything-is-conductor",
+      "message_id": "<20260515003021.3.7ae1a3cc10254016@mg-d1.substack.com>",
+      "published_at": "2026-05-15T00:30:21.000Z",
+      "importance": "high",
+      "summary_zh": "AINews 用“Everything is Conductor”概括当前 coding agent 产品形态的趋同：GitHub 推出新的 Copilot App，OpenAI 把 Codex 带进 ChatGPT 移动端并支持远程任务管理、Remote SSH、hooks 和企业自动化 token，VS Code 和其他工具也在探索多 Agent 并行工作流。它的核心观察是，开发者工具正在从“代码优先 IDE”转向“Agent 优先工作台”：用户启动、观察、审批、接管多个并行任务，而不是只在编辑器里逐行写代码。",
+      "why_important": "这关系到下一代 IDE 和代码平台的入口之争。谁掌握多 Agent 编排、任务状态、权限审批和 repo 生命周期，谁就可能成为 AI 编程时代的新工作台。",
+      "impact": "独立工具需要思考只做模型包装是否足够，还是要拥有任务编排、上下文、权限和协作体验。对开发团队来说，Agent-first 工具会改变代码评审、PR、远程环境和异步开发的组织方式。",
+      "key_points": [
+        "GitHub Copilot App 被描述为面向并行工作流、repo/PR 生命周期和模型灵活性的桌面环境。",
+        "Codex 进入 ChatGPT 移动端，支持远程启动任务、审阅结果、批准命令和继续引导执行。",
+        "AINews 把 Conductor 视为这一类 Agent 工作台形态的先行样式，并追问先发者如何在被复制后变现。"
+      ],
+      "reading_notes": [],
+      "tags": [
+        "agent",
+        "开发者工具",
+        "IDE",
+        "产品形态"
+      ],
+      "related_sources": [
+        "TLDR AI",
+        "TLDR Dev"
+      ],
+      "deep_read_zh": ""
+    },
+    {
+      "id": "latent-space-abridge-healthcare-ai",
+      "title_zh": "Abridge：从临床记录切入，构建医疗 AI 智能层",
+      "title_original": "AI-Native Healthcare: 100M Doctor Visits, 10–20 Hours Saved, Prior Auth in Minutes — Janie Lee & Chai Asawa, Abrid…",
+      "source": "swyx.substack.com",
+      "from": "Latent.Space <swyx@substack.com>",
+      "subject": "AI-Native Healthcare: 100M Doctor Visits, 10–20 Hours Saved, Prior Auth in Minutes — Janie Lee & Chai Asawa, Abrid…",
+      "url": "https://www.latent.space/p/abridge",
+      "message_id": "<20260514220531.3.b6268876c544bb14@mg-d0.substack.com>",
+      "published_at": "2026-05-14T22:05:31.000Z",
+      "importance": "high",
+      "summary_zh": "Latent Space 访谈 Abridge，呈现了垂直 AI 公司如何在高风险行业里建立真实护城河。Abridge 不是 ChatGPT 之后出现的薄包装，而是从 2018 年开始围绕医患对话、临床记录、EHR 集成、医生校验和医疗采购慢慢建立信任。邮件称 Abridge 今年预计支持 8000 万以上医患对话，覆盖 250 个大型复杂美国医疗系统、28 种以上语言和 50 多个专科，并讨论它如何从 ambient scribe 扩展到临床决策支持、预授权、付款方和药企工作流，以及实时医疗 Agent。",
+      "why_important": "它展示了垂直 AI 的高质量样本：先掌握关键工作流和专有上下文，再让 LLM 成为放大器。医疗场景也迫使产品在隐私、评测、延迟、成本和安全上达到更高标准。",
+      "impact": "对 builder 的启发是，真正强的 AI 应用可能来自“脏活累活”的多年积累，而不是发布时的模型能力。行业上，医疗 AI 可能先解决许多企业 AI 最难的问题：实时性、可验证性、合规和多方利益协调。",
+      "key_points": [
+        "Abridge 从临床 documentation 切入，目标是减少医生文书负担和“睡衣时间”。",
+        "公司计划支持 8000 万以上医患对话，覆盖 250 个大型美国医疗系统。",
+        "预授权案例体现了从事后拒保到就诊现场实时提示的工作流价值。"
+      ],
+      "reading_notes": [],
+      "tags": [
+        "垂直AI",
+        "医疗AI",
+        "agent",
+        "企业软件"
+      ],
+      "related_sources": [],
+      "deep_read_zh": ""
+    },
+    {
+      "id": "ai-valley-figure-robot-shift",
+      "title_zh": "Figure 机器人完成 8 小时自主工厂班次，机器人从演示走向连续作业",
+      "title_original": "Figure's Robots worked an 8-hour factory shift",
+      "source": "www.theaivalley.com",
+      "from": "AI Valley <aivalley@mail.beehiiv.com>",
+      "subject": "Figure's Robots worked an 8-hour factory shift",
+      "url": "https://www.theaivalley.com/",
+      "message_id": "<20260514.150258.ddad7309@mta30>",
+      "published_at": "2026-05-14T15:02:58.000Z",
+      "importance": "medium",
+      "summary_zh": "AI Valley 的主线是 Figure AI 直播 8 小时自主工厂班次：多台 Figure 03 人形机器人由 Helix-02 驱动，执行小包裹分拣、识别条码、抓取并放到传送带上的任务。邮件强调机器人完全在本地运行、不依赖云推理，并用单一神经网络处理视觉、运动、平衡和操作；更关键的是多机器人可以协同换电、故障诊断和接替工作。另一条重要信息是 600 多名 OpenAI 现任和前员工通过二级市场出售价值 66 亿美元股份，显示 AI 财富创造正在 IPO 前发生。",
+      "why_important": "机器人真正的商业价值来自长时间可靠运行，而不是短视频演示。Figure 的重点已经从单点能力转向停机恢复、协作和连续作业。",
+      "impact": "如果这类系统能稳定扩展，制造和物流场景会开始重新计算人形机器人的单位经济性。对 AI infra 和应用创业者来说，物理世界 Agent 的关键约束是可靠性、边缘推理和运维闭环。",
+      "key_points": [
+        "Figure 机器人据称以约每 3 秒一个包裹的速度运行，接近人类速度。",
+        "系统完全 onboard 推理，目标是长期 24/7 连续运行。",
+        "OpenAI 员工二级市场套现显示 AI 私营公司财富效应正在外溢。"
+      ],
+      "reading_notes": [],
+      "tags": [
+        "机器人",
+        "具身智能",
+        "AI资本",
+        "自动化"
+      ],
+      "related_sources": [],
+      "deep_read_zh": ""
+    },
+    {
+      "id": "tldr-ai-claude-small-business-codex-sandbox",
+      "title_zh": "Claude 小企业套件、自改进 AI 公司融资与 Codex Windows Sandbox",
+      "title_original": "Claude small business 💼, Anthropic CFO interview 💰, AI adoption data 📊",
+      "source": "TLDR AI",
+      "from": "TLDR AI <dan@tldrnewsletter.com>",
+      "subject": "Claude small business 💼, Anthropic CFO interview 💰, AI adoption data 📊",
+      "url": "https://refer.tldr.tech/0a897003/2",
+      "message_id": "<0100019e26a963b4-a9ef3d46-53a1-443e-af88-d5100f797e93-000000@email.amazonses.com>",
+      "published_at": "2026-05-14T13:24:55.000Z",
+      "importance": "high",
+      "summary_zh": "TLDR AI 汇总了企业 AI、资本和基础设施的多条重要新闻：Anthropic 推出 Claude for Small Business，把 Claude 嵌入 QuickBooks、PayPal、HubSpot、Google Workspace 和 Microsoft 365 等工具；Recursive Superintelligence 融资超过 6.5 亿美元、估值超过 40 亿美元，目标是构建能较少依赖人类开发者自我改进的 AI；Cerebras 以约 400 亿美元估值完成今年最大 IPO；Ramp 数据显示 Anthropic 在企业采用上超过 OpenAI。深度部分还包括 OpenAI Codex Windows Sandbox 工程解析和 Vercel AI Gateway 生产流量趋势。",
+      "why_important": "这封邮件把三条主线放在一起：企业 AI 产品化、前沿研究人才资本化、AI 基础设施金融化。它说明 AI 竞争已经同时发生在应用分发、模型系统、芯片和 Agent 运行环境上。",
+      "impact": "builder 需要关注企业连接器、Agent 安全沙箱、多模型路由和开源模型采用，因为这些会决定 AI 应用能否进入生产。资本市场对 Cerebras 的反应也会继续影响 AI infra 的融资预期。",
+      "key_points": [
+        "Claude for Small Business 瞄准小企业常用 SaaS 工具中的实际工作流。",
+        "Codex Windows Sandbox 体现 coding agent 在本地机器执行时必须处理权限和网络边界。",
+        "Vercel AI Gateway 数据显示 Agentic workload、开源模型和多模型路由都在增长。"
+      ],
+      "reading_notes": [],
+      "tags": [
+        "企业AI",
+        "agent",
+        "AI基础设施",
+        "芯片"
+      ],
+      "related_sources": [
+        "The Rundown AI",
+        "The Neuron",
+        "AINews"
+      ],
+      "deep_read_zh": ""
+    },
+    {
+      "id": "tldr-design-instagram-apple-amazon-ai-shopping",
+      "title_zh": "设计与消费产品：Instagram 私密分享、Apple 创作者工具、Amazon AI 购物",
+      "title_original": "Instagram Instants 📸, Apple Creator Tools 🎨, Amazon AI Shopping 🛒",
+      "source": "TLDR Design",
+      "from": "TLDR Design <dan@tldrnewsletter.com>",
+      "subject": "Instagram Instants 📸, Apple Creator Tools 🎨, Amazon AI Shopping 🛒",
+      "url": "https://refer.tldr.tech/3bc21e1b/4",
+      "message_id": "<0100019e266f6735-ffc9d4e3-bfe4-4989-9f9c-33338c4880f0-000000@email.amazonses.com>",
+      "published_at": "2026-05-14T12:21:35.000Z",
+      "importance": "medium",
+      "summary_zh": "TLDR Design 关注消费产品与设计工具变化：Instagram 全球推出 Instants，把 Snapchat 和 BeReal 式的一次性、24 小时消失、不可编辑照片带回更私密的好友分享；Apple 收购 Color.io 背后的 Patchflyer，叠加 Pixelmator 和 MotionVFX 收购，显示它正在强化 Creator Studio 生态；Amazon 将 Alexa for Shopping 放进搜索栏，替代 Rufus，提供个性化推荐、购物指南、价格追踪、复购和跨站购买。设计部分还讨论 AI 设计工具不会替代专业设计师，而是提高没有设计资源团队的设计下限，并介绍用 Claude Code Skills 约束 Figma 设计系统的方法。",
+      "why_important": "这封邮件体现 AI 正在进入消费产品和设计工作流的“默认入口”：购物搜索栏、创作者工具链和设计系统治理。它也提醒设计能力会被 AI 普及，但品味和系统化约束仍稀缺。",
+      "impact": "产品团队需要把 AI 功能放在真实用户路径里，而不是单独做聊天框。设计团队则需要把 token、组件规则和风格绑定变成 Agent 可执行的约束。",
+      "key_points": [
+        "Amazon 用 Alexa for Shopping 替代 Rufus，把购物 Agent 融入搜索栏。",
+        "Apple 连续收购创作者工具公司，强化专业影像和视频生态。",
+        "Claude Code 进入 Figma 时需要设计系统治理，否则容易绕过 token 和组件规范。"
+      ],
+      "reading_notes": [],
+      "tags": [
+        "设计工具",
+        "消费AI",
+        "电商",
+        "创作者工具"
+      ],
+      "related_sources": [
+        "TLDR"
+      ],
+      "deep_read_zh": ""
+    },
+    {
+      "id": "tldr-dev-tokenmaxxing-custom-language-mistake",
+      "title_zh": "从自造语言失败到 Tokenmaxxing：开发者工具要警惕错误激励",
+      "title_original": "Tokenmaxxing 📈, history of Google IDEs 🏛, dev invention mistakes 🙅",
+      "source": "TLDR Dev",
+      "from": "TLDR Dev <dan@tldrnewsletter.com>",
+      "subject": "Tokenmaxxing 📈, history of Google IDEs 🏛, dev invention mistakes 🙅",
+      "url": "https://refer.tldr.tech/7e988322/3",
+      "message_id": "<0100019e262e52f9-544fae06-6f31-4781-b535-49b57c93ae72-000000@email.amazonses.com>",
+      "published_at": "2026-05-14T11:10:30.000Z",
+      "importance": "medium",
+      "summary_zh": "TLDR Dev 今天的核心是开发者工具和工程激励。Wasp 联合创始人复盘 5 年和 500 万美元后认为，为 Web 开发发明新编程语言是错误选择，因为开发者采用摩擦和自维护 IDE 工具成本太高，框架正在转向 TypeScript SDK。另一篇文章讨论 Tokenmaxxing：把 AI token 使用量或项目复杂度当绩效指标，会诱导工程师追求可见活动而非真实产出。工具部分包括 Codebuff 多 Agent 编码助手、React Doctor 代码健康扫描，以及 QuestDB 通过并行和 SIMD 优化 window join 的工程案例。",
+      "why_important": "AI 时代的开发效率很容易被错误指标误导。token 数、工具调用数和复杂度都不等于生产力，真正重要的是采用成本、可维护性和结果质量。",
+      "impact": "builder 在设计开发者产品时应优先贴合已有语言和工具链，减少 adoption friction。管理团队在引入 AI 编程工具时，也要避免用 token 消耗等输入指标替代真实交付效果。",
+      "key_points": [
+        "Wasp 从自定义语言转向 TypeScript SDK，反映开发者生态兼容性的重要性。",
+        "Tokenmaxxing 是 Goodhart 定律在 AI 工程管理中的新表现。",
+        "React Doctor 这类工具开始面向 coding agent 约束最佳实践。"
+      ],
+      "reading_notes": [],
+      "tags": [
+        "开发者工具",
+        "工程管理",
+        "agent",
+        "AI编码"
+      ],
+      "related_sources": [
+        "AINews"
+      ],
+      "deep_read_zh": ""
+    },
+    {
+      "id": "the-neuron-anthropic-number-one-business-ai",
+      "title_zh": "The Neuron：Claude 成为企业 AI 新领先者，OpenAI 被迫加速企业化",
+      "title_original": "😺 Claude is now the #1 business AI",
+      "source": "www.theneurondaily.com",
+      "from": "The Neuron <theneuron@newsletter.theneurondaily.com>",
+      "subject": "😺 Claude is now the #1 business AI",
+      "url": "https://rapid-agent.devpost.com/?utm_source=neuron&utm_medium=media_partner&utm_campaign=rapid_agent_hackathon",
+      "message_id": "<brjxEY6pRSWFvBBQVd2L6w@geopod-ismtpd-68>",
+      "published_at": "2026-05-14T11:09:17.000Z",
+      "importance": "high",
+      "summary_zh": "The Neuron 也聚焦 Anthropic 反超 OpenAI，但提供了更强的商业叙事：Ramp 2025 年 5 月数据显示 OpenAI 企业采用率为 32%、Anthropic 仅 8%，而 2026 年 5 月 Anthropic 达 34.4%、OpenAI 为 32.3%。邮件还引用 Anthropic 首次 AI 企业买家占比、Claude Code 年化收入、Anthropic 年化收入等说法，并指出 OpenAI 推出 40 亿美元 Deployment Company，联合私募股权和咨询伙伴推进企业 Codex 采用。它的判断是，企业合同比消费者下载更粘，采购通过后会深入基础设施。",
+      "why_important": "这封邮件把 Ramp 数据放进一年跨度的竞争曲线里看，强调 Anthropic 的变化不是单月波动，而是企业采用叙事反转。",
+      "impact": "企业 AI 会更像传统 B2B 软件竞争：采购、集成、续约、扩容和顾问生态都重要。AI 产品团队需要关注从单点工具到组织级部署的路径。",
+      "key_points": [
+        "2025 年 OpenAI 企业采用率 32%、Anthropic 8%；2026 年 Anthropic 34.4%、OpenAI 32.3%。",
+        "邮件认为 Claude Code 是 Anthropic 反超的重要引擎。",
+        "OpenAI 通过 Deployment Company 和企业伙伴体系加速反击。"
+      ],
+      "reading_notes": [],
+      "tags": [
+        "企业AI",
+        "模型竞争",
+        "B2B",
+        "AI编码"
+      ],
+      "related_sources": [
+        "The Rundown AI",
+        "TLDR AI"
+      ],
+      "deep_read_zh": ""
+    },
+    {
+      "id": "tldr-app-store-agents-notion-dev-platform",
+      "title_zh": "Apple、Amazon、Notion：平台正在为 Agent 重构入口和上下文层",
+      "title_original": "App Store agents 📱, Alexa AI shopping 🛍️, Notion Dev Platform 👨‍💻",
+      "source": "TLDR",
+      "from": "TLDR <dan@tldrnewsletter.com>",
+      "subject": "App Store agents 📱, Alexa AI shopping 🛍️, Notion Dev Platform 👨‍💻",
+      "url": "https://refer.tldr.tech/f45b3ac9/",
+      "message_id": "<0100019e260690ed-0592440a-cba3-4992-991c-f163ca8e2d57-000000@email.amazonses.com>",
+      "published_at": "2026-05-14T10:27:05.000Z",
+      "importance": "high",
+      "summary_zh": "TLDR 的大方向是平台级 Agent。Apple 正探索在 App Store 中支持 AI agents，同时维持隐私、安全和防止绕过 App Store 规则的治理要求；Amazon 停掉独立 Rufus 聊天机器人，把 Alexa for Shopping 变成电商搜索和行动入口；Notion Developer Platform 允许开发者同步任意数据、构建 Agent 工具、触发 Notion workflow，并让 Notion Agents 出现在其他应用里。邮件还提到 AI Gateway Production Index：Anthropic 支出领先、Google 量领先、开源模型增长、Agentic workload 占 59% token volume。",
+      "why_important": "平台正在把 Agent 从附加功能变成核心入口。App Store、Amazon 搜索栏和 Notion 工作区分别代表移动分发、电商交易和知识工作流三个关键战场。",
+      "impact": "builder 需要决定是做独立 Agent 产品，还是接入平台的上下文、权限和分发。企业团队则会更重视上下文层，因为 MCP 只定义工具通信，不自动解决知识和权限问题。",
+      "key_points": [
+        "Apple 支持 Agent 的难点在于用户授权、恶意行为防控和平台收费规则。",
+        "Amazon 将 Alexa 作为购物 AI 中心，Rufus 被替代。",
+        "Notion Developer Platform 试图成为工作区内外 Agent 的数据和执行层。"
+      ],
+      "reading_notes": [],
+      "tags": [
+        "平台",
+        "agent",
+        "上下文层",
+        "电商AI"
+      ],
+      "related_sources": [
+        "TLDR Design",
+        "The Neuron"
+      ],
+      "deep_read_zh": ""
+    }
+  ],
+  "skipped": [
+    {
+      "message_id": "<20260514035326.3.7e64c73a714f8ddd@mg-d0.substack.com>",
+      "subject": "[AINews] Codex Rises, Claude Meters Programmatic Usage",
+      "from": "AINews <swyx+ainews@substack.com>",
+      "reason": "system"
+    }
+  ],
+  "notes": "今日精读选择 The Rundown AI 的 Ramp 企业采用率事件，因为同一天多封 newsletter 都提到 Anthropic 反超 OpenAI，且它对模型公司、Agent 产品、企业采购和 AI builder 的产品路线都有直接影响。The Neuron 和 TLDR AI 也覆盖同一事件，已作为独立 newsletter 保留，并在 related_sources 中标注互为补充。广告、赞助内容、课程推广、工具赞助和纯活动招募没有单独成条，但保留了各正式 newsletter 的综合摘要。"
+}
