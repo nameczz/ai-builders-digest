@@ -1,0 +1,148 @@
+{
+  "date": "2026-05-16",
+  "items": [
+    {
+      "id": "2026-05-16-1",
+      "title": "AI 软件卖的是驻场工程师",
+      "angle": "从 FDE 和公司级 agent 的兴起切入：AI 落地不再是交付 SaaS，而是持续维护工作流。",
+      "opening": "过去买软件，是买一个稳定版本；现在买 AI，是买一个每天都在变的系统。Aaron Levie 直接把话挑明：真正大规模部署 AI 的公司，FDE 会从服务能力变成核心能力。",
+      "story_hook": {
+        "challenge": "企业想要 AI 自动化，但模型、工具和最佳实践变化太快，内部团队跟不上。",
+        "twist": "更像未来的不是人手一个万能 agent，而是供应商替一千家公司持续维护同一套工作流经验。"
+      },
+      "takeaway": "判断 AI B2B 项目时，不只看产品功能，还要看它有没有把部署、反馈、维护和跨客户学习做成核心系统。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Aaron Levie：AI 是动态系统，FDE 会变成核心能力",
+          "url": "https://x.com/levie/status/2055501840419328286"
+        },
+        {
+          "tag": "builders",
+          "ref": "Dan Shipper：公司级超级 agent 比人手一个 agent 更靠谱",
+          "url": "https://x.com/danshipper/status/2055347527457886336"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Agentmemory 同时在 GitHub 和 Product Hunt 共振",
+          "url": "https://www.producthunt.com/products/agent-memory-dev"
+        }
+      ]
+    },
+    {
+      "id": "2026-05-16-2",
+      "title": "一个人带上百个 Codex",
+      "angle": "从 OpenClaw 和 Codex 路线图信号切入：软件工程正在从任务制变成持续运行的 agent 流水线。",
+      "opening": "如果 token 成本不再是第一约束，软件公司会怎么组织工程？Peter Steinberger 描述的 OpenClaw 不是一个更聪明的聊天框，而是上百个云端 Codex 同时审 PR、查安全、抓性能回归、自动开 PR。",
+      "story_hook": {
+        "challenge": "团队希望 agent 提效，但传统用法仍然是人给一个任务、等一个结果。",
+        "twist": "真正变化可能不是工程师变快，而是工程组织被拆成一堆常驻后台进程。"
+      },
+      "takeaway": "开发者应开始把重复工程工作拆成可审计、可回滚、可长期运行的 agent job，而不是只把 AI 当临时助手。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Peter Steinberger：OpenClaw 用上百个云端 Codex 持续处理工程工作",
+          "url": "https://x.com/steipete/status/2055405041843052792"
+        },
+        {
+          "tag": "builders",
+          "ref": "Swyx：Codex 已经和三个月前不是一个东西",
+          "url": "https://x.com/swyx/status/2055494400252481687"
+        },
+        {
+          "tag": "pulse",
+          "ref": "addyosmani/agent-skills 一周新增 7841 星",
+          "url": "https://github.com/addyosmani/agent-skills"
+        }
+      ]
+    },
+    {
+      "id": "2026-05-16-3",
+      "title": "浏览器成了 agent 防火墙",
+      "angle": "从 Vercel 的 SSO 内网和 CloakBrowser 暴涨切入：agent 真正做事前，先要解决身份、权限和网页访问。",
+      "opening": "最荒诞的画面出现了：agent 部署了一个应用，然后被自己刚部署的应用回了 401 Unauthorized。Guillermo Rauch 给出的解法不是再训模型，而是让 agent 通过 Vercel 权限去访问生产环境。",
+      "story_hook": {
+        "challenge": "Agent 想进入真实工作流，就必须穿过登录、SSO、风控、反爬和权限系统。",
+        "twist": "浏览器自动化突然不是测试工程的边角料，而成了 agent 能不能真正工作的基础设施。"
+      },
+      "takeaway": "做 agent 产品时，身份、权限、浏览器会话和审计日志应被当成一等架构，不是上线后再补的工程细节。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Guillermo Rauch：Vercel 把 agent 部署的应用锁进 SSO，并用 vc curl 打通权限",
+          "url": "https://x.com/rauchg/status/2055440326765244742"
+        },
+        {
+          "tag": "pulse",
+          "ref": "CloakHQ/CloakBrowser 一周新增 9120 星",
+          "url": "https://github.com/CloakHQ/CloakBrowser"
+        },
+        {
+          "tag": "pulse",
+          "ref": "cloakbrowser 搜索热度上涨 999%",
+          "url": "https://trends.google.com/trends/explore?q=cloakbrowser&date=now+7-d"
+        }
+      ]
+    },
+    {
+      "id": "2026-05-16-4",
+      "title": "PM 的旧 playbook 失效了",
+      "angle": "从 Madhu Guru 对 PM 的批评切入：AI 时代不是复用成熟范式，而是重新发明产品工作流。",
+      "opening": "一代 PM 被训练成套用 playbook：找竞品、抄路径、A/B 测试、迭代转化率。但 Madhu Guru 说得很狠：AI 时代要的不是套 playbook，而是发明 playbook。",
+      "story_hook": {
+        "challenge": "过去的软件产品可以复用少数成功团队的界面和增长模式。",
+        "twist": "今天增长最快的机会反而藏在终端、Git、agent 记忆、模型路由这些旧范式里没有标准答案的地方。"
+      },
+      "takeaway": "PM 和 founder 应少问“谁已经这么做了”，多问“AI 把哪个高频动作变成了新入口”。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Madhu Guru：AI 时代 PM 必须发明 playbook",
+          "url": "https://x.com/realmadhuguru/status/2055414865146327088"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Epiq：Git 原生、离线优先的 issue tracker TUI",
+          "url": "https://ljtn.github.io/epiq/"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Mantel：解决 Claude Code 会话和终端窗口混乱",
+          "url": "https://www.producthunt.com/products/mantel-color-coded-macos-terminal"
+        }
+      ]
+    },
+    {
+      "id": "2026-05-16-5",
+      "title": "AI 越强，用户越要本地",
+      "angle": "从 headless software 与 self-hosted 热度切入：强 agent 没有消灭本地工作流，反而放大了可迁移和可审计的需求。",
+      "opening": "直觉上，AI 越强，软件应该越云端、越平台化。但今天的数据反着走：skills 爆火，self-hosted 上涨，Git-native TUI 也有人买账。",
+      "story_hook": {
+        "challenge": "Agent 需要长期记忆、权限和自动化，天然像是云平台的机会。",
+        "twist": "开发者真正焦虑的是数据、上下文和自动化被锁死，所以重新回到文件、Git、终端和自托管。"
+      },
+      "takeaway": "下一批 AI 工具可以优先设计成本地优先、文件化、可导出、可被 agent 读取，而不是默认做封闭云端工作台。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Aaron Levie：未来软件会变成 AI 可调用的无头能力层",
+          "url": "https://x.com/levie/status/2055357619888595271"
+        },
+        {
+          "tag": "pulse",
+          "ref": "mattpocock/skills 一周新增 18278 星",
+          "url": "https://github.com/mattpocock/skills"
+        },
+        {
+          "tag": "pulse",
+          "ref": "self hosted 搜索热度上涨 22.8%",
+          "url": "https://trends.google.com/trends/explore?q=self+hosted&date=now+7-d"
+        }
+      ]
+    }
+  ],
+  "notes": "今日主线非常集中：不是模型新闻，而是 agent 落地所需的基础设施、权限、记忆、技能和本地可控性。",
+  "generated_at": "2026-05-16T09:20:13+00:00",
+  "model": "gpt-5.5"
+}
