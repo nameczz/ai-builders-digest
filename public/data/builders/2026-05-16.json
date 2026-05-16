@@ -1,0 +1,412 @@
+{
+  "date": "2026-05-16",
+  "generated_at": "2026-05-16T09:11:54+00:00",
+  "count": 27,
+  "items": [
+    {
+      "id": "678e0e030a",
+      "date": "2026-05-16",
+      "source": "x",
+      "author": "Aaron Levie",
+      "bio": "ceo @box - your business lives in content. unleash it with AI",
+      "title": "",
+      "summary_en": "I’m fully forward deployed engineering pilled specifically because AI simply is not the same as software. In software, you deliver a stable piece of technology to a customer and they adopt it and that’s that (extreme over simplification). \n\nIn AI, you’re delivering something that is constantly evolving both due to the nature of the new capabilities and best practices that emerge, but also because the underlying models change so much that they can meaningfully change the workflow as a result of their upgrades.\n\nFor this reason it’s far more logical that one vendor can share best practices across thousands of companies more efficiently than every single company can learn and manage these best practices themselves. Further, the learnings from those customers should go right back into the core product as a result.\n\nAs we go from chat systems to anyone can relatively easily adopt to agentic systems that require more meaningful efforts to manage and update, the FDE model (or equivalent) essentially becomes a core competency for anyone deploying AI at scale.",
+      "summary_zh": "AI 不是交付一次就结束的软件，而是底层模型和最佳实践不断改写工作流的动态系统。真正大规模部署 AI 的公司，FDE 或类似模式会从“服务能力”变成核心能力，因为让一个供应商沉淀并反哺千家公司，比每家公司各自摸索更高效。",
+      "url": "https://x.com/levie/status/2055501840419328286",
+      "posted_at": "2026-05-16T04:13:22.000Z",
+      "tags": [
+        "@levie"
+      ]
+    },
+    {
+      "id": "1d466ff5c0",
+      "date": "2026-05-16",
+      "source": "x",
+      "author": "Swyx",
+      "bio": "achieve ambition with intentionality, intensity, integrity & insanity.  affiliations: - @dxtipshq  - @cognition - @temporalio - @aidotengineer - @latentspacepod",
+      "title": "",
+      "summary_en": "gotta say Codex is completely unrecognizable from 3 months ago. guys went extreme founder mode on this thing\n\n@gabrielchua was demoing this and i was like “you guys have agentic excel on mac” https://t.co/khrZiOvZp9 https://t.co/Nmg13LdLqu",
+      "summary_zh": "Codex 跟三个月前已经不是一个东西，团队像是彻底开了极限 founder mode。Gabriel Chua 一演示，感觉就是他们在 Mac 上做出了 agentic Excel。",
+      "url": "https://x.com/swyx/status/2055494400252481687",
+      "posted_at": "2026-05-16T03:43:48.000Z",
+      "tags": [
+        "@swyx"
+      ]
+    },
+    {
+      "id": "ba5ca7eafb",
+      "date": "2026-05-16",
+      "source": "x",
+      "author": "Guillermo Rauch",
+      "bio": "@vercel CEO",
+      "title": "",
+      "summary_en": "Grok CLI has great support for Plugins and Skills. Installing the Vercel Plugin gives Grok cloud deployment superpowers.\n\nWatch this creative coding website be generated with Grok and hosted seamlessly on Vercel ↓\n\nhttps://t.co/VpA5FqmkOO https://t.co/FXvn73FBFd",
+      "summary_zh": "Grok CLI 装上 Vercel Plugin 后，创意编码网站不只是能生成，还能直接无缝部署到 Vercel。",
+      "url": "https://x.com/rauchg/status/2055491454307582454",
+      "posted_at": "2026-05-16T03:32:06.000Z",
+      "tags": [
+        "@rauchg"
+      ]
+    },
+    {
+      "id": "f569408ff8",
+      "date": "2026-05-16",
+      "source": "x",
+      "author": "Swyx",
+      "bio": "achieve ambition with intentionality, intensity, integrity & insanity.  affiliations: - @dxtipshq  - @cognition - @temporalio - @aidotengineer - @latentspacepod",
+      "title": "",
+      "summary_en": "@Gavriel_Cohen @thsottiaux head of AI Govtech at Singapore estimates 1.3 billion agents in the country in the next 2 years and is building a national MCP gateway @dsp_ https://t.co/glAGn6jTmd",
+      "summary_zh": "新加坡 AI GovTech 负责人预计，未来两年全国会跑出 13 亿个智能体，并正在建设国家级 MCP 网关。他们不是等 agent 爆发，而是在提前铺国家级接入层。",
+      "url": "https://x.com/swyx/status/2055470634331750588",
+      "posted_at": "2026-05-16T02:09:22.000Z",
+      "tags": [
+        "@swyx"
+      ]
+    },
+    {
+      "id": "0e6f36de33",
+      "date": "2026-05-16",
+      "source": "x",
+      "author": "Swyx",
+      "bio": "achieve ambition with intentionality, intensity, integrity & insanity.  affiliations: - @dxtipshq  - @cognition - @temporalio - @aidotengineer - @latentspacepod",
+      "title": "",
+      "summary_en": "@Gavriel_Cohen and @thsottiaux casually dropping some hints on the Codex roadmap in his keynote!\n\nhttps://t.co/sEkVYhq7KO https://t.co/OQ0g1JgXgJ",
+      "summary_zh": "Gavriel_Cohen 和 thsottiaux 在主题演讲里顺手放出 Codex 路线图信号，嘴上轻描淡写，信息量一点不小。",
+      "url": "https://x.com/swyx/status/2055467498888118647",
+      "posted_at": "2026-05-16T01:56:55.000Z",
+      "tags": [
+        "@swyx"
+      ]
+    },
+    {
+      "id": "e2250d05d2",
+      "date": "2026-05-16",
+      "source": "x",
+      "author": "Dan Shipper",
+      "bio": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "title": "",
+      "summary_en": "Codex-native apps are the future. https://t.co/hBlkSfNn9Z",
+      "summary_zh": "Codex 原生应用就是未来。",
+      "url": "https://x.com/danshipper/status/2055451869841965154",
+      "posted_at": "2026-05-16T00:54:48.000Z",
+      "tags": [
+        "@danshipper"
+      ]
+    },
+    {
+      "id": "d00ec3c33d",
+      "date": "2026-05-16",
+      "source": "x",
+      "author": "Peter Yang",
+      "bio": "Practical AI tutorials and interviews for busy people | Join 140K+ readers at https://t.co/XYKTmGVH14 | Product at Roblox",
+      "title": "",
+      "summary_en": "This is a really great update.\n\nI just don't want my financial data to be used to train models or get targeted ads, so I turned \"improve the model for everyone\" off\n\nDoesn't appear there's a \"Use for ad targeting\" toggle  here so I'll assume the same toggle applies to both. https://t.co/B02JrJyT4M https://t.co/b32SthsYmC",
+      "summary_zh": "更新不错，但我不想让自己的金融数据拿去训练模型或投广告，所以关掉了“为所有人改进模型”。既然没有单独的“用于广告定向”开关，那就默认这一个开关同时管训练和广告。",
+      "url": "https://x.com/petergyang/status/2055450577094738018",
+      "posted_at": "2026-05-16T00:49:40.000Z",
+      "tags": [
+        "@petergyang"
+      ]
+    },
+    {
+      "id": "13bdb84622",
+      "date": "2026-05-16",
+      "source": "x",
+      "author": "Garry Tan",
+      "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "title": "",
+      "summary_en": "The Overpaid CEO tax doesn't tax overpaid CEOs, and all it does is pass higher gross receipts taxes on to consumers AND it will result in way lower revenue for the city, same as the CA asset seizure tax by SEIU. \n\nBad anti-business policy that makes our cities and states poorer. https://t.co/HKDRT1Sf1P https://t.co/nmB3MXZHfT",
+      "summary_zh": "所谓“高薪 CEO 税”根本打不到 CEO，只会把更高的总收入税转嫁给消费者，还会让城市税收更低。  \n这就是反商业的烂政策，最后只会把城市和州变得更穷。",
+      "url": "https://x.com/garrytan/status/2055446378596474891",
+      "posted_at": "2026-05-16T00:32:59.000Z",
+      "tags": [
+        "@garrytan"
+      ]
+    },
+    {
+      "id": "00a617e5f2",
+      "date": "2026-05-16",
+      "source": "x",
+      "author": "Guillermo Rauch",
+      "bio": "@vercel CEO",
+      "title": "",
+      "summary_en": "Vercel protects your agents' deployments behind SSO like @Okta. Even Production ones, giving you a secure 'intranet' of apps generated with @v0, Codex, Claude, etc.\n\nIt's all fun and games until your agent gets 𝟺𝟶𝟷 𝚄𝚗𝚊𝚞𝚝𝚑𝚘𝚛𝚒𝚣𝚎𝚍 from the deployment *it just made* though 😂\n\nThe solution: 𝚟𝚎𝚛𝚌𝚎𝚕 𝚌𝚞𝚛𝚕. By just prefixing 𝚟𝚎𝚛𝚌𝚎𝚕 or 𝚟𝚌 you unblock your agent and yourself to easily 𝚌𝚞𝚛𝚕 any URL you have access to within the Vercel ecosystem.",
+      "summary_zh": "Vercel 把 v0、Codex、Claude 生成的应用连生产环境都能锁进 Okta 这类 SSO 后面，等于给 agent 造了个安全内网。荒诞点在于：agent 会被自己刚部署的应用回一个 `401 Unauthorized`，解决办法就是 `vercel curl` / `vc curl`，直接用你的 Vercel 权限打通。",
+      "url": "https://x.com/rauchg/status/2055440326765244742",
+      "posted_at": "2026-05-16T00:08:56.000Z",
+      "tags": [
+        "@rauchg"
+      ]
+    },
+    {
+      "id": "bced7c8d6b",
+      "date": "2026-05-16",
+      "source": "x",
+      "author": "Peter Yang",
+      "bio": "Practical AI tutorials and interviews for busy people | Join 140K+ readers at https://t.co/XYKTmGVH14 | Product at Roblox",
+      "title": "",
+      "summary_en": "lol this is why he’s the best https://t.co/G1K5lbHDUL",
+      "summary_zh": "笑死，这就是他为什么是最强的：一出手就把差距打出来，别人只能在后面追。",
+      "url": "https://x.com/petergyang/status/2055436179643019395",
+      "posted_at": "2026-05-15T23:52:28.000Z",
+      "tags": [
+        "@petergyang"
+      ]
+    },
+    {
+      "id": "51b6cfd3d9",
+      "date": "2026-05-16",
+      "source": "x",
+      "author": "Nikunj Kothari",
+      "bio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
+      "title": "",
+      "summary_en": "For folks who don't believe me, this is the second phase and it's still going.. parents are going to be excited for this side project. https://t.co/opYMmQgHXJ",
+      "summary_zh": "不信的人看好了，这只是第二阶段，而且还在继续推进。这个副业项目很快会让家长们兴奋起来。",
+      "url": "https://x.com/nikunj/status/2055428193398780296",
+      "posted_at": "2026-05-15T23:20:43.000Z",
+      "tags": [
+        "@nikunj"
+      ]
+    },
+    {
+      "id": "798c896039",
+      "date": "2026-05-16",
+      "source": "x",
+      "author": "Nikunj Kothari",
+      "bio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
+      "title": "",
+      "summary_en": "Man, /goal is just AGI if given the right tools.. \n\nLike what do you mean you went through all the entire database of 2k+ line items, fixed all the product images, the frontend bugs caused by different images, the descriptions, used browser harness to get real-time info from the web, used web search for fact checking, wrote scripts for all the work you did for the future.. and ran for 2 hours while I met founders for coffee. \n\nI'm just shook 😅",
+      "summary_zh": "/goal 配上合适工具，已经像 AGI：自己扫完整个 2000+ 条目的数据库，修图、修前端 bug、改描述、联网查证，还把流程脚本化。人去喝咖啡两小时，它把活全干完了。",
+      "url": "https://x.com/nikunj/status/2055426430654439485",
+      "posted_at": "2026-05-15T23:13:43.000Z",
+      "tags": [
+        "@nikunj"
+      ]
+    },
+    {
+      "id": "c4f3364e88",
+      "date": "2026-05-16",
+      "source": "x",
+      "author": "Madhu Guru",
+      "bio": "Product Leader at Google - Gemini, Veo, Nano Banana. All opinions mine.",
+      "title": "",
+      "summary_en": "A generation of PMs is struggling to adapt to AI because they were trained to execute playbooks. AI requires inventing them.\n\nFor two decades, a few teams invented the product patterns. Everyone else repurposed them to their domain.\n\nThat made a lot of PM work dry and mechanical. But for a long time, it was enough to build a career.\n\nIt’s also why so much software feels the same.\n\nPMs need to be inventors now, not framework executors. There are no stable playbooks to repurpose.\n\nYou can’t A/B test your way to a breakthrough AI product.\n\nDoable. But PMs need to unlearn.",
+      "summary_zh": "一代 PM 被训练成套用 playbook，但 AI 时代要的是发明 playbook；过去那套复用少数团队产品模式的路子，造出了大量长得一样的软件。现在没有稳定范式可抄，也别指望靠 A/B 测试撞出突破，PM 必须先把旧本事忘掉。",
+      "url": "https://x.com/realmadhuguru/status/2055414865146327088",
+      "posted_at": "2026-05-15T22:27:46.000Z",
+      "tags": [
+        "@realmadhuguru"
+      ]
+    },
+    {
+      "id": "ce22922d34",
+      "date": "2026-05-16",
+      "source": "x",
+      "author": "Dan Shipper",
+      "bio": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "title": "",
+      "summary_en": "This is the future https://t.co/ZiZ6aZDtBn",
+      "summary_zh": "未来就长这样。",
+      "url": "https://x.com/danshipper/status/2055412891910586516",
+      "posted_at": "2026-05-15T22:19:55.000Z",
+      "tags": [
+        "@danshipper"
+      ]
+    },
+    {
+      "id": "ed3b8f1bf3",
+      "date": "2026-05-16",
+      "source": "x",
+      "author": "Peter Steinberger",
+      "bio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world. @OpenClaw🦞 + @OpenAI",
+      "title": "",
+      "summary_en": "People freaking out over my AI spend. What nobody sees: Part of what excites me so much about working on OpenClaw is that I'm trying to answer the question:\n\nHow would we build software in the future if tokens don't matter?\n\nWe constant run ~100 codex in the cloud, reviewing every PR, every issue. If a fix on main lands, @clawsweeper will eventually find that 6 month old issue and close it with an exact reference.\n\nWe run codex on every commit to review for security issues (as it's far too easy to miss).\n\nWe run codex to de-duplicate issues and find clusters and send reports for the most pressing issues.\n\nWe have agents that can recreate complex setups, spin up ephemeral https://t.co/Q1NRXLemEy machines, log into e.g. Telegram, make a video and post before/after fix on the PR.\n\nThere's codex that watch new issues and - if it fits our documented vision well, automatically create a PR of it. (that then another codex reviews)\n\nWe have codex running that scans comments for spam and blocks people.\n\nWe have codex instances running that verify performance benchmarks and report regressions into Discord.\n\nWe have agents that listen on our meetings and proactively start work, e.g. create PRs when we discuss new features while we discuss them.\n\nWe build https://t.co/bmA1XnoB7P to split all our projects into functional units to review and find bugs and regresssions.\n\nWe do the same split for security with Vercel's deepsec and Codex Security to find regressions and vulnerabilities.\n\nAll that automation allows us to run this project extremely lean.",
+      "summary_zh": "别只盯着 AI 花费，他们在 OpenClaw 试的是「如果 token 不再重要，未来软件该怎么造」：上百个云端 Codex 持续审 PR、查安全、去重 issue、抓性能回归、自动开 PR，甚至边开会边动工。\n\n核心不是炫技，而是用代理把软件工程拆成持续运行的自动化流水线，让一个极精简的团队扛起过去需要一整支工程组织的工作量。",
+      "url": "https://x.com/steipete/status/2055405041843052792",
+      "posted_at": "2026-05-15T21:48:44.000Z",
+      "tags": [
+        "@steipete"
+      ]
+    },
+    {
+      "id": "ab0452171d",
+      "date": "2026-05-16",
+      "source": "x",
+      "author": "Matt Turck",
+      "bio": "VC at @FirstMarkCap.  Host: MAD Podcast; Organizer: Data Driven NYC, Author: MAD Landscape.",
+      "title": "",
+      "summary_en": "Some personal news: He slid into my DMs, don't say prayers don't work y'all https://t.co/aOIpCELX3i",
+      "summary_zh": "他主动私信我了，谁再说祈祷没用就不懂事了。",
+      "url": "https://x.com/mattturck/status/2055404881024848056",
+      "posted_at": "2026-05-15T21:48:05.000Z",
+      "tags": [
+        "@mattturck"
+      ]
+    },
+    {
+      "id": "ab0da1609f",
+      "date": "2026-05-16",
+      "source": "x",
+      "author": "Peter Steinberger",
+      "bio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world. @OpenClaw🦞 + @OpenAI",
+      "title": "",
+      "summary_en": "Been using @sveltejs for a few projects lately, it's quite a nice alternative to React, fewer gotchas and complexity and Codex handles it really well. https://t.co/b2KdDvrpLD",
+      "summary_zh": "最近几个项目用下来，Svelte 是 React 的一个干净替代品：坑更少、复杂度更低，Codex 也很吃这一套。",
+      "url": "https://x.com/steipete/status/2055402519841411165",
+      "posted_at": "2026-05-15T21:38:42.000Z",
+      "tags": [
+        "@steipete"
+      ]
+    },
+    {
+      "id": "f4f99dcaec",
+      "date": "2026-05-16",
+      "source": "x",
+      "author": "Peter Yang",
+      "bio": "Practical AI tutorials and interviews for busy people | Join 140K+ readers at https://t.co/XYKTmGVH14 | Product at Roblox",
+      "title": "",
+      "summary_en": "ChatGPT Finances is pretty awesome. AI still has trouble classifying transactions correctly though. https://t.co/sceyzaZouz",
+      "summary_zh": "ChatGPT Finances 很惊艳，但 AI 现在连交易分类这种账本基本功都还会翻车。",
+      "url": "https://x.com/petergyang/status/2055396161910194395",
+      "posted_at": "2026-05-15T21:13:27.000Z",
+      "tags": [
+        "@petergyang"
+      ]
+    },
+    {
+      "id": "610142ce1a",
+      "date": "2026-05-16",
+      "source": "x",
+      "author": "Garry Tan",
+      "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "title": "",
+      "summary_en": "It's time to vote in California elections and here is my voter guide. \n\nThere are a lot of things to get right here. Please tell your friends this is one resource they can use and trust. https://t.co/6ptPnEKJoz",
+      "summary_zh": "加州选举该投票了，我整理了一份选民指南。这里有太多事不能选错，把它转给朋友，这是一份他们可以用、也可以信的资源。",
+      "url": "https://x.com/garrytan/status/2055384351307858390",
+      "posted_at": "2026-05-15T20:26:31.000Z",
+      "tags": [
+        "@garrytan"
+      ]
+    },
+    {
+      "id": "65c246c826",
+      "date": "2026-05-16",
+      "source": "x",
+      "author": "Peter Steinberger",
+      "bio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world. @OpenClaw🦞 + @OpenAI",
+      "title": "",
+      "summary_en": "🩹 clawpatch 0.1.0 is live:\n\nClawpatch maps codebases into semantic feature slices, reviews them for bugs and quality issues, and records explicit fix attempts with validation.\n\nYou'll be surprised how much this will find.\nnpm install -g clawpatch\nhttps://t.co/8xIcXuojse",
+      "summary_zh": "clawpatch 0.1.0 发布：把代码库切成语义功能片，自动审 bug 和质量问题，并记录修复尝试与验证。作者放话：你会惊讶它能挖出多少问题。",
+      "url": "https://x.com/steipete/status/2055364630709448970",
+      "posted_at": "2026-05-15T19:08:09.000Z",
+      "tags": [
+        "@steipete"
+      ]
+    },
+    {
+      "id": "a3b63dff30",
+      "date": "2026-05-16",
+      "source": "x",
+      "author": "Aaron Levie",
+      "bio": "ceo @box - your business lives in content. unleash it with AI",
+      "title": "",
+      "summary_en": "Headless software is the future https://t.co/c4w018JXro",
+      "summary_zh": "未来的软件不再靠界面取胜，而是变成 AI 和自动化可直接调用的“无头能力层”。还在围着按钮、页面和仪表盘打转的人，已经站错了战场。",
+      "url": "https://x.com/levie/status/2055357619888595271",
+      "posted_at": "2026-05-15T18:40:17.000Z",
+      "tags": [
+        "@levie"
+      ]
+    },
+    {
+      "id": "aa29aefc57",
+      "date": "2026-05-16",
+      "source": "x",
+      "author": "Sam Altman",
+      "bio": "AI is cool i guess",
+      "title": "",
+      "summary_en": "i appreciate how seriously the team always takes these reports (even when the answer turns out to be 'i got used to the current level of magic and now i'd like more please') https://t.co/O6Ws2zQyGN",
+      "summary_zh": "团队总是认真处理这些反馈，哪怕最后发现所谓问题只是：我已经习惯了现在这档魔法，所以请再给我更猛一点。",
+      "url": "https://x.com/sama/status/2055356452286640630",
+      "posted_at": "2026-05-15T18:35:39.000Z",
+      "tags": [
+        "@sama"
+      ]
+    },
+    {
+      "id": "3b2de22813",
+      "date": "2026-05-16",
+      "source": "x",
+      "author": "Dan Shipper",
+      "bio": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "title": "",
+      "summary_en": "our full deep-dive on trying to launch an agent-as-a-service platform built on openclaw! my two bigs ones:\n\n1. OpenClaw is awesome but it's EXTREMELY hard to build on it as a platform. it moves super fast, there are tons of regressions, it's not great to be the layer in between OpenClaw and a user\n\n2. One super agent for a company beats 1-1 agents for everyone. I do think we're going to get there over time, but for now agents actually require a lot of work (often technical) to keep working well. And people with jobs don't want to be messing with the internals of the agent all day. \n\nHowever if you give everyone an agent that works really well and make it someone's job to make it good for the whole company...lots of good stuff ensues\n\nstay tuned we'll have more on this @every!",
+      "summary_zh": "他们试图基于 OpenClaw 做 agent-as-a-service，结论很扎心：OpenClaw 很强，但迭代太快、回归太多，拿它当平台底座夹在用户中间会很痛。现阶段公司级“超级 agent”比人手一个 agent 更靠谱，因为真正能跑好的 agent 需要持续技术维护，而打工人没空天天折腾它的内脏。",
+      "url": "https://x.com/danshipper/status/2055347527457886336",
+      "posted_at": "2026-05-15T18:00:11.000Z",
+      "tags": [
+        "@danshipper"
+      ]
+    },
+    {
+      "id": "8dd1432fc0",
+      "date": "2026-05-16",
+      "source": "x",
+      "author": "Garry Tan",
+      "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "title": "",
+      "summary_en": "Many such cases https://t.co/9ThA8cXvgl",
+      "summary_zh": "",
+      "url": "https://x.com/garrytan/status/2055320066577891415",
+      "posted_at": "2026-05-15T16:11:04.000Z",
+      "tags": [
+        "@garrytan"
+      ]
+    },
+    {
+      "id": "5b1e383aad",
+      "date": "2026-05-16",
+      "source": "x",
+      "author": "Nikunj Kothari",
+      "bio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
+      "title": "",
+      "summary_en": "You are missing out on reading essays from the better writer in our family.. https://t.co/XeyIMhooSY https://t.co/uqQ6XzVnja",
+      "summary_zh": "别只看他：他点名家里有个更会写的人，你还没读那些文章，就是在吃亏。",
+      "url": "https://x.com/nikunj/status/2055288369958289536",
+      "posted_at": "2026-05-15T14:05:07.000Z",
+      "tags": [
+        "@nikunj"
+      ]
+    },
+    {
+      "id": "e44004ae7b",
+      "date": "2026-05-16",
+      "source": "x",
+      "author": "Guillermo Rauch",
+      "bio": "@vercel CEO",
+      "title": "",
+      "summary_en": "If you become exceptional at managing agents, but are also exceptional in your understanding of the fundamentals, you will be unstoppable.\n\nWe all prefer to work with masters of their craft. What’s new: you can’t afford to miss out on the amplification agents have on your output",
+      "summary_zh": "只会管 Agent 不够，基本功也必须硬；两者都顶尖，才是真正挡不住的人。我们本来就更愿意和高手共事，而现在的新规则是：错过 Agent 对产出的放大效应，就是主动掉队。",
+      "url": "https://x.com/rauchg/status/2055278852931530784",
+      "posted_at": "2026-05-15T13:27:18.000Z",
+      "tags": [
+        "@rauchg"
+      ]
+    },
+    {
+      "id": "4b7399c8e7",
+      "date": "2026-05-16",
+      "source": "podcast",
+      "author": "Unsupervised Learning",
+      "bio": "",
+      "title": "Ep 86: Yann LeCun on Leaving Meta, Breaking The LLM Paradigm, &amp; Why Hinton is Wrong",
+      "summary_en": "Speaker 1 | 00:00 - 00:03\nYou're one of the godfathers of AI. What's your kind of view of the path of progress here?\n\nSpeaker 2 | 00:03 - 00:11\nFive years complete world domination. The best way to get breakthrough research is you hire the best people, and you get the fuck out of the way. Pardon my French.\n\nSpeaker 1 | 00:11 - 00:14\nYou shared the Turing Award with two others. When did your views start diverging?\n\nSpeaker 2 | 00:14 - 00:15\nIn 2023.\n\nSpeaker 1 | 00:15 - 00:16\nHow you do know it\n\nSpeaker 2 | 00:16 - 00:16\nwas time\n\nSpeaker 1 | 00:16 - 00:19\nto leave Meta? It sounds like you were thinking through some of these things over a period of time.\n\nSpeaker 2 | 00:19 - 00:25\nIt was a big misconception about my role, my relation to Alex, and how AI was run at Meta.\n\nSpeaker 1 | 00:25 - 00:27\nWhat's like one thing you've changed your mind on in the last year?\n\nSpeaker 2 | 00:27 - 00:28\nI mean, the whole idea of\n\nSpeaker 1 | 00:28 - 01:00\nJan Lakun is one of the godfathers of AI. He's an absolute legend in the field, someone I've admired for a long time. And so it was such a treat to get him on unsupervised learning. He's been a noted skeptic of LMs in many ways, and so we dug into what LLMs can do, what they can't do, some of the limitations he sees, and why he ultimately decided to pursue a different architecture. And we also talked about his time at Meta, you know, the things he's proud of in setting up Fare, how the last few years proceeded, and what ultimately led him to, spin out and start his own company, Ami.\n\nSpeaker 1 | 01:00 - 01:26\nI think it's just fascinating to get Jan's thoughts on everything happening in the AI ecosystem today, this tension between basic research and then pushing LLMs forward, and how that's happening in a bunch of organizations today",
+      "summary_zh": "LeCun的判断很粗暴：真正的突破不是把组织管得更紧，而是招到最强的人，然后滚开别碍事。  \n他与Hinton等人的分歧从2023年彻底摊牌，他不信LLM范式能通向真正智能，离开Meta则是为了跳出被误解的权力结构，去押注另一套架构。",
+      "url": "https://www.youtube.com/@RedpointAI",
+      "posted_at": "2026-05-15T12:50:21.000Z",
+      "tags": [
+        "podcast"
+      ]
+    }
+  ]
+}
