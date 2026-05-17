@@ -1,0 +1,168 @@
+{
+  "date": "2026-05-17",
+  "items": [
+    {
+      "id": "2026-05-17-1",
+      "title": "Agent 不缺智商，缺记忆",
+      "angle": "从 GBrain、Agentmemory 和 skills 热榜切入：AI 编程代理的竞争点正在从模型能力转向长期上下文。",
+      "opening": "今天最强的信号不是某个新模型，而是一堆让 Agent 记住、复用、被控制的基础设施。Garry Tan 把 GBrain 说成 8 层协同记忆，GitHub 上 Agentmemory 单周 6907 stars，mattpocock/skills 更是单周 18795 stars。问题已经变了：不是 Agent 会不会写代码，而是它明天还记不记得今天为什么这么写。",
+      "story_hook": {
+        "challenge": "开发者一边相信 Coding Agent 能提效，一边每天都要重新解释项目背景、架构约束和历史坑。",
+        "twist": "真正先火起来的不是更聪明的 Agent，而是记忆、技能包和上下文系统这些看似不起眼的底层件。"
+      },
+      "takeaway": "做 AI DevTool 时，把 memory、rules、skills 和项目历史当成一等能力，而不是聊天窗口的附属功能。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Garry Tan：GBrain 是开源知识系统，用 8 层协同记忆让 agent 更懂你",
+          "url": "https://x.com/garrytan/status/2055670533451366479"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub 高增长：mattpocock/skills 单周 18795 stars",
+          "url": "https://github.com/mattpocock/skills"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub 高增长：rohitg00/agentmemory 单周 6907 stars",
+          "url": "https://github.com/rohitg00/agentmemory"
+        }
+      ]
+    },
+    {
+      "id": "2026-05-17-2",
+      "title": "Cursor 替代品叙事过时了",
+      "angle": "用 Codex CLI 搜索上升、cursor alternative 下降和 AgentRail/BlackBar 信号说明：竞争焦点从编辑器迁移到控制层。",
+      "opening": "今天有个反直觉数字：cursor alternative 搜索下降 43.2%，但 codex cli 上升 36.1%。这不代表 AI Coding 降温，而是开发者已经不再问“换哪个编辑器”，开始问“怎么监督、调度、路由和恢复一群 Agent”。AI 编程的入口，正在从 IDE 变成控制台。",
+      "story_hook": {
+        "challenge": "大家以为下一场战争是 Cursor、Claude Code、Codex 谁替代谁。",
+        "twist": "真正冒头的是 AgentRail、BlackBar、9router 这类控制面板、状态栏和路由层，它们不替代编辑器，而是接管工作流。"
+      },
+      "takeaway": "创业者不要再写“Cursor alternative”，更应该直接承诺一个可验证结果：远程控制、失败恢复、状态可视化或多模型 fallback。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Peter Steinberger：BlackBar 0.2.0 把 CI 工作流和状态通知塞进菜单栏",
+          "url": "https://x.com/steipete/status/2055685581758206139"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Google Trends：codex cli 上升 36.1%",
+          "url": "https://trends.google.com/trends/explore?q=codex+cli&date=now+7-d"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Google Trends：cursor alternative 下降 43.2%",
+          "url": "https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt：AgentRail 做本地 AI Coding Agent 控制平面",
+          "url": "https://www.producthunt.com/products/agentrail"
+        }
+      ]
+    },
+    {
+      "id": "2026-05-17-3",
+      "title": "AI 焦虑正在产品化",
+      "angle": "从 Zara Zhang 的 AI 精神病、Dan Shipper 的工具论，连接到具体工具名搜索上升：开发者焦虑正从情绪变成购买需求。",
+      "opening": "Zara Zhang 今天把 AI 时代的开发者状态讲得很准：用完 coding agent 觉得自己无所不能，刷完 X 又觉得所有人都领先自己。与此同时，ai agent 这个大词反而下降 4.5%，cloakbrowser、agentmemory、codex cli 这些具体工具却在上升。焦虑没有消失，只是从抽象恐慌变成了“我到底该装哪个工具”。",
+      "story_hook": {
+        "challenge": "AI 圈每天制造能力膨胀和落后恐惧，开发者很难判断自己应该学什么、买什么、造什么。",
+        "twist": "市场并没有继续奖励宏大概念，而是在奖励能立刻缓解焦虑的具体工具：记忆、浏览器、CLI、质量检查。"
+      },
+      "takeaway": "面向开发者卖 AI 工具时，不要贩卖更大的愿景，要把焦虑翻译成具体任务：少解释一次项目、少重跑一次失败、少踩一个 React 坑。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Zara Zhang：AI 精神病是在无所不能和被甩下之间横跳",
+          "url": "https://x.com/zarazhangrui/status/2055728641913536762"
+        },
+        {
+          "tag": "builders",
+          "ref": "Dan Shipper：说用 AI 会削弱能力，就像说骑车会削弱走路能力",
+          "url": "https://x.com/danshipper/status/2055727669900141017"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Google Trends：ai agent 下降 4.5%，具体项目名上升",
+          "url": "https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Google Trends：cloakbrowser 上升 905.2%",
+          "url": "https://trends.google.com/trends/explore?q=cloakbrowser&date=now+7-d"
+        }
+      ]
+    },
+    {
+      "id": "2026-05-17-4",
+      "title": "AI 应用又回到 HTML",
+      "angle": "用 Thariq 的 HTML 底层武器观点，反打端侧多模态和本地工具热潮：越复杂的 AI，越需要简单、稳定、可部署的界面。",
+      "opening": "在所有人都谈 Agent、端侧模型和多模态的时候，Thariq 说 HTML 还是最硬的底层武器：简单、稳定、到处能跑。今天 HuggingFace 上 MiniCPM-V-4.6、supertonic-3、Pixal3D 同时冒头，说明 AI 能力越来越重；但真正能被用户反复打开的，往往还是一个网页、一个本地面板、一个清楚的工作流。",
+      "story_hook": {
+        "challenge": "AI 产品越来越依赖复杂模型、端侧推理和多模态管线，开发者容易把精力花在炫技上。",
+        "twist": "越是模型复杂，越需要 HTML 这种朴素入口把能力包装成稳定、可分享、可嵌入的工具。"
+      },
+      "takeaway": "做消费级 AI 或 Builder 工具时，先把核心任务做成浏览器里可跑的简单工作流，再考虑复杂客户端和平台化。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Thariq：HTML 仍然是简单、稳定、到处能跑的底层武器",
+          "url": "https://x.com/trq212/status/2055903660476129723"
+        },
+        {
+          "tag": "pulse",
+          "ref": "HuggingFace：openbmb/MiniCPM-V-4.6 领跑端侧视觉模型",
+          "url": "https://huggingface.co/openbmb/MiniCPM-V-4.6"
+        },
+        {
+          "tag": "pulse",
+          "ref": "HuggingFace：Supertone/supertonic-3 指向端侧多语言 TTS",
+          "url": "https://huggingface.co/Supertone/supertonic-3"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt：Wring 把开发者工具收进一个菜单入口",
+          "url": "https://www.producthunt.com/products/wring"
+        }
+      ]
+    },
+    {
+      "id": "2026-05-17-5",
+      "title": "AI 供应链不靠白宫写代码",
+      "angle": "从 No Priors 里的 Pax Silica 切入，连接 GitHub/PH 的基础设施热：国家战略最后要落到私营 builder 的工具链。",
+      "opening": "No Priors 这期把美国 AI 战略讲得很直白：政府不会亲自经营供应链，美国真正的超能力是私营公司和 builders。这个判断和今天的开源热榜刚好对上：浏览器、记忆、路由、金融 Agent、控制台都在冒头。所谓 AI 供应链，最后不是一份政策文件，而是一堆能被企业接进生产环境的工具。",
+      "story_hook": {
+        "challenge": "AI 地缘政治听起来很宏大，但普通开发者很难判断它和自己的产品机会有什么关系。",
+        "twist": "国家级联盟真正需要的不是口号，而是商业上能活下来的私营基础设施：记忆、权限、浏览器、路由、审计和金融工作流。"
+      },
+      "takeaway": "看 AI 政策时不要只看禁令和补贴，要找哪些基础设施会因为合规、供应链安全和企业采用而变成刚需。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "No Priors：Pax Silica 要把政府与企业拧在一起，打造可商业运转的 AI 供应链平台",
+          "url": "https://www.youtube.com/watch?v=xjlYpGaxIPA"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub：CloakHQ/CloakBrowser 单周 8618 stars",
+          "url": "https://github.com/CloakHQ/CloakBrowser"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub：decolua/9router 单周 4798 stars",
+          "url": "https://github.com/decolua/9router"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub：anthropics/financial-services 单周 6935 stars",
+          "url": "https://github.com/anthropics/financial-services"
+        }
+      ]
+    }
+  ],
+  "notes": "今日主线很集中：AI Builder 选题应少写模型发布，多写 Agent 基础设施化、控制层迁移、开发者焦虑产品化和端侧工具入口。HN 数据缺失，建议避免把趋势归因到 HN。",
+  "generated_at": "2026-05-17T09:18:39+00:00",
+  "model": "gpt-5.5"
+}

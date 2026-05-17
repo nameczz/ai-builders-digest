@@ -1,0 +1,441 @@
+{
+  "date": "2026-05-17",
+  "top3": [
+    "今天最值得关注的是「AI 编程代理的基础设施化」：Agentmemory、CloakBrowser、9router、AgentRail、Codegraph 同时冒头，说明机会正在从单个 Coding Agent 转向记忆、路由、浏览器、控制面板和代码索引。",
+    "GitHub 本周最强信号不是模型，而是「技能包」：mattpocock/skills 单周 18795 stars，obra/superpowers 日榜 1305 stars，开发者正在把 Agent 工作流沉淀成可复用操作系统。",
+    "消费级 AI 产品的新窗口在端侧多模态、语音和视频生成：MiniCPM-V-4.6、Sulphur-2-base、supertonic-3 与 Pixal3D 同时进入 HF 热榜，适合做本地化创作工具而不是再做通用聊天壳。"
+  ],
+  "intro": "今天的数据缺少 HN，但 GitHub、Product Hunt、HuggingFace 和 Google Trends 的交叉信号很清晰：AI Builder 市场正在从「谁的模型更强」转向「谁能把代理变成可靠、可控、可复用的生产力系统」。值得盯住的不是又一个聊天入口，而是记忆、浏览器、路由、技能包、端侧语音和多模态编辑这些新底座。",
+  "sections": [
+    {
+      "id": "discovery",
+      "title": "发现机会",
+      "blocks": [
+        {
+          "id": "github-traction",
+          "heading": "GitHub 上哪些高增长开源项目还没有商业化？",
+          "summary_md": "[mattpocock/skills](https://github.com/mattpocock/skills) 本周新增 18795 stars，是今天最强的开源牵引力信号；它不是一个大而全工具，而是一组来自真实工程师工作流的 Agent Skills。紧随其后的是 [CloakHQ/CloakBrowser](https://github.com/CloakHQ/CloakBrowser) 单周 8618 stars、[rohitg00/agentmemory](https://github.com/rohitg00/agentmemory) 单周 6907 stars、[decolua/9router](https://github.com/decolua/9router) 单周 4798 stars。它们共同指向同一件事：开发者不缺 Agent，缺的是让 Agent 稳定执行的上下文、身份、网络访问和供应商路由。\n\n还值得看的是 [millionco/react-doctor](https://github.com/millionco/react-doctor) 单周 2643 stars，它把痛点写得很直接：Agent 写坏 React，需要自动抓出来。相比再做一个 IDE 插件，更有商业化空间的是围绕 Agent 输出质量做「守门员」：本地扫描、CI 阻断、PR 评论、团队规则库和回归基准。开源热度已经验证了痛点，付费点应该落在团队级可观测性和治理。 ",
+          "items": [
+            {
+              "title": "mattpocock/skills",
+              "url": "https://github.com/mattpocock/skills",
+              "source": "GitHub",
+              "score": 18795
+            },
+            {
+              "title": "CloakHQ/CloakBrowser",
+              "url": "https://github.com/CloakHQ/CloakBrowser",
+              "source": "GitHub",
+              "score": 8618
+            },
+            {
+              "title": "rohitg00/agentmemory",
+              "url": "https://github.com/rohitg00/agentmemory",
+              "source": "GitHub",
+              "score": 6907
+            },
+            {
+              "title": "millionco/react-doctor",
+              "url": "https://github.com/millionco/react-doctor",
+              "source": "GitHub",
+              "score": 2643
+            }
+          ],
+          "takeaway": "Agent 时代最早赚钱的往往不是 Agent 本体，而是记忆、浏览器、质量检查和路由这些基础设施。"
+        },
+        {
+          "id": "product-signals",
+          "heading": "今天有哪些独立开发者的新产品？",
+          "summary_md": "Product Hunt 今天更像一张 AI Builder 需求地图：[AgentRail](https://www.producthunt.com/products/agentrail) 做本地 AI Coding Agent 控制平面，[Agentmemory](https://www.producthunt.com/products/agent-memory-dev) 做 Claude Code、Codex 与 Coding Agent 的持久记忆，[Wring](https://www.producthunt.com/products/wring) 把开发者工具收进一个菜单入口，[Files SDK](https://www.producthunt.com/products/files-sdk) 则试图统一 object 与 blob 存储。原始数据没有提供票数和评论数，因此不能判断当天排名强弱，但产品方向与 GitHub 热榜高度重合。\n\n另一个分支是创作自动化：[Vivago Video Agent](https://www.producthunt.com/products/viva)、[Loova Agents](https://www.producthunt.com/products/loova-agents)、[SUN-to-Spotify](https://www.producthunt.com/products/sun-ai) 都在减少提示词负担，把生成视频、音频发布和导演式控制封装成流程。这里的机会不在「生成一次」，而在「稳定生成同一风格的一组内容」，尤其适合短剧、品牌视频、播客切片和电商素材。 ",
+          "items": [
+            {
+              "title": "AgentRail",
+              "url": "https://www.producthunt.com/products/agentrail",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "Agentmemory",
+              "url": "https://www.producthunt.com/products/agent-memory-dev",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "Wring",
+              "url": "https://www.producthunt.com/products/wring",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "Vivago Video Agent",
+              "url": "https://www.producthunt.com/products/viva",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "PH 的新产品虽然缺少票数，但方向已经和 GitHub 热榜汇合：本地控制、持久记忆和稳定创作流是今天的主线。"
+        }
+      ]
+    },
+    {
+      "id": "tech-stack",
+      "title": "技术选型",
+      "blocks": [
+        {
+          "id": "dev-tools",
+          "heading": "本周增长最快的开发者工具是什么？",
+          "summary_md": "开发者工具本周最强不是传统框架，而是 Agent 工具链。[CloakHQ/CloakBrowser](https://github.com/CloakHQ/CloakBrowser) 单周 8618 stars，定位是通过指纹补丁通过 bot detection 的 Stealth Chromium，可直接替代 Playwright；[rohitg00/agentmemory](https://github.com/rohitg00/agentmemory) 单周 6907 stars，解决 AI Coding Agent 的持久记忆；[decolua/9router](https://github.com/decolua/9router) 单周 4798 stars，做多供应商 Claude、GPT、Gemini 路由和 fallback。\n\n如果你在做 AI 开发者工具，今天的选型判断很明确：浏览器自动化要考虑反检测和真实会话环境，Agent 平台要把 memory 当成一等模块，模型接入层要避免绑定单一供应商。相比把这些能力藏在产品内部，更好的策略是先做可插拔 SDK 或 CLI，因为 Builder 用户现在愿意把底层积木接进自己的工作流。",
+          "items": [
+            {
+              "title": "CloakHQ/CloakBrowser",
+              "url": "https://github.com/CloakHQ/CloakBrowser",
+              "source": "GitHub",
+              "score": 8618
+            },
+            {
+              "title": "rohitg00/agentmemory",
+              "url": "https://github.com/rohitg00/agentmemory",
+              "source": "GitHub",
+              "score": 6907
+            },
+            {
+              "title": "decolua/9router",
+              "url": "https://github.com/decolua/9router",
+              "source": "GitHub",
+              "score": 4798
+            }
+          ],
+          "takeaway": "AI DevTool 的新默认栈正在变成 Browser Runtime + Memory + Model Router + Quality Gate。"
+        },
+        {
+          "id": "hf-models",
+          "heading": "HuggingFace 上最热的模型能做什么消费级产品？",
+          "summary_md": "[openbmb/MiniCPM-V-4.6](https://huggingface.co/openbmb/MiniCPM-V-4.6) 以 587 trending score、56518 downloads 领跑，标签包括 on-device、lightweight 和 image-text-to-text，适合做手机端截图理解、票据整理、学习拍照问答和隐私优先的本地视觉助手。[SulphurAI/Sulphur-2-base](https://huggingface.co/SulphurAI/Sulphur-2-base) 有 491 trending score、970124 downloads，指向 text-to-video；[Supertone/supertonic-3](https://huggingface.co/Supertone/supertonic-3) 有 274 trending score，ONNX、多语言、端侧 TTS，是播客、语音客服和教育陪练的低延迟底座。\n\n更早期但值得盯的是 [TencentARC/Pixal3D](https://huggingface.co/TencentARC/Pixal3D) 和对应 Space，模型 trending score 102、Space trending score 122。它把 image-to-3d 从专业建模流程拉向网页试玩，适合做电商 3D SKU、游戏道具草模和创作者素材库。今天的消费级机会不是「万能 AI 创作平台」，而是把某个模态的输入输出压到足够快、足够本地、足够稳定。",
+          "items": [
+            {
+              "title": "openbmb/MiniCPM-V-4.6",
+              "url": "https://huggingface.co/openbmb/MiniCPM-V-4.6",
+              "source": "HuggingFace",
+              "score": 587
+            },
+            {
+              "title": "SulphurAI/Sulphur-2-base",
+              "url": "https://huggingface.co/SulphurAI/Sulphur-2-base",
+              "source": "HuggingFace",
+              "score": 491
+            },
+            {
+              "title": "Supertone/supertonic-3",
+              "url": "https://huggingface.co/Supertone/supertonic-3",
+              "source": "HuggingFace",
+              "score": 274
+            },
+            {
+              "title": "TencentARC/Pixal3D",
+              "url": "https://huggingface.co/TencentARC/Pixal3D",
+              "source": "HuggingFace",
+              "score": 102
+            }
+          ],
+          "takeaway": "端侧多模态、端侧语音和轻量 3D 是比通用聊天更容易做出差异化的消费级入口。"
+        },
+        {
+          "id": "show-hn",
+          "heading": "Show HN 高关注项目用的什么技术栈？",
+          "summary_md": "今天 HN Show HN 原始数据为空，所以不能从 HN 侧判断高关注项目的技术栈。但 Product Hunt 与 GitHub 的替代信号显示，前端与本地工具仍然偏 TypeScript、Rust、Python 三分天下：Agentmemory、UI-TARS-desktop、react-doctor、supersplat、codegraph 都是 TypeScript；Bun、DeepSeek-TUI、RuView、openhuman 是 Rust；CloakBrowser、financial-services、AI-Trader 和 scientific-agent-skills 是 Python。\n\n这不是语言热度排行，而是产品形态的分工：TypeScript 更适合 IDE、Web UI、桌面 Agent 控制台和代码分析界面；Rust 更适合运行时、终端工具、本地性能和隐私计算；Python 仍然是模型实验、金融 Agent 和浏览器自动化的首选胶水层。做 Builder 工具时，别先纠结全栈统一，应该按执行路径分层选型。",
+          "items": [
+            {
+              "title": "bytedance/UI-TARS-desktop",
+              "url": "https://github.com/bytedance/UI-TARS-desktop",
+              "source": "GitHub",
+              "score": 3105
+            },
+            {
+              "title": "oven-sh/bun",
+              "url": "https://github.com/oven-sh/bun",
+              "source": "GitHub",
+              "score": 1328
+            },
+            {
+              "title": "K-Dense-AI/scientific-agent-skills",
+              "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+              "source": "GitHub",
+              "score": 673
+            }
+          ],
+          "takeaway": "AI Builder 产品的现实技术栈正在按职责拆分：TypeScript 做界面和编排，Rust 做本地性能，Python 做模型和自动化。"
+        }
+      ]
+    },
+    {
+      "id": "competition",
+      "title": "竞争情报",
+      "blocks": [
+        {
+          "id": "migrations",
+          "heading": "有没有「XX is dead」或迁移类文章？",
+          "summary_md": "今天没有 HN 迁移类文章数据，但 Google Trends 给了一个更弱、更早的替代信号：[cursor alternative](https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d) 下降 -43.2%，而 [codex cli](https://trends.google.com/trends/explore?q=codex+cli&date=now+7-d) 上升 +36.1%。这说明用户可能不再用「找 Cursor 替代品」这个泛化词搜索，而是在直接搜索具体 Agent CLI、远程控制和移动端形态。\n\n竞争判断是：IDE 级入口还重要，但开发者注意力正在外溢到终端、本地控制台、移动端监督和多代理编排。Product Hunt 的 AgentRail 与 Noeth，GitHub 的 DeepSeek-TUI、codegraph、9router 都在证明这一点。Cursor 们的竞争对手不一定是另一个编辑器，而可能是一个把现有编辑器、终端、浏览器和模型路由串起来的控制层。",
+          "items": [
+            {
+              "title": "codex cli",
+              "url": "https://trends.google.com/trends/explore?q=codex+cli&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 36
+            },
+            {
+              "title": "cursor alternative",
+              "url": "https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": -43
+            },
+            {
+              "title": "AgentRail",
+              "url": "https://www.producthunt.com/products/agentrail",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "AI Coding 的迁移焦点正在从换编辑器转向换控制层。"
+        },
+        {
+          "id": "pricing-revenue",
+          "heading": "独立开发者在讨论什么营收和定价策略？",
+          "summary_md": "今天没有 HN 收入讨论，但产品形态已经暴露出可行定价：9router 主打多模型供应商、自动 fallback 和省 token，适合按 seat + 用量节省抽成；Agentmemory 和 AgentRail 更适合按本地项目数、团队成员数和历史上下文容量收费；CloakBrowser 如果面向自动化团队，则可以按浏览器实例、并发 session 和检测通过率做商业版。\n\nProduct Hunt 里的 Files SDK、HasData、TrustClaw by Composio 也都更像 B2D 基础设施，不适合一次性买断。对于独立开发者来说，今天值得学习的模式是「开源核心吸引 Builder，托管控制台和团队治理收费」。这比单纯卖 AI credits 更稳，因为用户真正愿意长期付费的是可靠性、权限、审计、协作和减少失败重跑。",
+          "items": [
+            {
+              "title": "decolua/9router",
+              "url": "https://github.com/decolua/9router",
+              "source": "GitHub",
+              "score": 4798
+            },
+            {
+              "title": "AgentRail",
+              "url": "https://www.producthunt.com/products/agentrail",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "HasData",
+              "url": "https://www.producthunt.com/products/hasdata",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "Agent 基础设施的付费点应落在可靠性和团队控制，而不是再包装一层模型调用。"
+        }
+      ]
+    },
+    {
+      "id": "trends",
+      "title": "趋势判断",
+      "blocks": [
+        {
+          "id": "keywords",
+          "heading": "本周技术关键词频率有什么变化？",
+          "summary_md": "今天 Google Trends 的强上升词非常集中：[aitoearn](https://trends.google.com/trends/explore?q=aitoearn&date=now+7-d) 飙升 +999.0%，[cloakbrowser](https://trends.google.com/trends/explore?q=cloakbrowser&date=now+7-d) 上升 +905.2%，[agentmemory](https://trends.google.com/trends/explore?q=agentmemory&date=now+7-d) 上升 +63.3%，[codex cli](https://trends.google.com/trends/explore?q=codex+cli&date=now+7-d) 上升 +36.1%。这些词不是抽象概念，而是具体项目名和具体工具形态，说明搜索需求正在从「AI agent」这种大词转向可安装、可运行、可接入的产品。\n\nGitHub 数据也支持这个判断：AiToEarn 单周 4765 stars，CloakBrowser 单周 8618 stars，Agentmemory 单周 6907 stars，DeepSeek-TUI 单周 7543 stars。今天的趋势不是泛 AI，而是「拿来就能改变工作流的 AI 工具」。对 Builder 来说，命名、Demo、安装路径和首个成功任务比宏大叙事更重要。",
+          "items": [
+            {
+              "title": "aitoearn",
+              "url": "https://trends.google.com/trends/explore?q=aitoearn&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 999
+            },
+            {
+              "title": "cloakbrowser",
+              "url": "https://trends.google.com/trends/explore?q=cloakbrowser&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 905
+            },
+            {
+              "title": "agentmemory",
+              "url": "https://trends.google.com/trends/explore?q=agentmemory&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 63
+            }
+          ],
+          "takeaway": "搜索流量正在奖励具体可运行工具，而不是奖励抽象 AI 概念。"
+        },
+        {
+          "id": "cooling",
+          "heading": "哪些 AI 热词在降温？",
+          "summary_md": "降温词同样有价值：[ai agent](https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d) 下降 -4.5%，[open source alternative](https://trends.google.com/trends/explore?q=open+source+alternative&date=now+7-d) 下降 -7.1%，[9router](https://trends.google.com/trends/explore?q=9router&date=now+7-d) 下降 -9.6%，[cursor alternative](https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d) 下降 -43.2%。这不是说需求消失，而是泛词和替代品叙事开始变钝，用户更愿意搜具体项目、具体问题和具体控制方式。\n\n因此今天不建议再把产品定位写成「AI agent builder」或「Cursor alternative」。更有效的表达是直接指向任务结果：让 Claude Code 记住项目、让 Playwright 通过检测、让多个模型自动 fallback、让 Agent 写坏 React 时被拦住。市场还热，但描述方式需要从品类词切到痛点词。",
+          "items": [
+            {
+              "title": "ai agent",
+              "url": "https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": -4
+            },
+            {
+              "title": "open source alternative",
+              "url": "https://trends.google.com/trends/explore?q=open+source+alternative&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": -7
+            },
+            {
+              "title": "cursor alternative",
+              "url": "https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": -43
+            }
+          ],
+          "takeaway": "AI 大词在降温，任务型、项目型、可验证结果型表达在升温。"
+        },
+        {
+          "id": "new-radar",
+          "heading": "新词雷达：有哪些从零起飞的新概念？",
+          "summary_md": "最强的新词是 openhuman，来自 [agentmemory](https://trends.google.com/trends/explore?q=agentmemory&date=now+7-d) 的 rising 关联，同时在 breakouts 里达到 226100；这与 GitHub 日榜 [tinyhumansai/openhuman](https://github.com/tinyhumansai/openhuman) 单日口径 1549 stars 对上了。另一个弱信号是 [codex cli](https://trends.google.com/trends/explore?q=codex+cli&date=now+7-d) 关联的 codex cli remote control，breakout value 50，说明远程监督 Coding Agent 正在冒头。\n\n还要注意 [self hosted](https://trends.google.com/trends/explore?q=self+hosted&date=now+7-d) 的 rising 里有 convex self hosted 和 navidrome self hosted，整体 +5.8%。这和 TrustClaw、Open-Generative-AI、AgentRail 的自托管叙事一致：AI 工具越接近代码、金融、浏览器和个人数据，用户越在意本地化与可控性。新词背后的真正主题是私人 AI、远程控制和自托管 Agent。",
+          "items": [
+            {
+              "title": "openhuman",
+              "url": "https://trends.google.com/trends/explore?q=agentmemory&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 226100
+            },
+            {
+              "title": "codex cli remote control",
+              "url": "https://trends.google.com/trends/explore?q=codex+cli&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 50
+            },
+            {
+              "title": "self hosted",
+              "url": "https://trends.google.com/trends/explore?q=self+hosted&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 6
+            }
+          ],
+          "takeaway": "下一波弱信号不是更大的云端 Agent，而是私人化、远程控制和自托管。"
+        },
+        {
+          "id": "vc-radar",
+          "heading": "VC 和 YC 在关注什么主题？",
+          "summary_md": "综合今天的 GitHub、PH 和 HF，VC 雷达会盯三类：第一是 AI Agent 基础设施，包括记忆、浏览器、路由、权限、质量检查和本地控制台；第二是金融与交易 Agent，anthropics/financial-services 单周 6935 stars，AI-Trader 单周 2475 stars，Fere AI 直接把信号转成 crypto 和 Polymarket 交易；第三是端侧多模态创作，Supertone、MiniCPM-V、Pixal3D、Loova 和 Vivago 都在同一天形成信号。\n\n如果用 YC 视角筛选，最像早期创业机会的是「具体人群 + 高频任务 + 可衡量节省」。例如给小团队的 Agent 记忆和审计，给增长团队的反检测浏览器自动化，给短视频团队的多语言端侧配音，给电商的图片转 3D SKU。泛平台叙事会被质疑，垂直工作流反而更容易解释 ROI。",
+          "items": [
+            {
+              "title": "anthropics/financial-services",
+              "url": "https://github.com/anthropics/financial-services",
+              "source": "GitHub",
+              "score": 6935
+            },
+            {
+              "title": "HKUDS/AI-Trader",
+              "url": "https://github.com/HKUDS/AI-Trader",
+              "source": "GitHub",
+              "score": 2475
+            },
+            {
+              "title": "Fere AI",
+              "url": "https://www.producthunt.com/products/fere-ai",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "投资人会更喜欢能把 Agent 落到高频、可审计、可量化 ROI 的垂直工作流。"
+        }
+      ]
+    },
+    {
+      "id": "actions",
+      "title": "行动触发",
+      "blocks": [
+        {
+          "id": "weekend-build",
+          "heading": "今天 2 小时和一个周末分别做什么？",
+          "summary_md": "2 小时版本：做一个「Agent 输出质量守门员」小工具。输入一个 GitHub repo 和最近一次 AI 生成的 diff，先只检查 React 组件里的明显问题：未使用 state、无障碍属性缺失、过大的组件、危险的 useEffect、重复样式。参考 [millionco/react-doctor](https://github.com/millionco/react-doctor) 单周 2643 stars 的痛点，不要做完整平台，先做一个 GitHub Action 或 CLI。\n\n周末版本：做一个「Agent Memory Starter Kit」。把 [rohitg00/agentmemory](https://github.com/rohitg00/agentmemory)、本地向量索引、项目规则文件和 PR 摘要串起来，让 Claude Code、Codex 或其他 coding agent 在同一个项目里记住架构决策、测试命令和常见坑。交付形态是 `npx init-agent-memory`，第一屏只承诺一件事：下次开工不用重新解释项目。",
+          "items": [
+            {
+              "title": "millionco/react-doctor",
+              "url": "https://github.com/millionco/react-doctor",
+              "source": "GitHub",
+              "score": 2643
+            },
+            {
+              "title": "rohitg00/agentmemory",
+              "url": "https://github.com/rohitg00/agentmemory",
+              "source": "GitHub",
+              "score": 6907
+            },
+            {
+              "title": "colbymchenry/codegraph",
+              "url": "https://github.com/colbymchenry/codegraph",
+              "source": "GitHub",
+              "score": 416
+            }
+          ],
+          "takeaway": "今天最适合动手的是小而硬的 Agent 配套工具：质量检查或项目记忆。"
+        },
+        {
+          "id": "pricing-models",
+          "heading": "值得学习的定价和变现模式有哪些？",
+          "summary_md": "今天值得学习三种模式。第一是「开源核心 + 托管团队版」：Agentmemory、9router、react-doctor 都适合免费 CLI 吸引个人开发者，再对团队记忆库、审计日志、共享规则和管理后台收费。第二是「按节省计费」：9router 的卖点天然是 fallback 与 token 成本下降，可以把账单页做成节省报告，而不是只卖调用量。\n\n第三是「端侧模型 + 专业工作流」：Supertone/supertonic-3、MiniCPM-V-4.6、Pixal3D 这类模型可以做本地隐私版产品，定价不靠无限生成，而靠离线包、商用授权、批处理、品牌音色或素材管理。尤其对语音、金融、代码、浏览器自动化这几类敏感场景，用户愿意为可控性付费。",
+          "items": [
+            {
+              "title": "decolua/9router",
+              "url": "https://github.com/decolua/9router",
+              "source": "GitHub",
+              "score": 4798
+            },
+            {
+              "title": "Supertone/supertonic-3",
+              "url": "https://huggingface.co/Supertone/supertonic-3",
+              "source": "HuggingFace",
+              "score": 274
+            },
+            {
+              "title": "openbmb/MiniCPM-V-4.6",
+              "url": "https://huggingface.co/openbmb/MiniCPM-V-4.6",
+              "source": "HuggingFace",
+              "score": 587
+            }
+          ],
+          "takeaway": "AI 工具的好定价不是卖更多 token，而是卖更少失败、更少重跑和更强控制。"
+        },
+        {
+          "id": "counterintuitive",
+          "heading": "今天最反直觉的发现是什么？",
+          "summary_md": "最反直觉的是：在 AI Agent 继续火的同时，[ai agent](https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d) 这个关键词本身下降 -4.5%，[cursor alternative](https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d) 更是下降 -43.2%。表面看像降温，实际是用户已经越过概念教育阶段，开始搜索具体项目名：[cloakbrowser](https://trends.google.com/trends/explore?q=cloakbrowser&date=now+7-d) +905.2%，[agentmemory](https://trends.google.com/trends/explore?q=agentmemory&date=now+7-d) +63.3%，[codex cli](https://trends.google.com/trends/explore?q=codex+cli&date=now+7-d) +36.1%。\n\n这对创业者的启发很直接：不要把首页第一句话写成「AI Agent for X」，也不要只讲自己是某个大工具的替代品。今天真正有效的定位是把失败场景说清楚，例如「让你的 Agent 记住项目」、「让浏览器自动化通过检测」、「让 AI 写坏 React 时立刻失败」。市场并没有不需要 Agent，只是不再为模糊的 Agent 概念买单。",
+          "items": [
+            {
+              "title": "ai agent",
+              "url": "https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": -4
+            },
+            {
+              "title": "cloakbrowser",
+              "url": "https://trends.google.com/trends/explore?q=cloakbrowser&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 905
+            },
+            {
+              "title": "codex cli",
+              "url": "https://trends.google.com/trends/explore?q=codex+cli&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 36
+            }
+          ],
+          "takeaway": "AI Agent 没降温，降温的是空泛命名。"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2026-05-17T09:17:30+00:00",
+  "reddit_highlights": [
+    {
+      "heading": "今天有哪些 solo-founder 产品发布？",
+      "body_md": "**🔍 信号**：今天的小型新发布包括 [Zerostack](https://crates.io/crates/zerostack/1.0.0)，有 90 条评论；[Epiq](https://ljtn.github.io/epiq/)，有 45 条评论；[Wring](https://www.producthunt.com/products/wring)，获得 128 票；[Burn After](https://www.producthunt.com/products/burn-after)，有 7 条评论；以及面向离线背景移除的 [LocalBG](https://www.reddit.com/r/SideProject/comments/1te0sif/built_a_selfhosted_background_removal_tool_for/)。\n\n**白话说：** 小产品只要把一个痛苦任务说清楚，往往比需要用户自己解码的宽泛 AI 承诺更有吸引力。\n\n今天最好的发布面，不是单个爆款，而是一组让`工作流可检查`的窄产品。[Zerostack](https://crates.io/crates/zerostack/1.0.0) 自称是用 Rust 写的 Unix 风格编码 `agent`；有用的角度不是“又一个 agent”，而是一个人们能理解的本地命令式界面。[Epiq](https://ljtn.github.io/epiq/) 把 Git 变成 issue tracker 的 `TUI`，也符合这个模式：开发者希望工作历史贴近 repo，而不是再进一个托管 dashboard。\n\nProduct Hunt 上，[Wring](https://www.producthunt.com/products/wring) 很小但清楚：从菜单栏拿到开发者工具。[Burn After](https://www.producthunt.com/products/burn-after) 提供打开一次后就消失的文件链接，是直接的隐私任务。Reddit 上的 [LocalBG](https://www.reddit.com/r/SideProject/comments/1te0sif/built_a_selfhosted_background_removal_tool_for/) 把潜台词说得很明白：视频、GIF 和图片背景移除都在本地运行，无需上传，也没有 `credits`。\n\n反复出现的发布教训是：“给负责人看见什么变了。” HN Show 列表里仍然有 [Needle](https://github.com/cactus-compute/needle) 这样的 AI 演示，但它已经是近期报告的中心。今天更新鲜的判断是，founder 正在包装`控制界面`：本地文件、临时链接、repo 原生 issue 和可见的 `agent` 命令。\n\n**关键判断**：交付一个带具体产物、可检查的任务；“改了什么、在哪里、什么会消失”比泛泛的助手更好卖。\n\n**反向视角**：几个发布的票数很小，所以应把它们当作模式证据，而不是市场规模证明。\n\n---",
+      "source_url": "https://raw.githubusercontent.com/BuilderPulse/BuilderPulse/main/zh/2026/2026-05-17.md"
+    },
+    {
+      "heading": "Indie 开发者在讨论哪些收入和定价问题？",
+      "body_md": "**🔍 信号**：founder 的钱相关讨论包括一个 Reddit SaaS 声称 15 天做到 $1,600 MRR，另一个称 30 天做到 $1.3K，[SubChecks](https://www.reddit.com/r/SideProject/comments/1tcmppj/i_made_usd_1000_from_a_useless_app_in_a_saturated/) 赚到 $1,000，[SaaSOffers.tech](https://www.indiehackers.com/product/saasoffers?post=HcYAcLDvmnMJkOT32zcn) 达到 $3K MRR，以及 Indie Hackers 上围绕 $50K/month、$1 million ARR 和 $3M/year 的帖子。\n\n**白话说：** 收入帖反复奖励的是分发和证明，而不是聪明的产品品类。\n\nReddit 的收入故事噪音很大，但有用。$1,600 MRR 帖声称有 100,000 次浏览和辞职紧迫感；数字要谨慎看，但分发声明重要。$1.3K in 30 days 帖说最近 $1,000 是六天内来的，并归因于 Reddit、LinkedIn DM、冷邮件、Twitter 回复，以及一个 document-to-video 产品带来的 inbound。[SubChecks](https://www.reddit.com/r/SideProject/comments/1tcmppj/i_made_usd_1000_from_a_useless_app_in_a_saturated/) 更接地气：一个处于饱和市场的订阅 tracker，通过手动触达抱怨忘记续费的人做起来。\n\nIndie Hackers 加了更成熟的一层。[SaaSOffers.tech](https://www.indiehackers.com/product/saasoffers?post=HcYAcLDvmnMJkOT32zcn) 仍在 `$3K MRR`，有 63 条评论。Achiv 说它通过 5 个 Reddit 帖，5 天拿到 300 个用户。一篇 featured story 讲 founder 离开一家 VC-backed 公司，10 个月 bootstrapping 到 `$1 million ARR`。\n\n共同的定价教训不是“涨价”。而是具体`证明产物`或可重复渠道，比没有买家入口的产品 polish 更强。\n\n**关键判断**：先证明，再定价：展示 before/after 产物，然后围绕同一个任务卖一次性凭证或持续监控。\n\n**反向视角**：founder 收入帖往往有幸存者偏差，所以验证时要盯获客渠道细节，而不是只看截图。\n\n---",
+      "source_url": "https://raw.githubusercontent.com/BuilderPulse/BuilderPulse/main/zh/2026/2026-05-17.md"
+    },
+    {
+      "heading": "哪些定价和变现模型值得研究？",
+      "body_md": "**🔍 信号**：今天值得研究的包括 Wispr Flow 在 $15/month 上遇到的抗拒、[SubChecks](https://www.reddit.com/r/SideProject/comments/1tcmppj/i_made_usd_1000_from_a_useless_app_in_a_saturated/) 赚到 $1,000、一个 document-to-video SaaS 声称 30 天做到 $1.3K、[SaaSOffers.tech](https://www.indiehackers.com/product/saasoffers?post=HcYAcLDvmnMJkOT32zcn) 达到 $3K MRR，以及 Indie Hackers 上 $50K/month、$1 million ARR 和 $3M/year 的故事。\n\n**白话说：** 买家最快掏钱的时候，通常是产品替代了一个看得见的杂活，或创造了一个可重复渠道。\n\nWispr Flow 故事虽然是抱怨，但也是定价课。一位 Reddit founder 拒绝 `$15/month` 的 voice-to-text 订阅，并重做了一个本地 macOS 版本。这说明，当买家把任务看成个人工具时，$15/month 可能太高，但它也给本地替代品定义了价格上限。\n\n[SubChecks](https://www.reddit.com/r/SideProject/comments/1tcmppj/i_made_usd_1000_from_a_useless_app_in_a_saturated/) 更有启发性，因为 founder 说市场饱和，第一版是手工的。胜利来自直接触达那些抱怨忘记续费的人。这支持一种 `receipt-style model`：先证明避免了一笔扣费，再要求为持续监控付费。\n\n声称 30 天做到 $1.3K 的 document-to-video SaaS 展示了另一种模式：从既有内容生成商业产物。Indie Hackers 的 $50K/month creator partnership 和 $3M/year portfolio 故事增加了分发教训：当渠道连接到人们能快速理解的产品时，渠道就会变成资产。\n\n**关键判断**：研究那些重复杂活上的定价；一次性 audit 可以从 $49 起步，但持续检查需要一个月度风险或渠道来支撑 $19/month。\n\n**反向视角**：收入轶事很容易夸大，所以应把它们用来设计定价测试，而不是估计市场规模。\n\n---",
+      "source_url": "https://raw.githubusercontent.com/BuilderPulse/BuilderPulse/main/zh/2026/2026-05-17.md"
+    }
+  ]
+}
