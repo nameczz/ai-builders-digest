@@ -1,0 +1,148 @@
+{
+  "date": "2026-05-18",
+  "items": [
+    {
+      "id": "2026-05-18-1",
+      "title": "Excel 正在变成 AI 操作台",
+      "angle": "从 Swyx 的 agentic Excel 判断切入：下一代办公软件不是加侧边栏，而是把 agent 面板变成主界面。",
+      "opening": "Excel 可能不是被 AI 淘汰，而是被 AI 重新占领。Swyx 说得很直白：所谓 agentic Excel，本质就是把侧边栏里的智能体面板放大成主界面。",
+      "story_hook": {
+        "challenge": "传统办公软件的核心是人操作表格，agentic UI 的核心是人监督任务流。",
+        "twist": "真正被颠覆的不是 Excel，而是所有只把 AI 当插件的产品经理。"
+      },
+      "takeaway": "做 AI 产品时，不要只问能不能接入模型，要重新设计主工作区、任务状态和人工接管路径。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Swyx 关于 agentic Excel 的推文",
+          "url": "https://x.com/swyx/status/2056201387172843800"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt M1 by Montage：Agentic UI",
+          "url": "https://www.producthunt.com/products/montage-3"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt AnyFrame：AI agents 沙箱",
+          "url": "https://www.producthunt.com/products/anyframe-2"
+        }
+      ]
+    },
+    {
+      "id": "2026-05-18-2",
+      "title": "别再演 eval 剧场了",
+      "angle": "用 Peter Yang 的观点连接 agentmemory 热度：AI 越聪明，越需要从真实用户对话里长出评估体系。",
+      "opening": "很多团队的 AI 评估看起来很专业，但可能完全没有信号。Peter Yang 的判断是：别在通用学术基准上演 eval 剧场，真正的评估要从客户和模型的实际交互里长出来。",
+      "story_hook": {
+        "challenge": "模型能力提升后，旧 benchmark 很容易变成自我安慰。",
+        "twist": "评估的关键不再是多跑几个榜单，而是把用户反馈、失败案例和长期记忆变成产品资产。"
+      },
+      "takeaway": "团队可以立刻建立真实对话样本库，用 Claude 或内部工具归纳失败主题，再把高频失败变成回归测试。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Peter Yang 关于从真实用户反馈做 eval 的推文",
+          "url": "https://x.com/petergyang/status/2056178053848703019"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub rohitg00/agentmemory 一周新增 7103 stars",
+          "url": "https://github.com/rohitg00/agentmemory"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub mattpocock/skills 一周新增 19679 stars",
+          "url": "https://github.com/mattpocock/skills"
+        }
+      ]
+    },
+    {
+      "id": "2026-05-18-3",
+      "title": "CS 出路不只在大厂",
+      "angle": "从 Aaron Levie 的两条判断切入：AI 让代码变充裕后，稀缺岗位会转向各行业的 agentic 系统落地。",
+      "opening": "如果 AI 真的让写代码变得更便宜，CS 学生的终点反而不该更窄。Aaron Levie 今天连续提醒：未来机会不只是进科技公司写用户软件，而是去每个行业搭 agentic 系统。",
+      "story_hook": {
+        "challenge": "高校和企业还在用旧岗位定义软件人才，但业务现场已经需要懂 AI、懂流程、懂评估的人。",
+        "twist": "AI 没有让基本功失效，反而让能驾驭、评估、修正 AI 的专家更值钱。"
+      },
+      "takeaway": "开发者应把简历从“会写某技术栈”升级为“能把 AI 工作流落到某个行业流程里”。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Aaron Levie 关于 CS 人才去各行业落地 agentic 系统的推文",
+          "url": "https://x.com/levie/status/2056219645796090197"
+        },
+        {
+          "tag": "builders",
+          "ref": "Aaron Levie 关于 AI 时代不能放弃基本功的推文",
+          "url": "https://x.com/levie/status/2056051851439857933"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub UI-TARS-desktop 一周新增 2563 stars",
+          "url": "https://github.com/bytedance/UI-TARS-desktop"
+        }
+      ]
+    },
+    {
+      "id": "2026-05-18-4",
+      "title": "浏览器成了 agent 战场",
+      "angle": "把 Garry Tan 的“AI-人-计算机共生团队”与 CloakBrowser 热度放在一起看：agent 能不能工作，先看能不能稳定进网页。",
+      "opening": "今天最硬的基础设施信号不是新模型，而是一个浏览器项目一周涨了 9007 stars。CloakBrowser 的爆火说明，agent 真要干活，第一关不是推理，而是能不能稳定访问真实网页。",
+      "story_hook": {
+        "challenge": "网页登录、反爬、会话状态和 UI 变化，会让很多 agent 在真实任务里失灵。",
+        "twist": "所谓 AI 自动化的护城河，可能藏在浏览器稳定性、反检测和沙箱隔离里。"
+      },
+      "takeaway": "做 agent 产品时，应优先验证浏览器执行链路：登录、重试、截图、隔离环境、失败恢复，而不是只优化 prompt。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Garry Tan 关于 AI-人-计算机共生团队的推文",
+          "url": "https://x.com/garrytan/status/2056123737544757733"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub CloakHQ/CloakBrowser 一周新增 9007 stars",
+          "url": "https://github.com/CloakHQ/CloakBrowser"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Google Trends cloakbrowser 上升 201.0%",
+          "url": "https://trends.google.com/trends/explore?q=cloakbrowser&date=now+7-d"
+        }
+      ]
+    },
+    {
+      "id": "2026-05-18-5",
+      "title": "做出来不等于有人看见",
+      "angle": "用 Zara Zhang 的注意力判断连接 Reddit 和 Product Hunt 的赚钱帖：AI 降低构建门槛后，分发才是早期产品的真实难题。",
+      "opening": "现在最容易被 AI builder 低估的，不是把产品做出来，而是让别人注意到你。Zara Zhang 今天说得很残酷：构建难度被高估，争夺注意力的难度被低估。",
+      "story_hook": {
+        "challenge": "AI 让 MVP 更快出现，但也让同质化产品更快淹没彼此。",
+        "twist": "赚钱帖反复证明的不是技术新奇，而是分发、重复痛点和可证明结果。"
+      },
+      "takeaway": "开工前先写清楚渠道、首批用户和收费单位，再决定功能；否则 AI 只会帮你更快做出没人看的东西。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Zara Zhang 关于构建与注意力难度的推文",
+          "url": "https://x.com/zarazhangrui/status/2056132881630826952"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Reddit SaaS 15 天做到 1600 美元 MRR 讨论",
+          "url": "https://www.reddit.com/r/SideProject/"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt LandingHero AI：网站 24/7 销售员",
+          "url": "https://www.producthunt.com/products/landinghero-ai-2"
+        }
+      ]
+    }
+  ],
+  "notes": "今日主线很清楚：agent 选题应少写模型发布，多写运行环境、评估、浏览器、记忆和分发。素材里独立开发者收入案例偏嘈杂，引用时适合当趋势旁证，不宜当核心事实。",
+  "generated_at": "2026-05-18T09:19:16+00:00",
+  "model": "gpt-5.5"
+}
