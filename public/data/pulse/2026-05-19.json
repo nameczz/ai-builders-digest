@@ -1,0 +1,99 @@
+{
+  "date": "2026-05-19",
+  "top3": [],
+  "intro": "（无 LLM 编辑模式：以下为原始数据归档，建议安装 codex CLI 重新生成。）",
+  "sections": [
+    {
+      "id": "discovery",
+      "title": "发现机会",
+      "blocks": [
+        {
+          "id": "indie-products",
+          "heading": "今天有哪些独立开发者的新产品？",
+          "summary_md": "（自动归档模式）今日 Show HN 与 Product Hunt 上线的独立开发者产品列表。",
+          "items": [
+            {
+              "title": "calog.cc",
+              "url": "https://www.producthunt.com/products/calog-cc",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Starchild-1 by Odyssey",
+              "url": "https://www.producthunt.com/products/odysseyml-starchild-1-model",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Agora-1 by Odyssey",
+              "url": "https://www.producthunt.com/products/odyssey-5",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "CaseGap AI",
+              "url": "https://www.producthunt.com/products/casegap-ai",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Thinnest AI",
+              "url": "https://www.producthunt.com/products/thinnest-ai",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Motion",
+              "url": "https://www.producthunt.com/products/motion-8",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Monocle 3.5 for macOS",
+              "url": "https://www.producthunt.com/products/monocle-clear-workspace-clear-mind",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "CtrlOps",
+              "url": "https://www.producthunt.com/products/ctrlops",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Lyricly",
+              "url": "https://www.producthunt.com/products/lyricly-your-music-everywhere-on-mac",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Vocabi",
+              "url": "https://www.producthunt.com/products/vocabi",
+              "source": "ProductHunt"
+            }
+          ],
+          "takeaway": ""
+        }
+      ]
+    },
+    {
+      "id": "tech-stack",
+      "title": "技术选型",
+      "blocks": []
+    },
+    {
+      "id": "competition",
+      "title": "竞争情报",
+      "blocks": []
+    },
+    {
+      "id": "trends",
+      "title": "趋势判断",
+      "blocks": []
+    },
+    {
+      "id": "actions",
+      "title": "行动触发",
+      "blocks": []
+    }
+  ],
+  "generated_at": "2026-05-19T09:28:50+00:00",
+  "reddit_highlights": [
+    {
+      "heading": "今天有哪些 solo-founder 产品发布？",
+      "body_md": "**🔍 信号**：[Files.md](https://github.com/zakirullin/files.md) 以 293 条讨论领跑 Show HN，随后是 [Auto-identity-remove](https://github.com/stephenlthorn/auto-identity-remove) 的 130 条讨论，以及 [InsForge](https://github.com/InsForge/InsForge)、[Beacon](https://github.com/Asymptote-Labs/agent-beacon)、[Handoff](https://github.com/TStansel/handoff) 等更小的发布。\n\n**白话说：** 小产品今天赢在把所有权、隐私或交接结果做得可见，而不是泛泛承诺一个“大而全助手”。\n\n最强的新发布是 `Files.md`，因为它正好卡在笔记应用、AI 写出来的工作成果和文件所有权的交叉点。@zakirullin 写道，用户应该同时拥有数据和能打开数据的软件；这句话解释了为什么讨论不只是 “another Obsidian clone”。评论者马上比较了纯 `Markdown`、同步、插件、native app，以及“第二大脑是否真的让第一大脑更聪明”。这是一个真实用户类别：工作已经沉在笔记系统里，并希望降低托管风险的人。\n\n[Auto-identity-remove](https://github.com/stephenlthorn/auto-identity-remove) 更凌乱，但商业上更尖锐。作者声称可以按月自动处理 500+ data brokers。高赞评论不是简单夸奖：@pards 描述了 404 和人工介入，@Waffle2180 要求有 dry-run audit mode，@amelius 担心工具可能把个人数据发给数百个 broker。这正是付费产品的形状：`执行器`本身不够，买方需要证明提交了什么、发到哪里、哪里失败。\n\n排名更低的发布也显示同样模式。[InsForge](https://github.com/InsForge/InsForge) 是给 coding agents 用的开源 Heroku，[Beacon](https://github.com/Asymptote-Labs/agent-beacon) 卖本地 AI agent visibility，[Handoff](https://github.com/TStansel/handoff) 在 agents token 用尽时保留 coding context。Reddit 的 [LocalBG](https://www.reddit.com/r/SideProject/comments/1te0sif/built_a_selfhosted_background_removal_tool_for/) 把媒体处理留在离线环境，而 [Timezoners](https://www.reddit.com/r/SideProject/comments/1tcsdb1/i_built_a_simple_timezone_overlap_board_for/) 完全避免账户体系。\n\n**关键判断**：先发布一个可见的`控制界面`：导出证明、opt-out 审计、本地处理、agent handoff 或无账户协作，都比又一个模糊 AI productivity app 更强。\n\n**反向视角**：`Files.md` 和 `Auto-identity-remove` 在让付费用户放心托付重要数据之前，都还需要大量打磨。\n\n---",
+      "source_url": "https://raw.githubusercontent.com/BuilderPulse/BuilderPulse/main/zh/2026/2026-05-19.md"
+    }
+  ]
+}
