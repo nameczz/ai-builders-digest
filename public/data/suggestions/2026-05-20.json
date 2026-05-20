@@ -1,0 +1,158 @@
+{
+  "date": "2026-05-20",
+  "items": [
+    {
+      "id": "2026-05-20-1",
+      "title": "Agent 越强，越要被关起来",
+      "angle": "从 Claude 自托管沙箱到 Runtime、Hiro，看企业真正买的不是智能，而是边界、权限和审计。",
+      "opening": "今天最反直觉的信号是：AI agent 不是因为更自由而进企业，而是因为终于能被关进笼子。Anthropic 把工具执行、敏感文件和私有 MCP 服务留在客户边界内，Product Hunt 上的新产品也都在卖安全、沙箱和合规。",
+      "story_hook": {
+        "challenge": "企业想用 agent 干真活，但最怕代码、内网和权限被模型供应商或外部运行环境吞掉。",
+        "twist": "agent 基建的卖点正在从“能做什么”变成“不能越界做什么”。"
+      },
+      "takeaway": "判断企业 agent 产品时，优先看沙箱、权限、审计、私有部署和网络策略，而不是只看模型能力。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Claude Blog：Claude Managed Agents 推出 self-hosted sandboxes 和 MCP tunnels",
+          "url": "https://claude.com/blog/claude-managed-agents-updates"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt：Runtime 面向团队提供 sandboxed coding agents",
+          "url": "https://www.producthunt.com/products/runtime"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt：Hiro 把安全团队包装成 agent",
+          "url": "https://www.producthunt.com/products/hiro-2"
+        }
+      ]
+    },
+    {
+      "id": "2026-05-20-2",
+      "title": "Token KPI 会把团队带偏",
+      "angle": "把 Sam Altman 的 token 投资、Garry Tan 的 tokenmaxxing 吐槽和 CIO 成本焦虑放在一起，看 AI 时代的新预算陷阱。",
+      "opening": "OpenAI 给本期 YC 每家公司开出 200 万美元 token 投资，听起来像创业者的燃料补给。但另一边，Garry Tan 已经在吐槽 tokenmaxxing：当公司把 AI 消耗量做成排行榜，工程师会学会烧钱刷分，而不是交付结果。",
+      "story_hook": {
+        "challenge": "模型越强，团队越容易把 token 消耗误当成生产力指标。",
+        "twist": "真正成熟的 AI 公司不会鼓励多烧 token，而会把 token 变成可预算、可限额、可归因的资源。"
+      },
+      "takeaway": "团队引入 AI 时，应建立按任务结果、成本归因和权限分级的评估体系，不要用 token 用量当生产力排行榜。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Sam Altman：OpenAI 给 YC 公司提供 200 万美元 token 投资",
+          "url": "https://x.com/sama/status/2056933166875857290"
+        },
+        {
+          "tag": "builders",
+          "ref": "Garry Tan：tokenmaxxing 会让工程师烧钱刷分",
+          "url": "https://x.com/garrytan/status/2056931642967798226"
+        },
+        {
+          "tag": "builders",
+          "ref": "Aaron Levie：财富 500 强 CIO 正为 AI token 成本争论",
+          "url": "https://x.com/levie/status/2056965292753146019"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Pulse：agent 工具定价应从 tokens 转向 seat、风险、执行量和合规结果",
+          "url": "https://www.producthunt.com/products/runtime"
+        }
+      ]
+    },
+    {
+      "id": "2026-05-20-3",
+      "title": "记忆成了 Agent 新入口",
+      "angle": "从 Garry Tan 提到 GBrain，到 agentmemory、codegraph 爆火，看 AI 编程工具从编辑器竞争转向上下文竞争。",
+      "opening": "微软 2003 年没做成的 WinFS，Garry Tan 说可能被 LLM 补上了，名字换成了 GBrain。更有意思的是，GitHub 上 agentmemory 本周涨了 8390 stars，codegraph 涨了 4650 stars，大家抢的不是聊天框，而是“让 agent 记住项目”的入口。",
+      "story_hook": {
+        "challenge": "AI coding agent 写代码不难，难的是每次都重新理解代码库、文档、决策和历史坑。",
+        "twist": "下一个 AI 编程产品未必是更强 IDE，而可能是团队级记忆层。"
+      },
+      "takeaway": "开发者工具创业可以从 repo 上下文包、团队记忆同步、敏感信息过滤和审计回放切入，而不是再做一个 Cursor 替代品。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Garry Tan：WinFS 可能被 LLM 补上最后一块拼图，现在叫 GBrain",
+          "url": "https://x.com/garrytan/status/2056967665001082919"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub：rohitg00/agentmemory 本周 +8390 stars",
+          "url": "https://github.com/rohitg00/agentmemory"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub：colbymchenry/codegraph 本周 +4650 stars",
+          "url": "https://github.com/colbymchenry/codegraph"
+        }
+      ]
+    },
+    {
+      "id": "2026-05-20-4",
+      "title": "别只防模型，要防平台断电",
+      "angle": "用 Railway 被 Google Cloud 阻断和 GitHub 内部仓库未授权访问，反推 AI builder 必须补上的供应链逃生能力。",
+      "opening": "今天 HN 上最热的两件事都不是新功能：Railway 被 Google Cloud 阻断，GitHub 又在调查内部仓库未授权访问。对 builder 来说，这比任何发布会都现实：你的产品可能没有 bug，但上游平台一次动作就能让你停摆。",
+      "story_hook": {
+        "challenge": "AI 产品越来越依赖云、代码托管、部署平台和密钥系统，任何单点故障都会放大成业务事故。",
+        "twist": "最值得做的开发者工具，可能不是替代 GitHub 或换云，而是跨平台备份、密钥轮换和事故恢复面板。"
+      },
+      "takeaway": "每个 AI builder 都该检查代码镜像、密钥清单、备份恢复、依赖缓存和供应链告警是否已经产品化。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Claude Blog：企业 agent 强调工具执行和敏感资源留在客户边界内",
+          "url": "https://claude.com/blog/claude-managed-agents-updates"
+        },
+        {
+          "tag": "pulse",
+          "ref": "HN：Railway 被 Google Cloud 阻断事故报告，474 points、301 comments",
+          "url": "https://blog.railway.com/p/incident-report-may-19-2026-gcp-account-outage"
+        },
+        {
+          "tag": "pulse",
+          "ref": "HN：GitHub 调查内部仓库未授权访问，422 points、221 comments",
+          "url": "https://twitter.com/github/status/2056884788179726685"
+        }
+      ]
+    },
+    {
+      "id": "2026-05-20-5",
+      "title": "Google 没落后，只是换战场",
+      "angle": "从 Gemini 3.5 Flash 的企业文档评测跃升，到 Spark 和 Genie，把 Google 的反击看成一次入口战争。",
+      "opening": "今天不少人还在问 Google 的 AI 到底追上没有，但 Matt Turck 已经换了说法：Gemini 3.5 Flash 在多模态、agent coding 和真实任务上全线冲高。Aaron Levie 也给了更具体的信号：Box AI 复杂知识工作评测里，新 Flash 比旧版高了 12 个百分点。",
+      "story_hook": {
+        "challenge": "外界习惯用聊天模型榜单判断 Google 是否落后，但企业真正关心复杂文档、工作流和个人代理入口。",
+        "twist": "Google 的优势未必是单点模型分数，而是把模型塞进文档、浏览器、地图、视频和个人数字生活。"
+      },
+      "takeaway": "评估大模型公司竞争力时，不只看基准榜，还要看它能否把模型接入高频入口和高价值工作流。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Matt Turck：Gemini 3.5 Flash 在多模态、agent coding 和真实任务上冲高",
+          "url": "https://x.com/mattturck/status/2056834038946775343"
+        },
+        {
+          "tag": "builders",
+          "ref": "Aaron Levie：Gemini 3.5 Flash 在 Box AI 复杂知识工作评测里跃升 12 个百分点",
+          "url": "https://x.com/levie/status/2056804573449474527"
+        },
+        {
+          "tag": "builders",
+          "ref": "Josh Woodward：Google 发布 Gemini Spark，面向个人 AI 代理",
+          "url": "https://x.com/joshwoodward/status/2056873495116845485"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Pulse：HuggingFace 热榜显示消费级 AI 入口正从聊天框扩展到视频、语音、3D",
+          "url": "https://huggingface.co/SulphurAI/Sulphur-2-base"
+        }
+      ]
+    }
+  ],
+  "notes": "今日主线很集中：agent 进入真实工作流后，内容选题不要再写泛模型进展，优先写成本、边界、记忆、平台风险和入口迁移。",
+  "generated_at": "2026-05-20T09:22:33+00:00",
+  "model": "gpt-5.5"
+}
