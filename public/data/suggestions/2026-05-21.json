@@ -1,0 +1,158 @@
+{
+  "date": "2026-05-21",
+  "items": [
+    {
+      "id": "2026-05-21-1",
+      "title": "FDE 反而更值钱了",
+      "angle": "从“agent 会消灭实施”反过来看：模型越快升级，越需要懂业务现场的人反复拆装工作流。",
+      "opening": "很多公司以为上 AI agent 就像当年上云：换一套技术栈，剩下交给平台。但 Aaron Levie 的判断正相反，agent 落地同时改技术系统和人的工作流，而且每次模型升级都会让旧方案过时。",
+      "story_hook": {
+        "challenge": "企业想买一个通用 agent 解决问题，但真实落地卡在权限、流程、人的习惯和旧系统边界上。",
+        "twist": "最不会被替代的，可能不是写模型的人，而是见过上百次失败实施、知道哪些脚手架该拆的人。"
+      },
+      "takeaway": "做 agent 产品时，别只写能力清单；把 onboarding、权限映射、流程重构和版本迁移做成产品的一部分。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Aaron Levie 关于 FDE 不会很快消失的推文",
+          "url": "https://x.com/levie/status/2057315272156135501"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Google Antigravity 2.0 抢多 agent 桌面编排入口",
+          "url": "https://www.producthunt.com/products/google-antigravity"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Mixpanel Headless 给分析数据开放程序化访问",
+          "url": "https://www.producthunt.com/products/mixpanel"
+        }
+      ]
+    },
+    {
+      "id": "2026-05-21-2",
+      "title": "提示词死了，技能包火了",
+      "angle": "从 GitHub 爆款看 agent 时代的新资产：不是一句 prompt，而是可复用、可测试、可升级的工作方式。",
+      "opening": "今天最反直觉的热榜不是模型，而是 skills。mattpocock/skills 一周新增 18,368 stars，obra/superpowers 一周新增 10,851 stars，开发者正在用 star 投票：一次性提示词不够用了。",
+      "story_hook": {
+        "challenge": "AI 原生团队里，个人贡献者要像经理一样指挥代理，经理也要像一线建造者一样亲自动手。",
+        "twist": "真正升值的不是“会写提示词”，而是能把工作标准、验收流程和领域经验封装成 agent 可执行的技能包。"
+      },
+      "takeaway": "团队可以立刻盘点重复工作，把 prompt 升级成带输入、步骤、验收标准和失败处理的技能文件。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Zara Zhang 关于 AI 原生团队角色变化的推文",
+          "url": "https://x.com/zarazhangrui/status/2057324988009685208"
+        },
+        {
+          "tag": "pulse",
+          "ref": "mattpocock/skills 周增 18,368 stars",
+          "url": "https://github.com/mattpocock/skills"
+        },
+        {
+          "tag": "pulse",
+          "ref": "obra/superpowers 周增 10,851 stars",
+          "url": "https://github.com/obra/superpowers"
+        }
+      ]
+    },
+    {
+      "id": "2026-05-21-3",
+      "title": "MCP 不是越多越强",
+      "angle": "借 Stainless 被收购传闻切入：agent 工具层的胜负不在数量，而在安全、瘦身和可调用边界。",
+      "opening": "Anthropic 传出 3 亿美元收购 Stainless，买的不是一个炫酷 AI 应用，而是 API、SDK 和 MCP 服务器这类脏活累活。更尖锐的是 Alex Rattray 的判断：MCP 可能不是工具越多越好，最后反而会收敛到代码执行和文档搜索。",
+      "story_hook": {
+        "challenge": "所有网站都想变成 agent 可调用工具，但工具越多，权限、上下文污染和安全问题也越多。",
+        "twist": "下一代 agent 基建可能不是“万能工具箱”，而是更少、更准、更可控的调用层。"
+      },
+      "takeaway": "评估 MCP 或 agent 工具时，优先看权限边界、调用稳定性和失败恢复，而不是支持了多少连接器。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Dan Shipper 关于 Anthropic 收购 Stainless 与 MCP 判断的推文",
+          "url": "https://x.com/danshipper/status/2057122805657821240"
+        },
+        {
+          "tag": "builders",
+          "ref": "AI & I 播客 Inside Stainless",
+          "url": "https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Basedash Skills 把可复用指令铺到内部工具",
+          "url": "https://www.producthunt.com/products/basedash"
+        }
+      ]
+    },
+    {
+      "id": "2026-05-21-4",
+      "title": "Agent 缺的不是大脑",
+      "angle": "从 openhuman、agentmemory、codegraph 暴涨看：开发者真正补的是记忆、本地索引和执行环境。",
+      "opening": "今天 GitHub 最强信号不是新模型，而是 agent 的基础设施。openhuman 本周新增 19,177 stars，agentmemory 新增 7,976 stars，codegraph 新增 6,731 stars，大家在给 agent 补“长期记忆”和“本地地图”。",
+      "story_hook": {
+        "challenge": "模型越来越强，但 coding agent 仍会重复问上下文、误读代码库、浪费 token 和工具调用。",
+        "twist": "真正的产品机会可能不是做下一个 IDE，而是给现有 IDE 加一层可迁移的项目记忆和代码图谱。"
+      },
+      "takeaway": "周末原型可以从 agent memory audit 开始：记录 agent 重复提问，把项目知识整理成可复用索引和 memory。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Garry Tan 关于 Exa 是 Agent 搜索底座的推文",
+          "url": "https://x.com/garrytan/status/2057202833251000503"
+        },
+        {
+          "tag": "pulse",
+          "ref": "tinyhumansai/openhuman 本周 19,177 stars",
+          "url": "https://github.com/tinyhumansai/openhuman"
+        },
+        {
+          "tag": "pulse",
+          "ref": "rohitg00/agentmemory 本周 7,976 stars",
+          "url": "https://github.com/rohitg00/agentmemory"
+        },
+        {
+          "tag": "pulse",
+          "ref": "colbymchenry/codegraph 本周 6,731 stars",
+          "url": "https://github.com/colbymchenry/codegraph"
+        }
+      ]
+    },
+    {
+      "id": "2026-05-21-5",
+      "title": "游戏创作门槛被压扁了",
+      "angle": "从 Google Genie 全球开闸切入：AI 创作工具正在从“帮你写内容”升级成“几分钟生成可玩的世界”。",
+      "opening": "Google Labs 今天给出的信号很直接：从玩游戏到做游戏，只要几分钟。Project Genie 全球开放给 18 岁以上 Google AI Ultra 订阅者，角色、场景一选，剩下交给模型生成。",
+      "story_hook": {
+        "challenge": "过去游戏创作的门槛在美术、关卡、引擎和交互，普通用户很难跨过第一步。",
+        "twist": "AI 不只是降低素材生产成本，而是在把“可玩原型”变成消费级入口。"
+      },
+      "takeaway": "多模态产品不要停在生成图片或视频展示页，应该把生成结果接到一个可试玩、可修改、可复用的创作动作里。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Google Labs 关于 Project Genie 现场演示的推文",
+          "url": "https://x.com/GoogleLabs/status/2057218835074437573"
+        },
+        {
+          "tag": "builders",
+          "ref": "Google Labs 关于 Project Genie 全球开闸的推文",
+          "url": "https://x.com/GoogleLabs/status/2057179491693470166"
+        },
+        {
+          "tag": "pulse",
+          "ref": "bytedance-research/Lance 覆盖图像生成、视频生成与视频理解",
+          "url": "https://huggingface.co/bytedance-research/Lance"
+        },
+        {
+          "tag": "pulse",
+          "ref": "TencentARC/Pixal3D 把 image-to-3D 做成可试玩入口",
+          "url": "https://huggingface.co/TencentARC/Pixal3D"
+        }
+      ]
+    }
+  ],
+  "notes": "今日更适合写 agent 基础设施、技能化工作流和工具边界；独立开发者素材有方向但缺少票数与评论，热度判断要避免夸大。",
+  "generated_at": "2026-05-21T09:19:52+00:00",
+  "model": "gpt-5.5"
+}
