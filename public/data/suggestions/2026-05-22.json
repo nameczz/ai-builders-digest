@@ -1,0 +1,168 @@
+{
+  "date": "2026-05-22",
+  "items": [
+    {
+      "id": "2026-05-22-1",
+      "title": "Codex 的敌人不是 Cursor",
+      "angle": "从新版 Codex 发布当天看，AI 编程真正的战场不是补全体验，而是上下文、记忆和代码地图。",
+      "opening": "新版 Codex 今天发布，Peter Yang 直接说自动化的游戏规则变了。但同一天 GitHub 上最炸的不是某个模型，而是 skills、codegraph、agentmemory 这些让 agent 少迷路的东西。AI 编程的主角，正在从编辑器窗口挪到上下文基础设施。",
+      "story_hook": {
+        "challenge": "模型越来越强，但一进真实仓库，仍然会被历史决策、模块边界、测试入口和隐含约束卡住。",
+        "twist": "增长最快的不是更大的聊天模型，而是那些看起来不性感的外围系统：技能、记忆、代码图谱。"
+      },
+      "takeaway": "读者可以立刻做一个 repo onboarding report 原型：让 agent 先读懂仓库、列出风险文件和首个可做任务，再开始写代码。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Sam Altman：新版 Codex 今天发布",
+          "url": "https://x.com/sama/status/2057559714788258003"
+        },
+        {
+          "tag": "builders",
+          "ref": "Peter Yang：Codex 自动化游戏规则变了",
+          "url": "https://x.com/petergyang/status/2057674020481593710"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub weekly：colbymchenry/codegraph 一周新增 10,749 stars",
+          "url": "https://github.com/colbymchenry/codegraph"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub weekly：rohitg00/agentmemory 一周新增 7,000 stars",
+          "url": "https://github.com/rohitg00/agentmemory"
+        }
+      ]
+    },
+    {
+      "id": "2026-05-22-2",
+      "title": "Claude 进飞书，终端失守",
+      "angle": "把 Claude Code Lark/Feishu Bridge 当成一个信号：coding agent 的控制面正在从终端迁移到组织协作工具。",
+      "opening": "如果一个群聊就是一个会话，终端标签页可能就不是 coding agent 的默认入口了。Zara Zhang 甩出的 Claude Code Lark/Feishu Bridge 很粗暴：手机里转发任务、读会议纪要、写飞书文档，还能发交互卡片。最值得写的不是飞书插件，而是代理开始接管真实组织里的任务流转。",
+      "story_hook": {
+        "challenge": "终端很适合个人高手，但不适合移动端、群聊、文档评论、会议纪要混在一起的团队协作。",
+        "twist": "agent 的下一个入口可能不是 IDE，而是飞书、Slack、Notion 这类已经承载上下文的办公产品。"
+      },
+      "takeaway": "做 AI 工作流产品时，先找任务实际发生在哪里，再把 agent 接进去；入口比模型参数更可能决定留存。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Zara Zhang：Claude Code Lark/Feishu Bridge",
+          "url": "https://x.com/zarazhangrui/status/2057710284920520906"
+        },
+        {
+          "tag": "builders",
+          "ref": "Zara Zhang：直接看代码的 GitHub 链接",
+          "url": "https://x.com/zarazhangrui/status/2057710468064825417"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Google Trends：codex cli remote control 进入 rising",
+          "url": "https://trends.google.com/trends/explore?q=codex+cli&date=now+7-d"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub daily：teng-lin/notebooklm-py 非官方 API 与 agentic skill",
+          "url": "https://github.com/teng-lin/notebooklm-py"
+        }
+      ]
+    },
+    {
+      "id": "2026-05-22-3",
+      "title": "AI 越强，越不能包月",
+      "angle": "用 Aaron Levie 的成本判断切入，写长上下文代理会逼迫 AI 产品重新设计定价，而不是继续卖无限使用。",
+      "opening": "过去我们假设 AI 会越来越便宜，所以产品可以写“无限使用”。Aaron Levie 今天反过来说：大上下文、长线工作的代理会越来越贵，推理成本会按任务能力分层。于是 AI 产品的定价页不能再像普通 SaaS 模板，必须把风险、算力和节省的人工账算清楚。",
+      "story_hook": {
+        "challenge": "用户想要无限调用，但真正有用的 agent 往往需要长上下文、长任务和更高推理成本。",
+        "twist": "未来最值钱的功能可能不是多生成几次，而是帮企业少花 token、少走工具调用、少做人工审查。"
+      },
+      "takeaway": "早期 AI 产品不要急着做无限订阅，更适合用基础订阅、用量包、团队权限和审计能力，把省下的时间或算力写进定价逻辑。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Aaron Levie：AI 推理成本会按任务能力分层",
+          "url": "https://x.com/levie/status/2057663408376516703"
+        },
+        {
+          "tag": "builders",
+          "ref": "Amjad Masad：应用能赚钱，平台返 credits",
+          "url": "https://x.com/amasad/status/2057616724757827826"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt：Zero Assist 做技术面试实时 AI 作弊检测",
+          "url": "https://www.producthunt.com/products/zero-assist"
+        },
+        {
+          "tag": "pulse",
+          "ref": "HuggingFace：bytedance-research/Lance trending score 591",
+          "url": "https://huggingface.co/bytedance-research/Lance"
+        }
+      ]
+    },
+    {
+      "id": "2026-05-22-4",
+      "title": "70% 降薪撞上 34 万奖金",
+      "angle": "用早期创业招聘和芯片奖金的反差，写 AI 人才市场正在被风险偏好和现金回报撕成两半。",
+      "opening": "一边是 Aditya Agarwal 说，不能接受相对大厂 70% 现金降薪的人，早期 startup 就别继续推进。一边是 HN 上 Samsung 芯片员工平均 34 万美元奖金刷屏。AI 创业的残酷点在这里：最需要顶尖人下场的公司，常常最没有现金说服他们。",
+      "story_hook": {
+        "challenge": "早期公司需要高强度、低确定性和强 ownership，但候选人的外部选择正在被大厂、实验室和硬件红利抬高。",
+        "twist": "前创始人没有消失，他们正在成为 Ramp、Mercor、Figma、Anthropic、Cognition 这类明星公司规模化的燃料。"
+      },
+      "takeaway": "招早期团队时，不要只讲愿景；要尽早验证候选人的现金底线、风险偏好、强度预期和 ownership 动机。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Aditya Agarwal：早期创业招人要筛掉不能接受 70% 现金降薪的人",
+          "url": "https://x.com/adityaag/status/2057502381038846306"
+        },
+        {
+          "tag": "builders",
+          "ref": "Nikunj Kothari：前创始人正在成为明星公司规模化推力",
+          "url": "https://x.com/nikunj/status/2057462304149778588"
+        },
+        {
+          "tag": "pulse",
+          "ref": "HN：Samsung chip workers 平均 34 万美元奖金",
+          "url": "https://qz.com/samsung-chip-workers-bonus-ai-profits-052126"
+        }
+      ]
+    },
+    {
+      "id": "2026-05-22-5",
+      "title": "端侧多模态开始收钱了",
+      "angle": "把 HuggingFace 热榜和 Matt Turck 的最后一公里判断连起来，写端侧语音、视觉和编辑模型如何变成小而具体的消费产品。",
+      "opening": "今天 HuggingFace 热榜最有意思的不是“又一个大模型”，而是端侧语音、视觉和任意模态编辑一起冒头。Matt Turck 转述 Yann Dubois 的判断：AI 突然变真，是因为可靠性开始够接真实工作。对独立开发者来说，这句话落到产品上就是：别做通用助手，做一个能离线跑、能保护隐私、能直接导出的窄工具。",
+      "story_hook": {
+        "challenge": "多模态能力看起来很热，但用户不一定愿意把私密图片、视频、语音都传到云端，也不愿意为泛泛的生成能力付费。",
+        "twist": "搜索热词可能退潮，开发者采用却还在增长；端侧部署让语音、视觉和编辑能力第一次有机会包装成可靠的小工具。"
+      },
+      "takeaway": "可以从本地配音、离线视觉质检、隐私图片编辑、语言学习朗读这类窄场景开工，用端侧能力卖确定结果而不是卖模型概念。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Matt Turck：AI 进展变真，机会在最后一公里工作流",
+          "url": "https://x.com/mattturck/status/2057498130795385188"
+        },
+        {
+          "tag": "builders",
+          "ref": "The MAD Podcast：OpenAI's Yann Dubois: Why AI Progress Suddenly Feels Real",
+          "url": "https://www.youtube.com/watch?v=DhD1zZ8w8Mw"
+        },
+        {
+          "tag": "pulse",
+          "ref": "HuggingFace：Supertone/supertonic-3 on-device multilingual TTS",
+          "url": "https://huggingface.co/Supertone/supertonic-3"
+        },
+        {
+          "tag": "pulse",
+          "ref": "HuggingFace：openbmb/MiniCPM-V-4.6 on-device lightweight vision model",
+          "url": "https://huggingface.co/openbmb/MiniCPM-V-4.6"
+        }
+      ]
+    }
+  ],
+  "notes": "今日最强主线是代理控制面、上下文基础设施和 AI 成本定价；独立开发者亲测素材偏少，开稿时最好补真实跑通截图、仓库输出或产品定价页。",
+  "generated_at": "2026-05-22T09:20:10+00:00",
+  "model": "gpt-5.5"
+}
