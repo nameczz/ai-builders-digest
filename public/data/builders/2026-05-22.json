@@ -1,0 +1,457 @@
+{
+  "date": "2026-05-22",
+  "generated_at": "2026-05-22T09:11:49+00:00",
+  "count": 30,
+  "items": [
+    {
+      "id": "31faece14b",
+      "date": "2026-05-22",
+      "source": "x",
+      "author": "Zara Zhang",
+      "bio": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://t.co/KCuEajezlL YouTube: https://t.co/8xzbGWtf6w",
+      "title": "",
+      "summary_en": "GitHub: https://t.co/w84jJfXdMy",
+      "summary_zh": "这条推文几乎没有包装，只甩出一个 GitHub 链接：别听介绍，直接看代码。",
+      "url": "https://x.com/zarazhangrui/status/2057710468064825417",
+      "posted_at": "2026-05-22T06:29:40.000Z",
+      "tags": [
+        "@zarazhangrui"
+      ]
+    },
+    {
+      "id": "5b8d9df717",
+      "date": "2026-05-22",
+      "source": "x",
+      "author": "Zara Zhang",
+      "bio": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://t.co/KCuEajezlL YouTube: https://t.co/8xzbGWtf6w",
+      "title": "",
+      "summary_en": "Introducing the Claude Code Lark/Feishu Bridge 🌉 (open-source)\n\nTalk to Claude Code in Lark/Feishu like a colleague\n- Use Claude Code on your phone via Lark chat\n- Manage multiple CC sessions as group chats in Lark (one chat = one session), say goodbye to messy terminal tabs\n- Claude Code can read all your work context in Lark (chat, docs, meeting transcripts, etc) via CLI\n- Claude Code can write Lark Docs for you; you can even @ mention it in the comment and it will reply\n- Forward any Lark messages to Claude and it can just get the task done\n- Claude can send you interactive cards with buttons and UI\n\nOpen-source; try it now: https://t.co/V1eRIg87wx",
+      "summary_zh": "Claude Code Lark/Feishu Bridge 把 Claude Code 塞进飞书：手机聊天就能调它干活，一个群聊就是一个会话，终端标签页乱成一锅粥可以扔了。它还能读聊天、文档、会议纪要，写飞书文档，回复评论，接转发任务，甚至发带按钮的交互卡片。",
+      "url": "https://x.com/zarazhangrui/status/2057710284920520906",
+      "posted_at": "2026-05-22T06:28:56.000Z",
+      "tags": [
+        "@zarazhangrui"
+      ]
+    },
+    {
+      "id": "15a44cda0f",
+      "date": "2026-05-22",
+      "source": "x",
+      "author": "Garry Tan",
+      "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "title": "",
+      "summary_en": "How does one engineer become a 1000x founder? @sdianahu and I give you the real goods here\n\nThanks @AnjneyMidha for having us!\n\nhttps://t.co/tDh7kr0EKi https://t.co/C2HjO9TrE4",
+      "summary_zh": "工程师想成为 1000x 创始人，别听空洞鸡汤，直接看真正的硬货。@sdianahu 和我在这场对谈里把该说的都说了。",
+      "url": "https://x.com/garrytan/status/2057701084031004928",
+      "posted_at": "2026-05-22T05:52:23.000Z",
+      "tags": [
+        "@garrytan"
+      ]
+    },
+    {
+      "id": "9d0656c9ad",
+      "date": "2026-05-22",
+      "source": "x",
+      "author": "Swyx",
+      "bio": "achieve ambition with intentionality, intensity, integrity & insanity.  affiliations: - @dxtipshq  - @cognition - @temporalio - @aidotengineer - @latentspacepod",
+      "title": "",
+      "summary_en": "more here https://t.co/gW0xMn7dcI",
+      "summary_zh": "这条推文本身没有信息量，只是在把读者甩到外部链接；没有链接正文，就没有观点、结论或细节可总结。",
+      "url": "https://x.com/swyx/status/2057700807576043825",
+      "posted_at": "2026-05-22T05:51:17.000Z",
+      "tags": [
+        "@swyx"
+      ]
+    },
+    {
+      "id": "db5d0d4345",
+      "date": "2026-05-22",
+      "source": "x",
+      "author": "Peter Yang",
+      "bio": "Practical AI tutorials and interviews for busy people | Join 140K+ readers at https://t.co/XYKTmGVH14 | Product at Roblox",
+      "title": "",
+      "summary_en": "Game changer Codex automation 🙂 https://t.co/XUR4q6gI7v",
+      "summary_zh": "Codex 自动化，游戏规则已经变了。",
+      "url": "https://x.com/petergyang/status/2057674020481593710",
+      "posted_at": "2026-05-22T04:04:50.000Z",
+      "tags": [
+        "@petergyang"
+      ]
+    },
+    {
+      "id": "7aa9cf51dd",
+      "date": "2026-05-22",
+      "source": "x",
+      "author": "Aaron Levie",
+      "bio": "ceo @box - your business lives in content. unleash it with AI",
+      "title": "",
+      "summary_en": "What’s happened is that we went from AI chat tools that were relatively cheap and had small context windows, to AI agents that have giant context windows, the ability to keep track of longer running work, and models that cost an order of magnitude more on inference because they’re that much better.\n\nThis has compounded far faster than most realized (unless you were paying close attention at the middle or end of last year, which many here were), and the dollars flowing in now are much more real. \n\nWhat follows is a continued march of AI capability that will continue to be used by anyone with a frontier use-case (like coding, sciences, finance, consulting) and then a peeling off of tasks to lower cost models that are capable enough for the job. Whereas we thought the cost of AI might converge on a single low price per token before, it’s clear the stratification is only widening based on the task you need performed. \n\nThis will be yet another component that has to be figured out for broad AI diffusion. Enterprises will need to put in programs, new finance teams, and technology solutions to manage this all. The labs and platforms that can ensure customers can price optimize for the task at hand will be in the best position.",
+      "summary_zh": "AI 正在从便宜的小窗口聊天工具，变成上下文巨大、能盯长线工作的昂贵代理；推理成本不会收敛到统一低价，而会按任务能力继续分层。真正的门槛不只是模型更强，而是谁能帮企业把这笔越来越真实的钱算清楚、管起来，并按任务榨出最优价格。",
+      "url": "https://x.com/levie/status/2057663408376516703",
+      "posted_at": "2026-05-22T03:22:40.000Z",
+      "tags": [
+        "@levie"
+      ]
+    },
+    {
+      "id": "5b8e69a34d",
+      "date": "2026-05-22",
+      "source": "x",
+      "author": "Garry Tan",
+      "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "title": "",
+      "summary_en": "San Francisco is safer because of Flock Safety. Every city can be safer. We don't have to choose a world where people are unsafe. It is a choice, though. https://t.co/e2lWEbFHUu https://t.co/g3JrMqxwtm",
+      "summary_zh": "Flock Safety 让旧金山更安全，也证明每座城市都可以更安全；让人们活在不安全里不是命运，而是一种选择。",
+      "url": "https://x.com/garrytan/status/2057639198782521837",
+      "posted_at": "2026-05-22T01:46:28.000Z",
+      "tags": [
+        "@garrytan"
+      ]
+    },
+    {
+      "id": "944fed8054",
+      "date": "2026-05-22",
+      "source": "x",
+      "author": "Garry Tan",
+      "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "title": "",
+      "summary_en": "Everyone should have an agent with a GBrain https://t.co/xl2r77u1Q6",
+      "summary_zh": "人人都该配一个带 GBrain 的智能体：不是聊天玩具，而是有脑子的工作代理。",
+      "url": "https://x.com/garrytan/status/2057636167525498961",
+      "posted_at": "2026-05-22T01:34:26.000Z",
+      "tags": [
+        "@garrytan"
+      ]
+    },
+    {
+      "id": "4ea0464e0f",
+      "date": "2026-05-22",
+      "source": "x",
+      "author": "Swyx",
+      "bio": "achieve ambition with intentionality, intensity, integrity & insanity.  affiliations: - @dxtipshq  - @cognition - @temporalio - @aidotengineer - @latentspacepod",
+      "title": "",
+      "summary_en": "—dangerously-skip-git",
+      "summary_zh": "`--dangerously-skip-git` 就是把 Git 安全护栏一脚踢开：别检查、别提醒，直接动手。\n\n潜台词很硬：我知道会炸，但我现在要速度，不要保护。",
+      "url": "https://x.com/swyx/status/2057633220221624596",
+      "posted_at": "2026-05-22T01:22:43.000Z",
+      "tags": [
+        "@swyx"
+      ]
+    },
+    {
+      "id": "838a65166f",
+      "date": "2026-05-22",
+      "source": "x",
+      "author": "Dan Shipper",
+      "bio": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "title": "",
+      "summary_en": "~20 years ago I submitted a story that made it to the top of @digg \n\nFeels good to be back! https://t.co/mF2M6AVxey",
+      "summary_zh": "二十年前投过一篇冲上 Digg 榜首的内容，如今又回来了。老互联网的顶流位，还是那个爽感。",
+      "url": "https://x.com/danshipper/status/2057631479052517507",
+      "posted_at": "2026-05-22T01:15:48.000Z",
+      "tags": [
+        "@danshipper"
+      ]
+    },
+    {
+      "id": "db1bfdc7d6",
+      "date": "2026-05-22",
+      "source": "x",
+      "author": "Amjad Masad",
+      "bio": "ceo @replit. civilizationist",
+      "title": "",
+      "summary_en": "Monetize your apps and we’ll give you credit rewards. https://t.co/rV70dbQyiH",
+      "summary_zh": "应用能赚钱，平台就返你 credits。意思很直接：别只做 Demo，把变现跑起来，奖励才会跟上。",
+      "url": "https://x.com/amasad/status/2057616724757827826",
+      "posted_at": "2026-05-22T00:17:10.000Z",
+      "tags": [
+        "@amasad"
+      ]
+    },
+    {
+      "id": "39ef519c82",
+      "date": "2026-05-22",
+      "source": "x",
+      "author": "Sam Altman",
+      "bio": "AI is cool i guess",
+      "title": "",
+      "summary_en": "what problem do you most hope AI will solve in the future?\n\nmaybe we can help!",
+      "summary_zh": "你最想让 AI 解决哪个问题？说出来，我们可能就能直接干。",
+      "url": "https://x.com/sama/status/2057614780727480741",
+      "posted_at": "2026-05-22T00:09:27.000Z",
+      "tags": [
+        "@sama"
+      ]
+    },
+    {
+      "id": "0b4f33d9ef",
+      "date": "2026-05-22",
+      "source": "x",
+      "author": "Swyx",
+      "bio": "achieve ambition with intentionality, intensity, integrity & insanity.  affiliations: - @dxtipshq  - @cognition - @temporalio - @aidotengineer - @latentspacepod",
+      "title": "",
+      "summary_en": "i think this stack has won the localfirst battle btw. maybe more chapters to this story but i think this is it if you are building fast apps fast https://t.co/j6SadqAMpj",
+      "summary_zh": "如果你要快速做出足够快的应用，这套栈已经赢下 local-first 之战。后面也许还有续章，但胜负现在基本定了。",
+      "url": "https://x.com/swyx/status/2057576893621150020",
+      "posted_at": "2026-05-21T21:38:54.000Z",
+      "tags": [
+        "@swyx"
+      ]
+    },
+    {
+      "id": "b5de0bf273",
+      "date": "2026-05-22",
+      "source": "x",
+      "author": "Josh Woodward",
+      "bio": "VP, @Google @GoogleLabs @GeminiApp @GoogleAIStudio",
+      "title": "",
+      "summary_en": "What a ride for @GoogleLabs at IO! Hope you're enjoying lots of the new stuff! https://t.co/LiXkqwjTpr",
+      "summary_zh": "Google Labs 在 I/O 上刷足存在感，一口气抛出大量新东西。重点很直接：把实验功能推到台前，让用户现在就开始试。",
+      "url": "https://x.com/joshwoodward/status/2057564491064483930",
+      "posted_at": "2026-05-21T20:49:37.000Z",
+      "tags": [
+        "@joshwoodward"
+      ]
+    },
+    {
+      "id": "9b1c78c732",
+      "date": "2026-05-22",
+      "source": "x",
+      "author": "Sam Altman",
+      "bio": "AI is cool i guess",
+      "title": "",
+      "summary_en": "new codex ships today! https://t.co/7P6g6SiGsl",
+      "summary_zh": "新版 Codex 今天发布。",
+      "url": "https://x.com/sama/status/2057559714788258003",
+      "posted_at": "2026-05-21T20:30:38.000Z",
+      "tags": [
+        "@sama"
+      ]
+    },
+    {
+      "id": "ca41d81627",
+      "date": "2026-05-22",
+      "source": "x",
+      "author": "Josh Woodward",
+      "bio": "VP, @Google @GoogleLabs @GeminiApp @GoogleAIStudio",
+      "title": "",
+      "summary_en": "♥️ ♥️♥️\n\niOS, Android, and Web - so fun to see people loving the new Neural Expressive design! https://t.co/KjetFYo934",
+      "summary_zh": "新的 Neural Expressive 设计已经打到 iOS、Android 和 Web，用户明显买账。跨端审美统一这次做对了。",
+      "url": "https://x.com/joshwoodward/status/2057559267952214073",
+      "posted_at": "2026-05-21T20:28:51.000Z",
+      "tags": [
+        "@joshwoodward"
+      ]
+    },
+    {
+      "id": "b8f9146323",
+      "date": "2026-05-22",
+      "source": "x",
+      "author": "Peter Yang",
+      "bio": "Practical AI tutorials and interviews for busy people | Join 140K+ readers at https://t.co/XYKTmGVH14 | Product at Roblox",
+      "title": "",
+      "summary_en": "Ok trying this out https://t.co/JZCScTHVCr",
+      "summary_zh": "他没解释背景，只是甩了个链接：行，先试试这个。",
+      "url": "https://x.com/petergyang/status/2057527562642071792",
+      "posted_at": "2026-05-21T18:22:52.000Z",
+      "tags": [
+        "@petergyang"
+      ]
+    },
+    {
+      "id": "99e6bab994",
+      "date": "2026-05-22",
+      "source": "x",
+      "author": "Sam Altman",
+      "bio": "AI is cool i guess",
+      "title": "",
+      "summary_en": "the attack at the mosque in san diego is one of the most chilling i have seen.\n\nmy deepest condolences to the victims, families, and community.",
+      "summary_zh": "圣迭戈清真寺袭击令人毛骨悚然，是我见过最寒心的暴力事件之一。",
+      "url": "https://x.com/sama/status/2057515035472380237",
+      "posted_at": "2026-05-21T17:33:05.000Z",
+      "tags": [
+        "@sama"
+      ]
+    },
+    {
+      "id": "6f4ecaca09",
+      "date": "2026-05-22",
+      "source": "x",
+      "author": "Amjad Masad",
+      "bio": "ceo @replit. civilizationist",
+      "title": "",
+      "summary_en": "We’re always excited to talk to customers but you shouldn’t be forced to talk to us to buy the product. https://t.co/LbpQnALHx0",
+      "summary_zh": "我们当然愿意跟客户聊，但买个产品不该被迫先找销售过一遍。",
+      "url": "https://x.com/amasad/status/2057504360217891018",
+      "posted_at": "2026-05-21T16:50:40.000Z",
+      "tags": [
+        "@amasad"
+      ]
+    },
+    {
+      "id": "810d8f2d82",
+      "date": "2026-05-22",
+      "source": "x",
+      "author": "Aditya Agarwal",
+      "bio": "General Partner @SouthPkCommons, Co-Founder @Bevel_Health | Ex: Early Eng @facebook, CTO @Dropbox, Board @Flipkart | Optimist, Builder, Dad",
+      "title": "",
+      "summary_en": "4 thoughts on early-stage hiring:\n\n1/ If an engineer is trying to pick between a pre Series-B company and a BigCo/BigLab --> stop talking to them immediately. They are clearly not ready for a startup.\n\n2/ If someone isn't willing to take a 70% cash paycut (relative to BigCo/BigLab) --> stop talking to them immediately. They will be unhappy/stressed.\n\n3/ You learn a lot about a candidate during the negotiation/closing process. Do not be afraid to walk away if you get new information. \n\n4/ Startups have zero work-life balance. If you are not willing to put in the hours, you are not in the right headspace to grind.",
+      "summary_zh": "早期创业招人就该狠：还在 pre-B 公司和大厂/大实验室之间犹豫、不能接受相对大厂 70% 现金降薪的人，直接停止推进，他们不是创业公司的人。谈判和 closing 会暴露候选人的真实状态，一旦发现不对就走人；早期 startup 没有 work-life balance，不愿意拼命就别来。",
+      "url": "https://x.com/adityaag/status/2057502381038846306",
+      "posted_at": "2026-05-21T16:42:48.000Z",
+      "tags": [
+        "@adityaag"
+      ]
+    },
+    {
+      "id": "97b9366135",
+      "date": "2026-05-22",
+      "source": "x",
+      "author": "Ryo Lu",
+      "bio": "Design @Cursor_ai. Early @NotionHQ, @Stripe, built startups. I make a world where anyone can make software. Aspiring k-pop idol.",
+      "title": "",
+      "summary_en": "building software is more fun together\n\ntry our new model, interface, sdk, automations with your team https://t.co/jNEoKqrrfe",
+      "summary_zh": "写软件别单打独斗，组队才更有意思。带上团队去试他们的新模型、界面、SDK 和自动化。",
+      "url": "https://x.com/ryolu_/status/2057500107235557675",
+      "posted_at": "2026-05-21T16:33:46.000Z",
+      "tags": [
+        "@ryolu_"
+      ]
+    },
+    {
+      "id": "35806dce66",
+      "date": "2026-05-22",
+      "source": "x",
+      "author": "Matt Turck",
+      "bio": "VC at @FirstMarkCap.  Host: MAD Podcast; Organizer: Data Driven NYC, Author: MAD Landscape.",
+      "title": "",
+      "summary_en": "This fantastic conversation with @yanndubs is also available on Spotify, Apple Podcasts and here on YouTube (like and subscribe!):\n\nhttps://t.co/QxwJ56Xlh8",
+      "summary_zh": "和 @yanndubs 的对谈已同步到 Spotify、Apple Podcasts 和 YouTube。要听要看都行，YouTube 上顺手点赞订阅。",
+      "url": "https://x.com/mattturck/status/2057498135300039068",
+      "posted_at": "2026-05-21T16:25:56.000Z",
+      "tags": [
+        "@mattturck"
+      ]
+    },
+    {
+      "id": "e758c64ade",
+      "date": "2026-05-22",
+      "source": "x",
+      "author": "Matt Turck",
+      "bio": "VC at @FirstMarkCap.  Host: MAD Podcast; Organizer: Data Driven NYC, Author: MAD Landscape.",
+      "title": "",
+      "summary_en": "Why AI Progress Suddenly Feels Real - my conversation with @yanndubs, who co-leads the Post-Training Frontiers team at @OpenAI \n\n00:00 - Intro \n\n01:30 - Why recent AI progress feels like a step function\n\n04:13 - Model reliability & the emotional rollercoaster of shipping GPT-5.5\n\n07:33 - How OpenAI structures vertical and horizontal teams\n\n09:49 - Improving model efficiency and test-time compute\n\n12:32 - Yann's journey from Switzerland to OpenAI\n\n15:37 - Reasoning in 2026: Real-world utility vs verifiable rewards\n\n18:34 - GPT-5.5 Thinking vs Pro: Scaling test-time compute\n\n20:09 - How reasoning models become more efficient\n\n23:23 - Pre-training scaling and overcoming the data wall\n\n27:03 - Multimodal data, synthetic data, and embodied AI\n\n31:05 - Demystifying mid-training and post-training\n\n37:21 - Does RL create new capabilities in AI?\n\n38:53 - The challenges and frontier of scaling RL\n\n43:09 - Is building AI models a craft or a strict science\n\n48:21 - How AI models generalize across different domains\n\n54:18 - How reinforcement learning cures AI hallucinations\n\n56:04 - Negative generalization and conflicting instructions\n\n58:05 - Can RL scale to law, medicine, and the broader economy?\n\n1:00:19 - The evaluation bottleneck and Model as a Judge\n\n1:04:21 - Continuous AI progress & continual learning\n\n1:08:49 - Will foundation models eat the agent harness\n\n1:11:23 - Why startups should focus on the last mile of AI",
+      "summary_zh": "AI 进展突然“变真”，不是因为 demo 更炫，而是后训练、测试时算力、RL 和评估体系开始把模型从会说推向可靠可用。真正的创业机会不在复刻基础模型，而在最后一公里：把这些仍不完美但持续进化的能力压进法律、医疗和经济系统的真实工作流里。",
+      "url": "https://x.com/mattturck/status/2057498130795385188",
+      "posted_at": "2026-05-21T16:25:55.000Z",
+      "tags": [
+        "@mattturck"
+      ]
+    },
+    {
+      "id": "e6a8bf870a",
+      "date": "2026-05-22",
+      "source": "x",
+      "author": "Google Labs",
+      "bio": "Google’s home for our latest AI tools and experiments.",
+      "title": "",
+      "summary_en": "(5/5) Discover our latest experiments and help shape the future of AI technology at https://t.co/a8Phv40FhH\n\nShare what you create! We want to see!",
+      "summary_zh": "别只围观，去试他们最新的 AI 实验；做出东西就晒出来，让他们看到真实用法。",
+      "url": "https://x.com/GoogleLabs/status/2057492242911404443",
+      "posted_at": "2026-05-21T16:02:31.000Z",
+      "tags": [
+        "@GoogleLabs"
+      ]
+    },
+    {
+      "id": "e49007e13d",
+      "date": "2026-05-22",
+      "source": "x",
+      "author": "Google Labs",
+      "bio": "Google’s home for our latest AI tools and experiments.",
+      "title": "",
+      "summary_en": "(4/5) And then, we took our Labster to the Grand Canyon with Project Genie. https://t.co/3xM2bePwMQ",
+      "summary_zh": "接着他们用 Project Genie 把 Labster 直接带进了大峡谷，秀的是场景迁移和真实地标里的 AI 体验。",
+      "url": "https://x.com/GoogleLabs/status/2057492241472729543",
+      "posted_at": "2026-05-21T16:02:31.000Z",
+      "tags": [
+        "@GoogleLabs"
+      ]
+    },
+    {
+      "id": "9c054ab286",
+      "date": "2026-05-22",
+      "source": "x",
+      "author": "Google Labs",
+      "bio": "Google’s home for our latest AI tools and experiments.",
+      "title": "",
+      "summary_en": "(3/5) A vibe-designed website from @StitchbyGoogle ft. our Labs experiments as mini games, and our very own 8-bit “Labster.” https://t.co/pJ1U0l6LLU",
+      "summary_zh": "Google 用 Stitch 做了个“vibe-designed”网站，把 Labs 实验包装成小游戏，还塞进自家的 8-bit「Labster」。AI 展示页不再装严肃，直接变成可玩的像素街机。",
+      "url": "https://x.com/GoogleLabs/status/2057492239656562792",
+      "posted_at": "2026-05-21T16:02:30.000Z",
+      "tags": [
+        "@GoogleLabs"
+      ]
+    },
+    {
+      "id": "af99f0d10d",
+      "date": "2026-05-22",
+      "source": "x",
+      "author": "Claude",
+      "bio": "Claude is an AI assistant built by @anthropicai to be safe, accurate, and secure. Talk to Claude on https://t.co/ZhTwG8d1e5 or download the app.",
+      "title": "",
+      "summary_en": "What are you making with Claude Design?",
+      "summary_zh": "你在用 Claude Design 造什么？",
+      "url": "https://x.com/claudeai/status/2057487475983929388",
+      "posted_at": "2026-05-21T15:43:35.000Z",
+      "tags": [
+        "@claudeai"
+      ]
+    },
+    {
+      "id": "bcdb1d8808",
+      "date": "2026-05-22",
+      "source": "x",
+      "author": "Aditya Agarwal",
+      "bio": "General Partner @SouthPkCommons, Co-Founder @Bevel_Health | Ex: Early Eng @facebook, CTO @Dropbox, Board @Flipkart | Optimist, Builder, Dad",
+      "title": "",
+      "summary_en": "Two of my favorite people (sorry @rsanghvi)  on stage together. https://t.co/QjrpZy6QXa",
+      "summary_zh": "他最喜欢的两个人同台了，还顺手把 @rsanghvi 挤出了名单。",
+      "url": "https://x.com/adityaag/status/2057485028095828189",
+      "posted_at": "2026-05-21T15:33:51.000Z",
+      "tags": [
+        "@adityaag"
+      ]
+    },
+    {
+      "id": "7b0c96e709",
+      "date": "2026-05-22",
+      "source": "x",
+      "author": "Nikunj Kothari",
+      "bio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
+      "title": "",
+      "summary_en": "ex founders are THE driving force helping scale some of the most iconic companies (@tryramp, @mercor_ai, @figma, @AnthropicAI, @cognition and others). \n\nif you are an ex founder wanting to hang out with a stellar peer group, sign up for our next event! https://t.co/frSUq0rgf2",
+      "summary_zh": "前创始人正在成为 Ramp、Mercor、Figma、Anthropic、Cognition 等明星公司规模化的核心推力；如果你也是 ex-founder，下一场活动就是同类扎堆的入口。",
+      "url": "https://x.com/nikunj/status/2057462304149778588",
+      "posted_at": "2026-05-21T14:03:33.000Z",
+      "tags": [
+        "@nikunj"
+      ]
+    },
+    {
+      "id": "04d83151b3",
+      "date": "2026-05-22",
+      "source": "podcast",
+      "author": "The MAD Podcast with Matt Turck",
+      "bio": "",
+      "title": "OpenAI's Yann Dubois: Why AI Progress Suddenly Feels Real",
+      "summary_en": "Speaker 1 | 00:00 - 00:26\nYou need to reach this level of reliability to really make any of these AI tools very useful, and I think we just crossed that probably December last year, at least at OpenAI. Now we can trust these models to do a lot of the work that we are doing. The last few months have been pretty wild. We moved from like competitions to usefulness to users and that's what we are feeling right now. I think most of the time the Bionic is the last mile.\n\nSpeaker 1 | 00:26 - 00:34\nThere will always be a lot of space left for this last mile in different verticals. And I would highly encourage people to continue working on that.\n\nSpeaker 2 | 00:34 - 01:03\nHi, I'm Matt Turk. Welcome to the MAD Podcast. My guest today is Jan Dubois, who co leads the post training Frontiers team at OpenAI. The recent release of GBT 5.5 was yet another major milestone in AI, and Jan's team helped build it alongside OpenAI's prior top reasoning models, including o three and GBT five thinking. Before OpenAI, Jan was at Stanford, where he co authored Stanford Alpaca, the landmark project that kicked off much of the modern post training research community.\n\nSpeaker 2 | 01:03 - 01:29\nIn this conversation, we go deep on what's actually new in GPT 5.5, why reinforcement learning is moving from math and coding competitions into messy real world work, why AI progress can feel like a sudden step function, and why continual learning remains one of the big unsolved problems in AI three years after ChatGPT. Please enjoy this fantastic conversation with Jan Dubois. Hey, Jan. Welcome.\n\nSpeaker 1 | 01:29 - 01:30\nHi, Matt. Thanks for having me.\n\nSpeaker 2 | 01:30 - 01:57\nIt's been another wild, last few weeks in the world of, Frontier AI with the release of, GBT 5.5, of, Claude Muthos preview. So it",
+      "summary_zh": "Dubois 说，OpenAI 大概在 2025 年 12 月跨过了可靠性门槛，模型第一次能被信任去接手大量真实工作；AI 进展不再只是刷比赛题，而是突然变成了有用、有用户的东西。\n\n接下来的机会在“最后一公里”：把强化学习从数学、代码竞赛推进到混乱的现实业务里，而持续学习仍是 ChatGPT 三年后最硬的未解难题。",
+      "url": "https://www.youtube.com/watch?v=DhD1zZ8w8Mw",
+      "posted_at": "2026-05-21T11:30:00.000Z",
+      "tags": [
+        "podcast"
+      ]
+    }
+  ]
+}
