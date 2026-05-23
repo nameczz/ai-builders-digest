@@ -13,6 +13,36 @@
           "summary_md": "（自动归档模式）今日 Show HN 与 Product Hunt 上线的独立开发者产品列表。",
           "items": [
             {
+              "title": "Google Antigravity CLI",
+              "url": "https://www.producthunt.com/products/google-antigravity",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Memdex",
+              "url": "https://www.producthunt.com/products/memdex",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Area Contrast Checker",
+              "url": "https://www.producthunt.com/products/area-contrast-checker",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "RetroMac",
+              "url": "https://www.producthunt.com/products/retromac",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Spantop",
+              "url": "https://www.producthunt.com/products/spantop",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Finderlock",
+              "url": "https://www.producthunt.com/products/finderlock",
+              "source": "ProductHunt"
+            },
+            {
               "title": "Vibedock",
               "url": "https://www.producthunt.com/products/vibedock",
               "source": "ProductHunt"
@@ -23,38 +53,8 @@
               "source": "ProductHunt"
             },
             {
-              "title": "Finderlock",
-              "url": "https://www.producthunt.com/products/finderlock",
-              "source": "ProductHunt"
-            },
-            {
-              "title": "Google Antigravity CLI",
-              "url": "https://www.producthunt.com/products/google-antigravity",
-              "source": "ProductHunt"
-            },
-            {
               "title": "SignalLEMO - Ai Outreach Made Simple",
               "url": "https://www.producthunt.com/products/signallemo-ai-outreach-made-simple",
-              "source": "ProductHunt"
-            },
-            {
-              "title": "Spantop",
-              "url": "https://www.producthunt.com/products/spantop",
-              "source": "ProductHunt"
-            },
-            {
-              "title": "Command A+",
-              "url": "https://www.producthunt.com/products/cohere-2",
-              "source": "ProductHunt"
-            },
-            {
-              "title": "RetroMac",
-              "url": "https://www.producthunt.com/products/retromac",
-              "source": "ProductHunt"
-            },
-            {
-              "title": "Area Contrast Checker",
-              "url": "https://www.producthunt.com/products/area-contrast-checker",
               "source": "ProductHunt"
             },
             {
@@ -88,6 +88,12 @@
       "blocks": []
     }
   ],
-  "generated_at": "2026-05-23T09:27:54+00:00",
-  "reddit_highlights": []
+  "generated_at": "2026-05-23T09:38:41+00:00",
+  "reddit_highlights": [
+    {
+      "heading": "哪些定价和变现模型值得研究？",
+      "body_md": "**🔍 信号**：今天值得研究的包括来源署名的 $29 首次审计加 $19/month 监控、$200/month 计划下声称 $30,983 的 token 账单、Reddit 上从 $900 到 $2,100 MRR 的增长故事、一个 6 个月 €1,872 的应用、一个当天 $216 的工作区功能，以及 Indie Hackers 上 $65K/month 和 $50K/month 的故事。\n\n**白话说：** 最好的变现故事，都是在用户能指向一张真实账单或一次错失销售的时刻，为清晰度收费。\n\nSource Credit Receipt 的定价应该从一次性审计开始，因为买家有紧急的证明问题。首次报告收 $29，只有当用户看到 recurring monitoring 的价值后，再收 $19/month。这符合今天更大的模式：人们在具体事件之后付钱。\n\n`AI token` 故事是最清楚的成本锚点。[I used $30,983 of AI tokens last month in Claude code on $200/mo plan](https://www.indiehackers.com/post/i-used-30-983-of-ai-tokens-last-month-in-claude-code-on-200-mo-plan-3337a369a6) 给每个 AI 工作流 founder 上了一堂定价课：固定订阅需求背后可能藏着用量恐惧。一个解释真实用量、浪费或风险的产品，可以按报告定价。\n\nReddit 上 SaaS 在 28 天内从 $900 到 $2,100 MRR 的故事是一种分发模型：有帮助的社区参与、LinkedIn DM 和入站信任。$216 工作区功能故事是一种付费意愿模型：一家公司要求在一个账单账户下购买三个 license，founder 用 16 小时把它做出来。6 个月 €1,872 的焦虑应用和第一笔 $3 销售提醒我们，小数字只要能识别买家，仍然算数。\n\n**关键判断**：把第一份证明报告定低价；只有当报告监控的是买家无法每周手动检查的高成本界面时，再收 recurring。\n\n**反向视角**：一次性报告可能滑向咨询，除非输入、评分和输出保持标准化。\n\n---",
+      "source_url": "https://raw.githubusercontent.com/BuilderPulse/BuilderPulse/main/zh/2026/2026-05-23.md"
+    }
+  ]
 }
