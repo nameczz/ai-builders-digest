@@ -1,0 +1,93 @@
+{
+  "date": "2026-05-23",
+  "top3": [],
+  "intro": "（无 LLM 编辑模式：以下为原始数据归档，建议安装 codex CLI 重新生成。）",
+  "sections": [
+    {
+      "id": "discovery",
+      "title": "发现机会",
+      "blocks": [
+        {
+          "id": "indie-products",
+          "heading": "今天有哪些独立开发者的新产品？",
+          "summary_md": "（自动归档模式）今日 Show HN 与 Product Hunt 上线的独立开发者产品列表。",
+          "items": [
+            {
+              "title": "Vibedock",
+              "url": "https://www.producthunt.com/products/vibedock",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Bulkmark",
+              "url": "https://www.producthunt.com/products/bulkmark-2",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Finderlock",
+              "url": "https://www.producthunt.com/products/finderlock",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Google Antigravity CLI",
+              "url": "https://www.producthunt.com/products/google-antigravity",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "SignalLEMO - Ai Outreach Made Simple",
+              "url": "https://www.producthunt.com/products/signallemo-ai-outreach-made-simple",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Spantop",
+              "url": "https://www.producthunt.com/products/spantop",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Command A+",
+              "url": "https://www.producthunt.com/products/cohere-2",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "RetroMac",
+              "url": "https://www.producthunt.com/products/retromac",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Area Contrast Checker",
+              "url": "https://www.producthunt.com/products/area-contrast-checker",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Forsy",
+              "url": "https://www.producthunt.com/products/forsy",
+              "source": "ProductHunt"
+            }
+          ],
+          "takeaway": ""
+        }
+      ]
+    },
+    {
+      "id": "tech-stack",
+      "title": "技术选型",
+      "blocks": []
+    },
+    {
+      "id": "competition",
+      "title": "竞争情报",
+      "blocks": []
+    },
+    {
+      "id": "trends",
+      "title": "趋势判断",
+      "blocks": []
+    },
+    {
+      "id": "actions",
+      "title": "行动触发",
+      "blocks": []
+    }
+  ],
+  "generated_at": "2026-05-23T09:27:54+00:00",
+  "reddit_highlights": []
+}
