@@ -1,0 +1,148 @@
+{
+  "date": "2026-05-24",
+  "items": [
+    {
+      "id": "2026-05-24-1",
+      "title": "Cursor 替代潮，不是换 IDE",
+      "angle": "从搜索暴涨和开源项目高增长看，开发者真正想换的是可控上下文层，而不只是编辑器外壳。",
+      "opening": "过去一周，cursor alternative 的搜索热度涨了 424.8%。但最热的不是另一个聊天框，而是 codegraph、agentmemory、Understand-Anything 这种本地索引、记忆和知识图谱工具。",
+      "story_hook": {
+        "challenge": "AI IDE 的竞争表面是 Cursor、Codex、Claude Code 谁更强，底层冲突其实是上下文谁掌控。",
+        "twist": "用户不是只想换工具，而是在寻找更便宜、更开放、更能迁移的 AI coding 工作流。"
+      },
+      "takeaway": "做 AI 编程产品时，优先考虑迁移、索引、规则同步和团队配置，而不是再包一层聊天 UI。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Guillermo Rauch 统计 1400 条回复中 Codex 与 Claude Code 声量变化",
+          "url": "https://x.com/rauchg/status/2058353051073970416"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Google Trends：cursor alternative 上升 424.8%",
+          "url": "https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub Weekly：colbymchenry/codegraph 本周新增 15,909 stars",
+          "url": "https://github.com/colbymchenry/codegraph"
+        }
+      ]
+    },
+    {
+      "id": "2026-05-24-2",
+      "title": "一个周末，上架门槛塌了",
+      "angle": "把 Amjad 的 Replit 周末 MVP 和 Product Hunt 的 Mac 小工具放在一起看，独立开发的门槛正在从代码能力转向选题精度。",
+      "opening": "Amjad Masad 说，用 Replit 做 Dial，一个周末就做出 MVP，还过了苹果首审。与此同时，Product Hunt 上冒出来的不是宏大 AI 平台，而是 DynamicNotch、WhatCable、ModelHub、Vibedock 这些小而具体的 Mac 工具。",
+      "story_hook": {
+        "challenge": "过去做 App 难在开发和上架，现在难点变成选一个足够窄、足够痛、用户愿意马上付费的问题。",
+        "twist": "AI 没有让独立产品都变大，反而让更小的本地工具更容易商业化。"
+      },
+      "takeaway": "周末项目不要先做平台，先找一个菜单栏、Dock、Finder、MCP 或设备管理里的高频小痛点。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Amjad Masad 用 Replit 一个周末做出 Dial MVP 并通过苹果首审",
+          "url": "https://x.com/amasad/status/2058418731840159953"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt：ModelHub 本地 LLM 菜单栏入口",
+          "url": "https://www.producthunt.com/products/modelhub"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt：Vibedock 菜单栏切换 Claude Code MCP servers",
+          "url": "https://www.producthunt.com/products/vibedock"
+        }
+      ]
+    },
+    {
+      "id": "2026-05-24-3",
+      "title": "旧 RAG 正在被记忆层淘汰",
+      "angle": "用 gbrain-evals 的数字切入，讲为什么下一代 AI 应用的竞争点不是单次检索，而是记忆、重排和本地知识结构。",
+      "opening": "Garry Tan 转发的 gbrain-evals 里，gbrain 在 LongMemEval 上比 MemPalace 高 1%，比 Vector RAG 高 38%。这不是一个小 benchmark 的热闹，而是旧式向量检索正在被更完整的记忆层替代。",
+      "story_hook": {
+        "challenge": "传统 RAG 解决的是“能不能找到”，但 agent 真正需要的是“能不能长期记住、低成本调用、少走弯路”。",
+        "twist": "今天 GitHub 上高增长的项目，也不是更强模型，而是 codegraph、agentmemory 这种看起来朴素的工程基础设施。"
+      },
+      "takeaway": "评估 AI 应用不要只问模型多强，要问它的记忆是否可解释、可迁移、可审计、可控成本。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Garry Tan：gbrain-evals 显示 gbrain 在 LongMemEval 上甩开旧 Vector RAG",
+          "url": "https://x.com/garrytan/status/2058448209027141709"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub Weekly：rohitg00/agentmemory 本周新增 6,734 stars",
+          "url": "https://github.com/rohitg00/agentmemory"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub Weekly：codegraph 主打本地预索引代码知识图谱",
+          "url": "https://github.com/colbymchenry/codegraph"
+        }
+      ]
+    },
+    {
+      "id": "2026-05-24-4",
+      "title": "Agent 写代码，也要写日志",
+      "angle": "从 Peter Steinberger 的 scratch-log 建议出发，讲 AI coding 从演示走向生产后，真正稀缺的是可追责过程。",
+      "opening": "Peter Steinberger 给 Codex 大重构提了一个很实在的要求：别闷头干，要同步维护 scratch-log，记录关键决策、取舍和 review 修复。AI 写代码越快，人类越需要知道它为什么这么改。",
+      "story_hook": {
+        "challenge": "开发者喜欢 agent 的速度，但团队害怕的是它改完一大片代码后没人能解释决策链。",
+        "twist": "下一批值钱的 AI 编程工具，可能不是让模型更会写，而是让它更会留下证据。"
+      },
+      "takeaway": "在团队里引入 coding agent 时，把决策日志、审计记录、回滚点和 review 修复记录做成默认流程。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Peter Steinberger：让 Codex 大重构时维护 scratch-log",
+          "url": "https://x.com/steipete/status/2058308112134635528"
+        },
+        {
+          "tag": "pulse",
+          "ref": "humanlayer/12-factor-agents：让 LLM-powered software 可交付",
+          "url": "https://github.com/humanlayer/12-factor-agents"
+        },
+        {
+          "tag": "pulse",
+          "ref": "obra/superpowers：AI 编程方法论和技能框架高增长",
+          "url": "https://github.com/obra/superpowers"
+        }
+      ]
+    },
+    {
+      "id": "2026-05-24-5",
+      "title": "AI 裁员叙事太粗糙了",
+      "angle": "用 Aaron Levie 的岗位扩张观点，对冲“AI 取代岗位”的简单叙事，转向小团队能力边界的重画。",
+      "opening": "Aaron Levie 提醒大家，别把“AI 能完成任务”误读成“整个岗位可以消失”。代码、法律、销售、营销都会被拆成更多任务、更高质量和新工作流，小公司反而能做过去做不起的事。",
+      "story_hook": {
+        "challenge": "AI 自动化确实会吃掉一部分任务，但企业真正买单的是产出半径变大，而不是简单减少人头。",
+        "twist": "速度一旦足够快，变化不只是降本，而是像 Netflix 从寄 DVD 变成内容公司一样，业务形态会被重组。"
+      },
+      "takeaway": "判断 AI 机会时，不要只问能替代谁，要问它能让小团队新增哪些过去做不起的能力。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Aaron Levie：AI 不是简单裁掉岗位，而是扩大任务和岗位价值",
+          "url": "https://x.com/levie/status/2058223867815227756"
+        },
+        {
+          "tag": "builders",
+          "ref": "No Priors：Cerebras CEO Andrew Feldman 谈速度如何重塑商业模式",
+          "url": "https://www.youtube.com/watch?v=jeop9wfb9jU"
+        },
+        {
+          "tag": "pulse",
+          "ref": "HuggingFace：Lance、supertonic-3 等多模态模型下沉到消费级应用",
+          "url": "https://huggingface.co/bytedance-research/Lance"
+        }
+      ]
+    }
+  ],
+  "notes": "今日主线很清楚：AI 编程工具链从模型和聊天框，转向本地上下文、记忆、审计和小工具商业化。可写的独立开发者故事不少，但缺少真实营收和用户留存数据，选题应避免把 GitHub stars 直接写成商业成功。",
+  "generated_at": "2026-05-24T09:18:07+00:00",
+  "model": "gpt-5.5"
+}
