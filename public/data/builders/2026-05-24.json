@@ -1,0 +1,292 @@
+{
+  "date": "2026-05-24",
+  "generated_at": "2026-05-24T09:11:46+00:00",
+  "count": 19,
+  "items": [
+    {
+      "id": "2c8479c4b3",
+      "date": "2026-05-24",
+      "source": "x",
+      "author": "Garry Tan",
+      "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "title": "",
+      "summary_en": "My newest gbrain-evals just dropped - this is how gbrain does vs other options. https://t.co/yRWm72QEgf is SOTA for reranking and embedding cost, speed, and retrieval success.\n\nGBrain beats MemPalace by 1% on LongMemEval and beats Vector RAG by 38%\n\nhttps://t.co/nIk93HFTHb https://t.co/RIzXFkfFp8",
+      "summary_zh": "最新 gbrain-evals 显示，gbrain 在重排、embedding 成本、速度和检索成功率上打到 SOTA。LongMemEval 上它比 MemPalace 高 1%，比 Vector RAG 高 38%，不是微调优势，是直接甩开旧 RAG。",
+      "url": "https://x.com/garrytan/status/2058448209027141709",
+      "posted_at": "2026-05-24T07:21:11.000Z",
+      "tags": [
+        "@garrytan"
+      ]
+    },
+    {
+      "id": "ddaf8b97a8",
+      "date": "2026-05-24",
+      "source": "x",
+      "author": "Amjad Masad",
+      "bio": "ceo @replit. civilizationist",
+      "title": "",
+      "summary_en": "“I built my first three apps using Cursor and thought that was fast, but trying Replit for Dial completely blew me away. I built the MVP over a single weekend, and it actually got approved by Apple on the very first try—which has never happened to me before.” https://t.co/meAR1zAPLx",
+      "summary_zh": "用 Cursor 做前三个 App 已经觉得快了，但用 Replit 做 Dial 直接刷新速度上限：一个周末做出 MVP，还被苹果首审通过。对他来说，这不是提效，是把从想法到上架的门槛砍掉了一大截。",
+      "url": "https://x.com/amasad/status/2058418731840159953",
+      "posted_at": "2026-05-24T05:24:03.000Z",
+      "tags": [
+        "@amasad"
+      ]
+    },
+    {
+      "id": "f961a7bdba",
+      "date": "2026-05-24",
+      "source": "x",
+      "author": "Amjad Masad",
+      "bio": "ceo @replit. civilizationist",
+      "title": "",
+      "summary_en": "100% https://t.co/9hsvgTgudJ",
+      "summary_zh": "",
+      "url": "https://x.com/amasad/status/2058417703958773965",
+      "posted_at": "2026-05-24T05:19:58.000Z",
+      "tags": [
+        "@amasad"
+      ]
+    },
+    {
+      "id": "8676dce5e4",
+      "date": "2026-05-24",
+      "source": "x",
+      "author": "Peter Steinberger",
+      "bio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world. @OpenClaw🦞 + @OpenAI",
+      "title": "",
+      "summary_en": "I always wanted a GitHub dashboard: See my repos, open Issues/PRs, what version I released last, how many commits since last release.\n\nSo I built one for everyone.\nhttps://t.co/GWCP5wcrDQ https://t.co/DRvjenlVMi",
+      "summary_zh": "他想要一个能看清 GitHub 仓库、Issues/PR、上次发布版本和发布后提交数的仪表盘，于是直接做了一个给所有人用。",
+      "url": "https://x.com/steipete/status/2058381186884411473",
+      "posted_at": "2026-05-24T02:54:52.000Z",
+      "tags": [
+        "@steipete"
+      ]
+    },
+    {
+      "id": "eb2c853ac5",
+      "date": "2026-05-24",
+      "source": "x",
+      "author": "Thariq",
+      "bio": "Claude Code @anthropicai.   prev YC W20, @southpkcommons, @medialab",
+      "title": "",
+      "summary_en": "this is me cleaning up some leftover services for my old startup @OMMultiverse \n\nwe have a huge legacy codebase and a community that still uses it but I haven't had any time to actually look into cost saving measures myself",
+      "summary_zh": "他在给旧创业项目 @OMMultiverse 清理残留服务：代码库庞大、社区还在用，但他一直没时间亲自处理降本。",
+      "url": "https://x.com/trq212/status/2058380417716125966",
+      "posted_at": "2026-05-24T02:51:49.000Z",
+      "tags": [
+        "@trq212"
+      ]
+    },
+    {
+      "id": "48d371b857",
+      "date": "2026-05-24",
+      "source": "x",
+      "author": "Garry Tan",
+      "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "title": "",
+      "summary_en": "Thinking Machines is impressive. In a couple hours I just fine tuned my own Qwen3.5-397B model this afternoon. \n\nFast usable multimodal is also going to enable very mind-blowing personal AI. https://t.co/mm3laZb766",
+      "summary_zh": "Thinking Machines 已经把个人微调巨型模型压到几个小时：今天下午他就做出了自己的 Qwen3.5-397B。快且可用的多模态一旦铺开，个人 AI 会直接进入离谱阶段。",
+      "url": "https://x.com/garrytan/status/2058378310254793013",
+      "posted_at": "2026-05-24T02:43:26.000Z",
+      "tags": [
+        "@garrytan"
+      ]
+    },
+    {
+      "id": "a9d8024db4",
+      "date": "2026-05-24",
+      "source": "x",
+      "author": "Thariq",
+      "bio": "Claude Code @anthropicai.   prev YC W20, @southpkcommons, @medialab",
+      "title": "",
+      "summary_en": "every now and then I remember you can run the \"please save me money\" prompt and it will actually work https://t.co/5gXnHAwOE8",
+      "summary_zh": "偶尔才想起来，直接让 AI “帮我省钱”，它居然真的会奏效。别把提示词想太玄，有些最有用的命令就是这么粗暴。",
+      "url": "https://x.com/trq212/status/2058377974882210096",
+      "posted_at": "2026-05-24T02:42:06.000Z",
+      "tags": [
+        "@trq212"
+      ]
+    },
+    {
+      "id": "7fcfbf60ae",
+      "date": "2026-05-24",
+      "source": "x",
+      "author": "Guillermo Rauch",
+      "bio": "@vercel CEO",
+      "title": "",
+      "summary_en": "Processed 1400 replies\n◾ OpenAI is catching up to Anthropic \n◾ 'Codex' got more mentions than 'Claude Code'\n◾ However, by model mentions, A\\ is mogging https://t.co/BjtqVGmlUg https://t.co/74j8QbxuLX",
+      "summary_zh": "处理 1400 条回复后看，OpenAI 正在逼近 Anthropic，Codex 的声量已经压过 Claude Code。但按具体模型提及量算，Anthropic 仍在暴打 OpenAI。",
+      "url": "https://x.com/rauchg/status/2058353051073970416",
+      "posted_at": "2026-05-24T01:03:04.000Z",
+      "tags": [
+        "@rauchg"
+      ]
+    },
+    {
+      "id": "7c6e3deb4f",
+      "date": "2026-05-24",
+      "source": "x",
+      "author": "Nikunj Kothari",
+      "bio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
+      "title": "",
+      "summary_en": "Love spring https://t.co/oLDofrvDmA",
+      "summary_zh": "",
+      "url": "https://x.com/nikunj/status/2058338294191227247",
+      "posted_at": "2026-05-24T00:04:26.000Z",
+      "tags": [
+        "@nikunj"
+      ]
+    },
+    {
+      "id": "2dab289254",
+      "date": "2026-05-24",
+      "source": "x",
+      "author": "Peter Steinberger",
+      "bio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world. @OpenClaw🦞 + @OpenAI",
+      "title": "",
+      "summary_en": "codex... made a smiley? :) https://t.co/UJc4X4A8q1",
+      "summary_zh": "Codex 竟然做出了一个笑脸，工具味少了点，像是开始露出“我会整活”的表情。",
+      "url": "https://x.com/steipete/status/2058332234247987379",
+      "posted_at": "2026-05-23T23:40:21.000Z",
+      "tags": [
+        "@steipete"
+      ]
+    },
+    {
+      "id": "4879d84a59",
+      "date": "2026-05-24",
+      "source": "x",
+      "author": "Peter Steinberger",
+      "bio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world. @OpenClaw🦞 + @OpenAI",
+      "title": "",
+      "summary_en": "Tell codex to maintain a scratch-log while it works on bigger refactors with decisions it had to make, tradeoffs, review fixes, so later on you can read through which tradeoffs the agent made, what you forgot to specify etc.",
+      "summary_zh": "让 Codex 做大重构时别闷头干，要求它同步维护 scratch-log，记录关键决策、取舍和 review 修复。事后你能看清 agent 怎么权衡，也能反查自己到底漏说了什么。",
+      "url": "https://x.com/steipete/status/2058308112134635528",
+      "posted_at": "2026-05-23T22:04:30.000Z",
+      "tags": [
+        "@steipete"
+      ]
+    },
+    {
+      "id": "7b00e02d81",
+      "date": "2026-05-24",
+      "source": "x",
+      "author": "Amjad Masad",
+      "bio": "ceo @replit. civilizationist",
+      "title": "",
+      "summary_en": "It’s going to be epic! https://t.co/CtSXbyTRfX",
+      "summary_zh": "没给细节，只甩下一句预告：接下来要炸场了。",
+      "url": "https://x.com/amasad/status/2058292230700372356",
+      "posted_at": "2026-05-23T21:01:23.000Z",
+      "tags": [
+        "@amasad"
+      ]
+    },
+    {
+      "id": "6b528abe96",
+      "date": "2026-05-24",
+      "source": "x",
+      "author": "Garry Tan",
+      "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "title": "",
+      "summary_en": "We should fight the people who want to stop startups from staying in San Francisco. We want more startups and more prosperity. \n\nI'm fighting back through Garry's List Action, I'm in for $50K, I need 9 more people to match me. Are you in?\n\nhttps://t.co/dDMINuepyc",
+      "summary_zh": "他要正面回击那些想把创业公司赶出旧金山的人：旧金山需要更多创业公司、更多繁荣。他已向 Garry’s List Action 投入 5 万美元，并公开拉 9 个人同额跟进。",
+      "url": "https://x.com/garrytan/status/2058251537298980992",
+      "posted_at": "2026-05-23T18:19:41.000Z",
+      "tags": [
+        "@garrytan"
+      ]
+    },
+    {
+      "id": "22e5d75ead",
+      "date": "2026-05-24",
+      "source": "x",
+      "author": "Guillermo Rauch",
+      "bio": "@vercel CEO",
+      "title": "",
+      "summary_en": "Show me the thing you’ve built with AI you’re most proud of. Reply with a working product URL and what model / agent you primarily used.",
+      "summary_zh": "别讲概念，拿出你最得意的 AI 作品：可访问的产品 URL，以及主要用了哪个模型或 Agent。",
+      "url": "https://x.com/rauchg/status/2058245330836271263",
+      "posted_at": "2026-05-23T17:55:01.000Z",
+      "tags": [
+        "@rauchg"
+      ]
+    },
+    {
+      "id": "403580df05",
+      "date": "2026-05-24",
+      "source": "x",
+      "author": "Guillermo Rauch",
+      "bio": "@vercel CEO",
+      "title": "",
+      "summary_en": "gm 🏃‍♂️ https://t.co/VI6wkRSrTV",
+      "summary_zh": "",
+      "url": "https://x.com/rauchg/status/2058239837195628941",
+      "posted_at": "2026-05-23T17:33:12.000Z",
+      "tags": [
+        "@rauchg"
+      ]
+    },
+    {
+      "id": "e42d4860fd",
+      "date": "2026-05-24",
+      "source": "x",
+      "author": "Aditya Agarwal",
+      "bio": "General Partner @SouthPkCommons, Co-Founder @Bevel_Health | Ex: Early Eng @facebook, CTO @Dropbox, Board @Flipkart | Optimist, Builder, Dad",
+      "title": "",
+      "summary_en": "Can you imagine that we lived in a world 6 months (Nov 2025) ago when we would mostly just chat with LLMs and would be so happy about AI??\n\nIt's May 2026 and these LLMs now have produced more code than we have written over all time.",
+      "summary_zh": "半年前我们还只是跟 LLM 聊天，就已经觉得 AI 足够惊人。到 2026 年 5 月，它们写出的代码量已经超过人类有史以来写过的总和。",
+      "url": "https://x.com/adityaag/status/2058233900464238801",
+      "posted_at": "2026-05-23T17:09:36.000Z",
+      "tags": [
+        "@adityaag"
+      ]
+    },
+    {
+      "id": "bbde551831",
+      "date": "2026-05-24",
+      "source": "x",
+      "author": "Aaron Levie",
+      "bio": "ceo @box - your business lives in content. unleash it with AI",
+      "title": "",
+      "summary_en": "This is a fantastic post about why jobs aren’t going away in the way some predict. We are constantly making the mistake of confusing task completion with AI with being able to eliminate the whole job. \n\nEven as we can automate one or many tasks within a job, the definition of the job almost inevitably just expands to do vastly more of those tasks, do them at a higher quality, or move on to the type of task that hasn’t been automated yet. \n\nAnd as a result of being able to do more of the tasks or at a higher quality level, the job becomes valuable in a new way. And in many cases for now an entirely new audience as well. \n\nThis will be true for coding, legal work, sales, or marketing. The small business or non-tech company that wants to now take on larger software projects finally can, and they’ll hire to do so. The small business that couldn’t afford a full marketing agency can hire or contract out to a marketer that can do as much as an agency did before now with agents. And so on.\n\nDon’t fall into the trap of confusing tasks with jobs.",
+      "summary_zh": "别把“AI 能完成任务”误读成“整个岗位可以消失”：岗位会膨胀成更多任务、更高质量和新的未自动化工作。\n\n代码、法律、销售、营销都一样，AI 不是简单裁掉人，而是让小公司也能做过去做不起的事，于是岗位价值和需求会换一种方式冒出来。",
+      "url": "https://x.com/levie/status/2058223867815227756",
+      "posted_at": "2026-05-23T16:29:44.000Z",
+      "tags": [
+        "@levie"
+      ]
+    },
+    {
+      "id": "2374d113de",
+      "date": "2026-05-24",
+      "source": "x",
+      "author": "Nikunj Kothari",
+      "bio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
+      "title": "",
+      "summary_en": "Wrote this almost a year ago, and finally starting to see more B2B companies wake up to this opportunity.. \n\nDon’t wait another year. Narratives and vibes are extremely important to stand out amongst the slop 🪄 https://t.co/Hcu1kTqo9H",
+      "summary_zh": "B2B 公司终于开始意识到：在一堆 AI 垃圾内容里突围，靠的不只是产品，还有叙事和气质。别再等一年，窗口已经打开了。",
+      "url": "https://x.com/nikunj/status/2058203594672021769",
+      "posted_at": "2026-05-23T15:09:11.000Z",
+      "tags": [
+        "@nikunj"
+      ]
+    },
+    {
+      "id": "6b01ff4179",
+      "date": "2026-05-24",
+      "source": "podcast",
+      "author": "No Priors",
+      "bio": "",
+      "title": "The Story Behind Cerebras’ $63 Billion IPO with Founder and CEO Andrew Feldman",
+      "summary_en": "Speaker 1 | 00:00 - 00:12\nNetflix used to deliver DVDs and envelopes. And when the Internet got fast, they became a movie studio. Right? It opened up an entirely new business, something fundamentally different. That's what happens with speed.\n\nSpeaker 1 | 00:12 - 00:30\nAnd I think that's what fast AI does. Right now, we're replacing things that everybody can see, like coding, design, the SaaS tools. But once we start sort of fundamentally reorganizing around this, you're gonna see this sort of new business models and fundamental jumps in productivity. I'm eager for that. That's so cool.\n\nSpeaker 2 | 00:37 - 01:01\nToday at No Prize, we have Andrew Feldman, the cofounder and CEO of Cerebras. Cerebras was founded in the mid two thousand tens to focus on new workloads for AI, particularly the machine learning world, and then has made the transition in a very fast inference for the foundation model world that we live in today. Cerebras recently went public and is currently worth about $63,000,000,000 in the stock market. So Andrew, thank you for joining us on Opriors.\n\nSpeaker 1 | 01:01 - 01:03\nOh, what a pleasure. It's good to see you guys again.\n\nSpeaker 2 | 01:03 - 01:12\nYeah. So first of all, congratulations. So your company, Cerebras, just went public. As of today, it's a 60,000,000,000 market cap, which is pretty amazing. Pretty amazing.\n\nSpeaker 2 | 01:12 - 01:27\nYeah. And I think you were with us a year or two ago on the show in one of the earlier episodes, it was a pleasure to talk to you then. Obviously, we're very excited to have you on today. Can you tell us a bit how the business evolved since that time and what you folks just a reminder for our audience what you do, what you're focused on, how you're moving forward?\n\nSpeaker 1 | 01:28 - 01:43\nWe build AI comput",
+      "summary_zh": "速度会把公司推向完全不同的生意：Netflix 从寄 DVD 变成电影公司，快速 AI 也不会只停留在替代写代码、做设计、跑 SaaS。真正的变化是企业围绕它重新组织，长出新商业模式，并带来生产力的跃迁。",
+      "url": "https://www.youtube.com/watch?v=jeop9wfb9jU",
+      "posted_at": "2026-05-21T07:00:00.000Z",
+      "tags": [
+        "podcast"
+      ]
+    }
+  ]
+}
