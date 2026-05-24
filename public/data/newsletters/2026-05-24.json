@@ -1,0 +1,58 @@
+{
+  "date": "2026-05-24",
+  "generated_at": "2026-05-24T00:46:48+00:00",
+  "inbox_id": "sanyoumu@agentmail.to",
+  "window": {
+    "start": "2026-05-23T00:48:03+00:00",
+    "end": "2026-05-24T00:45:59.497888+00:00",
+    "source": "previous_digest_generated_at"
+  },
+  "count": 1,
+  "highlights": [
+    "今日精读：AINews 认为大模型实验室正在集体变成 Agent 实验室，竞争重心从“模型本身”上移到模型、工具、流程、记忆、界面和商业闭环组成的产品系统。",
+    "邮件指出，OpenAI、AI21、DeepSeek 等信号都在显示：单纯训练和发布模型不再足以构成核心产品。",
+    "Codex 的持续更新说明 coding agent 正在从辅助工具变成开发工作流入口，但远程执行等体验仍有明显打磨空间。",
+    "对 builder 来说，机会不只在调用更强模型，而在设计能放大模型能力、沉淀用户工作流的 harness 和产品层。"
+  ],
+  "items": [
+    {
+      "id": "all-model-labs-are-now-agent-labs",
+      "title_zh": "大模型实验室正在变成 Agent 实验室",
+      "title_original": "All Model Labs are now Agent Labs",
+      "source": "AINews / Latent Space",
+      "from": "AINews <swyx+ainews@substack.com>",
+      "subject": "[AINews] All Model Labs are now Agent Labs",
+      "url": "https://www.latent.space/p/ainews-all-model-labs-are-now-agent",
+      "message_id": "<20260523042117.3.abab10a98e627c15@mg-d0.substack.com>",
+      "published_at": "2026-05-23T04:21:17.000Z",
+      "importance": "high",
+      "summary_zh": "这封 AINews 的核心判断是：AI 行业的竞争正在从“谁有最强模型”转向“谁能把模型做成可用的 Agent 产品”。邮件引用 Greg 的观点称“模型本身不再是产品”，并把 OpenAI、AI21、DeepSeek 等动向放在同一趋势下观察：模型实验室开始建设 harness、workflow、UI、memory 和经济模型，把能力封装成更完整的工作流入口。邮件还整理了 Codex 的一系列产品更新，包括 appshots、/goal 改进、锁屏时远程 computer use、annotation mode、插件分享和 analytics，并指出用户确实开始改变开发习惯，但远程工作流等体验仍有缺陷。",
+      "deep_read_zh": "这篇最值得精读的地方，不是单个产品更新，而是它把近期 AI 产品竞争的重心变化讲清楚了：模型能力仍然重要，但“只交付模型”越来越不像最终产品。邮件开头把 Greg 的表述放在中心位置：模型本身不再是产品。AINews 认为这是一次立场反转，因为过去很多大模型阵营默认相信，核心价值在基础模型本身，应用层、工具层、工作流层只是下游生态。但现在，模型实验室自己正在向上游产品界面延伸，直接构建 Agent、harness、工作流和用户入口。邮件给出的几个信号包括：AI21 关闭或调整模型团队后转向 Agent，DeepSeek 也开始建设所谓 Harness team，OpenAI 的 Codex 则持续把 coding agent 做成完整开发环境的一部分。这里的关键概念是 harness：它不是简单提示词包装，而是模型和工具、上下文、权限、状态、记忆、UI、执行环境之间的协同层。对于 builder 来说，这意味着产品差异化不再只是“接入哪个模型”，而是能否让模型在具体任务里稳定行动、理解上下文、调用工具、产生可验证结果，并形成用户每天离不开的工作流。邮件也提醒了另一个隐含风险：如果模型和私有 harness 一起训练或后训练，模型提供方可能进一步关闭底层能力，把用户导向自家的 Agent 产品，而不是开放 API 生态。这会改变独立开发者与模型公司的关系：过去是共生式调用，未来可能变成平台方和应用方争夺同一用户入口。Codex 的更新则是这个趋势的具体样本。appshots、远程 computer use、annotation mode、插件分享、analytics 这些能力都不是单纯模型能力，而是在争夺开发者工作台。值得继续观察的是，coding agent 的护城河会来自模型、执行环境、IDE 替代、远程工作流，还是来自组织级协作和数据闭环。",
+      "why_important": "它抓住了 AI 产品化的一个关键转向：模型能力正在被 Agent 产品、harness 和工作流重新包装。对 AI builder 来说，这直接影响产品定位、技术栈选择和与模型平台的关系。",
+      "impact": "独立开发者需要更重视产品层和任务执行层，而不是只追逐最新模型 API。模型公司如果把 harness 变成闭源入口，可能压缩中间层应用的空间，同时也会催生更专业、更垂直的 Agent 产品机会。",
+      "key_points": [
+        "AINews 认为大模型实验室正在转向 Agent 产品，模型不再单独构成最终产品。",
+        "邮件提到 AI21 转向 Agent、DeepSeek 建设 Harness team，作为行业上移到系统层的信号。",
+        "模型与 harness 协同训练可能让模型能力进一步绑定闭源 Agent，改变 API 生态的开放性。",
+        "Codex 更新包括 appshots、/goal 改进、远程 computer use、annotation mode、插件分享和 analytics。",
+        "用户反馈显示 coding agent 已经改变部分开发者工作流，但远程工作流仍有体验问题。"
+      ],
+      "reading_notes": [
+        "判断一个 AI 产品时，要看它是否拥有自己的任务上下文、执行环境和反馈闭环，而不只是模型调用。",
+        "观察模型公司是否会通过私有 harness 把开放 API 的价值转移到自家 Agent 产品。",
+        "关注 coding agent 的竞争焦点从补全代码转向远程执行、协作、状态管理和开发入口控制。",
+        "区分真正的新交互范式和简单复刻 Claude Code 式界面的产品。"
+      ],
+      "tags": [
+        "agent",
+        "model",
+        "infra",
+        "developer-tools",
+        "product"
+      ],
+      "related_sources": []
+    }
+  ],
+  "skipped": [],
+  "notes": "今日只有 1 封正式 newsletter 邮件，因此它同时作为今日精读和单篇总结。输入文本后半部分在 Claude 相关段落处截断，未纳入未提供的细节；没有发现需要剔除的确认订阅、广告或重复邮件。"
+}
