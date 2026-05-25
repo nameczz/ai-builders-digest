@@ -1,0 +1,337 @@
+{
+  "date": "2026-05-25",
+  "generated_at": "2026-05-25T09:11:10+00:00",
+  "count": 22,
+  "items": [
+    {
+      "id": "8a1dc1a4b8",
+      "date": "2026-05-25",
+      "source": "x",
+      "author": "Nikunj Kothari",
+      "bio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
+      "title": "",
+      "summary_en": "Reverse engineering APIs through network requests is one of the most fun things you can do with Claude Code to automate tasks.. \n\nSO many websites are impossible to navigate \"deterministically\" via the DOM (or through screenshots).\n\nSo, I just point Claude Code to use browser_harness by @browser_use (or vanilla playwright) and ask it to sniff network requests on the pages that I'm trying to get info on. \n\nAnd, I just keep clicking around on the sections of data that I want. And, then Claude Code is generally able to go through the logs to figure out what is the right structure for these APIs and what kind of auth do they need (most are cookie based). We also determine what kind of rate limits exist based on trial and error. \n\nI'm able to use that to construct jobs that allow me to get that data programmatically. There are many use cases for this besides scraping. I use this for random side projects (like the travel CLI), for monitoring websites (for intel), and for many many other use cases. \n\nEvery website will soon need to be headless, and we'll need to figure out mechanisms for how we have our agents pay these websites programmatically as well. \n\nJust as we have llms.txt for data and structure, we'll soon need tools.txt for agents to determine what tools exist that can be leveraged.",
+      "summary_zh": "别再死磕 DOM 和截图了，让 Claude Code 嗅探网页网络请求、反推 API、认证和限流，才是把网站数据变成可编程任务的狠招。未来网站都得为无头代理开放，除了 `llms.txt`，还会需要告诉 agent 能调用什么的 `tools.txt`。",
+      "url": "https://x.com/nikunj/status/2058783316753686558",
+      "posted_at": "2026-05-25T05:32:47.000Z",
+      "tags": [
+        "@nikunj"
+      ]
+    },
+    {
+      "id": "696373878f",
+      "date": "2026-05-25",
+      "source": "x",
+      "author": "Garry Tan",
+      "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "title": "",
+      "summary_en": "High agency high taste is the unlock these days https://t.co/8dfIHx5wFP",
+      "summary_zh": "现在真正的解锁项，是高能动性叠加高品味：既能主动把事推进，也能判断什么值得做。",
+      "url": "https://x.com/garrytan/status/2058769355916411099",
+      "posted_at": "2026-05-25T04:37:19.000Z",
+      "tags": [
+        "@garrytan"
+      ]
+    },
+    {
+      "id": "d77a3d5677",
+      "date": "2026-05-25",
+      "source": "x",
+      "author": "Garry Tan",
+      "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "title": "",
+      "summary_en": "When all your friends are building on the edge https://t.co/u2jq0QxvBY",
+      "summary_zh": "身边的 AI builder 都在往 edge 上卷，传统架构一下显得像上个时代的遗物。",
+      "url": "https://x.com/garrytan/status/2058767163666887136",
+      "posted_at": "2026-05-25T04:28:36.000Z",
+      "tags": [
+        "@garrytan"
+      ]
+    },
+    {
+      "id": "d3600a8395",
+      "date": "2026-05-25",
+      "source": "x",
+      "author": "Garry Tan",
+      "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "title": "",
+      "summary_en": "I'm having the time of my life frankly https://t.co/5xJDLgOLfu",
+      "summary_zh": "他没装谦虚：现在就是人生最爽的一段。",
+      "url": "https://x.com/garrytan/status/2058767083777949930",
+      "posted_at": "2026-05-25T04:28:17.000Z",
+      "tags": [
+        "@garrytan"
+      ]
+    },
+    {
+      "id": "fe482c6993",
+      "date": "2026-05-25",
+      "source": "x",
+      "author": "Guillermo Rauch",
+      "bio": "@vercel CEO",
+      "title": "",
+      "summary_en": "How do you build a great brand? Build a great product https://t.co/4je32ZC6Ub",
+      "summary_zh": "伟大品牌不是包装出来的，而是靠伟大产品长出来的。",
+      "url": "https://x.com/rauchg/status/2058750970998505505",
+      "posted_at": "2026-05-25T03:24:15.000Z",
+      "tags": [
+        "@rauchg"
+      ]
+    },
+    {
+      "id": "f968477947",
+      "date": "2026-05-25",
+      "source": "x",
+      "author": "Nikunj Kothari",
+      "bio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
+      "title": "",
+      "summary_en": "Interesting that when I say travel (and points) most people instantly think of flights. Points for hotels are dramatically underrated folks!!",
+      "summary_zh": "一提旅行和积分，大多数人脑子里只剩机票。真正被严重低估的是酒店积分。",
+      "url": "https://x.com/nikunj/status/2058735679539195991",
+      "posted_at": "2026-05-25T02:23:30.000Z",
+      "tags": [
+        "@nikunj"
+      ]
+    },
+    {
+      "id": "09779e82b3",
+      "date": "2026-05-25",
+      "source": "x",
+      "author": "Dan Shipper",
+      "bio": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "title": "",
+      "summary_en": "Fantastic breakdown of After Automation in today’s AI Daily Brief\n\nThanks for such a thoughtful episode @nlw! https://t.co/YXefJrdTu0",
+      "summary_zh": "今天的 AI Daily Brief 把《After Automation》拆得很透，NLW 这一期解读够扎实。",
+      "url": "https://x.com/danshipper/status/2058723492355252490",
+      "posted_at": "2026-05-25T01:35:04.000Z",
+      "tags": [
+        "@danshipper"
+      ]
+    },
+    {
+      "id": "4b88cd472b",
+      "date": "2026-05-25",
+      "source": "x",
+      "author": "Nikunj Kothari",
+      "bio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
+      "title": "",
+      "summary_en": "Spent this weekend building a pretty rad (imo) travel CLI product that I'd love to test in public..\n\nAnyone have a trip coming up soon AND has a boatload of points?\n\nReply here with origin, destination, point breakdown and I'll reply with the output!",
+      "summary_zh": "他周末做了个旅行 CLI，想拿真实行程公开试刀：谁最近要出行、手里攒了一堆积分，把出发地、目的地和积分明细丢出来，他直接回工具跑出的结果。",
+      "url": "https://x.com/nikunj/status/2058692391708897319",
+      "posted_at": "2026-05-24T23:31:29.000Z",
+      "tags": [
+        "@nikunj"
+      ]
+    },
+    {
+      "id": "4666d0e767",
+      "date": "2026-05-25",
+      "source": "x",
+      "author": "Dan Shipper",
+      "bio": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "title": "",
+      "summary_en": "wdyt? what is @every? https://t.co/4cT206USFg",
+      "summary_zh": "Dan Shipper 把问题直接扔出来：@every 到底是什么，是媒体、AI 实验室，还是知识工作的入口？这不是求建议，而是在逼大家重新定义一家正在变形的 AI 公司。",
+      "url": "https://x.com/danshipper/status/2058682096432861371",
+      "posted_at": "2026-05-24T22:50:34.000Z",
+      "tags": [
+        "@danshipper"
+      ]
+    },
+    {
+      "id": "a5d22005f1",
+      "date": "2026-05-25",
+      "source": "x",
+      "author": "Dan Shipper",
+      "bio": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "title": "",
+      "summary_en": "if you didnt read it yet you should: https://t.co/j3r4aTuQoi",
+      "summary_zh": "没读就别拖了，这篇值得立刻补上。",
+      "url": "https://x.com/danshipper/status/2058677513040138432",
+      "posted_at": "2026-05-24T22:32:22.000Z",
+      "tags": [
+        "@danshipper"
+      ]
+    },
+    {
+      "id": "8fed658c38",
+      "date": "2026-05-25",
+      "source": "x",
+      "author": "Matt Turck",
+      "bio": "VC at @FirstMarkCap.  Host: MAD Podcast; Organizer: Data Driven NYC, Author: MAD Landscape.",
+      "title": "",
+      "summary_en": "Is AGI already here?\n\n \"I think if we froze the models that we have right now and you really worked on the harness and maybe we also spent more time training with a great harness, I think people would really feel the AGI in every single domain\" - @yanndubs of @OpenAI https://t.co/amFrnChXkC https://t.co/nGv05BVzMI",
+      "summary_zh": "AGI 可能已经在现有模型里了，问题不在模型继续变大，而在外层 harness 太烂；把工具链和训练环境打磨好，人们会在每个领域都感觉 AGI 已经到了。",
+      "url": "https://x.com/mattturck/status/2058659995311358332",
+      "posted_at": "2026-05-24T21:22:45.000Z",
+      "tags": [
+        "@mattturck"
+      ]
+    },
+    {
+      "id": "392e0aff85",
+      "date": "2026-05-25",
+      "source": "x",
+      "author": "Zara Zhang",
+      "bio": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://t.co/KCuEajezlL YouTube: https://t.co/8xzbGWtf6w",
+      "title": "",
+      "summary_en": "I recently discovered a life-changing Mac app “Amphetamine” which keeps your Mac awake even when lid is closed \n\nMuch more reliable &amp; easier to use than the caffeinate command in the terminal \n\nNow I can finally close my laptop with peace of mind https://t.co/hhyJw5cy4H https://t.co/rf8ukajSbW",
+      "summary_zh": "发现了一个救命 Mac 工具 Amphetamine：合盖也能保持唤醒，比终端 `caffeinate` 稳得多、好用得多。以后终于能放心合上笔记本，不怕任务被睡眠打断。",
+      "url": "https://x.com/zarazhangrui/status/2058643577421631538",
+      "posted_at": "2026-05-24T20:17:31.000Z",
+      "tags": [
+        "@zarazhangrui"
+      ]
+    },
+    {
+      "id": "58d7fa911d",
+      "date": "2026-05-25",
+      "source": "x",
+      "author": "Zara Zhang",
+      "bio": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://t.co/KCuEajezlL YouTube: https://t.co/8xzbGWtf6w",
+      "title": "",
+      "summary_en": "Ran into a friend who was an engineering manager; she just voluntarily transitioned to be an IC and has never been happier because she can finally get her hands on building again",
+      "summary_zh": "一个工程经理朋友主动转回 IC，开心得不行：终于不用困在管理里，可以重新亲手造东西了。",
+      "url": "https://x.com/zarazhangrui/status/2058640897236140034",
+      "posted_at": "2026-05-24T20:06:52.000Z",
+      "tags": [
+        "@zarazhangrui"
+      ]
+    },
+    {
+      "id": "def1d8278c",
+      "date": "2026-05-25",
+      "source": "x",
+      "author": "Guillermo Rauch",
+      "bio": "@vercel CEO",
+      "title": "",
+      "summary_en": "BJJ is the peak athletic pursuit. Nothing I’ve tried comes close. Join the cult",
+      "summary_zh": "巴西柔术就是运动追求的顶点，我试过的其他项目都不够看。入教吧。",
+      "url": "https://x.com/rauchg/status/2058628992631193657",
+      "posted_at": "2026-05-24T19:19:33.000Z",
+      "tags": [
+        "@rauchg"
+      ]
+    },
+    {
+      "id": "a06c580ec1",
+      "date": "2026-05-25",
+      "source": "x",
+      "author": "Peter Yang",
+      "bio": "Practical AI tutorials and interviews for busy people | Join 140K+ readers at https://t.co/XYKTmGVH14 | Product at Roblox",
+      "title": "",
+      "summary_en": "\"I've raised a $2M seed round, but I'm not going to hire anybody for a while.\n\nAs a startup founder, you want to understand every job and do it and feel the pain before you hire.\n\nThe reality is that an agent is alot faster to onboard and they retain all the training so you can improve it over time.\"\n\n📌 Watch Ryan talk more about how he onboards AI agents here: https://t.co/FXCjrzrFRO",
+      "summary_zh": "融了 200 万美元种子轮，也先不招人：创始人该先把每个岗位自己干一遍、痛一遍，再决定要不要雇人。现实是 AI agent 上手更快，还能把训练都留下，越调越强。",
+      "url": "https://x.com/petergyang/status/2058609058714968194",
+      "posted_at": "2026-05-24T18:00:21.000Z",
+      "tags": [
+        "@petergyang"
+      ]
+    },
+    {
+      "id": "0261a60321",
+      "date": "2026-05-25",
+      "source": "x",
+      "author": "Zara Zhang",
+      "bio": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://t.co/KCuEajezlL YouTube: https://t.co/8xzbGWtf6w",
+      "title": "",
+      "summary_en": "OpenAI being more open\nAlso I just realized recently that Codex is open source https://t.co/ngBc1lrF7c",
+      "summary_zh": "OpenAI 终于更像名字里的“Open”了：我也是最近才发现，Codex 居然已经开源。",
+      "url": "https://x.com/zarazhangrui/status/2058604604422815832",
+      "posted_at": "2026-05-24T17:42:39.000Z",
+      "tags": [
+        "@zarazhangrui"
+      ]
+    },
+    {
+      "id": "1ab37a8441",
+      "date": "2026-05-25",
+      "source": "x",
+      "author": "Madhu Guru",
+      "bio": "Product Leader at Google - Gemini, Veo, Nano Banana. All opinions mine.",
+      "title": "",
+      "summary_en": "CEOs feel AI FOMO, but many of them and their lieutenants have gotten used to arms-length leadership and lack the muscle to get hands-on with AI.\n\nSo they set sweeping, imprecise AI mandates for their company.\n\nThis leads to performative, low-effort demos from employees trying to meet the coarse goals.\n\nNext thing you know it’s been two years with no real progress and a startup with hands-on leadership is disrupting you.",
+      "summary_zh": "很多 CEO 一边 AI 焦虑，一边又习惯了隔空指挥，根本没有亲自下场做 AI 的肌肉。结果公司里只剩粗糙口号和表演式 Demo，两年过去毫无进展，最后被真正动手的创业公司掀翻。",
+      "url": "https://x.com/realmadhuguru/status/2058591611245011157",
+      "posted_at": "2026-05-24T16:51:01.000Z",
+      "tags": [
+        "@realmadhuguru"
+      ]
+    },
+    {
+      "id": "3ffa455cc3",
+      "date": "2026-05-25",
+      "source": "x",
+      "author": "Aaron Levie",
+      "bio": "ceo @box - your business lives in content. unleash it with AI",
+      "title": "",
+      "summary_en": "CEOs are uniquely prone to AI psychosis because they’re sufficiently distant from the last mile of work that still has to happen to generate most value with AI.\n\nSo when they play with AI, they see the happy path results, often not considering the next 10 or 20 things that have to happen to get sustainable results from agents. \n\n“Look I made this awesome product prototype”. Yes but you didn’t have to review the code before it went into production and fix a bunch of issues.\n\n“Look I generated a contract”. Yes but you didn’t verify all the terms before it goes out to the counterparty and didn’t have to wire up all the past contracts to work with.\n\nThe best thing you can do as a CEO is to use AI a *ton* to figure out the real implications of agents in the enterprise, and come out the other side with an appreciation for both the upside and the real work that goes into them.",
+      "summary_zh": "CEO 最容易陷入“AI 精神错乱”：离真实执行太远，只看见原型和合同草稿的 happy path，却不用为上线前审代码、修坑、核条款、接历史系统买单。真正该做的是大量使用 AI，穿过兴奋幻觉，搞清楚企业 Agent 的上限，也尊重把它变成可持续结果所需的脏活累活。",
+      "url": "https://x.com/levie/status/2058582370253701432",
+      "posted_at": "2026-05-24T16:14:18.000Z",
+      "tags": [
+        "@levie"
+      ]
+    },
+    {
+      "id": "b70856482b",
+      "date": "2026-05-25",
+      "source": "x",
+      "author": "Thariq",
+      "bio": "Claude Code @anthropicai.   prev YC W20, @southpkcommons, @medialab",
+      "title": "",
+      "summary_en": "to be clear I don't think the models are quite there yet, Bun is extremely verifiable and has incredible test coverage\n\nbut I think they will get there",
+      "summary_zh": "他直说，现在的模型还没到位；Bun 之所以适合让 AI 上手，是因为可验证性极强、测试覆盖离谱地好。真正的判断是：模型终会追上来。",
+      "url": "https://x.com/trq212/status/2058576196481200223",
+      "posted_at": "2026-05-24T15:49:46.000Z",
+      "tags": [
+        "@trq212"
+      ]
+    },
+    {
+      "id": "cd0cdcf804",
+      "date": "2026-05-25",
+      "source": "x",
+      "author": "Thariq",
+      "bio": "Claude Code @anthropicai.   prev YC W20, @southpkcommons, @medialab",
+      "title": "",
+      "summary_en": "my main takeaway from the Bun rewrite is that legacy codebases will be incredibly valuable as a source for \"distilling\" code into new forms\n\nevery game should be crossplatform, all legacy software should work on the web, we don't need COBOL anymore",
+      "summary_zh": "Bun 重写给他的启发是：遗留代码库不是包袱，而是把旧系统“蒸馏”成新形态的高价值原料。游戏就该全平台，所有老软件都该跑上 Web，COBOL 这种历史债该结束了。",
+      "url": "https://x.com/trq212/status/2058576195000660319",
+      "posted_at": "2026-05-24T15:49:46.000Z",
+      "tags": [
+        "@trq212"
+      ]
+    },
+    {
+      "id": "1943821e9d",
+      "date": "2026-05-25",
+      "source": "x",
+      "author": "Peter Yang",
+      "bio": "Practical AI tutorials and interviews for busy people | Join 140K+ readers at https://t.co/XYKTmGVH14 | Product at Roblox",
+      "title": "",
+      "summary_en": "Also available on:\n\nSpotify: https://t.co/shl37wNvac\n\nApple: https://t.co/shNRmPP2Wb\n\nNewsletter: https://t.co/s32MgNbiGD",
+      "summary_zh": "内容不只在 X 上，Spotify、Apple 和 Newsletter 都能订阅。意思很直接：别等平台喂流，想持续跟就自己订。",
+      "url": "https://x.com/petergyang/status/2058555238500724744",
+      "posted_at": "2026-05-24T14:26:29.000Z",
+      "tags": [
+        "@petergyang"
+      ]
+    },
+    {
+      "id": "002f5f6883",
+      "date": "2026-05-25",
+      "source": "x",
+      "author": "Peter Yang",
+      "bio": "Practical AI tutorials and interviews for busy people | Join 140K+ readers at https://t.co/XYKTmGVH14 | Product at Roblox",
+      "title": "",
+      "summary_en": "\"We used to say build the MVP. Now you should build the system that builds the MVP first.\"\n\nHere's my new episode with @ryancarson where he shared how he runs his startup solo with AI agents:\n\n✅ OpenClaw as his AI chief of staff to triage emails, book meetings, and do sales outreach\n\n✅ Codex and Devin as his AI eng team to ship features while he sleeps\n\nSome quotes from Ryan:\n\n\"Spend a lot of time upfront setting up your skills + documentation. Then you've suddenly unlocked the work of 10 people.\"\n\n\"Treat your agent like a real employee. Give it a real email address, calendar access, and GitHub account.\"\n\n\"Pay a designer to set up your design system and brand. After that, you can use AI to generate on-brand assets.\"\n\n📌 Watch now: https://t.co/Slc5cEkFGQ\n\nThanks to our sponsors:\n\n@WisprFlow: Don't type, just speak https://t.co/oqHJ8bN3ll\n\n@linear: The AI agent platform for modern teams https://t.co/yFylGfkenJ",
+      "summary_zh": "MVP 时代结束了：真正该先搭的是一套能自动做 MVP 的系统。Ryan Carson 的做法是把 AI agent 当员工配齐权限和文档，让它们管邮件、跑销售、写代码、出资产，把一个人变成十个人。",
+      "url": "https://x.com/petergyang/status/2058555226479866312",
+      "posted_at": "2026-05-24T14:26:26.000Z",
+      "tags": [
+        "@petergyang"
+      ]
+    }
+  ]
+}
