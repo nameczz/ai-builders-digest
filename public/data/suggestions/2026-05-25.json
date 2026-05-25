@@ -1,0 +1,148 @@
+{
+  "date": "2026-05-25",
+  "items": [
+    {
+      "id": "2026-05-25-1",
+      "title": "别做 IDE，先做代码地图",
+      "angle": "从 codegraph 暴涨切入，讲 AI 编程真正缺的不是聊天框，而是可验证、可复用的上下文基础设施。",
+      "opening": "codegraph 一周新增 18136 星，不是因为它又包了一层模型。它解决的是更底层的问题：AI 写代码前，先得知道这个仓库到底长什么样。",
+      "story_hook": {
+        "challenge": "AI 编程工具都在抢入口，但真实瓶颈是上下文混乱、调用浪费和代码库不可理解。",
+        "twist": "越接近 AGI，越值钱的反而是索引、记忆、测试和代码图谱这些“土基建”。"
+      },
+      "takeaway": "做 AI 开发工具时，优先设计代码索引、持久记忆、测试反馈和上下文打包，而不是先造一个新聊天界面。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Matt Turck：AGI 可能已在现有模型里，问题是外层 harness 太烂",
+          "url": "https://x.com/mattturck/status/2058659995311358332"
+        },
+        {
+          "tag": "builders",
+          "ref": "Thariq：Bun 适合 AI 上手，因为可验证性强、测试覆盖好",
+          "url": "https://x.com/trq212/status/2058576196481200223"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub Weekly：colbymchenry/codegraph 一周新增 18136 星",
+          "url": "https://github.com/colbymchenry/codegraph"
+        }
+      ]
+    },
+    {
+      "id": "2026-05-25-2",
+      "title": "CEO 的 AI 幻觉要还债了",
+      "angle": "把 Aaron Levie 和 Madhu Guru 的批评，与 HN 对 AI 噪音的疲劳放在一起，讲企业 AI 从 Demo 进入脏活阶段。",
+      "opening": "很多 CEO 看到的是合同草稿、原型视频和漂亮 Demo。Aaron Levie 看到的是另一面：审代码、核条款、接旧系统，以及上线前所有没人愿意拍的坑。",
+      "story_hook": {
+        "challenge": "管理层以为 AI 已经能替代执行，但一线团队还在为不可控输出、历史系统和质量责任买单。",
+        "twist": "真正懂 AI 的 CEO，不是喊得最激进的人，而是亲自用到幻觉破灭还继续打磨流程的人。"
+      },
+      "takeaway": "企业引入 AI agent 时，要把评估、审计、回滚、引用和人工责任边界设计进流程，而不是只看 happy path Demo。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Aaron Levie：CEO 容易陷入 AI 精神错乱，忽视企业 Agent 的脏活",
+          "url": "https://x.com/levie/status/2058582370253701432"
+        },
+        {
+          "tag": "builders",
+          "ref": "Madhu Guru：CEO 不亲自下场做 AI，只剩口号和表演式 Demo",
+          "url": "https://x.com/realmadhuguru/status/2058591611245011157"
+        },
+        {
+          "tag": "pulse",
+          "ref": "HN：The Eternal Sloptember，313 分、244 条评论",
+          "url": "https://geohot.github.io//blog/jekyll/update/2026/05/24/the-eternal-sloptember.html"
+        }
+      ]
+    },
+    {
+      "id": "2026-05-25-3",
+      "title": "种子轮之后先别招人",
+      "angle": "从 Peter Yang 的“创始人先把岗位自己痛一遍”切入，讲 AI agent 正在改变早期公司的组织设计。",
+      "opening": "融了 200 万美元，第一反应不一定是招人。Peter Yang 的判断更狠：创始人应该先亲手干完每个岗位，再决定哪些工作真的值得雇人。",
+      "story_hook": {
+        "challenge": "过去种子轮后的默认动作是扩团队，但现在很多岗位的第一版训练、流程和资产都可以先交给 agent 跑出来。",
+        "twist": "MVP 可能不是产品本身，而是一套能持续生产 MVP 的小型 agent 公司。"
+      },
+      "takeaway": "早期团队可以先把销售、邮件、代码、素材和客服流程做成 agent playbook，再根据瓶颈招聘，而不是按传统职能表补人。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Peter Yang：融 200 万美元种子轮也先不招人，创始人应先自己干一遍",
+          "url": "https://x.com/petergyang/status/2058609058714968194"
+        },
+        {
+          "tag": "builders",
+          "ref": "Peter Yang：MVP 时代结束了，先搭能自动做 MVP 的系统",
+          "url": "https://x.com/petergyang/status/2058555226479866312"
+        },
+        {
+          "tag": "pulse",
+          "ref": "ProductHunt：Pi Coding Agent，主打可自定义 coding-agent harness",
+          "url": "https://www.producthunt.com/products/pi-coding-agent-3"
+        }
+      ]
+    },
+    {
+      "id": "2026-05-25-4",
+      "title": "网站该给 Agent 开门了",
+      "angle": "从 Nikunj Kothari 的网络请求嗅探观点切入，讲 agent 访问网站的入口会从 DOM、截图迁移到 API、MCP 和 tools.txt。",
+      "opening": "如果你的 agent 还在盯着 DOM 和截图，它可能已经落后了。Nikunj Kothari 的狠招是让 Claude Code 嗅探网页网络请求，直接反推 API、认证和限流。",
+      "story_hook": {
+        "challenge": "网页是给人看的，但 agent 要的是可调用、可授权、可限流的任务接口。",
+        "twist": "未来网站的 SEO 可能不只写给搜索引擎，还要写给能干活的无头代理。"
+      },
+      "takeaway": "面向 agent 的产品应提前设计公开工具说明、权限模型、速率限制和结构化接口，而不是只优化页面可见性。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Nikunj Kothari：让 Claude Code 嗅探网络请求，未来网站需要 tools.txt",
+          "url": "https://x.com/nikunj/status/2058783316753686558"
+        },
+        {
+          "tag": "pulse",
+          "ref": "ProductHunt：tldx 做批量域名 RDAP 与 MCP 检查",
+          "url": "https://www.producthunt.com/products/tldx"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub Daily：anthropics/claude-plugins-official 新增 1173 星",
+          "url": "https://github.com/anthropics/claude-plugins-official"
+        }
+      ]
+    },
+    {
+      "id": "2026-05-25-5",
+      "title": "端侧 AI 不是复古",
+      "angle": "把 Garry Tan 的 edge 判断与 HuggingFace 端侧多模态热榜放在一起，讲本地 AI 的价值从省钱变成隐私、延迟和产品体验。",
+      "opening": "Garry Tan 说 AI builder 都在往 edge 上卷，传统架构突然像上个时代的东西。与此同时，openhuman、MiniCPM-V、supertonic-3 这些信号都在指向同一件事：用户想把 AI 带回自己设备里。",
+      "story_hook": {
+        "challenge": "云端大模型还在变强，但消费级场景越来越在意隐私、延迟、离线和成本。",
+        "twist": "端侧 AI 的卖点不是模型更大，而是能把一个小场景做得更稳、更近、更私有。"
+      },
+      "takeaway": "做消费级 AI 产品时，优先找适合端侧闭环的单一任务，如本地配音、多语字幕、私有素材整理和离线助理。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Garry Tan：AI builder 都在往 edge 上卷，传统架构像上个时代",
+          "url": "https://x.com/garrytan/status/2058767163666887136"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub：tinyhumansai/openhuman 一周新增 15194 星",
+          "url": "https://github.com/tinyhumansai/openhuman"
+        },
+        {
+          "tag": "pulse",
+          "ref": "HuggingFace：Supertone/supertonic-3，端侧多语 TTS 下载 45800",
+          "url": "https://huggingface.co/Supertone/supertonic-3"
+        }
+      ]
+    }
+  ],
+  "notes": "今日最强主线是 agent 工作台重构：代码图谱、记忆层、插件、端侧模型和可靠性定价同时升温。可写的选题不少，但应避免泛泛讨论 AGI 或 AI 工具，重点抓“上下文基础设施”“企业脏活”“agent-native 网站”和“端侧闭环产品”这些更能落到行动的角度。",
+  "generated_at": "2026-05-25T09:21:13+00:00",
+  "model": "gpt-5.5"
+}

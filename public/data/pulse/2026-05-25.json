@@ -1,0 +1,405 @@
+{
+  "date": "2026-05-25",
+  "top3": [
+    "今天最值得关注的是 AI 编程工具从聊天窗口转向本地代码图谱、记忆层和代理编排，codegraph 一周新增 18136 星，搜索热度也上涨 +204.0%。",
+    "第二个信号是个人 AI 与端侧多模态模型继续升温，openhuman、MiniCPM-V、supertonic-3 都在把私有化和本地运行变成消费级卖点。",
+    "第三个信号是开发者对 AI 内容质量和工具稳定性的焦虑上升，HN 上 The Eternal Sloptember 拿到 313 分与 244 条评论。"
+  ],
+  "intro": "今天的主线不是又一个模型发布，而是 AI Builder 的工作台正在被重做：代码理解、上下文记忆、插件、端侧模型和本地自动化同时爆发。机会点在于，把零散 AI 能力包装成可靠、可控、可复用的工作流，而不是再做一个泛聊天入口。",
+  "sections": [
+    {
+      "id": "discovery",
+      "title": "发现机会",
+      "blocks": [
+        {
+          "id": "indie-products",
+          "heading": "今天有哪些独立开发者的新产品？",
+          "summary_md": "HN Show HN 今天没有返回项目，因此独立产品信号主要来自 Product Hunt，但该数据源未提供票数和评论数。值得看的是几个非常具体的小工具：[tldx](https://www.producthunt.com/products/tldx) 做批量域名 RDAP 与 MCP 检查，[Pi Coding Agent](https://www.producthunt.com/products/pi-coding-agent-3) 主打可自定义 coding-agent harness，[MashuPack](https://www.producthunt.com/products/mashupack) 把代码库打包成适合 Claude 和 ChatGPT 读取的干净文件。它们共同指向一个机会：AI 工具链的边角痛点正在产品化。",
+          "items": [
+            {
+              "title": "tldx",
+              "url": "https://www.producthunt.com/products/tldx",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "Pi Coding Agent",
+              "url": "https://www.producthunt.com/products/pi-coding-agent-3",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "MashuPack",
+              "url": "https://www.producthunt.com/products/mashupack",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "今天的独立产品机会不在大而全，而在把 AI 开发流程中的一个摩擦点做薄做准。"
+        },
+        {
+          "id": "github-traction",
+          "heading": "GitHub 上哪些高增长开源项目还没有商业化？",
+          "summary_md": "GitHub Weekly 的增长几乎被 AI coding 基建占满：[colbymchenry/codegraph](https://github.com/colbymchenry/codegraph) 一周新增 18136 星，总星 23675，定位是本地预索引代码知识图谱；[Lum1104/Understand-Anything](https://github.com/Lum1104/Understand-Anything) 一周新增 9102 星，把代码转成可探索知识图谱；[rohitg00/agentmemory](https://github.com/rohitg00/agentmemory) 一周新增 6391 星，强调 AI coding agent 的持久记忆。它们像是 Cursor、Claude Code、Codex 之外的配套层，商业化可以落在团队知识库、私有部署、审计和工作流模板上。",
+          "items": [
+            {
+              "title": "colbymchenry/codegraph",
+              "url": "https://github.com/colbymchenry/codegraph",
+              "source": "GitHub",
+              "score": 18136
+            },
+            {
+              "title": "Lum1104/Understand-Anything",
+              "url": "https://github.com/Lum1104/Understand-Anything",
+              "source": "GitHub",
+              "score": 9102
+            },
+            {
+              "title": "rohitg00/agentmemory",
+              "url": "https://github.com/rohitg00/agentmemory",
+              "source": "GitHub",
+              "score": 6391
+            }
+          ],
+          "takeaway": "AI 编程的下一层商业机会是上下文基础设施，而不是又一个 IDE 外壳。"
+        },
+        {
+          "id": "dev-pain",
+          "heading": "开发者在吐槽什么工具？",
+          "summary_md": "HN Top 中唯一超过 300 分的讨论是 [The Eternal Sloptember](https://geohot.github.io//blog/jekyll/update/2026/05/24/the-eternal-sloptember.html)，313 分、244 条评论。标题虽然不是典型 bug 或 broken 关键词，但讨论强度说明开发者对 AI 生成内容的低质、重复与噪音已经进入疲劳期。对 builder 来说，这不是反 AI，而是反不可控输出：更好的机会在评估、去重、版本对比、可追溯引用和工作流约束。",
+          "items": [
+            {
+              "title": "The Eternal Sloptember",
+              "url": "https://geohot.github.io//blog/jekyll/update/2026/05/24/the-eternal-sloptember.html",
+              "source": "HN",
+              "score": 313
+            }
+          ],
+          "takeaway": "当大家厌倦 AI 噪音时，能证明质量和来源的工具会变得更值钱。"
+        }
+      ]
+    },
+    {
+      "id": "tech-stack",
+      "title": "技术选型",
+      "blocks": [
+        {
+          "id": "dev-tools",
+          "heading": "本周增长最快的开发者工具是什么？",
+          "summary_md": "开发者工具榜的关键词是 agent-native、本地索引和插件化。[codegraph](https://github.com/colbymchenry/codegraph) 一周新增 18136 星，[obra/superpowers](https://github.com/obra/superpowers) 一周新增 10171 星，[HKUDS/CLI-Anything](https://github.com/HKUDS/CLI-Anything) 一周新增 4759 星，[can1357/oh-my-pi](https://github.com/can1357/oh-my-pi) 一周新增 2361 星。技术选型上，TypeScript 适合做 IDE、CLI 和可视化层，Rust 出现在 openhuman、RuView 这类强调本地性能与隐私的项目里，Python 仍是研究技能和模型工程的默认胶水。",
+          "items": [
+            {
+              "title": "colbymchenry/codegraph",
+              "url": "https://github.com/colbymchenry/codegraph",
+              "source": "GitHub",
+              "score": 18136
+            },
+            {
+              "title": "obra/superpowers",
+              "url": "https://github.com/obra/superpowers",
+              "source": "GitHub",
+              "score": 10171
+            },
+            {
+              "title": "HKUDS/CLI-Anything",
+              "url": "https://github.com/HKUDS/CLI-Anything",
+              "source": "GitHub",
+              "score": 4759
+            }
+          ],
+          "takeaway": "如果你在做 AI 开发工具，优先补上下文、插件和 CLI 自动化，而不是先做完整 IDE。"
+        },
+        {
+          "id": "hf-models",
+          "heading": "HuggingFace 上最热的模型能做什么消费级产品？",
+          "summary_md": "HuggingFace 今天的热榜明显偏多模态与端侧体验：[bytedance-research/Lance](https://huggingface.co/bytedance-research/Lance) trending score 717，覆盖 image-generation、video-generation、image-editing 与 any-to-any；[tencent/Hy-MT2-1.8B](https://huggingface.co/tencent/Hy-MT2-1.8B) score 651，主打多语种翻译；[Supertone/supertonic-3](https://huggingface.co/Supertone/supertonic-3) score 257、下载 45800，适合端侧 TTS。消费级产品可以从短视频改写、多语字幕、本地配音、视频摘要和私有素材工作台切入。",
+          "items": [
+            {
+              "title": "bytedance-research/Lance",
+              "url": "https://huggingface.co/bytedance-research/Lance",
+              "source": "HuggingFace",
+              "score": 717
+            },
+            {
+              "title": "tencent/Hy-MT2-1.8B",
+              "url": "https://huggingface.co/tencent/Hy-MT2-1.8B",
+              "source": "HuggingFace",
+              "score": 651
+            },
+            {
+              "title": "Supertone/supertonic-3",
+              "url": "https://huggingface.co/Supertone/supertonic-3",
+              "source": "HuggingFace",
+              "score": 257
+            }
+          ],
+          "takeaway": "端侧多模态已经足够做小而闭环的创作工具，先做单一场景比做通用生成器更容易成立。"
+        }
+      ]
+    },
+    {
+      "id": "competition",
+      "title": "竞争情报",
+      "blocks": [
+        {
+          "id": "migrations",
+          "heading": "有没有「XX is dead」或迁移类文章？",
+          "summary_md": "今天没有直接的「XX is dead」文章，但迁移信号出现在搜索与开源增长里：[cursor alternative](https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d) 上涨 +182.6%，同时 GitHub Daily 里 [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official) 日榜新增 1173 星，[anthropics/knowledge-work-plugins](https://github.com/anthropics/knowledge-work-plugins) 新增 550 星。这说明用户不一定要离开 Cursor，而是在主动寻找可替代、可组合、可自托管的 coding agent 工作流。",
+          "items": [
+            {
+              "title": "cursor alternative",
+              "url": "https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 183
+            },
+            {
+              "title": "anthropics/claude-plugins-official",
+              "url": "https://github.com/anthropics/claude-plugins-official",
+              "source": "GitHub",
+              "score": 1173
+            }
+          ],
+          "takeaway": "竞争不再是某个 IDE 替代某个 IDE，而是谁能成为可迁移的 agent 工作流层。"
+        },
+        {
+          "id": "pricing-revenue",
+          "heading": "独立开发者在讨论什么营收和定价策略？",
+          "summary_md": "原始数据里没有明确 MRR、ARR、pricing 或 subscription 讨论，但 Product Hunt 的产品形态给了定价线索：[Edgee Fallback Models](https://www.producthunt.com/products/edgee) 卖的是 Claude Code 不停止的兜底能力，[LLMTest](https://www.producthunt.com/products/llmtest-2) 卖模型选择与 fallback，[Freu AI](https://www.producthunt.com/products/freu-cli) 强调 0 recurring run cost。今天可学习的不是订阅话术，而是把 AI 不稳定性、调用成本和模型切换包装成可计费的可靠性层。",
+          "items": [
+            {
+              "title": "Edgee Fallback Models",
+              "url": "https://www.producthunt.com/products/edgee",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "LLMTest",
+              "url": "https://www.producthunt.com/products/llmtest-2",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "Freu AI",
+              "url": "https://www.producthunt.com/products/freu-cli",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "AI 工具的付费理由正在从生成能力转向稳定性、成本控制和不中断。"
+        }
+      ]
+    },
+    {
+      "id": "trends",
+      "title": "趋势判断",
+      "blocks": [
+        {
+          "id": "keywords",
+          "heading": "本周技术关键词频率有什么变化？",
+          "summary_md": "Google Trends 与 GitHub 的交叉信号非常一致：[codegraph](https://trends.google.com/trends/explore?q=codegraph&date=now+7-d) 上涨 +204.0%，对应 GitHub Weekly 18136 星；[cursor alternative](https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d) 上涨 +182.6%，对应 Pi、CLI-Anything、superpowers、Claude plugins 的增长；[ruview](https://trends.google.com/trends/explore?q=ruview&date=now+7-d) 上涨 +73.4%，对应 WiFi 空间智能项目 RuView 一周新增 6461 星。关键词背后的判断是：AI 编程、环境感知和本地化正从概念热度进入工具选择期。",
+          "items": [
+            {
+              "title": "codegraph",
+              "url": "https://trends.google.com/trends/explore?q=codegraph&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 204
+            },
+            {
+              "title": "cursor alternative",
+              "url": "https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 183
+            },
+            {
+              "title": "ruview",
+              "url": "https://trends.google.com/trends/explore?q=ruview&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 73
+            }
+          ],
+          "takeaway": "本周最强关键词不是泛 AI，而是围绕 agent 工作流的具体替代方案。"
+        },
+        {
+          "id": "vc-radar",
+          "heading": "VC 和 YC 在关注什么主题？",
+          "summary_md": "从今天的数据看，VC 雷达会盯三类：第一是 AI coding 基建，如 codegraph、agentmemory、superpowers；第二是本地和隐私优先的个人 AI，如 openhuman 一周新增 15194 星、RuView 一周新增 6461 星；第三是多模态生产力，如 Lance、LongCat Video Avatar、Supertonic。共同点是它们都不是单点模型演示，而是更靠近可部署系统：能接入代码库、能在本地跑、能嵌入创作或办公流程。",
+          "items": [
+            {
+              "title": "tinyhumansai/openhuman",
+              "url": "https://github.com/tinyhumansai/openhuman",
+              "source": "GitHub",
+              "score": 15194
+            },
+            {
+              "title": "ruvnet/RuView",
+              "url": "https://github.com/ruvnet/RuView",
+              "source": "GitHub",
+              "score": 6461
+            },
+            {
+              "title": "bytedance-research/Lance",
+              "url": "https://huggingface.co/bytedance-research/Lance",
+              "source": "HuggingFace",
+              "score": 717
+            }
+          ],
+          "takeaway": "资本会更偏好能成为系统入口或本地基础设施的 AI 项目。"
+        },
+        {
+          "id": "cooling",
+          "heading": "哪些 AI 热词在降温？",
+          "summary_md": "降温最明显的是上一轮泛化叙事：[ai engineering from scratch](https://trends.google.com/trends/explore?q=ai+engineering+from+scratch&date=now+7-d) 变化 -100.0%，[openhuman](https://trends.google.com/trends/explore?q=openhuman&date=now+7-d) -53.2%，[agentmemory](https://trends.google.com/trends/explore?q=agentmemory&date=now+7-d) -48.8%，[self hosted](https://trends.google.com/trends/explore?q=self+hosted&date=now+7-d) -8.7%。这不代表方向失效，而是搜索兴趣从宽泛词转向具体项目和替代方案，builder 不应只押概念词，而要押明确场景。",
+          "items": [
+            {
+              "title": "ai engineering from scratch",
+              "url": "https://trends.google.com/trends/explore?q=ai+engineering+from+scratch&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": -100
+            },
+            {
+              "title": "openhuman",
+              "url": "https://trends.google.com/trends/explore?q=openhuman&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": -53
+            },
+            {
+              "title": "agentmemory",
+              "url": "https://trends.google.com/trends/explore?q=agentmemory&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": -49
+            }
+          ],
+          "takeaway": "热词降温时，需求往往没有消失，只是从口号转移到具体工具。"
+        },
+        {
+          "id": "new-radar",
+          "heading": "新词雷达：有哪些从零起飞的新概念？",
+          "summary_md": "breakout 里最早的弱信号来自拼写变体和关联查询：[ruview](https://trends.google.com/trends/explore?q=ruview&date=now+7-d) 的 rising 包含 ruwiew +10400、pruview +10000、codegraph +200；[codex cli](https://trends.google.com/trends/explore?q=codex+cli&date=now+7-d) 的 rising 出现 antigravity ide +250、antigravity cli +250、google antigravity +170；[ai agent](https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d) 下的 gemini spark ai agent features +2100、gemini spark +1350 也值得跟踪。这里的机会是抢占新工具名词的教程、插件和迁移指南。",
+          "items": [
+            {
+              "title": "ruwiew",
+              "url": "https://trends.google.com/trends/explore?q=ruview&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 10400
+            },
+            {
+              "title": "gemini spark ai agent features",
+              "url": "https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 2100
+            },
+            {
+              "title": "antigravity ide",
+              "url": "https://trends.google.com/trends/explore?q=codex+cli&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 250
+            }
+          ],
+          "takeaway": "新词刚冒头时，最快的产品形态往往是教程、适配器和迁移工具。"
+        }
+      ]
+    },
+    {
+      "id": "actions",
+      "title": "行动触发",
+      "blocks": [
+        {
+          "id": "weekend-build",
+          "heading": "今天 2 小时和一个周末分别做什么？",
+          "summary_md": "2 小时内可以做一个 codegraph 方向的小工具：输入 GitHub repo URL，输出项目结构、核心文件、依赖图和给 Claude Code 或 Codex 的上下文包，并把 [MashuPack](https://www.producthunt.com/products/mashupack)、[codegraph](https://github.com/colbymchenry/codegraph)、[Understand-Anything](https://github.com/Lum1104/Understand-Anything) 当参照。一个周末可以升级成团队版：支持私有仓库、本地索引、增量更新、prompt 模板和对比报告。不要先做聊天框，先做可复用上下文资产。",
+          "items": [
+            {
+              "title": "MashuPack",
+              "url": "https://www.producthunt.com/products/mashupack",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "colbymchenry/codegraph",
+              "url": "https://github.com/colbymchenry/codegraph",
+              "source": "GitHub",
+              "score": 18136
+            },
+            {
+              "title": "Lum1104/Understand-Anything",
+              "url": "https://github.com/Lum1104/Understand-Anything",
+              "source": "GitHub",
+              "score": 9102
+            }
+          ],
+          "takeaway": "最快能验证的方向是把代码库变成 agent 可消费的结构化上下文。"
+        },
+        {
+          "id": "pricing-models",
+          "heading": "值得学习的定价和变现模式有哪些？",
+          "summary_md": "今天值得学习的是 reliability pricing：[Edgee Fallback Models](https://www.producthunt.com/products/edgee) 把模型兜底包装成不中断能力，[LLMTest](https://www.producthunt.com/products/llmtest-2) 把模型选择、fallback 和测试做成应用开发基础设施，[Supaboard 3.0](https://www.producthunt.com/products/supaboard-ai) 把 AI 数据分析绑定业务仪表盘。定价可以按项目数、团队席位、fallback 调用量、私有部署和报告导出收费，而不是只按 token 加价。",
+          "items": [
+            {
+              "title": "Edgee Fallback Models",
+              "url": "https://www.producthunt.com/products/edgee",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "LLMTest",
+              "url": "https://www.producthunt.com/products/llmtest-2",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "Supaboard 3.0",
+              "url": "https://www.producthunt.com/products/supaboard-ai",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "AI SaaS 的好价格锚点是业务连续性和团队效率，而不是模型本身。"
+        },
+        {
+          "id": "counterintuitive",
+          "heading": "今天最反直觉的发现是什么？",
+          "summary_md": "最反直觉的是，越是模型能力变强，越多人在追本地、可解释、可替换的小工具。[codegraph](https://github.com/colbymchenry/codegraph) 的 18136 周星不是因为它生成更多代码，而是因为它减少 token 和工具调用；[supertonic-3](https://huggingface.co/Supertone/supertonic-3) 的 45800 下载不是云端大模型叙事，而是端侧多语 TTS；[The Eternal Sloptember](https://geohot.github.io//blog/jekyll/update/2026/05/24/the-eternal-sloptember.html) 的 244 条评论也说明用户对无约束生成并不买账。",
+          "items": [
+            {
+              "title": "colbymchenry/codegraph",
+              "url": "https://github.com/colbymchenry/codegraph",
+              "source": "GitHub",
+              "score": 18136
+            },
+            {
+              "title": "Supertone/supertonic-3",
+              "url": "https://huggingface.co/Supertone/supertonic-3",
+              "source": "HuggingFace",
+              "score": 257
+            },
+            {
+              "title": "The Eternal Sloptember",
+              "url": "https://geohot.github.io//blog/jekyll/update/2026/05/24/the-eternal-sloptember.html",
+              "source": "HN",
+              "score": 313
+            }
+          ],
+          "takeaway": "AI 产品的下一轮差异化不是更会生成，而是更少浪费、更可控、更贴近本地工作流。"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2026-05-25T09:20:17+00:00",
+  "reddit_highlights": [
+    {
+      "heading": "今天有哪些 solo-founder 产品发布？",
+      "body_md": "**🔍 信号**：新发布包括 [Audiomass](https://audiomass.co/?multitrack=1)，有 55 条评论；[ModelHub](https://www.producthunt.com/products/modelhub)，有 28 条 Product Hunt 评论；[Edgee Fallback Models](https://www.producthunt.com/products/edgee)，有 18 条；[Freu AI](https://www.producthunt.com/products/freu-cli)，有 15 条；以及 Indie Hackers 上的 [ReviewPace](https://www.indiehackers.com/post/show-ih-i-built-reviewpace-a-reputation-growth-fake-review-recovery-os-for-local-businesses-98b10e5b7e)。\n\n**白话说：** 小产品能赢，往往是因为它把用户已经在手工处理的隐形任务亮了出来。\n\n这批发布不太像宏大平台，更像一组可见的 `control surfaces`。[Audiomass](https://audiomass.co/?multitrack=1) 是一个网页版多轨音频编辑器，马上让评论者开始想要类似协作分支的音乐工作流；@JKCalhoun 描述了签出一段 `drum loop`、加上 guitar、再交给别人的过程。这不只是怀念 `Cool Edit Pro`，而是一份浏览器里 `versioned creative work` 的产品简报。\n\n[ModelHub](https://www.producthunt.com/products/modelhub) 把本地 AI 模型管理翻译成了 `Mac menu bar`。[Edgee Fallback Models](https://www.producthunt.com/products/edgee) 承诺供应商连续性，[Freu AI](https://www.producthunt.com/products/freu-cli) 则主打 `Mac automation` 和无 `recurring run cost`。Reddit 上的 [Walksy](https://www.reddit.com/r/SideProject/comments/1th0sva/my_wife_and_i_built_a_fogofwar_walking_app/) 与 Indie Hackers 上的 [ReviewPace](https://www.indiehackers.com/post/show-ih-i-built-reviewpace-a-reputation-growth-fake-review-recovery-os-for-local-businesses-98b10e5b7e) 指向同一个方向：当首屏明确说出它修复哪个尴尬时刻，用户才会注意。\n\n**关键判断**：发布一个带明确任务名的控制界面：编辑这段音频、认领这封邮件、运行这个本地模型、隐藏这些演示备注，或修复这些差评。\n\n**反向视角**：几个发布的商业证明还很弱；评论更多显示好奇，而不是预算。\n\n---",
+      "source_url": "https://raw.githubusercontent.com/BuilderPulse/BuilderPulse/main/zh/2026/2026-05-25.md"
+    },
+    {
+      "heading": "Indie 开发者在讨论哪些收入和定价问题？",
+      "body_md": "**🔍 信号**：创始人聊钱包括一个 $300/hour custom full-stack Ask HN 线程、一个 $200/month plan 下 $30,983 Claude Code token claim、Reddit 上 $9.1 MRR、28 天内 $900 到 $2,100 MRR、2700 万浏览但 $0 收入，以及 Indie Hackers 上 $65K/month、$50K/month、$20K/month、$3K MRR 和 7-figure ARR 的帖子。\n\n**白话说：** Builder 们正在明白：流量、用量和收入是三张不同收据。\n\n最强的钱信号不是最大的数字，而是单位。[Ask HN: Is $300/HR too low these days for custom full stack?](https://news.ycombinator.com/item?id=48245259) 有价值，因为它把 scope 和 buyer quality 推进讨论。[Claude Code token claim](https://www.indiehackers.com/post/i-used-30-983-of-ai-tokens-last-month-in-claude-code-on-200-mo-plan-3337a369a6) 有 77 条评论，有价值是因为它展示了 subscription price 与底层 usage 之间的差距。Reddit 上 $900 到 $2,100 MRR 的故事点名了渠道：有用的 Reddit 回复、LinkedIn DMs，以及提前预热过的演示。\n\n提醒也很响。一个创始人报告两天 2700 万浏览，却是 $0 revenue。另一个庆祝 $9.1 MRR 和 $32.9 total revenue，因为真实付款会改变你和 bug 之间的情绪契约。Indie Hackers 上反复出现的 portfolio 故事很亮眼，但可迁移的教训更窄：把具体渠道和小产品界面配对，然后给重复结果定价。\n\n**关键判断**：围绕可见单位定价：routing report、risk scan、saved hour、generated asset、lead list，或 recurring invoice check。\n\n**反向视角**：创始人论坛会把已验证收入和故事叙述混在一起；用它们找 pattern，不要直接做市场规模估算。\n\n---",
+      "source_url": "https://raw.githubusercontent.com/BuilderPulse/BuilderPulse/main/zh/2026/2026-05-25.md"
+    },
+    {
+      "heading": "哪些定价和变现模型值得研究？",
+      "body_md": "**🔍 信号**：今天值得研究的包括 DeepSeek V4 Pro 每百万输入 tokens $0.435、每百万输出 tokens $0.87；Reasonix 的 $0.07 per million input-token example；[JellyNet](https://www.producthunt.com/products/jellynet) 的 API quota resale；[Nexpend](https://www.producthunt.com/products/nexpend-subscription-tracker) 的 subscription tracking；一个 $300/hour custom full-stack 线程；Reddit 上 $900 到 $2,100 MRR 的故事；以及 Indie Hackers 上 $65K/month 和 $50K/month 的 portfolio stories。\n\n**白话说：** 定价正在从 seats 迁移到人们能审计的 units。\n\n值得研究的定价模型都有一个可见单位。DeepSeek 给 tokens 定价，也就是文本模型计费的最小单元。[Reasonix](https://esengine.github.io/DeepSeek-Reasonix/) 把 prefix reuse 变成 cost claim。[JellyNet](https://www.producthunt.com/products/jellynet) 把闲置 API quota 变成市场。[Nexpend](https://www.producthunt.com/products/nexpend-subscription-tracker) 把 subscription awareness 卖给那些在 unnoticed renewals 上浪费钱的人。$300/hour Ask HN 线程是 labor-unit pricing；Reddit 上 $900 到 $2,100 MRR 的故事是 channel-unit learning。\n\n对 MicroSaaS builder 来说，最稳的动作是从 one-off artifact 开始，因为它能测试付费意愿，而不用承诺自动化。Model Price Switchboard 可以先以 $19 出一份报告；只有当负责人想要 repeated provider checks 时，再做 $9-$29/month。这和今天的创始人故事一致：第一笔收入会改变行为，但 recurring revenue 只会在同一个痛点反复出现之后才成立。\n\n**关键判断**：先给第一个可见决策定价；只有当同一负责人需要每周或每月刷新报告时，再收 recurring fee。\n\n**反向视角**：Per-unit pricing 可能让非技术买方困惑，所以发票解释和数学本身一样重要。\n\n---",
+      "source_url": "https://raw.githubusercontent.com/BuilderPulse/BuilderPulse/main/zh/2026/2026-05-25.md"
+    }
+  ]
+}
