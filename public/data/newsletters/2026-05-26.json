@@ -1,0 +1,219 @@
+{
+  "date": "2026-05-26",
+  "generated_at": "2026-05-26T00:47:59+00:00",
+  "inbox_id": "sanyoumu@agentmail.to",
+  "window": {
+    "start": "2026-05-25T00:47:11+00:00",
+    "end": "2026-05-26T00:46:08.672140+00:00",
+    "source": "previous_digest_generated_at"
+  },
+  "count": 6,
+  "highlights": [
+    "Google DeepMind 的 AlphaProof Nexus 用 LLM + Lean 证明助手解决了 9 个开放 Erdős 数学问题，显示 AI 正从考试题走向真实科研问题。",
+    "Anthropic 的 Claude Mythos / Mythos Preview 正在被推向更广泛场景，尤其是漏洞发现与 exploit chain 生成，AI 安全攻防门槛可能显著下降。",
+    "MCP 下一版规范候选稿引入 stateless core、扩展机制和更接近 OAuth/OIDC 的授权设计，但包含 breaking changes。",
+    "Spotify 把 AI 音频从“生成内容”推向“授权、分发、个性化播客和有声书生产”的平台化阶段，重点是把人类身份和权益框架放回 AI 内容中。",
+    "Google Stitch、Replit Agent 4、auth.md 等工具说明 AI builder 工作流正在向实时设计、并行开发、agent 身份注册等基础设施层推进。"
+  ],
+  "items": [
+    {
+      "id": "google-alphaproof-nexus-erdos-problems",
+      "title_zh": "今日精读：Google AlphaProof Nexus 解决 9 个开放 Erdős 数学问题",
+      "title_original": "Google’s AI cracks nine unsolved math problems",
+      "source": "www.therundown.ai",
+      "from": "The Rundown <news@daily.therundown.ai>",
+      "subject": "🧮 Google cracks decades-old math problems",
+      "url": "https://arxiv.org/abs/2605.22763v1",
+      "message_id": "<MLMdIOX6SVyajlVhnwzMeA@geopod-ismtpd-64>",
+      "published_at": "2026-05-25T10:04:44.000Z",
+      "importance": "high",
+      "summary_zh": "The Rundown 今天主线是 Google DeepMind 的 AlphaProof Nexus：这个结合 LLM 与 Lean 形式化证明助手的系统，解决了 9 个开放 Erdős 问题，并证明了 OEIS 中 44 个开放猜想。邮件还提到 The Rundown Roundtable 的 AI 用例、构建 AI 日程秘书教程、Claude Mythos 发现大量关键漏洞，以及若干新 AI 工具和社区工作流。",
+      "deep_read_zh": "今天最值得精读的是 Google DeepMind 的 AlphaProof Nexus 进展。过去一年，AI 数学能力经常围绕竞赛、基准题和考试成绩展开，但这封邮件强调的不同点在于：AlphaProof Nexus 面向的是真实开放数学问题，而不是封闭测试集。它解决了 9 个开放 Erdős 问题，其中包括两个悬而未决 56 年的问题，领域覆盖组合数学和图论；同时还证明了 Online Encyclopedia of Integer Sequences 中的 44 个开放猜想。系统的关键架构是把 LLM 与 Lean 证明助手结合：模型提出证明，Lean 对每一步做机器验证，如果证明无法通过就继续迭代。这让“AI 产生看似合理但不可验证的推理”这个老问题有了工程上的约束方式。邮件还给出一个很值得关注的成本信号：每个问题的求解成本只有几百美元。虽然它也指出，涉及全新数学构造的问题仍然够不到，说明系统还不是通用数学家，但这已经把 AI 在科研中的角色从“辅助搜索资料、写草稿、解训练题”推进到“参与发现并给出可验证证明”。对 builder 来说，这件事的启发不只在数学，而是形式化验证与生成模型结合的产品范式：在代码、合约、推理链、科学假设等高风险场景里，真正有价值的 AI 系统可能不是单纯更会生成，而是能在生成后被强约束、反复验证、自动修正。未来值得继续看的是：这类系统能否迁移到更多科研领域，Lean 等形式化工具链是否会成为 AI research infra 的核心组件，以及开放问题求解成本下降后，学术发现的组织方式会不会改变。",
+      "why_important": "这是 AI 从 benchmark 能力走向真实科研产出的清晰信号，而且用形式化验证降低了幻觉风险。对所有做 agent、AI coding、AI research infra 的人来说，它展示了“生成 + 可验证执行环境”的强组合。",
+      "impact": "短期会提升数学、科学研究和形式化验证工具的关注度；中长期可能推动更多 AI 系统从聊天式输出转向可证明、可执行、可审计的工作流。对 builder 来说，验证层可能会和模型层同等重要。",
+      "key_points": [
+        "AlphaProof Nexus 结合 LLM 与 Lean 证明助手生成机器可验证证明。",
+        "系统解决了 9 个开放 Erdős 问题，其中两个已悬而未决 56 年。",
+        "它还证明了 OEIS 中 44 个开放猜想。",
+        "每个问题的求解成本被描述为几百美元级别。",
+        "需要全新数学构造的问题仍然超出系统能力范围。",
+        "OpenAI 此前也宣布过 Erdős 相关突破，显示前沿实验室正在竞争真实数学发现能力。"
+      ],
+      "reading_notes": [
+        "重点看系统如何把 LLM 的候选证明转化为 Lean 可验证证明。",
+        "区分“解决已有形式化空间中的问题”和“提出全新数学构造”的能力边界。",
+        "关注成本下降是否会改变开放问题筛选、验证和发表流程。",
+        "把这个范式映射到代码、合约、安全和科学计算等可验证任务。"
+      ],
+      "tags": [
+        "model",
+        "reasoning",
+        "research",
+        "formal-verification"
+      ],
+      "related_sources": [
+        "AI Valley 也报道了 AlphaProof Nexus 解决 9 个 Erdős 问题和 44 个 OEIS 猜想。"
+      ]
+    },
+    {
+      "id": "ai-valley-self-improving-ai-polsia-alphaproof",
+      "title_zh": "OpenAI 招募自我改进 AI 安全岗位，AI 公司和 AI 数学同时升温",
+      "title_original": "OpenAI prepares for self-improving AI",
+      "source": "www.theaivalley.com",
+      "from": "AI Valley <aivalley@mail.beehiiv.com>",
+      "subject": "OpenAI prepares for self-improving AI",
+      "url": "https://www.theaivalley.com/",
+      "message_id": "<20260525.144854.2ae0fdbe@mta29>",
+      "published_at": "2026-05-25T14:48:54.000Z",
+      "importance": "high",
+      "summary_zh": "AI Valley 今天覆盖三条核心新闻：OpenAI 正招聘年薪最高 44.5 万美元的安全岗位，以研究自我改进 AI、AI 生成网络攻击、隐藏模型行为和 AI 自动化技术工作的能力；AI startup Polsia 宣称无员工运营、估值 2.5 亿美元、AI agents 管理超过 8000 个业务；Google DeepMind 的 AlphaProof Nexus 解决 9 个开放 Erdős 数学问题并证明 44 个 OEIS 猜想。整体信号是：AI 的能力边界、组织形态和科研作用都在同时前移。",
+      "why_important": "这封邮件把自我改进 AI 安全、AI-run startup 和可验证数学发现放在同一天，呈现出 AI 从工具走向自主系统的趋势。",
+      "impact": "builder 需要更早考虑 agent 自动化带来的安全、治理和组织设计问题；同时，AI-first 公司可能开始把“人类团队规模”从竞争优势变成可选项。",
+      "key_points": [
+        "OpenAI 新安全岗位关注未来自主系统风险与 AI 自动化技术工作的度量。",
+        "Polsia 宣称以无员工模式运营并接近 1000 万美元 ARR run rate。",
+        "AlphaProof Nexus 的数学成果强化了 AI 参与真实研究的叙事。"
+      ],
+      "reading_notes": [],
+      "tags": [
+        "agent",
+        "safety",
+        "startup",
+        "research"
+      ],
+      "related_sources": [
+        "The Rundown AI 对 AlphaProof Nexus 有更完整细节。"
+      ],
+      "deep_read_zh": ""
+    },
+    {
+      "id": "tldr-ai-mythos-neocloud-mcp",
+      "title_zh": "Claude Mythos、DeepSeek 降价、neocloud 和 MCP 新规范同时推进",
+      "title_original": "Mythos 1 🤖, neocloud boom 📈, MCP goes stateless 💻",
+      "source": "TLDR AI",
+      "from": "TLDR AI <dan@tldrnewsletter.com>",
+      "subject": "Mythos 1 🤖, neocloud boom 📈, MCP goes stateless 💻",
+      "url": "https://refer.tldr.tech/0a897003/2",
+      "message_id": "<0100019e5f4fe913-cd9881e7-adf5-44ef-8e45-6b27c57bdd6b-000000@email.amazonses.com>",
+      "published_at": "2026-05-25T13:25:33.000Z",
+      "importance": "high",
+      "summary_zh": "TLDR AI 今天信息量很大：Anthropic 的 Claude Mythos 似乎正走向更广泛可用，并已在 Google Cloud 和 AWS 的漏洞发现项目中出现痕迹；DeepSeek 将 V4 Pro 75% 折扣永久化，加剧 AI 价格战；Mythos Preview 在 ExploitBench 和 ExploitGym 上展现出从漏洞生成 exploit primitives 并组合成端到端攻击链的能力；neocloud 叙事把 AI 算力建设与巨额基础设施周期相连；MCP 2026-07-28 规范候选稿引入 stateless core、extensions、更贴近 OAuth/OIDC 的授权和正式弃用政策，同时包含 breaking changes。",
+      "why_important": "这封邮件同时覆盖模型安全、价格竞争、算力基础设施和 agent 协议层，是 builder 判断 AI infra 走向的一组关键信号。",
+      "impact": "安全模型会降低攻防门槛，模型价格战会改变产品毛利结构，MCP 的 breaking changes 则可能要求早期 agent 工具链尽快适配。",
+      "key_points": [
+        "Claude Mythos / Mythos Preview 的漏洞利用能力值得安全团队重点关注。",
+        "DeepSeek 永久降价可能继续压低前沿模型 API 价格预期。",
+        "MCP 下一版规范候选稿是协议发布以来最大修订之一。"
+      ],
+      "reading_notes": [],
+      "tags": [
+        "model",
+        "security",
+        "infra",
+        "mcp"
+      ],
+      "related_sources": [
+        "The Neuron 也提到 Anthropic Mythos briefly appeared in Claude Code。"
+      ],
+      "deep_read_zh": ""
+    },
+    {
+      "id": "tldr-design-stitch-replit-ai-brand",
+      "title_zh": "Google Stitch 与 Replit Agent 4 推动设计和开发进入实时 AI 协作",
+      "title_original": "iPhone XX Renders 📱, Google Stitch Design 🎨, Replit Agent 4 🤖",
+      "source": "TLDR Design",
+      "from": "TLDR Design <dan@tldrnewsletter.com>",
+      "subject": "iPhone XX Renders 📱, Google Stitch Design 🎨, Replit Agent 4 🤖",
+      "url": "https://refer.tldr.tech/3bc21e1b/4",
+      "message_id": "<0100019e5f189d61-2d6ecec0-252a-4758-8090-a4dfc7457685-000000@email.amazonses.com>",
+      "published_at": "2026-05-25T12:25:09.000Z",
+      "importance": "medium",
+      "summary_zh": "TLDR Design 今天从产品设计视角看 AI 工具链变化：Google Stitch 被描述为实时设计工具，支持用户用文字或语音提示与 AI agent 协作，并把设计过程直接流式呈现在画布上，完成后可导出到 Google Antigravity 或通过 Netlify 发布；Replit Agent 4 在 iOS 回归，加入并行 agents、项目协作和多工作区视图。观点文章部分提醒，AI chat 流不擅长保存有价值的思考，AI 能快速给出原型但无法自动补上品牌差异化，staff designer 的价值也更偏方向、标准和团队能力建设。",
+      "why_important": "这封邮件抓住了 AI 设计工具从静态生成走向实时协作，以及 AI 原型泛化导致品牌同质化的问题。",
+      "impact": "产品团队可以更快完成原型和开发探索，但更需要保留人类的问题定义、品牌判断和设计系统治理，否则很容易产出相似界面。",
+      "key_points": [
+        "Google Stitch 支持实时 AI 设计迭代和画布级 steering。",
+        "Replit Agent 4 强调并行开发和协作流程。",
+        "AI 原型能力提升会让品牌差异化变得更稀缺。"
+      ],
+      "reading_notes": [],
+      "tags": [
+        "design",
+        "agent",
+        "developer-tools",
+        "product"
+      ],
+      "related_sources": [
+        "AI Valley 的 trending tools 也提到 Stitch 3.0。"
+      ],
+      "deep_read_zh": ""
+    },
+    {
+      "id": "the-neuron-spotify-ai-audio-platform",
+      "title_zh": "Spotify 把 AI 音频做成授权、创作和分发平台",
+      "title_original": "Voiceover artists are not going to like this",
+      "source": "www.theneurondaily.com",
+      "from": "The Neuron <theneuron@newsletter.theneurondaily.com>",
+      "subject": "😸 Voiceover artists are not going to like this",
+      "url": "https://newsroom.spotify.com/2026-05-21/universal-music-group-spotify-licensing-agreements-fan-made-covers-remixes/",
+      "message_id": "<isIelXkARUuzag8VognTmg@geopod-ismtpd-43>",
+      "published_at": "2026-05-25T11:04:15.000Z",
+      "importance": "high",
+      "summary_zh": "The Neuron 今天主线是 Spotify 的一组 AI 音频动作：与 Universal Music Group 建立 AI fan-made covers 和 remixes 的授权框架，要求艺术家同意、署名和收入分成；Studio by Spotify Labs 把邮件、日历和笔记转成个性化 AI 音频简报；ElevenLabs 驱动的工具让作者不用录音室也能生成有声书并发布到 Spotify；Spotify Reserved 则给超级粉丝优先购票窗口。邮件的核心判断是，纯 AI 生成音乐数量很多但听众很少，真正有价值的 AI 音频产品要把人的身份、版权和分发机制放在中心。",
+      "why_important": "这是 AI 生成内容从“能生成”走向“可授权、可分成、可进入平台规则”的重要案例。",
+      "impact": "音乐、播客、有声书和创作者工具会更依赖平台级授权框架；对 builder 来说，AI 内容产品的护城河可能不在模型，而在权益结算、身份绑定和分发场景。",
+      "key_points": [
+        "Spotify 与 UMG 为 AI 翻唱和 remix 建立同意、署名、分成机制。",
+        "Spotify Labs 推出可生成个性化音频简报的桌面应用。",
+        "ElevenLabs 工具降低作者制作有声书的门槛。"
+      ],
+      "reading_notes": [],
+      "tags": [
+        "audio",
+        "content",
+        "platform",
+        "copyright"
+      ],
+      "related_sources": [],
+      "deep_read_zh": ""
+    },
+    {
+      "id": "tldr-starship-agent-auth-open-source-security",
+      "title_zh": "TLDR：Starship、agent 身份注册和开源供应链攻击",
+      "title_original": "Starship v3 launch 🚀, AI job exposure 💼, auth for agents 🤖",
+      "source": "TLDR",
+      "from": "TLDR <dan@tldrnewsletter.com>",
+      "subject": "Starship v3 launch 🚀, AI job exposure 💼, auth for agents 🤖",
+      "url": "https://refer.tldr.tech/f45b3ac9/",
+      "message_id": "<0100019e5eab2a33-ec9380b0-f2bb-4ed0-8172-1b78b2d40f40-000000@email.amazonses.com>",
+      "published_at": "2026-05-25T10:25:36.000Z",
+      "importance": "medium",
+      "summary_zh": "TLDR 今天覆盖更广泛科技新闻：SpaceX 新版 Starship 从 Starbase 新发射台升空，助推器分离成功但后续机动失败并坠入墨西哥湾，飞船进入太空后部署模拟卫星和拍摄卫星，最终在印度洋触水后爆炸；Sundar Pichai 在访谈中谈 AI 焦虑、Google Search 未来、AI agents 和给学生的建议；中国神舟二十三号任务可能带来中国最长的一年在轨停留；ITER 融合项目继续体现超大规模科研协作。对 AI builder 更直接的是 auth.md：用 Markdown 文件描述 agent 如何代表用户注册服务、支持哪些 flow 和 scope，以及由 agent 身份提供方为用户背书；邮件还警告 TeamPCP 正以前所未有规模污染开源代码和扩展。",
+      "why_important": "auth.md 代表 agent 生态开始补“身份、授权、注册”基础设施；供应链攻击则提醒 AI coding 时代依赖链风险会被放大。",
+      "impact": "开发者需要为 agent 访问服务设计清晰的注册和权限边界，同时加强对依赖、扩展和自动生成代码的安全审查。",
+      "key_points": [
+        "auth.md 试图用 Markdown 规范 agent 代表用户注册服务的流程和 scope。",
+        "TeamPCP 被描述为大规模污染开源工具并利用 VSCode 扩展攻击 GitHub。",
+        "Pichai 访谈体现大厂对 AI 焦虑、搜索和 agents 的公开叙事。"
+      ],
+      "reading_notes": [],
+      "tags": [
+        "agent",
+        "auth",
+        "security",
+        "open-source"
+      ],
+      "related_sources": [],
+      "deep_read_zh": ""
+    }
+  ],
+  "skipped": [
+    {
+      "message_id": "<0100019e5ed6d42f-6b07c834-75dd-416e-83c7-5d66ad0e75a1-000000@email.amazonses.com>",
+      "subject": "Skip reading code 🤔, Modern Web Guidance 📖, Microsoft cancels Claude Code 🚫",
+      "from": "TLDR Dev <dan@tldrnewsletter.com>",
+      "reason": "system"
+    }
+  ],
+  "notes": "今日精读选择 The Rundown AI 的 AlphaProof Nexus 报道，因为它比其他邮件提供了更完整的技术细节、成本信号和能力边界。AI Valley 也报道了同一事件，但作为独立 newsletter 保留为单篇总结。各封邮件中的赞助、广告、课程推广、招聘和工具列表中的纯促销内容未单独入 item；没有发现需要完全丢弃的正式 newsletter 邮件。"
+}
