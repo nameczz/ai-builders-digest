@@ -1,0 +1,173 @@
+{
+  "date": "2026-05-26",
+  "items": [
+    {
+      "id": "2026-05-26-1",
+      "title": "代码图谱正在取代长提示词",
+      "angle": "从 codegraph 暴涨切入：AI 编程的瓶颈不是模型，而是大仓库上下文如何被压缩成可操作记忆。",
+      "opening": "今天 GitHub 上最刺眼的数字不是某个新模型，而是 codegraph 周增 20208 星。与此同时，Builder 们还在讨论 evals、skill file 和系统化工作流。信号很清楚：代理时代，谁能让 AI 少迷路，谁就更接近产品机会。",
+      "story_hook": {
+        "challenge": "模型越来越强，但一进真实大仓库仍然会浪费 token、误读结构、反复问上下文。",
+        "twist": "增长最快的不是新 IDE，而是把代码库变成知识图谱、记忆层和 skill 的中间件。"
+      },
+      "takeaway": "开发者可以把下一个周末项目定成 repo context layer：索引符号、调用关系和任务边界，而不是再做一个聊天框。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Garry Tan 谈 evals、skill file、LLM-as-judge 和单测如何让 agent 能力沉淀",
+          "url": "https://x.com/garrytan/status/2059148823403082154"
+        },
+        {
+          "tag": "builders",
+          "ref": "Peter Yang 认为 AI agent 时代先搭系统反而成了交付前提",
+          "url": "https://x.com/petergyang/status/2059029752858775581"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub Trending：colbymchenry/codegraph 周增 20208 星",
+          "url": "https://github.com/colbymchenry/codegraph"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub Trending：Lum1104/Understand-Anything 周增 14750 星",
+          "url": "https://github.com/Lum1104/Understand-Anything"
+        }
+      ]
+    },
+    {
+      "id": "2026-05-26-2",
+      "title": "无限 token 套餐要收摊了",
+      "angle": "从 tokenmaxxing 的玩笑切入，讲 AI 产品接下来会从拼能力转向拼上下文成本和部署效率。",
+      "opening": "Peter Yang 把 tokenmaxxing 比成自助餐狂吃蟹腿：现在能吃，不代表永远能吃。另一边，Garry Tan 在转 ByteShape 这类能改写部署成本的底层技术。AI 产品真正的护城河，可能不是多调用一次大模型，而是少浪费一次上下文。",
+      "story_hook": {
+        "challenge": "用户习惯了无限量 AI 套餐，但 token、推理和部署成本迟早会回到商业模型里。",
+        "twist": "最值得关注的不是更会聊天的应用，而是 codegraph、缓存、复用提示词和高效部署这些省钱基础设施。"
+      },
+      "takeaway": "做 AI 工具时要把 token 当成本中心管理：记录上下文命中率、复用率、每任务成本，而不是只看回答质量。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Peter Yang 谈 tokenmaxxing：AI 无限量套餐不会永远存在",
+          "url": "https://x.com/petergyang/status/2059070818798465330"
+        },
+        {
+          "tag": "builders",
+          "ref": "Garry Tan 谈 ByteShape 和 AI 部署成本效率",
+          "url": "https://x.com/garrytan/status/2059151927011909800"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Google Trends：codegraph 搜索热度上涨 179.4%",
+          "url": "https://trends.google.com/trends/explore?q=codegraph&date=now+7-d"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub Trending：rohitg00/agentmemory 周增 5687 星",
+          "url": "https://github.com/rohitg00/agentmemory"
+        }
+      ]
+    },
+    {
+      "id": "2026-05-26-3",
+      "title": "Codex 会验收，Claude 会设计",
+      "angle": "用 Peter Yang 对 Codex 和 Claude 的分工判断，拆解 AI 编程工具竞争正在从单模型能力变成工作流组合。",
+      "opening": "一句话很扎心：Codex 已经会用浏览器验收自己的活，但一到设计和前端，Claude 还是赢。今天搜索里又出现 codex ai programming versus claude。用户不是在选一个模型，而是在拼一条能交付的流水线。",
+      "story_hook": {
+        "challenge": "开发者想要的是稳定交付，不是某个模型在单轮 prompt 里表现更好。",
+        "twist": "未来的胜负可能不是 Codex 或 Claude 谁通吃，而是谁能把浏览器验收、设计生成、终端执行和上下文管理串起来。"
+      },
+      "takeaway": "评估 AI 编程工具时，别只跑代码题；要测试设计还原、浏览器自检、错误修复、上下文续航和多人项目适配。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Peter Yang：Codex 浏览器自验很强，但设计和前端 Claude 仍然赢",
+          "url": "https://x.com/petergyang/status/2059099566377693305"
+        },
+        {
+          "tag": "builders",
+          "ref": "Nikunj Kothari：AI 前沿太快，不动手构建就只能靠过期认知猜测",
+          "url": "https://x.com/nikunj/status/2058927145519562867"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Google Trends：codex ai programming versus claude 成为相关上升查询",
+          "url": "https://trends.google.com/trends/explore?q=codex&date=now+7-d"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Google Trends：cursor alternative 搜索热度上升 232.4%",
+          "url": "https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d"
+        }
+      ]
+    },
+    {
+      "id": "2026-05-26-4",
+      "title": "每个 Agent 都要一台电脑",
+      "angle": "从 Daytona 创始人的 sandbox 判断切入：自主 AI 的核心基础设施可能不是云 API，而是隔离机器和调度系统。",
+      "opening": "如果 agent 是数字知识工人，你不会把自己的电脑和银行账号直接交给它。Daytona 的 Ivan Burazin 说得更狠：每个 agent 至少需要一个 sandbox。问题来了，传统云和 Kubernetes 真的扛得住成千上万个 agent 同时开工吗？",
+      "story_hook": {
+        "challenge": "自主 agent 要执行真实任务，就必须拥有浏览器、终端、文件系统和隔离运行环境。",
+        "twist": "真正先被压穿的可能不是模型能力，而是 sandbox 调度、CPU 分配、会话持久化和安全边界。"
+      },
+      "takeaway": "做 agent 产品时要尽早设计运行环境：隔离、权限、日志、资源配额和恢复机制会成为产品能力的一部分。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "The MAD Podcast：Ivan Burazin 认为 AWS 和 Azure 无法直接承载大规模自主 AI",
+          "url": "https://www.youtube.com/watch?v=kMXJrzAa5fM"
+        },
+        {
+          "tag": "builders",
+          "ref": "Peter Steinberger 区分安全问题和把机器、AI 一概否定",
+          "url": "https://x.com/steipete/status/2058884046940225918"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub Trending：manaflow-ai/cmux 做 Ghostty-based macOS terminal",
+          "url": "https://github.com/manaflow-ai/cmux"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub Trending：affaan-m/ECC 强调 agent harness performance optimization",
+          "url": "https://github.com/affaan-m/ECC"
+        }
+      ]
+    },
+    {
+      "id": "2026-05-26-5",
+      "title": "140MB 依赖砍到 2MB",
+      "angle": "用 OpenClaw 从 Sharp/Jimp 迁到 Rust WASM 的案例，讲 AI 产品工程化正在回到体积、端侧和可部署性。",
+      "opening": "Peter Steinberger 今天给了一个很小但很硬的数字：OpenClaw 清掉 Sharp 和 Jimp，改用 Rust 编译到 WebAssembly 的 photon，体积从 140MB 砍到 2MB。与此同时，HuggingFace 热榜上端侧翻译、TTS 和轻量模型都在升温。AI 产品不是越大越强，很多时候是越小越能活。",
+      "story_hook": {
+        "challenge": "AI 应用很容易把模型、依赖和运行环境堆到不可部署、不可维护、不可端侧使用。",
+        "twist": "真正改善用户体验的，可能是一轮依赖瘦身，而不是再接一个更贵的模型 API。"
+      },
+      "takeaway": "检查自己的 AI 产品包体、冷启动和端侧可运行性；能用轻量模型、WASM 和本地推理解决的场景，不要默认上云端大模型。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Peter Steinberger：OpenClaw 用 Rust WASM photon 替换 Sharp/Jimp，体积从 140MB 到 2MB",
+          "url": "https://x.com/steipete/status/2058922222790525272"
+        },
+        {
+          "tag": "builders",
+          "ref": "Garry Tan：底层效率技术才是 AI 丰裕时代的关键",
+          "url": "https://x.com/garrytan/status/2059151927011909800"
+        },
+        {
+          "tag": "pulse",
+          "ref": "HuggingFace Trending：tencent/Hy-MT2-1.8B 主打多语种翻译",
+          "url": "https://huggingface.co/tencent/Hy-MT2-1.8B"
+        },
+        {
+          "tag": "pulse",
+          "ref": "HuggingFace Trending：openbmb/MiniCPM5-1B 标注 on-device、edge-ai、tool-calling",
+          "url": "https://huggingface.co/openbmb/MiniCPM5-1B"
+        }
+      ]
+    }
+  ],
+  "notes": "今日主线非常集中：AI builder 的发声和行业数据都指向 agent infra、上下文压缩、运行环境和成本效率。缺少强消费者爆款素材，但适合写给开发者和 PM 的工程化判断。",
+  "generated_at": "2026-05-26T09:20:02+00:00",
+  "model": "gpt-5.5"
+}

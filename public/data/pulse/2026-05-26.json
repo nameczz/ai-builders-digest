@@ -1,0 +1,340 @@
+{
+  "date": "2026-05-26",
+  "top3": [
+    "代码知识图谱成为今天最强主线：codegraph 周增 20,208 星，Understand-Anything 日增 5,604 星，搜索热度也同步上扬。",
+    "AI 编程代理正在从模型能力竞争，转向上下文、记忆、技能、终端和本地工具链竞争。",
+    "HuggingFace 热榜显示消费级机会集中在端侧翻译、多模态视频、TTS 和轻量模型，而不是又一个通用聊天壳。"
+  ],
+  "intro": "今天的数据明显偏向 AI Builder 基础设施：HN Top 和 Show HN 缺席，但 GitHub Trending、HuggingFace 与 Google Trends 给出了更强信号。值得关注的不是单个爆款应用，而是围绕 Claude Code、Codex、Cursor 等代理生态的本地上下文、知识图谱、技能包与端侧模型正在快速聚合。",
+  "sections": [
+    {
+      "id": "discovery",
+      "title": "发现机会",
+      "blocks": [
+        {
+          "id": "github-traction",
+          "heading": "GitHub 上哪些高增长开源项目还没有商业化？",
+          "summary_md": "[colbymchenry/codegraph](https://github.com/colbymchenry/codegraph) 周增 20,208 星、总星 26,499，用预索引代码知识图谱减少 Claude Code、Codex、Cursor 的 token 和工具调用；[Lum1104/Understand-Anything](https://github.com/Lum1104/Understand-Anything) 周增 14,750 星、总星 33,188，把代码变成可探索、可搜索、可问答的交互式知识图谱。两者都说明一个机会：开发者不缺聊天入口，缺的是能把大仓库压缩成可操作上下文的中间层。\n\n同一条线上还有 [rohitg00/agentmemory](https://github.com/rohitg00/agentmemory) 周增 5,687 星、总星 18,009，定位为 AI coding agents 的持久记忆；[can1357/oh-my-pi](https://github.com/can1357/oh-my-pi) 周增 2,584 星、总星 7,387，做终端里的代理工具链。这些项目还更像开源基础件，而不是清晰 SaaS，商业切入点可以是团队版代码索引、私有部署、IDE 插件和代理评测报告。",
+          "items": [
+            {
+              "title": "colbymchenry/codegraph",
+              "url": "https://github.com/colbymchenry/codegraph",
+              "source": "GitHub",
+              "score": 20208
+            },
+            {
+              "title": "Lum1104/Understand-Anything",
+              "url": "https://github.com/Lum1104/Understand-Anything",
+              "source": "GitHub",
+              "score": 14750
+            },
+            {
+              "title": "rohitg00/agentmemory",
+              "url": "https://github.com/rohitg00/agentmemory",
+              "source": "GitHub",
+              "score": 5687
+            }
+          ],
+          "takeaway": "代理时代的新铲子不是模型壳，而是把代码库变成可检索、可推理、可复用上下文的本地层。"
+        }
+      ]
+    },
+    {
+      "id": "tech-stack",
+      "title": "技术选型",
+      "blocks": [
+        {
+          "id": "dev-tools",
+          "heading": "本周增长最快的开发者工具是什么？",
+          "summary_md": "本周开发者工具的增速榜几乎被 AI coding agent 周边占满：[codegraph](https://github.com/colbymchenry/codegraph) 周增 20,208 星，[Understand-Anything](https://github.com/Lum1104/Understand-Anything) 周增 14,750 星，[academic-research-skills](https://github.com/Imbad0202/academic-research-skills) 周增 10,678 星，[superpowers](https://github.com/obra/superpowers) 周增 9,950 星。它们不是直接替代 Cursor 或 Claude Code，而是在补代理使用中的几个短板：上下文预算、仓库理解、研究流程、技能化操作。\n\nProduct Hunt 侧也出现了更贴近工作流的工具，比如 [Parsewise API](https://www.producthunt.com/products/parsewise) 做 agentic multi-document processing，[marpy.io](https://www.producthunt.com/products/marpy-io-python-first-ai-dev-platform) 做 Python-first AI dev platform，[Ajar](https://www.producthunt.com/products/ajar) 甚至把 Mac 合盖、常亮这些运行细节产品化。今天的选型建议是：不要只评估模型 API，先评估你的代理是否有索引、记忆、权限、技能和运行环境。",
+          "items": [
+            {
+              "title": "Imbad0202/academic-research-skills",
+              "url": "https://github.com/Imbad0202/academic-research-skills",
+              "source": "GitHub",
+              "score": 10678
+            },
+            {
+              "title": "obra/superpowers",
+              "url": "https://github.com/obra/superpowers",
+              "source": "GitHub",
+              "score": 9950
+            },
+            {
+              "title": "Parsewise API",
+              "url": "https://www.producthunt.com/products/parsewise",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "AI 开发工具链的竞争焦点正在从编辑器入口转向代理运行时基础设施。"
+        },
+        {
+          "id": "hf-models",
+          "heading": "HuggingFace 上最热的模型能做什么消费级产品？",
+          "summary_md": "HuggingFace 热榜今天给了三个很具体的消费级方向。[tencent/Hy-MT2-1.8B](https://huggingface.co/tencent/Hy-MT2-1.8B) trending score 874、下载 7,471、点赞 963，主打多语种翻译；[Supertone/supertonic-3](https://huggingface.co/Supertone/supertonic-3) trending score 233、下载 48,112、点赞 681，主打端侧多语 TTS；[openbmb/MiniCPM5-1B](https://huggingface.co/openbmb/MiniCPM5-1B) trending score 226，标签直接写着 long-context、tool-calling、on-device、edge-ai。\n\n可做的不是泛泛的 AI 助手，而是更窄的产品：离线旅行翻译、跨语种字幕与配音、儿童语言学习、端侧会议摘要、浏览器内网页朗读、隐私优先的本地客服知识库。再叠加 [LongCat-Video-Avatar-1.5](https://huggingface.co/meituan-longcat/LongCat-Video-Avatar-1.5) 和 [Sulphur-2-base](https://huggingface.co/SulphurAI/Sulphur-2-base)，视频头像和 text-to-video 仍然热，但今天更有商业确定性的反而是翻译和语音。",
+          "items": [
+            {
+              "title": "tencent/Hy-MT2-1.8B",
+              "url": "https://huggingface.co/tencent/Hy-MT2-1.8B",
+              "source": "HuggingFace",
+              "score": 874
+            },
+            {
+              "title": "Supertone/supertonic-3",
+              "url": "https://huggingface.co/Supertone/supertonic-3",
+              "source": "HuggingFace",
+              "score": 233
+            },
+            {
+              "title": "openbmb/MiniCPM5-1B",
+              "url": "https://huggingface.co/openbmb/MiniCPM5-1B",
+              "source": "HuggingFace",
+              "score": 226
+            }
+          ],
+          "takeaway": "端侧多语翻译和语音比通用聊天更接近可付费消费场景。"
+        }
+      ]
+    },
+    {
+      "id": "competition",
+      "title": "竞争情报",
+      "blocks": [
+        {
+          "id": "migrations",
+          "heading": "有没有迁移类信号？",
+          "summary_md": "今天没有典型的「XX is dead」文章，但迁移信号换了一种形式出现：[cursor alternative](https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d) 搜索热度上升 +232.4%，同时 GitHub 榜单里 codegraph、Understand-Anything、oh-my-pi、cmux、ECC 都在围绕 Claude Code、Codex、Cursor、OpenCode 这些入口做增强。这说明用户不一定已经离开某个 IDE，但已经开始主动寻找可替换、可组合、可本地控制的工作流。\n\n竞争上不要把 Cursor 当唯一对手。更准确的地图是：编辑器入口、代理 CLI、代码索引、记忆层、技能包、终端容器和浏览器自动化会互相吞边界。比如 [manaflow-ai/cmux](https://github.com/manaflow-ai/cmux) 日榜增 603 星，做 Ghostty-based macOS terminal；[affaan-m/ECC](https://github.com/affaan-m/ECC) 日榜增 2,025 星，强调 agent harness performance optimization。用户买的不是编辑器，而是稳定完成任务的代理工位。",
+          "items": [
+            {
+              "title": "cursor alternative",
+              "url": "https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 232
+            },
+            {
+              "title": "manaflow-ai/cmux",
+              "url": "https://github.com/manaflow-ai/cmux",
+              "source": "GitHub",
+              "score": 603
+            },
+            {
+              "title": "affaan-m/ECC",
+              "url": "https://github.com/affaan-m/ECC",
+              "source": "GitHub",
+              "score": 2025
+            }
+          ],
+          "takeaway": "Cursor 的替代需求不是单点替代，而是代理工作台组件化的早期信号。"
+        }
+      ]
+    },
+    {
+      "id": "trends",
+      "title": "趋势判断",
+      "blocks": [
+        {
+          "id": "keywords",
+          "heading": "本周技术关键词频率有什么变化？",
+          "summary_md": "最强上升词是 [cursor alternative](https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d) +232.4% 和 [codegraph](https://trends.google.com/trends/explore?q=codegraph&date=now+7-d) +179.4%，这和 GitHub 周榜完全对齐：codegraph 周增 20,208 星，Understand-Anything 周增 14,750 星。也就是说，今天的热度不是社媒噪声，而是搜索需求和开源安装意愿同时发生。\n\n第二梯队是 [academic research skills](https://trends.google.com/trends/explore?q=academic+research+skills&date=now+7-d) +35.9%、[understand anything](https://trends.google.com/trends/explore?q=understand+anything&date=now+7-d) +35.5%、[codex cli](https://trends.google.com/trends/explore?q=codex+cli&date=now+7-d) +12.1%。这些词共同指向一个变化：Builder 不再只问哪个模型更强，而是在问怎样让代理有方法论、上下文和可复现流程。",
+          "items": [
+            {
+              "title": "cursor alternative",
+              "url": "https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 232
+            },
+            {
+              "title": "codegraph",
+              "url": "https://trends.google.com/trends/explore?q=codegraph&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 179
+            },
+            {
+              "title": "academic research skills",
+              "url": "https://trends.google.com/trends/explore?q=academic+research+skills&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 36
+            }
+          ],
+          "takeaway": "AI 编程的搜索需求正在从工具品牌迁移到代理能力模块。"
+        },
+        {
+          "id": "vc-radar",
+          "heading": "VC 和 YC 在关注什么主题？",
+          "summary_md": "从今天的数据看，VC 和 YC 会更关注三类主题：第一是 AI agent infra，包括 codegraph、agentmemory、superpowers、ECC 这类能提高代理可靠性的工具；第二是本地优先与隐私优先，比如 [tinyhumansai/openhuman](https://github.com/tinyhumansai/openhuman) 周增 11,906 星、总星 28,001，Product Hunt 上 [NoteCove](https://www.producthunt.com/products/notecove) 和 [Kept](https://www.producthunt.com/products/kept-ai-on-your-local-conversations) 都强调 offline-first 或本地保存；第三是语音和视频代理，dograh 周增 693 星，Parrot Speech-to-text API、Trace、Willow Scribe 都在抢语音工作流。\n\n这三个方向的共同点是能避开大模型 API 的同质化：要么掌握企业代码和知识上下文，要么掌握用户本地数据，要么嵌入实时语音视频场景。今天更值得投的不是又一个聊天前端，而是能让 AI 代理进入真实工作流的基础设施和垂直入口。",
+          "items": [
+            {
+              "title": "tinyhumansai/openhuman",
+              "url": "https://github.com/tinyhumansai/openhuman",
+              "source": "GitHub",
+              "score": 11906
+            },
+            {
+              "title": "dograh-hq/dograh",
+              "url": "https://github.com/dograh-hq/dograh",
+              "source": "GitHub",
+              "score": 693
+            },
+            {
+              "title": "NoteCove",
+              "url": "https://www.producthunt.com/products/notecove",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "投资主题正在从通用 AI 应用转向代理基础设施、本地数据护城河和实时语音入口。"
+        },
+        {
+          "id": "cooling",
+          "heading": "哪些 AI 热词在降温？",
+          "summary_md": "降温项里最值得注意的是 [ai engineering from scratch](https://trends.google.com/trends/explore?q=ai+engineering+from+scratch&date=now+7-d) -100.0%，但对应 GitHub 项目 [rohitg00/ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch) 仍有周增 10,035 星、总星 19,588。这不是项目失效，而是搜索热词生命周期很短：教程类内容会快速爆发，也会快速回落。\n\n另外 [openhuman](https://trends.google.com/trends/explore?q=openhuman&date=now+7-d) -36.2%、[ruview](https://trends.google.com/trends/explore?q=ruview&date=now+7-d) -28.1%、[self hosted](https://trends.google.com/trends/explore?q=self+hosted&date=now+7-d) -10.9%。这提示 Builder 不要只凭一周 GitHub 星数判断市场需求，尤其是硬科技概念和宽泛口号。真正要验证的是留存、部署频次和是否进入团队日常流程。",
+          "items": [
+            {
+              "title": "ai engineering from scratch",
+              "url": "https://trends.google.com/trends/explore?q=ai+engineering+from+scratch&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": -100
+            },
+            {
+              "title": "openhuman",
+              "url": "https://trends.google.com/trends/explore?q=openhuman&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": -36
+            },
+            {
+              "title": "self hosted",
+              "url": "https://trends.google.com/trends/explore?q=self+hosted&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": -11
+            }
+          ],
+          "takeaway": "教程和口号型热词会很快退潮，能沉淀成工作流的项目才值得继续追。"
+        },
+        {
+          "id": "new-radar",
+          "heading": "新词雷达：有哪些从零起飞的新概念？",
+          "summary_md": "今天的新词雷达集中在两个方向。第一是 codegraph 相关破圈：Google Trends breakouts 里 codegraph 最高 value 76,050，tracked 项 [codegraph](https://trends.google.com/trends/explore?q=codegraph&date=now+7-d) 也上涨 +179.4%；[understand anything](https://trends.google.com/trends/explore?q=understand+anything&date=now+7-d) 的 rising 里出现 codegraph 和 understand anything github。这说明代码知识图谱正在从项目名变成品类词。\n\n第二是 Codex 与 Antigravity 的关联查询：[codex cli](https://trends.google.com/trends/explore?q=codex+cli&date=now+7-d) rising 里出现 antigravity ide、antigravity、antigravity cli、google antigravity；[codex](https://trends.google.com/trends/explore?q=codex&date=now+7-d) rising 里还出现 antigravity 2.0 和 codex ai programming versus claude。早期判断是：开发者正在把不同代理入口放在同一张对比表里，新的机会是跨代理迁移、评测和配置层。",
+          "items": [
+            {
+              "title": "codegraph",
+              "url": "https://trends.google.com/trends/explore?q=codegraph&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 76050
+            },
+            {
+              "title": "antigravity 2.0",
+              "url": "https://trends.google.com/trends/explore?q=codex&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 7050
+            },
+            {
+              "title": "codex ai programming versus claude",
+              "url": "https://trends.google.com/trends/explore?q=codex&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 6300
+            }
+          ],
+          "takeaway": "codegraph 正在变成新品类词，Codex 与 Claude 的对比需求会催生跨代理工具层。"
+        }
+      ]
+    },
+    {
+      "id": "actions",
+      "title": "行动触发",
+      "blocks": [
+        {
+          "id": "weekend-build",
+          "heading": "今天 2 小时和一个周末分别做什么？",
+          "summary_md": "2 小时版本：做一个本地代码库问答 demo，不要训练模型，只用现成 embedding、ripgrep、AST 或 tree-sitter，把一个真实 repo 切成符号、文件、调用关系三类索引，再接入 Claude Code 或 Codex 的上下文摘要。目标不是做完整 IDE，而是证明用户能少开 5 次搜索、少贴 10 段代码。\n\n周末版本：把它包装成「代理上下文体检」工具。输入 GitHub repo，输出模块图、最复杂文件、缺测试区域、适合交给 agent 的任务列表，再生成 CLAUDE.md、AGENTS.md 或 Codex instructions。今天 codegraph 周增 20,208 星、Understand-Anything 周增 14,750 星，说明市场已经在寻找这类入口；你要做的是更窄、更可交付的版本。",
+          "items": [
+            {
+              "title": "colbymchenry/codegraph",
+              "url": "https://github.com/colbymchenry/codegraph",
+              "source": "GitHub",
+              "score": 20208
+            },
+            {
+              "title": "Lum1104/Understand-Anything",
+              "url": "https://github.com/Lum1104/Understand-Anything",
+              "source": "GitHub",
+              "score": 14750
+            },
+            {
+              "title": "rohitg00/agentmemory",
+              "url": "https://github.com/rohitg00/agentmemory",
+              "source": "GitHub",
+              "score": 5687
+            }
+          ],
+          "takeaway": "本周末最值得做的不是新聊天产品，而是一个能让现有代理立刻变聪明的 repo context layer。"
+        },
+        {
+          "id": "pricing-models",
+          "heading": "值得学习的定价和变现模式有哪些？",
+          "summary_md": "今天没有 HN 定价讨论，但产品形态已经暗示了几种可学模式。代码图谱和 agent memory 适合按 repo、seat、私有部署收费：开源 CLI 免费，团队版卖权限、增量索引、审计日志和 CI 集成。voice AI 平台如 [dograh](https://github.com/dograh-hq/dograh) 可以走 self-hosted alternative 路线，按通话分钟、并发线路、企业 BYOK 和 on-prem 支持收费。\n\n端侧模型产品则适合一次性买断加专业包，例如离线翻译、TTS、会议转写、本地笔记。Product Hunt 上 [Trace](https://www.producthunt.com/products/trace-27)、[NoteCove](https://www.producthunt.com/products/notecove)、[Kept](https://www.producthunt.com/products/kept-ai-on-your-local-conversations) 都在打 no cloud、offline-first、本地保存，这类用户未必喜欢月费，但愿意为隐私、本地数据和可迁移格式付费。",
+          "items": [
+            {
+              "title": "dograh-hq/dograh",
+              "url": "https://github.com/dograh-hq/dograh",
+              "source": "GitHub",
+              "score": 693
+            },
+            {
+              "title": "Trace",
+              "url": "https://www.producthunt.com/products/trace-27",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "Kept",
+              "url": "https://www.producthunt.com/products/kept-ai-on-your-local-conversations",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "代理基础设施卖团队可靠性，本地 AI 工具卖隐私、所有权和格式自由。"
+        },
+        {
+          "id": "counterintuitive",
+          "heading": "今天最反直觉的发现是什么？",
+          "summary_md": "最反直觉的是：在 AI agent 讨论最热的时候，最有机会的产品可能不是更强的 agent，而是更朴素的资料整理、上下文压缩和运行环境。HN 今天唯一 Ask HN 是 Apple Vision Pro 日用办公问题，100 points、60 comments，说明硬件沉浸式工作流仍有好奇心，但没有形成和 GitHub 代理工具同等级的开发者动能。\n\n反过来，codegraph、Understand-Anything、academic-research-skills、superpowers、agentmemory 这些名字都很工程化，却拿到了 5,687 到 20,208 的周新增星。市场在用脚投票：大家不是想要一个会说更多话的 AI，而是想要一个少浪费 token、少迷路、能记住项目背景、能按流程做事的 AI。",
+          "items": [
+            {
+              "title": "Ask HN: Is anyone working at least 4 hours daily on an Apple Vision Pro?",
+              "url": "https://news.ycombinator.com/item?id=48275508",
+              "source": "HN",
+              "score": 100
+            },
+            {
+              "title": "obra/superpowers",
+              "url": "https://github.com/obra/superpowers",
+              "source": "GitHub",
+              "score": 9950
+            },
+            {
+              "title": "Imbad0202/academic-research-skills",
+              "url": "https://github.com/Imbad0202/academic-research-skills",
+              "source": "GitHub",
+              "score": 10678
+            }
+          ],
+          "takeaway": "AI agent 的下一步增长不在炫技界面，而在让普通工程任务更少上下文损耗。"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2026-05-26T09:18:56+00:00",
+  "reddit_highlights": [
+    {
+      "heading": "Indie 开发者在讨论哪些收入和定价问题？",
+      "body_md": "**🔍 信号**：Founder 金钱讨论包括 Reddit 上 9.1 美元 MRR 和 32.9 美元总收入的帖子、焦虑应用的第一笔 3 美元付款、28 天内从 900 美元到 2,100 美元 MRR、2700 万浏览量却 0 美元收入、2K-5K 日活拼图用户但变现弱，以及 Indie Hackers 上 65K 美元/月、50K 美元/月、20K 美元/月和 3K 美元 MRR 的帖子。\n\n**白话说：** 市场继续把注意力和收入分开；一笔很小的付款，有时比巨大受众更能教人。\n\n诚实的金钱帖仍然比发布掌声更有价值。Reddit 的 9.1 美元 MRR 故事很小，但它点出了大多数创始人藏起来的情绪里程碑：有一个人付钱了。第一笔 3 美元焦虑应用付款也在说同一件事。2700 万浏览量但 0 美元收入是反面教训：没有买家路径的分发不是生意。一个拥有 2K-5K 日活用户的拼图站创始人遇到类似问题；流量本身没有自动产生变现模型。\n\nIndie Hackers 补上了组合型业务的一端：65K 美元/月生态系统、50K 美元/月创作者合作、一个拥有 17 年老产品的 20K 美元/月组合，以及 3K 美元 MRR 的 AI 编排故事。这些帖子只有在被翻译成单元时才有用。到底卖的是什么：主题生态、创作者渠道、复活产品、工作流平台，还是持续恢复流程。\n\n对今天的构建来说，定价教训很清楚。先为一个可怕边界卖一份付费报告，再问同一个负责人是否需要持续监控。\n\n**关键判断**：先给第一份证明报告定价，再做订阅；只有当同一种风险每周重复出现时，经常性收入才成立。\n\n**反向视角**：Indie Hackers 收入帖经过筛选，有时信息很薄，所以把它们当模式，不要当审计报表。\n\n---",
+      "source_url": "https://raw.githubusercontent.com/BuilderPulse/BuilderPulse/main/zh/2026/2026-05-26.md"
+    },
+    {
+      "heading": "哪些定价和变现模型值得研究？",
+      "body_md": "**🔍 信号**：今天值得研究的包括 19 美元一次性边界报告、Reasonix 的 DeepSeek 示例价格：每百万输入 token 0.07 美元、每百万复用输入 token 0.014 美元，Reddit 上 9.1 美元 MRR 和 32.9 美元总收入故事、第一笔 3 美元 app 付款、来自当天 workspace 功能的 216 美元，以及 Indie Hackers 的 3K 美元 MRR AI 编排故事。\n\n**白话说：** 最好的定价课都很小、很具体：一份报告、一个恢复的账号、一张省下来的账单、一个客户要求的功能。\n\nAI 模型定价讨论仍然有用，但它应该从头条退到支撑证据。Reasonix 页面把复用提示词文本变成成本杠杆，而昨天的 DeepSeek 数字已经让供应商路由变得明显。今天更好的定价模型是报告：为一次具体边界检查收费；只有同一个负责人需要重复监控时，才升级。\n\n小创始人的帖子比大多数 playbook 更诚实。9.1 美元 MRR 和 32.9 美元总收入作为商业指标并不惊人，但它证明陌生人付费了。第一位 3 美元焦虑应用客户证明同一件事。216 美元当天 workspace 功能显示了更高质量的信号：一家企业要求一个能力，创始人做出来，然后钱到了。\n\n对 Copilot Boundary Receipt 来说，第一价格应该匹配这个现实。先卖 19 美元手动报告，再发明仪表盘。如果三个团队要求每周扫描，再提供 9-29 美元/月监控。如果安全负责人要求审计历史和共享 workspace，再给团队层定价。\n\n**关键判断**：从最小付费证明开始；只有当买家要求重复检查时，再收经常性费用。\n\n**反向视角**：一次性报告可能变成咨询陷阱，除非输入、输出和交付时间都被严格限定。\n\n---",
+      "source_url": "https://raw.githubusercontent.com/BuilderPulse/BuilderPulse/main/zh/2026/2026-05-26.md"
+    }
+  ]
+}
