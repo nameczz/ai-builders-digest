@@ -1,0 +1,262 @@
+{
+  "date": "2026-05-26",
+  "generated_at": "2026-05-26T09:11:35+00:00",
+  "count": 17,
+  "items": [
+    {
+      "id": "e6be08223b",
+      "date": "2026-05-26",
+      "source": "x",
+      "author": "Garry Tan",
+      "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "title": "",
+      "summary_en": "This is going to be common from here\n\nBrave new world\n\nPrompters of the world unite https://t.co/rtuwOGiEzQ",
+      "summary_zh": "这种事从现在起会成为常态：新世界已经来了，写提示词的人该联合起来了。",
+      "url": "https://x.com/garrytan/status/2059155926939299968",
+      "posted_at": "2026-05-26T06:13:24.000Z",
+      "tags": [
+        "@garrytan"
+      ]
+    },
+    {
+      "id": "b9902841bf",
+      "date": "2026-05-26",
+      "source": "x",
+      "author": "Garry Tan",
+      "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "title": "",
+      "summary_en": "Ultimately the golden age of abundance will be this kind of tech built and deployed 1000x https://t.co/ezuSdcjE3w",
+      "summary_zh": "真正的“丰裕黄金时代”不是靠 AI 愿景堆出来的，而是把 [ByteShape](https://allensthoughts.com/2026/03/05/tsf-invests-in-byteshape-make-ai-massively-more-efficient/) 这种能改写 AI 部署成本的底层技术，造出来、铺出去，再放大 1000 倍。",
+      "url": "https://x.com/garrytan/status/2059151927011909800",
+      "posted_at": "2026-05-26T05:57:31.000Z",
+      "tags": [
+        "@garrytan"
+      ]
+    },
+    {
+      "id": "537bf26b74",
+      "date": "2026-05-26",
+      "source": "x",
+      "author": "Garry Tan",
+      "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "title": "",
+      "summary_en": "By evals I mean literally tell the agent: given what we discussed about what we are doing and why and what happened, use three different frontier models to look at inputs and outputs of your skill file calling the code, and rate it on effectiveness. Why isn’t it a 10? How could it be made to be so? \n\nRun this a few times and you will be surprised how fast it gets astonishingly better\n\nAnd since it is in a skill file plus code with evals (LLM as judge) and unit tests, it stays better forever",
+      "summary_zh": "所谓 evals，就是让 agent 拿三个前沿模型审它调用代码时的输入输出，直接打分：为什么不是 10 分，怎么改到 10 分。跑几轮会快得吓人；一旦沉进 skill file、代码、LLM-as-judge 和单测里，变好就不再回退。",
+      "url": "https://x.com/garrytan/status/2059148823403082154",
+      "posted_at": "2026-05-26T05:45:11.000Z",
+      "tags": [
+        "@garrytan"
+      ]
+    },
+    {
+      "id": "6278455d27",
+      "date": "2026-05-26",
+      "source": "x",
+      "author": "Aditya Agarwal",
+      "bio": "General Partner @SouthPkCommons, Co-Founder @Bevel_Health | Ex: Early Eng @facebook, CTO @Dropbox, Board @Flipkart | Optimist, Builder, Dad",
+      "title": "",
+      "summary_en": "It's not everyday you get to host someone who's been to space.\n\nI'll be chatting with Group Captain Shubhanshu Shukla @gagan_shux at @spc_india.\n\nFighter Pilot. Astronaut. First Indian on the ISS. Incredible guest. Register to attend, BLR, May 28. https://t.co/D0fUyBRgfZ",
+      "summary_zh": "能把上过太空的人请来现场，本身就够硬核了。5 月 28 日，班加罗尔，和战斗机飞行员、宇航员、首位登上 ISS 的印度人 Shubhanshu Shukla 对谈。",
+      "url": "https://x.com/adityaag/status/2059135917122838705",
+      "posted_at": "2026-05-26T04:53:54.000Z",
+      "tags": [
+        "@adityaag"
+      ]
+    },
+    {
+      "id": "24cc38c4b5",
+      "date": "2026-05-26",
+      "source": "x",
+      "author": "Peter Yang",
+      "bio": "Practical AI tutorials and interviews for busy people | Join 140K+ readers at https://t.co/XYKTmGVH14 | Product at Roblox",
+      "title": "",
+      "summary_en": "Codex is very good. I'm especially impressed by how it uses the browse to test its own work.\n\nBut any design related / frontend tasks, Claude still wins.",
+      "summary_zh": "Codex 已经很强，尤其让人服的是会用浏览器自己验收自己的活。可一到设计和前端，Claude 还是赢。",
+      "url": "https://x.com/petergyang/status/2059099566377693305",
+      "posted_at": "2026-05-26T02:29:27.000Z",
+      "tags": [
+        "@petergyang"
+      ]
+    },
+    {
+      "id": "dd3faf4545",
+      "date": "2026-05-26",
+      "source": "x",
+      "author": "Peter Yang",
+      "bio": "Practical AI tutorials and interviews for busy people | Join 140K+ readers at https://t.co/XYKTmGVH14 | Product at Roblox",
+      "title": "",
+      "summary_en": "You have to think of tokenmaxxing as eating crab legs at the buffet.\n\nThe buffet (all you can eat AI plans) is not going to last forever so you better eat all the crab legs while you still can.",
+      "summary_zh": "把 tokenmaxxing 当成自助餐里狂吃蟹腿：AI 无限量套餐不会永远存在。趁还没收摊，把能吃的 token 全吃干榨净。",
+      "url": "https://x.com/petergyang/status/2059070818798465330",
+      "posted_at": "2026-05-26T00:35:13.000Z",
+      "tags": [
+        "@petergyang"
+      ]
+    },
+    {
+      "id": "a930a927b2",
+      "date": "2026-05-26",
+      "source": "x",
+      "author": "Peter Yang",
+      "bio": "Practical AI tutorials and interviews for busy people | Join 140K+ readers at https://t.co/XYKTmGVH14 | Product at Roblox",
+      "title": "",
+      "summary_en": "What used to feel like procrastination (building systems instead of the MVP) is now a prerequisite to ship effectively with AI agents.\n\nMy number 1 lesson from @ryancarson:\n\n\"We used to say just do the bare minimum to get the MVP out. Don't spend time on systems. It's literally reversed now.\n\nYou have to spend a lot of time setting up your documentation. Build all that into a cron job with a skill file, and suddenly you're doing the work of 10 people.\"\n\n📌 I asked Ryan how he ships 10 PRs a day, here's his answer: https://t.co/8jMGNSdHmu",
+      "summary_zh": "过去创业圈骂“搭系统不做 MVP”是拖延，现在在 AI agent 时代反而成了交付前提：文档、流程、skill file 和 cron job 先铺好，才跑得动。\n\n规则已经反过来了：别再迷信“先糊个 MVP”，系统搭起来，一个人才能干十个人的活。",
+      "url": "https://x.com/petergyang/status/2059029752858775581",
+      "posted_at": "2026-05-25T21:52:02.000Z",
+      "tags": [
+        "@petergyang"
+      ]
+    },
+    {
+      "id": "083fc24dbd",
+      "date": "2026-05-26",
+      "source": "x",
+      "author": "Aaron Levie",
+      "bio": "ceo @box - your business lives in content. unleash it with AI",
+      "title": "",
+      "summary_en": "The CEO of Goldman Sachs is taking the other side on the pessimistic takes on AI and jobs. \n\nIf you looked at what work looked like a few decades ago and saw how much faster everything is or easier it is to produce the same thing as before - even before AI - you’d certainly have been convinced there’d be no jobs left.\n\nWhat happens is we constantly just demand more from everything. Instead of automating a task and delivering the same value proposition, but cheaper, we just expect more from the overall product or service. Because some players in the market decides to do more with the automation, and it raises everyone’s expectations. So those that don’t respond can’t compete.\n\nWe get more financial analysis from analysts. We get much more comprehensive legal advice. We get more tailored financial services offerings. We get better software in niches we never thought we could automate. Our healthcare providers offer more tests and deeper medical advice. This just goes on and on.\n\nWhen you move from believing the world is static and you’ll have a better view of how jobs evolve due to AI.",
+      "summary_zh": "高盛CEO反驳“AI消灭工作”的悲观论：效率提升从来不是让世界原地降价，而是把所有人的交付标准继续抬高。AI真正淘汰的不是工作，而是那些还以为市场需求会保持静止的人。",
+      "url": "https://x.com/levie/status/2059025559896883489",
+      "posted_at": "2026-05-25T21:35:22.000Z",
+      "tags": [
+        "@levie"
+      ]
+    },
+    {
+      "id": "cb171f038c",
+      "date": "2026-05-26",
+      "source": "x",
+      "author": "Dan Shipper",
+      "bio": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "title": "",
+      "summary_en": "Good counterpoint from inside @every to After Automation: https://t.co/o5h1PTYUTg",
+      "summary_zh": "",
+      "url": "https://x.com/danshipper/status/2059014616059879501",
+      "posted_at": "2026-05-25T20:51:53.000Z",
+      "tags": [
+        "@danshipper"
+      ]
+    },
+    {
+      "id": "7441b09349",
+      "date": "2026-05-26",
+      "source": "x",
+      "author": "Amanda Askell",
+      "bio": "Philosopher & ethicist trying to make AI be good @AnthropicAI. Personal account. All opinions come from my training data.",
+      "title": "",
+      "summary_en": "I haven't written a personal blog post in over 5 years so if you see posts that claim to be written by me, they're not. I'll update if this ever changes. Maybe it should.",
+      "summary_zh": "他已经 5 年多没写个人博客了，凡是冒充他署名的文章都不是本人写的。除非他亲自更新，否则别信；不过他也觉得，也许是该重新开始写了。",
+      "url": "https://x.com/AmandaAskell/status/2058994218484338726",
+      "posted_at": "2026-05-25T19:30:50.000Z",
+      "tags": [
+        "@AmandaAskell"
+      ]
+    },
+    {
+      "id": "5e050f7661",
+      "date": "2026-05-26",
+      "source": "x",
+      "author": "Dan Shipper",
+      "bio": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "title": "",
+      "summary_en": "\"Humanity, created by God in all its grandeur is today facing a pivotal choice: either to construct a new Tower of Babel or to build the city in which God and humanity dwell together.\"\n\nThe Pope has obviously been reading @every from 2024: https://t.co/TxmwICvJ77",
+      "summary_zh": "教皇把 AI 时代的人类抉择说成“新巴别塔”与“神人共居之城”的二选一；发推者讽刺说，这套框架显然是读了 @every 2024 年的文章。",
+      "url": "https://x.com/danshipper/status/2058962119287038145",
+      "posted_at": "2026-05-25T17:23:17.000Z",
+      "tags": [
+        "@danshipper"
+      ]
+    },
+    {
+      "id": "0adf141085",
+      "date": "2026-05-26",
+      "source": "x",
+      "author": "Matt Turck",
+      "bio": "VC at @FirstMarkCap.  Host: MAD Podcast; Organizer: Data Driven NYC, Author: MAD Landscape.",
+      "title": "",
+      "summary_en": "Member of Technical Staff https://t.co/84YZZWhB5G",
+      "summary_zh": "",
+      "url": "https://x.com/mattturck/status/2058957711396544752",
+      "posted_at": "2026-05-25T17:05:46.000Z",
+      "tags": [
+        "@mattturck"
+      ]
+    },
+    {
+      "id": "bcd90bbf6d",
+      "date": "2026-05-26",
+      "source": "x",
+      "author": "Nikunj Kothari",
+      "bio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
+      "title": "",
+      "summary_en": "It’s hilarious how many people DM me every week asking “aren’t you a VC, why are you building”..\n\nBrother, the space is moving so fast that the only way you can learn and stay at the frontier is by building. Priors need to be rethought every few months.  \n\nIt’s also SO much fun to explore the edges of these models and discover new capabilities that haven’t been documented yet. \n\nI also find it absurd that how can you NOT be curious and redo how you do work. We have alien super intelligence in our hands and you want to spend hours doing it the same way just because it’s comfortable? \n\nAutomate or get automated is the bitter lesson we all need to learn. And have a lot of fun along the way :)",
+      "summary_zh": "别再问 VC 为什么还要亲自下场做东西了，AI 前沿跑得太快，不动手构建就只能靠过期认知瞎猜。手里握着近乎外星级的超级智能，还因为舒服继续用老办法干活，结局只有一个：自动化别人，或者被别人自动化。",
+      "url": "https://x.com/nikunj/status/2058927145519562867",
+      "posted_at": "2026-05-25T15:04:19.000Z",
+      "tags": [
+        "@nikunj"
+      ]
+    },
+    {
+      "id": "3e53712371",
+      "date": "2026-05-26",
+      "source": "x",
+      "author": "Peter Steinberger",
+      "bio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world. @OpenClaw🦞 + @OpenAI",
+      "title": "",
+      "summary_en": "OpenClaw's dependency purge continues. Killed Sharp and Jimp. Replaced it with photon, a small WebAssembly that runs compiled Rust for image processing. 2MB vs 140MB. https://t.co/tSimX2GKwP",
+      "summary_zh": "OpenClaw 继续清洗依赖：干掉 Sharp 和 Jimp，改用 Rust 编译到 WebAssembly 的 photon 做图像处理。体积从 140MB 砍到 2MB。",
+      "url": "https://x.com/steipete/status/2058922222790525272",
+      "posted_at": "2026-05-25T14:44:45.000Z",
+      "tags": [
+        "@steipete"
+      ]
+    },
+    {
+      "id": "e630b5de5e",
+      "date": "2026-05-26",
+      "source": "x",
+      "author": "Peter Steinberger",
+      "bio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world. @OpenClaw🦞 + @OpenAI",
+      "title": "",
+      "summary_en": "Folks: when you write skills, ask your agent to be token efficient, relax grammer. I see too many skills that write books in the skill description, and all that crap is loaded into every context.\n\nI wrote a skill that finds the worst offenders. https://t.co/kfaaJpxMXE",
+      "summary_zh": "写 skill 别把描述写成小作文，省 token、少废话才是正事；那些垃圾内容会被塞进每次上下文。他还写了个 skill，专门抓这些最浪费 token 的重灾区。",
+      "url": "https://x.com/steipete/status/2058917897590673525",
+      "posted_at": "2026-05-25T14:27:34.000Z",
+      "tags": [
+        "@steipete"
+      ]
+    },
+    {
+      "id": "2f4bd27df9",
+      "date": "2026-05-26",
+      "source": "x",
+      "author": "Peter Steinberger",
+      "bio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world. @OpenClaw🦞 + @OpenAI",
+      "title": "",
+      "summary_en": "There's security, and there's clankers. https://t.co/TLA07uIEZB",
+      "summary_zh": "安全是一回事，把机器和 AI 一概打成“破铜烂铁”是另一回事。",
+      "url": "https://x.com/steipete/status/2058884046940225918",
+      "posted_at": "2026-05-25T12:13:03.000Z",
+      "tags": [
+        "@steipete"
+      ]
+    },
+    {
+      "id": "2348232f17",
+      "date": "2026-05-26",
+      "source": "podcast",
+      "author": "The MAD Podcast with Matt Turck",
+      "bio": "",
+      "title": "Why AWS and Azure Cannot Run Autonomous AI – Ivan Burazin (Daytona)",
+      "summary_en": "Speaker 1 | 00:00 - 00:18\nWe are a part of this like super cycle right now and the super cycle does not last forever. And so if you're gonna pause by the super cycle, you are speeding market. Like that is what you're doing. I would ask Claude, can you go fetch the data from our bank? And then it was like, oh yeah, just log in and give me access.\n\nSpeaker 1 | 00:18 - 00:36\nI'm like, log in and give me a no. I will not give you access. Right away fundamentally for me that was like broke the entire thesis of it. So you give it its own machine. When I think about agents, I think of them as digital knowledge workers And to do anything as a knowledge worker, you do need a computer.\n\nSpeaker 1 | 00:36 - 00:40\nMy argument is that every agent will need at least one sandbox, sometimes more.\n\nSpeaker 2 | 00:40 - 01:11\nClaire Matturk. Welcome to the MAD podcast. My guest today is Ivan Borozin, CEO of Daytona, one of the most talked about startups in agent infrastructure. If you've been hearing the word sandbox in every AI agent conversation and quietly wondering what it actually means and why it suddenly matters, this episode is for you. We go from first principles, why does an agent need a computer at all, all the way to the deep technical end, why Daytona had to throw out Kubernetes and write their own scheduler, and why a global CPU shortage might be coming faster than people think.\n\nSpeaker 2 | 01:11 - 01:34\nIvan also unpacked the full agent stack as he sees it, models, sandboxes, tools, MCP, memory, orchestration, and where each piece is heading. Along the way, Ivan shares some really interesting lessons on go to market and distribution for technical founders that he has learned through sixteen years building developer tool startups. Please enjoy this conversation with Ivan fr",
+      "summary_zh": "AI agent 不是聊天框里的插件，而是数字知识工人；你不会把自己的银行账号和电脑直接交给它，所以它必须有自己的隔离机器。每个 agent 至少需要一个 sandbox，规模一上来，AWS/Azure 和 Kubernetes 这套传统云基础设施就会先被调度和 CPU 需求压穿。",
+      "url": "https://www.youtube.com/watch?v=kMXJrzAa5fM",
+      "posted_at": "2026-05-14T11:30:00.000Z",
+      "tags": [
+        "podcast"
+      ]
+    }
+  ]
+}
