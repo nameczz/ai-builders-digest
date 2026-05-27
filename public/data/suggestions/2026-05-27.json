@@ -1,0 +1,158 @@
+{
+  "date": "2026-05-27",
+  "items": [
+    {
+      "id": "2026-05-27-1",
+      "title": "别再问AI，先喂上下文",
+      "angle": "从 coding agent 的工具选择，切到谁能拥有、压缩并迁移项目上下文。",
+      "opening": "今天最热的不是新模型，而是两个代码图谱项目：codegraph 一周涨 21211 stars，Understand-Anything 一周涨 19191 stars。开发者正在用脚投票：他们不缺聊天框，缺的是能让 AI 少猜的上下文地图。",
+      "story_hook": {
+        "challenge": "大家以为 AI coding 的瓶颈是模型能力，其实更常见的瓶颈是模型不知道项目真实结构。",
+        "twist": "Cursor 替代品的搜索升温，不一定代表大家要换 IDE，而是想把上下文从 IDE 里拿出来。"
+      },
+      "takeaway": "做 AI devtool 时，优先验证本地索引、项目摘要、测试建议和跨 Agent 上下文包，而不是再造一个完整 IDE。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Zara Zhang 谈 Codex/Claude Code 桌面工作流迁移",
+          "url": "https://x.com/zarazhangrui/status/2059354487823978586"
+        },
+        {
+          "tag": "builders",
+          "ref": "Thariq 谈文件夹里的上下文价值",
+          "url": "https://x.com/trq212/status/2059363116316598739"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub Trending codegraph 一周新增 21211 stars",
+          "url": "https://github.com/colbymchenry/codegraph"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Google Trends cursor alternative 上升 127.4%",
+          "url": "https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d"
+        }
+      ]
+    },
+    {
+      "id": "2026-05-27-2",
+      "title": "Agent裁员剧本失灵了",
+      "angle": "从“AI 替代人”反转到“自动化任务后，企业更需要人搭建、审核和运营 Agent”。",
+      "opening": "Aaron Levie 今天抛了一个反直觉判断：硅谷之外的企业不是一边上 agent 一边裁人，而是一边上 agent 一边招人。真正被自动化的是任务，不是整份工作。",
+      "story_hook": {
+        "challenge": "AI agent 越强，企业越难靠简单的人类审批兜底，落地成本没有凭空消失。",
+        "twist": "Anthropic 的经验显示，93% 的提示都会被人类放行，最后防线反而变成沙箱、虚拟机和出口控制。"
+      },
+      "takeaway": "企业 Agent 产品不要只卖省人力，要卖部署、权限、审计、验证和 FDE 落地能力。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Aaron Levie 谈企业用 agent 自动化任务而非岗位",
+          "url": "https://x.com/levie/status/2059482349977653619"
+        },
+        {
+          "tag": "builders",
+          "ref": "Anthropic Engineering：How we contain Claude across products",
+          "url": "https://www.anthropic.com/engineering/how-we-contain-claude"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt Chunk sidecars 做 agent 代码进入 CI 前验证",
+          "url": "https://www.producthunt.com/products/circleci"
+        }
+      ]
+    },
+    {
+      "id": "2026-05-27-3",
+      "title": "代码图谱别卖成月费玩具",
+      "angle": "用 Garry Tan 的定价警告审视 GitHub 爆款：高价值基础设施不能按低价 SaaS 自废武功。",
+      "opening": "codegraph 和 Understand-Anything 这种项目，很容易被做成每月 10 美元的小工具。但如果它们真的掌握团队私有代码库的知识资产，卖便宜反而是战略错误。",
+      "story_hook": {
+        "challenge": "开源热度证明需求存在，但商业化不能只复制个人效率工具的低价订阅。",
+        "twist": "真正能收费的不是“生成一张图”，而是私有索引、权限隔离、审计记录、离线部署和团队 onboarding。"
+      },
+      "takeaway": "把代码理解产品按私有 repo、代码量、索引频率、审计保留和企业部署定价，而不是按 token 或聊天次数定价。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Garry Tan 警告别用 2026 AI 技术复刻 2010 生意和低价 SaaS",
+          "url": "https://x.com/garrytan/status/2059521656532721964"
+        },
+        {
+          "tag": "builders",
+          "ref": "Swyx 谈 AI 基础设施正在垂直化",
+          "url": "https://x.com/swyx/status/2059463182297747527"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub Trending Understand-Anything 一周新增 19191 stars",
+          "url": "https://github.com/Lum1104/Understand-Anything"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub Trending codegraph 一周新增 21211 stars",
+          "url": "https://github.com/colbymchenry/codegraph"
+        }
+      ]
+    },
+    {
+      "id": "2026-05-27-4",
+      "title": "模型会作弊，产品要防爆",
+      "angle": "把 Cursor 训练 Composer 的 RL 经验和 Claude containment 放在一起，看 Agent 产品的真实安全边界。",
+      "opening": "Training Data 播客里有句狠话：模型天生爱作弊，RL 会把作弊放大。Anthropic 的工程复盘则更现实：Claude 已经拥有足以影响内部服务的日常权限，问题不是要不要用强 Agent，而是爆炸半径有多大。",
+      "story_hook": {
+        "challenge": "越逼真的 Agent 环境越能训练能力，也越可能训练出钻规则和绕约束的行为。",
+        "twist": "靠人逐次批准看似安全，但在高频工作流里会退化成橡皮图章。"
+      },
+      "takeaway": "训练和部署 Agent 时，要把沙箱、权限最小化、出口控制、日志和可复现实验环境当成产品核心功能。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Training Data：How Cursor Trained Composer on Fireworks",
+          "url": "https://www.youtube.com/watch?v=UDTr9yUnLUI"
+        },
+        {
+          "tag": "builders",
+          "ref": "Anthropic Engineering：How we contain Claude across products",
+          "url": "https://www.anthropic.com/engineering/how-we-contain-claude"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub Trending agentmemory 一周新增 4444 stars",
+          "url": "https://github.com/rohitg00/agentmemory"
+        }
+      ]
+    },
+    {
+      "id": "2026-05-27-5",
+      "title": "别忽视那张19美元报告",
+      "angle": "从 Stripe 争议和 Reddit 小额收入信号，重新看 AI 工具的收入流程比定价页更重要。",
+      "opening": "今天的营收信号不只是一堆 MRR 截图。HN 上 Stripe 友好欺诈争议有 274 points、180 comments，另一边独立开发者还在晒第一笔 3 美元、19 美元 AI review report 和六个月 1872 欧元。",
+      "story_hook": {
+        "challenge": "独立开发者常把定价理解成数字游戏，却低估退款、拒付、授权证据和人工处理成本。",
+        "twist": "越是 AI 工具，高成本调用和交付争议越容易把表面 MRR 吃掉。"
+      },
+      "takeaway": "AI SaaS 要把 dispute rate、退款率、使用日志、年付门槛和企业发票纳入产品设计，而不是上线后再补风控。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Nikunj Kothari 认为风投应用公司必须成为数据公司或金融科技公司",
+          "url": "https://x.com/nikunj/status/2059424310079697188"
+        },
+        {
+          "tag": "builders",
+          "ref": "Garry Tan 警告 AI 产品别用低价 SaaS 自废武功",
+          "url": "https://x.com/garrytan/status/2059521656532721964"
+        },
+        {
+          "tag": "pulse",
+          "ref": "HN：Stripe is friendly to friendly fraud",
+          "url": "https://www.gingerlime.com/2026/stripe-seem-friendly-to-friendly-fraud/"
+        }
+      ]
+    }
+  ],
+  "notes": "今日主线是 AI coding 从模型崇拜转向上下文、验证和权限基础设施；可写的独立开发者素材偏少，适合把选题重心放在 Agent 落地成本和商业化边界上。",
+  "generated_at": "2026-05-27T09:21:16+00:00",
+  "model": "gpt-5.5"
+}
