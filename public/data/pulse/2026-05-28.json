@@ -1,0 +1,491 @@
+{
+  "date": "2026-05-28",
+  "top3": [
+    "今天最值得关注的是「代码知识图谱」集体爆发：Understand-Anything、codegraph 都在一周内拿到 2 万级新增星标，说明 AI 编程的瓶颈正在从模型能力转向上下文组织。",
+    "第二件事是 Agent 生态继续插件化：Anthropic knowledge-work-plugins、Cursor plugins、Memori、agentmemory 同时走热，开发者开始把 Agent 当成可组合操作系统来搭。",
+    "第三件事是消费级多模态机会回到端侧和视频：MiniCPM5-1B、Lance、LongCat Video Avatar、Supertone supertonic-3 都指向更轻、更私有、更即时的个人创作工具。"
+  ],
+  "intro": "今天的主线不是又来了一个大模型，而是 Agent 工程化进入「上下文、记忆、插件、验证」四件套阶段。对 Builder 来说，机会不在重新造聊天框，而在把 AI 放进真实工作流里，让它看懂项目、记住过程、生成可验收的结果。",
+  "sections": [
+    {
+      "id": "discovery",
+      "title": "发现机会",
+      "blocks": [
+        {
+          "id": "indie-products",
+          "heading": "今天有哪些独立开发者的新产品？",
+          "summary_md": "Product Hunt 今天的独立产品明显围绕「把 Agent 放进具体工作流」展开：[Stage](https://www.producthunt.com/products/stage-5) 做演示、Bug 和更新用的屏幕录制；[Crew44](https://www.producthunt.com/products/crew44) 把 coding agents 组织成专家团队；[Memori](https://www.producthunt.com/products/memori-labs) 主打从 agent trace 中提取持久记忆；[Compartment](https://www.producthunt.com/products/compartment) 则解决 AI Agent 构建应用后的安全分享问题。本批 Product Hunt 数据未提供票数与评论数，HN Show HN 今日为空，因此不能用热度排序，只能按主题密度判断。\n\n值得注意的是，[KugelAudio](https://www.producthunt.com/products/kugelaudio) 把实时可自托管 TTS 放到台前，[Kim Personal Health Assistant](https://www.producthunt.com/products/kim-personal-health-assistant) 试图成为 Apple Health 的智能层，[Growati](https://www.producthunt.com/products/growati) 做 YouTube 后期自动化。这些产品的共同点是避开通用助手，直接占一个高频输入或输出环节。",
+          "items": [
+            {
+              "title": "Stage",
+              "url": "https://www.producthunt.com/products/stage-5",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "Crew44",
+              "url": "https://www.producthunt.com/products/crew44",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "Memori",
+              "url": "https://www.producthunt.com/products/memori-labs",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "KugelAudio",
+              "url": "https://www.producthunt.com/products/kugelaudio",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "今天的新产品机会不是泛 Agent，而是把 Agent 绑定到一个明确交付物。"
+        },
+        {
+          "id": "github-traction",
+          "heading": "GitHub 上哪些高增长开源项目还没有商业化？",
+          "summary_md": "GitHub weekly 里最突出的未完全商业化机会是代码上下文基础设施：[Lum1104/Understand-Anything](https://github.com/Lum1104/Understand-Anything) 一周新增 23,401 星，总星 41,556；[colbymchenry/codegraph](https://github.com/colbymchenry/codegraph) 一周新增 21,424 星，总星 30,839。两者都把代码库转成可探索、可问答的知识图谱，说明 Claude Code、Codex、Cursor 用户已经感到上下文窗口和工具调用成本很痛。\n\n另一个方向是 Agent 运行时组件：[rohitg00/agentmemory](https://github.com/rohitg00/agentmemory) 一周新增 3,781 星，[can1357/oh-my-pi](https://github.com/can1357/oh-my-pi) 一周新增 2,514 星，[Chachamaru127/claude-code-harness](https://github.com/Chachamaru127/claude-code-harness) 一周新增 631 星。这些项目短期可以卖本地优先的团队版、IDE 插件、CI 前置检查或私有代码索引服务。",
+          "items": [
+            {
+              "title": "Lum1104/Understand-Anything",
+              "url": "https://github.com/Lum1104/Understand-Anything",
+              "source": "GitHub",
+              "score": 23401
+            },
+            {
+              "title": "colbymchenry/codegraph",
+              "url": "https://github.com/colbymchenry/codegraph",
+              "source": "GitHub",
+              "score": 21424
+            },
+            {
+              "title": "rohitg00/agentmemory",
+              "url": "https://github.com/rohitg00/agentmemory",
+              "source": "GitHub",
+              "score": 3781
+            },
+            {
+              "title": "can1357/oh-my-pi",
+              "url": "https://github.com/can1357/oh-my-pi",
+              "source": "GitHub",
+              "score": 2514
+            }
+          ],
+          "takeaway": "代码理解层正在变成 AI 编程工具链里的新数据库。"
+        }
+      ]
+    },
+    {
+      "id": "tech-stack",
+      "title": "技术选型",
+      "blocks": [
+        {
+          "id": "dev-tools",
+          "heading": "本周增长最快的开发者工具是什么？",
+          "summary_md": "本周开发者工具的增长集中在三类：代码知识图谱、Agent 技能库、Agent 质量控制。[Understand-Anything](https://github.com/Lum1104/Understand-Anything) 周增 23,401 星，[codegraph](https://github.com/colbymchenry/codegraph) 周增 21,424 星，已经超过普通工具发布的热度；[anthropics/knowledge-work-plugins](https://github.com/anthropics/knowledge-work-plugins) 周增 4,718 星，[cursor/plugins](https://github.com/cursor/plugins) 周增 548 星，说明插件规范会成为 Agent 入口竞争的一部分。\n\n质量控制也开始产品化：[hardikpandya/stop-slop](https://github.com/hardikpandya/stop-slop) 周增 1,751 星，[Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) 日榜周增 2,715 星，都是在解决 AI 输出变味、泛化、不可用的问题。真正的 dev-tool 机会可能不是再做一个编辑器，而是做编辑器和 Agent 之间的品控层。",
+          "items": [
+            {
+              "title": "Lum1104/Understand-Anything",
+              "url": "https://github.com/Lum1104/Understand-Anything",
+              "source": "GitHub",
+              "score": 23401
+            },
+            {
+              "title": "colbymchenry/codegraph",
+              "url": "https://github.com/colbymchenry/codegraph",
+              "source": "GitHub",
+              "score": 21424
+            },
+            {
+              "title": "anthropics/knowledge-work-plugins",
+              "url": "https://github.com/anthropics/knowledge-work-plugins",
+              "source": "GitHub",
+              "score": 4718
+            },
+            {
+              "title": "hardikpandya/stop-slop",
+              "url": "https://github.com/hardikpandya/stop-slop",
+              "source": "GitHub",
+              "score": 1751
+            }
+          ],
+          "takeaway": "AI 编程工具的下一层竞争是上下文结构化、插件生态和输出验收。"
+        },
+        {
+          "id": "hf-models",
+          "heading": "HuggingFace 上最热的模型能做什么消费级产品？",
+          "summary_md": "HuggingFace 今日模型榜给了三个消费级方向。第一是端侧助手：[openbmb/MiniCPM5-1B](https://huggingface.co/openbmb/MiniCPM5-1B) trending score 399、下载 15,629，标签含 long-context、tool-calling、on-device、edge-ai，适合做本地笔记助手、离线客服、隐私优先的桌面 Agent。第二是视频与头像：[bytedance-research/Lance](https://huggingface.co/bytedance-research/Lance) score 399、likes 943，[meituan-longcat/LongCat-Video-Avatar-1.5](https://huggingface.co/meituan-longcat/LongCat-Video-Avatar-1.5) score 342，适合做短视频口播、虚拟讲师、商品讲解。\n\n第三是声音和翻译：[Supertone/supertonic-3](https://huggingface.co/Supertone/supertonic-3) score 200、下载 52,022，[tencent/Hy-MT2-1.8B](https://huggingface.co/tencent/Hy-MT2-1.8B) score 135、likes 1,076。结合 Product Hunt 上 KugelAudio 的自托管 TTS，开发者可以快速做「本地生成语音 + 多语言字幕 + 自动发布」的小型创作者工具。",
+          "items": [
+            {
+              "title": "openbmb/MiniCPM5-1B",
+              "url": "https://huggingface.co/openbmb/MiniCPM5-1B",
+              "source": "HuggingFace",
+              "score": 399
+            },
+            {
+              "title": "bytedance-research/Lance",
+              "url": "https://huggingface.co/bytedance-research/Lance",
+              "source": "HuggingFace",
+              "score": 399
+            },
+            {
+              "title": "meituan-longcat/LongCat-Video-Avatar-1.5",
+              "url": "https://huggingface.co/meituan-longcat/LongCat-Video-Avatar-1.5",
+              "source": "HuggingFace",
+              "score": 342
+            },
+            {
+              "title": "Supertone/supertonic-3",
+              "url": "https://huggingface.co/Supertone/supertonic-3",
+              "source": "HuggingFace",
+              "score": 200
+            }
+          ],
+          "takeaway": "端侧、小模型、多模态正在把消费级 AI 从云端订阅拉回个人设备。"
+        },
+        {
+          "id": "show-hn",
+          "heading": "Show HN 高关注项目用的什么技术栈？",
+          "summary_md": "今天 HN Show HN 为空，无法判断高关注 Show HN 项目的技术栈。但从 GitHub 和 Product Hunt 交叉看，TypeScript 仍是 Agent 前端和插件生态的默认选择：Understand-Anything、codegraph、OpenWA、oh-my-pi、Cursor plugins 都是 TypeScript；Python 则继续承载模型、研究和自动化脚本，如 ai-engineering-from-scratch、knowledge-work-plugins、academic-research-skills、dograh。\n\n这对 Builder 的实际含义是，面向开发者的 AI 产品最好把 TypeScript 放在交互层和 IDE 集成层，把 Python 放在模型适配、评估、数据处理层。Rust 的 openhuman、RuView 说明高性能本地组件有机会，但不是大多数 MVP 的第一选择。",
+          "items": [
+            {
+              "title": "Lum1104/Understand-Anything",
+              "url": "https://github.com/Lum1104/Understand-Anything",
+              "source": "GitHub",
+              "score": 23401
+            },
+            {
+              "title": "colbymchenry/codegraph",
+              "url": "https://github.com/colbymchenry/codegraph",
+              "source": "GitHub",
+              "score": 21424
+            },
+            {
+              "title": "dograh-hq/dograh",
+              "url": "https://github.com/dograh-hq/dograh",
+              "source": "GitHub",
+              "score": 997
+            },
+            {
+              "title": "tinyhumansai/openhuman",
+              "url": "https://github.com/tinyhumansai/openhuman",
+              "source": "GitHub",
+              "score": 5723
+            }
+          ],
+          "takeaway": "Agent 产品的现实栈是 TypeScript 做入口，Python 做智能层，Rust 做本地性能尖刀。"
+        }
+      ]
+    },
+    {
+      "id": "competition",
+      "title": "竞争情报",
+      "blocks": [
+        {
+          "id": "migrations",
+          "heading": "有没有「XX is dead」或迁移类文章？",
+          "summary_md": "今天 HN 没有明显的「XX is dead」或迁移文章，但市场信号已经在迁移：Google Trends 里 [cursor alternative](https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d) 仅 +0.8%，并没有继续爆发；反而 [codex cli](https://trends.google.com/trends/explore?q=codex+cli&date=now+7-d) +17.1%，关联上升词出现 antigravity、antigravity cli、antigravity ide。这说明开发者不是简单从 Cursor 迁到另一个编辑器，而是在比较不同命令行 Agent、IDE Agent 和插件规范。\n\nGitHub 上 Cursor plugins 周增 548 星，Anthropic knowledge-work-plugins 周增 4,718 星，codegraph 和 Understand-Anything 同时爆发。竞争重点正在从「谁的编辑器更聪明」转向「谁能吃下团队知识、插件生态和本地上下文」。",
+          "items": [
+            {
+              "title": "cursor/plugins",
+              "url": "https://github.com/cursor/plugins",
+              "source": "GitHub",
+              "score": 548
+            },
+            {
+              "title": "anthropics/knowledge-work-plugins",
+              "url": "https://github.com/anthropics/knowledge-work-plugins",
+              "source": "GitHub",
+              "score": 4718
+            },
+            {
+              "title": "codex cli",
+              "url": "https://trends.google.com/trends/explore?q=codex+cli&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 17
+            },
+            {
+              "title": "cursor alternative",
+              "url": "https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 1
+            }
+          ],
+          "takeaway": "编辑器迁移不是主战场，Agent 上下文和插件协议才是主战场。"
+        },
+        {
+          "id": "pricing-revenue",
+          "heading": "独立开发者在讨论什么营收和定价策略？",
+          "summary_md": "HN 今日数据不足以支撑 MRR、ARR、pricing、subscription、revenue 类讨论，但 Product Hunt 的新品给出了一条定价线索：Stage、Growati、Pitch Agent、Buffer API 都是把 AI 包装成明确产出的生产力工具，天然适合按席位、按导出量或按调用量计费；Granite、Compartment、Memori 则偏向信任和数据保管，适合做个人免费、团队付费、企业私有部署。\n\n更值得学的是 OpenWA、dograh 这种自托管替代路线。OpenWA 周增 2,113 星，dograh 周增 997 星，它们面对的是已有预算的 WhatsApp API、Vapi、Retell 类市场。开源可以作为获客入口，商业化卖托管、合规、监控、团队权限和 SLA。",
+          "items": [
+            {
+              "title": "rmyndharis/OpenWA",
+              "url": "https://github.com/rmyndharis/OpenWA",
+              "source": "GitHub",
+              "score": 2113
+            },
+            {
+              "title": "dograh-hq/dograh",
+              "url": "https://github.com/dograh-hq/dograh",
+              "source": "GitHub",
+              "score": 997
+            },
+            {
+              "title": "Stage",
+              "url": "https://www.producthunt.com/products/stage-5",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "Compartment",
+              "url": "https://www.producthunt.com/products/compartment",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "今天可复制的变现模式是开源获客，托管、合规和团队控制收费。"
+        }
+      ]
+    },
+    {
+      "id": "trends",
+      "title": "趋势判断",
+      "blocks": [
+        {
+          "id": "keywords",
+          "heading": "本周技术关键词频率有什么变化？",
+          "summary_md": "Google Trends 的强信号非常集中：[ai engineering from scratch](https://trends.google.com/trends/explore?q=ai+engineering+from+scratch&date=now+7-d) +999%，[knowledge work plugins](https://trends.google.com/trends/explore?q=knowledge+work+plugins&date=now+7-d) +999%，[codegraph](https://trends.google.com/trends/explore?q=codegraph&date=now+7-d) +81.8%，[understand anything](https://trends.google.com/trends/explore?q=understand+anything&date=now+7-d) +35.5%。这和 GitHub 周榜完全吻合：ai-engineering-from-scratch 周增 12,787 星，knowledge-work-plugins 周增 4,718 星，codegraph 和 Understand-Anything 都是 2 万级周增。\n\n关键词背后的变化是：开发者开始系统学习 AI engineering，而不是只找 prompt；知识工作插件和代码图谱成为 Agent 进入真实工作的桥。今天做内容、课程、工具，都应该围绕「如何让 Agent 理解你的项目」展开。",
+          "items": [
+            {
+              "title": "ai engineering from scratch",
+              "url": "https://trends.google.com/trends/explore?q=ai+engineering+from+scratch&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 999
+            },
+            {
+              "title": "knowledge work plugins",
+              "url": "https://trends.google.com/trends/explore?q=knowledge+work+plugins&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 999
+            },
+            {
+              "title": "codegraph",
+              "url": "https://trends.google.com/trends/explore?q=codegraph&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 82
+            },
+            {
+              "title": "understand anything",
+              "url": "https://trends.google.com/trends/explore?q=understand+anything&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 36
+            }
+          ],
+          "takeaway": "AI 工程化教育和项目上下文基础设施正在同步升温。"
+        },
+        {
+          "id": "vc-radar",
+          "heading": "VC 和 YC 在关注什么主题？",
+          "summary_md": "从今天的数据看，VC 和 YC 会继续盯三个方向。第一是 Agent 基础设施：codegraph、Understand-Anything、agentmemory、Memori 都指向记忆、上下文、可追踪执行。第二是自托管企业 AI：dograh 是 Vapi 和 Retell 的开源替代，OpenWA 是 WhatsApp API Gateway，Compartment 解决 AI Agent 应用的安全分享，这些都更接近付费预算。\n\n第三是「AI 带来的新界面」：Robinhood Agentic Trading、NeuralAgent 2.5、Pancake、Crew44 都在把 Agent 从聊天窗口移到交易、电脑控制、Slack 和团队协作。投资人真正想看的不是模型演示，而是 Agent 是否接住了高价值动作以及是否能被权限、审计、回滚约束住。",
+          "items": [
+            {
+              "title": "dograh-hq/dograh",
+              "url": "https://github.com/dograh-hq/dograh",
+              "source": "GitHub",
+              "score": 997
+            },
+            {
+              "title": "rmyndharis/OpenWA",
+              "url": "https://github.com/rmyndharis/OpenWA",
+              "source": "GitHub",
+              "score": 2113
+            },
+            {
+              "title": "Robinhood Agentic Trading",
+              "url": "https://www.producthunt.com/products/robinhood",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "NeuralAgent 2.5",
+              "url": "https://www.producthunt.com/products/neuralagent",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "资本会奖励能把 Agent 接到高价值动作且可治理的产品。"
+        },
+        {
+          "id": "cooling",
+          "heading": "哪些 AI 热词在降温？",
+          "summary_md": "降温信号也很明确：[academic research skills](https://trends.google.com/trends/explore?q=academic+research+skills&date=now+7-d) -27.1%，[ruview](https://trends.google.com/trends/explore?q=ruview&date=now+7-d) -62.3%，[open source alternative](https://trends.google.com/trends/explore?q=open+source+alternative&date=now+7-d) 仅 +0.1%，[cursor alternative](https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d) 仅 +0.8%。这说明单点项目的传播窗口很短，单纯喊开源替代或某某替代已经不够有记忆点。\n\n不过降温不等于没价值。academic-research-skills 仍有周增 7,385 星，RuView 仍有周增 5,434 星，只是搜索热度从爆点回落。Builder 应该趁热度退去观察留存：如果 issue、fork、二创教程还在增长，才值得做商业化跟进。",
+          "items": [
+            {
+              "title": "academic research skills",
+              "url": "https://trends.google.com/trends/explore?q=academic+research+skills&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": -27
+            },
+            {
+              "title": "ruview",
+              "url": "https://trends.google.com/trends/explore?q=ruview&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": -62
+            },
+            {
+              "title": "open source alternative",
+              "url": "https://trends.google.com/trends/explore?q=open+source+alternative&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 0
+            },
+            {
+              "title": "cursor alternative",
+              "url": "https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 1
+            }
+          ],
+          "takeaway": "热词退潮后，真正该看的指标是复用和二次开发，而不是搜索峰值。"
+        },
+        {
+          "id": "new-radar",
+          "heading": "新词雷达：有哪些从零起飞的新概念？",
+          "summary_md": "今天的新词弱信号主要来自 Google Trends breakout 和 rising query。[codex](https://trends.google.com/trends/explore?q=codex&date=now+7-d) 的关联词里，codex pursue goal +8,900%、codex ai programming versus claude +7,100%、codex 无法 设置 目标 +6,200%，说明用户已经不是搜索工具名，而是在搜索目标设定、模型对比和具体使用故障。[codex cli](https://trends.google.com/trends/explore?q=codex+cli&date=now+7-d) 的 rising 里出现 antigravity、antigravity cli、antigravity ide，也是 Agent IDE 竞争的新词。\n\n另外，[ai agent](https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d) 的 rising 出现 robinhood ai agent +200% 和 anijam ai animation agent for everyone +40%，[self hosted](https://trends.google.com/trends/explore?q=self+hosted&date=now+7-d) 里出现 honcho self hosted +190%。这些词指向两个早期机会：金融交易类 Agent 的权限安全，以及自托管 Agent 后端。",
+          "items": [
+            {
+              "title": "codex pursue goal",
+              "url": "https://trends.google.com/trends/explore?q=codex&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 8900
+            },
+            {
+              "title": "codex ai programming versus claude",
+              "url": "https://trends.google.com/trends/explore?q=codex&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 7100
+            },
+            {
+              "title": "robinhood ai agent",
+              "url": "https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 200
+            },
+            {
+              "title": "honcho self hosted",
+              "url": "https://trends.google.com/trends/explore?q=self+hosted&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 190
+            }
+          ],
+          "takeaway": "新词正在从工具名转向使用任务、权限边界和自托管部署。"
+        }
+      ]
+    },
+    {
+      "id": "actions",
+      "title": "行动触发",
+      "blocks": [
+        {
+          "id": "weekend-build",
+          "heading": "今天 2 小时和一个周末分别做什么？",
+          "summary_md": "2 小时内可以做一个「Repo Context Brief」：读取一个 GitHub 仓库，生成模块图、关键文件说明、待办入口，并导出给 Claude Code 或 Codex 使用。这个方向直接贴合 codegraph 周增 21,424 星、Understand-Anything 周增 23,401 星的需求，不需要先做完整知识图谱，只要把 onboarding 时间从 30 分钟压到 5 分钟。\n\n一个周末可以做成可售卖 MVP：接入本地仓库索引、生成 Agent 任务上下文、记录每次修改的 trace，再加一个简单评分器判断输出是否跑偏。命名上不要叫通用 AI IDE，叫「AI Agent context pack for existing repos」更清楚。",
+          "items": [
+            {
+              "title": "colbymchenry/codegraph",
+              "url": "https://github.com/colbymchenry/codegraph",
+              "source": "GitHub",
+              "score": 21424
+            },
+            {
+              "title": "Lum1104/Understand-Anything",
+              "url": "https://github.com/Lum1104/Understand-Anything",
+              "source": "GitHub",
+              "score": 23401
+            },
+            {
+              "title": "rohitg00/agentmemory",
+              "url": "https://github.com/rohitg00/agentmemory",
+              "source": "GitHub",
+              "score": 3781
+            },
+            {
+              "title": "Memori",
+              "url": "https://www.producthunt.com/products/memori-labs",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "最快的周末项目是给现有 Agent 补一个可复用的项目上下文包。"
+        },
+        {
+          "id": "pricing-models",
+          "heading": "值得学习的定价和变现模式有哪些？",
+          "summary_md": "今天最值得学习的是「开源核心 + 私有部署 + 托管服务」模式。OpenWA 做自托管 WhatsApp API Gateway，周增 2,113 星；dograh 做开源 voice AI platform，周增 997 星，明确对标 Vapi 和 Retell。它们都不是卖模型，而是卖企业愿意为稳定性、权限、部署、监控和合规付费的基础设施。\n\n对独立开发者来说，Product Hunt 上 Stage、Growati、Pitch Agent 代表另一种轻量模式：按产出收费。录屏、后期、演示文稿都可以按导出次数、团队席位或品牌模板收费。相比纯订阅，产出型定价更容易让用户理解价值，也更适合小团队启动。",
+          "items": [
+            {
+              "title": "rmyndharis/OpenWA",
+              "url": "https://github.com/rmyndharis/OpenWA",
+              "source": "GitHub",
+              "score": 2113
+            },
+            {
+              "title": "dograh-hq/dograh",
+              "url": "https://github.com/dograh-hq/dograh",
+              "source": "GitHub",
+              "score": 997
+            },
+            {
+              "title": "Growati",
+              "url": "https://www.producthunt.com/products/growati",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "Pitch Agent",
+              "url": "https://www.producthunt.com/products/pitch",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "AI 产品最稳的收费点不是智能本身，而是可交付、可部署、可治理。"
+        },
+        {
+          "id": "counterintuitive",
+          "heading": "今天最反直觉的发现是什么？",
+          "summary_md": "最反直觉的是，AI 编程越强，开发者越需要「看起来不智能」的基础设施。今天增长最快的不是炫酷聊天助手，而是 codegraph、Understand-Anything、agentmemory、stop-slop、taste-skill 这类上下文、记忆、品控工具。它们解决的是 Agent 进入真实项目后的硬问题：不知道代码在哪里、忘记之前做了什么、输出风格不稳定、修改不可验证。\n\n这意味着 Builder 不必和 Claude、Codex、Cursor 正面对抗。更好的切入点是站在它们旁边，提供上下文压缩、任务拆解、运行轨迹、质量评分、团队知识同步。大模型越通用，周边工具越有机会专业化。",
+          "items": [
+            {
+              "title": "hardikpandya/stop-slop",
+              "url": "https://github.com/hardikpandya/stop-slop",
+              "source": "GitHub",
+              "score": 1751
+            },
+            {
+              "title": "Leonxlnx/taste-skill",
+              "url": "https://github.com/Leonxlnx/taste-skill",
+              "source": "GitHub",
+              "score": 2715
+            },
+            {
+              "title": "rohitg00/agentmemory",
+              "url": "https://github.com/rohitg00/agentmemory",
+              "source": "GitHub",
+              "score": 3781
+            },
+            {
+              "title": "Chachamaru127/claude-code-harness",
+              "url": "https://github.com/Chachamaru127/claude-code-harness",
+              "source": "GitHub",
+              "score": 631
+            }
+          ],
+          "takeaway": "不要再做更聪明的聊天框，去做让聪明模型不犯低级错的基础设施。"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2026-05-28T09:17:02+00:00",
+  "reddit_highlights": []
+}

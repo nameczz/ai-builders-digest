@@ -1,0 +1,163 @@
+{
+  "date": "2026-05-28",
+  "items": [
+    {
+      "id": "2026-05-28-1",
+      "title": "AI 越自动，公司越招人",
+      "angle": "用 Every 的反直觉案例切入：AI 不是把人挤出去，而是把团队野心和组织复杂度一起放大。",
+      "opening": "一个团队把大量工作自动化之后，最直觉的结果应该是裁员。但 Every 的故事恰好相反：他们用 AI 自动化了很多流程，最后却把团队人数翻了三倍。真正的问题不是「AI 会不会替代人」，而是「当执行成本突然下降，人类会不会反而敢做更大的事」。",
+      "story_hook": {
+        "challenge": "大家默认 AI 自动化会压缩人力，但真实案例里自动化反而制造了更多需要人判断、协作和承担责任的工作。",
+        "twist": "越想让 agent 完全脱离人，价值反而越低；越能放大人的野心，商业价值越高。"
+      },
+      "takeaway": "判断 AI 产品价值时，不只看它省了多少人力，还要看它是否让团队敢启动过去不敢做的项目。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "AI & I by Every：We Automated Everything With AI and Tripled Our Headcount",
+          "url": "https://www.youtube.com/watch?v=dCmOTURRf1Y"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt：Crew44 把 coding agents 组织成专家团队",
+          "url": "https://www.producthunt.com/products/crew44"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt：Stage 把演示、Bug 和更新录制变成具体工作流",
+          "url": "https://www.producthunt.com/products/stage-5"
+        }
+      ]
+    },
+    {
+      "id": "2026-05-28-2",
+      "title": "AI 编程卡在读懂项目",
+      "angle": "从 GitHub 两个 2 万星级增长项目切入：AI 编程的瓶颈正在从模型能力转向上下文组织能力。",
+      "opening": "这周 GitHub 上最猛的不是新的代码模型，而是两个帮 AI 读懂代码库的项目。Understand-Anything 一周新增 23,401 星，codegraph 一周新增 21,424 星。开发者已经在用脚投票：真正痛的不是 AI 不会写代码，而是它不知道该看哪里。",
+      "story_hook": {
+        "challenge": "模型越来越强，但真实项目里的上下文、模块关系、历史决策和任务边界仍然混乱。",
+        "twist": "下一代 AI 编程工具可能不是更聪明的编辑器，而是代码知识图谱、上下文包和可复用项目记忆。"
+      },
+      "takeaway": "做 AI devtool 不必正面对抗 Cursor、Claude Code、Codex，可以围绕 repo onboarding、上下文压缩、任务包生成做插件型产品。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "AI & I by Every：越脱离人的 agent 越不值钱，关键是放大人的野心",
+          "url": "https://www.youtube.com/watch?v=dCmOTURRf1Y"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub：Lum1104/Understand-Anything 周增 23,401 星",
+          "url": "https://github.com/Lum1104/Understand-Anything"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub：colbymchenry/codegraph 周增 21,424 星",
+          "url": "https://github.com/colbymchenry/codegraph"
+        }
+      ]
+    },
+    {
+      "id": "2026-05-28-3",
+      "title": "Agent 正在变成操作系统",
+      "angle": "从插件、记忆、技能库同时升温切入：Agent 的竞争点不再是聊天框，而是可组合的工作系统。",
+      "opening": "今天 Agent 生态最值得看的不是某个新助手，而是一批看起来很无聊的基础设施：插件、记忆、trace、安全分享。Anthropic knowledge-work-plugins 一周新增 4,718 星，Memori 主打从 agent trace 里提取长期记忆，Cursor plugins 也在继续扩展入口。Agent 正在从「会聊天的应用」变成「能装插件的操作系统」。",
+      "story_hook": {
+        "challenge": "用户想要的是完成工作，但大多数 Agent 还停留在单次对话，缺少记忆、权限、插件和验收机制。",
+        "twist": "真正有平台价值的不是最会回答的 Agent，而是能让第三方工作流接入、复用、审计和扩展的 Agent。"
+      },
+      "takeaway": "开发者应该优先研究插件协议、长期记忆、trace 复盘和权限边界，而不是再做一个独立聊天入口。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "AI & I by Every：真正的机会不是把人踢出局，而是让更多人押上更大的野心",
+          "url": "https://www.youtube.com/watch?v=dCmOTURRf1Y"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub：anthropics/knowledge-work-plugins 周增 4,718 星",
+          "url": "https://github.com/anthropics/knowledge-work-plugins"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt：Memori 从 agent trace 中提取持久记忆",
+          "url": "https://www.producthunt.com/products/memori-labs"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub：cursor/plugins 周增 548 星",
+          "url": "https://github.com/cursor/plugins"
+        }
+      ]
+    },
+    {
+      "id": "2026-05-28-4",
+      "title": "最值钱的 AI 是可治理的",
+      "angle": "用开源替代和安全分享产品切入：企业愿意付费的不是智能本身，而是部署、权限、监控和责任边界。",
+      "opening": "今天有一条很清楚的商业化线索：OpenWA 周增 2,113 星，dograh 周增 997 星，Compartment 则专门解决 AI Agent 应用的安全分享问题。它们卖的不是「更聪明」，而是自托管、合规、权限和稳定性。企业买 AI，最后买的往往是能出事后找得到责任人的那一层。",
+      "story_hook": {
+        "challenge": "AI 产品 Demo 很容易惊艳，但企业采购真正担心的是数据、权限、审计、回滚和 SLA。",
+        "twist": "开源获客加私有部署，可能比闭源订阅更适合 Agent 基础设施创业。"
+      },
+      "takeaway": "如果做企业 AI 产品，优先把托管、权限、审计、监控、私有部署做成收费点，而不是只包装模型能力。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "AI & I by Every：AI 自动化后团队反而扩大，说明人类判断和组织责任仍是核心",
+          "url": "https://www.youtube.com/watch?v=dCmOTURRf1Y"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub：rmyndharis/OpenWA 周增 2,113 星",
+          "url": "https://github.com/rmyndharis/OpenWA"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub：dograh-hq/dograh 周增 997 星",
+          "url": "https://github.com/dograh-hq/dograh"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt：Compartment 解决 AI Agent 应用安全分享",
+          "url": "https://www.producthunt.com/products/compartment"
+        }
+      ]
+    },
+    {
+      "id": "2026-05-28-5",
+      "title": "别再喊 Cursor 替代了",
+      "angle": "从搜索热度和 GitHub 增长错位切入：开发者迁移的对象不是编辑器，而是 Agent 工作方式。",
+      "opening": "「cursor alternative」这类词只涨了 0.8%，但「codex cli」涨了 17.1%，codegraph、Understand-Anything、knowledge-work-plugins 却同时爆发。这个反差说明，开发者并不是简单想换一个编辑器。他们在重新比较命令行 Agent、IDE Agent、插件协议和项目上下文到底谁更可靠。",
+      "story_hook": {
+        "challenge": "外界以为 AI 编程工具竞争是编辑器大战，但用户搜索和开源增长指向更底层的迁移。",
+        "twist": "真正迁移的是开发流程：从在编辑器里补全代码，转向给 Agent 配上下文、插件、目标和验收标准。"
+      },
+      "takeaway": "观察 AI 编程趋势时，不要只盯 IDE 替代叙事，要跟踪 CLI、插件协议、上下文层和质量控制工具的增长。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "AI & I by Every：AI 机会在于放大人的工作流，而不是单点替代人",
+          "url": "https://www.youtube.com/watch?v=dCmOTURRf1Y"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Google Trends：codex cli 近 7 天 +17.1%",
+          "url": "https://trends.google.com/trends/explore?q=codex+cli&date=now+7-d"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Google Trends：cursor alternative 近 7 天仅 +0.8%",
+          "url": "https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub：hardikpandya/stop-slop 周增 1,751 星",
+          "url": "https://github.com/hardikpandya/stop-slop"
+        }
+      ]
+    }
+  ],
+  "notes": "今日 builders 素材只有一条播客，人物密度不足；编辑上应把它作为总叙事线索，重点借 pulse 里的代码上下文、插件化、治理和商业化信号展开。",
+  "generated_at": "2026-05-28T09:18:06+00:00",
+  "model": "gpt-5.5"
+}
