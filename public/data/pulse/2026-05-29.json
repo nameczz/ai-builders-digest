@@ -1,0 +1,401 @@
+{
+  "date": "2026-05-29",
+  "top3": [
+    "代码库知识图谱成为今天最强主线，Understand-Anything 与 codegraph 在 GitHub 周榜合计拿到 45,340 个新增星标，搜索也同步起飞。",
+    "AI 代理正在从聊天入口转向工作流基础设施，Claude/Cursor 插件、技能文件、记忆层、浏览器桥接和成本追踪工具一起升温。",
+    "消费级多模态仍有明确机会，短视频生成、头像视频、端侧小模型和视觉定位模型都在 HuggingFace 与 GitHub 上出现高热度信号。"
+  ],
+  "intro": "今天的核心不是又多了一个模型，而是 AI 开发者开始系统性地给代理补上下文、记忆、工具调用和品味控制。开源增长、Product Hunt 发布与 Google Trends 同时指向一个判断：下一波 Builder 机会在「让代理更懂项目、更少乱跑、更可观测」。",
+  "sections": [
+    {
+      "id": "discovery",
+      "title": "发现机会",
+      "blocks": [
+        {
+          "id": "github-traction",
+          "heading": "GitHub 上哪些高增长开源项目还没有商业化？",
+          "summary_md": "最值得盯的是代码理解层。[Lum1104/Understand-Anything](https://github.com/Lum1104/Understand-Anything) 本周新增 26,212 星，总星 43,659；[colbymchenry/codegraph](https://github.com/colbymchenry/codegraph) 本周新增 19,128 星，总星 32,519。两者都在做一件事：把代码库变成可搜索、可问答、可给 AI 代理消费的知识图谱。这不像传统文档工具，更像给 Claude Code、Codex、Cursor 配一个本地项目大脑。商业化缺口在团队版索引、私有仓库权限、CI 中的架构漂移检测，以及面向 CTO 的代码资产地图。",
+          "items": [
+            {
+              "title": "Lum1104/Understand-Anything",
+              "url": "https://github.com/Lum1104/Understand-Anything",
+              "source": "GitHub",
+              "score": 26212
+            },
+            {
+              "title": "colbymchenry/codegraph",
+              "url": "https://github.com/colbymchenry/codegraph",
+              "source": "GitHub",
+              "score": 19128
+            },
+            {
+              "title": "rohitg00/ai-engineering-from-scratch",
+              "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+              "source": "GitHub",
+              "score": 13159
+            }
+          ],
+          "takeaway": "代码库上下文正在从辅助功能变成 AI 编程工具的基础设施。"
+        },
+        {
+          "id": "indie-products",
+          "heading": "今天有哪些独立开发者的新产品？",
+          "summary_md": "Show HN 今天没有可用样本，Product Hunt 又没有提供票数和评论数，所以这里要把信号降级看待。仍然值得关注的产品是围绕「AI 代理边界」的小工具：[PromptLayer](https://www.producthunt.com/products/promptlayer-2) 做 AI 请求、工作流与成本时间线，[TrackNotch](https://www.producthunt.com/products/tracknotch) 把 LLM 用量追踪放进 Mac 刘海，[Vibeocus Lens](https://www.producthunt.com/products/vibeocus-lens) 把实时前端接到 AI agent，[GPS](https://www.producthunt.com/products/gps-2) 则是存储 repo rules 与历史 lessons 的记忆层。今天的独立产品不是在抢模型入口，而是在补齐 agent 使用时的监控、上下文和反馈回路。",
+          "items": [
+            {
+              "title": "PromptLayer",
+              "url": "https://www.producthunt.com/products/promptlayer-2",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "TrackNotch",
+              "url": "https://www.producthunt.com/products/tracknotch",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "Vibeocus Lens",
+              "url": "https://www.producthunt.com/products/vibeocus-lens",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "GPS",
+              "url": "https://www.producthunt.com/products/gps-2",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "Agent 工具链的机会正在从生成答案转向可观测、可记忆、可接入。"
+        }
+      ]
+    },
+    {
+      "id": "tech-stack",
+      "title": "技术选型",
+      "blocks": [
+        {
+          "id": "dev-tools",
+          "heading": "本周增长最快的开发者工具是什么？",
+          "summary_md": "开发者工具的赢家很清楚：不是 IDE 本体，而是 IDE 外围的 agent harness。[anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official) 本周新增 6,953 星，[anthropics/knowledge-work-plugins](https://github.com/anthropics/knowledge-work-plugins) 新增 5,282 星，[mukul975/Anthropic-Cybersecurity-Skills](https://github.com/mukul975/Anthropic-Cybersecurity-Skills) 新增 4,904 星，[can1357/oh-my-pi](https://github.com/can1357/oh-my-pi) 新增 2,496 星。再叠加 Product Hunt 上的 [Integuru](https://www.producthunt.com/products/integuru)、[MCP Bridge by Appfactor](https://www.producthunt.com/products/mcp-bridge-by-appfactor) 和 [/monitor by Firecrawl](https://www.producthunt.com/products/extract-by-firecrawl)，技术选型建议是优先兼容 MCP、插件目录、技能文件与本地执行环境，而不是只绑定单一 IDE。",
+          "items": [
+            {
+              "title": "anthropics/claude-plugins-official",
+              "url": "https://github.com/anthropics/claude-plugins-official",
+              "source": "GitHub",
+              "score": 6953
+            },
+            {
+              "title": "anthropics/knowledge-work-plugins",
+              "url": "https://github.com/anthropics/knowledge-work-plugins",
+              "source": "GitHub",
+              "score": 5282
+            },
+            {
+              "title": "mukul975/Anthropic-Cybersecurity-Skills",
+              "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
+              "source": "GitHub",
+              "score": 4904
+            },
+            {
+              "title": "Integuru",
+              "url": "https://www.producthunt.com/products/integuru",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "如果你在做开发者工具，优先做跨 agent 的上下文与工具协议层。"
+        },
+        {
+          "id": "hf-models",
+          "heading": "HuggingFace 上最热的模型能做什么消费级产品？",
+          "summary_md": "HuggingFace 的热度集中在三类消费能力：端侧文本代理、视频头像、视觉定位。[openbmb/MiniCPM5-1B](https://huggingface.co/openbmb/MiniCPM5-1B) trending score 461，下载 23,629，标签包括 on-device、edge-ai、tool-calling，适合做本地隐私助手、离线客服、儿童学习机和小型企业知识库。[meituan-longcat/LongCat-Video-Avatar-1.5](https://huggingface.co/meituan-longcat/LongCat-Video-Avatar-1.5) score 337，likes 377，对应头像视频生成；[nvidia/LocateAnything-3B](https://huggingface.co/nvidia/LocateAnything-3B) score 259，适合电商找图、家装测量、维修指导和无障碍视觉辅助。",
+          "items": [
+            {
+              "title": "openbmb/MiniCPM5-1B",
+              "url": "https://huggingface.co/openbmb/MiniCPM5-1B",
+              "source": "HuggingFace",
+              "score": 461
+            },
+            {
+              "title": "meituan-longcat/LongCat-Video-Avatar-1.5",
+              "url": "https://huggingface.co/meituan-longcat/LongCat-Video-Avatar-1.5",
+              "source": "HuggingFace",
+              "score": 337
+            },
+            {
+              "title": "nvidia/LocateAnything-3B",
+              "url": "https://huggingface.co/nvidia/LocateAnything-3B",
+              "source": "HuggingFace",
+              "score": 259
+            }
+          ],
+          "takeaway": "端侧、视频化和视觉定位是今天最容易产品化的模型能力。"
+        },
+        {
+          "id": "show-hn",
+          "heading": "Show HN 高关注项目用的什么技术栈？",
+          "summary_md": "今天没有 Show HN 样本，但 GitHub 周榜给了足够强的技术栈侧信号：AI agent 周边项目以 TypeScript 与 Python 为主。Understand-Anything、codegraph、presenton、cursor/plugins、oh-my-pi 都是 TypeScript；MoneyPrinterTurbo、dograh、Claude 插件目录和安全技能库则以 Python 为主。对 Builder 来说，这意味着前端交互、图谱可视化、IDE 插件和本地工具链仍然更适合 TypeScript，而模型编排、生成管线、语音视频处理和企业部署更适合 Python。",
+          "items": [
+            {
+              "title": "presenton/presenton",
+              "url": "https://github.com/presenton/presenton",
+              "source": "GitHub",
+              "score": 1740
+            },
+            {
+              "title": "cursor/plugins",
+              "url": "https://github.com/cursor/plugins",
+              "source": "GitHub",
+              "score": 629
+            },
+            {
+              "title": "dograh-hq/dograh",
+              "url": "https://github.com/dograh-hq/dograh",
+              "source": "GitHub",
+              "score": 1062
+            }
+          ],
+          "takeaway": "AI 工具产品的现实栈是 TypeScript 做界面与代理入口，Python 做模型和工作流后端。"
+        }
+      ]
+    },
+    {
+      "id": "competition",
+      "title": "竞争情报",
+      "blocks": [
+        {
+          "id": "migrations",
+          "heading": "有没有「XX is dead」或迁移类文章？",
+          "summary_md": "HN 今天没有明显的「XX is dead」或迁移教程，但竞争情报里有一个更强的替代信号：开源替代正在进入垂直 SaaS。[dograh-hq/dograh](https://github.com/dograh-hq/dograh) 本周新增 1,062 星，定位是自托管 Voice AI 平台，直接对标 Vapi 和 Retell；[twentyhq/twenty](https://github.com/twentyhq/twenty) 日榜新增 493 星，定位是面向 AI 的 Salesforce 开源替代。这类项目不是单纯复刻老 SaaS，而是把 BYOK、本地部署、可视化 workflow、MCP native 和 AI-ready schema 作为切入点，给预算敏感或数据敏感团队一个迁移动机。",
+          "items": [
+            {
+              "title": "dograh-hq/dograh",
+              "url": "https://github.com/dograh-hq/dograh",
+              "source": "GitHub",
+              "score": 1062
+            },
+            {
+              "title": "twentyhq/twenty",
+              "url": "https://github.com/twentyhq/twenty",
+              "source": "GitHub",
+              "score": 493
+            }
+          ],
+          "takeaway": "下一批开源替代的卖点不是便宜，而是 AI-ready 与可控部署。"
+        },
+        {
+          "id": "pricing-revenue",
+          "heading": "独立开发者在讨论什么营收和定价策略？",
+          "summary_md": "今天没有 HN 上的 MRR、ARR、pricing 或 subscription 讨论样本，但 Product Hunt 的发布结构能反推出定价方向：PromptLayer、Basedash Embedded Analytics、Agent A by Ahrefs、Ava 2.0、Firecoach AI 都更适合按团队席位、用量或结果计费；TrackNotch、Screen Ruler、Notchy 则更像一次性买断或轻订阅工具。最值得学的是 Basedash 这类嵌入式 AI analytics：它不是卖一个独立 app，而是把 AI 分析能力塞进客户产品里，定价可以跟客户的终端用户数、查询量或企业合同绑定。",
+          "items": [
+            {
+              "title": "Basedash: Embedded Analytics",
+              "url": "https://www.producthunt.com/products/basedash",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "Agent A by Ahrefs",
+              "url": "https://www.producthunt.com/products/ahrefs",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "Ava 2.0",
+              "url": "https://www.producthunt.com/products/artisan-3",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "B2B AI 工具今天更适合按嵌入价值和用量计费，而不是只卖账号。"
+        }
+      ]
+    },
+    {
+      "id": "trends",
+      "title": "趋势判断",
+      "blocks": [
+        {
+          "id": "keywords",
+          "heading": "本周技术关键词频率有什么变化？",
+          "summary_md": "搜索变化与开源增长高度一致。[moneyprinterturbo](https://trends.google.com/trends/explore?q=moneyprinterturbo&date=now+7-d) 上升 +999.0%，对应 GitHub 周榜 7,948 新星与日榜 4,698 新星；[presenton](https://trends.google.com/trends/explore?q=presenton&date=now+7-d) 同样 +999.0%，说明 AI 内容生产工具仍有外溢流量。[ai engineering from scratch](https://trends.google.com/trends/explore?q=ai+engineering+from+scratch&date=now+7-d) 上升 +215.3%，对应 13,159 新星，代表开发者正在从「调 prompt」转向系统化学习 AI 工程。更关键的是 [codegraph](https://trends.google.com/trends/explore?q=codegraph&date=now+7-d) +70.2% 和 [understand anything](https://trends.google.com/trends/explore?q=understand+anything&date=now+7-d) +40.3%，说明代码理解层已经破圈。",
+          "items": [
+            {
+              "title": "moneyprinterturbo",
+              "url": "https://trends.google.com/trends/explore?q=moneyprinterturbo&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 999
+            },
+            {
+              "title": "presenton",
+              "url": "https://trends.google.com/trends/explore?q=presenton&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 999
+            },
+            {
+              "title": "ai engineering from scratch",
+              "url": "https://trends.google.com/trends/explore?q=ai+engineering+from+scratch&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 215.3
+            }
+          ],
+          "takeaway": "开发者注意力正在从模型能力转向 AI 工程方法和代码上下文基础设施。"
+        },
+        {
+          "id": "new-radar",
+          "heading": "新词雷达：有哪些从零起飞的新概念？",
+          "summary_md": "新词里最强的是代码知识图谱家族。Google Trends breakouts 显示 understand anything 达到 163,000，codegraph 达到 147,450，understand-anything 达到 72,900，codegraph github 达到 40,200；同时 tracked 项里 [codegraph](https://trends.google.com/trends/explore?q=codegraph&date=now+7-d) 的 rising 关联词包含 understand anything、superpower、agentmemory，[understand anything](https://trends.google.com/trends/explore?q=understand+anything&date=now+7-d) 的 rising 关联词包含 codegraph、github understand anything、graphify。这不是单个仓库爆红，而是开发者开始用图谱、记忆和技能框架重新组织代码库。",
+          "items": [
+            {
+              "title": "understand anything",
+              "url": "https://trends.google.com/trends/explore?q=understand+anything&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 163000
+            },
+            {
+              "title": "codegraph",
+              "url": "https://trends.google.com/trends/explore?q=codegraph&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 147450
+            },
+            {
+              "title": "agentmemory",
+              "url": "https://trends.google.com/trends/explore?q=codegraph&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 200
+            }
+          ],
+          "takeaway": "「代码图谱 + agent memory」可能成为 AI 编程工具的新默认层。"
+        },
+        {
+          "id": "vc-radar",
+          "heading": "VC 和 YC 在关注什么主题？",
+          "summary_md": "今天的 VC 雷达会看三个方向。第一是 agent infrastructure：插件目录、MCP bridge、repo memory、成本追踪、浏览器到 agent 的桥接都在出现。第二是 AI-native vertical SaaS：dograh 做 Voice AI 平台，Twenty 做 AI-ready CRM，Basedash 把 AI analytics 嵌入客户产品。第三是生成式内容自动化：[harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) 本周新增 7,948 星，[HKUDS/ViMax](https://github.com/HKUDS/ViMax) 新增 1,636 星，说明短视频、广告创意和头像视频仍然有强需求。投资关注点会从「谁有模型」转向「谁拥有工作流入口和分发数据」。",
+          "items": [
+            {
+              "title": "MoneyPrinterTurbo",
+              "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+              "source": "GitHub",
+              "score": 7948
+            },
+            {
+              "title": "HKUDS/ViMax",
+              "url": "https://github.com/HKUDS/ViMax",
+              "source": "GitHub",
+              "score": 1636
+            },
+            {
+              "title": "MCP Bridge by Appfactor",
+              "url": "https://www.producthunt.com/products/mcp-bridge-by-appfactor",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "资本会更喜欢掌握工作流入口的 AI 基础设施和垂直应用。"
+        },
+        {
+          "id": "cooling",
+          "heading": "哪些 AI 热词在降温？",
+          "summary_md": "降温的不是 AI agent，而是过于泛化的替代叙事。[open source alternative](https://trends.google.com/trends/explore?q=open+source+alternative&date=now+7-d) 变化为 -2.7%，[cursor alternative](https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d) 下滑 -28.4%。这说明用户不再只是搜索某个大工具的平替，而是在找具体工作流：代码图谱、Codex 对比 Claude、本地记忆、插件、agent harness。Builder 不要再把首页标题写成某某 alternative，应该直接说你解决哪个 agent 场景里的成本、上下文、权限或质量问题。",
+          "items": [
+            {
+              "title": "open source alternative",
+              "url": "https://trends.google.com/trends/explore?q=open+source+alternative&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": -2.7
+            },
+            {
+              "title": "cursor alternative",
+              "url": "https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": -28.4
+            }
+          ],
+          "takeaway": "平替叙事在降温，具体工作流价值在升温。"
+        }
+      ]
+    },
+    {
+      "id": "actions",
+      "title": "行动触发",
+      "blocks": [
+        {
+          "id": "weekend-build",
+          "heading": "今天 2 小时和一个周末分别做什么？",
+          "summary_md": "2 小时可以做一个最小版 repo memory：读取 AGENTS.md、README、package 文件和最近 20 条 git commit，生成一份给 Claude Code、Codex、Cursor 都能使用的 project brief，并提供一键复制或 MCP endpoint。一个周末则可以升级成「代码库雷达」：用 tree-sitter 或 language server 抽取模块关系，生成可搜索图谱，再把 PR diff 映射到受影响模块，最后输出给 agent 的上下文包。今天 Understand-Anything 的 26,212 周新增星与 codegraph 的 19,128 周新增星已经证明需求存在，关键是别做大而全，先解决一次接手陌生代码库的痛点。",
+          "items": [
+            {
+              "title": "Understand-Anything weekend clone",
+              "url": "https://github.com/Lum1104/Understand-Anything",
+              "source": "GitHub",
+              "score": 26212
+            },
+            {
+              "title": "codegraph workflow",
+              "url": "https://github.com/colbymchenry/codegraph",
+              "source": "GitHub",
+              "score": 19128
+            }
+          ],
+          "takeaway": "周末项目应从「让 agent 更懂这个 repo」切入，而不是再做一个聊天框。"
+        },
+        {
+          "id": "pricing-models",
+          "heading": "值得学习的定价和变现模式有哪些？",
+          "summary_md": "今天值得学习三种模式。第一，PromptLayer 式按请求、workflow 和团队协作收费，因为它直接贴近 LLM 成本和调试价值。第二，dograh 式自托管企业版，把 BYOK、On Prem、电话集成和 visual workflow builder 作为付费边界。第三，Basedash 式嵌入式分析，把 AI 能力卖给 SaaS 厂商，再由对方触达终端客户。对独立开发者最现实的是先做免费本地版或开源核心，用团队同步、权限、审计、托管索引和用量报表收钱。",
+          "items": [
+            {
+              "title": "PromptLayer",
+              "url": "https://www.producthunt.com/products/promptlayer-2",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "dograh",
+              "url": "https://github.com/dograh-hq/dograh",
+              "source": "GitHub",
+              "score": 1062
+            },
+            {
+              "title": "Basedash Embedded Analytics",
+              "url": "https://www.producthunt.com/products/basedash",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "AI infra 的付费点在协作、托管、审计和用量，而不是单次生成。"
+        },
+        {
+          "id": "counterintuitive",
+          "heading": "今天最反直觉的发现是什么？",
+          "summary_md": "最反直觉的是，大家以为开发者想要更强模型，但今天的数据更像是在说：开发者想要更少上下文浪费和更可靠的项目记忆。hardikpandya/stop-slop 本周新增 2,486 星，Leonxlnx/taste-skill 新增 7,268 星，obra/superpowers 日榜新增 1,730 星，再加上 codegraph 和 Understand-Anything 的爆发，说明市场在奖励「约束 AI」而不是单纯「释放 AI」。真正的机会可能不是做更聪明的 agent，而是做能让普通 agent 稳定工作的规则、记忆、图谱、品控和复盘系统。",
+          "items": [
+            {
+              "title": "Leonxlnx/taste-skill",
+              "url": "https://github.com/Leonxlnx/taste-skill",
+              "source": "GitHub",
+              "score": 7268
+            },
+            {
+              "title": "hardikpandya/stop-slop",
+              "url": "https://github.com/hardikpandya/stop-slop",
+              "source": "GitHub",
+              "score": 2486
+            },
+            {
+              "title": "obra/superpowers",
+              "url": "https://github.com/obra/superpowers",
+              "source": "GitHub",
+              "score": 1730
+            }
+          ],
+          "takeaway": "AI 工具的新卖点不是更自由，而是更有边界、更懂上下文、更少废话。"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2026-05-29T09:16:14+00:00",
+  "reddit_highlights": []
+}

@@ -1,0 +1,135 @@
+{
+  "date": "2026-05-29",
+  "items": [
+    {
+      "id": "2026-05-29-1",
+      "title": "企业AI刚上线就过时",
+      "angle": "从 Aaron Levie 的企业 AI 悖论切入：真正拖慢落地的不是模型不够强，而是每次模型变强都会让上一轮架构变成技术债。",
+      "opening": "企业买 AI 最怕的不是效果差，而是刚部署完就被下一代模型打脸。Aaron Levie 把这个现象讲得很刺耳：模型突破越快，客户的变更管理越慢。今天 GitHub 上代码图谱爆红，正好说明开发者开始补的不是聊天框，而是能让系统持续理解项目的底座。",
+      "story_hook": {
+        "challenge": "企业想买一个稳定方案，但 AI 能力迭代不断推翻稳定架构。",
+        "twist": "最值钱的能力可能不是更强模型，而是让旧系统可被理解、替换和迁移的代码知识层。"
+      },
+      "takeaway": "设计企业 AI 系统时，把模型、工具调用、上下文索引做成可替换层，并优先投资代码地图、评测和架构漂移检测。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "The MAD Podcast with Matt Turck 访谈 Aaron Levie：State of Enterprise AI 2026",
+          "url": "https://www.youtube.com/watch?v=Gs2styCcwro"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Lum1104/Understand-Anything 本周新增 26,212 星",
+          "url": "https://github.com/Lum1104/Understand-Anything"
+        },
+        {
+          "tag": "pulse",
+          "ref": "colbymchenry/codegraph 本周新增 19,128 星",
+          "url": "https://github.com/colbymchenry/codegraph"
+        }
+      ]
+    },
+    {
+      "id": "2026-05-29-2",
+      "title": "Agent入口不再是聊天框",
+      "angle": "把 Aaron Levie 提到的 headless AI 与今天插件、MCP、成本追踪工具升温放在一起看：AI 正从界面产品变成工作流基础设施。",
+      "opening": "如果 AI agent 还只长得像一个聊天窗口，它可能已经落后了。今天升温的东西很分散：Claude 插件、MCP Bridge、PromptLayer、浏览器到 agent 的桥接。但它们指向同一件事：agent 的真正入口正在变成工作流，而不是对话框。",
+      "story_hook": {
+        "challenge": "用户需要 AI 做事，但聊天框很难承载权限、记忆、成本、工具和审计。",
+        "twist": "下一代 AI 产品可能没有明显 UI，真正的产品形态是藏在 IDE、浏览器、CI 和企业软件里的 agent harness。"
+      },
+      "takeaway": "做 agent 产品时，优先定义工具协议、执行边界、日志、成本和回滚机制，而不是先设计一个更漂亮的聊天界面。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Aaron Levie 在 The MAD Podcast 讨论 headless AI 与企业 AI",
+          "url": "https://www.youtube.com/watch?v=Gs2styCcwro"
+        },
+        {
+          "tag": "pulse",
+          "ref": "anthropics/claude-plugins-official 本周新增 6,953 星",
+          "url": "https://github.com/anthropics/claude-plugins-official"
+        },
+        {
+          "tag": "pulse",
+          "ref": "PromptLayer 做 AI 请求、工作流与成本时间线",
+          "url": "https://www.producthunt.com/products/promptlayer-2"
+        },
+        {
+          "tag": "pulse",
+          "ref": "MCP Bridge by Appfactor",
+          "url": "https://www.producthunt.com/products/mcp-bridge-by-appfactor"
+        }
+      ]
+    },
+    {
+      "id": "2026-05-29-3",
+      "title": "平替叙事开始失灵",
+      "angle": "用 Google Trends 里 alternative 关键词降温，对照 Aaron Levie 的 AI-proofing：用户不再买泛泛的平替，而是在找能适配 AI 工作流的可控系统。",
+      "opening": "“开源替代某某 SaaS”这个标题，今天没以前好用了。Google Trends 里 open source alternative 和 cursor alternative 都在下滑，但 dograh、Twenty 这种垂直开源项目仍在涨。反差在这里：用户不是不想迁移，而是不想为了便宜迁移。",
+      "story_hook": {
+        "challenge": "开源替代过去靠低价和可控吸引用户，但 AI 时代用户更关心数据、工作流和自动化接口。",
+        "twist": "真正能替代老 SaaS 的不是复制功能表，而是提供 BYOK、自托管、AI-ready schema 和 agent 原生接口。"
+      },
+      "takeaway": "如果做开源替代产品，首页不要只写 alternative，要明确说清你解决哪个 AI 工作流里的权限、数据、部署或自动化问题。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Aaron Levie 在 The MAD Podcast 讨论 AI-proofing your job",
+          "url": "https://www.youtube.com/watch?v=Gs2styCcwro"
+        },
+        {
+          "tag": "pulse",
+          "ref": "dograh-hq/dograh 自托管 Voice AI 平台，本周新增 1,062 星",
+          "url": "https://github.com/dograh-hq/dograh"
+        },
+        {
+          "tag": "pulse",
+          "ref": "twentyhq/twenty AI-ready Salesforce 开源替代，日榜新增 493 星",
+          "url": "https://github.com/twentyhq/twenty"
+        },
+        {
+          "tag": "pulse",
+          "ref": "cursor alternative 近 7 天下滑 28.4%",
+          "url": "https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d"
+        }
+      ]
+    },
+    {
+      "id": "2026-05-29-4",
+      "title": "约束AI比释放AI更火",
+      "angle": "从企业 AI 的变更失控，切到 GitHub 上 taste-skill、stop-slop、superpowers 的增长：市场在奖励让 AI 更守规矩的工具。",
+      "opening": "今天最反直觉的信号是：大家嘴上说要更强 agent，手上 star 的却是约束 agent 的项目。taste-skill、stop-slop、superpowers 都在涨，代码图谱和 repo memory 也在涨。AI 的问题不再是不会生成，而是太会乱跑。",
+      "story_hook": {
+        "challenge": "模型能力增强后，输出更多、更快，但团队反而更难保证风格、边界和可维护性。",
+        "twist": "能卖钱的 agent 基础设施，可能不是让 AI 更自由，而是让 AI 更像一个懂项目规矩的同事。"
+      },
+      "takeaway": "给 AI 编程工具做功能时，优先补规则文件、项目记忆、品控检查、复盘记录和上下文裁剪，而不是继续堆生成入口。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Aaron Levie 在 The MAD Podcast 提到企业 AI 落地被变更管理拉长",
+          "url": "https://www.youtube.com/watch?v=Gs2styCcwro"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Leonxlnx/taste-skill 本周新增 7,268 星",
+          "url": "https://github.com/Leonxlnx/taste-skill"
+        },
+        {
+          "tag": "pulse",
+          "ref": "hardikpandya/stop-slop 本周新增 2,486 星",
+          "url": "https://github.com/hardikpandya/stop-slop"
+        },
+        {
+          "tag": "pulse",
+          "ref": "obra/superpowers 日榜新增 1,730 星",
+          "url": "https://github.com/obra/superpowers"
+        }
+      ]
+    }
+  ],
+  "notes": "今日 builders 样本只有 Aaron Levie 一条，因此 4 个选题都围绕企业 AI、headless、变更管理和 agent 基础设施展开；缺少独立开发者一手收入或失败复盘素材，不建议硬写 MRR 故事。",
+  "generated_at": "2026-05-29T09:17:07+00:00",
+  "model": "gpt-5.5"
+}
