@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-30",
+  "generated_at": "2026-05-30T09:11:44+00:00",
+  "count": 1,
+  "items": [
+    {
+      "id": "7a108a8a25",
+      "date": "2026-05-30",
+      "source": "podcast",
+      "author": "No Priors",
+      "bio": "",
+      "title": "Building an AI Guardian for Enterprise with Onyx Security CEO Maxim Bar Kogan",
+      "summary_en": "Speaker 1 | 00:00 - 00:38\nAs you're exponentially doing more things with the eyes, you're going to start having really bad actions happen. And we've seen some of that happen lately with agents accidentally publishing code and tokens that they weren't supposed to. Like, definitely, enterprises are starting to realize that risk has grown exponentially and that they don't have any way to stop the adoption. They just now have to do something to reduce the chance of these agent actions being illegitimate or incorrect. But we're allowed to look at a lot of historical data of how these agents have behaved, but enterprises today are not willing to have Anthropic or OpenAI give that historical data because they know these are very data hungry companies that will want to train on that data.\n\nSpeaker 2 | 00:44 - 01:06\nHi, listeners. Welcome back to KnowPriars. Today, I'm here with Maxim Bar Kogan, the co founder and CEO of Onyx Security, an Israel based startup of researchers, mathematicians, engineers building agents to watch the AI agents. We talk about specialized model training, mythos, alignment research, and the Israeli ecosystem in security and now AI. Welcome.\n\nSpeaker 2 | 01:06 - 01:08\nMaxim, thanks so much for doing this.\n\nSpeaker 1 | 01:08 - 01:10\nThank you. Pleasure to be here.\n\nSpeaker 2 | 01:10 - 01:40\nEveryone is much more concerned about security and the impact of AI on security than they were certainly a few months ago. The consensus risk story two years ago when you started the company was basically like DLP for chatbots. Like, what are employees putting into ChatGPT? Now we have clearly something that is not quite panic, but close to market wide panic. How did you decide to bet on agent actions when you started?\n\nSpeaker 1 | 01:40 - 01:50\nLook, I think for us, t",
+      "summary_zh": "",
+      "url": "https://www.youtube.com/watch?v=QDsbFLEt9ro",
+      "posted_at": "2026-05-28T10:00:00.000Z",
+      "tags": [
+        "podcast"
+      ]
+    }
+  ]
+}
