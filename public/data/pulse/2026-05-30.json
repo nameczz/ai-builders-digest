@@ -1,0 +1,93 @@
+{
+  "date": "2026-05-30",
+  "top3": [],
+  "intro": "（无 LLM 编辑模式：以下为原始数据归档，建议安装 codex CLI 重新生成。）",
+  "sections": [
+    {
+      "id": "discovery",
+      "title": "发现机会",
+      "blocks": [
+        {
+          "id": "indie-products",
+          "heading": "今天有哪些独立开发者的新产品？",
+          "summary_md": "（自动归档模式）今日 Show HN 与 Product Hunt 上线的独立开发者产品列表。",
+          "items": [
+            {
+              "title": "Wandesk",
+              "url": "https://www.producthunt.com/products/wandesk-ai",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Exstats",
+              "url": "https://www.producthunt.com/products/exstats",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Step 3.7 Flash",
+              "url": "https://www.producthunt.com/products/step-3-5-flash",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Openstatus MCP Health Checker",
+              "url": "https://www.producthunt.com/products/openstatus-2",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Wingbits AI",
+              "url": "https://www.producthunt.com/products/wingbits-ai",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Agent A by Ahrefs",
+              "url": "https://www.producthunt.com/products/ahrefs",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "RabbitTravel",
+              "url": "https://www.producthunt.com/products/rabbittravel",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "GPS",
+              "url": "https://www.producthunt.com/products/gps-2",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Ava Studio",
+              "url": "https://www.producthunt.com/products/ava-studio",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "TrackNotch",
+              "url": "https://www.producthunt.com/products/tracknotch",
+              "source": "ProductHunt"
+            }
+          ],
+          "takeaway": ""
+        }
+      ]
+    },
+    {
+      "id": "tech-stack",
+      "title": "技术选型",
+      "blocks": []
+    },
+    {
+      "id": "competition",
+      "title": "竞争情报",
+      "blocks": []
+    },
+    {
+      "id": "trends",
+      "title": "趋势判断",
+      "blocks": []
+    },
+    {
+      "id": "actions",
+      "title": "行动触发",
+      "blocks": []
+    }
+  ],
+  "generated_at": "2026-05-30T09:23:41+00:00",
+  "reddit_highlights": []
+}
