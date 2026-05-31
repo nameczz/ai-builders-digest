@@ -1,0 +1,357 @@
+{
+  "date": "2026-05-31",
+  "top3": [
+    "代码知识图谱和 agent 记忆层成为今天最清晰的主线，Understand-Anything、codegraph、GPS、Hyper 都在争同一个入口。",
+    "短视频自动化继续有真实需求，MoneyPrinterTurbo 本周新增 13948 星，Google Trends 也上涨 +52%。",
+    "AI agent 从聊天工具转向可治理、可插件化、可本地运行的工作系统，安全、插件、MCP 健康检查开始变成基础设施。"
+  ],
+  "intro": "今天没有 HN 信号，最强数据来自 GitHub、Product Hunt、HuggingFace 和 Google Trends。综合看，Builder 机会正在从模型本身转向两端：一端是让 agent 理解代码、记住规则、接入工具；另一端是把视频、语音、视觉模型包装成消费级生产工具。",
+  "sections": [
+    {
+      "id": "discovery",
+      "title": "发现机会",
+      "blocks": [
+        {
+          "id": "github-traction",
+          "heading": "GitHub 上哪些高增长开源项目还没有商业化？",
+          "summary_md": "[Lum1104/Understand-Anything](https://github.com/Lum1104/Understand-Anything) 本周新增 25612 星，总星 46413，直接把任意代码转成可搜索、可提问的交互式知识图谱；[colbymchenry/codegraph](https://github.com/colbymchenry/codegraph) 新增 15909 星，总星 34745，强调本地预索引、少 token、少工具调用。两个项目一起说明：代码库理解正在从 IDE 插件功能变成 agent 基础设施。值得做的不是再造图谱，而是围绕权限、团队知识沉淀、PR 风险解释和企业私有部署做付费层。",
+          "items": [
+            {
+              "title": "Lum1104/Understand-Anything",
+              "url": "https://github.com/Lum1104/Understand-Anything",
+              "source": "GitHub",
+              "score": 25612
+            },
+            {
+              "title": "colbymchenry/codegraph",
+              "url": "https://github.com/colbymchenry/codegraph",
+              "source": "GitHub",
+              "score": 15909
+            }
+          ],
+          "takeaway": "代码图谱的开源热度已经足够高，商业机会在团队级记忆、权限和治理。"
+        },
+        {
+          "id": "indie-products",
+          "heading": "今天有哪些独立开发者的新产品？",
+          "summary_md": "Product Hunt 今日样本没有给出票数和评论数，因此不能做热度排序，但方向很集中：[TabTasker](https://www.producthunt.com/products/tabtasker) 主打零服务器和隐私工具箱，[Marqly 5.0](https://www.producthunt.com/products/marqly) 做 AI 书签管理，[GPS](https://www.producthunt.com/products/gps-2) 把 repo 规则和历史经验做成 LLM 记忆层，[Openstatus MCP Health Checker](https://www.producthunt.com/products/openstatus-2) 则测试 MCP server 是否真能被 AI client 使用。独立开发者正在避开大模型正面战场，转向浏览器、本地、MCP、记忆这些轻量入口。",
+          "items": [
+            {
+              "title": "TabTasker",
+              "url": "https://www.producthunt.com/products/tabtasker",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "GPS",
+              "url": "https://www.producthunt.com/products/gps-2",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "Openstatus MCP Health Checker",
+              "url": "https://www.producthunt.com/products/openstatus-2",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "没有票数也能看出方向：小团队更适合做 agent 工作流的窄基础设施。"
+        }
+      ]
+    },
+    {
+      "id": "tech-stack",
+      "title": "技术选型",
+      "blocks": [
+        {
+          "id": "dev-tools",
+          "heading": "本周增长最快的开发者工具是什么？",
+          "summary_md": "开发者工具里最值得看的是 agent 插件化和执行治理。[anthropics/knowledge-work-plugins](https://github.com/anthropics/knowledge-work-plugins) 本周新增 5538 星，[anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official) 新增 2771 星，[cursor/plugins](https://github.com/cursor/plugins) 新增 738 星，说明插件规范正在跨 IDE 和 agent 平台扩散。同时 [microsoft/agent-governance-toolkit](https://github.com/microsoft/agent-governance-toolkit) 新增 1553 星，把策略执行、零信任身份、沙箱和 OWASP Agentic Top 10 放到同一个工具包里。技术选型上，做 agent 产品不能只接模型 API，插件、权限和审计应该从第一版就进入架构。",
+          "items": [
+            {
+              "title": "anthropics/knowledge-work-plugins",
+              "url": "https://github.com/anthropics/knowledge-work-plugins",
+              "source": "GitHub",
+              "score": 5538
+            },
+            {
+              "title": "microsoft/agent-governance-toolkit",
+              "url": "https://github.com/microsoft/agent-governance-toolkit",
+              "source": "GitHub",
+              "score": 1553
+            },
+            {
+              "title": "cursor/plugins",
+              "url": "https://github.com/cursor/plugins",
+              "source": "GitHub",
+              "score": 738
+            }
+          ],
+          "takeaway": "agent 工具链的下一层护城河是插件规范、身份权限和运行时治理。"
+        },
+        {
+          "id": "hf-models",
+          "heading": "HuggingFace 上最热的模型能做什么消费级产品？",
+          "summary_md": "HuggingFace 今天最清晰的消费方向是端侧、多模态和视频化。[openbmb/MiniCPM5-1B](https://huggingface.co/openbmb/MiniCPM5-1B) trending 546、下载 36730，标签包含 long-context、tool-calling、on-device，适合做本地个人助理和离线知识库；[nvidia/LocateAnything-3B](https://huggingface.co/nvidia/LocateAnything-3B) trending 507、下载 24586，适合做图片中物体定位、维修指导、库存盘点；[meituan-longcat/LongCat-Video-Avatar-1.5](https://huggingface.co/meituan-longcat/LongCat-Video-Avatar-1.5) trending 331，配合同名 Space 的 165 分热度，可以包装成低成本口播头像、客服视频和课程讲解工具。",
+          "items": [
+            {
+              "title": "openbmb/MiniCPM5-1B",
+              "url": "https://huggingface.co/openbmb/MiniCPM5-1B",
+              "source": "HuggingFace",
+              "score": 546
+            },
+            {
+              "title": "nvidia/LocateAnything-3B",
+              "url": "https://huggingface.co/nvidia/LocateAnything-3B",
+              "source": "HuggingFace",
+              "score": 507
+            },
+            {
+              "title": "meituan-longcat/LongCat-Video-Avatar-1.5",
+              "url": "https://huggingface.co/meituan-longcat/LongCat-Video-Avatar-1.5",
+              "source": "HuggingFace",
+              "score": 331
+            }
+          ],
+          "takeaway": "模型机会不在通用聊天，而在端侧助手、视觉定位和视频头像这类可立即交付的场景。"
+        }
+      ]
+    },
+    {
+      "id": "competition",
+      "title": "竞争情报",
+      "blocks": [
+        {
+          "id": "migrations",
+          "heading": "有没有「XX is dead」或迁移类文章？",
+          "summary_md": "虽然今天没有 HN 迁移类文章，但 Google Trends 的迁移情绪很明显：[cursor alternative](https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d) 本周 -78.9%，[codex cli](https://trends.google.com/trends/explore?q=codex+cli&date=now+7-d) -12.1%，[codex](https://trends.google.com/trends/explore?q=codex&date=now+7-d) -14.5%，说明用户不再只搜索替代品名，而是在比较 agent 能力、插件生态和具体版本。破圈词里出现 codex ai programming versus claude、ccswitch，竞争焦点从单一 IDE 迁移到多 agent 切换和模型路由。",
+          "items": [
+            {
+              "title": "cursor alternative",
+              "url": "https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": -78.9
+            },
+            {
+              "title": "codex cli",
+              "url": "https://trends.google.com/trends/explore?q=codex+cli&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": -12.1
+            }
+          ],
+          "takeaway": "开发者竞争已经从换编辑器，转向多模型、多 agent、多插件的工作流选择。"
+        },
+        {
+          "id": "pricing-revenue",
+          "heading": "独立开发者在讨论什么营收和定价策略？",
+          "summary_md": "今天原始数据里没有 HN 的 MRR、ARR、pricing 或 subscription 讨论，但 Product Hunt 的产品形态给出了定价线索：[PromptLayer](https://www.producthunt.com/products/promptlayer-2) 做 AI 请求、工作流和成本追踪，天然适合按 seat 加 usage 计费；[Exstats](https://www.producthunt.com/products/exstats) 追踪浏览器扩展和竞品，更适合订阅制监控；[/monitor by Firecrawl](https://www.producthunt.com/products/extract-by-firecrawl) 让 AI agent 在网页变化时收到通知，可以按监控页面数和触发次数计费。今天值得学的不是低价卖 AI，而是把不确定的 AI 成本变成可解释的监控、追踪和告警账单。",
+          "items": [
+            {
+              "title": "PromptLayer",
+              "url": "https://www.producthunt.com/products/promptlayer-2",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "Exstats",
+              "url": "https://www.producthunt.com/products/exstats",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "/monitor by Firecrawl",
+              "url": "https://www.producthunt.com/products/extract-by-firecrawl",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "AI 基础设施产品的定价锚点正在从生成次数转向监控对象、审计价值和成本可见性。"
+        }
+      ]
+    },
+    {
+      "id": "trends",
+      "title": "趋势判断",
+      "blocks": [
+        {
+          "id": "keywords",
+          "heading": "本周技术关键词频率有什么变化？",
+          "summary_md": "今天唯一显著上涨的 tracked 词是 [moneyprinterturbo](https://trends.google.com/trends/explore?q=moneyprinterturbo&date=now+7-d) +52.0%，并且 GitHub 上 [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) 本周新增 13948 星、总星 72732，说明一键生成短视频的需求仍然强。另一个强信号来自 [understand anything](https://trends.google.com/trends/explore?q=understand+anything&date=now+7-d) 的关联查询，虽然主词 -13.4%，但 codegraph github 破圈 +46750，codegraph +1200，说明搜索热度正在从品牌词转向具体 repo 和可执行工具。",
+          "items": [
+            {
+              "title": "moneyprinterturbo",
+              "url": "https://trends.google.com/trends/explore?q=moneyprinterturbo&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 52
+            },
+            {
+              "title": "codegraph github",
+              "url": "https://trends.google.com/trends/explore?q=understand+anything&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 46750
+            }
+          ],
+          "takeaway": "短视频自动化在变热，代码理解工具则从概念搜索进入 repo 级验证。"
+        },
+        {
+          "id": "cooling",
+          "heading": "哪些 AI 热词在降温？",
+          "summary_md": "降温最明显的是通用概念词：[cursor alternative](https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d) -78.9%，[codegraph](https://trends.google.com/trends/explore?q=codegraph&date=now+7-d) -47.9%，[stop slop](https://trends.google.com/trends/explore?q=stop+slop&date=now+7-d) -27.8%，[ai agent](https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d) -6.9%。这不是需求消失，而是用户不再搜索大而泛的标签。真正上升的是关联词里的 karpathy skill、reasonix、robinhood ai agent 和 ccswitch，也就是可落地的人名、工具名、切换器和垂直案例。",
+          "items": [
+            {
+              "title": "cursor alternative",
+              "url": "https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": -78.9
+            },
+            {
+              "title": "stop slop",
+              "url": "https://trends.google.com/trends/explore?q=stop+slop&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": -27.8
+            },
+            {
+              "title": "ai agent",
+              "url": "https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": -6.9
+            }
+          ],
+          "takeaway": "泛 AI 词降温，具名工具、具体场景和可复制工作流升温。"
+        },
+        {
+          "id": "new-radar",
+          "heading": "新词雷达：有哪些从零起飞的新概念？",
+          "summary_md": "今天的新词雷达集中在 agent 编程和技能文件。[codegraph github](https://trends.google.com/trends/explore?q=understand+anything&date=now+7-d) 飙升 +46750，[karpathy skill](https://trends.google.com/trends/explore?q=codegraph&date=now+7-d) +31850，[codex ai programming versus claude](https://trends.google.com/trends/explore?q=codex&date=now+7-d) +7450，[opus 4.8](https://trends.google.com/trends/explore?q=codex&date=now+7-d) +3100。这些词不像传统 SEO 关键词，更像开发者在追踪谁的 agent 配置、哪个模型版本、哪套代码理解栈更有效。早期产品可以围绕 agent benchmark、技能市场、配置同步和团队最佳实践做内容入口。",
+          "items": [
+            {
+              "title": "codegraph github",
+              "url": "https://trends.google.com/trends/explore?q=understand+anything&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 46750
+            },
+            {
+              "title": "karpathy skill",
+              "url": "https://trends.google.com/trends/explore?q=codegraph&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 31850
+            },
+            {
+              "title": "codex ai programming versus claude",
+              "url": "https://trends.google.com/trends/explore?q=codex&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 7450
+            }
+          ],
+          "takeaway": "下一波搜索流量会围绕 agent 配置、技能文件和模型对比，而不是围绕通用 AI 助手。"
+        },
+        {
+          "id": "vc-radar",
+          "heading": "VC 和 YC 在关注什么主题？",
+          "summary_md": "从 Product Hunt 的 [Hyper: Self-driving Company Brain](https://www.producthunt.com/products/hyper-11)、[Ava 2.0](https://www.producthunt.com/products/artisan-3)、[Firecoach AI](https://www.producthunt.com/products/firecoach) 到 GitHub 的 agent governance、knowledge-work plugins，投资叙事正在从单点 Copilot 转向公司级自动化系统。VC 会继续看三类：能接入企业知识和浏览器行为的 company brain，能闭环销售或培训的垂直 agent，以及能让 agent 合规运行的治理层。真正稀缺的不是 demo，而是能证明 agent 在真实业务中持续执行、可回滚、可审计的证据。",
+          "items": [
+            {
+              "title": "Hyper: Self-driving Company Brain",
+              "url": "https://www.producthunt.com/products/hyper-11",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "Ava 2.0",
+              "url": "https://www.producthunt.com/products/artisan-3",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "microsoft/agent-governance-toolkit",
+              "url": "https://github.com/microsoft/agent-governance-toolkit",
+              "source": "GitHub",
+              "score": 1553
+            }
+          ],
+          "takeaway": "融资叙事正在奖励可运行、可治理、可度量的 agent 系统，而不是聊天式助手。"
+        }
+      ]
+    },
+    {
+      "id": "actions",
+      "title": "行动触发",
+      "blocks": [
+        {
+          "id": "weekend-build",
+          "heading": "今天 2 小时和一个周末分别做什么？",
+          "summary_md": "2 小时可以做一个 repo memory MVP：读取一个 GitHub 仓库，生成项目规则、常见命令、架构图谱和最近决策，并输出给 Claude Code、Codex、Cursor 都能消费的 Markdown 或插件配置。一个周末可以把它做成团队版：接入 GitHub PR，基于 [Understand-Anything](https://github.com/Lum1104/Understand-Anything) 和 [codegraph](https://github.com/colbymchenry/codegraph) 的思路做本地索引，再加上权限、变更摘要和 review checklist。不要一开始做通用知识库，先解决新成员接手仓库和 agent 重复踩坑的问题。",
+          "items": [
+            {
+              "title": "Lum1104/Understand-Anything",
+              "url": "https://github.com/Lum1104/Understand-Anything",
+              "source": "GitHub",
+              "score": 25612
+            },
+            {
+              "title": "colbymchenry/codegraph",
+              "url": "https://github.com/colbymchenry/codegraph",
+              "source": "GitHub",
+              "score": 15909
+            }
+          ],
+          "takeaway": "最快可验证的周末项目是跨 agent 的仓库记忆层，而不是新的聊天机器人。"
+        },
+        {
+          "id": "pricing-models",
+          "heading": "值得学习的定价和变现模式有哪些？",
+          "summary_md": "今天最值得学习的是监控型和治理型定价。[Openstatus MCP Health Checker](https://www.producthunt.com/products/openstatus-2) 可以按 MCP server 数、测试频率和团队 seat 收费；[PromptLayer](https://www.producthunt.com/products/promptlayer-2) 可以按 trace 量、日志保留时间和成本分析收费；[dograh-hq/dograh](https://github.com/dograh-hq/dograh) 作为 Vapi 和 Retell 的自托管替代，本周新增 1236 星，适合走开源免费、企业部署、BYOK 和电话通道增值。共同点是把 AI 从魔法功能变成可观测、可控制、可采购的系统。",
+          "items": [
+            {
+              "title": "Openstatus MCP Health Checker",
+              "url": "https://www.producthunt.com/products/openstatus-2",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "PromptLayer",
+              "url": "https://www.producthunt.com/products/promptlayer-2",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "dograh-hq/dograh",
+              "url": "https://github.com/dograh-hq/dograh",
+              "source": "GitHub",
+              "score": 1236
+            }
+          ],
+          "takeaway": "AI 产品更容易收费的部分，是可靠性、监控、合规和自托管，而不是一次生成。"
+        },
+        {
+          "id": "counterintuitive",
+          "heading": "今天最反直觉的发现是什么？",
+          "summary_md": "最反直觉的是：一边 [ai agent](https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d) 搜索 -6.9%，一边 agent 相关 GitHub 项目爆发。ECC 本周新增 10802 星，taste-skill 新增 10202 星，Anthropic-Cybersecurity-Skills 新增 5417 星，knowledge-work-plugins 新增 5538 星。说明市场不是不需要 agent，而是开发者已经越过概念教育阶段，开始寻找能直接复制到工作流里的技能、插件、治理和团队组织方式。内容和产品都应该从解释 agent 是什么，切换到展示 agent 如何稳定做成一件事。",
+          "items": [
+            {
+              "title": "affaan-m/ECC",
+              "url": "https://github.com/affaan-m/ECC",
+              "source": "GitHub",
+              "score": 10802
+            },
+            {
+              "title": "Leonxlnx/taste-skill",
+              "url": "https://github.com/Leonxlnx/taste-skill",
+              "source": "GitHub",
+              "score": 10202
+            },
+            {
+              "title": "mukul975/Anthropic-Cybersecurity-Skills",
+              "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
+              "source": "GitHub",
+              "score": 5417
+            }
+          ],
+          "takeaway": "agent 概念在降温，agent 操作系统和技能包在升温。"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2026-05-31T09:18:24+00:00",
+  "reddit_highlights": []
+}

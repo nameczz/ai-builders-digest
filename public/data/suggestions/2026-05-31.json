@@ -1,0 +1,153 @@
+{
+  "date": "2026-05-31",
+  "items": [
+    {
+      "id": "2026-05-31-1",
+      "title": "380亿 tokens 后，Codex 变工人了",
+      "angle": "从 Dan Shipper 和 Peter Steinberger 的极限使用看，AI 编程的瓶颈正在从模型能力转向仓库记忆、长任务拆解和自动审查。",
+      "opening": "Dan Shipper 连续 41 天把 Codex 拉满，累计烧掉 380 亿 tokens，最长一个任务跑了 56 小时。这已经不是拿 AI 写几个函数，而是把编程 agent 当成主力工人管理。",
+      "story_hook": {
+        "challenge": "AI 编程工具越能干，越暴露出代码库理解、上下文记忆和任务治理的缺口。",
+        "twist": "真正的新机会可能不是再做一个 IDE，而是做 agent 的仓库记忆层和审查系统。"
+      },
+      "takeaway": "开发者应该开始把 agent 当成长期协作者来配置：补项目规则、代码图谱、review checklist 和失败复盘，而不是只换更强模型。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Dan Shipper 连续 41 天高强度使用 Codex，累计 380 亿 tokens",
+          "url": "https://x.com/danshipper/status/2060771279280513362"
+        },
+        {
+          "tag": "builders",
+          "ref": "Peter Steinberger 称 prompt 已从 30-60 分钟小活变成 4-10 小时长任务",
+          "url": "https://x.com/steipete/status/2060678430031597696"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub 高增长项目 Understand-Anything，本周新增 25612 星",
+          "url": "https://github.com/Lum1104/Understand-Anything"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub 高增长项目 codegraph，本周新增 15909 星",
+          "url": "https://github.com/colbymchenry/codegraph"
+        }
+      ]
+    },
+    {
+      "id": "2026-05-31-2",
+      "title": "AI 裁员叙事可能讲反了",
+      "angle": "用 Aaron Levie 的企业观察对照 agent 治理工具爆发，讨论 AI 在大公司里更像扩张杠杆，而不只是降本工具。",
+      "opening": "很多人以为 AI 进公司后的第一件事是裁员。Aaron Levie 看到的却相反：企业在扩张 FDE、工程、销售、市场和风控，把省下来的成本重新投进增长。",
+      "story_hook": {
+        "challenge": "外界用裁员衡量 AI 价值，但公司内部真正关心的是能不能用同样成本做更多业务。",
+        "twist": "当 agent 变成公司级系统，最先赚钱的可能不是替代岗位，而是治理、权限、审计和可回滚。"
+      },
+      "takeaway": "评估企业 AI 项目时，别只问省了多少人，要问它是否扩大了吞吐量、降低了边际成本，并且能被治理和审计。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Aaron Levie 认为只盯着 AI 降本的公司长期会输",
+          "url": "https://x.com/levie/status/2060923684295221390"
+        },
+        {
+          "tag": "pulse",
+          "ref": "microsoft/agent-governance-toolkit 本周新增 1553 星",
+          "url": "https://github.com/microsoft/agent-governance-toolkit"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Hyper: Self-driving Company Brain",
+          "url": "https://www.producthunt.com/products/hyper-11"
+        }
+      ]
+    },
+    {
+      "id": "2026-05-31-3",
+      "title": "最强教育 App 不是网课",
+      "angle": "从 Peter Yang 对 Brilliant 的观察切入，分析 AI 教育产品为什么要从讲课工具转向游戏化任务系统。",
+      "opening": "Peter Yang 说，终极教育 App 不该像网课，而该像《最终幻想》。他女儿在 Brilliant 上刷 CS 101，一小时后不是被知识点吸住，而是被胜负心拽住：不干掉 Joyce B 就不下线。",
+      "story_hook": {
+        "challenge": "教育 AI 还在拼讲解、题库和个性化推荐，但用户真正缺的是持续进入状态的动机结构。",
+        "twist": "AI 在教育里的杀手级形态，可能不是更会讲课的老师，而是让人忘了自己在学习的游戏世界。"
+      },
+      "takeaway": "做 AI 教育产品时，应优先设计任务、反馈、对手、进度和沉浸感，再考虑模型讲解能力。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Peter Yang 认为终极教育 App 应该像最终幻想而不是网课",
+          "url": "https://x.com/petergyang/status/2060930599565811774"
+        },
+        {
+          "tag": "builders",
+          "ref": "Peter Yang 观察女儿在 Brilliant 上被 CS 101 的胜负心吸住",
+          "url": "https://x.com/petergyang/status/2060928818383355907"
+        },
+        {
+          "tag": "pulse",
+          "ref": "LongCat-Video-Avatar-1.5 可包装成课程讲解和口播头像工具",
+          "url": "https://huggingface.co/meituan-longcat/LongCat-Video-Avatar-1.5"
+        }
+      ]
+    },
+    {
+      "id": "2026-05-31-4",
+      "title": "AI 产品先卖失控保险",
+      "angle": "把 Guillermo Rauch 的 API Key 花费上限和 PromptLayer、MCP Health Checker 放在一起看：AI 基础设施的付费点正在从生成能力转向可控性。",
+      "opening": "Guillermo Rauch 今天推了一个很小但很硬的功能：每个 API Key 单独设花费上限。它不性感，却击中了 AI 产品最真实的恐惧：不是生成不出来，而是失控烧钱、出错没人知道。",
+      "story_hook": {
+        "challenge": "AI 应用越来越容易搭，但成本、监控、权限和失败定位越来越难解释给团队。",
+        "twist": "用户愿意付费的地方，可能不是更聪明的生成，而是更确定的边界。"
+      },
+      "takeaway": "做 AI 基础设施时，可以把定价锚点放在 spend cap、trace、健康检查、日志保留和告警上，而不是只按调用次数收费。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Guillermo Rauch 称 AI Gateway 支持给每个 API Key 设置花费上限",
+          "url": "https://x.com/rauchg/status/2060787704166776927"
+        },
+        {
+          "tag": "pulse",
+          "ref": "PromptLayer 做 AI 请求、工作流和成本追踪",
+          "url": "https://www.producthunt.com/products/promptlayer-2"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Openstatus MCP Health Checker 测试 MCP server 是否能被 AI client 使用",
+          "url": "https://www.producthunt.com/products/openstatus-2"
+        }
+      ]
+    },
+    {
+      "id": "2026-05-31-5",
+      "title": "别问产品 AI 含量了",
+      "angle": "用 Rauch 的产品判断对照短视频自动化和端侧模型热度，讨论下一波 AI 产品竞争会回到具体场景和交付结果。",
+      "opening": "Guillermo Rauch 说，别纠结 AI 含量，产品必须最好。这个判断很适合今天的数据：一边是 MoneyPrinterTurbo 一周新增 13948 星，一边是端侧、多模态、视频头像模型继续升温。",
+      "story_hook": {
+        "challenge": "很多团队还在用 AI 浓度包装产品，但用户只关心结果是不是更快、更便宜、更稳定。",
+        "twist": "真正跑出来的 AI 产品，往往看起来不像 AI 平台，而像短视频工厂、离线助手、视觉定位或客服视频工具。"
+      },
+      "takeaway": "选题和创业都该从“用了什么模型”转向“替用户完成哪件具体工作”，并用速度、成本和交付质量衡量价值。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Guillermo Rauch 认为用不用 AI 不重要，产品必须最好",
+          "url": "https://x.com/rauchg/status/2060803480823193840"
+        },
+        {
+          "tag": "pulse",
+          "ref": "MoneyPrinterTurbo 本周新增 13948 星，Google Trends 上涨 52%",
+          "url": "https://github.com/harry0703/MoneyPrinterTurbo"
+        },
+        {
+          "tag": "pulse",
+          "ref": "MiniCPM5-1B trending 546，标签包含 on-device 和 tool-calling",
+          "url": "https://huggingface.co/openbmb/MiniCPM5-1B"
+        }
+      ]
+    }
+  ],
+  "notes": "今日最强主线是 agent 从概念热词转向可长期执行的工作系统；适合写代码仓库记忆、成本治理、企业扩张和具体场景产品，少写泛泛的模型升级。",
+  "generated_at": "2026-05-31T09:19:21+00:00",
+  "model": "gpt-5.5"
+}
