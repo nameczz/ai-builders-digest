@@ -1,0 +1,153 @@
+{
+  "date": "2026-06-01",
+  "items": [
+    {
+      "id": "2026-06-01-1",
+      "title": "PewDiePie打穿Agent创业公司？",
+      "angle": "从一个非专业开发者的本地 AI 套件切入，讨论个人 Agent 的新及格线已经不由创业公司定义。",
+      "opening": "知识工作 Agent 公司最尴尬的对手，可能不是 OpenAI，也不是 Anthropic，而是 PewDiePie。Swyx 说得很狠：如果一个 DIY 的个人 AI 套件都打不过，就别装自己在做未来。",
+      "story_hook": {
+        "challenge": "创业公司卖的是专业 Agent，但用户真正想要的是本地、私密、能接管邮箱文档日历的个人工作台。",
+        "twist": "曾经被认为太早的本地个人 Agent，突然被一个内容创作者用 vibe coding 做成了大众基准。"
+      },
+      "takeaway": "评估个人 Agent 产品时，不要只看模型能力，要看它能否接入真实个人数据、保持本地控制，并完成连续工作流。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Swyx 评价 PewDiePie 的 DIY 个人 AI 生产力套件",
+          "url": "https://x.com/swyx/status/2061256096719970337"
+        },
+        {
+          "tag": "pulse",
+          "ref": "HuggingFace trending openbmb/MiniCPM5-1B，标签包含 on-device 和 tool-calling",
+          "url": "https://huggingface.co/openbmb/MiniCPM5-1B"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt Stella 做本地文件自然语言搜索",
+          "url": "https://www.producthunt.com/products/stella-4"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-01-2",
+      "title": "企业Agent输在脏上下文",
+      "angle": "把企业 AI 的瓶颈从模型能力转向旧系统、权限、隐性流程和文档入口这些脏活。",
+      "opening": "Aaron Levie 今天把企业 Agent 的遮羞布掀开了：最大瓶颈不是模型，而是上下文。知识散在旧系统里，权限是错的，关键流程还藏在人脑里，Agent 再聪明也只能瞎猜。",
+      "story_hook": {
+        "challenge": "企业想要 AI 自动化，但真正可用的数据、权限和流程知识并没有被整理成 Agent 能安全调用的形态。",
+        "twist": "最值钱的 AI 基础设施，可能不是新模型，而是 Markdown 转换、权限治理和知识插件这些看起来不性感的层。"
+      },
+      "takeaway": "做企业 Agent 先补上下文供应链：文件转结构化文本、权限边界、审计日志和领域知识库，比再包一层聊天界面更重要。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Aaron Levie 谈企业 AI Agent 的上下文瓶颈",
+          "url": "https://x.com/levie/status/2061247380897579500"
+        },
+        {
+          "tag": "pulse",
+          "ref": "microsoft/markitdown 周增 9353 星",
+          "url": "https://github.com/microsoft/markitdown"
+        },
+        {
+          "tag": "pulse",
+          "ref": "microsoft/agent-governance-toolkit 周增 1657 星",
+          "url": "https://github.com/microsoft/agent-governance-toolkit"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-01-3",
+      "title": "Codex不只改代码了",
+      "angle": "从 Codex 自动写 QA 场景和一次性 codemod 切入，讨论代码 Agent 正在变成会造工具的工程队友。",
+      "opening": "Peter Steinberger 看到的 Codex 已经不只是“给我补个 patch”。它会为每次提交生成用户测试场景，跑浏览器和电脑操作，发现问题后直接开 PR，甚至在大型 TypeScript 迁移里现写一次性 codemod。",
+      "story_hook": {
+        "challenge": "如果代码 Agent 只能按指令改几行代码，它还是高级补全；真正难的是把测试、迁移、修复串成自动流程。",
+        "twist": "Agent 开始自己写工具来完成任务，工程师要评估的对象从代码片段变成了整条工作流。"
+      },
+      "takeaway": "团队引入 coding agent 时，应优先设计可验证的 QA、迁移和回归流程，而不是只让它在 IDE 里聊天式改文件。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Peter Steinberger 用 Codex 自动生成测试场景并开 PR 修复",
+          "url": "https://x.com/steipete/status/2061208638027395490"
+        },
+        {
+          "tag": "builders",
+          "ref": "Peter Steinberger 观察 Codex 现写一次性 codemod",
+          "url": "https://x.com/steipete/status/2061115471760441692"
+        },
+        {
+          "tag": "pulse",
+          "ref": "colbymchenry/codegraph 周增 13925 星",
+          "url": "https://github.com/colbymchenry/codegraph"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-01-4",
+      "title": "AI记忆会成新浏览器战争",
+      "angle": "从自托管记忆和平台迁移权切入，讨论下一代 AI 工具竞争的核心资产不是界面，而是可带走的个人上下文。",
+      "opening": "Garry Tan 的判断很直接：你应该掌控并自托管自己的记忆。2027 年的新浏览器战争，表面是 AI 驾驭层之争，底层其实是谁拥有你的长期上下文。",
+      "story_hook": {
+        "challenge": "用户每天在多个 Agent、IDE、浏览器和 SaaS 之间切换，但记忆和上下文被平台分割锁住。",
+        "twist": "真正的护城河可能不是更强的助手，而是能跨工具迁移的记忆、插件和上下文协议。"
+      },
+      "takeaway": "开发者工具创业应避免绑定单一宿主，优先做可导出、可迁移、可自托管的记忆和插件层。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Garry Tan 谈自托管记忆和 2027 新浏览器战争",
+          "url": "https://x.com/garrytan/status/2061174413513678941"
+        },
+        {
+          "tag": "builders",
+          "ref": "Garry Tan 谈数据可迁移和不要当 AI 生态佃农",
+          "url": "https://x.com/garrytan/status/2061176075288453333"
+        },
+        {
+          "tag": "pulse",
+          "ref": "supermemoryai/supermemory daily 新增 264 星",
+          "url": "https://github.com/supermemoryai/supermemory"
+        },
+        {
+          "tag": "pulse",
+          "ref": "cursor/plugins 周增 882 星",
+          "url": "https://github.com/cursor/plugins"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-01-5",
+      "title": "AI越强，Markdown越值钱",
+      "angle": "用 markitdown 暴涨反证一个趋势：多模态时代，最稀缺的是可审查、可 diff、可喂给 Agent 的中间格式。",
+      "opening": "今天最反直觉的数据是：模型越来越多模态，Markdown 反而更火了。markitdown 周增 9353 星，Google Trends 里 markitdown 上涨 67.5%，开发者正在把 PDF、Office、网页重新压回文本管道。",
+      "story_hook": {
+        "challenge": "Agent 需要吃掉企业和个人的复杂文件，但原始 PDF、PPT、网页和会议记录很难稳定进入工作流。",
+        "twist": "看似老旧的 Markdown，正在变成 Agent 时代最便宜、最可控的上下文接口。"
+      },
+      "takeaway": "想做 Agent 工具，不妨从文件到 Markdown、上下文包、摘要和 CLI/IDE 导出做起，这是离真实需求最近的窄入口。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Aaron Levie 强调企业 Agent 需要可用的安全数据和领域知识",
+          "url": "https://x.com/levie/status/2061247380897579500"
+        },
+        {
+          "tag": "pulse",
+          "ref": "microsoft/markitdown 周增 9353 星、总计 136293 星",
+          "url": "https://github.com/microsoft/markitdown"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Google Trends 中 markitdown 上涨 67.5%",
+          "url": "https://trends.google.com/trends/explore?q=markitdown&date=now+7-d"
+        }
+      ]
+    }
+  ],
+  "notes": "今日主线很集中：Agent 竞争从模型和聊天框转向上下文、记忆、治理、本地执行和代码工作流。独立开发者素材相对够用，但更适合写基础设施机会，不适合写单个爆款产品复盘。",
+  "generated_at": "2026-06-01T09:19:47+00:00",
+  "model": "gpt-5.5"
+}
