@@ -1,0 +1,335 @@
+{
+  "date": "2026-06-02",
+  "top3": [
+    "今天最值得关注的是文档转 Markdown 和代码知识图谱同时升温，microsoft/markitdown 单日新增 3034 星、周增 11962 星，Understand-Anything 周增 19223 星，说明 AI 工具链正在从聊天界面转向可检索上下文基础设施。",
+    "AI agent 的下一阶段不是更会写代码，而是更可控：agent skills、governance、receipts、limits、plugin spec 等项目集中增长，开发者开始补齐代理系统的品控、安全和执行证明。",
+    "消费级多模态机会集中在定位、视频、头像和本地端模型，nvidia/LocateAnything-3B、LongCat-Video-Avatar-1.5、MiniCPM5-1B 和 WebGPU 图像 Space 提供了可快速产品化的拼图。"
+  ],
+  "intro": "今天的数据主线很清楚：AI builder 的注意力从模型炫技转向上下文工程、代理约束和可交付内容生产。开源侧是 Markdown、知识图谱、skills 和治理工具暴涨，趋势侧则显示「pdf to md converter」「graphify github」「singapore government ai agent registry」这类弱信号正在破圈。",
+  "sections": [
+    {
+      "id": "discovery",
+      "title": "发现机会",
+      "blocks": [
+        {
+          "id": "github-traction",
+          "heading": "GitHub 上哪些高增长开源项目还没有商业化？",
+          "summary_md": "[Lum1104/Understand-Anything](https://github.com/Lum1104/Understand-Anything) 周增 19223 星、总星 49458，定位是把代码变成可探索、可搜索、可提问的交互知识图谱；[colbymchenry/codegraph](https://github.com/colbymchenry/codegraph) 周增 12380 星、总星 37385，也在做本地代码知识图谱，强调更少 tokens 和更少工具调用。两个项目同时爆发，说明「给 coding agent 喂可理解代码库」已经是明确痛点。\n\n更偏内容生产的 [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) 周增 18917 星、总星 77451，但 Google Trends 中 [moneyprinterturbo](https://trends.google.com/trends/explore?q=moneyprinterturbo&date=now+7-d) 下滑 -50.9%，像是短期传播后的回落。相比之下，代码知识图谱更适合商业化成团队版：私有 repo 索引、权限隔离、IDE 插件、CI 增量更新和 agent 上下文 API。",
+          "items": [
+            {
+              "title": "Lum1104/Understand-Anything",
+              "url": "https://github.com/Lum1104/Understand-Anything",
+              "source": "GitHub",
+              "score": 19223
+            },
+            {
+              "title": "colbymchenry/codegraph",
+              "url": "https://github.com/colbymchenry/codegraph",
+              "source": "GitHub",
+              "score": 12380
+            },
+            {
+              "title": "harry0703/MoneyPrinterTurbo",
+              "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+              "source": "GitHub",
+              "score": 18917
+            }
+          ],
+          "takeaway": "最值得追的是代码库上下文基础设施，而不是又一个聊天式 coding wrapper。"
+        }
+      ]
+    },
+    {
+      "id": "tech-stack",
+      "title": "技术选型",
+      "blocks": [
+        {
+          "id": "dev-tools",
+          "heading": "本周增长最快的开发者工具是什么？",
+          "summary_md": "本周增长最快的开发者工具集中在三类：文档结构化、代理品控和代理治理。[microsoft/markitdown](https://github.com/microsoft/markitdown) 周增 11962 星、总星 139808，单日也新增 3034 星，说明 Office、PDF、网页到 Markdown 的转换正在成为 RAG 和 agent workflow 的入口层。[run-llama/liteparse](https://github.com/run-llama/liteparse) 周增 3381 星，补的是同一条链路里的高速文档解析。\n\n另一类是让 AI 输出更像人和更可控：[Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) 周增 11474 星，[hardikpandya/stop-slop](https://github.com/hardikpandya/stop-slop) 周增 3770 星，[microsoft/agent-governance-toolkit](https://github.com/microsoft/agent-governance-toolkit) 周增 1529 星。技术选型上，今天不该只问用哪个模型，而要问输入如何清洗、上下文如何索引、agent 如何被审计。",
+          "items": [
+            {
+              "title": "microsoft/markitdown",
+              "url": "https://github.com/microsoft/markitdown",
+              "source": "GitHub",
+              "score": 11962
+            },
+            {
+              "title": "Leonxlnx/taste-skill",
+              "url": "https://github.com/Leonxlnx/taste-skill",
+              "source": "GitHub",
+              "score": 11474
+            },
+            {
+              "title": "microsoft/agent-governance-toolkit",
+              "url": "https://github.com/microsoft/agent-governance-toolkit",
+              "source": "GitHub",
+              "score": 1529
+            }
+          ],
+          "takeaway": "AI 工具栈的新增价值正在从模型调用层下沉到解析、上下文、风格和治理层。"
+        },
+        {
+          "id": "hf-models",
+          "heading": "HuggingFace 上最热的模型能做什么消费级产品？",
+          "summary_md": "[nvidia/LocateAnything-3B](https://huggingface.co/nvidia/LocateAnything-3B) trending score 817、下载 61604、点赞 859，配合 [nvidia/LocateAnything](https://huggingface.co/spaces/nvidia/LocateAnything) Space 的 125 分，适合做面向普通用户的「图片里找东西」：装修找同款、二手商品质检、医学影像标注前处理、仓库照片盘点。它的关键不是检测模型本身，而是把自然语言定位变成可复用的垂直流程。\n\n第二条消费机会是本地和视频。[openbmb/MiniCPM5-1B](https://huggingface.co/openbmb/MiniCPM5-1B) trending score 388，标签含 on-device、edge-ai 和 tool-calling；[meituan-longcat/LongCat-Video-Avatar-1.5](https://huggingface.co/meituan-longcat/LongCat-Video-Avatar-1.5) trending score 214，指向音频驱动头像视频；[webml-community/bonsai-image-webgpu](https://huggingface.co/spaces/webml-community/bonsai-image-webgpu) Space 160 分，说明浏览器端图像生成也在被验证。",
+          "items": [
+            {
+              "title": "nvidia/LocateAnything-3B",
+              "url": "https://huggingface.co/nvidia/LocateAnything-3B",
+              "source": "HuggingFace",
+              "score": 817
+            },
+            {
+              "title": "openbmb/MiniCPM5-1B",
+              "url": "https://huggingface.co/openbmb/MiniCPM5-1B",
+              "source": "HuggingFace",
+              "score": 388
+            },
+            {
+              "title": "meituan-longcat/LongCat-Video-Avatar-1.5",
+              "url": "https://huggingface.co/meituan-longcat/LongCat-Video-Avatar-1.5",
+              "source": "HuggingFace",
+              "score": 214
+            }
+          ],
+          "takeaway": "消费级多模态产品要从单次生成转向可解释定位、本地执行和可复用视频模板。"
+        }
+      ]
+    },
+    {
+      "id": "competition",
+      "title": "竞争情报",
+      "blocks": [
+        {
+          "id": "migrations",
+          "heading": "有没有「XX is dead」或迁移类文章？",
+          "summary_md": "今天没有典型的「XX is dead」迁移文章，但 [macOS needs its grid back](https://blog.hopefullyuseful.com/blog/macos-needs-its-grid-back/) 在 HN 拿到 243 分、133 条评论，暴露的是老牌平台体验倒退带来的替代机会。它不是开发者工具迁移，而是用户对系统级交互质量的怀旧和不满：窗口排列、空间感、键盘控制、细节一致性仍然能激起强反馈。\n\n这对独立开发者的竞争情报是，Mac 工具仍有微型刚需市场。Product Hunt 里 [Paste MCP & AI Tools](https://www.producthunt.com/products/paste)、[PawPause](https://www.producthunt.com/products/pawpause-cat-proof-your-mac)、[GlowPulse](https://www.producthunt.com/products/glowpulse)、[choclift](https://www.producthunt.com/products/choclift-workflow-sweetener) 都围绕 Mac 工作流做小而明确的改进。平台本身越复杂，边角体验越容易留下付费空间。",
+          "items": [
+            {
+              "title": "macOS needs its grid back",
+              "url": "https://blog.hopefullyuseful.com/blog/macos-needs-its-grid-back/",
+              "source": "HN",
+              "score": 243
+            },
+            {
+              "title": "Paste MCP & AI Tools",
+              "url": "https://www.producthunt.com/products/paste",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "choclift",
+              "url": "https://www.producthunt.com/products/choclift-workflow-sweetener",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "平台体验倒退不是抱怨素材，而是小型付费工具的需求入口。"
+        },
+        {
+          "id": "pricing-revenue",
+          "heading": "独立开发者在讨论什么营收和定价策略？",
+          "summary_md": "原始 HN 数据里没有 MRR、ARR、pricing、subscription 或 revenue 讨论，但 Product Hunt 的产品形态给出了一条隐含定价线索：AI agent 正在被包装成具体业务岗位，而不是通用聊天助手。[Fundraisly](https://www.producthunt.com/products/fundraisly) 直接承诺寻找投资人并预约会议，[Gigacatalyst](https://www.producthunt.com/products/gigacatalyst-ai-builder-for-b2b-saas) 把工程能力交给 Sales 和 CS，[Kompassify 2.0](https://www.producthunt.com/products/kompassify) 把 onboarding 加上 AI copilot。\n\n这些产品更适合按结果或团队席位收费，而不是低价个人订阅。原因是它们替代的是销售开发、客户成功、增长运营里的人工流程，用户愿意为 booked meeting、resolved ticket、activated user 付费。相比之下，纯内容生成或工具增强产品更容易卷入低价模板市场。",
+          "items": [
+            {
+              "title": "Fundraisly",
+              "url": "https://www.producthunt.com/products/fundraisly",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "Gigacatalyst",
+              "url": "https://www.producthunt.com/products/gigacatalyst-ai-builder-for-b2b-saas",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "Kompassify 2.0",
+              "url": "https://www.producthunt.com/products/kompassify",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "AI agent 的好定价不在 token，而在它替代了哪段可衡量的业务流程。"
+        }
+      ]
+    },
+    {
+      "id": "trends",
+      "title": "趋势判断",
+      "blocks": [
+        {
+          "id": "keywords",
+          "heading": "本周技术关键词频率有什么变化？",
+          "summary_md": "最强上升词是 [markitdown](https://trends.google.com/trends/explore?q=markitdown&date=now+7-d) +81.6%，并且和 GitHub 上 [microsoft/markitdown](https://github.com/microsoft/markitdown) 周增 11962 星、单日 3034 星互相印证。它的 rising 里出现「pdf to md converter」「graphify github」「graphify」「mark it down」「claude desktop」，说明需求不是单点工具，而是把 PDF、Office、代码和桌面上下文统一变成 agent 可读材料。\n\n第二层是 [ai agent](https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d) +8.9%，rising 里出现「singapore government ai agent registry」和「robinhood ai agent」。这很关键：agent 话题正在从开发者效率进入监管、金融和身份登记语境，和 [microsoft/agent-governance-toolkit](https://github.com/microsoft/agent-governance-toolkit) 的周增 1529 星形成同一条趋势。",
+          "items": [
+            {
+              "title": "markitdown",
+              "url": "https://trends.google.com/trends/explore?q=markitdown&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 81.6
+            },
+            {
+              "title": "ai agent",
+              "url": "https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 8.9
+            },
+            {
+              "title": "self hosted",
+              "url": "https://trends.google.com/trends/explore?q=self+hosted&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 6.5
+            }
+          ],
+          "takeaway": "今天的关键词信号指向同一件事：agent 需要可读上下文，也需要可治理身份。"
+        },
+        {
+          "id": "cooling",
+          "heading": "哪些 AI 热词在降温？",
+          "summary_md": "降温最明显的是 [ai engineering from scratch](https://trends.google.com/trends/explore?q=ai+engineering+from+scratch&date=now+7-d) -100.0%、[cursor alternative](https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d) -64.1%、[moneyprinterturbo](https://trends.google.com/trends/explore?q=moneyprinterturbo&date=now+7-d) -50.9%。这不是说相关项目不重要，而是说明用户已经过了「找一个替代品」或「复刻一个爆款」的搜索阶段，注意力开始转向更具体的任务链路。\n\n更微妙的是 [stop slop](https://trends.google.com/trends/explore?q=stop+slop&date=now+7-d) -9.8%，但 [hardikpandya/stop-slop](https://github.com/hardikpandya/stop-slop) 本周仍新增 3770 星。这种分化意味着公共搜索热度回落，但开发者圈仍在安装和收藏。对 builder 来说，别追口号，要把反 AI 味、风格控制、审稿流程做成可插拔的工作流能力。",
+          "items": [
+            {
+              "title": "ai engineering from scratch",
+              "url": "https://trends.google.com/trends/explore?q=ai+engineering+from+scratch&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": -100.0
+            },
+            {
+              "title": "cursor alternative",
+              "url": "https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": -64.1
+            },
+            {
+              "title": "moneyprinterturbo",
+              "url": "https://trends.google.com/trends/explore?q=moneyprinterturbo&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": -50.9
+            }
+          ],
+          "takeaway": "降温的不是 AI 工程需求，而是泛化教程、替代品搜索和一键爆款叙事。"
+        },
+        {
+          "id": "new-radar",
+          "heading": "新词雷达：有哪些从零起飞的新概念？",
+          "summary_md": "今天最值得放进雷达的是 [markitdown](https://trends.google.com/trends/explore?q=markitdown&date=now+7-d) 相关 rising：「pdf to md converter」爆发 19050，「graphify github」爆发 16450，「graphify」增长 300。这几个词把需求讲得很直白：用户不是想要更聪明的聊天框，而是想把杂乱文件和代码仓库变成可查询、可视化、可喂给 agent 的结构化上下文。\n\n另一个弱信号来自 [ai agent](https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d) 的 rising：「singapore government ai agent registry」爆发 7450，「robinhood ai agent」增长 500。前者指向政府级 agent 登记和治理，后者指向金融交易入口。再加上 [codex](https://trends.google.com/trends/explore?q=codex&date=now+7-d) 里「opus 4.8」爆发 3850、「codex 5.6」增长 200，可以判断下一批新词会围绕 agent 身份、执行权限和模型路由展开。",
+          "items": [
+            {
+              "title": "pdf to md converter",
+              "url": "https://trends.google.com/trends/explore?q=markitdown&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 19050
+            },
+            {
+              "title": "graphify github",
+              "url": "https://trends.google.com/trends/explore?q=markitdown&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 16450
+            },
+            {
+              "title": "singapore government ai agent registry",
+              "url": "https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 7450
+            }
+          ],
+          "takeaway": "新词不是围绕模型能力起飞，而是围绕上下文格式、agent 登记和执行边界起飞。"
+        }
+      ]
+    },
+    {
+      "id": "actions",
+      "title": "行动触发",
+      "blocks": [
+        {
+          "id": "weekend-build",
+          "heading": "今天 2 小时和一个周末分别做什么？",
+          "summary_md": "2 小时内可以做一个很窄的「PDF to agent context」原型：调用 [microsoft/markitdown](https://github.com/microsoft/markitdown) 或类似解析器，把 PDF、docx、pptx 转成 Markdown，再用标题、表格、图片引用切块，输出给 Claude Desktop、Codex 或 Cursor 的上下文包。验证指标不是解析准确率，而是用户能否少复制三次、少解释五句。\n\n一个周末可以做「repo graph brief」：借鉴 [Lum1104/Understand-Anything](https://github.com/Lum1104/Understand-Anything) 和 [colbymchenry/codegraph](https://github.com/colbymchenry/codegraph)，对 GitHub 仓库生成模块图、关键入口、风险文件和新手任务列表。商业化切口可以很小：面向开源 maintainer 的 README onboarding，或面向团队的 PR 预审上下文包。",
+          "items": [
+            {
+              "title": "microsoft/markitdown",
+              "url": "https://github.com/microsoft/markitdown",
+              "source": "GitHub",
+              "score": 11962
+            },
+            {
+              "title": "Lum1104/Understand-Anything",
+              "url": "https://github.com/Lum1104/Understand-Anything",
+              "source": "GitHub",
+              "score": 19223
+            },
+            {
+              "title": "colbymchenry/codegraph",
+              "url": "https://github.com/colbymchenry/codegraph",
+              "source": "GitHub",
+              "score": 12380
+            }
+          ],
+          "takeaway": "今天最该动手的不是再包一层 LLM，而是把材料变成 agent 真能用的上下文。"
+        },
+        {
+          "id": "pricing-models",
+          "heading": "值得学习的定价和变现模式有哪些？",
+          "summary_md": "可以学习两种定价：第一种是「上下文基础设施按团队收费」，适合 markitdown、codegraph、Moxie Docs 这类产品。收费点不是转换一次文件，而是私有仓库、权限、增量索引、团队共享、审计日志和 IDE 集成。用户为减少 agent 幻觉和 onboarding 时间付费，客单价天然高于单人 productivity app。\n\n第二种是「业务 agent 按结果收费」，对应 [Fundraisly](https://www.producthunt.com/products/fundraisly)、[Gigacatalyst](https://www.producthunt.com/products/gigacatalyst-ai-builder-for-b2b-saas)、[Knock agent for Slack](https://www.producthunt.com/products/knock-6)。如果 agent 能带来会议、线索、工单解决或消息送达，就可以按席位加用量，甚至绑定结果包。关键是把 agent 输出接入 CRM、Slack、邮件和产品事件，而不是停在生成文本。",
+          "items": [
+            {
+              "title": "Moxie Docs",
+              "url": "https://www.producthunt.com/products/moxie-docs",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "Fundraisly",
+              "url": "https://www.producthunt.com/products/fundraisly",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "Knock agent for Slack",
+              "url": "https://www.producthunt.com/products/knock-6",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "好变现来自团队级基础设施或可度量业务结果，弱变现来自泛泛的 AI 增强。"
+        },
+        {
+          "id": "counterintuitive",
+          "heading": "今天最反直觉的发现是什么？",
+          "summary_md": "最反直觉的是，AI builder 社区今天最热的并不是更大的模型，而是「让 AI 少胡来」的外围能力。[Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) 周增 11474 星，[hardikpandya/stop-slop](https://github.com/hardikpandya/stop-slop) 周增 3770 星，[mukul975/Anthropic-Cybersecurity-Skills](https://github.com/mukul975/Anthropic-Cybersecurity-Skills) 周增 4330 星，[microsoft/agent-governance-toolkit](https://github.com/microsoft/agent-governance-toolkit) 周增 1529 星，都在处理风格、技能、安全、治理这些非模型问题。\n\n这说明 agent 产品的瓶颈已经从「能不能做」转为「能不能稳定、合规、像个专业同事一样做」。短期产品机会也在这里：给现有 agent 加技能包、风格审稿、风险扫描、执行回执、权限限制和组织策略，而不是重新训练一个模型或再做一个通用 assistant。",
+          "items": [
+            {
+              "title": "Leonxlnx/taste-skill",
+              "url": "https://github.com/Leonxlnx/taste-skill",
+              "source": "GitHub",
+              "score": 11474
+            },
+            {
+              "title": "mukul975/Anthropic-Cybersecurity-Skills",
+              "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
+              "source": "GitHub",
+              "score": 4330
+            },
+            {
+              "title": "microsoft/agent-governance-toolkit",
+              "url": "https://github.com/microsoft/agent-governance-toolkit",
+              "source": "GitHub",
+              "score": 1529
+            }
+          ],
+          "takeaway": "下一波 AI 产品壁垒可能不是模型能力，而是品控、安全和组织内可托付性。"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2026-06-02T09:20:02+00:00",
+  "reddit_highlights": [
+    {
+      "heading": "哪些定价和变现模型值得研究？",
+      "body_md": "**🔍 信号**：今天值得研究的包括：$19 手工 Recovery Flow Receipt、$9-$29/month 的 recurring recovery checks、Bailoutt 的 $5 10-token first sale、CheckVibe 来自 100+ paying customers 的 $3.4K gross volume，以及 Reddit PDF-editor 创始人在订阅反弹后增加 lifetime tier。\n\n**白话说：** 当结果足够明显时，市场愿意为小额购买买单。\n\n第一个定价模型是手工审计。Recovery Flow Receipt 应该从 `$19 one-off` 开始，因为买方拿到的是有截图支撑的答案，而不是抽象订阅。如果有两三个创始人要求在修改 helpdesk scripts 后重复测试，再做 `$9-$29/month` 的 recurring checks 才合理。不要从 dashboard 开始；从那张让人尴尬的截图开始。\n\n第二个模型是低摩擦工具定价。Reddit 上 Bailoutt 背后的创始人报告了第一笔销售：8 个月和 150+ 用户之后，卖出 `$5 for 10 tokens`。钱很小，但证明一个小而易懂的购买，可以在成熟订阅之前转化。对月费方案还显得太早的 consumer apps 来说，这很有用。\n\n第三个模型是安全证明。CheckVibe 报告说，为 vibe-coded apps 扫描做到了约 $3.4K gross volume、100+ paying customers 和六周 2.5K signups。这说明，当产品点名一个创始人害怕但自己看不见的风险时，创始人愿意付钱。PDF-editor pricing roast 则指向另一边：如果产品感觉像用户拥有的软件，桌面工作流买方会拒绝订阅。该创始人在用户要求后增加了 lifetime tier。\n\n**关键判断**：先围绕具体交付物定价；只有当同一个买方需要漂移检查、提醒或反复证明时，再加 recurring。\n\n**反向视角**：早期收入帖很少包含获客成本、支持负担或退款率。\n\n---",
+      "source_url": "https://raw.githubusercontent.com/BuilderPulse/BuilderPulse/main/zh/2026/2026-06-02.md"
+    }
+  ]
+}

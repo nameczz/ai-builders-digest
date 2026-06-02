@@ -1,0 +1,148 @@
+{
+  "date": "2026-06-02",
+  "items": [
+    {
+      "id": "2026-06-02-1",
+      "title": "Agent 护城河不是模型",
+      "angle": "从 Aaron Levie 的企业数据论切入，写 AI agent 真正的壁垒为什么会落到流程、权限和治理上。",
+      "opening": "今天最刺眼的一句话不是“模型又变强了”，而是 Aaron Levie 说：优势不在谁拿到更强模型，而在谁能把内部知识、数据资产和行业流程接上 AI。另一边，agent governance、registry、receipts 这些词正在同时升温。Agent 时代的竞争，可能不是更聪明，而是谁更可托付。",
+      "story_hook": {
+        "challenge": "企业都想用 agent，但真正值钱的数据和流程往往不能随便交给 agent。",
+        "twist": "模型越通用，护城河反而越回到公司自己的知识、权限、审计和行业经验。"
+      },
+      "takeaway": "读者可以重新审视自己的 agent 产品：不要只包装模型调用，而要设计数据接入、权限控制、执行回执和行业流程沉淀。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Aaron Levie：AI agent 壁垒在内部知识、数据资产和行业流程",
+          "url": "https://x.com/levie/status/2061662386680127688"
+        },
+        {
+          "tag": "pulse",
+          "ref": "microsoft/agent-governance-toolkit 周增 1529 星",
+          "url": "https://github.com/microsoft/agent-governance-toolkit"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Google Trends：singapore government ai agent registry 爆发 7450",
+          "url": "https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-02-2",
+      "title": "上下文工程开始抢入口",
+      "angle": "用 markitdown 和代码知识图谱的爆发，写 AI 工具链正在从聊天框转向“喂给 agent 的材料层”。",
+      "opening": "microsoft/markitdown 一周新增 11962 星，Understand-Anything 一周新增 19223 星。表面看是文档转换和代码图谱，实质上是同一个需求：开发者不想再手动给 AI 解释上下文了。谁先把文件、代码、权限和索引做好，谁就站在 agent 工作流入口。",
+      "story_hook": {
+        "challenge": "大家都在卷 coding agent，但 agent 最常失败的地方不是不会写代码，而是看不懂项目和材料。",
+        "twist": "最热的机会不是再做一个聊天 wrapper，而是把脏乱上下文变成机器可读、可查、可复用的基础设施。"
+      },
+      "takeaway": "读者可以优先观察 PDF/Office 转 Markdown、repo graph、团队私有索引和 IDE 上下文 API，这些比单纯换模型更接近真实付费点。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Peter Yang：Josh 的独立开发方法把失败沉淀成 agent 规则",
+          "url": "https://x.com/petergyang/status/2061452068792287622"
+        },
+        {
+          "tag": "pulse",
+          "ref": "microsoft/markitdown 周增 11962 星、单日新增 3034 星",
+          "url": "https://github.com/microsoft/markitdown"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Lum1104/Understand-Anything 周增 19223 星",
+          "url": "https://github.com/Lum1104/Understand-Anything"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-02-3",
+      "title": "Codex 会喊人，才像同事",
+      "angle": "从 Peter Steinberger 的“卡住就叫人”切入，写 agent 产品的关键不是全自动，而是知道何时请求人类介入。",
+      "opening": "Peter Steinberger 给 Codex 配了一个很现实的能力：遇到 npm 发布、1Password 这类必须人类解锁的关卡，就直接喊他。这个细节比“全天候跑任务”更重要。真正能进生产环境的 agent，不是永不打扰你，而是知道什么时候必须打扰你。",
+      "story_hook": {
+        "challenge": "大家想象中的 agent 是完全自动，但真实工作里到处是权限、凭证、发布和责任边界。",
+        "twist": "最有价值的 agent 体验可能不是少叫人，而是把人类介入变成明确、低成本、可审计的工作流。"
+      },
+      "takeaway": "设计 agent 时要加入阻塞检测、人工确认、权限升级和执行回执，而不是假装所有任务都能端到端自动完成。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Peter Steinberger：Codex 遇到 npm 发布、1Password 关卡会喊人",
+          "url": "https://x.com/steipete/status/2061574752574283858"
+        },
+        {
+          "tag": "builders",
+          "ref": "Dan Shipper：让一群 Codex 全天候跑 /goal",
+          "url": "https://x.com/danshipper/status/2061443674311999739"
+        },
+        {
+          "tag": "pulse",
+          "ref": "AI agent 下一阶段是 skills、governance、receipts、limits",
+          "url": "https://github.com/microsoft/agent-governance-toolkit"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-02-4",
+      "title": "开放模型开始打工价",
+      "angle": "从 MiniMax M3 在 Next.js Agent 评测中接近闭源模型但价格低很多，写模型选择从能力崇拜进入成本工程。",
+      "opening": "Guillermo Rauch 说，MiniMax M3 在 Next.js Agent 评测里成了最强开放模型，紧追 Opus 和 GPT-5，但价格只有十分之一，甚至便宜 20 倍。这个信号很实际：当 agent 开始高频调用模型，聪明不是唯一指标，单位任务成本才会决定产品能不能跑起来。",
+      "story_hook": {
+        "challenge": "开发者习惯默认选择最强闭源模型，但 agent 产品会把 token 消耗放大成真实账单。",
+        "twist": "开放模型未必需要全面超过闭源模型，只要在特定任务上够接近、够便宜，就能改变技术选型。"
+      },
+      "takeaway": "读者做 agent 产品时应按任务拆模型路由：高风险任务用强模型，重复执行、前处理和局部生成用便宜开放模型。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Guillermo Rauch：MiniMax M3 是 Next.js Agent 评测最强开放模型，价格约十分之一",
+          "url": "https://x.com/rauchg/status/2061593874498531707"
+        },
+        {
+          "tag": "pulse",
+          "ref": "openbmb/MiniCPM5-1B trending score 388，标签含 on-device、edge-ai、tool-calling",
+          "url": "https://huggingface.co/openbmb/MiniCPM5-1B"
+        },
+        {
+          "tag": "pulse",
+          "ref": "消费级多模态机会集中在本地端模型和可产品化拼图",
+          "url": "https://huggingface.co/openbmb/MiniCPM5-1B"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-02-5",
+      "title": "Vibe Coding 不只写代码",
+      "angle": "从 Replit Vibecon 和 Amjad 的一键业务 prompt 切入，写“代码连接文化”背后的商业化转向。",
+      "opening": "Replit 把 Vibecon 做成一场创意 AI 大会，请来 Spike Jonze、Refik Anadol 和 builder。Amjad 同一天又抛出更直接的 prompt：网站、移动 App、变现方案、特拉华公司一键打包。Vibe coding 看起来像文化运动，底层却是把创业流水线产品化。",
+      "story_hook": {
+        "challenge": "外界还在把 vibe coding 当成玩票式写代码，但 Replit 正在把它包装成文化、创意和创业入口。",
+        "twist": "真正被销售的不是“AI 提效”，而是普通人从想法到公司、产品和变现的整套路径。"
+      },
+      "takeaway": "读者可以观察 AI 编程工具如何从 IDE 竞争转向创业流程：模板、发布、收款、公司注册、增长和社区都会成为新入口。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Amjad Masad：Vibecon 把代码连接文化，聚集创意 AI 和 builder",
+          "url": "https://x.com/amasad/status/2061673231309058241"
+        },
+        {
+          "tag": "builders",
+          "ref": "Amjad Masad：业务 prompt 包含网站、移动 App、变现方案和特拉华公司",
+          "url": "https://x.com/amasad/status/2061575503434408106"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt：Fundraisly 将 AI agent 包装成寻找投资人并预约会议的业务岗位",
+          "url": "https://www.producthunt.com/products/fundraisly"
+        }
+      ]
+    }
+  ],
+  "notes": "今日主线很集中：不是模型发布，而是 agent 进入真实工作后的上下文、治理、成本和商业化入口。",
+  "generated_at": "2026-06-02T09:20:53+00:00",
+  "model": "gpt-5.5"
+}
