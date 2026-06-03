@@ -1,0 +1,148 @@
+{
+  "date": "2026-06-03",
+  "items": [
+    {
+      "id": "2026-06-03-1",
+      "title": "Agent 不热了，零件更贵了",
+      "angle": "从 Google Trends 大词降温和 GitHub 周边项目暴涨的反差切入：机会不在喊 agent，而在让 agent 便宜、可控、可审计。",
+      "opening": "今天最反直觉的信号是：ai agent 这个词在降温，但 agent 的零件在暴涨。开发者不再为概念买单，却愿意给上下文压缩、代码图谱、权限治理这些脏活投星标。",
+      "story_hook": {
+        "challenge": "市场对 agent 叙事疲劳，但真实使用中仍被成本、上下文和治理卡住。",
+        "twist": "赚钱机会可能不在做下一个 agent，而在做 agent 运行时的一颗螺丝。"
+      },
+      "takeaway": "开发者可以把产品从「通用 AI 助手」改写成一个可量化的基础设施问题：省 token、省审查时间、降低权限风险。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Aaron Levie 认为模型路由会成为应用层 AI 分水岭",
+          "url": "https://x.com/levie/status/2061974298760495132"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub 项目 headroom 一周 3,002 stars，主打压缩 60-95% token",
+          "url": "https://github.com/chopratejas/headroom"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Google Trends 中 ai agent 7 天下滑 -8.1%",
+          "url": "https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-03-2",
+      "title": "Codex 开始抢白领饭碗",
+      "angle": "从 Codex 用户结构变化切入：它不只是程序员工具，而是在吃掉研究、分析、文档和办公流。",
+      "opening": "Codex 最危险的增长可能不在程序员里。Zara Zhang 说，知识工作者已占约 20% 用户，增长速度是开发者的 3 倍多；另一边，Claude Code 的 Workflows 也在把写代码工具推向可编排的办公执行系统。",
+      "story_hook": {
+        "challenge": "大家还把 Codex 当 IDE 插件看，但用户已经开始用它做数据分析、研究和知识产出。",
+        "twist": "下一波竞争对手可能不是 Cursor，而是 Notion、Excel、PPT 和咨询助理。"
+      },
+      "takeaway": "做 AI 工具时不要只盯开发者入口，可以把「工作流模板、文档反馈、表格执行、研究产出」当成新的产品面。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Zara Zhang 称 Codex 知识工作者用户约占 20%，增速是开发者 3 倍多",
+          "url": "https://x.com/zarazhangrui/status/2061924300698091760"
+        },
+        {
+          "tag": "builders",
+          "ref": "Thariq 称 Claude Code Workflows 是继 skills 和 subagents 后最大升级",
+          "url": "https://x.com/trq212/status/2061907538741006796"
+        },
+        {
+          "tag": "pulse",
+          "ref": "anthropics/knowledge-work-plugins 一周 2,458 stars",
+          "url": "https://github.com/anthropics/knowledge-work-plugins"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-03-3",
+      "title": "No-code 被 Yes-code 反杀",
+      "angle": "用 Vercel 的 yes-code 叙事对照 Product Hunt 上云端 Codex、AI edit review、API 一键安装，讲清楚无代码的天花板正在被 coding agent 改写。",
+      "opening": "过去 no-code 的卖点是：别写代码。Guillermo Rauch 今天的判断更狠：coding agent 让代码变得便宜、容易、充裕，所以真正的机会不是绕开代码，而是让代码工作流永远不毕业。",
+      "story_hook": {
+        "challenge": "无代码平台靠降低门槛吃红利，但复杂产品最终还是会撞到质量和扩展性的墙。",
+        "twist": "AI 不是让代码消失，而是让代码重新成为最便宜的产品介质。"
+      },
+      "takeaway": "如果在做工具平台，应该思考如何服务 agent 写出来的真实代码：托管、审查、回滚、权限、集成，而不是只做拖拽界面。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Guillermo Rauch 称 coding agent 炸掉 no-code 地基，Vercel 要做 yes-code 云平台",
+          "url": "https://x.com/rauchg/status/2061934154732974376"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt Replicas 把 Claude Code 和 Codex 放到云端运行",
+          "url": "https://www.producthunt.com/products/replicas"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt Handler 主打像 stacked PR 一样审查 AI edits",
+          "url": "https://www.producthunt.com/products/handler"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-03-4",
+      "title": "会造产品，不等于能融资",
+      "angle": "从 Peter Yang 的「只会造没人用」和 Nikunj 的「单点优势不够融资」切入，写 AI builder 的新门槛：产品、分发、叙事、收入必须同时成立。",
+      "opening": "很多 AI builder 最大的错觉是：能造，就等于有机会。Peter Yang 今天提醒，很多人被「什么都能做」点燃，结果除了造东西什么都不做；Nikunj Kothari 则把融资门槛说得更直白：AI、流量、产品或收入，单拿一项都不够了。",
+      "story_hook": {
+        "challenge": "AI 降低了造产品成本，也让同质化产品数量爆炸，单纯能 build 已经不稀缺。",
+        "twist": "VC 和用户真正想看的，反而是以前最不 sexy 的东西：分发证据、独特优势和不可复制性。"
+      },
+      "takeaway": "开新项目之前，先写清楚目标用户、获客路径、付费证据和不可复制点，再打开 Cursor。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Peter Yang 称很多 AI builder 只顾造东西，发布时一个用户没有",
+          "url": "https://x.com/petergyang/status/2062018242789670929"
+        },
+        {
+          "tag": "builders",
+          "ref": "Nikunj Kothari 称种子到 A 轮门槛抬高，单项优势已不够",
+          "url": "https://x.com/nikunj/status/2062033620773306763"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Reddit 与 Indie Hackers 讨论 build-in-public 粉丝不等于真实市场",
+          "url": "https://www.reddit.com/r/SaaS/comments/1tsvmh9/90_days_in_3500_mrr_two_person_team_heres_exactly/"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-03-5",
+      "title": "AI 定价别卖智能，卖节省",
+      "angle": "从 token 成本、Claude Code 用量对标和一键集成产品看 AI 工具定价：用户愿意为可验证的节省付费，而不是为抽象智能付费。",
+      "opening": "AI 工具定价正在从「我更聪明」变成「我替你省多少」。Dropstone 直接拿「2× Claude Code Pro's usage at $15/mo」做锚点，Forward 则把 API 安装压成一条命令；这比卖无限聊天更容易让用户算账。",
+      "story_hook": {
+        "challenge": "AI 产品成本在上涨，但很多工具还在用模糊的智能叙事定价。",
+        "twist": "最有说服力的价格页，可能不是模型能力表，而是一张节省账单。"
+      },
+      "takeaway": "给 AI 产品定价时，优先绑定一个用户已经理解的替代物：token 成本、Claude Code 额度、集成时间、审查吞吐量或风险减少。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Aaron Levie 称 token 成本会吞噬运营开支，模型路由成为必然",
+          "url": "https://x.com/levie/status/2061974298760495132"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt Dropstone 1.5 用 2× Claude Code Pro usage at $15/mo 做定价锚点",
+          "url": "https://www.producthunt.com/products/dropstone-2"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt Forward 用一条命令把 API 安装进客户代码库",
+          "url": "https://www.producthunt.com/products/forward-10"
+        }
+      ]
+    }
+  ],
+  "notes": "今日主线很集中：AI builder 的机会从模型主入口转向工作流外围，尤其是成本、上下文、审查、治理、云端执行和可量化定价。独立开发者素材足够，但消费级多模态产品信号偏散，暂不适合作为主选题。",
+  "generated_at": "2026-06-03T09:20:45+00:00",
+  "model": "gpt-5.5"
+}
