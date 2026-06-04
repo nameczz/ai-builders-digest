@@ -1,0 +1,330 @@
+{
+  "date": "2026-06-04",
+  "generated_at": "2026-06-04T00:48:30+00:00",
+  "inbox_id": "sanyoumu@agentmail.to",
+  "window": {
+    "start": "2026-06-03T00:47:43+00:00",
+    "end": "2026-06-04T00:46:03.504259+00:00",
+    "source": "previous_digest_generated_at"
+  },
+  "count": 9,
+  "highlights": [
+    "微软在 Build 2026 集中发布 7 个 MAI 自研模型，并用 109 页技术报告展示 MAI-Thinking-1，标志其 AI 叙事从 OpenAI 分发伙伴转向自有模型与平台能力。",
+    "Axiom 把形式化验证、Lean 证明和强化学习奖励信号连接起来，试图突破“非正式数学推理”瓶颈。",
+    "Fei-Fei Li 与 World Labs 给“世界模型”做功能分类，区分渲染器、模拟器等不同能力，提醒行业不要把视觉生成等同于空间智能。",
+    "微软 Scout、Project Solara、agent-first 硬件和 OpenClaw 反复出现在多封 newsletter 中，说明“常驻代理 + 企业上下文 + 设备入口”正在成为平台竞争焦点。",
+    "开发者侧的重点从单纯写代码转向 agent 安全、RAG 多模态索引、AI 技术债和工程流程重设计。"
+  ],
+  "items": [
+    {
+      "id": "ainews-microsoft-build-mai-thinking",
+      "title_zh": "今日精读：微软用 MAI 模型家族重塑自己的 AI 平台叙事",
+      "title_original": "[AINews] Microsoft Build: MAI-Thinking-1 and MAI Family models",
+      "source": "AINews",
+      "from": "AINews <swyx+ainews@substack.com>",
+      "subject": "[AINews] Microsoft Build: MAI-Thinking-1 and MAI Family models",
+      "url": "https://www.latent.space/p/ainews-microsoft-build-mai-thinking",
+      "message_id": "<20260603054902.3.0c0077f4432a46be@mg-d0.substack.com>",
+      "published_at": "2026-06-03T05:49:02.000Z",
+      "importance": "high",
+      "summary_zh": "这期 AINews 聚焦 Microsoft Build 2026 上发布的 MAI 模型家族，尤其是 MAI-Thinking-1、MAI-Code-1-Flash、MAI-Image-2.5、MAI-Transcribe-1.5、MAI-Voice-2 等 7 个自研模型。邮件强调，微软在收购 Inflection 团队两年后已经形成从零预训练的模型线，并通过 109 页技术报告释放出比多数大厂更透明的研究信号。对 builder 来说，重点不是“微软又发模型”，而是微软正在把模型、Copilot、Foundry、Windows 和企业上下文打包成自己的 agent 基础设施。",
+      "deep_read_zh": "这封 AINews 最值得精读的地方，是它把 Microsoft Build 2026 解读成微软 AI 身份转换的节点。过去几年，微软的 AI 叙事很大程度上绑定 OpenAI：Azure 提供算力与企业分发，Copilot 承接产品化，OpenAI 负责前沿模型。但这次 Build 的核心信号是，Microsoft AI 已经开始明确展示自己的模型谱系：从推理、代码到图像、语音和转录，覆盖多个关键模态与任务场景。邮件特别强调，这些 MAI 模型是从零预训练，而不是简单包装第三方模型；MAI-Thinking-1 还以清洁数据谱系和不从第三方模型蒸馏作为卖点。\n\n更重要的是，AINews 把微软定位为“tier 2 neolab”：它也许还不是无争议的前沿实验室，但已经具备清晰的战略动机和产品落点。和前沿模型公司逐渐减少或关闭微调能力不同，微软天然需要支持企业、行业和内部产品的定制化场景，因此更可能把 domain-specific finetune、私有评测、企业上下文和工具链组合成平台能力。对开发者和 AI 产品团队来说，这意味着微软的竞争方式不是只追单模型榜单，而是把模型嵌入 GitHub Copilot、Foundry、Windows、Microsoft 365 和 agent 工作流。\n\n邮件还指出，109 页 MAI-Thinking-1 技术报告在研究社区获得积极反馈，关键在于透明度。当前大模型行业的一个痛点是外部很难判断模型训练数据、蒸馏路径、评测可信度和真实能力边界。微软如果持续提供可审视的技术报告，可能会在企业信任、合规采购和开发者生态中获得额外优势。值得继续关注的是：MAI-Code-1-Flash 在 GitHub Copilot 中的真实体验、MAI-Thinking-1 是否能在复杂推理和企业任务中体现差异、以及微软会不会把私有 eval、trace 和上下文层变成新的平台锁定方式。",
+      "why_important": "这封邮件把当天大量 Microsoft Build 新闻中最有技术含量的部分抽出来：微软不只是发布新功能，而是在搭建自有模型、工具和企业上下文的完整 agent 平台。它也是理解微软从 OpenAI 影子中走出来的关键材料。",
+      "impact": "对 builder 来说，微软生态可能从“调用 OpenAI 的企业入口”变成“多模型、可微调、带企业上下文的 agent 操作系统”。如果 MAI 模型在 Copilot 和 Foundry 中持续增强，开发工具、企业 SaaS 和 agent infra 都会被迫重新评估与微软生态的关系。",
+      "key_points": [
+        "微软在 Build 2026 发布 7 个 MAI 自研模型，覆盖推理、代码、图像、语音和转录。",
+        "MAI-Thinking-1 被描述为微软首个推理模型，强调清洁数据谱系和不使用第三方模型蒸馏。",
+        "微软发布了 109 页 MAI-Thinking-1 技术报告，并获得技术社区较好评价。",
+        "AINews 认为 MAI 目前不是无争议的前沿实验室，但已是有明确平台动机的第二梯队新实验室。",
+        "微软可能更重视企业定制、私有评测、trace 和 domain-specific finetune，而不是单纯追逐公开榜单。"
+      ],
+      "reading_notes": [
+        "微软的优势到底来自模型能力，还是来自企业上下文、分发和工具链组合？",
+        "MAI 模型是否会成为 Copilot 和 Foundry 的默认底座，还是主要作为多模型路由中的一部分？",
+        "技术报告的透明度能否转化为企业采购和开发者信任？",
+        "对独立 builder 来说，微软生态是更好的分发入口，还是更强的平台竞争者？"
+      ],
+      "tags": [
+        "模型",
+        "微软",
+        "agent",
+        "开发者工具",
+        "AI基础设施"
+      ],
+      "related_sources": [
+        "The Rundown AI：Microsoft paves its own AI way at Build",
+        "TLDR：Microsoft Scout",
+        "AI Valley：Microsoft unveils an always-on AI assistant",
+        "Latent.Space：Satya Nadella crossover"
+      ]
+    },
+    {
+      "id": "latent-space-axiom-verified-ai",
+      "title_zh": "Axiom 用形式化验证挑战 AI 数学推理瓶颈",
+      "title_original": "Scaling Past Informal AI - Carina Hong, Axiom Math",
+      "source": "swyx.substack.com",
+      "from": "Latent.Space <swyx@substack.com>",
+      "subject": "🔬Scaling Past Informal AI - Carina Hong, Axiom Math",
+      "url": "https://www.latent.space/p/axiom",
+      "message_id": "<20260603192749.3.8ff48dffca25634b@mg2.substack.com>",
+      "published_at": "2026-06-03T19:27:49.000Z",
+      "importance": "high",
+      "summary_zh": "Latent Space 采访 Axiom CEO Carina Hong，核心是“Verified AI”：用 Lean 等形式化证明系统为数学推理提供可验证奖励信号。Axiom 声称其 7 个月大时就在 Putnam 题目上取得 12/12 的非限时成绩，并在 Verina 代码生成基准 ProofGen 上达到 187/189，而 OpenAI o3 已知结果为 4.9%。文章的重点不是竞赛成绩，而是把“证明可检查”作为训练和推理中的强反馈，类似代码任务里编译和测试带来的奖励信号。",
+      "why_important": "它指出了代码能力之后的另一个 AGI 瓶颈：非正式推理难以可靠累积。形式化验证如果可规模化，可能改变数学、程序验证和高可靠 agent 的训练方式。",
+      "impact": "对 builder 来说，可验证生成会推动一类“能证明自己正确”的工具链，尤其适合数学、代码、合规、金融和安全场景。短期难点是 LLM 生成 Lean 证明仍然困难，但一旦突破，奖励建模和评测会更硬。",
+      "key_points": [
+        "Axiom 把形式化证明视为训练和推理中的强验证信号。",
+        "AXLE 是其开源的 Lean 交互应用工具包。",
+        "文中声称 Axiom 在 Verina ProofGen 上达到 99% 的结果。"
+      ],
+      "reading_notes": [],
+      "tags": [
+        "形式化验证",
+        "数学",
+        "模型训练",
+        "强化学习",
+        "开源"
+      ],
+      "related_sources": [],
+      "deep_read_zh": ""
+    },
+    {
+      "id": "world-labs-functional-taxonomy-world-models",
+      "title_zh": "Fei-Fei Li 给“世界模型”做功能分类",
+      "title_original": "A Functional Taxonomy of World Models",
+      "source": "drfeifei.substack.com",
+      "from": "Fei-Fei Li <drfeifei@substack.com>",
+      "subject": "A Functional Taxonomy of World Models",
+      "url": "https://drfeifei.substack.com/p/a-functional-taxonomy-of-world-models",
+      "message_id": "<20260603174334.3.8f79f6ba697c863b@mg-d1.substack.com>",
+      "published_at": "2026-06-03T17:43:34.000Z",
+      "importance": "high",
+      "summary_zh": "Fei-Fei Li 与 World Labs 团队试图澄清“世界模型”这个被过度使用的概念。他们从 POMDP 的 agent-行动-状态-观察循环出发，区分不同系统到底输出观察、状态还是其他环节。文中重点介绍了渲染器和模拟器的差别：视频模型能生成漂亮画面，但未必具备稳定几何、物理和可交互状态；真正的空间智能需要能支撑计算、检查和交互的结构化世界表示。",
+      "why_important": "这篇文章为 AI 视频、机器人、游戏生成和空间智能提供了共同语言，避免把“看起来像世界”误认为“理解世界”。",
+      "impact": "产品和技术团队在评估 world model 能力时，应分别看视觉保真、三维一致性、物理动态和可交互状态，而不是只看生成画面质量。",
+      "key_points": [
+        "世界模型不是单一能力，而是 POMDP 循环中不同功能的投影。",
+        "渲染器输出给人看的观察，模拟器输出可计算和可交互的状态。",
+        "空间智能的关键在于跨视角、物理和动态一致性。"
+      ],
+      "reading_notes": [],
+      "tags": [
+        "世界模型",
+        "空间智能",
+        "机器人",
+        "生成式AI"
+      ],
+      "related_sources": [],
+      "deep_read_zh": ""
+    },
+    {
+      "id": "latent-space-satya-build-platform",
+      "title_zh": "Satya 访谈：微软要做企业 AI 时代的平台层",
+      "title_original": "Satya Nadella: No Priors x Latent Space Crossover Special at Microsoft Build",
+      "source": "swyx.substack.com",
+      "from": "Latent.Space <swyx@substack.com>",
+      "subject": "⚡️Satya Nadella: No Priors x Latent Space Crossover Special at Microsoft Build",
+      "url": "https://www.latent.space/p/satya-2026",
+      "message_id": "<20260603171357.3.fcfee11f56046ce2@mg-d1.substack.com>",
+      "published_at": "2026-06-03T17:13:57.000Z",
+      "importance": "high",
+      "summary_zh": "这封 Latent Space 是 No Priors 与 Satya Nadella 在 Microsoft Build 的 crossover 访谈整理，重点是微软如何把自己定位为“Frontier Intelligence Platform”。Satya 强调平台的价值在于让生态创造的价值大于平台捕获的价值，并提到 OpenClaw、Scout、Work IQ、私有 eval、trace 和 Token IP 等概念。文章还讨论企业 AI ROI、token 使用、裁员压力，以及 Build vs Buy 变化对 SaaS 终局的影响。",
+      "why_important": "它提供了微软最高层对 agent 平台、企业上下文和 AI ROI 的战略解释，是理解 Build 发布背后商业逻辑的补充。",
+      "impact": "企业软件团队需要重新评估：哪些能力继续购买 SaaS，哪些可以用 agent 和内部上下文自行构建。微软则可能把 Work IQ、Copilot 和私有 trace 变成企业 AI 的关键入口。",
+      "key_points": [
+        "Satya 把微软 AI 定位为生态平台，而非单一模型供应商。",
+        "企业私有 eval、trace 和上下文层被视为新的 Token IP。",
+        "AI ROI 和 End of SaaS 是微软必须正面回应的问题。"
+      ],
+      "reading_notes": [],
+      "tags": [
+        "微软",
+        "企业AI",
+        "agent",
+        "SaaS"
+      ],
+      "related_sources": [
+        "AINews：Microsoft Build MAI models",
+        "The Rundown AI：Microsoft Build"
+      ],
+      "deep_read_zh": ""
+    },
+    {
+      "id": "ai-valley-microsoft-scout-codex-sites",
+      "title_zh": "AI Valley：微软 Scout、OpenAI Sites 与长寿医学融资同日登场",
+      "title_original": "Microsoft unveils an always-on AI assistant",
+      "source": "www.theaivalley.com",
+      "from": "AI Valley <aivalley@mail.beehiiv.com>",
+      "subject": "Microsoft unveils an always-on AI assistant",
+      "url": "https://www.theaivalley.com/",
+      "message_id": "<20260603.144502.ec354ebd@mta16>",
+      "published_at": "2026-06-03T14:45:02.000Z",
+      "importance": "medium",
+      "summary_zh": "AI Valley 这期用信息流方式汇总了 NewLimit 4.35 亿美元 C 轮融资、OpenAI Codex 推出 Sites、微软 Build 发布 Scout 和 MAI 模型、以及 Martin Scorsese 支持 AI 影视分镜创业公司等新闻。对 AI builder 最相关的是 OpenAI 把 Codex 扩展为网站和 Web App 生成发布工具，并引入面向销售、产品设计、数据分析等行业插件；这意味着 Codex 正从编程助手变成可直接交付业务软件的入口，同时也开始与依赖 OpenAI 模型构建的工具竞争。",
+      "why_important": "它把当天的产品化趋势串起来：AI 工具正在从“生成内容或代码”走向“直接发布、执行和进入行业工作流”。",
+      "impact": "独立开发者需要注意，OpenAI 和微软都在上移到应用层，很多轻量级网站生成、工作流助手和垂直插件产品会面临平台竞争。",
+      "key_points": [
+        "OpenAI Codex Sites 可用提示生成并发布网站和 Web App。",
+        "微软 Scout 是常驻型 AI 助理，可在微软生态中主动完成任务。",
+        "NewLimit 获 4.35 亿美元融资，准备推进抗衰老人体试验。"
+      ],
+      "reading_notes": [],
+      "tags": [
+        "OpenAI",
+        "Codex",
+        "微软",
+        "产品化",
+        "生物科技"
+      ],
+      "related_sources": [
+        "TLDR：Microsoft Scout",
+        "The Rundown AI：Microsoft Build"
+      ],
+      "deep_read_zh": ""
+    },
+    {
+      "id": "tldr-design-wix-canva-ai-design",
+      "title_zh": "TLDR Design：Wix 裁员、Canva 扩展工作流，AI 正重塑设计组织",
+      "title_original": "Wix AI Layoffs, Canva Editing Tools, Apple Watch OLED",
+      "source": "TLDR Design",
+      "from": "TLDR Design <dan@tldrnewsletter.com>",
+      "subject": "Wix AI Layoffs 🤖, Canva Editing Tools 🎨, Apple Watch OLED ⌚",
+      "url": "https://refer.tldr.tech/3bc21e1b/4",
+      "message_id": "<0100019e8d62b457-6b065534-0614-4438-9a75-59a083dadd7c-000000@email.amazonses.com>",
+      "published_at": "2026-06-03T12:08:36.000Z",
+      "importance": "medium",
+      "summary_zh": "TLDR Design 关注 AI 对设计工具和设计岗位的影响：Wix 裁员 1000 人，约占员工 20%，理由包括以色列谢克尔升值和 AI 能力快速演进；Canva 增强 Image to Video、移动预览、AI 演讲者备注、发布和营销集成，继续从设计工具扩展到端到端内容工作流。邮件还提到人类广告在短期销售和长期品牌健康上仍优于 AI 广告，以及产品发现中判断客户信号是否值得追踪的重要性。",
+      "why_important": "它展示了 AI 对设计行业的双重影响：一边提高内容生产能力，一边迫使公司调整成本结构和岗位配置。",
+      "impact": "设计工具会继续向工作流和投放环节扩张；设计团队则需要把判断力、品牌感和问题选择能力作为比单纯产图更重要的差异化。",
+      "key_points": [
+        "Wix 裁员 1000 人，并将 AI 能力演进列为原因之一。",
+        "Canva 增加视频、预览、AI 备注和营销发布能力。",
+        "研究显示人类创意在广告效果和搜索排名上仍有优势。"
+      ],
+      "reading_notes": [],
+      "tags": [
+        "设计工具",
+        "Canva",
+        "裁员",
+        "AI产品"
+      ],
+      "related_sources": [],
+      "deep_read_zh": ""
+    },
+    {
+      "id": "tldr-dev-agent-security-coding-models",
+      "title_zh": "TLDR Dev：agent 编程热潮下，安全与技术债问题同步上升",
+      "title_original": "Microsoft AI coding model, React Native Runtimes, GitHub token stealing",
+      "source": "TLDR Dev",
+      "from": "TLDR Dev <dan@tldrnewsletter.com>",
+      "subject": "Microsoft AI coding model 🚀, React Native Runtimes ⚡️, GitHub token stealing 🥷",
+      "url": "https://refer.tldr.tech/7e988322/3",
+      "message_id": "<0100019e8d2e2a4a-786dfaef-ff9c-42fe-8906-0cbf441b747e-000000@email.amazonses.com>",
+      "published_at": "2026-06-03T11:11:13.000Z",
+      "importance": "high",
+      "summary_zh": "TLDR Dev 这期覆盖开发者最关心的 agent 编程风险与工具进展。最紧急的是 VSCode 和 github.dev webview 安全模型漏洞，可通过恶意链接窃取 GitHub token；AI 方面包括如何为 RAG 索引文档图片、AI agent 带来的技术债和依赖风险、用 TDD 约束 agent 写代码、微软 MAI-Code-1-Flash 集成到 GitHub Copilot、React Native Runtimes 以及 GitHub Copilot 桌面 agent 应用。",
+      "why_important": "当 AI agent 进入开发链路，安全边界、依赖选择、测试纪律和多 agent 编排会比单个模型能力更影响真实生产力。",
+      "impact": "工程团队应把 agent 当作生产依赖管理：审查权限、隔离凭证、建立测试流程，并关注 IDE 与浏览器型开发工具的攻击面。",
+      "key_points": [
+        "VSCode 和 github.dev 漏洞可被用于窃取 GitHub token。",
+        "AI agent 会引入依赖、幻觉包和安全技术债。",
+        "MAI-Code-1-Flash 已进入 GitHub Copilot for VS Code。"
+      ],
+      "reading_notes": [],
+      "tags": [
+        "开发者工具",
+        "安全",
+        "agent",
+        "RAG",
+        "Copilot"
+      ],
+      "related_sources": [
+        "AINews：MAI-Code-1-Flash",
+        "Latent Space：Satya Build"
+      ],
+      "deep_read_zh": ""
+    },
+    {
+      "id": "tldr-microsoft-scout-autoresearch",
+      "title_zh": "TLDR：微软 Scout 与 PostHog 的 Autoresearch 展示 agent 的两条落地路径",
+      "title_original": "Microsoft Scout, AI-native roles, Autoresearch bug fixes",
+      "source": "TLDR",
+      "from": "TLDR <dan@tldrnewsletter.com>",
+      "subject": "Microsoft Scout 🤖, AI-native roles 💼, Autoresearch bug fixes 👨‍💻",
+      "url": "https://refer.tldr.tech/f45b3ac9/",
+      "message_id": "<0100019e8d01a92b-88451599-41f1-4b27-bf82-8815145e07c4-000000@email.amazonses.com>",
+      "published_at": "2026-06-03T10:22:36.000Z",
+      "importance": "medium",
+      "summary_zh": "TLDR 这期主线是 agent 在企业和工程中的落地。微软 Scout 被描述为常驻执行助理，可在微软产品中自主处理会议冲突等任务，可能采用按使用量计费，并初期要求 GitHub Copilot 订阅；Project Solara 则面向运行 agent 而非传统 app 的设备。开发者部分最有价值的是 PostHog 用 AI agent 分析慢查询，发现 ClickHouse 查询引擎中存在三年的时间戳过滤问题，修复后基准查询扫描 granules 减少 62%，性能提升明显。",
+      "why_important": "这封邮件同时展示了横向平台型 agent 和内部工程自动化 agent：一个改造办公入口，一个改造软件维护流程。",
+      "impact": "企业可能开始用使用量而非席位订阅衡量 agent 成本；工程组织也会把生产日志、慢查询和代码库交给 agent 做持续诊断。",
+      "key_points": [
+        "Scout 是微软的常驻执行助理，定价可能基于使用量。",
+        "Project Solara 面向 agent-first 设备。",
+        "PostHog 用 agent 找到三年旧查询性能 bug。"
+      ],
+      "reading_notes": [],
+      "tags": [
+        "微软",
+        "agent",
+        "工程效率",
+        "数据库",
+        "企业AI"
+      ],
+      "related_sources": [
+        "The Rundown AI：Microsoft Build",
+        "AI Valley：Microsoft Scout"
+      ],
+      "deep_read_zh": ""
+    },
+    {
+      "id": "rundown-ai-microsoft-build-agent-stack",
+      "title_zh": "The Rundown AI：微软在 Build 展示全栈 agent 路线",
+      "title_original": "Microsoft paves its own AI way at Build",
+      "source": "www.therundown.ai",
+      "from": "The Rundown AI <news@daily.therundown.ai>",
+      "subject": "🏗️ Microsoft paves its own AI way at Build",
+      "url": "https://www.therundown.ai/p/microsoft-paves-its-own-ai-way-at-build?_bhlid=4eaa234680798ad3bdb45514b5705f029891f88c&jwt_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWJzY3JpYmVyX2lkIjoiN2JkYjcwNmYtNjc0ZC00NTAwLWIzMjAtN2VlMjRiM2ZhYzNjIiwicHVibGljYXRpb25faWQiOiI0ZDAzMzkwZC0yNDgxLTQyOTktYjk0OS1mZmQ4YjM4YjRjMzgiLCJhY2Nlc3NfdHlwZSI6InJlYWQtb25seSIsImV4cCI6MTc4MDY1Mzk3NSwiaXNzIjoiaHR0cHM6Ly9hcHAuYmVlaGlpdi5jb20iLCJpYXQiOjE3ODA0ODExNzV9.knSHvuv6UfKDI8l7ljTwcxtANEhZ7Q-8fw7iSC5dURM",
+      "message_id": "<n_a3W_ncTR2GUKX0LmoitA@geopod-ismtpd-8>",
+      "published_at": "2026-06-03T10:06:21.000Z",
+      "importance": "medium",
+      "summary_zh": "The Rundown AI 把 Microsoft Build 2026 解读为微软摆脱 OpenAI 影子、铺设自有 AI 道路的节点。邮件列出七个 MAI 模型、基于 OpenClaw 的 Scout 常驻 agent、Majorana 2 量子芯片、Project Solara agent-first 设备平台，以及 Surface RTX Spark Dev Box。它的角度比 AINews 更产品化：微软正在把 Windows 和 Microsoft 365 打造成 agent 控制层，并把模型、硬件、量子和企业软件放进同一个战略叙事。",
+      "why_important": "它清楚概括了微软 Build 的全栈策略：模型、agent、设备、开发硬件和量子计算同时推进。",
+      "impact": "对 AI builder 来说，微软的 agent 平台会影响应用入口、身份权限、硬件形态和企业分发路径；对竞争者来说，单点工具更难与平台级组合抗衡。",
+      "key_points": [
+        "微软发布七个 MAI 模型，并通过 Foundry 提供访问。",
+        "Scout 在 Teams 中运行，可主动安排会议和准备材料。",
+        "Project Solara 预览了徽章和桌面伴侣等 agent-first 硬件概念。"
+      ],
+      "reading_notes": [],
+      "tags": [
+        "微软",
+        "agent",
+        "硬件",
+        "平台",
+        "量子"
+      ],
+      "related_sources": [
+        "AINews：Microsoft Build MAI models",
+        "TLDR：Microsoft Scout",
+        "Latent Space：Satya Nadella"
+      ],
+      "deep_read_zh": ""
+    }
+  ],
+  "skipped": [
+    {
+      "message_id": "<0100019e8da71809-bf6e28d1-3caf-4c1c-a3ef-166052045ab0-000000@email.amazonses.com>",
+      "subject": "Codex Sites 💻, Microsoft models 🤖, Anthropic cost backlash 💸",
+      "from": "TLDR AI <dan@tldrnewsletter.com>",
+      "reason": "system"
+    },
+    {
+      "message_id": "<Xr2-DDOWQO2DmDL93izZHQ@geopod-ismtpd-19>",
+      "subject": "😺 New Codex, Copilot, Hermes, Microst Build 2026 AI",
+      "from": "The Neuron <theneuron@newsletter.theneurondaily.com>",
+      "reason": "system"
+    }
+  ],
+  "notes": "今日精读选择 AINews 的 Microsoft Build / MAI 模型家族，因为同一天多封 newsletter 都围绕微软 Build、Scout、MAI 模型和 agent-first 平台展开，而 AINews 提供了最强的技术增量和模型战略解读。AI Valley、TLDR、The Rundown AI 与 Latent Space Satya 访谈均涉及微软 Build，但角度分别偏产品新闻、企业应用、全栈平台和高层战略，因此保留为独立单篇总结。邮件中的赞助、广告、招聘和工具推广只在相关时被压缩处理，没有单独列 item。"
+}
