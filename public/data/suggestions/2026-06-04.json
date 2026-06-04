@@ -1,0 +1,148 @@
+{
+  "date": "2026-06-04",
+  "items": [
+    {
+      "id": "2026-06-04-1",
+      "title": "Agent 不火了，后市场火了",
+      "angle": "从搜索热词降温和基础设施暴涨的反差切入：市场不是不要 agent，而是开始为二阶痛点付费。",
+      "opening": "Google Trends 里，\"ai agent\" 7 日下跌 7.2%，但 headroom 却上涨 63.5%。这不是 agent 退潮，而是用户已经过了尝鲜期：现在他们要省 token、读代码、控权限、少说废话。",
+      "story_hook": {
+        "challenge": "泛 agent 叙事降温，但真实使用中的上下文、成本和可靠性问题集中爆发。",
+        "twist": "最值得做的可能不是下一个 agent，而是让已有 agent 更便宜、更懂项目、更可控的零件。"
+      },
+      "takeaway": "开发者应该检查自己的 agent 工作流瓶颈：日志压缩、代码图谱、上下文预算和私有执行环境，比再套一个聊天壳更可能产生付费。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Peter Steinberger：别只造东西，去造那个能造东西的东西",
+          "url": "https://x.com/steipete/status/2062390654022332691"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Google Trends：headroom +63.5%，ai agent -7.2%",
+          "url": "https://trends.google.com/trends/explore?q=headroom&date=now+7-d"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub：chopratejas/headroom 本周新增 6,245 stars",
+          "url": "https://github.com/chopratejas/headroom"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-04-2",
+      "title": "企业不买软件，买智能",
+      "angle": "从 Aaron Levie 的价格判断切入：AI 正在把 SaaS 从按席位收费推向按智能密度收费。",
+      "opening": "过去企业给每人每月软件付 10 到 50 美元，现在却愿意为 AI token 付数百甚至数千美元。表面看是成本失控，实质是软件价格锚变了：企业真正买的不是界面，而是可调用的判断力。",
+      "story_hook": {
+        "challenge": "AI 用量越大，CFO 越想设限，但业务团队越依赖模型完成调研、销售、分析和代码任务。",
+        "twist": "账单混乱本身会变成新机会，谁能解释、路由和优化 AI 成本，谁就站在新预算入口上。"
+      },
+      "takeaway": "AI 产品定价不要只复制 SaaS seat 模型，可以围绕 token 预算、任务结果、账单对账、用量治理和企业权限设计收费。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Aaron Levie：企业愿为 AI token 付数百甚至数千美元",
+          "url": "https://x.com/levie/status/2062280745889222937"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Indie Hackers：EvoLink 因多家 AI provider 账单难对齐而诞生",
+          "url": "https://www.indiehackers.com/post/we-were-using-ai-from-4-different-providers-and-could-not-reconcile-the-bill-so-we-built-evolink-3970022ecb"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Reddit/Indie 讨论：Uber 每个 AI 工具有 $1,500/month 上限",
+          "url": "https://www.indiehackers.com/post/we-were-using-ai-from-4-different-providers-and-could-not-reconcile-the-bill-so-we-built-evolink-3970022ecb"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-04-3",
+      "title": "Codex 要上主屏了",
+      "angle": "从 ChatGPT 默认入口争夺切入：对 builder 来说，聊天窗口正在让位给能改文件、跑任务、动表格的执行界面。",
+      "opening": "Peter Yang 想把 ChatGPT App 的默认入口改成 Codex。这个小愿望背后是一场入口迁移：AI builder 打开的第一屏，可能不再是聊天，而是能直接碰代码、表格和本地环境的工作台。",
+      "story_hook": {
+        "challenge": "Codex 正在变成 builder 主入口，但同一天也出现连续可靠性事故。",
+        "twist": "越像操作系统的工具，越不能只拼模型能力，稳定性、额度、权限和运行边界会变成核心体验。"
+      },
+      "takeaway": "做 coding agent 产品时，别只优化补全效果，要把可靠性告警、任务恢复、额度管理和私有运行环境当成一等功能。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Peter Yang：想把 ChatGPT App 默认入口改成 Codex",
+          "url": "https://x.com/petergyang/status/2062327484499317124"
+        },
+        {
+          "tag": "builders",
+          "ref": "Thibault Sottiaux：Codex 24 小时内三起可靠性事故，付费额度已重置",
+          "url": "https://x.com/thsottiaux/status/2062329981548802523"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt：Boxes.dev 把 Claude Code 和 Codex 放进用户自己的云环境",
+          "url": "https://www.producthunt.com/products/boxes-dev"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-04-4",
+      "title": "BI 被 Claude 吃掉 95%",
+      "angle": "从 Anthropic 数据团队的 95% 自动化切入：AI 分析真正的门槛不是会写 SQL，而是工程化验证。",
+      "opening": "Anthropic 数据团队已经用 Claude 自动化了 95% 的业务分析查询。这个数字最吓人的地方不在“AI 会分析”，而在他们把 eval、消融和线上验证接进了 BI 流程。",
+      "story_hook": {
+        "challenge": "业务分析一旦交给模型，最大风险不是答案慢，而是答案看起来合理但实际错了。",
+        "twist": "真正能替代 BI 工单的不是更会聊天的模型，而是一套能持续验证分析质量的工程系统。"
+      },
+      "takeaway": "团队做 AI 分析助手时，应先设计 eval 集、权限边界、查询审计和线上抽检，而不是直接让模型连数仓裸跑。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Cat Wu：Anthropic 数据团队用 Claude 自动化 95% 业务分析查询",
+          "url": "https://x.com/_catwu/status/2062408623565984209"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt：Walrus Memory 做跨应用与跨会话记忆",
+          "url": "https://www.producthunt.com/products/walrus-memory"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub：supermemoryai/supermemory 本周新增 2,260 stars",
+          "url": "https://github.com/supermemoryai/supermemory"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-04-5",
+      "title": "48 小时上架不是神话",
+      "angle": "从 Amjad 的 48 小时 App Store 速度切入：AI builder 的竞争力正在从创意本身转向发布流水线。",
+      "opening": "Amjad Masad 说，48 小时把一个 App 送进 App Store，速度就是竞争力。但今天的 pulse 也给了另一半答案：真正能稳定提速的，不是熬夜，而是 agent 运行环境、模板、上下文和部署链路。",
+      "story_hook": {
+        "challenge": "大家都能用 AI 写代码后，单次生成速度不再稀缺，持续交付速度才稀缺。",
+        "twist": "最快的 builder 不是 prompt 写得最花的人，而是把构建、测试、部署、上架和反馈做成流水线的人。"
+      },
+      "takeaway": "独立开发者可以把周末项目拆成可复用发布栈：脚手架、私有 agent 环境、自动测试、商店素材和上线检查表。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Amjad Masad：48 小时把一个 App 送进 App Store",
+          "url": "https://x.com/amasad/status/2062369124609892655"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt：AppWizzy 把私有 VM 与 Codex 绑定成生产应用构建环境",
+          "url": "https://www.producthunt.com/products/appwizzy"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt：Keen Code 是上下文效率更高的 CLI coding agent",
+          "url": "https://www.producthunt.com/products/keen-code-a-cli-coding-agent"
+        }
+      ]
+    }
+  ],
+  "notes": "今日主线很清晰：不要写泛 AI agent 热文，优先写 agent 后市场、Codex 入口迁移、企业 AI 预算和工程化验证。独立开发者素材偏少，但基础设施信号足够强。",
+  "generated_at": "2026-06-04T09:21:11+00:00",
+  "model": "gpt-5.5"
+}
