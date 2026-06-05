@@ -1,0 +1,472 @@
+{
+  "date": "2026-06-05",
+  "generated_at": "2026-06-05T09:12:01+00:00",
+  "count": 31,
+  "items": [
+    {
+      "id": "ccbfd8c4d9",
+      "date": "2026-06-05",
+      "source": "x",
+      "author": "Garry Tan",
+      "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "title": "",
+      "summary_en": "Two YC decacorns in one day and one of them is building commercial fusion. Polaris hit 150 million degrees C, first privately funded machine to do it. This is the abundance future, built by people who actually ship. https://t.co/calTVslNEw",
+      "summary_zh": "YC 一天跑出两个十角兽，其中一个在做商业核聚变：Polaris 达到 1.5 亿摄氏度，成为首台做到这一点的私人资助机器。所谓丰裕未来，不是喊口号，是能交付的人硬造出来的。",
+      "url": "https://x.com/garrytan/status/2062763109849411834",
+      "posted_at": "2026-06-05T05:07:04.000Z",
+      "tags": [
+        "@garrytan"
+      ]
+    },
+    {
+      "id": "5a0805c4d7",
+      "date": "2026-06-05",
+      "source": "x",
+      "author": "Garry Tan",
+      "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "title": "",
+      "summary_en": "So close to product market fit is still not product market fit https://t.co/Pmz5OH1xNV",
+      "summary_zh": "离 PMF 只差一步，也还是没 PMF；市场不会奖励“差不多”。",
+      "url": "https://x.com/garrytan/status/2062761266083754088",
+      "posted_at": "2026-06-05T04:59:44.000Z",
+      "tags": [
+        "@garrytan"
+      ]
+    },
+    {
+      "id": "a73a17277c",
+      "date": "2026-06-05",
+      "source": "x",
+      "author": "Peter Yang",
+      "bio": "Practical AI tutorials and interviews for busy people | Join 140K+ readers at https://t.co/XYKTmGVH14 | Product at Roblox",
+      "title": "",
+      "summary_en": "lol it's on now https://t.co/FUhgGF2Z3d",
+      "summary_zh": "",
+      "url": "https://x.com/petergyang/status/2062746231173255459",
+      "posted_at": "2026-06-05T04:00:00.000Z",
+      "tags": [
+        "@petergyang"
+      ]
+    },
+    {
+      "id": "5d68ef2267",
+      "date": "2026-06-05",
+      "source": "x",
+      "author": "Peter Yang",
+      "bio": "Practical AI tutorials and interviews for busy people | Join 140K+ readers at https://t.co/XYKTmGVH14 | Product at Roblox",
+      "title": "",
+      "summary_en": "Also as great as Codex is (and I'm really starting to love it) the frontend design still leaves alot to be desired. \n\nI have a /slides skill and you can guess which one Codex made vs. Claude.\n\nYes I know I can make an image with ChatGPT first and then tell Codex to build it but Claude can one shot great looking HTML slides.\n\nCodex needs to fix this imo it's often a novice's first impression of a coding or knowledge work tool.",
+      "summary_zh": "Codex 越用越顺手，但前端审美依然拉胯：同样做 HTML slides，一眼就能看出哪份是 Codex、哪份是 Claude。Claude 能一次成型，Codex 还得绕一圈靠 ChatGPT 出图，这块必须补课，因为它往往决定新手对工具的第一印象。",
+      "url": "https://x.com/petergyang/status/2062743491365544361",
+      "posted_at": "2026-06-05T03:49:06.000Z",
+      "tags": [
+        "@petergyang"
+      ]
+    },
+    {
+      "id": "27b667d648",
+      "date": "2026-06-05",
+      "source": "x",
+      "author": "Peter Yang",
+      "bio": "Practical AI tutorials and interviews for busy people | Join 140K+ readers at https://t.co/XYKTmGVH14 | Product at Roblox",
+      "title": "",
+      "summary_en": "I spent the whole day today setting up integrations and skills in Codex for my top creator workflows.\n\nNow I'm convinced that you can save at least 50% of your time on any type of knowledge work if you just set up the system upfront.\n\nNote that all my workflows have human checkpoints along the way so I can apply my \"taste.\"\n\nAnyway, it feels extremely liberating to have all this set up. If you want to do the same, just follow these three steps:\n\n1. Reflect on your past week:\n- What work did you spend the most time on?\n- What work was the most repetitive?\n\nPick your most painful, manual workflow to start.\n\n2. List out every single step of that manual workflow. Be very detail oriented.\n\n3. Open Codex (or Claude Code) and paste the list of steps from 2 and ask it \"What integrations and skills can I build to streamline this with your help?\"\n\nAI will guide you the rest of the way.",
+      "summary_zh": "把 Codex 集成和技能先搭好，知识工作至少能省一半时间，关键不是全自动，而是在流程里保留人工“品味”检查点。先找出最痛、最重复的手工流程，拆成细步骤，再让 Codex/Claude Code 反推该做哪些集成和技能。",
+      "url": "https://x.com/petergyang/status/2062740262338929110",
+      "posted_at": "2026-06-05T03:36:17.000Z",
+      "tags": [
+        "@petergyang"
+      ]
+    },
+    {
+      "id": "690e4a7950",
+      "date": "2026-06-05",
+      "source": "x",
+      "author": "Thibault Sottiaux",
+      "bio": "Codex & ChatGPT @OpenAI",
+      "title": "",
+      "summary_en": "You can use codex within your own programs using the Python SDK. It's awesome. Built by @ah20im and friends\n\n```\npip install openai-codex\n```\n\nhttps://t.co/GjQVEPwtkF",
+      "summary_zh": "Codex 不只是命令行工具了，可以用 Python SDK 直接嵌进你自己的程序里：`pip install openai-codex`，@ah20im 他们把这件事做出来了。",
+      "url": "https://x.com/thsottiaux/status/2062734215494664697",
+      "posted_at": "2026-06-05T03:12:15.000Z",
+      "tags": [
+        "@thsottiaux"
+      ]
+    },
+    {
+      "id": "53eb081af2",
+      "date": "2026-06-05",
+      "source": "x",
+      "author": "Aaron Levie",
+      "bio": "ceo @box - your business lives in content. unleash it with AI",
+      "title": "",
+      "summary_en": "Good thought provoking post from Anthropic. I think this paragraph points to the key element of the optimistic scenario of AI:\n\n“There has been an explosion of new ideas, initiatives, tools, and simulations, as a result of Anthropic employees working with highly capable models—far more than we have the capacity to pursue. The rate at which organizations can spot and fix these bottlenecks may be a skill that improves over time, and it may become the most important skill for any organization.”\n\nAI lowers the barrier dramatically to allowing us to do more. As a result of that, we have far more ideas than we can pursue, and for the ones that we want to pursue we’re ultimately limited by our ability to go take on the surrounding work to execute those ideas. There’s almost no amount of AI progress that can happen where that goes away.\n\nAI is going to let us build much more software, launch more marketing campaigns, research more drugs, and so on. All of this work, even when augmented by agents, still ultimately requires people to manage.",
+      "summary_zh": "AI 乐观叙事的关键不是“想法更多”，而是 AI 会把想法、工具和试验的产量拉爆，组织真正的稀缺能力变成发现瓶颈、清掉瓶颈、把事做完。模型再强，也不会自动抹平执行：更多软件、营销和药物研发，最后还是要人管理和收尾。",
+      "url": "https://x.com/levie/status/2062728257359790292",
+      "posted_at": "2026-06-05T02:48:34.000Z",
+      "tags": [
+        "@levie"
+      ]
+    },
+    {
+      "id": "5b03ccdba8",
+      "date": "2026-06-05",
+      "source": "x",
+      "author": "Swyx",
+      "bio": "achieve ambition with intentionality, intensity, integrity & insanity.  affiliations: - @dxtipshq  - @cognition - @temporalio - @aidotengineer - @latentspacepod",
+      "title": "",
+      "summary_en": "ibid https://t.co/eKasZ0D6Q1",
+      "summary_zh": "",
+      "url": "https://x.com/swyx/status/2062689862445379983",
+      "posted_at": "2026-06-05T00:16:00.000Z",
+      "tags": [
+        "@swyx"
+      ]
+    },
+    {
+      "id": "25f046c410",
+      "date": "2026-06-05",
+      "source": "x",
+      "author": "Josh Woodward",
+      "bio": "VP, @Google @GoogleLabs @GeminiApp @GoogleAIStudio",
+      "title": "",
+      "summary_en": "Love this Gemini feature on my macOS app! https://t.co/NOa6NhnxOT",
+      "summary_zh": "他在 macOS 应用里用到了 Gemini 的一个功能，评价很直接：喜欢。推文没解释细节，只是在晒一个足够让他买账的体验。",
+      "url": "https://x.com/joshwoodward/status/2062667951485108354",
+      "posted_at": "2026-06-04T22:48:56.000Z",
+      "tags": [
+        "@joshwoodward"
+      ]
+    },
+    {
+      "id": "8d61824877",
+      "date": "2026-06-05",
+      "source": "x",
+      "author": "Sam Altman",
+      "bio": "AI is cool i guess",
+      "title": "",
+      "summary_en": "man the early days of the internet were so special",
+      "summary_zh": "互联网早期确实有种不可复制的特殊气味。粗糙、自由、还没被平台驯化。",
+      "url": "https://x.com/sama/status/2062661191969972645",
+      "posted_at": "2026-06-04T22:22:05.000Z",
+      "tags": [
+        "@sama"
+      ]
+    },
+    {
+      "id": "0f56dbeed8",
+      "date": "2026-06-05",
+      "source": "x",
+      "author": "Sam Altman",
+      "bio": "AI is cool i guess",
+      "title": "",
+      "summary_en": "build and publish web apps with chatgpt!\n\ni really wish i had this when i was a kid, but i do miss hypercard. https://t.co/6wN6SOiU27",
+      "summary_zh": "ChatGPT 现在可以直接构建并发布 Web 应用，这就是小时候梦寐以求的造物工具。只是再强的新工具，也让人怀念 HyperCard 那种原始但自由的味道。",
+      "url": "https://x.com/sama/status/2062661071761211561",
+      "posted_at": "2026-06-04T22:21:36.000Z",
+      "tags": [
+        "@sama"
+      ]
+    },
+    {
+      "id": "f500800ff4",
+      "date": "2026-06-05",
+      "source": "x",
+      "author": "Sam Altman",
+      "bio": "AI is cool i guess",
+      "title": "",
+      "summary_en": "big upgrade to chatgpt memory rolling out today! https://t.co/ta7L1M6GDO",
+      "summary_zh": "ChatGPT 记忆功能今天开始大升级推送，核心是让它更会记住你。",
+      "url": "https://x.com/sama/status/2062660086787613116",
+      "posted_at": "2026-06-04T22:17:41.000Z",
+      "tags": [
+        "@sama"
+      ]
+    },
+    {
+      "id": "d8af6f320a",
+      "date": "2026-06-05",
+      "source": "x",
+      "author": "Nikunj Kothari",
+      "bio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
+      "title": "",
+      "summary_en": "Introducing the Nock skill (powered by @meetgranola) 👀\n\nSomeone recently asked me if I can be replaced by AI, and my ego initially said NO WAY.. \n\nThen, I thought about what's the best way to have the most accurate \"AI\" representation of me for these conversations.\n\nSo, I used @claudeai Code to pull >200 1:1 founder pitch meeting notes that were captured by Granola in the last couple of years. \n\nFocused all the notes to only things I asked. Distilled it further down to ~53 meetings where there was a lot of good discussion and debate.\n\nFinally, I took a few of my essays which describe the kind of founders that I love.\n\nUsing those, I used Claude Code again to build this skill called \"Nock\" that has some principles and a question bank that are grounded in real conversations. \n\nTo refine, I used this skill over 5-10 actual decks and conversations where we first had the skill output what it thinks and then we compared it against the real conversation. We kept improving it - till it felt like an accurate representation of me. \n\nSo, if you are a founder raising and want to see what I would think about your deck, try this out: nikunjk dot com / nock\n\nAnd, if you are a VC who wants to build your own Nock, we have that too: nikunjk dot com / buildnock",
+      "summary_zh": "他用 Claude Code 把过去几年 200 多场创始人 pitch 会议里自己问过的问题、争论和偏好蒸馏成一个叫 Nock 的 AI 分身，用真实对话反复校准到“像他本人”。\n\n创始人可以拿它预判自己的 deck 会被他怎么质疑，VC 也可以用同样方法训练自己的投资人分身。",
+      "url": "https://x.com/nikunj/status/2062659649732825549",
+      "posted_at": "2026-06-04T22:15:57.000Z",
+      "tags": [
+        "@nikunj"
+      ]
+    },
+    {
+      "id": "bc0e28223f",
+      "date": "2026-06-05",
+      "source": "x",
+      "author": "Cat Wu",
+      "bio": "claude code + cowork @anthropicai, prev: @dagster, @scale_ai",
+      "title": "",
+      "summary_en": "I'm hiring a PM for Claude Code, focused on model performance.\n\nIf you have experience writing agentic evals and want to integrate research ideas into our core products, I'd love to hear from you here: https://t.co/IKWlAr8tSb",
+      "summary_zh": "Claude Code 在招聚焦模型性能的 PM，核心要求是写过 agentic evals，并能把研究想法直接打进核心产品。",
+      "url": "https://x.com/_catwu/status/2062659533047259212",
+      "posted_at": "2026-06-04T22:15:29.000Z",
+      "tags": [
+        "@_catwu"
+      ]
+    },
+    {
+      "id": "78f5333f45",
+      "date": "2026-06-05",
+      "source": "x",
+      "author": "Aditya Agarwal",
+      "bio": "General Partner @SouthPkCommons, Co-Founder @Bevel_Health | Ex: Early Eng @facebook, CTO @Dropbox, Board @Flipkart | Optimist, Builder, Dad",
+      "title": "",
+      "summary_en": "A lot of roles will now have engineering infused into them.\n\nMarketing Engineer is a great example of this. https://t.co/f8E9O8GXgi",
+      "summary_zh": "很多岗位正在被工程能力重写，“营销工程师”就是最典型的信号。",
+      "url": "https://x.com/adityaag/status/2062655784127971565",
+      "posted_at": "2026-06-04T22:00:35.000Z",
+      "tags": [
+        "@adityaag"
+      ]
+    },
+    {
+      "id": "c659c66c9a",
+      "date": "2026-06-05",
+      "source": "x",
+      "author": "Thibault Sottiaux",
+      "bio": "Codex & ChatGPT @OpenAI",
+      "title": "",
+      "summary_en": "We're fixing a codex bug today that was causing us to undercount tokens being served to some Pro and Plus accounts by a small amount. This impacted &lt; 15% of accounts.\n\nNot the kind of bug you want us to fix, but didn't want to do this silently and thought you should know.",
+      "summary_zh": "OpenAI 今天在修一个 Codex bug：部分 Pro/Plus 账号拿到的 token 被少算了一点，影响不到 15% 用户。这不是用户会盼着他们修的 bug，但他们说不想偷偷改。",
+      "url": "https://x.com/thsottiaux/status/2062648326332539015",
+      "posted_at": "2026-06-04T21:30:57.000Z",
+      "tags": [
+        "@thsottiaux"
+      ]
+    },
+    {
+      "id": "c48a0b5e1c",
+      "date": "2026-06-05",
+      "source": "x",
+      "author": "Amjad Masad",
+      "bio": "ceo @replit. civilizationist",
+      "title": "",
+      "summary_en": "Prompt to shop: https://t.co/onfxeUYGxB",
+      "summary_zh": "购物入口正在从页面、货架和购物车塌缩成一句 prompt：用户说需求，AI 代理负责发现、比价、加购、结账。下一轮电商基础设施拼的不是谁更会推荐，而是谁能让代理花钱时有预算、权限、审计和刹车。",
+      "url": "https://x.com/amasad/status/2062646796804145517",
+      "posted_at": "2026-06-04T21:24:53.000Z",
+      "tags": [
+        "@amasad"
+      ]
+    },
+    {
+      "id": "661bf8849c",
+      "date": "2026-06-05",
+      "source": "x",
+      "author": "Dan Shipper",
+      "bio": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "title": "",
+      "summary_en": "@every @TrySpiral with your agent here: https://t.co/KvyOAlbWGI",
+      "summary_zh": "所有人都该把自己的 agent 拿去试 TrySpiral，别只围观。",
+      "url": "https://x.com/danshipper/status/2062628176908496989",
+      "posted_at": "2026-06-04T20:10:53.000Z",
+      "tags": [
+        "@danshipper"
+      ]
+    },
+    {
+      "id": "a059ea2cbb",
+      "date": "2026-06-05",
+      "source": "x",
+      "author": "Dan Shipper",
+      "bio": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "title": "",
+      "summary_en": "NEW:\n\nSpiral 4.0—a writing partner for you and your agent by @every\n\n-> Stylometry: we built a new Style Engine based on the principles of stylometry to extract you and your brand's voice and produce great writing every time, based on examples of your past work\n\n-> MCP and CLI: Spiral is now built to be used by your agent like Codex, Claude Code, OpenClaw and more so you can get great writing automatically\n\nwe use it every day internally to write landing pages, tweets, podcasts, marketing emails and more and to make sure it's ALL on-brand across our entire 30 person team @every",
+      "summary_zh": "Spiral 4.0 不是普通写作助手，而是给 Codex、Claude Code 等 agent 装上“品牌声纹”：用 stylometry 从历史作品里提取你的语气，然后自动写出不跑调的落地页、推文、邮件和播客文案。Every 已经把它用于 30 人团队的日常内容生产，目标很明确：所有对外文字都必须像同一个品牌说出来的。",
+      "url": "https://x.com/danshipper/status/2062628079869005876",
+      "posted_at": "2026-06-04T20:10:30.000Z",
+      "tags": [
+        "@danshipper"
+      ]
+    },
+    {
+      "id": "fe6dfb934c",
+      "date": "2026-06-05",
+      "source": "x",
+      "author": "Swyx",
+      "bio": "achieve ambition with intentionality, intensity, integrity & insanity.  affiliations: - @dxtipshq  - @cognition - @temporalio - @aidotengineer - @latentspacepod",
+      "title": "",
+      "summary_en": "about time that the leading database company born in Singapore actually had Singapore investors take it seriously! https://t.co/UohEPZEUWH https://t.co/Gp9vO8mC7Q",
+      "summary_zh": "一家诞生于新加坡的顶尖数据库公司，终于被新加坡投资人当回事了。早该如此。",
+      "url": "https://x.com/swyx/status/2062627150885450065",
+      "posted_at": "2026-06-04T20:06:49.000Z",
+      "tags": [
+        "@swyx"
+      ]
+    },
+    {
+      "id": "66a28a8e8b",
+      "date": "2026-06-05",
+      "source": "x",
+      "author": "Swyx",
+      "bio": "achieve ambition with intentionality, intensity, integrity & insanity.  affiliations: - @dxtipshq  - @cognition - @temporalio - @aidotengineer - @latentspacepod",
+      "title": "",
+      "summary_en": "Finally! the first eval ship from cog!!!!!!!!!! 👼🏼\n\nTo contextualize: @METR_Evals cap out at ~16 hours. \n\nCog has private enterprise evals up to 100hrs, and is confident enough to put a financial guarantee on it 🤯\n\nMETR dataset: ML eng, GPU kernels, cybersecurity\n\n> \"METR (2026) used a combination of GPT-4o and GPT-5 to estimate the human-equivalent times from compressed Claude Code transcripts. These transcripts were collected from 7 METR technical staff on 34 sessions labeled on human ground truth\". rlog​ of 0.83\n\nCog dataset: real life java/typescript/python/c# feature dev, bugfixes, migrations\n\n> \"We collected a ground-truth dataset by asking Devin users to review recent representative sessions, and estimate how long each completed session would have taken without Devin. Our dataset consists of 258 sessions from 126 users across a diverse set of enterprise customers.\" rlog​ of 0.74 on held out set\n\nthis is pioneering real world evals work and part 1 of a broader frontier code evals drop that I'm really looking forward to writing up. huge kudos to @annarmitchell and @ryanbai1412 for leading the unglamorous last mile data collection!!",
+      "summary_zh": "Cog 终于交出第一份真实世界代码评测：METR 顶到约 16 小时，Cog 已经做到企业私有评测 100 小时级，还敢押上财务保证。它的数据不是刷题式 ML/GPU/安全任务，而是 Devin 在企业客户里的 Java/TypeScript/Python/C# 功能开发、修 bug 和迁移现场记录。",
+      "url": "https://x.com/swyx/status/2062611218196771017",
+      "posted_at": "2026-06-04T19:03:30.000Z",
+      "tags": [
+        "@swyx"
+      ]
+    },
+    {
+      "id": "2d00102bbc",
+      "date": "2026-06-05",
+      "source": "x",
+      "author": "Thariq",
+      "bio": "Claude Code @anthropicai.   prev YC W20, @southpkcommons, @medialab",
+      "title": "",
+      "summary_en": "An app can be a home-cooked meal (2020) \n\npersonal software was a bit early in 2020 but in 2026, it really can be as personal as a home cooked meal, or a handwritten letter\n\nhttps://t.co/vQLa9wxUzq",
+      "summary_zh": "2020 年说 app 能像家常饭一样私人还太早；到 2026 年，个人软件终于可以像一顿亲手做的饭、一封手写信那样，只为某个人而生。",
+      "url": "https://x.com/trq212/status/2062605395101884916",
+      "posted_at": "2026-06-04T18:40:22.000Z",
+      "tags": [
+        "@trq212"
+      ]
+    },
+    {
+      "id": "ef3c40cc68",
+      "date": "2026-06-05",
+      "source": "x",
+      "author": "Matt Turck",
+      "bio": "VC at @FirstMarkCap.  Host: MAD Podcast; Organizer: Data Driven NYC, Author: MAD Landscape.",
+      "title": "",
+      "summary_en": "This great conversation with @danintheory of @OpenAI  is also available on Spotify, Apple Podcasts and here on YouTube:\n\nhttps://t.co/0QNdUm8dVj",
+      "summary_zh": "和 OpenAI 的 @danintheory 这场对谈不只在 X 上刷得到，Spotify、Apple Podcasts 和 YouTube 都已经上线。",
+      "url": "https://x.com/mattturck/status/2062587004261748887",
+      "posted_at": "2026-06-04T17:27:17.000Z",
+      "tags": [
+        "@mattturck"
+      ]
+    },
+    {
+      "id": "f1cd4166ed",
+      "date": "2026-06-05",
+      "source": "x",
+      "author": "Matt Turck",
+      "bio": "VC at @FirstMarkCap.  Host: MAD Podcast; Organizer: Data Driven NYC, Author: MAD Landscape.",
+      "title": "",
+      "summary_en": "Why AI Can Now Make Discoveries - my conversation with @danintheory, Lead of the Foundations of Reinforcement Learning team at @OpenAI \n\n00:00 Intro: AI's wild week in mathematics\n\n01:21 What OpenAI's Foundations of RL team does\n\n03:08 Dan's journey: from black holes and quantum gravity to frontier AI\n\n07:04 Are AI systems becoming useful for real science\n\n08:21 The AI math moment: Erdős, OpenAI, DeepMind, and Anthropic\n\n08:52 Why the OpenAI result was an act of exploration\n\n10:25 OpenAI vs. DeepMind: informal reasoning vs. formal proof\n\n12:13 RL 101: learning by doing, not just watching\n\n15:10 Why reinforcement learning works\n\n15:58 How RL breaks: sparse feedback and long-horizon tasks\n\n17:03 RLHF: how human feedback shaped early language models\n\n18:48 Move 37, self-play, and the search for novel strategies\n\n22:16 Explore vs. exploit in scientific discovery\n\n24:49 Why RL may now be \"the cake,\" not the cherry on top\n\n25:46 Why RL started working with large language models\n\n27:29 Is RL \"sucking supervision through a straw\"?\n\n28:47 Why language may be the grounding layer for intelligence\n\n31:46 A contrarian take on the Bitter Lesson\n\n32:41 What test-time compute actually is\n\n34:50 How RL gives models the ability to think\n\n35:40 Verifiable rewards, math, coding, and the messy real world\n\n38:00 What physics can teach us about AI\n\n42:08 Is there a thermodynamics of AI?\n\n43:08 From Erdős problems to Einstein-level AI\n\n45:16 Is AI already doing original science?\n\n45:51 How far are we from AI automating AI research\n\n47:41 Why Dan is excited about the future of science",
+      "summary_zh": "这期对话把 OpenAI 的数学进展讲成一个更大的拐点：AI 正从模仿人类答案，转向靠强化学习、搜索和可验证奖励自己探索。真正的问题已经不是 AI 会不会做题，而是 RL 是否正在成为智能的主体，把原创科学、自动化 AI 研究甚至“爱因斯坦级 AI”拉进现实议程。",
+      "url": "https://x.com/mattturck/status/2062587000201580808",
+      "posted_at": "2026-06-04T17:27:16.000Z",
+      "tags": [
+        "@mattturck"
+      ]
+    },
+    {
+      "id": "3806f47140",
+      "date": "2026-06-05",
+      "source": "x",
+      "author": "Alex Albert",
+      "bio": "Research @AnthropicAI. Opinions are my own!",
+      "title": "",
+      "summary_en": "We just published internal data on how much of Claude's development is already being done by Claude:\n- Over 80% of all code merged into our codebase is now written by Claude\n- It's been months since many researchers at Anthropic hand-wrote code\n- The typical Anthropic engineer ships 8x as much code as they did in 2024\n- On the most open-ended engineering tasks, Claude's success rate jumped from ~26% to 76% in 6 months\n- When research sessions went off-track, Claude proposed a better next step than the human took 64% of the time\n\nWe're not at recursive self-improvement yet, but it could come sooner than most expect. I highly recommend reading the full blog post.",
+      "summary_zh": "Claude 已经开始“写自己”：Anthropic 超过 80% 的合并代码由 Claude 生成，很多研究员几个月没亲手写代码，工程师产出比 2024 年暴涨 8 倍。开放式工程任务成功率半年从 26% 飙到 76%，研究跑偏时它 64% 的情况下比人类更会选下一步，递归自我改进还没到，但门已经开了。",
+      "url": "https://x.com/alexalbert__/status/2062580571214389510",
+      "posted_at": "2026-06-04T17:01:43.000Z",
+      "tags": [
+        "@alexalbert__"
+      ]
+    },
+    {
+      "id": "ca63b92f27",
+      "date": "2026-06-05",
+      "source": "x",
+      "author": "Claude",
+      "bio": "Claude is an AI assistant built by @anthropicai to be safe, accurate, and secure. Talk to Claude on https://t.co/ZhTwG8d1e5 or download the app.",
+      "title": "",
+      "summary_en": "From The Problem Solvers, our series featuring founders taking on hard problems with Claude: https://t.co/lXWwc2eHPe",
+      "summary_zh": "《The Problem Solvers》聚焦那些用 Claude 啃硬问题的创始人：少谈概念，多看谁真把问题解决了。",
+      "url": "https://x.com/claudeai/status/2062558335358927317",
+      "posted_at": "2026-06-04T15:33:22.000Z",
+      "tags": [
+        "@claudeai"
+      ]
+    },
+    {
+      "id": "a35e628493",
+      "date": "2026-06-05",
+      "source": "x",
+      "author": "Claude",
+      "bio": "Claude is an AI assistant built by @anthropicai to be safe, accurate, and secure. Talk to Claude on https://t.co/ZhTwG8d1e5 or download the app.",
+      "title": "",
+      "summary_en": "Anton Osika (@antonosika) is the co-founder and CEO of @lovable, where anyone can build software through conversation.\n\nHis working thesis: the most underrated moat in AI is trust, and earning it takes craft, care, and obsession. https://t.co/xxGDgonNzS",
+      "summary_zh": "Lovable CEO Anton Osika 的判断：AI 里最被低估的护城河不是模型，而是信任。信任不是喊出来的，是靠手艺、克制和近乎偏执的投入一点点磨出来的。",
+      "url": "https://x.com/claudeai/status/2062558332695556378",
+      "posted_at": "2026-06-04T15:33:21.000Z",
+      "tags": [
+        "@claudeai"
+      ]
+    },
+    {
+      "id": "7e750bd1a3",
+      "date": "2026-06-05",
+      "source": "x",
+      "author": "Thariq",
+      "bio": "Claude Code @anthropicai.   prev YC W20, @southpkcommons, @medialab",
+      "title": "",
+      "summary_en": "How dynamic workflows allow Claude Code to handle whole new types of tasks\n\nhttps://t.co/xdRfnaa43V",
+      "summary_zh": "动态工作流让 Claude Code 摆脱固定套路，开始接住过去处理不了的整类新任务。",
+      "url": "https://x.com/trq212/status/2062556889171517499",
+      "posted_at": "2026-06-04T15:27:37.000Z",
+      "tags": [
+        "@trq212"
+      ]
+    },
+    {
+      "id": "9c2b48e63f",
+      "date": "2026-06-05",
+      "source": "x",
+      "author": "Nikunj Kothari",
+      "bio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
+      "title": "",
+      "summary_en": "For a year now, I’ve been texting @toddsaunders every week asking him when he’s going to quit to build the future for the trades..\n\nAnd finally when I got the text, I knew we @FPVventures had to invest. A lot of “businessmen” and technologists treat this area as a lucrative business. \n\nVery few people have the empathy, trust and sheer love for this space. And that’s what will enable him, Sean and @DaltonMillsAI to win. \n\nIf you are in the NY area, and want to join this phenomenal group, please reach out!",
+      "summary_zh": "Todd Saunders 终于辞职下场做技工行业的未来，FPV 看到信号就投了。这个赛道不缺把它当肥肉的“商人”和技术人，稀缺的是对行业有共情、信任和热爱的人。",
+      "url": "https://x.com/nikunj/status/2062543215392428193",
+      "posted_at": "2026-06-04T14:33:17.000Z",
+      "tags": [
+        "@nikunj"
+      ]
+    },
+    {
+      "id": "214e25c54e",
+      "date": "2026-06-05",
+      "source": "x",
+      "author": "Guillermo Rauch",
+      "bio": "@vercel CEO",
+      "title": "",
+      "summary_en": "Congrats Void team!\n\nWe @vercel reaffirm our collaboration on an open platform for the web, with our investment in @nitrojsdev, open runtimes, and native support for Vite-based frameworks like Nuxt, Svelte, and TanStack Start 🫡 https://t.co/a6ZWOjPKPq",
+      "summary_zh": "Vercel 再次强调自己要做“开放 Web 平台”：投 Nitro、推开放运行时，并原生支持 Nuxt、Svelte、TanStack Start 等 Vite 框架。信号很直白：Vercel 不想只绑定 Next.js，而是要吃下更大的 Vite 生态。",
+      "url": "https://x.com/rauchg/status/2062535454130676193",
+      "posted_at": "2026-06-04T14:02:26.000Z",
+      "tags": [
+        "@rauchg"
+      ]
+    },
+    {
+      "id": "1ce905e3a7",
+      "date": "2026-06-05",
+      "source": "podcast",
+      "author": "The MAD Podcast with Matt Turck",
+      "bio": "",
+      "title": "OpenAI's Dan Roberts: Why AI Can Now Make Discoveries",
+      "summary_en": "Speaker 1 | 00:00 - 00:23\nOne of the things that CHAT GPT was able to do was assume it was false. When you go against the grain and do something contrarian like that, you really have to have strong conviction in what you're doing in order to persevere down a really long calculation path. I feel really excited that we will get to really answer a lot of fundamental questions in the field of science that that we care about with the aid or the models being the driving force. And so that's just really thrilling.\n\nSpeaker 2 | 00:23 - 01:03\nHi. I'm Matt Turk. Welcome to the Matt podcast. It's been yet another extraordinary last few days in AI with OpenAI, DeepMind, and Anthropic cracking some of the most famous long unsolved questions in mathematics known as the Erdosch problems, a moment many view as a stunning breakthrough and yet another signal that AI is moving from doing the work we ask of it to autonomously making deep science discoveries. To unpack the moment and the fundamental advances in model reasoning that make it possible, I'm excited to welcome Dan Roberts, a top AI researcher at OpenAI who comes from a deep background in theoretical physics and has a particular interest in the intersection of science and AI.\n\nSpeaker 2 | 01:03 - 01:20\nIn this conversation, we go deep on what reinforcement learning is, it's the most important paradigm in AI right now, and what's ahead for AI and science. Please enjoy my conversation with Dan Roberts. Hey, Excited to do this. Thanks for taking the time.\n\nSpeaker 1 | 01:20 - 01:21\nCourse. Very happy to be here.\n\nSpeaker 2 | 01:21 - 01:31\nYou are the lead of the foundations of reinforcement learning team at OpenAI. So what what does that mean? What does the name mean?\n\nSpeaker 1 | 01:31 - 02:01\nThe larger team that that we're on is ",
+      "summary_zh": "ChatGPT 的关键不是更会答题，而是敢先假设命题为假，沿着反直觉方向把漫长推演走到底。OpenAI、DeepMind、Anthropic 攻克厄尔德什问题只是信号：强化学习正在把 AI 从执行工具推向科学发现的发动机。",
+      "url": "https://www.youtube.com/watch?v=oWOz2htozfI",
+      "posted_at": "2026-06-04T12:30:00.000Z",
+      "tags": [
+        "podcast"
+      ]
+    }
+  ]
+}
