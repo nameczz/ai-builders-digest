@@ -1,0 +1,148 @@
+{
+  "date": "2026-06-05",
+  "items": [
+    {
+      "id": "2026-06-05-1",
+      "title": "Claude 正在写自己",
+      "angle": "从 Anthropic 的 80% 代码生成比例切入，讨论 AI 编程的竞争点正从写代码转向评测、上下文和工程责任。",
+      "opening": "Anthropic 超过 80% 的合并代码已经由 Claude 生成，工程师产出比 2024 年涨了 8 倍。听起来像递归自我改进的前夜，但真正吓人的不是它会写代码，而是公司开始需要一套新系统来判断它写得对不对。",
+      "story_hook": {
+        "challenge": "AI 写代码越来越快，但企业真正缺的是能证明它可靠、可审查、能接长任务的工程体系。",
+        "twist": "最有价值的产品可能不是下一个代码 agent，而是 agent 的评测、代码图谱、上下文和审计层。"
+      },
+      "takeaway": "开发者要把注意力从“哪个模型更会写”转到“团队如何记录、评测、复盘和约束 agent 的工程行为”。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Alex Albert 称 Anthropic 超过 80% 合并代码由 Claude 生成",
+          "url": "https://x.com/alexalbert__/status/2062580571214389510"
+        },
+        {
+          "tag": "builders",
+          "ref": "Swyx 提到 Cog 用真实企业代码任务做 100 小时级评测",
+          "url": "https://x.com/swyx/status/2062611218196771017"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub 开发者工具榜 ECC、Understand-Anything、compound-engineering-plugin",
+          "url": "https://github.com/affaan-m/ECC"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-05-2",
+      "title": "Agent 先别下单",
+      "angle": "从 AI 购物 agent 的权限、预算和审计问题切入，写 agent 进入浏览器和电商后最先爆发的不是体验，而是刹车系统。",
+      "opening": "购物入口正在从页面和购物车塌缩成一句 prompt：你说需求，agent 负责发现、比价、加购、结账。但只要它真的能花钱，问题就变了：谁给预算，谁看审计，谁负责它被网页骗了以后买错东西？",
+      "story_hook": {
+        "challenge": "agent 越能执行，越需要权限控制、安全防护和成本约束。",
+        "twist": "下一波电商基础设施可能不是推荐系统，而是给 agent 花钱时装上的预算、审计和刹车。"
+      },
+      "takeaway": "做 agent 产品时，不要只展示自动化流程，要优先设计权限边界、日志、回滚、风控和人工确认点。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Amjad Masad 谈购物入口塌缩成 prompt 与 agent 支付基础设施",
+          "url": "https://x.com/amasad/status/2062646796804145517"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt Agent Browser Shield 做浏览器 agent prompt injection 防护",
+          "url": "https://www.producthunt.com/products/agent-browser-shield"
+        },
+        {
+          "tag": "pulse",
+          "ref": "开发者讨论 $1,500 测试 LLM 能否攻破有漏洞应用",
+          "url": "https://kasra.blog/blog/i-spent-1500-seeing-if-llms-could-hack-my-app/"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-05-3",
+      "title": "AI 内容开始反 AI 味",
+      "angle": "用 Spiral 4.0 的品牌声纹和 stop slop 热度上升，写内容自动化从“能生成”进入“别跑调”的阶段。",
+      "opening": "MoneyPrinterTurbo 搜索热度跌了 71.3%，但 Every 还在把 agent 接进内容生产。差别在于，上一波卖的是自动生成，这一波卖的是别让 30 个人和一堆 agent 写出 30 种品牌人格。",
+      "story_hook": {
+        "challenge": "AI 内容生成很容易规模化，但规模化以后最先失控的是语气、可信度和品牌一致性。",
+        "twist": "真正能卖钱的内容 AI，可能不是更会写，而是更会不像 AI。"
+      },
+      "takeaway": "内容团队应该把历史好稿、禁用表达、品牌语气和人工品味检查沉淀成 workflow，而不是只换一个写作模型。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Dan Shipper 发布 Spiral 4.0，用 stylometry 给 agent 装上品牌声纹",
+          "url": "https://x.com/danshipper/status/2062628079869005876"
+        },
+        {
+          "tag": "builders",
+          "ref": "Peter Yang 提到 Codex/Claude 工作流里仍要保留人工品味检查点",
+          "url": "https://x.com/petergyang/status/2062740262338929110"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Google Trends stop slop 上升 90.3%，moneyprinterturbo 下跌 71.3%",
+          "url": "https://trends.google.com/trends/explore?q=stop+slop&date=now+7-d"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-05-4",
+      "title": "差一步 PMF 等于零",
+      "angle": "把 Garry Tan 的 PMF 判断和独立开发者收入反差放在一起，写 AI 产品不能只证明有人用，还要证明有人付钱。",
+      "opening": "200 多日活、发布 40 天、收入 0 美元；另一边，有人说 48 小时产品冲到 30K MRR。AI 产品的残酷不在于没人试，而在于试用、喜欢、愿意付钱，中间每一步都可能断掉。",
+      "story_hook": {
+        "challenge": "AI demo 太容易做出“差不多有用”的错觉，但市场不会奖励差不多。",
+        "twist": "PMF 不是用户夸产品聪明，而是用户愿意用预算、流程和习惯来给它让位置。"
+      },
+      "takeaway": "早期 AI 产品要尽快验证付费动作：定价锚定节省成本、替代任务或降低风险，而不是只追 DAU 和生成次数。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Garry Tan 称离 PMF 只差一步也还是没 PMF",
+          "url": "https://x.com/garrytan/status/2062761266083754088"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Indie Hackers：发布 40 天后 200+ 日活用户但 $0 收入",
+          "url": "https://www.indiehackers.com/post/40-days-after-launch-200-daily-active-users-but-0-revenue-2346836236"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt 上 Leni、Veltrix AI 等垂直 copilot",
+          "url": "https://www.producthunt.com/products/leni"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-05-5",
+      "title": "个人软件回来了",
+      "angle": "从 Sam Altman 怀念 HyperCard 和 ChatGPT 直接发布 Web 应用切入，写 AI 造物工具让软件从 SaaS 产品回到私人手工品。",
+      "opening": "Sam Altman 一边说 ChatGPT 已经能直接构建并发布 Web 应用，一边怀念 HyperCard 那种粗糙、自由、还没被平台驯化的味道。这个反差很有意思：最强的新工具，正在把软件带回最早的个人造物感。",
+      "story_hook": {
+        "challenge": "AI 让做软件变容易，但也可能把所有作品压成同一种模板化体验。",
+        "twist": "真正的新机会不是做更大的平台，而是做只为一个人、一段流程、一个小团队存在的私人软件。"
+      },
+      "takeaway": "builder 可以从个人高频流程出发，做小而完整的工具：本地语音控制、记忆层、文件转换、私人仪表盘，比泛泛的 SaaS 壳更值得试。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Sam Altman 称 ChatGPT 可以直接构建并发布 Web 应用",
+          "url": "https://x.com/sama/status/2062661071761211561"
+        },
+        {
+          "tag": "builders",
+          "ref": "Thariq 称 2026 年个人软件终于可以像手写信一样私人",
+          "url": "https://x.com/trq212/status/2062605395101884916"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt LocalClicky 做本地语音控制 Mac，Minimi 做 Claude 环境记忆",
+          "url": "https://www.producthunt.com/products/localclicky"
+        }
+      ]
+    }
+  ],
+  "notes": "今日主线不是模型发布，而是 agent 进入真实工作流后的成本、评测、安全、记忆和品味问题。适合写给开发者和 PM：少谈万能 agent，多谈如何让 agent 可控、可卖、可复盘。",
+  "generated_at": "2026-06-05T09:19:43+00:00",
+  "model": "gpt-5.5"
+}
