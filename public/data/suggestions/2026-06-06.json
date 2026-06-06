@@ -1,0 +1,148 @@
+{
+  "date": "2026-06-06",
+  "items": [
+    {
+      "id": "2026-06-06-1",
+      "title": "Agent 红利转向脏活",
+      "angle": "从 GitHub 暴涨项目看，AI 应用的瓶颈正在从模型能力转向输入治理、压缩和上下文管理。",
+      "opening": "今天最热的不是新模型，而是把 PDF、日志、代码和 RAG chunk 变干净的工具。markitdown 一周涨 16376 stars，headroom 涨 11993 stars，这比很多 Agent Demo 更说明问题。",
+      "story_hook": {
+        "challenge": "大家还在争哪个模型最强，但真正卡住 Agent 落地的是输入太脏、上下文太贵、资料进不了工作流。",
+        "twist": "最无聊的解析、压缩、转换工具，反而成了本周最强的开发者信号。"
+      },
+      "takeaway": "开发者该把机会从「做一个 AI 助手」改成「做 Agent 上游的输入治理工具」。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Thibault Sottiaux：记忆越强，提示词越短",
+          "url": "https://x.com/thsottiaux/status/2062966625733861752"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub Trending：microsoft/markitdown 一周新增 16376 stars",
+          "url": "https://github.com/microsoft/markitdown"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub Trending：chopratejas/headroom 一周新增 11993 stars",
+          "url": "https://github.com/chopratejas/headroom"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-06-2",
+      "title": "AI 还没替掉工程师",
+      "angle": "用 Aaron Levie 的判断反打自动化神话：最适合 AI 的编程场景都还需要人盯场，其他知识工作更不可能一键消失。",
+      "opening": "如果 AI 连编程都还没有完全自动化，人类白领被一夜替代的故事就该降温了。编程有海量训练数据、可测试结果、完整上下文，但 coding agent 仍然离不开工程师审查。",
+      "story_hook": {
+        "challenge": "市场一边把 Agent 包装成全自动劳动力，一边又发现最标准化的编程任务仍需要人类负责判断和收尾。",
+        "twist": "AI 最先改变的不是岗位是否存在，而是一个人能同时驾驭多少工作流。"
+      },
+      "takeaway": "团队评估 Agent 时，不要问能不能替人，而要问它能否把工程师的审查、测试、交付半径放大。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Aaron Levie：AI coding agents 仍离不开工程师盯场",
+          "url": "https://x.com/levie/status/2063055332545540096"
+        },
+        {
+          "tag": "builders",
+          "ref": "Peter Yang：Compound Engineering 帮非传统背景开发者 ship 代码",
+          "url": "https://x.com/petergyang/status/2062959766314582064"
+        },
+        {
+          "tag": "pulse",
+          "ref": "EveryInc/compound-engineering-plugin 一周新增 1933 stars",
+          "url": "https://github.com/EveryInc/compound-engineering-plugin"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-06-3",
+      "title": "AI 电商不是套壳聊天",
+      "angle": "从 Replit x Shopify、Manus Shopify Connector 到 Product Hunt 信号，讨论 AI 如何嵌进真实生意流程，而不是停在生成应用。",
+      "opening": "AI 编程平台正在往钱流里钻。Replit 和 Shopify 联手，Manus 也把 Shopify 建店和运营放进聊天入口，这不是又一个聊天框，而是 AI 直接接上电商经营动作。",
+      "story_hook": {
+        "challenge": "大多数 AI 应用还在展示生成能力，但商家真正关心的是上架、改图、写描述、看订单、跑活动能不能少犯错。",
+        "twist": "AI 电商的入口可能不是独立 SaaS，而是嵌在 Shopify 这种已有交易系统里的连接器。"
+      },
+      "takeaway": "做 AI 商业化产品时，优先找已有预算和高频操作的系统入口，把 AI 做成连接器和运营控制面。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Amjad Masad：Replit 和 Shopify 联手",
+          "url": "https://x.com/amasad/status/2063065480878063694"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt：Manus Shopify Connector",
+          "url": "https://www.producthunt.com/products/manus-shopify-connector"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt：SellerClaw 获得 138 条评论",
+          "url": "https://www.producthunt.com/products/sellerclaw"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-06-4",
+      "title": "Prompt 变短，产品变深",
+      "angle": "把 Swyx 的「把任务改写成问题」和 Peter Yang 的 skill 方法论连起来，写 AI 产品从 prompt 炫技进入可评测工作流。",
+      "opening": "很多人还在收藏神级提示词，但真正有效的 AI 使用方式正在反过来：少写 prompt，多写触发条件、样本、评测和记忆。Swyx 说很多时候末尾加个问号就够了，因为你要的不是盲目执行，而是让模型质疑方案。",
+      "story_hook": {
+        "challenge": "Prompt 工程看起来越复杂，越可能是在补产品和流程设计的洞。",
+        "twist": "下一代 AI 能力封装可能更像 npm 包：有触发条件、有测试、有版本迭代，而不是一段长提示词。"
+      },
+      "takeaway": "把团队里的高价值 prompt 改造成可复用 skill：补样本、定义 pass/fail、记录失败案例，并定期清理过期规则。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Swyx：把任务改写成问题，模型才会评估替代路径",
+          "url": "https://x.com/swyx/status/2063082950317486133"
+        },
+        {
+          "tag": "builders",
+          "ref": "Peter Yang：AI skill 需要样本、触发条件、评测和记忆",
+          "url": "https://x.com/petergyang/status/2062899832965255443"
+        },
+        {
+          "tag": "builders",
+          "ref": "Guillermo Rauch：Skills API 像 agent 能力扩展的 npm registry",
+          "url": "https://x.com/rauchg/status/2062951924677128455"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-06-5",
+      "title": "浏览器 Agent 先补安全",
+      "angle": "从 Claude Cowork 放量、Agent Browser Shield 和 prompt injection 防护看，Agent 走向重任务前必须先解决浏览安全和成本问题。",
+      "opening": "Claude Cowork 把一个月使用上限翻倍，明示用户该把更大的任务交给 Agent。但任务越大，风险也越大：浏览器里一次 prompt injection，可能比一次回答错误更贵。",
+      "story_hook": {
+        "challenge": "Agent 要跨账号研究、筛 inbox、起草回复，就必须进入浏览器和真实账户，这正是安全边界最薄的地方。",
+        "twist": "浏览器 Agent 的下一个卖点未必是更聪明，而是更会避坑、更省 token、更可控。"
+      },
+      "takeaway": "如果你在做 Agent 产品，尽早加入浏览器隔离、注入检测、权限确认和 token 成本可视化，否则很难进入真实工作流。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Boris Cherny：Cowork 适合跨账号研究、报告、筛 inbox、起草回复",
+          "url": "https://x.com/bcherny/status/2063028956211867837"
+        },
+        {
+          "tag": "builders",
+          "ref": "Claude：Cowork 对所有付费套餐开放并提升上限",
+          "url": "https://x.com/claudeai/status/2063018337567670285"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt：Agent Browser Shield 主打阻断 prompt injection、降低 token 成本",
+          "url": "https://www.producthunt.com/products/agent-browser-shield"
+        }
+      ]
+    }
+  ],
+  "notes": "今日主线清晰：少写模型发布，多写 Agent 落地前的基础设施，包括输入治理、skill 封装、浏览安全、连接器和人类审查边界。",
+  "generated_at": "2026-06-06T09:19:09+00:00",
+  "model": "gpt-5.5"
+}
