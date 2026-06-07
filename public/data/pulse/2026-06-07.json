@@ -1,0 +1,390 @@
+{
+  "date": "2026-06-07",
+  "top3": [
+    "今日最强信号不是新模型，而是 AI coding agent 的工具链正在从「会写代码」转向「会压缩上下文、管理记忆、组织技能」。",
+    "GitHub 周榜里 headroom、markitdown、supermemory、ECC、compound-engineering-plugin 同时爆发，说明 agent 基础设施仍是 builder 最值得切入的层。",
+    "Google Trends 显示「compound engineering plugin」上涨 +999.0%，「cursor alternative」上涨 +61.4%，用户正在主动寻找下一代开发环境与工作流替代品。"
+  ],
+  "intro": "今天的数据主线很清楚：AI agent 的底层工作流正在被重新拆分，token 压缩、文档解析、记忆、技能系统、浏览器安全和本地语音控制都在变成独立产品机会。与此同时，搜索热度里「cursor alternative」和「supermemory github」升温，说明开发者不只在追模型，也在找更稳定、更可控、更便宜的 agent 操作系统。",
+  "sections": [
+    {
+      "id": "discovery",
+      "title": "发现机会",
+      "blocks": [
+        {
+          "id": "indie-products",
+          "heading": "今天有哪些独立开发者的新产品？",
+          "summary_md": "Product Hunt 今天更像一组「agent 周边需求」样本，而不是传统 SaaS 榜单；原始数据未采集票数与评论数，所以这些产品的票数与评论数暂记为 0/0，不能把排序当作热度排名。值得看的是方向：[Agent Browser Shield](https://www.producthunt.com/products/agent-browser-shield) 票数 0、评论数 0，直接瞄准浏览器 agent 的 prompt injection 与 token 成本；[Recursi](https://www.producthunt.com/products/recursi-self-improving-vibe-coding-env) 票数 0、评论数 0，把「自改进 vibe coding 环境」作为卖点；[Minimi](https://www.producthunt.com/products/shram) 票数 0、评论数 0，则把 Claude 记忆做成 ambient memory。\n\n消费侧也有几个轻量入口：[LocalClicky](https://www.producthunt.com/products/localclicky) 票数 0、评论数 0，做本地语音控制 Mac；[Wave](https://www.producthunt.com/products/wave-16) 票数 0、评论数 0，强调本地或云端语音转文字；[Manus Shopify Connector](https://www.producthunt.com/products/manus-shopify-connector) 票数 0、评论数 0，把电商运营收进一个 chat 界面。今天值得关注的不是单个产品，而是「agent 能力被包装成具体工作流插件」这个模式。",
+          "items": [
+            {
+              "title": "Agent Browser Shield",
+              "url": "https://www.producthunt.com/products/agent-browser-shield",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "Recursi",
+              "url": "https://www.producthunt.com/products/recursi-self-improving-vibe-coding-env",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "Minimi",
+              "url": "https://www.producthunt.com/products/shram",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "LocalClicky",
+              "url": "https://www.producthunt.com/products/localclicky",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "独立开发者最容易切入的不是再做一个聊天框，而是把 agent 的一个痛点封成可安装、可替换的小工具。"
+        },
+        {
+          "id": "github-traction",
+          "heading": "GitHub 上哪些高增长开源项目还没有商业化？",
+          "summary_md": "GitHub 周榜最明显的机会是「agent 成本与上下文层」。[chopratejas/headroom](https://github.com/chopratejas/headroom) 本周新增 13308 stars、总星 16274，主张在工具输出、日志、文件和 RAG chunk 进入 LLM 前压缩 60-95% token；这不是锦上添花，而是 agent 产品毛利的基础设施。[microsoft/markitdown](https://github.com/microsoft/markitdown) 本周新增 15015 stars、总星 146738，说明「把 Office、PDF、文件统一转 Markdown」仍是 agent 输入层刚需。\n\n另一条线是 agent 组织结构：[revfactory/harness](https://github.com/revfactory/harness) 本周新增 2098 stars、总星 6332，用 meta-skill 设计领域 agent 团队；[supermemoryai/supermemory](https://github.com/supermemoryai/supermemory) 本周新增 2992 stars、总星 25912，做 AI 时代的 Memory API；[can1357/oh-my-pi](https://github.com/can1357/oh-my-pi) 本周新增 2318 stars、总星 10981，把终端 coding agent、LSP、浏览器和 subagents 打包。今天的商业化机会在「开发者愿意为 agent 的可靠性、记忆和输入清洗付费」。",
+          "items": [
+            {
+              "title": "chopratejas/headroom",
+              "url": "https://github.com/chopratejas/headroom",
+              "source": "GitHub",
+              "score": 13308
+            },
+            {
+              "title": "microsoft/markitdown",
+              "url": "https://github.com/microsoft/markitdown",
+              "source": "GitHub",
+              "score": 15015
+            },
+            {
+              "title": "supermemoryai/supermemory",
+              "url": "https://github.com/supermemoryai/supermemory",
+              "source": "GitHub",
+              "score": 2992
+            },
+            {
+              "title": "revfactory/harness",
+              "url": "https://github.com/revfactory/harness",
+              "source": "GitHub",
+              "score": 2098
+            }
+          ],
+          "takeaway": "agent 基础设施正在从开源项目变成可收费 API、proxy、MCP server 和团队工作流。"
+        }
+      ]
+    },
+    {
+      "id": "tech-stack",
+      "title": "技术选型",
+      "blocks": [
+        {
+          "id": "dev-tools",
+          "heading": "本周增长最快的开发者工具是什么？",
+          "summary_md": "本周开发者工具的增长榜几乎被 AI agent 工程化占满。[microsoft/markitdown](https://github.com/microsoft/markitdown) 本周新增 15015 stars，[chopratejas/headroom](https://github.com/chopratejas/headroom) 新增 13308 stars，[affaan-m/ECC](https://github.com/affaan-m/ECC) 新增 10351 stars，[Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) 新增 6085 stars。它们覆盖输入解析、token 压缩、agent 性能优化和输出品味控制，说明开发者的注意力已经从「模型选哪个」转移到「agent 工作流如何少犯错、少花钱、更像人」。\n\nProduct Hunt 侧也能看到同向产品：[Agent Browser Shield](https://www.producthunt.com/products/agent-browser-shield) 解决浏览器 agent 的注入和 token 问题，[Recursi](https://www.producthunt.com/products/recursi-self-improving-vibe-coding-env) 主打无 API 费的自改进 vibe coding，[Clarafy](https://www.producthunt.com/products/clarafy) 把凌乱输入自动润色。今天选型建议很明确：如果你在做 agent 产品，优先补齐文档解析、上下文压缩、记忆与安全边界，而不是急着换一个更大的模型。",
+          "items": [
+            {
+              "title": "microsoft/markitdown",
+              "url": "https://github.com/microsoft/markitdown",
+              "source": "GitHub",
+              "score": 15015
+            },
+            {
+              "title": "chopratejas/headroom",
+              "url": "https://github.com/chopratejas/headroom",
+              "source": "GitHub",
+              "score": 13308
+            },
+            {
+              "title": "affaan-m/ECC",
+              "url": "https://github.com/affaan-m/ECC",
+              "source": "GitHub",
+              "score": 10351
+            },
+            {
+              "title": "Leonxlnx/taste-skill",
+              "url": "https://github.com/Leonxlnx/taste-skill",
+              "source": "GitHub",
+              "score": 6085
+            }
+          ],
+          "takeaway": "2026 年的 agent 竞争不只拼模型，而是拼上下文工程、输入工程和执行工程。"
+        },
+        {
+          "id": "hf-models",
+          "heading": "HuggingFace 上最热的模型能做什么消费级产品？",
+          "summary_md": "HuggingFace 今天的模型热度指向「多模态消费工具」而不是纯聊天。[nvidia/LocateAnything-3B](https://huggingface.co/nvidia/LocateAnything-3B) trending score 883、下载 115556、likes 1481，适合做图片内物体定位、截图问答、视觉搜索和电商质检；对应 Space [nvidia/LocateAnything](https://huggingface.co/spaces/nvidia/LocateAnything) trending score 112，也说明 demo 层有真实兴趣。[google/gemma-4-12B-it](https://huggingface.co/google/gemma-4-12B-it) trending score 595、下载 434969，和 [unsloth/gemma-4-12b-it-GGUF](https://huggingface.co/unsloth/gemma-4-12b-it-GGUF) 下载 568158 组合起来看，本地可跑的多模态助手仍有空间。\n\n生成侧，[ideogram-ai/ideogram-4-fp8](https://huggingface.co/ideogram-ai/ideogram-4-fp8) trending score 306，[bosonai/higgs-audio-v3-tts-4b](https://huggingface.co/bosonai/higgs-audio-v3-tts-4b) trending score 173，[nvidia/nemotron-3.5-asr-streaming-0.6b](https://huggingface.co/nvidia/nemotron-3.5-asr-streaming-0.6b) trending score 191，分别对应图片、TTS 和实时 ASR。更现实的产品方向是把它们组合成「本地会议记录 + 自动配图 + 多语言播客」这类端到端工具，而不是单独卖一个模型壳。",
+          "items": [
+            {
+              "title": "nvidia/LocateAnything-3B",
+              "url": "https://huggingface.co/nvidia/LocateAnything-3B",
+              "source": "HuggingFace",
+              "score": 883
+            },
+            {
+              "title": "google/gemma-4-12B-it",
+              "url": "https://huggingface.co/google/gemma-4-12B-it",
+              "source": "HuggingFace",
+              "score": 595
+            },
+            {
+              "title": "ideogram-ai/ideogram-4-fp8",
+              "url": "https://huggingface.co/ideogram-ai/ideogram-4-fp8",
+              "source": "HuggingFace",
+              "score": 306
+            },
+            {
+              "title": "nvidia/nemotron-3.5-asr-streaming-0.6b",
+              "url": "https://huggingface.co/nvidia/nemotron-3.5-asr-streaming-0.6b",
+              "source": "HuggingFace",
+              "score": 191
+            }
+          ],
+          "takeaway": "消费级 AI 产品的机会在多模态链路组合，不在把单个热门模型换皮上线。"
+        }
+      ]
+    },
+    {
+      "id": "competition",
+      "title": "竞争情报",
+      "blocks": [
+        {
+          "id": "migrations",
+          "heading": "有没有「XX is dead」或迁移类文章？",
+          "summary_md": "HN 今天没有可用数据，但 Google Trends 给了迁移意图的替代信号：[cursor alternative](https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d) 上涨 +61.4%，关联 rising 里出现「windsurf ai」和「cursor alternatives」。这类搜索通常不是泛兴趣，而是用户已经在现有工具里遇到价格、稳定性、限额、工作流或团队协作问题，开始主动比较替代品。\n\nGitHub 侧也能解释这个需求：[anthropics/claude-code](https://github.com/anthropics/claude-code) 本周新增 2527 stars、总星 130755，[can1357/oh-my-pi](https://github.com/can1357/oh-my-pi) 新增 2318 stars，[openai/plugins](https://github.com/openai/plugins) 周榜新增 360 stars、日榜新增 213 stars。竞争情报结论是：coding agent 市场还没有锁死，开发者愿意试新工具，但新产品必须在上下文成本、代码编辑确定性、插件生态或本地能力上给出明确差异。",
+          "items": [
+            {
+              "title": "cursor alternative",
+              "url": "https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 61
+            },
+            {
+              "title": "anthropics/claude-code",
+              "url": "https://github.com/anthropics/claude-code",
+              "source": "GitHub",
+              "score": 2527
+            },
+            {
+              "title": "can1357/oh-my-pi",
+              "url": "https://github.com/can1357/oh-my-pi",
+              "source": "GitHub",
+              "score": 2318
+            }
+          ],
+          "takeaway": "Cursor 类产品的窗口还开着，但替代品必须证明自己能降低真实开发摩擦。"
+        }
+      ]
+    },
+    {
+      "id": "trends",
+      "title": "趋势判断",
+      "blocks": [
+        {
+          "id": "keywords",
+          "heading": "本周技术关键词频率有什么变化？",
+          "summary_md": "今天最强关键词是 [compound engineering plugin](https://trends.google.com/trends/explore?q=compound+engineering+plugin&date=now+7-d) 上涨 +999.0%，并且 GitHub 周榜里 [EveryInc/compound-engineering-plugin](https://github.com/EveryInc/compound-engineering-plugin) 本周新增 1752 stars、总星 20217，说明「复合工程」正在从概念传播进入工具安装阶段。[supermemory](https://trends.google.com/trends/explore?q=supermemory&date=now+7-d) 上涨 +62.4%，对应 [supermemoryai/supermemory](https://github.com/supermemoryai/supermemory) 本周新增 2992 stars，这是一条更清晰的「agent memory API」需求线。\n\n另一个明显升温的是 [cursor alternative](https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d) 上涨 +61.4%。和 GitHub 上 coding agent、skill、harness 类项目同涨放在一起看，开发者不是单纯搜索品牌，而是在寻找可组合的下一代开发环境。今天可以判断：agent 工程化关键词正在替代泛化的「AI agent」叙事，builder 应该把内容、产品页和 SEO 从大词转到更具体的 problem keyword。",
+          "items": [
+            {
+              "title": "compound engineering plugin",
+              "url": "https://trends.google.com/trends/explore?q=compound+engineering+plugin&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 999
+            },
+            {
+              "title": "supermemory",
+              "url": "https://trends.google.com/trends/explore?q=supermemory&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 62
+            },
+            {
+              "title": "cursor alternative",
+              "url": "https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 61
+            }
+          ],
+          "takeaway": "搜索热度正在从泛 AI 迁移到可安装、可替换、可计费的 agent 工程组件。"
+        },
+        {
+          "id": "cooling",
+          "heading": "哪些 AI 热词在降温？",
+          "summary_md": "降温项里最值得注意的是 [ai agent](https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d) 下滑 -15.5%，[codex](https://trends.google.com/trends/explore?q=codex&date=now+7-d) 下滑 -13.1%，[codex cli](https://trends.google.com/trends/explore?q=codex+cli&date=now+7-d) 下滑 -6.9%。这不代表 agent 退潮，而是大词被拆成了更具体的工具词：同一天 [compound engineering plugin](https://trends.google.com/trends/explore?q=compound+engineering+plugin&date=now+7-d) 上涨 +999.0%，[supermemory](https://trends.google.com/trends/explore?q=supermemory&date=now+7-d) 上涨 +62.4%。\n\n内容和产品定位上要避免继续用「AI agent」做唯一卖点，因为这个词已经太宽，用户无法判断你解决什么问题。[moneyprinterturbo](https://trends.google.com/trends/explore?q=moneyprinterturbo&date=now+7-d) 下滑 -39.6%，也提示短视频一键生成这类爆款词会快速疲劳。更好的策略是把卖点落到「压缩 token」、「记忆 API」、「文档转 Markdown」、「浏览器 agent 安全」这类高意图词。",
+          "items": [
+            {
+              "title": "ai agent",
+              "url": "https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": -15
+            },
+            {
+              "title": "codex",
+              "url": "https://trends.google.com/trends/explore?q=codex&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": -13
+            },
+            {
+              "title": "moneyprinterturbo",
+              "url": "https://trends.google.com/trends/explore?q=moneyprinterturbo&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": -40
+            }
+          ],
+          "takeaway": "泛 AI 大词降温时，垂直问题词反而是更好的获客入口。"
+        },
+        {
+          "id": "new-radar",
+          "heading": "新词雷达：有哪些从零起飞的新概念？",
+          "summary_md": "今天的新词雷达优先看关联查询：[supermemory](https://trends.google.com/trends/explore?q=supermemory&date=now+7-d) 的 rising 出现「supermemory github」，breakout value 40，说明用户不是只看品牌，而是在找源码和自托管可能性。[cursor alternative](https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d) 的 rising 出现「windsurf ai」value 120 与「cursor alternatives」value 90，代表 coding agent 工具迁移需求仍在扩散。[codex cli](https://trends.google.com/trends/explore?q=codex+cli&date=now+7-d) 虽然整体 -6.9%，但 rising 出现「cc switch」value 50，可能对应开发者在不同 CLI agent 间切换的弱信号。\n\n还有一组需要过滤噪声：[headroom](https://trends.google.com/trends/explore?q=headroom&date=now+7-d) 整体 -10.2%，但 rising 有「project headroom」value 700、「github headroom」value 650 和「headroom ai」value 120，和 GitHub 上 [chopratejas/headroom](https://github.com/chopratejas/headroom) 本周新增 13308 stars 可以互相印证。相比之下 [harness](https://trends.google.com/trends/explore?q=harness&date=now+7-d) 的 rising 多为非技术词，不能直接当 agent harness 趋势解读。",
+          "items": [
+            {
+              "title": "supermemory github",
+              "url": "https://trends.google.com/trends/explore?q=supermemory&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 40
+            },
+            {
+              "title": "windsurf ai",
+              "url": "https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 120
+            },
+            {
+              "title": "github headroom",
+              "url": "https://trends.google.com/trends/explore?q=headroom&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 650
+            },
+            {
+              "title": "cc switch",
+              "url": "https://trends.google.com/trends/explore?q=codex+cli&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 50
+            }
+          ],
+          "takeaway": "新词里最有价值的是「源码搜索」和「替代品搜索」，它们比品牌热度更接近购买意图。"
+        },
+        {
+          "id": "vc-radar",
+          "heading": "VC 和 YC 在关注什么主题？",
+          "summary_md": "今天适合进入 VC radar 的不是单点 app，而是「agent operations stack」。GitHub 周榜里 [headroom](https://github.com/chopratejas/headroom) 新增 13308 stars、[supermemory](https://github.com/supermemoryai/supermemory) 新增 2992 stars、[harness](https://github.com/revfactory/harness) 新增 2098 stars、[compound-engineering-plugin](https://github.com/EveryInc/compound-engineering-plugin) 新增 1752 stars，分别对应成本、记忆、团队编排和工程方法论。这些都是未来 agent 公司会重复购买的横向能力。\n\nYC 风格的机会更偏「窄入口、强痛点」：给浏览器 agent 做安全过滤，给长上下文任务做 token proxy，给客服或销售 agent 做记忆层，给企业知识库做 Markdown ingestion。判断标准不是模型能力多炫，而是能不能在 30 天内证明节省 token、减少失败率、缩短人工检查时间。",
+          "items": [
+            {
+              "title": "chopratejas/headroom",
+              "url": "https://github.com/chopratejas/headroom",
+              "source": "GitHub",
+              "score": 13308
+            },
+            {
+              "title": "supermemoryai/supermemory",
+              "url": "https://github.com/supermemoryai/supermemory",
+              "source": "GitHub",
+              "score": 2992
+            },
+            {
+              "title": "EveryInc/compound-engineering-plugin",
+              "url": "https://github.com/EveryInc/compound-engineering-plugin",
+              "source": "GitHub",
+              "score": 1752
+            }
+          ],
+          "takeaway": "资本会继续看 agent，但更偏向可量化降本增效的基础设施层。"
+        }
+      ]
+    },
+    {
+      "id": "actions",
+      "title": "行动触发",
+      "blocks": [
+        {
+          "id": "weekend-build",
+          "heading": "今天 2 小时和一个周末分别做什么？",
+          "summary_md": "2 小时版本：做一个「LLM 上下文成本扫描器」。输入一段 agent 工具日志、网页正文或 RAG chunk，输出可压缩比例、重复段落、可删除字段和预计 token 成本；参考 [chopratejas/headroom](https://github.com/chopratejas/headroom) 本周新增 13308 stars 的需求强度，把 landing page 直接写成「before it reaches the LLM」。这类小工具不需要完整平台，先做 CLI 或网页 demo 就能验证。\n\n周末版本：做一个「Markdown ingestion + memory」组合产品。用 [microsoft/markitdown](https://github.com/microsoft/markitdown) 的方向吃掉文件转换，用 [supermemoryai/supermemory](https://github.com/supermemoryai/supermemory) 的方向存长期记忆，再接一个 Claude/Codex 工作流插件。目标客户不是普通用户，而是每天把 PRD、会议纪要、PDF、网页资料喂给 agent 的团队。",
+          "items": [
+            {
+              "title": "Context Cost Scanner",
+              "url": "https://github.com/chopratejas/headroom",
+              "source": "Action",
+              "score": 13308
+            },
+            {
+              "title": "Markdown Memory Ingestion",
+              "url": "https://github.com/microsoft/markitdown",
+              "source": "Action",
+              "score": 15015
+            }
+          ],
+          "takeaway": "今天最该做的 MVP 是帮 agent 少读、读准、记住，而不是再做一个通用聊天助手。"
+        },
+        {
+          "id": "pricing-models",
+          "heading": "值得学习的定价和变现模式有哪些？",
+          "summary_md": "今天最适合学习的是「按节省量计价」和「开发者基础设施 API」两种模式。像 [headroom](https://github.com/chopratejas/headroom) 这种压缩工具，天然可以按处理 token、节省 token 或 proxy 请求量收费；如果能证明 60-95% token 降幅，就可以把价格锚定在客户当前 LLM 账单上，而不是按普通 SaaS seat 定价。[supermemory](https://github.com/supermemoryai/supermemory) 这类 Memory API，则更适合按存储对象、检索次数、组织席位和 SLA 分层。\n\nProduct Hunt 上 [Agent Browser Shield](https://www.producthunt.com/products/agent-browser-shield) 的方向也适合安全型定价：免费扫描、付费策略规则、团队审计日志、企业白名单。[LocalClicky](https://www.producthunt.com/products/localclicky) 和 [Wave](https://www.producthunt.com/products/wave-16) 则更适合一次性买断加本地模型包升级，因为本地优先用户通常对订阅更敏感。",
+          "items": [
+            {
+              "title": "Token Savings Pricing",
+              "url": "https://github.com/chopratejas/headroom",
+              "source": "Action",
+              "score": 13308
+            },
+            {
+              "title": "Memory API Pricing",
+              "url": "https://github.com/supermemoryai/supermemory",
+              "source": "Action",
+              "score": 2992
+            },
+            {
+              "title": "Agent Browser Shield",
+              "url": "https://www.producthunt.com/products/agent-browser-shield",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "agent 工具最好的定价锚点是节省的成本、降低的风险和减少的人审时间。"
+        },
+        {
+          "id": "counterintuitive",
+          "heading": "今天最反直觉的发现是什么？",
+          "summary_md": "最反直觉的是：虽然 [ai agent](https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d) 搜索下滑 -15.5%，但 agent 相关开源项目正在爆发。[headroom](https://github.com/chopratejas/headroom) 一周新增 13308 stars，[ECC](https://github.com/affaan-m/ECC) 新增 10351 stars，[taste-skill](https://github.com/Leonxlnx/taste-skill) 新增 6085 stars，[claude-code](https://github.com/anthropics/claude-code) 新增 2527 stars。表面看大词降温，实际是用户从概念教育阶段进入工具替换阶段。\n\n这对 builder 的启发是：不要用市场热词判断机会是否结束，要看用户是否开始搜索具体替代品、GitHub 项目、插件和工作流。[cursor alternative](https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d) 上涨 +61.4%，[compound engineering plugin](https://trends.google.com/trends/explore?q=compound+engineering+plugin&date=now+7-d) 上涨 +999.0%，这比「AI agent」本身更接近真实需求。",
+          "items": [
+            {
+              "title": "ai agent",
+              "url": "https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": -15
+            },
+            {
+              "title": "compound engineering plugin",
+              "url": "https://trends.google.com/trends/explore?q=compound+engineering+plugin&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 999
+            },
+            {
+              "title": "cursor alternative",
+              "url": "https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 61
+            }
+          ],
+          "takeaway": "大词降温不是市场结束，而是需求进入更具体、更可商业化的分层阶段。"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2026-06-07T09:17:44+00:00",
+  "reddit_highlights": [
+    {
+      "heading": "Indie 开发者在讨论哪些收入和定价问题？",
+      "body_md": "**🔍 信号**：金钱讨论包括 Reddit 创始人的 $68 MRR、$400/month、90 天后 $3,500 MRR、$10K+ MRR，一个 50 位创始人拆解里非零 MRR 中位数为 $400，StockAlarm 出售前约 250,000 用户和 $25K MRR，CheckVibe 来自 100+ 付费客户的约 $3.4K 总成交额，Indie Hackers 上的 [Bazzly at $1,000 MRR](https://www.indiehackers.com/product/bazzly?post=naAFYwc6d1NUvoqg9S4R)，以及一个 [$30K MRR in 48 hours](https://www.indiehackers.com/post/tech/building-a-product-in-48-hours-and-hitting-30k-mrr-as-a-non-technical-founder-wWtWIH5tmwASUbxKaLT9) 故事。\n\n**白话说：** 真实创始人数字比高光故事小得多，但它们暴露了人们到底为什么付钱。\n\nReddit 收入榜比胜利帖更有用，因为它包含挫败。[I'm jealous of every \"I hit 3k MRR\" post](https://www.reddit.com/r/SideProject/comments/1txlm78/im_jealous_of_every_i_hit_3k_mrr_post/) 来自一位八个月后还卡在 $68 MRR 的创始人。[Anyone else feel like SaaS is the only way out?](https://www.reddit.com/r/SaaS/comments/1tuj0m8/anyone_else_feel_like_saas_is_the_only_way_out/) 描述了一个每月约 $400 的副业 SaaS。50 位创始人的拆解报告数字从 $4.99 到 $510,000，非零 MRR 中位数是 $400。这是大多数创始人应该记住的分母。\n\n更高的数字说明，当任务足够具体时会发生什么。[90 days in, $3,500 MRR](https://www.reddit.com/r/SaaS/comments/1tsvmh9/90_days_in_3500_mrr_two_person_team_heres_exactly/) 把增长归因于观察相关 subreddit，并用有用评论回应，而不是直接推销。[From $5K stuck to $10K+ MRR](https://www.reddit.com/r/SaaS/comments/1twqpi1/from_5k_stuck_to_10k_mrr_heres_what_actually/) 说团队试遍每个竞争对手，承认自己落后，然后每月发布一个`大更新`。\n\nIndie Hackers 强化了同一课。[Bazzly](https://www.indiehackers.com/product/bazzly?post=naAFYwc6d1NUvoqg9S4R) 用一个每天 30 分钟的系统来解释 $1,000 MRR，而 [Affirmation Cards](https://www.indiehackers.com/product/affirmation-cards?post=Fre0jzPoAAmyWnv3nzLm) 庆祝第一笔 $10。第一笔钱通常来自一个小而命名清楚的行为，而不是宏大的市场故事。\n\n**关键判断**：先给第一个可见交付物定价，再做平台；一份手工`权限地图`、审计或迁移说明，能比仪表盘更快测试付费意愿。\n\n**反向视角**：创始人收入帖有自选择偏差，也有时无法验证，所以用它们做定价假设，不要当市场规模声明。\n\n---",
+      "source_url": "https://raw.githubusercontent.com/BuilderPulse/BuilderPulse/main/zh/2026/2026-06-07.md"
+    },
+    {
+      "heading": "哪些定价和变现模型值得研究？",
+      "body_md": "**🔍 信号**：今天值得研究的包括：一份 $29 的手工 Agent Permission Map，Reddit 创始人的 $68 MRR、$400/month、$3,500 MRR、$10K+ MRR，CheckVibe 来自 100+ 付费客户的 $3.4K 总成交额，Indie Hackers 的 [Bazzly at $1,000 MRR](https://www.indiehackers.com/product/bazzly?post=naAFYwc6d1NUvoqg9S4R)、[$30K MRR in 48 hours](https://www.indiehackers.com/post/tech/building-a-product-in-48-hours-and-hitting-30k-mrr-as-a-non-technical-founder-wWtWIH5tmwASUbxKaLT9)，以及 Google 的 $920M/month 算力协议。\n\n**白话说：** 围绕一个决策定价，而不是围绕你以后希望做出来的软件定价。\n\n小创始人的定价课是：第一笔钱通常来自一个`具体产物`。[Affirmation Cards](https://www.indiehackers.com/product/affirmation-cards?post=Fre0jzPoAAmyWnv3nzLm) 庆祝第一笔 $10 互联网收入。[Got my first paid user](https://www.reddit.com/r/SaaS/comments/1tvmfe1/got_my_first_paid_user/) 来自一个专注阻断器，有 10 个用户和一个陌生付费者。这些数字很小，但比免费掌声更好，因为一个陌生人接受了任务和价格。\n\n中间层才是今天构建应该待的位置。[CheckVibe's $3.4K gross volume](https://www.reddit.com/r/SaaS/comments/1ttrozf/3k_revenue_6_weeks_after_launching_my_saas/) 来自 100+ 付费客户，证明当痛点具体时，面向 AI 构建 App 的安全扫描可以转化。权限地图也应该类似起步：一个工作流 $29，一个有多条客服路径的团队 $99，之后再为漂移检查做订阅。这些不是占位价格，而是绑定手工交付物的`测试价格`。\n\n巨大的算力数字是对照，不是 indie builder 的定价模型。Google 和 Anthropic 能签下以数亿或数十亿美元计的月合同，是因为算力是战略容量。创始人应该学习原则，而不是复制规模：当一个资源变成关键任务时，买家会为可见性、限制和证明付费。\n\n**关键判断**：从付费手工报告开始；只有当同一买家要求你持续盯住权限或日志时，再加入周期性检查。\n\n**反向视角**：手工报告不会自动规模化，但它会在软件围绕错误工作流固化之前，暴露买家的语言。\n\n---",
+      "source_url": "https://raw.githubusercontent.com/BuilderPulse/BuilderPulse/main/zh/2026/2026-06-07.md"
+    }
+  ]
+}

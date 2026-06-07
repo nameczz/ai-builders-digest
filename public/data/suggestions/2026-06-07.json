@@ -1,0 +1,148 @@
+{
+  "date": "2026-06-07",
+  "items": [
+    {
+      "id": "2026-06-07-1",
+      "title": "10 个 Codex 线程就失控",
+      "angle": "从 Peter Yang 的吐槽切入：coding agent 真正缺的不是更会写代码，而是工作队列、状态管理和执行可见性。",
+      "opening": "Peter Yang 说 agentic coding 像编程毒品，比电子游戏还上头。但更真实的问题是：当 Codex 线程超过 10 个，用户已经不知道哪个在等审批、哪个还在执行。AI 编程的下一层竞争，可能不是编辑器，而是调度台。",
+      "story_hook": {
+        "challenge": "AI coding 越强，开发者同时开的线程越多，个人工作流反而先崩掉。",
+        "twist": "问题不在模型能力，而在产品还停留在项目列表，没有长成任务队列。"
+      },
+      "takeaway": "做 coding agent 产品时，应优先设计状态过滤、审批队列、失败恢复和上下文摘要，而不是只堆更强模型。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Peter Yang：Agentic coding 像编程毒品",
+          "url": "https://x.com/petergyang/status/2063486871037153558"
+        },
+        {
+          "tag": "builders",
+          "ref": "Peter Yang：Codex 线程需要按状态过滤",
+          "url": "https://x.com/petergyang/status/2063475353335869922"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub 周榜：headroom、markitdown、supermemory 等 agent 基础设施爆发",
+          "url": "https://github.com/chopratejas/headroom"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-07-2",
+      "title": "最强模型正在变成浪费",
+      "angle": "把 Aaron Levie 和 Madhu Guru 的观点合起来看：模型路由正在从成本优化变成应用层护城河。",
+      "opening": "当企业开始认真盯 token 成本，说明 AI 已经不是 demo，而是真被用到了账单疼的规模。Aaron Levie 说下一波应用差异化在模型路由，Madhu Guru 更直接：先进团队已经把任务拆给 Claude、Gemini Flash-Lite 和小模型各自处理。",
+      "story_hook": {
+        "challenge": "大家都想接最强模型，但最强模型并不适合处理所有任务。",
+        "twist": "真正先进的团队不是更舍得花钱，而是更懂哪些钱根本不该花。"
+      },
+      "takeaway": "AI 产品团队要建立任务分级、模型路由和 eval 体系，把复杂推理、廉价执行、长上下文处理拆开算账。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Aaron Levie：Token 成本说明 AI 使用规模空前，模型路由会成为应用层优势",
+          "url": "https://x.com/levie/status/2063320673217609936"
+        },
+        {
+          "tag": "builders",
+          "ref": "Madhu Guru：AI 原生团队已按子任务路由不同模型",
+          "url": "https://x.com/realmadhuguru/status/2063342268472574268"
+        },
+        {
+          "tag": "pulse",
+          "ref": "chopratejas/headroom：工具输出进 LLM 前压缩 60-95% token",
+          "url": "https://github.com/chopratejas/headroom"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-07-3",
+      "title": "AI Agent 死在大词里",
+      "angle": "用搜索降温和开源爆发的反差写：agent 没退潮，只是从概念词拆成了可安装组件。",
+      "opening": "今天最反直觉的数据是：Google Trends 里“ai agent”下滑 15.5%，但 agent 相关开源项目却在爆发。headroom 一周新增 13308 stars，supermemory 新增 2992 stars，compound engineering plugin 也在上涨。大词冷了，小工具热了。",
+      "story_hook": {
+        "challenge": "如果只看“AI agent”这个关键词，会误判市场正在退潮。",
+        "twist": "真实需求已经迁移到 token 压缩、记忆、文件解析、插件和工作流替代品。"
+      },
+      "takeaway": "写产品定位和内容选题时，少用泛 AI 大词，多抓“cursor alternative”“supermemory github”这类带明确迁移意图的搜索词。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Swyx：论文中心的信息差正在让位于产品中心的知识扩散",
+          "url": "https://x.com/swyx/status/2063432747432268259"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Google Trends：ai agent 下滑 -15.5%",
+          "url": "https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Google Trends：compound engineering plugin 上涨 +999.0%",
+          "url": "https://trends.google.com/trends/explore?q=compound+engineering+plugin&date=now+7-d"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-07-4",
+      "title": "本地优先不是不上云",
+      "angle": "从 Garry Tan 为 Paxel 澄清切入，写 AI 产品如何处理隐私承诺、云端能力和本地模型之间的灰区。",
+      "opening": "Garry Tan 特意澄清：Paxel 从没说不上传任何用户数据到云端，只说代码和文件内容不会上传。这个区别很小，但对 AI 工具很致命。用户要的是本地优先，不是营销文案里的绝对不上云。",
+      "story_hook": {
+        "challenge": "AI 工具想借云端模型变强，又想用本地优先建立信任，边界很容易说不清。",
+        "twist": "最可信的隐私叙事不是承诺“绝不上传”，而是精确说明什么上传、什么不上传、未来什么会搬回本地。"
+      },
+      "takeaway": "面向开发者的 AI 工具应把数据边界写成产品能力：代码、文件、日志、遥测、模型请求分别如何处理。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Garry Tan：Paxel 只说代码和文件内容不会上传，并非不上传任何用户数据",
+          "url": "https://x.com/garrytan/status/2063418130714800487"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt：Agent Browser Shield 瞄准浏览器 agent 的 prompt injection 与 token 成本",
+          "url": "https://www.producthunt.com/products/agent-browser-shield"
+        },
+        {
+          "tag": "pulse",
+          "ref": "HuggingFace：unsloth/gemma-4-12b-it-GGUF 指向本地可跑模型需求",
+          "url": "https://huggingface.co/unsloth/gemma-4-12b-it-GGUF"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-07-5",
+      "title": "内容也在 Vibe Coding",
+      "angle": "把 Zara Zhang 的“静态内容贬值”和 Amjad Masad 的 Vibecon 放在一起：AI 时代更值钱的是实时互动和可运行流程。",
+      "opening": "Zara Zhang 说，静态内容正在贬值，实时互动正在升值。Amjad Masad 则把 vibe coding 从梗推进成生意：别人已经用 AI 跑产品、销售和工程流水线了。问题不再是你会不会发观点，而是读者能不能跟着你动手跑起来。",
+      "story_hook": {
+        "challenge": "AI 让精致静态内容变得越来越便宜，普通观点稿更难留住开发者。",
+        "twist": "越是 AI 生成泛滥，越需要粗粝、有立场、能复现的真人工作流。"
+      },
+      "takeaway": "公众号选题可以从“解读新闻”升级为“拆一个可复现流程”：给代码、工具链、成本、失败点和替代方案。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Zara Zhang：静态内容贬值，实时互动升值",
+          "url": "https://x.com/zarazhangrui/status/2063391758189572266"
+        },
+        {
+          "tag": "builders",
+          "ref": "Amjad Masad：Vibecon 把 vibe coding 从梗推进成生意",
+          "url": "https://x.com/amasad/status/2063300737296400516"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt：Recursi 主打自改进 vibe coding 环境",
+          "url": "https://www.producthunt.com/products/recursi-self-improving-vibe-coding-env"
+        }
+      ]
+    }
+  ],
+  "notes": "今日主线很集中：不要写泛泛的“agent 又火了”，应写 agent 工作流拆分后的具体机会，包括状态队列、模型路由、token 成本、隐私边界和可复现的真人工作流。",
+  "generated_at": "2026-06-07T09:18:40+00:00",
+  "model": "gpt-5.5"
+}
