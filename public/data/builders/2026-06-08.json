@@ -1,0 +1,307 @@
+{
+  "date": "2026-06-08",
+  "generated_at": "2026-06-08T09:11:18+00:00",
+  "count": 20,
+  "items": [
+    {
+      "id": "4843c960e0",
+      "date": "2026-06-08",
+      "source": "x",
+      "author": "Aaron Levie",
+      "bio": "ceo @box - your business lives in content. unleash it with AI",
+      "title": "",
+      "summary_en": "The numbers may be a bit extreme here, but unquestionably use-cases have to stratify in the next year or two between model families.\n\nWe’ll see a split between frontier intelligence for high end tasks and work, and much cheaper models for high volume workloads that can sufficiently be peeled off to cheaper models. Frontier will still be far bigger than today because the use-cases will demand it, but the low-end will get quite a bit larger as well.\n\nThe big update here is that the layer that can efficiently route the workload to the right model will then become increasingly valuable since that becomes one of the new hard problems in AI agents. Agent orchestration that can cost optimize while still performing the task successfully will be in a strong position.",
+      "summary_zh": "未来一两年，AI 用例会按模型家族分层：高端任务吃前沿模型，海量工作负载被剥给更便宜的模型，两头都会变大。真正值钱的是路由层：能把任务分给对的模型，还能在不翻车的前提下把 Agent 成本压到最低。",
+      "url": "https://x.com/levie/status/2063835799096090749",
+      "posted_at": "2026-06-08T04:09:33.000Z",
+      "tags": [
+        "@levie"
+      ]
+    },
+    {
+      "id": "795f0641a1",
+      "date": "2026-06-08",
+      "source": "x",
+      "author": "Nikunj Kothari",
+      "bio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
+      "title": "",
+      "summary_en": "Given all the “loops” conversation, @Apple has the chance (and address) to do the funniest thing at WWDC.. https://t.co/HAhOpSW5Pn",
+      "summary_zh": "大家都在吵 AI 的各种「loop」，苹果偏偏最有资格接这个梗：它连老总部地址都叫 Infinite Loop。WWDC 上如果苹果顺手玩这个梗，会是全场最狠的冷笑话。",
+      "url": "https://x.com/nikunj/status/2063829369949467050",
+      "posted_at": "2026-06-08T03:44:00.000Z",
+      "tags": [
+        "@nikunj"
+      ]
+    },
+    {
+      "id": "90278d29f9",
+      "date": "2026-06-08",
+      "source": "x",
+      "author": "Peter Yang",
+      "bio": "Practical AI tutorials and interviews for busy people | Join 140K+ readers at https://t.co/XYKTmGVH14 | Product at Roblox",
+      "title": "",
+      "summary_en": "Ok ChatGPT had a good one:\n\nWife: \"I did, the loop is called marriage and this is your daily cron job.\"",
+      "summary_zh": "ChatGPT 把夫妻日常翻译成程序员地狱笑话：婚姻就是一个循环，而你每天都被定时任务准点调用。",
+      "url": "https://x.com/petergyang/status/2063819323106615434",
+      "posted_at": "2026-06-08T03:04:05.000Z",
+      "tags": [
+        "@petergyang"
+      ]
+    },
+    {
+      "id": "083db1a658",
+      "date": "2026-06-08",
+      "source": "x",
+      "author": "Peter Yang",
+      "bio": "Practical AI tutorials and interviews for busy people | Join 140K+ readers at https://t.co/XYKTmGVH14 | Product at Roblox",
+      "title": "",
+      "summary_en": "My wife asked me to take out the trash.\n\nI said, “You shouldn’t be prompting me anymore. You should be designing loops.\"\n\nFinish the punch line of this dad joke please.",
+      "summary_zh": "老婆让他倒垃圾，他回一句 AI 圈黑话：别再 prompt 我了，你该设计 loops。笑点是 builder 脑已经坏到连家务都要包装成工作流设计。",
+      "url": "https://x.com/petergyang/status/2063818032280170721",
+      "posted_at": "2026-06-08T02:58:57.000Z",
+      "tags": [
+        "@petergyang"
+      ]
+    },
+    {
+      "id": "3117faaaa8",
+      "date": "2026-06-08",
+      "source": "x",
+      "author": "Boris Cherny",
+      "bio": "Claude Code @anthropicai",
+      "title": "",
+      "summary_en": "Seeing a number of benchmarks showing Opus is the best model for long-running work.\n\nFive tips for running Opus autonomously for hours/days:\n\n1. Use auto mode for permissions, so Claude doesn’t ask for approval\n2. Use dynamic workflows, to have Claude orchestrate hundreds/thousands of agents to get a task done\n3. Use /goal or /loop, to nudge Claude to keep going until it’s done\n4. Use Claude Code in the cloud, so you can close your laptop (easiest way is the desktop or mobile app)\n5. Make sure Claude has a way to self-verify its work end to end: Claude in Chrome browser extension for web, iOS/Android sim MCP for mobile, a way to start the full web server or service for backend work",
+      "summary_zh": "越来越多 benchmark 指向同一个结论：Opus 是长时间自治干活的最强模型；要让它跑几个小时甚至几天，就别让权限弹窗卡住它，用动态工作流调度大量 agents，用 `/goal` 或 `/loop` 逼它收尾，放到云端跑，并给它端到端自检工具。",
+      "url": "https://x.com/bcherny/status/2063792263067754658",
+      "posted_at": "2026-06-08T01:16:33.000Z",
+      "tags": [
+        "@bcherny"
+      ]
+    },
+    {
+      "id": "5612e636e9",
+      "date": "2026-06-08",
+      "source": "x",
+      "author": "Garry Tan",
+      "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "title": "",
+      "summary_en": "This is why we created https://t.co/NH6AWPWWkY",
+      "summary_zh": "别再问为什么要做这个东西，摆在眼前的问题本身就是答案。",
+      "url": "https://x.com/garrytan/status/2063786182140735829",
+      "posted_at": "2026-06-08T00:52:23.000Z",
+      "tags": [
+        "@garrytan"
+      ]
+    },
+    {
+      "id": "c5692b6c12",
+      "date": "2026-06-08",
+      "source": "x",
+      "author": "Garry Tan",
+      "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "title": "",
+      "summary_en": "Educating people on how to use the AI tools has become a serious bottleneck https://t.co/x624uLrMkb",
+      "summary_zh": "AI 工具的瓶颈已经不只是能力，而是人：教大家怎么真正用起来，正在变成最严重的卡点。",
+      "url": "https://x.com/garrytan/status/2063786111588323780",
+      "posted_at": "2026-06-08T00:52:06.000Z",
+      "tags": [
+        "@garrytan"
+      ]
+    },
+    {
+      "id": "0e22f80331",
+      "date": "2026-06-08",
+      "source": "x",
+      "author": "Garry Tan",
+      "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "title": "",
+      "summary_en": "GBrain v0.42.30 can now give you a detailed summary of how your thinking has changed over time. https://t.co/lcj64PThft",
+      "summary_zh": "GBrain v0.42.30 现在能详细复盘你的思考如何随时间变化，把你的认知轨迹直接摊开给你看。",
+      "url": "https://x.com/garrytan/status/2063785286367392095",
+      "posted_at": "2026-06-08T00:48:50.000Z",
+      "tags": [
+        "@garrytan"
+      ]
+    },
+    {
+      "id": "ee6f57e796",
+      "date": "2026-06-08",
+      "source": "x",
+      "author": "Sam Altman",
+      "bio": "AI is cool i guess",
+      "title": "",
+      "summary_en": "interesting recursive loop here maybe https://t.co/ejXil4AGyX",
+      "summary_zh": "这可能是个有意思的递归闭环：系统把自己产出的东西又吞回去，继续制造下一轮。",
+      "url": "https://x.com/sama/status/2063779477419901071",
+      "posted_at": "2026-06-08T00:25:45.000Z",
+      "tags": [
+        "@sama"
+      ]
+    },
+    {
+      "id": "c3a57903d7",
+      "date": "2026-06-08",
+      "source": "x",
+      "author": "Peter Yang",
+      "bio": "Practical AI tutorials and interviews for busy people | Join 140K+ readers at https://t.co/XYKTmGVH14 | Product at Roblox",
+      "title": "",
+      "summary_en": "Links I mentioned:\n\nCompound Engineering:\nhttps://t.co/zo3cxxgMeD\n\nKun Chen's free tools:\nhttps://t.co/aqEdDzZKPe",
+      "summary_zh": "他没再废话，只把前面提到的两个资源丢出来：Compound Engineering 和 Kun Chen 的免费工具。想做 AI builder，就看工程方法和能直接上手的工具，别停在空谈。",
+      "url": "https://x.com/petergyang/status/2063773025196192188",
+      "posted_at": "2026-06-08T00:00:06.000Z",
+      "tags": [
+        "@petergyang"
+      ]
+    },
+    {
+      "id": "1276631642",
+      "date": "2026-06-08",
+      "source": "x",
+      "author": "Aaron Levie",
+      "bio": "ceo @box - your business lives in content. unleash it with AI",
+      "title": "",
+      "summary_en": "This is what the market got wrong about AI eating enterprise software. Building good software in the past was very hard. Yes, AI has made that a bit easier, though it’s still hard to build something that’s got good taste, differentiated, high quality, secure, and so on.\n\nBut nevertheless, that’s only one component of building a platform that enterprises rely on. The plurality of costs in most enterprise software companies is actually on GTM, because at scale most enterprise software categories are tough to break into and need a heavy amount of consultative selling and support for implementation and integration of solutions.  \n\nAI hasn’t reduced the need for that, and in many cases requires it even more now, as landscapes get even more busy and complicated for buyers to navigate through. If you make one thing cheaper and more abundant (development of software) then the new problem of discoverability and market differentiation (GTM) becomes the hardest part.",
+      "summary_zh": "市场误判了「AI 吞掉企业软件」：AI 只是让写软件便宜了一点，企业平台真正烧钱、最难复制的是销售、实施、集成和支持。代码更便宜、更泛滥后，最硬的战场反而变成了让客户发现你、信你、买你，并把你接进业务里。",
+      "url": "https://x.com/levie/status/2063756386572681606",
+      "posted_at": "2026-06-07T22:53:59.000Z",
+      "tags": [
+        "@levie"
+      ]
+    },
+    {
+      "id": "8cad79e4ff",
+      "date": "2026-06-08",
+      "source": "x",
+      "author": "Thibault Sottiaux",
+      "bio": "Codex & ChatGPT @OpenAI",
+      "title": "",
+      "summary_en": "I have a new kind of big button that I can press for Codex. Over the next 100 days, we will select one person per day who does impressive or incredibly useful work with Codex and give them 10X usage limits for a month to see what they can do with it.\n\nFirst one tomorrow.",
+      "summary_zh": "Codex 要搞一场 100 天高额度实验：每天挑一个真正做出惊人或极有用成果的人，给一个月 10 倍使用额度。第一人明天公布，潜台词很硬：少讲愿景，拿作品换额度。",
+      "url": "https://x.com/thsottiaux/status/2063748242681307611",
+      "posted_at": "2026-06-07T22:21:38.000Z",
+      "tags": [
+        "@thsottiaux"
+      ]
+    },
+    {
+      "id": "9da3268ce5",
+      "date": "2026-06-08",
+      "source": "x",
+      "author": "Amjad Masad",
+      "bio": "ceo @replit. civilizationist",
+      "title": "",
+      "summary_en": "Replit is about removing all distractions and have you focus on what matters — getting to market and getting the bag. Congrats! https://t.co/Z2gcG0WF0t",
+      "summary_zh": "Replit 要做的就是清掉所有干扰，让你只盯真正重要的事：杀到市场，把钱赚了。",
+      "url": "https://x.com/amasad/status/2063744208587125142",
+      "posted_at": "2026-06-07T22:05:36.000Z",
+      "tags": [
+        "@amasad"
+      ]
+    },
+    {
+      "id": "9ed88820dd",
+      "date": "2026-06-08",
+      "source": "x",
+      "author": "Aditya Agarwal",
+      "bio": "General Partner @SouthPkCommons, Co-Founder @Bevel_Health | Ex: Early Eng @facebook, CTO @Dropbox, Board @Flipkart | Optimist, Builder, Dad",
+      "title": "",
+      "summary_en": "I have had the chance to go through two IPOs (Meta and Dropbox).\n\nFabulous wealth tends to amplify deeper desires, not create new ones.\n\nThe mainstream narrative is: \"Early Employees make lots of money and buy mansions and go to the beach\".\n\nFor some: Yes, they want to chill. That is great. I am happy for them.\n\nBut for a lot of folks, it is a chance to do even crazier and wackier stuff. Start new things. Fund new things. Keep the crazy loop of Silicon Valley going.\n\nIt's going to be awesome to have a lot of folks with liquidity in the coming months. \n\nOnwards!.",
+      "summary_zh": "经历过 Meta 和 Dropbox 两次 IPO 后，他的判断是：暴富不会制造新欲望，只会把人原本的欲望放大。主流故事爱写早期员工拿钱买豪宅躺平，但硅谷更关键的循环是另一批人拿流动性去做更疯、更怪的新东西。",
+      "url": "https://x.com/adityaag/status/2063731771284619521",
+      "posted_at": "2026-06-07T21:16:11.000Z",
+      "tags": [
+        "@adityaag"
+      ]
+    },
+    {
+      "id": "fea7e5f706",
+      "date": "2026-06-08",
+      "source": "x",
+      "author": "Guillermo Rauch",
+      "bio": "@vercel CEO",
+      "title": "",
+      "summary_en": "Vercel AI Gateway recovers on average over 1T tokens a month 🤯 \n\nMuch like Stripe recovers revenue with smart retries on failed payments or credit card updates.\n\nAnd we do it with 0️⃣ zero markup over the labs; adding redundancy, zero-data retention enforcement, observability, usage APIs, caps, …\n\nhttps://t.co/OougSipbBX",
+      "summary_zh": "Vercel AI Gateway 每月平均帮用户“捞回”超过 1 万亿 token，逻辑像 Stripe 用智能重试救回失败支付里的收入。它不在模型厂商价格上加价，却把冗余、零数据保留、可观测性、用量 API 和限额控制都补上了。",
+      "url": "https://x.com/rauchg/status/2063714700618334260",
+      "posted_at": "2026-06-07T20:08:21.000Z",
+      "tags": [
+        "@rauchg"
+      ]
+    },
+    {
+      "id": "c9df98f504",
+      "date": "2026-06-08",
+      "source": "x",
+      "author": "Madhu Guru",
+      "bio": "Prev: Product Leader at Google - Gemini, Veo, Nano Banana.",
+      "title": "",
+      "summary_en": "A common misconception is that training data is low skill, grunt work - scan some notebooks, mine the internet, create labeled samples.\n\nThe data required to advance the model frontier is the opposite. Labs need training data for high-economic-value tasks. And most of these tasks outside of SWE have little documentation - it is complex, domain-specific knowledge built over the  years, spanning legacy tools that don’t talk to each other.\n\nThat's why we have SWE agents and not knowledge work agents yet.\n\nThe companies creating this training data, such as Mercor, are doing extremely high-leverage, high-skill work. \n\nCritical to moving AI forward. And deeply underappreciated.",
+      "summary_zh": "把训练数据当成低端脏活，是对前沿模型瓶颈的误判。真正有价值的数据来自高经济价值任务里多年沉淀、几乎没文档的复杂领域知识，所以我们先有了 SWE Agent，却还没有真正的知识工作 Agent；像 Mercor 做的是高杠杆、高技能、被严重低估的基础工程。",
+      "url": "https://x.com/realmadhuguru/status/2063704354910347520",
+      "posted_at": "2026-06-07T19:27:14.000Z",
+      "tags": [
+        "@realmadhuguru"
+      ]
+    },
+    {
+      "id": "2815111ae9",
+      "date": "2026-06-08",
+      "source": "x",
+      "author": "Peter Steinberger",
+      "bio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world. @OpenClaw🦞 + @OpenAI",
+      "title": "",
+      "summary_en": "Here’s your monthly reminder that you shouldn’t be prompting coding agents anymore.\n\nYou should be designing loops that prompt your agents.",
+      "summary_zh": "别再把时间浪费在给 coding agent 手写提示词上了。真正该设计的是能不断驱动 agent 的提示循环。",
+      "url": "https://x.com/steipete/status/2063697162748260627",
+      "posted_at": "2026-06-07T18:58:39.000Z",
+      "tags": [
+        "@steipete"
+      ]
+    },
+    {
+      "id": "a23c769c86",
+      "date": "2026-06-08",
+      "source": "x",
+      "author": "Aaron Levie",
+      "bio": "ceo @box - your business lives in content. unleash it with AI",
+      "title": "",
+      "summary_en": "Box now has a markdown editor on the web. Full CLI support. Commenting. Full version history. Box Drive also lets you connect to any desktop client as a mounted drive, so you instantly work with all your files in Claude Cowork, Codex, Obsidian, Cursor, or any other app. https://t.co/3dJ5SBzhM5 https://t.co/WLUKegtiJ5",
+      "summary_zh": "Box 正在把自己改成 AI 工具的文件底座：网页版 Markdown 编辑器、CLI、评论和完整版本历史都补齐了。Box Drive 一挂载，Claude Cowork、Codex、Obsidian、Cursor 这些应用就能直接处理你的全部文件。",
+      "url": "https://x.com/levie/status/2063649508681224367",
+      "posted_at": "2026-06-07T15:49:18.000Z",
+      "tags": [
+        "@levie"
+      ]
+    },
+    {
+      "id": "4fadfb742e",
+      "date": "2026-06-08",
+      "source": "x",
+      "author": "Zara Zhang",
+      "bio": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://t.co/KCuEajezlL YouTube: https://t.co/8xzbGWtf6w",
+      "title": "",
+      "summary_en": "I think one reason that my Frontend Slides skill has grown so much organically is because slides are inherently social\n\nPeople see these cool slides and always ask \"how did you make it\". And people tend to perceive those using HTML decks as more AI-native and AI-savvy\n\nhttps://t.co/CiQpfibZn5",
+      "summary_zh": "Frontend Slides 能自然增长，是因为幻灯片天然自带社交传播：酷的 deck 会逼人追问“怎么做的”。用 HTML 做 slides 的人，也更容易被默认看成 AI-native、懂 AI。",
+      "url": "https://x.com/zarazhangrui/status/2063638307586662539",
+      "posted_at": "2026-06-07T15:04:47.000Z",
+      "tags": [
+        "@zarazhangrui"
+      ]
+    },
+    {
+      "id": "270409515e",
+      "date": "2026-06-08",
+      "source": "x",
+      "author": "Nikunj Kothari",
+      "bio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
+      "title": "",
+      "summary_en": "The vibe shift from tokenmaxxing and token anxiety to tokenoptimizing in just a few weeks is wild 😅\n\nMight be a hot take but I still believe companies should give copious amounts of token budget to employees to stay at the frontier and explore all the edges. \n\nOtherwise, it’s way too easy to fall back to “doing the things how they have always been done”.",
+      "summary_zh": "短短几周，行业就从 tokenmaxxing 和 token 焦虑转向 tokenoptimizing，风向变得太快。真正想站在 AI 前沿的公司，就该给员工充足 token 预算去探索边界，否则很快会退回“过去一直怎么做就怎么做”的老路。",
+      "url": "https://x.com/nikunj/status/2063630238123483195",
+      "posted_at": "2026-06-07T14:32:43.000Z",
+      "tags": [
+        "@nikunj"
+      ]
+    }
+  ]
+}
