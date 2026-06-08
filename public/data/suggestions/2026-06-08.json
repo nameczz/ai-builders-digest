@@ -1,0 +1,163 @@
+{
+  "date": "2026-06-08",
+  "items": [
+    {
+      "id": "2026-06-08-1",
+      "title": "Agent 账单会逼出新 Stripe",
+      "angle": "从模型路由和 token 回收切入：AI 应用真正的新基础设施不是更强模型，而是更会省钱的中间层。",
+      "opening": "AI 公司以前比谁接了最强模型，现在开始比谁能少浪费 token。Vercel AI Gateway 说每月平均帮用户捞回超过 1 万亿 token，GitHub 上 headroom 一周新增 14272 stars。下一批基础设施公司，可能长得不像模型厂，更像 Stripe。",
+      "story_hook": {
+        "challenge": "前沿模型越来越贵，便宜模型越来越多，开发者却不知道每个任务该派给谁。",
+        "twist": "最值钱的不是模型本身，而是把任务、成本、失败重试和可观测性包起来的路由层。"
+      },
+      "takeaway": "做 AI 产品时不要只选模型，要设计成本路由、fallback、压缩和观测指标；能把省下的钱量化出来，就有商业化入口。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Aaron Levie 关于模型家族分层和路由层价值的推文",
+          "url": "https://x.com/levie/status/2063835799096090749"
+        },
+        {
+          "tag": "builders",
+          "ref": "Guillermo Rauch 关于 Vercel AI Gateway 每月回收 1 万亿 token 的推文",
+          "url": "https://x.com/rauchg/status/2063714700618334260"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub Weekly #1 chopratejas/headroom，本周新增 14272 stars",
+          "url": "https://github.com/chopratejas/headroom"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-08-2",
+      "title": "别写 Prompt 了，写 Loop",
+      "angle": "从 coding agent 的长时间自治切入：prompt 工程正在被运行时、权限、循环和自检工具替代。",
+      "opening": "今天最像分水岭的一句话是：别再给 coding agent 手写提示词了，真正该设计的是提示循环。Boris Cherny 的建议更狠：想让 Opus 跑几小时甚至几天，就要给它动态调度、云端执行、端到端自检和强制收尾机制。",
+      "story_hook": {
+        "challenge": "很多团队还在优化单条 prompt，但 agent 真正翻车的地方是权限中断、任务漂移和没有验收闭环。",
+        "twist": "最强模型不是自动等于最强 agent；能不能持续跑完，取决于工程脚手架。"
+      },
+      "takeaway": "评估 agent 产品时，把重点从提示词转到运行时：权限、记忆、浏览器、日志、循环控制和自检能力才决定能否进入真实工作流。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Boris Cherny 关于 Opus 长时间自治工作流的推文",
+          "url": "https://x.com/bcherny/status/2063792263067754658"
+        },
+        {
+          "tag": "builders",
+          "ref": "Peter Steinberger 关于不要手写 prompt、要设计提示循环的推文",
+          "url": "https://x.com/steipete/status/2063697162748260627"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub dev tools 榜：ECC、hermes-agent、Browse.sh 代表 agent 工具链升温",
+          "url": "https://github.com/NousResearch/hermes-agent"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-08-3",
+      "title": "AI 没吞掉企业软件",
+      "angle": "反驳「AI 会让企业 SaaS 消失」：代码变便宜后，销售、实施、集成和文件底座反而更重要。",
+      "opening": "如果 AI 真的让写软件变得很便宜，企业软件会不会被吞掉？Aaron Levie 的判断相反：代码更泛滥后，最难复制的东西变成客户发现你、信你、买你，并把你接进业务里。Box 今天补 Markdown 编辑器、CLI、评论和版本历史，也是在押这个方向。",
+      "story_hook": {
+        "challenge": "AI 让软件生产成本下降，听起来像是在削弱老牌企业平台。",
+        "twist": "但企业客户买的不是代码文件，而是权限、集成、支持、历史记录和可信工作流。"
+      },
+      "takeaway": "企业 AI 产品不要只展示 demo，要尽早补齐接入、权限、审计、版本和客户成功；这些才是从工具变平台的门槛。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Aaron Levie 关于 AI 不会直接吞掉企业软件的推文",
+          "url": "https://x.com/levie/status/2063756386572681606"
+        },
+        {
+          "tag": "builders",
+          "ref": "Aaron Levie 关于 Box 成为 AI 工具文件底座的推文",
+          "url": "https://x.com/levie/status/2063649508681224367"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt Claude Artifact Player，指向 agent 生成应用后的本地运行和复现痛点",
+          "url": "https://www.producthunt.com/products/claude-artifact-player"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub Weekly microsoft/markitdown，本周新增 13359 stars",
+          "url": "https://github.com/microsoft/markitdown"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-08-4",
+      "title": "报错句正在变成入口",
+      "angle": "从 Google Trends 的错误文本 breakout 切入：模型可用性、迁移和兼容层会成为新产品机会。",
+      "opening": "今天最有意思的新词不是产品名，而是一句报错：the model 'gpt-image-2' does not exist.。它在 codex 相关查询里 breakout 到 8950，旁边还有 cursor alternatives、windsurf ai 这些迁移词。用户不是在看发布会，他们是在复制错误提示找活路。",
+      "story_hook": {
+        "challenge": "模型名、权限、计划和 API 可用性变化太快，开发者经常不知道问题出在代码、账号还是供应商。",
+        "twist": "最早的需求信号不一定来自热搜榜，而可能藏在一条没人想看到的错误信息里。"
+      },
+      "takeaway": "可以围绕模型兼容检测、错误解释、fallback routing、IDE 迁移检查做小工具；先解决具体报错，比做另一个通用 AI IDE 更容易拿到用户。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Thibault Sottiaux 关于 Codex 100 天高额度实验的推文",
+          "url": "https://x.com/thsottiaux/status/2063748242681307611"
+        },
+        {
+          "tag": "builders",
+          "ref": "Nikunj Kothari 关于 token 预算和前沿探索的推文",
+          "url": "https://x.com/nikunj/status/2063630238123483195"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Google Trends codex 关联查询：the model 'gpt-image-2' does not exist.",
+          "url": "https://trends.google.com/trends/explore?q=codex&date=now+7-d"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Google Trends cursor alternative 上升 6.2%",
+          "url": "https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-08-5",
+      "title": "知识工作 Agent 还没来",
+      "angle": "从训练数据被低估切入：SWE Agent 先爆发，不代表所有知识工作都已被自动化。",
+      "opening": "今天一个反直觉判断是：我们已经有了很强的 SWE Agent，却还没有真正的知识工作 Agent。Madhu Guru 说，关键不是缺模型，而是高价值任务里的隐性领域知识太难拿。最贵的数据，往往藏在没人写文档的业务现场。",
+      "story_hook": {
+        "challenge": "行业喜欢把数据标注看成低端脏活，但前沿模型真正缺的是复杂领域里的高技能判断。",
+        "twist": "知识工作 Agent 的瓶颈可能不是推理能力，而是能否把专家多年沉淀的上下文变成可训练、可验证的数据。"
+      },
+      "takeaway": "做垂直 agent 时，先找高经济价值、流程复杂、文档缺失的任务；产品壁垒来自数据采集和专家反馈闭环，不只是模型调用。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Madhu Guru 关于高技能训练数据和知识工作 Agent 的推文",
+          "url": "https://x.com/realmadhuguru/status/2063704354910347520"
+        },
+        {
+          "tag": "builders",
+          "ref": "Garry Tan 关于 AI 工具瓶颈变成教人真正用起来的推文",
+          "url": "https://x.com/garrytan/status/2063786111588323780"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Reddit highlights：Lathe 用 LLM 帮助用户学习领域而不是跳过困难部分",
+          "url": "https://github.com/devenjarvis/lathe"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt Job Postings API，提供 1.8M+ 美国职位记录",
+          "url": "https://www.producthunt.com/products/free-job-postings-api"
+        }
+      ]
+    }
+  ],
+  "notes": "今日主线很集中：agent 叙事降温，但路由、压缩、循环、迁移和数据闭环这些组件正在升温。更适合写基础设施和真实工作流，不适合写泛泛的 AI agent 概念稿。",
+  "generated_at": "2026-06-08T09:23:26+00:00",
+  "model": "gpt-5.5"
+}
