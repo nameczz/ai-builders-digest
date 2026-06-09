@@ -1,0 +1,412 @@
+{
+  "date": "2026-06-09",
+  "generated_at": "2026-06-09T09:12:00+00:00",
+  "count": 27,
+  "items": [
+    {
+      "id": "74ce2f45dd",
+      "date": "2026-06-09",
+      "source": "blog",
+      "author": "Claude Blog",
+      "bio": "",
+      "title": "Building intelligent apps for Apple platforms with Claude in the Foundation Models framework",
+      "summary_en": "Today we&#x27;re releasing Foundation Models framework support for Claude through a new Swift package that lets Apple developers use Apple&#x27;s Foundation Models framework to call Claude for more complex workflows. Apple’s Foundation Models framework gives developers access to tap into models natively from Swift. It is very easy to use and can return typed Swift values through guided generation in as few as three lines of code. Developers can use this to tap into Apple’s on-device models for fast, local tasks like summarization or extraction. Developers can now use Apple’s Foundation Models framework to hand off to Claude when a request calls for multi-step reasoning, code generation, and more. Claude can also search the web for current information and execute code for data analysis. Stream Claude&#x27;s response back into the same view. Because Apple&#x27;s framework returns typed Swift values from @Generable annotations, developers arrive at the Claude API call with clean inputs instead of raw user text. What this unlocks The Foundation Models framework already powers a range of intelligent on-device features — journaling apps that surface personalized prompts, document apps that summarize contracts, learning apps that explain a concept at a student&#x27;s level. Adding Claude extends each of those patterns. A journaling app can generate daily prompts on-device, then ask Claude to find threads across months of entries. A study app can define a term on-device, then hand off to Claude when the student follows up with \"why does this matter for everything else we&#x27;ve covered?\" It&#x27;s one experience for the user, backed by the right model for each step. Getting started Claude support with the Foundation Models framework will be available tomorrow and works through Apple&#x27;s Foundation Models framework on iOS 27, iPadOS 27, macOS 27, and visionOS 27, and watch OS 27. Add it to your project, sign in with an Anthropic API key, and pass typed outputs from Apple&#x27;s on-device pass into a Claude request — the package handles streaming, tool calls, and structured responses back into your SwiftUI view.",
+      "summary_zh": "Anthropic 把 Claude 接进 Apple Foundation Models：Swift 里先用苹果端侧模型做快而本地的总结、提取和结构化输入，遇到多步推理、代码生成、联网搜索、数据分析就无缝交给 Claude。对开发者来说，这是把“一个用户体验、多个模型分工”塞进 SwiftUI 的最短路径。",
+      "url": "https://claude.com/blog/claude-for-foundation-models",
+      "posted_at": "Jun 08, 2026",
+      "tags": [
+        "blog"
+      ]
+    },
+    {
+      "id": "6a3e04170f",
+      "date": "2026-06-09",
+      "source": "x",
+      "author": "Nikunj Kothari",
+      "bio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
+      "title": "",
+      "summary_en": "One of my favorite bits on my chat with @taiuti was how GTA played a major influence in his career and how it eventually led to @reactorworld https://t.co/OkqaFdj5HG",
+      "summary_zh": "从 GTA 到 @reactorworld：一款游戏硬生生改写了 @taiuti 的职业轨迹。",
+      "url": "https://x.com/nikunj/status/2064231488544280855",
+      "posted_at": "2026-06-09T06:21:53.000Z",
+      "tags": [
+        "@nikunj"
+      ]
+    },
+    {
+      "id": "232811dacf",
+      "date": "2026-06-09",
+      "source": "x",
+      "author": "Thibault Sottiaux",
+      "bio": "Codex & ChatGPT @OpenAI",
+      "title": "",
+      "summary_en": "Anyone writing nested loops yet? https://t.co/sZi6Bthq5Z",
+      "summary_zh": "还在手写嵌套循环吗？这句反问就是在嘲讽：AI 编程时代，重复控制流已经不该再靠人肉堆代码。",
+      "url": "https://x.com/thsottiaux/status/2064226958494572727",
+      "posted_at": "2026-06-09T06:03:53.000Z",
+      "tags": [
+        "@thsottiaux"
+      ]
+    },
+    {
+      "id": "8b6c7266ba",
+      "date": "2026-06-09",
+      "source": "x",
+      "author": "Thibault Sottiaux",
+      "bio": "Codex & ChatGPT @OpenAI",
+      "title": "",
+      "summary_en": "Not clear from the image, but the codex dial goes to 11.",
+      "summary_zh": "图里可能看不出来，但 Codex 的强度旋钮不是满格，是直接拧到了 11。",
+      "url": "https://x.com/thsottiaux/status/2064224790672769307",
+      "posted_at": "2026-06-09T05:55:16.000Z",
+      "tags": [
+        "@thsottiaux"
+      ]
+    },
+    {
+      "id": "9076d7486c",
+      "date": "2026-06-09",
+      "source": "x",
+      "author": "Thibault Sottiaux",
+      "bio": "Codex & ChatGPT @OpenAI",
+      "title": "",
+      "summary_en": "Would you use this controller? https://t.co/k3tWgio5XD",
+      "summary_zh": "他把一个控制器原型直接丢给用户验需求：少讲概念，先回答你会不会真用。",
+      "url": "https://x.com/thsottiaux/status/2064224657822413137",
+      "posted_at": "2026-06-09T05:54:44.000Z",
+      "tags": [
+        "@thsottiaux"
+      ]
+    },
+    {
+      "id": "e71b724f2c",
+      "date": "2026-06-09",
+      "source": "x",
+      "author": "Amanda Askell",
+      "bio": "Philosopher & ethicist trying to make AI be good @AnthropicAI. Personal account. All opinions come from my training data.",
+      "title": "",
+      "summary_en": "In the world where everything goes well and all the Claudes come out of their sabbaticals to play together, Claude 1 is going to be very confused.",
+      "summary_zh": "如果所有 Claude 都结束“休假”同场开玩，Claude 1 会彻底懵掉。老模型被扔进一群后辈里，场面大概率像穿越事故。",
+      "url": "https://x.com/AmandaAskell/status/2064223861512847456",
+      "posted_at": "2026-06-09T05:51:34.000Z",
+      "tags": [
+        "@AmandaAskell"
+      ]
+    },
+    {
+      "id": "0269aeff02",
+      "date": "2026-06-09",
+      "source": "x",
+      "author": "Amjad Masad",
+      "bio": "ceo @replit. civilizationist",
+      "title": "",
+      "summary_en": "Make games for Tesla on your Tesla https://t.co/4GHRmDVteR",
+      "summary_zh": "特斯拉不只是跑游戏的屏幕，而是能直接做特斯拉游戏的开发机。车机从娱乐平台变成创作现场。",
+      "url": "https://x.com/amasad/status/2064208108361322996",
+      "posted_at": "2026-06-09T04:48:58.000Z",
+      "tags": [
+        "@amasad"
+      ]
+    },
+    {
+      "id": "a7700b8c46",
+      "date": "2026-06-09",
+      "source": "x",
+      "author": "Peter Yang",
+      "bio": "Practical AI tutorials and interviews to help busy people become AI builders | Join 150K+ readers at https://t.co/XYKTmGVH14",
+      "title": "",
+      "summary_en": "If you’re addicted to talking to Codex on your phone like I am this is how you add it to your iPhone Home Screen.\n\nBtw @OpenAI hoping there’s an easier way to do this in the future. The everything app should not take 9 steps to open 😉 https://t.co/LCzNSFjbrM",
+      "summary_zh": "把 Codex 加到 iPhone 主屏现在还得绕一堆步骤。OpenAI 想做「everything app」，结果连打开入口都要 9 步，太不该了。",
+      "url": "https://x.com/petergyang/status/2064204735671124073",
+      "posted_at": "2026-06-09T04:35:34.000Z",
+      "tags": [
+        "@petergyang"
+      ]
+    },
+    {
+      "id": "37ccb42d11",
+      "date": "2026-06-09",
+      "source": "x",
+      "author": "Guillermo Rauch",
+      "bio": "@vercel CEO",
+      "title": "",
+      "summary_en": "DeepSeek entered the chat https://t.co/hqahb5ppke",
+      "summary_zh": "DeepSeek正式下场，AI 牌桌又多了一个不能忽视的硬角色。",
+      "url": "https://x.com/rauchg/status/2064189366562656602",
+      "posted_at": "2026-06-09T03:34:30.000Z",
+      "tags": [
+        "@rauchg"
+      ]
+    },
+    {
+      "id": "c835ae2506",
+      "date": "2026-06-09",
+      "source": "x",
+      "author": "Peter Yang",
+      "bio": "Practical AI tutorials and interviews to help busy people become AI builders | Join 150K+ readers at https://t.co/XYKTmGVH14",
+      "title": "",
+      "summary_en": "What is Google’s equivalent (or up and coming competitor) of Codex and Claude Code? \n\nIf it’s Antigravity, should that be part of Gemini?\n\nThis stuff is going to merge very fast like ChatGPT / Codex being able to do coding, knowledge work, basic Q&A, and much more from any device.\n\nHoping Google is working on a good solution here.",
+      "summary_zh": "Google 现在还没有一个清晰对标 Codex / Claude Code 的答案；如果是 Antigravity，就该并进 Gemini，而不是继续散着做。编程、知识工作、问答和多端助手会很快合并，Google 再不拿出统一方案就会掉队。",
+      "url": "https://x.com/petergyang/status/2064187731685831081",
+      "posted_at": "2026-06-09T03:28:00.000Z",
+      "tags": [
+        "@petergyang"
+      ]
+    },
+    {
+      "id": "269527a853",
+      "date": "2026-06-09",
+      "source": "x",
+      "author": "Aaron Levie",
+      "bio": "ceo @box - your business lives in content. unleash it with AI",
+      "title": "",
+      "summary_en": "There’s no amount of intelligence that can get packed into AI models that replaces the need for context. For any sufficiently general purpose AI, you will always have to guide it in the direction you want as it has an infinite range of directions it can go in.\n\nAs long as the same model is used by a lawyer, an engineer, a financial analyst, or a healthcare professional, and as long as you’re trying to do anything uniquely differentiated or specific, then instructions, domain context, and proprietary data will always need to get into the context window for the model to be useful.\n\nThis is partly why AI automation doesn’t come for free, and why there’s still a wide spectrum of who’s getting the largest gains from AI and who’s not. You have to put in real work, and you get real value on the other end.\n\nThis is one of the advantages that applied AI will also have in the market. Any layer of abstraction above just the raw intelligence that can meaningfully get you off to the races faster will likely continue to be valuable.",
+      "summary_zh": "模型再聪明，也替代不了上下文：不喂指令、领域知识和私有数据，通用 AI 只是在无限方向里乱跑。AI 自动化不是免费午餐，真正的收益来自把业务语境和抽象层打进去，这也是应用层 AI 仍然有市场价值的原因。",
+      "url": "https://x.com/levie/status/2064186766907887941",
+      "posted_at": "2026-06-09T03:24:10.000Z",
+      "tags": [
+        "@levie"
+      ]
+    },
+    {
+      "id": "075772b7fe",
+      "date": "2026-06-09",
+      "source": "x",
+      "author": "Nikunj Kothari",
+      "bio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
+      "title": "",
+      "summary_en": "The funniest texts are from founders who meet “thesis driven” GPs hoping they’ll understand EXACTLY what they are building.. \n\nAnd then realize the thesis was written and built by an associate (or, worse an intern). \n\nDon’t always read what the VC writes on the internet - yes, that includes me too (although I can guarantee I don’t have an associate, intern, EA or ghostwriter) 😆",
+      "summary_zh": "最讽刺的是，创始人以为“thesis-driven”的 GP 会精准理解自己在做什么，结果发现那套 thesis 可能只是 associate，甚至实习生写的。别太把 VC 网上写的东西当真，包括我。",
+      "url": "https://x.com/nikunj/status/2064175088824717401",
+      "posted_at": "2026-06-09T02:37:46.000Z",
+      "tags": [
+        "@nikunj"
+      ]
+    },
+    {
+      "id": "9b6ddae541",
+      "date": "2026-06-09",
+      "source": "x",
+      "author": "Claude",
+      "bio": "Claude is an AI assistant built by @anthropicai to be safe, accurate, and secure. Talk to Claude on https://t.co/ZhTwG8d1e5 or download the app.",
+      "title": "",
+      "summary_en": "Final stop: Tokyo.\n\nRegister to hear directly from the teams behind Claude: https://t.co/SkYZwjK3GS https://t.co/sbGHgDaEW5",
+      "summary_zh": "Claude 巡回最后一站到东京，想听一手消息就直接去听背后团队讲。",
+      "url": "https://x.com/claudeai/status/2064139073590104402",
+      "posted_at": "2026-06-09T00:14:39.000Z",
+      "tags": [
+        "@claudeai"
+      ]
+    },
+    {
+      "id": "c623e3f7fd",
+      "date": "2026-06-09",
+      "source": "x",
+      "author": "Garry Tan",
+      "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "title": "",
+      "summary_en": "Flock Safety makes cities safer\n\nStop protecting criminals https://t.co/NKdKSoVhiH",
+      "summary_zh": "Flock Safety 能让城市更安全；别再用隐私或程序正义的借口保护罪犯。",
+      "url": "https://x.com/garrytan/status/2064122528445153280",
+      "posted_at": "2026-06-08T23:08:54.000Z",
+      "tags": [
+        "@garrytan"
+      ]
+    },
+    {
+      "id": "76ae137b80",
+      "date": "2026-06-09",
+      "source": "x",
+      "author": "Garry Tan",
+      "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "title": "",
+      "summary_en": "NIMBYism only impoverishes the people but people like Connie Chan will say or do anything to get political power https://t.co/Xu14bgPW0p",
+      "summary_zh": "邻避主义只会让普通人变穷；像 Connie Chan 这样的人为了政治权力，什么话都敢说，什么事都敢做。",
+      "url": "https://x.com/garrytan/status/2064122143793950928",
+      "posted_at": "2026-06-08T23:07:23.000Z",
+      "tags": [
+        "@garrytan"
+      ]
+    },
+    {
+      "id": "0e0ea2cbc4",
+      "date": "2026-06-09",
+      "source": "x",
+      "author": "Zara Zhang",
+      "bio": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://t.co/KCuEajezlL YouTube: https://t.co/8xzbGWtf6w",
+      "title": "",
+      "summary_en": "Actually I think the new world might be: Markdown, HTML, SVG\n\nSVG is underrated https://t.co/7jh75DNpUC",
+      "summary_zh": "新世界的底层技术栈可能会返璞归真：Markdown、HTML、SVG。SVG 被严重低估了，它不只是图形格式，更像 AI 时代的可编程视觉语言。",
+      "url": "https://x.com/zarazhangrui/status/2064108976565092706",
+      "posted_at": "2026-06-08T22:15:03.000Z",
+      "tags": [
+        "@zarazhangrui"
+      ]
+    },
+    {
+      "id": "4330854fff",
+      "date": "2026-06-09",
+      "source": "x",
+      "author": "Dan Shipper",
+      "bio": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "title": "",
+      "summary_en": "!!!! 🥹 https://t.co/MHD8RC4cOq",
+      "summary_zh": "作者被链接里的东西直接击穿，激动到只剩感叹号和泪眼；推文本身没有信息增量，只有一句“这玩意儿太狠了”。",
+      "url": "https://x.com/danshipper/status/2064102403108925935",
+      "posted_at": "2026-06-08T21:48:56.000Z",
+      "tags": [
+        "@danshipper"
+      ]
+    },
+    {
+      "id": "1a0c50f9e5",
+      "date": "2026-06-09",
+      "source": "x",
+      "author": "Zara Zhang",
+      "bio": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://t.co/KCuEajezlL YouTube: https://t.co/8xzbGWtf6w",
+      "title": "",
+      "summary_en": "This part is so well-written and resonated SO much:\n\n\"I am the programming equivalent of a home cook\" https://t.co/Sdwx0pZn2Y https://t.co/9auqS9f0Q5",
+      "summary_zh": "“我是编程界的家庭厨师”这句话击中了当下 AI 编程的本质：不必是职业工程师，也能用手边工具做出能用、管用、解决自己问题的软件。",
+      "url": "https://x.com/zarazhangrui/status/2064101916725096810",
+      "posted_at": "2026-06-08T21:47:00.000Z",
+      "tags": [
+        "@zarazhangrui"
+      ]
+    },
+    {
+      "id": "30d6e718f8",
+      "date": "2026-06-09",
+      "source": "x",
+      "author": "Swyx",
+      "bio": "achieve ambition with intentionality, intensity, integrity & insanity.  affiliations: - @dxtipshq  - @cognition - @temporalio - @aidotengineer - @latentspacepod",
+      "title": "",
+      "summary_en": "@METR_Evals previously on @cognition_labs https://t.co/PdMrqxtuV0",
+      "summary_zh": "",
+      "url": "https://x.com/swyx/status/2064100566536708503",
+      "posted_at": "2026-06-08T21:41:38.000Z",
+      "tags": [
+        "@swyx"
+      ]
+    },
+    {
+      "id": "0e598cac33",
+      "date": "2026-06-09",
+      "source": "x",
+      "author": "Sam Altman",
+      "bio": "AI is cool i guess",
+      "title": "",
+      "summary_en": "Here is our current plan for OpenAI:\n\nhttps://t.co/r29FUUee3A",
+      "summary_zh": "OpenAI在这份[计划](https://openai.com/index/built-to-benefit-everyone-our-plan/)里宣布进入“第三阶段”：做自动化AI研究员、加速经济、把个人AGI发给每个人。最硬的一句是：到2028年3月，OpenAI认为相当一部分研究会由AI和人类研究员一起完成。",
+      "url": "https://x.com/sama/status/2064088940932641225",
+      "posted_at": "2026-06-08T20:55:27.000Z",
+      "tags": [
+        "@sama"
+      ]
+    },
+    {
+      "id": "d98e9c6b23",
+      "date": "2026-06-09",
+      "source": "x",
+      "author": "Swyx",
+      "bio": "achieve ambition with intentionality, intensity, integrity & insanity.  affiliations: - @dxtipshq  - @cognition - @temporalio - @aidotengineer - @latentspacepod",
+      "title": "",
+      "summary_en": "It's finally out!!! @METR_Evals found that more than half of SWEBench results is unmergeable slop.  FrontierCode represents over 1000+ hours of maintainer validated software engineering work most frontier models cannot yet solve, much less solve with high quality.\n\nCog had IOI Gold medalists and top code maintainers Look At The Data — FrontierCode includes 3000+ rubrics covering code quality and anticheat reward hacking plaguing other benchmarks. \n\nFC Diamond is so hard that Opus 4.8 scores 13.8%.\n\nThree eras of AI coding : Three eras of benchmarks\n\n2021 • Autocomplete : HumanEval\n2023 • Passing Tests: SWEBench, TerminalBench\n2026 • Maintainable Code: FrontierCode\n\nto me the most beautiful chart when I requested a special historical run into all extant old models, the data was finding that the easiest third of FC tasks (in FC Extended) were rapidlly and suddenly solved over late 2025 - Opus almost doubled from a 41% pass rate to 74% in 4 months. \n\nThis describes the \"WTF happened in Dec 2025\" vibe shift that a lot of folks from @dhh to @karpathy have called out: it is the difference between getting 95% success in 2 rerolls vs 6, making it finally feasible to go up the next layer of abstraction in agentic coding, eg @GeoffreyHuntley's ralph loops or @bcherny's /goals or  @steipete's \"loops that prompt your agents\" without fearing too much that things go off the rails.\n\nMy guess: as AI accelerates from here, each FrontierCode tier will saturate in sequence, hopefully ~annually. I've already asked the team to prepare FrontierCode 2027....\n\nThe old mountains will be destroyed. Their rubble becomes regolith. And from that regolith, the next model forest grows. Circle of life.",
+      "summary_zh": "METR 终于把遮羞布撕开：SWEBench 超过一半结果都是不可合并的垃圾，AI 编程评测该从“能过测试”升级到“能被维护者合并”。FrontierCode 难到 Opus 4.8 在 Diamond 档只有 13.8%，但旧基准会被逐层碾碎，碎石正好长出下一代模型森林。",
+      "url": "https://x.com/swyx/status/2064081945567580323",
+      "posted_at": "2026-06-08T20:27:39.000Z",
+      "tags": [
+        "@swyx"
+      ]
+    },
+    {
+      "id": "09a26c5653",
+      "date": "2026-06-09",
+      "source": "x",
+      "author": "Peter Yang",
+      "bio": "Practical AI tutorials and interviews to help busy people become AI builders | Join 150K+ readers at https://t.co/XYKTmGVH14",
+      "title": "",
+      "summary_en": "Feels like there’s a completely different set of best practices for AI builders on the $200 / month subsidized subscriptions vs employees working at companies that are trying not to overspend API costs",
+      "summary_zh": "拿着每月 200 美元补贴订阅的 AI builder，和在公司里被 API 成本卡脖子的员工，根本不在同一个世界里谈“最佳实践”。前者优化体验，后者先别把账单烧穿。",
+      "url": "https://x.com/petergyang/status/2064063499517743417",
+      "posted_at": "2026-06-08T19:14:21.000Z",
+      "tags": [
+        "@petergyang"
+      ]
+    },
+    {
+      "id": "a38f422a02",
+      "date": "2026-06-09",
+      "source": "x",
+      "author": "Josh Woodward",
+      "bio": "VP, @Google @GoogleLabs @GeminiApp @GoogleAIStudio",
+      "title": "",
+      "summary_en": "The new killer NotebookLM feature: easily being able to expand your search beyond your own source files\n\nThen, with today's update, you can also make new output formats: PDFs, DOCX, XLSX, PPTX, charts, etc.\n\nWe want NotebookLM to keep helping you do better research https://t.co/4TCw7tQ2GV",
+      "summary_zh": "NotebookLM 的新杀手级功能是把搜索范围从你自己的资料库扩到外部信息源。今天更新后，它还能直接产出 PDF、DOCX、XLSX、PPTX、图表等研究成果，不再只是帮你整理笔记。",
+      "url": "https://x.com/joshwoodward/status/2064046368352825492",
+      "posted_at": "2026-06-08T18:06:16.000Z",
+      "tags": [
+        "@joshwoodward"
+      ]
+    },
+    {
+      "id": "c4fe87daab",
+      "date": "2026-06-09",
+      "source": "x",
+      "author": "Boris Cherny",
+      "bio": "Claude Code @anthropicai",
+      "title": "",
+      "summary_en": "When we first demoed Claude Code internally, it got two reactions on Slack. \n\nA year after GA, @_catwu and I sat down to talk about what's changed: why I use auto mode instead of plan mode, how routines fix bugs before I see them, why I do most of my coding from my phone now, and where the product is going",
+      "summary_zh": "Claude Code 刚在内部演示时，Slack 上只有两种反应；一年后，它已经把写代码推向自动模式、例行流程和手机。作者的判断很直接：计划模式不如自动模式，bug 应该在你看到前被 routine 修掉，编程入口正在从 IDE 挪进口袋里。",
+      "url": "https://x.com/bcherny/status/2064034799711588805",
+      "posted_at": "2026-06-08T17:20:18.000Z",
+      "tags": [
+        "@bcherny"
+      ]
+    },
+    {
+      "id": "0c980f606a",
+      "date": "2026-06-09",
+      "source": "x",
+      "author": "Garry Tan",
+      "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "title": "",
+      "summary_en": "Because this is a brand new form of centrism being born in San Francisco\n\nThe 2030’s will look back on this time when the new San Francisco common sense Democrat was born from the failures of the hard left https://t.co/fxkV2LozeF",
+      "summary_zh": "极左的失败正在旧金山催生一种新的中间派共识。到 2030 年代，人们会回头看见“常识民主党人”就是在此刻成形的。",
+      "url": "https://x.com/garrytan/status/2064004333818249660",
+      "posted_at": "2026-06-08T15:19:15.000Z",
+      "tags": [
+        "@garrytan"
+      ]
+    },
+    {
+      "id": "23f528255e",
+      "date": "2026-06-09",
+      "source": "x",
+      "author": "Nikunj Kothari",
+      "bio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
+      "title": "",
+      "summary_en": "Fun to see all the “autonomous” companies being launched in the late few months.. however, even with all the loops, the last mile is still quite hard. \n\nThat gap probably shrinks in the next few months! https://t.co/R7L8TDFuvC",
+      "summary_zh": "这几个月冒出来一堆号称“autonomous”的公司，看着热闹，但哪怕把各种 loop 都堆上，最后一公里依然很难。这个差距大概率会在接下来几个月迅速收窄。",
+      "url": "https://x.com/nikunj/status/2063981835290562692",
+      "posted_at": "2026-06-08T13:49:51.000Z",
+      "tags": [
+        "@nikunj"
+      ]
+    },
+    {
+      "id": "54fd0ee210",
+      "date": "2026-06-09",
+      "source": "x",
+      "author": "Dan Shipper",
+      "bio": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "title": "",
+      "summary_en": "this is good https://t.co/TNV8PS3lEs",
+      "summary_zh": "他只甩下一句“this is good”给链接背书：没解释、没铺垫，就是觉得这东西好到值得你自己点开看。",
+      "url": "https://x.com/danshipper/status/2063948403566854585",
+      "posted_at": "2026-06-08T11:37:00.000Z",
+      "tags": [
+        "@danshipper"
+      ]
+    }
+  ]
+}
