@@ -1,0 +1,148 @@
+{
+  "date": "2026-06-09",
+  "items": [
+    {
+      "id": "2026-06-09-1",
+      "title": "AI 编程评测该重做了",
+      "angle": "从 SWEBench 过测但不可合并的反差切入，写 AI coding 的真实门槛正在从“能跑”变成“能进主干”。",
+      "opening": "AI 写代码最尴尬的不是失败，而是看起来成功。Swyx 转述 METR 的结论：SWEBench 里超过一半结果都是维护者不可能合并的垃圾。也就是说，很多 benchmark 分数测到的只是幻觉里的工程能力。",
+      "story_hook": {
+        "challenge": "模型在旧基准上越刷越高，但真实仓库需要的是可维护、可 review、能合并的改动。",
+        "twist": "下一代 AI 编程评测不一定更像考试，反而更像开源维护者的 PR 审核。"
+      },
+      "takeaway": "开发者评估 coding agent 时，别只看 pass rate，要加入 mergeability、diff 质量、回归风险和维护者接受度。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Swyx 关于 METR 与 SWEBench 可合并性的讨论",
+          "url": "https://x.com/swyx/status/2064081945567580323"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub weekly 开发者工具 ECC：skills、memory、security、research-first development",
+          "url": "https://github.com/affaan-m/ECC"
+        },
+        {
+          "tag": "pulse",
+          "ref": "NousResearch/hermes-agent 一周新增 11747 星",
+          "url": "https://github.com/NousResearch/hermes-agent"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-09-2",
+      "title": "Token 压缩突然值钱了",
+      "angle": "把 headroom 的暴涨和 Aaron Levie 的“上下文不是免费午餐”连起来，写 AI 基础设施的下一笔钱在少看、准看、便宜看。",
+      "opening": "今天 GitHub 最像商业机会的项目，不是新模型，而是一个帮模型少读废话的压缩层。headroom 一周新增 14266 星，卖点是把日志、工具输出、RAG chunk 先压缩再喂给 LLM。Aaron Levie 那句话正好补刀：模型再聪明，没有业务上下文也会乱跑。",
+      "story_hook": {
+        "challenge": "AI agent 越自动，越容易把 token 烧在重复日志、无效检索和低价值上下文里。",
+        "twist": "真正能收费的可能不是更强 agent，而是给 agent 装一个成本刹车。"
+      },
+      "takeaway": "团队做 AI 工程时，应把 token 审计、上下文压缩、私有知识注入和 MCP 网关当成基础设施预算。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Aaron Levie 谈上下文、领域知识和私有数据才是 AI 自动化价值来源",
+          "url": "https://x.com/levie/status/2064186766907887941"
+        },
+        {
+          "tag": "pulse",
+          "ref": "chopratejas/headroom 一周新增 14266 星",
+          "url": "https://github.com/chopratejas/headroom"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Google Trends：headroom claude code 关联词上升",
+          "url": "https://trends.google.com/trends/explore?q=headroom&date=now+7-d"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-09-3",
+      "title": "AI 编程入口在变小",
+      "angle": "从 Codex 加到 iPhone 主屏还要 9 步切入，写 AI coding 的战争正在从 IDE 迁移到手机、入口和 routine 自动化。",
+      "opening": "OpenAI 想做 everything app，但 Peter Yang 吐槽：把 Codex 加到 iPhone 主屏还要绕 9 步。另一边，Boris Cherny 说 Claude Code 已经从内部演示，走到了自动模式、例行流程和手机。AI 编程的下一场竞争，可能不是谁的模型更会写代码，而是谁离用户手指更近。",
+      "story_hook": {
+        "challenge": "AI coding 工具越来越强，但入口仍然像开发者玩具，移动端、流程化和日常修 bug 体验还没打通。",
+        "twist": "真正的杀手级产品形态，可能不是更大的 IDE，而是一个随时能接管小任务的口袋入口。"
+      },
+      "takeaway": "做 AI coding 产品时，要把启动成本、移动端任务、自动修复流程和通知闭环当成核心体验，而不是附属功能。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Peter Yang 吐槽 Codex 加到 iPhone 主屏需要 9 步",
+          "url": "https://x.com/petergyang/status/2064204735671124073"
+        },
+        {
+          "tag": "builders",
+          "ref": "Boris Cherny 谈 Claude Code 从演示走向自动模式、routine 和手机",
+          "url": "https://x.com/bcherny/status/2064034799711588805"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Google Trends：codex 品牌词下滑但 codex cli 上升",
+          "url": "https://trends.google.com/trends/explore?q=codex+cli&date=now+7-d"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-09-4",
+      "title": "苹果在教模型分工",
+      "angle": "从 Claude 接入 Apple Foundation Models 写起，讲未来 AI app 不是单模型崇拜，而是端侧小模型和云端大模型的体验编排。",
+      "opening": "Anthropic 今天给 Apple 开发者展示了一条很现实的路：Swift 里先用端侧模型做总结、提取、结构化，复杂推理再交给 Claude。用户看到的是一个体验，开发者背后跑的是多个模型分工。这比“选哪个模型最强”更接近 AI app 的真实形态。",
+      "story_hook": {
+        "challenge": "端侧模型快、私密、便宜，但复杂任务不够强；云端模型强，却更贵、更慢、更依赖网络。",
+        "twist": "赢家不是押中单一模型的人，而是把多个模型藏进一个顺滑工作流的人。"
+      },
+      "takeaway": "开发 AI app 时，应按任务拆模型：本地处理低风险高频任务，云端处理复杂推理、代码生成、搜索和数据分析。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Claude Blog：Claude 接入 Apple Foundation Models framework",
+          "url": "https://claude.com/blog/claude-for-foundation-models"
+        },
+        {
+          "tag": "pulse",
+          "ref": "HuggingFace：nvidia/LocateAnything-3B 今日热度突出",
+          "url": "https://huggingface.co/nvidia/LocateAnything-3B"
+        },
+        {
+          "tag": "pulse",
+          "ref": "HuggingFace：google/gemma-4-12B-it 走 any-to-any 路线",
+          "url": "https://huggingface.co/google/gemma-4-12B-it"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-09-5",
+      "title": "VC thesis 别太当真",
+      "angle": "把 Nikunj 对 thesis-driven VC 的讽刺和 AI 工具定价信号放在一起，写 builder 应该少追叙事，多证明可审计节省。",
+      "opening": "创始人最容易误判的一件事，是以为 VC 网上的 thesis 真的代表投资判断。Nikunj Kothari 今天说得很直：那套 thesis 可能只是 associate，甚至实习生写的。对 AI builder 来说，这个提醒尤其扎心，因为今天最强的机会恰恰不是宏大叙事，而是省 token、省时间、省切换成本。",
+      "story_hook": {
+        "challenge": "AI 创业者喜欢拿行业叙事包装产品，但买单的人更在意账单、节省和可验证需求。",
+        "twist": "越不像“改变世界”的小工具，反而越可能先收到钱。"
+      },
+      "takeaway": "融资和定价都要回到可量化证据：节省多少 token、少多少人工整理、缩短多少流程，而不是复述 VC 的热门 thesis。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Nikunj Kothari 讽刺 thesis-driven VC 可能只是 associate 或实习生写的",
+          "url": "https://x.com/nikunj/status/2064175088824717401"
+        },
+        {
+          "tag": "pulse",
+          "ref": "pricing-revenue：AI 工具定价应从能力叙事回到可审计节省",
+          "url": "https://www.morningstar.com/stocks/why-we-think-spacex-ipo-is-overvalued?content_id=20768396545"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt：AgentOS 把 agent 包装成控制层和工作流",
+          "url": "https://www.producthunt.com/products/agentos-run-agents-like-a-company"
+        }
+      ]
+    }
+  ],
+  "notes": "今日主线偏 agent 基础设施和 AI coding 工作流，缺少独立开发者真实营收数据；选题应少写模型发布，多写成本、入口、评测和可收费断点。",
+  "generated_at": "2026-06-09T09:20:05+00:00",
+  "model": "gpt-5.5"
+}
