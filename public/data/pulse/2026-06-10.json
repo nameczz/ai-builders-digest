@@ -1,0 +1,230 @@
+{
+  "date": "2026-06-10",
+  "top3": [],
+  "intro": "（无 LLM 编辑模式：以下为原始数据归档，建议安装 codex CLI 重新生成。）",
+  "sections": [
+    {
+      "id": "discovery",
+      "title": "发现机会",
+      "blocks": [
+        {
+          "id": "indie-products",
+          "heading": "今天有哪些独立开发者的新产品？",
+          "summary_md": "（自动归档模式）今日 Show HN 与 Product Hunt 上线的独立开发者产品列表。",
+          "items": [
+            {
+              "title": "Hero Studio Photos",
+              "url": "https://www.producthunt.com/products/hero-9",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Screen Charm",
+              "url": "https://www.producthunt.com/products/screen-charm",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Axol",
+              "url": "https://www.producthunt.com/products/axol",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "SeaTicket",
+              "url": "https://www.producthunt.com/products/seaticket",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "AGNT.Hub",
+              "url": "https://www.producthunt.com/products/agnt-hub",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "veridive",
+              "url": "https://www.producthunt.com/products/veridive-discover-the-spoken-web",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Zingle",
+              "url": "https://www.producthunt.com/products/zingle-2",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "TypingMind",
+              "url": "https://www.producthunt.com/products/typing-mind",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Publora",
+              "url": "https://www.producthunt.com/products/publora",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Spotlight by Backplanes",
+              "url": "https://www.producthunt.com/products/backplanes",
+              "source": "ProductHunt"
+            }
+          ],
+          "takeaway": ""
+        },
+        {
+          "id": "github-traction",
+          "heading": "GitHub 上哪些高增长开源项目还没有商业化？",
+          "summary_md": "（自动归档模式）本周 GitHub Trending 高速增长的仓库。",
+          "items": [
+            {
+              "title": "chopratejas/headroom",
+              "url": "https://github.com/chopratejas/headroom",
+              "source": "GitHub",
+              "score": 15060
+            },
+            {
+              "title": "mvanhorn/last30days-skill",
+              "url": "https://github.com/mvanhorn/last30days-skill",
+              "source": "GitHub",
+              "score": 9307
+            },
+            {
+              "title": "microsoft/markitdown",
+              "url": "https://github.com/microsoft/markitdown",
+              "source": "GitHub",
+              "score": 8903
+            },
+            {
+              "title": "openai/plugins",
+              "url": "https://github.com/openai/plugins",
+              "source": "GitHub",
+              "score": 1144
+            },
+            {
+              "title": "Panniantong/Agent-Reach",
+              "url": "https://github.com/Panniantong/Agent-Reach",
+              "source": "GitHub",
+              "score": 4361
+            },
+            {
+              "title": "Leonxlnx/taste-skill",
+              "url": "https://github.com/Leonxlnx/taste-skill",
+              "source": "GitHub",
+              "score": 7787
+            },
+            {
+              "title": "lfnovo/open-notebook",
+              "url": "https://github.com/lfnovo/open-notebook",
+              "source": "GitHub",
+              "score": 4245
+            },
+            {
+              "title": "Open-LLM-VTuber/Open-LLM-VTuber",
+              "url": "https://github.com/Open-LLM-VTuber/Open-LLM-VTuber",
+              "source": "GitHub",
+              "score": 2642
+            },
+            {
+              "title": "affaan-m/ECC",
+              "url": "https://github.com/affaan-m/ECC",
+              "source": "GitHub",
+              "score": 9025
+            },
+            {
+              "title": "aquasecurity/trivy",
+              "url": "https://github.com/aquasecurity/trivy",
+              "source": "GitHub",
+              "score": 951
+            }
+          ],
+          "takeaway": ""
+        }
+      ]
+    },
+    {
+      "id": "tech-stack",
+      "title": "技术选型",
+      "blocks": [
+        {
+          "id": "hf-models",
+          "heading": "HuggingFace 上最热的模型能做什么消费级产品？",
+          "summary_md": "（自动归档模式）HuggingFace trending 模型列表。",
+          "items": [
+            {
+              "title": "google/gemma-4-12B-it",
+              "url": "https://huggingface.co/google/gemma-4-12B-it",
+              "source": "HuggingFace",
+              "score": 755
+            },
+            {
+              "title": "nvidia/LocateAnything-3B",
+              "url": "https://huggingface.co/nvidia/LocateAnything-3B",
+              "source": "HuggingFace",
+              "score": 648
+            },
+            {
+              "title": "unsloth/gemma-4-12b-it-GGUF",
+              "url": "https://huggingface.co/unsloth/gemma-4-12b-it-GGUF",
+              "source": "HuggingFace",
+              "score": 498
+            },
+            {
+              "title": "google/gemma-4-12B",
+              "url": "https://huggingface.co/google/gemma-4-12B",
+              "source": "HuggingFace",
+              "score": 454
+            },
+            {
+              "title": "ideogram-ai/ideogram-4-fp8",
+              "url": "https://huggingface.co/ideogram-ai/ideogram-4-fp8",
+              "source": "HuggingFace",
+              "score": 429
+            },
+            {
+              "title": "bosonai/higgs-audio-v3-tts-4b",
+              "url": "https://huggingface.co/bosonai/higgs-audio-v3-tts-4b",
+              "source": "HuggingFace",
+              "score": 294
+            },
+            {
+              "title": "ideogram-ai/ideogram-4-nf4",
+              "url": "https://huggingface.co/ideogram-ai/ideogram-4-nf4",
+              "source": "HuggingFace",
+              "score": 282
+            },
+            {
+              "title": "nvidia/nemotron-3.5-asr-streaming-0.6b",
+              "url": "https://huggingface.co/nvidia/nemotron-3.5-asr-streaming-0.6b",
+              "source": "HuggingFace",
+              "score": 278
+            },
+            {
+              "title": "HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
+              "url": "https://huggingface.co/HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
+              "source": "HuggingFace",
+              "score": 246
+            },
+            {
+              "title": "sapientinc/HRM-Text-1B",
+              "url": "https://huggingface.co/sapientinc/HRM-Text-1B",
+              "source": "HuggingFace",
+              "score": 238
+            }
+          ],
+          "takeaway": ""
+        }
+      ]
+    },
+    {
+      "id": "competition",
+      "title": "竞争情报",
+      "blocks": []
+    },
+    {
+      "id": "trends",
+      "title": "趋势判断",
+      "blocks": []
+    },
+    {
+      "id": "actions",
+      "title": "行动触发",
+      "blocks": []
+    }
+  ],
+  "generated_at": "2026-06-10T09:20:10+00:00",
+  "reddit_highlights": []
+}
