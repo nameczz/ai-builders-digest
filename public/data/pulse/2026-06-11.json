@@ -1,0 +1,104 @@
+{
+  "date": "2026-06-11",
+  "top3": [],
+  "intro": "（无 LLM 编辑模式：以下为原始数据归档，建议安装 codex CLI 重新生成。）",
+  "sections": [
+    {
+      "id": "discovery",
+      "title": "发现机会",
+      "blocks": [
+        {
+          "id": "indie-products",
+          "heading": "今天有哪些独立开发者的新产品？",
+          "summary_md": "（自动归档模式）今日 Show HN 与 Product Hunt 上线的独立开发者产品列表。",
+          "items": [
+            {
+              "title": "DockLog",
+              "url": "https://www.producthunt.com/products/docklog",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Easybilling",
+              "url": "https://www.producthunt.com/products/easybilling",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Bugpilot",
+              "url": "https://www.producthunt.com/products/bugpilot-browser-bugs-to-ai-markdown",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Bond",
+              "url": "https://www.producthunt.com/products/bond-12",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Terminal Mode by Even Realities",
+              "url": "https://www.producthunt.com/products/terminal-mode-by-even-realities",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "OwnClip",
+              "url": "https://www.producthunt.com/products/ownclip",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Tabstack Structured Extraction",
+              "url": "https://www.producthunt.com/products/tabstack",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "SpatialChat",
+              "url": "https://www.producthunt.com/products/spatialchat",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Riven",
+              "url": "https://www.producthunt.com/products/riven-reach-muscle-failure",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Respan Gateway",
+              "url": "https://www.producthunt.com/products/keywords-ai",
+              "source": "ProductHunt"
+            }
+          ],
+          "takeaway": ""
+        }
+      ]
+    },
+    {
+      "id": "tech-stack",
+      "title": "技术选型",
+      "blocks": []
+    },
+    {
+      "id": "competition",
+      "title": "竞争情报",
+      "blocks": []
+    },
+    {
+      "id": "trends",
+      "title": "趋势判断",
+      "blocks": []
+    },
+    {
+      "id": "actions",
+      "title": "行动触发",
+      "blocks": []
+    }
+  ],
+  "generated_at": "2026-06-11T09:29:05+00:00",
+  "reddit_highlights": [
+    {
+      "heading": "今天有哪些 solo-founder 产品发布？",
+      "body_md": "**🔍 信号**：新的发布热度集中在 AI 工作流 可见性和小而具体的工具上：[Publora](https://www.producthunt.com/products/publora) 获得 87 条 Product Hunt 评论，[Spotlight by Backplanes](https://www.producthunt.com/products/backplanes) 获得 102 条，[Extend UI](https://www.extend.ai/ui) 引发 43 条 Hacker News 评论，Indie Hackers 上的 [Achiv](https://www.indiehackers.com/product/achiv?post=jfi5NUo23sJPtPDY6kwE) 报告已有 2 个付费客户和 $128 MRR。\n\n**白话说：** 小发布会赢，是因为它们直接告诉买家：到底会发布、报告或检查出什么。\n\n今天最强的 solo-founder 表面，不是某个炫目的消费者应用，而是一种模式：把模糊的 AI 活动变成具体产物。[Publora](https://www.producthunt.com/products/publora) 把自己卖成 agent 时代的发布 API，意思是把社交发布和分发打包成基础设施，供能代表用户行动的软件调用。[Spotlight by Backplanes](https://www.producthunt.com/products/backplanes) 更接近今天的构建信号：它为 Claude Code 和 Codex 生成会话报告，帮助团队在 assistant 运行后改进代码工作。\n\n在 Hacker News 上，[Extend UI](https://www.extend.ai/ui) 让文档应用界面看起来像一个产品细分，而不是组件堆。@dvt 说他们正在做一个本地 AI 文档工作流工具，需要一种更好的方式查看 `PDF` 和 `DOCX` 输出，而不用打开 Word 或 PowerPoint。这是一句买家语言。它说清了文件类型、工作流和痛点。\n\nIndie Hackers 加上了小钱现实校验。[Achiv](https://www.indiehackers.com/product/achiv?post=jfi5NUo23sJPtPDY6kwE) 7 个月后有 2 个付费客户和 $128 MRR，而 Reddit 上 `Voremi` 创始人报告 480 个用户、2 个订阅者和 $11 MRR。发布市场仍然奖励精致度，但创始人也在承认早期收入可以薄到什么程度。\n\n**关键判断**：发布一个收据形态的产品，而不是模糊的 AI 演示；点明买家会拿到的具体产物，以及它帮助他们做出的决定。\n\n**反向视角**：Product Hunt 热度可能更奖励发布手艺而非留存，所以要用一个愿意发送真实工作流数据的买家来验证。\n\n---",
+      "source_url": "https://raw.githubusercontent.com/BuilderPulse/BuilderPulse/main/zh/2026/2026-06-11.md"
+    },
+    {
+      "heading": "Indie 开发者在讨论哪些收入和定价问题？",
+      "body_md": "**🔍 信号**：创始人的钱话题横跨 Reddit 上 $68 MRR 的嫉妒帖、`Voremi` 的 480 个用户和 $11 MRR、`GoMind AI` 两周内 $236.50、Indie Hackers 上 [Achiv](https://www.indiehackers.com/product/achiv?post=jfi5NUo23sJPtPDY6kwE) 的 $128 MRR，以及 $30K MRR、$4K/mo、$10K/mo、$1.3M ARR 和 $11M ARR 的反复故事。\n\n**白话说：** 公开成功故事很大，但大多数 builder 仍在争取前几个愿意付钱的陌生人。\n\n这个对比有用。Indie Hackers 首页仍有大型叙事：[48 小时做出的产品达到 $30K MRR](https://www.indiehackers.com/post/tech/building-a-product-in-48-hours-and-hitting-30k-mrr-as-a-non-technical-founder-wWtWIH5tmwASUbxKaLT9)、[$800K 生意失败后做出 $4K/mo 作品组合](https://www.indiehackers.com/post/tech/building-a-4k-mo-portfolio-after-an-undiversified-marketing-strategy-tanked-his-800k-business-n3ROXFtp7nWcTWO1XayK)，以及 [$11M ARR 的垂直 CRM](https://www.indiehackers.com/post/tech/gaining-an-11m-arr-foothold-by-taking-on-an-outdated-incumbent-61O715V0AXD6kZ1j8hsc)。这些是模式库，不是新创始人下周的 benchmark。\n\nReddit 展示了情绪中间层。一位创始人说自己 8 个月后只有 $68 MRR，看到每个 $3K MRR 帖都会嫉妒。`Voremi` 创始人报告 480 个用户、344 个活跃用户、2 个付费订阅者和 $11 MRR。`GoMind AI` 在推出 Pro plan 后达到 $236.50。另一位创始人在约 $200 收入后警告大家注意 `Paddle`，因为账号被暂停、支付停摆，同时立刻损失 $25。\n\n定价课不是“收更贵”。而是“把价格挂在一个痛苦决策上”。当一份 $49 的人工报告能避免支付阻断、风险 AI 工作流或私有文件暴露时，就更容易卖。\n\n**关键判断**：第一版围绕一个具体可避免问题定价；早期创始人不需要愿景数学，他们需要一个现在就值得付钱的买家可见任务。\n\n**反向视角**：收入帖带有自我选择和情绪，所以把它们当作痛点发现，而不是市场规模测算。\n\n---",
+      "source_url": "https://raw.githubusercontent.com/BuilderPulse/BuilderPulse/main/zh/2026/2026-06-11.md"
+    }
+  ]
+}
