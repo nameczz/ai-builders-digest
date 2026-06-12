@@ -1,0 +1,93 @@
+{
+  "date": "2026-06-12",
+  "top3": [],
+  "intro": "（无 LLM 编辑模式：以下为原始数据归档，建议安装 codex CLI 重新生成。）",
+  "sections": [
+    {
+      "id": "discovery",
+      "title": "发现机会",
+      "blocks": [
+        {
+          "id": "indie-products",
+          "heading": "今天有哪些独立开发者的新产品？",
+          "summary_md": "（自动归档模式）今日 Show HN 与 Product Hunt 上线的独立开发者产品列表。",
+          "items": [
+            {
+              "title": "Firma.dev",
+              "url": "https://www.producthunt.com/products/firma-dev",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Qursor",
+              "url": "https://www.producthunt.com/products/qursor",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Clutch Alarm",
+              "url": "https://www.producthunt.com/products/clutch-alarm",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Tide",
+              "url": "https://www.producthunt.com/products/tide-beautiful-layered-voice-notes",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Pond",
+              "url": "https://www.producthunt.com/products/pond-5",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "NODUS PH Radar for Product Hunt",
+              "url": "https://www.producthunt.com/products/nodus-ph-radar-for-product-hunt",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "CueBuddy",
+              "url": "https://www.producthunt.com/products/cuebuddy",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Bob's CLI",
+              "url": "https://www.producthunt.com/products/bob-s-cli",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Keep",
+              "url": "https://www.producthunt.com/products/keep-8",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Meet Warren 3.0",
+              "url": "https://www.producthunt.com/products/underpay",
+              "source": "ProductHunt"
+            }
+          ],
+          "takeaway": ""
+        }
+      ]
+    },
+    {
+      "id": "tech-stack",
+      "title": "技术选型",
+      "blocks": []
+    },
+    {
+      "id": "competition",
+      "title": "竞争情报",
+      "blocks": []
+    },
+    {
+      "id": "trends",
+      "title": "趋势判断",
+      "blocks": []
+    },
+    {
+      "id": "actions",
+      "title": "行动触发",
+      "blocks": []
+    }
+  ],
+  "generated_at": "2026-06-12T09:27:04+00:00",
+  "reddit_highlights": []
+}
