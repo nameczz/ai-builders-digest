@@ -1,0 +1,93 @@
+{
+  "date": "2026-06-13",
+  "top3": [],
+  "intro": "（无 LLM 编辑模式：以下为原始数据归档，建议安装 codex CLI 重新生成。）",
+  "sections": [
+    {
+      "id": "discovery",
+      "title": "发现机会",
+      "blocks": [
+        {
+          "id": "indie-products",
+          "heading": "今天有哪些独立开发者的新产品？",
+          "summary_md": "（自动归档模式）今日 Show HN 与 Product Hunt 上线的独立开发者产品列表。",
+          "items": [
+            {
+              "title": "Kimi K2.7 Code",
+              "url": "https://www.producthunt.com/products/kimi-ai-assistant",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "CakewordAI",
+              "url": "https://www.producthunt.com/products/cakewordai-snap-learn",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Avatars in ElevenCreative",
+              "url": "https://www.producthunt.com/products/avatars-in-elevencreative",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Prometheus by Firecrawl",
+              "url": "https://www.producthunt.com/products/extract-by-firecrawl",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "NomNak",
+              "url": "https://www.producthunt.com/products/nomnak",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Vercel Drop",
+              "url": "https://www.producthunt.com/products/vercel",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Medicyn",
+              "url": "https://www.producthunt.com/products/medicyn",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Bob's CLI",
+              "url": "https://www.producthunt.com/products/bob-s-cli",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Pond",
+              "url": "https://www.producthunt.com/products/pond-5",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Slack Data Agent",
+              "url": "https://www.producthunt.com/products/basedash",
+              "source": "ProductHunt"
+            }
+          ],
+          "takeaway": ""
+        }
+      ]
+    },
+    {
+      "id": "tech-stack",
+      "title": "技术选型",
+      "blocks": []
+    },
+    {
+      "id": "competition",
+      "title": "竞争情报",
+      "blocks": []
+    },
+    {
+      "id": "trends",
+      "title": "趋势判断",
+      "blocks": []
+    },
+    {
+      "id": "actions",
+      "title": "行动触发",
+      "blocks": []
+    }
+  ],
+  "generated_at": "2026-06-13T09:29:31+00:00",
+  "reddit_highlights": []
+}
