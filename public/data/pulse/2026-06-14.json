@@ -1,0 +1,93 @@
+{
+  "date": "2026-06-14",
+  "top3": [],
+  "intro": "（无 LLM 编辑模式：以下为原始数据归档，建议安装 codex CLI 重新生成。）",
+  "sections": [
+    {
+      "id": "discovery",
+      "title": "发现机会",
+      "blocks": [
+        {
+          "id": "indie-products",
+          "heading": "今天有哪些独立开发者的新产品？",
+          "summary_md": "（自动归档模式）今日 Show HN 与 Product Hunt 上线的独立开发者产品列表。",
+          "items": [
+            {
+              "title": "Folio",
+              "url": "https://www.producthunt.com/products/folio-ai",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Conan",
+              "url": "https://www.producthunt.com/products/conan",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Reverie.fm",
+              "url": "https://www.producthunt.com/products/reverie-fm",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Allergo",
+              "url": "https://www.producthunt.com/products/allergo-allergy-translation-cards",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Athenic 2.0",
+              "url": "https://www.producthunt.com/products/athenic-ai",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Taste Lab",
+              "url": "https://www.producthunt.com/products/taste-lab",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Memoriq",
+              "url": "https://www.producthunt.com/products/memoriq",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Slashy",
+              "url": "https://www.producthunt.com/products/slashy-3",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Cloudback for Linear",
+              "url": "https://www.producthunt.com/products/cloudback",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Permute 4.0",
+              "url": "https://www.producthunt.com/products/permute",
+              "source": "ProductHunt"
+            }
+          ],
+          "takeaway": ""
+        }
+      ]
+    },
+    {
+      "id": "tech-stack",
+      "title": "技术选型",
+      "blocks": []
+    },
+    {
+      "id": "competition",
+      "title": "竞争情报",
+      "blocks": []
+    },
+    {
+      "id": "trends",
+      "title": "趋势判断",
+      "blocks": []
+    },
+    {
+      "id": "actions",
+      "title": "行动触发",
+      "blocks": []
+    }
+  ],
+  "generated_at": "2026-06-14T09:25:57+00:00",
+  "reddit_highlights": []
+}
