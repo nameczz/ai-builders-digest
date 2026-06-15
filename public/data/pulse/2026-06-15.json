@@ -1,0 +1,161 @@
+{
+  "date": "2026-06-15",
+  "top3": [],
+  "intro": "（无 LLM 编辑模式：以下为原始数据归档，建议安装 codex CLI 重新生成。）",
+  "sections": [
+    {
+      "id": "discovery",
+      "title": "发现机会",
+      "blocks": [
+        {
+          "id": "indie-products",
+          "heading": "今天有哪些独立开发者的新产品？",
+          "summary_md": "（自动归档模式）今日 Show HN 与 Product Hunt 上线的独立开发者产品列表。",
+          "items": [
+            {
+              "title": "Momentra",
+              "url": "https://www.producthunt.com/products/momentra-aesthetic-camera",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Synopsule",
+              "url": "https://www.producthunt.com/products/synopsule",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "stackd.cc",
+              "url": "https://www.producthunt.com/products/stackd-cc",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Verol",
+              "url": "https://www.producthunt.com/products/verol",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "termique",
+              "url": "https://www.producthunt.com/products/termique",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Sulsaly",
+              "url": "https://www.producthunt.com/products/sulsaly",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Notra Image Generation",
+              "url": "https://www.producthunt.com/products/notra-3",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Novu Connect",
+              "url": "https://www.producthunt.com/products/novu",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "PandaProbe Cloud",
+              "url": "https://www.producthunt.com/products/pandaprobe-cloud",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "AutoEdit",
+              "url": "https://www.producthunt.com/products/autoedit",
+              "source": "ProductHunt"
+            }
+          ],
+          "takeaway": ""
+        },
+        {
+          "id": "github-traction",
+          "heading": "GitHub 上哪些高增长开源项目还没有商业化？",
+          "summary_md": "（自动归档模式）本周 GitHub Trending 高速增长的仓库。",
+          "items": [
+            {
+              "title": "mvanhorn/last30days-skill",
+              "url": "https://github.com/mvanhorn/last30days-skill",
+              "source": "GitHub",
+              "score": 12053
+            },
+            {
+              "title": "apple/container",
+              "url": "https://github.com/apple/container",
+              "source": "GitHub",
+              "score": 10021
+            },
+            {
+              "title": "phuryn/pm-skills",
+              "url": "https://github.com/phuryn/pm-skills",
+              "source": "GitHub",
+              "score": 5713
+            },
+            {
+              "title": "chopratejas/headroom",
+              "url": "https://github.com/chopratejas/headroom",
+              "source": "GitHub",
+              "score": 10653
+            },
+            {
+              "title": "NVIDIA/SkillSpector",
+              "url": "https://github.com/NVIDIA/SkillSpector",
+              "source": "GitHub",
+              "score": 3669
+            },
+            {
+              "title": "addyosmani/agent-skills",
+              "url": "https://github.com/addyosmani/agent-skills",
+              "source": "GitHub",
+              "score": 10445
+            },
+            {
+              "title": "Panniantong/Agent-Reach",
+              "url": "https://github.com/Panniantong/Agent-Reach",
+              "source": "GitHub",
+              "score": 5468
+            },
+            {
+              "title": "refactoringhq/tolaria",
+              "url": "https://github.com/refactoringhq/tolaria",
+              "source": "GitHub",
+              "score": 3592
+            },
+            {
+              "title": "openai/plugins",
+              "url": "https://github.com/openai/plugins",
+              "source": "GitHub",
+              "score": 1085
+            },
+            {
+              "title": "Leonxlnx/taste-skill",
+              "url": "https://github.com/Leonxlnx/taste-skill",
+              "source": "GitHub",
+              "score": 7591
+            }
+          ],
+          "takeaway": ""
+        }
+      ]
+    },
+    {
+      "id": "tech-stack",
+      "title": "技术选型",
+      "blocks": []
+    },
+    {
+      "id": "competition",
+      "title": "竞争情报",
+      "blocks": []
+    },
+    {
+      "id": "trends",
+      "title": "趋势判断",
+      "blocks": []
+    },
+    {
+      "id": "actions",
+      "title": "行动触发",
+      "blocks": []
+    }
+  ],
+  "generated_at": "2026-06-15T09:23:26+00:00",
+  "reddit_highlights": []
+}
