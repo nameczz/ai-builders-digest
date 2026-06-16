@@ -1,0 +1,62 @@
+{
+  "date": "2026-06-16",
+  "items": [
+    {
+      "id": "2026-06-16-1",
+      "title": "I have to give @cursor_ai cred",
+      "angle": "（自动归档模式：未生成）",
+      "opening": "I have to give @cursor_ai credit for planning the best dinner that was Michelin quality.",
+      "story_hook": {
+        "challenge": "",
+        "twist": ""
+      },
+      "takeaway": "",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Peter Yang",
+          "url": "https://x.com/petergyang/status/2066756347438469602"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-16-2",
+      "title": "Codex browser use is so good t",
+      "angle": "（自动归档模式：未生成）",
+      "opening": "Codex browser use is so good that it almost makes me forget APIs are even needed",
+      "story_hook": {
+        "challenge": "",
+        "twist": ""
+      },
+      "takeaway": "",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Peter Yang",
+          "url": "https://x.com/petergyang/status/2066753125197967653"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-16-3",
+      "title": "1) What https://t.co/UX2vVhspv",
+      "angle": "（自动归档模式：未生成）",
+      "opening": "1) What https://t.co/UX2vVhspvD",
+      "story_hook": {
+        "challenge": "",
+        "twist": ""
+      },
+      "takeaway": "",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Peter Yang",
+          "url": "https://x.com/petergyang/status/2066752332197716285"
+        }
+      ]
+    }
+  ],
+  "notes": "fallback mode: codex CLI not available",
+  "generated_at": "2026-06-16T09:37:03+00:00",
+  "model": "gpt-5.5"
+}
