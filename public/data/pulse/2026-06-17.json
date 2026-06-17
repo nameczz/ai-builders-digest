@@ -1,0 +1,99 @@
+{
+  "date": "2026-06-17",
+  "top3": [],
+  "intro": "（无 LLM 编辑模式：以下为原始数据归档，建议安装 codex CLI 重新生成。）",
+  "sections": [
+    {
+      "id": "discovery",
+      "title": "发现机会",
+      "blocks": [
+        {
+          "id": "indie-products",
+          "heading": "今天有哪些独立开发者的新产品？",
+          "summary_md": "（自动归档模式）今日 Show HN 与 Product Hunt 上线的独立开发者产品列表。",
+          "items": [
+            {
+              "title": "ClipDone",
+              "url": "https://www.producthunt.com/products/clipdone",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Locus Founder",
+              "url": "https://www.producthunt.com/products/locus-founder",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Vitrine",
+              "url": "https://www.producthunt.com/products/vitrine",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Restaurant Menu Visualizer",
+              "url": "https://www.producthunt.com/products/a-bit-differently",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Tyto by ai-coustics",
+              "url": "https://www.producthunt.com/products/tyto",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "NotchSpace",
+              "url": "https://www.producthunt.com/products/notchspace-2",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Framer 3.0",
+              "url": "https://www.producthunt.com/products/framer",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Wario Synth",
+              "url": "https://www.producthunt.com/products/wario-style",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Dualora",
+              "url": "https://www.producthunt.com/products/dualora-dual-size-recorder",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Android 17",
+              "url": "https://www.producthunt.com/products/android",
+              "source": "ProductHunt"
+            }
+          ],
+          "takeaway": ""
+        }
+      ]
+    },
+    {
+      "id": "tech-stack",
+      "title": "技术选型",
+      "blocks": []
+    },
+    {
+      "id": "competition",
+      "title": "竞争情报",
+      "blocks": []
+    },
+    {
+      "id": "trends",
+      "title": "趋势判断",
+      "blocks": []
+    },
+    {
+      "id": "actions",
+      "title": "行动触发",
+      "blocks": []
+    }
+  ],
+  "generated_at": "2026-06-17T09:27:25+00:00",
+  "reddit_highlights": [
+    {
+      "heading": "今天有哪些 solo-founder 产品发布？",
+      "body_md": "**🔍 信号**：今天的新发布包括 [Kage](https://github.com/tamnd/kage) 引发 139 条评论，[Trace](https://traceapp.info) 83 条，[Garden of Flowers](https://garden-of-flowers.heikkilotvonen.com/) 25 条，[VoiceDraw](https://voicedraw.com/) 12 条，Product Hunt 上的 [Goldfish](https://www.producthunt.com/products/goldfish-early-access) 154 条评论，以及 [Edgee Turbo Models](https://www.producthunt.com/products/edgee) 28 条。\n**白话说：** 小团队发布卖的不是抽象 AI 承诺，而是对本地文件、会议、模型和工作上下文的控制权。\n\n今天的发布市场分成三个有用簇。第一，本地所有权继续有效：[Kage](https://github.com/tamnd/kage) 把网站打包成可离线浏览的内容，[Trace](https://traceapp.info) 在本地记录 Mac 会议转写，一个 Reddit 构建者发布了 [soundcli](https://www.reddit.com/r/SideProject/comments/1u3km0q/own_your_music_i_built_a_terminal_app_that/)，把播放列表拉成真正的本地文件。`Kage` 已经连续出现在前两期报告里，所以今天不应再把它当成全新头条，但持续的 139 条评论说明 `offline-copy` 这个任务是真实的。\n\n第二，Product Hunt 页面明显偏向环境型 Mac 和编程助手。[Goldfish](https://www.producthunt.com/products/goldfish-early-access) 说“Press Option”并像你一样回复，[Invoko](https://www.producthunt.com/products/invoko) 承诺在 Mac 上给你“一只小手”，[GitHits beta 0.9](https://www.producthunt.com/products/githits) 让编程助手访问开源代码。这和更大的 `AI coding` 市场重叠，但看起来已经拥挤。\n\n第三，创始人声音仍然奖励狭窄的人类痛点。[DearHiringManager.io](https://www.indiehackers.com/product/dearhiringmanager-io?post=qM130jemvFVuoynGUDcC) 围绕绕过求职申请黑洞拿到 23 条 Indie Hackers 评论；Reddit 帖子里则有人报告一个 Google Docs 风格的 `ChatGPT wrapper` 已有 500 用户，一个截图保存应用 10,000 用户，一个把菜谱视频转文本的工具 600 日活。\n\n**关键判断**：围绕一个具体负责人动作发货；本地文件、求职申请、会议笔记和仓库安全，今天都比泛泛的“AI workspace”定位更强。\n\n**反向视角**：很多发布有注意力但没有收入，所以把评论量当成发现线索，而不是付费意愿证明。\n\n---",
+      "source_url": "https://raw.githubusercontent.com/BuilderPulse/BuilderPulse/main/zh/2026/2026-06-17.md"
+    }
+  ]
+}
