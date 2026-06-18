@@ -1,0 +1,93 @@
+{
+  "date": "2026-06-18",
+  "top3": [],
+  "intro": "（无 LLM 编辑模式：以下为原始数据归档，建议安装 codex CLI 重新生成。）",
+  "sections": [
+    {
+      "id": "discovery",
+      "title": "发现机会",
+      "blocks": [
+        {
+          "id": "indie-products",
+          "heading": "今天有哪些独立开发者的新产品？",
+          "summary_md": "（自动归档模式）今日 Show HN 与 Product Hunt 上线的独立开发者产品列表。",
+          "items": [
+            {
+              "title": "Viktor for Microsoft Teams",
+              "url": "https://www.producthunt.com/products/viktor",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Elvin",
+              "url": "https://www.producthunt.com/products/elvin",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Adapt",
+              "url": "https://www.producthunt.com/products/adapt-3",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Locofy: design-to-code agents",
+              "url": "https://www.producthunt.com/products/locofy-ai",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Labs AI",
+              "url": "https://www.producthunt.com/products/labs-ai-text-to-speech",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Otty",
+              "url": "https://www.producthunt.com/products/otty",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "InstantDelay",
+              "url": "https://www.producthunt.com/products/instantdelay",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Tiles: Map Your Adventures",
+              "url": "https://www.producthunt.com/products/tiles-map-your-adventures",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Buddy",
+              "url": "https://www.producthunt.com/products/buddy-free-figma-agent",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Japanly AEO",
+              "url": "https://www.producthunt.com/products/japanly-aeo",
+              "source": "ProductHunt"
+            }
+          ],
+          "takeaway": ""
+        }
+      ]
+    },
+    {
+      "id": "tech-stack",
+      "title": "技术选型",
+      "blocks": []
+    },
+    {
+      "id": "competition",
+      "title": "竞争情报",
+      "blocks": []
+    },
+    {
+      "id": "trends",
+      "title": "趋势判断",
+      "blocks": []
+    },
+    {
+      "id": "actions",
+      "title": "行动触发",
+      "blocks": []
+    }
+  ],
+  "generated_at": "2026-06-18T09:29:00+00:00",
+  "reddit_highlights": []
+}
