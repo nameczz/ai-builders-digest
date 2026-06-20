@@ -1,0 +1,93 @@
+{
+  "date": "2026-06-20",
+  "top3": [],
+  "intro": "（无 LLM 编辑模式：以下为原始数据归档，建议安装 codex CLI 重新生成。）",
+  "sections": [
+    {
+      "id": "discovery",
+      "title": "发现机会",
+      "blocks": [
+        {
+          "id": "indie-products",
+          "heading": "今天有哪些独立开发者的新产品？",
+          "summary_md": "（自动归档模式）今日 Show HN 与 Product Hunt 上线的独立开发者产品列表。",
+          "items": [
+            {
+              "title": "ReleaseDock",
+              "url": "https://www.producthunt.com/products/releasedock",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Are you in the Weights?",
+              "url": "https://www.producthunt.com/products/are-you-in-the-weights",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "GitSync for macOS",
+              "url": "https://www.producthunt.com/products/gitsync-for-macos",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Slackbot’s MCP Client",
+              "url": "https://www.producthunt.com/products/slack",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Basedash Access Controls",
+              "url": "https://www.producthunt.com/products/basedash",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Pixlie",
+              "url": "https://www.producthunt.com/products/pixlie",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "WorkClaw",
+              "url": "https://www.producthunt.com/products/workclaw",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Foyer",
+              "url": "https://www.producthunt.com/products/foyer-4",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "pumaDB",
+              "url": "https://www.producthunt.com/products/pumadb",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Reframe",
+              "url": "https://www.producthunt.com/products/reframe-7",
+              "source": "ProductHunt"
+            }
+          ],
+          "takeaway": ""
+        }
+      ]
+    },
+    {
+      "id": "tech-stack",
+      "title": "技术选型",
+      "blocks": []
+    },
+    {
+      "id": "competition",
+      "title": "竞争情报",
+      "blocks": []
+    },
+    {
+      "id": "trends",
+      "title": "趋势判断",
+      "blocks": []
+    },
+    {
+      "id": "actions",
+      "title": "行动触发",
+      "blocks": []
+    }
+  ],
+  "generated_at": "2026-06-20T09:23:32+00:00",
+  "reddit_highlights": []
+}
