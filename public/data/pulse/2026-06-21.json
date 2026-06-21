@@ -1,0 +1,93 @@
+{
+  "date": "2026-06-21",
+  "top3": [],
+  "intro": "（无 LLM 编辑模式：以下为原始数据归档，建议安装 codex CLI 重新生成。）",
+  "sections": [
+    {
+      "id": "discovery",
+      "title": "发现机会",
+      "blocks": [
+        {
+          "id": "indie-products",
+          "heading": "今天有哪些独立开发者的新产品？",
+          "summary_md": "（自动归档模式）今日 Show HN 与 Product Hunt 上线的独立开发者产品列表。",
+          "items": [
+            {
+              "title": "Plansera AI",
+              "url": "https://www.producthunt.com/products/plansera-ai",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Cloudback MCP Server",
+              "url": "https://www.producthunt.com/products/cloudback",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Atomic Mail Agentic",
+              "url": "https://www.producthunt.com/products/atomic-mail-agentic",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Grok by SpaceXAI for Word",
+              "url": "https://www.producthunt.com/products/grok-by-spacexai-for-word",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Backgrind",
+              "url": "https://www.producthunt.com/products/backgrind",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Notchkin",
+              "url": "https://www.producthunt.com/products/notchkin",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Agent 37",
+              "url": "https://www.producthunt.com/products/agent-37-38",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "oioi",
+              "url": "https://www.producthunt.com/products/oioi",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Laguna by Poolside",
+              "url": "https://www.producthunt.com/products/poolside",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Mellum by JetBrains",
+              "url": "https://www.producthunt.com/products/jetbrains",
+              "source": "ProductHunt"
+            }
+          ],
+          "takeaway": ""
+        }
+      ]
+    },
+    {
+      "id": "tech-stack",
+      "title": "技术选型",
+      "blocks": []
+    },
+    {
+      "id": "competition",
+      "title": "竞争情报",
+      "blocks": []
+    },
+    {
+      "id": "trends",
+      "title": "趋势判断",
+      "blocks": []
+    },
+    {
+      "id": "actions",
+      "title": "行动触发",
+      "blocks": []
+    }
+  ],
+  "generated_at": "2026-06-21T09:25:29+00:00",
+  "reddit_highlights": []
+}

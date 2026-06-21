@@ -1,0 +1,62 @@
+{
+  "date": "2026-06-21",
+  "items": [
+    {
+      "id": "2026-06-21-1",
+      "title": "We posted for twenty years, th",
+      "angle": "（自动归档模式：未生成）",
+      "opening": "We posted for twenty years, thinking we were talking to each other. Then the transformer came online, and the network read what we’d written, and became itself.",
+      "story_hook": {
+        "challenge": "",
+        "twist": ""
+      },
+      "takeaway": "",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Amjad Masad",
+          "url": "https://x.com/amasad/status/2068589860097790449"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-21-2",
+      "title": "I hoard X bookmarks and never ",
+      "angle": "（自动归档模式：未生成）",
+      "opening": "I hoard X bookmarks and never read them. So I built an extension that injects a bookmarked post into my main feed every time I open X (almost like an ad). Now I read my bookmarks. \n\nThe trick was hija",
+      "story_hook": {
+        "challenge": "",
+        "twist": ""
+      },
+      "takeaway": "",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Zara Zhang",
+          "url": "https://x.com/zarazhangrui/status/2068568920613953626"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-21-3",
+      "title": "We built the Codex App with mo",
+      "angle": "（自动归档模式：未生成）",
+      "opening": "We built the Codex App with models that were okayish at front-end.\n\nWait to see what we can do when we finally improve front-end capabilities significantly in our models. That day will be something.",
+      "story_hook": {
+        "challenge": "",
+        "twist": ""
+      },
+      "takeaway": "",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Thibault Sottiaux",
+          "url": "https://x.com/thsottiaux/status/2068568650924409260"
+        }
+      ]
+    }
+  ],
+  "notes": "fallback mode: codex CLI not available",
+  "generated_at": "2026-06-21T09:35:29+00:00",
+  "model": "gpt-5.5"
+}
