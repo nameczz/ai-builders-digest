@@ -1,0 +1,93 @@
+{
+  "date": "2026-06-22",
+  "top3": [],
+  "intro": "（无 LLM 编辑模式：以下为原始数据归档，建议安装 codex CLI 重新生成。）",
+  "sections": [
+    {
+      "id": "discovery",
+      "title": "发现机会",
+      "blocks": [
+        {
+          "id": "indie-products",
+          "heading": "今天有哪些独立开发者的新产品？",
+          "summary_md": "（自动归档模式）今日 Show HN 与 Product Hunt 上线的独立开发者产品列表。",
+          "items": [
+            {
+              "title": "Selector Forge",
+              "url": "https://www.producthunt.com/products/selector-forge",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "MD+HTML Reader",
+              "url": "https://www.producthunt.com/products/md-html-reader",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "AgentX",
+              "url": "https://www.producthunt.com/products/agentx",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Agentic Document Extraction",
+              "url": "https://www.producthunt.com/products/agentic-document-extraction",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "AlgoFly AI",
+              "url": "https://www.producthunt.com/products/algofly-ai",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Clawd",
+              "url": "https://www.producthunt.com/products/clawd-the-context-aware-browser-pet",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "uwait",
+              "url": "https://www.producthunt.com/products/uwait",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "AirJelly",
+              "url": "https://www.producthunt.com/products/airjelly",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "HAQQ Legal AI on Mobile",
+              "url": "https://www.producthunt.com/products/haqq-mobile-app",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "MediaSeg",
+              "url": "https://www.producthunt.com/products/mediaseg",
+              "source": "ProductHunt"
+            }
+          ],
+          "takeaway": ""
+        }
+      ]
+    },
+    {
+      "id": "tech-stack",
+      "title": "技术选型",
+      "blocks": []
+    },
+    {
+      "id": "competition",
+      "title": "竞争情报",
+      "blocks": []
+    },
+    {
+      "id": "trends",
+      "title": "趋势判断",
+      "blocks": []
+    },
+    {
+      "id": "actions",
+      "title": "行动触发",
+      "blocks": []
+    }
+  ],
+  "generated_at": "2026-06-22T09:17:09+00:00",
+  "reddit_highlights": []
+}

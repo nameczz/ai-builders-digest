@@ -1,0 +1,62 @@
+{
+  "date": "2026-06-22",
+  "items": [
+    {
+      "id": "2026-06-22-1",
+      "title": "This is becoming my favorite w",
+      "angle": "（自动归档模式：未生成）",
+      "opening": "This is becoming my favorite way to read Twitter. https://t.co/eykEElxzu7 https://t.co/m5qM5PP3rA",
+      "story_hook": {
+        "challenge": "",
+        "twist": ""
+      },
+      "takeaway": "",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Peter Steinberger",
+          "url": "https://x.com/steipete/status/2068965200343224367"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-22-2",
+      "title": "I’m talking about context, not",
+      "angle": "（自动归档模式：未生成）",
+      "opening": "I’m talking about context, not prompt",
+      "story_hook": {
+        "challenge": "",
+        "twist": ""
+      },
+      "takeaway": "",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Zara Zhang",
+          "url": "https://x.com/zarazhangrui/status/2068964055235321954"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-22-3",
+      "title": "People here discussing what ha",
+      "angle": "（自动归档模式：未生成）",
+      "opening": "People here discussing what happened with OpenClaw.\n\nThe hype died down. We improved quality and grew a team. We created a non-profit whereas competiors are VC funded and have other agendas.\n\nThis is ",
+      "story_hook": {
+        "challenge": "",
+        "twist": ""
+      },
+      "takeaway": "",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Peter Steinberger",
+          "url": "https://x.com/steipete/status/2068961217524490739"
+        }
+      ]
+    }
+  ],
+  "notes": "fallback mode: codex CLI not available",
+  "generated_at": "2026-06-22T09:18:04+00:00",
+  "model": "gpt-5.5"
+}
