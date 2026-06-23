@@ -1,0 +1,168 @@
+{
+  "date": "2026-06-23",
+  "items": [
+    {
+      "id": "2026-06-23-1",
+      "title": "Agent不降温，空话降温了",
+      "angle": "从 Google Trends 下滑和 GitHub 项目暴涨的反差切入：市场厌倦的是「AI agent」标签，不是 agent 能力。",
+      "opening": "「AI agent」搜索热度跌了 15.7%，但 Agent-Reach 一周新增 8108 stars。用户不是不想要 agent，而是不想再听一个万能助手的故事了。",
+      "story_hook": {
+        "challenge": "泛 AI agent 叙事在降温，但具体 agent 工具却同时爆发。",
+        "twist": "真正增长的不是类别词，而是读取全网、清理上下文、扫描安全、制作视频这些可验证能力。"
+      },
+      "takeaway": "做产品和写文案时，把「agent」替换成它能完成的具体任务，转化率和可信度都会更高。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Peter Yang 批评 Claude Code dynamic workflow 概念包装热闹但场景空",
+          "url": "https://x.com/petergyang/status/2069267139576693028"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Google Trends: ai agent 下滑 -15.7%",
+          "url": "https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub Trending: Panniantong/Agent-Reach 周增 8108 stars",
+          "url": "https://github.com/Panniantong/Agent-Reach"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-23-2",
+      "title": "HTML又成了AI硬通货",
+      "angle": "从 Box、Vercel、Claude Code slides 和 Deckwise 同时押注可编辑产物看，HTML 正在变成 agent 时代的交付格式。",
+      "opening": "AI 生成内容最尴尬的地方，不是生成不出来，而是生成完进不了工作流。今天 Box 能管理 HTML，Claude Design 能一键部署到 Vercel，slides skill 也在教大家用 HTML 做演示。",
+      "story_hook": {
+        "challenge": "AI 产物如果只是聊天窗口里的截图和文本，很难进入团队协作。",
+        "twist": "HTML 这个老格式反而成了最容易预览、编辑、版本管理和部署的 AI 交付容器。"
+      },
+      "takeaway": "开发者可以优先把 AI 产物设计成 HTML、deck、report、widget 这类可编辑对象，而不是只输出 markdown 或图片。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Aaron Levie 称 Box 支持预览、编辑、版本管理和安全分享 HTML",
+          "url": "https://x.com/levie/status/2069140445205348432"
+        },
+        {
+          "tag": "builders",
+          "ref": "Guillermo Rauch 提到 Claude Design 一键部署到 Vercel",
+          "url": "https://x.com/rauchg/status/2069219190834127276"
+        },
+        {
+          "tag": "builders",
+          "ref": "Zara Zhang 分享 Frontend Slides skill 实战 walkthrough",
+          "url": "https://x.com/zarazhangrui/status/2069311440692072481"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt: Deckwise 切入可编辑 deck 生成",
+          "url": "https://www.producthunt.com/products/deckwise"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-23-3",
+      "title": "安全Agent开始修漏洞了",
+      "angle": "从 OpenAI 的 Patch The Planet 到 BestDefense.io、SkillSpector，讲 AI 安全从「发现问题」转向「自动修补」。",
+      "opening": "过去安全 AI 最常见的卖点是发现漏洞。Sam Altman 今天说的方向更激进：不只是发现，而是直接修掉安全问题。",
+      "story_hook": {
+        "challenge": "企业安全团队缺的不是更多告警，而是能把风险闭环的执行力。",
+        "twist": "当 Codex Security、AI pentest 和 skill 扫描同时出现，安全 agent 的价值锚点从报告转向修复。"
+      },
+      "takeaway": "安全类 AI 产品应把收费和叙事锚定在 deploy、repo、修复 PR、风险降低上，而不是单纯卖扫描次数。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Sam Altman 发布 GPT-5.5-Cyber、Patch The Planet 和 Codex Security 方向",
+          "url": "https://x.com/sama/status/2069121360744550796"
+        },
+        {
+          "tag": "builders",
+          "ref": "Thibault Sottiaux 称 OpenAI 正把 Codex 安全能力推向网络防御加速器",
+          "url": "https://x.com/thsottiaux/status/2069152290326630518"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt: BestDefense.io 主打每次部署做 AI 渗透测试与修补",
+          "url": "https://www.producthunt.com/products/bestdefense-io"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub Trending: NVIDIA/SkillSpector 周增 3302 stars",
+          "url": "https://github.com/NVIDIA/SkillSpector"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-23-4",
+      "title": "上下文正在变成账单",
+      "angle": "从 codebase-memory-mcp、Conduit、Sipcode 和 Aaron Levie 的 evals 观点切入：上下文管理不再是提示词技巧，而是 agent 成本结构。",
+      "opening": "一个 MCP 项目一周涨了 7560 stars，卖点不是更会聊天，而是让代码库记忆变成基础设施。Conduit 直接把话说白：本地 MCP gateway 可以省约 90% tokens。",
+      "story_hook": {
+        "challenge": "AI coding 工具越强，重复读取代码、污染上下文和无效 token 成本越高。",
+        "twist": "真正的新基础设施可能不是新 IDE，而是 repo 记忆、上下文清理和 eval 管线。"
+      },
+      "takeaway": "团队应该开始度量 agent 的上下文浪费、缓存命中、任务完成率和回归率，把它当工程成本管理。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Aaron Levie 认为模型和 agent 进步几乎都压在 evals 上",
+          "url": "https://x.com/levie/status/2069228335255949775"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub Trending: DeusData/codebase-memory-mcp 周增 7560 stars",
+          "url": "https://github.com/DeusData/codebase-memory-mcp"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt: Conduit 主打本地 MCP 节省约 90% tokens",
+          "url": "https://www.producthunt.com/products/conduit-12"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt: Sipcode 专门清理 Claude Code 上下文",
+          "url": "https://www.producthunt.com/products/sipcode"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-23-5",
+      "title": "视频Agent不是剪辑软件",
+      "angle": "用 OpenMontage 的 GitHub 暴涨对照 Product Hunt 创作工具潮，讲视频生产正在从编辑器变成可复用 pipeline。",
+      "opening": "OpenMontage 一周新增 6089 stars，不是因为它又做了一个视频编辑器。它更像把编码助手改造成视频制作工作室：pipeline、工具、skills 全都摆上桌。",
+      "story_hook": {
+        "challenge": "传统视频工具解决的是编辑界面，agentic video 解决的是一整条生产流程。",
+        "twist": "最先商业化的可能不是通用生成模型，而是产品发布片、GitHub demo、课程片头这类模板化工作流。"
+      },
+      "takeaway": "想切入 AI 视频，不必先造大编辑器；可以从垂直模板、素材结构、脚本生成和批量渲染入口开始。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Peter Yang 想找会用 Codex / Claude Code 现场做像素游戏或 Three.js 游戏的人录播客",
+          "url": "https://x.com/petergyang/status/2069118077313425840"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub Trending: calesthio/OpenMontage 周增 6089 stars",
+          "url": "https://github.com/calesthio/OpenMontage"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt: OpenArt Director 出现在创作工作流产品中",
+          "url": "https://www.producthunt.com/products/openart-director"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Google Trends: openmontage 上升 +999.0%",
+          "url": "https://trends.google.com/trends/explore?q=openmontage&date=now+7-d"
+        }
+      ]
+    }
+  ],
+  "notes": "今日整体信号偏工程化和生产管线：agent、HTML、上下文、安全、视频都在从概念转向可部署工作流。独立开发者个人故事较少，适合写趋势判断和产品机会，不适合写人物稿。",
+  "generated_at": "2026-06-23T09:29:47+00:00",
+  "model": "gpt-5.5"
+}
