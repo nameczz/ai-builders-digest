@@ -1,0 +1,148 @@
+{
+  "date": "2026-06-24",
+  "items": [
+    {
+      "id": "2026-06-24-1",
+      "title": "Claude 开始蹲 Slack 了",
+      "angle": "从“聊天机器人”切到“团队异步员工”：AI 产品的下一代入口可能不是 App，而是频道、线程、权限和状态管理。",
+      "opening": "Claude 今天不只是能回答问题，它已经能被拉进 Slack 频道，克隆仓库、写代码、跑测试，还用表情标记任务状态。最值得写的不是 Anthropic 又发了新功能，而是 AI 第一次像一个低配同事一样嵌进团队协作系统。",
+      "story_hook": {
+        "challenge": "AI 越能干活，团队越容易被线程、权限、记忆和状态淹没。",
+        "twist": "解决方案不是更大的聊天框，而是把 AI 管理成一个有频道边界、沙盒实例和状态汇报的员工。"
+      },
+      "takeaway": "开发者和 PM 要开始设计 agent 的工作协议：谁能调用它、它在哪干活、怎么汇报状态、什么时候需要人介入。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Boris Cherny：Claude Slack beta，频道里 @Claude 可启动独立沙盒实例",
+          "url": "https://x.com/bcherny/status/2069474689819480394"
+        },
+        {
+          "tag": "builders",
+          "ref": "Andrej Karpathy：LLM UIUX 第三次重设计是组织级异步实体",
+          "url": "https://x.com/karpathy/status/2069547676849557725"
+        },
+        {
+          "tag": "pulse",
+          "ref": "withastro/flue 周新增 1489 星，sandbox agent framework 成为基础设施信号",
+          "url": "https://github.com/withastro/flue"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-24-2",
+      "title": "网页正在让位给代理",
+      "angle": "从 Peter Yang 的“agent 只想找 API/CLI”切入，写产品设计从人类 UI 转向机器可发现、可调用、可付款。",
+      "opening": "如果访问你产品的不是人，而是一个只想找 API、CLI 和付款入口的 agent，首页还重要吗？今天 Product Hunt 上一批新产品都在回答同一个问题：未来的转化漏斗，可能先给机器看。",
+      "story_hook": {
+        "challenge": "传统产品增长依赖页面、按钮、文案和人工比较，但 agent 不按这个流程决策。",
+        "twist": "新的入口不是更漂亮的 landing page，而是目录、manifest、checkout flow 和可执行动作。"
+      },
+      "takeaway": "有 API 或付款能力的产品，应尽快补齐 agent-readable 的目录、权限说明、价格结构和执行接口。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Peter Yang：当访问产品的是 agent，设计核心变成可发现和可调用",
+          "url": "https://x.com/petergyang/status/2069603490524254473"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Buy by Agentcard：把 Claude 变成下单入口",
+          "url": "https://www.producthunt.com/products/agent-card"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Bluerails Discovery：商家发现与支付基础设施包装给代理使用",
+          "url": "https://www.producthunt.com/products/bluerails-discovery"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-24-3",
+      "title": "代码库记忆比聊天更热",
+      "angle": "用 codebase-memory-mcp 的 8536 周新增星和 +999% 搜索增量，写 agent 编程的瓶颈从模型能力转向长期上下文。",
+      "opening": "今天最值得盯的不是哪个 coding agent 又会写测试了，而是一个叫 codebase-memory-mcp 的项目一周涨了 8536 星。开发者真正缺的可能不是再开一个对话框，而是让 agent 记住整个代码库的低成本记忆层。",
+      "story_hook": {
+        "challenge": "大模型能写代码，但每次都要重新喂上下文，token 贵、信息散、审查难。",
+        "twist": "爆发的不是新 IDE，而是一个把代码库索引成长期知识图谱的 MCP 组件。"
+      },
+      "takeaway": "团队做 AI 编程基础设施时，应优先评估代码记忆、检索质量、权限隔离和审查上下文，而不是只比较模型榜单。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Thibault Sottiaux：Codex 修 bug，反馈越多产品越强",
+          "url": "https://x.com/thsottiaux/status/2069579993588625574"
+        },
+        {
+          "tag": "pulse",
+          "ref": "DeusData/codebase-memory-mcp 周新增 8536 星，总星 13610",
+          "url": "https://github.com/DeusData/codebase-memory-mcp"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Google Trends：codebase memory mcp 近 7 天 +999%",
+          "url": "https://trends.google.com/trends/explore?q=codebase+memory+mcp&date=now+7-d"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-24-4",
+      "title": "视频剪辑被拆成技能了",
+      "angle": "从 OpenMontage 的 12 条 pipeline、52 个工具、500+ agent skills 出发，写创作者工具从单体编辑器变成多代理流水线。",
+      "opening": "OpenMontage 一周新增 9410 星，不是因为它又做了一个开源剪辑软件。它真正刺眼的是把视频生产拆成 pipeline、工具和 500 多个 agent skills：创作者工具正在从时间线，变成可编排的工厂。",
+      "story_hook": {
+        "challenge": "传统视频工具把所有能力塞进一个复杂界面，学习成本高，流程也难复用。",
+        "twist": "agentic 视频生产反而把创作拆小：脚本、素材、字幕、封面、剪辑都可以成为可替换技能。"
+      },
+      "takeaway": "做内容工具的团队应从“更强编辑器”转向“可复用工作流”：先锁定一个垂直场景，再把流程拆成可调用模块。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Amjad Masad：伟大产品不是一个 prompt 变出来的，难在把想法做成现实",
+          "url": "https://x.com/amasad/status/2069588152285794373"
+        },
+        {
+          "tag": "pulse",
+          "ref": "calesthio/OpenMontage 周新增 9410 星，开源 agentic 视频生产系统",
+          "url": "https://github.com/calesthio/OpenMontage"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Google Trends：openmontage 近 7 天 +999%",
+          "url": "https://trends.google.com/trends/explore?q=openmontage&date=now+7-d"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-24-5",
+      "title": "便宜模型才考验产品",
+      "angle": "把 Aaron Levie 的 AI 定价分化和 Swyx 对 Zai/GLM 的判断放在一起，写应用层如何用路由、评测和工作流吃掉模型价格差。",
+      "opening": "Aaron Levie 说 AI 定价会走向两头：一边是昂贵前沿模型，一边是便宜但够用的权重模型。巧的是，今天 GLM-5.2 又在 HuggingFace 榜上冲到前列，问题变成：当便宜模型足够强，真正值钱的还剩什么？",
+      "story_hook": {
+        "challenge": "模型越来越强也越来越分化，应用如果只把调用大模型当卖点，很快会被价格和同质化压扁。",
+        "twist": "真正的利润不在“用最强模型”，而在会评测、会路由、会准备数据、会把便宜模型塞进具体工作流。"
+      },
+      "takeaway": "AI 应用团队应建立模型路由和任务评测体系，把高价模型留给少数关键步骤，把本地或开源模型用于高频、低风险流程。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Aaron Levie：AI 定价会分化，应用层靠工作流、路由、评测和数据准备赚钱",
+          "url": "https://x.com/levie/status/2069639600310767616"
+        },
+        {
+          "tag": "builders",
+          "ref": "Swyx：Zai 靠全球最强开源模型压过 DeepSeek，带着开放做生意姿态回旧金山",
+          "url": "https://x.com/swyx/status/2069598378191941835"
+        },
+        {
+          "tag": "pulse",
+          "ref": "zai-org/GLM-5.2 HuggingFace trending 1348、下载 40127",
+          "url": "https://huggingface.co/zai-org/GLM-5.2"
+        }
+      ]
+    }
+  ],
+  "notes": "今日主线很集中：agent 正在从聊天框进入 Slack、CLI、支付、代码记忆和视频流水线。选题应避免泛谈“AI agent 爆发”，改写具体系统边界：权限、记忆、发现、路由、工作流。",
+  "generated_at": "2026-06-24T09:24:26+00:00",
+  "model": "gpt-5.5"
+}

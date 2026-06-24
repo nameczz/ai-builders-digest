@@ -1,0 +1,349 @@
+{
+  "date": "2026-06-24",
+  "top3": [
+    "今天最值得关注的是 OpenMontage 以 9410 周新增星标把「agentic 视频生产」推到开源前台，创作者工具正在被重写成多代理流水线。",
+    "codebase-memory-mcp 周新增 8536 星，说明 MCP 的新竞争点不再是连接工具，而是让代理拥有可查询、低 token 的代码长期记忆。",
+    "Google Trends 里 codebase memory mcp 与 openmontage 都达到 +999%，弱信号已经从开发者圈扩散到搜索需求。"
+  ],
+  "intro": "今天的数据几乎没有 HN 声量，但 GitHub、Product Hunt、HuggingFace 和 Google Trends 给出同一个方向：AI agent 正在从聊天入口转向可运行的专业工作台。机会集中在三类：代码记忆、视频生产、代理安全与支付发现。带动消费级产品的不是更大的模型，而是更具体的流程封装。",
+  "sections": [
+    {
+      "id": "discovery",
+      "title": "发现机会",
+      "blocks": [
+        {
+          "id": "indie-products",
+          "heading": "今天有哪些独立开发者的新产品？",
+          "summary_md": "HN Show HN 今天为空，Product Hunt 也没有提供票数和评论数，因此不能强行比较热度。但产品方向很清楚：[StaleMate PR](https://www.producthunt.com/products/stalemate-pr) 把 PR 积压做成菜单栏提醒，[HotkeyClash](https://www.producthunt.com/products/hotkeyclash) 解决 Mac 快捷键冲突，[LogStitch](https://www.producthunt.com/products/logstitch) 聚焦 AWS Lambda 失败排查，都是小而硬的开发者痛点工具。\n\nAI 方向里，[Buy by Agentcard](https://www.producthunt.com/products/agent-card) 把 Claude 变成下单入口，[Bluerails Discovery](https://www.producthunt.com/products/bluerails-discovery) 和 [Stripe.Directory](https://www.producthunt.com/products/stripe) 把商家发现与支付基础设施包装给代理使用。今天的独立产品不是泛 AI 助手，而是在工作流里抢一个明确动作。",
+          "items": [
+            {
+              "title": "StaleMate PR",
+              "url": "https://www.producthunt.com/products/stalemate-pr",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "Buy by Agentcard",
+              "url": "https://www.producthunt.com/products/agent-card",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "LogStitch",
+              "url": "https://www.producthunt.com/products/logstitch",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "没有票评数据时更应看产品动作：今天的小产品都在把 AI 变成某个具体按钮。"
+        },
+        {
+          "id": "github-traction",
+          "heading": "GitHub 上哪些高增长开源项目还没有商业化？",
+          "summary_md": "GitHub weekly 最强的是 [mattpocock/skills](https://github.com/mattpocock/skills)，周新增 11784 星，但它本质是工程师技能模板资产，商业化更像课程、团队规范包或企业内训。真正接近产品化的是 [calesthio/OpenMontage](https://github.com/calesthio/OpenMontage)，周新增 9410 星，总星 17175，定位是开源 agentic 视频生产系统，包含 12 条 pipeline、52 个工具和 500+ agent skills。\n\n另一个强信号是 [DeusData/codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp)，周新增 8536 星，总星 13610，主张把代码库索引成持久知识图谱，并承诺平均 repo 毫秒级索引、查询亚毫秒、减少 99% token。它的商业化机会不是卖 MCP，而是卖团队代码记忆层、审查上下文和本地部署合规版。",
+          "items": [
+            {
+              "title": "mattpocock/skills",
+              "url": "https://github.com/mattpocock/skills",
+              "source": "GitHub",
+              "score": 11784
+            },
+            {
+              "title": "calesthio/OpenMontage",
+              "url": "https://github.com/calesthio/OpenMontage",
+              "source": "GitHub",
+              "score": 9410
+            },
+            {
+              "title": "DeusData/codebase-memory-mcp",
+              "url": "https://github.com/DeusData/codebase-memory-mcp",
+              "source": "GitHub",
+              "score": 8536
+            }
+          ],
+          "takeaway": "开源增长最快的不是模型本体，而是让代理拥有记忆、技能和专业生产线的中间层。"
+        }
+      ]
+    },
+    {
+      "id": "tech-stack",
+      "title": "技术选型",
+      "blocks": [
+        {
+          "id": "dev-tools",
+          "heading": "本周增长最快的开发者工具是什么？",
+          "summary_md": "开发者工具的高增长集中在 agent 基础设施。[Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach) 周新增 6915 星，总星 39085，卖点是一条 CLI 让代理读写搜索 Twitter、Reddit、YouTube、GitHub、Bilibili、小红书，且零 API 费用。[withastro/flue](https://github.com/withastro/flue) 周新增 1489 星，定位是 sandbox agent framework，说明安全执行环境正在成为 agent 框架标配。\n\n安全侧同样升温：[NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector) 周新增 2849 星，总星 10076，用于扫描 AI agent skills 的漏洞、恶意模式和安全风险。今天的技术选型重点不是选哪家模型，而是给 agent 配齐浏览、沙箱、技能审计和代码记忆。",
+          "items": [
+            {
+              "title": "Panniantong/Agent-Reach",
+              "url": "https://github.com/Panniantong/Agent-Reach",
+              "source": "GitHub",
+              "score": 6915
+            },
+            {
+              "title": "NVIDIA/SkillSpector",
+              "url": "https://github.com/NVIDIA/SkillSpector",
+              "source": "GitHub",
+              "score": 2849
+            },
+            {
+              "title": "withastro/flue",
+              "url": "https://github.com/withastro/flue",
+              "source": "GitHub",
+              "score": 1489
+            }
+          ],
+          "takeaway": "Agent 工程栈正在从 prompt 文件夹升级为可审计、可联网、可隔离执行的系统。"
+        },
+        {
+          "id": "hf-models",
+          "heading": "HuggingFace 上最热的模型能做什么消费级产品？",
+          "summary_md": "HuggingFace 模型榜今天给了两条产品线。第一是本地编码与代理模型：[zai-org/GLM-5.2](https://huggingface.co/zai-org/GLM-5.2) trending 1348、下载 40127、likes 2255，[yuxinlu1/gemma-4-12B-coder-fable5-composer2.5-v1-GGUF](https://huggingface.co/yuxinlu1/gemma-4-12B-coder-fable5-composer2.5-v1-GGUF) trending 827、下载 456117，适合做离线代码助手、团队私有知识库和低成本桌面 agent。\n\n第二是视觉与语音入口：[baidu/Unlimited-OCR](https://huggingface.co/baidu/Unlimited-OCR) trending 560，可做票据、PDF、截图理解；[nvidia/LocateAnything-3B](https://huggingface.co/nvidia/LocateAnything-3B) 下载 274025、likes 2329，适合做视觉定位和自动标注；[owensong/Inflect-Nano-v1](https://huggingface.co/owensong/Inflect-Nano-v1) 是超小本地 TTS，可用于隐私优先的语音产品。",
+          "items": [
+            {
+              "title": "zai-org/GLM-5.2",
+              "url": "https://huggingface.co/zai-org/GLM-5.2",
+              "source": "HuggingFace",
+              "score": 1348
+            },
+            {
+              "title": "yuxinlu1/gemma-4-12B-coder-fable5-composer2.5-v1-GGUF",
+              "url": "https://huggingface.co/yuxinlu1/gemma-4-12B-coder-fable5-composer2.5-v1-GGUF",
+              "source": "HuggingFace",
+              "score": 827
+            },
+            {
+              "title": "baidu/Unlimited-OCR",
+              "url": "https://huggingface.co/baidu/Unlimited-OCR",
+              "source": "HuggingFace",
+              "score": 560
+            }
+          ],
+          "takeaway": "消费级 AI 的下一批机会在本地代码、OCR、视觉定位和端侧语音，而不只是聊天。"
+        }
+      ]
+    },
+    {
+      "id": "competition",
+      "title": "竞争情报",
+      "blocks": [
+        {
+          "id": "migrations",
+          "heading": "有没有迁移类文章或替代品信号？",
+          "summary_md": "虽然 HN 没有提供「XX is dead」类文章，但 GitHub 和 Product Hunt 的替代品信号很强。[OpenCut-app/OpenCut](https://github.com/OpenCut-app/OpenCut) 周新增 3283 星，总星 59357，明确定位为开源 CapCut alternative；[penpot/penpot](https://github.com/penpot/penpot) 周新增 3423 星，总星 53392，继续吃开源设计工具需求；[Kong/insomnia](https://github.com/Kong/insomnia) 周新增 1121 星，强调 Cloud、Local 和 Git storage 并存。\n\n这里的竞争重点不是「免费替代商业软件」，而是「本地优先、开源可控、能接入 AI workflow」。视频编辑、设计协作、API 调试这些成熟品类，一旦被 agent 改写，旧产品的协作边界和数据边界都会被重新谈判。",
+          "items": [
+            {
+              "title": "OpenCut-app/OpenCut",
+              "url": "https://github.com/OpenCut-app/OpenCut",
+              "source": "GitHub",
+              "score": 3283
+            },
+            {
+              "title": "penpot/penpot",
+              "url": "https://github.com/penpot/penpot",
+              "source": "GitHub",
+              "score": 3423
+            },
+            {
+              "title": "Kong/insomnia",
+              "url": "https://github.com/Kong/insomnia",
+              "source": "GitHub",
+              "score": 1121
+            }
+          ],
+          "takeaway": "替代品叙事正在从省钱转向控制权：本地、开源、可被代理调用。"
+        },
+        {
+          "id": "pricing-revenue",
+          "heading": "独立开发者在讨论什么营收和定价策略？",
+          "summary_md": "今天没有 HN 营收帖，但 Product Hunt 的变现线索很直接。[Crewdle AI](https://www.producthunt.com/products/crewdle) 的口号是用每个商业 AI 工具而不订每个 subscription，本质是订阅聚合与采购代理；[Stripe.Directory](https://www.producthunt.com/products/stripe) 和 [Bluerails Discovery](https://www.producthunt.com/products/bluerails-discovery) 则把商家发现、支付与代理可访问性变成入口。\n\n这意味着一个新定价思路：不是向终端用户卖功能，而是向代理、工作流或采购入口收取发现费、交易费、托管费。对 indie builder 来说，真正可复制的是把自己产品暴露成 agent-friendly 的目录、付款和动作接口。",
+          "items": [
+            {
+              "title": "Crewdle AI",
+              "url": "https://www.producthunt.com/products/crewdle",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "Stripe.Directory",
+              "url": "https://www.producthunt.com/products/stripe",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "Bluerails Discovery",
+              "url": "https://www.producthunt.com/products/bluerails-discovery",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "Agent 时代的定价入口可能不是页面转化率，而是能否被代理发现、比较和付款。"
+        }
+      ]
+    },
+    {
+      "id": "trends",
+      "title": "趋势判断",
+      "blocks": [
+        {
+          "id": "keywords",
+          "heading": "本周技术关键词频率有什么变化？",
+          "summary_md": "Google Trends 最强上升项是 [codebase memory mcp](https://trends.google.com/trends/explore?q=codebase+memory+mcp&date=now+7-d) +999% 和 [openmontage](https://trends.google.com/trends/explore?q=openmontage&date=now+7-d) +999%，两者正好对应 GitHub weekly 的两大爆款：codebase-memory-mcp 周新增 8536 星，OpenMontage 周新增 9410 星。这不是偶然热搜，而是开发者已经在寻找可落地的 agent 组件。\n\n相比之下，[codex cli](https://trends.google.com/trends/explore?q=codex+cli&date=now+7-d) 只升 +3.1%，[codex](https://trends.google.com/trends/explore?q=codex&date=now+7-d) 只升 +2.3%。大平台词还在高位，但增量注意力正在流向周边生态：记忆、技能、沙箱、视频生产和模型本地化。",
+          "items": [
+            {
+              "title": "codebase memory mcp",
+              "url": "https://trends.google.com/trends/explore?q=codebase+memory+mcp&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 999
+            },
+            {
+              "title": "openmontage",
+              "url": "https://trends.google.com/trends/explore?q=openmontage&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 999
+            },
+            {
+              "title": "codex cli",
+              "url": "https://trends.google.com/trends/explore?q=codex+cli&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 3
+            }
+          ],
+          "takeaway": "搜索增量正在从大模型品牌转向 agent 的可用组件。"
+        },
+        {
+          "id": "cooling",
+          "heading": "哪些 AI 热词在降温？",
+          "summary_md": "降温项很有信息量：[ai agent](https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d) -11.6%，[agent reach](https://trends.google.com/trends/explore?q=agent+reach&date=now+7-d) -10.7%，[open source alternative](https://trends.google.com/trends/explore?q=open+source+alternative&date=now+7-d) -28.6%，[cursor alternative](https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d) -53.5%，[timesfm](https://trends.google.com/trends/explore?q=timesfm&date=now+7-d) -72.2%。\n\n这说明泛词热度在衰减，窄场景反而更容易爆。用户不是不关心 agent，而是不再搜索抽象概念；他们搜索的是 OpenMontage、codebase memory、GLM 5.2 这类能马上装、马上试、马上嵌入工作流的东西。",
+          "items": [
+            {
+              "title": "cursor alternative",
+              "url": "https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": -53
+            },
+            {
+              "title": "open source alternative",
+              "url": "https://trends.google.com/trends/explore?q=open+source+alternative&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": -28
+            },
+            {
+              "title": "ai agent",
+              "url": "https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": -11
+            }
+          ],
+          "takeaway": "泛 AI agent 叙事降温，具体可安装工具升温。"
+        },
+        {
+          "id": "new-radar",
+          "heading": "新词雷达：有哪些从零起飞的新概念？",
+          "summary_md": "新词信号主要来自 Google Trends 的 breakout 与 rising 字段。「glm 5.2」在 [self hosted](https://trends.google.com/trends/explore?q=self+hosted&date=now+7-d) 的关联查询中 breakout 900，同时 HuggingFace 的 [zai-org/GLM-5.2](https://huggingface.co/zai-org/GLM-5.2) 以 1348 trending score 排第一，说明本地可部署大模型正在重新进入 self-hosted 语境。\n\n另外，「gpt 5.6」出现在 [codex cli](https://trends.google.com/trends/explore?q=codex+cli&date=now+7-d) 的 rising 查询中，breakout 值 60；「forgejo」和「firecrawl」出现在 [self hosted](https://trends.google.com/trends/explore?q=self+hosted&date=now+7-d) rising 查询中，分别 breakout 60 和 50。弱信号共同指向一个方向：开发者想把代码、爬取、模型和协作都放回可控环境。",
+          "items": [
+            {
+              "title": "glm 5.2",
+              "url": "https://trends.google.com/trends/explore?q=self+hosted&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 900
+            },
+            {
+              "title": "gpt 5.6",
+              "url": "https://trends.google.com/trends/explore?q=codex+cli&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 60
+            },
+            {
+              "title": "firecrawl",
+              "url": "https://trends.google.com/trends/explore?q=self+hosted&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 50
+            }
+          ],
+          "takeaway": "新词不是在讲更智能的聊天，而是在讲更可控的本地 agent 基础设施。"
+        }
+      ]
+    },
+    {
+      "id": "actions",
+      "title": "行动触发",
+      "blocks": [
+        {
+          "id": "weekend-build",
+          "heading": "今天 2 小时和一个周末分别做什么？",
+          "summary_md": "2 小时内可以做一个「代码库记忆体检」小工具：接入 [DeusData/codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp) 的思路，扫描一个 repo，输出最常被修改文件、缺失文档模块、测试薄弱点和可问答索引。它不必先做成完整 IDE 插件，只要能给 Claude Code、Codex CLI 或 Cursor 提供一份上下文摘要，就有即时价值。\n\n一个周末可以做「短视频 agent 生产台」原型：用 [calesthio/OpenMontage](https://github.com/calesthio/OpenMontage) 的 12 pipelines 概念，限制在一个垂直场景，比如产品更新视频、播客切片或小红书封面视频。关键不是全自动生成大片，而是把素材导入、脚本、剪辑、字幕、封面这 5 步串成可复用流程。",
+          "items": [
+            {
+              "title": "DeusData/codebase-memory-mcp",
+              "url": "https://github.com/DeusData/codebase-memory-mcp",
+              "source": "GitHub",
+              "score": 8536
+            },
+            {
+              "title": "calesthio/OpenMontage",
+              "url": "https://github.com/calesthio/OpenMontage",
+              "source": "GitHub",
+              "score": 9410
+            }
+          ],
+          "takeaway": "今天最值得动手的是把热门 agent 基建收窄成一个明确岗位的工作流。"
+        },
+        {
+          "id": "pricing-models",
+          "heading": "值得学习的定价和变现模式有哪些？",
+          "summary_md": "今天值得学习的是三种定价模型。第一是工具聚合订阅，[Crewdle AI](https://www.producthunt.com/products/crewdle) 用「无需订阅每个 AI 工具」切入采购焦虑。第二是代理交易入口，[Buy by Agentcard](https://www.producthunt.com/products/agent-card) 把 DoorDash 下单放进 Claude，未来可按交易抽成或商户接入收费。第三是可发现性基础设施，[Bluerails Discovery](https://www.producthunt.com/products/bluerails-discovery) 和 [Stripe.Directory](https://www.producthunt.com/products/stripe) 都在卖「让代理找到并支付你」。\n\n对 builder 的启发是：如果你的产品已经有 API、付款页或可执行动作，就应该尽快包装成 agent-readable 的目录项、manifest、MCP server 或 checkout flow。价格可以不先涨，但分发入口要先迁移。",
+          "items": [
+            {
+              "title": "Crewdle AI",
+              "url": "https://www.producthunt.com/products/crewdle",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "Buy by Agentcard",
+              "url": "https://www.producthunt.com/products/agent-card",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "Bluerails Discovery",
+              "url": "https://www.producthunt.com/products/bluerails-discovery",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "未来的付费墙不只给人看，也要给代理看。"
+        },
+        {
+          "id": "counterintuitive",
+          "heading": "今天最反直觉的发现是什么？",
+          "summary_md": "最反直觉的是：越是泛 AI 词，今天越不占优势。[ai agent](https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d) 下滑 -11.6%，[cursor alternative](https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d) 下滑 -53.5%，但 OpenMontage、codebase-memory-mcp、SkillSpector、Agent-Reach 这些窄工具在 GitHub 上高速增长。\n\n这意味着 2026 年的机会不是再做一个 agent 平台口号，而是做一个能被平台调用的专用模块：记忆、浏览、沙箱、审计、视频、OCR、支付。越小的模块，如果正好卡在 agent 工作流的瓶颈上，越可能获得超线性分发。",
+          "items": [
+            {
+              "title": "ai agent",
+              "url": "https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": -11
+            },
+            {
+              "title": "NVIDIA/SkillSpector",
+              "url": "https://github.com/NVIDIA/SkillSpector",
+              "source": "GitHub",
+              "score": 2849
+            },
+            {
+              "title": "Panniantong/Agent-Reach",
+              "url": "https://github.com/Panniantong/Agent-Reach",
+              "source": "GitHub",
+              "score": 6915
+            }
+          ],
+          "takeaway": "别再包装成全能 agent，做 agent 生态里最难替换的一颗螺丝。"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2026-06-24T09:23:31+00:00",
+  "reddit_highlights": []
+}
