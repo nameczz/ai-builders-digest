@@ -1,0 +1,622 @@
+{
+  "date": "2026-06-24",
+  "generated_at": "2026-06-24T09:11:39+00:00",
+  "count": 41,
+  "items": [
+    {
+      "id": "e8ee29f2dd",
+      "date": "2026-06-24",
+      "source": "x",
+      "author": "Swyx",
+      "bio": "achieve ambition with intentionality, intensity, integrity & insanity.  affiliations: - @dxtipshq  - @cognition - @temporalio - @aidotengineer - @latentspacepod",
+      "title": "",
+      "summary_en": "@LitFellows also a great related event for Women in AI\n\nhttps://t.co/AULDW3dUtA",
+      "summary_zh": "@LitFellows 也是 Women in AI 相关活动里值得看的一个。",
+      "url": "https://x.com/swyx/status/2069665232822366577",
+      "posted_at": "2026-06-24T06:13:38.000Z",
+      "tags": [
+        "@swyx"
+      ]
+    },
+    {
+      "id": "d607e8a2c1",
+      "date": "2026-06-24",
+      "source": "x",
+      "author": "Aaron Levie",
+      "bio": "ceo @box - your business lives in content. unleash it with AI",
+      "title": "",
+      "summary_en": "Good post on the dynamics of AI pricing right now. We’re basically going to see a barbell dynamic on pricing between high cost frontier models and cheap but good open or closed weights models. \n\nThen the question is how do you maximize efficiency from the frontier models, and get better quality and performance of the cheaper models. That’s where the applied AI layer comes in.\n\nThe applied layer can route to the best model at any time given the workload at hand, as well as mitigate either high token costs or worse performance. The closer you are to the underlying workflow, the better you can tune the use of models for a given business process. \n\nThat’s all about understanding the workflows, domain specific FDEs, evals by customer or process, getting data setup well for agents, and more. Overall good for applied AI.",
+      "summary_zh": "AI 定价会走向两头分化：一边是昂贵的前沿模型，一边是便宜但够用的开源或闭源权重模型。真正赚钱的是应用层，谁更懂具体工作流、会路由模型、会做评测和数据准备，谁就能把贵模型用得更省，把便宜模型用得更狠。",
+      "url": "https://x.com/levie/status/2069639600310767616",
+      "posted_at": "2026-06-24T04:31:47.000Z",
+      "tags": [
+        "@levie"
+      ]
+    },
+    {
+      "id": "85bdac49ec",
+      "date": "2026-06-24",
+      "source": "x",
+      "author": "Thibault Sottiaux",
+      "bio": "Codex & ChatGPT @OpenAI",
+      "title": "",
+      "summary_en": "If you are at OpenAI, you would know that this never happens. Be right back celebrating 5 minutes of peace. https://t.co/kxMOXFsg8s",
+      "summary_zh": "在 OpenAI，能有 5 分钟清静几乎是奇迹。先去庆祝这点短暂和平。",
+      "url": "https://x.com/thsottiaux/status/2069624530960838914",
+      "posted_at": "2026-06-24T03:31:54.000Z",
+      "tags": [
+        "@thsottiaux"
+      ]
+    },
+    {
+      "id": "24b5a842e1",
+      "date": "2026-06-24",
+      "source": "x",
+      "author": "Peter Yang",
+      "bio": "Practical AI tutorials and interviews for busy people | Join 150K+ readers at https://t.co/XYKTmGVH14",
+      "title": "",
+      "summary_en": "What is design if what’s accessing your product is just an agent looking for an api or CLI?",
+      "summary_zh": "当访问你产品的不是人，而是只想找 API 或 CLI 的智能体时，设计到底还剩下什么？  \n面向 AI agent 的时代，产品设计的核心可能不再是界面，而是可被机器发现、调用和完成任务的能力。",
+      "url": "https://x.com/petergyang/status/2069603490524254473",
+      "posted_at": "2026-06-24T02:08:18.000Z",
+      "tags": [
+        "@petergyang"
+      ]
+    },
+    {
+      "id": "57d7080f35",
+      "date": "2026-06-24",
+      "source": "x",
+      "author": "Swyx",
+      "bio": "achieve ambition with intentionality, intensity, integrity & insanity.  affiliations: - @dxtipshq  - @cognition - @temporalio - @aidotengineer - @latentspacepod",
+      "title": "",
+      "summary_en": "btw Zai IPO'ed in Jan at HK$120 a share. when I first met  @louszbd nobody really knew anyone using GLM's.\n\nnow they have beat deepseek with the world's undisputed top open model and in some respects (see @ml_angelopoulos) say top model period, and are returning to SF @aidotengineer on top of the world and open for business!\n\nexcited for @Thom_Wolf and @ZixuanLi_ to chat onstage!",
+      "summary_zh": "Zai 年初以每股 120 港元 IPO，当年几乎没人用 GLM，如今却靠全球最强开源模型压过 DeepSeek，甚至有人认为它不只是开源第一，而是模型第一。\n\n这次他们带着“登顶之后开放做生意”的姿态回到旧金山。",
+      "url": "https://x.com/swyx/status/2069598378191941835",
+      "posted_at": "2026-06-24T01:47:59.000Z",
+      "tags": [
+        "@swyx"
+      ]
+    },
+    {
+      "id": "429f60c5f8",
+      "date": "2026-06-24",
+      "source": "x",
+      "author": "Aaron Levie",
+      "bio": "ceo @box - your business lives in content. unleash it with AI",
+      "title": "",
+      "summary_en": "Another example of the power of headless software with agents. With Claude Tag, you can give Claude access to any corporate files in Box that you can interact with from Slack. Now all of your enterprise content becomes a portable knowledge base. https://t.co/m7UPdmqnn8 https://t.co/qrHqoZKHG4",
+      "summary_zh": "Claude Tag 让 Claude 通过 Slack 访问你在 Box 里能操作的企业文件，把原本沉在公司网盘里的内容直接变成可随身调用的知识库。无头软件加代理的威力在于：企业内容不再只是存档，而是可被实时驱动的工作系统。",
+      "url": "https://x.com/levie/status/2069596515560267891",
+      "posted_at": "2026-06-24T01:40:35.000Z",
+      "tags": [
+        "@levie"
+      ]
+    },
+    {
+      "id": "78f4be3f50",
+      "date": "2026-06-24",
+      "source": "x",
+      "author": "Peter Steinberger",
+      "bio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world. @OpenClaw🦞 + @OpenAI",
+      "title": "",
+      "summary_en": "Google fired the guy that made the google workspace cli, because he made the google workspace cli.\n\nLucky me, Google can't fire me. https://t.co/o15a6lOxec https://t.co/COuHqv5u6J",
+      "summary_zh": "Google 因为员工做出了 Google Workspace CLI，把做这件事的人开了。\n\n讽刺的是，外部开发者反而不用怕：Google 开不了他。",
+      "url": "https://x.com/steipete/status/2069594195522941059",
+      "posted_at": "2026-06-24T01:31:22.000Z",
+      "tags": [
+        "@steipete"
+      ]
+    },
+    {
+      "id": "4d96aa5bcd",
+      "date": "2026-06-24",
+      "source": "x",
+      "author": "Thibault Sottiaux",
+      "bio": "Codex & ChatGPT @OpenAI",
+      "title": "",
+      "summary_en": "Codex loves slurping up bugs https://t.co/2REc24J0VO",
+      "summary_zh": "Codex 最擅长的就是把 bug 一口吸干。",
+      "url": "https://x.com/thsottiaux/status/2069592160966733853",
+      "posted_at": "2026-06-24T01:23:16.000Z",
+      "tags": [
+        "@thsottiaux"
+      ]
+    },
+    {
+      "id": "f0518d91c7",
+      "date": "2026-06-24",
+      "source": "x",
+      "author": "Guillermo Rauch",
+      "bio": "@vercel CEO",
+      "title": "",
+      "summary_en": "Starting an X Chat group for https://t.co/99eEa13mZ3 feedback. If you’re deep into building an agent and have high quality critical feedback or requirements to share, DM me and I’ll add you to a group with eve engineers",
+      "summary_zh": "Eve 正在拉一个只收高质量反馈的 X 群：真正在深度构建 agent、能提出尖锐批评或硬需求的人，私信后可进群直接对接工程师。",
+      "url": "https://x.com/rauchg/status/2069590431646769472",
+      "posted_at": "2026-06-24T01:16:24.000Z",
+      "tags": [
+        "@rauchg"
+      ]
+    },
+    {
+      "id": "4e27e0303e",
+      "date": "2026-06-24",
+      "source": "x",
+      "author": "Amjad Masad",
+      "bio": "ceo @replit. civilizationist",
+      "title": "",
+      "summary_en": "It starts with a prompt — it’s a whole lot of work to get here — but it starts with an idea.\n\nCongrats Yousef and team! https://t.co/ARUtRHwvFf https://t.co/fu1FQpfyHY",
+      "summary_zh": "伟大的产品不是“一个 prompt”变出来的，但一切确实从一个想法开始。真正难的是把这个想法一路做成现实。",
+      "url": "https://x.com/amasad/status/2069588152285794373",
+      "posted_at": "2026-06-24T01:07:21.000Z",
+      "tags": [
+        "@amasad"
+      ]
+    },
+    {
+      "id": "05210bd294",
+      "date": "2026-06-24",
+      "source": "x",
+      "author": "Swyx",
+      "bio": "achieve ambition with intentionality, intensity, integrity & insanity.  affiliations: - @dxtipshq  - @cognition - @temporalio - @aidotengineer - @latentspacepod",
+      "title": "",
+      "summary_en": "very proud to host this session opening night!\n\nif you work in tech but have never heard of Touchy Feely, you are exactly the kind of person that needs to see this. You have no idea the shocking number of tech leadeds on here are secret @LITfellows alums and i have seen first hand how strong the bonds you form are, it blows my engineer mind.\n\nFREE ADMISSION, application in link reply",
+      "summary_zh": "如果你在科技圈却没听过 Touchy Feely，那你恰恰最该去看看。这里一堆科技领导者其实都是 @LITfellows 校友，他们形成的关系强度，足以把工程师脑子震一下。",
+      "url": "https://x.com/swyx/status/2069582337034330186",
+      "posted_at": "2026-06-24T00:44:14.000Z",
+      "tags": [
+        "@swyx"
+      ]
+    },
+    {
+      "id": "ba78477fbe",
+      "date": "2026-06-24",
+      "source": "x",
+      "author": "Thibault Sottiaux",
+      "bio": "Codex & ChatGPT @OpenAI",
+      "title": "",
+      "summary_en": "Codex **had** a bug. Fixed.\n\nMore feedback. Better product. Keep it coming. https://t.co/hopJLfcDxd",
+      "summary_zh": "Codex 确实有 bug，现在修了。反馈越多，产品越强，继续来。",
+      "url": "https://x.com/thsottiaux/status/2069579993588625574",
+      "posted_at": "2026-06-24T00:34:56.000Z",
+      "tags": [
+        "@thsottiaux"
+      ]
+    },
+    {
+      "id": "1f6a93b1d3",
+      "date": "2026-06-24",
+      "source": "x",
+      "author": "Peter Yang",
+      "bio": "Practical AI tutorials and interviews for busy people | Join 150K+ readers at https://t.co/XYKTmGVH14",
+      "title": "",
+      "summary_en": "wtf the Google Workspace CLI is super useful it should be celebrated? https://t.co/ulweVvibfr",
+      "summary_zh": "Google Workspace CLI 居然这么好用，离谱到应该被拿出来大夸一通。",
+      "url": "https://x.com/petergyang/status/2069551302246592799",
+      "posted_at": "2026-06-23T22:40:55.000Z",
+      "tags": [
+        "@petergyang"
+      ]
+    },
+    {
+      "id": "f92e85e33d",
+      "date": "2026-06-24",
+      "source": "x",
+      "author": "Andrej Karpathy",
+      "bio": "I like training large deep neural nets.",
+      "title": "",
+      "summary_en": "This is a new paradigm for interacting with Claude that is significantly more \"inline\" with all the other human activity org-wide. Once you do all of the under the hood engineering work to make this \"just work\" (e.g. across tools, integrations, compute environments, memory, security, etc.), Claude basically joins the team in a seamless way - you can talk to it as you would talk to a person and it can help with a very large variety of workloads.\n\nImo this is the 3rd major redesign of LLM UIUX. The first paradigm was that the LLM is a website you go to, the second was that it is an app you download to your computer. This third one is that it is a self-contained, persistent, asynchronous entity with org-wide tools and context, working alongside teams of humans. It really takes a while to wrap your head around it, but it works and it is awesome.",
+      "summary_zh": "LLM UIUX 的第三次重设计来了：不是网站，也不是电脑 App，而是一个带着组织级工具、上下文和记忆的异步实体，像同事一样常驻团队里干活。\n\n真正难的是把工具、集成、算力环境、记忆和安全这些底层工程全部打通，让 Claude “就这么能用”。",
+      "url": "https://x.com/karpathy/status/2069547676849557725",
+      "posted_at": "2026-06-23T22:26:31.000Z",
+      "tags": [
+        "@karpathy"
+      ]
+    },
+    {
+      "id": "f90f649629",
+      "date": "2026-06-24",
+      "source": "x",
+      "author": "Nikunj Kothari",
+      "bio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
+      "title": "",
+      "summary_en": "Built using @conductor_build, @AnthropicAI Opus 4.8, @shopify UCP CLI and @Railway.\n\nLive now here: https://t.co/oSJhkFkEKP",
+      "summary_zh": "用 Conductor、Anthropic Opus 4.8、Shopify UCP CLI 和 Railway 搭出来的东西，已经上线。",
+      "url": "https://x.com/nikunj/status/2069547206504566980",
+      "posted_at": "2026-06-23T22:24:39.000Z",
+      "tags": [
+        "@nikunj"
+      ]
+    },
+    {
+      "id": "317fe6a0fd",
+      "date": "2026-06-24",
+      "source": "x",
+      "author": "Nikunj Kothari",
+      "bio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
+      "title": "",
+      "summary_en": "Introducing Plug That Shop 🔌\n\nSo @Shopify launched their UCP CLI that allows all the products on their stores available via the command line.\n\nI was thinking of interesting use cases for the CLI over the weekend and realized that I can use this to create contextual embedded shops for websites.\n\nSo now, you can enter your website and get four HIGHLY relevant shops that you can embed in just one click.\n\nFor the buyer using this shop, it's an insanely simple experience since they can click buy and checkout with Shop in literally one click.\n\nAvailable, free to use, NO affiliate revenue at plugthatshop dot com\n\nFeedback welcome!",
+      "summary_zh": "Shopify 的 UCP CLI 把店铺商品直接搬进命令行，于是 Plug That Shop 可以按网站上下文一键生成 4 个高度相关的嵌入式商店。买家点一下就能用 Shop 结账，作者强调免费、无联盟抽成。",
+      "url": "https://x.com/nikunj/status/2069534712763490668",
+      "posted_at": "2026-06-23T21:35:00.000Z",
+      "tags": [
+        "@nikunj"
+      ]
+    },
+    {
+      "id": "1ee420787c",
+      "date": "2026-06-24",
+      "source": "x",
+      "author": "Peter Yang",
+      "bio": "Practical AI tutorials and interviews for busy people | Join 150K+ readers at https://t.co/XYKTmGVH14",
+      "title": "",
+      "summary_en": "Human-agent interaction is basically trending towards managing a highly capable employee.\n\n1 on 1s and performance reviews for Claude next? 😅 https://t.co/s37TYKzSUn",
+      "summary_zh": "人和 AI Agent 的互动正在变成“管理一个能力很强的员工”。下一步可能就是给 Claude 开 1:1 和做绩效评审了。",
+      "url": "https://x.com/petergyang/status/2069530765352907180",
+      "posted_at": "2026-06-23T21:19:19.000Z",
+      "tags": [
+        "@petergyang"
+      ]
+    },
+    {
+      "id": "844132e977",
+      "date": "2026-06-24",
+      "source": "x",
+      "author": "Guillermo Rauch",
+      "bio": "@vercel CEO",
+      "title": "",
+      "summary_en": "Vercel + Cursor https://t.co/3AyhoYnUM1",
+      "summary_zh": "Vercel 和 Cursor 正在合流：一个管部署，一个管编码，AI 应用开发链路被进一步收进少数平台手里。",
+      "url": "https://x.com/rauchg/status/2069513849578082474",
+      "posted_at": "2026-06-23T20:12:06.000Z",
+      "tags": [
+        "@rauchg"
+      ]
+    },
+    {
+      "id": "0d8116f37e",
+      "date": "2026-06-24",
+      "source": "x",
+      "author": "Cat Wu",
+      "bio": "claude code + cowork @anthropicai, prev: @dagster, @scale_ai",
+      "title": "",
+      "summary_en": "There are 100s of ways you can customize Claude Tag for any use case.\n\nHere are 6 common flows that have resonated with our internal users and external design partners: https://t.co/eMw8xdDZOZ",
+      "summary_zh": "Claude Tag 的价值在于可被改造成几乎任何工作流，不是单一工具。团队挑了 6 个在内部用户和外部设计伙伴中最有效的常见用法。",
+      "url": "https://x.com/_catwu/status/2069486403696869555",
+      "posted_at": "2026-06-23T18:23:02.000Z",
+      "tags": [
+        "@_catwu"
+      ]
+    },
+    {
+      "id": "c8303dde81",
+      "date": "2026-06-24",
+      "source": "x",
+      "author": "Cat Wu",
+      "bio": "claude code + cowork @anthropicai, prev: @dagster, @scale_ai",
+      "title": "",
+      "summary_en": "Here’s our Get Started guide for configuring agent permissions for Claude Tag! https://t.co/x7G0o8Cjx1",
+      "summary_zh": "Claude Tag 放出了 Agent 权限配置入门指南，重点是把权限边界先管清楚再让 Agent 干活。",
+      "url": "https://x.com/_catwu/status/2069484330938998993",
+      "posted_at": "2026-06-23T18:14:48.000Z",
+      "tags": [
+        "@_catwu"
+      ]
+    },
+    {
+      "id": "319a59398f",
+      "date": "2026-06-24",
+      "source": "x",
+      "author": "Garry Tan",
+      "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "title": "",
+      "summary_en": "We should demand government competence instead of whatever we have to deal with in California government and local city management today https://t.co/6378A01vgm",
+      "summary_zh": "我们该要求政府有基本治理能力，而不是继续忍受今天加州政府和地方城市管理这套烂摊子。",
+      "url": "https://x.com/garrytan/status/2069482298547044788",
+      "posted_at": "2026-06-23T18:06:43.000Z",
+      "tags": [
+        "@garrytan"
+      ]
+    },
+    {
+      "id": "771ec81c67",
+      "date": "2026-06-24",
+      "source": "x",
+      "author": "Matt Turck",
+      "bio": "VC at @FirstMarkCap.  Host: MAD Podcast; Organizer: Data Driven NYC, Author: MAD Landscape.",
+      "title": "",
+      "summary_en": "Expanding the world cup from 32 to 48 teams was such a genius idea.  Creates some Cinderalla stories (Curacao, Cabo Verde, DR Congo etc), and enables the stars (Messi, Ronaldo, MBappe, Haaland etc) to shine early.  Loving it all so far.",
+      "summary_zh": "世界杯扩军到 48 队确实是神来之笔：一边制造库拉索、佛得角、刚果（金）这样的黑马故事，一边让梅西、C 罗、姆巴佩、哈兰德这些巨星更早登场发光。现在看，效果全都拉满了。",
+      "url": "https://x.com/mattturck/status/2069481767652794768",
+      "posted_at": "2026-06-23T18:04:37.000Z",
+      "tags": [
+        "@mattturck"
+      ]
+    },
+    {
+      "id": "3f96ee7282",
+      "date": "2026-06-24",
+      "source": "x",
+      "author": "Boris Cherny",
+      "bio": "Claude Code @anthropicai",
+      "title": "",
+      "summary_en": "That's it. Point it at a channel, give it a task, and let it work. It's in beta on Slack today for Claude Enterprise and Team customers. More surfaces coming soon!\n\nLearn more: https://t.co/tcvNSCANlf",
+      "summary_zh": "把 Claude 指向一个 Slack 频道，丢给它任务，然后放手让它干活。今天起 Slack 版面向 Claude Enterprise 和 Team 客户开放 beta，更多入口随后上线。",
+      "url": "https://x.com/bcherny/status/2069474691010707486",
+      "posted_at": "2026-06-23T17:36:29.000Z",
+      "tags": [
+        "@bcherny"
+      ]
+    },
+    {
+      "id": "981bfa7fa2",
+      "date": "2026-06-24",
+      "source": "x",
+      "author": "Boris Cherny",
+      "bio": "Claude Code @anthropicai",
+      "title": "",
+      "summary_en": "Tag Claude in a channel, it spins up an instance with its own sandbox. It clones repos, writes code, tests, compiles all in that isolated environment and the sandbox gets thrown away when it's done. One instance per thread, its own memory and permissions per channel.",
+      "summary_zh": "在频道里 @Claude，它就拉起一个独立沙盒实例：克隆仓库、写代码、跑测试、编译，全都隔离执行，用完即毁。每个线程一个实例，记忆和权限按频道切开。",
+      "url": "https://x.com/bcherny/status/2069474689819480394",
+      "posted_at": "2026-06-23T17:36:29.000Z",
+      "tags": [
+        "@bcherny"
+      ]
+    },
+    {
+      "id": "f095aae7db",
+      "date": "2026-06-24",
+      "source": "x",
+      "author": "Boris Cherny",
+      "bio": "Claude Code @anthropicai",
+      "title": "",
+      "summary_en": "I also have Claude monitoring Slack channels to proactively respond to people to answer their questions and draft PRs, and to react with specific emojis like ✅❌ when a thread is resolved.\n\nTo set it up, just add @.Claude to a channel and ask it to do this^, in natural language.",
+      "summary_zh": "Claude 已经能蹲守 Slack 频道，主动答疑、起草 PR，甚至用 ✅❌ 标记线程是否解决。\n\n配置方式也很粗暴：把 @Claude 拉进频道，直接用自然语言吩咐它干这些事。",
+      "url": "https://x.com/bcherny/status/2069474688619958517",
+      "posted_at": "2026-06-23T17:36:29.000Z",
+      "tags": [
+        "@bcherny"
+      ]
+    },
+    {
+      "id": "f3f43a0d7e",
+      "date": "2026-06-24",
+      "source": "x",
+      "author": "Garry Tan",
+      "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "title": "",
+      "summary_en": "Linzumi is Codex but actually multiplayer. It’s magical for teams. \n\nAlso Sean Grove was on the team at OpenAI that greatly reduced sycophancy in ChatGPT before he left to start this YC startup! https://t.co/uShBOGz3tV",
+      "summary_zh": "Linzumi 像 Codex，但真能多人协作，对团队来说有点魔法。创始人 Sean Grove 离开 OpenAI 前，还参与过大幅削弱 ChatGPT 谄媚倾向的那支团队。",
+      "url": "https://x.com/garrytan/status/2069474420113146355",
+      "posted_at": "2026-06-23T17:35:25.000Z",
+      "tags": [
+        "@garrytan"
+      ]
+    },
+    {
+      "id": "1aad103ab2",
+      "date": "2026-06-24",
+      "source": "x",
+      "author": "Thariq",
+      "bio": "Claude Code @anthropicai.   prev YC W20, @southpkcommons, @medialab",
+      "title": "",
+      "summary_en": "Finally, get creative! I'm setting up a \"scheduling\" channel which lets people tag Claude to find time on our calendars.",
+      "summary_zh": "Claude 开始接管日程协调：建个 scheduling 频道，大家直接 tag Claude，让它去翻日历找时间。",
+      "url": "https://x.com/trq212/status/2069474343512617390",
+      "posted_at": "2026-06-23T17:35:07.000Z",
+      "tags": [
+        "@trq212"
+      ]
+    },
+    {
+      "id": "7385c259f6",
+      "date": "2026-06-24",
+      "source": "x",
+      "author": "Thariq",
+      "bio": "Claude Code @anthropicai.   prev YC W20, @southpkcommons, @medialab",
+      "title": "",
+      "summary_en": "When it's working, I ask it to react to the top level thread with the following emojis: ⏲️✅❓🛑\n\nThat way it's easy to see its status at a glance.",
+      "summary_zh": "让 AI 干活时，直接要求它在顶层线程用 ⏲️✅❓🛑 标状态：进行中、完成、有疑问、卡住。别让它写长篇汇报，扫一眼 emoji 就知道进展和是否需要介入。",
+      "url": "https://x.com/trq212/status/2069474342220820657",
+      "posted_at": "2026-06-23T17:35:06.000Z",
+      "tags": [
+        "@trq212"
+      ]
+    },
+    {
+      "id": "b635c4ff56",
+      "date": "2026-06-24",
+      "source": "x",
+      "author": "Thariq",
+      "bio": "Claude Code @anthropicai.   prev YC W20, @southpkcommons, @medialab",
+      "title": "",
+      "summary_en": "When you really get going, it's easy to get overwhelmed with all the threads. \n\nIn my personal channel I like to ask Claude to keep a pinned message that it updates with the status of everything.",
+      "summary_zh": "AI 工作一旦跑起来，线程很快会多到让人失控。作者的做法是让 Claude 维护一条置顶消息，持续更新所有事情的状态。",
+      "url": "https://x.com/trq212/status/2069474339679052144",
+      "posted_at": "2026-06-23T17:35:06.000Z",
+      "tags": [
+        "@trq212"
+      ]
+    },
+    {
+      "id": "22c5ac8bc4",
+      "date": "2026-06-24",
+      "source": "x",
+      "author": "Cat Wu",
+      "bio": "claude code + cowork @anthropicai, prev: @dagster, @scale_ai",
+      "title": "",
+      "summary_en": "Claude Tag is a paradigm shift in how we ship products at Anthropic. Our internal version merges 65% of product PRs and this is our first product that is natively multi-player and proactive.\n\nWe're excited for you to try this out. Let us know your feedback! https://t.co/YOENq4hDSt",
+      "summary_zh": "Claude Tag 正在改变 Anthropic 的产品发布方式：内部版本已经合并了 65% 的产品 PR，也是他们第一个原生多人协作、主动执行的产品。",
+      "url": "https://x.com/_catwu/status/2069473118742331608",
+      "posted_at": "2026-06-23T17:30:15.000Z",
+      "tags": [
+        "@_catwu"
+      ]
+    },
+    {
+      "id": "5ed69cdff1",
+      "date": "2026-06-24",
+      "source": "x",
+      "author": "Alex Albert",
+      "bio": "Research @AnthropicAI. Opinions are my own!",
+      "title": "",
+      "summary_en": "This has completely changed how I work with Claude. It feels less like using a tool and more like managing a team. https://t.co/JaUllMPTJW",
+      "summary_zh": "这彻底改变了我使用 Claude 的方式：它不再像是在操作一个工具，而更像是在管理一支团队。",
+      "url": "https://x.com/alexalbert__/status/2069470389391241314",
+      "posted_at": "2026-06-23T17:19:24.000Z",
+      "tags": [
+        "@alexalbert__"
+      ]
+    },
+    {
+      "id": "d7ff13b2fd",
+      "date": "2026-06-24",
+      "source": "x",
+      "author": "Claude",
+      "bio": "Claude is an AI assistant built by @anthropicai to be safe, accurate, and secure. Talk to Claude on https://t.co/ZhTwG8d1e5 or download the app.",
+      "title": "",
+      "summary_en": "Claude Tag is available in beta today on Slack for Claude Enterprise and Team plans. We plan to expand it more widely in the future.\n\nRead more: https://t.co/MGV30Ml8mL",
+      "summary_zh": "Claude Tag 今天在 Slack 上向 Claude Enterprise 和 Team 方案开放 beta，Anthropic 先把团队协作入口卡住了。更大范围开放还没时间表。",
+      "url": "https://x.com/claudeai/status/2069468701548531895",
+      "posted_at": "2026-06-23T17:12:41.000Z",
+      "tags": [
+        "@claudeai"
+      ]
+    },
+    {
+      "id": "22d5975a8f",
+      "date": "2026-06-24",
+      "source": "x",
+      "author": "Claude",
+      "bio": "Claude is an AI assistant built by @anthropicai to be safe, accurate, and secure. Talk to Claude on https://t.co/ZhTwG8d1e5 or download the app.",
+      "title": "",
+      "summary_en": "Turn ambient behavior on, and Claude takes initiative. It follows up on threads that have gone quiet and flags what's relevant from across its channels and tools. https://t.co/fTMkAHY4Gr",
+      "summary_zh": "打开 ambient behavior 后，Claude 会主动接管沉默的线索：跟进冷掉的 thread，并从各个渠道和工具里把真正相关的东西挑出来提醒你。",
+      "url": "https://x.com/claudeai/status/2069468699766005847",
+      "posted_at": "2026-06-23T17:12:41.000Z",
+      "tags": [
+        "@claudeai"
+      ]
+    },
+    {
+      "id": "d274a54eaf",
+      "date": "2026-06-24",
+      "source": "x",
+      "author": "Claude",
+      "bio": "Claude is an AI assistant built by @anthropicai to be safe, accurate, and secure. Talk to Claude on https://t.co/ZhTwG8d1e5 or download the app.",
+      "title": "",
+      "summary_en": "In a channel, there’s one Claude that interacts with everyone, so a teammate can pick up exactly where you left off.\n\nIt builds more context about the work as it follows the channel, so you don’t need to explain things from scratch.",
+      "summary_zh": "一个频道里只有一个 Claude 跟所有人协作，队友能无缝接上你停下的地方。它会沿着频道持续积累工作上下文，不用每次从零解释。",
+      "url": "https://x.com/claudeai/status/2069468698071494976",
+      "posted_at": "2026-06-23T17:12:41.000Z",
+      "tags": [
+        "@claudeai"
+      ]
+    },
+    {
+      "id": "7dff1d8d43",
+      "date": "2026-06-24",
+      "source": "x",
+      "author": "Aditya Agarwal",
+      "bio": "General Partner @SouthPkCommons, Co-Founder @Bevel_Health | Ex: Early Eng @facebook, CTO @Dropbox, Board @Flipkart | Optimist, Builder, Dad",
+      "title": "",
+      "summary_en": "Why we invested: https://t.co/v9V7e4MAoq",
+      "summary_zh": "他们投了，并把理由摊在链接里；推文本身没讲故事，只甩出一句“为什么我们投资”。",
+      "url": "https://x.com/adityaag/status/2069464865568166180",
+      "posted_at": "2026-06-23T16:57:27.000Z",
+      "tags": [
+        "@adityaag"
+      ]
+    },
+    {
+      "id": "66196256b4",
+      "date": "2026-06-24",
+      "source": "x",
+      "author": "Aditya Agarwal",
+      "bio": "General Partner @SouthPkCommons, Co-Founder @Bevel_Health | Ex: Early Eng @facebook, CTO @Dropbox, Board @Flipkart | Optimist, Builder, Dad",
+      "title": "",
+      "summary_en": "There's way more demand for space than capacity to launch.\n\n@LongshotSpace is building a cannon that fires payloads into orbit.\n\nWe’re excited to partner with them at @southpkcommons.\n\nLet’s shoot things into space. https://t.co/TRWlr76HWn https://t.co/aTDr0vjR5K",
+      "summary_zh": "太空运力远远跟不上需求，LongshotSpace 要用大炮把载荷打进轨道。South Park Commons 投了他们：把东西射上太空。",
+      "url": "https://x.com/adityaag/status/2069464862556619263",
+      "posted_at": "2026-06-23T16:57:26.000Z",
+      "tags": [
+        "@adityaag"
+      ]
+    },
+    {
+      "id": "cc0f4d5222",
+      "date": "2026-06-24",
+      "source": "x",
+      "author": "Madhu Guru",
+      "bio": "Prev: Product Leader at Google - Gemini, Veo, Nano Banana.",
+      "title": "",
+      "summary_en": "I’ve had the chance to see this ecosystem from the different sides - enterprises, agent startups, data providers, labs. \n\nThe core tension here is that the business models, moats, value exchange, execution playbooks for all players are being figured out in real time.\n\nThis debate around token pricing is really a debate over where value will accrue - models, application layer, distribution or other layers.\n\nExpect a lot of strong opinions from the different sides to shape the narrative in their favor.",
+      "summary_zh": "Token 定价之争本质上不是价格之争，而是 AI 价值最终会流向模型、应用、分发还是其他层的地盘战。\n\n企业、Agent 创业公司、数据商和实验室都还在边跑边找商业模式和护城河，接下来各方都会用强硬叙事把舆论往自己有利的方向拽。",
+      "url": "https://x.com/realmadhuguru/status/2069455097193697393",
+      "posted_at": "2026-06-23T16:18:38.000Z",
+      "tags": [
+        "@realmadhuguru"
+      ]
+    },
+    {
+      "id": "7c0d73c80c",
+      "date": "2026-06-24",
+      "source": "x",
+      "author": "Garry Tan",
+      "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "title": "",
+      "summary_en": "Dropbox should really support larger than 3TB plans - it's not 2015 anymore. The amount of data we are throwing off and that is *actually usable* is going to go exponential from AI, and Dropbox will be run over by this if they don't update for the future.",
+      "summary_zh": "Dropbox 还停在 3TB 上限，像活在 2015 年。AI 会让真正可用的数据量指数级爆炸，如果 Dropbox 不面向未来升级，很快会被碾过去。",
+      "url": "https://x.com/garrytan/status/2069434452628185241",
+      "posted_at": "2026-06-23T14:56:36.000Z",
+      "tags": [
+        "@garrytan"
+      ]
+    },
+    {
+      "id": "6d3f9cacd2",
+      "date": "2026-06-24",
+      "source": "x",
+      "author": "Josh Woodward",
+      "bio": "VP, @Google @GoogleLabs @GeminiApp @GoogleAIStudio",
+      "title": "",
+      "summary_en": "⚽️Turn your team loyalty into a custom trading card, mural, or virtual plushie in @GeminiApp\n\nHow to create yours:\n\n1) Go to https://t.co/z0bvXTam3G or open the app\n2) Tap Images (side panel)\n3) Select the \"Get in the game\" template\n4) Upload your photo and share your output here https://t.co/aysNORY2ea",
+      "summary_zh": "Gemini App 上线“Get in the game”模板：上传照片，就能把你的球队忠诚度包装成定制球星卡、壁画或虚拟毛绒玩具。玩法很直白，进 Images 侧栏选模板上传自拍，然后把生成结果晒出来。",
+      "url": "https://x.com/joshwoodward/status/2069408025362714957",
+      "posted_at": "2026-06-23T13:11:35.000Z",
+      "tags": [
+        "@joshwoodward"
+      ]
+    },
+    {
+      "id": "faab56d96d",
+      "date": "2026-06-24",
+      "source": "x",
+      "author": "Josh Woodward",
+      "bio": "VP, @Google @GoogleLabs @GeminiApp @GoogleAIStudio",
+      "title": "",
+      "summary_en": "Florida State University: \"Shortly after introducing NotebookLM on campus, we watched students who were struggling with a ‘C’ grade completely transform their study habits and their grades in a matter of weeks.\"\n\nhttps://t.co/xcPbvA37s0",
+      "summary_zh": "佛罗里达州立大学称，引入 NotebookLM 后，原本只能拿 C 的学生在几周内彻底改变了学习方式，成绩也随之翻盘。AI 学习工具的效果不再是概念展示，而是直接改写校园里的成绩曲线。",
+      "url": "https://x.com/joshwoodward/status/2069406832523624696",
+      "posted_at": "2026-06-23T13:06:51.000Z",
+      "tags": [
+        "@joshwoodward"
+      ]
+    },
+    {
+      "id": "931abdc484",
+      "date": "2026-06-24",
+      "source": "x",
+      "author": "Amjad Masad",
+      "bio": "ceo @replit. civilizationist",
+      "title": "",
+      "summary_en": "K-coding https://t.co/xDprsRZeLP",
+      "summary_zh": "K-coding：把 Kubernetes 当成新的编程界面来用，真正的 AI builder 不再只写 app，而是在编排、部署、运行时层面直接下手。",
+      "url": "https://x.com/amasad/status/2069322872456364540",
+      "posted_at": "2026-06-23T07:33:13.000Z",
+      "tags": [
+        "@amasad"
+      ]
+    }
+  ]
+}
