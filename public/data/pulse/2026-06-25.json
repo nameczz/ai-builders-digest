@@ -1,0 +1,391 @@
+{
+  "date": "2026-06-25",
+  "top3": [
+    "OpenMontage 一周新增 12,948 星，同时 Google Trends 中 openmontage 暴涨 +999.0%，说明「agentic video studio」正在从 demo 变成开发者主线。",
+    "Codebase Memory MCP 一周新增 9,589 星，配合 Product Hunt 上 Polygraph、Heron、BrowserAct 等产品，说明代理时代的基础设施正在转向记忆、观测和浏览器控制。",
+    "HuggingFace 热榜被 GLM-5.2、Unlimited-OCR、本地 coder GGUF 和长上下文模型占据，消费级机会从聊天机器人转向文档、视频、图像编辑与本地自动化。"
+  ],
+  "intro": "今天的数据主线很清楚：开发者不再只追单点 AI 工具，而是在拼「能长期工作的一组代理」。视频生产、代码库记忆、浏览器测试、agent observability、agent spend control 都在同一天冒头，说明机会更靠近工作流基础设施，而不是又一个聊天入口。",
+  "sections": [
+    {
+      "id": "discovery",
+      "title": "发现机会",
+      "blocks": [
+        {
+          "id": "indie-products",
+          "heading": "今天有哪些独立开发者的新产品？",
+          "summary_md": "HN Show HN 今日为空，Product Hunt 侧也没有采集到票数与评论数，所以这里不伪造热度，只看产品密度。值得关注的是代理工作流产品集中出现：[Sidegent](https://www.producthunt.com/products/sidegent) 做「边学边建 AI agent」，[Papermark Agents](https://www.producthunt.com/products/papermark-2) 把 agent 放进 deal、fundraise 和 data room，[Grass 2.0](https://www.producthunt.com/products/grass-claude-code-from-your-phone) 主打手机上的 coding agent 常驻电脑，[Zaro](https://www.producthunt.com/products/zaro) 用一个 prompt 在上下文上建 agent 与 app。\n\n另一个信号是「代理周边」开始产品化：[Heron](https://www.producthunt.com/products/heron) 把自己定位成 AI Agents 的 Wireshark，用被动 eBPF 做 observability；[Paybond CLI](https://www.producthunt.com/products/paybond) 处理终端里的 agent 安全花费；[BrowserBash](https://www.producthunt.com/products/browserbash) 与 [BrowserAct](https://www.producthunt.com/products/browseract) 切向浏览器自动化。票数与评论数本轮均为 0，因为原始数据未采集该字段。",
+          "items": [
+            {
+              "title": "Sidegent",
+              "url": "https://www.producthunt.com/products/sidegent",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "Papermark Agents",
+              "url": "https://www.producthunt.com/products/papermark-2",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "Grass 2.0",
+              "url": "https://www.producthunt.com/products/grass-claude-code-from-your-phone",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "Heron",
+              "url": "https://www.producthunt.com/products/heron",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "Paybond CLI",
+              "url": "https://www.producthunt.com/products/paybond",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "今天的独立产品机会不在「造 agent」，而在让 agent 可学、可控、可观测、可付费。"
+        },
+        {
+          "id": "github-traction",
+          "heading": "GitHub 上哪些高增长开源项目还没有商业化？",
+          "summary_md": "GitHub weekly 最强信号是 [calesthio/OpenMontage](https://github.com/calesthio/OpenMontage)：一周新增 12,948 星，总星 20,877，用 Python 做开源 agentic video production system，覆盖 12 条 pipeline、52 个工具和 500+ agent skills。它的商业化空白很明显：模板市场、GPU 托管渲染、团队资产库、品牌一致性检查，都比单纯卖开源版更自然。\n\n第二个是 [DeusData/codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp)，一周新增 9,589 星，总星 14,423，用 C 写成单二进制 MCP server，卖点是持久知识图谱、158 种语言、sub-ms 查询和减少 99% token。它还不像成熟 SaaS，更像代理时代的 Redis：可以向企业卖本地索引、安全审计、IDE/CI 插件和私有部署。",
+          "items": [
+            {
+              "title": "calesthio/OpenMontage",
+              "url": "https://github.com/calesthio/OpenMontage",
+              "source": "GitHub",
+              "score": 12948
+            },
+            {
+              "title": "DeusData/codebase-memory-mcp",
+              "url": "https://github.com/DeusData/codebase-memory-mcp",
+              "source": "GitHub",
+              "score": 9589
+            },
+            {
+              "title": "Panniantong/Agent-Reach",
+              "url": "https://github.com/Panniantong/Agent-Reach",
+              "source": "GitHub",
+              "score": 6752
+            },
+            {
+              "title": "OpenCut-app/OpenCut",
+              "url": "https://github.com/OpenCut-app/OpenCut",
+              "source": "GitHub",
+              "score": 3550
+            }
+          ],
+          "takeaway": "高增长开源的商业化入口正在从模型能力转向工作流、记忆层和分发层。"
+        }
+      ]
+    },
+    {
+      "id": "tech-stack",
+      "title": "技术选型",
+      "blocks": [
+        {
+          "id": "dev-tools",
+          "heading": "本周增长最快的开发者工具是什么？",
+          "summary_md": "本周开发者工具榜不是 IDE 本身，而是围绕 agent 的底座。[DeusData/codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp) 一周 9,589 星，说明代码库记忆正在成为 coding agent 的标配层；[withastro/flue](https://github.com/withastro/flue) 一周 1,415 星，定位为 sandbox agent framework；[stablyai/orca](https://github.com/stablyai/orca) 一周 1,397 星，主打并行代理 fleet 的 ADE。\n\nProduct Hunt 侧也吻合这个方向：[BrowserBash](https://www.producthunt.com/products/browserbash) 把自然语言变成浏览器测试，[Blop](https://www.producthunt.com/products/blop-ai) 描述 app 后自动测试并修复 broken tests，[Polygraph](https://www.producthunt.com/products/polygraph) 让 agents 看跨 repo 上下文并维持 session memory。选型上，团队现在该优先验证 MCP、sandbox、browser automation 和 repo memory，而不是再争论单一模型。",
+          "items": [
+            {
+              "title": "DeusData/codebase-memory-mcp",
+              "url": "https://github.com/DeusData/codebase-memory-mcp",
+              "source": "GitHub",
+              "score": 9589
+            },
+            {
+              "title": "withastro/flue",
+              "url": "https://github.com/withastro/flue",
+              "source": "GitHub",
+              "score": 1415
+            },
+            {
+              "title": "stablyai/orca",
+              "url": "https://github.com/stablyai/orca",
+              "source": "GitHub",
+              "score": 1397
+            },
+            {
+              "title": "BrowserBash",
+              "url": "https://www.producthunt.com/products/browserbash",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "agent 工程栈的下一层是记忆、沙箱、浏览器执行和多代理调度。"
+        },
+        {
+          "id": "hf-models",
+          "heading": "HuggingFace 上最热的模型能做什么消费级产品？",
+          "summary_md": "HuggingFace 今日最热模型给了三个消费级方向。第一是多语言通用助手：[zai-org/GLM-5.2](https://huggingface.co/zai-org/GLM-5.2) trending score 1,083，下载 67,107，likes 2,393，标签覆盖 text-generation、conversational、en、zh；它适合做双语写作、客服和知识库产品。第二是文档与票据处理：[baidu/Unlimited-OCR](https://huggingface.co/baidu/Unlimited-OCR) trending score 767，下载 70,743，适合做跨语言 OCR、合同录入、报销自动化。\n\n第三是本地开发者与创作者工具：[yuxinlu1/gemma-4-12B-coder-fable5-composer2.5-v1-GGUF](https://huggingface.co/yuxinlu1/gemma-4-12B-coder-fable5-composer2.5-v1-GGUF) 下载 495,813，适合本地 coding copilot；[krea/Krea-2-Turbo](https://huggingface.co/krea/Krea-2-Turbo) trending score 211，切向 text-to-image。真正可卖的不是模型壳，而是本地隐私、批量文档、图像编辑和团队模板。",
+          "items": [
+            {
+              "title": "zai-org/GLM-5.2",
+              "url": "https://huggingface.co/zai-org/GLM-5.2",
+              "source": "HF",
+              "score": 1083
+            },
+            {
+              "title": "baidu/Unlimited-OCR",
+              "url": "https://huggingface.co/baidu/Unlimited-OCR",
+              "source": "HF",
+              "score": 767
+            },
+            {
+              "title": "yuxinlu1/gemma-4-12B-coder-fable5-composer2.5-v1-GGUF",
+              "url": "https://huggingface.co/yuxinlu1/gemma-4-12B-coder-fable5-composer2.5-v1-GGUF",
+              "source": "HF",
+              "score": 635
+            },
+            {
+              "title": "krea/Krea-2-Turbo",
+              "url": "https://huggingface.co/krea/Krea-2-Turbo",
+              "source": "HF",
+              "score": 211
+            }
+          ],
+          "takeaway": "消费级 AI 产品的机会正从聊天入口迁移到 OCR、图像编辑、本地 coding 和可复用模板。"
+        }
+      ]
+    },
+    {
+      "id": "competition",
+      "title": "竞争情报",
+      "blocks": [
+        {
+          "id": "migrations",
+          "heading": "有没有「XX is dead」或迁移类文章？",
+          "summary_md": "HN 今日没有提供「dead」、「end of」或 migrating 类文章，但 GitHub 榜单已经出现替代迁移的结构性信号：[OpenCut-app/OpenCut](https://github.com/OpenCut-app/OpenCut) 一周新增 3,550 星，总星 59,631，直接定位为 open-source CapCut alternative；[makeplane/plane](https://github.com/makeplane/plane) 一周 1,871 星，总星 52,951，定位为 Jira、Linear、Monday、ClickUp alternative；[Kong/insomnia](https://github.com/Kong/insomnia) 一周 1,167 星，总星 39,696，是 API client 的开源选择。\n\n这里的竞争情报不是某个工具死亡，而是用户在重新审视「云端订阅 + 封闭协作」的默认假设。只要某个品类有高频生产资料、可迁移文件格式、团队协作成本和 AI 插件诉求，开源替代就会持续获得增量注意力。",
+          "items": [
+            {
+              "title": "OpenCut-app/OpenCut",
+              "url": "https://github.com/OpenCut-app/OpenCut",
+              "source": "GitHub",
+              "score": 3550
+            },
+            {
+              "title": "makeplane/plane",
+              "url": "https://github.com/makeplane/plane",
+              "source": "GitHub",
+              "score": 1871
+            },
+            {
+              "title": "Kong/insomnia",
+              "url": "https://github.com/Kong/insomnia",
+              "source": "GitHub",
+              "score": 1167
+            }
+          ],
+          "takeaway": "迁移叙事正在从「某工具已死」转向「我需要一个可控的开源替代」。"
+        },
+        {
+          "id": "pricing-revenue",
+          "heading": "独立开发者在讨论什么营收和定价策略？",
+          "summary_md": "HN 没有采集到 MRR、ARR、pricing、subscription 或 revenue 讨论，但 Product Hunt 产品本身暴露了变现方向。[Oxlo.ai](https://www.producthunt.com/products/oxlo-ai) 的主张是跨 AI models 扩容但不扩账单，适合按节省成本或模型路由量收费；[QuickMaker](https://www.producthunt.com/products/quickmaker) 把 Blender 里的多模型能力打包为一个 subscription；[Paybond CLI](https://www.producthunt.com/products/paybond) 则把 agent spend control 放进终端，天然适合按交易限额、团队席位或审计日志收费。\n\n今天更值得学的是定价锚点：不要只卖 token 或 seat，而要卖风险降低、账单可控、跨模型采购和自动化吞吐。agent 产品进入企业时，预算理由往往不是「更聪明」，而是「我能控制它花多少钱、做了什么、出了问题谁负责」。",
+          "items": [
+            {
+              "title": "Oxlo.ai",
+              "url": "https://www.producthunt.com/products/oxlo-ai",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "QuickMaker",
+              "url": "https://www.producthunt.com/products/quickmaker",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "Paybond CLI",
+              "url": "https://www.producthunt.com/products/paybond",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "agent 产品最容易收费的地方是成本控制、权限控制和可审计性。"
+        }
+      ]
+    },
+    {
+      "id": "trends",
+      "title": "趋势判断",
+      "blocks": [
+        {
+          "id": "keywords",
+          "heading": "本周技术关键词频率有什么变化？",
+          "summary_md": "Google Trends 最强上升词与 GitHub 热榜高度一致：[openmontage](https://trends.google.com/trends/explore?q=openmontage&date=now+7-d) 飙升 +999.0%，对应 GitHub weekly 12,948 星；[codebase memory mcp](https://trends.google.com/trends/explore?q=codebase+memory+mcp&date=now+7-d) 上升 +258.7%，对应 9,589 星的 codebase-memory-mcp；[worldmonitor](https://trends.google.com/trends/explore?q=worldmonitor&date=now+7-d) 上升 +38.7%，对应 AI-powered global intelligence dashboard。\n\n更底层的词也在动：[codex cli](https://trends.google.com/trends/explore?q=codex+cli&date=now+7-d) +19.8%，[codex](https://trends.google.com/trends/explore?q=codex&date=now+7-d) +18.2%，[self hosted](https://trends.google.com/trends/explore?q=self+hosted&date=now+7-d) +15.7%，[ai agent](https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d) +9.5%。这说明增量注意力不只是模型发布，而是把 agent 放进本地、自托管、代码库和生产流水线。",
+          "items": [
+            {
+              "title": "openmontage",
+              "url": "https://trends.google.com/trends/explore?q=openmontage&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 999
+            },
+            {
+              "title": "codebase memory mcp",
+              "url": "https://trends.google.com/trends/explore?q=codebase+memory+mcp&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 258.7
+            },
+            {
+              "title": "worldmonitor",
+              "url": "https://trends.google.com/trends/explore?q=worldmonitor&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 38.7
+            }
+          ],
+          "takeaway": "今天的关键词上涨集中在 agent 落地层，而不是通用 AI 叙事层。"
+        },
+        {
+          "id": "vc-radar",
+          "heading": "VC 和 YC 在关注什么主题？",
+          "summary_md": "综合 GitHub、Product Hunt 和 HuggingFace，今天最像 VC radar 的不是单个模型，而是三类基础设施。第一类是 agent production：OpenMontage 一周 12,948 星，Grass 2.0、Zaro、SayCraft 都在把 agent 变成持续工作环境。第二类是 agent memory 与 context：codebase-memory-mcp 一周 9,589 星，Polygraph 主打 cross repo session memory，Milestones 也把 MCP 放进项目管理。\n\n第三类是 agent governance：Heron 做 eBPF observability，Paybond CLI 做 spend control，Oxlo.ai 做跨模型账单优化。YC 式机会通常出现在「用户已经绕路解决，但还没有标准工具」的地方；今天这个位置就是代理的运行时、权限、记忆、测试和成本层。",
+          "items": [
+            {
+              "title": "OpenMontage",
+              "url": "https://github.com/calesthio/OpenMontage",
+              "source": "GitHub",
+              "score": 12948
+            },
+            {
+              "title": "codebase-memory-mcp",
+              "url": "https://github.com/DeusData/codebase-memory-mcp",
+              "source": "GitHub",
+              "score": 9589
+            },
+            {
+              "title": "Heron",
+              "url": "https://www.producthunt.com/products/heron",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "Paybond CLI",
+              "url": "https://www.producthunt.com/products/paybond",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "资本会更关心 agent 的基础设施层，因为那里有企业预算、迁移成本和长期锁定。"
+        },
+        {
+          "id": "cooling",
+          "heading": "哪些 AI 热词在降温？",
+          "summary_md": "降温词里最值得看的是 [timesfm](https://trends.google.com/trends/explore?q=timesfm&date=now+7-d) -73.5%，尽管 google-research/timesfm 本周仍有 3,915 星，说明学术和开源热度还在，但搜索注意力可能已经过了首波峰值。[cursor alternative](https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d) -47.2%，也很有意思：这不是 coding agent 冷了，而是「找 Cursor 替代品」这个搜索句式降温了。\n\n[open source alternative](https://trends.google.com/trends/explore?q=open+source+alternative&date=now+7-d) -4.4%，[iroh](https://trends.google.com/trends/explore?q=iroh&date=now+7-d) -2.3%，属于轻微回落。判断上，通用替代叙事在降温，但具体项目型搜索在升温；用户不再搜泛泛的 alternative，而是直接搜 OpenMontage、codebase memory mcp 这样的具体答案。",
+          "items": [
+            {
+              "title": "timesfm",
+              "url": "https://trends.google.com/trends/explore?q=timesfm&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": -73.5
+            },
+            {
+              "title": "cursor alternative",
+              "url": "https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": -47.2
+            },
+            {
+              "title": "open source alternative",
+              "url": "https://trends.google.com/trends/explore?q=open+source+alternative&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": -4.4
+            }
+          ],
+          "takeaway": "泛 AI 替代词在降温，具体可用项目名在接走搜索需求。"
+        }
+      ]
+    },
+    {
+      "id": "actions",
+      "title": "行动触发",
+      "blocks": [
+        {
+          "id": "weekend-build",
+          "heading": "今天 2 小时和一个周末分别做什么？",
+          "summary_md": "2 小时内可以做一个「repo memory demo」：用一个小项目接入 MCP 风格索引，展示 agent 如何回答跨文件问题、定位历史决策和生成变更摘要。灵感来自 codebase-memory-mcp 一周 9,589 星，以及 Polygraph 对 cross repo memory 的定位。不要做完整 IDE，做一个能录屏传播的最小闭环即可。\n\n一个周末可以做「agent spend and action log」：本地 CLI 拦截 agent 的外部调用、模型请求、浏览器动作和潜在付费操作，生成可搜索日志与预算上限。它把 Paybond CLI、Heron、Oxlo.ai 三个方向合并成一个可售卖原型：开发者先免费用，团队版卖权限、审计、预算和 webhook。",
+          "items": [
+            {
+              "title": "codebase-memory-mcp",
+              "url": "https://github.com/DeusData/codebase-memory-mcp",
+              "source": "GitHub",
+              "score": 9589
+            },
+            {
+              "title": "Paybond CLI",
+              "url": "https://www.producthunt.com/products/paybond",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "Heron",
+              "url": "https://www.producthunt.com/products/heron",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "最快的 builder 机会是给 agent 加记忆和刹车，而不是再造一个 agent。"
+        },
+        {
+          "id": "pricing-models",
+          "heading": "值得学习的定价和变现模式有哪些？",
+          "summary_md": "今天可借鉴三种定价。第一是基础设施席位制：Orca、Polygraph、codebase-memory-mcp 这类工具可按开发者席位、索引 repo 数、团队知识图谱规模收费。第二是用量与预算管理费：Oxlo.ai、Paybond CLI 适合按模型调用量、节省金额、交易限额或审计留存期收费。第三是创作管线订阅：OpenMontage、QuickMaker、Krea 类工具可以用模板、渲染额度、品牌资产库和批处理任务收费。\n\n最重要的是把价格锚点从「AI 更强」换成「替客户减少不可控成本」。如果你的产品能证明节省 token、减少人工复查、降低误操作或加快交付周期，定价就不必困在每月 9 美元的工具订阅。",
+          "items": [
+            {
+              "title": "Orca",
+              "url": "https://github.com/stablyai/orca",
+              "source": "GitHub",
+              "score": 1397
+            },
+            {
+              "title": "Oxlo.ai",
+              "url": "https://www.producthunt.com/products/oxlo-ai",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "OpenMontage",
+              "url": "https://github.com/calesthio/OpenMontage",
+              "source": "GitHub",
+              "score": 12948
+            }
+          ],
+          "takeaway": "AI 工具的高价位来自可控性、吞吐和节省，而不是聊天能力本身。"
+        },
+        {
+          "id": "counterintuitive",
+          "heading": "今天最反直觉的发现是什么？",
+          "summary_md": "最反直觉的是：虽然「AI agent」本身只上涨 +9.5%，但具体 agent 基础设施却爆得更猛。[openmontage](https://trends.google.com/trends/explore?q=openmontage&date=now+7-d) +999.0%，[codebase memory mcp](https://trends.google.com/trends/explore?q=codebase+memory+mcp&date=now+7-d) +258.7%，GitHub 上对应项目分别新增 12,948 星和 9,589 星。这说明用户已经不需要再搜索「什么是 agent」，他们在搜索「我今天能拿来干活的 agent 系统」。\n\n另一个反直觉点是视频、OCR、设计、浏览器测试、项目管理看似分散，但都在被同一种需求串起来：让 AI 在真实上下文里连续执行。Builder 今天应该少做概念解释，多做带输入、状态、权限、回滚和输出物的垂直流水线。",
+          "items": [
+            {
+              "title": "openmontage",
+              "url": "https://trends.google.com/trends/explore?q=openmontage&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 999
+            },
+            {
+              "title": "codebase memory mcp",
+              "url": "https://trends.google.com/trends/explore?q=codebase+memory+mcp&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 258.7
+            },
+            {
+              "title": "ai agent",
+              "url": "https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 9.5
+            }
+          ],
+          "takeaway": "agent 概念在降噪，agent 工作流正在起量。"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2026-06-25T09:19:00+00:00",
+  "reddit_highlights": []
+}

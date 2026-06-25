@@ -1,0 +1,158 @@
+{
+  "date": "2026-06-25",
+  "items": [
+    {
+      "id": "2026-06-25-1",
+      "title": "Agent 火了，先卖刹车",
+      "angle": "从今天的 GitHub 和 Product Hunt 信号看，agent 产品最先被企业买单的不是智能，而是权限、账单和可审计性。",
+      "opening": "今天最热的不是又一个 agent，而是给 agent 装方向盘和刹车。Aaron Levie 提醒，团队里的代理同事如果没有独立权限边界，私人数据可能被误分发给所有人。与此同时，Heron、Paybond CLI、Oxlo.ai 都在围绕观测、花费控制和账单优化冒头。",
+      "story_hook": {
+        "challenge": "大家都在讲 agent 能替人干活，但企业真正怕的是它乱看、乱花、乱执行。",
+        "twist": "最容易收费的功能，可能不是更强的模型能力，而是让模型少闯祸。"
+      },
+      "takeaway": "做 agent 产品时，优先设计权限、日志、预算上限和回滚机制；这比再加一个聊天入口更接近企业预算。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Aaron Levie 关于 Claude 作为团队共享代理同事的权限边界提醒",
+          "url": "https://x.com/levie/status/2069975251476422664"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt Heron：AI Agents 的 Wireshark",
+          "url": "https://www.producthunt.com/products/heron"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt Paybond CLI：agent spend control",
+          "url": "https://www.producthunt.com/products/paybond"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-25-2",
+      "title": "Cursor 的下个敌人是记忆",
+      "angle": "从 Claude Design 复刻移动 repo 到 codebase-memory-mcp 暴涨，coding agent 的竞争点正在从补全速度转向跨文件长期记忆。",
+      "opening": "Peter Yang 说 Claude Design 已经能接手一个移动应用 repo，并几乎完美复刻界面，但讽刺的是，一轮 prompt 后它就开始提醒省 token。另一边，codebase-memory-mcp 一周新增 9,589 星，卖点正是持久知识图谱和减少 99% token。真正的问题不是 agent 会不会写代码，而是它能不能记住一个项目。",
+      "story_hook": {
+        "challenge": "代码生成越来越强，但上下文窗口、token 成本和跨文件理解仍在拖后腿。",
+        "twist": "下一个爆款开发者工具可能不是 IDE，而是给 IDE 和 agent 用的代码库记忆层。"
+      },
+      "takeaway": "开发者可以把 repo memory 当作新基建：索引历史决策、跨文件依赖和变更摘要，比单纯换模型更能提升 agent 可用性。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Peter Yang 关于 Claude Design 接手移动应用 repo 的观察",
+          "url": "https://x.com/petergyang/status/2069992268963135897"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub Trending：DeusData/codebase-memory-mcp 一周新增 9,589 星",
+          "url": "https://github.com/DeusData/codebase-memory-mcp"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Google Trends：codebase memory mcp 上升 258.7%",
+          "url": "https://trends.google.com/trends/explore?q=codebase+memory+mcp&date=now+7-d"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-25-3",
+      "title": "视频 Agent 开始抢剪辑师",
+      "angle": "OpenMontage、OpenCut 和 Google Labs 同日给出信号：AI 视频不再只是生成片段，而是在变成可编排的生产系统。",
+      "opening": "OpenMontage 一周新增 12,948 星，关键词 openmontage 在 Google Trends 暴涨 999%。这不是一个普通视频 demo，它主打 agentic video production system，覆盖 pipeline、工具和 agent skills。与此同时，Google Labs 的 Project Genie 拿下 Cannes Lions AI Craft 全场大奖，AI 创作已经走到广告行业领奖台。",
+      "story_hook": {
+        "challenge": "过去 AI 视频的痛点是炫技多、交付少，难进真实生产流程。",
+        "twist": "现在真正起量的不是单次生成，而是把脚本、素材、剪辑、品牌一致性和渲染串成流水线。"
+      },
+      "takeaway": "如果做 AI 视频产品，别只卖生成效果；更值得做模板市场、团队资产库、品牌检查和托管渲染。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Google Labs：Project Genie 获 Cannes Lions AI Craft 全场大奖",
+          "url": "https://x.com/GoogleLabs/status/2069827839826809042"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub Trending：calesthio/OpenMontage 一周新增 12,948 星",
+          "url": "https://github.com/calesthio/OpenMontage"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Google Trends：openmontage 暴涨 999%",
+          "url": "https://trends.google.com/trends/explore?q=openmontage&date=now+7-d"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-25-4",
+      "title": "Agent 云在重演数据库战争",
+      "angle": "Swyx 抛出的问题把 agent cloud 的竞争拉回底层：胜负可能取决于数据库、操作系统和网络经验，而不是谁包装了更好看的助手。",
+      "opening": "Swyx 今天连续点出一个更硬的问题：软件工厂时代要来了，但现有基础设施根本扛不住。另一条里，他追问 agent cloud 的胜负底层到底是数据库、操作系统，还是网络。再看 GitHub 和 Product Hunt，记忆、沙箱、浏览器执行、多代理调度、观测都在同一天冒头。",
+      "story_hook": {
+        "challenge": "市场表面在追 agent 应用，底层却缺运行时、状态、隔离和调度。",
+        "twist": "agent cloud 的赢家未必是最会做聊天产品的团队，而可能是最懂系统工程的团队。"
+      },
+      "takeaway": "判断 agent 公司时，别只看 demo；要看它有没有状态管理、权限模型、沙箱、观测、成本控制和跨工具执行能力。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Swyx：软件工厂时代需要重建海量 infra",
+          "url": "https://x.com/swyx/status/2069937175899275475"
+        },
+        {
+          "tag": "builders",
+          "ref": "Swyx：agent cloud 胜负可能取决于数据库、操作系统或网络经验",
+          "url": "https://x.com/swyx/status/2069864073202905501"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub Trending：withastro/flue sandbox agent framework",
+          "url": "https://github.com/withastro/flue"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub Trending：stablyai/orca 并行代理 fleet ADE",
+          "url": "https://github.com/stablyai/orca"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-25-5",
+      "title": "创始人不发声，产品会失语",
+      "angle": "Zara Zhang 的创始人叙事观点和今天 Product Hunt 零热度数据放在一起看，说明 AI 产品不缺发布，缺能被记住的立场。",
+      "opening": "今天 Product Hunt 采集不到票数和评论数，但 agent 产品密度很高：Sidegent、Papermark Agents、Grass 2.0、Zaro 都在发。问题是，没人记得住一串工具名。Zara Zhang 说得很直接：最强的创始人不是等媒体包装，而是亲自上 X 抢叙事、找用户。",
+      "story_hook": {
+        "challenge": "AI 产品越来越同质化，功能介绍很快被下一个发布淹没。",
+        "twist": "真正的护城河可能不是功能，而是创始人持续把用户、社区和观点绑定在一起的能力。"
+      },
+      "takeaway": "独立开发者发布产品时，要同时写清楚一个尖锐 thesis、一个目标用户和一个反常识判断；否则再多 agent 功能也只是列表项。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Zara Zhang：最强创始人会直接上 X 讲观点、抢叙事、找用户",
+          "url": "https://x.com/zarazhangrui/status/2069951925202903176"
+        },
+        {
+          "tag": "builders",
+          "ref": "Zara Zhang：社区是用户关系和归属感，不是 Slack 群",
+          "url": "https://x.com/zarazhangrui/status/2069900496304042343"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt：Sidegent 边学边建 AI agent",
+          "url": "https://www.producthunt.com/products/sidegent"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt：Grass 2.0 手机上的 coding agent 常驻电脑",
+          "url": "https://www.producthunt.com/products/grass-claude-code-from-your-phone"
+        }
+      ]
+    }
+  ],
+  "notes": "今日主线是 agent 从概念层下沉到运行时、记忆、权限、观测、成本和视频生产流水线；适合写基础设施和商业化判断，少写泛泛的 AI 乐观叙事。",
+  "generated_at": "2026-06-25T09:19:52+00:00",
+  "model": "gpt-5.5"
+}
