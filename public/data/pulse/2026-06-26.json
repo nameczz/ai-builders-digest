@@ -1,0 +1,425 @@
+{
+  "date": "2026-06-26",
+  "top3": [
+    "OpenMontage 单周 15,793 stars，把「AI 编码助手变成视频制作工作室」推到今天最值得关注的位置。",
+    "Codebase Memory MCP 单周 8,024 stars，说明开发者正在把 agent 的上下文记忆从提示词升级为本地知识图谱基础设施。",
+    "GLM-5.2、Unlimited-OCR 与一批 GGUF 本地模型同时登上 HuggingFace 热榜，消费级 AI 产品机会正在从聊天转向视觉、文档和端侧 agent。"
+  ],
+  "intro": "今天的数据缺少 HN，但 GitHub、Product Hunt、HuggingFace 与 Google Trends 给出的方向很一致：AI agent 不再只是在聊天窗口里工作，而是在接管视频、代码库记忆、浏览器测试、财务分析和设计系统。对 builder 来说，机会不在再做一个通用助手，而在把 agent 嵌进一个高频工作流，并补上可观察、可计费、可部署的工程层。",
+  "sections": [
+    {
+      "id": "discovery",
+      "title": "发现机会",
+      "blocks": [
+        {
+          "id": "indie-products",
+          "heading": "今天有哪些独立开发者的新产品？",
+          "summary_md": "HN Show HN 今日采集为空，Product Hunt 数据也未返回票数和评论数，因此这里的 0 票、0 评论只代表采集缺口，不代表真实热度。即便如此，产品方向很清楚：[Basedash for Excel](https://www.producthunt.com/products/basedash) 主打把任意 Excel 文件变成实时 dashboard，0 票、0 评论；[Aurora](https://www.producthunt.com/products/aurora-21) 把 Mac notch 做成带工具访问的 productivity command center，0 票、0 评论；[LockIn MCP](https://www.producthunt.com/products/lockin-mcp) 则让 AI 在专注时替你屏蔽干扰，0 票、0 评论。\n\n值得关注的不是某个单点功能，而是独立产品开始围绕「现有入口」做 AI 层：Excel、Mac notch、浏览器、终端、PowerPoint 都是天然分发位。相比另起一个 AI workspace，今天更好的切入是占住用户已经打开的界面，然后用 agent 自动化一个明确动作。",
+          "items": [
+            {
+              "title": "Basedash for Excel",
+              "url": "https://www.producthunt.com/products/basedash",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "Aurora",
+              "url": "https://www.producthunt.com/products/aurora-21",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "LockIn MCP",
+              "url": "https://www.producthunt.com/products/lockin-mcp",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "AI Slide Editor by CubeOne",
+              "url": "https://www.producthunt.com/products/cubeone",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "今天的独立产品机会，是把 AI 放进用户原本就高频打开的工具入口。"
+        },
+        {
+          "id": "github-traction",
+          "heading": "GitHub 上哪些高增长开源项目还没有商业化？",
+          "summary_md": "最明显的非商业化机会集中在开源替代与 agent 基建。[calesthio/OpenMontage](https://github.com/calesthio/OpenMontage) 单周 15,793 stars、总 22,821 stars，用 12 条 pipeline、52 个工具和 500+ agent skills 做开源视频生产系统；[DeusData/codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp) 单周 8,024 stars、总 15,041 stars，把代码库索引成持久知识图谱；[Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach) 单周 6,830 stars、总 41,725 stars，用一个 CLI 读写 Twitter、Reddit、YouTube、GitHub、Bilibili 和小红书。\n\n这些项目的共同点是已经证明了开发者需求，但商业包装还不充分。可以围绕 hosted indexing、team workspace、权限审计、素材仓库、任务队列和企业集成做收费层，而不必重新发明底层开源能力。",
+          "items": [
+            {
+              "title": "calesthio/OpenMontage",
+              "url": "https://github.com/calesthio/OpenMontage",
+              "source": "GitHub",
+              "score": 15793
+            },
+            {
+              "title": "DeusData/codebase-memory-mcp",
+              "url": "https://github.com/DeusData/codebase-memory-mcp",
+              "source": "GitHub",
+              "score": 8024
+            },
+            {
+              "title": "Panniantong/Agent-Reach",
+              "url": "https://github.com/Panniantong/Agent-Reach",
+              "source": "GitHub",
+              "score": 6830
+            }
+          ],
+          "takeaway": "高增长开源项目的商业化入口，不是卖模型，而是卖团队协作、权限、托管和可观测性。"
+        }
+      ]
+    },
+    {
+      "id": "tech-stack",
+      "title": "技术选型",
+      "blocks": [
+        {
+          "id": "dev-tools",
+          "heading": "本周增长最快的开发者工具是什么？",
+          "summary_md": "开发者工具榜上，agent 基建压过了传统框架。[DeusData/codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp) 单周 8,024 stars，用 C 写成单静态二进制，主打 158 种语言、毫秒级索引和亚毫秒查询；[withastro/flue](https://github.com/withastro/flue) 单周 1,327 stars，是 sandbox agent framework；[stablyai/orca](https://github.com/stablyai/orca) 单周 1,949 stars，定位为管理并行 coding agents 的 ADE。\n\nProduct Hunt 侧也在补同一层：[Heron](https://www.producthunt.com/products/heron) 是 agent 的被动 eBPF observability，[BrowserAct](https://www.producthunt.com/products/browseract) 做浏览器自动化，[Paybond CLI](https://www.producthunt.com/products/paybond) 管 terminal 里的 agent spend。今天的技术选型信号很明确：别只比较模型，先决定 agent 如何拿上下文、如何沙箱执行、如何观测、如何控费。",
+          "items": [
+            {
+              "title": "DeusData/codebase-memory-mcp",
+              "url": "https://github.com/DeusData/codebase-memory-mcp",
+              "source": "GitHub",
+              "score": 8024
+            },
+            {
+              "title": "withastro/flue",
+              "url": "https://github.com/withastro/flue",
+              "source": "GitHub",
+              "score": 1327
+            },
+            {
+              "title": "stablyai/orca",
+              "url": "https://github.com/stablyai/orca",
+              "source": "GitHub",
+              "score": 1949
+            },
+            {
+              "title": "Heron",
+              "url": "https://www.producthunt.com/products/heron",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "Agent 产品的护城河正在从模型调用迁移到上下文、沙箱、观测和成本控制。"
+        },
+        {
+          "id": "hf-models",
+          "heading": "HuggingFace 上最热的模型能做什么消费级产品？",
+          "summary_md": "HuggingFace 今天给出三类消费级产品线索。[zai-org/GLM-5.2](https://huggingface.co/zai-org/GLM-5.2) trending score 956、下载 83,589、likes 2,528，适合做中英双语写作、客服和 agent reasoning；[baidu/Unlimited-OCR](https://huggingface.co/baidu/Unlimited-OCR) trending score 905、下载 134,146、likes 942，指向票据、合同、长截图和扫描件结构化；[krea/Krea-2-Turbo](https://huggingface.co/krea/Krea-2-Turbo) trending score 256，是更偏创作端的 text-to-image 能力。\n\n更实际的消费产品不是通用聊天，而是「拍照或上传文件后马上得到可编辑结果」：OCR 到 Excel、截图到 PRD、合同到风险清单、商品图到广告素材。模型热度说明能力供给充足，差异化要落在模板、工作流、导出格式和用户所在平台。",
+          "items": [
+            {
+              "title": "zai-org/GLM-5.2",
+              "url": "https://huggingface.co/zai-org/GLM-5.2",
+              "source": "HuggingFace",
+              "score": 956
+            },
+            {
+              "title": "baidu/Unlimited-OCR",
+              "url": "https://huggingface.co/baidu/Unlimited-OCR",
+              "source": "HuggingFace",
+              "score": 905
+            },
+            {
+              "title": "krea/Krea-2-Turbo",
+              "url": "https://huggingface.co/krea/Krea-2-Turbo",
+              "source": "HuggingFace",
+              "score": 256
+            },
+            {
+              "title": "datalab-to/lift",
+              "url": "https://huggingface.co/datalab-to/lift",
+              "source": "HuggingFace",
+              "score": 152
+            }
+          ],
+          "takeaway": "消费级 AI 的短期机会，是把视觉和文档模型包装成确定格式的结果交付。"
+        },
+        {
+          "id": "show-hn",
+          "heading": "Show HN 高关注项目用的什么技术栈？",
+          "summary_md": "今日 HN Show HN 采集为空，因此不能判断社区对具体 Show HN 项目的票数、评论和技术栈偏好。用 GitHub daily 作为替代观察，今天高关注项目主要落在 TypeScript、Python 与 Swift：[google-labs-code/design.md](https://github.com/google-labs-code/design.md) 单周 1,475 stars，用 TypeScript 定义给 coding agents 读取的设计系统格式；[calesthio/OpenMontage](https://github.com/calesthio/OpenMontage) 单周 3,434 stars，用 Python 组织 agentic 视频生产；[apple/container](https://github.com/apple/container) 单周 1,351 stars，用 Swift 做 Apple silicon 上的轻量虚拟机容器。\n\n技术栈选择上，前端与 agent UI 仍偏 TypeScript，编排和 AI pipeline 偏 Python，系统级本地执行偏 Swift、C 或 Java。builder 早期不必押单一语言，关键是把本地执行、Web UI 和云端 pipeline 的边界切清楚。",
+          "items": [
+            {
+              "title": "google-labs-code/design.md",
+              "url": "https://github.com/google-labs-code/design.md",
+              "source": "GitHub",
+              "score": 1475
+            },
+            {
+              "title": "calesthio/OpenMontage",
+              "url": "https://github.com/calesthio/OpenMontage",
+              "source": "GitHub",
+              "score": 3434
+            },
+            {
+              "title": "apple/container",
+              "url": "https://github.com/apple/container",
+              "source": "GitHub",
+              "score": 1351
+            }
+          ],
+          "takeaway": "今天的技术栈分工很清楚：TypeScript 做入口，Python 做 AI 编排，系统语言负责本地执行边界。"
+        }
+      ]
+    },
+    {
+      "id": "competition",
+      "title": "竞争情报",
+      "blocks": [
+        {
+          "id": "migrations",
+          "heading": "有没有「XX is dead」或迁移类文章？",
+          "summary_md": "HN 今日没有提供「dead」「end of」「migrating」类文章，但 GitHub 和 Product Hunt 的替代品叙事已经很强。[OpenCut-app/OpenCut](https://github.com/OpenCut-app/OpenCut) 单周 2,801 stars、总 59,958 stars，直接定位为开源 CapCut alternative；[every-app/open-seo](https://github.com/every-app/open-seo) 在 daily 榜单里单周 57 stars、总 2,826 stars，定位为 Semrush 和 Ahrefs 的开源替代；[penpot/penpot](https://github.com/penpot/penpot) 单周 3,379 stars、总 53,831 stars，继续承接开源设计协作需求。\n\n这类迁移不是因为旧工具完全死亡，而是用户在 AI 时代重新评估成本、可控性和数据所有权。开源替代的商业窗口在 hosted 版、导入迁移、团队权限和与 AI agent 的集成，而不是单纯复制原产品。",
+          "items": [
+            {
+              "title": "OpenCut-app/OpenCut",
+              "url": "https://github.com/OpenCut-app/OpenCut",
+              "source": "GitHub",
+              "score": 2801
+            },
+            {
+              "title": "every-app/open-seo",
+              "url": "https://github.com/every-app/open-seo",
+              "source": "GitHub",
+              "score": 57
+            },
+            {
+              "title": "penpot/penpot",
+              "url": "https://github.com/penpot/penpot",
+              "source": "GitHub",
+              "score": 3379
+            }
+          ],
+          "takeaway": "开源替代的真正机会，是在迁移成本和团队化使用上收费。"
+        },
+        {
+          "id": "pricing-revenue",
+          "heading": "独立开发者在讨论什么营收和定价策略？",
+          "summary_md": "HN 没有返回 MRR、ARR、pricing、subscription 或 revenue 讨论，但 Product Hunt 里出现了清晰的变现信号：[Group Subscriptions by beehiiv](https://www.producthunt.com/products/beehiiv) 主打向团队、公司和组织销售订阅，0 票、0 评论；[QuickMaker](https://www.producthunt.com/products/quickmaker) 把 Blender 里的多模型能力打包为一个 subscription，0 票、0 评论；[Paybond CLI](https://www.producthunt.com/products/paybond) 则把 agent spend 从终端层面做成可控支付入口。\n\n今天值得学的是 B2B 化与用量控制。AI 产品的成本结构天然波动，单纯个人月费容易被推理成本吞掉；更稳的方式是按团队席位、项目额度、调用预算或受控钱包收费，把「谁能花多少钱」做成产品功能。",
+          "items": [
+            {
+              "title": "Group Subscriptions by beehiiv",
+              "url": "https://www.producthunt.com/products/beehiiv",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "QuickMaker",
+              "url": "https://www.producthunt.com/products/quickmaker",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "Paybond CLI",
+              "url": "https://www.producthunt.com/products/paybond",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "AI 产品定价要从个人订阅走向团队额度、预算控制和可审计花费。"
+        }
+      ]
+    },
+    {
+      "id": "trends",
+      "title": "趋势判断",
+      "blocks": [
+        {
+          "id": "keywords",
+          "heading": "本周技术关键词频率有什么变化？",
+          "summary_md": "Google Trends 里最强的同步信号来自项目名和 agent 基建：[openmontage](https://trends.google.com/trends/explore?q=openmontage&date=now+7-d) 飙升 +999.0%，对应 GitHub weekly 15,793 stars；[worldmonitor](https://trends.google.com/trends/explore?q=worldmonitor&date=now+7-d) 同样 +999.0%，对应实时全球情报 dashboard 的 3,059 weekly stars；[codebase memory mcp](https://trends.google.com/trends/explore?q=codebase+memory+mcp&date=now+7-d) 上升 +78.4%，说明 MCP 已从插件话题进入代码智能基础设施。\n\n更宽的词也在升温：[ai agent](https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d) +40.7%，[self hosted](https://trends.google.com/trends/explore?q=self+hosted&date=now+7-d) +38.8%，[open source alternative](https://trends.google.com/trends/explore?q=open+source+alternative&date=now+7-d) +12.4%。这组合说明用户既想要 agent 能力，也想要自托管、可替代和可控。",
+          "items": [
+            {
+              "title": "openmontage",
+              "url": "https://trends.google.com/trends/explore?q=openmontage&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 999
+            },
+            {
+              "title": "worldmonitor",
+              "url": "https://trends.google.com/trends/explore?q=worldmonitor&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 999
+            },
+            {
+              "title": "codebase memory mcp",
+              "url": "https://trends.google.com/trends/explore?q=codebase+memory+mcp&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 78.4
+            }
+          ],
+          "takeaway": "本周升温最快的不是泛 AI，而是可部署、可控、能进入真实工作流的 agent 基建。"
+        },
+        {
+          "id": "vc-radar",
+          "heading": "VC 和 YC 在关注什么主题？",
+          "summary_md": "综合 GitHub 与 Product Hunt，VC 和 YC 会继续盯三条线：第一是 agent 原生生产力，如 OpenMontage、Orca、SquidHub 和 Agent Arena；第二是 AI 基础设施的工程化，如 codebase-memory-mcp、Heron、BrowserAct、Paybond CLI；第三是开源替代里的垂直 SaaS，如 OpenCut、Open SEO、Penpot 和 Stirling-PDF。\n\n这不是单纯的模型应用热，而是「agent operating layer」开始成形：上下文、工具权限、执行沙箱、浏览器动作、团队协同、账单和观测。早期团队如果能证明一个窄场景里 agent 比人快 10 倍，同时能管住权限和成本，会比泛助手更容易融资。",
+          "items": [
+            {
+              "title": "stablyai/orca",
+              "url": "https://github.com/stablyai/orca",
+              "source": "GitHub",
+              "score": 1949
+            },
+            {
+              "title": "BrowserAct",
+              "url": "https://www.producthunt.com/products/browseract",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "Paybond CLI",
+              "url": "https://www.producthunt.com/products/paybond",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "资本会继续追 agent，但会更偏爱有执行闭环、权限边界和成本控制的产品。"
+        },
+        {
+          "id": "cooling",
+          "heading": "哪些 AI 热词在降温？",
+          "summary_md": "降温词里最值得注意的是工具替代叙事的分化：[cursor alternative](https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d) 下滑 -48.1%，说明市场不再满足于「另一个 Cursor」；[timesfm](https://trends.google.com/trends/explore?q=timesfm&date=now+7-d) 下滑 -23.5%，但 Google Research 的 timesfm 仍有 3,040 weekly stars，属于搜索热度回落而开发者兴趣仍在；[voicebox](https://trends.google.com/trends/explore?q=voicebox&date=now+7-d) 下滑 -6.4%，但 jamiepine/voicebox 仍有 3,688 weekly stars。\n\n结论不是这些方向没机会，而是「替代品」和「单模型演示」的叙事在变弱。用户更关心端到端工作流：能不能部署、能不能接我的数据、能不能被团队管起来。",
+          "items": [
+            {
+              "title": "cursor alternative",
+              "url": "https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": -48.1
+            },
+            {
+              "title": "timesfm",
+              "url": "https://trends.google.com/trends/explore?q=timesfm&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": -23.5
+            },
+            {
+              "title": "voicebox",
+              "url": "https://trends.google.com/trends/explore?q=voicebox&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": -6.4
+            }
+          ],
+          "takeaway": "降温的是泛替代叙事，不是垂直工作流本身。"
+        },
+        {
+          "id": "new-radar",
+          "heading": "新词雷达：有哪些从零起飞的新概念？",
+          "summary_md": "破圈词里，[codex](https://trends.google.com/trends/explore?q=codex&date=now+7-d) 的 rising 最有信息量：codex record and replay value 700，codex bug value 250，codex ssd value 250，同时 [codex cli](https://trends.google.com/trends/explore?q=codex+cli&date=now+7-d) 上升 +56.7%，rising 里出现 gpt 5.6。另一条线是 [ai agent](https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d) 的关联查询：sakana ai value 350，glm 5.2 多次出现，manus 和 manus ai 各 value 40。\n\n这些新词的共同含义是：开发者开始关心 agent 的可回放、可调试和模型切换，而不是只关心一次性生成结果。做工具的团队可以围绕 record and replay、bug reproduction、agent trace 和本地状态快照抢早期入口。",
+          "items": [
+            {
+              "title": "codex record and replay",
+              "url": "https://trends.google.com/trends/explore?q=codex&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 700
+            },
+            {
+              "title": "sakana ai",
+              "url": "https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 350
+            },
+            {
+              "title": "glm 5.2",
+              "url": "https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 100
+            }
+          ],
+          "takeaway": "新词正在指向 agent 调试层：记录、回放、复现和状态管理会变成新基础设施。"
+        }
+      ]
+    },
+    {
+      "id": "actions",
+      "title": "行动触发",
+      "blocks": [
+        {
+          "id": "weekend-build",
+          "heading": "今天 2 小时和一个周末分别做什么？",
+          "summary_md": "今天 2 小时可以做一个很小但能验证需求的 demo：选一个高频入口，比如 Excel、GitHub repo、浏览器测试或 PDF，把 [baidu/Unlimited-OCR](https://huggingface.co/baidu/Unlimited-OCR)、[datalab-to/lift](https://huggingface.co/datalab-to/lift) 或 codebase-memory-mcp 的能力包装成「上传或指向数据源，然后导出结构化结果」。不要做完整平台，只做一个输入、一个处理队列、一个可下载输出。\n\n一个周末则可以补齐商业化雏形：加账号、历史记录、额度限制、失败重试、导出模板和一个团队共享链接。参考 OpenMontage 的 workflow 化、Heron 的可观测、Paybond CLI 的花费控制，把 demo 从模型调用变成可托管的小型工作流。",
+          "items": [
+            {
+              "title": "baidu/Unlimited-OCR",
+              "url": "https://huggingface.co/baidu/Unlimited-OCR",
+              "source": "HuggingFace",
+              "score": 905
+            },
+            {
+              "title": "datalab-to/lift",
+              "url": "https://huggingface.co/datalab-to/lift",
+              "source": "HuggingFace",
+              "score": 152
+            },
+            {
+              "title": "Paybond CLI",
+              "url": "https://www.producthunt.com/products/paybond",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "先做一个可导出结果的小工作流，再补账号、额度和共享，别从大平台开始。"
+        },
+        {
+          "id": "pricing-models",
+          "heading": "值得学习的定价和变现模式有哪些？",
+          "summary_md": "今天最值得学习的定价来自三种模式。第一是 beehiiv 的 group subscriptions，把个人订阅升级为团队、公司和组织采购；第二是 QuickMaker 的一个订阅覆盖 Blender 内多个 AI 模型，把模型选择复杂度打包掉；第三是 Paybond CLI 的 agent spend 管控，把支付、预算和安全合成一个开发者功能。\n\n对于 builder，最实用的组合是低门槛个人套餐加团队额度包：个人版按月收，团队版按席位、项目数、存储和调用额度分层。凡是涉及 agent 自动执行、外部工具调用和生成式媒体，都应该把预算上限、审批和日志作为高级功能，而不是后台配置。",
+          "items": [
+            {
+              "title": "Group Subscriptions by beehiiv",
+              "url": "https://www.producthunt.com/products/beehiiv",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "QuickMaker",
+              "url": "https://www.producthunt.com/products/quickmaker",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "Paybond CLI",
+              "url": "https://www.producthunt.com/products/paybond",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "AI SaaS 的高级版应该卖控制权：团队、额度、审批、日志和预算。"
+        },
+        {
+          "id": "counterintuitive",
+          "heading": "今天最反直觉的发现是什么？",
+          "summary_md": "最反直觉的是：热度最高的不是更新奇的聊天机器人，而是更普通但更靠近生产的「管道」和「格式」。OpenMontage 用 Python 做视频生产 pipeline 拿到 15,793 weekly stars，design.md 用 TypeScript 定义设计系统格式拿到 1,475 weekly stars，codebase-memory-mcp 用 C 做代码库记忆拿到 8,024 weekly stars，Unlimited-OCR 则用 OCR 把非结构化文档变成可处理输入。\n\n这说明 AI 应用的下一波价值不在更会说话，而在更会接活、记住上下文、产出稳定格式并进入团队流程。越像基础设施、越无聊、越能嵌进现有流程，反而越可能成为高增长项目。",
+          "items": [
+            {
+              "title": "calesthio/OpenMontage",
+              "url": "https://github.com/calesthio/OpenMontage",
+              "source": "GitHub",
+              "score": 15793
+            },
+            {
+              "title": "google-labs-code/design.md",
+              "url": "https://github.com/google-labs-code/design.md",
+              "source": "GitHub",
+              "score": 1475
+            },
+            {
+              "title": "DeusData/codebase-memory-mcp",
+              "url": "https://github.com/DeusData/codebase-memory-mcp",
+              "source": "GitHub",
+              "score": 8024
+            }
+          ],
+          "takeaway": "AI 产品越接近格式、管道和流程，越可能比聊天界面更有商业价值。"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2026-06-26T09:17:19+00:00",
+  "reddit_highlights": []
+}

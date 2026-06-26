@@ -1,0 +1,148 @@
+{
+  "date": "2026-06-26",
+  "items": [
+    {
+      "id": "2026-06-26-1",
+      "title": "AI监管会逼出开源军备赛吗",
+      "angle": "从 Aaron Levie 的囚徒困境切入：监管前沿模型，可能不是让 AI 变慢，而是让主权 AI 和开源权重更快变成战略刚需。",
+      "opening": "AI 监管听起来像刹车，但 Aaron Levie 看到的是一场囚徒困境：只有所有顶尖实验室一起减速才有意义。问题是，只要有一个国家或公司继续冲，最守规矩的人反而最先失去领先优势。",
+      "story_hook": {
+        "challenge": "美国想控制前沿智能发布，但又不能把全球市场和开发者生态拱手让给不减速的竞争者。",
+        "twist": "越想用监管锁住前沿模型，越可能刺激各国押注主权 AI、开源模型和本地部署。"
+      },
+      "takeaway": "读者应把模型供应链当成产品风险：关键能力不能只绑定单一闭源 API，要预留开源、本地和多模型切换方案。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Aaron Levie 关于 AI 监管是超大规模囚徒困境的推文",
+          "url": "https://x.com/levie/status/2070370225271251161"
+        },
+        {
+          "tag": "builders",
+          "ref": "Aaron Levie 关于前沿模型发布前政府审查的推文",
+          "url": "https://x.com/levie/status/2070310706369712272"
+        },
+        {
+          "tag": "pulse",
+          "ref": "HuggingFace 热榜 GLM-5.2 与本地模型升温",
+          "url": "https://huggingface.co/zai-org/GLM-5.2"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-26-2",
+      "title": "报错页正在变成Agent入口",
+      "angle": "从 Next.js 的一键复制修复提示词切入：未来的开发者体验不是写更多文档，而是把上下文直接递给 agent。",
+      "opening": "Next.js 把报错页里的修复方法做成了可复制 prompt，这个细节比一次框架更新更值得写。因为它说明调试入口正在从“人读文档”变成“agent 接任务”。",
+      "story_hook": {
+        "challenge": "过去 DX 的核心是让开发者更快理解错误，现在错误本身要能被 agent 直接执行和修复。",
+        "twist": "真正的 agentic design 可能不是新建一个 AI 面板，而是改造报错页、设计规范和上下文格式这些旧入口。"
+      },
+      "takeaway": "做开发者工具时，应把错误、日志、设计规范和代码上下文都设计成 agent 可消费的结构化输入。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Guillermo Rauch 关于 Next.js 报错页一键复制修复 prompt 的推文",
+          "url": "https://x.com/rauchg/status/2070243120546218000"
+        },
+        {
+          "tag": "builders",
+          "ref": "Guillermo Rauch 关于把团队设计标准塞进 coding agent 的推文",
+          "url": "https://x.com/rauchg/status/2070241572416078161"
+        },
+        {
+          "tag": "pulse",
+          "ref": "google-labs-code/design.md 单周 1,475 stars",
+          "url": "https://github.com/google-labs-code/design.md"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-26-3",
+      "title": "纯软件公司为什么变难了",
+      "angle": "把 Aditya Agarwal 的判断和今日 Product Hunt 方向放在一起看：客户不再买软件功能，而是在买确定结果。",
+      "opening": "Aditya Agarwal 说，现在做纯软件公司难得离谱：客户不要软件，只要结果。这句话放到今天的 Product Hunt 很刺眼，因为 Excel、浏览器、终端、PowerPoint 都在被重新包装成 agent 工作流入口。",
+      "story_hook": {
+        "challenge": "横向 SaaS 的标准化交付正在被客户的结果导向打碎，产品越来越容易被迫走向定制。",
+        "twist": "机会不是做更大的平台，而是占住用户已经打开的界面，替他完成一个明确动作。"
+      },
+      "takeaway": "创业团队应少讲“平台能力”，多定义一个可交付结果：输入是什么、自动处理什么、最终导出什么格式。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Aditya Agarwal 关于纯软件公司变难、客户只要结果的推文",
+          "url": "https://x.com/adityaag/status/2070179913647485344"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Basedash for Excel 把 Excel 文件变成实时 dashboard",
+          "url": "https://www.producthunt.com/products/basedash"
+        },
+        {
+          "tag": "pulse",
+          "ref": "AI Slide Editor by CubeOne",
+          "url": "https://www.producthunt.com/products/cubeone"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-26-4",
+      "title": "Codex正在离开工程部",
+      "angle": "从 OpenAI 内部非工程团队采用 Codex 起飞切入：AI 编程工具的下一波用户可能不是程序员，而是会拆任务的人。",
+      "opening": "Thibault Sottiaux 提到，2 月 2 日 Codex App 发布后，非工程团队采用率直接起飞。这不是“人人都要写代码”的老故事，而是组织里的业务流程开始被 agent 接管。",
+      "story_hook": {
+        "challenge": "如果 Codex 只是工程师工具，它的增长边界很清楚；但如果运营、BizOps、产品和研究都能用，组织结构会被重新分工。",
+        "twist": "最先被放大的不是写代码能力，而是把模糊任务拆成可执行步骤、可检查产物和可复用流程的能力。"
+      },
+      "takeaway": "团队应开始为非工程岗位设计 agent 工作流：固定输入、权限边界、输出模板、日志和复盘机制。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Thibault Sottiaux 关于 Codex App 发布后非工程团队采用率起飞的推文",
+          "url": "https://x.com/thsottiaux/status/2070205719501254860"
+        },
+        {
+          "tag": "builders",
+          "ref": "Thibault Sottiaux 关于 OpenAI 把 Codex 当万用工具迁移内部工作流的推文",
+          "url": "https://x.com/thsottiaux/status/2070205520552886305"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Google Trends 中 codex cli 上升与 record and replay 相关查询升温",
+          "url": "https://trends.google.com/trends/explore?q=codex+cli&date=now+7-d"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-26-5",
+      "title": "机器人不点广告，谁买单",
+      "angle": "从 Cloudflare CEO 的判断切入：当机器人流量超过人类，互联网 28 年的广告账本可能要重写。",
+      "opening": "Cloudflare CEO 给了一个很硬的数字：2026 上半年，互联网上机器人流量首次超过人类流量。更麻烦的是，机器人不点广告，而广告正是过去 28 年互联网商业模式的底座。",
+      "story_hook": {
+        "challenge": "内容网站、搜索、社区和 SaaS 都在迎接更多 agent 流量，但原有广告和转化漏斗默认访问者是人。",
+        "twist": "流量暴涨未必带来收入暴涨，反而可能让验证、计费、授权和反爬变成新的基础设施生意。"
+      },
+      "takeaway": "开发者要重新设计 bot 时代的商业闭环：识别 agent、限制权限、按 API 或任务计费，而不是只优化页面广告。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "The MAD Podcast with Matt Turck 访谈 Cloudflare CEO 关于机器人流量和广告模式",
+          "url": "https://www.youtube.com/watch?v=UN47z_opfmo"
+        },
+        {
+          "tag": "builders",
+          "ref": "Matt Turck 推荐 Cloudflare CEO 深度访谈的推文",
+          "url": "https://x.com/mattturck/status/2070201854932250949"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Panniantong/Agent-Reach 用 CLI 读写多个内容平台",
+          "url": "https://github.com/Panniantong/Agent-Reach"
+        }
+      ]
+    }
+  ],
+  "notes": "今日素材的主线很集中：agent 正在从聊天框进入真实工作流，但同时带来监管、权限、计费、调试和商业模式重写。独立开发者素材偏少，可优先写工程基础设施和产品入口变化。",
+  "generated_at": "2026-06-26T09:18:17+00:00",
+  "model": "gpt-5.5"
+}
