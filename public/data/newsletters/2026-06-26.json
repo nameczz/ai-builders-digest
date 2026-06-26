@@ -1,0 +1,294 @@
+{
+  "date": "2026-06-26",
+  "generated_at": "2026-06-26T00:47:54+00:00",
+  "inbox_id": "sanyoumu@agentmail.to",
+  "window": {
+    "start": "2026-06-25T00:48:52+00:00",
+    "end": "2026-06-26T00:45:34.037626+00:00",
+    "source": "previous_digest_generated_at"
+  },
+  "count": 8,
+  "highlights": [
+    "今日精读：OpenAI 与 Broadcom 推出首款自研推理芯片 Jalapeño，目标是把模型、产品、芯片和数据中心部署打成一体，降低对 Nvidia 的依赖并改善推理成本。",
+    "Gemini 3.5 Flash 引入原生 computer use 能力，轻量模型可以通过截图、点击、滚动和输入直接操作桌面界面，强化自动化 agent 场景。",
+    "AINews 把近期 agent 生态概括为“Meta-Harness Summer”：多家公司正在重复发明标准化、安全、可插拔的 agent 编排层。",
+    "AI 编程实践开始从“让模型写代码”走向“用测试、上下文和现有代码约束模型”，PostHog 的 70 倍 SQL parser 案例和 token 成本文章都指向这一点。",
+    "设计与创意工具也在 agent 化：Adobe Firefly Graph、agentic design systems 讨论和设计师战略角色变化，说明 AI 正在重塑创意工作流的治理方式。"
+  ],
+  "items": [
+    {
+      "id": "rundown-openai-jalapeno-custom-chip",
+      "title_zh": "OpenAI 自研推理芯片 Jalapeño：从模型公司走向全栈算力公司",
+      "title_original": "Jalapeño gives OpenAI its own compute kick",
+      "source": "www.therundown.ai",
+      "from": "The Rundown AI <news@daily.therundown.ai>",
+      "subject": "🌶️ Jalapeño gives OpenAI its own compute kick",
+      "url": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip/",
+      "message_id": "<SFS-lHD2RdO_GkDiMqsVCg@geopod-ismtpd-43>",
+      "published_at": "2026-06-25T10:08:17.000Z",
+      "importance": "high",
+      "summary_zh": "The Rundown AI 重点报道 OpenAI 与 Broadcom 合作推出首款自研 ASIC 推理芯片 Jalapeño。这颗芯片面向 ChatGPT、Codex 和未来 agent 产品的在线推理，不用于训练，官方称其从设计到可投产只用了 9 个月，并在测试中实现了显著优于现有水平的每瓦性能。邮件还提到 OpenAI 希望到 2029 年用自研芯片支撑 10GW 级算力，同时 Nvidia 仍会是训练侧的重要基础。除主线外，本期还提到 Anthropic、OpenAI 参与 5 亿美元抗感冒项目、Fable 5 回归迹象以及 AI 票价追踪等内容。",
+      "deep_read_zh": "Jalapeño 最值得精读的地方，不只是“OpenAI 做了一颗芯片”，而是它显示出头部 AI 公司正在把竞争重心从模型参数和产品体验，继续向底层算力经济延伸。邮件称 Jalapeño 是 OpenAI 与 Broadcom 在 9 个月内完成的首款自研 ASIC 推理芯片，面向 ChatGPT、Codex 和未来 agent 产品的在线服务场景。推理芯片和训练芯片的商业含义不同：训练决定模型能否被做出来，推理决定模型能否以足够低的成本、高并发、低延迟持续服务用户。随着 AI 产品从聊天框扩展到 coding agent、浏览器 agent、企业自动化和多步工作流，推理请求会变得更长、更频繁、更难缓存，成本曲线会直接决定产品形态。Jalapeño 的关键信号是 OpenAI 想把模型、芯片、系统软件、调度和产品需求联动优化，而不是完全受制于通用 GPU 供应和外部硬件路线图。邮件中提到 OpenAI 自己的模型也参与了芯片设计与优化，这虽然不能单独证明 AI 已经能取代芯片工程流程，但至少说明“AI 辅助硬件研发”正在进入真实高价值环节。对 builder 来说，这件事的影响是间接但深远的：未来 API 成本、延迟、上下文长度、agent 并发能力和产品价格，都会越来越依赖大厂是否能掌控自己的推理基础设施。它也提醒创业者，模型能力差距之外，算力成本结构会成为新的平台壁垒。值得继续关注的是，Jalapeño 的真实量产规模、软件栈成熟度、是否只服务 OpenAI 内部，以及它会不会改变第三方开发者可获得的模型价格和吞吐。",
+      "why_important": "这是 AI 基础设施竞争从 GPU 采购转向垂直整合的标志性事件。OpenAI 如果能把推理成本和延迟显著压低，会直接影响 ChatGPT、Codex、API 和 agent 产品的商业模型。",
+      "impact": "对 builder 来说，长期影响可能体现在更便宜、更快、更长上下文或更高并发的模型服务上。对行业来说，前沿模型公司会越来越像云厂商和芯片系统公司，算力供应链成为核心护城河。",
+      "key_points": [
+        "Jalapeño 是 OpenAI 与 Broadcom 合作的首款自研 ASIC 推理芯片，主要服务 ChatGPT、Codex 和未来 agent。",
+        "邮件称芯片从设计到可投产用了 9 个月，并由 OpenAI 自身模型辅助设计和优化。",
+        "OpenAI 声称 Jalapeño 在测试中的每瓦性能显著优于当前先进水平。",
+        "OpenAI 目标到 2029 年用自研芯片支撑 10GW 级计算能力，但训练侧仍依赖 Nvidia 等基础设施。",
+        "推理成本下降可能改变 AI 产品定价、延迟、吞吐和 agent 可用性。"
+      ],
+      "reading_notes": [
+        "关注官方性能表述和第三方实测之间是否有差距。",
+        "区分训练芯片和推理芯片：这次事件主要影响在线服务成本，而不是模型训练能力本身。",
+        "观察 OpenAI 是否会把硬件红利传导到 API 价格、Codex 速度和 agent 产品形态上。",
+        "把 Jalapeño 放在 Google TPU、AWS Trainium/Inferentia、Anthropic/云厂商合作的竞争格局里看。"
+      ],
+      "tags": [
+        "infra",
+        "chip",
+        "model",
+        "openai",
+        "agent"
+      ],
+      "related_sources": [
+        "AI Valley",
+        "TLDR AI",
+        "The Neuron",
+        "TLDR",
+        "AINews"
+      ]
+    },
+    {
+      "id": "ainews-meta-harness-summer",
+      "title_zh": "AINews：Meta-Harness 正在成为 agent 生态的新基础层",
+      "title_original": "[AINews] It's Meta-Harness Summer",
+      "source": "swyx.substack.com",
+      "from": "AINews <swyx+ainews@substack.com>",
+      "subject": "[AINews] It's Meta-Harness Summer",
+      "url": "https://www.latent.space/p/ainews-its-meta-harness-summer",
+      "message_id": "<20260625021408.3.9f316369223b4634@mg-d0.substack.com>",
+      "published_at": "2026-06-25T02:14:08.000Z",
+      "importance": "high",
+      "summary_zh": "AINews 本期把 6 月 23-24 日的 AI 社区动态归纳为“Meta-Harness Summer”：从 Conductor、Zed ACP、OpenInspect、Cloudflare Flue，到 Vercel Eve、HarnessAgent、Heypi，再到 Databricks CTO Matei Zaharia 押注的 Omnigent，越来越多团队在构建标准化、安全、可插拔的 agent 编排层。它判断这类架构未必会复制 MCP 的成功路径，但某种开源 meta-harness 很可能胜出，因为大量 AI-native 团队正在独立重复发现同一需求。本期也汇总了 OpenAI Jalapeño 芯片、Qualcomm 收购 Modular、模型和 runtime 生态等社区讨论。",
+      "why_important": "如果 MCP 解决的是工具连接问题，meta-harness 解决的是多个 agent、工作流、安全边界和可靠性的运行时治理问题。这会影响未来开发者如何把 coding agent 和知识工作 agent 接进生产系统。",
+      "impact": "builder 需要开始关注 agent 编排层的标准化，而不只是单个模型或单个 IDE 插件。长期看，agent 产品的壁垒可能来自权限、审计、评测、调度和可替换 agent 的系统架构。",
+      "key_points": [
+        "多个团队正在独立构建类似的 agent meta-harness。",
+        "Omnigent 被描述为开源、可插拔、标准化、安全可靠的 agent 架构。",
+        "AINews 同时将 Jalapeño 视为 OpenAI 全栈基础设施战略的一部分。"
+      ],
+      "reading_notes": [],
+      "tags": [
+        "agent",
+        "infra",
+        "open-source",
+        "developer-tools"
+      ],
+      "related_sources": [],
+      "deep_read_zh": ""
+    },
+    {
+      "id": "tldr-ai-jalapeno-gemini-computer-use",
+      "title_zh": "TLDR AI：Jalapeño、Gemini computer use 与开放 agent 模型同时升温",
+      "title_original": "Jalapeño chip 🌶️, Anthropic accuses Alibaba ⚖️, Gemini computer use 🖥️",
+      "source": "TLDR AI",
+      "from": "TLDR AI <dan@tldrnewsletter.com>",
+      "subject": "Jalapeño chip 🌶️, Anthropic accuses Alibaba ⚖️, Gemini computer use 🖥️",
+      "url": "https://refer.tldr.tech/0a897003/2",
+      "message_id": "<0100019eff15bda2-8442c71a-785b-4b32-8527-998138fb4560-000000@email.amazonses.com>",
+      "published_at": "2026-06-25T14:01:15.000Z",
+      "importance": "high",
+      "summary_zh": "TLDR AI 本期覆盖了几条与 AI 基础设施和 agent 直接相关的进展：OpenAI 与 Broadcom 发布 Jalapeño 推理芯片，强调每瓦性能和 9 个月设计周期；Google 推出 Gemini 3.5 Flash 的原生 computer use，让轻量模型能通过连续截图执行点击、滚动和输入；Bloomberg 报道 Gemini 研究员继续流向 Anthropic。深度文章部分讨论 Amazon 起诉 Perplexity 的 agentic browser 争议、GLM-5.2 在开放 agent 场景中的突破感，以及 NVIDIA NeMo AutoModel 对 MoE 微调吞吐和显存的优化。整体看，本期主线是 AI 从模型能力竞争扩展到芯片、浏览器代理、开放模型和训练框架。",
+      "why_important": "它把同一天几条关键线索放在一起：推理芯片、computer use、agentic browser 法律边界和开放 agent 模型。对判断 agent 产品接下来能否规模化很有参考价值。",
+      "impact": "开发者会有更多底层能力可用，但也会面对新问题：自动化浏览是否被平台允许、开放模型是否足够稳定、企业微调成本是否可控。",
+      "key_points": [
+        "Jalapeño 是 OpenAI 面向 LLM 推理的首款自研芯片系列起点。",
+        "Gemini 3.5 Flash 增加原生 computer use 能力。",
+        "Amazon v. Perplexity 被解读为开放 Web 与 agentic browsing 的关键冲突。"
+      ],
+      "reading_notes": [],
+      "tags": [
+        "chip",
+        "agent",
+        "infra",
+        "model",
+        "legal"
+      ],
+      "related_sources": [
+        "The Rundown AI",
+        "AI Valley",
+        "TLDR",
+        "The Neuron"
+      ],
+      "deep_read_zh": ""
+    },
+    {
+      "id": "ai-valley-openai-chip-gpt-instant-fable",
+      "title_zh": "AI Valley：OpenAI 芯片、GPT-5.5 Instant、Fable 5 与 Gemini 桌面 agent",
+      "title_original": "OpenAI's first chip is here",
+      "source": "www.theaivalley.com",
+      "from": "AI Valley <aivalley@mail.beehiiv.com>",
+      "subject": "OpenAI's first chip is here",
+      "url": "https://www.theaivalley.com/",
+      "message_id": "<20260625.150806.2dc97f22@mta7>",
+      "published_at": "2026-06-25T15:08:06.000Z",
+      "importance": "medium",
+      "summary_zh": "AI Valley 本期以 OpenAI 首款自研推理芯片 Jalapeño 开头，称其由 OpenAI 与 Broadcom 合作，目标是让 ChatGPT 更快、更省电，并降低对 Nvidia 的长期依赖。邮件还提到 OpenAI 推出新版 GPT-5.5 Instant，强化意图识别、上下文保持、指令跟随和本地推荐体验；Anthropic 的 Claude Fable 5 因 Claude Code 引用、白宫谈判、诉讼和国会压力出现逐步恢复迹象；Google 则为 Gemini 3.5 Flash 带来 native computer-use 能力。工具部分包括 Notion External Agents、Exa Connect、Mistral OCR 4、Fastlane 内容生成和 Origami 外联自动化。",
+      "why_important": "这封邮件展示了同一天 AI 产品栈的多个方向：底层芯片、对话模型、桌面操作 agent、企业知识连接和自动化营销。",
+      "impact": "对独立开发者来说，Notion、Exa、OCR 和 outreach 工具说明 agent 能力正在进入具体工作流；对平台判断来说，OpenAI 和 Google 都在强化端到端控制能力。",
+      "key_points": [
+        "OpenAI Jalapeño 被定位为降低推理成本和 Nvidia 依赖的战略动作。",
+        "GPT-5.5 Instant 被描述为更会理解意图和适应用户反馈。",
+        "Gemini 3.5 Flash 的 computer use 能力为跨软件自动化铺路。"
+      ],
+      "reading_notes": [],
+      "tags": [
+        "openai",
+        "agent",
+        "chip",
+        "tools",
+        "workflow"
+      ],
+      "related_sources": [
+        "The Rundown AI",
+        "TLDR AI",
+        "TLDR"
+      ],
+      "deep_read_zh": ""
+    },
+    {
+      "id": "neuron-google-workspace-cli-openai-chip",
+      "title_zh": "The Neuron：Google Workspace CLI 风波与 OpenAI 芯片",
+      "title_original": "ChatGPT's secret advantage",
+      "source": "www.theneurondaily.com",
+      "from": "The Neuron <theneuron@newsletter.theneurondaily.com>",
+      "subject": "😺 ChatGPT's secret advantage",
+      "url": "https://theneuron.ai/explainer-articles/everything-that-happened-in-ai-today-monday-june-22-2026/",
+      "message_id": "<kZHxzhHjRdi5fV6SrL0dRQ@geopod-ismtpd-50>",
+      "published_at": "2026-06-25T11:09:28.000Z",
+      "importance": "medium",
+      "summary_zh": "The Neuron 本期开头聚焦前 Google 工程师 Justin Poehnelt 称自己因开源 Google Workspace CLI 被解雇一事。这个 CLI 能让人类和 AI agent 通过命令行操作 Gmail、Drive、Calendar、Docs、Sheets 等 Workspace 应用，曾登上 Hacker News 第一并获得大量 GitHub star，社区反应集中在“Google 为什么惩罚让 Workspace 更 agent-native 的工具”。随后邮件进入 AI 日报主线，报道 OpenAI 与 Broadcom 发布 Jalapeño 芯片、Noam Shazeer 离开 Google 加入 OpenAI、Fable 5 可能回归，以及 GPT-5 Pro 帮助解决免疫学难题等。邮件对 Jalapeño 的解释强调它是服务 ChatGPT 的推理芯片、9 个月完成开发、每瓦性能优势和 2026 年底部署计划。",
+      "why_important": "Google Workspace CLI 事件反映了大公司内部流程与 agent-native 工具创新之间的冲突。Jalapeño 部分则再次说明 OpenAI 的真正优势可能不只是模型，而是产品、基础设施和执行速度。",
+      "impact": "对 builder 的启发是，面向 agent 的 CLI、API 和自动化入口会越来越重要，但也可能触碰平台治理和组织边界。大平台若不能容纳这类工具，机会会流向更开放的开发者生态。",
+      "key_points": [
+        "Google Workspace CLI 被描述为让 Workspace 更适合人类和 AI agent 操作的开源工具。",
+        "OpenAI Jalapeño 被解释为降低 ChatGPT 推理成本和提升速度的自研芯片。",
+        "人才流动和 Fable 5 线索显示前沿实验室竞争仍在加剧。"
+      ],
+      "reading_notes": [],
+      "tags": [
+        "agent",
+        "developer-tools",
+        "openai",
+        "google",
+        "chip"
+      ],
+      "related_sources": [
+        "The Rundown AI",
+        "TLDR AI",
+        "AI Valley"
+      ],
+      "deep_read_zh": ""
+    },
+    {
+      "id": "tldr-openai-chip-power-code-costs",
+      "title_zh": "TLDR：OpenAI 芯片、数据中心电力与 LLM 编码成本",
+      "title_original": "OpenAI's custom chip 🖥️, Tesla virtual power plants⚡, coding token costs 💰",
+      "source": "TLDR",
+      "from": "TLDR <dan@tldrnewsletter.com>",
+      "subject": "OpenAI's custom chip 🖥️, Tesla virtual power plants⚡, coding token costs 💰",
+      "url": "https://refer.tldr.tech/f45b3ac9/",
+      "message_id": "<0100019efe52985d-40c7cacd-308b-4d8a-b790-ffe0bbf17a04-000000@email.amazonses.com>",
+      "published_at": "2026-06-25T10:28:06.000Z",
+      "importance": "medium",
+      "summary_zh": "TLDR 本期从更广义的科技和商业角度报道 OpenAI 与 Broadcom 的 Jalapeño 芯片，强调它服务于 OpenAI“构建完整技术栈”的计划，并由 OpenAI 模型辅助加速设计。另一条重要基础设施新闻是 Sunrun、Tesla 和 Renew Home 计划把 16GW 家庭电池和设备聚合成美国最大的分布式虚拟电厂，以缓解数据中心电力需求。编程部分有两篇对 AI builder 很有价值的文章：一篇讨论 LLM 写代码时如果不知道现有功能，会倾向于从零实现，从而浪费 token 并引入安全可靠性问题；另一篇讨论 language-native software，即自然语言成为软件接口，用户用意图表达，系统转成结构化操作并确定性执行。",
+      "why_important": "这封邮件把 AI 的两个硬约束放在一起：算力芯片和电力供给。同时，LLM 编码成本文章给出了非常实际的工程启发。",
+      "impact": "产品团队需要把“给模型足够项目上下文”当成成本和质量优化手段。AI 基础设施团队则必须同时关注芯片、数据中心和电力网络。",
+      "key_points": [
+        "Jalapeño 是 OpenAI 全栈战略的一部分。",
+        "16GW 虚拟电厂计划显示数据中心电力已成为 AI 扩张瓶颈。",
+        "告知 LLM 现有代码和功能可以节省 token 并减少安全可靠性问题。"
+      ],
+      "reading_notes": [],
+      "tags": [
+        "infra",
+        "energy",
+        "coding",
+        "llm",
+        "product"
+      ],
+      "related_sources": [
+        "The Rundown AI",
+        "TLDR AI",
+        "AI Valley"
+      ],
+      "deep_read_zh": ""
+    },
+    {
+      "id": "tldr-dev-ai-parser-gemini-prompt-injection",
+      "title_zh": "TLDR Dev：AI 写出 70 倍 SQL parser、Gemini 桌面操作与 prompt injection 机制",
+      "title_original": "Stealing is a skill 🥷, Gemini 3.5 Flash computer use 🖱, prompt injection explained 💉",
+      "source": "TLDR Dev",
+      "from": "TLDR Dev <dan@tldrnewsletter.com>",
+      "subject": "Stealing is a skill 🥷, Gemini 3.5 Flash computer use 🖱, prompt injection explained 💉 ",
+      "url": "https://refer.tldr.tech/7e988322/3",
+      "message_id": "<0100019efe7ad3b1-9dcceda3-5b8f-44d8-be27-e23f1292ced0-000000@email.amazonses.com>",
+      "published_at": "2026-06-25T11:12:02.000Z",
+      "importance": "medium",
+      "summary_zh": "TLDR Dev 本期最值得看的工程案例是 PostHog 用 AI 开发了一个比原 C++ ANTLR parser 快 70 倍的 SQL parser，关键方法不是盲目让模型写代码，而是结合 property-based testing 生成和验证测试用例，并通过 prompt engineering 约束实现方向。其他开发主题包括 Linear 从 styled-components 迁移到 StyleX 以减少运行时样式生成、数据库 benchmark 如何被测试方法误导，以及“命名”对人类协作和 AI 代码理解的影响。工具部分提到 Gemini 3.5 Flash 的 computer use、peerd 浏览器自动化扩展和 Nub。安全部分的 prompt injection 长文强调，LLM 难以可靠区分 user、assistant、think 等角色边界，模型常根据文本风格而非角色标签判断权威性。",
+      "why_important": "这封邮件把 AI 编程的生产实践、前端性能迁移、agent 自动化和 LLM 安全机制放在同一期里。PostHog 案例尤其说明测试驱动和约束上下文比单纯提示词更重要。",
+      "impact": "builder 可以借鉴 property-based testing 来放大 AI 编程收益。做 agent 产品的人需要认真理解 prompt injection 的角色混淆机制，而不是只靠提示词声明安全边界。",
+      "key_points": [
+        "AI 辅助 SQL parser 案例通过测试体系实现巨大性能提升。",
+        "Gemini 3.5 Flash 的 computer use 继续推动桌面自动化 agent。",
+        "Prompt injection 的核心风险来自模型对角色和权限边界的混淆。"
+      ],
+      "reading_notes": [],
+      "tags": [
+        "coding",
+        "testing",
+        "agent",
+        "security",
+        "frontend"
+      ],
+      "related_sources": [
+        "TLDR AI",
+        "AI Valley"
+      ],
+      "deep_read_zh": ""
+    },
+    {
+      "id": "tldr-design-firefly-agentic-design",
+      "title_zh": "TLDR Design：Adobe Firefly Graph 与 agentic design systems 的治理问题",
+      "title_original": "Warner Bros. Animation 🐥, Foldable iPhone Nears 📱, Adobe AI Workflows 🔥",
+      "source": "TLDR Design",
+      "from": "TLDR Design <dan@tldrnewsletter.com>",
+      "subject": "Warner Bros. Animation 🐥, Foldable iPhone Nears 📱, Adobe AI Workflows 🔥",
+      "url": "https://refer.tldr.tech/3bc21e1b/4",
+      "message_id": "<0100019efeae41e2-822bb8b3-8777-46a7-973c-1f18a9961367-000000@email.amazonses.com>",
+      "published_at": "2026-06-25T12:08:13.000Z",
+      "importance": "medium",
+      "summary_zh": "TLDR Design 本期覆盖品牌、硬件和 AI 创意工作流。新闻部分包括 Warner Bros. Animation 发布更偏手绘传统的扁平化新 logo、苹果折叠 iPhone Ultra 传闻称 3D 打印铰链问题已解决并进入测试生产，以及 Adobe 发布 Firefly Graph。Firefly Graph 是面向 Creative Cloud 的节点式工作流工具，可把图像生成、去背景、放大等 AI 任务串成可复用、可分享流程，并接入 Adobe、Google、OpenAI 等 300 多种节点。观点部分最值得关注的是对 agentic design systems 的批评：agent 可以做生成和合规检查，但人类必须拥有“什么算通过”的判断闸门，否则设计系统会变成无人负责的漂移。",
+      "why_important": "AI 创意工具正在从单点生成走向可复用工作流，设计系统也开始面对 agent 自动生成后的治理问题。",
+      "impact": "对产品和设计团队来说，AI 可以提高产能，但不能替代设计系统中的责任归属、质量判断和组织共识。未来设计师的价值会更偏问题定义、治理和战略判断。",
+      "key_points": [
+        "Adobe Firefly Graph 将创意 AI 操作编排成节点式可复用流程。",
+        "Agentic design systems 的关键风险是移除人类判断层。",
+        "AI 让设计师更需要挑战假设和定义问题，而不是只执行方案。"
+      ],
+      "reading_notes": [],
+      "tags": [
+        "design",
+        "workflow",
+        "agent",
+        "creative-tools",
+        "governance"
+      ],
+      "related_sources": [],
+      "deep_read_zh": ""
+    }
+  ],
+  "skipped": [],
+  "notes": "今日精读选择 The Rundown AI 的 Jalapeño 报道，因为同一事件被 AI Valley、TLDR AI、The Neuron、TLDR 和 AINews 多次覆盖，且它对 AI builder 的长期影响最广：推理成本、模型服务速度、agent 可扩展性和大厂全栈化。所有 8 封正式 newsletter 均已保留为独立 item；赞助广告、招聘信息、课程/活动推广只在相关摘要中弱化或忽略，未单独成条。"
+}
