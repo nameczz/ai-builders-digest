@@ -1,0 +1,178 @@
+{
+  "date": "2026-06-27",
+  "items": [
+    {
+      "id": "2026-06-27-1",
+      "title": "Agent 调试成了保命配置",
+      "angle": "从 Vercel 把可观测性放到核心优先级切入，讲 agent 产品为什么不是 prompt 工程，而是分布式系统工程。",
+      "opening": "同一个 prompt 跑两次，结果可能不一样；同一个 agent 跑十分钟，可能撞上函数失败、沙箱超时、API 限流。Guillermo Rauch 今天把话说透了：Agent 是特别难调试的软件，可观测性不是锦上添花，是保命配置。",
+      "story_hook": {
+        "challenge": "AI 产品表面像聊天，底层却是不可复现的模型行为加一堆脆弱外部服务。",
+        "twist": "真正决定 agent 能不能进生产的，可能不是模型更聪明，而是有没有 trace、回放、记忆和失败诊断。"
+      },
+      "takeaway": "做 agent 产品时，要把日志、trace、record/replay、工具调用状态和失败恢复当成第一版功能，而不是上线后的工程债。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Guillermo Rauch 谈 agent 是难调试的软件，可观测性是核心优先级",
+          "url": "https://x.com/rauchg/status/2070676383135834334"
+        },
+        {
+          "tag": "builders",
+          "ref": "Thibault Sottiaux 称 Codex 给所有用户免费重置一次用量并继续监控",
+          "url": "https://x.com/thsottiaux/status/2070653282440405046"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Google Trends 中 codex 关联 rising 出现 codex bug、codex record and replay",
+          "url": "https://trends.google.com/trends/explore?q=codex&date=now+7-d"
+        },
+        {
+          "tag": "pulse",
+          "ref": "DeusData/codebase-memory-mcp 一周新增 7592 stars",
+          "url": "https://github.com/DeusData/codebase-memory-mcp"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-27-2",
+      "title": "锁模型是在帮开源卖货",
+      "angle": "从前沿模型访问限制的争议切入，反过来解释为什么便宜开源模型和本地 GGUF 会更有吸引力。",
+      "opening": "如果前沿模型只给巨头和少数钦点公司，小团队会怎样？Peter Yang 的判断很刺耳：他们会转向“够用且便宜”的开源模型。更讽刺的是，越想锁住前沿模型，越可能把用户推向开源替代品。",
+      "story_hook": {
+        "challenge": "监管和安全想控制前沿模型扩散，但创业公司需要公平访问来试错和竞争。",
+        "twist": "锁访问未必削弱对手，反而可能让开源蒸馏模型、本地模型和海外模型获得更强采用理由。"
+      },
+      "takeaway": "判断模型生态时，不要只看最强模型发布；还要看访问门槛、价格、蒸馏速度和开源替代的够用程度。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Peter Yang 称前沿模型被蒸馏成便宜开源模型，锁访问会让开源更有吸引力",
+          "url": "https://x.com/petergyang/status/2070633838146134219"
+        },
+        {
+          "tag": "builders",
+          "ref": "Dan Shipper 反对只让巨头和少数公司访问前沿模型",
+          "url": "https://x.com/danshipper/status/2070554118146412979"
+        },
+        {
+          "tag": "builders",
+          "ref": "Garry Tan 批评某种模型发布方式会毁掉小创业公司的创新土壤",
+          "url": "https://x.com/garrytan/status/2070699046939820223"
+        },
+        {
+          "tag": "pulse",
+          "ref": "empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF 在 HuggingFace 热榜走强",
+          "url": "https://huggingface.co/empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-27-3",
+      "title": "视频 Agent 开始长牙了",
+      "angle": "把 OpenMontage 的 GitHub 爆发和创作者基础设施放在一起，讲 AI 视频从炫技 demo 转向可复用生产流水线。",
+      "opening": "OpenMontage 一周涨了 17249 个 stars，Google Trends 里 openmontage 搜索涨了 1153.8%。这不是又一个“生成一段视频”的玩具信号，而是说明视频生产正在被拆成 agent 可以反复执行的工作流。",
+      "story_hook": {
+        "challenge": "AI 视频长期卡在演示很惊艳、真正生产很难复用：素材、脚本、剪辑、版本管理全都散。",
+        "twist": "真正起飞的可能不是单次生成质量，而是把视频制作变成像 coding assistant 一样可编排、可迭代的工作室。"
+      },
+      "takeaway": "想做 AI 创意工具，应优先设计可复用流程、素材管理和多人协作，而不是只追单次生成效果。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Swyx 接手 San Francisco 新媒体实验室，要做工程师创作者第三空间",
+          "url": "https://x.com/swyx/status/2070748857441362056"
+        },
+        {
+          "tag": "builders",
+          "ref": "Zara Zhang 称 Borumi 是被低估的录屏和剪辑工具",
+          "url": "https://x.com/zarazhangrui/status/2070584764315402405"
+        },
+        {
+          "tag": "pulse",
+          "ref": "calesthio/OpenMontage 一周新增 17249 stars",
+          "url": "https://github.com/calesthio/OpenMontage"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Google Trends 中 openmontage 搜索 +1153.8%",
+          "url": "https://trends.google.com/trends/explore?q=openmontage&date=now+7-d"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-27-4",
+      "title": "纯软件公司更难卖了",
+      "angle": "从 Peter Yang 的“服务+一点软件”判断切入，解释为什么 FDE、data room agent 和团队订阅都在指向同一个商业模式变化。",
+      "opening": "Peter Yang 今天说得很直：钱正在从纯软件流向“服务+一点软件”，因为人们买的是结果，不是工具。另一边，Swyx 观察到 OpenAI 和 Anthropic 都在重金投入服务团队，FDE 正变成最抢手的 AI 工种之一。",
+      "story_hook": {
+        "challenge": "过去 SaaS 卖的是工具和席位，现在客户更想买已经交付好的业务结果。",
+        "twist": "AI 没有消灭服务，反而让“带软件的服务团队”变成更强产品形态。"
+      },
+      "takeaway": "AI 创业定价时，不要只按 token 或 seat 思考；可以按项目、团队流程、审核成本和业务对象收费。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Peter Yang 称钱正在从纯软件流向服务+一点软件",
+          "url": "https://x.com/petergyang/status/2070568705365577990"
+        },
+        {
+          "tag": "builders",
+          "ref": "Swyx 称 OpenAI 和 Anthropic 都在砸数十亿美元做服务团队，FDE 成为抢手 AI 工种",
+          "url": "https://x.com/swyx/status/2070606851377672675"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Papermark Agents 把 AI agent 放进交易、融资和 data room 场景",
+          "url": "https://www.producthunt.com/products/papermark-2"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Group Subscriptions by beehiiv 把订阅从个人扩展到团队和组织",
+          "url": "https://www.producthunt.com/products/beehiiv"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-27-5",
+      "title": "AI 编程不再卷 IDE",
+      "angle": "从 Claude Code 的交互细节和 GitHub 热门 agent 基础设施切入，讲竞争焦点从编辑器迁移到 agent 运行层。",
+      "opening": "“Cursor alternative”搜索跌了 66.3%，但 codex cli 还在涨，agent native 也在涨。这说明开发者不是不折腾 AI 编程了，而是不再只问谁能替代 Cursor，开始问 agent 到底在哪里运行、怎么记住上下文、怎么协同执行。",
+      "story_hook": {
+        "challenge": "AI 编程工具越多，单纯换 IDE 的收益越小，真正痛点转向上下文、设计语义、并行执行和远程控制。",
+        "twist": "下一轮入口可能不是更好看的编辑器，而是能承载长期任务的 agent runtime。"
+      },
+      "takeaway": "团队选 AI coding 工具时，应评估代码记忆、设计上下文、多 agent 编排和任务恢复能力，而不是只看补全速度。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Peter Yang 指出 Claude Code 还缺少随时插话、移动端远控和线程切换等关键体验",
+          "url": "https://x.com/petergyang/status/2070545325497221248"
+        },
+        {
+          "tag": "builders",
+          "ref": "Cat Wu 称 Claude Code 桌面端分屏功能提升边看边改效率",
+          "url": "https://x.com/_catwu/status/2070613405237432766"
+        },
+        {
+          "tag": "pulse",
+          "ref": "google-labs-code/design.md 一周新增 4618 stars",
+          "url": "https://github.com/google-labs-code/design.md"
+        },
+        {
+          "tag": "pulse",
+          "ref": "BuilderIO/agent-native 一周新增 1569 stars",
+          "url": "https://github.com/BuilderIO/agent-native"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Google Trends 中 cursor alternative 下跌 -66.3%，codex cli 上升 +47.1%",
+          "url": "https://trends.google.com/trends/explore?q=codex+cli&date=now+7-d"
+        }
+      ]
+    }
+  ],
+  "notes": "今日最强主线不是模型单点能力，而是 agent 进入真实生产环境后的执行层、调试层、记忆层和商业交付层。缺少 HN 与 Reddit 讨论素材，选题更适合写成趋势判断和产品拆解。",
+  "generated_at": "2026-06-27T09:18:32+00:00",
+  "model": "gpt-5.5"
+}
