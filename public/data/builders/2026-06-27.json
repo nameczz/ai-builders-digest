@@ -1,0 +1,487 @@
+{
+  "date": "2026-06-27",
+  "generated_at": "2026-06-27T09:11:39+00:00",
+  "count": 32,
+  "items": [
+    {
+      "id": "4de495a9bd",
+      "date": "2026-06-27",
+      "source": "x",
+      "author": "Swyx",
+      "bio": "achieve ambition with intentionality, intensity, integrity & insanity.  affiliations: - @dxtipshq  - @cognition - @temporalio - @aidotengineer - @latentspacepod",
+      "title": "",
+      "summary_en": "minor milestone in the growth of swyx inc:\n\nwe took over my new media lab today\n\nit will be the new home for engineer-creatives in san francisco; a third place to make; a finishing school for technical storytellers; a place to inspire the inspirational.\n\nto our complete surprise; it came with a datacenter rack randomly set up and wired up! need advice on what to put in this thing. @alexocheema halp",
+      "summary_zh": "swyx inc 接手了 San Francisco 的新媒体实验室，要把它做成工程师创作者的第三空间、技术叙事者的精修学校。更离谱的是，场地里居然自带一整套接好线的数据中心机柜，现在他们得想办法把这玩意儿塞满。",
+      "url": "https://x.com/swyx/status/2070748857441362056",
+      "posted_at": "2026-06-27T05:59:34.000Z",
+      "tags": [
+        "@swyx"
+      ]
+    },
+    {
+      "id": "9dcaf68ccc",
+      "date": "2026-06-27",
+      "source": "x",
+      "author": "Garry Tan",
+      "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "title": "",
+      "summary_en": "This is honestly no way to release a model and continued development and release this way is a solid way to salt the ground and kill all innovation by small startups https://t.co/tUjxFSunVI",
+      "summary_zh": "这种发布模型的方式简直是在毁生态。继续这么搞，就是给小创业公司的创新土壤撒盐，直接把创新掐死。",
+      "url": "https://x.com/garrytan/status/2070699046939820223",
+      "posted_at": "2026-06-27T02:41:39.000Z",
+      "tags": [
+        "@garrytan"
+      ]
+    },
+    {
+      "id": "be6761acef",
+      "date": "2026-06-27",
+      "source": "x",
+      "author": "Aaron Levie",
+      "bio": "ceo @box - your business lives in content. unleash it with AI",
+      "title": "",
+      "summary_en": "Step one complete https://t.co/DWDBwkahrH",
+      "summary_zh": "第一步完成了。言外之意：这只是开始，后面还有更大的动作。",
+      "url": "https://x.com/levie/status/2070682290464919874",
+      "posted_at": "2026-06-27T01:35:04.000Z",
+      "tags": [
+        "@levie"
+      ]
+    },
+    {
+      "id": "2d56c15234",
+      "date": "2026-06-27",
+      "source": "x",
+      "author": "Guillermo Rauch",
+      "bio": "@vercel CEO",
+      "title": "",
+      "summary_en": "Agents are particularly hard-to-debug software. \n\nFor one, and by design, AI models behave in non-deterministic ways. Even two identical prompts don't always yield the same output.\n\nBut agents are also complex distributed systems. They involve multiple steps of computation across functions and sandboxes, touching dozens of API services that can go down, rate limit you, etc.\n\nNailing down observability out of the box for https://t.co/nDDXqUmOlD on Vercel was a key priority for the team, and the feedback so far has been 🔥↓",
+      "summary_zh": "Agent 是特别难调试的软件：模型天生不确定，同样的 prompt 也可能跑出不同结果；同时它又是复杂分布式系统，跨函数、沙箱和一堆 API 服务，随时会被宕机和限流拖下水。Vercel 团队把开箱即用的可观测性当成核心优先级，不是锦上添花，是保命配置。",
+      "url": "https://x.com/rauchg/status/2070676383135834334",
+      "posted_at": "2026-06-27T01:11:35.000Z",
+      "tags": [
+        "@rauchg"
+      ]
+    },
+    {
+      "id": "5619a23486",
+      "date": "2026-06-27",
+      "source": "x",
+      "author": "Nan Yu",
+      "bio": "head of product @linear",
+      "title": "",
+      "summary_en": "Patient zero https://t.co/zpAhbXtrWz",
+      "summary_zh": "只说“零号病人”，像是在点名某个 AI 圈传播源头或始作俑者；但原推缺少链接内容，无法判断具体指谁或指什么。",
+      "url": "https://x.com/thenanyu/status/2070658852421345517",
+      "posted_at": "2026-06-27T00:01:56.000Z",
+      "tags": [
+        "@thenanyu"
+      ]
+    },
+    {
+      "id": "d12ff3180d",
+      "date": "2026-06-27",
+      "source": "x",
+      "author": "Nan Yu",
+      "bio": "head of product @linear",
+      "title": "",
+      "summary_en": "Socks don’t have to match. It’s cuter that way anyway https://t.co/4ISWH7alpj",
+      "summary_zh": "袜子不必成双成对，混搭反而更可爱。",
+      "url": "https://x.com/thenanyu/status/2070656642597658709",
+      "posted_at": "2026-06-26T23:53:09.000Z",
+      "tags": [
+        "@thenanyu"
+      ]
+    },
+    {
+      "id": "669361f122",
+      "date": "2026-06-27",
+      "source": "x",
+      "author": "Nan Yu",
+      "bio": "head of product @linear",
+      "title": "",
+      "summary_en": "Secret level 6: there’s a problem, but it’s not worth solving, so leave it alone. \n\nThis is why org with a ton of level 1s can win. They don’t get distracted by side quests https://t.co/fRGy1NC9oT",
+      "summary_zh": "",
+      "url": "https://x.com/thenanyu/status/2070656348488937889",
+      "posted_at": "2026-06-26T23:51:59.000Z",
+      "tags": [
+        "@thenanyu"
+      ]
+    },
+    {
+      "id": "bf34984d82",
+      "date": "2026-06-27",
+      "source": "x",
+      "author": "Thibault Sottiaux",
+      "bio": "Codex & ChatGPT @OpenAI",
+      "title": "",
+      "summary_en": "We are giving all Codex users a usage reset on the house. Should be showing in your accounts in the next few hours.\n\nWe have applied some mitigations, but our investigation hasn't shown users being impacted at large. We are continuing to monitor the situation. https://t.co/rLJrQdI1ks",
+      "summary_zh": "Codex 给所有用户免费重置一次用量，未来几小时内到账。官方称已做缓解措施，但调查未发现大规模用户受影响，仍在继续监控。",
+      "url": "https://x.com/thsottiaux/status/2070653282440405046",
+      "posted_at": "2026-06-26T23:39:48.000Z",
+      "tags": [
+        "@thsottiaux"
+      ]
+    },
+    {
+      "id": "60aac59bed",
+      "date": "2026-06-27",
+      "source": "x",
+      "author": "Nikunj Kothari",
+      "bio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
+      "title": "",
+      "summary_en": "Now that the dust is settled, what’s really funny to me about the taste commentary is it’s coming from a LOT of people who never have built anything..\n\nYou can’t achieve (or refine) taste without being in the arena. \n\nIt’s like a chef cooking and expecting their first dish to be good on the first go. \n\nBut, when you give it a 100 iterations and maybe cook a 100 dishes, then the 101st one has imbued all the lessons from those 10,000 iterations. \n\nBut, if you over fit without much variation, then people get tired of it since well they want something new as well. \n\nThe best people are able to learn, imbue and innovate by breaking patterns consistently. \n\nIt’ll be interesting to see how AI does the same - and unlike most people I think it has a fair shot at actually building taste. \n\nEnd rant.",
+      "summary_zh": "最可笑的是，很多高谈“品味”的人根本没下场做过东西；品味不是空想出来的，是在一百次、一万次迭代里炼出来的。\n\n真正厉害的人会吸收经验，也会不断打破模式；AI 也许真有机会长出品味，比很多只会评论的人更有戏。",
+      "url": "https://x.com/nikunj/status/2070649602953576825",
+      "posted_at": "2026-06-26T23:25:10.000Z",
+      "tags": [
+        "@nikunj"
+      ]
+    },
+    {
+      "id": "1ea0635d95",
+      "date": "2026-06-27",
+      "source": "x",
+      "author": "Peter Yang",
+      "bio": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6",
+      "title": "",
+      "summary_en": "So let me get this straight:\n\n1. We publish frontier models\n2. They get distilled into cheap open source models\n3. US companies adopt the same open source models because they're good enough and much cheaper\n4. We start gating access to frontier models\n\nWhat next? US companies innovate less? Open source models become more attractive?",
+      "summary_zh": "前沿模型一发布就被蒸馏成便宜的开源模型，美国公司因为“够用且便宜”转而采用它们；如果再把前沿模型访问锁起来，结果只会是美国公司创新变慢，开源模型更有吸引力。",
+      "url": "https://x.com/petergyang/status/2070633838146134219",
+      "posted_at": "2026-06-26T22:22:32.000Z",
+      "tags": [
+        "@petergyang"
+      ]
+    },
+    {
+      "id": "59ad41810e",
+      "date": "2026-06-27",
+      "source": "x",
+      "author": "Guillermo Rauch",
+      "bio": "@vercel CEO",
+      "title": "",
+      "summary_en": "I made a @hyperframes_ video of how I found out this morning https://t.co/yyMlGJgIfS",
+      "summary_zh": "他用 Hyperframes 做了条视频，直接还原自己今天早上是怎么发现这件事的。",
+      "url": "https://x.com/rauchg/status/2070627995803668518",
+      "posted_at": "2026-06-26T21:59:19.000Z",
+      "tags": [
+        "@rauchg"
+      ]
+    },
+    {
+      "id": "5201d9e656",
+      "date": "2026-06-27",
+      "source": "x",
+      "author": "Peter Steinberger",
+      "bio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world. @OpenClaw🦞 + @OpenAI",
+      "title": "",
+      "summary_en": "I love how Apple notarization breaks multiple times a year until I manually log in and accept some new legal agreements.",
+      "summary_zh": "Apple 公证一年能坏好几次，原因竟然是开发者必须手动登录去接受新的法律协议。一个自动化发布流程，被法律弹窗轻松掐断。",
+      "url": "https://x.com/steipete/status/2070626638887555227",
+      "posted_at": "2026-06-26T21:53:55.000Z",
+      "tags": [
+        "@steipete"
+      ]
+    },
+    {
+      "id": "f455018e9f",
+      "date": "2026-06-27",
+      "source": "x",
+      "author": "Aditya Agarwal",
+      "bio": "General Partner @SouthPkCommons, Co-Founder @Bevel_Health | Ex: Early Eng @facebook, CTO @Dropbox, Board @Flipkart | Optimist, Builder, Dad",
+      "title": "",
+      "summary_en": "An interesting side effect of AI is that I have zero tolerance for shallow interactions with humans.\n\nI really deep connection and depth in my relationships. More ways to do that are so valuable.\n\nAnd for everything else: give me agents.\n\nI suspect our world will become both smaller and more rich in it's relationship depth.",
+      "summary_zh": "AI 让人对浅层社交彻底失去耐心：真正值得的是深度连接，其他琐碎互动都交给 agents。未来的人际圈可能更小，但关系会更厚、更有质感。",
+      "url": "https://x.com/adityaag/status/2070621064271688021",
+      "posted_at": "2026-06-26T21:31:46.000Z",
+      "tags": [
+        "@adityaag"
+      ]
+    },
+    {
+      "id": "50dce5a61f",
+      "date": "2026-06-27",
+      "source": "x",
+      "author": "Sam Altman",
+      "bio": "AI is cool i guess",
+      "title": "",
+      "summary_en": "not quite all-you-can-eat tokens, but we are working on it",
+      "summary_zh": "还不是“无限畅吃”的 token 套餐，但他们已经在往这个方向卷了。",
+      "url": "https://x.com/sama/status/2070614769678393846",
+      "posted_at": "2026-06-26T21:06:45.000Z",
+      "tags": [
+        "@sama"
+      ]
+    },
+    {
+      "id": "34cdda0703",
+      "date": "2026-06-27",
+      "source": "x",
+      "author": "Sam Altman",
+      "bio": "AI is cool i guess",
+      "title": "",
+      "summary_en": "team cooked, spicily https://t.co/yLb6nqrus6",
+      "summary_zh": "团队这波是真下狠手了，做得够辣、够猛。",
+      "url": "https://x.com/sama/status/2070614666288795703",
+      "posted_at": "2026-06-26T21:06:21.000Z",
+      "tags": [
+        "@sama"
+      ]
+    },
+    {
+      "id": "c4cb133285",
+      "date": "2026-06-27",
+      "source": "x",
+      "author": "Cat Wu",
+      "bio": "claude code + cowork @anthropicai, prev: @dagster, @scale_ai",
+      "title": "",
+      "summary_en": "split screen is one of my fave claude code on desktop features! https://t.co/4ZQZjBnmvL",
+      "summary_zh": "分屏是 Claude Code 桌面端最顺手的功能之一，边看边改、少来回切窗口，效率直接拉满。",
+      "url": "https://x.com/_catwu/status/2070613405237432766",
+      "posted_at": "2026-06-26T21:01:20.000Z",
+      "tags": [
+        "@_catwu"
+      ]
+    },
+    {
+      "id": "09a288cc3a",
+      "date": "2026-06-27",
+      "source": "x",
+      "author": "Sam Altman",
+      "bio": "AI is cool i guess",
+      "title": "",
+      "summary_en": "in other news, we updated the 5.5 instant model used in chatgpt this week.\n\ni like its vibes.",
+      "summary_zh": "ChatGPT 本周更新了 5.5 instant 模型。作者只给一句评价：手感对味。",
+      "url": "https://x.com/sama/status/2070612055225483692",
+      "posted_at": "2026-06-26T20:55:58.000Z",
+      "tags": [
+        "@sama"
+      ]
+    },
+    {
+      "id": "635683113c",
+      "date": "2026-06-27",
+      "source": "x",
+      "author": "Swyx",
+      "bio": "achieve ambition with intentionality, intensity, integrity & insanity.  affiliations: - @dxtipshq  - @cognition - @temporalio - @aidotengineer - @latentspacepod",
+      "title": "",
+      "summary_en": "we have been scaling without slop by working with aligned domain experts to add coverage \n\nwith both oai and ant launching multi-billion dollar services arms, it’s clear that FDE is one of the most in demand disciplines on earth, but I have never done the job\n\nit’s been an absolute pleasure working with Basil on our first ever AI FDE miniconference!\n\nsee at https://t.co/STlx7OsWbr  next week",
+      "summary_zh": "OpenAI 和 Anthropic 都在砸数十亿美元做服务团队，说明 FDE 已经成了最抢手的 AI 工种之一。真正想规模化而不产垃圾，就得和对齐的领域专家一起补覆盖。",
+      "url": "https://x.com/swyx/status/2070606851377672675",
+      "posted_at": "2026-06-26T20:35:18.000Z",
+      "tags": [
+        "@swyx"
+      ]
+    },
+    {
+      "id": "ab9bee2268",
+      "date": "2026-06-27",
+      "source": "x",
+      "author": "Matt Turck",
+      "bio": "VC at @FirstMarkCap.  Host: MAD Podcast; Organizer: Data Driven NYC, Author: MAD Landscape.",
+      "title": "",
+      "summary_en": "World Cup scoring strategies:\n\nArgentina: pass the ball to Messi\n\nPortugal: pass the ball to Ronaldo\n\nEngland: pass the ball to Kane \n\nSpain: pass the ball to Lamal\n\nFrance: pass the ball to Mbappé or Dembélé or Olise or Doué or Barcola or Cherki or Thuram or",
+      "summary_zh": "世界杯进球策略：阿根廷找梅西，葡萄牙找C罗，英格兰找凯恩，西班牙找亚马尔。法国的问题是前场能找的人太多，多到名单都念不完。",
+      "url": "https://x.com/mattturck/status/2070597806025314608",
+      "posted_at": "2026-06-26T19:59:21.000Z",
+      "tags": [
+        "@mattturck"
+      ]
+    },
+    {
+      "id": "b10899c6c5",
+      "date": "2026-06-27",
+      "source": "x",
+      "author": "Matt Turck",
+      "bio": "VC at @FirstMarkCap.  Host: MAD Podcast; Organizer: Data Driven NYC, Author: MAD Landscape.",
+      "title": "",
+      "summary_en": "For once, this tweet aged well 😯",
+      "summary_zh": "难得，这条推文没被时间打脸，反而越看越准。",
+      "url": "https://x.com/mattturck/status/2070591757151080593",
+      "posted_at": "2026-06-26T19:35:19.000Z",
+      "tags": [
+        "@mattturck"
+      ]
+    },
+    {
+      "id": "d111d2966c",
+      "date": "2026-06-27",
+      "source": "x",
+      "author": "Zara Zhang",
+      "bio": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://t.co/KCuEajezlL YouTube: https://t.co/8xzbGWtf6w",
+      "title": "",
+      "summary_en": "\"You do not need God to write your emails\" https://t.co/wisy8LNck0",
+      "summary_zh": "写邮件不需要上帝下场，别把一个轻量任务吹成全能 AI 的神迹。",
+      "url": "https://x.com/zarazhangrui/status/2070589563429691698",
+      "posted_at": "2026-06-26T19:26:36.000Z",
+      "tags": [
+        "@zarazhangrui"
+      ]
+    },
+    {
+      "id": "329fd42793",
+      "date": "2026-06-27",
+      "source": "x",
+      "author": "Matt Turck",
+      "bio": "VC at @FirstMarkCap.  Host: MAD Podcast; Organizer: Data Driven NYC, Author: MAD Landscape.",
+      "title": "",
+      "summary_en": "If Dembélé is now fully confident, on top of everything else the team has going on, good luck to all the other nations",
+      "summary_zh": "如果登贝莱现在彻底找回自信，再叠加这支球队已有的一切，其他国家队基本只能自求多福了。",
+      "url": "https://x.com/mattturck/status/2070586263292223987",
+      "posted_at": "2026-06-26T19:13:29.000Z",
+      "tags": [
+        "@mattturck"
+      ]
+    },
+    {
+      "id": "8cfad72482",
+      "date": "2026-06-27",
+      "source": "x",
+      "author": "Zara Zhang",
+      "bio": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://t.co/KCuEajezlL YouTube: https://t.co/8xzbGWtf6w",
+      "title": "",
+      "summary_en": "Btw I used Borumi to create this video, and it's genuinely the most underrated video recording/editing tool out there\n\nIt's like Screen Studio + Descript + CapCut all in one\n\nIt's so underrated; they don't even have an X account I can tag https://t.co/dqohk7MJwT",
+      "summary_zh": "我用 Borumi 做了这个视频，它可能是最被低估的录屏和剪辑工具：像 Screen Studio、Descript、CapCut 合体。低估到离谱，连个能在 X 上 @ 的账号都没有。",
+      "url": "https://x.com/zarazhangrui/status/2070584764315402405",
+      "posted_at": "2026-06-26T19:07:32.000Z",
+      "tags": [
+        "@zarazhangrui"
+      ]
+    },
+    {
+      "id": "8d294727a4",
+      "date": "2026-06-27",
+      "source": "x",
+      "author": "Peter Yang",
+      "bio": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6",
+      "title": "",
+      "summary_en": "From what I'm seeing, alot of the money has moved to services (with some software bundled), not software.\n\nPeople want outcomes, not tools. \n\nIt's feels really hard to build a pure-play software company that's more valuable to people or companies than just using Codex/Claude Code with a bunch of personal skills and agents.\n\nThoughts?",
+      "summary_zh": "钱正在从纯软件流向“服务+一点软件”，因为人们买的是结果，不是工具。\n\n在 Codex/Claude Code 加个人 skills 和 agents 面前，想做一家让用户觉得更值钱的纯软件公司，越来越难。",
+      "url": "https://x.com/petergyang/status/2070568705365577990",
+      "posted_at": "2026-06-26T18:03:43.000Z",
+      "tags": [
+        "@petergyang"
+      ]
+    },
+    {
+      "id": "b0b1e46092",
+      "date": "2026-06-27",
+      "source": "x",
+      "author": "Guillermo Rauch",
+      "bio": "@vercel CEO",
+      "title": "",
+      "summary_en": "The UI for AI is here. It's @shadcn https://t.co/bzgEEKO9Az",
+      "summary_zh": "AI 应用的默认界面已经定了：就是 shadcn。",
+      "url": "https://x.com/rauchg/status/2070567538040422712",
+      "posted_at": "2026-06-26T17:59:05.000Z",
+      "tags": [
+        "@rauchg"
+      ]
+    },
+    {
+      "id": "5096fc8ada",
+      "date": "2026-06-27",
+      "source": "x",
+      "author": "Aaron Levie",
+      "bio": "ceo @box - your business lives in content. unleash it with AI",
+      "title": "",
+      "summary_en": "GPT-5.6 is real and looks very strong. Going to be very strong for knowledge worker tasks that require heavy tool use and long running agents doing work. We're not hitting any walls in AI progress right now. https://t.co/5Apn3VzmkY https://t.co/LGpfF8ANcT",
+      "summary_zh": "GPT-5.6 看起来是真的，而且很强，尤其适合需要大量工具调用、长时间代理执行的知识工作。AI 进展现在根本没撞墙。",
+      "url": "https://x.com/levie/status/2070563281916620895",
+      "posted_at": "2026-06-26T17:42:10.000Z",
+      "tags": [
+        "@levie"
+      ]
+    },
+    {
+      "id": "502a021eb7",
+      "date": "2026-06-27",
+      "source": "x",
+      "author": "Dan Shipper",
+      "bio": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "title": "",
+      "summary_en": "full blog post here: https://t.co/B0PvzibY63",
+      "summary_zh": "这条推文本身没有观点，只有一个“完整博客在这里”的跳转链接；没有原文内容，无法提炼出锋利结论。",
+      "url": "https://x.com/danshipper/status/2070554247301591163",
+      "posted_at": "2026-06-26T17:06:16.000Z",
+      "tags": [
+        "@danshipper"
+      ]
+    },
+    {
+      "id": "30c0497e6c",
+      "date": "2026-06-27",
+      "source": "x",
+      "author": "Dan Shipper",
+      "bio": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "title": "",
+      "summary_en": "BREAKING: OpenAI announced GPT-5.6 Sol!\n\nAs of today, by U.S. government directive, access is limited to only ~20 pre-approved companies and @every is not on the list. This appears to be a temporary situation while the government races to figure out a long-term policy for releasing frontier models with advanced capabilities.\n\nI understand and applaud the need for some government oversight in making American infrastructure resilient to cyberattacks and other potential new threats from the misuse of these models. However, I also strongly believe that widespread democratic access to frontier models is absolutely necessary to our country’s leading position in the AI race. It’s also critical for allowing American workers to keep pace with the new skills they need to be productive in this era.\n\nA world where advanced models are locked up only for use by the employees of AI giants and a select few companies is one where ambitious students, independent builders, and working professionals are denied the tools they need to learn, create, and compete to their fullest potential.\n\nAlso, speaking for @every and the community of developers and writers who share early access with us: Our job is to test these tools early so that we can prepare Americans for how to use them to their fullest extent. If we lose access, we lose the ability to do that important job well.\n\nThankfully, both OpenAI and the government seem to be working to make broad access available soon.\n\nWe’ll be ready to vibe check when that happens :)",
+      "summary_zh": "如果前沿模型只发给 AI 巨头和少数钦点公司，学生、独立开发者和普通专业人士就被剥夺了学习、创造和竞争的武器。政府监管可以理解，但把民主化访问掐断，等于让美国 AI 领先优势只剩少数人的内测资格。",
+      "url": "https://x.com/danshipper/status/2070554118146412979",
+      "posted_at": "2026-06-26T17:05:45.000Z",
+      "tags": [
+        "@danshipper"
+      ]
+    },
+    {
+      "id": "13a22f40c1",
+      "date": "2026-06-27",
+      "source": "x",
+      "author": "Peter Yang",
+      "bio": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6",
+      "title": "",
+      "summary_en": "Small things I wish Claude Code had:\n\n1. Bring back ability to steer conversations while Claude is working\n\n2. Make mobile remote control for all threads on by default\n\n3. The shortcut keys seem only accessible if you have the sub-menu open? Consider supporting \"cmd + key\" so we can hotkey to different threads with the keyboard. If I hold down cmd I should see all the shortcuts in the UI.\n\n4. Let me drag and drop to re-arrange my projects on left nav",
+      "summary_zh": "Claude Code 还差几处关键体验：工作中不能随时插话改方向，移动端远程控制不应默认关闭，线程切换快捷键也不该藏在子菜单里。左侧项目还不能拖拽排序，这种基础操作缺失会让重度用户很烦。",
+      "url": "https://x.com/petergyang/status/2070545325497221248",
+      "posted_at": "2026-06-26T16:30:49.000Z",
+      "tags": [
+        "@petergyang"
+      ]
+    },
+    {
+      "id": "daf260d096",
+      "date": "2026-06-27",
+      "source": "x",
+      "author": "Nikunj Kothari",
+      "bio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
+      "title": "",
+      "summary_en": "Written for the seed founder who’s building something really important in a not-so-hot category..\n\nI see you 🙏 https://t.co/Tx14uW5JeR",
+      "summary_zh": "写给那些在冷门赛道里做重要事情的种子轮创始人：我看见你们了。",
+      "url": "https://x.com/nikunj/status/2070532689392980369",
+      "posted_at": "2026-06-26T15:40:36.000Z",
+      "tags": [
+        "@nikunj"
+      ]
+    },
+    {
+      "id": "2fce8bd52a",
+      "date": "2026-06-27",
+      "source": "x",
+      "author": "Garry Tan",
+      "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "title": "",
+      "summary_en": "Don’t be a mid startup\n\nIt’s true https://t.co/SPC4y73HJQ",
+      "summary_zh": "别做平庸的创业公司。中不溜的产品、团队和野心，最后只会把自己耗死。",
+      "url": "https://x.com/garrytan/status/2070494207102595495",
+      "posted_at": "2026-06-26T13:07:41.000Z",
+      "tags": [
+        "@garrytan"
+      ]
+    },
+    {
+      "id": "1bece0158c",
+      "date": "2026-06-27",
+      "source": "podcast",
+      "author": "No Priors",
+      "bio": "",
+      "title": "Why Traditional Benchmarks Fail Modern AI Models with OpenAI Research Scientist Noam Brown",
+      "summary_en": "Speaker 1 | 00:00 - 00:13\nWith GBT three, you couldn't scale test time compute. Like, if you gave it a budget of $10,000,000 and said, okay. Well, let's see what GBT three can do. It really can't do that much. The precarious frameworks and responsible scaling policies, they don't really account for the amount of test time compute.\n\nSpeaker 1 | 00:13 - 00:32\nThey just say, okay. Well, what's the capability of the model? The problem is we're in a world now where the capability of the model is a function of how much money you put into it, basically. If you give it a budget of $10,000, it can do a lot more than what it can do with a budget of $10. Give it a budget of $10,000,000, it can do even At what budget should you evaluate these models?\n\nSpeaker 1 | 00:32 - 00:36\nThe policies that exist today don't really address that question.\n\nSpeaker 2 | 00:43 - 01:03\nHi, listeners. I'm Sarah Gore, and welcome back to No Priors. Today, I'm here with Noam Brown, one of our godfathers of AI reasoning. We talk about the broken state of evaluations, very large scale test time compute, how he thinks about recursive self improvement, and what's next on the horizon for competition at the frontier. Welcome.\n\nSpeaker 2 | 01:03 - 01:05\nNoam, I'm so excited to have you back.\n\nSpeaker 1 | 01:05 - 01:06\nThat's great to be back. Yeah.\n\nSpeaker 2 | 01:06 - 01:21\nYou are our first guest. I'm very proud of my taste in friends and researchers for the pod, given, you know, how important, you know, inference time scaling has become to the industry. You should be proud too, having actually pioneered\n\nSpeaker 1 | 01:21 - 01:23\nit. Played apart, yeah, among many others.\n\nSpeaker 2 | 01:24 - 01:37\nYou just wrote this essay that really resonated about large scale test time compute and why the industry is n",
+      "summary_zh": "传统评测和安全框架还停留在“模型本身有多强”，但今天模型能力已经变成“你愿意往推理时砸多少钱”。给它 10 美元、1 万美元、1000 万美元，结果完全不是一回事，而现有政策根本没回答该按哪个预算评估。",
+      "url": "https://www.youtube.com/watch?v=AZrU6y3pUcU",
+      "posted_at": "2026-06-26T10:13:00.000Z",
+      "tags": [
+        "podcast"
+      ]
+    }
+  ]
+}
