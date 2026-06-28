@@ -1,0 +1,57 @@
+{
+  "date": "2026-06-28",
+  "generated_at": "2026-06-28T00:46:50+00:00",
+  "inbox_id": "sanyoumu@agentmail.to",
+  "window": {
+    "start": "2026-06-27T00:47:51+00:00",
+    "end": "2026-06-28T00:46:00.189102+00:00",
+    "source": "previous_digest_generated_at"
+  },
+  "count": 1,
+  "highlights": [
+    "OpenAI 据称以受限预览形式发布 GPT-5.6 Sol/Terra/Luna，且访问范围先限定给 Codex/API 的少数可信合作方。",
+    "这次发布的重点不只是模型能力，而是“美国政府要求下的受控上线流程”，显示 frontier model 分发正在变成政策事件。",
+    "GPT-5.6 Sol 被描述为在编码、网络安全、长周期任务和科学知识任务上更强，但 OpenAI 同时强调其未跨过 Cyber Critical 阈值。",
+    "对 AI builder 来说，未来顶级模型可能先进入少数合作伙伴手中，产品规划需要考虑模型可得性和发布节奏的不确定性。"
+  ],
+  "items": [
+    {
+      "id": "gpt-56-restricted-preview",
+      "title_zh": "OpenAI GPT-5.6 受限发布：前沿模型进入“可信伙伴优先”阶段",
+      "title_original": "OpenAI GPT-5.6 Sol / Terra / Luna — restricted to trusted partners",
+      "source": "AINews",
+      "from": "AINews <swyx+ainews@substack.com>",
+      "subject": "[AINews] OpenAI GPT-5.6 Sol / Terra / Luna — restricted to trusted partners",
+      "url": "https://www.latent.space/p/ainews-openai-gpt-56-sol-terra-luna",
+      "message_id": "<20260627052322.3.ecd8d27bb31e5003@mg-d1.substack.com>",
+      "published_at": "2026-06-27T05:23:22.000Z",
+      "importance": "high",
+      "summary_zh": "这期 AINews 的核心是 OpenAI 据称发布 GPT-5.6 系列，但不是常规公开上线，而是先以受限预览提供给少数可信合作方。邮件称新系列包含 Sol、Terra、Luna 三个模型，分别面向旗舰能力、均衡中档和高速低成本场景；其中 Sol 被定位为 OpenAI 当前最强模型，尤其强调编码、网络安全、长周期任务和科学知识能力。更重要的是，OpenAI 把受限发布解释为“应美国政府要求”，引发社区对前沿模型发布机制变化的讨论：顶级模型可能越来越像受监管基础设施，而不是普通开发者工具。",
+      "deep_read_zh": "今日最值得精读的是 AINews 对 GPT-5.6 受限发布的整理，因为它把一次模型更新放进了更大的发布制度变化里。邮件称，OpenAI 发布了 GPT-5.6 Sol、Terra、Luna 三模型家族：Sol 是旗舰 frontier model，Terra 是均衡中档模型，Luna 面向快速、低成本、高吞吐使用。OpenAI 将 Sol 描述为其最强模型，尤其在 coding agent、网络安全、长周期工作以及科学/知识任务上有明显强化，并称其在部分编码 agent 任务上超过 Mythos。但邮件同样强调，OpenAI 主动解释 Sol 在 Cyber 方面没有跨过其 Preparedness Framework 下的 Cyber Critical 阈值：在 Chromium 和 Firefox 相关评估中，它能识别漏洞和利用原语，但没有在测试条件下自主完成完整攻击链。真正值得关注的并不是单个 benchmark，而是发布方式本身。邮件称 GPT-5.6 首批只开放给 Codex 和 API 中一小部分可信合作伙伴，更广泛访问计划在未来数周推进；OpenAI 还明确表示，这种受限上线是应美国政府要求。Sam Altman 的补充说法是，公司原本计划更广发布，但因政府要求改为 limited preview，并希望建立透明、可靠的早期访问流程。社区评论因此把这视为 frontier release 从“公开 API 首发”转向“政府介入、可信伙伴优先”的信号。对 builder 来说，这意味着最强模型的可用性、节奏和准入资格会成为产品路线图的一部分；对行业来说，模型能力、国家安全、商业竞争和开发者生态之间的关系正在被重新安排。",
+      "why_important": "这不是一次单纯的模型升级，而是前沿模型发布机制变化的样本。模型能力、政府要求、可信合作方和安全阈值被放在同一个叙事里，说明顶级 AI 能力的分发正在变得更制度化。",
+      "impact": "AI 产品团队不能再默认最强模型会立刻公开可用，路线图需要准备多模型降级、等待名单和合作准入策略。开发者生态也可能出现更明显的先发优势：少数可信伙伴先拿到能力窗口，其他团队只能延迟适配。",
+      "key_points": [
+        "OpenAI 据称发布 GPT-5.6 Sol、Terra、Luna 三模型家族，分别覆盖旗舰、均衡和高吞吐低成本场景。",
+        "Sol 被定位为最强模型，重点能力包括编码、网络安全、长周期任务和科学知识任务。",
+        "邮件称发布初期仅面向 Codex 和 API 中少数可信合作方，之后数周再扩大访问。",
+        "OpenAI 将受限发布归因于美国政府要求，社区将其解读为前沿模型发布进入政府介入阶段。",
+        "OpenAI 同时强调 Sol 未跨过 Cyber Critical 阈值，能识别漏洞和利用原语，但未自主完成完整攻击链。"
+      ],
+      "reading_notes": [
+        "关注“可信合作方”会如何定义：是安全资质、商业关系，还是政府批准名单。",
+        "观察后续广泛开放是否按“未来数周”推进，以及是否附带新的使用限制。",
+        "不要只看模型能力榜单，也要看安全评估和发布流程如何影响真实可用性。",
+        "对依赖 frontier model 的产品，评估是否需要准备替代模型和能力降级方案。"
+      ],
+      "tags": [
+        "model",
+        "agent",
+        "infra",
+        "policy"
+      ],
+      "related_sources": []
+    }
+  ],
+  "skipped": [],
+  "notes": "今日精读选择 AINews，因为它是唯一一封正式 newsletter，且主题涉及前沿模型、agent 编码能力、网络安全评估和政府介入发布流程。The Neuron 邮件是召回/促活邮件，内容为“我们想你了”和若干旧链接推荐，不作为正式 newsletter 进入 items。"
+}
