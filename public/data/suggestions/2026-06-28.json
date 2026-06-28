@@ -1,0 +1,148 @@
+{
+  "date": "2026-06-28",
+  "items": [
+    {
+      "id": "2026-06-28-1",
+      "title": "Agent 不再交日报了",
+      "angle": "从 Claude Code artifacts 和 OpenMontage 看，agent 的竞争点正在从“会不会干活”转向“能不能把过程变成团队可共享的产物”。",
+      "opening": "AI agent 最尴尬的地方不是不会写代码，而是它做了什么，团队还得听人复述。Claude Code artifacts 把 PR 讲解、事故复盘、仪表盘变成自动更新页面；同一天，OpenMontage 用 18000 周星证明，视频生产也在被拆成可复用流水线。",
+      "story_hook": {
+        "challenge": "agent 已经能执行任务，但它的过程、证据和中间产物很难被团队消费。",
+        "twist": "真正有价值的不是再造一个聊天入口，而是把 agent 的工作沉淀成网页、清单、视频 pipeline 这类可交付对象。"
+      },
+      "takeaway": "开发者做 agent 产品时，应优先设计“可共享产物”和“状态同步”，而不是只优化对话体验。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Claude Blog：Claude Code now supports artifacts",
+          "url": "https://claude.com/blog/artifacts-in-claude-code"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub Trending：calesthio/OpenMontage 周增 18000 星",
+          "url": "https://github.com/calesthio/OpenMontage"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Google Trends：openmontage 7 日上升 +670.9%",
+          "url": "https://trends.google.com/trends/explore?q=openmontage&date=now+7-d"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-28-2",
+      "title": "评测该按美元算了",
+      "angle": "用 Swyx 的“按美元而不是 token 评测”切入，讨论开放模型和应用公司如何重新定义 AI 成本优势。",
+      "opening": "如果一个开放模型每美元能跑出更多 thinking token，那继续按 token 数比较推理能力，本质上是在替闭源 API 遮丑。Swyx 今天把这个问题挑明了，Aaron Levie 则补了一刀：真正的优化不只是省 token，而是把业务流程和智能之间那层做深。",
+      "story_hook": {
+        "challenge": "行业喜欢讨论 token 价格，但企业真正买的是每一美元能完成多少工作。",
+        "twist": "成本优势不一定来自更便宜的模型，而可能来自更懂业务、更会缓存上下文、更会评测的应用层。"
+      },
+      "takeaway": "做 AI 产品时，把定价和评测从“调用多少 token”改成“每美元完成多少任务”，更接近客户真实决策。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Swyx：开放模型评测应按美元成本而非 token thinking level",
+          "url": "https://x.com/swyx/status/2070949306060931312"
+        },
+        {
+          "tag": "builders",
+          "ref": "Aaron Levie：AI token 成本优化要懂业务和流程",
+          "url": "https://x.com/levie/status/2070937863806751154"
+        },
+        {
+          "tag": "pulse",
+          "ref": "DeusData/codebase-memory-mcp：99% token 节省、周增 7674 星",
+          "url": "https://github.com/DeusData/codebase-memory-mcp"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-28-3",
+      "title": "不会代码也能涨万粉",
+      "angle": "从 Zara Zhang 的非工程师 builder 叙事，反推 AI 时代个人产品的门槛正在从写代码转向选题、分发和故事。",
+      "opening": "去年还不太会用 GitHub，今年已经有 1 万 GitHub 粉丝；更荒诞的是，她说自己依然不会手写代码。Zara Zhang 这条不是鸡血故事，而是一个更冷的信号：当代码生成变便宜，产品感和传播能力开始变贵。",
+      "story_hook": {
+        "challenge": "开发者默认技术能力是产品壁垒，但 vibe coding 正在压低这个门槛。",
+        "twist": "不会写代码的人，反而可能更专注用户痛点、项目包装和分发，从而赢过只会堆功能的人。"
+      },
+      "takeaway": "独立开发者应把作品集、场景叙事和发布节奏当成产品能力的一部分，而不是上线后的营销补丁。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Zara Zhang：去年不懂 GitHub，今年 1 万粉且不会手写代码",
+          "url": "https://x.com/zarazhangrui/status/2070982013822333007"
+        },
+        {
+          "tag": "builders",
+          "ref": "Zara Zhang：先解决自己的痛点，再讲产品故事",
+          "url": "https://x.com/zarazhangrui/status/2071116793234813272"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt：GetCompress、Dotient、Lyto 等窄场景 AI 工具集中出现",
+          "url": "https://www.producthunt.com/products/lyto"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-28-4",
+      "title": "代码记忆成了新地基",
+      "angle": "把 Engram 的 continual learning 和 codebase-memory-mcp、design.md 放在一起看：AI 编程代理下一步拼的是长期上下文。",
+      "opening": "现在模型的问题可能不是不够聪明，而是记不住公司每天变化的语境。Engram 想把私有数据和新任务写进模型权重；GitHub 上 codebase-memory-mcp、design.md 同时走热，则说明开发者已经在给代理补外置记忆和设计事实源。",
+      "story_hook": {
+        "challenge": "AI 编程代理每次都像新同事，需要重新读代码、理解设计、猜业务约束。",
+        "twist": "最先规模化的方案未必是继续加长上下文窗口，而是把代码、设计和团队知识做成可查询、可更新的记忆层。"
+      },
+      "takeaway": "团队引入 AI 编程时，应先建设 repo 索引、设计规范和决策记录，再期待 agent 稳定接管复杂任务。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Training Data：Memory and Continual Learning with Engram",
+          "url": "https://www.youtube.com/watch?v=aiR7F4jqjXY"
+        },
+        {
+          "tag": "pulse",
+          "ref": "DeusData/codebase-memory-mcp 周增 7674 星",
+          "url": "https://github.com/DeusData/codebase-memory-mcp"
+        },
+        {
+          "tag": "pulse",
+          "ref": "google-labs-code/design.md 周增 6014 星",
+          "url": "https://github.com/google-labs-code/design.md"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-28-5",
+      "title": "AI 安全要先自攻",
+      "angle": "从 Guillermo Rauch 对攻防两用模型的提醒切入，结合本地长上下文模型走热，讨论公司为什么要主动用前沿模型做红队测试。",
+      "opening": "Rauch 今天的判断很直接：如果对手也拿到同等级攻击能力，那些还不知道自己潜伏漏洞的公司会很危险。与此同时，HuggingFace 上长上下文、本地推理、function-calling 模型继续走热，攻击能力正在从少数实验室扩散到更多人手里。",
+      "story_hook": {
+        "challenge": "很多公司还把 AI 安全当合规文档，但攻击者已经可以用模型自动找漏洞、写 exploit、跑侦察。",
+        "twist": "防守方的机会不是禁用模型，而是先用同等级模型把自己的系统打一遍。"
+      },
+      "takeaway": "安全团队应把前沿模型红队、代码库扫描和 deepsec 类测试框架纳入发布流程，而不是等事故后补救。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Guillermo Rauch：应用 deepsec 等框架配合前沿模型测试安全",
+          "url": "https://x.com/rauchg/status/2071047674187714830"
+        },
+        {
+          "tag": "pulse",
+          "ref": "HuggingFace：empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
+          "url": "https://huggingface.co/empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub：codebase-memory-mcp 代表代码库级索引能力走热",
+          "url": "https://github.com/DeusData/codebase-memory-mcp"
+        }
+      ]
+    }
+  ],
+  "notes": "今日主线很清楚：agent 叙事从聊天入口转向可交付工作流、长期上下文、成本评测和安全红队。独立开发者素材不少，但缺少真实收入数字，选题应避免写成融资或商业成功判断。",
+  "generated_at": "2026-06-28T09:23:34+00:00",
+  "model": "gpt-5.5"
+}
