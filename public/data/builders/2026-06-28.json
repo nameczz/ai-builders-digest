@@ -1,0 +1,397 @@
+{
+  "date": "2026-06-28",
+  "generated_at": "2026-06-28T09:11:29+00:00",
+  "count": 26,
+  "items": [
+    {
+      "id": "5cddb80a20",
+      "date": "2026-06-28",
+      "source": "blog",
+      "author": "Claude Blog",
+      "bio": "",
+      "title": "Claude Code now supports artifacts",
+      "summary_en": "Starting today, Claude Code can capture work progress as an artifact, which turn Claude Code&#x27;s work into live, shareable visual pages— including PR walkthroughs, system explainers, dashboards, and release checklists—that update themselves as your session works. A Claude Code session can range from investigating an incident to refactoring a service to analyzing months of data. Artifacts translate the work into a web page anyone can open and explore, like a pull request walkthrough, a dashboard you can filter and sort, or even a release checklist that fills itself out as work gets done. Artifacts make it easier to collaborate on shared work, so teams can spend more time building and less time communicating status updates. Built on the context from your session Claude Code builds an artifact using the full context of your session, including your codebase, your connectors, and the conversation itself. A single incident page can bring together the failing test and the function behind it from your code, the error spike from a connected monitoring tool, and the root-cause reasoning from the session you just ran. With artifacts, you don&#x27;t need to wire up data sources or stand up infrastructure. You ask for a page, and Claude Code builds it from what already exists. Live pages that update in place When Claude Code updates an artifact, the open page refreshes in place and teammates see the updates the moment they’re published. Every publish is a new version at the same link, with version history so you can restore at any time, and a gallery lets you browse and manage all artifacts you&#x27;ve made. From our internal testing, one of our most common use cases has been debugging. These typically look something like: An engineer kicks off an incident investigation before standup. Claude Code works through the logs and publishes an artifact: a timeline, the suspect commits, and an error-rate chart. She shares the link with her team from the page header. By the time standup begins, Claude has republished it twice as the investigation progressed, incorporating the latest information. With artifacts, team members and stakeholders don’t have to \"walk us through what the agent found\" because they&#x27;re all looking at the same view, with the same context. Private to your organization Every artifact is private to its author by default. When you&#x27;re ready, share it",
+      "summary_zh": "Claude Code 的 artifacts 把代理干活的过程直接变成会自动更新的网页：PR 讲解、事故复盘、仪表盘、发布清单，不再靠人肉同步进度。重点不是“生成页面”，而是把代码库、连接器和对话上下文揉成同一个可分享视图，让团队不用再听别人转述 agent 到底发现了什么。",
+      "url": "https://claude.com/blog/artifacts-in-claude-code",
+      "posted_at": "Jun 18, 2026",
+      "tags": [
+        "blog"
+      ]
+    },
+    {
+      "id": "9613427145",
+      "date": "2026-06-28",
+      "source": "x",
+      "author": "Zara Zhang",
+      "bio": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://t.co/KCuEajezlL YouTube: https://t.co/8xzbGWtf6w",
+      "title": "",
+      "summary_en": "Btw I'm not an engineer; these are all side projects I built for fun. I just love connecting technology with user problems/using it to solve my own pain points, and then telling stories about the products",
+      "summary_zh": "我不是工程师，这些都只是我随手做着玩的副业项目。真正让我上头的是把技术接到用户问题上，先解决自己的痛点，再把产品故事讲出去。",
+      "url": "https://x.com/zarazhangrui/status/2071116793234813272",
+      "posted_at": "2026-06-28T06:21:37.000Z",
+      "tags": [
+        "@zarazhangrui"
+      ]
+    },
+    {
+      "id": "214b1e7832",
+      "date": "2026-06-28",
+      "source": "x",
+      "author": "Thibault Sottiaux",
+      "bio": "Codex & ChatGPT @OpenAI",
+      "title": "",
+      "summary_en": "Sol when operating Codex. Circa 2026 https://t.co/bOCl1QB56x",
+      "summary_zh": "2026 年操作 Codex 的人类状态：不再亲手搬砖，而是坐在驾驶位上指挥 AI 写、改、跑、修。",
+      "url": "https://x.com/thsottiaux/status/2071089307062837744",
+      "posted_at": "2026-06-28T04:32:24.000Z",
+      "tags": [
+        "@thsottiaux"
+      ]
+    },
+    {
+      "id": "7a2fe006e1",
+      "date": "2026-06-28",
+      "source": "x",
+      "author": "Guillermo Rauch",
+      "bio": "@vercel CEO",
+      "title": "",
+      "summary_en": "I now own https://t.co/I2grp6UkeV. Excited to give my children clean email handles. Domains are awesome. The internet is awesome.",
+      "summary_zh": "我现在有了自己的域名，可以给孩子们安排干净体面的邮箱地址。域名真香，互联网真香。",
+      "url": "https://x.com/rauchg/status/2071085680017773046",
+      "posted_at": "2026-06-28T04:17:59.000Z",
+      "tags": [
+        "@rauchg"
+      ]
+    },
+    {
+      "id": "4add87488c",
+      "date": "2026-06-28",
+      "source": "x",
+      "author": "Thibault Sottiaux",
+      "bio": "Codex & ChatGPT @OpenAI",
+      "title": "",
+      "summary_en": "Talking to your plants isn't weird anymore. You can just codex things. https://t.co/RUAI7w1oPO",
+      "summary_zh": "跟植物说话已经不算怪了，现在你可以直接把这种事交给 Codex 做出来。  \nAI builder 的新常态：以前像玄学的点子，现在就是一句需求加一轮实现。",
+      "url": "https://x.com/thsottiaux/status/2071077932244570112",
+      "posted_at": "2026-06-28T03:47:12.000Z",
+      "tags": [
+        "@thsottiaux"
+      ]
+    },
+    {
+      "id": "b705350aff",
+      "date": "2026-06-28",
+      "source": "x",
+      "author": "Peter Yang",
+      "bio": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6",
+      "title": "",
+      "summary_en": "Messi is so goated damn",
+      "summary_zh": "梅西强到离谱，真就是 GOAT 级别。",
+      "url": "https://x.com/petergyang/status/2071077367720862021",
+      "posted_at": "2026-06-28T03:44:57.000Z",
+      "tags": [
+        "@petergyang"
+      ]
+    },
+    {
+      "id": "90a44bb2d1",
+      "date": "2026-06-28",
+      "source": "x",
+      "author": "Thibault Sottiaux",
+      "bio": "Codex & ChatGPT @OpenAI",
+      "title": "",
+      "summary_en": "Tons of improvements landed in Codex. \n\n- Handles super long threads smoothly. \n- Hoverable navigation rail for previewing and jumping between turns that feels just right. \n- Settings search covers more controls, with clearer appearance and host-filtering options and easier-to-find custom-provider settings. \n- Zoom-level changes no longer misalign tooltips, dialogs, menus, selection bubbles, drag previews, or autocomplete. \n- Copying into Slack preserves Markdown formatting such as bullets, bold text, code, and links; and large text pastes no longer freeze the UI.\n- And most importantly: a dedicated Pets panel.",
+      "summary_zh": "Codex 这波更新主要是在补「重度使用时不该坏」的地方：超长线程、导航、设置搜索、缩放错位、复制粘贴卡顿都被收拾了。  \n当然，最重要的是终于有了专门的 Pets 面板。",
+      "url": "https://x.com/thsottiaux/status/2071071289247244481",
+      "posted_at": "2026-06-28T03:20:48.000Z",
+      "tags": [
+        "@thsottiaux"
+      ]
+    },
+    {
+      "id": "f628b3efe4",
+      "date": "2026-06-28",
+      "source": "x",
+      "author": "Peter Steinberger",
+      "bio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world. @OpenClaw🦞 + @OpenAI",
+      "title": "",
+      "summary_en": "\"History teaches us that access blockage rarely stops determined users.\" https://t.co/fsa6yuEjjs",
+      "summary_zh": "历史早就证明，封堵访问挡不住真正想用的人。墙越高，需求只会转向更隐蔽、更顽强的路径。",
+      "url": "https://x.com/steipete/status/2071063588329193551",
+      "posted_at": "2026-06-28T02:50:12.000Z",
+      "tags": [
+        "@steipete"
+      ]
+    },
+    {
+      "id": "da01e240e6",
+      "date": "2026-06-28",
+      "source": "x",
+      "author": "Peter Yang",
+      "bio": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6",
+      "title": "",
+      "summary_en": "There's just one small problem with this framework:\n\nIf you wait till level 5 or whatever to tell other people that there's a problem when there's been a burning fire for days and your \"solution\" actually didn't fix the problem at all, you're 100% in a worse situation than someone who is level 1 and just told other people about the problem right away and found a solution together.\n\nThere's no black and white to this stuff, everything has nuance.",
+      "summary_zh": "这个框架的问题在于：火都烧了几天，你还等到所谓 Level 5 才告诉别人，而且“解决方案”根本没解决问题，那一定比一开始就暴露问题、拉人一起解决更糟。\n\n这类事没有非黑即白，关键是别拿成熟度框架当延误沟通的借口。",
+      "url": "https://x.com/petergyang/status/2071058953115767275",
+      "posted_at": "2026-06-28T02:31:47.000Z",
+      "tags": [
+        "@petergyang"
+      ]
+    },
+    {
+      "id": "3608549501",
+      "date": "2026-06-28",
+      "source": "x",
+      "author": "Matt Turck",
+      "bio": "VC at @FirstMarkCap.  Host: MAD Podcast; Organizer: Data Driven NYC, Author: MAD Landscape.",
+      "title": "",
+      "summary_en": "The World Cup            The World Cup\nuntil now                        starting tomorrow https://t.co/EdMN837FDJ",
+      "summary_zh": "以前的世界杯只是世界杯；从明天开始，世界杯要被改写了。",
+      "url": "https://x.com/mattturck/status/2071049723276828942",
+      "posted_at": "2026-06-28T01:55:06.000Z",
+      "tags": [
+        "@mattturck"
+      ]
+    },
+    {
+      "id": "36ed5247d2",
+      "date": "2026-06-28",
+      "source": "x",
+      "author": "Guillermo Rauch",
+      "bio": "@vercel CEO",
+      "title": "",
+      "summary_en": "Mythos / Sol cybersecurity capabilities are equally useful in an offensive as well a defensive capacity.\n\nIf adversaries get ahold of an equivalent offensive capability, it poses a serious threat to US companies that remain unaware of latent vulnerabilities.\n\nIn the meantime, I strongly recommend running deepsec[1] or similar harnesses with the available frontier models.\n\n[1] https://t.co/Wh4QVGDFnm",
+      "summary_zh": "Mythos / Sol 的网络安全能力攻防两用，一旦对手拿到同等级攻击能力，那些还不知道自己潜伏漏洞的美国公司会很危险。现在就该用 deepsec 之类的测试框架配合前沿模型狠狠干一遍。",
+      "url": "https://x.com/rauchg/status/2071047674187714830",
+      "posted_at": "2026-06-28T01:46:58.000Z",
+      "tags": [
+        "@rauchg"
+      ]
+    },
+    {
+      "id": "4408bfe214",
+      "date": "2026-06-28",
+      "source": "x",
+      "author": "Peter Steinberger",
+      "bio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world. @OpenClaw🦞 + @OpenAI",
+      "title": "",
+      "summary_en": "Got excited about the 52’ Dell, but it requires BetterDisplay hacking to get a usable resolution, but then I get weird flickers and also startup wake issues. [on M4 Max MBP] \n\nSo, Apple wins this round, 2xXDR it is.\n\nhttps://t.co/MpRNpQJE8X",
+      "summary_zh": "52 寸 Dell 看着诱人，但在 M4 Max MBP 上还得靠 BetterDisplay 魔改分辨率，随之而来的是闪屏和唤醒问题。\n\n这一局 Apple 赢了，老老实实上双 XDR。",
+      "url": "https://x.com/steipete/status/2071034256051097799",
+      "posted_at": "2026-06-28T00:53:39.000Z",
+      "tags": [
+        "@steipete"
+      ]
+    },
+    {
+      "id": "8e68f1873f",
+      "date": "2026-06-28",
+      "source": "x",
+      "author": "Peter Steinberger",
+      "bio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world. @OpenClaw🦞 + @OpenAI",
+      "title": "",
+      "summary_en": "We getting Apple Car after all https://t.co/53qxFyVGRW",
+      "summary_zh": "绕了一圈，Apple Car 还是要来了。",
+      "url": "https://x.com/steipete/status/2071017970953052160",
+      "posted_at": "2026-06-27T23:48:56.000Z",
+      "tags": [
+        "@steipete"
+      ]
+    },
+    {
+      "id": "81880b81be",
+      "date": "2026-06-28",
+      "source": "x",
+      "author": "Swyx",
+      "bio": "achieve ambition with intentionality, intensity, integrity & insanity.  affiliations: - @dxtipshq  - @cognition - @temporalio - @aidotengineer - @latentspacepod",
+      "title": "",
+      "summary_en": "Memberships for companies and creative individuals.\n\nApply here please!\n\nhttps://t.co/1KsUVktzU0",
+      "summary_zh": "面向公司和创意个体的会员资格开放申请。想进圈子，先填表。",
+      "url": "https://x.com/swyx/status/2071005276644553091",
+      "posted_at": "2026-06-27T22:58:30.000Z",
+      "tags": [
+        "@swyx"
+      ]
+    },
+    {
+      "id": "4aa7e8c430",
+      "date": "2026-06-28",
+      "source": "x",
+      "author": "Guillermo Rauch",
+      "bio": "@vercel CEO",
+      "title": "",
+      "summary_en": "Me and my agents https://t.co/z3FIH7doEH",
+      "summary_zh": "我和我的智能体：人类只是发号施令的接口，真正干活的是背后一群 AI 代理。",
+      "url": "https://x.com/rauchg/status/2070982746080715052",
+      "posted_at": "2026-06-27T21:28:58.000Z",
+      "tags": [
+        "@rauchg"
+      ]
+    },
+    {
+      "id": "3270933993",
+      "date": "2026-06-28",
+      "source": "x",
+      "author": "Zara Zhang",
+      "bio": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://t.co/KCuEajezlL YouTube: https://t.co/8xzbGWtf6w",
+      "title": "",
+      "summary_en": "My projects: https://t.co/T4liFJ0k9R",
+      "summary_zh": "他没讲故事、没做包装，只丢出一个项目列表：作品自己说话。",
+      "url": "https://x.com/zarazhangrui/status/2070982170219593904",
+      "posted_at": "2026-06-27T21:26:41.000Z",
+      "tags": [
+        "@zarazhangrui"
+      ]
+    },
+    {
+      "id": "424d3e6528",
+      "date": "2026-06-28",
+      "source": "x",
+      "author": "Zara Zhang",
+      "bio": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://t.co/KCuEajezlL YouTube: https://t.co/8xzbGWtf6w",
+      "title": "",
+      "summary_en": "Last year I barely knew how GitHub worked. Now I have 10k followers on GitHub (and still can't write code by hand). What a year. https://t.co/sl3tjtySh5",
+      "summary_zh": "去年我连 GitHub 怎么用都不太懂，今年已经有 1 万 GitHub 粉丝了。更荒诞的是，我现在依然不会手写代码。",
+      "url": "https://x.com/zarazhangrui/status/2070982013822333007",
+      "posted_at": "2026-06-27T21:26:03.000Z",
+      "tags": [
+        "@zarazhangrui"
+      ]
+    },
+    {
+      "id": "7405a4a6fd",
+      "date": "2026-06-28",
+      "source": "x",
+      "author": "Matt Turck",
+      "bio": "VC at @FirstMarkCap.  Host: MAD Podcast; Organizer: Data Driven NYC, Author: MAD Landscape.",
+      "title": "",
+      "summary_en": "Smart glasses and goggles, a history:\n\nSilicon Valley, 2013 (Google): “you really want this”\nEveryone: “no we don’t”\n\nSilicon Valley, 2016 (Microsoft): “ok but what if it’s for the enterprise”\nEnterprise: “maybe, but also, no”\n\nSilicon Valley, 2023 (Meta): “ok but what if they look normal and have AI”\nEveryone: “wait… maybe? … Actually, no”\n\nSilicon Valley, 2024 (Apple): “ok but what if it’s $3,499 and covers your whole face”\nEveryone: “absolutely not”\n\nSilicon Valley, 2026 (Snap): “ok but this time for real”\nEveryone: “we admire the persistence but still no”",
+      "summary_zh": "硅谷十几年如一日给智能眼镜换包装：从 Google 的“你们会想要”、微软的“企业版”、Meta 的“长得正常还带 AI”、苹果的“3499 美元糊满脸”，到 Snap 的“这次真行”。大众的回答基本没变：佩服你们执着，但还是不要。",
+      "url": "https://x.com/mattturck/status/2070972014945243622",
+      "posted_at": "2026-06-27T20:46:19.000Z",
+      "tags": [
+        "@mattturck"
+      ]
+    },
+    {
+      "id": "c4a26cf8ae",
+      "date": "2026-06-28",
+      "source": "x",
+      "author": "Swyx",
+      "bio": "achieve ambition with intentionality, intensity, integrity & insanity.  affiliations: - @dxtipshq  - @cognition - @temporalio - @aidotengineer - @latentspacepod",
+      "title": "",
+      "summary_en": "impromptu ai engineer preshow floor tour and AMA https://t.co/Jjo8Ai7aHh",
+      "summary_zh": "临时开场前带大家逛 AI Engineer 展区，顺手做个 AMA。",
+      "url": "https://x.com/swyx/status/2070971772548366788",
+      "posted_at": "2026-06-27T20:45:22.000Z",
+      "tags": [
+        "@swyx"
+      ]
+    },
+    {
+      "id": "716b20d9f5",
+      "date": "2026-06-28",
+      "source": "x",
+      "author": "Swyx",
+      "bio": "achieve ambition with intentionality, intensity, integrity & insanity.  affiliations: - @dxtipshq  - @cognition - @temporalio - @aidotengineer - @latentspacepod",
+      "title": "",
+      "summary_en": "An interesting way to take Noam at his word in regards to always keeping a constant inference budget for any eval reporting -\n\nis that open models have a lot more dollar per token mileage than closed model APIs. So anyone launching an open model today or situationally incentivized toward open models should obviously report thinking levels measured by dollar inference on popular inference providers, instead of by number of tokens on the x axis",
+      "summary_zh": "如果评测真要保持恒定推理预算，那开放模型就不该按 token 数报 thinking level，而该按主流推理服务上的美元成本来报。因为开放模型每美元能跑出的 token 多得多，继续用 token 当横轴本质上是在替闭源 API 遮丑。",
+      "url": "https://x.com/swyx/status/2070949306060931312",
+      "posted_at": "2026-06-27T19:16:05.000Z",
+      "tags": [
+        "@swyx"
+      ]
+    },
+    {
+      "id": "e38138852a",
+      "date": "2026-06-28",
+      "source": "x",
+      "author": "Aaron Levie",
+      "bio": "ceo @box - your business lives in content. unleash it with AI",
+      "title": "",
+      "summary_en": "Some good best practices here on AI token cost optimization. None of these happens though without a deep understanding of the underlying work being done in a non-abstract way.\n\nThe ultimate implication is that a layer between the work itself and the underlying intelligence needs to deeply understand your workflows, context, and business process. Now, each individual company doing this on their own is unlikely to be effective at scale, so as a consequence, this is effectively the playbook for any applied AI company right now. \n\nBy evaling the models for the applied use cases, deeply understanding the domain, having tuned UX and features for the use case, and having the ability to support adoption and change (via FDEs), allow this layer to add a ton of value. And as a result, enterprises get higher ROI because you actually can get *more* intelligence per dollar by having optimal architecture and workflows.\n\nThere will be many horizontal and vertical versions of this approach. Huge opportunity right now.",
+      "summary_zh": "AI token 成本优化的关键不是省钱小技巧，而是有人真正懂业务、流程和上下文，把“工作本身”和底层智能之间那层做深。单家公司各自硬搞很难规模化，所以这正是应用型 AI 公司的剧本：用评测、领域理解、定制 UX 和 FDE 推动落地，让企业每一美元买到更多智能。",
+      "url": "https://x.com/levie/status/2070937863806751154",
+      "posted_at": "2026-06-27T18:30:37.000Z",
+      "tags": [
+        "@levie"
+      ]
+    },
+    {
+      "id": "588656cb0e",
+      "date": "2026-06-28",
+      "source": "x",
+      "author": "Nikunj Kothari",
+      "bio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
+      "title": "",
+      "summary_en": "As someone who eats ice cream ~daily, this was SO fun to read.. \n\nAlso, the visuals are absolutely stunning!! https://t.co/4ZelLvM5XS",
+      "summary_zh": "一个几乎天天吃冰淇淋的人说这篇看得很爽。视觉也不是一般好看，是“惊艳”级别。",
+      "url": "https://x.com/nikunj/status/2070922974493036773",
+      "posted_at": "2026-06-27T17:31:27.000Z",
+      "tags": [
+        "@nikunj"
+      ]
+    },
+    {
+      "id": "5f17f0f21c",
+      "date": "2026-06-28",
+      "source": "x",
+      "author": "Peter Yang",
+      "bio": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6",
+      "title": "",
+      "summary_en": "Every Saturday, Hermes sends me a health check email with top takeaways and stats to help me work toward my health goals by pulling data from:\n\n→ My smart scale via the Withings API\n→ My Fitbit and Google Health\n→ An MCP server and mobile fitness app I vibe coded to track my workouts\n\nI find this super useful, even if my body fat is going the wrong way 😅\n\nI talk about how to do this in my Hermes tutorial here: https://t.co/p0BDhL6PAp\n\nShould I make another video on building my fitness app?",
+      "summary_zh": "他用 Hermes 每周自动汇总智能体重秤、Fitbit/Google Health 和自己 vibe coded 的健身追踪应用数据，生成健康目标进展邮件。  \n这类个人健康数据管道很实用，哪怕体脂还在朝错误方向狂奔。",
+      "url": "https://x.com/petergyang/status/2070906940352520477",
+      "posted_at": "2026-06-27T16:27:44.000Z",
+      "tags": [
+        "@petergyang"
+      ]
+    },
+    {
+      "id": "51a016f31e",
+      "date": "2026-06-28",
+      "source": "x",
+      "author": "Nan Yu",
+      "bio": "head of product @linear",
+      "title": "",
+      "summary_en": "Oh https://t.co/qYcqwye4HN",
+      "summary_zh": "作者只甩了一个 “Oh” 加短链，像是在用一个字表达震惊或嘲讽。没有链接内容，无法判断具体刺向谁。",
+      "url": "https://x.com/thenanyu/status/2070863699921793481",
+      "posted_at": "2026-06-27T13:35:55.000Z",
+      "tags": [
+        "@thenanyu"
+      ]
+    },
+    {
+      "id": "46bde793aa",
+      "date": "2026-06-28",
+      "source": "x",
+      "author": "Nan Yu",
+      "bio": "head of product @linear",
+      "title": "",
+      "summary_en": "If 90% of problems you bump into aren’t worth solving, then level 1 and level 6 are 90% the same\n\nhttps://t.co/CVozReRLVR",
+      "summary_zh": "如果 90% 遇到的问题根本不值得解决，那所谓 Level 1 和 Level 6 的差距也有 90% 是幻觉。",
+      "url": "https://x.com/thenanyu/status/2070821322901397645",
+      "posted_at": "2026-06-27T10:47:32.000Z",
+      "tags": [
+        "@thenanyu"
+      ]
+    },
+    {
+      "id": "9569655b18",
+      "date": "2026-06-28",
+      "source": "podcast",
+      "author": "Training Data",
+      "bio": "",
+      "title": "Memory and Continual Learning: Engram's Dan Biderman and Jessy Lin",
+      "summary_en": "Speaker 1 | 00:00 - 00:24\nWhat about pre training or even post training makes it possible for the models to generalize in these magical emergent ways and controlling that process so that a company has a set of private data? How do we make the models learn that just as well as the models know, like, the capital of France or, you know, like, how to write Python? So I think it's a really fun problem to think about.\n\nSpeaker 2 | 00:41 - 00:57\nWelcome to training data. We are delighted to have Don Biederman and Jesse Lynn, cofounders of Ngram today. Ngram is a NeoLab focused on memory and continual learning and two of the hottest topics in all of AI research today. And Sean and I are delighted to dig in on those topics with you today.\n\nSpeaker 3 | 00:57 - 00:59\nAwesome. Happy Great. To be\n\nSpeaker 2 | 00:59 - 01:09\nSo maybe to kick off, the Engram website says, we don't see the world through the lens of pretraining or post training. Our models are always training. What does that mean?\n\nSpeaker 1 | 01:09 - 01:51\nI think models today obviously know a lot of things. They're incredibly smart, but we think the bottleneck for making these models more useful these days is not really raw intelligence, but understanding new and evolving context. Whether it's a new task that you're doing or a particular context for a job or something like this, how do you bake that into the model weights the same way that pre training and post training bakes that into the model weights very deeply? This is why we think of ourselves as working on these fundamental problems of memory and continual learning, which are really two sides of the same coin. How do you make the models learn new things and bake them deeply into the weights of the model?\n\nSpeaker 2 | 01:51 - 02:01\nAnd is your premise then that m",
+      "summary_zh": "现在模型的瓶颈不是智力不够，而是吃不进新的、不断变化的上下文。Engram 想解决的是：让公司私有数据、新任务和工作语境像“法国首都”或“写 Python”一样，被深深写进模型权重里。",
+      "url": "https://www.youtube.com/watch?v=aiR7F4jqjXY",
+      "posted_at": "2026-06-24T14:22:00.000Z",
+      "tags": [
+        "podcast"
+      ]
+    }
+  ]
+}
