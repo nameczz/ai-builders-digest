@@ -1,0 +1,230 @@
+{
+  "date": "2026-06-29",
+  "top3": [],
+  "intro": "（无 LLM 编辑模式：以下为原始数据归档，建议安装 codex CLI 重新生成。）",
+  "sections": [
+    {
+      "id": "discovery",
+      "title": "发现机会",
+      "blocks": [
+        {
+          "id": "indie-products",
+          "heading": "今天有哪些独立开发者的新产品？",
+          "summary_md": "（自动归档模式）今日 Show HN 与 Product Hunt 上线的独立开发者产品列表。",
+          "items": [
+            {
+              "title": "ClinePass",
+              "url": "https://www.producthunt.com/products/cline-4",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Spira for Product Hunt Makers",
+              "url": "https://www.producthunt.com/products/spira-ai",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "ReadHere",
+              "url": "https://www.producthunt.com/products/readhere-2",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Receiptor AI — Agent Mode",
+              "url": "https://www.producthunt.com/products/receiptor-ai",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Sami",
+              "url": "https://www.producthunt.com/products/sami-automate-pace-scale-your-ads",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Upstream FTP",
+              "url": "https://www.producthunt.com/products/upstream-ftp",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "VisibAI",
+              "url": "https://www.producthunt.com/products/visibai-ai-visibility-audit-tool",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Outpaint.com - Ad Reframe",
+              "url": "https://www.producthunt.com/products/outpaint-com-ad-reframe",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "PMB",
+              "url": "https://www.producthunt.com/products/pmb-local-first-memory-for-ai",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Intelli",
+              "url": "https://www.producthunt.com/products/intelli",
+              "source": "ProductHunt"
+            }
+          ],
+          "takeaway": ""
+        },
+        {
+          "id": "github-traction",
+          "heading": "GitHub 上哪些高增长开源项目还没有商业化？",
+          "summary_md": "（自动归档模式）本周 GitHub Trending 高速增长的仓库。",
+          "items": [
+            {
+              "title": "calesthio/OpenMontage",
+              "url": "https://github.com/calesthio/OpenMontage",
+              "source": "GitHub",
+              "score": 18703
+            },
+            {
+              "title": "DeusData/codebase-memory-mcp",
+              "url": "https://github.com/DeusData/codebase-memory-mcp",
+              "source": "GitHub",
+              "score": 8926
+            },
+            {
+              "title": "kunchenguid/no-mistakes",
+              "url": "https://github.com/kunchenguid/no-mistakes",
+              "source": "GitHub",
+              "score": 2449
+            },
+            {
+              "title": "palmier-io/palmier-pro",
+              "url": "https://github.com/palmier-io/palmier-pro",
+              "source": "GitHub",
+              "score": 5034
+            },
+            {
+              "title": "google-labs-code/design.md",
+              "url": "https://github.com/google-labs-code/design.md",
+              "source": "GitHub",
+              "score": 6728
+            },
+            {
+              "title": "JCodesMore/ai-website-cloner-template",
+              "url": "https://github.com/JCodesMore/ai-website-cloner-template",
+              "source": "GitHub",
+              "score": 5317
+            },
+            {
+              "title": "simplex-chat/simplex-chat",
+              "url": "https://github.com/simplex-chat/simplex-chat",
+              "source": "GitHub",
+              "score": 3218
+            },
+            {
+              "title": "interviewstreet/hiring-agent",
+              "url": "https://github.com/interviewstreet/hiring-agent",
+              "source": "GitHub",
+              "score": 1973
+            },
+            {
+              "title": "ZhuLinsen/daily_stock_analysis",
+              "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+              "source": "GitHub",
+              "score": 7045
+            },
+            {
+              "title": "stablyai/orca",
+              "url": "https://github.com/stablyai/orca",
+              "source": "GitHub",
+              "score": 2769
+            }
+          ],
+          "takeaway": ""
+        }
+      ]
+    },
+    {
+      "id": "tech-stack",
+      "title": "技术选型",
+      "blocks": [
+        {
+          "id": "hf-models",
+          "heading": "HuggingFace 上最热的模型能做什么消费级产品？",
+          "summary_md": "（自动归档模式）HuggingFace trending 模型列表。",
+          "items": [
+            {
+              "title": "baidu/Unlimited-OCR",
+              "url": "https://huggingface.co/baidu/Unlimited-OCR",
+              "source": "HuggingFace",
+              "score": 1179
+            },
+            {
+              "title": "zai-org/GLM-5.2",
+              "url": "https://huggingface.co/zai-org/GLM-5.2",
+              "source": "HuggingFace",
+              "score": 790
+            },
+            {
+              "title": "empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
+              "url": "https://huggingface.co/empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
+              "source": "HuggingFace",
+              "score": 695
+            },
+            {
+              "title": "yuxinlu1/gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF",
+              "url": "https://huggingface.co/yuxinlu1/gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF",
+              "source": "HuggingFace",
+              "score": 446
+            },
+            {
+              "title": "empero-ai/Qwythos-9B-Claude-Mythos-5-1M",
+              "url": "https://huggingface.co/empero-ai/Qwythos-9B-Claude-Mythos-5-1M",
+              "source": "HuggingFace",
+              "score": 425
+            },
+            {
+              "title": "deepreinforce-ai/Ornith-1.0-35B-GGUF",
+              "url": "https://huggingface.co/deepreinforce-ai/Ornith-1.0-35B-GGUF",
+              "source": "HuggingFace",
+              "score": 419
+            },
+            {
+              "title": "Qwen/Qwen-AgentWorld-35B-A3B",
+              "url": "https://huggingface.co/Qwen/Qwen-AgentWorld-35B-A3B",
+              "source": "HuggingFace",
+              "score": 400
+            },
+            {
+              "title": "krea/Krea-2-Turbo",
+              "url": "https://huggingface.co/krea/Krea-2-Turbo",
+              "source": "HuggingFace",
+              "score": 359
+            },
+            {
+              "title": "yuxinlu1/gemma-4-12B-coder-fable5-composer2.5-v1-GGUF",
+              "url": "https://huggingface.co/yuxinlu1/gemma-4-12B-coder-fable5-composer2.5-v1-GGUF",
+              "source": "HuggingFace",
+              "score": 317
+            },
+            {
+              "title": "deepreinforce-ai/Ornith-1.0-9B-GGUF",
+              "url": "https://huggingface.co/deepreinforce-ai/Ornith-1.0-9B-GGUF",
+              "source": "HuggingFace",
+              "score": 271
+            }
+          ],
+          "takeaway": ""
+        }
+      ]
+    },
+    {
+      "id": "competition",
+      "title": "竞争情报",
+      "blocks": []
+    },
+    {
+      "id": "trends",
+      "title": "趋势判断",
+      "blocks": []
+    },
+    {
+      "id": "actions",
+      "title": "行动触发",
+      "blocks": []
+    }
+  ],
+  "generated_at": "2026-06-29T09:21:28+00:00",
+  "reddit_highlights": []
+}
