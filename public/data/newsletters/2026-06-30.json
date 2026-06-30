@@ -1,0 +1,189 @@
+{
+  "date": "2026-06-30",
+  "generated_at": "2026-06-30T00:47:39+00:00",
+  "inbox_id": "sanyoumu@agentmail.to",
+  "window": {
+    "start": "2026-06-29T00:46:30+00:00",
+    "end": "2026-06-30T00:45:56.284169+00:00",
+    "source": "previous_digest_generated_at"
+  },
+  "count": 5,
+  "highlights": [
+    "OpenAI 挖走苹果 Vision Pro 硬件负责人 Paul Meade，继续把模型公司能力延伸到 AI 原生消费硬件。",
+    "TLDR AI 报道 OpenAI GPT-5.6 Preview，并把安全测试、有限预览、Grok 4.5 私测和 Gemini 算力分配放在同一天脉络下。",
+    "Figma 设计 Agent 开放更多上下文和自定义工具能力，设计工具正在从画布走向可连接团队知识与外部系统的协作代理。",
+    "本地 coding agent、12 Factor Agents、Fintech Engineering Handbook 等内容显示，AI 编程正在转向更工程化、更可控的生产实践。",
+    "Meta 探索预测市场产品、SpaceX 可能推出 Starlink Mobile，平台公司继续把 AI、通信、社区与交易机制往新入口上挪。"
+  ],
+  "items": [
+    {
+      "id": "openai-apple-hardware-brain-drain",
+      "title_zh": "OpenAI 挖走苹果 Vision Pro 硬件负责人，AI 硬件战升级",
+      "title_original": "OpenAI Is Rebuilding Apple's Dream Team (One Exec at a Time)",
+      "source": "www.theneurondaily.com",
+      "from": "The Neuron <theneuron@newsletter.theneurondaily.com>",
+      "subject": "😺 Apple's brain drain continues 🍎",
+      "url": "https://finance.yahoo.com/technology/ai/articles/apple-vision-pro-smart-glasses-193101024.html",
+      "message_id": "<_G0HSPMmSt227d21HCI6Zw@geopod-ismtpd-5>",
+      "published_at": "2026-06-29T10:02:58.000Z",
+      "importance": "high",
+      "summary_zh": "这封 The Neuron 的主线是 OpenAI 正在系统性吸纳苹果硬件与设计人才：苹果 Vision Pro 硬件工程 VP Paul Meade 将离职加入 OpenAI，负责新的硬件部门。邮件同时提到奥地利希望在美国对 Anthropic 高级模型访问设限后推动 Anthropic 与欧盟建立更深关系，以及当天其他 AI 新闻，包括 Google 限制 Meta 使用 Gemini、Stanford 关于 AI 冲击入门白领岗位的研究、Satya Nadella 呼吁企业自建 AI 能力、Microsoft Copilot Cowork GA 等。",
+      "deep_read_zh": "这篇最值得精读的地方，不在于又一位高管跳槽，而在于 OpenAI 的边界正在发生变化。邮件称，Paul Meade 是苹果 Vision Products Group 的硬件工程 VP，15 年苹果经历中有 7 年在负责 Vision Pro 硬件工程，并参与苹果未来智能眼镜方向；他将加入 OpenAI，领导新的硬件部门。OpenAI 近年已聚集多位前苹果核心人才，包括 Jony Ive、Tang Tan、Evans Hankey，并收购了相关 AI 硬件创业公司。The Neuron 的判断是：OpenAI 已经不只是模型公司，而是在搭建用户接触 AI 的新设备入口。对苹果来说，风险也不只是人才流失，而是其最强的消费硬件体验能力被竞争者吸收，同时自身 AI 硬件项目还包括桌面家用机器人、带摄像头的 AirPods、挂坠式可穿戴设备等。邮件还把这个事件放在全球 AI 竞争背景下：美国模型访问限制推动欧洲寻找 AI 战略落点，Google 算力分配影响 Meta 内部 AI 项目，企业被鼓励减少“租用 AI”、更多建设自有能力。隐含判断是，下一阶段 AI 竞争会同时发生在模型、算力、数据、组织能力和终端形态上。builder 需要关注的不只是哪个模型更强，而是谁能掌握用户入口、上下文采集、交互习惯和软硬件一体化分发。",
+      "why_important": "它说明 OpenAI 正把模型能力往消费硬件入口延伸，竞争对象不再只是 Anthropic、Google 或 xAI，也包括苹果、Meta 这类掌握终端和体验的公司。",
+      "impact": "对 builder 来说，AI 产品机会可能从纯软件应用扩展到设备、传感器、上下文采集和系统级体验。对行业来说，AI 原生硬件会重新定义分发入口，也会让苹果式设计、供应链和硬件工程能力变得更稀缺。",
+      "key_points": [
+        "Paul Meade 将离开苹果，加入 OpenAI 领导新硬件部门。",
+        "他曾负责 Vision Pro 硬件工程，并参与苹果智能眼镜方向。",
+        "OpenAI 已聚集 Jony Ive、Tang Tan、Evans Hankey 等前苹果设计与硬件人才。",
+        "邮件认为 OpenAI 正在构建用户访问 AI 的设备，而不只是训练模型。",
+        "苹果仍有 AI 硬件项目，但关键设计与硬件人才流向竞争者。",
+        "美国 AI 访问限制、欧洲争取 Anthropic、Google 限制 Meta Gemini 使用，共同显示 AI 竞争正在扩展到地缘、算力和入口层。"
+      ],
+      "reading_notes": [
+        "OpenAI 做硬件是为了替代手机，还是为了创造更高频的 AI 上下文入口？",
+        "苹果失去部分设计与硬件人才后，AI 硬件还能否保持苹果式体验优势？",
+        "AI 原生设备真正需要的新交互是什么，而不只是把聊天机器人塞进硬件？",
+        "对独立开发者来说，是否会出现围绕新 AI 设备的早期应用生态？"
+      ],
+      "tags": [
+        "hardware",
+        "openai",
+        "apple",
+        "agent",
+        "strategy"
+      ],
+      "related_sources": []
+    },
+    {
+      "id": "tldr-ai-gpt-56-preview-and-agent-infra",
+      "title_zh": "GPT-5.6 Preview、Grok 4.5 私测与 Gemini 算力限制同日出现",
+      "title_original": "GPT-5.6 preview ☀️, Grok 4.5 beta 🤖, Google limits Meta 🛑",
+      "source": "TLDR AI",
+      "from": "TLDR AI <dan@tldrnewsletter.com>",
+      "subject": "GPT-5.6 preview ☀️, Grok 4.5 beta 🤖, Google limits Meta 🛑",
+      "url": "https://refer.tldr.tech/0a897003/2",
+      "message_id": "<0100019f139093f1-d6f82d53-7822-4f6c-99a3-9a12eb603b66-000000@email.amazonses.com>",
+      "published_at": "2026-06-29T13:27:50.000Z",
+      "importance": "high",
+      "summary_zh": "这封 TLDR AI 覆盖了当天模型、算力与 AI infra 的多条关键信号：OpenAI 推出 GPT-5.6 Preview，包含 Sol、Terra、Luna 三个模型，并强调 cyber、bio 安全测试和有限预览；Elon Musk 称 Grok 4.5 已在 SpaceX 和 Tesla 私测，基于 1.5T V9 foundation model，并加入 Cursor 数据做补充训练；Google 因算力不足限制 Meta 使用 Gemini，影响 Meta 内部项目。深度内容还包括 Lean 语言在 AI 代码理解与正确性上的长期潜力、Stanford 记忆与存储价格报告、RLVR 在缺乏确定性模拟器领域的瓶颈、Physical AI 数据价值定价、移动端 Gemini Nano 的 Frozen Multi-Token Prediction，以及 Qwen Image Agent 通过规划、推理、搜索和记忆改善图像生成。",
+      "why_important": "它把模型发布、私测、算力稀缺、语言选择和端侧推理放在同一天，能看出 AI 竞争已经从模型参数扩展到安全、数据、算力分配和部署架构。",
+      "impact": "builder 需要同时关注前沿模型能力和可获得性：最强模型不一定最容易稳定调用，算力与访问限制会直接影响产品路线。Lean、端侧模型和 agent 图像生成也提示了长期技术栈迁移方向。",
+      "key_points": [
+        "GPT-5.6 Preview 包含 Sol、Terra、Luna，并强调安全测试与有限预览。",
+        "Grok 4.5 在 SpaceX 和 Tesla 私测，补充训练加入 Cursor 数据。",
+        "Google 限制 Meta 的 Gemini 容量，显示大模型算力供应仍是战略瓶颈。"
+      ],
+      "reading_notes": [],
+      "tags": [
+        "model",
+        "infra",
+        "compute",
+        "agent",
+        "edge-ai"
+      ],
+      "related_sources": [
+        "The Neuron 同样提到 Google 限制 Meta 使用 Gemini。"
+      ],
+      "deep_read_zh": ""
+    },
+    {
+      "id": "tldr-design-figma-agent-and-adobe-topaz",
+      "title_zh": "Figma 设计 Agent 升级，Adobe 收购 Topaz Labs",
+      "title_original": "Adobe Buys Topaz Labs 🔥, Figma Agent Upgrade 🎨, Apple Designer Golf Carts 🚗",
+      "source": "TLDR Design",
+      "from": "TLDR Design <dan@tldrnewsletter.com>",
+      "subject": "Adobe Buys Topaz Labs 🔥, Figma Agent Upgrade 🎨, Apple Designer Golf Carts 🚗",
+      "url": "https://refer.tldr.tech/3bc21e1b/4",
+      "message_id": "<0100019f1347e57c-41cc3f42-2063-4379-b7f1-0ffc99284a9e-000000@email.amazonses.com>",
+      "published_at": "2026-06-29T12:08:26.000Z",
+      "importance": "high",
+      "summary_zh": "这封 TLDR Design 关注 AI 对设计工具和创意产业的重塑。Adobe 将收购 Topaz Labs，把图像和视频增强能力、上采样、降噪、补帧和 Neurostream on-device AI 技术引入 Firefly、Photoshop、Lightroom、Premiere 等生态。Figma 的设计 Agent 开放 beta 后进一步升级，支持自然语言创建自定义插件、WebGPU shader、复用工作流，并能引用文件和 Figma 文档、联网搜索、连接 GitHub、Slack、Atlassian、Notion、Hex，还能把常用 prompt 保存为 Skills。邮件还讨论 AI 体验设计的六层框架，以及 Figma 在 AI 让“视觉意图到代码”距离缩短后，是否应继续以画布为中心，还是成为连接设计系统、协作和运行时产物的一个视角。",
+      "why_important": "设计工具正在从单点生成能力转向上下文丰富、可连接外部系统的工作流 agent，这会改变设计师、PM 和工程团队的协作边界。",
+      "impact": "产品团队可能更快把品牌知识、设计规范和代码上下文接入生成流程。创作者也需要重新审视合同中的版权、衍生作品、AI 训练权和排他条款。",
+      "key_points": [
+        "Adobe 收购 Topaz Labs，计划把 AI 图像和视频增强能力整合进核心创意产品。",
+        "Figma Agent 支持自定义工具、外部连接、文件上下文和可分享 Skills。",
+        "AI 体验设计从界面扩展到上下文、模型、治理和涌现行为。"
+      ],
+      "reading_notes": [],
+      "tags": [
+        "design",
+        "agent",
+        "creative-tools",
+        "figma",
+        "adobe"
+      ],
+      "related_sources": [
+        "TLDR 普通版也提到 Amble 电动 buggy。"
+      ],
+      "deep_read_zh": ""
+    },
+    {
+      "id": "tldr-dev-local-agents-and-engineering-practice",
+      "title_zh": "本地 coding agent、业务重构与 AI 时代工程实践",
+      "title_original": "Mythos at home 🔓, refactoring the business 🌱, 12 Factor Agents 💪",
+      "source": "TLDR Dev",
+      "from": "TLDR Dev <dan@tldrnewsletter.com>",
+      "subject": "Mythos at home 🔓, refactoring the business 🌱, 12 Factor Agents 💪",
+      "url": "https://refer.tldr.tech/7e988322/3",
+      "message_id": "<0100019f1315780e-7643e61c-9987-47e8-87bd-57ed6abe45f2-000000@email.amazonses.com>",
+      "published_at": "2026-06-29T11:13:21.000Z",
+      "importance": "medium",
+      "summary_zh": "这封 TLDR Dev 的核心是 AI 编程正在回到严肃工程问题：一篇案例讲快速增长公司为了修复混乱 billing 脚本，不只是改代码，而是简化数据模型、补齐未记录业务规则，最终把开票处理从一周缩到两天；本地 coding agent 教程强调开源工具和本地模型在透明、控制、成本和隐私上的优势；多篇观点提醒，AI 让开发者从写代码转向监督生成代码，也可能侵蚀技能积累。工具部分包括开源 SMS gateway TextBee、AI-native 向量设计工具 OpenPencil、Fintech Engineering Handbook，以及 12 Factor Agents 这类面向生产可靠性的 LLM 应用原则。邮件还提到 Semgrep 测试中 GLM 5.2 open-weight 模型在 IDOR 检测上超过 Claude Code。",
+      "why_important": "它把 agent 从炫技拉回生产环境：数据模型、业务规则、验证、安全和可控性仍然是决定成败的核心。",
+      "impact": "builder 可以从本地 agent、12 Factor Agents 和金融系统原则中提炼可复用工程方法，而不是只依赖黑盒托管工具。安全测试中 open-weight 模型的表现也说明本地或自托管方案有实际竞争力。",
+      "key_points": [
+        "修复脚本往往意味着重构业务流程和数据模型，而不只是写代码。",
+        "本地 coding agent 的价值在透明、隐私、可检查和成本控制。",
+        "GLM 5.2 在 Semgrep 的 IDOR 检测测试中超过 Claude Code。"
+      ],
+      "reading_notes": [],
+      "tags": [
+        "developer-tools",
+        "agent",
+        "local-llm",
+        "software-engineering",
+        "security"
+      ],
+      "related_sources": [
+        "TLDR 普通版也收录了 Using Local Coding Agents 和 Fintech Engineering Handbook。"
+      ],
+      "deep_read_zh": ""
+    },
+    {
+      "id": "tldr-starlink-mobile-meta-prediction-markets-local-agents",
+      "title_zh": "Starlink Mobile、Meta 预测市场与本地 coding agent",
+      "title_original": "Starlink mobile 🛰️, Meta prediction markets 📈, local coding agents 👨‍💻",
+      "source": "TLDR",
+      "from": "TLDR <dan@tldrnewsletter.com>",
+      "subject": "Starlink mobile 🛰️, Meta prediction markets 📈, local coding agents 👨‍💻",
+      "url": "https://refer.tldr.tech/f45b3ac9/",
+      "message_id": "<0100019f12eb78b5-3efe2b8-6a94-4bad-b255-64864bb45c5d-000000@email.amazonses.com>",
+      "published_at": "2026-06-29T10:27:29.000Z",
+      "importance": "medium",
+      "summary_zh": "这封 TLDR 普通版覆盖科技、通信、平台和工程主题。SpaceX 计划在美国推出 Starlink mobile 服务，并可能建设自己的地面移动网络，与 Verizon、AT&T、T-Mobile 竞争，也可能借此争取更好的电信合作条款。Meta 正探索类似 Polymarket 和 Kalshi 的 Arena 预测市场应用，初期使用积分而非真钱，目标用户是 18-34 岁，并可能未来接入 Facebook 和 Messenger。工程部分收录本地 coding agent 教程和 Fintech Engineering Handbook，强调本地代理可读写文件、执行命令和验证变更，以及金融系统中“不能凭空造数据、不能丢数据、不能信任”的原则。邮件还包含土地填海监管、Amble 电动 buggy、Intel 芯片业务回暖等内容。",
+      "why_important": "它显示大平台还在争夺新的入口：SpaceX 争移动连接，Meta 争预测和社交交易场景，AI 编程工具则争开发者工作流。",
+      "impact": "对产品和创业者来说，通信基础设施、社交预测机制和本地 AI 开发栈都可能产生新的分发与工具机会。Fintech Handbook 的原则也适合迁移到任何高可信系统设计中。",
+      "key_points": [
+        "SpaceX 可能推出 Starlink mobile，并考虑建设地面移动网络。",
+        "Meta 的 Arena 预测市场产品使用积分，面向年轻用户。",
+        "本地 coding agent 和金融工程原则继续成为开发者关注点。"
+      ],
+      "reading_notes": [],
+      "tags": [
+        "platform",
+        "telecom",
+        "developer-tools",
+        "fintech",
+        "startup"
+      ],
+      "related_sources": [
+        "TLDR Dev 也收录了 Using Local Coding Agents 和 Fintech Engineering Handbook。",
+        "TLDR Design 也提到 Amble 电动 buggy。"
+      ],
+      "deep_read_zh": ""
+    }
+  ],
+  "skipped": [],
+  "notes": "今日精读选择 The Neuron 的 OpenAI 挖走苹果 Vision Pro 硬件负责人事件，因为它有明确事实增量，并且连接了模型公司向消费硬件入口扩张、苹果 AI 硬件人才流失和下一代 AI 交互形态。TLDR Dev 与 TLDR 普通版有重复内容：Using Local Coding Agents、Fintech Engineering Handbook；已分别保留为各自 newsletter 的单篇总结，并在 related_sources 标明。TLDR Design 与 TLDR 普通版都提到 Amble；TLDR AI 与 The Neuron 都提到 Google 限制 Meta 使用 Gemini。赞助广告、招聘广告、订阅和推广内容未作为独立 item。"
+}
