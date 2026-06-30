@@ -1,0 +1,363 @@
+{
+  "date": "2026-06-30",
+  "top3": [
+    "今日最值得关注的是代理能力从代码走向视频、网页、招聘和财务流程，OpenMontage 单周新增 17483 星，把 AI 编程助手包装成视频制作工厂。",
+    "第二件事是代码库记忆成为开发者基础设施热点，codebase-memory-mcp 单周新增 9899 星，Google Trends 中 codebase memory mcp 上升 +319.0%。",
+    "第三件事是设计系统正在被机器可读化，design.md 单周新增 7104 星，v0 Design Systems 2.0 也把同一方向推到产品层。"
+  ],
+  "intro": "今天的主线不是单个模型变强，而是 agent 开始进入可交付的专业工作流：视频生产、代码库记忆、网页操作、招聘筛选、财务整理和设计系统都在被重写。对 builder 来说，机会在于把通用 agent 包进一个高频、可验收、能省时间的窄场景。",
+  "sections": [
+    {
+      "id": "discovery",
+      "title": "发现机会",
+      "blocks": [
+        {
+          "id": "indie-products",
+          "heading": "今天有哪些独立开发者的新产品？",
+          "summary_md": "HN Show HN 今天没有采集到条目，Product Hunt 更像是独立产品雷达：[AgentPeek](https://www.producthunt.com/products/agentpeek) 把 Claude Code 与 Codex 放进 Mac 刘海，[Justwrite](https://www.producthunt.com/products/justwrite) 做本地优先离线写作，[Tinkerfont](https://www.producthunt.com/products/tinkerfont) 做网站字体实时游乐场。原始数据未提供票数和评论数，所以这里按发布日期与产品定位判断热度：6 月 29 日集中出现了不少轻量工具，说明独立开发者仍在围绕 agent 操作入口、本地隐私和前端微工具找切口。",
+          "items": [
+            {
+              "title": "AgentPeek",
+              "url": "https://www.producthunt.com/products/agentpeek",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "Justwrite",
+              "url": "https://www.producthunt.com/products/justwrite",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "Tinkerfont",
+              "url": "https://www.producthunt.com/products/tinkerfont",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "今天的独立产品机会在小入口和强隐私，而不是又做一个通用聊天框。"
+        },
+        {
+          "id": "github-traction",
+          "heading": "GitHub 上哪些高增长开源项目还没有商业化？",
+          "summary_md": "最强信号来自开源 agent 基建：[calesthio/OpenMontage](https://github.com/calesthio/OpenMontage) 单周 17483 星、总星 29213，用 12 条 pipeline、52 个工具和 500+ agent skills 把视频生产系统开源化；[DeusData/codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp) 单周 9899 星、总星 22018，主打毫秒级代码库知识图谱；[Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach) 单周 7928 星、总星 46366，把 Twitter、Reddit、YouTube、GitHub 等内容搜索包装成零 API 费 CLI。这三类都很容易从开源工具演化为托管索引、团队协作和企业权限层。",
+          "items": [
+            {
+              "title": "calesthio/OpenMontage",
+              "url": "https://github.com/calesthio/OpenMontage",
+              "source": "GitHub",
+              "score": 17483
+            },
+            {
+              "title": "DeusData/codebase-memory-mcp",
+              "url": "https://github.com/DeusData/codebase-memory-mcp",
+              "source": "GitHub",
+              "score": 9899
+            },
+            {
+              "title": "Panniantong/Agent-Reach",
+              "url": "https://github.com/Panniantong/Agent-Reach",
+              "source": "GitHub",
+              "score": 7928
+            }
+          ],
+          "takeaway": "高增长开源项目的商业化入口正在从模型调用转向上下文、权限、协作和交付流水线。"
+        }
+      ]
+    },
+    {
+      "id": "tech-stack",
+      "title": "技术选型",
+      "blocks": [
+        {
+          "id": "dev-tools",
+          "heading": "本周增长最快的开发者工具是什么？",
+          "summary_md": "开发者工具榜明显分成三层：[google-labs-code/design.md](https://github.com/google-labs-code/design.md) 单周 7104 星，用 TypeScript 定义给 coding agent 读取的视觉身份规格；[JCodesMore/ai-website-cloner-template](https://github.com/JCodesMore/ai-website-cloner-template) 单周 5937 星，用 AI agent 一条命令克隆网站；[stablyai/orca](https://github.com/stablyai/orca) 单周 3047 星，是管理并行 coding agents 的 ADE。选型判断很直接：如果你做 agent 产品，不要只接一个模型 API，要尽快设计 agent 可读的上下文格式、任务队列和多 agent 调度层。",
+          "items": [
+            {
+              "title": "google-labs-code/design.md",
+              "url": "https://github.com/google-labs-code/design.md",
+              "source": "GitHub",
+              "score": 7104
+            },
+            {
+              "title": "JCodesMore/ai-website-cloner-template",
+              "url": "https://github.com/JCodesMore/ai-website-cloner-template",
+              "source": "GitHub",
+              "score": 5937
+            },
+            {
+              "title": "stablyai/orca",
+              "url": "https://github.com/stablyai/orca",
+              "source": "GitHub",
+              "score": 3047
+            }
+          ],
+          "takeaway": "下一代开发者工具的核心栈是结构化上下文、可控 agent 和可复用工作流。"
+        },
+        {
+          "id": "hf-models",
+          "heading": "HuggingFace 上最热的模型能做什么消费级产品？",
+          "summary_md": "HuggingFace 今日最可产品化的是文档与本地 agent。[baidu/Unlimited-OCR](https://huggingface.co/baidu/Unlimited-OCR) trending_score 1048、下载 429056、喜欢 1415，适合做跨语言票据、合同、截图到知识库的自动整理；[empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF](https://huggingface.co/empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF) trending_score 768、下载 970663，主打 1M context 与本地 GGUF；[krea/Krea-2-Turbo](https://huggingface.co/krea/Krea-2-Turbo) trending_score 387，可做设计稿补图和商品图生成。消费级机会不是模型展示页，而是离线、隐私、长上下文和图片编辑的一键任务。",
+          "items": [
+            {
+              "title": "baidu/Unlimited-OCR",
+              "url": "https://huggingface.co/baidu/Unlimited-OCR",
+              "source": "HuggingFace",
+              "score": 1048
+            },
+            {
+              "title": "empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
+              "url": "https://huggingface.co/empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
+              "source": "HuggingFace",
+              "score": 768
+            },
+            {
+              "title": "krea/Krea-2-Turbo",
+              "url": "https://huggingface.co/krea/Krea-2-Turbo",
+              "source": "HuggingFace",
+              "score": 387
+            }
+          ],
+          "takeaway": "今天最容易落地的模型产品是文档自动化、本地长上下文助手和图像编辑工作台。"
+        }
+      ]
+    },
+    {
+      "id": "competition",
+      "title": "竞争情报",
+      "blocks": [
+        {
+          "id": "migrations",
+          "heading": "有没有迁移类机会？",
+          "summary_md": "没有采集到 HN 中明确的「XX is dead」或迁移文章，但市场数据给了替代品信号：[simplex-chat/simplex-chat](https://github.com/simplex-chat/simplex-chat) 周榜新增 4847 星、日榜新增 1607 星，强调没有任何用户标识的私密通讯；Google Trends 里 [open source alternative](https://trends.google.com/trends/explore?q=open+source+alternative&date=now+7-d) 虽然整体 -23.9%，但关联破圈词出现 open source alternative to photoshop、open source alternative finder、open source figma alternative。也就是说，迁移叙事从大而泛的开源替代，变成了特定工具的可迁移方案。",
+          "items": [
+            {
+              "title": "simplex-chat/simplex-chat",
+              "url": "https://github.com/simplex-chat/simplex-chat",
+              "source": "GitHub",
+              "score": 4847
+            },
+            {
+              "title": "open source alternative",
+              "url": "https://trends.google.com/trends/explore?q=open+source+alternative&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": -23
+            }
+          ],
+          "takeaway": "竞争切入点不在喊替代某巨头，而在帮用户低摩擦迁移一个具体工作流。"
+        },
+        {
+          "id": "pricing-revenue",
+          "heading": "独立开发者在讨论什么营收和定价策略？",
+          "summary_md": "原始数据没有 HN 营收讨论，但 Product Hunt 的产品形态已经暴露了可收费路径：[Agent Mode by Receiptor AI](https://www.producthunt.com/products/receiptor-ai) 是端到端收据工作流，[Load Nova](https://www.producthunt.com/products/load-nova) 是面向调度员速度的 AI co-pilot，[Intelli](https://www.producthunt.com/products/intelli) 用 AI 对话转化销售线索。这类产品不适合按 token 定价，更适合按处理单量、席位或成功动作收费，因为客户买的是少雇人、少漏单、少手工核对。",
+          "items": [
+            {
+              "title": "Agent Mode by Receiptor AI",
+              "url": "https://www.producthunt.com/products/receiptor-ai",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "Load Nova",
+              "url": "https://www.producthunt.com/products/load-nova",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "Intelli",
+              "url": "https://www.producthunt.com/products/intelli",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "AI 应用的定价锚点正在从模型成本转向业务动作价值。"
+        }
+      ]
+    },
+    {
+      "id": "trends",
+      "title": "趋势判断",
+      "blocks": [
+        {
+          "id": "keywords",
+          "heading": "本周技术关键词频率有什么变化？",
+          "summary_md": "最强上升词是 [codebase memory mcp](https://trends.google.com/trends/explore?q=codebase+memory+mcp&date=now+7-d)，变化 +319.0%，正好对应 codebase-memory-mcp 单周 9899 星；[openmontage](https://trends.google.com/trends/explore?q=openmontage&date=now+7-d) 上升 +90.1%，对应 OpenMontage 单周 17483 星；[codex cli](https://trends.google.com/trends/explore?q=codex+cli&date=now+7-d) 仍有 +12.1%。这说明开发者搜索兴趣开始从大词 agent 转向可安装、可接入、可放进工作流的具体组件。",
+          "items": [
+            {
+              "title": "codebase memory mcp",
+              "url": "https://trends.google.com/trends/explore?q=codebase+memory+mcp&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 319
+            },
+            {
+              "title": "openmontage",
+              "url": "https://trends.google.com/trends/explore?q=openmontage&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 90
+            },
+            {
+              "title": "codex cli",
+              "url": "https://trends.google.com/trends/explore?q=codex+cli&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 12
+            }
+          ],
+          "takeaway": "搜索热度正在奖励具名工具，而不是奖励抽象概念。"
+        },
+        {
+          "id": "cooling",
+          "heading": "哪些 AI 热词在降温？",
+          "summary_md": "降温的反而是宽泛词：[ai agent](https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d) 变化 -2.5%，[codex](https://trends.google.com/trends/explore?q=codex&date=now+7-d) 变化 -1.6%，[cursor alternative](https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d) 变化 -60.7%，[self hosted](https://trends.google.com/trends/explore?q=self+hosted&date=now+7-d) 变化 -9.5%。这不是 AI 需求消失，而是用户已经不再用泛词寻找答案，他们会直接搜 codebase memory mcp、openmontage、具体模型或具体插件。",
+          "items": [
+            {
+              "title": "cursor alternative",
+              "url": "https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": -60
+            },
+            {
+              "title": "self hosted",
+              "url": "https://trends.google.com/trends/explore?q=self+hosted&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": -9
+            },
+            {
+              "title": "ai agent",
+              "url": "https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": -2
+            }
+          ],
+          "takeaway": "泛 AI 叙事在降温，具体可执行工具在升温。"
+        },
+        {
+          "id": "new-radar",
+          "heading": "新词雷达：有哪些从零起飞的新概念？",
+          "summary_md": "新词雷达里，最值得看的是 [open source alternative](https://trends.google.com/trends/explore?q=open+source+alternative&date=now+7-d) 的关联查询：open source alternative to photoshop 破圈值 90、open source alternative finder 破圈值 70、open source figma alternative 破圈值 50；另一个是 [no mistakes](https://trends.google.com/trends/explore?q=no+mistakes&date=now+7-d) 的 no mistakes github 破圈值 160，与 Go 项目 kunchenguid/no-mistakes 单周 2677 星呼应。弱信号很清楚：用户要的不是更多创作软件，而是可替代、可验证、少犯错的工作流。",
+          "items": [
+            {
+              "title": "open source alternative to photoshop",
+              "url": "https://trends.google.com/trends/explore?q=open+source+alternative&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 90
+            },
+            {
+              "title": "open source alternative finder",
+              "url": "https://trends.google.com/trends/explore?q=open+source+alternative&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 70
+            },
+            {
+              "title": "no mistakes github",
+              "url": "https://trends.google.com/trends/explore?q=no+mistakes&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 160
+            }
+          ],
+          "takeaway": "新的搜索弱信号集中在替代品发现和防错自动化。"
+        },
+        {
+          "id": "vc-radar",
+          "heading": "VC 和 YC 在关注什么主题？",
+          "summary_md": "综合 GitHub、Product Hunt 和 HF，今天的 VC 雷达会盯三类：第一是专业工作流 agent，比如 OpenMontage、Receiptor AI、Load Nova；第二是 agent 基础设施，比如 codebase-memory-mcp、design.md、Orca、AWS agent-toolkit-for-aws；第三是隐私与本地优先，比如 SimpleX、FluidVoice、Justwrite 和 GGUF 长上下文模型。判断标准不再是模型 benchmark，而是能否在一个行业里完成闭环动作，并积累私有上下文。",
+          "items": [
+            {
+              "title": "OpenMontage",
+              "url": "https://github.com/calesthio/OpenMontage",
+              "source": "GitHub",
+              "score": 17483
+            },
+            {
+              "title": "codebase-memory-mcp",
+              "url": "https://github.com/DeusData/codebase-memory-mcp",
+              "source": "GitHub",
+              "score": 9899
+            },
+            {
+              "title": "SimpleX Chat",
+              "url": "https://github.com/simplex-chat/simplex-chat",
+              "source": "GitHub",
+              "score": 4847
+            }
+          ],
+          "takeaway": "资本关注点会从模型层继续下沉到行业动作层和上下文基础设施层。"
+        }
+      ]
+    },
+    {
+      "id": "actions",
+      "title": "行动触发",
+      "blocks": [
+        {
+          "id": "weekend-build",
+          "heading": "今天 2 小时和一个周末分别做什么？",
+          "summary_md": "2 小时版本：选一个高频文件夹或代码库，做一个最小版「项目记忆 MCP」原型，只需要索引 README、issue、最近提交和关键目录，输出给 Claude Code 或 Codex 的上下文摘要。周末版本：把它扩展成团队私有知识图谱，接入 GitHub repo、Figma design.md、会议纪要和部署文档，再做一个权限可控的查询面板。参考信号是 codebase-memory-mcp 单周 9899 星、design.md 单周 7104 星，用户已经在找 agent 可读的长期记忆。",
+          "items": [
+            {
+              "title": "codebase-memory-mcp",
+              "url": "https://github.com/DeusData/codebase-memory-mcp",
+              "source": "GitHub",
+              "score": 9899
+            },
+            {
+              "title": "design.md",
+              "url": "https://github.com/google-labs-code/design.md",
+              "source": "GitHub",
+              "score": 7104
+            }
+          ],
+          "takeaway": "最快的可做项目是给现有 agent 增加私有上下文，而不是重做一个 agent。"
+        },
+        {
+          "id": "pricing-models",
+          "heading": "值得学习的定价和变现模式有哪些？",
+          "summary_md": "今天可借鉴三种定价：OpenMontage 这类视频 agent 可按导出分钟数、渲染队列和团队席位收费；Receiptor AI 这类财务 agent 可按单据量、自动归档次数和审计留痕收费；codebase-memory-mcp 这类基础设施可按 repo 数、索引频率、私有部署和权限管理收费。共同点是不要卖 token，要卖可验收结果。用户愿意为少做一次剪辑、少漏一张发票、少读一遍代码库付费。",
+          "items": [
+            {
+              "title": "OpenMontage",
+              "url": "https://github.com/calesthio/OpenMontage",
+              "source": "GitHub",
+              "score": 17483
+            },
+            {
+              "title": "Agent Mode by Receiptor AI",
+              "url": "https://www.producthunt.com/products/receiptor-ai",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "codebase-memory-mcp",
+              "url": "https://github.com/DeusData/codebase-memory-mcp",
+              "source": "GitHub",
+              "score": 9899
+            }
+          ],
+          "takeaway": "把 AI 成本隐藏在结果单元里，定价会更容易被客户理解。"
+        },
+        {
+          "id": "counterintuitive",
+          "heading": "今天最反直觉的发现是什么？",
+          "summary_md": "最反直觉的是，搜索趋势里 [design.md](https://trends.google.com/trends/explore?q=design.md&date=now+7-d) 变化 -23.3%，但 GitHub 上 google-labs-code/design.md 单周新增 7104 星。这说明某些开发者基础设施不会先表现为大众搜索热词，而会先在 GitHub、CLI 和工作流模板中爆发。另一个例子是 [ai agent](https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d) 下降 -2.5%，但 agent 相关项目仍占据周榜：OpenMontage、Orca、page-agent、agent-native、AWS agent toolkit 都在增长。",
+          "items": [
+            {
+              "title": "design.md",
+              "url": "https://github.com/google-labs-code/design.md",
+              "source": "GitHub",
+              "score": 7104
+            },
+            {
+              "title": "ai agent",
+              "url": "https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": -2
+            }
+          ],
+          "takeaway": "不要只看大词趋势，开发者真正的迁移会先出现在仓库增长和工具链采用里。"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2026-06-30T09:31:50+00:00",
+  "reddit_highlights": []
+}
