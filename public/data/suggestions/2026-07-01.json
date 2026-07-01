@@ -1,0 +1,158 @@
+{
+  "date": "2026-07-01",
+  "items": [
+    {
+      "id": "2026-07-01-1",
+      "title": "便宜模型可能更贵",
+      "angle": "从 token 单价切到任务总成本，看 AI 工具定价为什么会从“调用费”变成“完成费”。",
+      "opening": "Peter Steinberger 今天提醒大家：别再只看 token 单价，真正该算的是完成一个任务要花多少钱。便宜模型如果要反复试错、多轮修补，最后可能比贵模型更贵。",
+      "story_hook": {
+        "challenge": "AI 产品都在宣传更低价格，但开发者真正付钱的是一次任务能不能做完。",
+        "twist": "Claude Sonnet 5 和 Stigg 2.0 同时指向同一个变化：模型能力和产品计费都在围绕“任务完成率”重估。"
+      },
+      "takeaway": "评估 AI 工具时，把指标从 token price 改成 task cost：完成率、重试次数、人工接管次数和总耗时才是核心。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Peter Steinberger：别拿 token 单价衡量模型成本",
+          "url": "https://x.com/steipete/status/2072144627474579925"
+        },
+        {
+          "tag": "builders",
+          "ref": "Claude：Sonnet 5 以更低价格完成复杂 agentic 工作",
+          "url": "https://x.com/claudeai/status/2072017455833100494"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt：Stigg 2.0 做 AI products 的 usage runtime",
+          "url": "https://www.producthunt.com/products/stigg"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-01-2",
+      "title": "Agent 不缺嘴，缺记忆",
+      "angle": "从 codebase memory mcp 暴涨切入，写 agent 基础设施正在从聊天窗口转向长期上下文层。",
+      "opening": "今天 GitHub 上 codebase-memory-mcp 周增 10031 星，Google Trends 7 日变化 +1624.7%。这不是又一个聊天机器人火了，而是开发者在补 agent 最痛的一块：它记不住你的代码库。",
+      "story_hook": {
+        "challenge": "模型越来越强，但真实项目里 agent 仍然经常重复读文件、忘上下文、浪费 token。",
+        "twist": "热度最高的不是新模型，而是把代码库变成持久知识图谱的基础设施。"
+      },
+      "takeaway": "做开发者工具时，优先思考如何给 agent 提供可复用记忆、项目索引和上下文检索，而不是再包一层聊天 UI。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Aaron Levie：Sonnet 5 在复杂文档和多步代理任务上更强",
+          "url": "https://x.com/levie/status/2072046374045249671"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub：DeusData/codebase-memory-mcp 周增 10031 星",
+          "url": "https://github.com/DeusData/codebase-memory-mcp"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Google Trends：codebase memory mcp 7 日变化 +1624.7%",
+          "url": "https://trends.google.com/trends/explore?q=codebase+memory+mcp&date=now+7-d"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-01-3",
+      "title": "模型发布被安全拖慢了",
+      "angle": "用 Fable 风波写前沿模型的新矛盾：越会写代码、越会联网，发布前越可能被审查和限流。",
+      "opening": "Aaron Levie 今天把 Fable 风波说得很直：高编码、高网络安全能力的模型，未来可能要经过更统一的越狱评估和更深的政府预发布审查。另一边，用户还在吐槽周额度没用完就被锁门。",
+      "story_hook": {
+        "challenge": "用户想要最强模型立刻可用，平台却必须区分滥用、误伤和正常开发请求。",
+        "twist": "安全机制不再只是后台风控，它正在直接改变模型发布节奏、访问权限和用户体验。"
+      },
+      "takeaway": "写 AI 产品时要把安全、额度、降级和申诉设计成产品体验的一部分，否则最强能力会被最差限制感抵消。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Aaron Levie：Fable 风波可能改变前沿模型发布审查",
+          "url": "https://x.com/levie/status/2072172275017879829"
+        },
+        {
+          "tag": "builders",
+          "ref": "Thariq：新版分类器会误标少量编码调试任务并回退到 Opus",
+          "url": "https://x.com/trq212/status/2072185565076988326"
+        },
+        {
+          "tag": "builders",
+          "ref": "Peter Yang：Fable 周额度只用到 50% 就无法继续使用",
+          "url": "https://x.com/petergyang/status/2072165346476511583"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt：Stigg 2.0 管理 AI 用量、额度和超额计费",
+          "url": "https://www.producthunt.com/products/stigg"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-01-4",
+      "title": "Agent 开始管钱了",
+      "angle": "从 Vercel、Shopify 和 Sequence Agentic 看 agentic web 的下一站不是聊天，而是执行、付款和结算。",
+      "opening": "Guillermo Rauch 今天说，Vercel 和 Shopify 要把 agentic web 推到下一阶段。Product Hunt 上也正好出现 Sequence Agentic：给 AI agents 做 money movement。",
+      "story_hook": {
+        "challenge": "Agent 如果只能建议，商业价值有限；一旦能下单、付款、审批、分账，风险和价值都会放大。",
+        "twist": "agent 产品的关键基础设施可能不是更强模型，而是支付、计费、浏览器执行和共享上下文。"
+      },
+      "takeaway": "判断 agent 产品是否有商业化潜力，看它有没有接近真实交易链路：账户、权限、用量、支付、审计和失败回滚。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Guillermo Rauch：与 Tobi 和 Shopify 合作推进 agentic web",
+          "url": "https://x.com/rauchg/status/2072044844965400589"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt：Sequence Agentic 做 AI agents 的 money movement",
+          "url": "https://www.producthunt.com/products/sequence"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt：Tabstack Browser Automation 提供浏览器自动化执行层",
+          "url": "https://www.producthunt.com/products/tabstack"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt：N71 解决多 agent 共享上下文",
+          "url": "https://www.producthunt.com/products/n71"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-01-5",
+      "title": "AI 视频不再是生成按钮",
+      "angle": "用 OpenMontage 的 12 条 pipeline 和 500+ skills，写 AI 视频从单点生成转向工作流编排。",
+      "opening": "OpenMontage 本周在 GitHub 周增 15353 星，总星数超过 3 万。它卖点不是一句 prompt 出视频，而是 12 条 pipeline、52 个工具和 500+ agent skills。",
+      "story_hook": {
+        "challenge": "AI 视频创业过去都在拼单次生成效果，但真实制作需要脚本、素材、剪辑、修订、导出和协作。",
+        "twist": "最强信号来自开源工作流系统，而不是某个更炫的生成模型 demo。"
+      },
+      "takeaway": "做 AI 视频产品时，把重点从“生成一段视频”转为“稳定跑完整制作链路”，围绕模板、团队协作、导出和返工收费。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Peter Steinberger：大家还没聊够工作流，现在该聊循环了",
+          "url": "https://x.com/steipete/status/2072143124496097302"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub：calesthio/OpenMontage 周增 15353 星",
+          "url": "https://github.com/calesthio/OpenMontage"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub：browser-use/video-use 把视频编辑交给 coding agents",
+          "url": "https://github.com/browser-use/video-use"
+        }
+      ]
+    }
+  ],
+  "notes": "今日整体信号很集中：builder 端在讨论模型发布、安全限流、任务成本和 agentic web；pulse 端则显示 agent 基础设施在补记忆、支付、浏览器、视频流水线和用量计费。适合少写“新模型震撼发布”，多写“agent 如何接入真实工作流”。",
+  "generated_at": "2026-07-01T09:29:11+00:00",
+  "model": "gpt-5.5"
+}
