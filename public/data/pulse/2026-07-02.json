@@ -1,0 +1,93 @@
+{
+  "date": "2026-07-02",
+  "top3": [],
+  "intro": "（无 LLM 编辑模式：以下为原始数据归档，建议安装 codex CLI 重新生成。）",
+  "sections": [
+    {
+      "id": "discovery",
+      "title": "发现机会",
+      "blocks": [
+        {
+          "id": "indie-products",
+          "heading": "今天有哪些独立开发者的新产品？",
+          "summary_md": "（自动归档模式）今日 Show HN 与 Product Hunt 上线的独立开发者产品列表。",
+          "items": [
+            {
+              "title": "Banger Mail",
+              "url": "https://www.producthunt.com/products/banger-mail",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Macro",
+              "url": "https://www.producthunt.com/products/macro-workspace",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Needle",
+              "url": "https://www.producthunt.com/products/needle-3",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "scritty",
+              "url": "https://www.producthunt.com/products/scritty",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Basedash Actions",
+              "url": "https://www.producthunt.com/products/basedash",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Sidedoor",
+              "url": "https://www.producthunt.com/products/sidedoor-2",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Solaris",
+              "url": "https://www.producthunt.com/products/build-club",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Quick Sub 2: Video Subtitling",
+              "url": "https://www.producthunt.com/products/quick-sub-2-video-subtitling",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Context.dev",
+              "url": "https://www.producthunt.com/products/context-dev",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Retrace",
+              "url": "https://www.producthunt.com/products/retrace-2",
+              "source": "ProductHunt"
+            }
+          ],
+          "takeaway": ""
+        }
+      ]
+    },
+    {
+      "id": "tech-stack",
+      "title": "技术选型",
+      "blocks": []
+    },
+    {
+      "id": "competition",
+      "title": "竞争情报",
+      "blocks": []
+    },
+    {
+      "id": "trends",
+      "title": "趋势判断",
+      "blocks": []
+    },
+    {
+      "id": "actions",
+      "title": "行动触发",
+      "blocks": []
+    }
+  ],
+  "generated_at": "2026-07-02T09:22:48+00:00",
+  "reddit_highlights": []
+}
