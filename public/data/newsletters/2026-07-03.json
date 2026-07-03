@@ -1,0 +1,56 @@
+{
+  "date": "2026-07-03",
+  "generated_at": "2026-07-03T00:46:21+00:00",
+  "inbox_id": "sanyoumu@agentmail.to",
+  "window": {
+    "start": "2026-07-03T00:00:00+00:00",
+    "end": "2026-07-03T00:45:31.809729+00:00",
+    "source": "calendar_day_fallback"
+  },
+  "count": 1,
+  "highlights": [
+    "今日精读：Vercel 的 Andrew Qu 认为 Agent 不是传统 Web App 的延伸，而是一种需要新基础设施、新交互范式和新工程原语的软件形态。",
+    "Vercel 从 v0 和内部 Agent 实践中抽象出 eve，试图把模型切换、fallback、可恢复运行、工具调用、文件系统 Agent、skills、压缩上下文、subagents 等能力产品化。",
+    "Agent 更适合“重复但需要推理”的业务任务，例如合同初审、营销复盘、联系人识别、数据查询等，而不是纯固定流程自动化。",
+    "文章强调自主循环与 human-in-the-loop 不是二选一，关键是根据任务风险、明确度和反馈周期设计协作方式。"
+  ],
+  "items": [
+    {
+      "id": "vercel-agents-new-kind-of-software",
+      "title_zh": "Vercel：Agent 是一种新的软件形态",
+      "title_original": "Vercel's Andrew Qu on why agents are a new kind of software",
+      "source": "swyx.substack.com / Latent Space",
+      "from": "AINews <swyx+ainews@substack.com>",
+      "subject": "Vercel's Andrew Qu on why agents are a new kind of software",
+      "url": "https://www.latent.space/p/vercel-agents-new-software",
+      "message_id": "<20260703000818.3.7de679d2a4bcb185@mg-d1.substack.com>",
+      "published_at": "2026-07-03T00:08:18.000Z",
+      "importance": "high",
+      "summary_zh": "这封 Latent Space / AINews 访谈聚焦 Vercel Chief of Software Andrew Qu 对 Agent 软件形态的判断。Qu 认为，Vercel 正从帮助开发者部署网站和 Web 应用，扩展到帮助开发者构建 Agent。这个转变来自 v0 和内部业务 Agent 的实践：团队在真实使用中遇到模型切换、provider fallback、任务可恢复、长时间运行、上下文管理、安全代码执行等问题，并逐步抽象成 eve 这样的 Agent 框架。文章最有价值的部分在于，它不是泛泛谈 Agent，而是从 Vercel 自己的工程经验总结出一组 Agent 原语：filesystem agents、skills、compaction、subagents、observability、evaluations 等。",
+      "deep_read_zh": "这篇访谈的核心判断是：Agent 不是传统 Web 应用的一个功能模块，而是一种新的软件形态。Andrew Qu 的论点来自 Vercel 自身的转型路径。Vercel 最初解决的是开发者如何更容易地发布网站和 Web 应用；但随着 v0 等 vibe-coding 产品的发展，他们发现越来越多用户不是只想生成页面，而是在构建能够理解任务、调用工具、持续执行并产出动态结果的 Agent。传统 Web App 的基础设施仍然有用，但 Agent 的难点转移到了上下文、工具、可恢复运行、长任务、安全执行和评估这些层面。\n\nQu 提到，Vercel 在构建 v0 和内部 Agent 时踩到了很多现有工具没有覆盖的“纸割式”问题，例如如何切换模型或供应商、如何增加 fallback、如何让运行过程可恢复。后来他们把这些能力抽象成可复用库，并进一步汇合成 eve。eve 的来源不是闭门设计，而是 Vercel 内部“让每张办公桌都有一个 Agent”的实验，包括数据 Agent，以及围绕文件系统 Agent、skills、上下文压缩和 subagents 形成的一组最佳实践。\n\n文章对 builder 最有启发的地方，是它给出了 Agent 适用场景的边界：适合 Agent 的任务往往是重复发生、但仍需要一定判断和推理的工作，例如合同 redline 的初稿、营销复盘、寻找联系人、对数据存储写查询等。这区别于传统自动化，因为 Agent 需要解释情境并决定下一步。Qu 也没有把未来描绘成全自动循环，而是强调要根据任务选择反馈周期：目标明确、结果可判断的任务可以更自主；精细工程或高风险操作则需要人类持续校准。值得继续关注的是，Vercel 是否能像当年把 Web 部署体验产品化一样，把 Agent 开发、部署、观测和评估整合成一套足够顺滑的平台。",
+      "why_important": "这篇访谈把 Agent 从“产品功能”提升到“软件范式”的层面讨论，并给出了来自 Vercel 生产实践的一组工程原语。对正在做 Agent 产品或内部自动化的团队，它提供了判断技术栈和产品边界的参考。",
+      "impact": "如果 Vercel 的判断成立，Agent 开发会需要类似 Web 开发平台化的一整套基础设施，包括部署、状态管理、长任务、沙箱、观测和评估。builder 需要更早考虑任务可恢复、工具安全、上下文压缩和人机反馈周期，而不是只优化 prompt。",
+      "key_points": [
+        "Vercel 从 v0 和内部 Agent 实践中发现，Agent 开发需要模型切换、fallback、可恢复运行等传统 Web 框架不直接解决的能力。",
+        "eve 是 Vercel 把 filesystem agents、skills、compaction、subagents 等实践整合后的 Agent 框架尝试。",
+        "Qu 认为 Agent 是一种新的软件类型，因为它的交互、接口和输出比 Web 应用更动态、更不可预测。",
+        "适合 Agent 的任务通常是重复但需要推理的业务流程，而不是完全固定的自动化脚本。",
+        "自主 Agent 和 human-in-the-loop 应根据任务明确度、风险和反馈周期选择，不存在单一正确模式。"
+      ],
+      "reading_notes": [
+        "注意 Vercel 提到的 Agent 原语，哪些已经是今天构建 Agent 产品时的必需品，哪些仍是探索中的最佳实践。",
+        "思考自己的产品场景是否属于“重复但需要推理”，而不是为了使用 Agent 而强行引入 Agent。",
+        "关注 Vercel 是否会把 eve、观测和评估能力进一步做成类似其 Web 部署平台的端到端体验。"
+      ],
+      "tags": [
+        "agent",
+        "infra",
+        "developer-tools",
+        "product"
+      ],
+      "related_sources": []
+    }
+  ],
+  "skipped": [],
+  "notes": "今日只有 1 封正式 newsletter 邮件，因此将这篇 Vercel Agent 访谈选为今日精读。未发现欢迎邮件、确认订阅、广告、招聘或完全重复内容需要剔除。"
+}
