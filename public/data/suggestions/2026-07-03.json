@@ -1,0 +1,148 @@
+{
+  "date": "2026-07-03",
+  "items": [
+    {
+      "id": "2026-07-03-1",
+      "title": "FDE 才是企业 AI 的主角",
+      "angle": "从 Aaron Levie 的判断切入：企业 AI 的壁垒不是聊天框，而是把脏数据、老系统和流程重构啃下来的人。",
+      "opening": "企业 AI 最容易被骗的地方，是以为加一个 chatbot 就算落地。Aaron Levie 今天把话说得很直：真正难的是脏数据、老系统、隐性知识、评估和人机协作。换句话说，下一波最值钱的岗位可能不是 prompt engineer，而是 FDE。",
+      "story_hook": {
+        "challenge": "AI 公司都想卖标准化软件，但企业现场偏偏充满非标准系统、历史数据和组织阻力。",
+        "twist": "最先进的 AI 应用，最后反而要靠最重的人肉交付和流程改造打开市场。"
+      },
+      "takeaway": "判断企业 AI 创业机会时，不要只看模型能力，要看它是否能吃下数据清洗、系统集成、评估闭环和组织协作这些硬活。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Aaron Levie：企业 AI 不是塞聊天机器人，FDE 会成为关键岗位",
+          "url": "https://x.com/levie/status/2072875685811716182"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt 上 Osloq、scritty、Retrace 等产品都在切 agent 工作流高摩擦节点",
+          "url": "https://www.producthunt.com/products/retrace-2"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub Trending：DeusData/codebase-memory-mcp 单周新增 9873 星",
+          "url": "https://github.com/DeusData/codebase-memory-mcp"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-03-2",
+      "title": "Agent 缺的不是智商",
+      "angle": "把 Dan Shipper 对 Fable 的吐槽和 Retrace、Osloq 的增长放在一起看：agent 下一层竞争是过程可解释、可复现、可回放。",
+      "opening": "一个 AI 可以自己跑几个小时，回来只告诉你两句话：我做完了。这不是自动化，这是黑箱。Dan Shipper 今天吐槽 Fable 的点，正好解释了为什么 agent replay、issue reproducer 和安全测试工具会同时冒头。",
+      "story_hook": {
+        "challenge": "用户想把任务交给 agent，但无法信任一个看不见过程、复现不了错误的系统。",
+        "twist": "越强的 agent 越需要学会讲述自己的工作过程，否则能力越大，风险越不可控。"
+      },
+      "takeaway": "做 agent 产品时，别只优化执行能力，要优先设计日志、回放、分叉、复现脚本和错误解释，这些才是团队愿意付费的信任层。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Dan Shipper：Fable 会做事，但过程透明度和信息密度不够",
+          "url": "https://x.com/danshipper/status/2072805884376301737"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt：Retrace 做 agent run 的回放和 fork",
+          "url": "https://www.producthunt.com/products/retrace-2"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt：Osloq 切入 GitHub issue 复现",
+          "url": "https://www.producthunt.com/products/osloq"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-03-3",
+      "title": "代码库记忆突然成刚需",
+      "angle": "从 Zara Zhang 的群聊上下文观点出发，解释为什么 codebase memory MCP 暴涨不是偶然，而是团队协作从私聊转向可读上下文的同一件事。",
+      "opening": "Zara Zhang 今天说了一句很像管理建议的话：别把信息塞进私聊黑洞，放到群里说。但放在 agent 时代，这其实是产品判断。代码、讨论、决策如果不能被 agent 读取，就会变成团队的隐性负债。",
+      "story_hook": {
+        "challenge": "团队每天都在生产上下文，但这些上下文散落在私聊、issue、代码和会议里，agent 很难持续利用。",
+        "twist": "所谓 codebase memory，不只是给 AI 省 token，而是在把团队知识从聊天碎片变成基础设施。"
+      },
+      "takeaway": "团队要开始把代码结构、设计决策和协作记录变成 agent 可查询资产；builder 可以围绕记忆、索引、权限和增量更新做工具。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Zara Zhang：别把信息塞进私聊黑洞，群聊让上下文可见",
+          "url": "https://x.com/zarazhangrui/status/2072726336158998760"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Google Trends：codebase memory mcp 上涨 +425.7%",
+          "url": "https://trends.google.com/trends/explore?q=codebase+memory+mcp&date=now+7-d"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub：DeusData/codebase-memory-mcp 单周新增 9873 星",
+          "url": "https://github.com/DeusData/codebase-memory-mcp"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-03-4",
+      "title": "Claude 在用算力买入口",
+      "angle": "从 Cat Wu 提到的 Claude Tag 额度补贴切入：模型公司正在把免费额度变成组织级迁移成本，而不是普通拉新券。",
+      "opening": "Claude 给 Enterprise 组织发 2.5 万美元额度，Team 组织发 2500 美元额度。这不是福利，这是算力补贴式获客。更关键的是，Claude Tag 已经在内部吃下 65% 的产品 PR，Anthropic 要卖的不是一个工具，而是一套组织工作流默认入口。",
+      "story_hook": {
+        "challenge": "团队试用 AI 工具的最大阻力不是价格，而是能不能嵌进工程、产品、数据、销售和市场的日常流程。",
+        "twist": "大模型公司开始用高额算力额度降低组织迁移成本，真正抢的是未来工作的默认基础设施位置。"
+      },
+      "takeaway": "评估 AI 平台竞争时，要看它是否能进入团队流程、权限体系和安全规范；独立产品要么借生态分发，要么在某个工作流节点做得更深。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Cat Wu：Claude 给 Enterprise 和 Team 组织发额度试 Claude Tag",
+          "url": "https://x.com/_catwu/status/2072743070316257662"
+        },
+        {
+          "tag": "builders",
+          "ref": "Cat Wu：Claude Tag 内部已落地 65% 的产品 PR",
+          "url": "https://x.com/_catwu/status/2072731500928508331"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt：scritty 做 AI 编码代理共享记忆",
+          "url": "https://www.producthunt.com/products/scritty"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-03-5",
+      "title": "英伟达开源不是做慈善",
+      "angle": "用 Matt Turck 对 NVIDIA 开源模型战略的总结，对照 HuggingFace 本地长上下文和视觉模型热度，写开源模型如何反过来定义硬件和基础设施。",
+      "opening": "英伟达当然卖芯片，但它现在也押了几百名研究员做 Nemotron 等开源模型。Matt Turck 转述的判断很硬：开放模型不是慈善，而是英伟达掌控前沿 AI 走向的战略。模型怎么跑，最后会反过来决定 GPU、系统和基础设施怎么卖。",
+      "story_hook": {
+        "challenge": "外界容易把开源模型看成低价替代品，忽略它对硬件路线和开发者生态的牵引力。",
+        "twist": "对英伟达来说，开源不是削弱商业壁垒，而是让更多工作负载长在自己的基础设施逻辑上。"
+      },
+      "takeaway": "看开源模型时，不要只问它能不能打败闭源模型，要看它是否创造了新的本地部署、长上下文、视觉和 agentic 工作负载。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Matt Turck：NVIDIA 押注 Nemotron 等开源模型，开放模型是战略",
+          "url": "https://x.com/mattturck/status/2072723410975629364"
+        },
+        {
+          "tag": "pulse",
+          "ref": "HuggingFace：Qwythos-9B-Claude-Mythos-5-1M-GGUF 热门，强调 1M context、GGUF、agentic",
+          "url": "https://huggingface.co/empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF"
+        },
+        {
+          "tag": "pulse",
+          "ref": "HuggingFace：nvidia/LocateAnything-3B 可用于视觉定位产品",
+          "url": "https://huggingface.co/nvidia/LocateAnything-3B"
+        }
+      ]
+    }
+  ],
+  "notes": "今日主线很集中：agent 的竞争正在从模型炫技转向组织落地、上下文记忆、过程可观测和可控基础设施。适合少写宏大趋势，多写具体工作流里的摩擦点。",
+  "generated_at": "2026-07-03T09:25:37+00:00",
+  "model": "gpt-5.5"
+}
