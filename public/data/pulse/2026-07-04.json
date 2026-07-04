@@ -1,0 +1,403 @@
+{
+  "date": "2026-07-04",
+  "top3": [
+    "今天最值得关注的是 agent 基础设施从单点工具转向编排层：DeusData/codebase-memory-mcp、OmniRoute、Orca、herdr 都在解决多 agent 时代的上下文、路由和调度问题。",
+    "消费级 AI 的新机会正在从聊天窗口外溢到 Mac、iPhone、Slack、邮件、BI 和邮政等具体工作流，Product Hunt 上 Termi Protocol、Glaze、Retrace、Banger Mail 都指向这个方向。",
+    "Google Trends 显示 Cursor 替代品和路由网关需求升温，而 Codex、SimpleX Chat 等关键词降温，说明用户正在从品牌追逐转向成本、替代和可控性。"
+  ],
+  "intro": "今天的数据没有 HN 样本，信号主要来自 GitHub、Product Hunt、HuggingFace 与 Google Trends。综合看，Builder 应该把注意力放在 agent 编排、上下文记忆、成本路由和本地化模型能力上：这不是单个 AI 应用爆发，而是开发者工作流底座在重组。",
+  "sections": [
+    {
+      "id": "discovery",
+      "title": "发现机会",
+      "blocks": [
+        {
+          "id": "indie-products",
+          "heading": "今天有哪些独立开发者的新产品？",
+          "summary_md": "Product Hunt 里最值得看的是把 AI 塞进具体工作流的产品，而不是泛泛的聊天助手。本批原始数据没有提供票数与评论数，因此这里不虚构热度数字；可确认的是 [Termi Protocol](https://www.producthunt.com/products/termi-protocol) 在 2026-07-03 发布，主打实时 3D 观察 AI coding agents；[ChecklistFox](https://www.producthunt.com/products/checklistfox) 同日发布，把 AI checklist 直接变成 PDF；[Glaze by Raycast](https://www.producthunt.com/products/glaze-4) 则把聊天生成 Mac app 包进 Raycast 场景。值得关注的是，这些产品都没有停留在 prompt 层，而是在争夺用户每天已经打开的桌面、PDF、终端和系统工具入口。",
+          "items": [
+            {
+              "title": "Termi Protocol",
+              "url": "https://www.producthunt.com/products/termi-protocol",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "ChecklistFox",
+              "url": "https://www.producthunt.com/products/checklistfox",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "Glaze by Raycast",
+              "url": "https://www.producthunt.com/products/glaze-4",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "Retrace",
+              "url": "https://www.producthunt.com/products/retrace-2",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "独立产品的机会不在再造聊天框，而在把 agent 放进已有高频工作流。"
+        },
+        {
+          "id": "github-traction",
+          "heading": "GitHub 上哪些高增长开源项目还没有商业化？",
+          "summary_md": "GitHub weekly 的最大信号是 agent 基础设施正在被快速开源化。[DeusData/codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp) 本周 10186 stars，总星 25775，卖点是把代码库索引成持久知识图谱；[usestrix/strix](https://github.com/usestrix/strix) 本周 7567 stars，总星 35256，切入 AI 渗透测试；[ogulcancelik/herdr](https://github.com/ogulcancelik/herdr) 本周 3024 stars，总星 11014，做终端里的 agent multiplexer。这些项目离商业化最近的不是 SaaS 面板，而是托管索引、企业安全扫描、团队级 agent 调度和私有部署支持。",
+          "items": [
+            {
+              "title": "DeusData/codebase-memory-mcp",
+              "url": "https://github.com/DeusData/codebase-memory-mcp",
+              "source": "GitHub",
+              "score": 10186
+            },
+            {
+              "title": "usestrix/strix",
+              "url": "https://github.com/usestrix/strix",
+              "source": "GitHub",
+              "score": 7567
+            },
+            {
+              "title": "ogulcancelik/herdr",
+              "url": "https://github.com/ogulcancelik/herdr",
+              "source": "GitHub",
+              "score": 3024
+            },
+            {
+              "title": "stablyai/orca",
+              "url": "https://github.com/stablyai/orca",
+              "source": "GitHub",
+              "score": 3700
+            }
+          ],
+          "takeaway": "高增长开源项目的商业化入口正在从模型本身转向 agent 运行时、记忆和安全层。"
+        }
+      ]
+    },
+    {
+      "id": "tech-stack",
+      "title": "技术选型",
+      "blocks": [
+        {
+          "id": "dev-tools",
+          "heading": "本周增长最快的开发者工具是什么？",
+          "summary_md": "开发者工具里最强的是三类：上下文记忆、模型路由、agent 可视化。[diegosouzapw/OmniRoute](https://github.com/diegosouzapw/OmniRoute) 本周 3631 stars，强调 231+ providers、50+ free providers 和 token 压缩；[browser-use/video-use](https://github.com/browser-use/video-use) 本周 4056 stars，把视频编辑交给 coding agents；[google-labs-code/design.md](https://github.com/google-labs-code/design.md) 本周 4101 stars，试图让 coding agents 持久理解设计系统。选型上，今天的启发是不要只接一个模型 API，而要预留 provider 路由、项目记忆和设计上下文这三层。",
+          "items": [
+            {
+              "title": "OmniRoute",
+              "url": "https://github.com/diegosouzapw/OmniRoute",
+              "source": "GitHub",
+              "score": 3631
+            },
+            {
+              "title": "video-use",
+              "url": "https://github.com/browser-use/video-use",
+              "source": "GitHub",
+              "score": 4056
+            },
+            {
+              "title": "design.md",
+              "url": "https://github.com/google-labs-code/design.md",
+              "source": "GitHub",
+              "score": 4101
+            },
+            {
+              "title": "codebase-memory-mcp",
+              "url": "https://github.com/DeusData/codebase-memory-mcp",
+              "source": "GitHub",
+              "score": 10186
+            }
+          ],
+          "takeaway": "新的开发者栈默认要支持多模型、长记忆和可被 agent 读取的产品上下文。"
+        },
+        {
+          "id": "hf-models",
+          "heading": "HuggingFace 上最热的模型能做什么消费级产品？",
+          "summary_md": "HuggingFace 模型热度显示本地、多模态和长上下文仍是消费级产品的关键。[empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF](https://huggingface.co/empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF) trending_score 696、下载 1464047，标签里有 1M-context、vision、function-calling；[baidu/Unlimited-OCR](https://huggingface.co/baidu/Unlimited-OCR) trending_score 549、下载 988379，适合做票据、表格、合同和截图理解；[nvidia/LocateAnything-3B](https://huggingface.co/nvidia/LocateAnything-3B) 下载 1194542，说明视觉定位可以变成桌面自动化、质检和电商图片审核的底层能力。",
+          "items": [
+            {
+              "title": "Qwythos-9B-Claude-Mythos-5-1M-GGUF",
+              "url": "https://huggingface.co/empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
+              "source": "HuggingFace",
+              "score": 696
+            },
+            {
+              "title": "Unlimited-OCR",
+              "url": "https://huggingface.co/baidu/Unlimited-OCR",
+              "source": "HuggingFace",
+              "score": 549
+            },
+            {
+              "title": "LocateAnything-3B",
+              "url": "https://huggingface.co/nvidia/LocateAnything-3B",
+              "source": "HuggingFace",
+              "score": 173
+            },
+            {
+              "title": "Krea-2-Turbo",
+              "url": "https://huggingface.co/krea/Krea-2-Turbo",
+              "source": "HuggingFace",
+              "score": 176
+            }
+          ],
+          "takeaway": "消费级 AI 产品可以围绕长文档、截图理解、图片定位和本地推理重新包装。"
+        }
+      ]
+    },
+    {
+      "id": "competition",
+      "title": "竞争情报",
+      "blocks": [
+        {
+          "id": "migrations",
+          "heading": "有没有迁移类或替代类信号？",
+          "summary_md": "虽然 HN 没有给到迁移类文章，但 Google Trends 和 GitHub 已经出现明确替代信号。[cursor alternative](https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d) 上升 +147.3%，关联词包括 windsurf ai、cursor pricing、trae ai、cursor ai alternative free；同时 OmniRoute 在 GitHub weekly 拿到 3631 stars，说明开发者正在把 AI 编程工具从单一 IDE 订阅，迁移到可路由、可压缩、可回退的模型网关。竞争上，这会挤压只卖前端体验的 AI IDE，机会则留给成本透明、可替换 provider、支持团队策略的中间层。",
+          "items": [
+            {
+              "title": "cursor alternative",
+              "url": "https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 147
+            },
+            {
+              "title": "OmniRoute",
+              "url": "https://github.com/diegosouzapw/OmniRoute",
+              "source": "GitHub",
+              "score": 3631
+            },
+            {
+              "title": "Windsurf AI",
+              "url": "https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 80
+            }
+          ],
+          "takeaway": "AI IDE 的竞争焦点正在从功能多少转向价格、可替代性和模型路由控制权。"
+        },
+        {
+          "id": "comebacks",
+          "heading": "有没有沉寂的老项目突然复活？",
+          "summary_md": "今天的复活信号不是某个老项目回归，而是经典基础设施被 agent 重新定价。[elastic/elasticsearch](https://github.com/elastic/elasticsearch) 在 GitHub daily 仍有 91 stars、总星 77405；[actions/checkout](https://github.com/actions/checkout) daily 129 stars、总星 8288；[ansible/ansible](https://github.com/ansible/ansible) daily 65 stars、总星 69264。它们不是新热点，但当 agent 需要检索、CI、部署和运维动作时，这些稳定基础设施会重新变成 agent toolchain 的组成部分。Builder 可以考虑给老工具加 MCP、审计日志、权限控制和自然语言操作层。",
+          "items": [
+            {
+              "title": "elasticsearch",
+              "url": "https://github.com/elastic/elasticsearch",
+              "source": "GitHub",
+              "score": 91
+            },
+            {
+              "title": "actions/checkout",
+              "url": "https://github.com/actions/checkout",
+              "source": "GitHub",
+              "score": 129
+            },
+            {
+              "title": "ansible",
+              "url": "https://github.com/ansible/ansible",
+              "source": "GitHub",
+              "score": 65
+            }
+          ],
+          "takeaway": "老基础设施的第二春来自 agent 化封装，而不是重新发明同类工具。"
+        }
+      ]
+    },
+    {
+      "id": "trends",
+      "title": "趋势判断",
+      "blocks": [
+        {
+          "id": "keywords",
+          "heading": "本周技术关键词频率有什么变化？",
+          "summary_md": "关键词升温最明显的是可替代、可路由、可记忆。[lingbot map](https://trends.google.com/trends/explore?q=lingbot+map&date=now+7-d) 上升 +999.0%，对应 GitHub 上 Robbyant/lingbot-map 本周 2171 stars；[cursor alternative](https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d) 上升 +147.3%，背后是开发者对价格和锁定的敏感；[omniroute](https://trends.google.com/trends/explore?q=omniroute&date=now+7-d) 上升 +124.4%，[codebase memory mcp](https://trends.google.com/trends/explore?q=codebase+memory+mcp&date=now+7-d) 上升 +76.7%。这组词共同说明，下一波不是更聪明的单 agent，而是更便宜、更懂代码库、更容易切换供应商的 agent 系统。",
+          "items": [
+            {
+              "title": "lingbot map",
+              "url": "https://trends.google.com/trends/explore?q=lingbot+map&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 999
+            },
+            {
+              "title": "cursor alternative",
+              "url": "https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 147
+            },
+            {
+              "title": "omniroute",
+              "url": "https://trends.google.com/trends/explore?q=omniroute&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 124
+            },
+            {
+              "title": "codebase memory mcp",
+              "url": "https://trends.google.com/trends/explore?q=codebase+memory+mcp&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 77
+            }
+          ],
+          "takeaway": "开发者需求正在从模型能力崇拜转向成本、上下文和可迁移性。"
+        },
+        {
+          "id": "cooling",
+          "heading": "哪些 AI 热词在降温？",
+          "summary_md": "降温词也很有价值。[codex](https://trends.google.com/trends/explore?q=codex&date=now+7-d) 下降 -3.4%，[codex cli](https://trends.google.com/trends/explore?q=codex+cli&date=now+7-d) 下降 -6.9%，[strix](https://trends.google.com/trends/explore?q=strix&date=now+7-d) 下降 -8.4%，[ai berkshire](https://trends.google.com/trends/explore?q=ai+berkshire&date=now+7-d) 下降 -19.3%，[simplex chat](https://trends.google.com/trends/explore?q=simplex+chat&date=now+7-d) 下降 -79.9%。这不代表项目没价值，而是单个品牌或单点爆款的搜索热度回落很快；真正能留住需求的是能嵌入日常工作流的基础层。",
+          "items": [
+            {
+              "title": "codex",
+              "url": "https://trends.google.com/trends/explore?q=codex&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": -3
+            },
+            {
+              "title": "codex cli",
+              "url": "https://trends.google.com/trends/explore?q=codex+cli&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": -7
+            },
+            {
+              "title": "ai berkshire",
+              "url": "https://trends.google.com/trends/explore?q=ai+berkshire&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": -19
+            },
+            {
+              "title": "simplex chat",
+              "url": "https://trends.google.com/trends/explore?q=simplex+chat&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": -80
+            }
+          ],
+          "takeaway": "单点 AI 项目的传播周期在变短，留存要靠工作流嵌入而不是首日话题。"
+        },
+        {
+          "id": "new-radar",
+          "heading": "新词雷达：有哪些从零起飞的新概念？",
+          "summary_md": "新词里最强的弱信号来自关联查询而非主关键词。[omniroute](https://trends.google.com/trends/explore?q=omniroute&date=now+7-d) 的 rising 里出现 pollinations，breakout value 达 40300，说明免费或开放模型供应入口正在被重新搜索；[ai agent](https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d) 的 rising 里 cisco ai agent employee rollout value 达 97000，企业内部 agent rollout 成了大众关注事件；[cursor alternative](https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d) 的 rising 包含 windsurf ai、cursor pricing、trae ai，意味着 AI coding 赛道的下一个入口可能是迁移助手、价格比较器和团队采购建议工具。",
+          "items": [
+            {
+              "title": "pollinations",
+              "url": "https://trends.google.com/trends/explore?q=omniroute&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 40300
+            },
+            {
+              "title": "cisco ai agent employee rollout",
+              "url": "https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 97000
+            },
+            {
+              "title": "windsurf ai",
+              "url": "https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 80
+            },
+            {
+              "title": "cursor pricing",
+              "url": "https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 80
+            }
+          ],
+          "takeaway": "破圈词指向两个机会：企业 agent rollout 工具和 AI 编程订阅替代市场。"
+        }
+      ]
+    },
+    {
+      "id": "actions",
+      "title": "行动触发",
+      "blocks": [
+        {
+          "id": "weekend-build",
+          "heading": "今天 2 小时和一个周末分别做什么？",
+          "summary_md": "2 小时版本：做一个 Cursor/Codex/Claude Code 成本审计小工具，读取本地使用日志或手动输入 token、模型、任务类型，输出每周成本和可替代 provider 建议，直接吃 [cursor alternative](https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d) +147.3% 的需求。周末版本：做一个轻量 agent router demo，支持 OpenAI、Claude、Gemini、Pollinations 等 provider，把 OmniRoute 的热度转译成更窄的场景，例如团队代码审查路由、文档生成路由或设计稿实现路由。关键是别做大平台，先做一个成本痛点明确的小入口。",
+          "items": [
+            {
+              "title": "AI coding cost auditor",
+              "url": "https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d",
+              "source": "Action",
+              "score": 147
+            },
+            {
+              "title": "Agent router demo",
+              "url": "https://github.com/diegosouzapw/OmniRoute",
+              "source": "Action",
+              "score": 3631
+            }
+          ],
+          "takeaway": "今天最适合动手的是成本可视化加 provider 替代建议，而不是又做一个通用 agent。"
+        },
+        {
+          "id": "pricing-models",
+          "heading": "值得学习的定价和变现模式有哪些？",
+          "summary_md": "今天可学的定价模式有三种。第一是 Context.dev、OmniRoute 这类 API 或 gateway，可以按调用量、provider 数量和团队席位收费；第二是 Retrace、Termi Protocol 这类 agent 可观测性产品，可以按 run 数、保留时长和协作功能收费；第三是 html.contact、ChecklistFox 这类极窄工具，适合免费试用加一次性升级或低价订阅。对独立开发者来说，最稳的是把免费入口做得很具体，把付费点放在团队、历史记录、导出、合规和自动化上。",
+          "items": [
+            {
+              "title": "Context.dev",
+              "url": "https://www.producthunt.com/products/context-dev",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "Retrace",
+              "url": "https://www.producthunt.com/products/retrace-2",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "html.contact",
+              "url": "https://www.producthunt.com/products/html-contact",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "ChecklistFox",
+              "url": "https://www.producthunt.com/products/checklistfox",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "AI 工具的付费点应放在可追踪、可协作、可导出和可控成本，而不是单次生成。"
+        },
+        {
+          "id": "counterintuitive",
+          "heading": "今天最反直觉的发现是什么？",
+          "summary_md": "最反直觉的是，最热的不是更拟人的 AI，而是更无聊的基础设施：codebase memory、MCP、router、auth、checkout、DevTools。DeusData/codebase-memory-mcp 本周 10186 stars，Logto 作为认证授权基础设施也有 1368 weekly stars，ChromeDevTools/chrome-devtools-mcp daily 405 stars。与此同时，Product Hunt 上的 Vida、Macro、Flowly 虽然包装成个人 AI agent，但真正能落地的价值仍然依赖身份、记忆、权限、日志和可恢复的操作链。今天的策略是把炫技 demo 拆成基础设施组件，再挑一个具体人群卖。",
+          "items": [
+            {
+              "title": "codebase-memory-mcp",
+              "url": "https://github.com/DeusData/codebase-memory-mcp",
+              "source": "GitHub",
+              "score": 10186
+            },
+            {
+              "title": "logto",
+              "url": "https://github.com/logto-io/logto",
+              "source": "GitHub",
+              "score": 1368
+            },
+            {
+              "title": "chrome-devtools-mcp",
+              "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+              "source": "GitHub",
+              "score": 405
+            },
+            {
+              "title": "Macro",
+              "url": "https://www.producthunt.com/products/macro-workspace",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "AI 应用的护城河越来越像基础设施：权限、记忆、日志和路由。"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2026-07-04T09:17:11+00:00",
+  "reddit_highlights": []
+}

@@ -1,0 +1,158 @@
+{
+  "date": "2026-07-04",
+  "items": [
+    {
+      "id": "2026-07-04-1",
+      "title": "工具卖不动，专家能卖钱",
+      "angle": "从 Zara Zhang 的判断切入：AI 产品不该再把自己包装成工具，而要卖一种“雇到专业能力”的体验。",
+      "opening": "用户不是不愿意为 AI 付费，而是不愿意为一个“我用 agent 也能搓”的工具付费。真正的溢价，来自它让你感觉像多雇了一个你没有的专家。",
+      "story_hook": {
+        "challenge": "独立开发者还在做功能列表，但用户已经开始默认工具可以被 coding agent 复制。",
+        "twist": "Product Hunt 上更值得看的不是聊天助手，而是把 AI 塞进 PDF、Mac、终端这类具体工作流的产品。"
+      },
+      "takeaway": "写产品定位时，把“能做什么功能”改写成“替用户补上哪种稀缺专业能力”。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Zara Zhang：人们越来越不愿意为“工具”付费，真正能卖钱的是像雇到专业能力",
+          "url": "https://x.com/zarazhangrui/status/2073295900395606401"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt：Glaze by Raycast 把聊天生成 Mac app 放进 Raycast 场景",
+          "url": "https://www.producthunt.com/products/glaze-4"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt：ChecklistFox 把 AI checklist 直接变成 PDF",
+          "url": "https://www.producthunt.com/products/checklistfox"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-04-2",
+      "title": "Agent 护城河变成上下文",
+      "angle": "把 Aaron Levie 的“上下文之战”和 GitHub 热门项目放在一起看：应用层护城河不是套壳，而是业务知识、权限和工作流控制。",
+      "opening": "今天最热的 AI 信号不是某个更聪明的模型，而是 codebase memory、MCP、router、设计上下文。听起来很无聊，但这可能正是 agent 真正能进公司的入口。",
+      "story_hook": {
+        "challenge": "大家嘴上说应用层没有护城河，因为模型会越来越强。",
+        "twist": "真正难复制的不是回答能力，而是公司内部知识、权限边界、历史记录和工具链编排。"
+      },
+      "takeaway": "做 agent 产品时，优先设计数据接入、权限治理、上下文记忆和审计链路，而不是只优化聊天体验。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Aaron Levie：AI 的战争本质上是上下文之战",
+          "url": "https://x.com/levie/status/2073138135014502777"
+        },
+        {
+          "tag": "builders",
+          "ref": "Cat Wu：让 Claude Code 配合 computer use 自动接 GitHub、数据仓库、Google Drive",
+          "url": "https://x.com/_catwu/status/2073149354412822738"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub Trending：DeusData/codebase-memory-mcp 本周 10186 stars",
+          "url": "https://github.com/DeusData/codebase-memory-mcp"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub Trending：google-labs-code/design.md 让 coding agents 持久理解设计系统",
+          "url": "https://github.com/google-labs-code/design.md"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-04-3",
+      "title": "Cursor 替代潮来了",
+      "angle": "从 Nikunj Kothari 的 Gemini API key 观点切入：AI 编程工具竞争正在从 IDE 功能，转向成本、路由和可替换 provider。",
+      "opening": "当开发者开始搜索 cursor alternative，说明问题已经不只是“哪个 IDE 更好用”。他们真正想要的是：别锁死我，别让我为每个副项目重新接一堆模型。",
+      "story_hook": {
+        "challenge": "AI IDE 一直在比编辑体验、补全质量和 agent 能力。",
+        "twist": "用户可能更快被价格、BYOK、provider 路由和免费模型入口带走。"
+      },
+      "takeaway": "如果做 AI coding 工具，别只做更好的前端；要提供成本审计、模型路由、降级策略和迁移建议。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Nikunj Kothari：很多 BYOK 副项目最后都能简化成带个 Gemini key",
+          "url": "https://x.com/nikunj/status/2073151491557478883"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Google Trends：cursor alternative 上升 +147.3%",
+          "url": "https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub Trending：OmniRoute 本周 3631 stars，强调 231+ providers 和 token 压缩",
+          "url": "https://github.com/diegosouzapw/OmniRoute"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-04-4",
+      "title": "丑 CLI 正在赢过画布",
+      "angle": "用 Swyx 的吐槽做主线：漂亮的思维画布输了，不是因为审美错了，而是因为 CLI 直接把商品化思考做完了。",
+      "opening": "“思维工具”做了十年漂亮画布，最后被一堆低对比、设计很糙的 CLI 碾过去。这个反差很刺耳：用户可能并不想整理思路，只想让系统替他完成下一步。",
+      "story_hook": {
+        "challenge": "产品团队习惯把复杂思考可视化，做成画布、节点和连接线。",
+        "twist": "真正被开发者采用的，反而是终端里能调度多个 agent、直接执行任务的粗糙工具。"
+      },
+      "takeaway": "设计 AI 工具时，先问它能不能减少一次决策或操作，再问界面是否漂亮。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Swyx：思维工具圈子的漂亮画布 Demo 被低对比、设计糟糕的 CLI 碾压",
+          "url": "https://x.com/swyx/status/2073220591684096087"
+        },
+        {
+          "tag": "builders",
+          "ref": "Swyx：Factorio 思维方式正在外溢到 AI / 工程文化",
+          "url": "https://x.com/swyx/status/2073202219944649015"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub Trending：ogulcancelik/herdr 做终端里的 agent multiplexer",
+          "url": "https://github.com/ogulcancelik/herdr"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt：Termi Protocol 主打实时 3D 观察 AI coding agents",
+          "url": "https://www.producthunt.com/products/termi-protocol"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-04-5",
+      "title": "Agent 复盘会变成刚需",
+      "angle": "从 Guillermo Rauch 的 agent 自我改进说起：下一批基础设施不只是跑 agent，而是记录、复盘并改写它们。",
+      "opening": "如果 agent 只是跑完一次任务就消失，它永远学不会自己哪里浪费了 token、哪里多调了工具、哪里走错了路。真正的自我改进，第一步不是更玄的 prompt，而是把每次运行变成可复盘材料。",
+      "story_hook": {
+        "challenge": "很多团队把 agent 失败归因于模型不够强或提示词不够好。",
+        "twist": "Rauch 的判断更工程化：没有运行历史和可观测性，就没有可靠的 prompt 和 skill 迭代。"
+      },
+      "takeaway": "给 agent 产品加 run log、工具调用时间线、失败分类和自动 prompt diff，这些会比再加一个模型按钮更值钱。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Guillermo Rauch：让 Agent 复盘历史运行，生成新的 prompts 和 skills",
+          "url": "https://x.com/rauchg/status/2073132174958841887"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt：Retrace 属于 agent 可观测性产品，可按 run 数和保留时长收费",
+          "url": "https://www.producthunt.com/products/retrace-2"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt：Termi Protocol 用于实时观察 AI coding agents",
+          "url": "https://www.producthunt.com/products/termi-protocol"
+        }
+      ]
+    }
+  ],
+  "notes": "今日最强主线是 agent 从单点能力转向基础设施：上下文、路由、记忆、可观测性和工作流嵌入。独立开发者素材足够，但偏开发者工具，消费级故事相对少。",
+  "generated_at": "2026-07-04T09:18:08+00:00",
+  "model": "gpt-5.5"
+}
