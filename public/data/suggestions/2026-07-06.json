@@ -1,0 +1,148 @@
+{
+  "date": "2026-07-06",
+  "items": [
+    {
+      "id": "2026-07-06-1",
+      "title": "AI 编程开始拼少犯错",
+      "angle": "从「更强 agent」切到「错误率才是交付瓶颈」：开发者真正买单的不是自动化规模，而是可验证的可靠性。",
+      "opening": "Dan Shipper 把 ultracode 的卖点压成一句话：make no mistakes。讽刺的是，Matt Turck 同一天吐槽，AI Agent 听到「别犯错」后，常常只是更自信地把错犯完。",
+      "story_hook": {
+        "challenge": "AI coding 工具都在承诺更自动，但用户真正害怕的是自动把 bug 写进主分支。",
+        "twist": "下一波竞争点可能不是谁能拉起更多 agent，而是谁能证明少犯错。"
+      },
+      "takeaway": "评估 AI 编程工具时，把错误率、回滚成本、测试覆盖和审查链路放到功能列表之前。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Dan Shipper 谈 ultracode 的「make no mistakes」定位",
+          "url": "https://x.com/danshipper/status/2073894034225897602"
+        },
+        {
+          "tag": "builders",
+          "ref": "Matt Turck 吐槽 AI Agent 会自信犯错",
+          "url": "https://x.com/mattturck/status/2073972907491865062"
+        },
+        {
+          "tag": "pulse",
+          "ref": "usestrix/strix 单周 10,338 stars，开源 AI 渗透测试工具升温",
+          "url": "https://github.com/usestrix/strix"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-06-2",
+      "title": "Cursor 替代不是换 IDE",
+      "angle": "把 cursor alternative 的上升理解成「成本逃逸」：开发者不是逃离某个产品，而是在寻找可路由、可压价的 agent 控制层。",
+      "opening": "Google Trends 里 cursor alternative 涨了 57.4%，omniroute 涨了 102.9%。这不像一次普通迁移，更像开发者终于意识到：AI coding 的核心风险，是被一个客户端、一个模型、一个账单锁死。",
+      "story_hook": {
+        "challenge": "单一 IDE 的体验越顺，供应商锁定、token 成本和模型切换成本也越隐蔽。",
+        "twist": "真正的 Cursor 替代品可能不是另一个编辑器，而是 OmniRoute 这类网关。"
+      },
+      "takeaway": "做 AI 开发工具时，优先设计模型路由、成本可视化、fallback 和上下文复用，而不是只堆编辑器功能。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Nan Yu 认为同时开 10 个 Claude Code 标签页更像表演，不等于产出",
+          "url": "https://x.com/thenanyu/status/2073920959011074292"
+        },
+        {
+          "tag": "pulse",
+          "ref": "cursor alternative Google Trends 上升 57.4%",
+          "url": "https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d"
+        },
+        {
+          "tag": "pulse",
+          "ref": "diegosouzapw/OmniRoute 单周 4,411 stars，连接 231+ providers",
+          "url": "https://github.com/diegosouzapw/OmniRoute"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-06-3",
+      "title": "老登重新掌权了",
+      "angle": "用 Garry Tan 的「老登时代」切入：AI 抹平执行门槛后，经验、品味和判断力反而重新变成杠杆。",
+      "opening": "Garry Tan 说 AI 圈进入「老登时代」。这句话刺耳，但今天的产品信号也在配合它：不是谁最会喊 agent，而是谁最懂真实工作流里的记忆、权限、成本和审计。",
+      "story_hook": {
+        "challenge": "过去 AI 叙事偏爱少年天才和速度神话，经验常被包装成路径依赖。",
+        "twist": "当执行杠杆变便宜，真正稀缺的反而是知道该做什么、哪里会坏、用户为什么付钱的人。"
+      },
+      "takeaway": "创业选题不要只问「我能不能用 AI 做出来」，要问「我是否理解这个工作流里最贵的失败」。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Garry Tan 称 AI 圈进入「老登时代」",
+          "url": "https://x.com/garrytan/status/2073997128222040471"
+        },
+        {
+          "tag": "builders",
+          "ref": "Garry Tan 谈杠杆门槛被抹平后，剩下看想法",
+          "url": "https://x.com/garrytan/status/2073881439700168925"
+        },
+        {
+          "tag": "pulse",
+          "ref": "DeusData/codebase-memory-mcp 单周 7,945 stars，主打代码库持久记忆",
+          "url": "https://github.com/DeusData/codebase-memory-mcp"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-06-4",
+      "title": "招聘外包给 Claude Code",
+      "angle": "从 Cat Wu 的招聘 workflow 看 agent 产品机会：AI 不只是写代码，也开始接管高摩擦、跨网站、强判断的白领流程。",
+      "opening": "Cat Wu 把 Claude Code 当招聘外包：给岗位画像，让它找 100 个候选人，整理 LinkedIn、Twitter、博客、播客和推荐理由。人类的动作只剩一个：合上电脑，路上看结果。",
+      "story_hook": {
+        "challenge": "招聘不是简单搜索，而是跨平台收集、去重、判断匹配度和写推荐理由。",
+        "twist": "Claude Code 原本是编程工具，却被用成了通用白领流程引擎。"
+      },
+      "takeaway": "找 agent 产品切口时，优先选「多平台检索 + 结构化判断 + 可异步交付」的流程，而不是又做一个聊天框。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Cat Wu 用 Claude Code 跑招聘候选人 workflow",
+          "url": "https://x.com/_catwu/status/2073806626965049686"
+        },
+        {
+          "tag": "pulse",
+          "ref": "CodeMote 把 Claude Code、Codex 和 CLI agent 变成 iPhone 可远程控制对象",
+          "url": "https://www.producthunt.com/products/codemote-remote-control-for-any-ai"
+        },
+        {
+          "tag": "pulse",
+          "ref": "ogulcancelik/herdr 单周 3,937 stars，终端 agent multiplexer",
+          "url": "https://github.com/ogulcancelik/herdr"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-06-5",
+      "title": "安全评测按多少钱算？",
+      "angle": "从 Noam Brown 的 test-time compute 视角切入：模型能力不再是固定值，而是预算函数，安全评测也必须重新定价。",
+      "opening": "No Priors 这期最危险的一句话是：10 美元、1 万美元、1000 万美元推理预算下，可能根本不是同一个模型。过去我们问「模型有多强」，现在更该问「你给它烧多少钱」。",
+      "story_hook": {
+        "challenge": "现有 benchmark 和安全框架默认模型能力相对固定，但 test-time compute 让能力随预算变化。",
+        "twist": "真正难评估的不是模型本体，而是模型在高预算、长时间、多轮工具调用下会变成什么。"
+      },
+      "takeaway": "读模型评测时必须追问推理预算、工具权限、运行时长和失败重试次数，否则分数没有可比性。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "No Priors 访谈 Noam Brown：test-time compute 改变 benchmark 与安全",
+          "url": "https://www.youtube.com/watch?v=AZrU6y3pUcU"
+        },
+        {
+          "tag": "builders",
+          "ref": "Amanda Askell 讨论医生不愿给概率判断，反映风险表达困难",
+          "url": "https://x.com/AmandaAskell/status/2073786264059625897"
+        },
+        {
+          "tag": "pulse",
+          "ref": "usestrix/strix 开源 AI 渗透测试工具单周 10,338 stars",
+          "url": "https://github.com/usestrix/strix"
+        }
+      ]
+    }
+  ],
+  "notes": "今日主线很集中：AI coding agent 的竞争正在从「能不能自动做」转向「能否少犯错、少花钱、可控制、可审计」。适合写成偏开发者实战的趋势稿，少谈模型发布，多谈 agent ops。",
+  "generated_at": "2026-07-06T09:20:35+00:00",
+  "model": "gpt-5.5"
+}

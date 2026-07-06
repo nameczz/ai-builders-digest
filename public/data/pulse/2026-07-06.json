@@ -1,0 +1,383 @@
+{
+  "date": "2026-07-06",
+  "top3": [
+    "今天最值得关注的是 AI 编程代理的周边基础设施集体升温：远程控制、网关、压缩、复用、多代理终端都在同一天出现强信号。",
+    "开源增长榜的核心不是模型本身，而是 Strix、OmniRoute、herdr、codebase-memory-mcp 这类把代理接入真实工程流的工具。",
+    "Google Trends 里 herdr +113.9%、omniroute +102.9%、cursor alternative +57.4%，说明开发者正在主动寻找 Cursor 之外的可组合方案。"
+  ],
+  "intro": "今天的数据有一个清晰主线：AI coding agent 不再只是编辑器功能，而是在向终端、手机、浏览器、代码库记忆、安全测试和成本控制扩散。HN 数据缺失，所以判断主要来自 GitHub、Product Hunt、HuggingFace 与 Google Trends 的交叉信号。",
+  "sections": [
+    {
+      "id": "discovery",
+      "title": "发现机会",
+      "blocks": [
+        {
+          "id": "indie-products",
+          "heading": "今天有哪些独立开发者的新产品？",
+          "summary_md": "Product Hunt 今天更像一张「AI agent 外设」清单，但原始数据没有提供票数和评论数，因此这里不伪造热度。值得先看 [CodeMote](https://www.producthunt.com/products/codemote-remote-control-for-any-ai)，它把 Claude Code、Codex 和任意 CLI agent 变成可由 iPhone 驱动的远程控制对象；[Nixmac](https://www.producthunt.com/products/nixmac) 则把 nix-darwin 包装成自然语言配置工具；[Mozaik](https://www.producthunt.com/products/mozaik-4) 直接切入 TypeScript runtime for self-organizing AI agents。票数 0、评论数 0 仅代表本批数据未采集，不代表真实站内表现。\n\n独立开发者机会不在「再做一个聊天界面」，而在代理使用链路里的具体摩擦：移动端遥控、环境配置、任务编排、社交监听、测试环境、文档供给。今天的产品名都很窄，但窄得有价值，因为它们站在 agent 已经进入日常开发流的前提上。",
+          "items": [
+            {
+              "title": "CodeMote",
+              "url": "https://www.producthunt.com/products/codemote-remote-control-for-any-ai",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "Nixmac",
+              "url": "https://www.producthunt.com/products/nixmac",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "Mozaik",
+              "url": "https://www.producthunt.com/products/mozaik-4",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "今天的新产品机会集中在 AI agent 的控制面、配置面和协作面。"
+        },
+        {
+          "id": "github-traction",
+          "heading": "GitHub 上哪些高增长开源项目还没有商业化？",
+          "summary_md": "GitHub weekly 里最值得盯的是 [DeusData/codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp)，单周 7,945 stars，总星 27,006，卖点是把代码库索引成持久知识图谱，平均毫秒级建库、sub-ms 查询、节省 99% token；这是典型可以商业化为团队版、私有部署版、CI 检查版的基础设施。另一个是 [ogulcancelik/herdr](https://github.com/ogulcancelik/herdr)，单周 3,937 stars，总星 12,397，是终端里的 agent multiplexer，和 Google Trends 的 [herdr](https://trends.google.com/trends/explore?q=herdr&date=now+7-d) +113.9% 互相印证。\n\n[usestrix/strix](https://github.com/usestrix/strix) 单周 10,338 stars，总星 37,561，定位开源 AI 渗透测试工具，也很接近商业化临界点；但安全工具更容易被企业采购，也更依赖可信报告、权限隔离和合规审计。相比之下，codebase memory 与 agent multiplexer 更适合独立开发者先做托管版本或本地 pro 版。",
+          "items": [
+            {
+              "title": "DeusData/codebase-memory-mcp",
+              "url": "https://github.com/DeusData/codebase-memory-mcp",
+              "source": "GitHub",
+              "score": 7945
+            },
+            {
+              "title": "ogulcancelik/herdr",
+              "url": "https://github.com/ogulcancelik/herdr",
+              "source": "GitHub",
+              "score": 3937
+            },
+            {
+              "title": "usestrix/strix",
+              "url": "https://github.com/usestrix/strix",
+              "source": "GitHub",
+              "score": 10338
+            }
+          ],
+          "takeaway": "最像商业入口的开源增长点，是让 agent 更懂代码库、更会分工、更敢进安全场景。"
+        }
+      ]
+    },
+    {
+      "id": "tech-stack",
+      "title": "技术选型",
+      "blocks": [
+        {
+          "id": "dev-tools",
+          "heading": "本周增长最快的开发者工具是什么？",
+          "summary_md": "本周开发者工具增长最快的一组不是单点 IDE，而是「agent 工作台基础设施」。[diegosouzapw/OmniRoute](https://github.com/diegosouzapw/OmniRoute) 单周 4,411 stars，总星 12,153，把 Claude Code、Codex、Cursor、Cline、Copilot 接到 231+ providers，并强调 15-95% token 节省；[openai/codex-plugin-cc](https://github.com/openai/codex-plugin-cc) 单周 3,405 stars，总星 25,896，说明跨代理委托和代码审查正在变成真实需求；[browser-use/video-use](https://github.com/browser-use/video-use) 单周 4,288 stars，把视频编辑交给 coding agents。\n\n技术选型上，今天的信号偏向 TypeScript 与 Python 两端并进：TypeScript 更适合 agent gateway、浏览器控制和前端 runtime，Python 仍占模型、自动化、安全测试与多 agent 研究。Rust 则在本地隐私与终端工具中继续加分，例如 Meetily 和 herdr。",
+          "items": [
+            {
+              "title": "diegosouzapw/OmniRoute",
+              "url": "https://github.com/diegosouzapw/OmniRoute",
+              "source": "GitHub",
+              "score": 4411
+            },
+            {
+              "title": "openai/codex-plugin-cc",
+              "url": "https://github.com/openai/codex-plugin-cc",
+              "source": "GitHub",
+              "score": 3405
+            },
+            {
+              "title": "browser-use/video-use",
+              "url": "https://github.com/browser-use/video-use",
+              "source": "GitHub",
+              "score": 4288
+            }
+          ],
+          "takeaway": "开发者工具的增长焦点，正在从编辑器插件转向代理路由、代理委托和多模态执行。"
+        },
+        {
+          "id": "hf-models",
+          "heading": "HuggingFace 上最热的模型能做什么消费级产品？",
+          "summary_md": "HuggingFace 模型榜今天给了三个消费级方向。第一是长上下文本地助手：[empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF](https://huggingface.co/empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF) trending score 644、下载 1,617,508、likes 1,586，标签包含 1M-context、function-calling、vision、agentic，适合做本地知识库、隐私助理和离线工作流。第二是 OCR：[baidu/Unlimited-OCR](https://huggingface.co/baidu/Unlimited-OCR) trending score 420、下载 1,070,230、likes 1,764，适合票据、合同、课件、截图整理。\n\n第三是视觉定位：[nvidia/LocateAnything-3B](https://huggingface.co/nvidia/LocateAnything-3B) 下载 1,340,559、likes 2,621，可做图片标注、质检、家装识别、二手商品上架助手。消费产品的关键不是模型更大，而是把 OCR、定位、长上下文压进一个明确场景。",
+          "items": [
+            {
+              "title": "empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
+              "url": "https://huggingface.co/empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
+              "source": "HuggingFace",
+              "score": 644
+            },
+            {
+              "title": "baidu/Unlimited-OCR",
+              "url": "https://huggingface.co/baidu/Unlimited-OCR",
+              "source": "HuggingFace",
+              "score": 420
+            },
+            {
+              "title": "nvidia/LocateAnything-3B",
+              "url": "https://huggingface.co/nvidia/LocateAnything-3B",
+              "source": "HuggingFace",
+              "score": 156
+            }
+          ],
+          "takeaway": "消费级 AI 产品的短期胜负手，是把长上下文、OCR 和视觉定位组合成可立即省时间的小工作流。"
+        },
+        {
+          "id": "show-hn",
+          "heading": "Show HN 高关注项目用的什么技术栈？",
+          "summary_md": "今天 HN Show HN 原始数据为空，所以不能判断 Show HN 技术栈。但从同日替代信号看，独立开发者正在围绕 agent 选择更务实的栈：[Zackriya-Solutions/meetily](https://github.com/Zackriya-Solutions/meetily) 用 Rust 做本地 AI 会议助手，日榜 1,409 stars、总星 18,033，强调 Parakeet/Whisper 实时转写、speaker diarization、Ollama 总结和 100% local processing；[Starmel/OpenSuperWhisper](https://github.com/Starmel/OpenSuperWhisper) 用 Swift 做 macOS dictation app，周增 532 stars。\n\n这说明端侧 AI 工具选型开始分层：Rust 用于本地性能和隐私，Swift 用于原生 Mac 输入体验，TypeScript 用于 agent 控制面，Python 用于模型与自动化。做桌面 AI 工具时，不应默认 Electron 起步，而要看任务是否需要低延迟音频、系统输入法或本地文件权限。",
+          "items": [
+            {
+              "title": "Zackriya-Solutions/meetily",
+              "url": "https://github.com/Zackriya-Solutions/meetily",
+              "source": "GitHub",
+              "score": 1409
+            },
+            {
+              "title": "Starmel/OpenSuperWhisper",
+              "url": "https://github.com/Starmel/OpenSuperWhisper",
+              "source": "GitHub",
+              "score": 532
+            }
+          ],
+          "takeaway": "端侧 AI 工具正在按场景分栈，性能、权限和系统集成比框架流行度更重要。"
+        }
+      ]
+    },
+    {
+      "id": "competition",
+      "title": "竞争情报",
+      "blocks": [
+        {
+          "id": "migrations",
+          "heading": "有没有「XX is dead」或迁移类文章？",
+          "summary_md": "今天没有 HN 迁移类文章数据，但 Google Trends 给了更早的弱信号：[cursor alternative](https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d) 上升 +57.4%，相关 rising 里出现 cursor pricing；同时 [omniroute](https://trends.google.com/trends/explore?q=omniroute&date=now+7-d) 上升 +102.9%，GitHub 上 [diegosouzapw/OmniRoute](https://github.com/diegosouzapw/OmniRoute) 单周 4,411 stars。这里不是「Cursor 已死」，而是开发者开始把模型路由、成本控制和供应商切换看成基础能力。\n\n竞争上，这会压缩单一 IDE 的议价空间。新的入口可能不是更强编辑器，而是统一 endpoint、自动 fallback、上下文压缩、跨 agent 权限管理。任何面向开发者的 AI 产品，如果还只绑定一个模型或一个客户端，都会被这类网关型工具削弱。",
+          "items": [
+            {
+              "title": "cursor alternative",
+              "url": "https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 57
+            },
+            {
+              "title": "diegosouzapw/OmniRoute",
+              "url": "https://github.com/diegosouzapw/OmniRoute",
+              "source": "GitHub",
+              "score": 4411
+            }
+          ],
+          "takeaway": "开发者不是逃离某个 IDE，而是在寻找可迁移、可压价、可组合的 agent 控制层。"
+        },
+        {
+          "id": "pricing-revenue",
+          "heading": "独立开发者在讨论什么营收和定价策略？",
+          "summary_md": "HN 营收讨论数据为空，但 Product Hunt 和 GitHub 的产品描述已经暗示了今天的定价战场：不是卖更多 token，而是卖更少 token、更少等待、更少切换。[Edgee Claude Code Compressor V2](https://www.producthunt.com/products/edgee) 直接打出 50% cost reduction；[OmniRoute](https://github.com/diegosouzapw/OmniRoute) 在描述里强调 15-95% tokens saved；[TryCase](https://www.producthunt.com/products/trycase) 则把 disposable test environments for AI coding agents 做成可计量资源。\n\n这类产品适合按节省量或使用量定价：每月固定席位加 token 节省报告、按临时环境分钟数收费、或按团队 agent 数量分层。反过来，单纯订阅一个「AI 助手」会越来越难解释价值，因为用户已经开始按成本、失败率和上下文复用效率来比较工具。",
+          "items": [
+            {
+              "title": "Edgee Claude Code Compressor V2",
+              "url": "https://www.producthunt.com/products/edgee",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "TryCase",
+              "url": "https://www.producthunt.com/products/trycase",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "diegosouzapw/OmniRoute",
+              "url": "https://github.com/diegosouzapw/OmniRoute",
+              "source": "GitHub",
+              "score": 4411
+            }
+          ],
+          "takeaway": "AI 开发工具的定价锚点正在从功能数量转向节省的 token、时间和失败成本。"
+        }
+      ]
+    },
+    {
+      "id": "trends",
+      "title": "趋势判断",
+      "blocks": [
+        {
+          "id": "keywords",
+          "heading": "本周技术关键词频率有什么变化？",
+          "summary_md": "今天最强关键词不是泛化的 AI agent，而是具体项目名和替代意图：[herdr](https://trends.google.com/trends/explore?q=herdr&date=now+7-d) +113.9%，[omniroute](https://trends.google.com/trends/explore?q=omniroute&date=now+7-d) +102.9%，[cursor alternative](https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d) +57.4%。相比之下，[ai agent](https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d) 只涨 +7.9%，[codex cli](https://trends.google.com/trends/explore?q=codex+cli&date=now+7-d) 只涨 +2.6%。\n\n这说明市场注意力正在从概念词转到可安装、可替换、可接入的工具名。Builder 应该少追「agent」大词，多盯 agent 使用链路里突然被搜索的窄词：multiplexer、gateway、compressor、memory MCP、browser agent。窄词一旦和 GitHub stars 同步，就比宏观热词更早指向需求。",
+          "items": [
+            {
+              "title": "herdr",
+              "url": "https://trends.google.com/trends/explore?q=herdr&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 114
+            },
+            {
+              "title": "omniroute",
+              "url": "https://trends.google.com/trends/explore?q=omniroute&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 103
+            },
+            {
+              "title": "cursor alternative",
+              "url": "https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 57
+            }
+          ],
+          "takeaway": "今天的趋势不在 AI agent 这个大词，而在 agent 工具链的具体替代词。"
+        },
+        {
+          "id": "vc-radar",
+          "heading": "VC 和 YC 在关注什么主题？",
+          "summary_md": "综合 GitHub 与 Product Hunt，VC 和 YC 今天会更关心三类公司：第一，agent infrastructure，例如 OmniRoute、herdr、codebase-memory-mcp，把代理从单机体验变成团队基础设施；第二，security for agentic software，例如 Strix 单周 10,338 stars，把 AI 渗透测试推向应用开发流程；第三，local-first productivity，例如 Meetily、OpenSuperWhisper、Typeahead 2.0，把隐私、低延迟和系统级输入作为卖点。\n\n这里的共同点是可嵌入工作流，而不是单独的应用入口。最有融资叙事的项目，会把「开发者已经在用多个 agent」当成事实，然后提供路由、记忆、审计、权限、评测、成本控制。对早期团队来说，先做一个非常窄的 agent ops 工具，比做完整 AI IDE 更容易切入。",
+          "items": [
+            {
+              "title": "usestrix/strix",
+              "url": "https://github.com/usestrix/strix",
+              "source": "GitHub",
+              "score": 10338
+            },
+            {
+              "title": "DeusData/codebase-memory-mcp",
+              "url": "https://github.com/DeusData/codebase-memory-mcp",
+              "source": "GitHub",
+              "score": 7945
+            },
+            {
+              "title": "Zackriya-Solutions/meetily",
+              "url": "https://github.com/Zackriya-Solutions/meetily",
+              "source": "GitHub",
+              "score": 2972
+            }
+          ],
+          "takeaway": "投资视角下，agent ops、AI 安全和本地优先生产力比新聊天产品更有结构性空间。"
+        },
+        {
+          "id": "cooling",
+          "heading": "哪些 AI 热词在降温？",
+          "summary_md": "降温数据同样值得看：[codex](https://trends.google.com/trends/explore?q=codex&date=now+7-d) -10.4%，[simplex chat](https://trends.google.com/trends/explore?q=simplex+chat&date=now+7-d) -41.0%，[lingbot map](https://trends.google.com/trends/explore?q=lingbot+map&date=now+7-d) -100.0%，[self hosted](https://trends.google.com/trends/explore?q=self+hosted&date=now+7-d) -1.3%。这不代表这些方向失效，而是搜索热度从泛名词和单个项目转移到具体替代需求。\n\n尤其是 [codex cli](https://trends.google.com/trends/explore?q=codex+cli&date=now+7-d) 仍有 +2.6%，但 [codex](https://trends.google.com/trends/explore?q=codex&date=now+7-d) 下降，说明用户不再只搜品牌词，而是在搜插件、路由、远程控制、跨工具协作。对产品命名和 SEO 来说，单押大品牌关联词的窗口正在变窄。",
+          "items": [
+            {
+              "title": "codex",
+              "url": "https://trends.google.com/trends/explore?q=codex&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": -10
+            },
+            {
+              "title": "simplex chat",
+              "url": "https://trends.google.com/trends/explore?q=simplex+chat&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": -41
+            },
+            {
+              "title": "lingbot map",
+              "url": "https://trends.google.com/trends/explore?q=lingbot+map&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": -100
+            }
+          ],
+          "takeaway": "泛品牌词在降温，具体工作流词和替代词在接管注意力。"
+        },
+        {
+          "id": "new-radar",
+          "heading": "新词雷达：有哪些从零起飞的新概念？",
+          "summary_md": "Google breakouts 里最值得认真看的不是噪声最大的硬件词，而是 [cursor alternative](https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d) 的关联 rising：cursor pricing。它和 [omniroute](https://trends.google.com/trends/explore?q=omniroute&date=now+7-d) +102.9%、[open source alternative](https://trends.google.com/trends/explore?q=open+source+alternative&date=now+7-d) +6.5% 放在一起，形成了一个早期概念：AI coding cost escape。\n\n另一个可用弱信号是 [strix](https://trends.google.com/trends/explore?q=strix&date=now+7-d) 的 rising 里出现 github strix，虽然同时混入大量 ROG Strix 硬件查询，但 GitHub 项目单周 10,338 stars 足以说明「AI pentest」正在破圈。新词判断要过滤同名噪声，但当搜索词、GitHub 增长和产品定位同时出现，通常就是可以建落地页测试的时机。",
+          "items": [
+            {
+              "title": "cursor pricing",
+              "url": "https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 60
+            },
+            {
+              "title": "github strix",
+              "url": "https://trends.google.com/trends/explore?q=strix&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 70
+            }
+          ],
+          "takeaway": "新词雷达今天指向两个可测方向：AI coding 成本逃逸和 AI 渗透测试。"
+        }
+      ]
+    },
+    {
+      "id": "actions",
+      "title": "行动触发",
+      "blocks": [
+        {
+          "id": "weekend-build",
+          "heading": "今天 2 小时和一个周末分别做什么？",
+          "summary_md": "2 小时版本：做一个「AI coding cost escape」落地页，标题直接对齐 [cursor alternative](https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d) +57.4% 和 cursor pricing 关联词，功能只承诺三件事：统计 Claude Code、Codex、Cursor 的 token 花费，推荐更便宜 provider，把上下文压缩结果可视化。不要先做完整网关，先收邮件和用户现有账单截图。\n\n周末版本：用现成 API 做一个本地代理工作台原型，接入一个 CLI agent、一个 browser agent、一个 codebase memory。参考 OmniRoute 的 provider fallback、herdr 的 terminal multiplexer、codebase-memory-mcp 的知识图谱查询，把核心体验做成「我这次任务为什么花了这么多钱，哪里可以复用上下文」。",
+          "items": [
+            {
+              "title": "cursor alternative",
+              "url": "https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 57
+            },
+            {
+              "title": "diegosouzapw/OmniRoute",
+              "url": "https://github.com/diegosouzapw/OmniRoute",
+              "source": "GitHub",
+              "score": 4411
+            },
+            {
+              "title": "DeusData/codebase-memory-mcp",
+              "url": "https://github.com/DeusData/codebase-memory-mcp",
+              "source": "GitHub",
+              "score": 7945
+            }
+          ],
+          "takeaway": "最快可验证的周末项目，是围绕 AI coding 成本和上下文复用做一个可测量的小工具。"
+        },
+        {
+          "id": "pricing-models",
+          "heading": "值得学习的定价和变现模式有哪些？",
+          "summary_md": "今天值得学习的不是传统 SaaS 分层，而是「节省型定价」。Edgee Claude Code Compressor V2 明确说 50% cost reduction，OmniRoute 说 15-95% tokens saved，TryCase 做 disposable test environments for AI coding agents；这三类都能把账单和价值绑定起来。定价可以按每月节省 token 的百分比、每个临时环境的分钟数、每个团队 agent 席位、或每次安全扫描报告收费。\n\n更重要的是把 ROI 做进产品界面：展示本周节省多少美元、fallback 避免了几次失败、复用上下文减少了几次长提示词。AI 工具用户已经被订阅淹没，只有能证明减少成本或减少事故的产品，才更容易从个人试用走向团队采购。",
+          "items": [
+            {
+              "title": "Edgee Claude Code Compressor V2",
+              "url": "https://www.producthunt.com/products/edgee",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "TryCase",
+              "url": "https://www.producthunt.com/products/trycase",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "AI 工具最强定价叙事，是让用户看见自己少花了多少钱、少踩了多少坑。"
+        },
+        {
+          "id": "counterintuitive",
+          "heading": "今天最反直觉的发现是什么？",
+          "summary_md": "最反直觉的是：模型榜很热，但 builder 机会并不一定在模型。HuggingFace 上 Qwythos、GLM、Unlimited-OCR、LocateAnything 都有强信号，可 GitHub 和 Product Hunt 的增长更集中在模型之外的使用层：路由、压缩、控制、代码库记忆、会议本地化、渗透测试。换句话说，用户可能不缺更强模型，缺的是让多个模型和多个 agent 在真实工作里少出错、少花钱、少打断。\n\n这对独立开发者是好消息。你不需要训练模型，也不需要做完整 IDE；你可以只解决一个代理使用摩擦，比如远程启动、上下文压缩、失败重试、权限审计、任务回放、结果对比。今天的数据证明，小入口也能接住大趋势。",
+          "items": [
+            {
+              "title": "empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
+              "url": "https://huggingface.co/empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
+              "source": "HuggingFace",
+              "score": 644
+            },
+            {
+              "title": "openai/codex-plugin-cc",
+              "url": "https://github.com/openai/codex-plugin-cc",
+              "source": "GitHub",
+              "score": 3405
+            },
+            {
+              "title": "CodeMote",
+              "url": "https://www.producthunt.com/products/codemote-remote-control-for-any-ai",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "今天最大的机会不是造更强模型，而是把现有模型和代理变成可靠、便宜、可控的工作系统。"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2026-07-06T09:19:39+00:00",
+  "reddit_highlights": []
+}
