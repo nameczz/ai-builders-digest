@@ -1,0 +1,230 @@
+{
+  "date": "2026-07-07",
+  "top3": [],
+  "intro": "（无 LLM 编辑模式：以下为原始数据归档，建议安装 codex CLI 重新生成。）",
+  "sections": [
+    {
+      "id": "discovery",
+      "title": "发现机会",
+      "blocks": [
+        {
+          "id": "indie-products",
+          "heading": "今天有哪些独立开发者的新产品？",
+          "summary_md": "（自动归档模式）今日 Show HN 与 Product Hunt 上线的独立开发者产品列表。",
+          "items": [
+            {
+              "title": "Social Fetch - Social Media API",
+              "url": "https://www.producthunt.com/products/social-fetch",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Dupely",
+              "url": "https://www.producthunt.com/products/dupely",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Kadoink",
+              "url": "https://www.producthunt.com/products/say-who-say-why-kadoink-gathers-everyone",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Scribble Network",
+              "url": "https://www.producthunt.com/products/scribble-network",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Mira",
+              "url": "https://www.producthunt.com/products/mira-the-ai-moderator",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Ogment AI",
+              "url": "https://www.producthunt.com/products/ogment-mcp-builder",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "LongCat-2.0",
+              "url": "https://www.producthunt.com/products/longcat",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "AI Emaily",
+              "url": "https://www.producthunt.com/products/ai-emaily-unified-ai-inbox",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Katalyst",
+              "url": "https://www.producthunt.com/products/katalyst",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Badge",
+              "url": "https://www.producthunt.com/products/badge-3",
+              "source": "ProductHunt"
+            }
+          ],
+          "takeaway": ""
+        },
+        {
+          "id": "github-traction",
+          "heading": "GitHub 上哪些高增长开源项目还没有商业化？",
+          "summary_md": "（自动归档模式）本周 GitHub Trending 高速增长的仓库。",
+          "items": [
+            {
+              "title": "usestrix/strix",
+              "url": "https://github.com/usestrix/strix",
+              "source": "GitHub",
+              "score": 10759
+            },
+            {
+              "title": "hasaneyldrm/exercises-dataset",
+              "url": "https://github.com/hasaneyldrm/exercises-dataset",
+              "source": "GitHub",
+              "score": 5665
+            },
+            {
+              "title": "diegosouzapw/OmniRoute",
+              "url": "https://github.com/diegosouzapw/OmniRoute",
+              "source": "GitHub",
+              "score": 4594
+            },
+            {
+              "title": "Zackriya-Solutions/meetily",
+              "url": "https://github.com/Zackriya-Solutions/meetily",
+              "source": "GitHub",
+              "score": 5769
+            },
+            {
+              "title": "altic-dev/FluidVoice",
+              "url": "https://github.com/altic-dev/FluidVoice",
+              "source": "GitHub",
+              "score": 2127
+            },
+            {
+              "title": "ogulcancelik/herdr",
+              "url": "https://github.com/ogulcancelik/herdr",
+              "source": "GitHub",
+              "score": 4348
+            },
+            {
+              "title": "xbtlin/ai-berkshire",
+              "url": "https://github.com/xbtlin/ai-berkshire",
+              "source": "GitHub",
+              "score": 4616
+            },
+            {
+              "title": "alibaba/page-agent",
+              "url": "https://github.com/alibaba/page-agent",
+              "source": "GitHub",
+              "score": 3989
+            },
+            {
+              "title": "browser-use/video-use",
+              "url": "https://github.com/browser-use/video-use",
+              "source": "GitHub",
+              "score": 3706
+            },
+            {
+              "title": "Robbyant/lingbot-map",
+              "url": "https://github.com/Robbyant/lingbot-map",
+              "source": "GitHub",
+              "score": 1525
+            }
+          ],
+          "takeaway": ""
+        }
+      ]
+    },
+    {
+      "id": "tech-stack",
+      "title": "技术选型",
+      "blocks": [
+        {
+          "id": "hf-models",
+          "heading": "HuggingFace 上最热的模型能做什么消费级产品？",
+          "summary_md": "（自动归档模式）HuggingFace trending 模型列表。",
+          "items": [
+            {
+              "title": "empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
+              "url": "https://huggingface.co/empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
+              "source": "HuggingFace",
+              "score": 593
+            },
+            {
+              "title": "zai-org/GLM-5.2",
+              "url": "https://huggingface.co/zai-org/GLM-5.2",
+              "source": "HuggingFace",
+              "score": 468
+            },
+            {
+              "title": "tencent/Hy3",
+              "url": "https://huggingface.co/tencent/Hy3",
+              "source": "HuggingFace",
+              "score": 375
+            },
+            {
+              "title": "baidu/Unlimited-OCR",
+              "url": "https://huggingface.co/baidu/Unlimited-OCR",
+              "source": "HuggingFace",
+              "score": 350
+            },
+            {
+              "title": "InternScience/Agents-A1",
+              "url": "https://huggingface.co/InternScience/Agents-A1",
+              "source": "HuggingFace",
+              "score": 319
+            },
+            {
+              "title": "nvidia/Qwen3.6-27B-NVFP4",
+              "url": "https://huggingface.co/nvidia/Qwen3.6-27B-NVFP4",
+              "source": "HuggingFace",
+              "score": 276
+            },
+            {
+              "title": "google/tabfm-1.0.0-pytorch",
+              "url": "https://huggingface.co/google/tabfm-1.0.0-pytorch",
+              "source": "HuggingFace",
+              "score": 260
+            },
+            {
+              "title": "deepreinforce-ai/Ornith-1.0-35B-GGUF",
+              "url": "https://huggingface.co/deepreinforce-ai/Ornith-1.0-35B-GGUF",
+              "source": "HuggingFace",
+              "score": 254
+            },
+            {
+              "title": "yuxinlu1/gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF",
+              "url": "https://huggingface.co/yuxinlu1/gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF",
+              "source": "HuggingFace",
+              "score": 174
+            },
+            {
+              "title": "AliesTaha/fable-traces",
+              "url": "https://huggingface.co/AliesTaha/fable-traces",
+              "source": "HuggingFace",
+              "score": 174
+            }
+          ],
+          "takeaway": ""
+        }
+      ]
+    },
+    {
+      "id": "competition",
+      "title": "竞争情报",
+      "blocks": []
+    },
+    {
+      "id": "trends",
+      "title": "趋势判断",
+      "blocks": []
+    },
+    {
+      "id": "actions",
+      "title": "行动触发",
+      "blocks": []
+    }
+  ],
+  "generated_at": "2026-07-07T09:21:38+00:00",
+  "reddit_highlights": []
+}
