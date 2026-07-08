@@ -1,0 +1,140 @@
+{
+  "date": "2026-07-08",
+  "items": [
+    {
+      "id": "2026-07-08-1",
+      "title": "Agent 卡死在权限里",
+      "angle": "从 Aaron Levie 的企业 AI 判断切入：企业 Agent 的瓶颈不是模型智商，而是数据、流程和责任边界能不能被整理成可执行上下文。",
+      "opening": "企业买到最强模型，也不等于拥有能干活的 Agent。Aaron Levie 今天连发两条提醒：真正值钱的数据在旧系统、合同、路线图和员工脑子里，而不是公开网页上。问题不是 Agent 会不会推理，而是它有没有权限、上下文和业务责任去行动。",
+      "story_hook": {
+        "challenge": "模型能力越来越通用，但企业流程仍被部门、权限和数据孤岛切碎，Agent 很容易停在“看得懂但做不了”。",
+        "twist": "最像 AI 基础设施公司的，可能不是模型公司，而是做安全测试、沙箱、编排和数据治理的薄层工具。"
+      },
+      "takeaway": "判断企业 Agent 项目时，先画出数据源、权限边界、审批链和业务指标；如果这些没整理好，换模型只是在旧流程上加速空转。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Aaron Levie 关于企业 Agent 瓶颈的观点",
+          "url": "https://x.com/levie/status/2074719479377109312"
+        },
+        {
+          "tag": "builders",
+          "ref": "Aaron Levie 关于企业私有数据价值的观点",
+          "url": "https://x.com/levie/status/2074528241990394178"
+        },
+        {
+          "tag": "pulse",
+          "ref": "usestrix/strix 单周 10741 stars",
+          "url": "https://github.com/usestrix/strix"
+        },
+        {
+          "tag": "pulse",
+          "ref": "TencentCloud/CubeSandbox 做 AI agents 安全沙箱",
+          "url": "https://github.com/TencentCloud/CubeSandbox"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-08-2",
+      "title": "本地 AI 不是复古",
+      "angle": "把本地优先 AI 写成一个反直觉趋势：它不是反云，而是在利用本机已有登录态、隐私边界和低延迟体验。",
+      "opening": "Meetily 一周新增 7349 stars，Google Trends 里 meetily 涨了 810.6%。这不是“大家突然怀念桌面软件”，而是会议、听写、Google Workspace 这类工作流天然长在本机权限里。Peter Yang 甚至把定时任务留在 Mac Mini 上，只因为那台机器已经登录了各种账号。",
+      "story_hook": {
+        "challenge": "云端 Agent 更容易扩展，但很多高频工作流的关键权限、音频输入和隐私边界都在本地设备上。",
+        "twist": "本地优先的卖点不是开源情怀，而是更少 OAuth 麻烦、更低延迟和更容易让用户相信数据没有外泄。"
+      },
+      "takeaway": "做本地 AI 工具时，不要只宣传 self-hosted；要明确替代哪个工作流、少跳几次授权、延迟降低多少、哪些数据不离开设备。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Peter Yang 关于 Mac Mini 本地自动化的讨论",
+          "url": "https://x.com/petergyang/status/2074616982197174515"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Zackriya-Solutions/meetily 单周 7349 stars",
+          "url": "https://github.com/Zackriya-Solutions/meetily"
+        },
+        {
+          "tag": "pulse",
+          "ref": "altic-dev/FluidVoice 本地 macOS 听写工具",
+          "url": "https://github.com/altic-dev/FluidVoice"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Google Trends meetily +810.6%",
+          "url": "https://trends.google.com/trends/explore?q=meetily&date=now+7-d"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-08-3",
+      "title": "别再绑定一个 Agent",
+      "angle": "从 Eve、Codex、Claude Code、OmniRoute 的交叉信号看：开发者工具的新护城河是互操作，而不是押中唯一模型。",
+      "opening": "今天最有意思的不是某个 Agent 又强了，而是大家都在给 Agent 拆插头。Guillermo Rauch 说文件系统本身就是插件体系，OmniRoute 则把 231+ providers 接成统一 AI gateway。开发者真正害怕的不是功能少，而是工作流被一个模型、一个 IDE、一个价格策略锁死。",
+      "story_hook": {
+        "challenge": "AI 编程工具越深入工作流，切换成本越高，用户越担心被单一供应商绑住。",
+        "twist": "下一代开发者工具未必是更强的 Agent，而是能调度、路由、审计和替换多个 Agent 的中间层。"
+      },
+      "takeaway": "如果你做 AI devtool，把日志、上下文、用量、失败率和模型切换做成一等能力；可迁移性会从边缘功能变成购买理由。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Guillermo Rauch 关于 Eve 文件系统插件体系的观点",
+          "url": "https://x.com/rauchg/status/2074630835878453601"
+        },
+        {
+          "tag": "builders",
+          "ref": "Peter Steinberger 建议让 Fable 调 Codex 干活",
+          "url": "https://x.com/steipete/status/2074638582418231495"
+        },
+        {
+          "tag": "pulse",
+          "ref": "diegosouzapw/OmniRoute 单周 4797 stars",
+          "url": "https://github.com/diegosouzapw/OmniRoute"
+        },
+        {
+          "tag": "pulse",
+          "ref": "openai/codex-plugin-cc 单周 4725 stars",
+          "url": "https://github.com/openai/codex-plugin-cc"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-08-4",
+      "title": "脏数据活成了战略",
+      "angle": "用 Madhu Guru 的 eval 观点连接 GitHub 垂直数据集和 OCR 热点：模型越强，越需要有人把目标、数据和评测做窄做深。",
+      "opening": "最容易被低估的 AI 工作，今天反而最像护城河。Madhu Guru 说模型路线从“有立场的 eval”开始，不是从堆料开始。与此同时，一个健身动作数据集一周拿到 4950 stars，OCR、PDF 线性化和表格模型也在 HuggingFace 与 GitHub 上冒头。",
+      "story_hook": {
+        "challenge": "Builder 容易追逐大模型新闻，却忽视训练、评测、输入清洗和垂直数据这些看起来不性感的环节。",
+        "twist": "模型越会泛化，越会放大高质量输入层的价值；窄数据、脏活和评测集可能比套壳应用更稀缺。"
+      },
+      "takeaway": "选垂直 AI 方向时，先找可反复积累的数据闭环和评测标准；能定义好输入与成功标准，比接入最新模型更重要。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Madhu Guru 关于 eval 牵引模型路线的观点",
+          "url": "https://x.com/realmadhuguru/status/2074734468854899191"
+        },
+        {
+          "tag": "builders",
+          "ref": "Madhu Guru 关于企业数据和评测机会的观点",
+          "url": "https://x.com/realmadhuguru/status/2074658481760821390"
+        },
+        {
+          "tag": "pulse",
+          "ref": "hasaneyldrm/exercises-dataset 单周 4950 stars",
+          "url": "https://github.com/hasaneyldrm/exercises-dataset"
+        },
+        {
+          "tag": "pulse",
+          "ref": "baidu/Unlimited-OCR HuggingFace 热榜",
+          "url": "https://huggingface.co/baidu/Unlimited-OCR"
+        }
+      ]
+    }
+  ],
+  "notes": "今日主线不是单一大模型发布，而是 Agent 从演示走向日常工作所需的底层条件：本地权限、企业数据、互操作、评测和安全基础设施。独立开发者素材偏工具链和本地办公，消费级娱乐方向信号较弱。",
+  "generated_at": "2026-07-08T09:23:06+00:00",
+  "model": "gpt-5.5"
+}
