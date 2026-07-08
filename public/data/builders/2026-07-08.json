@@ -1,0 +1,487 @@
+{
+  "date": "2026-07-08",
+  "generated_at": "2026-07-08T09:11:25+00:00",
+  "count": 32,
+  "items": [
+    {
+      "id": "90d9b55b8a",
+      "date": "2026-07-08",
+      "source": "x",
+      "author": "Garry Tan",
+      "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "title": "",
+      "summary_en": "Dirty smear politics is alive and well in SF, and it's high time we made sure the playbook backfires from here\n\nA few dishonest groups invent a smear and the local legacy media rubber stamps it out of abdication of duty to the people\n\nWe demand consequences for the lies now https://t.co/o7K12SYkqh",
+      "summary_zh": "旧金山的肮脏抹黑政治还活着，而且是时候让这套剧本反噬了：少数不诚实团体编造谣言，本地传统媒体却放弃对公众的责任，直接盖章传播。\n\n现在必须让这些谎言付出代价。",
+      "url": "https://x.com/garrytan/status/2074750229044502663",
+      "posted_at": "2026-07-08T06:59:36.000Z",
+      "tags": [
+        "@garrytan"
+      ]
+    },
+    {
+      "id": "68ad0f239f",
+      "date": "2026-07-08",
+      "source": "x",
+      "author": "Garry Tan",
+      "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "title": "",
+      "summary_en": "Without building housing, San Francisco will turn a mega economic W into the biggest L in civic history https://t.co/IBFwtRaSRo",
+      "summary_zh": "旧金山如果不建房，就会把一场巨大的经济胜利亲手搞成城市史上最大的失败。",
+      "url": "https://x.com/garrytan/status/2074744830492868764",
+      "posted_at": "2026-07-08T06:38:09.000Z",
+      "tags": [
+        "@garrytan"
+      ]
+    },
+    {
+      "id": "5d00859fa0",
+      "date": "2026-07-08",
+      "source": "x",
+      "author": "Peter Steinberger",
+      "bio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world. @OpenClaw🦞 + @OpenAI",
+      "title": "",
+      "summary_en": "\"We’re a very large customer of Anthropic and they still have yet to tell us about the lawsuit. I learned about it from a reporter, not our “partner.” \" https://t.co/O9swsh4U6v",
+      "summary_zh": "我们是 Anthropic 的大客户，但他们连这起诉讼都没主动告知。所谓“合作伙伴”没说，反倒是记者先告诉了我。",
+      "url": "https://x.com/steipete/status/2074739318103629979",
+      "posted_at": "2026-07-08T06:16:14.000Z",
+      "tags": [
+        "@steipete"
+      ]
+    },
+    {
+      "id": "33db2c8cb4",
+      "date": "2026-07-08",
+      "source": "x",
+      "author": "Madhu Guru",
+      "bio": "Prev: Product Leader at Google - Gemini, Veo, Nano Banana.",
+      "title": "",
+      "summary_en": "true. let’s unpack this..people think data and evals are low skill, grunt work that you can just buy and stuff into models. \n\nin practice, the model lifecycle looks something like model strategy -> evals -> pre/post training/rl aligned to evals -> GTM.\n\nlike any product strategy, you need strong opinions up front but it is 100x harder because of the allure of building an LLM that is great at everything. \n\nthe next challenge is staying focused on the target eval sets throughout the model build through challenges with the latest architecture, regressions, competing data contributions and the latest competitor news.\n\nyou then make choices between multiple checkpoints trading off on target evals, regression evals and early customer feedback.\n\nso yes, it begins with an opinion expressed through evals and if you execute well, you land somewhere near your target.",
+      "summary_zh": "别再把数据和评测当成低级脏活了，模型路线其实是从“有立场的 eval”开始，再一路牵引训练、对齐和商业化。难点不是堆料，而是在“想做全能 LLM”的诱惑、架构噪音、回归和竞品新闻里死守目标，最后只能在多个 checkpoint 里做取舍，尽量落到最初押注的靶心附近。",
+      "url": "https://x.com/realmadhuguru/status/2074734468854899191",
+      "posted_at": "2026-07-08T05:56:58.000Z",
+      "tags": [
+        "@realmadhuguru"
+      ]
+    },
+    {
+      "id": "b3a7c1a71b",
+      "date": "2026-07-08",
+      "source": "x",
+      "author": "Peter Yang",
+      "bio": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6",
+      "title": "",
+      "summary_en": "So what is the qualification criteria for folks to get early access to this model? https://t.co/CFc9wVvfk4",
+      "summary_zh": "他在质问这个模型的早期访问资格到底按什么标准发放。潜台词很尖：别再搞黑箱邀请和关系户优先，把门槛说清楚。",
+      "url": "https://x.com/petergyang/status/2074733842230108672",
+      "posted_at": "2026-07-08T05:54:29.000Z",
+      "tags": [
+        "@petergyang"
+      ]
+    },
+    {
+      "id": "f3cb95bd5f",
+      "date": "2026-07-08",
+      "source": "x",
+      "author": "Aaron Levie",
+      "bio": "ceo @box - your business lives in content. unleash it with AI",
+      "title": "",
+      "summary_en": "Just coming off of meetings with a couple dozen enterprise IT leaders discussing AI agents. Here are a few of the common themes that stand out:\n\n* Lots of conversation that you have to solve an operating model challenge to get the full benefits of AI. Most companies have orgs that have always operated in siloes; but agents are most effectively when they are tied to a process, which often cuts across these siloes. So the big question is how do you start to deploy centrally managed agents that can work across organizational boundaries. Who manages these agents? How do they get deployed and adopted? \n\n* Data fragmentation remains a major issue for most organizations. As long as data remains highly fragmented and not in standard formats, or data is not available to the right people and agents, enterprises are dealing with issues around being able to get answers from agents that are accurate or that conform to their business practices. This cuts across both systems with structured data (product metrics or revenue figures) and unstructured data (product roadmap or customer contracts).\n\n* Clear sense that companies need to figure out what their core data moats are going to be in the future. If everyone has access to roughly the same superintelligence from the various models, then the context that you feed the models becomes proprietary value in the future. Capturing this data and getting it into a format that agents can use becomes very important.\n\n* Everyone is trying to figure out the right metrics to manage to for AI adoption. General consensus that tokens are not the right metric per se, and people leaning more toward business outcomes (in an ideal world). For business outcomes (like more revenue or more shipped product), though, you have to get close to each individual workflow to figure out if it was successfully transformed with AI so it’s harder to manage top down.\n\n* Growing view that enterprises are going to live in a multi-model world. Lots of interest (though early in actual adoption) in layers that can route workloads to different models (frontside or open weights) for cost or performance reasons. Also enterprises are trying to figure out what things do you give to the models directly vs. what do you separate as horizontal systems and context so you can swap any system in and out. \n\n* Talent for driving AI adoption and implementation still remains a major issue and topic. Many view it as something you necessarily have to train for internally due to a shortage of talent being trained on this in the outside. As an aside, this feels like it remains a huge opportunity for those that get very good at deploying and management agents in an enterprise since most companies are looking for these skills.\n\n* The best use-cases for AI tend to be those that fundamentally change the work being done instead of just replacing an existing process and doing it more efficiently. Companies are working through their versions of this individually because it’s different per industry, but this often remains both the most exciting and higher upside uses of AI.\n\nMany more topics discussed recently, but overall it’s clear that there’s a ton of change going on with much more to come.",
+      "summary_zh": "企业上 AI Agent 的瓶颈不是模型，而是组织边界、数据碎片和没人会落地；如果流程还被烟囱式部门切碎，Agent 只会卡在权限、上下文和业务责任里。\n\n未来护城河不在“谁也能买到的超级模型”，而在企业能否把私有数据、核心流程和业务指标整理成 Agent 真能用的上下文，并用它重塑工作，而不是给旧流程省点人力。",
+      "url": "https://x.com/levie/status/2074719479377109312",
+      "posted_at": "2026-07-08T04:57:24.000Z",
+      "tags": [
+        "@levie"
+      ]
+    },
+    {
+      "id": "21a982e656",
+      "date": "2026-07-08",
+      "source": "x",
+      "author": "Sam Altman",
+      "bio": "AI is cool i guess",
+      "title": "",
+      "summary_en": "GPT-5.6 sol launches thursday!\n\nhappy building",
+      "summary_zh": "GPT-5.6 sol 周四发布。  \n废话不多说，直接开造。",
+      "url": "https://x.com/sama/status/2074709023807664454",
+      "posted_at": "2026-07-08T04:15:52.000Z",
+      "tags": [
+        "@sama"
+      ]
+    },
+    {
+      "id": "a84e910ad2",
+      "date": "2026-07-08",
+      "source": "x",
+      "author": "Peter Yang",
+      "bio": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6",
+      "title": "",
+      "summary_en": "I woudl like to interview an AI-native designer to show us how to build with design.md, components, and more vs. the typical process.\n\nWho's the best person to talk to?",
+      "summary_zh": "想找一位 AI-native 设计师来拆解：如何用 design.md、组件等方式构建设计，而不是沿用传统流程。谁最值得采访？",
+      "url": "https://x.com/petergyang/status/2074705840284815678",
+      "posted_at": "2026-07-08T04:03:13.000Z",
+      "tags": [
+        "@petergyang"
+      ]
+    },
+    {
+      "id": "a80f3eca66",
+      "date": "2026-07-08",
+      "source": "x",
+      "author": "Thibault Sottiaux",
+      "bio": "Codex & ChatGPT @OpenAI",
+      "title": "",
+      "summary_en": "Prepare your sunglasses. Sol is coming. 😎 https://t.co/nGm6GI905c",
+      "summary_zh": "戴好墨镜，Sol 要来了。  \n这不是预告，是开场信号。",
+      "url": "https://x.com/thsottiaux/status/2074705681920520526",
+      "posted_at": "2026-07-08T04:02:35.000Z",
+      "tags": [
+        "@thsottiaux"
+      ]
+    },
+    {
+      "id": "bf549097e1",
+      "date": "2026-07-08",
+      "source": "x",
+      "author": "Swyx",
+      "bio": "achieve ambition with intentionality, intensity, integrity & insanity.  affiliations: - @dxtipshq  - @cognition - @temporalio - @aidotengineer - @latentspacepod",
+      "title": "",
+      "summary_en": "it_happening.gif https://t.co/XiwgDUvyWi https://t.co/91NK1liTMQ",
+      "summary_zh": "他没解释，只甩出一张“it’s happening”的 GIF：意思很直白，等了很久的事终于要发生了。",
+      "url": "https://x.com/swyx/status/2074683022503490012",
+      "posted_at": "2026-07-08T02:32:32.000Z",
+      "tags": [
+        "@swyx"
+      ]
+    },
+    {
+      "id": "f37ce58952",
+      "date": "2026-07-08",
+      "source": "x",
+      "author": "Zara Zhang",
+      "bio": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://t.co/KCuEajezlL YouTube: https://t.co/8xzbGWtf6w",
+      "title": "",
+      "summary_en": "How to learn in the age of AI https://t.co/9u9JV7eQbM",
+      "summary_zh": "AI 时代真正的稀缺能力不是记住知识，而是学会如何更快提出问题、验证答案、重组认知。不会学习的人会被 AI 放大差距，而不是被 AI 拯救。",
+      "url": "https://x.com/zarazhangrui/status/2074661564964307153",
+      "posted_at": "2026-07-08T01:07:17.000Z",
+      "tags": [
+        "@zarazhangrui"
+      ]
+    },
+    {
+      "id": "361d443087",
+      "date": "2026-07-08",
+      "source": "x",
+      "author": "Madhu Guru",
+      "bio": "Prev: Product Leader at Google - Gemini, Veo, Nano Banana.",
+      "title": "",
+      "summary_en": "having worked with Brendan and mercor, can confirm they are excellent.\n\nalso having worked in ai models for enterprise, can confirm the opportunity around data and evals for enterprise is massssive. https://t.co/39clGIUHmM",
+      "summary_zh": "和 Brendan、Mercor 合作过，可以确认他们很强。也做过企业 AI 模型，可以确认企业数据和评测这块机会巨大。",
+      "url": "https://x.com/realmadhuguru/status/2074658481760821390",
+      "posted_at": "2026-07-08T00:55:01.000Z",
+      "tags": [
+        "@realmadhuguru"
+      ]
+    },
+    {
+      "id": "f2ded63e17",
+      "date": "2026-07-08",
+      "source": "x",
+      "author": "Peter Steinberger",
+      "bio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world. @OpenClaw🦞 + @OpenAI",
+      "title": "",
+      "summary_en": "If you run this workflow, ask Fable to make codex the workhorse. https://t.co/o20OwqaoAt https://t.co/Xg5akpBkwA",
+      "summary_zh": "跑这套工作流时，别让 Fable 当主力，让它把 Codex 调成真正干活的苦力。",
+      "url": "https://x.com/steipete/status/2074638582418231495",
+      "posted_at": "2026-07-07T23:35:57.000Z",
+      "tags": [
+        "@steipete"
+      ]
+    },
+    {
+      "id": "40c28918ba",
+      "date": "2026-07-08",
+      "source": "x",
+      "author": "Guillermo Rauch",
+      "bio": "@vercel CEO",
+      "title": "",
+      "summary_en": "The filesystem is beautiful. Want your https://t.co/99eEa13mZ3 agent to have GitHub powers?\n\nDefine 𝚝𝚘𝚘𝚕𝚜/𝚐𝚒𝚝𝚑𝚞𝚋.𝚝𝚜 and export 𝚌𝚛𝚎𝚊𝚝𝚎𝙶𝚒𝚝𝚑𝚞𝚋𝚃𝚘𝚘𝚕𝚜().\n\nEve exists to shape an open ecosystem of pluggable models, skills, channels, and tools like this ↓ https://t.co/3fsag2HwnM",
+      "summary_zh": "文件系统本身就是最漂亮的插件体系：想让 agent 拥有 GitHub 能力，只要定义一个 `tools/github.ts` 并导出工具函数。\n\nEve 的野心不是再造一个封闭 AI 应用，而是把模型、技能、渠道和工具都做成可插拔的开放生态。",
+      "url": "https://x.com/rauchg/status/2074630835878453601",
+      "posted_at": "2026-07-07T23:05:10.000Z",
+      "tags": [
+        "@rauchg"
+      ]
+    },
+    {
+      "id": "fe78dfa4bf",
+      "date": "2026-07-08",
+      "source": "x",
+      "author": "Peter Steinberger",
+      "bio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world. @OpenClaw🦞 + @OpenAI",
+      "title": "",
+      "summary_en": "Bonus: Comes with a skill to show a big alert when agents need your help for additional context, instead of (e.g.) just a no-context 1Password dialog.",
+      "summary_zh": "附带一个技能：当 agent 需要你补充上下文时，会直接弹出醒目的大警报，而不是甩给你一个没头没尾的 1Password 弹窗。",
+      "url": "https://x.com/steipete/status/2074624388301987947",
+      "posted_at": "2026-07-07T22:39:33.000Z",
+      "tags": [
+        "@steipete"
+      ]
+    },
+    {
+      "id": "21415e0324",
+      "date": "2026-07-08",
+      "source": "x",
+      "author": "Thariq",
+      "bio": "Claude Code @anthropicai.   prev YC W20, @southpkcommons, @medialab",
+      "title": "",
+      "summary_en": "This is a good clip that shows a few layouts.\n\nI'm pretty happy with this, maybe the slide layout could be a bit different and I'm curious how it will alternate between camera cuts.\n\nThat's all for now, will get Claude to do a full render &amp; report back later. https://t.co/7TT2dDwcTO",
+      "summary_zh": "这个片段已经能看出几种布局，整体效果不错，但幻灯片排版和镜头切换节奏还得再打磨。接下来丢给 Claude 做完整渲染，再看成片表现。",
+      "url": "https://x.com/trq212/status/2074622734118924561",
+      "posted_at": "2026-07-07T22:32:59.000Z",
+      "tags": [
+        "@trq212"
+      ]
+    },
+    {
+      "id": "724cb1f7f3",
+      "date": "2026-07-08",
+      "source": "x",
+      "author": "Thariq",
+      "bio": "Claude Code @anthropicai.   prev YC W20, @southpkcommons, @medialab",
+      "title": "",
+      "summary_en": "I really like how it takes some of the slides which are static (each one of these is its own slide in the original deck) and turns them into animations. https://t.co/1ITW2UWWna",
+      "summary_zh": "把原本一页页静态的幻灯片直接变成动画，信息表达一下子从“翻页展示”升级成“动态讲述”。每一帧原来都是独立 slide，现在被串成了更有冲击力的演示。",
+      "url": "https://x.com/trq212/status/2074619715826381168",
+      "posted_at": "2026-07-07T22:20:59.000Z",
+      "tags": [
+        "@trq212"
+      ]
+    },
+    {
+      "id": "b29b4701f3",
+      "date": "2026-07-08",
+      "source": "x",
+      "author": "Thariq",
+      "bio": "Claude Code @anthropicai.   prev YC W20, @southpkcommons, @medialab",
+      "title": "",
+      "summary_en": "Claude decided to make Youtube short clips. Again the transcription is really chaotic (and the video quality is purposefully low for quick rendering). https://t.co/Rl5yvXLVcf",
+      "summary_zh": "Claude 又开始自己做 YouTube Shorts 了，但转录依旧混乱。为了快速渲染，视频质量也被刻意压低。",
+      "url": "https://x.com/trq212/status/2074619539145568562",
+      "posted_at": "2026-07-07T22:20:17.000Z",
+      "tags": [
+        "@trq212"
+      ]
+    },
+    {
+      "id": "a1852764d4",
+      "date": "2026-07-08",
+      "source": "x",
+      "author": "Peter Yang",
+      "bio": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6",
+      "title": "",
+      "summary_en": "Dumb question:\n\nI’ve been running most of my cron jobs locally on my Mac Mini because it’s already authenticated with Google Workspace and the other apps I use.\n\nBut should I run these jobs in the cloud instead with these apps OAuth’d to my Claude or ChatGPT account?\n\nHow should I think about what jobs should stay local vs. move to the cloud?",
+      "summary_zh": "他把大多数定时任务跑在本地 Mac Mini 上，只因为那台机器已经登录了 Google Workspace 和各种常用应用。真正的问题是：哪些自动化该留在本地吃现成权限，哪些该迁到云端并交给 Claude/ChatGPT 账号的 OAuth 来跑。",
+      "url": "https://x.com/petergyang/status/2074616982197174515",
+      "posted_at": "2026-07-07T22:10:07.000Z",
+      "tags": [
+        "@petergyang"
+      ]
+    },
+    {
+      "id": "32f37db27f",
+      "date": "2026-07-08",
+      "source": "x",
+      "author": "Garry Tan",
+      "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "title": "",
+      "summary_en": "Common sense Democrats take note \n\nTime to organize against radical leftism and asset seizure inside the party https://t.co/etExoPSgiN",
+      "summary_zh": "有常识的民主党人该警醒了：党内激进左翼和“没收资产”路线正在坐大，现在就该组织起来反击。",
+      "url": "https://x.com/garrytan/status/2074599259803160773",
+      "posted_at": "2026-07-07T20:59:42.000Z",
+      "tags": [
+        "@garrytan"
+      ]
+    },
+    {
+      "id": "66c206e17c",
+      "date": "2026-07-08",
+      "source": "x",
+      "author": "Nikunj Kothari",
+      "bio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
+      "title": "",
+      "summary_en": "I have been screaming this for the past year, but kind reminder to everyone: GMV is NOT ARR. \n\nLet's get our definitions right for once and for all.. or at least be honest what it is🤦‍♂️ https://t.co/w856j9BUC3",
+      "summary_zh": "别再把 GMV 当 ARR 吹了，定义都没搞清楚就别拿来包装增长。\n\n要么把口径说清楚，要么承认那根本不是 ARR。",
+      "url": "https://x.com/nikunj/status/2074597133286851064",
+      "posted_at": "2026-07-07T20:51:15.000Z",
+      "tags": [
+        "@nikunj"
+      ]
+    },
+    {
+      "id": "6348f341c3",
+      "date": "2026-07-08",
+      "source": "x",
+      "author": "Madhu Guru",
+      "bio": "Prev: Product Leader at Google - Gemini, Veo, Nano Banana.",
+      "title": "",
+      "summary_en": "guys, stop fixing typos and audio transcription errors in your prompts to ai. \n\nthey cracked the IMO. they know what ‘teh’ is.",
+      "summary_zh": "别再给 AI 提示词修错别字、改转录瑕疵了。它们连 IMO 都攻破了，当然看得懂 “teh” 是什么。",
+      "url": "https://x.com/realmadhuguru/status/2074576440268661107",
+      "posted_at": "2026-07-07T19:29:01.000Z",
+      "tags": [
+        "@realmadhuguru"
+      ]
+    },
+    {
+      "id": "d5064c3288",
+      "date": "2026-07-08",
+      "source": "x",
+      "author": "Claude",
+      "bio": "Claude is an AI assistant built by @anthropicai to be safe, accurate, and secure. Talk to Claude on https://t.co/ZhTwG8d1e5 or download the app.",
+      "title": "",
+      "summary_en": "As before, you can use up to 50% of your weekly usage limit on Claude Fable 5. After that, you can keep using Fable 5 with usage credits, or switch to another model to keep working within your remaining limits.\n\nRead more: https://t.co/aNtorRFPnV",
+      "summary_zh": "Claude Fable 5 每周最多只能吃掉你 50% 的使用额度；超了就要么烧 usage credits 继续用，要么换模型在剩余额度里干活。",
+      "url": "https://x.com/claudeai/status/2074548243971604641",
+      "posted_at": "2026-07-07T17:36:59.000Z",
+      "tags": [
+        "@claudeai"
+      ]
+    },
+    {
+      "id": "eb6f060008",
+      "date": "2026-07-08",
+      "source": "x",
+      "author": "Claude",
+      "bio": "Claude is an AI assistant built by @anthropicai to be safe, accurate, and secure. Talk to Claude on https://t.co/ZhTwG8d1e5 or download the app.",
+      "title": "",
+      "summary_en": "We're extending access to Claude Fable 5 on all paid plans through July 12.",
+      "summary_zh": "Claude Fable 5 付费用户访问权限延长到 7 月 12 日。付了钱的人还能再多用几天。",
+      "url": "https://x.com/claudeai/status/2074548242386178258",
+      "posted_at": "2026-07-07T17:36:58.000Z",
+      "tags": [
+        "@claudeai"
+      ]
+    },
+    {
+      "id": "944b5edc68",
+      "date": "2026-07-08",
+      "source": "x",
+      "author": "Nikunj Kothari",
+      "bio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
+      "title": "",
+      "summary_en": "My favorite practical Fable use case (so far) has been generating /insights on Claude Code, feeding it in, and asking..\n\n\"In a Fable era, how should I be using Claude Code to maximize its utility?\" \n\nYou can then ask it to implement it for you. See part of the output below 👇 https://t.co/qmMP30x5AF",
+      "summary_zh": "把 Claude Code 的 `/insights` 喂给 Fable，再反问“在 Fable 时代我该怎么用 Claude Code 才能榨干价值”，它不仅会给策略，还能直接替你改工作流。真正的用法不是让 AI 给建议，而是让它把建议落地。",
+      "url": "https://x.com/nikunj/status/2074530614745960792",
+      "posted_at": "2026-07-07T16:26:56.000Z",
+      "tags": [
+        "@nikunj"
+      ]
+    },
+    {
+      "id": "e9b56e1741",
+      "date": "2026-07-08",
+      "source": "x",
+      "author": "Aaron Levie",
+      "bio": "ceo @box - your business lives in content. unleash it with AI",
+      "title": "",
+      "summary_en": "A small percentage of useful data is on the open web available to all models for training or for agents to operate with. Most of it lives inside of organizations and often is in legacy systems, in people’s heads, or is fragmented across the enterprise. \n\nIt’s the marketing plans, product roadmaps, development practices, contracts, financial data, strategies, and general corporate knowledge that every company operates off of. \n\nWhether it’s for training a model or used as context for agents, this data will increasingly be more valuable over time. The ability to get the right data to agents to operate on, securely, will be a defining characteristic of how companies operate and compete in the future. \n\nEffective use of AI will in the economy will largely come down to the companies that are able to have agents best understand their business and make the right decisions on their behalf. Data actually is the new oil.",
+      "summary_zh": "真正有价值的数据不在开放网页上，而在公司的旧系统、员工脑子和碎片化业务流程里：营销计划、路线图、合同、财务、战略才是企业运行的燃料。未来公司拼的不是谁有模型，而是谁能安全地把正确数据喂给智能体，让它真正理解业务并替公司做对决策；数据这次真成了新石油。",
+      "url": "https://x.com/levie/status/2074528241990394178",
+      "posted_at": "2026-07-07T16:17:30.000Z",
+      "tags": [
+        "@levie"
+      ]
+    },
+    {
+      "id": "575d36aea4",
+      "date": "2026-07-08",
+      "source": "x",
+      "author": "Claude",
+      "bio": "Claude is an AI assistant built by @anthropicai to be safe, accurate, and secure. Talk to Claude on https://t.co/ZhTwG8d1e5 or download the app.",
+      "title": "",
+      "summary_en": "We're extending doubled Cowork usage limits through August 5, so you can delegate bigger work to Claude.\n\nRead more: https://t.co/ONu7xLO6js",
+      "summary_zh": "Cowork 的 Claude 使用额度翻倍延长到 8 月 5 日，意思很直接：让你把更大块的活甩给 Claude 做。",
+      "url": "https://x.com/claudeai/status/2074525821755101458",
+      "posted_at": "2026-07-07T16:07:53.000Z",
+      "tags": [
+        "@claudeai"
+      ]
+    },
+    {
+      "id": "da24b16e89",
+      "date": "2026-07-08",
+      "source": "x",
+      "author": "Guillermo Rauch",
+      "bio": "@vercel CEO",
+      "title": "",
+      "summary_en": "Welcome @bekacru to Vercel. It's a privilege to join forces with Bereket and Better Auth to further our Open SDK vision. \n\nDevelopers deserve better auth, to serve humans and agents, built in the open and with taste. That's what Bereket has accomplished. Congrats! 🇪🇹🇺🇸 https://t.co/LWhzUBMysp",
+      "summary_zh": "Vercel 收编 Better Auth，是在把开放 SDK 的版图继续往认证层推进：开发者需要的不只是能用的 auth，而是能同时服务人类和 agent、开源且有品味的 auth。Bereket 已经做出了这个东西。",
+      "url": "https://x.com/rauchg/status/2074523653488947338",
+      "posted_at": "2026-07-07T15:59:16.000Z",
+      "tags": [
+        "@rauchg"
+      ]
+    },
+    {
+      "id": "3710667252",
+      "date": "2026-07-08",
+      "source": "x",
+      "author": "Aditya Agarwal",
+      "bio": "General Partner @SouthPkCommons, Co-Founder @Bevel_Health | Ex: Early Eng @facebook, CTO @Dropbox, Board @Flipkart | Optimist, Builder, Dad",
+      "title": "",
+      "summary_en": "More important to wear the colors proudly the day after a loss.\n\nProud of USMNT. \n\nWe were outclasses yesterday \n\nDown but not out. We will be back. https://t.co/N1TTwo5mD5",
+      "summary_zh": "输球后的第二天更要把队服颜色穿得理直气壮。美国男足昨天确实被打爆了，但只是倒下，不是出局。",
+      "url": "https://x.com/adityaag/status/2074512219434602995",
+      "posted_at": "2026-07-07T15:13:50.000Z",
+      "tags": [
+        "@adityaag"
+      ]
+    },
+    {
+      "id": "7f983186a2",
+      "date": "2026-07-08",
+      "source": "x",
+      "author": "Nan Yu",
+      "bio": "head of product @linear",
+      "title": "",
+      "summary_en": "starting a family tbh\n\nhttps://t.co/72X5WekiNi",
+      "summary_zh": "说白了，他不是又开个项目，而是在“组建家庭”：把人、产品和长期绑定全押进去。",
+      "url": "https://x.com/thenanyu/status/2074484075314733323",
+      "posted_at": "2026-07-07T13:22:00.000Z",
+      "tags": [
+        "@thenanyu"
+      ]
+    },
+    {
+      "id": "c9e7859f0d",
+      "date": "2026-07-08",
+      "source": "x",
+      "author": "Matt Turck",
+      "bio": "VC at @FirstMarkCap.  Host: MAD Podcast; Organizer: Data Driven NYC, Author: MAD Landscape.",
+      "title": "",
+      "summary_en": "VC greeting his top AI portfolio company vs that SaaS investment from 8 years ago that’s running out of cash https://t.co/pj8GAdCqBT",
+      "summary_zh": "VC 对顶尖 AI 投资项目热情迎接，对 8 年前投的、快烧光现金的 SaaS 公司则判若两人。资本的脸色，基本跟增长曲线同步。",
+      "url": "https://x.com/mattturck/status/2074441949772169216",
+      "posted_at": "2026-07-07T10:34:36.000Z",
+      "tags": [
+        "@mattturck"
+      ]
+    },
+    {
+      "id": "d99aab3e72",
+      "date": "2026-07-08",
+      "source": "podcast",
+      "author": "Training Data",
+      "bio": "",
+      "title": "Inside Zipline's Autonomous System: 140M Miles, Zero Incidents",
+      "summary_en": "Speaker 1 | 00:00 - 00:21\nI remember being in Rwanda early days and going out and meeting with some of the doctors and lab techs that we were serving and asking for them, like, you know, how's it going? What what do you think? What's your feedback? Here I am kind of, you know, a a up and coming, you know, learning engineer thinking they're gonna say something about the drone or some of these things. And the main piece of feedback that I received was people get sick twenty four seven.\n\nSpeaker 1 | 00:21 - 00:23\nWhy are you guys only open twelve hours a day?\n\nSpeaker 2 | 00:23 - 00:26\nRight? Especially when you're delivering life saving blood.\n\nSpeaker 1 | 00:26 - 00:46\nYeah. Exactly. And so that was a really key insight for me where it's like, man, we have found product market fit in a market where, yeah, our our, you know, our product wasn't great yet, but it was solving a real need. And so having that that really beachhead market where there's a real problem being solved, and when your customer is telling you that their main feedback is they want more of your service, it's like, that's a good sign.\n\nSpeaker 2 | 01:04 - 01:26\nWelcome Keller and Eric, to the show. You guys have been working at zipline for a long period of time. Keller's the co founder and Eric, you are in charge of systems engineering and safety. And we got lots of things to talk about in this whole world of drones, drone systems, and how you guys started in this hardware space before LLMs even started. So we have lots of questions.\n\nSpeaker 1 | 01:26 - 01:27\nYou for\n\nSpeaker 3 | 01:27 - 01:28\nhaving us. But you don't\n\nSpeaker 2 | 01:28 - 01:35\nlike you don't like Zipline being described as a drone company, company, even though you're probably the largest autonomous drone company in the world right now.\n",
+      "summary_zh": "Zipline 早期在卢旺达问医生和实验室技术员要反馈，对方没聊无人机，只问了一句：人是 24 小时生病的，你们为什么一天只开 12 小时？\n\n这就是最硬的 PMF：产品还不完美，但解决的是真问题；客户最主要的抱怨不是不好用，而是“我要更多”。",
+      "url": "https://www.youtube.com/watch?v=6bGxm8gX41o",
+      "posted_at": "2026-07-07T09:00:00.000Z",
+      "tags": [
+        "podcast"
+      ]
+    }
+  ]
+}
