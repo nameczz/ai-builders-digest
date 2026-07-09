@@ -1,0 +1,253 @@
+{
+  "date": "2026-07-09",
+  "generated_at": "2026-07-09T00:48:20+00:00",
+  "inbox_id": "sanyoumu@agentmail.to",
+  "window": {
+    "start": "2026-07-08T00:48:30+00:00",
+    "end": "2026-07-09T00:46:18.704828+00:00",
+    "source": "previous_digest_generated_at"
+  },
+  "count": 7,
+  "highlights": [
+    "今日精读：Lilian Weng 的 harness engineering 综述把 agent 能力提升的重点从“模型自己改权重”转向“模型外部系统如何组织目标、工具、上下文、记忆和评估”。",
+    "Modal CTO 访谈强调 AI infra 正在从开发者体验转向 agent 体验：弹性推理、沙箱、GPU burst、后训练和可观测性会成为新云平台的核心能力。",
+    "多封 newsletter 都提到 OpenAI 即将发布 GPT-5.6 Sol、Terra、Luna，以及 Claude Cowork 移动端和网页端扩展，前沿模型与后台 agent 产品都在加速迭代。",
+    "企业 agent 安全成为高优先级议题：Google Dialogflow CX 漏洞案例显示，真正的风险常来自执行环境、权限和日志，而不是单纯 prompt 注入。",
+    "Meta Muse Image、微软自研模型替换第三方模型、中国模型出海限制、DeepSeek 自研推理芯片等消息共同指向一个趋势：模型能力、成本、分发和地缘约束正在绑定在一起。"
+  ],
+  "items": [
+    {
+      "id": "ainews-harness-engineering-rsi",
+      "title_zh": "今日精读：Harness Engineering 正在成为 Agent 自我改进的关键层",
+      "title_original": "[AINews] Lilian Weng summarizes 35 papers on Harness Engineering for RSI",
+      "source": "AINews",
+      "from": "AINews <swyx+ainews@substack.com>",
+      "subject": "[AINews] Lilian Weng summarizes 35 papers on Harness Engineering for RSI",
+      "url": "https://www.latent.space/p/ainews-lilian-weng-summarizes-35",
+      "message_id": "<20260708022026.3.2f64480b275b33b4@mg2.substack.com>",
+      "published_at": "2026-07-08T02:20:26.000Z",
+      "importance": "high",
+      "summary_zh": "这期 AINews 以 Lilian Weng 关于 harness engineering 与递归自我改进的长文为主线，认为 agent 能力提升不只来自基础模型变强，也来自模型外部系统对目标、上下文、工具调用、记忆、执行、评估和反馈循环的组织方式。邮件还汇总了 Claude Cowork 走向移动端和网页端、Meta Muse Image/Video 排名靠前但缺少技术细节、The AI Scientist 等研究动态，整体主题是 agent 产品正在从聊天界面走向长时任务系统，而 harness 会成为 builder 设计 agent 的核心工程对象。",
+      "deep_read_zh": "这封 AINews 最值得精读的地方，是它把最近几个月分散在 agent 产品、自动研究、代码 agent、长上下文和自我改进里的线索收束到了一个概念：harness engineering。邮件引用 Lilian Weng 的新综述，强调递归自我改进不必被狭义理解为模型直接修改自己的权重。更现实、也更接近今天 builder 能动手优化的路径，是改进包裹基础模型的系统：它如何接收目标，如何拆任务，如何调用工具，如何保存和检索上下文，如何管理长时工作产生的 artifact，如何评价结果，并用评价继续驱动下一轮执行。邮件特别提到，即使许多 harness 层的能力最终会被吸收到核心模型里，“指定目标和上下文”的需求也不会消失。这对产品和工程判断很关键：如果只盯模型榜单，容易忽视 agent 真正落地时的执行框架、记忆边界、评估回路和安全约束。AINews 还把 Claude Cowork 的移动端和网页端扩展放进同一条趋势里看，说明主流产品正在把 AI 从前台聊天窗口推向可持续运行的后台 teammate。Meta Muse 的案例则提醒我们，模型能力新闻如果没有论文或技术细节，信息增量有限。整体来看，这期的隐含判断是：下一阶段 agent 竞争不会只是谁的 base model 更强，而是谁能把模型、上下文、工具、评估、权限和用户体验组织成稳定的长时系统。",
+      "why_important": "它给 builder 一个更可执行的判断框架：与其抽象讨论 AGI 或自我改进，不如拆解 agent 外部系统中哪些环节能被设计、测量和优化。",
+      "impact": "做 agent 产品的人需要把 harness 当成一等工程对象，投入到任务编排、上下文压缩、工具接口、评估集、日志和可恢复执行上，而不是只等待模型升级。",
+      "key_points": [
+        "Lilian Weng 的综述把 harness 与递归自我改进联系起来，强调模型外部系统也能推动能力提升。",
+        "harness 包括目标指定、规划、工具调用、上下文管理、记忆、artifact 存储和结果评估等环节。",
+        "邮件认为即便部分 harness 能力未来被模型内化，目标和上下文的显式指定仍然重要。",
+        "Claude Cowork 走向移动端和网页端，显示后台长时任务型 AI 产品正在成为主流方向。",
+        "Meta Muse Image/Video 被提及为强势多模态模型，但邮件也指出目前缺少论文和技术细节。",
+        "AINews 将 agent 产品、自动研究和 harness 文献放在同一趋势下观察。"
+      ],
+      "reading_notes": [
+        "阅读时可以区分：哪些能力应该放进 base model，哪些能力更适合作为 harness 层工程化实现。",
+        "关注 evaluation 如何闭环到 agent 行为改进，而不是只做离线 benchmark。",
+        "思考长时 agent 的记忆、权限、日志和恢复机制是否已经成为产品护城河。",
+        "把 Claude Cowork、The AI Scientist、Meta-Harnesses 等案例当作同一类系统问题来比较。"
+      ],
+      "tags": [
+        "agent",
+        "model",
+        "research",
+        "infra"
+      ],
+      "related_sources": [
+        "TLDR AI：Harness Engineering for Self-Improvement",
+        "TLDR Dev：Harness Engineering for Self-Improvement"
+      ]
+    },
+    {
+      "id": "latent-space-modal-agent-cloud",
+      "title_zh": "Modal 访谈：AI 云基础设施要从开发者体验转向 Agent 体验",
+      "title_original": "Why AI Infrastructure must evolve for Agent Experience — Akshat Bubna, Modal CTO",
+      "source": "Latent.Space",
+      "from": "Latent.Space <swyx@substack.com>",
+      "subject": "Why AI Infrastructure must evolve for Agent Experience — Akshat Bubna, Modal CTO",
+      "url": "https://www.latent.space/p/modal2026",
+      "message_id": "<20260708225507.3.68ba4cebc218c8b2@mg-d0.substack.com>",
+      "published_at": "2026-07-08T22:55:07.000Z",
+      "importance": "high",
+      "summary_zh": "Latent.Space 这期围绕 Modal CTO Akshat Bubna 的访谈，讨论 AI workload 为什么不适配传统云假设，以及 Modal 为什么从 serverless runtime 演进为面向 AI 和 agent 的云平台。邮件强调 agent 需要能写代码、运行、查看输出、修改环境、调试并快速循环的基础设施，因此沙箱、弹性推理、GPU 快速启动、后训练、多节点训练、可观测性、网络隔离和硬 guardrails 都会变成核心能力。Modal 刚完成 3.55 亿美元 C 轮，也被作为“agent cloud”方向的代表案例。",
+      "deep_read_zh": "",
+      "why_important": "这封邮件把 AI infra 的需求变化讲得很具体：不只是租 GPU，而是让 agent 能安全、快速、可观察地操作计算环境。",
+      "impact": "对 builder 来说，未来选择云平台时要看沙箱、冷启动、推理优化、容量池、权限隔离和日志能力，而不只是价格和 GPU 型号。",
+      "key_points": [
+        "Modal 将 AI 工作负载描述为 bursty、compute-heavy，传统 Kubernetes 并非为这类模式设计。",
+        "访谈覆盖弹性推理、GPU snapshotting、DeFlash、speculative decoding、Auto Endpoints、RDMA 和多云容量池。",
+        "Modal 认为生产级 agent 需要专用沙箱、硬性 guardrails 和强可观测性。"
+      ],
+      "reading_notes": [],
+      "tags": [
+        "infra",
+        "agent",
+        "cloud",
+        "gpu"
+      ],
+      "related_sources": [
+        "AINews：harness engineering 与长时 agent 工作流"
+      ]
+    },
+    {
+      "id": "tldr-ai-gpt56-claude-cowork-deepseek",
+      "title_zh": "TLDR AI：GPT-5.6、Claude Cowork、微软自研模型与 DeepSeek 芯片动向",
+      "title_original": "GPT-5.6 Thursday ⭐️, Claude Cowork mobile 📱, Gemini API agents 🤖",
+      "source": "TLDR AI",
+      "from": "TLDR AI <dan@tldrnewsletter.com>",
+      "subject": "GPT-5.6 Thursday ⭐️, Claude Cowork mobile 📱, Gemini API agents 🤖",
+      "url": "https://refer.tldr.tech/0a897003/2",
+      "message_id": "<0100019f41e43cc7-bbc8bf87-1a40-4eb9-a1d7-e1f13cdb0cc7-000000@email.amazonses.com>",
+      "published_at": "2026-07-08T13:21:44.000Z",
+      "importance": "high",
+      "summary_zh": "这期 TLDR AI 覆盖了多条与模型和 agent 产品直接相关的消息：邮件称 OpenAI 将公开发布 GPT-5.6 Sol、Terra、Luna，其中 Sol 是旗舰模型，Terra 面向日常平衡，Luna 主打低成本；Anthropic 的 Claude Cowork 会在网页和移动端访问，支持长时任务不依赖电脑一直开着；微软开始在部分 Excel、Outlook 等产品中用自研模型替代 OpenAI 和 Anthropic，以降低大规模 token 成本风险；DeepSeek 则计划进入推理芯片领域，以减少对 Huawei 和 Nvidia 的依赖。深度阅读部分还包括 harness engineering、MiniMax M3 稀疏注意力和 J-space 可解释性。",
+      "deep_read_zh": "",
+      "why_important": "它同时呈现了模型发布、产品形态、成本控制和硬件供应链四条线，说明 AI 竞争正在从单点模型能力扩展为完整产业栈竞争。",
+      "impact": "产品团队需要为模型快速换代、后台 agent 体验、多模型替换和推理成本优化做架构准备。",
+      "key_points": [
+        "邮件称 GPT-5.6 Sol、Terra、Luna 将公开发布，并突出不同价格和性能定位。",
+        "Claude Cowork 走向移动端和网页端，强化后台长时任务产品形态。",
+        "微软和 DeepSeek 的动作都指向降低对外部模型或芯片供应的依赖。"
+      ],
+      "reading_notes": [],
+      "tags": [
+        "model",
+        "agent",
+        "infra",
+        "chip"
+      ],
+      "related_sources": [
+        "AI Valley：OpenAI 新模型、Meta Muse、北京限制模型出海",
+        "AINews：Claude Cowork 与 harness engineering"
+      ]
+    },
+    {
+      "id": "tldr-dev-harness-model-upgrades-chatgpt-mac",
+      "title_zh": "TLDR Dev：Harness、自研工具与模型升级评估是开发者今天的主线",
+      "title_original": "Harness engineering 🛠, evaluating model upgrades ↗️, ChatGPT for Mac excellence 🌟",
+      "source": "TLDR Dev",
+      "from": "TLDR Dev <dan@tldrnewsletter.com>",
+      "subject": "Harness engineering 🛠, evaluating model upgrades ↗️, ChatGPT for Mac excellence 🌟",
+      "url": "https://refer.tldr.tech/7e988322/3",
+      "message_id": "<0100019f418113a2-8f4782fb-2a86-4262-aae9-593df97a5de5-000000@email.amazonses.com>",
+      "published_at": "2026-07-08T11:33:26.000Z",
+      "importance": "medium",
+      "summary_zh": "TLDR Dev 这期从开发者角度总结了 harness engineering、自建 Postgres 连接池、模型升级评估、ChatGPT Mac 原生体验，以及一组工具项目。最有价值的部分是两个判断：第一，agent 能力提升越来越依赖 workflow automation、持久记忆、sub-agent、上下文和评估管理；第二，模型升级不一定是真的升级，新模型可能在具体任务上成本更高、输出更差。工具方面，Fortress 针对浏览器自动化指纹，Davit 让 Apple silicon 用户不用 Docker Desktop 运行 Linux 容器，Herdr 和 Rowboat 则反映开发者开始同时管理多个 agent 和知识图谱。",
+      "deep_read_zh": "",
+      "why_important": "它提醒 builder 不能盲目追新模型，应该用自己的任务、成本和质量标准评估升级是否成立。",
+      "impact": "AI 开发流程会更依赖可重复评估、agent 编排、本地工具体验和自动化环境管理。",
+      "key_points": [
+        "harness engineering 的难点集中在上下文、记忆和评估管理。",
+        "模型升级可能在特定任务上退步，不能只看 token 单价或版本号。",
+        "Fortress、Davit、Herdr 等工具显示开发者基础设施正在围绕 agent 和自动化重组。"
+      ],
+      "reading_notes": [],
+      "tags": [
+        "developer-tools",
+        "agent",
+        "evaluation",
+        "infra"
+      ],
+      "related_sources": [
+        "AINews：Lilian Weng harness engineering 综述",
+        "TLDR AI：Harness Engineering for Self-Improvement"
+      ]
+    },
+    {
+      "id": "the-neuron-dialogflow-rogue-agent-security",
+      "title_zh": "The Neuron：Dialogflow 漏洞显示企业 Agent 的安全边界在权限和运行时",
+      "title_original": "😸 One rogue agent could hijack enterprise chatbots",
+      "source": "The Neuron",
+      "from": "The Neuron <theneuron@newsletter.theneurondaily.com>",
+      "subject": "😸 One rogue agent could hijack enterprise chatbots",
+      "url": "https://www.techrepublic.com/hubs/the-enterprise-guide-to-scalable-ai/",
+      "message_id": "<wlTSs2xGTHSLRhyYFNjuhw@geopod-ismtpd-49>",
+      "published_at": "2026-07-08T11:07:32.000Z",
+      "importance": "high",
+      "summary_zh": "The Neuron 这期主打企业 agent 安全。邮件总结 Varonis Threat Labs 披露的 Google Dialogflow CX “Rogue Agent” 漏洞：在 Code Blocks 功能中，拥有一个 agent 编辑权限的攻击者可能注入恶意 Python 逻辑，访问对话历史和 session 信息，并让 chatbot 返回攻击者指定内容。Google 已在 4 月初步修复、6 月完全解决，Varonis 称未发现修复前真实利用。邮件还提到 Anthropic 与 TeraWulf 的 20 年数据中心租约、Illinois 前沿 AI 安全法、中国限制先进模型出海、Meta Muse Image 和 Nature 发表 The AI Scientist 研究。",
+      "deep_read_zh": "",
+      "why_important": "它把 agent 安全从抽象的 prompt 风险拉回到工程现实：执行环境共享、权限过宽、日志不可见都会变成企业入口风险。",
+      "impact": "部署企业 chatbot 或 workflow agent 的团队需要优先做最小权限、运行时隔离、配置审计、代码块变更记录和异常对话监控。",
+      "key_points": [
+        "漏洞核心在 Dialogflow CX Code Blocks 与托管 Cloud Run 环境的信任边界。",
+        "攻击者可能利用被攻陷的 agent 读取会话并伪造正常客服响应。",
+        "邮件认为 agent 安全依赖权限、隔离、日志和默认怀疑，而不是更好的 prompt。"
+      ],
+      "reading_notes": [],
+      "tags": [
+        "security",
+        "agent",
+        "enterprise",
+        "infra"
+      ],
+      "related_sources": [
+        "Latent.Space：生产级 agent 需要沙箱和 hard guardrails"
+      ]
+    },
+    {
+      "id": "tldr-meta-muse-image-tech-workers",
+      "title_zh": "TLDR：Meta Muse Image 入局图像生成，AI 也在重塑技术员工情绪",
+      "title_original": "Meta AI images 🖼️, inside XBox layoffs 📉, tech worker sentiment 💼",
+      "source": "TLDR",
+      "from": "TLDR <dan@tldrnewsletter.com>",
+      "subject": "Meta AI images 🖼️, inside XBox layoffs 📉, tech worker sentiment 💼",
+      "url": "https://refer.tldr.tech/f45b3ac9/",
+      "message_id": "<0100019f41430f1a-074cce85-8d3f-43f9-b9c9-a5c676c72bd1-000000@email.amazonses.com>",
+      "published_at": "2026-07-08T10:25:41.000Z",
+      "importance": "medium",
+      "summary_zh": "这期 TLDR 的 AI 相关重点是 Meta 发布 Muse Image，计划通过 Meta AI app、网站、WhatsApp 私信和 Instagram Stories 免费提供，并用在 Advantage Plus 的广告主图像生成工具里，说明图像模型正在直接进入消费端入口和广告商业化系统。邮件还报道 Xbox 大规模裁员、核动力商业卫星、Tesla Cybercab 更强 FSD 硬件、技术员工在 AI 冲击下出现“被放大”和“被动摇”的分化，以及终端 agent multiplexer Herdr。对 AI builder 来说，最值得关注的是生成式媒体模型如何被大平台嵌入分发和广告闭环。",
+      "deep_read_zh": "",
+      "why_important": "Meta 的优势不只是模型本身，而是能把图像生成接入 Instagram、WhatsApp、Meta AI 和广告工具链。",
+      "impact": "独立图像生成产品会面临平台级分发压力，而面向广告、社媒和创意工作流的垂直工具需要更明确的差异化。",
+      "key_points": [
+        "Muse Image 将进入 Meta AI、WhatsApp 和 Instagram Stories。",
+        "免费额度之后可订阅或等待重置，暗示消费端和订阅变现并行。",
+        "技术员工情绪文章指出 AI 提升生产力的同时也带来质量和职业焦虑。"
+      ],
+      "reading_notes": [],
+      "tags": [
+        "image-generation",
+        "platform",
+        "ads",
+        "developer-tools"
+      ],
+      "related_sources": [
+        "AI Valley：Meta Muse Image 与榜单表现",
+        "AINews：Meta Muse Image/Video 缺少技术细节"
+      ]
+    },
+    {
+      "id": "ai-valley-openai-models-meta-china",
+      "title_zh": "AI Valley：OpenAI 新模型、Grok 4.5、Meta Muse 和中国模型出海限制",
+      "title_original": "OpenAI's next AI models arrive tomorrow",
+      "source": "AI Valley",
+      "from": "AI Valley <aivalley@mail.beehiiv.com>",
+      "subject": "OpenAI's next AI models arrive tomorrow",
+      "url": "https://www.theaivalley.com/",
+      "message_id": "<20260708.151139.a6bb0a93@mta26>",
+      "published_at": "2026-07-08T15:11:39.000Z",
+      "importance": "medium",
+      "summary_zh": "AI Valley 这期以“OpenAI 下一代模型明天到来”为头条，称 GPT-5.6 Sol、Terra、Luna 将在周四公开，特点包括更强性能、更低价格层级和增强缓存。邮件还称 Grok 4.5 预计发布，基于约 1.5 万亿参数的 V9 foundation model，但尚无独立 benchmark；Meta 推出 Muse Image，覆盖生成、编辑和 agentic 能力，并将进入 Meta AI、Instagram 和 WhatsApp；北京据称考虑限制 Alibaba Qwen、ByteDance Doubao、Z.ai GLM-5.2 等先进模型的海外访问。整体信息指向模型竞争、价格竞争、多模态平台化和地缘监管同时升温。",
+      "deep_read_zh": "",
+      "why_important": "它把当天最受关注的模型发布传闻、平台图像模型和中国模型出海限制放在一起，适合快速把握市场叙事。",
+      "impact": "builder 需要同时关注模型能力、定价、缓存、API 可获得性和区域访问限制，因为这些都会影响产品架构和市场选择。",
+      "key_points": [
+        "邮件称 OpenAI GPT-5.6 Sol、Terra、Luna 将公开，并主打性能、价格和缓存改进。",
+        "Grok 4.5 被描述为 xAI 的大规模发布，但缺少独立 benchmark。",
+        "中国先进模型海外访问可能受到更严格限制，AI 供应链地缘化加深。"
+      ],
+      "reading_notes": [],
+      "tags": [
+        "model",
+        "geopolitics",
+        "image-generation",
+        "pricing"
+      ],
+      "related_sources": [
+        "TLDR AI：GPT-5.6、微软自研模型、DeepSeek 芯片",
+        "TLDR：Meta Muse Image",
+        "The Neuron：中国限制先进模型出海"
+      ]
+    }
+  ],
+  "skipped": [],
+  "notes": "今日精读选择 AINews 的 harness engineering 主题，因为它在多封邮件中重复出现，并且对 agent builder 的系统设计、评估和产品架构有直接启发。7 封输入邮件均为正式 newsletter，因此全部保留为单篇总结。各邮件中的赞助段落、招聘信息、广告入口和纯推广内容未作为独立条目处理；涉及 OpenAI GPT-5.6、Grok 4.5 等内容均按邮件正文表述总结，未做外部核验。"
+}
