@@ -1,0 +1,381 @@
+{
+  "date": "2026-07-09",
+  "top3": [
+    "AI 编程代理生态继续分层：从 openai/codex-plugin-cc 到 agent-skills、superpowers，热点从单个 IDE 转向可复用技能与代理协作协议。",
+    "本地优先产品出现强需求信号：Meetily、TencentDB Agent Memory、Immich、Unlimited-OCR 都指向隐私、离线、可自托管。",
+    "消费级 AI 的机会从聊天转向任务执行：求职、会议、语音输入、Office 自动化和浏览器控制都在被重新包装成端到端工作流。"
+  ],
+  "intro": "今天的主线不是某个大模型发布，而是 AI agent 的基础设施开始商品化：技能、网关、沙箱、内存、GUI 控制、语音入口都在抢开发者默认工作流。对 builder 来说，机会不在再做一个聊天框，而在把模型能力嵌进高频、可验证、愿付费的任务链条。",
+  "sections": [
+    {
+      "id": "discovery",
+      "title": "发现机会",
+      "blocks": [
+        {
+          "id": "github-traction",
+          "heading": "GitHub 上哪些高增长开源项目还没有商业化？",
+          "summary_md": "本周最强信号来自安全、会议和求职自动化。[usestrix/strix](https://github.com/usestrix/strix) 周增 10,274 星，总星 39,290，用开源 AI 渗透测试切入应用安全；[MadsLorentzen/ai-job-search](https://github.com/MadsLorentzen/ai-job-search) 周增 9,677 星，把 Claude Code 包装成求职申请流水线；[Zackriya-Solutions/meetily](https://github.com/Zackriya-Solutions/meetily) 周增 8,366 星，强调 100% 本地转写、说话人分离和 Ollama 摘要。这三类都不是模型能力炫技，而是把 AI 放进用户已有痛点：安全审计、找工作、开会记录。",
+          "items": [
+            {
+              "title": "usestrix/strix",
+              "url": "https://github.com/usestrix/strix",
+              "source": "GitHub",
+              "score": 10274
+            },
+            {
+              "title": "MadsLorentzen/ai-job-search",
+              "url": "https://github.com/MadsLorentzen/ai-job-search",
+              "source": "GitHub",
+              "score": 9677
+            },
+            {
+              "title": "Zackriya-Solutions/meetily",
+              "url": "https://github.com/Zackriya-Solutions/meetily",
+              "source": "GitHub",
+              "score": 8366
+            }
+          ],
+          "takeaway": "高增长项目共同点是把 AI 变成可审计的工作流，而不是泛化助手。"
+        }
+      ]
+    },
+    {
+      "id": "tech-stack",
+      "title": "技术选型",
+      "blocks": [
+        {
+          "id": "dev-tools",
+          "heading": "本周增长最快的开发者工具是什么？",
+          "summary_md": "开发者工具热度集中在代理编排和运行环境。[openai/codex-plugin-cc](https://github.com/openai/codex-plugin-cc) 周增 4,890 星，把 Codex 接进 Claude Code，说明多代理互评和任务委派会成为新常态；[alibaba/page-agent](https://github.com/alibaba/page-agent) 周增 4,295 星，主打浏览器内 GUI agent；[TencentCloud/CubeSandbox](https://github.com/TencentCloud/CubeSandbox) 周增 2,106 星，解决 AI agent 并发、安全、轻量沙箱问题。下一波工具链竞争，不只是写代码更快，而是谁能让 agent 更安全地执行真实操作。",
+          "items": [
+            {
+              "title": "openai/codex-plugin-cc",
+              "url": "https://github.com/openai/codex-plugin-cc",
+              "source": "GitHub",
+              "score": 4890
+            },
+            {
+              "title": "alibaba/page-agent",
+              "url": "https://github.com/alibaba/page-agent",
+              "source": "GitHub",
+              "score": 4295
+            },
+            {
+              "title": "TencentCloud/CubeSandbox",
+              "url": "https://github.com/TencentCloud/CubeSandbox",
+              "source": "GitHub",
+              "score": 2106
+            }
+          ],
+          "takeaway": "agent 工具栈正在从编辑器插件扩展到浏览器控制、沙箱执行和跨代理委派。"
+        },
+        {
+          "id": "hf-models",
+          "heading": "HuggingFace 上最热的模型能做什么消费级产品？",
+          "summary_md": "HuggingFace 今日热度更偏向本地、多模态和专用基础模型。[empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF](https://huggingface.co/empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF) trending score 583，下载 1,875,602，标签包含 1M context、vision、function-calling，适合做本地长文档助理或隐私型知识库；[baidu/Unlimited-OCR](https://huggingface.co/baidu/Unlimited-OCR) score 248，下载 1,246,042，适合票据、合同、作业批改和离线资料录入；[google/tabfm-1.0.0-pytorch](https://huggingface.co/google/tabfm-1.0.0-pytorch) score 219，指向零样本表格预测，可能成为小企业数据分析和风控工具的底层能力。",
+          "items": [
+            {
+              "title": "empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
+              "url": "https://huggingface.co/empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
+              "source": "HuggingFace",
+              "score": 583
+            },
+            {
+              "title": "baidu/Unlimited-OCR",
+              "url": "https://huggingface.co/baidu/Unlimited-OCR",
+              "source": "HuggingFace",
+              "score": 248
+            },
+            {
+              "title": "google/tabfm-1.0.0-pytorch",
+              "url": "https://huggingface.co/google/tabfm-1.0.0-pytorch",
+              "source": "HuggingFace",
+              "score": 219
+            }
+          ],
+          "takeaway": "消费级模型机会正在从通用聊天转向本地长上下文、OCR 和结构化数据预测。"
+        },
+        {
+          "id": "show-hn",
+          "heading": "Show HN 高关注项目用的什么技术栈？",
+          "summary_md": "今天 HN Show 数据为空，但 GitHub 同类样本给出了替代信号：高增长 agent 项目主要落在 TypeScript、Rust 和 Python 三个栈。TypeScript 承接 IDE、浏览器、网关和 SaaS 控制面，例如 ai-job-search、page-agent、OmniRoute；Rust 出现在 Meetily、CubeSandbox、herdr 这类强调本地性能、安全隔离和终端常驻的项目；Python 仍然负责模型、语音、视频理解和安全扫描。builder 选型可以按边界拆分：前端控制面用 TypeScript，执行与沙箱用 Rust，模型胶水用 Python。",
+          "items": [
+            {
+              "title": "Zackriya-Solutions/meetily",
+              "url": "https://github.com/Zackriya-Solutions/meetily",
+              "source": "GitHub",
+              "score": 8366
+            },
+            {
+              "title": "alibaba/page-agent",
+              "url": "https://github.com/alibaba/page-agent",
+              "source": "GitHub",
+              "score": 4295
+            },
+            {
+              "title": "bradautomates/claude-video",
+              "url": "https://github.com/bradautomates/claude-video",
+              "source": "GitHub",
+              "score": 2903
+            }
+          ],
+          "takeaway": "AI 工具的主流工程形态是 TypeScript 控制面、Rust 执行层、Python 模型层。"
+        }
+      ]
+    },
+    {
+      "id": "competition",
+      "title": "竞争情报",
+      "blocks": [
+        {
+          "id": "migrations",
+          "heading": "有没有「XX is dead」或迁移类文章？",
+          "summary_md": "虽然 HN 没有迁移类文章，但 GitHub 和 Trends 同时出现替代信号。[diegosouzapw/OmniRoute](https://github.com/diegosouzapw/OmniRoute) 周增 4,424 星，主打一个端点接 231+ providers、50+ free providers，并连接 Claude Code、Codex、Cursor、Cline、Copilot；Google Trends 中 [cursor alternative](https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d) 上涨 +52.2%，关联词出现 cursor ide。这说明开发者不是只换 IDE，而是在寻找可迁移的模型路由、成本控制和代理接口层。",
+          "items": [
+            {
+              "title": "diegosouzapw/OmniRoute",
+              "url": "https://github.com/diegosouzapw/OmniRoute",
+              "source": "GitHub",
+              "score": 4424
+            },
+            {
+              "title": "cursor alternative",
+              "url": "https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 52
+            },
+            {
+              "title": "Aura: Agents + Git + Intent IDE",
+              "url": "https://www.producthunt.com/products/aura-28",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "Cursor 替代品的机会不只是编辑器，而是可迁移的 agent 工作流底座。"
+        },
+        {
+          "id": "comebacks",
+          "heading": "有没有沉寂的老项目突然复活？",
+          "summary_md": "今天更像是经典软件形态被 AI 重新激活，而不是老项目单点复活。[immich-app/immich](https://github.com/immich-app/immich) 周增 2,099 星，总星 106,995，说明自托管照片管理仍有强生命力；Product Hunt 上 [Tasks.txt](https://www.producthunt.com/products/tasks-txt) 把纯文本任务管理带回 macOS，[IvyForms](https://www.producthunt.com/products/ivyforms) 继续做 WordPress 表单工作流。这些不是新概念，但 AI 时代的用户正在重新偏好可控、本地、可迁移、低锁定的工具。",
+          "items": [
+            {
+              "title": "immich-app/immich",
+              "url": "https://github.com/immich-app/immich",
+              "source": "GitHub",
+              "score": 2099
+            },
+            {
+              "title": "Tasks.txt",
+              "url": "https://www.producthunt.com/products/tasks-txt",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "IvyForms",
+              "url": "https://www.producthunt.com/products/ivyforms",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "老形态的 comeback 不是怀旧，而是用户在 AI 自动化之后更重视数据控制权。"
+        }
+      ]
+    },
+    {
+      "id": "trends",
+      "title": "趋势判断",
+      "blocks": [
+        {
+          "id": "keywords",
+          "heading": "本周技术关键词频率有什么变化？",
+          "summary_md": "关键词涨幅最明显的是 Codex 生态和本地工具。[codex plugin cc](https://trends.google.com/trends/explore?q=codex+plugin+cc&date=now+7-d) 暴涨 +999.0%，与 GitHub 上 openai/codex-plugin-cc 周增 4,890 星互相印证；[codex cli](https://trends.google.com/trends/explore?q=codex+cli&date=now+7-d) 上涨 +25.7%，[codex](https://trends.google.com/trends/explore?q=codex&date=now+7-d) 上涨 +21.2%。同时 [meetily](https://trends.google.com/trends/explore?q=meetily&date=now+7-d) 上涨 +49.5%，对应本地 AI 会议助手周增 8,366 星。今天的关键词不是单纯 AI agent，而是 agent 如何进入具体开发和办公工具。",
+          "items": [
+            {
+              "title": "codex plugin cc",
+              "url": "https://trends.google.com/trends/explore?q=codex+plugin+cc&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 999
+            },
+            {
+              "title": "meetily",
+              "url": "https://trends.google.com/trends/explore?q=meetily&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 50
+            },
+            {
+              "title": "codex cli",
+              "url": "https://trends.google.com/trends/explore?q=codex+cli&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 26
+            }
+          ],
+          "takeaway": "Codex 生态正在从品牌搜索变成插件、CLI 和跨工具协作的需求搜索。"
+        },
+        {
+          "id": "vc-radar",
+          "heading": "VC 和 YC 在关注什么主题？",
+          "summary_md": "VC radar 今天会盯三类：第一是 agent 安全与运行时，Strix、CubeSandbox、Perfai Security 都说明 vibe coding 后的安全债会变成预算；第二是 AI 原生办公自动化，OfficeCLI、Coasty、LemonLime、Eodly 都在把代理接进旧软件和团队流程；第三是本地隐私型 AI，Meetily、TencentDB Agent Memory、Unlimited-OCR、Immich 的组合显示企业和个人都需要不出云的自动化。能融资的不是又一个 agent demo，而是能证明节省时间、降低风险、接入现有系统的工具。",
+          "items": [
+            {
+              "title": "usestrix/strix",
+              "url": "https://github.com/usestrix/strix",
+              "source": "GitHub",
+              "score": 10274
+            },
+            {
+              "title": "iOfficeAI/OfficeCLI",
+              "url": "https://github.com/iOfficeAI/OfficeCLI",
+              "source": "GitHub",
+              "score": 1717
+            },
+            {
+              "title": "Coasty",
+              "url": "https://www.producthunt.com/products/coasty",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "资本会继续追 agent，但更偏好安全、旧系统自动化和本地隐私这三条可落地路径。"
+        },
+        {
+          "id": "cooling",
+          "heading": "哪些 AI 热词在降温？",
+          "summary_md": "今天最明显的降温项是 [astryx](https://trends.google.com/trends/explore?q=astryx&date=now+7-d) 下降 -64.6%，即使 facebook/astryx 本周仍有 4,943 星增长，搜索热度已经回落。这类设计系统项目很容易在发布时获得一次性关注，但如果没有可直接迁移的组件库、Figma 到代码链路或 agent-ready 工作流，很快会从开发者日常搜索里消失。相对稳定的 [strix](https://trends.google.com/trends/explore?q=strix&date=now+7-d) 只上涨 +3.8%，也提示安全工具的 GitHub 爆发未必立刻转化成大众搜索。",
+          "items": [
+            {
+              "title": "astryx",
+              "url": "https://trends.google.com/trends/explore?q=astryx&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": -65
+            },
+            {
+              "title": "strix",
+              "url": "https://trends.google.com/trends/explore?q=strix&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 4
+            },
+            {
+              "title": "facebook/astryx",
+              "url": "https://github.com/facebook/astryx",
+              "source": "GitHub",
+              "score": 4943
+            }
+          ],
+          "takeaway": "发布热度和持续需求正在分离，设计系统类项目尤其需要可执行的迁移价值。"
+        },
+        {
+          "id": "new-radar",
+          "heading": "新词雷达：有哪些从零起飞的新概念？",
+          "summary_md": "breakout 里最值得看的是自托管和求职两个弱信号。[self hosted](https://trends.google.com/trends/explore?q=self+hosted&date=now+7-d) 上涨 +17.7%，关联查询 self hosted media software options 爆出 5,350，yamtrack 为 250，forgejo 为 60；[ai job search](https://trends.google.com/trends/explore?q=ai+job+search&date=now+7-d) 上涨 +40.0%，关联词 hiring cafe 为 170、ai job search github 为 60。它们共同说明用户不是泛泛搜索 AI，而是在找可复制的软件清单和可 fork 的自动化模板。",
+          "items": [
+            {
+              "title": "self hosted media software options",
+              "url": "https://trends.google.com/trends/explore?q=self+hosted&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 5350
+            },
+            {
+              "title": "hiring cafe",
+              "url": "https://trends.google.com/trends/explore?q=ai+job+search&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 170
+            },
+            {
+              "title": "yamtrack",
+              "url": "https://trends.google.com/trends/explore?q=self+hosted&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 250
+            }
+          ],
+          "takeaway": "新词不是模型名，而是围绕自托管清单和 AI 求职自动化的具体查询。"
+        }
+      ]
+    },
+    {
+      "id": "actions",
+      "title": "行动触发",
+      "blocks": [
+        {
+          "id": "weekend-build",
+          "heading": "今天 2 小时和一个周末分别做什么？",
+          "summary_md": "2 小时内可以做一个垂直 agent 模板，而不是完整产品：选择求职、会议、表单、发票 OCR 或代码审查之一，用现成模型和 GitHub Action 拼出可跑 demo。一个周末可以做更明确的商业验证：例如基于 Unlimited-OCR 做离线票据提取，基于 Meetily 思路做本地会议摘要，或基于 Strix 做 vibe-coded app 安全检查清单。关键是别从训练模型开始，而是从一个可上传文件、可生成结果、可导出报告的闭环开始。",
+          "items": [
+            {
+              "title": "baidu/Unlimited-OCR",
+              "url": "https://huggingface.co/baidu/Unlimited-OCR",
+              "source": "HuggingFace",
+              "score": 248
+            },
+            {
+              "title": "Zackriya-Solutions/meetily",
+              "url": "https://github.com/Zackriya-Solutions/meetily",
+              "source": "GitHub",
+              "score": 8366
+            },
+            {
+              "title": "usestrix/strix",
+              "url": "https://github.com/usestrix/strix",
+              "source": "GitHub",
+              "score": 10274
+            }
+          ],
+          "takeaway": "周末项目要选高频输入和明确输出，不要选泛化 agent 平台。"
+        },
+        {
+          "id": "pricing-models",
+          "heading": "值得学习的定价和变现模式有哪些？",
+          "summary_md": "今天的产品更适合按风险、节省时间和本地部署收费。安全类可以学 Perfai Security 和 Strix 的方向，按扫描次数、仓库数或修复报告收费；会议和语音类可以按本地转写小时数、团队席位、离线模型包收费；AI gateway 类如 OmniRoute、Opper AI、Auriko 可以围绕 token 成本优化、provider fallback 和审计日志收费。最容易卖的是把复杂账单、隐私风险或重复劳动变成一个可衡量指标。",
+          "items": [
+            {
+              "title": "Perfai Security",
+              "url": "https://www.producthunt.com/products/perfai-security-for-vibe-coded-apps",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "Opper AI",
+              "url": "https://www.producthunt.com/products/opper-ai",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "Auriko",
+              "url": "https://www.producthunt.com/products/auriko",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "AI 工具收费要绑定可量化风险或成本，而不是绑定模糊的智能感。"
+        },
+        {
+          "id": "counterintuitive",
+          "heading": "今天最反直觉的发现是什么？",
+          "summary_md": "最反直觉的是：越是 AI agent 热，越多用户在寻找本地、开源、可自托管和可迁移工具。Meetily 强调 no cloud required，TencentDB Agent Memory 强调零外部 API，Immich 继续增长，Google Trends 里 [self hosted](https://trends.google.com/trends/explore?q=self+hosted&date=now+7-d) 上涨 +17.7%。这说明用户不是拒绝 AI，而是拒绝把工作流、隐私数据和成本控制交给单一云端黑盒。builder 的机会在于把强模型体验做成本地优先和可审计。",
+          "items": [
+            {
+              "title": "TencentCloud/TencentDB-Agent-Memory",
+              "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
+              "source": "GitHub",
+              "score": 318
+            },
+            {
+              "title": "immich-app/immich",
+              "url": "https://github.com/immich-app/immich",
+              "source": "GitHub",
+              "score": 2099
+            },
+            {
+              "title": "self hosted",
+              "url": "https://trends.google.com/trends/explore?q=self+hosted&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 18
+            }
+          ],
+          "takeaway": "AI 越深入工作流，用户越在意控制权、可迁移性和本地运行。"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2026-07-09T09:23:23+00:00",
+  "reddit_highlights": []
+}

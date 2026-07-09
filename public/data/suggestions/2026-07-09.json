@@ -1,0 +1,148 @@
+{
+  "date": "2026-07-09",
+  "items": [
+    {
+      "id": "2026-07-09-1",
+      "title": "买了 Agent，团队反而散了",
+      "angle": "从「全员 Codex Max」后的协作崩塌切入，讲企业 AI 真问题不是单人效率，而是人-人-Agent 的组织接口。",
+      "opening": "一家公司给全员买了 Codex Max，结果会变成什么？不是效率飞升，而是每个人都躲进自己的 Agent 聊天框里，会议少了，沟通也少了。",
+      "story_hook": {
+        "challenge": "企业买 AI 本来是为了提升协作，结果工具越强，团队越容易退回单人模式。",
+        "twist": "真正先进的 Agent 不是更会写代码，而是能被整个团队共同指挥、记住上下文、接住跨人协作。"
+      },
+      "takeaway": "判断企业 AI 产品时，不只看单人任务完成率，要看它有没有团队上下文、权限边界、交接记录和多人协作入口。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Zara Zhang：全员买 Codex Max 后团队变成各自跟 Agent 聊天",
+          "url": "https://x.com/zarazhangrui/status/2075004775436005687"
+        },
+        {
+          "tag": "builders",
+          "ref": "Cat Wu：Claude Tag 从单人 Claude Code 走向多人团队指挥",
+          "url": "https://x.com/_catwu/status/2074925531519468012"
+        },
+        {
+          "tag": "pulse",
+          "ref": "今日 top3：AI 编程代理生态从单个 IDE 转向可复用技能与代理协作协议",
+          "url": "https://github.com/openai/codex-plugin-cc"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-09-2",
+      "title": "精致 UI 开始像 AI 垃圾",
+      "angle": "从 Nikunj 和 Swyx 同时吐槽「过度 polished」切入，讲 AI 时代审美稀缺品正在从精致变成粗粝、手工和可验证思考。",
+      "opening": "以前我们嫌页面不够精致，现在问题反过来了：越精致，越像 AI 流水线里吐出来的。薄彩边、假专业、统一模板感，正在变成新的廉价感。",
+      "story_hook": {
+        "challenge": "AI 让内容和设计更容易 polished，但 polished 本身正在快速贬值。",
+        "twist": "真正显得高级的，反而可能是手绘、粗糙、没完全修饰但能看出思考痕迹的表达。"
+      },
+      "takeaway": "做 AI 内容或产品展示时，不要只追求生成得更漂亮，要保留判断痕迹、结构草图、失败过程和人的取舍。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Nikunj Kothari：精致正在迅速和 AI 垃圾感绑定",
+          "url": "https://x.com/nikunj/status/2075033190708961675"
+        },
+        {
+          "tag": "builders",
+          "ref": "Swyx：Theo 的 Excalidraw/tldraw 风格比 Fable 幻灯片更有人味",
+          "url": "https://x.com/swyx/status/2074953099748450346"
+        },
+        {
+          "tag": "pulse",
+          "ref": "趋势判断 cooling：facebook/astryx 星标增长但搜索热度回落",
+          "url": "https://github.com/facebook/astryx"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-09-3",
+      "title": "AI 正把软件逼回 Native",
+      "angle": "从 Guillermo Rauch 的判断切入，对照 Meetily、Immich 等本地优先项目增长，讲 AI 不是只增强云端 SaaS，也在复活高性能、本地化、平台亲和的软件形态。",
+      "opening": "Web 过去赢在一句话：够用就行。但 AI 进来以后，「够用」开始不够用了。语音、OCR、会议、文件、照片、Agent 执行，都在逼软件重新贴近本地系统。",
+      "story_hook": {
+        "challenge": "过去十年很多产品默认先做 Web，因为跨平台、上线快、分发简单。",
+        "twist": "AI 工作流越深入真实任务，越需要本地文件、离线能力、性能、权限和平台原生体验。"
+      },
+      "takeaway": "做 AI 工具选型时，别默认 SaaS+Web 是唯一答案；涉及隐私文件、长时任务、音视频和系统操作时，应重新评估 native 或本地优先架构。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Guillermo Rauch：AI 会把所有软件推向 Native",
+          "url": "https://x.com/rauchg/status/2075018147330232707"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Zackriya-Solutions/meetily：本地 AI 会议助手周增 8,366 星",
+          "url": "https://github.com/Zackriya-Solutions/meetily"
+        },
+        {
+          "tag": "pulse",
+          "ref": "immich-app/immich：自托管照片管理总星 106,995",
+          "url": "https://github.com/immich-app/immich"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-09-4",
+      "title": "Agent 需要的不是更像人",
+      "angle": "从 Amjad 的「别拿 Agent 跟手写代码比」切入，结合 Claude Code /checkup 和 Codex 插件热度，讲 Agent 生态正在进入编译器式基础设施阶段。",
+      "opening": "我们还在问 Agent 能不能像工程师一样写代码，但这个问题可能问错了。没人要求编译器去对标手写汇编，Agent 也不一定要装成人。",
+      "story_hook": {
+        "challenge": "很多人还在用「它能不能替代程序员」评估 Agent，导致讨论停在演示和焦虑里。",
+        "twist": "真正变快的部分，可能是上下文清理、技能复用、插件互通、沙箱执行这些看起来不性感的基础设施。"
+      },
+      "takeaway": "评估 Agent 工具时，把关注点从「像不像人」换成「能不能稳定复用、可检查、可委派、可回滚」。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Amjad Masad：没人要求编译器去对标工程师手写汇编",
+          "url": "https://x.com/amasad/status/2075080984211624154"
+        },
+        {
+          "tag": "builders",
+          "ref": "Boris Cherny：Claude Code 新增 /checkup 清理技能、MCP、插件和慢 hooks",
+          "url": "https://x.com/bcherny/status/2074997570317779038"
+        },
+        {
+          "tag": "pulse",
+          "ref": "openai/codex-plugin-cc：周增 4,890 星，把 Codex 接进 Claude Code",
+          "url": "https://github.com/openai/codex-plugin-cc"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-09-5",
+      "title": "AI 越强，越要自托管",
+      "angle": "用 Aaron Levie 的企业知识工作判断对照今日本地优先项目爆发，讲 AI 深入文档、会议和记忆后，控制权会从锦上添花变成购买理由。",
+      "opening": "AI 正在打进法律、医疗、专业服务这些高门槛行业。但越是高价值知识工作，越没人愿意把文档、会议、记忆和成本控制全交给一个云端黑盒。",
+      "story_hook": {
+        "challenge": "强模型让企业文档和数据突然变得可用，但这些数据往往最敏感、最难迁移、最怕锁定。",
+        "twist": "用户不是拒绝 AI，而是在 AI 更有用之后，反而更想要本地、开源、可自托管和可审计。"
+      },
+      "takeaway": "做企业或个人生产力 AI，隐私、本地部署、可导出、审计日志和成本可控，应该从第一天就进入产品设计。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Aaron Levie：AI 模型正在打穿法律、专业服务、医疗等复杂知识工作",
+          "url": "https://x.com/levie/status/2075073587015516228"
+        },
+        {
+          "tag": "pulse",
+          "ref": "TencentCloud/TencentDB-Agent-Memory：强调零外部 API 的 Agent Memory",
+          "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Google Trends：self hosted 上涨 17.7%",
+          "url": "https://trends.google.com/trends/explore?q=self+hosted&date=now+7-d"
+        }
+      ]
+    }
+  ],
+  "notes": "今日主线很清楚：Agent 不再只是模型能力，而是在进入团队协作、基础设施、本地控制和审美表达。适合写偏开发者判断的稿子，少写单点模型发布。",
+  "generated_at": "2026-07-09T09:24:29+00:00",
+  "model": "gpt-5.5"
+}
