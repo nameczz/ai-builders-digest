@@ -1,0 +1,130 @@
+{
+  "date": "2026-07-11",
+  "items": [
+    {
+      "id": "2026-07-11-1",
+      "title": "偷 token 的 AI 公司来了",
+      "angle": "从 Stripe AI 负责人提到的注册滥用切入：agent 经济的第一批真实用户，可能先是骗子。",
+      "opening": "AI 时代的骗子不一定偷银行卡，也不一定偷账号。他们只要注册、吃 token、跑路，就能把成本留给平台。Stripe AI 负责人说，AI 公司每 6 个注册里就有超过 1 个可能是这种滥用。",
+      "story_hook": {
+        "challenge": "大家都在讲 agent 会买卖和支付，但真正先规模化的可能是 token 滥用、自动注册和资源盗刷。",
+        "twist": "agent 商业化越接近支付，最先涨价的不是能力，而是风控、沙箱和身份验证。"
+      },
+      "takeaway": "做 AI 产品时，不能只按 token 成本算毛利，要把注册风控、执行隔离、滥用检测当成基础设施预算。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "The MAD Podcast with Matt Turck: Stripe's AI Chief: How AI Agents Will Buy, Sell, and Pay",
+          "url": "https://www.youtube.com/@DataDrivenNYC/videos"
+        },
+        {
+          "tag": "pulse",
+          "ref": "TencentCloud/CubeSandbox 周增 2514 星",
+          "url": "https://github.com/TencentCloud/CubeSandbox"
+        },
+        {
+          "tag": "pulse",
+          "ref": "usestrix/strix 周增 6443 星",
+          "url": "https://github.com/usestrix/strix"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-11-2",
+      "title": "代理不再帮你买咖啡",
+      "angle": "把“Emily 的代理自己经营业务”作为主线，写 agent 从个人助手变成小型经营体的产品机会。",
+      "opening": "过去的 agent 演示，大多是帮 Emily 订机票、买咖啡、查日程。但 Stripe AI 负责人给出的下一幕更激进：Emily 的代理自己经营业务、买卖商品、赚取利润。问题是，如果 agent 能赚钱，它还只是工具吗？",
+      "story_hook": {
+        "challenge": "今天的产品仍按用户点击和订阅设计，但 agent 可能会变成独立的交易主体。",
+        "twist": "真正的机会不是做更聪明的聊天框，而是给 agent 提供库存、权限、结算、审计和失败回滚。"
+      },
+      "takeaway": "如果要做 agent 产品，先问它能否完成一个可计费闭环：接任务、调用工具、产生结果、记录责任、完成结算。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "The MAD Podcast with Matt Turck: Stripe's AI Chief: How AI Agents Will Buy, Sell, and Pay",
+          "url": "https://www.youtube.com/@DataDrivenNYC/videos"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Ship OS by Notion",
+          "url": "https://www.producthunt.com/products/notion"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Sim Studio",
+          "url": "https://www.producthunt.com/products/sim-studio"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-11-3",
+      "title": "Cursor 之战变成路由战",
+      "angle": "从开发者工具迁移信号切入：竞争焦点不再是单个 IDE，而是多模型、多客户端、多订阅的路由层。",
+      "opening": "如果你还在问 Cursor、Claude Code、Codex 谁会赢，可能已经问错了问题。本周 GitHub 和 Trends 的信号显示，开发者真正想要的是把这些工具接在一起。AI 编程战争正在从编辑器，转向路由器。",
+      "story_hook": {
+        "challenge": "开发者不想再为每个模型、每个客户端、每个订阅重复配置工作流。",
+        "twist": "赢家可能不是新的 IDE，而是藏在 IDE 背后的 endpoint、multiplexer 和 agent fleet。"
+      },
+      "takeaway": "评估 AI 开发工具时，不要只看单次补全效果，要看它能否路由模型、复用上下文、记录成本并接入现有终端流程。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "The MAD Podcast with Matt Turck: Stripe's AI Chief: How AI Agents Will Buy, Sell, and Pay",
+          "url": "https://www.youtube.com/@DataDrivenNYC/videos"
+        },
+        {
+          "tag": "pulse",
+          "ref": "openai/codex-plugin-cc 周增 4484 星",
+          "url": "https://github.com/openai/codex-plugin-cc"
+        },
+        {
+          "tag": "pulse",
+          "ref": "diegosouzapw/OmniRoute 周增 4268 星",
+          "url": "https://github.com/diegosouzapw/OmniRoute"
+        },
+        {
+          "tag": "pulse",
+          "ref": "ogulcancelik/herdr 周增 4714 星",
+          "url": "https://github.com/ogulcancelik/herdr"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-11-4",
+      "title": "本地 AI 为何突然变香",
+      "angle": "用 token 滥用与本地优先的反差，解释为什么会议、语音、OCR、Office 正在回到本地执行。",
+      "opening": "AI 越强，用户反而越不想把所有东西交给云端。今天最热的一批项目，不是更大的云端助手，而是本地会议总结、本地语音 agent、Office 文件自动化。背后的原因很简单：当 agent 能花钱、能操作文件、能调用工具，信任边界就变成了产品本身。",
+      "story_hook": {
+        "challenge": "云端模型带来能力，但也放大了隐私、滥用、成本和审计问题。",
+        "twist": "本地优先不再是开源爱好者的洁癖，而是 agent 进入企业和高频工作流的默认卖点。"
+      },
+      "takeaway": "做垂直 AI 工具时，可以把“本地处理、可审计执行、文件不出端”直接设计成付费理由，而不是技术细节。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "The MAD Podcast with Matt Turck: Stripe's AI Chief: How AI Agents Will Buy, Sell, and Pay",
+          "url": "https://www.youtube.com/@DataDrivenNYC/videos"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Zackriya-Solutions/meetily 周增 8795 星",
+          "url": "https://github.com/Zackriya-Solutions/meetily"
+        },
+        {
+          "tag": "pulse",
+          "ref": "huggingface/speech-to-speech",
+          "url": "https://github.com/huggingface/speech-to-speech"
+        },
+        {
+          "tag": "pulse",
+          "ref": "iOfficeAI/OfficeCLI 周增 5789 星",
+          "url": "https://github.com/iOfficeAI/OfficeCLI"
+        }
+      ]
+    }
+  ],
+  "notes": "今日 builders 素材只有 Stripe AI Chief 一条，所以所有选题都围绕 agent 支付、风控、执行层和工作流商业化展开；独立开发者一手故事偏少，不适合写人物型稿件。",
+  "generated_at": "2026-07-11T09:16:56+00:00",
+  "model": "gpt-5.5"
+}

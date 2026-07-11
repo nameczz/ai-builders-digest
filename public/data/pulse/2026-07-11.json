@@ -1,0 +1,375 @@
+{
+  "date": "2026-07-11",
+  "top3": [
+    "本周最强信号是 AI agent 工具链从单点 IDE 走向终端、网关、沙箱、Office、浏览器控制的全栈化。",
+    "本地优先仍在升温，Meetily、speech-to-speech、Unlimited-OCR 把隐私、语音和文档处理推向可消费化产品。",
+    "Google Trends 显示 Codex 相关查询大幅上升，开发者正在重新评估 Cursor、Claude Code、Codex 与多代理工作流的组合。"
+  ],
+  "intro": "今天的主题不是又一个 AI wrapper，而是 agent 基础设施开始成套出现：终端调度、模型网关、安全沙箱、Office 自动化、浏览器控制都在同一周爆发。对 builder 来说，机会不在做更大的通用助手，而在把这些新能力收敛进一个高频、可付费、低切换成本的工作流。",
+  "sections": [
+    {
+      "id": "discovery",
+      "title": "发现机会",
+      "blocks": [
+        {
+          "id": "indie-products",
+          "heading": "今天有哪些独立开发者的新产品？",
+          "summary_md": "HN Show HN 今日为空，Product Hunt 侧更像一组轻量场景实验：[San Fran Sim](https://www.producthunt.com/products/san-fran-sim) 是 startup tycoon game，[SoundPipe](https://www.producthunt.com/products/soundpipe) 把 Mac 做成混音台，[Tasks.txt](https://www.producthunt.com/products/tasks-txt) 回到纯文本任务管理。原始数据未提供票数和评论数，因此不能用热度排序，只能看方向：Mac 原生、小工具、游戏化创业和 AI coworker 仍是独立开发者最容易切入的四类。",
+          "items": [
+            {
+              "title": "San Fran Sim",
+              "url": "https://www.producthunt.com/products/san-fran-sim",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "SoundPipe",
+              "url": "https://www.producthunt.com/products/soundpipe",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "Tasks.txt",
+              "url": "https://www.producthunt.com/products/tasks-txt",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "今天独立产品的机会更偏窄场景原生工具，而不是宽泛 AI 助手。"
+        },
+        {
+          "id": "github-traction",
+          "heading": "GitHub 上哪些高增长开源项目还没有商业化？",
+          "summary_md": "GitHub weekly 最刺眼的是本地与 agent 基建：[Zackriya-Solutions/meetily](https://github.com/Zackriya-Solutions/meetily) 周增 8795 星、总星 22885，用 Rust 做本地会议转写与总结；[iOfficeAI/OfficeCLI](https://github.com/iOfficeAI/OfficeCLI) 周增 5789 星、总星 14743，给 agent 读写 Word、Excel、PowerPoint；[TencentCloud/CubeSandbox](https://github.com/TencentCloud/CubeSandbox) 周增 2514 星、总星 9629，做轻量安全沙箱。这些项目不像传统 SaaS 已经包装完整，反而给垂直商业化留下空间。",
+          "items": [
+            {
+              "title": "Zackriya-Solutions/meetily",
+              "url": "https://github.com/Zackriya-Solutions/meetily",
+              "source": "GitHub",
+              "score": 8795
+            },
+            {
+              "title": "iOfficeAI/OfficeCLI",
+              "url": "https://github.com/iOfficeAI/OfficeCLI",
+              "source": "GitHub",
+              "score": 5789
+            },
+            {
+              "title": "TencentCloud/CubeSandbox",
+              "url": "https://github.com/TencentCloud/CubeSandbox",
+              "source": "GitHub",
+              "score": 2514
+            }
+          ],
+          "takeaway": "开源高增长集中在 agent 执行层，商业化窗口在封装成可信工作流。"
+        }
+      ]
+    },
+    {
+      "id": "tech-stack",
+      "title": "技术选型",
+      "blocks": [
+        {
+          "id": "dev-tools",
+          "heading": "本周增长最快的开发者工具是什么？",
+          "summary_md": "开发者工具的增长不是单一 IDE，而是多代理编排：[ogulcancelik/herdr](https://github.com/ogulcancelik/herdr) 周增 4714 星，把 agent multiplexer 放进终端；[stablyai/orca](https://github.com/stablyai/orca) 周增 4328 星，定位为并行 agent fleet 的 ADE；[diegosouzapw/OmniRoute](https://github.com/diegosouzapw/OmniRoute) 周增 4268 星，用一个 endpoint 接 231+ providers。技术选型上，Rust 负责低延迟与本地执行，TypeScript 负责工作台和集成层，这个分工正在稳定下来。",
+          "items": [
+            {
+              "title": "ogulcancelik/herdr",
+              "url": "https://github.com/ogulcancelik/herdr",
+              "source": "GitHub",
+              "score": 4714
+            },
+            {
+              "title": "stablyai/orca",
+              "url": "https://github.com/stablyai/orca",
+              "source": "GitHub",
+              "score": 4328
+            },
+            {
+              "title": "diegosouzapw/OmniRoute",
+              "url": "https://github.com/diegosouzapw/OmniRoute",
+              "source": "GitHub",
+              "score": 4268
+            }
+          ],
+          "takeaway": "新一代开发者工具的核心卖点是调度多个 agent，而不是替换某一个编辑器。"
+        },
+        {
+          "id": "hf-models",
+          "heading": "HuggingFace 上最热的模型能做什么消费级产品？",
+          "summary_md": "HuggingFace 热点给消费产品三条线索：[tencent/Hy3](https://huggingface.co/tencent/Hy3) trending_score 655，适合中文和多轮对话应用；[empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF](https://huggingface.co/empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF) trending_score 491、下载 1944961，强调 1M context、本地 GGUF 和多模态；[baidu/Unlimited-OCR](https://huggingface.co/baidu/Unlimited-OCR) 下载 1380690，说明 OCR 仍是能立刻产品化的刚需。最适合小团队的是票据、合同、课件、医疗单据这类半结构化文档入口。",
+          "items": [
+            {
+              "title": "tencent/Hy3",
+              "url": "https://huggingface.co/tencent/Hy3",
+              "source": "HuggingFace",
+              "score": 655
+            },
+            {
+              "title": "empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
+              "url": "https://huggingface.co/empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
+              "source": "HuggingFace",
+              "score": 491
+            },
+            {
+              "title": "baidu/Unlimited-OCR",
+              "url": "https://huggingface.co/baidu/Unlimited-OCR",
+              "source": "HuggingFace",
+              "score": 210
+            }
+          ],
+          "takeaway": "消费级 AI 产品最短路径是把长上下文和 OCR 变成具体文件工作流。"
+        }
+      ]
+    },
+    {
+      "id": "competition",
+      "title": "竞争情报",
+      "blocks": [
+        {
+          "id": "migrations",
+          "heading": "有没有「XX is dead」或迁移类文章？",
+          "summary_md": "HN 今日没有迁移类原始数据，但 GitHub 与 Trends 已经给出替代迁移信号：[openai/codex-plugin-cc](https://github.com/openai/codex-plugin-cc) 周增 4484 星，让用户在 Claude Code 中调用 Codex；[OmniRoute](https://github.com/diegosouzapw/OmniRoute) 周增 4268 星，主打一个 endpoint 接 Claude Code、Codex、Cursor、Cline、Copilot；Google Trends 里 [cursor alternative](https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d) 上升 +54.7%。竞争不再是 IDE 对 IDE，而是用户在多模型、多订阅、多客户端之间寻找路由层。",
+          "items": [
+            {
+              "title": "openai/codex-plugin-cc",
+              "url": "https://github.com/openai/codex-plugin-cc",
+              "source": "GitHub",
+              "score": 4484
+            },
+            {
+              "title": "diegosouzapw/OmniRoute",
+              "url": "https://github.com/diegosouzapw/OmniRoute",
+              "source": "GitHub",
+              "score": 4268
+            }
+          ],
+          "takeaway": "真正的迁移机会在模型路由和订阅抽象层，而不是再做一个聊天界面。"
+        },
+        {
+          "id": "comebacks",
+          "heading": "有没有沉寂的老项目突然复活？",
+          "summary_md": "今日更像是旧软件场景被 agent 重新点燃，而不是某个老项目复活。[iOfficeAI/OfficeCLI](https://github.com/iOfficeAI/OfficeCLI) 周增 5789 星，把 Office 文件自动化做成单二进制工具；Product Hunt 的 [Coasty](https://www.producthunt.com/products/coasty) 直接定位为运行 legacy software 的 Computer-Use-Agent；[Basedash SCIM](https://www.producthunt.com/products/basedash) 则把企业访问治理做成随组织变化自动同步。老系统没有死，只是需要 agent 可操作的接口层。",
+          "items": [
+            {
+              "title": "iOfficeAI/OfficeCLI",
+              "url": "https://github.com/iOfficeAI/OfficeCLI",
+              "source": "GitHub",
+              "score": 5789
+            },
+            {
+              "title": "Coasty",
+              "url": "https://www.producthunt.com/products/coasty",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "Basedash SCIM",
+              "url": "https://www.producthunt.com/products/basedash",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "legacy software 的新机会不是重写，而是让 agent 能可靠操作它。"
+        }
+      ]
+    },
+    {
+      "id": "trends",
+      "title": "趋势判断",
+      "blocks": [
+        {
+          "id": "keywords",
+          "heading": "本周技术关键词频率有什么变化？",
+          "summary_md": "Google Trends 最强主线是 Codex 生态：[codex plugin cc](https://trends.google.com/trends/explore?q=codex+plugin+cc&date=now+7-d) 上升 +999.0%，[codex](https://trends.google.com/trends/explore?q=codex&date=now+7-d) 上升 +86.1%，[codex cli](https://trends.google.com/trends/explore?q=codex+cli&date=now+7-d) 上升 +44.7%。这与 GitHub 的 [openai/codex-plugin-cc](https://github.com/openai/codex-plugin-cc) 周增 4484 星互相印证：开发者正在把 Codex 从单独工具接入 Claude Code、CLI 和已有工作流。",
+          "items": [
+            {
+              "title": "codex plugin cc",
+              "url": "https://trends.google.com/trends/explore?q=codex+plugin+cc&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 999
+            },
+            {
+              "title": "codex",
+              "url": "https://trends.google.com/trends/explore?q=codex&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 86.1
+            },
+            {
+              "title": "codex cli",
+              "url": "https://trends.google.com/trends/explore?q=codex+cli&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 44.7
+            }
+          ],
+          "takeaway": "Codex 的增长重点已经从模型能力转向嵌入开发者现有工作流。"
+        },
+        {
+          "id": "cooling",
+          "heading": "哪些 AI 热词在降温？",
+          "summary_md": "降温词里最值得警惕的是品牌词和泛概念：[meetily](https://trends.google.com/trends/explore?q=meetily&date=now+7-d) 下降 -72.9%，但 GitHub 仍周增 8795 星，说明搜索热度可能是发布峰值回落；[open source alternative](https://trends.google.com/trends/explore?q=open+source+alternative&date=now+7-d) 下降 -16.4%，[claude video](https://trends.google.com/trends/explore?q=claude+video&date=now+7-d) 下降 -8.2%。结论不是这些方向没机会，而是泛叙事变弱，用户更关心能直接嵌进工作流的具体工具。",
+          "items": [
+            {
+              "title": "meetily",
+              "url": "https://trends.google.com/trends/explore?q=meetily&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": -72.9
+            },
+            {
+              "title": "open source alternative",
+              "url": "https://trends.google.com/trends/explore?q=open+source+alternative&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": -16.4
+            },
+            {
+              "title": "claude video",
+              "url": "https://trends.google.com/trends/explore?q=claude+video&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": -8.2
+            }
+          ],
+          "takeaway": "AI 叙事降温时，具体工作流产品反而更容易留下真实用户。"
+        },
+        {
+          "id": "new-radar",
+          "heading": "新词雷达：有哪些从零起飞的新概念？",
+          "summary_md": "破圈词集中在模型版本、CLI 和工作入口：[codex](https://trends.google.com/trends/explore?q=codex&date=now+7-d) 的 rising 包含 codex 5.6 sol、gpt 5.6 sol、chatgpt 5.6、chatgpt work；[codex cli](https://trends.google.com/trends/explore?q=codex+cli&date=now+7-d) 的 rising 包含 grok 4.5、gpt5.6、grok cli；[ai agent](https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d) 的 rising 出现 ai agent fundraising sivaclaw lyzr。弱信号是：用户已经开始围绕 agent 的价格、版本、入口和筹资故事主动搜索。",
+          "items": [
+            {
+              "title": "codex 5.6 sol",
+              "url": "https://trends.google.com/trends/explore?q=codex&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 1400
+            },
+            {
+              "title": "grok 4.5",
+              "url": "https://trends.google.com/trends/explore?q=codex+cli&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 2750
+            },
+            {
+              "title": "chatgpt work",
+              "url": "https://trends.google.com/trends/explore?q=codex&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 500
+            }
+          ],
+          "takeaway": "新词不只围绕模型名，而是围绕如何购买、接入和替代现有工具。"
+        },
+        {
+          "id": "vc-radar",
+          "heading": "VC 和 YC 在关注什么主题？",
+          "summary_md": "从数据交叉看，VC 雷达会盯三件事：第一是 agent 操作系统，Product Hunt 有 [Ship OS by Notion](https://www.producthunt.com/products/notion)、[Sim](https://www.producthunt.com/products/sim-studio) 和 [ChatGPT Work](https://www.producthunt.com/products/chatgpt-work)；第二是安全执行层，[usestrix/strix](https://github.com/usestrix/strix) 周增 6443 星，[CubeSandbox](https://github.com/TencentCloud/CubeSandbox) 周增 2514 星；第三是本地隐私，[meetily](https://github.com/Zackriya-Solutions/meetily) 周增 8795 星。YC 式机会会偏向把这些能力包装进一个清晰职位工作流。",
+          "items": [
+            {
+              "title": "usestrix/strix",
+              "url": "https://github.com/usestrix/strix",
+              "source": "GitHub",
+              "score": 6443
+            },
+            {
+              "title": "Ship OS by Notion",
+              "url": "https://www.producthunt.com/products/notion",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "Sim",
+              "url": "https://www.producthunt.com/products/sim-studio",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "融资叙事会从通用 agent 转向安全、可控、能落地到岗位的 agent OS。"
+        }
+      ]
+    },
+    {
+      "id": "actions",
+      "title": "行动触发",
+      "blocks": [
+        {
+          "id": "weekend-build",
+          "heading": "今天 2 小时和一个周末分别做什么？",
+          "summary_md": "2 小时内可以做一个 agent router 评测页：接入 Codex、Claude Code、Cursor 的同一任务样例，记录耗时、成本、失败率，并用 [OmniRoute](https://github.com/diegosouzapw/OmniRoute) 或 [codex-plugin-cc](https://github.com/openai/codex-plugin-cc) 做最小集成。一个周末则更适合做垂直 demo：选 Office、会议、OCR、网页操作其中一类，把 [OfficeCLI](https://github.com/iOfficeAI/OfficeCLI)、[meetily](https://github.com/Zackriya-Solutions/meetily) 或 [Unlimited-OCR](https://huggingface.co/baidu/Unlimited-OCR) 包成一个可上传文件、可导出结果、可计费的单页工具。",
+          "items": [
+            {
+              "title": "OmniRoute",
+              "url": "https://github.com/diegosouzapw/OmniRoute",
+              "source": "GitHub",
+              "score": 4268
+            },
+            {
+              "title": "OfficeCLI",
+              "url": "https://github.com/iOfficeAI/OfficeCLI",
+              "source": "GitHub",
+              "score": 5789
+            },
+            {
+              "title": "Unlimited-OCR",
+              "url": "https://huggingface.co/baidu/Unlimited-OCR",
+              "source": "HuggingFace",
+              "score": 210
+            }
+          ],
+          "takeaway": "先做可比较的路由评测，再做可收费的垂直工作流。"
+        },
+        {
+          "id": "pricing-models",
+          "heading": "值得学习的定价和变现模式有哪些？",
+          "summary_md": "今日最值得借鉴的是按执行资源和工作流价值定价，而不是按聊天次数定价。Meetily 这类本地会议助手适合个人买断加团队同步订阅；OfficeCLI 和 CubeSandbox 适合按自动化任务数、并发沙箱、文件页数收费；OmniRoute 这类网关适合免费入口加高级路由、压缩、省钱报表订阅。Product Hunt 上 [Basedash SCIM](https://www.producthunt.com/products/basedash) 的企业访问同步也提醒小团队：如果产品碰到合规和权限，定价可以直接进入 team plan。",
+          "items": [
+            {
+              "title": "Zackriya-Solutions/meetily",
+              "url": "https://github.com/Zackriya-Solutions/meetily",
+              "source": "GitHub",
+              "score": 8795
+            },
+            {
+              "title": "TencentCloud/CubeSandbox",
+              "url": "https://github.com/TencentCloud/CubeSandbox",
+              "source": "GitHub",
+              "score": 2514
+            },
+            {
+              "title": "Basedash SCIM",
+              "url": "https://www.producthunt.com/products/basedash",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "agent 产品的价格锚点应从 token 转向并发、文件、权限和节省的人工时间。"
+        },
+        {
+          "id": "counterintuitive",
+          "heading": "今天最反直觉的发现是什么？",
+          "summary_md": "最反直觉的是：最热的 AI 项目并不都在追云端大模型，反而大量回到本地、终端和传统文件。[meetily](https://github.com/Zackriya-Solutions/meetily) 强调 100% local processing，[huggingface/speech-to-speech](https://github.com/huggingface/speech-to-speech) 做本地语音 agent，[OfficeCLI](https://github.com/iOfficeAI/OfficeCLI) 处理 Office 文件，[DesktopCommanderMCP](https://github.com/wonderwhy-er/DesktopCommanderMCP) 给 Claude 终端和文件系统能力。AI 越强，用户越需要控制边界、数据位置和可审计执行。",
+          "items": [
+            {
+              "title": "Zackriya-Solutions/meetily",
+              "url": "https://github.com/Zackriya-Solutions/meetily",
+              "source": "GitHub",
+              "score": 8795
+            },
+            {
+              "title": "huggingface/speech-to-speech",
+              "url": "https://github.com/huggingface/speech-to-speech",
+              "source": "GitHub",
+              "score": 811
+            },
+            {
+              "title": "wonderwhy-er/DesktopCommanderMCP",
+              "url": "https://github.com/wonderwhy-er/DesktopCommanderMCP",
+              "source": "GitHub",
+              "score": 328
+            }
+          ],
+          "takeaway": "AI agent 的下一波增长可能不是更云端，而是更本地、更可控。"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2026-07-11T09:16:09+00:00",
+  "reddit_highlights": []
+}
