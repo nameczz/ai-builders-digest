@@ -1,0 +1,153 @@
+{
+  "date": "2026-07-12",
+  "items": [
+    {
+      "id": "2026-07-12-1",
+      "title": "AI 编程越强，活越多",
+      "angle": "从杰文斯悖论切入：coding agent 不是减少软件需求，而是在把知识工作的需求总量一起抬高。",
+      "opening": "Swyx 和 Aaron Levie 今天都在讲同一件事：AI 把软件生产成本打下来，不代表软件岗位消失。真正反直觉的是，越便宜，大家越想做更多软件、更多分析、更多自动化。",
+      "story_hook": {
+        "challenge": "大家以为 AI 让程序员变少，但 builder 们看到的是需求暴涨。",
+        "twist": "编程可能不是被替代的行业，而是知识工作全面涨价前的预告片。"
+      },
+      "takeaway": "开发者该把 coding agent 当成需求放大器，重新设计自己的工作流和交付边界。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Swyx 关于杰文斯悖论和知识工作需求暴涨的推文",
+          "url": "https://x.com/swyx/status/2076155833428431012"
+        },
+        {
+          "tag": "builders",
+          "ref": "Aaron Levie 关于 AI 降低软件成本、带来需求爆炸的推文",
+          "url": "https://x.com/levie/status/2076116544980214164"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Google Trends: codex 7 日变化 +22.8%",
+          "url": "https://trends.google.com/trends/explore?q=codex&date=now+7-d"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-12-2",
+      "title": "AI CLI 开始被查账了",
+      "angle": "从 Grok Build CLI 被审计切入：AI 工具的竞争壁垒正在从模型能力转向权限、日志和可审计性。",
+      "opening": "HN 上一篇分析 Grok Build CLI 到底给 xAI 发送了什么的帖子，拿到 274 分和 126 条评论。开发者不是不想让 AI 接管终端，而是开始要求它把每一步账都摊开。",
+      "story_hook": {
+        "challenge": "AI CLI 想获得文件、终端和项目上下文权限，但开发者天然不信任黑箱上传。",
+        "twist": "越是强大的 agent，越需要像企业软件一样提供审计、沙箱和可见日志。"
+      },
+      "takeaway": "做 AI 开发工具时，把权限说明、网络请求记录和本地审计报告做成一等功能。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Thibault Sottiaux 关于 Codex app、Claude Code 与 GPT-5.6 Sol 拼接工作流的推文",
+          "url": "https://x.com/thsottiaux/status/2076119366647894371"
+        },
+        {
+          "tag": "pulse",
+          "ref": "HN: What xAI's Grok Build CLI Actually Sends to xAI",
+          "url": "https://gist.github.com/cereblab/dc9a40bc26120f4540e4e09b75ffb547"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub: TencentCloud/CubeSandbox 一周新增 2416 stars",
+          "url": "https://github.com/TencentCloud/CubeSandbox"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-12-3",
+      "title": "会议助手正在逃离云端",
+      "angle": "从 Meetily 暴涨切入：AI meeting assistant 的卖点不再是总结，而是本地、隐私和可部署。",
+      "opening": "Meetily 一周新增 8579 stars，卖点不是更会写会议纪要，而是 Rust、本地转录、说话人分离和 Ollama 总结。会议助手这个赛道，正在从云端 SaaS 变成本地软件。",
+      "story_hook": {
+        "challenge": "会议记录是高频刚需，但企业和专业服务场景很难接受音频与纪要全部上云。",
+        "twist": "真正打开付费场景的，可能不是更聪明的总结，而是更少的数据外流。"
+      },
+      "takeaway": "如果做会议类 AI 产品，优先选择垂直场景加本地优先架构，再补团队同步、模板和合规审计。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "No Priors 采访 Booking.com CEO Glenn Fogel，讨论不存在永恒护城河",
+          "url": "https://www.youtube.com/watch?v=8nj_0wZkbtA"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub: Zackriya-Solutions/meetily 一周新增 8579 stars",
+          "url": "https://github.com/Zackriya-Solutions/meetily"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub: Meetily 仍是本地优先 AI 工具爆发代表",
+          "url": "https://github.com/Zackriya-Solutions/meetily"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-12-4",
+      "title": "求职也被 Agent 化了",
+      "angle": "从 ai-job-search 一周 16363 stars 切入：个人自动化不只发生在写代码，也在重写求职流水线。",
+      "opening": "今天 GitHub 增长冠军不是一个模型，也不是一个 IDE，而是 ai-job-search：一周新增 16363 stars。它用 Claude Code 在本机完成岗位评估、CV 定制、求职信和面试准备。",
+      "story_hook": {
+        "challenge": "求职本来是碎片化、重复性极强、又高度个人化的工作。",
+        "twist": "Agent 最先规模化进入的个人场景，可能不是日程管理，而是求职这种短周期高压力任务。"
+      },
+      "takeaway": "观察个人 AI 产品时，不要只看日常助手，要找目标明确、流程重复、结果可衡量的短周期任务。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Swyx 关于 coding agent 效率外溢到所有知识工作的推文",
+          "url": "https://x.com/swyx/status/2076155833428431012"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub: MadsLorentzen/ai-job-search 一周新增 16363 stars",
+          "url": "https://github.com/MadsLorentzen/ai-job-search"
+        },
+        {
+          "tag": "pulse",
+          "ref": "今日 pulse: AI 求职自动化成为开源增长冠军",
+          "url": "https://github.com/MadsLorentzen/ai-job-search"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-12-5",
+      "title": "别再搜 Cursor 替代品",
+      "angle": "从搜索降温和 Codex 走热的反差切入：用户不再寻找单一替代品，而是在拼多代理工作台。",
+      "opening": "Google Trends 里 cursor alternative 下降 26.4%，但 codex 上升 22.8%，codex-plugin-cc 一周新增 4030 stars。用户不是不换工具了，而是不再相信一个新 IDE 能解决全部问题。",
+      "story_hook": {
+        "challenge": "过去的叙事是找一个 Cursor 替代品，换掉旧工具。",
+        "twist": "现在的真实需求是把 Codex、Claude Code、浏览器、终端和沙箱连成可控工作流。"
+      },
+      "takeaway": "AI 开发工具的产品判断要从单点助手转向互操作：插件、MCP、权限边界和任务委派会更重要。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Thibault Sottiaux 关于 GPT 5.6 Sol 速度、token 和前端能力的推文",
+          "url": "https://x.com/thsottiaux/status/2076145711922696371"
+        },
+        {
+          "tag": "builders",
+          "ref": "Zara Zhang 关于 5.6 Sol 做前端很强的推文",
+          "url": "https://x.com/zarazhangrui/status/2076130810143367453"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub: openai/codex-plugin-cc 一周新增 4030 stars",
+          "url": "https://github.com/openai/codex-plugin-cc"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Google Trends: cursor alternative 7 日变化 -26.4%",
+          "url": "https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d"
+        }
+      ]
+    }
+  ],
+  "notes": "今日主线很清晰：不是模型单点跃迁，而是 agent 进入真实工作流后的信任、审计、本地化和多工具编排。独立开发者素材偏少，可优先写工具链和开源增长。",
+  "generated_at": "2026-07-12T09:17:58+00:00",
+  "model": "gpt-5.5"
+}

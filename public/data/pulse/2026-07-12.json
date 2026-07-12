@@ -1,0 +1,363 @@
+{
+  "date": "2026-07-12",
+  "top3": [
+    "今天最值得关注的是本地优先 AI 工具继续爆发：Meetily 一周新增 8579 stars，AI meeting assistant 正在从云端 SaaS 变成本地软件。",
+    "AI 求职自动化成为开源增长冠军：MadsLorentzen/ai-job-search 一周新增 16363 stars，说明求职、简历、面试准备正在被重新打包成个人自动化流水线。",
+    "开发者对代理工具的信任问题升温：HN 上 Grok Build CLI 实际发送数据的帖子拿到 274 分和 126 条评论，隐私审计会变成 AI CLI 的标配。"
+  ],
+  "intro": "今天的主线不是单个模型能力跃迁，而是 AI 代理进入真实工作流后的三件事：本地化、可审计、多代理编排。GitHub 增长榜几乎被 Claude Code、Codex、MCP、sandbox、agent workspace 占满，Product Hunt 则在把这些能力包装成更窄的工作产品。",
+  "sections": [
+    {
+      "id": "discovery",
+      "title": "发现机会",
+      "blocks": [
+        {
+          "id": "indie-products",
+          "heading": "今天有哪些独立开发者的新产品？",
+          "summary_md": "HN Show HN 今天没有可用样本，Product Hunt 侧更像是一组围绕工作流的小工具试探：API 测试的 [FetchSandbox](https://www.producthunt.com/products/fetchsandbox)、邮箱同步 issue tracker 的 [ServiceBeard](https://www.producthunt.com/products/servicebeard)、Mac 音频混音板 [SoundPipe](https://www.producthunt.com/products/soundpipe)、AI 视频编辑器 [ChatCut](https://www.producthunt.com/products/chatcut-ai-video-editor)。原始数据未提供 PH 票数和评论数，因此 items 中 score 记为 0，不做热度排序判断。值得看的是方向：不是泛 AI 助手，而是把 AI 塞进一个具体、低频但痛的工作缝隙。",
+          "items": [
+            {
+              "title": "FetchSandbox",
+              "url": "https://www.producthunt.com/products/fetchsandbox",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "ServiceBeard",
+              "url": "https://www.producthunt.com/products/servicebeard",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "ChatCut",
+              "url": "https://www.producthunt.com/products/chatcut-ai-video-editor",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "独立产品的机会在窄工作流，不在再造一个通用 AI 助手。"
+        },
+        {
+          "id": "github-traction",
+          "heading": "GitHub 上哪些高增长开源项目还没有商业化？",
+          "summary_md": "本周开源增长最强的是 [MadsLorentzen/ai-job-search](https://github.com/MadsLorentzen/ai-job-search)，一周 16363 stars、总计 21197 stars，用 Claude Code 在本机完成岗位评估、CV 定制、求职信和面试准备。另一个值得盯的是 [Zackriya-Solutions/meetily](https://github.com/Zackriya-Solutions/meetily)，一周 8579 stars、总计 23327 stars，Rust、本地转录、说话人分离、Ollama 总结，已经踩中隐私会议记录的高付费场景。这两类项目都天然能长出托管同步、团队模板、合规审计和企业部署收入。",
+          "items": [
+            {
+              "title": "MadsLorentzen/ai-job-search",
+              "url": "https://github.com/MadsLorentzen/ai-job-search",
+              "source": "GitHub",
+              "score": 16363
+            },
+            {
+              "title": "Zackriya-Solutions/meetily",
+              "url": "https://github.com/Zackriya-Solutions/meetily",
+              "source": "GitHub",
+              "score": 8579
+            },
+            {
+              "title": "ogulcancelik/herdr",
+              "url": "https://github.com/ogulcancelik/herdr",
+              "source": "GitHub",
+              "score": 4349
+            }
+          ],
+          "takeaway": "高增长开源项目的商业化入口，是把本地能力补上团队协作和合规层。"
+        }
+      ]
+    },
+    {
+      "id": "tech-stack",
+      "title": "技术选型",
+      "blocks": [
+        {
+          "id": "dev-tools",
+          "heading": "本周增长最快的开发者工具是什么？",
+          "summary_md": "开发者工具榜的共同点是给 AI 代理加手脚和边界。[openai/codex-plugin-cc](https://github.com/openai/codex-plugin-cc) 一周 4030 stars、总计 27801 stars，把 Codex 接入 Claude Code 做代码审查或任务委派；[wonderwhy-er/DesktopCommanderMCP](https://github.com/wonderwhy-er/DesktopCommanderMCP) 一周 1451 stars、总计 7847 stars，让 Claude 获得终端、文件搜索和 diff 编辑能力；[TencentCloud/CubeSandbox](https://github.com/TencentCloud/CubeSandbox) 一周 2416 stars、总计 9734 stars，主打给 AI Agents 的即时、并发、安全轻量沙箱。栈选择上，Rust 和 TypeScript 正在分工：Rust 做本地性能和隔离，TS 做代理集成界面。",
+          "items": [
+            {
+              "title": "openai/codex-plugin-cc",
+              "url": "https://github.com/openai/codex-plugin-cc",
+              "source": "GitHub",
+              "score": 4030
+            },
+            {
+              "title": "TencentCloud/CubeSandbox",
+              "url": "https://github.com/TencentCloud/CubeSandbox",
+              "source": "GitHub",
+              "score": 2416
+            },
+            {
+              "title": "wonderwhy-er/DesktopCommanderMCP",
+              "url": "https://github.com/wonderwhy-er/DesktopCommanderMCP",
+              "source": "GitHub",
+              "score": 1451
+            }
+          ],
+          "takeaway": "AI 开发工具的下一层基础设施，是代理权限、执行环境和跨工具编排。"
+        },
+        {
+          "id": "hf-models",
+          "heading": "HuggingFace 上最热的模型能做什么消费级产品？",
+          "summary_md": "HuggingFace 热榜显示消费级机会集中在多模态、本地长上下文和文档视觉。[tencent/Hy3](https://huggingface.co/tencent/Hy3) trending score 676、下载 8655、705 likes，适合做中文对话和轻量 agent backend；[empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF](https://huggingface.co/empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF) trending score 458、下载 1967677，强调 GGUF、1M context、function calling 和 vision，适合本地知识库、长文审计、个人研究助手；[baidu/Unlimited-OCR](https://huggingface.co/baidu/Unlimited-OCR) 下载 1430656，可直接落到票据、合同、手写材料整理。",
+          "items": [
+            {
+              "title": "tencent/Hy3",
+              "url": "https://huggingface.co/tencent/Hy3",
+              "source": "HuggingFace",
+              "score": 676
+            },
+            {
+              "title": "empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
+              "url": "https://huggingface.co/empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
+              "source": "HuggingFace",
+              "score": 458
+            },
+            {
+              "title": "baidu/Unlimited-OCR",
+              "url": "https://huggingface.co/baidu/Unlimited-OCR",
+              "source": "HuggingFace",
+              "score": 204
+            }
+          ],
+          "takeaway": "消费级 AI 产品要避开聊天框，优先做长文档、视觉输入和本地隐私。"
+        },
+        {
+          "id": "show-hn",
+          "heading": "Show HN 高关注项目用的什么技术栈？",
+          "summary_md": "今天 HN Show HN 没有采集到项目，但 GitHub 高增长项目给出了替代信号：Meetily 用 Rust 做本地转录和会议摘要，herdr 用 Rust 做终端里的 agent multiplexer，CubeSandbox 也用 Rust 做 AI Agent 沙箱；而 ai-job-search、DesktopCommanderMCP、facebook/astryx、stablyai/orca、alibaba/page-agent 则集中在 TypeScript。结论很清晰：涉及本机资源、并发隔离、实时音视频的部分偏 Rust；涉及工作台、MCP、浏览器控制、设计系统的部分偏 TypeScript。",
+          "items": [
+            {
+              "title": "Zackriya-Solutions/meetily",
+              "url": "https://github.com/Zackriya-Solutions/meetily",
+              "source": "GitHub",
+              "score": 8579
+            },
+            {
+              "title": "ogulcancelik/herdr",
+              "url": "https://github.com/ogulcancelik/herdr",
+              "source": "GitHub",
+              "score": 4349
+            },
+            {
+              "title": "alibaba/page-agent",
+              "url": "https://github.com/alibaba/page-agent",
+              "source": "GitHub",
+              "score": 3317
+            }
+          ],
+          "takeaway": "AI agent 产品的实用栈正在变成 Rust 后台加 TypeScript 编排层。"
+        }
+      ]
+    },
+    {
+      "id": "competition",
+      "title": "竞争情报",
+      "blocks": [
+        {
+          "id": "migrations",
+          "heading": "有没有「XX is dead」或迁移类文章？",
+          "summary_md": "今天没有典型的「XX is dead」迁移文章，但 HN 上 [What xAI's Grok Build CLI Actually Sends to xAI](https://gist.github.com/cereblab/dc9a40bc26120f4540e4e09b75ffb547) 拿到 274 分和 126 条评论，释放的是同一类竞争信号：开发者正在重新评估把代码、终端、项目上下文交给 AI CLI 的代价。与此同时，GitHub 上 DesktopCommanderMCP、CubeSandbox、chrome-devtools-mcp 都在增长，说明市场不会停止授权 AI 操作环境，只会要求更细的审计、沙箱和可见日志。",
+          "items": [
+            {
+              "title": "What xAI's Grok Build CLI Actually Sends to xAI",
+              "url": "https://gist.github.com/cereblab/dc9a40bc26120f4540e4e09b75ffb547",
+              "source": "HN",
+              "score": 274
+            },
+            {
+              "title": "ChromeDevTools/chrome-devtools-mcp",
+              "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+              "source": "GitHub",
+              "score": 1097
+            }
+          ],
+          "takeaway": "AI CLI 的竞争壁垒会从模型效果转向可审计的权限边界。"
+        },
+        {
+          "id": "comebacks",
+          "heading": "有没有沉寂的老项目突然复活？",
+          "summary_md": "今天的复活信号来自老牌基础设施而不是老消费产品。GitHub daily 里 [hashicorp/terraform](https://github.com/hashicorp/terraform) 仍有 229 weekly stars、总计 49424 stars，[oven-sh/bun](https://github.com/oven-sh/bun) 658 weekly stars、总计 94609 stars，[Catch2](https://github.com/catchorg/Catch2) 113 weekly stars、总计 21208 stars。它们没有突然翻红，但在 AI agent 风潮里重新获得上下文：代理需要可靠测试、可重复部署和更快运行时，这让传统工程工具从背景设施变成 agent workflow 的关键依赖。",
+          "items": [
+            {
+              "title": "hashicorp/terraform",
+              "url": "https://github.com/hashicorp/terraform",
+              "source": "GitHub",
+              "score": 229
+            },
+            {
+              "title": "oven-sh/bun",
+              "url": "https://github.com/oven-sh/bun",
+              "source": "GitHub",
+              "score": 658
+            },
+            {
+              "title": "catchorg/Catch2",
+              "url": "https://github.com/catchorg/Catch2",
+              "source": "GitHub",
+              "score": 113
+            }
+          ],
+          "takeaway": "AI agent 越强，越会把测试、部署和运行时这些老工具重新推到前台。"
+        }
+      ]
+    },
+    {
+      "id": "trends",
+      "title": "趋势判断",
+      "blocks": [
+        {
+          "id": "keywords",
+          "heading": "本周技术关键词频率有什么变化？",
+          "summary_md": "Google Trends 里最明确的上升词是 [codex](https://trends.google.com/trends/explore?q=codex&date=now+7-d)，7 日变化 +22.8%，关联查询出现 codex 5.6 sol、gpt 5.6 sol、chatgpt 5.6、chatgpt work。这个变化和 GitHub 榜单吻合：openai/codex-plugin-cc 一周 4030 stars，ChromeDevTools MCP、DesktopCommanderMCP、stablyai/orca 也都在涨。也就是说，热度不是单纯模型发布，而是开发者在寻找把 Codex、Claude Code、浏览器、终端和多代理工作台连起来的方式。",
+          "items": [
+            {
+              "title": "codex",
+              "url": "https://trends.google.com/trends/explore?q=codex&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 23
+            },
+            {
+              "title": "openai/codex-plugin-cc",
+              "url": "https://github.com/openai/codex-plugin-cc",
+              "source": "GitHub",
+              "score": 4030
+            }
+          ],
+          "takeaway": "Codex 热度的实质，是开发环境正在从单助手转向多代理互操作。"
+        },
+        {
+          "id": "cooling",
+          "heading": "哪些 AI 热词在降温？",
+          "summary_md": "降温最明显的是 [meetily](https://trends.google.com/trends/explore?q=meetily&date=now+7-d) -84.1%、[cursor alternative](https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d) -26.4%、[herdr](https://trends.google.com/trends/explore?q=herdr&date=now+7-d) -23.5%、[open source alternative](https://trends.google.com/trends/explore?q=open+source+alternative&date=now+7-d) -8.8%。但这不是需求消失，而是搜索峰值回落：Meetily 仍有 8579 weekly stars，herdr 仍有 4349 weekly stars。判断上，用户不再搜泛化替代品，而是在直接试具体工具。",
+          "items": [
+            {
+              "title": "meetily",
+              "url": "https://trends.google.com/trends/explore?q=meetily&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": -84
+            },
+            {
+              "title": "cursor alternative",
+              "url": "https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": -26
+            },
+            {
+              "title": "herdr",
+              "url": "https://trends.google.com/trends/explore?q=herdr&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": -24
+            }
+          ],
+          "takeaway": "泛替代品叙事在降温，具体工作流工具还在升温。"
+        },
+        {
+          "id": "new-radar",
+          "heading": "新词雷达：有哪些从零起飞的新概念？",
+          "summary_md": "破圈词里最强的是围绕 [codex cli](https://trends.google.com/trends/explore?q=codex+cli&date=now+7-d) 的关联查询：gpt 5.6 sol breakout 52750、grok 4.5 breakout 18450、gpt5.6 breakout 1150、grok cli breakout 140；围绕 [codex](https://trends.google.com/trends/explore?q=codex&date=now+7-d) 的 codex 5.6 sol breakout 1700、chatgpt work breakout 600 也值得看。这里的弱信号不是某个词，而是用户把模型版本、CLI、工作产品和解决方案一起搜索，说明购买心智从 API benchmark 转向可完成任务的组合包。",
+          "items": [
+            {
+              "title": "gpt 5.6 sol",
+              "url": "https://trends.google.com/trends/explore?q=codex+cli&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 52750
+            },
+            {
+              "title": "grok 4.5",
+              "url": "https://trends.google.com/trends/explore?q=codex+cli&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 18450
+            },
+            {
+              "title": "chatgpt work",
+              "url": "https://trends.google.com/trends/explore?q=codex&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 600
+            }
+          ],
+          "takeaway": "新词不是单点概念，而是模型、CLI、工作空间和解决方案的组合搜索。"
+        }
+      ]
+    },
+    {
+      "id": "actions",
+      "title": "行动触发",
+      "blocks": [
+        {
+          "id": "weekend-build",
+          "heading": "今天 2 小时和一个周末分别做什么？",
+          "summary_md": "2 小时可以做一个「AI CLI 隐私审计器」雏形：读取本地命令日志、网络请求域名、上传文件路径，生成一页 Markdown 风险报告，直接借 HN 上 Grok Build CLI 274 分、126 评论的情绪。一个周末则可以做「本地优先会议助手」垂直版：参考 Meetily 的 Rust、本地转录、Ollama 摘要方向，但只服务一个细分场景，比如律师会谈、销售复盘或招聘面试，把模板、导出和敏感词遮罩做完整。",
+          "items": [
+            {
+              "title": "What xAI's Grok Build CLI Actually Sends to xAI",
+              "url": "https://gist.github.com/cereblab/dc9a40bc26120f4540e4e09b75ffb547",
+              "source": "HN",
+              "score": 274
+            },
+            {
+              "title": "Zackriya-Solutions/meetily",
+              "url": "https://github.com/Zackriya-Solutions/meetily",
+              "source": "GitHub",
+              "score": 8579
+            }
+          ],
+          "takeaway": "今天最小可做的产品，是给 AI 工具补上用户看得懂的审计层。"
+        },
+        {
+          "id": "pricing-models",
+          "heading": "值得学习的定价和变现模式有哪些？",
+          "summary_md": "今天没有直接的 MRR 或 pricing 讨论，但产品形态已经提示定价路径。Meetily 这类本地会议助手适合开源核心加团队同步、审计保留、模板市场收费；ai-job-search 适合个人一次性付费或求职季订阅，因为用户目标明确且周期短；CubeSandbox、DesktopCommanderMCP、Codex plugin 相关工具适合按席位、执行分钟、沙箱并发数收费。Product Hunt 上 Basedash SCIM、ServiceBeard、StoryChief Connect 也说明，B2B 小工具的买点往往是减少集成维护，而不是模型本身。",
+          "items": [
+            {
+              "title": "MadsLorentzen/ai-job-search",
+              "url": "https://github.com/MadsLorentzen/ai-job-search",
+              "source": "GitHub",
+              "score": 16363
+            },
+            {
+              "title": "Basedash SCIM",
+              "url": "https://www.producthunt.com/products/basedash",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "ServiceBeard",
+              "url": "https://www.producthunt.com/products/servicebeard",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "AI 工具的收费点要落在团队协作、合规和集成维护，而不是调用模型。"
+        },
+        {
+          "id": "counterintuitive",
+          "heading": "今天最反直觉的发现是什么？",
+          "summary_md": "最反直觉的是：越是 AI agent 自动化，越需要本地、沙箱和人工可审计。GitHub 增长榜里一边是 ai-job-search 16363 weekly stars、stablyai/orca 4368 weekly stars、alibaba/page-agent 3317 weekly stars，说明用户想让代理做更多；另一边是 Grok Build CLI 数据发送审计在 HN 拿到 274 分、CubeSandbox 一周 2416 stars，说明用户也同时害怕代理做太多。真正的产品机会不在让 AI 更主动，而在让用户敢于让它主动。",
+          "items": [
+            {
+              "title": "stablyai/orca",
+              "url": "https://github.com/stablyai/orca",
+              "source": "GitHub",
+              "score": 4368
+            },
+            {
+              "title": "alibaba/page-agent",
+              "url": "https://github.com/alibaba/page-agent",
+              "source": "GitHub",
+              "score": 3317
+            },
+            {
+              "title": "TencentCloud/CubeSandbox",
+              "url": "https://github.com/TencentCloud/CubeSandbox",
+              "source": "GitHub",
+              "score": 2416
+            }
+          ],
+          "takeaway": "AI agent 的下一轮竞争，不是谁更自动，而是谁更值得被授权。"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2026-07-12T09:16:58+00:00",
+  "reddit_highlights": []
+}
