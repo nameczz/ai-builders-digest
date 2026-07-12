@@ -1,0 +1,92 @@
+{
+  "date": "2026-07-12",
+  "generated_at": "2026-07-12T00:47:03+00:00",
+  "inbox_id": "sanyoumu@agentmail.to",
+  "window": {
+    "start": "2026-07-11T00:46:15+00:00",
+    "end": "2026-07-12T00:46:02.966461+00:00",
+    "source": "previous_digest_generated_at"
+  },
+  "count": 2,
+  "highlights": [
+    "AINews 追踪了 OpenAI GPT-5.6 与 ChatGPT/Codex 产品调整：更细的模型/算力档位带来控制力，也带来明显 UX 复杂度。",
+    "OpenAI 在发布后快速修正：重置用量限制、承认默认设置过于昂贵，并承诺恢复更熟悉的导航模式。",
+    "Opinion AI 的自动化指南强调：可靠 AI automation 的核心不是聪明 agent，而是可审阅、可交接、可重复的工作流输出。",
+    "两封邮件共同指向一个趋势：AI builder 的竞争重点正在从“模型能力”转向“选择复杂度、工作流可靠性和人类交接体验”。"
+  ],
+  "items": [
+    {
+      "id": "ainews-gpt-56-codex-launch-ux",
+      "title_zh": "今日精读：GPT-5.6 与 ChatGPT/Codex 发布后的复杂度问题",
+      "title_original": "[AINews] not much happened today",
+      "source": "AINews / Latent Space",
+      "from": "AINews <swyx+ainews@substack.com>",
+      "subject": "[AINews] not much happened today",
+      "url": "https://www.latent.space/p/ainews-not-much-happened-today-f5c",
+      "message_id": "<20260711025308.3.39ee17c822f85520@mg-d1.substack.com>",
+      "published_at": "2026-07-11T02:53:08.000Z",
+      "importance": "high",
+      "summary_zh": "这期 AINews 汇总了 2026 年 7 月 9 日至 10 日 AI 社区讨论，重点是 OpenAI GPT-5.6 的模型/算力分层、ChatGPT/Codex 产品发布后的 UX 争议，以及社区对新模型选择方式的消化。邮件提到 API 用户现在面对多达 36 种 GPT-5.6 变体，普通用户则主要通过更简单的滑杆交互使用；社区一方面认可更细粒度控制，另一方面批评配置组合过多、缺少足够清晰的自动路由。OpenAI 也对发布中的问题快速回应，包括多次重置使用限制、承认默认设置可能把用户推向过高成本，并承诺恢复更熟悉的侧边栏和导航模式。",
+      "deep_read_zh": "这封 AINews 最值得精读的部分，不是单个 benchmark 或某个社区段子，而是 OpenAI GPT-5.6 和 ChatGPT/Codex 发布后暴露出的产品复杂度问题。邮件描述了一个很典型的转折：模型能力继续增强，但用户面对的选择也显著增加。GPT-5.6 被拆成 Luna、Terra、Sol 等不同层级，再叠加多个 effort 选项；对 API 用户来说，组合数甚至达到 36 种。OpenAI 员工解释 Max 与 Ultra 的差别：前者像是一个模型在难题上花更长时间，后者则并行调用子 agent 处理任务；同时 5.5 到 5.6 的 effort 设置并不能直接类比。这些信息说明，模型产品已经不再只是“选哪个模型”，而是进入“如何分配推理预算、并行度和任务策略”的阶段。\n\n但复杂度立刻转化为 UX 问题。社区反馈集中在几个点：配置太多、缺少清晰 Auto 路由、ChatGPT Work 与 Codex 的拆分让人困惑、聊天和项目更难找到、用量消耗比预期更快。邮件特别指出 OpenAI 的反应很直接：重置使用限制、承认默认值让用户倾向于使用过于昂贵的设置，并承诺恢复熟悉的导航模式。这对 builder 的启发很明确：当 AI 产品把能力暴露得更细时，必须同时提供默认策略、成本可见性和稳定的信息架构。否则，能力越强，用户越容易被选择负担和成本不确定性劝退。",
+      "why_important": "这是一个关于 AI 产品化的真实案例：模型能力提升之后，瓶颈转向路由、定价、默认值和界面解释。对做 agent、IDE、API 封装或企业 AI 工具的人来说，这比单纯模型发布更有参考价值。",
+      "impact": "builder 需要认真设计“默认自动化”和“高级控制”的边界。未来 AI 产品可能不只是拼模型能力，而是拼谁能把复杂模型族、算力档位和成本反馈包装成用户可理解的工作流。",
+      "key_points": [
+        "GPT-5.6 引入更明确的模型/算力阶梯，社区讨论集中在 Luna、Terra、Sol 和不同 effort 组合。",
+        "API 用户面对多达 36 种 GPT-5.6 变体，普通用户则主要通过更简单的滑杆使用。",
+        "OpenAI 员工解释 Max 偏向单模型更长推理，Ultra 偏向并行子 agent。",
+        "用户反馈包括 ChatGPT Work / Codex 拆分困惑、项目和聊天更难找、用量消耗过快。",
+        "OpenAI 快速回应，包括重置使用限制、承认默认设置过贵，并承诺恢复熟悉导航。"
+      ],
+      "reading_notes": [
+        "把它当作一次 AI 产品复杂度管理案例来读，而不只是模型新闻。",
+        "观察 OpenAI 如何在“自动路由”和“高级可控”之间重新找平衡。",
+        "思考自己的产品是否也把过多模型参数、成本档位或 agent 模式直接暴露给用户。",
+        "关注默认设置如何影响用户成本、体验和信任。"
+      ],
+      "tags": [
+        "model",
+        "agent",
+        "product",
+        "developer-tools",
+        "openai"
+      ],
+      "related_sources": [
+        "Opinion AI 的自动化指南从工作流可靠性角度补充了同一类问题"
+      ]
+    },
+    {
+      "id": "opinion-ai-automation-complete-guide",
+      "title_zh": "AI 自动化的关键不是 agent，而是可靠交接",
+      "title_original": "AI Automations: The Complete Guide + Free Resources",
+      "source": "Opinion AI",
+      "from": "Opinion AI <emergingai@substack.com>",
+      "subject": "AI Automations: The Complete Guide + Free Resources",
+      "url": "https://emergingai.substack.com/p/ai-automations-the-complete-guide",
+      "message_id": "<20260711220444.3.ceee37faed9ceb3c@mg2.substack.com>",
+      "published_at": "2026-07-11T22:04:44.000Z",
+      "importance": "medium",
+      "summary_zh": "这封 Opinion AI 是一篇 AI automation 入门与实践指南，核心观点是：有用的自动化不是一次聪明回答，而是从触发、取上下文、规则和 AI 判断、安全执行、结果检查，到给人类留下可审阅交接物的完整流程。作者用自动发现重复供应商发票的例子说明，真正有价值的不是 AI 能读文档，而是它能把文件提取、字段比对、异常说明和人工复核准备好。文章强调，判断一个 automation 是否可靠，可以看它能否在无人盯着时运行，并在结束后留下草稿、报告、更新记录、工单、对账文件或明确异常。对 builder 来说，最实用的建议是先把一个重复交接做得“无聊地可靠”，再连接下一个环节，而不是一上来做宏大的“AI 员工”。",
+      "why_important": "它把 AI 自动化从“prompt 技巧”拉回到工作流设计、异常处理和人工复核。这个视角对做内部工具、运营自动化、agent 产品的人更接近真实落地。",
+      "impact": "小而清晰的自动化场景可能比大而泛的 AI employee 更容易产生 ROI。产品设计上应优先定义触发器、边界、输出物和人工交接，而不是先堆模型或 agent 能力。",
+      "key_points": [
+        "可靠自动化应始于触发事件，终于可审阅的交接结果。",
+        "作者建议用“能否无人值守运行并留下有用结果”判断 automation 是否成熟。",
+        "窄场景如 inbox triage 或发票查重，通常比“运行整个业务”的 AI 员工项目更可行。"
+      ],
+      "reading_notes": [],
+      "tags": [
+        "automation",
+        "agent",
+        "workflow",
+        "builder",
+        "operations"
+      ],
+      "related_sources": [
+        "AINews 的 GPT-5.6/Codex 讨论从产品复杂度角度形成补充"
+      ],
+      "deep_read_zh": ""
+    }
+  ],
+  "skipped": [],
+  "notes": "今日精读选择 AINews，因为它包含更强的事实增量：GPT-5.6 模型分层、API 配置复杂度、ChatGPT/Codex 发布后的 UX 反馈，以及 OpenAI 的快速修正。Opinion AI 的自动化指南保留为单篇总结，因为它是正式 newsletter 且对 builder 有方法论价值。邮件“Start here — I picked your AI reading path”正文为空，更像订阅路径/欢迎引导邮件，未计入 items。"
+}
