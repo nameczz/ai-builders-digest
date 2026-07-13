@@ -1,0 +1,93 @@
+{
+  "date": "2026-07-13",
+  "top3": [],
+  "intro": "（无 LLM 编辑模式：以下为原始数据归档，建议安装 codex CLI 重新生成。）",
+  "sections": [
+    {
+      "id": "discovery",
+      "title": "发现机会",
+      "blocks": [
+        {
+          "id": "indie-products",
+          "heading": "今天有哪些独立开发者的新产品？",
+          "summary_md": "（自动归档模式）今日 Show HN 与 Product Hunt 上线的独立开发者产品列表。",
+          "items": [
+            {
+              "title": "AgentKey",
+              "url": "https://www.producthunt.com/products/agentkey",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "UnitPay",
+              "url": "https://www.producthunt.com/products/unitpay",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Loomal",
+              "url": "https://www.producthunt.com/products/loomal",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "NoMac.app",
+              "url": "https://www.producthunt.com/products/nomac",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Fudge MCP",
+              "url": "https://www.producthunt.com/products/fudge-mcp",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "AI Media Buyer By Creatify",
+              "url": "https://www.producthunt.com/products/creatify",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Marked QL",
+              "url": "https://www.producthunt.com/products/marked-ql",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "TailMux",
+              "url": "https://www.producthunt.com/products/tailmux",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Simba Voice Agents",
+              "url": "https://www.producthunt.com/products/speechify",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Playground",
+              "url": "https://www.producthunt.com/products/nyx-4",
+              "source": "ProductHunt"
+            }
+          ],
+          "takeaway": ""
+        }
+      ]
+    },
+    {
+      "id": "tech-stack",
+      "title": "技术选型",
+      "blocks": []
+    },
+    {
+      "id": "competition",
+      "title": "竞争情报",
+      "blocks": []
+    },
+    {
+      "id": "trends",
+      "title": "趋势判断",
+      "blocks": []
+    },
+    {
+      "id": "actions",
+      "title": "行动触发",
+      "blocks": []
+    }
+  ],
+  "generated_at": "2026-07-13T09:23:37+00:00",
+  "reddit_highlights": []
+}
