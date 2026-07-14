@@ -1,0 +1,135 @@
+{
+  "date": "2026-07-14",
+  "generated_at": "2026-07-14T00:47:12+00:00",
+  "inbox_id": "sanyoumu@agentmail.to",
+  "window": {
+    "start": "2026-07-13T00:47:05+00:00",
+    "end": "2026-07-14T00:45:57.973426+00:00",
+    "source": "previous_digest_generated_at"
+  },
+  "count": 3,
+  "highlights": [
+    "今日精读：The Neuron 把 AI 竞争的核心从“模型能力”拉回到 HBM 内存、推理成本、模型路由和代理协作规则这些基础设施约束上。",
+    "Claude 的 Microsoft 365 集成正在从单点插件变成跨 Word、Excel、PowerPoint、Outlook 的办公工作流代理，关键价值是减少上下文搬运和数据不一致。",
+    "TLDR Design 聚焦设计与 AI 产品化：Apple 起诉 OpenAI、Figma 收购 Bud 团队、Meta 因隐私争议下线 Muse Image，显示 AI 进入设计工具和消费产品后的法律与信任成本上升。"
+  ],
+  "items": [
+    {
+      "id": "ai-bottleneck-memory-model-routing",
+      "title_zh": "AI 下一阶段瓶颈不是模型，而是内存、成本和调度",
+      "title_original": "SK Hynix: memory shortage lasts until 2030",
+      "source": "The Neuron",
+      "from": "The Neuron <theneuron@newsletter.theneurondaily.com>",
+      "subject": "😺 SK Hynix: memory shortage lasts until 2030",
+      "url": "https://www.tomshardware.com/pc-components/dram/sk-hynix-says-2027-will-be-the-worst-year-for-memory-shortage-forecasts-crunch-to-last-until-2030-ceo-shares-grim-outlook-on-the-day-sk-hynix-gets-listed-on-nasdaq",
+      "message_id": "<oA7H3HJoSlyVKRHf7cIz9w@geopod-ismtpd-63>",
+      "published_at": "2026-07-13T10:34:15.000Z",
+      "importance": "high",
+      "summary_zh": "这封 The Neuron 的主线是：AI 行业的瓶颈正在从“谁的模型更强”转向“谁能更好地管理物理资源、推理成本和人机协作边界”。邮件以 SK Hynix 对内存短缺可能在 2027 年恶化并持续到 2030 年的警告开场，串联了 Microsoft 365 Copilot 选择 GPT-5.6 作为首选模型、同时把部分 Excel 和 Outlook 请求路由到内部模型以降低成本，OpenAI 安全负责人离职，Mistral 发布 Robostral Navigate 机器人模型，以及 DeepMind 提出人类与 AI agent 何时互相委派工作的框架。",
+      "deep_read_zh": "这封邮件最值得精读的是它把 AI 产业的焦点从前台 demo 拉回到了后台约束。SK Hynix 警告内存短缺可能在 2027 年达到更紧张的阶段，并可能延续到 2030 年；这对 AI 尤其关键，因为大模型训练和推理依赖高带宽内存为 GPU 持续供给数据。邮件没有把这件事当成单一供应链新闻，而是把它放进更大的资源分配问题里看：一边，OpenAI 宣布 GPT-5.6 成为 Microsoft 365 Copilot 的首选模型，说明在质量敏感任务上，客户仍然希望使用最强模型；另一边，Microsoft 又被提到会把部分 Excel 和 Outlook 请求路由到内部模型，以减少对 OpenAI 和 Anthropic 的依赖并控制推理成本。这两个方向并不矛盾，反而指向同一个判断：未来 AI 产品的竞争力不只是“接入最强模型”，而是能否根据任务价值、成本、延迟和可用资源，把请求分配给合适的模型和系统。邮件还把 OpenAI 安全团队调整、Mistral 进入机器人场景、DeepMind 的代理委派框架放在一起，暗示 AI 落地越深入，越需要治理、权限、信任和物理世界执行能力。对 builder 来说，这是一条很实际的提醒：不要只围绕模型榜单设计产品，也要设计模型路由、成本控制、任务分级、失败回退和人类审批机制。",
+      "why_important": "它把多个看似分散的新闻统一到一个更底层的趋势：AI 的下一轮竞争会被供应链、成本结构和任务调度能力塑造，而不是只由模型分数决定。",
+      "impact": "AI builder 需要更早考虑多模型路由、推理成本预算、任务质量分层和人工介入边界。对行业来说，基础设施提供商、内存供应商和云平台的议价能力可能继续上升。",
+      "key_points": [
+        "SK Hynix 警告内存短缺可能在 2027 年恶化，并可能持续到 2030 年。",
+        "高带宽内存是 AI GPU 运行大模型的关键资源，供应约束会直接影响 AI 经济性。",
+        "Microsoft 365 Copilot 将 GPT-5.6 作为首选模型，但也会把部分 Excel 和 Outlook 请求路由到内部模型来降低成本。",
+        "邮件认为 AI 产品的赢家未必总是使用最强模型，而是能为不同任务匹配合适资源的团队。",
+        "Mistral 发布 Robostral Navigate，DeepMind 提出人机代理委派框架，说明 AI 正在进入更复杂的物理和组织流程。"
+      ],
+      "reading_notes": [
+        "哪些任务必须用旗舰模型，哪些任务可以交给便宜模型或内部模型？",
+        "如果内存和云容量长期紧张，AI 产品的定价和毛利会怎样变化？",
+        "产品是否已经具备任务分级、成本上限、失败回退和人工审批机制？",
+        "AI agent 的“委派”边界应该由模型能力决定，还是由风险、责任和可验证性决定？"
+      ],
+      "tags": [
+        "infra",
+        "model",
+        "agent",
+        "cost",
+        "hardware"
+      ],
+      "related_sources": []
+    },
+    {
+      "id": "claude-microsoft-365-office-workflow",
+      "title_zh": "Claude 的 Office 集成重点不是进 Excel，而是打通办公交付链",
+      "title_original": "Claude for Excel, PowerPoint, Word, and Outlook: Complete Tutorial",
+      "source": "Opinion AI",
+      "from": "Opinion AI <emergingai@substack.com>",
+      "subject": "Claude for Excel, PowerPoint, Word, and Outlook: Complete Tutorial",
+      "url": "https://emergingai.substack.com/p/claude-for-excel-powerpoint-word",
+      "message_id": "<20260713203515.3.9a2f77aaaf24807d@mg-d0.substack.com>",
+      "published_at": "2026-07-13T20:35:15.000Z",
+      "importance": "medium",
+      "summary_zh": "这封 Opinion AI 是一篇 Claude for Microsoft 365 的使用教程摘要，核心不是“AI 进了 Excel”，而是 Claude 可以在 Word、Excel、PowerPoint 和 Outlook 之间延续同一个任务上下文。邮件举例说，Claude 可以读取邮件线程和附件，把内容转成 Word 备忘录，把数字放进 Excel 公式，再生成带可编辑图表的 PowerPoint，并在 Outlook 起草回复。它强调用户仍需打开文件并批准结果，但 Claude 负责跨文件搬运上下文，减少重复解释、复制粘贴和不同文档数字不一致的问题。",
+      "why_important": "这代表办公 AI 从单个应用内助手，转向跨应用、跨文件的工作流代理。真正价值在于保持同一来源事实、减少人工搬运和降低交付物之间的不一致。",
+      "impact": "对 builder 来说，这类产品形态提示企业 AI 应优先解决“多工具协同”和“上下文一致性”，而不只是给单个编辑器加聊天框。企业采用时也需要关注权限、文件开放状态、审批流程和最终校验。",
+      "key_points": [
+        "Excel、PowerPoint 和 Word 集成已面向 Claude 付费计划一般可用，Outlook 仍是 beta。",
+        "Claude 可以在打开的 Office 文件之间读写和传递上下文。",
+        "Pro 和 Max 默认启用跨应用能力，Team 和 Enterprise 需要组织管理员启用 Office agents。"
+      ],
+      "reading_notes": [],
+      "tags": [
+        "agent",
+        "productivity",
+        "enterprise",
+        "workflow"
+      ],
+      "related_sources": [],
+      "deep_read_zh": ""
+    },
+    {
+      "id": "design-ai-legal-product-trust",
+      "title_zh": "设计工具进入 AI agent 阶段，法律、隐私和产品信任问题同步升温",
+      "title_original": "Apple Sues OpenAI ⚖️, Figma Acquires Bud 🎨, Meta Pulls Muse Image 🤖",
+      "source": "TLDR Design",
+      "from": "TLDR Design <dan@tldrnewsletter.com>",
+      "subject": "Apple Sues OpenAI ⚖️, Figma Acquires Bud 🎨, Meta Pulls Muse Image 🤖",
+      "url": "https://refer.tldr.tech/3bc21e1b/4",
+      "message_id": "<0100019f5b620ea4-f98d2b03-365e-46a8-b00c-ca2f0cd7be32-000000@email.amazonses.com>",
+      "published_at": "2026-07-13T12:09:40.000Z",
+      "importance": "medium",
+      "summary_zh": "这封 TLDR Design 汇总了设计和 AI 产品领域的一组高密度动态。最重的新闻是邮件称 Apple 起诉 OpenAI，指控其通过前 Apple 员工窃取商业秘密和未发布硬件信息；与此同时，两家公司仍通过 Apple Intelligence 保持合作。Figma 收购 Bud 背后的团队，以加强 vibe-coding、AI agent、原型和应用构建能力，Bud 和 Orchids 将在 7 月 18 日前关闭。Meta 则在上线三天后撤下 Instagram 和 WhatsApp 的 Muse Image 功能，原因是默认允许基于公开 Instagram 账号生成图片而引发隐私和演员权益反弹。邮件还补充了设计系统成熟度框架、AI 时代设计 craft 的价值转向，以及 DESIGN.md、UXPin Forge 等面向 AI agent 的设计工具。",
+      "why_important": "这封邮件集中体现了 AI 进入设计、原型和消费产品后的三类问题：能力增强、组织流程改变，以及法律与隐私风险。Figma 的动作尤其说明设计工具正在向可执行产品构建平台靠近。",
+      "impact": "设计团队需要把 AI 生成、真实组件、设计系统文档和评估标准接起来。产品团队也要更谨慎处理用户身份、公开内容和生成式功能的默认权限，否则上线速度会被信任危机抵消。",
+      "key_points": [
+        "Figma 收购 Bud 团队，延续其向 Figma Make、Codex、Claude Code 和 AI agent 集成扩展的方向。",
+        "Meta 因隐私争议在上线三天后下线 Muse Image，但 Muse Video 仍可用。",
+        "邮件强调 AI 让设计执行商品化后，设计师价值会更多转向判断、验证、质量标准和责任。"
+      ],
+      "reading_notes": [],
+      "tags": [
+        "design",
+        "agent",
+        "legal",
+        "product",
+        "privacy"
+      ],
+      "related_sources": [],
+      "deep_read_zh": ""
+    }
+  ],
+  "skipped": [
+    {
+      "message_id": "<0100019f5bae13e1-d69bbd8b-f96b-45e1-9558-d0369a79a512-000000@email.amazonses.com>",
+      "subject": "Claude Code browser 🌍, Cursor general agent 🤖, Claude Fable extension ⏳",
+      "from": "TLDR AI <dan@tldrnewsletter.com>",
+      "reason": "system"
+    },
+    {
+      "message_id": "<0100019f5b30e791-82437942-a76c-4018-b0cf-35495d5c20bc-000000@email.amazonses.com>",
+      "subject": "Postgres outage reasons 🛠, Claude Code is token-hungry 📈, LLMs vs the hype 💻",
+      "from": "TLDR Dev <dan@tldrnewsletter.com>",
+      "reason": "system"
+    },
+    {
+      "message_id": "<0100019f5b0ec75d-85ec107c-2e9a-4522-8194-393e153d86e3-000000@email.amazonses.com>",
+      "subject": "Apple sues OpenAI ⚖️, Apple's AI chips 🤖, not understanding your codebase 👨‍💻",
+      "from": "TLDR <dan@tldrnewsletter.com>",
+      "reason": "system"
+    }
+  ],
+  "notes": "今日共识别 3 封正式 newsletter，均已进入 items；未发现欢迎邮件、验证码、纯广告或完全重复邮件。今日精读选择 The Neuron，因为它把硬件供应、模型路由、推理成本和 agent 委派放在同一个框架下，对 AI builder 的产品架构和成本决策最有启发。"
+}
