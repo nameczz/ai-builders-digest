@@ -1,0 +1,62 @@
+{
+  "date": "2026-07-14",
+  "items": [
+    {
+      "id": "2026-07-14-1",
+      "title": "I moved our maintainer agent t",
+      "angle": "（自动归档模式：未生成）",
+      "opening": "I moved our maintainer agent to the cloud and they are fighting already. https://t.co/LKq0st8sns",
+      "story_hook": {
+        "challenge": "",
+        "twist": ""
+      },
+      "takeaway": "",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Peter Steinberger",
+          "url": "https://x.com/steipete/status/2076923300593422560"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-14-2",
+      "title": "We shipped! iOS and Android ap",
+      "angle": "（自动归档模式：未生成）",
+      "opening": "We shipped! iOS and Android apps also got updates and they look great.\n\nHad to bump Node to keep things smooth, if the autoupdater doesn't work, run the web installer and it'll take care of that for y",
+      "story_hook": {
+        "challenge": "",
+        "twist": ""
+      },
+      "takeaway": "",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Peter Steinberger",
+          "url": "https://x.com/steipete/status/2076917691139674373"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-14-3",
+      "title": "Tomorrow might be 8M active us",
+      "angle": "（自动归档模式：未生成）",
+      "opening": "Tomorrow might be 8M active user celebration day. Just saying",
+      "story_hook": {
+        "challenge": "",
+        "twist": ""
+      },
+      "takeaway": "",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Thibault Sottiaux",
+          "url": "https://x.com/thsottiaux/status/2076907789763621237"
+        }
+      ]
+    }
+  ],
+  "notes": "fallback mode: codex CLI not available",
+  "generated_at": "2026-07-14T09:42:30+00:00",
+  "model": "gpt-5.5"
+}

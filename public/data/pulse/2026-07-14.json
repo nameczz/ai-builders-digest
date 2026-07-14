@@ -1,0 +1,93 @@
+{
+  "date": "2026-07-14",
+  "top3": [],
+  "intro": "（无 LLM 编辑模式：以下为原始数据归档，建议安装 codex CLI 重新生成。）",
+  "sections": [
+    {
+      "id": "discovery",
+      "title": "发现机会",
+      "blocks": [
+        {
+          "id": "indie-products",
+          "heading": "今天有哪些独立开发者的新产品？",
+          "summary_md": "（自动归档模式）今日 Show HN 与 Product Hunt 上线的独立开发者产品列表。",
+          "items": [
+            {
+              "title": "Sales Studio",
+              "url": "https://www.producthunt.com/products/sales-studio",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "AutoShelf 2.0",
+              "url": "https://www.producthunt.com/products/autoshelf",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Portero",
+              "url": "https://www.producthunt.com/products/portero",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Mojave Paint",
+              "url": "https://www.producthunt.com/products/mojave-paint",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Animos App",
+              "url": "https://www.producthunt.com/products/animos-app",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Branda",
+              "url": "https://www.producthunt.com/products/branda-open-source-on-brand-ad-maker",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Trump Accounts",
+              "url": "https://www.producthunt.com/products/trump-accounts",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Flyout",
+              "url": "https://www.producthunt.com/products/flyout",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Sourclip",
+              "url": "https://www.producthunt.com/products/sourclip",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "BugShot",
+              "url": "https://www.producthunt.com/products/bugshot-3",
+              "source": "ProductHunt"
+            }
+          ],
+          "takeaway": ""
+        }
+      ]
+    },
+    {
+      "id": "tech-stack",
+      "title": "技术选型",
+      "blocks": []
+    },
+    {
+      "id": "competition",
+      "title": "竞争情报",
+      "blocks": []
+    },
+    {
+      "id": "trends",
+      "title": "趋势判断",
+      "blocks": []
+    },
+    {
+      "id": "actions",
+      "title": "行动触发",
+      "blocks": []
+    }
+  ],
+  "generated_at": "2026-07-14T09:32:30+00:00",
+  "reddit_highlights": []
+}
