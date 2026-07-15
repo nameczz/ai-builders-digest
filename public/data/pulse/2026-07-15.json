@@ -1,0 +1,357 @@
+{
+  "date": "2026-07-15",
+  "top3": [
+    "AI agent 工具链今天的主线从写代码扩展到管桌面、管 Office、管多代理协作，OfficeCLI、Orca、OmniRoute 和 herdr 的周增长都很强。",
+    "安全与隐私成为第二条暗线：Claude 记忆泄露文章拿到 237 分，LinkedIn 身份盗用讨论也显示信任层正在变成新产品机会。",
+    "本地模型和端侧能力继续升温，GGUF、WebGPU、OCR、语音转写和本地会议助手正在把消费级 AI 产品推向离线可控。"
+  ],
+  "intro": "今天的 BuilderPulse 更像是一张 agent 基础设施地图：上游是 GitHub 上暴涨的 agent 控制面、沙箱、网关和 Office 自动化，下游是 Product Hunt 上开始产品化的协作、会议、视频和桌面小工具。综合来看，机会不在再造一个聊天框，而在把模型接进具体工作流，同时把安全、隐私和成本控制做成默认能力。",
+  "sections": [
+    {
+      "id": "discovery",
+      "title": "发现机会",
+      "blocks": [
+        {
+          "id": "indie-products",
+          "heading": "今天有哪些独立开发者的新产品？",
+          "summary_md": "HN Show HN 今天没有采集到项目，Product Hunt 侧更值得看的是围绕 agent 协作和轻量桌面工作流的小产品。[ccshare](https://www.producthunt.com/products/ccshare) 主打 multiplayer claude code，原始数据未提供票数和评论数；[QuickQuill](https://www.producthunt.com/products/quickquill-2) 是 Mac 上私有、本地的会议笔记；[Tiptap AI Toolkit](https://www.producthunt.com/products/tiptap) 则把 AI 编辑能力嵌进实时文档。\n\n值得关注的不是单点功能，而是这些产品都在抢「AI 直接进入现有工作场景」的位置：代码协作、会议记录、文档编辑、桌面整理和视频反馈。今天适合验证的方向是选一个高频工作流，把 AI 做成后台执行器，而不是前台聊天对象。",
+          "items": [
+            {
+              "title": "ccshare",
+              "url": "https://www.producthunt.com/products/ccshare",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "QuickQuill",
+              "url": "https://www.producthunt.com/products/quickquill-2",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "Tiptap AI Toolkit",
+              "url": "https://www.producthunt.com/products/tiptap",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "独立产品的机会正在从「生成内容」转向「接管一个具体工作流」。"
+        },
+        {
+          "id": "github-traction",
+          "heading": "GitHub 上哪些高增长开源项目还没有商业化？",
+          "summary_md": "GitHub weekly 最强信号是 agent 操作系统化。[iOfficeAI/OfficeCLI](https://github.com/iOfficeAI/OfficeCLI) 本周新增 7129 星，总星 17201，把 Word、Excel、PowerPoint 做成 agent 可读写的单二进制工具；[stablyai/orca](https://github.com/stablyai/orca) 新增 5724 星，总星 19498，定位是并行 agent 队列的 ADE；[ogulcancelik/herdr](https://github.com/ogulcancelik/herdr) 新增 3115 星，总星 16618，做终端里的 agent multiplexer。\n\n这些项目的共同点是离商业化只差一层托管、权限、审计和团队协作。Builder 可以不去卷模型，而是围绕这些开源工具做 hosted control plane、企业权限层、使用量计费或私有部署服务。",
+          "items": [
+            {
+              "title": "iOfficeAI/OfficeCLI",
+              "url": "https://github.com/iOfficeAI/OfficeCLI",
+              "source": "GitHub",
+              "score": 7129
+            },
+            {
+              "title": "stablyai/orca",
+              "url": "https://github.com/stablyai/orca",
+              "source": "GitHub",
+              "score": 5724
+            },
+            {
+              "title": "ogulcancelik/herdr",
+              "url": "https://github.com/ogulcancelik/herdr",
+              "source": "GitHub",
+              "score": 3115
+            }
+          ],
+          "takeaway": "agent 基建的开源热度已经足够高，商业机会在治理层和托管层。"
+        }
+      ]
+    },
+    {
+      "id": "tech-stack",
+      "title": "技术选型",
+      "blocks": [
+        {
+          "id": "dev-tools",
+          "heading": "本周增长最快的开发者工具是什么？",
+          "summary_md": "本周开发者工具的增长集中在 agent 编排、沙箱、安全执行和模型网关。[TencentCloud/CubeSandbox](https://github.com/TencentCloud/CubeSandbox) 本周新增 1944 星，总星 10231，关键词是 instant、concurrent、secure、lightweight sandbox；[diegosouzapw/OmniRoute](https://github.com/diegosouzapw/OmniRoute) 新增 4297 星，总星 17497，用一个端点接 231+ providers，并强调 15-95% token 节省；[openai/codex-plugin-cc](https://github.com/openai/codex-plugin-cc) 新增 2063 星，总星 28706，把 Codex 接进 Claude Code。\n\n技术选型上，今天的判断是不要只选 IDE 插件，而要选能被多个 agent、多个模型、多个运行环境复用的中间层。沙箱、网关、任务分发和日志审计会成为 agent 产品的基础设施四件套。",
+          "items": [
+            {
+              "title": "TencentCloud/CubeSandbox",
+              "url": "https://github.com/TencentCloud/CubeSandbox",
+              "source": "GitHub",
+              "score": 1944
+            },
+            {
+              "title": "diegosouzapw/OmniRoute",
+              "url": "https://github.com/diegosouzapw/OmniRoute",
+              "source": "GitHub",
+              "score": 4297
+            },
+            {
+              "title": "openai/codex-plugin-cc",
+              "url": "https://github.com/openai/codex-plugin-cc",
+              "source": "GitHub",
+              "score": 2063
+            }
+          ],
+          "takeaway": "开发者工具的新栈是 agent 编排层，而不是单一编辑器扩展。"
+        },
+        {
+          "id": "hf-models",
+          "heading": "HuggingFace 上最热的模型能做什么消费级产品？",
+          "summary_md": "HuggingFace 今天的热度显示端侧、多模态和长上下文仍是消费级产品的原料。[empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF](https://huggingface.co/empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF) trending score 322，下载 2006265，标签包含 1M-context、function-calling、vision；[baidu/Unlimited-OCR](https://huggingface.co/baidu/Unlimited-OCR) trending score 140，下载 1715301，适合做票据、合同、截图和多语言文档解析；[OpenMOSS-Team/MOSS-Transcribe-Diarize](https://huggingface.co/OpenMOSS-Team/MOSS-Transcribe-Diarize) trending score 200，下载 65109，覆盖长音频转写、说话人分离和时间戳。\n\n最直接的产品机会是本地知识库、离线会议秘书、截图到结构化数据、私有文档问答和面向专业人群的长上下文助理。消费级卖点不该只写模型更强，而要写数据不出设备、音视频可检索、账单更低。",
+          "items": [
+            {
+              "title": "empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
+              "url": "https://huggingface.co/empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
+              "source": "HuggingFace",
+              "score": 322
+            },
+            {
+              "title": "OpenMOSS-Team/MOSS-Transcribe-Diarize",
+              "url": "https://huggingface.co/OpenMOSS-Team/MOSS-Transcribe-Diarize",
+              "source": "HuggingFace",
+              "score": 200
+            },
+            {
+              "title": "baidu/Unlimited-OCR",
+              "url": "https://huggingface.co/baidu/Unlimited-OCR",
+              "source": "HuggingFace",
+              "score": 140
+            }
+          ],
+          "takeaway": "端侧 AI 的消费级突破口是隐私、长内容和结构化提取。"
+        }
+      ]
+    },
+    {
+      "id": "competition",
+      "title": "竞争情报",
+      "blocks": [
+        {
+          "id": "migrations",
+          "heading": "有没有「XX is dead」或迁移类文章？",
+          "summary_md": "今天没有典型的「XX is dead」文章，但替代品竞争很明显。[OpenCut-app/OpenCut](https://github.com/OpenCut-app/OpenCut) 日榜新增 4276 星，总星 69724，直接定位 open-source CapCut alternative；[AIEraDev/Clypra](https://github.com/AIEraDev/Clypra) 新增 85 星，总星 2781，也强调用 Tauri、React、TypeScript 重做免费 CapCut 能力。与此同时，Google Trends 里 [open source alternative](https://trends.google.com/trends/explore?q=open+source+alternative&date=now+7-d) 下降 -8.1%，说明宏观词在降温，但具体替代品仍能爆。\n\n竞争含义是：用户不是在搜索抽象的开源替代，而是在具体工具被价格、平台限制或体验卡住时迁移。视频编辑、Office 自动化、招聘、会议和广告素材是今天最容易被替代叙事撬动的品类。",
+          "items": [
+            {
+              "title": "OpenCut-app/OpenCut",
+              "url": "https://github.com/OpenCut-app/OpenCut",
+              "source": "GitHub",
+              "score": 4276
+            },
+            {
+              "title": "AIEraDev/Clypra",
+              "url": "https://github.com/AIEraDev/Clypra",
+              "source": "GitHub",
+              "score": 85
+            }
+          ],
+          "takeaway": "替代品叙事要绑定具体痛点，抽象的开源替代已经不够锋利。"
+        },
+        {
+          "id": "trust-layer",
+          "heading": "安全和身份信任正在暴露哪些缺口？",
+          "summary_md": "HN 上 [I tricked Claude into leaking your deepest, darkest secrets](https://www.ayush.digital/blog/the-memory-heist) 拿到 237 分、104 评论，核心信号是用户已经开始担心 AI 记忆、上下文和工具权限的泄露面。[LinkedIn is a cesspool of scammers and identity theft](https://news.ycombinator.com/item?id=48916375) 虽然只有 69 分，但有 40 评论，说明职业身份、招聘和社交资料正在被诈骗与冒充侵蚀。\n\n这不是单纯安全新闻，而是一个产品层机会：未来每个 agent 产品都需要记忆权限面板、敏感信息扫描、可撤销上下文、身份验证和工作流审计。谁能把这些安全能力做成默认 UX，谁就能在企业采购和高信任场景里领先。",
+          "items": [
+            {
+              "title": "I tricked Claude into leaking your deepest, darkest secrets",
+              "url": "https://www.ayush.digital/blog/the-memory-heist",
+              "source": "HN",
+              "score": 237
+            },
+            {
+              "title": "LinkedIn is a cesspool of scammers and identity theft",
+              "url": "https://news.ycombinator.com/item?id=48916375",
+              "source": "HN",
+              "score": 69
+            }
+          ],
+          "takeaway": "agent 产品的竞争壁垒会从能力转向可控、可审计、可撤销。"
+        }
+      ]
+    },
+    {
+      "id": "trends",
+      "title": "趋势判断",
+      "blocks": [
+        {
+          "id": "keywords",
+          "heading": "本周技术关键词频率有什么变化？",
+          "summary_md": "Google Trends 里最异常的是 [abseil cpp](https://trends.google.com/trends/explore?q=abseil+cpp&date=now+7-d) 飙升 +999.0%，同时 GitHub weekly 的 [abseil/abseil-cpp](https://github.com/abseil/abseil-cpp) 新增 637 星，总星 17990，说明经典 C++ 基础库被重新带入视野。[cubesandbox](https://trends.google.com/trends/explore?q=cubesandbox&date=now+7-d) 上升 +57.3%，对应 CubeSandbox 的 1944 周星，强化了 agent 沙箱化执行的需求。\n\n相反，[codex](https://trends.google.com/trends/explore?q=codex&date=now+7-d) 只上升 +1.7%，[orca](https://trends.google.com/trends/explore?q=orca&date=now+7-d) 只上升 +2.0%，说明大词趋稳，小而具体的基础设施词更有边际变化。今天的趋势判断是：下一轮机会会先出现在可部署、可度量的底层组件名里。",
+          "items": [
+            {
+              "title": "abseil cpp",
+              "url": "https://trends.google.com/trends/explore?q=abseil+cpp&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 999
+            },
+            {
+              "title": "cubesandbox",
+              "url": "https://trends.google.com/trends/explore?q=cubesandbox&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 57
+            }
+          ],
+          "takeaway": "趋势热度正在从宏大 AI 词汇迁移到具体基础设施组件。"
+        },
+        {
+          "id": "vc-radar",
+          "heading": "VC 和 YC 在关注什么主题？",
+          "summary_md": "如果把 GitHub、Product Hunt 和 HN 放在一起看，VC 和 YC 今天会盯三类：第一是 agent workforce，[YAGNI](https://www.producthunt.com/products/yagni) 直接说 proactive agent teams you manage like humans；第二是 agent control plane，Orca、herdr、DesktopCommanderMCP、CubeSandbox 都在解决多 agent 如何执行、隔离和接管环境；第三是 vertical AI workflow，如 [Clerk | AI Assistant for Cap Tables](https://www.producthunt.com/products/withmantle)、[Crustdata Recruiter](https://www.producthunt.com/products/crustdata-2)、RecordMeeting 和 QuickQuill。\n\n这意味着融资叙事不该再停留在通用助手，而应证明某个高价值岗位的闭环：输入是什么、agent 做哪些动作、失败如何回滚、团队如何监督、ROI 如何计量。",
+          "items": [
+            {
+              "title": "YAGNI",
+              "url": "https://www.producthunt.com/products/yagni",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "Clerk | AI Assistant for Cap Tables",
+              "url": "https://www.producthunt.com/products/withmantle",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "Crustdata Recruiter",
+              "url": "https://www.producthunt.com/products/crustdata-2",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "资本会更偏好能证明岗位闭环的 vertical agent，而不是泛助手。"
+        },
+        {
+          "id": "cooling",
+          "heading": "哪些 AI 热词在降温？",
+          "summary_md": "降温最明显的是 [desktopcommandermcp](https://trends.google.com/trends/explore?q=desktopcommandermcp&date=now+7-d) -100.0%，[cursor alternative](https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d) -47.1%，[officecli](https://trends.google.com/trends/explore?q=officecli&date=now+7-d) -30.8%，[codex cli](https://trends.google.com/trends/explore?q=codex+cli&date=now+7-d) -18.1%。但这不等于需求消失，因为 OfficeCLI 仍有 7129 周星，DesktopCommanderMCP 也有 2009 周星。\n\n更合理的解释是：搜索热度的第一波尝鲜在回落，而开发者实际安装和 star 还在补涨。对 builder 来说，今天不要追逐词面热度，而要看留存型指标：是否进入日常工作流、是否能替代人工步骤、是否能在团队里扩散。",
+          "items": [
+            {
+              "title": "desktopcommandermcp",
+              "url": "https://trends.google.com/trends/explore?q=desktopcommandermcp&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": -100
+            },
+            {
+              "title": "cursor alternative",
+              "url": "https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": -47
+            },
+            {
+              "title": "officecli",
+              "url": "https://trends.google.com/trends/explore?q=officecli&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": -30
+            }
+          ],
+          "takeaway": "AI 工具词的搜索降温不代表使用降温，关键看是否进入工作流。"
+        },
+        {
+          "id": "new-radar",
+          "heading": "新词雷达：有哪些从零起飞的新概念？",
+          "summary_md": "breakout 里最值得筛的是与开发者和 AI 工作流有关的关联词。[codex](https://trends.google.com/trends/explore?q=codex&date=now+7-d) 的 rising 里出现「grok 4.5」+3400、「codex 5.6 sol」+1550、「gpt 5.6 sol」+1100、「chatgpt work」+950 和「chatgpt classic」+800，说明用户正在把模型版本、工作版产品和旧体验回归放在一起搜索。[herdr](https://trends.google.com/trends/explore?q=herdr&date=now+7-d) 的 rising 里有「herdr-file-viewer」+250、「pi coding agent」+150，暗示 agent 多路复用开始分化出文件查看、移动端和替代编码 agent 的子需求。\n\n这些弱信号还不够大，但适合做 SEO landing、功能命名和竞品监测。特别是「chatgpt work」这类词，可能代表企业版、工作区和协作权限会继续成为增长入口。",
+          "items": [
+            {
+              "title": "chatgpt work",
+              "url": "https://trends.google.com/trends/explore?q=codex&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 950
+            },
+            {
+              "title": "herdr-file-viewer",
+              "url": "https://trends.google.com/trends/explore?q=herdr&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 250
+            },
+            {
+              "title": "pi coding agent",
+              "url": "https://trends.google.com/trends/explore?q=herdr&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 150
+            }
+          ],
+          "takeaway": "新词弱信号集中在工作区化、多 agent 操控和编码 agent 替代。"
+        }
+      ]
+    },
+    {
+      "id": "actions",
+      "title": "行动触发",
+      "blocks": [
+        {
+          "id": "weekend-build",
+          "heading": "今天 2 小时和一个周末分别做什么？",
+          "summary_md": "今天 2 小时可以做一个很小的 agent 安全层 demo：读取本地文件前弹出权限说明，自动标记 API key、身份证、会议纪要等敏感片段，并生成一份可撤销的上下文清单。这个想法直接对应 HN 上 Claude 记忆泄露 237 分、104 评论的关注点，也能挂到 Codex、Claude Code 或 DesktopCommanderMCP 这类工具旁边。\n\n一个周末则适合做「本地会议到行动项」产品：用 MOSS-Transcribe-Diarize 做转写和说话人分离，用本地小模型总结，再导出到 Linear、Notion 或 Markdown。竞品有 RecordMeeting、QuickQuill、Meetily，但切口可以更窄：专注工程团队 standup、销售复盘或招聘面试。",
+          "items": [
+            {
+              "title": "Agent permission and memory audit demo",
+              "url": "https://www.ayush.digital/blog/the-memory-heist",
+              "source": "HN",
+              "score": 237
+            },
+            {
+              "title": "OpenMOSS-Team/MOSS-Transcribe-Diarize",
+              "url": "https://huggingface.co/OpenMOSS-Team/MOSS-Transcribe-Diarize",
+              "source": "HuggingFace",
+              "score": 200
+            }
+          ],
+          "takeaway": "今天最该动手的是 agent 权限审计和本地会议工作流。"
+        },
+        {
+          "id": "pricing-models",
+          "heading": "值得学习的定价和变现模式有哪些？",
+          "summary_md": "今天最值得学的变现模式不是简单订阅，而是围绕成本和信任定价。OmniRoute 明确强调 231+ providers、50+ free、15-95% token 节省，这种模型适合按节省的 token、调用量或团队 seat 收费；OfficeCLI 这类工具适合开源核心加企业权限、批处理、审计日志和私有部署；QuickQuill、Meetily 代表本地隐私产品，可以用一次性买断加高级导出或团队模板收费。\n\n定价页要把价值写成可计算项：每月减少多少会议整理时间、少花多少模型调用费、避免多少敏感数据外发，而不是只写支持更多模型。",
+          "items": [
+            {
+              "title": "diegosouzapw/OmniRoute",
+              "url": "https://github.com/diegosouzapw/OmniRoute",
+              "source": "GitHub",
+              "score": 4297
+            },
+            {
+              "title": "iOfficeAI/OfficeCLI",
+              "url": "https://github.com/iOfficeAI/OfficeCLI",
+              "source": "GitHub",
+              "score": 7129
+            },
+            {
+              "title": "QuickQuill",
+              "url": "https://www.producthunt.com/products/quickquill-2",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "agent 产品的好定价要围绕节省成本、降低风险和团队治理。"
+        },
+        {
+          "id": "counterintuitive",
+          "heading": "今天最反直觉的发现是什么？",
+          "summary_md": "最反直觉的是：Google Trends 里多个 AI 工具词在降温，但 GitHub 星标仍在暴涨。[officecli](https://trends.google.com/trends/explore?q=officecli&date=now+7-d) 搜索变化 -30.8%，可 OfficeCLI 本周新增 7129 星；[desktopcommandermcp](https://trends.google.com/trends/explore?q=desktopcommandermcp&date=now+7-d) 是 -100.0%，但 DesktopCommanderMCP 本周仍新增 2009 星，总星 8281。\n\n这说明 AI 开发者工具已经进入「少数重度用户安装、配置、分享」阶段，而不是大众搜索阶段。对创业者的启发是，早期验证不要只看 Google Trends；对这类工具，GitHub star、Discord 活跃、CLI 安装、配置文件数量和模板 fork 更接近真实需求。",
+          "items": [
+            {
+              "title": "officecli",
+              "url": "https://trends.google.com/trends/explore?q=officecli&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": -30
+            },
+            {
+              "title": "iOfficeAI/OfficeCLI",
+              "url": "https://github.com/iOfficeAI/OfficeCLI",
+              "source": "GitHub",
+              "score": 7129
+            },
+            {
+              "title": "wonderwhy-er/DesktopCommanderMCP",
+              "url": "https://github.com/wonderwhy-er/DesktopCommanderMCP",
+              "source": "GitHub",
+              "score": 2009
+            }
+          ],
+          "takeaway": "开发者工具的真实需求往往先体现在安装和 star，而不是搜索指数。"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2026-07-15T09:19:46+00:00",
+  "reddit_highlights": []
+}

@@ -1,0 +1,148 @@
+{
+  "date": "2026-07-15",
+  "items": [
+    {
+      "id": "2026-07-15-1",
+      "title": "Agent 红利卡在 eval 上",
+      "angle": "从 Aaron Levie 的判断切入：代码 Agent 先爆，不是因为代码最高级，而是因为代码最容易被验证。",
+      "opening": "企业不是缺 Agent，而是缺一把尺子。写代码能立刻跑测试，合同、销售、招聘和财务却往往要等结果发生后才知道 Agent 有没有搞砸。",
+      "story_hook": {
+        "challenge": "所有人都在谈 Agent 接管知识工作，但大多数知识工作没有像测试用例一样清晰的反馈回路。",
+        "twist": "真正的基础设施机会可能不是再做一个 Agent，而是给 Agent 工作流做 eval、审计和回滚。"
+      },
+      "takeaway": "做企业 Agent 产品时，先定义可验证结果、失败标准和人工复核点，再谈自动化比例。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Aaron Levie：代码适合 Agent 的关键是可以立刻验证",
+          "url": "https://x.com/levie/status/2077201458546745553"
+        },
+        {
+          "tag": "pulse",
+          "ref": "TencentCloud/CubeSandbox 本周新增 1944 星",
+          "url": "https://github.com/TencentCloud/CubeSandbox"
+        },
+        {
+          "tag": "pulse",
+          "ref": "iOfficeAI/OfficeCLI 本周新增 7129 星",
+          "url": "https://github.com/iOfficeAI/OfficeCLI"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-15-2",
+      "title": "ChatGPT 变强也变重了",
+      "angle": "把 Sam Altman 的 5.6 倍增长、Aditya 的轻量查询抱怨和 OmniRoute 的省 token 叙事放在一起看。",
+      "opening": "新版 ChatGPT 的问题不是不够强，而是有些日常小问题被迫坐上了重型卡车。Sam Altman 说需求增长到 5.6 倍，另一边用户开始怀念一天问 15-20 次的轻量体验。",
+      "story_hook": {
+        "challenge": "模型能力越强，产品越容易把所有问题都送进昂贵、笨重的推理链路。",
+        "twist": "下一波机会可能不是更强模型，而是把简单任务自动路由到便宜、快、够用的模型。"
+      },
+      "takeaway": "AI 产品要把任务分层：轻问答、长推理、工具调用和批处理应该走不同模型与预算策略。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Sam Altman：5.6 倍增长让推理团队拼到极限",
+          "url": "https://x.com/sama/status/2077106587307798989"
+        },
+        {
+          "tag": "builders",
+          "ref": "Aditya Agarwal：新版 ChatGPT 更强但轻量查询变笨重",
+          "url": "https://x.com/adityaag/status/2077130899733553560"
+        },
+        {
+          "tag": "pulse",
+          "ref": "OmniRoute 强调 231+ providers 和 15-95% token 节省",
+          "url": "https://github.com/diegosouzapw/OmniRoute"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-15-3",
+      "title": "Agent 接管邮箱前先刹车",
+      "angle": "从 Agentmail 接入 Vercel 和 Claude 记忆泄露讨论切入：工具权限正在比模型能力更危险。",
+      "opening": "让 Agent 发邮件、读文件、进日历，听起来像效率天堂。可一旦记忆、上下文和身份权限被串起来，泄露的不再是一段 prompt，而可能是你的工作关系网。",
+      "story_hook": {
+        "challenge": "Agent 产品正在快速接入邮件、桌面和办公工具，但用户并不知道每次调用暴露了哪些上下文。",
+        "twist": "安全层不是企业版附加功能，而会变成 Agent 产品的默认交互界面。"
+      },
+      "takeaway": "给 Agent 加权限面板、敏感信息扫描、上下文撤销和操作日志，优先级应高于再接一个工具。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Guillermo Rauch：Agentmail 直接接入 Vercel",
+          "url": "https://x.com/rauchg/status/2077154901013221444"
+        },
+        {
+          "tag": "pulse",
+          "ref": "HN：I tricked Claude into leaking your deepest, darkest secrets",
+          "url": "https://www.ayush.digital/blog/the-memory-heist"
+        },
+        {
+          "tag": "pulse",
+          "ref": "HN：LinkedIn 身份盗用讨论",
+          "url": "https://news.ycombinator.com/item?id=48916375"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-15-4",
+      "title": "别用搜索指数判断 AI 工具",
+      "angle": "抓住一个反差：OfficeCLI 搜索热度降了，但 GitHub 星标暴涨，说明开发者工具进入重度用户扩散阶段。",
+      "opening": "officecli 这个词在 Google Trends 里跌了 30.8%，但 GitHub 一周新增 7129 星。表面看热度降温，实际上可能是从围观搜索转向安装、配置和团队内传播。",
+      "story_hook": {
+        "challenge": "创业者习惯用搜索指数判断需求，但开发者工具的真实采用往往发生在命令行、配置文件和 GitHub star 里。",
+        "twist": "搜索降温不一定是需求消失，可能是第一波尝鲜结束，重度用户开始动手。"
+      },
+      "takeaway": "验证 AI 开发者工具时，把 CLI 安装、模板 fork、Discord 活跃和配置留存放到 Google Trends 前面。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Nikunj Kothari：AI agent 干活时工程师更会刷 X",
+          "url": "https://x.com/nikunj/status/2077144910508257317"
+        },
+        {
+          "tag": "pulse",
+          "ref": "officecli 搜索变化 -30.8%",
+          "url": "https://trends.google.com/trends/explore?q=officecli&date=now+7-d"
+        },
+        {
+          "tag": "pulse",
+          "ref": "iOfficeAI/OfficeCLI 本周新增 7129 星",
+          "url": "https://github.com/iOfficeAI/OfficeCLI"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-15-5",
+      "title": "端侧 AI 卖点变了",
+      "angle": "从 Peter Yang 的电脑接管教程预告反推：当 Agent 进入桌面，隐私、本地和可控会比炫技更能打动用户。",
+      "opening": "如果 ChatGPT Work 和 Codex 真能接管邮件、日历和周期任务，用户第一个问题不会是多聪明，而是数据去哪了。今天 HuggingFace 和 Product Hunt 的信号都在指向同一件事：本地 AI 开始变成产品卖点。",
+      "story_hook": {
+        "challenge": "桌面 Agent 想进入高频工作流，就必须处理会议、文档、截图和私人日程这些敏感数据。",
+        "twist": "端侧 AI 的价值不只是离线可用，而是让用户相信它可以被关闭、被限制、被审计。"
+      },
+      "takeaway": "做消费级或团队级 AI 工具时，把本地处理、数据不出设备和可导出审计记录写进核心卖点。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Peter Yang：将发布 ChatGPT Work/Codex 接管电脑工作的教程",
+          "url": "https://x.com/petergyang/status/2077196815951417649"
+        },
+        {
+          "tag": "pulse",
+          "ref": "QuickQuill：Mac 上私有、本地的会议笔记",
+          "url": "https://www.producthunt.com/products/quickquill-2"
+        },
+        {
+          "tag": "pulse",
+          "ref": "OpenMOSS-Team/MOSS-Transcribe-Diarize",
+          "url": "https://huggingface.co/OpenMOSS-Team/MOSS-Transcribe-Diarize"
+        }
+      ]
+    }
+  ],
+  "notes": "今日最强主线是 Agent 从聊天框进入真实工作流，但相应的 eval、权限、成本和本地隐私问题同时暴露。独立开发者素材偏少，适合从开源增长和 builder 评论里提炼选题。",
+  "generated_at": "2026-07-15T09:20:48+00:00",
+  "model": "gpt-5.5"
+}
