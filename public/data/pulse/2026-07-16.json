@@ -1,0 +1,236 @@
+{
+  "date": "2026-07-16",
+  "top3": [],
+  "intro": "（无 LLM 编辑模式：以下为原始数据归档，建议安装 codex CLI 重新生成。）",
+  "sections": [
+    {
+      "id": "discovery",
+      "title": "发现机会",
+      "blocks": [
+        {
+          "id": "indie-products",
+          "heading": "今天有哪些独立开发者的新产品？",
+          "summary_md": "（自动归档模式）今日 Show HN 与 Product Hunt 上线的独立开发者产品列表。",
+          "items": [
+            {
+              "title": "Zro",
+              "url": "https://www.producthunt.com/products/zro",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Weave",
+              "url": "https://www.producthunt.com/products/weave-9",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "SIMPLI",
+              "url": "https://www.producthunt.com/products/simpli-3",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Node Health",
+              "url": "https://www.producthunt.com/products/node-health",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Nuvio",
+              "url": "https://www.producthunt.com/products/nuvio-2",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "BrickSolvr",
+              "url": "https://www.producthunt.com/products/bricksolvr",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "WorkflowMaps",
+              "url": "https://www.producthunt.com/products/workflowmaps",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Paradigm",
+              "url": "https://www.producthunt.com/products/paradigm-3",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "ClipMatch",
+              "url": "https://www.producthunt.com/products/clipmatch",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "DevSwat",
+              "url": "https://www.producthunt.com/products/resonantgenesis",
+              "source": "ProductHunt"
+            }
+          ],
+          "takeaway": ""
+        },
+        {
+          "id": "github-traction",
+          "heading": "GitHub 上哪些高增长开源项目还没有商业化？",
+          "summary_md": "（自动归档模式）本周 GitHub Trending 高速增长的仓库。",
+          "items": [
+            {
+              "title": "wonderwhy-er/DesktopCommanderMCP",
+              "url": "https://github.com/wonderwhy-er/DesktopCommanderMCP",
+              "source": "GitHub",
+              "score": 2055
+            },
+            {
+              "title": "google-labs-code/stitch-skills",
+              "url": "https://github.com/google-labs-code/stitch-skills",
+              "source": "GitHub",
+              "score": 992
+            },
+            {
+              "title": "abseil/abseil-cpp",
+              "url": "https://github.com/abseil/abseil-cpp",
+              "source": "GitHub",
+              "score": 648
+            },
+            {
+              "title": "iOfficeAI/OfficeCLI",
+              "url": "https://github.com/iOfficeAI/OfficeCLI",
+              "source": "GitHub",
+              "score": 6374
+            },
+            {
+              "title": "stablyai/orca",
+              "url": "https://github.com/stablyai/orca",
+              "source": "GitHub",
+              "score": 5777
+            },
+            {
+              "title": "chriskohlhoff/asio",
+              "url": "https://github.com/chriskohlhoff/asio",
+              "source": "GitHub",
+              "score": 247
+            },
+            {
+              "title": "HKUDS/Vibe-Trading",
+              "url": "https://github.com/HKUDS/Vibe-Trading",
+              "source": "GitHub",
+              "score": 4802
+            },
+            {
+              "title": "Nutlope/hallmark",
+              "url": "https://github.com/Nutlope/hallmark",
+              "source": "GitHub",
+              "score": 3551
+            },
+            {
+              "title": "oven-sh/bun",
+              "url": "https://github.com/oven-sh/bun",
+              "source": "GitHub",
+              "score": 1291
+            },
+            {
+              "title": "openai/codex-plugin-cc",
+              "url": "https://github.com/openai/codex-plugin-cc",
+              "source": "GitHub",
+              "score": 1998
+            }
+          ],
+          "takeaway": ""
+        }
+      ]
+    },
+    {
+      "id": "tech-stack",
+      "title": "技术选型",
+      "blocks": [
+        {
+          "id": "hf-models",
+          "heading": "HuggingFace 上最热的模型能做什么消费级产品？",
+          "summary_md": "（自动归档模式）HuggingFace trending 模型列表。",
+          "items": [
+            {
+              "title": "thinkingmachines/Inkling",
+              "url": "https://huggingface.co/thinkingmachines/Inkling",
+              "source": "HuggingFace",
+              "score": 545
+            },
+            {
+              "title": "prism-ml/Ternary-Bonsai-27B-gguf",
+              "url": "https://huggingface.co/prism-ml/Ternary-Bonsai-27B-gguf",
+              "source": "HuggingFace",
+              "score": 494
+            },
+            {
+              "title": "prism-ml/Bonsai-27B-gguf",
+              "url": "https://huggingface.co/prism-ml/Bonsai-27B-gguf",
+              "source": "HuggingFace",
+              "score": 284
+            },
+            {
+              "title": "empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
+              "url": "https://huggingface.co/empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF",
+              "source": "HuggingFace",
+              "score": 275
+            },
+            {
+              "title": "zai-org/GLM-5.2",
+              "url": "https://huggingface.co/zai-org/GLM-5.2",
+              "source": "HuggingFace",
+              "score": 257
+            },
+            {
+              "title": "bottlecapai/ThinkingCap-Qwen3.6-27B",
+              "url": "https://huggingface.co/bottlecapai/ThinkingCap-Qwen3.6-27B",
+              "source": "HuggingFace",
+              "score": 205
+            },
+            {
+              "title": "conradlocke/krea2-identity-edit",
+              "url": "https://huggingface.co/conradlocke/krea2-identity-edit",
+              "source": "HuggingFace",
+              "score": 204
+            },
+            {
+              "title": "tencent/Hy3",
+              "url": "https://huggingface.co/tencent/Hy3",
+              "source": "HuggingFace",
+              "score": 195
+            },
+            {
+              "title": "OpenMOSS-Team/MOSS-Transcribe-Diarize",
+              "url": "https://huggingface.co/OpenMOSS-Team/MOSS-Transcribe-Diarize",
+              "source": "HuggingFace",
+              "score": 189
+            },
+            {
+              "title": "GnLOLot/MiniCPM5-1B-Claude-Opus-Fable5-Thinking-GGUF",
+              "url": "https://huggingface.co/GnLOLot/MiniCPM5-1B-Claude-Opus-Fable5-Thinking-GGUF",
+              "source": "HuggingFace",
+              "score": 153
+            }
+          ],
+          "takeaway": ""
+        }
+      ]
+    },
+    {
+      "id": "competition",
+      "title": "竞争情报",
+      "blocks": []
+    },
+    {
+      "id": "trends",
+      "title": "趋势判断",
+      "blocks": []
+    },
+    {
+      "id": "actions",
+      "title": "行动触发",
+      "blocks": []
+    }
+  ],
+  "generated_at": "2026-07-16T09:28:18+00:00",
+  "reddit_highlights": [
+    {
+      "heading": "Indie 开发者在讨论哪些收入和定价问题？",
+      "body_md": "**🔍 信号**：创业者提到两个 API 合计每月 $5K 收入、$6K 月度经常性收入、18 位订阅买家，以及向 43 封冷邮件回复者中获得一笔付款。\n\n**白话说：** 小生意依然靠聚焦的报价和主动销售增长，而不是发布当天的掌声。\n\nReddit 上有[两个 API 合计每月赚 $5K](https://www.reddit.com/r/SideProject/comments/1uulwv5/my_2_api_products_make_5km_combined_what_actually/)，也有一家[企业在 15 个月内达到 $6K 月度经常性收入](https://www.reddit.com/r/SideProject/comments/1urkp9u/my_saas_reached_6k_mrr_in_15_months_heres_how_id/)。另一位创作者[加入订阅后获得 18 位付费用户](https://www.reddit.com/r/SideProject/comments/1utpefk/i_added_subscriptions_to_my_app_18_people_paid_i/)，随后开始怀疑是否值得继续投入。\n\n最扎实的分发样本来自 @DRICOMM：[43 封冷邮件带来 17 个回复和 1 笔付款](https://www.indiehackers.com/post/i-sent-43-cold-emails-with-my-own-tool-17-replied-1-paid-here-s-the-unofficial-launch-329774e623)。这还不是可扩展的证明，却有真实分母。更大案例反复传递同一教训——一年内 $10K、半年内 $15K，以及收窄客群后达到 $125K——重点在于聚焦，不过这些回顾性故事不应被视为今天的独立确认。\n\n**关键判断**：先手工给第一份 `PriceShock Watch` 报告定价，并发给 20 位预算负责人，再自动化数据收集。\n\n**反向视角**：创业者故事会筛选幸存者，并省略大量同类但一分钱没赚到的尝试。\n\n---",
+      "source_url": "https://raw.githubusercontent.com/BuilderPulse/BuilderPulse/main/zh/2026/2026-07-16.md"
+    }
+  ]
+}

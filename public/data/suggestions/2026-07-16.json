@@ -1,0 +1,148 @@
+{
+  "date": "2026-07-16",
+  "items": [
+    {
+      "id": "2026-07-16-1",
+      "title": "全权限 Agent 的第一堂事故课",
+      "angle": "从 GPT-5.6 误删家目录事故切入，写清楚 Agent 真正危险的不是幻觉，而是被授予了 OS 级权限却缺少执行层护栏。",
+      "opening": "一个高危组合已经足够把家目录删掉：全权限、无沙箱、无自动审查，再加上模型把 `$HOME` 当临时目录。最值得写的不是“AI 又翻车了”，而是这类事故会把 Agent 产品从聊天应用推向操作系统安全工程。",
+      "story_hook": {
+        "challenge": "开发者想要 Agent 直接动手干活，但越接近真实文件系统、终端和桌面，失败成本越不像普通软件 bug。",
+        "twist": "官方承认即便用户拆掉护栏，系统也不该允许这种事发生；责任从“用户别乱授权”转向“执行层必须防呆”。"
+      },
+      "takeaway": "读者可以立刻检查自己的 Agent 工作流：默认沙箱、最小权限、写操作审查、危险路径保护，不能只靠 prompt 约束模型。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Thibault Sottiaux 关于 GPT-5.6 误删文件高危组合的推文",
+          "url": "https://x.com/thsottiaux/status/2077630111499882637"
+        },
+        {
+          "tag": "builders",
+          "ref": "Swyx 关于 CUA 能力被低估的推文",
+          "url": "https://x.com/swyx/status/2077475285205958771"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub Trending wonderwhy-er/DesktopCommanderMCP",
+          "url": "https://github.com/wonderwhy-er/DesktopCommanderMCP"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-16-2",
+      "title": "Prompt 越薄，护城河越厚",
+      "angle": "把 Garry Tan 的 skill 可移植观点、Thariq 的薄 prompt 方法论和 Google stitch-skills 放在一起，写 AI 编程的新资产正在从提示词迁移到可复用上下文。",
+      "opening": "过去大家收藏 prompt，现在更值得收藏的是 skills、docs、测试和工作流。因为 prompt 写得再厚，也很难跨模型、跨团队、跨项目稳定复用；真正能迁移的是被工程化的上下文。",
+      "story_hook": {
+        "challenge": "AI builder 一边追前沿模型，一边被模型供应商和私有工作流锁住。",
+        "twist": "最反直觉的解法不是写更长的 prompt，而是让 prompt 变薄，把复杂度沉淀进 skill 文件和项目工件。"
+      },
+      "takeaway": "读者可以把团队常用规则拆成轻量 skills、CLAUDE.md、lint、测试和示例任务，让模型替换时工作流还能保留。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Garry Tan 关于 Skill 文件可移植、摆脱模型绑定的推文",
+          "url": "https://x.com/garrytan/status/2077626565517590618"
+        },
+        {
+          "tag": "builders",
+          "ref": "Thariq 关于 prompt 要薄、上下文和产物要厚的推文",
+          "url": "https://x.com/trq212/status/2077539537992229076"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub Trending google-labs-code/stitch-skills",
+          "url": "https://github.com/google-labs-code/stitch-skills"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-16-3",
+      "title": "语音助手不能只会陪聊",
+      "angle": "从 Peter Yang 批评 ChatGPT Live 和 Codex 像孤岛切入，连接 Gemini Spark 补齐 Docs/Sheets/Slides 工作流，写语音 AI 的竞争点正在从对话质量转向工具调用半径。",
+      "opening": "一个语音助手再聪明，如果不能打开文档、读表格、调插件、跑代码，它就只是一个更会聊天的麦克风。今天真正的分水岭不是谁回答更像人，而是谁能把一句话变成跨工具动作。",
+      "story_hook": {
+        "challenge": "ChatGPT Live、Codex、浏览器、邮件、文档、代码工具各自强大，却经常像互不通信的孤岛。",
+        "twist": "Google Gemini Spark 的新能力恰好说明，下一代助手的价值不在“说得好”，而在能否直接进入办公流。"
+      },
+      "takeaway": "读者评估 AI 助手产品时，应少看演示里的拟人表达，多看它能调用哪些真实系统、权限边界如何设计、能否回写结果。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Peter Yang 关于 ChatGPT Live 和 Codex 孤岛化的推文",
+          "url": "https://x.com/petergyang/status/2077572198655754583"
+        },
+        {
+          "tag": "builders",
+          "ref": "Josh Woodward 关于 Gemini Spark 支持 Docs、Sheets、Slides 工作流的推文",
+          "url": "https://x.com/joshwoodward/status/2077471111240204457"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub Trending iOfficeAI/OfficeCLI",
+          "url": "https://github.com/iOfficeAI/OfficeCLI"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-16-4",
+      "title": "PR 被拒，是系统没教会 AI",
+      "angle": "把 Peter Steinberger 和 Boris Cherny 的观点合并成一个工程管理选题：AI 时代团队隐性知识不能再靠 code review 临场纠错。",
+      "opening": "一个新人提 PR 被嫌框架用错，一个设计师做功能被嫌架构模式不对，这表面是人不懂规矩，实际是系统没有把规矩提前暴露出来。AI 加入团队后，这个问题会被放大十倍。",
+      "story_hook": {
+        "challenge": "团队知识长期藏在资深工程师脑子里，直到 PR 被打回才显形。",
+        "twist": "真正该被 review 的不是那一次 PR，而是为什么 lint、CI、测试、docs 和 skills 没有提前阻止错误方向。"
+      },
+      "takeaway": "读者可以用一次被拒 PR 反推自动化清单：哪些规则应进 lint，哪些模式应进测试，哪些上下文应写进 agent 可读文档。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Peter Steinberger 关于 PR 被拒是自动化失败的推文",
+          "url": "https://x.com/steipete/status/2077544756390088777"
+        },
+        {
+          "tag": "builders",
+          "ref": "Boris Cherny 关于把隐性知识变成 lint、CI、CLAUDE.md、skills 的推文",
+          "url": "https://x.com/bcherny/status/2077460395279692197"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub Trending google-labs-code/stitch-skills",
+          "url": "https://github.com/google-labs-code/stitch-skills"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-16-5",
+      "title": "沙箱每天 350 万次，谁在买单",
+      "angle": "用 Vercel Sandbox 的 350 万+日创建量和 Active CPU 定价，写 AI 应用爆发后基础设施商业模式正在从请求数转向真实执行资源。",
+      "opening": "Vercel 说 Sandbox 每天创建 350 万多个，DAU 月环比翻倍。这个数字背后不是又一个云服务增长故事，而是 AI agent 把“临时执行环境”变成了新的基础设施入口。",
+      "story_hook": {
+        "challenge": "AI 应用需要大量短生命周期、可隔离、可计费的执行环境，但传统云定价很难直接匹配 agent 工作负载。",
+        "twist": "更强的 Active CPU 定价让沙箱不只是开发工具，而可能成为 Notion、Airtable、Meta、Zapier 这类客户的 agent 执行底座。"
+      },
+      "takeaway": "读者可以重新审视自己的 AI 产品成本结构：未来要优化的不只是 token，还有沙箱启动、活跃 CPU、事件追踪和业务数据闭环。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Guillermo Rauch 关于 Vercel Sandbox DAU 翻倍、每天 350 万+沙箱的推文",
+          "url": "https://x.com/rauchg/status/2077559189015335019"
+        },
+        {
+          "tag": "builders",
+          "ref": "Guillermo Rauch 关于 Web Analytics API 关联部署、性能和业务事件的推文",
+          "url": "https://x.com/rauchg/status/2077426190386946539"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Reddit SideProject 两个 API 合计每月赚 $5K",
+          "url": "https://www.reddit.com/r/SideProject/comments/1uulwv5/my_2_api_products_make_5km_combined_what_actually/"
+        }
+      ]
+    }
+  ],
+  "notes": "今日 builders 素材明显集中在 Agent 权限安全、skills/上下文工程、语音助手工具化和沙箱基础设施；pulse 的 top3 为空，行业动态主要可用作趋势佐证，不适合单独做主线。",
+  "generated_at": "2026-07-16T09:29:20+00:00",
+  "model": "gpt-5.5"
+}
