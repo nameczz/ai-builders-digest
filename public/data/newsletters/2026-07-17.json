@@ -1,0 +1,293 @@
+{
+  "date": "2026-07-17",
+  "generated_at": "2026-07-17T00:48:05+00:00",
+  "inbox_id": "sanyoumu@agentmail.to",
+  "window": {
+    "start": "2026-07-16T00:46:20+00:00",
+    "end": "2026-07-17T00:45:58.106497+00:00",
+    "source": "previous_digest_generated_at"
+  },
+  "count": 8,
+  "highlights": [
+    "今日精读：Thinking Machines Lab 发布 Inkling，975B 总参数、41B 激活参数、1M 上下文、开源权重，并强调可定制和 Tinker 微调生态。",
+    "Agent 方向继续从“会聊天”转向“有 harness、工具、记忆、权限和验证循环的工作系统”。",
+    "AI 原生基础设施热点集中在安全沙箱、Agent Trust、API for agents、模型路由和长期记忆。",
+    "OpenAI 的硬件叙事开始显性化：Codex Micro 面向 coding agent 控制，家庭屏幕less设备则指向下一代交互入口。",
+    "Latent Space 的 Lila Sciences 访谈把 AI 科学实验室描述成“数据中心”：用机器人实验生成科学推理数据。"
+  ],
+  "items": [
+    {
+      "id": "ainews-thinking-machines-inkling-open-model",
+      "title_zh": "今日精读：Thinking Machines 的 Inkling 开源权重模型登场",
+      "title_original": "[AINews] Thinky's Inkling: 975B-A41B multimodal, new best American Apache 2.0 open model (with Inkling-Small, 276B…",
+      "source": "swyx.substack.com",
+      "from": "AINews <swyx+ainews@substack.com>",
+      "subject": "[AINews] Thinky's Inkling: 975B-A41B multimodal, new best American Apache 2.0 open model (with Inkling-Small, 276B…",
+      "url": "https://www.latent.space/p/ainews-thinkys-inkling-975b-a41b",
+      "message_id": "<20260716061805.3.bd3c18527e3af82c@mg2.substack.com>",
+      "published_at": "2026-07-16T06:18:05.000Z",
+      "importance": "high",
+      "summary_zh": "这期 AINews 以 Thinking Machines Lab 发布 Inkling 为主线，汇总了模型规格、团队表态和社区生态响应。Inkling 是一个 975B 总参数、41B 激活参数的 MoE 多模态模型，支持最高 100 万 token 上下文，训练数据覆盖文本、图像、音频和视频，并以开源权重、Tinker 平台微调、Hugging Face 与推理生态支持作为发布重点。",
+      "deep_read_zh": "Inkling 不是一个单纯追逐榜单第一的发布，而更像 Thinking Machines Lab 对“开放、可定制、可部署 foundation model”的首次公开落子。邮件里反复强调几个信号：第一，模型体量足够大，975B 总参数、41B 激活参数，属于大规模 MoE 路线；第二，它原生覆盖文本、图像和音频，并支持最长 100 万 token 上下文，明显面向长上下文推理、代码、研究和 agent 工作流；第三，它不是只给 API，而是开放权重，并当天接入 Tinker、Playground、Hugging Face 以及 vLLM、SGLang、Modal、Baseten、Databricks 等生态。对 builder 来说，最重要的不是“又多了一个模型”，而是一个由顶级团队推出、可自托管、可微调、可接入现有推理栈的美国开源权重基座模型。邮件也给了团队定位：Mira Murati 称其为从零训练的第一款模型，John Schulman 提到预训练从去年冬天开始，之后小团队补上 coding、reasoning、agentic training；Lilian Weng 则把它描述为覆盖广泛能力、面向实际使用和定制的 foundation model。这意味着 Inkling 的竞争点不是一次性封顶，而是为后续迭代、企业私有化、垂直 agent 和多模态工作流提供底座。值得继续观察的是：它的开放许可、真实推理成本、长上下文稳定性、微调体验，以及 Tinker 是否能形成类似“模型即平台”的开发者入口。",
+      "why_important": "这是当天重复出现最多、事实增量最明确的 AI 基础模型事件。它同时影响开源模型格局、企业自托管选择和 agent 基础设施选型。",
+      "impact": "AI builder 可以把 Inkling 视为一个值得评估的新基座：适合关注长上下文、多模态、代码、agentic workflow 和私有化部署的团队。模型发布也会推动推理框架、微调平台和垂直 agent 应用围绕新权重快速适配。",
+      "key_points": [
+        "Inkling 是 975B 总参数、41B 激活参数的 MoE transformer。",
+        "支持最高 100 万 token 上下文，原生覆盖文本、图像和音频。",
+        "预训练数据包含 45 万亿 token 的文本、图像、音频和视频。",
+        "同时发布 Inkling-Small 预览版，强调更低成本和延迟。",
+        "开放权重并接入 Tinker、Playground、Hugging Face 及多个推理生态。",
+        "团队将其定位为 day-1 foundation release，而不是最终 frontier push。"
+      ],
+      "reading_notes": [
+        "Inkling 的优势究竟来自模型本身，还是来自 Tinker 与生态集成？",
+        "100 万 token 上下文在真实 agent 工作流里是否稳定、经济、可控？",
+        "开源权重是否足以改变企业对闭源 API 的依赖？",
+        "Inkling-Small 是否会比大模型更适合实际产品集成？"
+      ],
+      "tags": [
+        "model",
+        "open-weights",
+        "infra",
+        "agent"
+      ],
+      "related_sources": [
+        "AI Valley",
+        "TLDR AI",
+        "TLDR Dev",
+        "TLDR"
+      ]
+    },
+    {
+      "id": "latent-space-lila-sciences-ai-lab-data-center",
+      "title_zh": "把未来实验室做成数据中心：Lila Sciences 的 AI 科学工厂",
+      "title_original": "🔬 The Lab of the Future Should Feel Like a Data Center — Andy Beam & Rafa Gómez-Bombarelli, Lila Sciences",
+      "source": "swyx.substack.com",
+      "from": "Latent.Space <swyx@substack.com>",
+      "subject": "🔬 The Lab of the Future Should Feel Like a Data Center — Andy Beam & Rafa Gómez-Bombarelli, Lila Sciences",
+      "url": "https://www.latent.space/p/the-lab-of-the-future-should-feel",
+      "message_id": "<20260716133044.3.17e18806115bca7f@mg2.substack.com>",
+      "published_at": "2026-07-16T13:30:44.000Z",
+      "importance": "high",
+      "summary_zh": "这期 Latent.Space 访谈 Lila Sciences 的 CTO Andy Beam 和 CSO Rafa Gómez-Bombarelli，核心观点是把科学实验室视为类似 AI 数据中心的系统：仪器是节点，机器人和调度系统是基础设施，自然实验结果是 verifier，实验过程生成大规模、经验证的科学推理 token。Lila 的野心不是单点自动化，而是把生物、化学、药物发现和材料科学放进同一个 AI 驱动实验工厂。",
+      "why_important": "它把“AI for science”的关键矛盾讲清楚了：不是缺模型口号，而是缺高质量、可验证、可规模化生成的数据。对长期主义 builder 来说，这是 AI 系统和真实世界闭环结合的典型案例。",
+      "impact": "如果这种路线成立，未来科学软件、实验自动化、数据平台和模型训练会更像云基础设施行业，而不是传统实验室工具链。产品机会可能出现在实验编排、数据治理、机器人接口、科学 agent 和垂直模型评测上。",
+      "key_points": [
+        "Lila 将科学方法视为尚未被充分开发的互联网级数据源。",
+        "邮件称其已有超过 10 万亿 experimentally validated scientific reasoning tokens。",
+        "他们强调灵活性和通用性，而不是只追求单一实验吞吐。",
+        "案例包括将气体吸附测量提速约 2500 倍，以及 6 个月拿到非人灵长类 CAR-T in vivo 数据。"
+      ],
+      "reading_notes": [],
+      "tags": [
+        "ai-for-science",
+        "robotics",
+        "data",
+        "infra"
+      ],
+      "related_sources": [],
+      "deep_read_zh": ""
+    },
+    {
+      "id": "tldr-ai-inkling-agent-sandbox-gpt-red",
+      "title_zh": "TLDR AI：Inkling、安全沙箱、递归自我改进与 GPT-Red",
+      "title_original": "Thinking Machines Inkling 🧠, GPT-Red 🔒, Perplexity sandboxes 🛡️",
+      "source": "TLDR AI",
+      "from": "TLDR AI <dan@tldrnewsletter.com>",
+      "subject": "Thinking Machines Inkling 🧠, GPT-Red 🔒, Perplexity sandboxes 🛡️",
+      "url": "https://refer.tldr.tech/0a897003/2",
+      "message_id": "<0100019f6b3e7122-f10dfbe1-7710-4325-8704-eded4d112114-000000@email.amazonses.com>",
+      "published_at": "2026-07-16T14:04:42.000Z",
+      "importance": "high",
+      "summary_zh": "这期 TLDR AI 覆盖了当天 AI infra 与安全方向的多个重点：Thinking Machines 发布 Inkling；Perplexity 的 SPACE 用短生命周期沙箱、凭证隔离、快照和加密存储来支持 agent 处理敏感任务；Anthropic 被报道推进潜在 IPO；研究者展示了 autonomous autoresearch agent 优化自身 harness 的实验；还提到 OpenAI 的 GPT-Red 用于自动生成 adversarial prompts、暴露模型漏洞。",
+      "why_important": "这封邮件的价值在于把模型发布、安全执行环境、agent 自我改进和红队测试放在同一天的技术脉络里。它显示 agent 产品化正在快速逼近工程系统问题，而不是只靠模型能力。",
+      "impact": "builder 需要开始把 sandbox、credential isolation、eval、red teaming 和 harness engineering 当作 agent 标配。只接模型 API 的产品会越来越难处理安全、可靠性和规模化执行问题。",
+      "key_points": [
+        "Inkling 被描述为 975B 参数 MoE、41B 激活参数、100 万 token 上下文的多模态模型。",
+        "Perplexity SPACE 强调 ephemeral sandbox 和凭证隔离。",
+        "自我改进 harness 实验显示 agent 可优化代码、提示长度和抗 reward hacking 结构。"
+      ],
+      "reading_notes": [],
+      "tags": [
+        "agent",
+        "security",
+        "model",
+        "eval"
+      ],
+      "related_sources": [
+        "AINews",
+        "TLDR Dev",
+        "AI Valley"
+      ],
+      "deep_read_zh": ""
+    },
+    {
+      "id": "tldr-dev-self-improving-agent-harnesses",
+      "title_zh": "TLDR Dev：自我改进 agent harness 成为工程焦点",
+      "title_original": "Self-improving harnesses 📈, Grok Build 🛠, Inkling open-weight model 📂",
+      "source": "TLDR Dev",
+      "from": "TLDR Dev <dan@tldrnewsletter.com>",
+      "subject": "Self-improving harnesses 📈, Grok Build 🛠, Inkling open-weight model 📂",
+      "url": "https://refer.tldr.tech/7e988322/3",
+      "message_id": "<0100019f6aa2d84b-d5d5cded-d025-478b-b53b-9ec71f823e5b-000000@email.amazonses.com>",
+      "published_at": "2026-07-16T11:14:44.000Z",
+      "importance": "high",
+      "summary_zh": "这期 TLDR Dev 对开发者最有价值的是 agent harness 主题：文章认为 AI 开发正在从手工调 prompt 转向设计可被 agent 分析、修改、验证的执行框架。邮件还讨论了面向 agent 的 API 设计、SQLite 默认行为问题、Inkling 开源权重模型、Grok Build 终端 coding agent、Capn-Hook 跨会话记忆工具、Boop iMessage 个人 agent，以及 agentic misalignment 风险。",
+      "why_important": "它抓住了 AI 编程工具下一阶段的核心：真正可用的 agent 不只需要模型，还需要 harness、日志、记忆、错误恢复、权限和可验证的改进流程。",
+      "impact": "开发者工具和 API 产品需要开始为 agent 消费者重新设计接口：更显式的错误、更少魔法默认、更好的可观测性和可脚本化工作流会成为竞争力。",
+      "key_points": [
+        "self-improving harness 让 agent 能分析执行轨迹、提出修改并验证更新。",
+        "API for agents 要更清晰、显式、错误处理精确。",
+        "Capn-Hook 和 Boop 代表个人 agent 记忆与消息入口方向。"
+      ],
+      "reading_notes": [],
+      "tags": [
+        "agent",
+        "developer-tools",
+        "api",
+        "memory"
+      ],
+      "related_sources": [
+        "TLDR AI",
+        "Opinion AI"
+      ],
+      "deep_read_zh": ""
+    },
+    {
+      "id": "the-neuron-openai-home-device-codex-micro",
+      "title_zh": "The Neuron：OpenAI 的家庭设备与 Codex Micro 暗示新交互入口",
+      "title_original": "😸 What OpenAI is building for your home",
+      "source": "www.theneurondaily.com",
+      "from": "The Neuron <theneuron@newsletter.theneurondaily.com>",
+      "subject": "😸 What OpenAI is building for your home",
+      "url": "https://www.cdata.com/blog/token-efficient-enterprise-claude-workflows?utm_source=neuron&utm_medium=newsletter_0716&utm_campaign=26Q3_Token_Efficiency_Blog",
+      "message_id": "<gV6_LTgYRAu51jDgEotkfA@geopod-ismtpd-91>",
+      "published_at": "2026-07-16T09:32:45.000Z",
+      "importance": "medium",
+      "summary_zh": "这期 The Neuron 主打 OpenAI 硬件方向：据 Bloomberg 报道，OpenAI 首款重要消费设备可能是一个便携、无屏、带摄像头和传感器的 ChatGPT 智能音箱，支持自然语音、移动和智能家居控制；同时 OpenAI 发布 Codex Micro，一个 230 美元的 coding agent 控制键盘。邮件还提到 Inkling、Anthropic 潜在 IPO、Ode 企业 AI 实施融资，以及用高 token 成本拖慢模型的 CAPTCHA 思路。",
+      "why_important": "它把 AI 的界面竞争从聊天框推进到物理空间：家庭设备、语音视觉和专用控制硬件都会改变用户与 agent 的关系。",
+      "impact": "对产品团队来说，未来 AI 入口可能不再只是网页、App 和插件，还包括家居设备、专用键盘、状态灯、旋钮和环境感知。隐私、信任和本地控制会成为同等重要的设计问题。",
+      "key_points": [
+        "OpenAI 家庭设备被描述为无屏、可移动、带摄像头和传感器的 ChatGPT companion。",
+        "Codex Micro 用专用按键、状态灯、摇杆和 reasoning-effort dial 控制 coding agent。",
+        "邮件认为界面竞争会走向房间、语音视觉和物理伴随。"
+      ],
+      "reading_notes": [],
+      "tags": [
+        "hardware",
+        "interface",
+        "agent",
+        "privacy"
+      ],
+      "related_sources": [
+        "AI Valley",
+        "TLDR"
+      ],
+      "deep_read_zh": ""
+    },
+    {
+      "id": "ai-valley-inkling-openai-codex-micro",
+      "title_zh": "AI Valley：Inkling 发布与 OpenAI Codex Micro",
+      "title_original": "Mira Murati's startup just unveiled its first flagship AI model",
+      "source": "www.theaivalley.com",
+      "from": "AI Valley <aivalley@mail.beehiiv.com>",
+      "subject": "Mira Murati's startup just unveiled its first flagship AI model",
+      "url": "https://www.theaivalley.com/",
+      "message_id": "<20260716.151047.62c39121@mta30>",
+      "published_at": "2026-07-16T15:10:47.000Z",
+      "importance": "medium",
+      "summary_zh": "这期 AI Valley 以两条新闻为主：Mira Murati 的 Thinking Machines Lab 发布首个旗舰模型 Inkling，一个开源权重、多模态、100 万 token 上下文、面向推理、编码和 agent 工作流的模型；OpenAI 发布 Codex Micro，一个与 Work Louder 合作的 230 美元可编程键盘，用专用按键、摇杆和自定义命令控制 coding agent。邮件还列出 Pocket、Reframe、Oak、Inkling 等趋势工具。",
+      "why_important": "这封邮件用大众化方式捕捉了同一天两个界面层事件：一个是开放模型底座，一个是 coding agent 的物理控制器。",
+      "impact": "AI 工具的竞争会同时发生在模型层和交互层。builder 既要关注可定制模型，也要关注如何把 agent 控制从聊天框迁移到更高效的工作流入口。",
+      "key_points": [
+        "Inkling 被定位为可自托管、可定制的开放权重模型。",
+        "Codex Micro 展示了 coding agent 专用硬件控制的方向。",
+        "Oak 代表企业为人类、应用和 AI agent 建立身份控制平面的趋势。"
+      ],
+      "reading_notes": [],
+      "tags": [
+        "model",
+        "hardware",
+        "agent",
+        "tools"
+      ],
+      "related_sources": [
+        "AINews",
+        "The Neuron",
+        "TLDR AI"
+      ],
+      "deep_read_zh": ""
+    },
+    {
+      "id": "tldr-stripe-paypal-sdks-agent-skills",
+      "title_zh": "TLDR：Stripe 收购 PayPal 传闻、自动驾驶博弈与 SDK 被 agent 改写",
+      "title_original": "Stripe's PayPal bid 💰, Uber vs Waymo 🚗, against SDKs 👨‍💻",
+      "source": "TLDR",
+      "from": "TLDR <dan@tldrnewsletter.com>",
+      "subject": "Stripe's PayPal bid 💰, Uber vs Waymo 🚗, against SDKs 👨‍💻",
+      "url": "https://refer.tldr.tech/f45b3ac9/",
+      "message_id": "<0100019f6a7db08a-b85ae4a3-fb7d-4752-b885-39673451f904-000000@email.amazonses.com>",
+      "published_at": "2026-07-16T10:34:09.000Z",
+      "importance": "medium",
+      "summary_zh": "这期 TLDR 是综合科技简报，重点包括 Stripe 与 Advent 据称提出以每股 60.50 美元收购 PayPal、Uber 与 Waymo 围绕 robotaxi 展开舆论和监管博弈、阿尔茨海默血液检测进展、现代汽车工人因类人机器人威胁而罢工。对 AI builder 最相关的是“为什么我们停止使用 SDK”：文章认为 AI 降低了直接写 REST client 的成本，未来公司可能从发布 SDK 转向发布 agent skills，教 agent 正确调用 API。",
+      "why_important": "它提供了一个对开发者生态很有启发的判断：AI 可能削弱传统 SDK 的分发价值，增强文档、技能、可观测性和 API 一致性的价值。",
+      "impact": "API 公司需要重新思考开发者体验：面向人类的 SDK 可能不再是默认答案，面向 agent 的调用说明、错误语义、示例和自动化测试会更重要。",
+      "key_points": [
+        "文章认为定制 REST client 的成本因 AI 下降。",
+        "未来厂商可能发布 agent skills，而不是强推每种语言的 SDK。",
+        "现代汽车罢工显示 humanoid robot 已开始触及劳工议题。"
+      ],
+      "reading_notes": [],
+      "tags": [
+        "developer-tools",
+        "api",
+        "agent",
+        "business"
+      ],
+      "related_sources": [
+        "TLDR Dev"
+      ],
+      "deep_read_zh": ""
+    },
+    {
+      "id": "opinion-ai-practical-ai-guides",
+      "title_zh": "Opinion AI：从知识库、技能到循环，把 AI 变成可工作的系统",
+      "title_original": "10 AI Guides That Helped Readers Build Real Systems",
+      "source": "emergingai.substack.com",
+      "from": "Opinion AI <emergingai@substack.com>",
+      "subject": "10 AI Guides That Helped Readers Build Real Systems",
+      "url": "https://emergingai.substack.com/p/10-ai-guides-that-helped-readers",
+      "message_id": "<20260716234549.3.4ab9558d60a1d330@mg-d0.substack.com>",
+      "published_at": "2026-07-16T23:45:49.000Z",
+      "importance": "medium",
+      "summary_zh": "这期 Opinion AI 汇总了近期最受读者欢迎的 10 篇实践指南，主题不是“获得更强模型”，而是如何把 AI 变成真实工作系统：用 Obsidian 和 Markdown 建立可被人和 AI 共同读取的知识库；用 CLAUDE.md、AGENTS.md、SKILL.md 等项目文件沉淀规则；从 Daily Briefing Agent 入门 agent；用 Claude Skills 保存可复用流程；用 loop 结构让 AI 有开始、执行、检查、保存状态和停止条件。",
+      "why_important": "它把 2026 年实用 AI 的方法论讲得很清楚：价值来自上下文、规则、工具、记忆、检查和产出，而不是单次聊天。",
+      "impact": "独立开发者和小团队可以把这当成 AI 工作流建设路线图：先整理知识与项目文件，再抽象技能，最后构建可重复执行和自检的 agent loop。",
+      "key_points": [
+        "Markdown vault 可以成为人、Claude、编辑器、终端和 AI 工具共享的知识层。",
+        "项目文件比长 prompt 更适合保存长期规则和工作定义。",
+        "Skills 和 loops 能把反复纠正沉淀为可复用流程。"
+      ],
+      "reading_notes": [],
+      "tags": [
+        "workflow",
+        "agent",
+        "memory",
+        "skills"
+      ],
+      "related_sources": [
+        "TLDR Dev"
+      ],
+      "deep_read_zh": ""
+    }
+  ],
+  "skipped": [
+    {
+      "message_id": "<0100019f6ad5fcf8-e4cefc93-17dd-4d2c-8ebb-8b6fbf074580-000000@email.amazonses.com>",
+      "subject": "Google Images Redesign 📌, Canva Code 2.0 🎨, Anti-AI Font 👻",
+      "from": "TLDR Design <dan@tldrnewsletter.com>",
+      "reason": "system"
+    }
+  ],
+  "notes": "今日精读选择 AINews 的 Inkling，因为同一天多封 newsletter 都提到该模型，而 AINews 给出的参数、团队表态和生态支持信息最完整。Substack 推荐 ByteByteGo 的邮件正文为空且属于推荐/系统类邮件，未纳入 items。各封正式 newsletter 即使重复提到 Inkling、Codex Micro 或 OpenAI 硬件，也按来源分别保留为独立摘要；赞助广告、招聘和课程促销内容未单独成条。"
+}
