@@ -1,0 +1,411 @@
+{
+  "date": "2026-07-17",
+  "top3": [
+    "今天最值得关注的是 Agent 工具链从模型调用转向工作台、技能库、文件系统与 Office 自动化这一层。",
+    "开源视频剪辑、设计反 AI 味、AI 求职和 Office Agent 工具正在获得高增长，说明垂直工作流比单点聊天更容易形成产品。",
+    "Google Trends 里 Kimi K3 与 Codex Micro 破圈，同时 cursor alternative、vibe trading 等词快速降温，开发者注意力正在重新分配。"
+  ],
+  "intro": "今天的数据呈现出一个清晰脉络：AI Builder 的竞争焦点正在从谁的模型更强，转向谁能把模型嵌入可重复、可审计、可交付的工作流。GitHub 热榜集中在 Agent ADE、技能库、Office 自动化和开源替代品，HuggingFace 则显示端侧、多模态、OCR 和语音转写继续升温。",
+  "sections": [
+    {
+      "id": "discovery",
+      "title": "发现机会",
+      "blocks": [
+        {
+          "id": "indie-products",
+          "heading": "今天有哪些独立开发者的新产品？",
+          "summary_md": "HN Show HN 今天没有可用条目，Product Hunt 数据也未提供票数与评论数，因此这里把 score 记为 0，只看产品方向。值得关注的是，[Scribble Party](https://www.producthunt.com/products/scribble-party) 把白板做成面向老师和创作者的 local-first studio，[Aye](https://www.producthunt.com/products/aye-browser) 把浏览器日常工作包装成可训练 AI intern，[PixyCAD](https://www.producthunt.com/products/pixycad-3d-solid-modelling) 选择 iPad 与 Mac 原生 CAD，[Inbix](https://www.producthunt.com/products/inbix) 则切入 Cloudflare-native 邮件基础设施。\n\n更像独立开发者机会的，是这些产品都避开了大而泛的 AI 助手叙事，转向已有高频场景：教学白板、浏览器重复操作、CAD 建模、邮件基础设施和内容再利用。[SonOf](https://www.producthunt.com/products/sonof) 的「只在 shipped 时付费」也说明服务型 AI 产品正在尝试把交付结果绑定到定价，而不是卖调用次数。",
+          "items": [
+            {
+              "title": "Scribble Party",
+              "url": "https://www.producthunt.com/products/scribble-party",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "Aye",
+              "url": "https://www.producthunt.com/products/aye-browser",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "PixyCAD",
+              "url": "https://www.producthunt.com/products/pixycad-3d-solid-modelling",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "Inbix",
+              "url": "https://www.producthunt.com/products/inbix",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "SonOf",
+              "url": "https://www.producthunt.com/products/sonof",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "今天的独立产品机会不在再造聊天框，而在把 AI 嵌进一个可付费的具体工作。"
+        },
+        {
+          "id": "github-traction",
+          "heading": "GitHub 上哪些高增长开源项目还没有商业化？",
+          "summary_md": "本周最强的开源机会来自「开源替代品」和「Agent 操作层」。[OpenCut-app/OpenCut](https://github.com/OpenCut-app/OpenCut) 本周新增 11731 stars、总计 74448 stars，定位是开源 CapCut 替代；[Nutlope/hallmark](https://github.com/Nutlope/hallmark) 本周新增 6573 stars、总计 11470 stars，直接解决 AI 生成界面的审美问题；[stablyai/orca](https://github.com/stablyai/orca) 本周新增 5736 stars、总计 20837 stars，切的是并行 Agent 工作台。\n\n这些项目的共同点是增长很快，但商业包装还不明显。OpenCut 可以走云渲染、模板市场和团队协作；hallmark 可以做成设计审查 API 或 IDE 插件订阅；Orca 则更像 Agent 操作系统入口，适合围绕权限、审计、移动端控制台和企业私有部署收费。",
+          "items": [
+            {
+              "title": "OpenCut-app/OpenCut",
+              "url": "https://github.com/OpenCut-app/OpenCut",
+              "source": "GitHub",
+              "score": 11731
+            },
+            {
+              "title": "Nutlope/hallmark",
+              "url": "https://github.com/Nutlope/hallmark",
+              "source": "GitHub",
+              "score": 6573
+            },
+            {
+              "title": "stablyai/orca",
+              "url": "https://github.com/stablyai/orca",
+              "source": "GitHub",
+              "score": 5736
+            },
+            {
+              "title": "iOfficeAI/OfficeCLI",
+              "url": "https://github.com/iOfficeAI/OfficeCLI",
+              "source": "GitHub",
+              "score": 5342
+            }
+          ],
+          "takeaway": "高增长开源项目的商业化入口，正在从托管服务转向协作、权限、审计和工作流封装。"
+        }
+      ]
+    },
+    {
+      "id": "tech-stack",
+      "title": "技术选型",
+      "blocks": [
+        {
+          "id": "dev-tools",
+          "heading": "本周增长最快的开发者工具是什么？",
+          "summary_md": "开发者工具榜单今天几乎被 Agent 基础设施占满。[DesktopCommanderMCP](https://github.com/wonderwhy-er/DesktopCommanderMCP) 本周新增 1991 stars、总计 8423 stars，让 Claude 获得终端控制、文件搜索和 diff 编辑能力；[google-labs-code/stitch-skills](https://github.com/google-labs-code/stitch-skills) 本周新增 1090 stars、总计 7573 stars，把 Agent Skills 做成兼容 Claude Code、Cursor、Gemini CLI 等工具的开放标准。\n\n更靠近真实工作流的是 [iOfficeAI/OfficeCLI](https://github.com/iOfficeAI/OfficeCLI)，本周新增 5342 stars、总计 18615 stars，主打让 Agent 读写 Word、Excel、PowerPoint；[diegosouzapw/OmniRoute](https://github.com/diegosouzapw/OmniRoute) 本周新增 3920 stars、总计 18184 stars，提供多模型网关、免费 provider、fallback 和 token 压缩。技术选型上，MCP、技能目录、文件系统权限和多模型路由已经变成新 Agent 产品的默认底座。",
+          "items": [
+            {
+              "title": "DesktopCommanderMCP",
+              "url": "https://github.com/wonderwhy-er/DesktopCommanderMCP",
+              "source": "GitHub",
+              "score": 1991
+            },
+            {
+              "title": "stitch-skills",
+              "url": "https://github.com/google-labs-code/stitch-skills",
+              "source": "GitHub",
+              "score": 1090
+            },
+            {
+              "title": "OfficeCLI",
+              "url": "https://github.com/iOfficeAI/OfficeCLI",
+              "source": "GitHub",
+              "score": 5342
+            },
+            {
+              "title": "OmniRoute",
+              "url": "https://github.com/diegosouzapw/OmniRoute",
+              "source": "GitHub",
+              "score": 3920
+            }
+          ],
+          "takeaway": "如果你还在只接一个模型 API，技术栈已经落后一层。"
+        },
+        {
+          "id": "hf-models",
+          "heading": "HuggingFace 上最热的模型能做什么消费级产品？",
+          "summary_md": "HuggingFace 今天的模型信号很适合做消费级垂直应用。[thinkingmachines/Inkling](https://huggingface.co/thinkingmachines/Inkling) trending score 854、7870 downloads、869 likes，覆盖 image-text-to-text 与 audio-text-to-text，适合做个人多模态记忆、截图问答和语音笔记；[prism-ml/Ternary-Bonsai-27B-gguf](https://huggingface.co/prism-ml/Ternary-Bonsai-27B-gguf) trending score 608、200774 downloads，强调 2-bit、on-device、Metal 和 CUDA，适合本地隐私助手。\n\n另一个高价值方向是文档与媒体理解。[ATH-MaaS/OvisOCR2](https://huggingface.co/ATH-MaaS/OvisOCR2) trending score 139，标签包含 OCR、document-parsing、tables、formulas 和 markdown；[OpenMOSS-Team/MOSS-Transcribe-Diarize](https://huggingface.co/OpenMOSS-Team/MOSS-Transcribe-Diarize) trending score 155、83160 downloads，适合长音频转写、说话人分离和会议摘要。消费产品可以从「本地收件箱 OCR」「家庭财务票据整理」「播客转知识库」这些窄场景切入。",
+          "items": [
+            {
+              "title": "thinkingmachines/Inkling",
+              "url": "https://huggingface.co/thinkingmachines/Inkling",
+              "source": "HuggingFace",
+              "score": 854
+            },
+            {
+              "title": "prism-ml/Ternary-Bonsai-27B-gguf",
+              "url": "https://huggingface.co/prism-ml/Ternary-Bonsai-27B-gguf",
+              "source": "HuggingFace",
+              "score": 608
+            },
+            {
+              "title": "ATH-MaaS/OvisOCR2",
+              "url": "https://huggingface.co/ATH-MaaS/OvisOCR2",
+              "source": "HuggingFace",
+              "score": 139
+            },
+            {
+              "title": "OpenMOSS-Team/MOSS-Transcribe-Diarize",
+              "url": "https://huggingface.co/OpenMOSS-Team/MOSS-Transcribe-Diarize",
+              "source": "HuggingFace",
+              "score": 155
+            }
+          ],
+          "takeaway": "端侧多模态和文档理解，是今天最适合独立开发者商品化的模型能力。"
+        }
+      ]
+    },
+    {
+      "id": "competition",
+      "title": "竞争情报",
+      "blocks": [
+        {
+          "id": "pricing-revenue",
+          "heading": "独立开发者在讨论什么营收和定价策略？",
+          "summary_md": "今天没有 HN 定价讨论，但 Product Hunt 给出了几个可观察的定价实验。[Cloud Halo](https://www.producthunt.com/products/cloud-halo) 直接把 Azure FinOps for MSPs 和 flat pricing 绑定，说明面向代理商、顾问和服务商的 B2B 工具正在避免复杂用量计费；[SonOf](https://www.producthunt.com/products/sonof) 的 tagline 是「Empty your backlog. Pay only when it ships」，把价格锚定在交付结果上，而不是坐席数或 token。\n\n这两个方向都值得 Builder 借鉴：如果客户已经被云账单、AI token、席位费教育得疲惫，平价包月会降低采购摩擦；如果产品承诺的是自动化交付，按 shipped、按节省时间、按成功任务收费，反而更容易解释价值。今天的价格信号不是便宜，而是让客户少算账。",
+          "items": [
+            {
+              "title": "Cloud Halo",
+              "url": "https://www.producthunt.com/products/cloud-halo",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "SonOf",
+              "url": "https://www.producthunt.com/products/sonof",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "Nuvio",
+              "url": "https://www.producthunt.com/products/nuvio-2",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "AI 产品的好定价不是更复杂，而是让客户不用替你建一张成本表。"
+        },
+        {
+          "id": "migrations",
+          "heading": "有没有「XX is dead」或迁移类文章？",
+          "summary_md": "今天没有典型的「XX is dead」文章，但 GitHub 增长里出现了多条隐性迁移信号。[OpenCut-app/OpenCut](https://github.com/OpenCut-app/OpenCut) 以开源 CapCut 替代的定位拿到 11731 weekly stars，[OmniRoute](https://github.com/diegosouzapw/OmniRoute) 用一个 endpoint 连接 Claude Code、Codex、Cursor、Cline 和 Copilot，[openai/codex-plugin-cc](https://github.com/openai/codex-plugin-cc) 则让 Codex 可以从 Claude Code 中被调用。\n\n这说明迁移不再只是从 A 工具换到 B 工具，而是从单一供应商迁移到可互操作的工具层。Builder 做新产品时，不必劝用户抛弃现有 IDE、模型或云服务，更有效的是提供桥接、路由、导入导出和可回退能力。",
+          "items": [
+            {
+              "title": "OpenCut-app/OpenCut",
+              "url": "https://github.com/OpenCut-app/OpenCut",
+              "source": "GitHub",
+              "score": 11731
+            },
+            {
+              "title": "OmniRoute",
+              "url": "https://github.com/diegosouzapw/OmniRoute",
+              "source": "GitHub",
+              "score": 3920
+            },
+            {
+              "title": "codex-plugin-cc",
+              "url": "https://github.com/openai/codex-plugin-cc",
+              "source": "GitHub",
+              "score": 1908
+            }
+          ],
+          "takeaway": "今天的迁移机会，是帮用户保留旧工具，同时拿到新能力。"
+        }
+      ]
+    },
+    {
+      "id": "trends",
+      "title": "趋势判断",
+      "blocks": [
+        {
+          "id": "keywords",
+          "heading": "本周技术关键词频率有什么变化？",
+          "summary_md": "Google Trends 里，[codex](https://trends.google.com/trends/explore?q=codex&date=now+7-d) 仍然上涨 +11.0%，但 [codex cli](https://trends.google.com/trends/explore?q=codex+cli&date=now+7-d) 下滑 -6.3%，说明搜索兴趣从命令行工具本身转向更泛的 Codex 生态与周边概念。与 GitHub 上 [openai/codex-plugin-cc](https://github.com/openai/codex-plugin-cc) 本周 1908 stars、[google-labs-code/stitch-skills](https://github.com/google-labs-code/stitch-skills) 本周 1090 stars 对照看，开发者不是放弃 Coding Agent，而是在寻找跨工具协作方式。\n\n另一方面，[self hosted](https://trends.google.com/trends/explore?q=self+hosted&date=now+7-d) 只微跌 -0.9%，[ai agent](https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d) 下滑 -3.2%，热度趋于稳定。关键词层面的结论是：泛 Agent 叙事开始钝化，但可嵌入、可路由、可本地运行的工具仍在吸引开发者。",
+          "items": [
+            {
+              "title": "codex",
+              "url": "https://trends.google.com/trends/explore?q=codex&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 11
+            },
+            {
+              "title": "codex cli",
+              "url": "https://trends.google.com/trends/explore?q=codex+cli&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": -6
+            },
+            {
+              "title": "ai agent",
+              "url": "https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": -3
+            }
+          ],
+          "takeaway": "Agent 不是降温，而是从口号词变成具体工具链词。"
+        },
+        {
+          "id": "vc-radar",
+          "heading": "VC 和 YC 在关注什么主题？",
+          "summary_md": "今天最像 VC 雷达的主题，是 Agent 的操作系统化和垂直工作流化。[stablyai/orca](https://github.com/stablyai/orca) 本周新增 5736 stars，定位是管理一组并行 coding agents 的 ADE；[DesktopCommanderMCP](https://github.com/wonderwhy-er/DesktopCommanderMCP) 让 Claude 接管终端、搜索和 diff；[iOfficeAI/OfficeCLI](https://github.com/iOfficeAI/OfficeCLI) 则把 Office 文件变成 Agent 可读写的自动化对象。\n\n另一个值得关注的是「AI 生成内容的质量治理」。[Nutlope/hallmark](https://github.com/Nutlope/hallmark) 本周新增 6573 stars，说明开发者已经不满足于生成页面，而是要消除 AI slop。VC 会更关心那些站在模型之后的控制层：权限、审计、协作、评估、设计质量、成本路由和交付保证。",
+          "items": [
+            {
+              "title": "stablyai/orca",
+              "url": "https://github.com/stablyai/orca",
+              "source": "GitHub",
+              "score": 5736
+            },
+            {
+              "title": "DesktopCommanderMCP",
+              "url": "https://github.com/wonderwhy-er/DesktopCommanderMCP",
+              "source": "GitHub",
+              "score": 1991
+            },
+            {
+              "title": "Nutlope/hallmark",
+              "url": "https://github.com/Nutlope/hallmark",
+              "source": "GitHub",
+              "score": 6573
+            }
+          ],
+          "takeaway": "下一批融资故事会围绕 Agent 控制层，而不是再包装一个助手。"
+        },
+        {
+          "id": "cooling",
+          "heading": "哪些 AI 热词在降温？",
+          "summary_md": "降温最明显的是 [cursor alternative](https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d)，本周变化 -70.4%；[vibe trading](https://trends.google.com/trends/explore?q=vibe+trading&date=now+7-d) 变化 -75.3%；[stitch skills](https://trends.google.com/trends/explore?q=stitch+skills&date=now+7-d) 变化 -100.0%。这不代表相关产品失败，而是搜索词生命周期太短，概念爆发后很快被具体品牌、仓库或使用场景吸收。\n\n值得警惕的是，GitHub 上 [HKUDS/Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) 仍有 5407 weekly stars、24458 total stars，但 Google 搜索词已经大幅回落。Builder 不应只追逐命名风口，而要观察用户是否留下了持续行为：安装、fork、模板复用、团队部署和付费转化。",
+          "items": [
+            {
+              "title": "cursor alternative",
+              "url": "https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": -70
+            },
+            {
+              "title": "vibe trading",
+              "url": "https://trends.google.com/trends/explore?q=vibe+trading&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": -75
+            },
+            {
+              "title": "stitch skills",
+              "url": "https://trends.google.com/trends/explore?q=stitch+skills&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": -100
+            }
+          ],
+          "takeaway": "热词降温不等于需求消失，可能只是用户已经开始按具体产品搜索。"
+        },
+        {
+          "id": "new-radar",
+          "heading": "新词雷达：有哪些从零起飞的新概念？",
+          "summary_md": "今天最强新词是 Kimi K3：Google Trends breakouts 中「kimi k3」分别出现 +3300 与 +6800，同时它也是 [codex](https://trends.google.com/trends/explore?q=codex&date=now+7-d) 和 [ai agent](https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d) 的 rising 关联查询。Product Hunt 上 [Kimi K3](https://www.producthunt.com/products/kimi-ai-assistant) 也以「world's first open 3T-class model」出现，叠加 GitHub daily 里 [openinterpreter/openinterpreter](https://github.com/openinterpreter/openinterpreter) 描述为面向 Kimi K3 等开放模型的 coding agent。\n\n另一个弱信号是 Codex Micro：在 [codex](https://trends.google.com/trends/explore?q=codex&date=now+7-d) 的 rising 里出现「openai codex micro keyboard」+1400、「codex micro」+700、「openai codex micro」+250。无论它最终是硬件、配件还是社区误读，说明开发者已经开始把 Coding Agent 想象成更贴近桌面和输入设备的常驻入口。",
+          "items": [
+            {
+              "title": "kimi k3",
+              "url": "https://trends.google.com/trends/explore?q=codex&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 6800
+            },
+            {
+              "title": "openai codex micro keyboard",
+              "url": "https://trends.google.com/trends/explore?q=codex&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 1400
+            },
+            {
+              "title": "codex micro",
+              "url": "https://trends.google.com/trends/explore?q=codex&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 700
+            }
+          ],
+          "takeaway": "新词雷达显示，开放大模型和桌面常驻 Agent 入口正在同时冒头。"
+        }
+      ]
+    },
+    {
+      "id": "actions",
+      "title": "行动触发",
+      "blocks": [
+        {
+          "id": "weekend-build",
+          "heading": "今天 2 小时和一个周末分别做什么？",
+          "summary_md": "2 小时版本：不要再做泛 AI agent demo，直接选一个文件型工作流。比如用 [iOfficeAI/OfficeCLI](https://github.com/iOfficeAI/OfficeCLI) 做一个「会议纪要转 PPT」或「Excel 账单审查」脚本，再用 [DesktopCommanderMCP](https://github.com/wonderwhy-er/DesktopCommanderMCP) 或 MCP 工具把它接进本地 Agent。目标不是炫技，而是完成一个可复现的输入、处理、输出闭环。\n\n周末版本：复制 [OpenCut-app/OpenCut](https://github.com/OpenCut-app/OpenCut) 和 [ATH-MaaS/OvisOCR2](https://huggingface.co/ATH-MaaS/OvisOCR2) 的思路，做一个垂直内容工具。例如「课程录像自动切片并生成讲义」「收据 OCR 到家庭预算表」「播客转章节卡片」。你要验证的是用户是否愿意上传真实素材，而不是他们是否觉得 AI 很酷。",
+          "items": [
+            {
+              "title": "OfficeCLI",
+              "url": "https://github.com/iOfficeAI/OfficeCLI",
+              "source": "GitHub",
+              "score": 5342
+            },
+            {
+              "title": "DesktopCommanderMCP",
+              "url": "https://github.com/wonderwhy-er/DesktopCommanderMCP",
+              "source": "GitHub",
+              "score": 1991
+            },
+            {
+              "title": "OvisOCR2",
+              "url": "https://huggingface.co/ATH-MaaS/OvisOCR2",
+              "source": "HuggingFace",
+              "score": 139
+            }
+          ],
+          "takeaway": "今天最值得动手的不是新模型评测，而是一个能处理真实文件的微工作流。"
+        },
+        {
+          "id": "pricing-models",
+          "heading": "值得学习的定价和变现模式有哪些？",
+          "summary_md": "今天可以学习三个定价模型。第一是 [Cloud Halo](https://www.producthunt.com/products/cloud-halo) 的 flat pricing，把复杂 Azure FinOps 简化成 MSP 能转售的固定成本。第二是 [SonOf](https://www.producthunt.com/products/sonof) 的 pay only when it ships，用结果付费降低客户对 AI 自动化不确定性的抵触。第三是 [OmniRoute](https://github.com/diegosouzapw/OmniRoute) 暗示的网关模式：用多 provider、fallback 和 token 压缩，把成本优化本身变成卖点。\n\n对独立开发者来说，最容易落地的是「固定价小套餐 + 成功任务额度」。比如每月固定费用包含 100 次文档处理、10 次视频切片或 20 次销售线索清洗，超过后按任务收费。不要把 token、模型、队列和 GPU 成本暴露给客户，客户只关心这件事有没有被完成。",
+          "items": [
+            {
+              "title": "Cloud Halo",
+              "url": "https://www.producthunt.com/products/cloud-halo",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "SonOf",
+              "url": "https://www.producthunt.com/products/sonof",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "OmniRoute",
+              "url": "https://github.com/diegosouzapw/OmniRoute",
+              "source": "GitHub",
+              "score": 3920
+            }
+          ],
+          "takeaway": "AI 产品要把成本复杂性留给自己，把完成结果卖给客户。"
+        },
+        {
+          "id": "counterintuitive",
+          "heading": "今天最反直觉的发现是什么？",
+          "summary_md": "最反直觉的是：热度最高的不是更聪明的聊天机器人，而是让人少看聊天框的工具。HN 唯一 top 条目 [The human-in-the-loop is tired](https://pydantic.dev/articles/the-human-in-the-loop-is-tired) 只有 200 points、109 comments，但标题点出了今天所有数据背后的疲劳感：人类不想一直在循环里审批、纠错、复制粘贴。\n\n对应到 GitHub，[stablyai/orca](https://github.com/stablyai/orca) 要管理并行 agents，[OfficeCLI](https://github.com/iOfficeAI/OfficeCLI) 要自动化 Office 文件，[OpenCut](https://github.com/OpenCut-app/OpenCut) 要替代视频剪辑工作台，[hallmark](https://github.com/Nutlope/hallmark) 要修正 AI 设计味。真正的机会不是让用户多对话，而是让用户少介入。",
+          "items": [
+            {
+              "title": "The human-in-the-loop is tired",
+              "url": "https://pydantic.dev/articles/the-human-in-the-loop-is-tired",
+              "source": "HN",
+              "score": 200
+            },
+            {
+              "title": "stablyai/orca",
+              "url": "https://github.com/stablyai/orca",
+              "source": "GitHub",
+              "score": 5736
+            },
+            {
+              "title": "Nutlope/hallmark",
+              "url": "https://github.com/Nutlope/hallmark",
+              "source": "GitHub",
+              "score": 6573
+            }
+          ],
+          "takeaway": "AI 产品越成熟，越不该把用户困在 human-in-the-loop 里。"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2026-07-17T09:18:59+00:00",
+  "reddit_highlights": []
+}

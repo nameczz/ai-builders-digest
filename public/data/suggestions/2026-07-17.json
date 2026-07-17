@@ -1,0 +1,173 @@
+{
+  "date": "2026-07-17",
+  "items": [
+    {
+      "id": "2026-07-17-1",
+      "title": "免费模型开始抢饭碗",
+      "angle": "从 Kimi K3 引发的迁移信号切入：开源模型不是替代 API，而是在逼企业重做模型路由。",
+      "opening": "Aditya Agarwal 说他已经在把系统从 Fable 切走，因为有了好用还免费的替代品。另一边，Guillermo Rauch 看到 Kimi K3 在 Web 工程基准上压过闭源模型，但仍提醒最强模型也没有到 100%。这不是一次模型榜单更新，而是企业 AI 栈的换挡信号。",
+      "story_hook": {
+        "challenge": "过去企业默认为最强闭源模型付费，现在免费或开源模型开始在具体工程任务上逼近甚至反超。",
+        "twist": "真正的赢家未必是某个模型，而是能快速 eval、路由、切换模型的应用层。"
+      },
+      "takeaway": "不要只问哪个模型最强；团队应该建立任务级 eval、模型路由和可回退框架，避免被单一供应商锁死。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Aditya Agarwal 称正在从 Fable 切走",
+          "url": "https://x.com/adityaag/status/2077983435000324125"
+        },
+        {
+          "tag": "builders",
+          "ref": "Guillermo Rauch 评价 Kimi K3 Web 工程基准",
+          "url": "https://x.com/rauchg/status/2077900518404321759"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Google Trends 中 Kimi K3 breakout",
+          "url": "https://trends.google.com/trends/explore?q=codex&date=now+7-d"
+        },
+        {
+          "tag": "pulse",
+          "ref": "OmniRoute 多模型网关",
+          "url": "https://github.com/diegosouzapw/OmniRoute"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-17-2",
+      "title": "AI ROI 不是使用量",
+      "angle": "从 Boris Cherny 的 ROI 标准切入，反驳企业用 AI 仪表盘自嗨的做法。",
+      "opening": "Boris Cherny 说，团队用了多少 AI 不重要，真正该问的是：这件事原本会不会消耗工程资源，AI 省下了多少人工小时。今天 GitHub 热榜也在给同一个答案：Orca 管并行 agents，OfficeCLI 接管 Office 文件，DesktopCommanderMCP 让 Claude 操作本地文件和终端。",
+      "story_hook": {
+        "challenge": "企业在统计 prompt 次数、活跃用户和 token 消耗，但这些数字不等于业务回报。",
+        "twist": "AI 真正创造价值的地方，可能不是帮人更快聊天，而是把整类后台维护工作自动吃掉。"
+      },
+      "takeaway": "评估内部 AI 项目时，把指标从使用量改成节省的工程小时、减少的人工步骤和自动完成的任务数。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Boris Cherny 谈 AI ROI 应看节省工程小时",
+          "url": "https://x.com/bcherny/status/2077929397495959693"
+        },
+        {
+          "tag": "builders",
+          "ref": "Boris Cherny 谈 Claude 自动化阶段",
+          "url": "https://x.com/bcherny/status/2077929404219474148"
+        },
+        {
+          "tag": "pulse",
+          "ref": "stablyai/orca 并行 Agent 工作台",
+          "url": "https://github.com/stablyai/orca"
+        },
+        {
+          "tag": "pulse",
+          "ref": "iOfficeAI/OfficeCLI 自动化 Office 文件",
+          "url": "https://github.com/iOfficeAI/OfficeCLI"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-17-3",
+      "title": "Agent 输在脏活上",
+      "angle": "从 Claude Code 的连接器和 browser use 槽点切入：Agent 竞争已经从智商卷到工作台细节。",
+      "opening": "Peter Yang 今天连续吐槽：Claude Code 的 browser use 难用，Google Workspace 连接器也落后于 ChatGPT。与此同时，GitHub 上涨得最快的不是新聊天机器人，而是 DesktopCommanderMCP、stitch-skills 和 OfficeCLI 这类让 Agent 真能碰文件、终端、技能和办公文档的工具。",
+      "story_hook": {
+        "challenge": "用户以为 Agent 的瓶颈是模型不够聪明，实际用起来卡在连接器、浏览器、权限和文件格式。",
+        "twist": "最有价值的产品机会，可能是把这些无聊接口做稳，而不是再造一个更会说话的助手。"
+      },
+      "takeaway": "做 Agent 产品时，优先补齐文件系统、浏览器、Office、权限和审计；这些基础能力比炫技 demo 更接近付费场景。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Peter Yang 吐槽 Claude Code browser use",
+          "url": "https://x.com/petergyang/status/2077966904938127502"
+        },
+        {
+          "tag": "builders",
+          "ref": "Peter Yang 指出 Claude Code 缺 Google Workspace 连接器",
+          "url": "https://x.com/petergyang/status/2077968093406707970"
+        },
+        {
+          "tag": "pulse",
+          "ref": "DesktopCommanderMCP 提供终端控制与文件搜索",
+          "url": "https://github.com/wonderwhy-er/DesktopCommanderMCP"
+        },
+        {
+          "tag": "pulse",
+          "ref": "google-labs-code/stitch-skills",
+          "url": "https://github.com/google-labs-code/stitch-skills"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-17-4",
+      "title": "前端框架要变成 Agent 入口",
+      "angle": "从 Vercel 挖人和 React 圈集结切入，判断前端基础设施正在被 Agentic DX 重写。",
+      "opening": "Swyx 说 React 圈的“复仇者联盟”集结了。Guillermo Rauch 则直接宣布，Vercel 找来 Pete Hunt 管 Frameworks 和 Next.js，又找来 GraphQL 共同发明者 Nick Schrock 做 Agentic Developer Experience。这不是普通招聘新闻，而是前端框架公司开始抢 Agent 工作流入口。",
+      "story_hook": {
+        "challenge": "过去前端框架比拼渲染、路由和部署体验，现在开发者工作流正在被 AI agent 重新定义。",
+        "twist": "Next.js 这类框架的下一层竞争，可能不是框架本身，而是 agent 如何理解、修改、审查和交付应用。"
+      },
+      "takeaway": "前端团队需要关注框架是否能被 Agent 稳定操作，包括项目结构、组件约定、测试、设计审查和部署闭环。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Swyx 称 React 圈阵容集结",
+          "url": "https://x.com/swyx/status/2078004977294032991"
+        },
+        {
+          "tag": "builders",
+          "ref": "Guillermo Rauch 宣布 Vercel 引入 Pete Hunt 与 Nick Schrock",
+          "url": "https://x.com/rauchg/status/2077870043833229692"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Nutlope/hallmark 解决 AI 生成界面审美问题",
+          "url": "https://github.com/Nutlope/hallmark"
+        },
+        {
+          "tag": "pulse",
+          "ref": "codex-plugin-cc 让 Codex 可从 Claude Code 调用",
+          "url": "https://github.com/openai/codex-plugin-cc"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-17-5",
+      "title": "语音输入卡在公共场合",
+      "angle": "从 Sam Altman 的语音使用习惯和中国硬件创意切入，讨论 AI 交互从打字转向隐私硬件。",
+      "opening": "Sam Altman 说，他现在跟 ChatGPT 说话的次数已经超过打字。可 Zara Zhang 看到的中国硬件创意更具体：口罩兼麦克风，让人在公共场合语音输入也不怕被旁人听见。语音模型跨过临界点后，真正的瓶颈变成了社交和隐私。",
+      "story_hook": {
+        "challenge": "语音可能是更自然的 AI 入口，但公共空间里开口说 prompt 很尴尬，也可能泄露信息。",
+        "twist": "下一代 AI 输入设备不一定是更酷的耳机，而可能是解决尴尬和隐私的小硬件。"
+      },
+      "takeaway": "做语音 AI 产品时，不只优化识别率，也要设计公共场景、隐私保护、低打扰输入和多模态记忆工作流。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Sam Altman 称与 ChatGPT 说话次数超过打字",
+          "url": "https://x.com/sama/status/2077842579232895286"
+        },
+        {
+          "tag": "builders",
+          "ref": "Zara Zhang 提到口罩麦克风硬件创意",
+          "url": "https://x.com/zarazhangrui/status/2077953473535176772"
+        },
+        {
+          "tag": "pulse",
+          "ref": "thinkingmachines/Inkling 支持 image-text-to-text 与 audio-text-to-text",
+          "url": "https://huggingface.co/thinkingmachines/Inkling"
+        },
+        {
+          "tag": "pulse",
+          "ref": "MOSS-Transcribe-Diarize 语音转写与说话人分离",
+          "url": "https://huggingface.co/OpenMOSS-Team/MOSS-Transcribe-Diarize"
+        }
+      ]
+    }
+  ],
+  "notes": "今日主线不是单一模型新闻，而是 AI 从聊天框迁移到可交付工作流：模型路由、Agent 工作台、Office 自动化、前端工程和语音硬件都在围绕同一个问题展开。",
+  "generated_at": "2026-07-17T09:20:04+00:00",
+  "model": "gpt-5.5"
+}
