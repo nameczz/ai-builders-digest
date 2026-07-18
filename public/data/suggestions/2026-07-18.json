@@ -1,0 +1,173 @@
+{
+  "date": "2026-07-18",
+  "items": [
+    {
+      "id": "2026-07-18-1",
+      "title": "Agent 的下一站不是聊天",
+      "angle": "从 Agent Skills、桌面自动化和 builder 讨论看，AI 产品入口正在从聊天框转向可执行工作台。",
+      "opening": "今天最热的不是某个新模型，而是一堆让 agent 更会干活的零件。GitHub 上 Agent Skills、Office 自动化、Desktop MCP 集体起量，builder 们也在讨论 Codex 怎么接管浏览器、文件选择器和 PR 评论。问题变了：用户不缺一个会说话的 AI，缺一个能稳定完成流程的 AI。",
+      "story_hook": {
+        "challenge": "大家还在用聊天框理解 AI，但真正增长的项目都在把 AI 嵌进文件、浏览器、IDE 和团队流程。",
+        "twist": "最有商业价值的可能不是新 agent，而是让现有 agent 复用团队经验的 skill pack。"
+      },
+      "takeaway": "做 AI 工具时优先寻找可观察、可复现、可交付的工作流，把经验封装成 agent 能执行的技能，而不是再做一个泛聊天助手。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Peter Steinberger 观察 Codex 用 browser + computer use 给 GitHub PR 上传图片",
+          "url": "https://x.com/steipete/status/2078318731785359634"
+        },
+        {
+          "tag": "builders",
+          "ref": "Peter Steinberger 提到 agent 讨论从 loop 转向 graph",
+          "url": "https://x.com/steipete/status/2078277297791189132"
+        },
+        {
+          "tag": "pulse",
+          "ref": "google-labs-code/stitch-skills 本周 1,076 stars",
+          "url": "https://github.com/google-labs-code/stitch-skills"
+        },
+        {
+          "tag": "pulse",
+          "ref": "iOfficeAI/OfficeCLI 本周 4,611 stars",
+          "url": "https://github.com/iOfficeAI/OfficeCLI"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-18-2",
+      "title": "AI 越便宜，账单越大",
+      "angle": "用 Aaron Levie 的成本判断对照 OpenAI 算力负责人访谈和 Claude 配额调整，写 AI 降价背后的真实瓶颈。",
+      "opening": "AI 成本下降，听起来应该让大家少花钱。但 Aaron Levie 今天给了一个反直觉判断：更便宜的 AI 会让真实工作负载暴涨，最终推高总支出。另一边，OpenAI 的 compute chief 说算力是上一点吃一点，Claude Fable 也不得不用 50% 配额给用户一点确定性。",
+      "story_hook": {
+        "challenge": "用户以为模型降价会缓解压力，厂商看到的却是需求被释放后立刻吞掉所有新增算力。",
+        "twist": "真正被压缩的不是 AI 使用量，而是智能服务的利润率。"
+      },
+      "takeaway": "评估 AI 产品成本时不要只看单次 token 价格，要建模任务量增长、并发峰值、配额策略和边际利润率。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Aaron Levie 讨论 AI 越便宜，总用量越高，利润率向基础设施收敛",
+          "url": "https://x.com/levie/status/2078139206946459853"
+        },
+        {
+          "tag": "builders",
+          "ref": "The MAD Podcast 访谈 OpenAI Compute Chief Sachin Katti",
+          "url": "https://www.youtube.com/watch?v=wEZBlmvxx4o"
+        },
+        {
+          "tag": "builders",
+          "ref": "Claude 宣布 Fable 5 从 7 月 20 日起进入 Max 和 Team Premium，但额度为 50%",
+          "url": "https://x.com/claudeai/status/2078302415804379218"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Google Trends codex rising 出现 codex 5 hour limit 等配额相关查询",
+          "url": "https://trends.google.com/trends/explore?q=codex&date=now+7-d"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-18-3",
+      "title": "别急着让 AI 写成品",
+      "angle": "从 Thariq 的原型建议切入，结合 OpenMarkdown、LiveDemo、PixyCAD 等产品，写 AI 工作流为什么要先回到画布和 mockup。",
+      "opening": "很多 AI 项目的失败不是模型太弱，而是你太早让它生成成品。Thariq 今天说得很直：先做 mockup、schema、数据模型和 PoC，别烧完一堆 token 才发现方向错了。Product Hunt 上同一天出现的 OpenMarkdown、LiveDemo、PixyCAD，也都在把 AI 放回可编辑的专业工作台。",
+      "story_hook": {
+        "challenge": "大家迷信一次性生成完整产品，但真实工作里最贵的是方向错了以后重来。",
+        "twist": "更强的 AI 反而让低成本原型更重要，因为生成速度越快，跑偏也越快。"
+      },
+      "takeaway": "用 AI 开发产品时先固定数据结构、界面草图和验收样例，再让模型扩写代码或内容，减少 token 浪费和返工。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Thariq 建议先做 mockup、schema、数据模型和 PoC",
+          "url": "https://x.com/trq212/status/2078189833445654714"
+        },
+        {
+          "tag": "builders",
+          "ref": "Zara Zhang 说公开构建应展示原型、录屏和真实用户行为",
+          "url": "https://x.com/zarazhangrui/status/2078086930756202924"
+        },
+        {
+          "tag": "pulse",
+          "ref": "OpenMarkdown 定位为人和 agent 共同编辑的 Markdown 编辑器",
+          "url": "https://www.producthunt.com/products/openmarkdown"
+        },
+        {
+          "tag": "pulse",
+          "ref": "LiveDemo 定位为 Storylane、Navattic、Arcade 的开源替代",
+          "url": "https://www.producthunt.com/products/livedemo"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-18-4",
+      "title": "开源替代没死，只是换战场",
+      "angle": "用 Google Trends 降温和 GitHub stars 暴涨的背离，解释开源替代从传播口号进入预算场景。",
+      "opening": "今天最容易误判的信号是：open source alternative 这个词在降温，但开源替代项目还在爆。OpenCut 本周 12,718 stars，OfficeCLI 本周 4,611 stars，LiveDemo 直接打 Storylane、Navattic、Arcade 的开源替代。口号热度退了，预算场景反而更清楚了。",
+      "story_hook": {
+        "challenge": "搜索热度下降会让人以为赛道过气，但开发者还在 star、clone 和试用。",
+        "twist": "开源替代真正赚钱的时刻，可能正是在大众注意力退潮之后。"
+      },
+      "takeaway": "判断开源替代机会时不要只看趋势词，要看是否对准明确预算、是否能卖自托管、权限、审计、模板和团队协作。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Guillermo Rauch 提倡少废话、快上线、用作品本身建立信任",
+          "url": "https://x.com/rauchg/status/2078299647689310270"
+        },
+        {
+          "tag": "builders",
+          "ref": "Guillermo Rauch 鼓励免费下载沙箱数据并继续发货更多 Agent",
+          "url": "https://x.com/rauchg/status/2078305023784620342"
+        },
+        {
+          "tag": "pulse",
+          "ref": "OpenCut-app/OpenCut 本周 12,718 stars，总星 75,141",
+          "url": "https://github.com/OpenCut-app/OpenCut"
+        },
+        {
+          "tag": "pulse",
+          "ref": "open source alternative Google Trends 近 7 日下降 11.9%",
+          "url": "https://trends.google.com/trends/explore?q=open+source+alternative&date=now+7-d"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-18-5",
+      "title": "会议录音已经不是给人听的",
+      "angle": "从 Zara Zhang 对会议录音文化变化的观察，连接端侧多模态模型和本地长上下文产品机会。",
+      "opening": "几年前，很多人还会抗拒会议录音。Zara Zhang 今天说，现在商业会议默认被录下来，而且重点不是给人回放，而是喂给 agent。与此同时，HuggingFace 上端侧、多模态、长上下文模型继续升温，说明私人数据正在变成 AI 产品的新入口。",
+      "story_hook": {
+        "challenge": "企业嘴上关心效率，真正卡住的是会议、文档、音频这些私密数据能不能被安全地交给 AI。",
+        "twist": "最好的消费级 AI 机会可能不是云端聊天，而是本地会议、相册、文档和知识库的离线处理。"
+      },
+      "takeaway": "如果做端侧 AI 产品，优先选择高隐私、高频、长上下文的个人或团队资料场景，比如会议整理、音频检索、离线知识库和本地文件问答。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Zara Zhang 观察会议录音从被排斥变成默认喂给 agent",
+          "url": "https://x.com/zarazhangrui/status/2078076500683997446"
+        },
+        {
+          "tag": "builders",
+          "ref": "Madhu Guru 认为企业需要能搭 evals、harness 和前沿工程体系的人才",
+          "url": "https://x.com/realmadhuguru/status/2078131628262752550"
+        },
+        {
+          "tag": "pulse",
+          "ref": "thinkingmachines/Inkling 支持 image-text-to-text 与 audio-text-to-text",
+          "url": "https://huggingface.co/thinkingmachines/Inkling"
+        },
+        {
+          "tag": "pulse",
+          "ref": "prism-ml/Bonsai-27B-gguf 下载破百万，标签包括 llama.cpp、Metal、on-device",
+          "url": "https://huggingface.co/prism-ml/Bonsai-27B-gguf"
+        }
+      ]
+    }
+  ],
+  "notes": "今日最强主线是 agent 从聊天转向可执行工作流；独立开发者素材偏少，但 builder 对 Codex、配额、原型和公开构建的讨论能和 GitHub/ProductHunt/HF 趋势形成互证。",
+  "generated_at": "2026-07-18T09:20:05+00:00",
+  "model": "gpt-5.5"
+}
