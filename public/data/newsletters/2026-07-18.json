@@ -1,0 +1,302 @@
+{
+  "date": "2026-07-18",
+  "generated_at": "2026-07-18T00:48:29+00:00",
+  "inbox_id": "sanyoumu@agentmail.to",
+  "window": {
+    "start": "2026-07-17T00:48:05+00:00",
+    "end": "2026-07-18T00:46:14.133243+00:00",
+    "source": "previous_digest_generated_at"
+  },
+  "count": 8,
+  "highlights": [
+    "今日精读：AINews 聚焦 Moonshot Kimi K3，2.8T 参数、1M 上下文、原生多模态和开放权重承诺，让开源模型再次逼近前沿闭源模型。",
+    "多个 newsletter 同时关注 Kimi K3，分歧点不在“是否强”，而在部署成本、输出 token 消耗、用户体验差距和开放权重能否如期落地。",
+    "Google Search AI Mode 接入 Instacart、Canva、YouTube Music 等连接应用，搜索正在从“给链接”转向“替用户完成任务”。",
+    "Bun 借助 Claude Fable 用 11 天完成 Zig 到 Rust 的大规模迁移，AI 编码从写新代码进入高风险代码库迁移场景。",
+    "产品和设计类邮件共同强调：AI 会替代 routine 工作，但判断力、标准化交互、原型验证和用户证据仍是人的核心价值。"
+  ],
+  "items": [
+    {
+      "id": "ainews-kimi-k3-open-frontier-model",
+      "title_zh": "Kimi K3：开源大模型再次逼近前沿闭源模型",
+      "title_original": "[AINews] Kimi K3 2.8T-A50B: the largest open model ever released; Opus 4.8-class at Sonnet 5 pricing",
+      "source": "swyx.substack.com",
+      "from": "AINews <swyx+ainews@substack.com>",
+      "subject": "[AINews] Kimi K3 2.8T-A50B: the largest open model ever released; Opus 4.8-class at Sonnet 5 pricing",
+      "url": "https://www.latent.space/p/ainews-kimi-k3-28t-a50b-the-largest",
+      "message_id": "<20260717014637.3.ef1f7cfd3dd161c1@mg-d1.substack.com>",
+      "published_at": "2026-07-17T01:46:37.000Z",
+      "importance": "high",
+      "summary_zh": "AINews 这一期几乎围绕 Kimi K3 展开，把它放在开源模型竞争格局里看：Moonshot 发布 2.8T 参数、1M token 上下文、原生多模态输入的 Kimi K3，并称其面向长周期 agent coding、自演进工作流和“视觉在环”的代码/游戏构建。邮件还汇总了社区对其规模、Arena 早期排名、前端代码能力和与 Claude Fable 5、GPT-5.6 Sol 之间差距的讨论。",
+      "deep_read_zh": "Kimi K3 的重点不只是“又一个大模型发布”，而是开源权重模型在能力、规模和产品化叙事上同时向前沿闭源模型逼近。AINews 把这次发布放在 Z.ai GLM 近期热度之后，认为 Moonshot 用 K3 重新抢回了开源模型讨论中心。邮件列出的核心事实包括：K3 总参数 2.8T，支持 1M token 上下文，原生多模态输入，使用 Kimi Delta Attention 和 Attention Residuals，并已上线 Kimi.com、Kimi Work、Kimi Code 和 API；开放权重承诺在 2026 年 7 月 27 日发布。更值得 builder 关注的是 Moonshot 对场景的定位：长周期 agentic coding、自演进工作流，以及在代码与截图之间反复迭代的“vision in the loop”开发流程。这说明大模型竞争正在从单轮问答基准，转向能否支撑长上下文、复杂状态、工具调用和可验证产出的工程系统。AINews 也没有只转述乐观口径：它提到 Moonshot 自己承认 K3 与 Claude Fable 5、GPT-5.6 Sol 在用户体验上仍有明显差距；Arena 已让 K3 进入 Agent、Text、Vision、Document、Frontend Code 等评测，并出现前端代码榜跃升的早期结果。隐含判断是：开源模型的能力差距正在缩小，但真正的采用门槛会转移到部署成本、推理效率、上下文管理、评测可信度和产品体验上。对独立开发者和 AI 产品团队来说，K3 可能带来更强的自托管与定制空间，但是否能替代闭源 API，还要看开放权重如期落地后的实际成本、稳定性和工作流适配。",
+      "why_important": "这是当天信息增量最大的一封：不仅报道 Kimi K3 发布，还汇总了参数、上下文、开放权重时间表、产品入口、Arena 早期反馈和模型体验差距。它直接关系到 builder 是否可以把开源模型纳入 coding agent、长上下文检索和私有部署方案。",
+      "impact": "如果 K3 开放权重如期落地，团队会有更多模型选择，不必把所有高价值任务都绑定到闭源 API。短期影响是模型评测、路由和成本优化会更复杂；长期看，开源模型可能成为 agent infra 和企业私有 AI 的关键底座。",
+      "key_points": [
+        "Kimi K3 被描述为 2.8T 参数、1M token 上下文、原生多模态输入的开放权重模型。",
+        "模型已上线 Kimi.com、Kimi Work、Kimi Code 和 API，开放权重承诺在 2026 年 7 月 27 日发布。",
+        "Moonshot 将 K3 定位在长周期 agentic coding、自演进工作流和视觉在环开发场景。",
+        "邮件提到 K3 进入 Agent Arena、Text、Vision、Document、Frontend Code Arena 等社区评测。",
+        "Moonshot 自己也承认 K3 与 Claude Fable 5、GPT-5.6 Sol 在用户体验上仍有差距。"
+      ],
+      "reading_notes": [
+        "重点看 K3 的开放权重是否按时发布，以及许可、部署要求和微调条件。",
+        "不要只看排行榜，要观察真实 coding agent 工作流中的失败模式和 token 成本。",
+        "关注 K3 是否会改变模型路由策略：哪些任务适合用开源模型，哪些仍需闭源前沿模型。",
+        "留意“视觉在环”是否成为前端、游戏和 UI 自动化开发的新标准能力。"
+      ],
+      "tags": [
+        "model",
+        "open-source",
+        "agent",
+        "coding",
+        "infra"
+      ],
+      "related_sources": [
+        "The Neuron",
+        "TLDR AI",
+        "AI Valley",
+        "TLDR"
+      ]
+    },
+    {
+      "id": "ai-valley-google-search-ai-assistant",
+      "title_zh": "Google 想把搜索变成能执行任务的 AI 助手",
+      "title_original": "Google wants Search to do the work",
+      "source": "www.theaivalley.com",
+      "from": "AI Valley <aivalley@mail.beehiiv.com>",
+      "subject": "Google wants Search to do the work",
+      "url": "https://blog.google/products-and-platforms/products/search/connected-apps",
+      "message_id": "<20260717.150307.49467ff4@mta20>",
+      "published_at": "2026-07-17T15:03:07.000Z",
+      "importance": "high",
+      "summary_zh": "AI Valley 这一期覆盖三件大事：Moonshot 发布 Kimi K3，Google 在 Search AI Mode 中推出 connected apps，Roblox 发布用文本生成可玩 3D 游戏的 Build 工具。对 builder 最有价值的是 Google Search 的变化：用户可连接 Instacart、Canva、YouTube Music 等服务，让搜索跨应用执行任务，这代表入口级产品正在从信息检索升级为动作执行层。Roblox Build 则说明 AI 原生创作工具正在把游戏开发门槛继续下压。",
+      "deep_read_zh": "",
+      "why_important": "Search 如果能跨应用完成任务，会直接影响消费级 agent 的入口竞争。它也会改变 SEO、内容分发和第三方应用获取用户的方式。",
+      "impact": "对产品团队来说，未来需要考虑如何让自己的服务被 AI 搜索调用，而不是只优化网页被搜索到。对独立开发者来说，连接应用和任务执行 API 可能成为新的分发渠道。",
+      "key_points": [
+        "Google Search AI Mode 接入 connected apps，开始跨 Instacart、Canva、YouTube Music 等服务执行任务。",
+        "Kimi K3 被描述为面向 coding、reasoning、research 和长周期 agent workflow 的开放权重模型。",
+        "Roblox Build 可用文本生成环境、角色、玩法、视觉和声音，并可在 Roblox Studio 中继续编辑。"
+      ],
+      "reading_notes": [],
+      "tags": [
+        "agent",
+        "search",
+        "platform",
+        "game-dev",
+        "model"
+      ],
+      "related_sources": [
+        "AINews",
+        "The Neuron",
+        "TLDR AI"
+      ]
+    },
+    {
+      "id": "tldr-ai-kimi-agents-and-model-routing",
+      "title_zh": "Kimi K3、开放模型 agent 与任务级模型路由",
+      "title_original": "Kimi K3 🌕, Gemini 3.5 delayed ⏳, crushing ARC-AGI 3 🤖",
+      "source": "TLDR AI",
+      "from": "TLDR AI <dan@tldrnewsletter.com>",
+      "subject": "Kimi K3 🌕, Gemini 3.5 delayed ⏳, crushing ARC-AGI 3 🤖",
+      "url": "https://refer.tldr.tech/0a897003/2",
+      "message_id": "<0100019f704250f9-05c83924-115f-48ff-9eb3-ad9ece9b39a9-000000@email.amazonses.com>",
+      "published_at": "2026-07-17T13:27:02.000Z",
+      "importance": "high",
+      "summary_zh": "TLDR AI 这一期主线是模型与 agent 工程：Kimi K3 发布，Gemini 3.5 Pro 因 coding 表现 reportedly 延迟，LM Studio Bionic 把开放模型包装成 coding、research、文档管理 agent。深度内容还包括 coding-agent harness 的行为映射、Anthropic 用 Claude Code 做大规模代码迁移、Codex 中 Sol/Terra/Luna 的模型选择，以及 Schema 如何让模型在 ARC-AGI-3 环境中构建可执行机制模型。整体信息指向一个趋势：AI 工程正在从“选一个最强模型”转为按任务、权限、安全、成本和验证链路组织系统。",
+      "deep_read_zh": "",
+      "why_important": "它把当天模型新闻和 agent 工程方法放在一起，适合 builder 观察从模型能力到工程落地之间的缺口。",
+      "impact": "团队需要更精细的模型路由、harness 设计和验证机制，而不是简单替换模型 API。开放模型 agent、本地/云混合和任务级路由会成为 AI 工具产品的重要差异点。",
+      "key_points": [
+        "Kimi K3 提供 2.8T 参数、1M token 上下文，并优化长上下文解码和 agentic coding。",
+        "Gemini 3.5 Pro reportedly 因 coding 能力改进而延期，仍处于伙伴测试。",
+        "LM Studio Bionic 强调开放模型、本地/云选择、隐私、成本控制和沙箱安全。"
+      ],
+      "reading_notes": [],
+      "tags": [
+        "model",
+        "agent",
+        "coding",
+        "infra",
+        "evaluation"
+      ],
+      "related_sources": [
+        "AINews",
+        "The Neuron",
+        "AI Valley",
+        "TLDR"
+      ]
+    },
+    {
+      "id": "tldr-design-ai-video-and-ai-interface-standards",
+      "title_zh": "AI 视频头像、创作溯源与 AI 交互标准化",
+      "title_original": "New Emoji Arrive 😀, iPhone 18 Pro Leaks 📱, Google Vids AI Avatars 🎥",
+      "source": "TLDR Design",
+      "from": "TLDR Design <dan@tldrnewsletter.com>",
+      "subject": "New Emoji Arrive 😀, iPhone 18 Pro Leaks 📱, Google Vids AI Avatars 🎥",
+      "url": "https://refer.tldr.tech/3bc21e1b/4",
+      "message_id": "<0100019f6ffcc335-fca5fe2d-5dc4-4233-964e-2b846d72252b-000000@email.amazonses.com>",
+      "published_at": "2026-07-17T12:11:03.000Z",
+      "importance": "medium",
+      "summary_zh": "TLDR Design 这一期混合了设计新闻、AI 视频和 AI 交互观点。Google Vids 新增自定义 AI avatar，用户可用自拍和声音录制生成自己的数字形象，并引入 Gemini Omni，根据 prompt 和参考图生成视频，还支持换背景、补光、特效和逐步编辑。观点部分最值得看的是 AI 生成内容的作者身份披露，以及 AI 交互应尽快形成共享标准，例如置信度、引用、权限请求和任务交还方式，避免各平台形成互不兼容的专有习惯。",
+      "deep_read_zh": "",
+      "why_important": "AI 视频工具正在进入 Workspace 场景，而不是只服务创作者平台。与此同时，AI 产品交互标准缺失会增加用户信任和开发成本。",
+      "impact": "设计师和产品团队需要把“何时披露 AI 参与”“如何请求权限”“如何表达不确定性”变成明确规范。企业视频、培训、销售内容可能更快被 AI avatar 工作流重塑。",
+      "key_points": [
+        "Google Vids 新增基于自拍和声音的自定义 AI avatar。",
+        "Gemini Omni 进入 Vids，支持 prompt 与参考图生成视频及多种编辑能力。",
+        "文章主张 AI 交互应建立类似 web standards 的共享规范。"
+      ],
+      "reading_notes": [],
+      "tags": [
+        "design",
+        "ai-video",
+        "standards",
+        "product"
+      ],
+      "related_sources": [
+        "AI Valley"
+      ]
+    },
+    {
+      "id": "tldr-dev-bun-rust-rewrite-with-ai",
+      "title_zh": "Bun 用 AI 完成大规模 Rust 重写，代码迁移进入新阶段",
+      "title_original": "Bun’s Rust rewrite ⚡️, contract-driven development 📝, Slack’s EC2 platform 💻",
+      "source": "TLDR Dev",
+      "from": "TLDR Dev <dan@tldrnewsletter.com>",
+      "subject": "Bun’s Rust rewrite ⚡️, contract-driven development 📝, Slack’s EC2 platform 💻",
+      "url": "https://refer.tldr.tech/7e988322/3",
+      "message_id": "<0100019f6fcd085d-29bc28bd-0966-4a37-8975-34cfc9252bf1-000000@email.amazonses.com>",
+      "published_at": "2026-07-17T11:18:55.000Z",
+      "importance": "high",
+      "summary_zh": "TLDR Dev 这一期对开发者最有价值的是 Bun 从 Zig 到 Rust 的重写案例：为解决 Zig 中长期存在的内存相关问题，团队借助 Claude Fable、64 个 AI agents，在 11 天迁移超过 535,000 行代码并处理 1,600 个编译错误。其他内容包括高性能 parser 的数据导向设计、Slack 用 Shipyard 改造 EC2 平台、契约驱动开发、如何保持对 LLM 生成代码的熟悉度，以及 agent-device、Hermes Studio 等 agent 工具。",
+      "deep_read_zh": "",
+      "why_important": "这是 AI coding 从局部补全走向大型代码库迁移的强案例，说明只要工程边界、编译反馈和验证机制足够清晰，AI 可以承担高劳动量迁移任务。",
+      "impact": "工程团队会重新评估“重写太贵”的假设，但也必须强化测试、review、规则书和编译验证。AI 迁移不是降低工程纪律要求，而是把纪律变成可执行工作流。",
+      "key_points": [
+        "Bun 使用 Claude Fable 和 64 个 AI agents，11 天迁移超过 535,000 行代码。",
+        "迁移目标是从 Zig 转向 Rust，以解决内存安全相关问题。",
+        "邮件同时强调契约驱动开发和保持对 LLM 生成代码理解的重要性。"
+      ],
+      "reading_notes": [],
+      "tags": [
+        "coding",
+        "migration",
+        "developer-tools",
+        "infra",
+        "agent"
+      ],
+      "related_sources": [
+        "TLDR"
+      ]
+    },
+    {
+      "id": "the-neuron-kimi-k3-open-models-moving-upstairs",
+      "title_zh": "The Neuron：Kimi K3 缩小闭源模型护城河，但部署成本仍高",
+      "title_original": "😺 Kimi K3 just shrank OpenAI’s moat",
+      "source": "www.theneurondaily.com",
+      "from": "The Neuron <theneuron@newsletter.theneurondaily.com>",
+      "subject": "😺 Kimi K3 just shrank OpenAI’s moat",
+      "url": "https://links.outskill.com/NEUJUL2",
+      "message_id": "<kJFexDhDSEGqSuXYmn0frQ@geopod-ismtpd-59>",
+      "published_at": "2026-07-17T11:10:04.000Z",
+      "importance": "high",
+      "summary_zh": "The Neuron 这一期也把 Kimi K3 放在头条，强调中国开放模型正在逼近前沿：K3 拥有 2.8T 参数、1M token 记忆、原生视觉能力，完整权重预计 7 月 27 日发布；Moonshot 称其使用 sparse experts 降低运行成本，并在部分 benchmark 上超过 GPT-5.6 Sol。邮件也提醒实际使用成本不低：Simon Willison 的 SVG 测试消耗超过 16,000 output tokens，严肃部署需要 64 个以上加速器。它还把 Kimi 与 Thinking Machines 的 Inkling 联系起来，指出开放模型已经进入其他模型公司的训练供应链。",
+      "deep_read_zh": "",
+      "why_important": "这封比一般新闻摘要更平衡：既讲 K3 的能力与开源意义，也讲 token 消耗和硬件门槛。",
+      "impact": "builder 可以期待更强的开放模型生态，但不能低估自托管成本。对行业来说，开放模型可能削弱闭源模型公司的分发优势，同时成为跨国 AI 供应链的一部分。",
+      "key_points": [
+        "Kimi K3 完整权重预计 2026 年 7 月 27 日发布。",
+        "Moonshot 称 sparse experts 可降低超大模型运行成本。",
+        "实际部署仍重，需要 64 个以上加速器，且部分任务 output token 消耗很高。"
+      ],
+      "reading_notes": [],
+      "tags": [
+        "model",
+        "open-source",
+        "infra",
+        "china-ai"
+      ],
+      "related_sources": [
+        "AINews",
+        "TLDR AI",
+        "AI Valley",
+        "TLDR"
+      ]
+    },
+    {
+      "id": "tldr-xai-gemini-delay-and-ai-code-migration",
+      "title_zh": "xAI 混乱、Gemini 延迟，以及 AI 代码迁移的经济性",
+      "title_original": "xAI chaos 🔥, Gemini delays ⏳, earning judgement 👨‍💻",
+      "source": "TLDR",
+      "from": "TLDR <dan@tldrnewsletter.com>",
+      "subject": "xAI chaos 🔥, Gemini delays ⏳, earning judgement 👨‍💻",
+      "url": "https://refer.tldr.tech/f45b3ac9/",
+      "message_id": "<0100019f6fa5aed2-8ed4b12e-3f5b-408d-b409-276a0cad135d-000000@email.amazonses.com>",
+      "published_at": "2026-07-17T10:35:57.000Z",
+      "importance": "medium",
+      "summary_zh": "TLDR 综合版覆盖 xAI、Google Gemini、脑机接口医疗突破、Merck 降胆固醇药物，以及开发者话题。AI 相关重点有三条：SpaceXAI/xAI reportedly 仍在追赶 Claude，近期发布 coding tool 并扩充销售团队，但组织方向和运营被描述为混乱；Gemini 3.5 Pro 因 coding 能力未达内部目标而延期；Bun 借助 Fable 进行 Zig 到 Rust 重写，邮件补充了成本视角：项目按 API 价格约 165,000 美元，消耗大量 uncached input、output 和 cached input token。最后的 Earning Judgment 强调，在 agent 可规模化后，人更稀缺的是选对问题、判断机器是否解决、补完机器停下之处。",
+      "deep_read_zh": "",
+      "why_important": "这封把 AI 公司竞争、模型延期和代码迁移成本放在一起，能看到模型能力竞争对组织、产品和工程经济性的连锁影响。",
+      "impact": "AI coding 的价值会越来越依赖任务选择和验证能力。对团队而言，判断力、问题定义和收尾能力比单纯会提示模型更持久。",
+      "key_points": [
+        "Gemini 3.5 Pro reportedly 因 coding 能力改进而延期。",
+        "Bun AI 重写案例补充了约 165,000 美元 API 成本和 token 消耗数据。",
+        "Earning Judgment 提醒人类价值会转向不可简单评分的判断和品味。"
+      ],
+      "reading_notes": [],
+      "tags": [
+        "big-tech",
+        "coding",
+        "judgment",
+        "model",
+        "startup"
+      ],
+      "related_sources": [
+        "TLDR AI",
+        "TLDR Dev"
+      ]
+    },
+    {
+      "id": "tldr-product-ai-pm-prototypes-and-user-signals",
+      "title_zh": "AI 不会直接消灭 PM，但会淘汰 routine 产品工作",
+      "title_original": "Will AI take pm jobs? 🤖, products that matter 🏅, AI’s untapped user signals 📡",
+      "source": "TLDR Product",
+      "from": "TLDR Product <dan@tldrnewsletter.com>",
+      "subject": "Will AI take pm jobs? 🤖, products that matter 🏅, AI’s untapped user signals 📡",
+      "url": "https://refer.tldr.tech/271505d3/9",
+      "message_id": "<0100019f6f8d02db-b1d6524a-22d9-4bf4-9099-ddb4a6098599-000000@email.amazonses.com>",
+      "published_at": "2026-07-17T10:09:00.000Z",
+      "importance": "medium",
+      "summary_zh": "TLDR Product 这一期围绕 AI 时代的产品管理展开：AI 会重塑 PM 工作，但不会消灭真正的产品判断；更大的威胁可能来自科技行业整体下行，而不是自动化本身。邮件强调 AI 让高保真原型更容易，但原型应被视为问题和证据收集工具，而不是产品本身；PM 的核心价值会转向选对问题、创造可衡量价值、形成产品愿景、用访谈补足数据语境。Quick Links 中“AI 产品产生的用户信号比团队知道如何使用的更多”也提醒，AI 对话本身正在成为高密度用户研究材料。",
+      "deep_read_zh": "",
+      "why_important": "它对 AI builder 很实用：别把会做 demo 误认为做出了产品，也别把自动化 PM 流程误认为替代产品判断。",
+      "impact": "产品团队需要建立更严谨的原型验证框架，并把 AI 对话日志、用户表达和隐藏需求纳入发现流程。PM 角色会更偏战略判断、证据质量和结果定义。",
+      "key_points": [
+        "AI 会替代 routine PM 工作，但战略产品判断仍重要。",
+        "AI 生成原型容易造成“已经接近可上线”的错觉。",
+        "AI 对话能暴露用户需求和产品缺口，但团队往往还不会系统使用这些信号。"
+      ],
+      "reading_notes": [],
+      "tags": [
+        "product",
+        "ai-workflow",
+        "prototype",
+        "user-research"
+      ],
+      "related_sources": [
+        "TLDR Design",
+        "TLDR"
+      ]
+    }
+  ],
+  "skipped": [
+    {
+      "message_id": "<20260717205451.3.039f5a49d114e54f@mg-d0.substack.com>",
+      "subject": "How Claude Code’s Creator Boris Cherny Actually Uses It",
+      "from": "Opinion AI <emergingai@substack.com>",
+      "reason": "system"
+    }
+  ],
+  "notes": "今日精读选择 AINews 的 Kimi K3，因为它在当天多封邮件重复出现，且 AINews 提供了最完整的模型参数、开放权重时间、产品入口、评测进展和体验差距信息。Kimi K3 相关内容在 AI Valley、TLDR AI、The Neuron、TLDR 中都有出现，未合并为单条，而是在各自 newsletter 摘要中保留其侧重点。各邮件中的赞助广告、推荐注册链接、招聘与订阅管理内容未进入 items。"
+}
