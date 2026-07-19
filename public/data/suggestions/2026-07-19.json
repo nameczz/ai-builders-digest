@@ -1,0 +1,148 @@
+{
+  "date": "2026-07-19",
+  "items": [
+    {
+      "id": "2026-07-19-1",
+      "title": "AI 开始替你挑用户了",
+      "angle": "从 ChatGPT Work 处理私信看，Agent 的价值正在从整理信息升级到替团队做运营判断。",
+      "opening": "几千条私信、清洗、建表、分类、打分，以前是运营实习生做到崩溃的活。现在更危险的不是 AI 会整理表格，而是它开始判断谁值得进 beta、谁代表高价值用户。",
+      "story_hook": {
+        "challenge": "AI 工具到底只是自动化苦活，还是已经进入用户分层、准入筛选这类业务判断区？",
+        "twist": "真正的效率提升不在少复制几列数据，而在团队把早期产品的用户选择权交给了 Agent。"
+      },
+      "takeaway": "开发者做 Agent 产品时，别只设计文件读写能力，要把评分标准、人工复核点和业务分层逻辑做成可控工作流。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Thibault Sottiaux 谈 ChatGPT Work 筛选私信、清洗建表和 beta 用户判断",
+          "url": "https://x.com/thsottiaux/status/2078702412085498087"
+        },
+        {
+          "tag": "builders",
+          "ref": "Thibault Sottiaux 称自己的工作变成把事情丢给 ChatGPT Work",
+          "url": "https://x.com/thsottiaux/status/2078697741455356367"
+        },
+        {
+          "tag": "pulse",
+          "ref": "iOfficeAI/OfficeCLI 周增 4284 星，让 Agent 读写 Office 文件",
+          "url": "https://github.com/iOfficeAI/OfficeCLI"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-19-2",
+      "title": "别再迷信公开榜单了",
+      "angle": "用个人评测集切入模型选择：行业 benchmark 越热，个人工作流里的真实失败越值钱。",
+      "opening": "今天最实用的模型建议不是换哪个新模型，而是给自己做一套小而真实的评测集。因为榜单告诉你模型平均有多强，却不告诉你它会不会毁掉你的日报、合同、代码审查和客户邮件。",
+      "story_hook": {
+        "challenge": "Kimi K3、Inkling、本地低比特模型都在刷存在感，普通开发者该如何判断哪个真的适合自己？",
+        "twist": "答案不是追最强模型，而是把自己的高频任务变成固定测试题，每次换模型都亲手撞一次边界。"
+      },
+      "takeaway": "为自己的 5 个核心场景建立固定 prompt、输入样本和评分标准，用它替代对通用榜单的盲目跟随。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Zara Zhang 建议每个人都准备贴近日常工作的个人 AI 评测集",
+          "url": "https://x.com/zarazhangrui/status/2078666187026911488"
+        },
+        {
+          "tag": "builders",
+          "ref": "Guillermo Rauch 称 Kimi K3 在网络安全评测中已接近顶级",
+          "url": "https://x.com/rauchg/status/2078647648307880209"
+        },
+        {
+          "tag": "pulse",
+          "ref": "HuggingFace trending thinkingmachines/Inkling",
+          "url": "https://huggingface.co/thinkingmachines/Inkling"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-19-3",
+      "title": "SEO 下一站是 AI 答案",
+      "angle": "从 Swyx 的 AEO 收入预期看，流量入口正在从搜索结果页迁移到 AI 回答里的引用与推荐。",
+      "opening": "Swyx 直接把话说满：明年 AEO 可能给他带来 100 万美元收入。问题是，大多数团队还在优化蓝色链接，而用户已经开始让 AI 直接给答案。",
+      "story_hook": {
+        "challenge": "如果搜索页不再是第一入口，内容、工具和开源项目该怎么获得分发？",
+        "twist": "AEO 不是把 SEO 文案改成 AI 口吻，而是让你的产品、文档和案例变成模型愿意引用的结构化证据。"
+      },
+      "takeaway": "内容团队应该开始记录 AI 答案引用来源，重写文档结构，并用项目页、对比页、案例页服务模型检索。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Swyx 预测 AEO 明年可能贡献 100 万美元收入",
+          "url": "https://x.com/swyx/status/2078581967768166591"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt OpenSEO，开源 Ahrefs 替代",
+          "url": "https://www.producthunt.com/products/openseo"
+        },
+        {
+          "tag": "pulse",
+          "ref": "awesome llm apps Google Trends 上升 +999%",
+          "url": "https://trends.google.com/trends/explore?q=awesome+llm+apps&date=now+7-d"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-19-4",
+      "title": "聊天框不是终局",
+      "angle": "把 Aaron Levie 的异构化判断和 GitHub 增长放在一起看，AI 市场不会只剩一个超级入口。",
+      "opening": "过去一年，很多人默认 AI 会收敛到少数聊天入口。但今天的 GitHub 增长榜刚好反着来：剪辑、Office、Agent 工作台、代码图谱都在涨。",
+      "story_hook": {
+        "challenge": "模型巨头持续推高能力上限，应用层还有没有机会？",
+        "twist": "机会不在再造一个聊天框，而在控制文件接口、工作流上下文和垂直执行环境。"
+      },
+      "takeaway": "创业者判断 AI 产品机会时，应优先找高频文件、专业流程和团队协作入口，而不是默认做通用助手。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Aaron Levie 认为 AI 市场会异构化，不会一家通吃",
+          "url": "https://x.com/levie/status/2078567715544121815"
+        },
+        {
+          "tag": "pulse",
+          "ref": "OpenCut-app/OpenCut 周增 13319 星",
+          "url": "https://github.com/OpenCut-app/OpenCut"
+        },
+        {
+          "tag": "pulse",
+          "ref": "stablyai/orca 周增 5520 星，并行 Agent 桌面和移动工作台",
+          "url": "https://github.com/stablyai/orca"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-19-5",
+      "title": "本地 AI 正在复仇",
+      "angle": "从本地转录、端侧低比特模型和开放权重能力看，AI 产品的卖点正在回到速度、隐私和可控性。",
+      "opening": "今天 HN 上最热的不是又一个云端聊天机器人，而是 Transcribe.cpp。本地转录、2-bit 模型、Metal、on-device 这些词重新变热，说明开发者开始把 AI 从云 API 拉回自己的机器。",
+      "story_hook": {
+        "challenge": "云模型越来越强，为什么本地工具链反而升温？",
+        "twist": "对会议、播客、隐私文档和个人记忆来说，用户要的未必是最强模型，而是低延迟、可离线、数据不出门。"
+      },
+      "takeaway": "如果产品处理音频、文档或私人记忆，应重新评估本地推理和本地转录栈，把隐私与速度变成明确卖点。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Aaron Levie 认为扶持美国开源和扩散技术比封锁模型更重要",
+          "url": "https://x.com/levie/status/2078481578779685245"
+        },
+        {
+          "tag": "pulse",
+          "ref": "HN Top Transcribe.cpp 获 498 分、98 条评论",
+          "url": "https://workshop.cjpais.com/projects/transcribe-cpp"
+        },
+        {
+          "tag": "pulse",
+          "ref": "prism-ml/Ternary-Bonsai-27B-gguf，2-bit、on-device、Metal",
+          "url": "https://huggingface.co/prism-ml/Ternary-Bonsai-27B-gguf"
+        }
+      ]
+    }
+  ],
+  "notes": "今日主线很清楚：AI 从聊天入口转向工作流、文件接口、本地推理和评测闭环。独立开发者素材不算多，但 builders 与 pulse 之间能形成几组强反差：云端 Agent 接管判断、本地 AI 升温、AEO 改写分发、应用层没有被模型层吃掉。",
+  "generated_at": "2026-07-19T09:20:53+00:00",
+  "model": "gpt-5.5"
+}

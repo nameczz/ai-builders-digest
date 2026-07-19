@@ -1,0 +1,357 @@
+{
+  "date": "2026-07-19",
+  "top3": [
+    "今天最值得关注的是本地转录和端侧推理继续升温：HN 的 Transcribe.cpp 拿到 498 分，HF 上转录与低比特模型也同步靠前。",
+    "GitHub 高增长榜被 Agent Skills 和可运行 LLM 应用占据，说明开发者正在从聊天产品转向可复用工作流资产。",
+    "Google Trends 里 Kimi K3 与 Codex Micro 相关查询破圈，但 Codex、OpenCut、OfficeCLI 等上一波热词正在快速回落。"
+  ],
+  "intro": "今天的主线不是单个大模型发布，而是「把 AI 放进本地工具链」：转录、剪辑、Office、代码图谱、Agent Skills 都在抢占开发者日常工作流。综合 HN、GitHub、Product Hunt 与 HF 来看，机会更偏向轻量、可运行、可嵌入的工具，而不是又一个通用聊天入口。",
+  "sections": [
+    {
+      "id": "discovery",
+      "title": "发现机会",
+      "blocks": [
+        {
+          "id": "indie-products",
+          "heading": "今天有哪些独立开发者的新产品？",
+          "summary_md": "HN Show HN 今天没有采集到项目，Product Hunt 则集中在本地 AI 和替代型工具，但原始数据未提供票数与评论数，因此这里更适合看方向而不是热度排名。[BaseRT - Apple M5 Optimized](https://www.producthunt.com/products/basert) 主打比 llama.cpp 快 6.4 倍、比 MLX 快 3.9 倍；[Rewisp](https://www.producthunt.com/products/rewisp-an-ambient-memory-for-your-mac) 把 Mac 上看过的内容变成可问的环境记忆；[OpenSEO](https://www.producthunt.com/products/openseo) 则继续走开源 Ahrefs 替代路线。票数与评论数在本批数据中均未提供，score 记为 0。",
+          "items": [
+            {
+              "title": "BaseRT - Apple M5 Optimized",
+              "url": "https://www.producthunt.com/products/basert",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "Rewisp — an ambient memory for your Mac",
+              "url": "https://www.producthunt.com/products/rewisp-an-ambient-memory-for-your-mac",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "OpenSEO",
+              "url": "https://www.producthunt.com/products/openseo",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "独立产品的机会正在从 SaaS 外壳转向本地性能、长期记忆和开源替代。"
+        },
+        {
+          "id": "github-traction",
+          "heading": "GitHub 上哪些高增长开源项目还没有商业化？",
+          "summary_md": "本周 GitHub 最强信号是「AI 工作流基础设施」还在快速吸星。[mattpocock/skills](https://github.com/mattpocock/skills) 周增 11131 星，[Nutlope/hallmark](https://github.com/Nutlope/hallmark) 周增 8834 星，[Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify) 周增 8611 星，分别对应 Agent Skills、反 AI 味设计规范、代码与文档知识图谱。这些项目看起来不一定是完整 SaaS，但都可以商业化成团队模板库、代码审查上下文服务、设计质量守门工具。",
+          "items": [
+            {
+              "title": "mattpocock/skills",
+              "url": "https://github.com/mattpocock/skills",
+              "source": "GitHub",
+              "score": 11131
+            },
+            {
+              "title": "Nutlope/hallmark",
+              "url": "https://github.com/Nutlope/hallmark",
+              "source": "GitHub",
+              "score": 8834
+            },
+            {
+              "title": "Graphify-Labs/graphify",
+              "url": "https://github.com/Graphify-Labs/graphify",
+              "source": "GitHub",
+              "score": 8611
+            }
+          ],
+          "takeaway": "下一批可卖的不是模型调用，而是让 Agent 少走弯路的上下文与技能层。"
+        }
+      ]
+    },
+    {
+      "id": "tech-stack",
+      "title": "技术选型",
+      "blocks": [
+        {
+          "id": "dev-tools",
+          "heading": "本周增长最快的开发者工具是什么？",
+          "summary_md": "开发者工具榜里，增长最快的不是 IDE 本体，而是围绕 Agent 的外围工具。[OpenCut-app/OpenCut](https://github.com/OpenCut-app/OpenCut) 周增 13319 星，是开源 CapCut 替代；[stablyai/orca](https://github.com/stablyai/orca) 周增 5520 星，定位为并行 Agent 桌面和移动工作台；[iOfficeAI/OfficeCLI](https://github.com/iOfficeAI/OfficeCLI) 周增 4284 星，让 Agent 可读写 Word、Excel、PowerPoint。技术选型上，TypeScript 仍负责界面和工作台，Python 负责智能层，C# 则在 Office 文档自动化上拿到差异化入口。",
+          "items": [
+            {
+              "title": "OpenCut-app/OpenCut",
+              "url": "https://github.com/OpenCut-app/OpenCut",
+              "source": "GitHub",
+              "score": 13319
+            },
+            {
+              "title": "stablyai/orca",
+              "url": "https://github.com/stablyai/orca",
+              "source": "GitHub",
+              "score": 5520
+            },
+            {
+              "title": "iOfficeAI/OfficeCLI",
+              "url": "https://github.com/iOfficeAI/OfficeCLI",
+              "source": "GitHub",
+              "score": 4284
+            }
+          ],
+          "takeaway": "Agent 工具链的赢家更可能是工作台、文件接口和垂直编辑器，而不是聊天框。"
+        },
+        {
+          "id": "hf-models",
+          "heading": "HuggingFace 上最热的模型能做什么消费级产品？",
+          "summary_md": "HF 热榜给出的消费产品方向很清楚：多模态、本地低比特、语音转录。[thinkingmachines/Inkling](https://huggingface.co/thinkingmachines/Inkling) trending_score 1049，支持 image-text-to-text 与 audio-text-to-text；[prism-ml/Ternary-Bonsai-27B-gguf](https://huggingface.co/prism-ml/Ternary-Bonsai-27B-gguf) trending_score 724、下载 338945 次，标签里有 2-bit、on-device、Metal；[OpenMOSS-Team/MOSS-Transcribe-Diarize](https://huggingface.co/OpenMOSS-Team/MOSS-Transcribe-Diarize) trending_score 153，面向长音频、说话人分离和时间戳 ASR。可以做本地会议记录、播客切片、私密相册问答、离线学习助手。",
+          "items": [
+            {
+              "title": "thinkingmachines/Inkling",
+              "url": "https://huggingface.co/thinkingmachines/Inkling",
+              "source": "HuggingFace",
+              "score": 1049
+            },
+            {
+              "title": "prism-ml/Ternary-Bonsai-27B-gguf",
+              "url": "https://huggingface.co/prism-ml/Ternary-Bonsai-27B-gguf",
+              "source": "HuggingFace",
+              "score": 724
+            },
+            {
+              "title": "OpenMOSS-Team/MOSS-Transcribe-Diarize",
+              "url": "https://huggingface.co/OpenMOSS-Team/MOSS-Transcribe-Diarize",
+              "source": "HuggingFace",
+              "score": 153
+            }
+          ],
+          "takeaway": "消费级 AI 的新卖点是隐私、本地速度和跨媒体记忆，而不是更会聊天。"
+        },
+        {
+          "id": "show-hn",
+          "heading": "Show HN 高关注项目用的什么技术栈？",
+          "summary_md": "今天没有 Show HN 数据，但 HN Top 的 [Transcribe.cpp](https://workshop.cjpais.com/projects/transcribe-cpp) 拿到 498 分、98 条评论，已经足够说明 C++ 本地推理和音频处理仍有强吸引力。这个信号与 HF 上 MOSS-Transcribe-Diarize 的 87533 次下载、Bonsai GGUF 系列的 on-device 标签互相印证：开发者正在把语音和模型运行时从云 API 拉回终端、桌面和边缘设备。",
+          "items": [
+            {
+              "title": "Transcribe.cpp",
+              "url": "https://workshop.cjpais.com/projects/transcribe-cpp",
+              "source": "HN",
+              "score": 498
+            }
+          ],
+          "takeaway": "如果产品依赖音频或会议数据，本地转录栈值得重新评估。"
+        }
+      ]
+    },
+    {
+      "id": "competition",
+      "title": "竞争情报",
+      "blocks": [
+        {
+          "id": "migrations",
+          "heading": "有没有「XX is dead」或迁移类文章？",
+          "summary_md": "今天没有明确的「XX is dead」文章，但迁移情绪在产品命名里很强。[OpenCut](https://github.com/OpenCut-app/OpenCut) 以开源 CapCut 替代拿到周增 13319 星，[OpenSEO](https://www.producthunt.com/products/openseo) 直接打出开源 Ahrefs 替代，[LiveDemo](https://www.producthunt.com/products/livedemo) 则定位为 Storylane、Navattic、Arcade 的开源替代。竞争含义是：用户不一定讨厌原产品，而是讨厌价格、锁定和 AI 自动化接口缺失。",
+          "items": [
+            {
+              "title": "OpenCut-app/OpenCut",
+              "url": "https://github.com/OpenCut-app/OpenCut",
+              "source": "GitHub",
+              "score": 13319
+            },
+            {
+              "title": "OpenSEO",
+              "url": "https://www.producthunt.com/products/openseo",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "LiveDemo",
+              "url": "https://www.producthunt.com/products/livedemo",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "替代型产品的切入点不只是更便宜，而是给 Agent 和自托管留接口。"
+        }
+      ]
+    },
+    {
+      "id": "trends",
+      "title": "趋势判断",
+      "blocks": [
+        {
+          "id": "keywords",
+          "heading": "本周技术关键词频率有什么变化？",
+          "summary_md": "上升最明显的是更具体的项目名，而不是大词。[awesome llm apps](https://trends.google.com/trends/explore?q=awesome+llm+apps&date=now+7-d) 上升 +999%，对应 GitHub 上 [Shubhamsaboo/awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) 周增 6146 星；[deeptutor](https://trends.google.com/trends/explore?q=deeptutor&date=now+7-d) 同样 +999%，对应 HKUDS/DeepTutor 周增 2154 星。今天的判断是，用户不再搜索抽象的 AI Agent，而是在找可复制、可运行、能学习或能改造的具体项目。",
+          "items": [
+            {
+              "title": "awesome llm apps",
+              "url": "https://trends.google.com/trends/explore?q=awesome+llm+apps&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 999
+            },
+            {
+              "title": "deeptutor",
+              "url": "https://trends.google.com/trends/explore?q=deeptutor&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 999
+            }
+          ],
+          "takeaway": "关键词红利从概念教育转向项目复现。"
+        },
+        {
+          "id": "vc-radar",
+          "heading": "VC 和 YC 在关注什么主题？",
+          "summary_md": "今天的 VC 雷达会盯三类：AI 原生工作流、端侧模型、垂直教育与交易 Agent。GitHub 上 [HKUDS/Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) 周增 5635 星，[HKUDS/DeepTutor](https://github.com/HKUDS/DeepTutor) 周增 2154 星；Product Hunt 上 [Clark](https://www.producthunt.com/products/clark-agent) 把 AI coworker 和云电脑绑定，[ZooData](https://www.producthunt.com/products/zoodata) 直接做 Agent 数据层。融资叙事会从「我们有 Agent」转成「我们控制了 Agent 的数据、执行环境或垂直评估闭环」。",
+          "items": [
+            {
+              "title": "HKUDS/Vibe-Trading",
+              "url": "https://github.com/HKUDS/Vibe-Trading",
+              "source": "GitHub",
+              "score": 5635
+            },
+            {
+              "title": "HKUDS/DeepTutor",
+              "url": "https://github.com/HKUDS/DeepTutor",
+              "source": "GitHub",
+              "score": 2154
+            },
+            {
+              "title": "ZooData",
+              "url": "https://www.producthunt.com/products/zoodata",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "投资人会更在意 Agent 能否绑定独占数据和结果评估，而不是演示是否惊艳。"
+        },
+        {
+          "id": "cooling",
+          "heading": "哪些 AI 热词在降温？",
+          "summary_md": "降温最明显的是上一轮通用入口词。[vibe trading](https://trends.google.com/trends/explore?q=vibe+trading&date=now+7-d) 下跌 -91.6%，[cursor alternative](https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d) 下跌 -76.9%，[officecli](https://trends.google.com/trends/explore?q=officecli&date=now+7-d) 下跌 -75.3%，[opencut](https://trends.google.com/trends/explore?q=opencut&date=now+7-d) 下跌 -63.8%。这不代表需求消失，而是发布峰值后搜索热度回落；真正留下来的会变成插件、模板、集成和付费工作流。",
+          "items": [
+            {
+              "title": "vibe trading",
+              "url": "https://trends.google.com/trends/explore?q=vibe+trading&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": -91
+            },
+            {
+              "title": "cursor alternative",
+              "url": "https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": -76
+            },
+            {
+              "title": "opencut",
+              "url": "https://trends.google.com/trends/explore?q=opencut&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": -63
+            }
+          ],
+          "takeaway": "热词降温后，机会会从流量套利转向留存和集成深度。"
+        },
+        {
+          "id": "new-radar",
+          "heading": "新词雷达：有哪些从零起飞的新概念？",
+          "summary_md": "新词里最值得看的是 Kimi 与硬件化 Codex 信号。在 [ai agent](https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d) 的关联查询中，kimi k3 破圈值达到 12300 和 12950，kimi ai 也有 170；Product Hunt 上 [Kimi K3](https://www.producthunt.com/products/kimi-ai-assistant) 主打开放 3T 级模型。与此同时，[codex](https://trends.google.com/trends/explore?q=codex&date=now+7-d) 关联查询里 openai codex micro keyboard 达到 3100，codex micro 达到 1250。弱信号不是又一个模型名，而是模型、终端工具和输入硬件开始绑定成工作台。",
+          "items": [
+            {
+              "title": "kimi k3",
+              "url": "https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 12950
+            },
+            {
+              "title": "openai codex micro keyboard",
+              "url": "https://trends.google.com/trends/explore?q=codex&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 3100
+            },
+            {
+              "title": "codex micro",
+              "url": "https://trends.google.com/trends/explore?q=codex&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 1250
+            }
+          ],
+          "takeaway": "新词正在指向 AI 工作台的硬件化与端侧化。"
+        }
+      ]
+    },
+    {
+      "id": "actions",
+      "title": "行动触发",
+      "blocks": [
+        {
+          "id": "weekend-build",
+          "heading": "今天 2 小时和一个周末分别做什么？",
+          "summary_md": "2 小时可以做一个「本地会议转录到 Markdown」原型：用 [Transcribe.cpp](https://workshop.cjpais.com/projects/transcribe-cpp) 的思路做音频输入、时间戳、说话人占位，再接一个简单摘要模板。一个周末则可以做「Agent Skills 包管理器」：参考 [mattpocock/skills](https://github.com/mattpocock/skills) 的周增 11131 星和 [kangarooking/cangjie-skill](https://github.com/kangarooking/cangjie-skill) 的周增 1224 星，把技能安装、版本、适配 Codex/Cursor/Claude Code 做成可视化目录。",
+          "items": [
+            {
+              "title": "Transcribe.cpp",
+              "url": "https://workshop.cjpais.com/projects/transcribe-cpp",
+              "source": "HN",
+              "score": 498
+            },
+            {
+              "title": "mattpocock/skills",
+              "url": "https://github.com/mattpocock/skills",
+              "source": "GitHub",
+              "score": 11131
+            },
+            {
+              "title": "kangarooking/cangjie-skill",
+              "url": "https://github.com/kangarooking/cangjie-skill",
+              "source": "GitHub",
+              "score": 1224
+            }
+          ],
+          "takeaway": "今天最适合动手的是本地转录和 Agent Skills 分发。"
+        },
+        {
+          "id": "pricing-models",
+          "heading": "值得学习的定价和变现模式有哪些？",
+          "summary_md": "今天没有直接的 MRR、ARR 或 pricing 讨论，但产品形态给出三种可借鉴变现：第一，像 [Kobbe](https://www.producthunt.com/products/kobbe) 一样把隐私友好分析和收入数据绑定，按站点或收入规模收费；第二，像 [OpenSEO](https://www.producthunt.com/products/openseo) 与 [LiveDemo](https://www.producthunt.com/products/livedemo) 走开源替代，卖托管、团队权限和导入迁移；第三，像 [OfficeCLI](https://github.com/iOfficeAI/OfficeCLI) 这种单二进制工具，适合免费开源核心加企业自动化连接器。",
+          "items": [
+            {
+              "title": "Kobbe",
+              "url": "https://www.producthunt.com/products/kobbe",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "OpenSEO",
+              "url": "https://www.producthunt.com/products/openseo",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "iOfficeAI/OfficeCLI",
+              "url": "https://github.com/iOfficeAI/OfficeCLI",
+              "source": "GitHub",
+              "score": 4284
+            }
+          ],
+          "takeaway": "开源替代要卖的是迁移成本降低和团队级控制面。"
+        },
+        {
+          "id": "counterintuitive",
+          "heading": "今天最反直觉的发现是什么？",
+          "summary_md": "最反直觉的是：搜索热度在降温的项目，GitHub 仍可能高增长。[opencut](https://trends.google.com/trends/explore?q=opencut&date=now+7-d) 搜索下跌 -63.8%，但 OpenCut 本周仍周增 13319 星；[officecli](https://trends.google.com/trends/explore?q=officecli&date=now+7-d) 搜索下跌 -75.3%，但 OfficeCLI 周增 4284 星。这说明开发者基础设施的传播不完全依赖大众搜索，而是通过 GitHub、社群、Agent 配置文件和工具链口碑扩散。判断一个开发者产品，不能只看 Trends，还要看 star 斜率和是否进入日常工作流。",
+          "items": [
+            {
+              "title": "OpenCut-app/OpenCut",
+              "url": "https://github.com/OpenCut-app/OpenCut",
+              "source": "GitHub",
+              "score": 13319
+            },
+            {
+              "title": "iOfficeAI/OfficeCLI",
+              "url": "https://github.com/iOfficeAI/OfficeCLI",
+              "source": "GitHub",
+              "score": 4284
+            }
+          ],
+          "takeaway": "开发者产品的真实热度常常藏在仓库增长和工作流嵌入里，而不是搜索指数里。"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2026-07-19T09:19:54+00:00",
+  "reddit_highlights": []
+}
