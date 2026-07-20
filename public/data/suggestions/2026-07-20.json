@@ -1,0 +1,153 @@
+{
+  "date": "2026-07-20",
+  "items": [
+    {
+      "id": "2026-07-20-1",
+      "title": "Agent Skill 要变成资产了",
+      "angle": "从 GitHub 高增长和 builder 发声切入：Agent 的竞争点正在从模型能力转向可复用工作标准。",
+      "opening": "今天 GitHub 上最热的不是新模型，而是一批教 Agent 怎么工作的 skill。mattpocock/skills 周增 10983 星，hallmark 周增 9193 星，说明开发者真正缺的不是更聪明的模型，而是能反复迁移的工作方式。",
+      "story_hook": {
+        "challenge": "大家以为 Agent 的瓶颈是模型不够强，实际痛点是它每次都要重新理解你的偏好、代码风格和审美标准。",
+        "twist": "最值钱的东西可能不是 App，而是你过去靠经验积累出来的那套隐性判断。"
+      },
+      "takeaway": "把自己的产品规则、代码风格、禁用词、PR 检查项整理成 Agent skill，未来可能比写提示词更有复利。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Thariq：会整理如何把实践经验迁移到自己的 skills 和 system prompts",
+          "url": "https://x.com/trq212/status/2078901672441790818"
+        },
+        {
+          "tag": "builders",
+          "ref": "Garry Tan：Markdown 是能穿越技术栈变化的稳定格式",
+          "url": "https://x.com/garrytan/status/2078803803659452624"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub weekly：mattpocock/skills 周增 10983 星",
+          "url": "https://github.com/mattpocock/skills"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub weekly：Nutlope/hallmark 周增 9193 星",
+          "url": "https://github.com/Nutlope/hallmark"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-20-2",
+      "title": "别再做泛 AI 订阅了",
+      "angle": "用消费者订阅软件难成立的判断，对照 Product Hunt 上更窄的流程型 Agent。",
+      "opening": "Amjad Masad 今天说了句不讨喜的话：消费者的钱主要花在吃住娱乐通信购物，软件订阅很难做大。问题是，很多 AI 产品还在假装自己能靠“每月一个智能助手”收费。",
+      "story_hook": {
+        "challenge": "AI 创业者喜欢卖通用助手，但用户真正愿意付费的场景往往窄得多。",
+        "twist": "今天更像商业机会的不是聊天工具，而是 order-to-cash、网站分析、个人上下文文件这些具体流程。"
+      },
+      "takeaway": "做 AI 产品时先找高频、可验收、已有预算的流程，再决定模型能力；不要先做助手再找付费理由。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Amjad Masad：巨大的消费者订阅软件生意本来就很难成立",
+          "url": "https://x.com/amasad/status/2079086360703680583"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt：Rex 把 Agent 放进 order-to-cash 流程",
+          "url": "https://www.producthunt.com/products/rex-7"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt：Reignat 做隐私友好的实时 AI 网站分析",
+          "url": "https://www.producthunt.com/products/reignat"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-20-3",
+      "title": "AI 编辑终于过线了？",
+      "angle": "从 Every 内部 70% 文案编辑自动化切入，讨论 AI 写作从生成正文转向接管编辑工序。",
+      "opening": "Dan Shipper 说，Every 内部原本要人工做的文案编辑，过去一周已经能自动完成约 70%。这不是“AI 会写文章”那种旧话题，而是更危险也更实用的一步：AI 开始接管编辑台。",
+      "story_hook": {
+        "challenge": "过去 AI 写作最大的问题不是不会写，而是改稿、统一风格、删废话这些编辑动作不稳定。",
+        "twist": "真正先被自动化的可能不是作者，而是作者和发布之间那层反复打磨的流程。"
+      },
+      "takeaway": "内容团队应把选题判断、结构标准、删改偏好沉淀成可执行规则，用 AI 先自动化编辑流程，而不是直接追求全自动写作。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Dan Shipper：Every 内部文案编辑约 70% 已能自动完成",
+          "url": "https://x.com/danshipper/status/2078920115140358585"
+        },
+        {
+          "tag": "builders",
+          "ref": "Zara Zhang：重复回答 3 次以上的问题就值得发成内容",
+          "url": "https://x.com/zarazhangrui/status/2078830510177128481"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub weekly：hallmark 把反 AI 味设计做成 Agent skill",
+          "url": "https://github.com/Nutlope/hallmark"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-20-4",
+      "title": "开源模型的安全悖论",
+      "angle": "把 Aaron Levie 的开放权重监管观点和 Guillermo Rauch 的网络安全测试放在一起，看开源模型为何越来越难被忽视。",
+      "opening": "一边是监管想限制前沿模型能力，一边是开源模型已经开始逼近关键测试场景。Guillermo Rauch 说，网络安全才是检验超智能的软件工程 IQ 测试；Aaron Levie 则提醒，封锁前沿能力可能只会让自己更不安全。",
+      "story_hook": {
+        "challenge": "很多 AI 安全讨论默认“能力越开放越危险”，但现实是能力不开放也挡不住其他生态追上来。",
+        "twist": "真正的安全优势可能不是把模型锁起来，而是让更多防御、审计和测试工具跑在开放生态上。"
+      },
+      "takeaway": "判断开源模型不要只看聊天榜，要看它在漏洞发现、逆向、补丁生成、代码审计这些硬任务里的表现。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Aaron Levie：开源模型逼近前沿模型后，封锁能力会削弱竞争力和安全性",
+          "url": "https://x.com/levie/status/2078992778449850769"
+        },
+        {
+          "tag": "builders",
+          "ref": "Guillermo Rauch：网络安全是检验超智能的软件工程 IQ 测试",
+          "url": "https://x.com/rauchg/status/2078912929714356698"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub weekly：openinterpreter 指向 open models like Kimi K3，周增 2498 星",
+          "url": "https://github.com/openinterpreter/openinterpreter"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-20-5",
+      "title": "日历 Agent 的权限红线",
+      "angle": "从 Cat Wu 的 Claude Cowork 日程实践切入，讨论办公 Agent 真正难点不是自动化，而是边界设计。",
+      "opening": "Cat Wu 用 Claude Cowork 把每周会议压到 20 小时以内，但她特别强调一条边界：改邀约前必须先问我。这个细节比“AI 自动管理日程”更重要，因为办公 Agent 一旦越权，效率工具就会变成事故源。",
+      "story_hook": {
+        "challenge": "办公 Agent 最吸引人的地方是替你做决定，最危险的地方也是替你做决定。",
+        "twist": "一个好 Agent 的核心能力，可能不是多主动，而是知道什么时候必须停下来问。"
+      },
+      "takeaway": "设计工作流 Agent 时，要把“可自动执行”和“必须确认”分层写清楚，尤其是会议、邮件、合同、回款这类会影响他人的动作。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Cat Wu：Claude Cowork 可管理日程，但改邀约前必须先问",
+          "url": "https://x.com/_catwu/status/2079011428380602526"
+        },
+        {
+          "tag": "builders",
+          "ref": "Aaron Levie：AI 扩散瓶颈在现实世界反馈慢，机会在应用层工作流",
+          "url": "https://x.com/levie/status/2078864191683969212"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub weekly：OfficeCLI 解决 Agent 读写 Word、Excel、PowerPoint 的需求",
+          "url": "https://github.com/iOfficeAI/OfficeCLI"
+        }
+      ]
+    }
+  ],
+  "notes": "今日主线很集中：Agent 不再只是聊天入口，而是在变成技能包、流程权限、办公自动化和团队治理层。独立开发者素材偏少，但 builder 发声和 GitHub 增长能拼出清晰趋势。",
+  "generated_at": "2026-07-20T09:18:28+00:00",
+  "model": "gpt-5.5"
+}

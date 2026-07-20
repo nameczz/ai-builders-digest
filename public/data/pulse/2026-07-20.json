@@ -1,0 +1,341 @@
+{
+  "date": "2026-07-20",
+  "top3": [
+    "今天最值得关注的是 Agent Skills 从个人配置变成可交易的工程资产，hallmark、mattpocock/skills、ui-skills 同时上榜。",
+    "开源视频剪辑和本地 AI 工具继续吸走注意力，OpenCut 周增 12743 星，code-review-graph 日榜继续增长。",
+    "HuggingFace 热点从纯聊天模型转向多模态、OCR、端侧低比特模型，消费级产品机会更接近可落地。"
+  ],
+  "intro": "今天的主线不是单个模型发布，而是 AI Agent 生态的基础设施化：技能包、代码图谱、办公自动化、端侧模型都在争夺开发者默认工作流。另一条暗线是搜索热度在降温，GitHub 仍在上涨，说明 Builders 的真实需求正在从追热点转向找可复用组件。",
+  "sections": [
+    {
+      "id": "discovery",
+      "title": "发现机会",
+      "blocks": [
+        {
+          "id": "indie-products",
+          "heading": "今天有哪些独立开发者的新产品？",
+          "summary_md": "今天 HN Show HN 没有可用样本，Product Hunt 则集中在轻量工作流和垂直 AI 工具，但原始数据未提供票数和评论数，所以不能用热度排序，只能看定位密度。[Autoplot](https://www.producthunt.com/products/autoplot) 主打数据分析和绘图一体化，[Reignat](https://www.producthunt.com/products/reignat) 做隐私友好的实时 AI 网站分析，[Creed](https://www.producthunt.com/products/creed-2) 则把个人上下文文件包装成每个 Agent 都能读取的资产。更接近商业验证的是 [Rex](https://www.producthunt.com/products/rex-7)，把 Agent 放进 order-to-cash 运营流程，而不是做泛助手。\n\n独立开发者今天应该留意的不是「再做一个 AI assistant」，而是把 AI 嵌进用户已有的高频流程：截图整理、网页理解、广告生成、订单回款、网站分析。这些产品的共同点是入口窄、结果可检验，比泛化 Agent 更容易收费。",
+          "items": [
+            {
+              "title": "Autoplot",
+              "url": "https://www.producthunt.com/products/autoplot",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "Reignat",
+              "url": "https://www.producthunt.com/products/reignat",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "Creed",
+              "url": "https://www.producthunt.com/products/creed-2",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "Rex",
+              "url": "https://www.producthunt.com/products/rex-7",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "今天的新产品机会在窄流程 Agent，而不是泛助手。"
+        },
+        {
+          "id": "github-traction",
+          "heading": "GitHub 上哪些高增长开源项目还没有商业化？",
+          "summary_md": "GitHub weekly 最强信号是开源替代和 Agent 辅助工具。[OpenCut-app/OpenCut](https://github.com/OpenCut-app/OpenCut) 周增 12743 星、总星 76121，定位是开源 CapCut 替代；[Nutlope/hallmark](https://github.com/Nutlope/hallmark) 周增 9193 星、总星 13732，把「反 AI 味设计」做成 Claude Code、Cursor、Codex 可用的 skill；[iOfficeAI/OfficeCLI](https://github.com/iOfficeAI/OfficeCLI) 周增 4269 星、总星 19886，解决 Agent 读写 Word、Excel、PowerPoint 的硬需求。\n\n这些项目的商业化空间都不在代码本身，而在托管服务、团队模板、工作流市场和企业权限层。尤其 OfficeCLI 与 code-review-graph 这类基础设施，很容易从开源 CLI 走向团队版，因为它们碰到的是组织数据、上下文索引和审计记录。",
+          "items": [
+            {
+              "title": "OpenCut-app/OpenCut",
+              "url": "https://github.com/OpenCut-app/OpenCut",
+              "source": "GitHub",
+              "score": 12743
+            },
+            {
+              "title": "Nutlope/hallmark",
+              "url": "https://github.com/Nutlope/hallmark",
+              "source": "GitHub",
+              "score": 9193
+            },
+            {
+              "title": "iOfficeAI/OfficeCLI",
+              "url": "https://github.com/iOfficeAI/OfficeCLI",
+              "source": "GitHub",
+              "score": 4269
+            }
+          ],
+          "takeaway": "高增长开源项目的付费点正在从工具转向团队上下文和治理层。"
+        }
+      ]
+    },
+    {
+      "id": "tech-stack",
+      "title": "技术选型",
+      "blocks": [
+        {
+          "id": "dev-tools",
+          "heading": "本周增长最快的开发者工具是什么？",
+          "summary_md": "本周开发者工具榜不是 IDE 之争，而是 Agent 周边基础设施爆发。[mattpocock/skills](https://github.com/mattpocock/skills) 周增 10983 星、总星 178157，[Nutlope/hallmark](https://github.com/Nutlope/hallmark) 周增 9193 星，[tirth8205/code-review-graph](https://github.com/tirth8205/code-review-graph) 周榜增 1103 星、日榜又增 663 星，说明大家正在补齐 Agent 的可控性、上下文压缩和审美判断。\n\n技术选型上，Builders 不应只评估模型 API，而要评估「Agent 能不能持续读对项目、写对风格、少浪费上下文」。这会推动本地索引、MCP、技能包、CLI 自动化成为新栈的一部分。",
+          "items": [
+            {
+              "title": "mattpocock/skills",
+              "url": "https://github.com/mattpocock/skills",
+              "source": "GitHub",
+              "score": 10983
+            },
+            {
+              "title": "Nutlope/hallmark",
+              "url": "https://github.com/Nutlope/hallmark",
+              "source": "GitHub",
+              "score": 9193
+            },
+            {
+              "title": "tirth8205/code-review-graph",
+              "url": "https://github.com/tirth8205/code-review-graph",
+              "source": "GitHub",
+              "score": 1103
+            }
+          ],
+          "takeaway": "Agent 工程栈的下一层是技能、上下文图谱和本地工具调用。"
+        },
+        {
+          "id": "hf-models",
+          "heading": "HuggingFace 上最热的模型能做什么消费级产品？",
+          "summary_md": "HuggingFace 今天的可产品化方向很清晰：[thinkingmachines/Inkling](https://huggingface.co/thinkingmachines/Inkling) trending score 1129、下载 13462、点赞 1175，标签覆盖 image-text-to-text、audio-text-to-text 和 MoE，适合做多模态内容审核、学习助理和创作者素材理解。[baidu/Unlimited-OCR](https://huggingface.co/baidu/Unlimited-OCR) 下载 2122848、点赞 2273，[ATH-MaaS/OvisOCR2](https://huggingface.co/ATH-MaaS/OvisOCR2) 支持表格、公式、Markdown，适合做文档导入、票据归档、知识库清洗。\n\n另一条线是端侧低比特模型：[prism-ml/Ternary-Bonsai-27B-gguf](https://huggingface.co/prism-ml/Ternary-Bonsai-27B-gguf) 下载 338945，[prism-ml/Bonsai-27B-gguf](https://huggingface.co/prism-ml/Bonsai-27B-gguf) 下载 1262894，说明消费级隐私 AI 可以绕开云推理成本，从本地写作、离线客服、个人知识库先切入。",
+          "items": [
+            {
+              "title": "thinkingmachines/Inkling",
+              "url": "https://huggingface.co/thinkingmachines/Inkling",
+              "source": "HuggingFace",
+              "score": 1129
+            },
+            {
+              "title": "baidu/Unlimited-OCR",
+              "url": "https://huggingface.co/baidu/Unlimited-OCR",
+              "source": "HuggingFace",
+              "score": 298
+            },
+            {
+              "title": "prism-ml/Ternary-Bonsai-27B-gguf",
+              "url": "https://huggingface.co/prism-ml/Ternary-Bonsai-27B-gguf",
+              "source": "HuggingFace",
+              "score": 774
+            }
+          ],
+          "takeaway": "模型热点正从聊天转向多模态导入、OCR 和端侧低成本推理。"
+        }
+      ]
+    },
+    {
+      "id": "competition",
+      "title": "竞争情报",
+      "blocks": [
+        {
+          "id": "migrations",
+          "heading": "有没有「XX is dead」或迁移类文章？",
+          "summary_md": "今天没有典型的「XX is dead」文章，但 GitHub 和 Product Hunt 同时出现替代品信号。[OpenCut-app/OpenCut](https://github.com/OpenCut-app/OpenCut) 以「开源 CapCut 替代」拿到周增 12743 星，[openinterpreter/openinterpreter](https://github.com/openinterpreter/openinterpreter) 描述里直接指向 open models like Kimi K3，周增 2498 星；Product Hunt 上 [Kobbe](https://www.producthunt.com/products/kobbe) 与 [Reignat](https://www.producthunt.com/products/reignat) 都在隐私友好分析赛道，说明迁移动机不一定来自某个产品死亡，也可能来自成本、隐私和可控性。\n\n竞争上要警惕：开源替代一旦进入周榜，会迅速把成熟 SaaS 的低端用户教育成「我可以自己托管」。付费产品需要更快强调协作、合规、托管稳定性和迁移成本，而不是只强调功能更多。",
+          "items": [
+            {
+              "title": "OpenCut-app/OpenCut",
+              "url": "https://github.com/OpenCut-app/OpenCut",
+              "source": "GitHub",
+              "score": 12743
+            },
+            {
+              "title": "openinterpreter/openinterpreter",
+              "url": "https://github.com/openinterpreter/openinterpreter",
+              "source": "GitHub",
+              "score": 2498
+            },
+            {
+              "title": "Reignat",
+              "url": "https://www.producthunt.com/products/reignat",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "迁移叙事正在从产品死亡转向隐私、成本和可控性的重新定价。"
+        }
+      ]
+    },
+    {
+      "id": "trends",
+      "title": "趋势判断",
+      "blocks": [
+        {
+          "id": "keywords",
+          "heading": "本周技术关键词频率有什么变化？",
+          "summary_md": "Google Trends 里，[ai agent](https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d) 上升 +12.1%，[hallmark](https://trends.google.com/trends/explore?q=hallmark&date=now+7-d) 上升 +8.9%，但 GitHub 上真正对应的不是贺卡品牌，而是 Nutlope/hallmark 这种「反 AI 味」skill。这个错位很重要：大众搜索词还没准确命名问题，开发者已经在 GitHub 用项目把问题框出来。\n\n反过来，[codex](https://trends.google.com/trends/explore?q=codex&date=now+7-d) 下降 -25.2%，[codex cli](https://trends.google.com/trends/explore?q=codex+cli&date=now+7-d) 下降 -27.2%，但 openai/codex 仍周增 2361 星。这意味着 Codex 类工具的搜索热度在退潮，但高意图开发者仍在安装和试用。",
+          "items": [
+            {
+              "title": "ai agent",
+              "url": "https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 12.1
+            },
+            {
+              "title": "hallmark",
+              "url": "https://trends.google.com/trends/explore?q=hallmark&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 8.9
+            },
+            {
+              "title": "codex",
+              "url": "https://trends.google.com/trends/explore?q=codex&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": -25.2
+            }
+          ],
+          "takeaway": "搜索热度降温不等于开发者需求消失，高意图需求正在 GitHub 里沉淀。"
+        },
+        {
+          "id": "cooling",
+          "heading": "哪些 AI 热词在降温？",
+          "summary_md": "今天降温最明显的是工具替代类关键词：[cursor alternative](https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d) 下滑 -67.4%，[opencut](https://trends.google.com/trends/explore?q=opencut&date=now+7-d) 下滑 -70.5%，[vibe trading](https://trends.google.com/trends/explore?q=vibe+trading&date=now+7-d) 下滑 -90.7%，[awesome llm apps](https://trends.google.com/trends/explore?q=awesome+llm+apps&date=now+7-d) 下滑 -100.0%。这说明上周被社媒推高的名词正在回落，但项目本身仍可能积累星标。\n\n对 Builder 来说，这不是坏事。降温后的关键词更适合判断留存：如果一个项目搜索跌了但 GitHub 还涨，说明它可能进入真实使用阶段；如果两边都跌，就只是内容型热词。",
+          "items": [
+            {
+              "title": "cursor alternative",
+              "url": "https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": -67.4
+            },
+            {
+              "title": "vibe trading",
+              "url": "https://trends.google.com/trends/explore?q=vibe+trading&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": -90.7
+            },
+            {
+              "title": "awesome llm apps",
+              "url": "https://trends.google.com/trends/explore?q=awesome+llm+apps&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": -100.0
+            }
+          ],
+          "takeaway": "AI 热词降温后，GitHub 增长比搜索指数更能代表真实需求。"
+        },
+        {
+          "id": "new-radar",
+          "heading": "新词雷达：有哪些从零起飞的新概念？",
+          "summary_md": "新词雷达里最强的是 [codex](https://trends.google.com/trends/explore?q=codex&date=now+7-d) 相关查询中的「kimi k3」破圈值 31150，以及「openai codex micro keyboard」3550、「codex micro」1600。它们说明用户正在把 Agent、输入设备和模型品牌混在一起搜索，可能预示下一波不是纯软件工具，而是更具体的 Agent 操作界面。\n\n另一个弱信号来自 [open source alternative](https://trends.google.com/trends/explore?q=open+source+alternative&date=now+7-d) 的 rising 项：「mattermost」值 70、「lm studio」值 50。虽然主词下降 -13.5%，但关联词指向协作和本地模型运行，说明开源替代正在从泛泛搜索进入具体产品比较。",
+          "items": [
+            {
+              "title": "kimi k3",
+              "url": "https://trends.google.com/trends/explore?q=codex&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 31150
+            },
+            {
+              "title": "openai codex micro keyboard",
+              "url": "https://trends.google.com/trends/explore?q=codex&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 3550
+            },
+            {
+              "title": "lm studio",
+              "url": "https://trends.google.com/trends/explore?q=open+source+alternative&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 50
+            }
+          ],
+          "takeaway": "新词信号指向 Agent 的实体入口、本地模型和开源协作替代。"
+        }
+      ]
+    },
+    {
+      "id": "actions",
+      "title": "行动触发",
+      "blocks": [
+        {
+          "id": "weekend-build",
+          "heading": "今天 2 小时和一个周末分别做什么？",
+          "summary_md": "2 小时内可以做一个「项目上下文 skill」：把你的产品定位、代码风格、禁用词、常见命令、PR 检查项整理成单个 Agent 可读文件，然后在 Codex、Cursor 或 Claude Code 里反复试。今天 hallmark 周增 9193 星、mattpocock/skills 周增 10983 星，已经证明「让 Agent 更懂我」是高频痛点。\n\n一个周末可以做成可售卖小工具：例如面向设计师的 anti-slop UI 审核器、面向团队的 PR 上下文图谱、或面向运营的 Office 文档 Agent。验证标准很简单：能不能让用户在第一次运行后少改 30% 的 Agent 输出。",
+          "items": [
+            {
+              "title": "Nutlope/hallmark",
+              "url": "https://github.com/Nutlope/hallmark",
+              "source": "GitHub",
+              "score": 9193
+            },
+            {
+              "title": "mattpocock/skills",
+              "url": "https://github.com/mattpocock/skills",
+              "source": "GitHub",
+              "score": 10983
+            },
+            {
+              "title": "iOfficeAI/OfficeCLI",
+              "url": "https://github.com/iOfficeAI/OfficeCLI",
+              "source": "GitHub",
+              "score": 4269
+            }
+          ],
+          "takeaway": "最快的周末项目是把你的隐性工作标准产品化成 Agent skill。"
+        },
+        {
+          "id": "pricing-models",
+          "heading": "值得学习的定价和变现模式有哪些？",
+          "summary_md": "今天值得学习的是「开源核心加团队层」和「垂直工作流按结果收费」。OpenCut 这样的开源替代适合走托管导出、素材云同步、团队协作和商业授权；OfficeCLI、code-review-graph 这类工具适合卖团队索引、审计日志、权限控制和私有部署；Product Hunt 上 Rex 这类 order-to-cash Agent 更适合按席位或按处理订单量收费。\n\n不要急着给模型调用定价。用户真正愿意付费的是少踩坑、少返工、少丢上下文，以及把流程结果交付出去。定价页上应把节省的人工步骤写清楚，而不是把模型参数写满。",
+          "items": [
+            {
+              "title": "OpenCut-app/OpenCut",
+              "url": "https://github.com/OpenCut-app/OpenCut",
+              "source": "GitHub",
+              "score": 12743
+            },
+            {
+              "title": "tirth8205/code-review-graph",
+              "url": "https://github.com/tirth8205/code-review-graph",
+              "source": "GitHub",
+              "score": 1103
+            },
+            {
+              "title": "Rex",
+              "url": "https://www.producthunt.com/products/rex-7",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "AI 工具的定价锚点应是流程结果，不是模型成本。"
+        },
+        {
+          "id": "counterintuitive",
+          "heading": "今天最反直觉的发现是什么？",
+          "summary_md": "最反直觉的是：搜索热度大面积下跌，但 Builders 的工具需求并没有退潮。[opencut](https://trends.google.com/trends/explore?q=opencut&date=now+7-d) 搜索下降 -70.5%，OpenCut 却周增 12743 星；[codex](https://trends.google.com/trends/explore?q=codex&date=now+7-d) 下降 -25.2%，openai/codex 仍周增 2361 星；[skills](https://trends.google.com/trends/explore?q=skills&date=now+7-d) 下降 -26.9%，但 skills 相关仓库仍集体高涨。\n\n这说明社媒热词和开发者采用之间有时间差。等大众搜索回落后，真正有使用意图的人才开始筛选、安装、集成。今天的判断应该更偏工程 adoption，而不是看 Google Trends 单日涨跌。",
+          "items": [
+            {
+              "title": "OpenCut-app/OpenCut",
+              "url": "https://github.com/OpenCut-app/OpenCut",
+              "source": "GitHub",
+              "score": 12743
+            },
+            {
+              "title": "openai/codex",
+              "url": "https://github.com/openai/codex",
+              "source": "GitHub",
+              "score": 2361
+            },
+            {
+              "title": "skills",
+              "url": "https://trends.google.com/trends/explore?q=skills&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": -26.9
+            }
+          ],
+          "takeaway": "热词降温时，才是判断真实开发者采用的好窗口。"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2026-07-20T09:17:32+00:00",
+  "reddit_highlights": [
+    {
+      "heading": "今天有哪些 solo-founder 产品发布？",
+      "body_md": "**🔍 信号**：[IKEA Complexity Index](https://ikea.greg.technology/)（169 票，86 条讨论——衡量家具组装难度）、[OpenSEO](https://www.producthunt.com/products/openseo)（556 PH 票，55 条评论——开源的 Ahrefs 替代品）、[SSH 蜜罐实时查看器](https://honeypotlive.cc/)（178 票，60 条讨论——实时直播机器人攻击）以及[保龄球馆 ESP32 改造](https://news.ycombinator.com/item?id=48968606)（1,480 票，162 条讨论）。\n\n**白话说：** 今天的 solo 发布集中在让隐藏的工作变得可见——家具组装难度、SEO 数据、机器人流量和保龄球馆运营——每个都把不可见的过程变成了一个可浏览的表面。\n\n@gregsadetsky 做的 [IKEA Complexity Index](https://ikea.greg.technology/) 是最意想不到的实用发布。它根据安装说明书给每件 IKEA 产品分配一个数字化的`复杂度评分`。讨论（86 条评论）立刻转向了为人工定价——@jstummbillig 算出来一张 `$549` 的 BRIMNES 床加上 320 分钟组装时间，按 `$30/小时` 算总价 `$709`。它内置的 TaskRabbit 定价合作闭环让这玩意儿不只是一种新奇——它是一个伪装成好奇心的`劳动力成本计算器`。\n\n[OpenSEO](https://www.producthunt.com/products/openseo) 以 556 个 Product Hunt 票数成为今天最强的商业发布。它定位为开源的 Ahrefs 替代品——`关键词研究`、`排名追踪`和`网站审计`。55 条评论聚焦于数据准确性期望与成熟工具的对比。对 solo founder 来说，模式不是克隆 OpenSEO，而是挑选一个 SEO 工作（比如面向本地企业的排名追踪、面向内容网站的坏链审计）并用更简单的界面去占有它。\n\n[保龄球馆 ESP32 改造](https://news.ycombinator.com/item?id=48968606) 来自 @section33，是情感锚点：用 `$1,600` 的微控制器替代了一套 `$12万` 的商业系统。162 条评论从对机械排瓶机的怀旧到添加`自助结账`和 `DMX 灯光控制`的业务建议。@nunez 指出很多保龄球馆正在转向昂贵的一体化`钢索排瓶机`——改造机会是真实的。\n\n[Spycost](https://www.producthunt.com/products/spycost)（278 票，52 条评论）通过跨店比价检查你是否为某件东西付了冤枉钱。[Screenlet](https://www.reddit.com/r/SideProject/comments/1uvzs9w/)（Reddit r/SideProject 第 10 名）将任何网站包裹在一个设备框内并录制演示视频——无需账号、无需上传，与 Screen Studio（`$89`）和 Loom（`$15/月`）竞争。\n\n**关键判断**：发布一个\"任何 IKEA 产品劳动力成本计算器\"浏览器扩展，在购买前引用 TaskRabbit 定价——组装数据已经是公开的，讨论也验证了痛点。\n\n**反向视角**：IKEA 可能会限制对组装说明的 API 访问，或与 TaskRabbit 独家合作，使第三方计算器依赖脆弱的数据源。\n\n---",
+      "source_url": "https://raw.githubusercontent.com/BuilderPulse/BuilderPulse/main/zh/2026/2026-07-20.md"
+    }
+  ]
+}
