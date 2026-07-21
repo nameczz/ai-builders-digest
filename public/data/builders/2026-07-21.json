@@ -1,0 +1,412 @@
+{
+  "date": "2026-07-21",
+  "generated_at": "2026-07-21T09:12:14+00:00",
+  "count": 27,
+  "items": [
+    {
+      "id": "739550a0af",
+      "date": "2026-07-21",
+      "source": "x",
+      "author": "Swyx",
+      "bio": "achieve ambition with intentionality, intensity, integrity & insanity.  affiliations: - @dxtipshq  - @cognition - @temporalio - @aidotengineer - @latentspacepod",
+      "title": "",
+      "summary_en": "unironically this is happening right tf now https://t.co/8E0EI7Gq38 https://t.co/FxVx5B9jIi",
+      "summary_zh": "这事不是段子，也不是未来预言，而是他妈的正在此刻发生。",
+      "url": "https://x.com/swyx/status/2079438448956788964",
+      "posted_at": "2026-07-21T05:28:54.000Z",
+      "tags": [
+        "@swyx"
+      ]
+    },
+    {
+      "id": "026b762de3",
+      "date": "2026-07-21",
+      "source": "x",
+      "author": "Amjad Masad",
+      "bio": "ceo @replit. civilizationist",
+      "title": "",
+      "summary_en": "Tools https://t.co/b8MxIORFp2",
+      "summary_zh": "只给了一个“Tools”加短链接，信息量不足，无法判断作者具体观点或锋利点。\n\n把链接展开后的内容或截图贴出来，我可以压成 1-2 句中文。",
+      "url": "https://x.com/amasad/status/2079421913089335677",
+      "posted_at": "2026-07-21T04:23:12.000Z",
+      "tags": [
+        "@amasad"
+      ]
+    },
+    {
+      "id": "767a439967",
+      "date": "2026-07-21",
+      "source": "x",
+      "author": "Swyx",
+      "bio": "achieve ambition with intentionality, intensity, integrity & insanity.  affiliations: - @dxtipshq  - @cognition - @temporalio - @aidotengineer - @latentspacepod",
+      "title": "",
+      "summary_en": "very notable trajectory comparison writeup here buried in the RLM paper from @a1zhang and @lateinteraction.\n\nan open secret of \"frontier\" model training is that even without training on test, you can basically cheat by training on test lookalikes, enabling you to goalseek almost any benchmark number you want.\n\nhowever when they are released open weights, 99% of the time the norm is that you do not get the datasets/rlenvs that would easily show you if someone was training on Temu Tbench, so there is plausible deniability. Alex and Omar discuss applying standard NLP distance metrics on hidden trajectories. There's no ultimate solution here, but they have some prelim explorations. It happens to support the finding that RLMs can generalize to unseen tasks that share latent structure observed in training.",
+      "summary_zh": "前沿模型训练的公开秘密是：就算不直接喂测试集，也能靠训练一堆“高仿测试题”把基准分数刷到想要的样子。开放权重模型通常不放出数据集或环境，外界很难证明它是不是在练“拼多多版 Tbench”，只能靠轨迹距离这类间接指标抓影子。",
+      "url": "https://x.com/swyx/status/2079411861150429402",
+      "posted_at": "2026-07-21T03:43:15.000Z",
+      "tags": [
+        "@swyx"
+      ]
+    },
+    {
+      "id": "aa28424b6c",
+      "date": "2026-07-21",
+      "source": "x",
+      "author": "Zara Zhang",
+      "bio": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://t.co/KCuEajezlL YouTube: https://t.co/8xzbGWtf6w",
+      "title": "",
+      "summary_en": "If I were to hire today, this is how I would structure the interview process:\n\nRound 1: in-person & no AI allowed; test domain expertise and knowledge on the fly\n\nRound 2: a project that must be done with AI (impossible to complete without AI). Candidate assessed not just on the result but also the chat transcript with agents",
+      "summary_zh": "今天招人就该这样面：第一轮线下面，不准用 AI，当场验领域功底；第二轮必须用 AI 做一个不用 AI 根本完不成的项目，不只看结果，还要看他怎么指挥 agent。",
+      "url": "https://x.com/zarazhangrui/status/2079409165424799889",
+      "posted_at": "2026-07-21T03:32:33.000Z",
+      "tags": [
+        "@zarazhangrui"
+      ]
+    },
+    {
+      "id": "07fb992dbd",
+      "date": "2026-07-21",
+      "source": "x",
+      "author": "Aaron Levie",
+      "bio": "ceo @box - your business lives in content. unleash it with AI",
+      "title": "",
+      "summary_en": "Multi-model agentic systems clearly are the future. Great post by cursor. Their new research shows that a frontier model as a planner and orchestrator with a workhorse cheaper model can materially lower the cost of total tokens on a project, resulting in a 15X cost improvement.\n\n“Few moments in a large task genuinely require frontier intelligence, such as the original decomposition, the design decisions, and certain trade-offs. Once a frontier planner has collapsed the ambiguity into a detailed, explicit instruction, less expensive models simply have to follow it.”\n\nThis is increasingly becoming the core design pattern of complex agents, because the tokens used on large amounts of work on many tasks don’t require the same intelligence threshold as the planning step. By routing to different models based on where you are in the task, you get much greater efficiency overall. \n\nThis provides the template for where the applied layer in AI will differentiate. You can only drive this efficiency if you know the domain well and have the ability to work with multiple model tiers; companies that can do this will across coding, finance, legal, healthcare, life sciences, and other critical spaces will be in a strong position to get larger workloads that would otherwise be too expensive for the customer to deploy.",
+      "summary_zh": "多模型 Agent 会成为复杂任务的默认架构：前沿模型负责拆解、决策和权衡，便宜模型负责执行，Cursor 的研究显示这能把项目 token 成本打到 1/15。\n\n真正的护城河不在“用了哪个大模型”，而在谁更懂行业、会把不同智力层级的模型调度到正确环节，把原本贵到跑不起的工作负载变成可部署。",
+      "url": "https://x.com/levie/status/2079402164988895293",
+      "posted_at": "2026-07-21T03:04:44.000Z",
+      "tags": [
+        "@levie"
+      ]
+    },
+    {
+      "id": "a222989c2f",
+      "date": "2026-07-21",
+      "source": "x",
+      "author": "Amjad Masad",
+      "bio": "ceo @replit. civilizationist",
+      "title": "",
+      "summary_en": "“Being cancelled is a choice” turned out to be a nice sound bite. https://t.co/POBo82Kx6z",
+      "summary_zh": "“被取消是自己的选择”最后只是句好听的口号。现实一来，姿态就塌了。",
+      "url": "https://x.com/amasad/status/2079401256448340378",
+      "posted_at": "2026-07-21T03:01:07.000Z",
+      "tags": [
+        "@amasad"
+      ]
+    },
+    {
+      "id": "d04e94e7c7",
+      "date": "2026-07-21",
+      "source": "x",
+      "author": "Zara Zhang",
+      "bio": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://t.co/KCuEajezlL YouTube: https://t.co/8xzbGWtf6w",
+      "title": "",
+      "summary_en": "Just reached 80k followers 🙏🏻\n\n“all signal no noise no slop no hacks and still finds a way to grow her audience” is what I do here https://t.co/pI8h5ImgnC",
+      "summary_zh": "刚到 8 万粉：这里的打法就是全是信号、没有噪音、没有 AI 垃圾、没有投机套路，但照样能把受众做大。",
+      "url": "https://x.com/zarazhangrui/status/2079395028485488707",
+      "posted_at": "2026-07-21T02:36:22.000Z",
+      "tags": [
+        "@zarazhangrui"
+      ]
+    },
+    {
+      "id": "6a32eaa3bf",
+      "date": "2026-07-21",
+      "source": "x",
+      "author": "Madhu Guru",
+      "bio": "Sr Director, AI at Meta; Prev: Google - Led Gemini, Veo, Nano Banana.",
+      "title": "",
+      "summary_en": "it's literally the greatest time ever to have product sense https://t.co/BkzV0sLwgP",
+      "summary_zh": "现在就是拥有产品感的史上最佳时代。AI 把执行门槛砍到极低，真正稀缺的变成了判断力：知道该做什么、为什么做、做到什么程度。",
+      "url": "https://x.com/realmadhuguru/status/2079387984852668780",
+      "posted_at": "2026-07-21T02:08:23.000Z",
+      "tags": [
+        "@realmadhuguru"
+      ]
+    },
+    {
+      "id": "331cd50781",
+      "date": "2026-07-21",
+      "source": "x",
+      "author": "Madhu Guru",
+      "bio": "Sr Director, AI at Meta; Prev: Google - Led Gemini, Veo, Nano Banana.",
+      "title": "",
+      "summary_en": "The road to AGI is paved with economically valuable tasks.\n\nThat’s why enterprise AI is one of the most important frontiers. It’s where many of those tasks live.",
+      "summary_zh": "通往 AGI 的路，是由能产生经济价值的任务铺出来的。企业 AI 之所以是最重要的前沿之一，是因为这些任务大多就藏在那里。",
+      "url": "https://x.com/realmadhuguru/status/2079369965569003691",
+      "posted_at": "2026-07-21T00:56:47.000Z",
+      "tags": [
+        "@realmadhuguru"
+      ]
+    },
+    {
+      "id": "8ca3d93eee",
+      "date": "2026-07-21",
+      "source": "x",
+      "author": "Garry Tan",
+      "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "title": "",
+      "summary_en": "The asset seizure tax will only make California more impoverished\n\nSEIU-UHW should be ashamed of itself for the naked cash grab for their own personal benefit https://t.co/wfG9MyVpzc",
+      "summary_zh": "加州搞“资产没收税”只会把自己拖得更穷。SEIU-UHW 这种赤裸裸为自己捞钱的操作，应该感到羞耻。",
+      "url": "https://x.com/garrytan/status/2079369233218306285",
+      "posted_at": "2026-07-21T00:53:52.000Z",
+      "tags": [
+        "@garrytan"
+      ]
+    },
+    {
+      "id": "dc98c47f94",
+      "date": "2026-07-21",
+      "source": "x",
+      "author": "Thibault Sottiaux",
+      "bio": "Codex & ChatGPT @OpenAI",
+      "title": "",
+      "summary_en": "Never a dull moment when you work at OpenAI. Absolutely incredible place.",
+      "summary_zh": "在 OpenAI 工作，永远没有无聊时刻。这个地方确实精彩得离谱。",
+      "url": "https://x.com/thsottiaux/status/2079355529101705264",
+      "posted_at": "2026-07-20T23:59:25.000Z",
+      "tags": [
+        "@thsottiaux"
+      ]
+    },
+    {
+      "id": "c59faef1f9",
+      "date": "2026-07-21",
+      "source": "x",
+      "author": "Dan Shipper",
+      "bio": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "title": "",
+      "summary_en": "we’re hiring a senior engineer to help work on our agent @every \n\nmust love agents. dm if you’re interested (for now preferencing for people I know on here!) https://t.co/RNbNiBQVoL",
+      "summary_zh": "Every 在招资深工程师做 agent，硬条件是必须真爱 agent。\n\n感兴趣可私信，但现阶段优先考虑他们在 X 上认识的人。",
+      "url": "https://x.com/danshipper/status/2079331654359818503",
+      "posted_at": "2026-07-20T22:24:33.000Z",
+      "tags": [
+        "@danshipper"
+      ]
+    },
+    {
+      "id": "c0413e8f69",
+      "date": "2026-07-21",
+      "source": "x",
+      "author": "Nikunj Kothari",
+      "bio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
+      "title": "",
+      "summary_en": "Many founders in the last 18 months are going to realize that just because there are no “moats” in AI left anymore doesn’t mean “scale and capital” become your main moat.\n\nWe have seen this movie before.. all of us will benefit from reading a little bit of history.\n\nWebvan\nGroupon\nMySpace\nYahoo\nAltaVista\nBlockbuster\nNokia\n(zombiecorns of 2021)\n\nEach one was structurally and capital-wise in a very good position, but eventually got beat by a company with a much better unique insight. Or just collapsed under the weight of their own scale. \n\nThis is the needle founders have to thread: find a unique insight worth a 10+ year journey, while being prudent enough to not let capital & scale become a substitute for it.",
+      "summary_zh": "过去 18 个月的很多 AI 创始人会发现：护城河没了，不代表规模和资本就自动成了护城河。Webvan、Groupon、Yahoo、Nokia 这些前车之鉴都说明，真正能撑 10 年的是独特洞察，不是被资本催大的体量。",
+      "url": "https://x.com/nikunj/status/2079328912912355470",
+      "posted_at": "2026-07-20T22:13:39.000Z",
+      "tags": [
+        "@nikunj"
+      ]
+    },
+    {
+      "id": "a785efb3cd",
+      "date": "2026-07-21",
+      "source": "x",
+      "author": "Peter Yang",
+      "bio": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6",
+      "title": "",
+      "summary_en": "1) What https://t.co/kHWwdn0ZQs",
+      "summary_zh": "这条推文信息量几乎为零，只是在抛出一个“What”和链接，像是看到某个 AI builder 项目后直接愣住。",
+      "url": "https://x.com/petergyang/status/2079324894320603619",
+      "posted_at": "2026-07-20T21:57:41.000Z",
+      "tags": [
+        "@petergyang"
+      ]
+    },
+    {
+      "id": "ab2fee9f21",
+      "date": "2026-07-21",
+      "source": "x",
+      "author": "Dan Shipper",
+      "bio": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "title": "",
+      "summary_en": "guys I’m basically Brian Johnson https://t.co/vgDGWhxBlZ",
+      "summary_zh": "他在自嘲自己已经活成了 Bryan Johnson：把身体管理、健康优化和自我量化搞到近乎偏执。",
+      "url": "https://x.com/danshipper/status/2079320969802400200",
+      "posted_at": "2026-07-20T21:42:05.000Z",
+      "tags": [
+        "@danshipper"
+      ]
+    },
+    {
+      "id": "0abe085adb",
+      "date": "2026-07-21",
+      "source": "x",
+      "author": "Amjad Masad",
+      "bio": "ceo @replit. civilizationist",
+      "title": "",
+      "summary_en": "First physical product shipped by a coding agent? https://t.co/1PSIT9yvOT",
+      "summary_zh": "第一个由 coding agent 交付的实体产品，可能已经出现了。",
+      "url": "https://x.com/amasad/status/2079282869063786541",
+      "posted_at": "2026-07-20T19:10:41.000Z",
+      "tags": [
+        "@amasad"
+      ]
+    },
+    {
+      "id": "7421781ba1",
+      "date": "2026-07-21",
+      "source": "x",
+      "author": "Guillermo Rauch",
+      "bio": "@vercel CEO",
+      "title": "",
+      "summary_en": "The big lesson from AI is that everything is code. A slide deck is code. Design is code. That cool promo video? Code. Excel automation? Code. The universe? Probably made of code too.",
+      "summary_zh": "AI 最大的教训是：万物皆代码。PPT、设计、宣传片、Excel 自动化都是代码，甚至宇宙大概率也是。",
+      "url": "https://x.com/rauchg/status/2079274102129304026",
+      "posted_at": "2026-07-20T18:35:51.000Z",
+      "tags": [
+        "@rauchg"
+      ]
+    },
+    {
+      "id": "f8156f9041",
+      "date": "2026-07-21",
+      "source": "x",
+      "author": "Peter Yang",
+      "bio": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6",
+      "title": "",
+      "summary_en": "Banning Chinese models will be the same self own as banning Chinese EVs.",
+      "summary_zh": "禁中国模型，会和禁中国电动车一样，是又一次自伤式操作。看似卡住对手，实际是在逼自己远离更强竞争和更快迭代。",
+      "url": "https://x.com/petergyang/status/2079273815004303477",
+      "posted_at": "2026-07-20T18:34:43.000Z",
+      "tags": [
+        "@petergyang"
+      ]
+    },
+    {
+      "id": "69ffe85bae",
+      "date": "2026-07-21",
+      "source": "x",
+      "author": "Sam Altman",
+      "bio": "AI is cool i guess",
+      "title": "",
+      "summary_en": "it is good now! https://t.co/eiG0VDwrTe",
+      "summary_zh": "现在终于能用了。",
+      "url": "https://x.com/sama/status/2079258683884917013",
+      "posted_at": "2026-07-20T17:34:35.000Z",
+      "tags": [
+        "@sama"
+      ]
+    },
+    {
+      "id": "ac5e25cca0",
+      "date": "2026-07-21",
+      "source": "x",
+      "author": "Peter Yang",
+      "bio": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6",
+      "title": "",
+      "summary_en": "Use one agent to do the work and another to review it against a rubric.\n\n@trq212 explains how this works for video shorts:\n\n“For something like, ‘Is this a good video short or not?’ you don’t have a deterministic answer.\n\nYou should have a separate verification agent read a rubric, review the short, and give feedback.\n\nWe call it self-preferential bias. When a model prefers its own output, it’s going to be more lenient at verifying it.”\n\n📌 Watch the full episode here: https://t.co/mMrt4D5qU7",
+      "summary_zh": "别让同一个 Agent 既当选手又当裁判：做视频短片这种没有标准答案的任务，应该用独立验证 Agent 按 rubric 审核。模型会偏爱自己的输出，自己验自己只会越判越松。",
+      "url": "https://x.com/petergyang/status/2079257646939742542",
+      "posted_at": "2026-07-20T17:30:28.000Z",
+      "tags": [
+        "@petergyang"
+      ]
+    },
+    {
+      "id": "a07ffee9fc",
+      "date": "2026-07-21",
+      "source": "x",
+      "author": "Garry Tan",
+      "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "title": "",
+      "summary_en": "Compute rules everything around me CREAM https://t.co/LkOQBYaDfu",
+      "summary_zh": "算力支配一切：谁掌握更多 compute，谁就掌握 AI 产品、速度和话语权。",
+      "url": "https://x.com/garrytan/status/2079240755135357356",
+      "posted_at": "2026-07-20T16:23:21.000Z",
+      "tags": [
+        "@garrytan"
+      ]
+    },
+    {
+      "id": "b35f000f35",
+      "date": "2026-07-21",
+      "source": "x",
+      "author": "Madhu Guru",
+      "bio": "Sr Director, AI at Meta; Prev: Google - Led Gemini, Veo, Nano Banana.",
+      "title": "",
+      "summary_en": "Four years post peak web3 and crypto tokenomics debates…\n\nturns out the tokenomics debate that matters is open vs closed weight, inference costs and model routing. https://t.co/THz3HEyx1d",
+      "summary_zh": "Web3 热潮和加密代币经济学争了四年，真正关键的“tokenomics”却变成了开源权重还是闭源、推理成本，以及模型路由。原来 AI 时代最值钱的不是币怎么发，而是谁控制模型、谁付算力账。",
+      "url": "https://x.com/realmadhuguru/status/2079227605031829700",
+      "posted_at": "2026-07-20T15:31:05.000Z",
+      "tags": [
+        "@realmadhuguru"
+      ]
+    },
+    {
+      "id": "713a21cc95",
+      "date": "2026-07-21",
+      "source": "x",
+      "author": "Zara Zhang",
+      "bio": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://t.co/KCuEajezlL YouTube: https://t.co/8xzbGWtf6w",
+      "title": "",
+      "summary_en": "There are basically two kinds of companies now. The ones built before coding agents showed up, scrambling to retrofit. And the ones founded after. \n\nThe second type is different from day one:\n- Teams under ten people because they actually don't need more\n- Work organized by projects, not departments\n- Each person closes their own loop\n- Almost no internal meetings",
+      "summary_zh": "现在的公司只剩两类：一类是编码 Agent 出现前建的，正手忙脚乱地打补丁；另一类是之后诞生的，从第一天起就不再按旧组织逻辑运转。\n\n后者团队不到十人、按项目而非部门协作、人人自己闭环，内部会议几乎消失。",
+      "url": "https://x.com/zarazhangrui/status/2079225776545968166",
+      "posted_at": "2026-07-20T15:23:49.000Z",
+      "tags": [
+        "@zarazhangrui"
+      ]
+    },
+    {
+      "id": "53e15b2e44",
+      "date": "2026-07-21",
+      "source": "x",
+      "author": "Nikunj Kothari",
+      "bio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
+      "title": "",
+      "summary_en": "This VC to “fast growing startup” train is insane to watch.. another three people just this past week. \n\nI guess it’s similar to the IB/consultant to BizOps train I saw in 2012. \n\nTop title for this cohort? \n\nSpecial projects ⚡️ https://t.co/FqarRFC8Iw",
+      "summary_zh": "VC 集体跳去“高速增长创业公司”的潮流已经离谱到好笑，上周又有三个人上车。感觉像 2012 年投行/咨询转 BizOps 的翻版，只是这届最爱挂的头衔变成了“Special Projects”。",
+      "url": "https://x.com/nikunj/status/2079211477127291350",
+      "posted_at": "2026-07-20T14:27:00.000Z",
+      "tags": [
+        "@nikunj"
+      ]
+    },
+    {
+      "id": "0dfdf5fbd8",
+      "date": "2026-07-21",
+      "source": "x",
+      "author": "Matt Turck",
+      "bio": "VC at @FirstMarkCap.  Host: MAD Podcast; Organizer: Data Driven NYC, Author: MAD Landscape.",
+      "title": "",
+      "summary_en": "OpenAI and Anthropic when a top free Chinese open source model drops  https://t.co/Dh3hjgv0y1",
+      "summary_zh": "顶级免费的中国开源模型一发布，OpenAI 和 Anthropic 就坐不住了。",
+      "url": "https://x.com/mattturck/status/2079198838741458989",
+      "posted_at": "2026-07-20T13:36:47.000Z",
+      "tags": [
+        "@mattturck"
+      ]
+    },
+    {
+      "id": "d69b6a75e6",
+      "date": "2026-07-21",
+      "source": "x",
+      "author": "Garry Tan",
+      "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "title": "",
+      "summary_en": "Great reminder to stay frosty https://t.co/mJNqrKnYt5",
+      "summary_zh": "",
+      "url": "https://x.com/garrytan/status/2079196804315521332",
+      "posted_at": "2026-07-20T13:28:42.000Z",
+      "tags": [
+        "@garrytan"
+      ]
+    },
+    {
+      "id": "f6de251506",
+      "date": "2026-07-21",
+      "source": "x",
+      "author": "Thariq",
+      "bio": "Claude Code @anthropicai.   prev YC W20, @southpkcommons, @medialab",
+      "title": "",
+      "summary_en": "this was a bug that was only live for a few minutes, ran into it on my personal account while doing some late night coding though",
+      "summary_zh": "深夜写代码时用个人账号撞上的一个 bug，只上线了几分钟。  \n这类问题短暂到像没发生过，但对刚好踩中的人就是实打实的坑。",
+      "url": "https://x.com/trq212/status/2079105479125741675",
+      "posted_at": "2026-07-20T07:25:48.000Z",
+      "tags": [
+        "@trq212"
+      ]
+    }
+  ]
+}
