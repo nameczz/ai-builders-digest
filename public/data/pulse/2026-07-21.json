@@ -1,0 +1,441 @@
+{
+  "date": "2026-07-21",
+  "top3": [
+    "AI Agent 的重心从聊天转向可执行环境：Manifest、CreateOS Sandbox、OfficeCLI、code-review-graph 都在补工具链缺口。",
+    "开源视频与本地工具继续吸流量，OpenCut 周增 11676 星，OpenChatCut 也在 Product Hunt 抢同一条叙事。",
+    "隐性 AI 基建成本和监控风险同时上桌，HN 上 Flock 394 分、科技巨头隐性债务 274 分，说明信任会成为下一个产品差异化变量。"
+  ],
+  "intro": "今天的主线不是又一个大模型，而是 AI Agent 周边基础设施密集冒头：网页行动清单、沙箱、代码图谱、Office 自动化、视频编辑、语音与 OCR 都在被重新包装。另一条暗线是信任成本上升，监控、隐性债务、危险命令防护一起提醒 Builder：能跑只是入场券，可控、可审计、可替换才是卖点。",
+  "sections": [
+    {
+      "id": "discovery",
+      "title": "发现机会",
+      "blocks": [
+        {
+          "id": "indie-products",
+          "heading": "今天有哪些独立开发者的新产品？",
+          "summary_md": "今天 Product Hunt 更像一张 Agent 工作流地图：[Manifest](https://www.producthunt.com/products/manifest-363) 把任意网页转成 AI agents 可执行的 action manifest，[Skim](https://www.producthunt.com/products/skim-5) 做 Windows 上的开源 AI 邮件客户端，[ProtoFlow](https://www.producthunt.com/products/protoflow-2) 把 AI 带进 PCB 设计，[OpenChatCut](https://www.producthunt.com/products/openchatcut) 则用真实 timeline 切入 AI 视频编辑。本批 PH 原始数据未提供票数与评论数，因此这里不做热度排名；HN Show HN 今日为空，也没有可引用的 Show HN 票数和评论数。",
+          "items": [
+            {
+              "title": "Manifest",
+              "url": "https://www.producthunt.com/products/manifest-363",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "Skim",
+              "url": "https://www.producthunt.com/products/skim-5",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "ProtoFlow",
+              "url": "https://www.producthunt.com/products/protoflow-2",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "OpenChatCut",
+              "url": "https://www.producthunt.com/products/openchatcut",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "独立产品机会正在从通用 Agent 外壳，转向能占住一个具体工作界面的执行层。"
+        },
+        {
+          "id": "github-traction",
+          "heading": "GitHub 上哪些高增长开源项目还没有商业化？",
+          "summary_md": "GitHub 本周最值得盯的是未完全产品化的 Agent 周边：[OpenCut-app/OpenCut](https://github.com/OpenCut-app/OpenCut) 周增 11676 星、总星 76644，开源 CapCut 替代的需求非常清楚；[Nutlope/hallmark](https://github.com/Nutlope/hallmark) 周增 9173 星，说明反 AI 味设计已经变成可复制的 skill；[tirth8205/code-review-graph](https://github.com/tirth8205/code-review-graph) 周增 3073 星，把代码库做成本地优先图谱，直接击中大仓库 Agent 上下文浪费问题。",
+          "items": [
+            {
+              "title": "OpenCut-app/OpenCut",
+              "url": "https://github.com/OpenCut-app/OpenCut",
+              "source": "GitHub",
+              "score": 11676
+            },
+            {
+              "title": "Nutlope/hallmark",
+              "url": "https://github.com/Nutlope/hallmark",
+              "source": "GitHub",
+              "score": 9173
+            },
+            {
+              "title": "tirth8205/code-review-graph",
+              "url": "https://github.com/tirth8205/code-review-graph",
+              "source": "GitHub",
+              "score": 3073
+            }
+          ],
+          "takeaway": "把开源热度转成生意的关键，是围绕团队协作、模板市场和托管执行环境做商业层。"
+        },
+        {
+          "id": "dev-pain",
+          "heading": "开发者在吐槽什么工具？",
+          "summary_md": "HN 今日没有标题直接命中 broken、bug、hate、wrong、dead 等开发工具吐槽关键词且超过 300 分的帖子，但有一个更大的痛点信号：[Flock Credibility Lost as It Repeatedly Lies to City Councils, Police, & Public](https://www.aclu.org/news/privacy-technology/tracking-alpr-cameras/flock-safety-credibility-lost-as-it-repeatedly-lies-to-city-councils-police-departments-and-public-across-the-country) 拿到 394 分、120 评论。开发者讨论的不是 API 坏了，而是基础设施供应商失信后，审计、日志、权限和数据边界会不会反噬产品采用。",
+          "items": [
+            {
+              "title": "Flock Credibility Lost as It Repeatedly Lies to City Councils, Police, & Public",
+              "url": "https://www.aclu.org/news/privacy-technology/tracking-alpr-cameras/flock-safety-credibility-lost-as-it-repeatedly-lies-to-city-councils-police-departments-and-public-across-the-country",
+              "source": "HN",
+              "score": 394
+            }
+          ],
+          "takeaway": "B2B 工具今天最大的痛点不是功能缺失，而是客户需要能证明你没有越界。"
+        }
+      ]
+    },
+    {
+      "id": "tech-stack",
+      "title": "技术选型",
+      "blocks": [
+        {
+          "id": "dev-tools",
+          "heading": "本周增长最快的开发者工具是什么？",
+          "summary_md": "开发者工具这周明显围绕 Agent 控制面展开：[mattpocock/skills](https://github.com/mattpocock/skills) 周增 10872 星，说明可复用 Agent Skills 正成为团队资产；[iOfficeAI/OfficeCLI](https://github.com/iOfficeAI/OfficeCLI) 周增 4140 星，切的是 Word、Excel、PowerPoint 自动化这个企业刚需；[Dicklesworthstone/destructive_command_guard](https://github.com/Dicklesworthstone/destructive_command_guard) 周增 1410 星，用 Rust 阻止 Agent 执行危险 git 和 shell 命令。选型上，Builder 应优先押注可插拔、可审计、能接现有工具链的模块。",
+          "items": [
+            {
+              "title": "mattpocock/skills",
+              "url": "https://github.com/mattpocock/skills",
+              "source": "GitHub",
+              "score": 10872
+            },
+            {
+              "title": "iOfficeAI/OfficeCLI",
+              "url": "https://github.com/iOfficeAI/OfficeCLI",
+              "source": "GitHub",
+              "score": 4140
+            },
+            {
+              "title": "Dicklesworthstone/destructive_command_guard",
+              "url": "https://github.com/Dicklesworthstone/destructive_command_guard",
+              "source": "GitHub",
+              "score": 1410
+            }
+          ],
+          "takeaway": "Agent 工具链的下一层机会是治理、文件自动化和可复用技能，而不是再做一个聊天入口。"
+        },
+        {
+          "id": "hf-models",
+          "heading": "HuggingFace 上最热的模型能做什么消费级产品？",
+          "summary_md": "HuggingFace 今日热度集中在多模态、本地低比特和 OCR。[thinkingmachines/Inkling](https://huggingface.co/thinkingmachines/Inkling) trending score 1239、下载 16441、点赞 1298，适合做图片、音频到文本的个人知识入口；[prism-ml/Ternary-Bonsai-27B-gguf](https://huggingface.co/prism-ml/Ternary-Bonsai-27B-gguf) 827 分、下载 432196，2-bit 与 on-device 标签说明本地 Agent 仍有空间；[baidu/Unlimited-OCR](https://huggingface.co/baidu/Unlimited-OCR) 489 分、下载 2237351，可直接包装成票据、表格、教材和合同解析工具。",
+          "items": [
+            {
+              "title": "thinkingmachines/Inkling",
+              "url": "https://huggingface.co/thinkingmachines/Inkling",
+              "source": "HuggingFace",
+              "score": 1239
+            },
+            {
+              "title": "prism-ml/Ternary-Bonsai-27B-gguf",
+              "url": "https://huggingface.co/prism-ml/Ternary-Bonsai-27B-gguf",
+              "source": "HuggingFace",
+              "score": 827
+            },
+            {
+              "title": "baidu/Unlimited-OCR",
+              "url": "https://huggingface.co/baidu/Unlimited-OCR",
+              "source": "HuggingFace",
+              "score": 489
+            }
+          ],
+          "takeaway": "消费级 AI 产品今天最短路径，是把多模态模型嵌进一个高频文件或媒体工作流。"
+        },
+        {
+          "id": "show-hn",
+          "heading": "Show HN 高关注项目用的什么技术栈？",
+          "summary_md": "今日 HN Show HN 数据为空，所以不能从 Show HN 直接判断技术栈。但 GitHub 与 PH 的替代信号很清晰：高增长项目主要落在 TypeScript、Python、Rust、C# 与 llama.cpp/gguf 生态。前端与桌面工具继续偏 TypeScript，Agent 控制与 CLI 开始偏 Rust，本地模型和 OCR 仍然由 Python 与 transformers 承接，Office 自动化则出现 C# 单二进制路线。",
+          "items": [
+            {
+              "title": "OpenCut-app/OpenCut",
+              "url": "https://github.com/OpenCut-app/OpenCut",
+              "source": "GitHub",
+              "score": 11676
+            },
+            {
+              "title": "openai/codex",
+              "url": "https://github.com/openai/codex",
+              "source": "GitHub",
+              "score": 2448
+            },
+            {
+              "title": "iOfficeAI/OfficeCLI",
+              "url": "https://github.com/iOfficeAI/OfficeCLI",
+              "source": "GitHub",
+              "score": 4140
+            }
+          ],
+          "takeaway": "技术栈选择正在按场景分层：界面用 TypeScript，控制面用 Rust，模型实验用 Python。"
+        }
+      ]
+    },
+    {
+      "id": "competition",
+      "title": "竞争情报",
+      "blocks": [
+        {
+          "id": "migrations",
+          "heading": "有没有「XX is dead」或迁移类文章？",
+          "summary_md": "今日 HN 没有明显的「XX is dead」迁移类高热文章，但竞争迁移在 GitHub 上已经发生：[OpenCut-app/OpenCut](https://github.com/OpenCut-app/OpenCut) 以开源 CapCut 替代拿到周增 11676 星，[OpenChatCut](https://www.producthunt.com/products/openchatcut) 又把 AI agent 与真实 timeline 结合，说明视频创作工具正在从封闭产品向开源、可自动化、可二次开发迁移。真正的机会不是复制剪辑器，而是做素材库、字幕、脚本、模板、批量生成和团队审阅的插件层。",
+          "items": [
+            {
+              "title": "OpenCut-app/OpenCut",
+              "url": "https://github.com/OpenCut-app/OpenCut",
+              "source": "GitHub",
+              "score": 11676
+            },
+            {
+              "title": "OpenChatCut",
+              "url": "https://www.producthunt.com/products/openchatcut",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "当开源替代品开始吸星，商业机会通常转移到协作、托管和垂直模板。"
+        },
+        {
+          "id": "pricing-revenue",
+          "heading": "独立开发者在讨论什么营收和定价策略？",
+          "summary_md": "原始 HN 中没有 MRR、ARR、pricing、subscription、revenue 命中的高质量讨论，但今天的产品形态给了清晰定价线索。[CreateOS Sandbox](https://www.producthunt.com/products/createos-sandbox) 适合按隔离执行时长和并发收费，[Routebase](https://www.producthunt.com/products/routebase) 可按 API 数量、环境数、团队席位收费，[Bolna Agent Studio](https://www.producthunt.com/products/bolna-2) 则可用语音分钟数加企业集成费。Agent 工具的定价不应只卖 token，而应卖风险降低和流程吞吐。",
+          "items": [
+            {
+              "title": "CreateOS Sandbox",
+              "url": "https://www.producthunt.com/products/createos-sandbox",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "Routebase",
+              "url": "https://www.producthunt.com/products/routebase",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "Bolna Agent Studio",
+              "url": "https://www.producthunt.com/products/bolna-2",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "Agent 基础设施最自然的收费单位，是执行、审计、集成和避免事故。"
+        },
+        {
+          "id": "comebacks",
+          "heading": "有没有沉寂的老项目突然复活？",
+          "summary_md": "今天更像是老品类复活，而不是老项目复活。Office、邮件、视频编辑、终端、白板这些成熟工具都被 Agent 重做：[iOfficeAI/OfficeCLI](https://github.com/iOfficeAI/OfficeCLI) 周增 4140 星，把 Office 文档自动化做成单二进制；[Skim](https://www.producthunt.com/products/skim-5) 重做 Windows 邮件客户端；[tterm](https://www.producthunt.com/products/tterm) 把终端、真实浏览器和 Claude Code 放进一个工作台。老软件的护城河正在被可编排界面重新切开。",
+          "items": [
+            {
+              "title": "iOfficeAI/OfficeCLI",
+              "url": "https://github.com/iOfficeAI/OfficeCLI",
+              "source": "GitHub",
+              "score": 4140
+            },
+            {
+              "title": "Skim",
+              "url": "https://www.producthunt.com/products/skim-5",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "tterm",
+              "url": "https://www.producthunt.com/products/tterm",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "复活的不是某个老项目，而是被 Agent 重新定义的经典工作软件。"
+        }
+      ]
+    },
+    {
+      "id": "trends",
+      "title": "趋势判断",
+      "blocks": [
+        {
+          "id": "keywords",
+          "heading": "本周技术关键词频率有什么变化？",
+          "summary_md": "Google Trends 最强信号是长尾工具词：[awesome llm apps](https://trends.google.com/trends/explore?q=awesome+llm+apps&date=now+7-d) 上升 +999.0%，正好对应 GitHub 上 [Shubhamsaboo/awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) 周增 5857 星；[deeptutor](https://trends.google.com/trends/explore?q=deeptutor&date=now+7-d) 上升 +443.6%，对应 [HKUDS/DeepTutor](https://github.com/HKUDS/DeepTutor) 周增 2754 星；[ai agent](https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d) 只涨 +18.0%，说明大众词稳定，爆发在具体项目和应用清单。",
+          "items": [
+            {
+              "title": "awesome llm apps",
+              "url": "https://trends.google.com/trends/explore?q=awesome+llm+apps&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 999
+            },
+            {
+              "title": "deeptutor",
+              "url": "https://trends.google.com/trends/explore?q=deeptutor&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 443
+            },
+            {
+              "title": "ai agent",
+              "url": "https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 18
+            }
+          ],
+          "takeaway": "AI 热度没有消失，只是从大词转向可运行项目、清单和垂直场景。"
+        },
+        {
+          "id": "vc-radar",
+          "heading": "VC 和 YC 在关注什么主题？",
+          "summary_md": "今天的 VC 雷达会落在三类：第一是 Agent 安全与控制，像 [destructive_command_guard](https://github.com/Dicklesworthstone/destructive_command_guard) 周增 1410 星和 CreateOS Sandbox 都指向可控执行；第二是开源创作工具，[OpenCut-app/OpenCut](https://github.com/OpenCut-app/OpenCut) 周增 11676 星说明创作者软件还有平台化空间；第三是教育和知识工作，[HKUDS/DeepTutor](https://github.com/HKUDS/DeepTutor) 周增 2754 星，[deeptutor](https://trends.google.com/trends/explore?q=deeptutor&date=now+7-d) 搜索上升 +443.6%。",
+          "items": [
+            {
+              "title": "Dicklesworthstone/destructive_command_guard",
+              "url": "https://github.com/Dicklesworthstone/destructive_command_guard",
+              "source": "GitHub",
+              "score": 1410
+            },
+            {
+              "title": "OpenCut-app/OpenCut",
+              "url": "https://github.com/OpenCut-app/OpenCut",
+              "source": "GitHub",
+              "score": 11676
+            },
+            {
+              "title": "HKUDS/DeepTutor",
+              "url": "https://github.com/HKUDS/DeepTutor",
+              "source": "GitHub",
+              "score": 2754
+            }
+          ],
+          "takeaway": "投资主题会从模型层继续下沉到 Agent 执行安全、创作基础设施和个性化教育。"
+        },
+        {
+          "id": "cooling",
+          "heading": "哪些 AI 热词在降温？",
+          "summary_md": "降温最明显的是上一轮被讲烂的工具替代叙事：[vibe trading](https://trends.google.com/trends/explore?q=vibe+trading&date=now+7-d) 下滑 -76.0%，[cursor alternative](https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d) 下滑 -44.8%，[opencut](https://trends.google.com/trends/explore?q=opencut&date=now+7-d) 下滑 -37.0%，[codex cli](https://trends.google.com/trends/explore?q=codex+cli&date=now+7-d) 下滑 -10.0%。但 GitHub 上 openai/codex 仍周增 2448 星，OpenCut 仍周增 11676 星，所以这是搜索注意力降温，不等于开发者采用停止。",
+          "items": [
+            {
+              "title": "vibe trading",
+              "url": "https://trends.google.com/trends/explore?q=vibe+trading&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": -76
+            },
+            {
+              "title": "cursor alternative",
+              "url": "https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": -44
+            },
+            {
+              "title": "opencut",
+              "url": "https://trends.google.com/trends/explore?q=opencut&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": -37
+            }
+          ],
+          "takeaway": "当关键词退潮还在涨星，说明市场进入落地期，营销词该让位给具体工作流。"
+        },
+        {
+          "id": "new-radar",
+          "heading": "新词雷达：有哪些从零起飞的新概念？",
+          "summary_md": "新词里最该看的是 Kimi 系列：[kimi k3](https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d) breakout value 68650，[kimi cli](https://trends.google.com/trends/explore?q=codex+cli&date=now+7-d) breakout value 600，同时 GitHub 上 [MoonshotAI/kimi-cli](https://github.com/MoonshotAI/kimi-cli) 周增 974 星，[openinterpreter/openinterpreter](https://github.com/openinterpreter/openinterpreter) 也把开放模型 coding agent 写进描述。另一个弱信号是 [lm studio](https://trends.google.com/trends/explore?q=open+source+alternative&date=now+7-d) breakout value 90，本地模型开发体验仍在扩圈。",
+          "items": [
+            {
+              "title": "kimi k3",
+              "url": "https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 68650
+            },
+            {
+              "title": "kimi cli",
+              "url": "https://trends.google.com/trends/explore?q=codex+cli&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 600
+            },
+            {
+              "title": "lm studio",
+              "url": "https://trends.google.com/trends/explore?q=open+source+alternative&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 90
+            }
+          ],
+          "takeaway": "新概念的早期信号正在从模型名扩散到 CLI、网关和本地开发环境。"
+        }
+      ]
+    },
+    {
+      "id": "actions",
+      "title": "行动触发",
+      "blocks": [
+        {
+          "id": "weekend-build",
+          "heading": "今天 2 小时和一个周末分别做什么？",
+          "summary_md": "2 小时可以做一个 Agent 安全体检器：读取本地项目的 package scripts、Makefile、Git hooks，标出 rm、git reset、curl pipe shell 等高风险命令，借 [destructive_command_guard](https://github.com/Dicklesworthstone/destructive_command_guard) 周增 1410 星的势能做传播。一个周末则可以做垂直版 Manifest：针对 Shopify、Notion、GitHub issue 或 Linear 页面生成 action manifest，再接 Codex、Claude Code、Cursor 的一键执行。",
+          "items": [
+            {
+              "title": "Dicklesworthstone/destructive_command_guard",
+              "url": "https://github.com/Dicklesworthstone/destructive_command_guard",
+              "source": "GitHub",
+              "score": 1410
+            },
+            {
+              "title": "Manifest",
+              "url": "https://www.producthunt.com/products/manifest-363",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "今天最值得动手的不是大平台，而是给 Agent 加护栏和把网页变成可执行任务。"
+        },
+        {
+          "id": "pricing-models",
+          "heading": "值得学习的定价和变现模式有哪些？",
+          "summary_md": "可学习的定价有三种：一是 [Routebase](https://www.producthunt.com/products/routebase) 这类 API drift 工具，按服务数、环境数和团队席位收费；二是 [CreateOS Sandbox](https://www.producthunt.com/products/createos-sandbox) 这类隔离环境，按执行分钟、并发和数据保留收费；三是 [OfficeCLI](https://github.com/iOfficeAI/OfficeCLI) 这类开源单二进制，基础免费，向企业卖批处理、审计日志、权限、私有部署和支持 SLA。它们共同点是收费锚点不是 AI，而是工作流风险和组织成本。",
+          "items": [
+            {
+              "title": "Routebase",
+              "url": "https://www.producthunt.com/products/routebase",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "CreateOS Sandbox",
+              "url": "https://www.producthunt.com/products/createos-sandbox",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "iOfficeAI/OfficeCLI",
+              "url": "https://github.com/iOfficeAI/OfficeCLI",
+              "source": "GitHub",
+              "score": 4140
+            }
+          ],
+          "takeaway": "Agent 产品要把价格挂在事故减少、人工节省和合规可见性上。"
+        },
+        {
+          "id": "counterintuitive",
+          "heading": "今天最反直觉的发现是什么？",
+          "summary_md": "最反直觉的是：越多人做 Agent，越火的反而是非智能部分。[Nutlope/hallmark](https://github.com/Nutlope/hallmark) 周增 9173 星，卖点是减少 AI 味；[code-review-graph](https://github.com/tirth8205/code-review-graph) 周增 3073 星，卖点是让 AI 少读无关上下文；[destructive_command_guard](https://github.com/Dicklesworthstone/destructive_command_guard) 周增 1410 星，卖点是阻止 AI 乱执行。真正被奖励的不是更会说话的 Agent，而是让 Agent 更克制、更可靠、更像现有团队的一部分。",
+          "items": [
+            {
+              "title": "Nutlope/hallmark",
+              "url": "https://github.com/Nutlope/hallmark",
+              "source": "GitHub",
+              "score": 9173
+            },
+            {
+              "title": "tirth8205/code-review-graph",
+              "url": "https://github.com/tirth8205/code-review-graph",
+              "source": "GitHub",
+              "score": 3073
+            },
+            {
+              "title": "Dicklesworthstone/destructive_command_guard",
+              "url": "https://github.com/Dicklesworthstone/destructive_command_guard",
+              "source": "GitHub",
+              "score": 1410
+            }
+          ],
+          "takeaway": "AI Agent 的下一波竞争力，是少做错、少打扰、少浪费上下文。"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2026-07-21T09:20:56+00:00",
+  "reddit_highlights": []
+}

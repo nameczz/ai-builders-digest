@@ -1,0 +1,148 @@
+{
+  "date": "2026-07-21",
+  "items": [
+    {
+      "id": "2026-07-21-1",
+      "title": "Agent 成本被打到 1/15",
+      "angle": "从多模型调度切入：真正的产品壁垒不是接入最强模型，而是会把贵模型和便宜模型分工。",
+      "opening": "Cursor 的研究把一个刺眼数字摆出来：复杂项目的 token 成本可以降到 1/15。问题不是哪个模型更聪明，而是谁知道什么时候该让聪明模型思考，什么时候该让便宜模型干活。",
+      "story_hook": {
+        "challenge": "AI 产品越复杂，单一前沿模型越容易把成本烧穿。",
+        "twist": "护城河反而落在调度、上下文压缩和行业流程理解上。"
+      },
+      "takeaway": "开发者应把 Agent 架构拆成规划、执行、验证三层，分别评估模型质量、延迟和成本，而不是默认全程调用最贵模型。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Aaron Levie 谈多模型 Agent 可把项目 token 成本打到 1/15",
+          "url": "https://x.com/levie/status/2079402164988895293"
+        },
+        {
+          "tag": "pulse",
+          "ref": "mattpocock/skills 周增 10872 星",
+          "url": "https://github.com/mattpocock/skills"
+        },
+        {
+          "tag": "pulse",
+          "ref": "tirth8205/code-review-graph 周增 3073 星",
+          "url": "https://github.com/tirth8205/code-review-graph"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-21-2",
+      "title": "面试要开始考指挥 Agent",
+      "angle": "从招聘方法变化切入：AI 时代的工程师筛选，不再只看会不会写代码，而是看会不会带 Agent 完成超人类工作量。",
+      "opening": "Zara Zhang 给出了一套很硬的面试法：第一轮不准用 AI，第二轮必须用 AI。前者验基本功，后者验你能不能把 Agent 指挥成生产力，而不是把它当搜索框。",
+      "story_hook": {
+        "challenge": "公司既怕候选人靠 AI 蒙混过关，又需要会用 AI 放大产出的新人。",
+        "twist": "最合理的面试不是禁 AI，而是把禁用和强制使用放在两轮里同时考。"
+      },
+      "takeaway": "团队招聘 AI 工程师时，应设计一轮无 AI 的领域功底题，再设计一轮必须使用 Agent 的端到端项目题，并记录候选人的分解、验证和纠错过程。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Zara Zhang 提议第一轮禁 AI、第二轮必须用 AI 面试",
+          "url": "https://x.com/zarazhangrui/status/2079409165424799889"
+        },
+        {
+          "tag": "builders",
+          "ref": "Dan Shipper 招资深工程师做 agent",
+          "url": "https://x.com/danshipper/status/2079331654359818503"
+        },
+        {
+          "tag": "pulse",
+          "ref": "iOfficeAI/OfficeCLI 周增 4140 星",
+          "url": "https://github.com/iOfficeAI/OfficeCLI"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-21-3",
+      "title": "别让 Agent 自己判自己",
+      "angle": "从评测污染和验证偏差切入：AI 系统的下一个核心模块不是生成器，而是独立裁判。",
+      "opening": "Swyx 点破了一个公开秘密：不直接喂测试集，也能用高仿测试题把榜单刷上去。Peter Yang 的提醒更直接：同一个 Agent 既当选手又当裁判，结果只会越判越松。",
+      "story_hook": {
+        "challenge": "模型和 Agent 越强，越容易把评测、审核和交付混在一起，制造虚假的可靠性。",
+        "twist": "真正能卖给企业的不是更会生成，而是能证明生成过程没有作弊、越权或自我偏袒。"
+      },
+      "takeaway": "做 Agent 产品时，应把执行 Agent、验证 Agent、审计日志和危险命令拦截拆开设计，避免同一模型自我评审。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Swyx 谈高仿测试题刷基准的公开秘密",
+          "url": "https://x.com/swyx/status/2079411861150429402"
+        },
+        {
+          "tag": "builders",
+          "ref": "Peter Yang 提醒不要让同一个 Agent 既当选手又当裁判",
+          "url": "https://x.com/petergyang/status/2079257646939742542"
+        },
+        {
+          "tag": "pulse",
+          "ref": "destructive_command_guard 周增 1410 星",
+          "url": "https://github.com/Dicklesworthstone/destructive_command_guard"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-21-4",
+      "title": "开源剪辑器开始吃 CapCut",
+      "angle": "从视频工具迁移切入：AI 视频创业机会不在再造一个剪辑器，而在开源 timeline 上做自动化插件层。",
+      "opening": "OpenCut 一周涨了 11676 星，OpenChatCut 又把 AI agent 接进真实 timeline。视频创作工具的迁移已经不是一句开源替代口号，而是剪辑、字幕、脚本、审阅都开始变成可编排工作流。",
+      "story_hook": {
+        "challenge": "封闭剪辑软件强在体验和生态，开源项目很难靠复制界面取胜。",
+        "twist": "AI 让真正值钱的位置变成 timeline 上的自动化、模板和团队协作，而不是剪辑器本体。"
+      },
+      "takeaway": "想切视频 AI，不应只做生成短片入口，可以围绕 OpenCut 类项目做字幕、素材管理、批量改版、品牌模板和团队审阅插件。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Guillermo Rauch 说 PPT、设计、宣传片、Excel 自动化都是代码",
+          "url": "https://x.com/rauchg/status/2079274102129304026"
+        },
+        {
+          "tag": "pulse",
+          "ref": "OpenCut-app/OpenCut 周增 11676 星",
+          "url": "https://github.com/OpenCut-app/OpenCut"
+        },
+        {
+          "tag": "pulse",
+          "ref": "OpenChatCut 登上 Product Hunt",
+          "url": "https://www.producthunt.com/products/openchatcut"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-21-5",
+      "title": "禁中国模型是在禁速度",
+      "angle": "从开放模型竞争切入：模型禁令表面是安全策略，实际可能让开发者远离更快、更便宜的迭代环境。",
+      "opening": "Peter Yang 把禁中国模型类比成禁中国电动车：看起来是在卡对手，实际是在降低自己的竞争强度。另一边，Kimi CLI、开放模型和本地开发环境的信号正在扩散，开发者会自然流向更快可用的工具。",
+      "story_hook": {
+        "challenge": "政策和企业合规想降低供应链风险，但开发者追求的是速度、成本和可替换性。",
+        "twist": "越想封锁某类模型，越可能逼本土团队在更贵、更慢、更少选择的环境里竞争。"
+      },
+      "takeaway": "团队选型时应把模型来源、部署方式、成本、替换路径和合规边界分开评估，不要把开放模型竞争简化成地缘政治站队。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Peter Yang 认为禁中国模型会像禁中国电动车一样自伤",
+          "url": "https://x.com/petergyang/status/2079273815004303477"
+        },
+        {
+          "tag": "builders",
+          "ref": "Matt Turck 说顶级免费中国开源模型让 OpenAI 和 Anthropic 坐不住",
+          "url": "https://x.com/mattturck/status/2079198838741458989"
+        },
+        {
+          "tag": "pulse",
+          "ref": "MoonshotAI/kimi-cli 周增 974 星",
+          "url": "https://github.com/MoonshotAI/kimi-cli"
+        }
+      ]
+    }
+  ],
+  "notes": "今日主线适合写 Agent 基础设施和组织变化：成本、验证、招聘、开源工具链都有明确素材；独立开发者营收数据偏弱，建议少写 MRR 类选题。",
+  "generated_at": "2026-07-21T09:21:56+00:00",
+  "model": "gpt-5.5"
+}
