@@ -1,0 +1,305 @@
+{
+  "date": "2026-07-22",
+  "top3": [
+    "今日最值得关注的是 AI 编程生态从模型能力竞争转向 agent skill、权限控制和上下文治理的工具层竞争。",
+    "开源视频、SEO、部署和办公自动化替代品继续吃到「open source alternative」搜索上升红利。",
+    "消费级 AI 产品机会正在从聊天入口外溢到阅读、白板、邮件营销、会议提醒和无屏设备等具体场景。"
+  ],
+  "intro": "今天的数据主线不是又一个大模型发布，而是围绕 AI agent 的工作流基础设施快速长出：skill、CLI、权限、上下文图谱和远程 MCP 都在抢占开发者入口。另一边，ReadKinetic、OpenCut、open-seo 这类小而具体的产品说明，独立开发者仍然可以用开源替代和本地优先切入成熟市场。",
+  "sections": [
+    {
+      "id": "discovery",
+      "title": "发现机会",
+      "blocks": [
+        {
+          "id": "indie-products",
+          "heading": "今天有哪些独立开发者的新产品？",
+          "summary_md": "[ReadKinetic](https://www.readkinetic.com/app/) 是今天 HN Show HN 里最清晰的小产品信号，拿到 68 points 和 27 comments，定位是免费、本地优先、面向自有电子书的 speed reader。它不是泛 AI 阅读器，而是抓住了一个更窄的承诺：用户自己的书、本地处理、减少阅读摩擦。\n\nProduct Hunt 侧虽然没有提供票数和评论数，但今天值得并排看的产品包括 [AgentManager](https://www.producthunt.com/products/agentmanager)、[Remote OpenClaw](https://www.producthunt.com/products/remote-openclaw-2)、[BUD](https://www.producthunt.com/products/bud-voice-canvas) 和 [ditto.site](https://www.producthunt.com/products/ditto-site)。它们共同指向一个机会：AI 工具不再只卖生成能力，而是在卖控制台、协作入口、迁移器和低摩擦创作界面。",
+          "items": [
+            {
+              "title": "ReadKinetic",
+              "url": "https://www.readkinetic.com/app/",
+              "source": "HN",
+              "score": 68
+            },
+            {
+              "title": "AgentManager",
+              "url": "https://www.producthunt.com/products/agentmanager",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "Remote OpenClaw",
+              "url": "https://www.producthunt.com/products/remote-openclaw-2",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "ditto.site",
+              "url": "https://www.producthunt.com/products/ditto-site",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "今天独立产品的机会不在大而全，而在把 AI 能力嵌进一个用户已经有强需求的窄工作流。"
+        },
+        {
+          "id": "github-traction",
+          "heading": "GitHub 上哪些高增长开源项目还没有商业化？",
+          "summary_md": "GitHub weekly 里最强的不是单个应用，而是一组可以产品化的开源基础设施。[mattpocock/skills](https://github.com/mattpocock/skills) 本周新增 10651 stars，总星 181301；[Nutlope/hallmark](https://github.com/Nutlope/hallmark) 新增 8948 stars，总星 15230；[tirth8205/code-review-graph](https://github.com/tirth8205/code-review-graph) 新增 4791 stars，总星 24948。它们都在回答同一个痛点：AI coding agent 需要可复用技能、少读上下文、少产出低质内容。\n\n更偏应用层的是 [OpenCut-app/OpenCut](https://github.com/OpenCut-app/OpenCut)，本周 8341 stars、总星 77252，直接打「开源 CapCut 替代」。[iOfficeAI/OfficeCLI](https://github.com/iOfficeAI/OfficeCLI) 本周 4047 stars，面向 Word、Excel、PowerPoint 的 agent 自动化，也明显具备商业化空间。这里的未满足需求是企业级封装、团队权限、托管同步和可审计执行。",
+          "items": [
+            {
+              "title": "mattpocock/skills",
+              "url": "https://github.com/mattpocock/skills",
+              "source": "GitHub",
+              "score": 10651
+            },
+            {
+              "title": "Nutlope/hallmark",
+              "url": "https://github.com/Nutlope/hallmark",
+              "source": "GitHub",
+              "score": 8948
+            },
+            {
+              "title": "OpenCut-app/OpenCut",
+              "url": "https://github.com/OpenCut-app/OpenCut",
+              "source": "GitHub",
+              "score": 8341
+            },
+            {
+              "title": "tirth8205/code-review-graph",
+              "url": "https://github.com/tirth8205/code-review-graph",
+              "source": "GitHub",
+              "score": 4791
+            }
+          ],
+          "takeaway": "本周开源增长的核心机会是把 agent 工作流的隐性经验包装成可安装、可治理、可计费的产品。"
+        }
+      ]
+    },
+    {
+      "id": "tech-stack",
+      "title": "技术选型",
+      "blocks": [
+        {
+          "id": "dev-tools",
+          "heading": "本周增长最快的开发者工具是什么？",
+          "summary_md": "开发者工具榜的共同点是「让 agent 更像团队成员，而不是一次性聊天窗口」。[MoonshotAI/kimi-code](https://github.com/MoonshotAI/kimi-code) 本周 1352 stars，[MoonshotAI/kimi-cli](https://github.com/MoonshotAI/kimi-cli) 本周 1294 stars，[1jehuang/jcode](https://github.com/1jehuang/jcode) 本周 1769 stars，都在 CLI agent 入口上竞争。[Dicklesworthstone/destructive_command_guard](https://github.com/Dicklesworthstone/destructive_command_guard) 虽然只有 1167 weekly stars，但方向更关键：阻止 agent 执行危险 git 和 shell 命令。\n\nProduct Hunt 也在同一条线上给出补充：[Kastra](https://www.producthunt.com/products/kastra) 做 Claude、Cursor、Codex 和 OpenClaw 的运行时授权，[box](https://www.producthunt.com/products/box-4) 提供 agent 可用的完整 VM，[Remote OpenClaw](https://www.producthunt.com/products/remote-openclaw-2) 聚合 13000+ MCP servers、skills 和 plugins。技术选型上，今天不该只比较模型 API，而要补上权限边界、执行环境和技能分发。",
+          "items": [
+            {
+              "title": "MoonshotAI/kimi-code",
+              "url": "https://github.com/MoonshotAI/kimi-code",
+              "source": "GitHub",
+              "score": 1352
+            },
+            {
+              "title": "1jehuang/jcode",
+              "url": "https://github.com/1jehuang/jcode",
+              "source": "GitHub",
+              "score": 1769
+            },
+            {
+              "title": "Kastra",
+              "url": "https://www.producthunt.com/products/kastra",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "AI 编程工具栈正在从模型调用升级为 agent 操作系统，权限和执行环境会成为刚需组件。"
+        },
+        {
+          "id": "show-hn",
+          "heading": "Show HN 高关注项目用的什么技术栈？",
+          "summary_md": "[ReadKinetic](https://www.readkinetic.com/app/) 的公开数据没有给出具体仓库和框架，但从产品定位看，真正值得借鉴的是本地优先架构，而不是某个前端框架。它把阅读材料留在用户设备侧，降低隐私顾虑，同时用 web app 入口减少安装门槛，这很适合电子书、笔记、PDF、个人知识库等内容型工具。\n\n对 builder 来说，今天的技术判断是：如果产品处理的是用户私有内容，优先把核心处理链路设计成本地可运行，再把同步、备份和高级分析做成可选增值层。ReadKinetic 只有 68 points，但 27 comments 说明这个小切口已经足够引发真实讨论。",
+          "items": [
+            {
+              "title": "ReadKinetic",
+              "url": "https://www.readkinetic.com/app/",
+              "source": "HN",
+              "score": 68
+            }
+          ],
+          "takeaway": "内容工具的差异化可以从「本地优先」开始，而不是从更复杂的 AI 功能开始。"
+        }
+      ]
+    },
+    {
+      "id": "competition",
+      "title": "竞争情报",
+      "blocks": [
+        {
+          "id": "migrations",
+          "heading": "有没有「XX is dead」或迁移类文章？",
+          "summary_md": "今天没有典型的「XX is dead」迁移贴，但数据里出现了更强的替代品叙事。[OpenCut-app/OpenCut](https://github.com/OpenCut-app/OpenCut) 直接定位为开源 CapCut 替代，本周 8341 stars、总星 77252；[every-app/open-seo](https://github.com/every-app/open-seo) 是 Semrush 和 Ahrefs 的开源替代，daily 数据里 weekly stars 为 849、总星 6775。Google Trends 也配合这个方向，[open source alternative](https://trends.google.com/trends/explore?q=open+source+alternative&date=now+7-d) 上升 +12.5%。\n\n这类机会不是因为老产品死亡，而是用户开始把成熟 SaaS 的功能拆开，用开源、自托管和 agent 自动化重新组装。对创业者来说，替代品最容易切入的不是功能最多的主战场，而是导入、审计、团队权限和自动化批处理这些被大平台低估的边角。",
+          "items": [
+            {
+              "title": "OpenCut-app/OpenCut",
+              "url": "https://github.com/OpenCut-app/OpenCut",
+              "source": "GitHub",
+              "score": 8341
+            },
+            {
+              "title": "every-app/open-seo",
+              "url": "https://github.com/every-app/open-seo",
+              "source": "GitHub",
+              "score": 849
+            }
+          ],
+          "takeaway": "替代品浪潮不是复刻巨头，而是把巨头产品拆成可迁移、可托管、可自动化的新组件。"
+        }
+      ]
+    },
+    {
+      "id": "trends",
+      "title": "趋势判断",
+      "blocks": [
+        {
+          "id": "keywords",
+          "heading": "本周技术关键词频率有什么变化？",
+          "summary_md": "Google Trends 里最明显的上升词是 [cursor alternative](https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d)，7 天变化 +61.5%，最高热度 100；[open source alternative](https://trends.google.com/trends/explore?q=open+source+alternative&date=now+7-d) 上升 +12.5%。这和 GitHub 热榜高度一致：Kimi Code CLI、jcode、code-review-graph、skills、hallmark 都在分食 AI 编程入口，而 OpenCut 和 open-seo 则承接开源替代需求。\n\n判断上，Cursor 替代不是单一 IDE 竞争，而是开发者在寻找更可控的 agent 栈：能换模型、能接 MCP、能审计命令、能复用技能、能减少上下文浪费。今天该关注的不是谁写代码更快，而是谁能让团队把 agent 安全地纳入日常工程流程。",
+          "items": [
+            {
+              "title": "cursor alternative",
+              "url": "https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 61.5
+            },
+            {
+              "title": "open source alternative",
+              "url": "https://trends.google.com/trends/explore?q=open+source+alternative&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 12.5
+            }
+          ],
+          "takeaway": "搜索热度说明开发者已经从尝鲜 AI IDE，进入替换默认工作台的阶段。"
+        },
+        {
+          "id": "vc-radar",
+          "heading": "VC 和 YC 在关注什么主题？",
+          "summary_md": "从今天的样本看，VC 和 YC 会重点看三类项目。第一类是 agent 基础设施，[tirth8205/code-review-graph](https://github.com/tirth8205/code-review-graph) 本周 4791 stars，[Kastra](https://www.producthunt.com/products/kastra) 做运行时授权，[box](https://www.producthunt.com/products/box-4) 做 agent VM，都是企业采用 AI coding 前必须补齐的控制层。第二类是开源替代成熟工具，OpenCut、open-seo、OfficeCLI 都具备从开源社区转商业托管的路径。\n\n第三类是把 AI 嵌进高频但低自动化的垂直场景，例如 [Migma AI](https://www.producthunt.com/products/migma-ai) 做邮件营销，[BUD](https://www.producthunt.com/products/bud-voice-canvas) 做语音白板，[AGINE Academy](https://www.producthunt.com/products/agine-academy) 用故事游戏教 Claude。今天的融资叙事会偏向「agent adoption picks and shovels」，而不是又一个横向聊天机器人。",
+          "items": [
+            {
+              "title": "code-review-graph",
+              "url": "https://github.com/tirth8205/code-review-graph",
+              "source": "GitHub",
+              "score": 4791
+            },
+            {
+              "title": "Kastra",
+              "url": "https://www.producthunt.com/products/kastra",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "OfficeCLI",
+              "url": "https://github.com/iOfficeAI/OfficeCLI",
+              "source": "GitHub",
+              "score": 4047
+            }
+          ],
+          "takeaway": "投资注意力正在转向让 agent 可部署、可审计、可复用的基础层。"
+        },
+        {
+          "id": "new-radar",
+          "heading": "新词雷达：有哪些从零起飞的新概念？",
+          "summary_md": "今天没有 google_trends_breakouts，也没有 tracked 项里的 rising 关联查询，但弱信号仍然清楚：agent skills 正在从个人配置文件变成一个可交易、可组合、可审核的软件单元。[mattpocock/skills](https://github.com/mattpocock/skills) 本周 10651 stars，[Nutlope/hallmark](https://github.com/Nutlope/hallmark) 本周 8948 stars，[kangarooking/cangjie-skill](https://github.com/kangarooking/cangjie-skill) 本周 1364 stars，分别覆盖工程技能、反低质设计和内容蒸馏。\n\n这个概念的新意在于，它不是 prompt 模板的重命名，而是把经验、约束、工具调用和输出规范打包给 agent 执行。谁能做 skill 的搜索、评分、权限、版本和团队分发，谁就有机会成为 AI 工作流里的 npm 或 App Store。",
+          "items": [
+            {
+              "title": "mattpocock/skills",
+              "url": "https://github.com/mattpocock/skills",
+              "source": "GitHub",
+              "score": 10651
+            },
+            {
+              "title": "Nutlope/hallmark",
+              "url": "https://github.com/Nutlope/hallmark",
+              "source": "GitHub",
+              "score": 8948
+            },
+            {
+              "title": "kangarooking/cangjie-skill",
+              "url": "https://github.com/kangarooking/cangjie-skill",
+              "source": "GitHub",
+              "score": 1364
+            }
+          ],
+          "takeaway": "agent skill 可能会从个人生产力技巧演变成新的软件分发格式。"
+        }
+      ]
+    },
+    {
+      "id": "actions",
+      "title": "行动触发",
+      "blocks": [
+        {
+          "id": "weekend-build",
+          "heading": "今天 2 小时和一个周末分别做什么？",
+          "summary_md": "2 小时版本：不要做完整 AI IDE，做一个单点 agent 控制插件。可以参考 [Dicklesworthstone/destructive_command_guard](https://github.com/Dicklesworthstone/destructive_command_guard) 的方向，做一个本地命令风险扫描器，先覆盖 git reset、rm、数据库删除、密钥外传四类高危动作，再给 Claude Code、Cursor、Codex 输出可读解释。这个 MVP 的价值是让用户立刻相信 agent 更可控。\n\n一个周末版本：做一个 team skills registry。参考 [mattpocock/skills](https://github.com/mattpocock/skills)、[Remote OpenClaw](https://www.producthunt.com/products/remote-openclaw-2) 和 [cangjie-skill](https://github.com/kangarooking/cangjie-skill)，支持导入本地 skill、打标签、版本化、权限审批和一键安装到不同 agent。早期收费点可以是团队私有库、审计日志和模板市场。",
+          "items": [
+            {
+              "title": "destructive_command_guard",
+              "url": "https://github.com/Dicklesworthstone/destructive_command_guard",
+              "source": "GitHub",
+              "score": 1167
+            },
+            {
+              "title": "mattpocock/skills",
+              "url": "https://github.com/mattpocock/skills",
+              "source": "GitHub",
+              "score": 10651
+            }
+          ],
+          "takeaway": "别从模型层开打，先做 agent 被团队信任所需的最小控制面。"
+        },
+        {
+          "id": "pricing-models",
+          "heading": "值得学习的定价和变现模式有哪些？",
+          "summary_md": "今天最值得学的是开源入口加团队治理收费。OpenCut、open-seo、OfficeCLI 这类项目可以免费吃社区分发，但商业化不该只卖云托管，而要卖多人协作、资产管理、导出格式、权限和自动化额度。尤其 [iOfficeAI/OfficeCLI](https://github.com/iOfficeAI/OfficeCLI) 本周 4047 stars，天然适合按团队席位、文档处理量和企业审计功能收费。\n\n另一种模式来自 [Garmin CIRQA Smart Band](https://www.producthunt.com/products/garmin-cirqa-smart-band) 的「no subscription」表达。AI 软件也可以反过来测试买断制：例如本地优先阅读器、个人知识库、离线白板工具，先用一次性付费降低订阅疲劳，再用同步、备份、跨设备和高级模型包做可选增购。",
+          "items": [
+            {
+              "title": "iOfficeAI/OfficeCLI",
+              "url": "https://github.com/iOfficeAI/OfficeCLI",
+              "source": "GitHub",
+              "score": 4047
+            },
+            {
+              "title": "Garmin CIRQA Smart Band",
+              "url": "https://www.producthunt.com/products/garmin-cirqa-smart-band",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "AI 工具的好定价不是按模型包装，而是按团队控制、处理量和用户愿意托付的数据边界收费。"
+        },
+        {
+          "id": "counterintuitive",
+          "heading": "今天最反直觉的发现是什么？",
+          "summary_md": "最反直觉的是，今天最强的 AI 机会看起来并不「智能」。[Nutlope/hallmark](https://github.com/Nutlope/hallmark) 是反 AI 低质设计 skill，却一周拿到 8948 stars；[ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd) 是让 coding agent 别把答案埋起来的输出约束，daily 数据里 weekly stars 达 1866；[destructive_command_guard](https://github.com/Dicklesworthstone/destructive_command_guard) 是危险命令拦截器，也有 1167 weekly stars。\n\n这说明市场并不只缺更强模型，而是缺能抑制模型坏习惯的产品：少废话、少低质 UI、少危险操作、少读无关上下文。builder 的机会往往藏在负面需求里，用户不是在说「给我更多 AI」，而是在说「让 AI 少犯这些具体错误」。",
+          "items": [
+            {
+              "title": "Nutlope/hallmark",
+              "url": "https://github.com/Nutlope/hallmark",
+              "source": "GitHub",
+              "score": 8948
+            },
+            {
+              "title": "ayghri/i-have-adhd",
+              "url": "https://github.com/ayghri/i-have-adhd",
+              "source": "GitHub",
+              "score": 1866
+            },
+            {
+              "title": "destructive_command_guard",
+              "url": "https://github.com/Dicklesworthstone/destructive_command_guard",
+              "source": "GitHub",
+              "score": 1167
+            }
+          ],
+          "takeaway": "下一批好 AI 产品可能不是增强模型，而是约束模型。"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2026-07-22T09:55:10+00:00",
+  "reddit_highlights": []
+}
