@@ -1,0 +1,389 @@
+{
+  "date": "2026-07-23",
+  "top3": [
+    "今天最值得关注的是 AI 编程工具开始从「更强模型」转向「更好上下文、技能和约束」，mattpocock/skills、code-review-graph、hallmark 都在同一条线上爆发。",
+    "本地优先与自托管机会重新升温，BioScript、valv、Caw、OpenCut、OmniRoute 都在把云端 Agent 工作流拆回开发者可控的基础设施。",
+    "Google Trends 里 jcode、deeptutor、code review graph 同步上升，说明开发者已经在主动搜索更具体的 Agent 工具，而不是泛泛搜索 AI。"
+  ],
+  "intro": "今天的主线不是单个模型发布，而是 Agent 生态进入「工具化、上下文化、可控化」阶段：GitHub 高增长项目集中在代码代理、技能库、上下文图和模型网关，Product Hunt 则在语言学习、企业安全、数据库代理访问和本地视频编辑上寻找产品形态。另一个信号是 Codeberg 禁止加密货币项目引发 281 分、408 条评论，开源基础设施的治理边界正在变成产品选型风险。",
+  "sections": [
+    {
+      "id": "discovery",
+      "title": "发现机会",
+      "blocks": [
+        {
+          "id": "indie-products",
+          "heading": "今天有哪些独立开发者的新产品？",
+          "summary_md": "今天没有 HN Show HN 记录，Product Hunt 原始数据也未提供票数和评论数，所以不能用热度排序，只能看题材密度。值得盯的是三类：语言学习的 [Speakworld](https://www.producthunt.com/products/speakworld)、[AuraSpeak](https://www.producthunt.com/products/auraspeak)，把「对话场景」做成消费级入口；自托管和本地优先的 [BioScript](https://www.producthunt.com/products/bioscript-own-your-link-in-bio-saas)、[AVE](https://www.producthunt.com/products/ave-ai-video-editor)、[Caw](https://www.producthunt.com/products/caw)，在反云端依赖；Agent 基础设施的 [valv](https://www.producthunt.com/products/valv-2)、[Astartis x Codex](https://www.producthunt.com/products/astartis-x-codex)、[SwiftScale Software](https://www.producthunt.com/products/swiftscale-software)，都在解决企业把 Agent 放进生产环境前的安全、测试和数据访问问题。输入中这些产品的票数与评论数均为 0 或缺失，不应硬造排名。",
+          "items": [
+            {
+              "title": "Speakworld",
+              "url": "https://www.producthunt.com/products/speakworld",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "BioScript",
+              "url": "https://www.producthunt.com/products/bioscript-own-your-link-in-bio-saas",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "valv",
+              "url": "https://www.producthunt.com/products/valv-2",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "Caw",
+              "url": "https://www.producthunt.com/products/caw",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "今天的独立产品机会在「把 Agent 接进真实工作流，同时保留用户控制权」。"
+        },
+        {
+          "id": "github-traction",
+          "heading": "GitHub 上哪些高增长开源项目还没有商业化？",
+          "summary_md": "GitHub 周榜里最强的机会不是通用模型，而是围绕 AI 编程体验的薄层基础设施。[mattpocock/skills](https://github.com/mattpocock/skills) 一周 10,282 星、总星 183,386，说明「可复用技能」已经成为开发者训练 Agent 的新入口；[Nutlope/hallmark](https://github.com/Nutlope/hallmark) 一周 8,471 星，用「Anti-AI-slop design skill」直接命中 AI 生成前端质量问题；[tirth8205/code-review-graph](https://github.com/tirth8205/code-review-graph) 一周 5,639 星，主打本地优先代码智能图，减少 AI 审查大仓库时的上下文浪费。这些项目天然可以商业化成团队版策略库、私有代码图索引、设计质量门禁或 IDE 插件。",
+          "items": [
+            {
+              "title": "mattpocock/skills",
+              "url": "https://github.com/mattpocock/skills",
+              "source": "GitHub",
+              "score": 10282
+            },
+            {
+              "title": "Nutlope/hallmark",
+              "url": "https://github.com/Nutlope/hallmark",
+              "source": "GitHub",
+              "score": 8471
+            },
+            {
+              "title": "tirth8205/code-review-graph",
+              "url": "https://github.com/tirth8205/code-review-graph",
+              "source": "GitHub",
+              "score": 5639
+            }
+          ],
+          "takeaway": "AI 编程的下一层商业化入口，是上下文、规范和团队工作流，而不是又一个聊天框。"
+        }
+      ]
+    },
+    {
+      "id": "tech-stack",
+      "title": "技术选型",
+      "blocks": [
+        {
+          "id": "dev-tools",
+          "heading": "本周增长最快的开发者工具是什么？",
+          "summary_md": "本周开发者工具榜单呈现很清晰的三层结构：第一层是 Agent 行为约束，[mattpocock/skills](https://github.com/mattpocock/skills) 一周 10,282 星，[Nutlope/hallmark](https://github.com/Nutlope/hallmark) 一周 8,471 星，[ibelick/ui-skills](https://github.com/ibelick/ui-skills) 一周 2,206 星，都在把「提示词」产品化成可维护资产；第二层是 Agent 编排与入口，[OmniRoute](https://github.com/diegosouzapw/OmniRoute) 一周 6,989 星，提供 278+ providers、500+ models 的统一网关，[MoonshotAI/kimi-code](https://github.com/MoonshotAI/kimi-code) 一周 1,400 星；第三层是代码理解，[code-review-graph](https://github.com/tirth8205/code-review-graph) 一周 5,639 星。选型上，团队应优先补上下文索引和行为约束，再考虑更换模型。",
+          "items": [
+            {
+              "title": "mattpocock/skills",
+              "url": "https://github.com/mattpocock/skills",
+              "source": "GitHub",
+              "score": 10282
+            },
+            {
+              "title": "OmniRoute",
+              "url": "https://github.com/diegosouzapw/OmniRoute",
+              "source": "GitHub",
+              "score": 6989
+            },
+            {
+              "title": "code-review-graph",
+              "url": "https://github.com/tirth8205/code-review-graph",
+              "source": "GitHub",
+              "score": 5639
+            }
+          ],
+          "takeaway": "开发者工具的热度正在从「调用模型」转向「管理 Agent 的输入、边界和成本」。"
+        },
+        {
+          "id": "hf-models",
+          "heading": "HuggingFace 上最热的模型能做什么消费级产品？",
+          "summary_md": "HuggingFace 今天最适合产品化的不是纯文本大模型，而是多模态、OCR、本地小模型和图像编辑。[thinkingmachines/Inkling](https://huggingface.co/thinkingmachines/Inkling) trending score 842、下载 24,669、点赞 1,476，覆盖图像文本和音频文本转文本，可以做学习陪练、视觉问答和会议输入整理；[baidu/Unlimited-OCR](https://huggingface.co/baidu/Unlimited-OCR) trending score 724、下载 2,414,259、点赞 2,792，适合做票据、合同、学习资料和截图归档；[prism-ml/Ternary-Bonsai-27B-gguf](https://huggingface.co/prism-ml/Ternary-Bonsai-27B-gguf) trending score 414，强调 2-bit、on-device、Metal，说明本地消费端助手开始有可行技术栈。配合 [Qwen-Image-Edit-2511-LoRAs-Fast](https://huggingface.co/spaces/prithivMLmods/Qwen-Image-Edit-2511-LoRAs-Fast) 这类 Space，图像编辑仍是最快落地的入口。",
+          "items": [
+            {
+              "title": "thinkingmachines/Inkling",
+              "url": "https://huggingface.co/thinkingmachines/Inkling",
+              "source": "HuggingFace",
+              "score": 842
+            },
+            {
+              "title": "baidu/Unlimited-OCR",
+              "url": "https://huggingface.co/baidu/Unlimited-OCR",
+              "source": "HuggingFace",
+              "score": 724
+            },
+            {
+              "title": "prism-ml/Ternary-Bonsai-27B-gguf",
+              "url": "https://huggingface.co/prism-ml/Ternary-Bonsai-27B-gguf",
+              "source": "HuggingFace",
+              "score": 414
+            }
+          ],
+          "takeaway": "消费级 AI 的低门槛机会在 OCR、图像编辑和本地助手，而不是重新包装通用聊天。"
+        },
+        {
+          "id": "show-hn",
+          "heading": "Show HN 高关注项目用的什么技术栈？",
+          "summary_md": "今天 HN Show HN 原始数据为空，因此不能判断 Show HN 项目的技术栈。但 GitHub 与 Product Hunt 可以补一层旁证：高增长开发者项目主要由 TypeScript、Python、Rust 和 Shell 构成，其中 TypeScript 覆盖 [OmniRoute](https://github.com/diegosouzapw/OmniRoute)、[Kimi Code](https://github.com/MoonshotAI/kimi-code)、[OpenCut](https://github.com/OpenCut-app/OpenCut)，Python 覆盖 [code-review-graph](https://github.com/tirth8205/code-review-graph) 与 [DeepTutor](https://github.com/HKUDS/DeepTutor)，Rust 出现在 [jcode](https://github.com/1jehuang/jcode)。如果你今天要开新项目，TypeScript 仍适合做 Agent UI、网关和桌面/PWA 外壳，Python 更适合模型与代码索引，Rust 适合高性能本地 harness。",
+          "items": [
+            {
+              "title": "OmniRoute",
+              "url": "https://github.com/diegosouzapw/OmniRoute",
+              "source": "GitHub",
+              "score": 6989
+            },
+            {
+              "title": "code-review-graph",
+              "url": "https://github.com/tirth8205/code-review-graph",
+              "source": "GitHub",
+              "score": 5639
+            },
+            {
+              "title": "1jehuang/jcode",
+              "url": "https://github.com/1jehuang/jcode",
+              "source": "GitHub",
+              "score": 2293
+            }
+          ],
+          "takeaway": "今天的新工具栈分工很明确：TypeScript 做界面与编排，Python 做智能索引，Rust 做本地执行内核。"
+        }
+      ]
+    },
+    {
+      "id": "competition",
+      "title": "竞争情报",
+      "blocks": [
+        {
+          "id": "migrations",
+          "heading": "有没有「XX is dead」或迁移类文章？",
+          "summary_md": "今天 HN 没有典型「XX is dead」文章，但 [Codeberg Bans Cryptocurrency Projects](https://codeberg.org/Codeberg/org/pulls/1254) 以 281 分和 408 条评论，已经足够构成开源托管迁移信号。它不是技术性能问题，而是平台治理问题：如果一个基础设施明确排除某类项目，团队就必须重新评估代码托管、镜像、CI 和社区入口的单点依赖。对 Builder 来说，这类事件会催生两个产品方向：一是面向开源项目的多平台同步、备份和迁移工具，二是面向基金会或社区平台的政策合规扫描和项目准入工作流。",
+          "items": [
+            {
+              "title": "Codeberg Bans Cryptocurrency Projects",
+              "url": "https://codeberg.org/Codeberg/org/pulls/1254",
+              "source": "HN",
+              "score": 281
+            }
+          ],
+          "takeaway": "基础设施平台的价值观变化，也会变成开发者迁移工具的需求来源。"
+        },
+        {
+          "id": "comebacks",
+          "heading": "有没有沉寂的老项目突然复活？",
+          "summary_md": "今天的日榜里有两个「老资产被重新看见」的信号。[schollz/croc](https://github.com/schollz/croc) 当日周星 739、总星 37,981，是一个成熟的安全文件传输工具；[chrislgarry/Apollo-11](https://github.com/chrislgarry/Apollo-11) 当日周星 768、总星 70,811，是 Apollo 11 Guidance Computer 源码档案。这类复热通常不是因为项目突然商业化，而是被新叙事重新连接：本地传输、安全、历史代码、可验证工程。在 AI 代理时代，老工具如果能包装成 Agent 可调用能力，反而可能比新项目更容易获得信任。",
+          "items": [
+            {
+              "title": "schollz/croc",
+              "url": "https://github.com/schollz/croc",
+              "source": "GitHub",
+              "score": 739
+            },
+            {
+              "title": "chrislgarry/Apollo-11",
+              "url": "https://github.com/chrislgarry/Apollo-11",
+              "source": "GitHub",
+              "score": 768
+            }
+          ],
+          "takeaway": "老项目复热的关键不是怀旧，而是能否被接入新的 Agent 工作流。"
+        }
+      ]
+    },
+    {
+      "id": "trends",
+      "title": "趋势判断",
+      "blocks": [
+        {
+          "id": "keywords",
+          "heading": "本周技术关键词频率有什么变化？",
+          "summary_md": "Google Trends 与 GitHub 榜单高度同频：[jcode](https://trends.google.com/trends/explore?q=jcode&date=now+7-d) 上升 +121.1%，对应 GitHub 上 [1jehuang/jcode](https://github.com/1jehuang/jcode) 一周 2,293 星；[deeptutor](https://trends.google.com/trends/explore?q=deeptutor&date=now+7-d) 上升 +76.1%，对应 [HKUDS/DeepTutor](https://github.com/HKUDS/DeepTutor) 一周 3,030 星；[code review graph](https://trends.google.com/trends/explore?q=code+review+graph&date=now+7-d) 上升 +52.0%，对应 [code-review-graph](https://github.com/tirth8205/code-review-graph) 一周 5,639 星。更泛的 [ai agent](https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d) 只上升 +35.9%，说明用户搜索正在从概念词转向具体工具名和具体问题。",
+          "items": [
+            {
+              "title": "jcode",
+              "url": "https://trends.google.com/trends/explore?q=jcode&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 121
+            },
+            {
+              "title": "deeptutor",
+              "url": "https://trends.google.com/trends/explore?q=deeptutor&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 76
+            },
+            {
+              "title": "code review graph",
+              "url": "https://trends.google.com/trends/explore?q=code+review+graph&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 52
+            }
+          ],
+          "takeaway": "今天的趋势不是 AI 更热，而是用户开始搜索具体 Agent 工具的名字。"
+        },
+        {
+          "id": "vc-radar",
+          "heading": "VC 和 YC 在关注什么主题？",
+          "summary_md": "如果把今天的 GitHub、Product Hunt 和趋势词合并看，VC 和 YC 视角会集中在四个主题：Agent 控制平面、企业安全、垂直数据产品和本地优先 AI。[Astartis x Codex](https://www.producthunt.com/products/astartis-x-codex) 直接定位企业开发者安全控制平面，[valv](https://www.producthunt.com/products/valv-2) 解决数据库对 Agent 安全开放的问题，[Basedash Developer Platform](https://www.producthunt.com/products/basedash) 把 AI analytics 嵌入产品，[worldmonitor](https://github.com/koala73/worldmonitor) 一周 5,812 星、日榜 4,139 星，说明实时情报与监控类界面仍有强需求。再叠加 [self hosted](https://trends.google.com/trends/explore?q=self+hosted&date=now+7-d) 上升 +10.7%，投资人会更关心「能进企业内网」的 Agent 产品。",
+          "items": [
+            {
+              "title": "Astartis x Codex",
+              "url": "https://www.producthunt.com/products/astartis-x-codex",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "valv",
+              "url": "https://www.producthunt.com/products/valv-2",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "koala73/worldmonitor",
+              "url": "https://github.com/koala73/worldmonitor",
+              "source": "GitHub",
+              "score": 5812
+            }
+          ],
+          "takeaway": "资本会继续追 Agent，但更偏好有安全边界、数据权限和企业分发能力的产品。"
+        },
+        {
+          "id": "cooling",
+          "heading": "哪些 AI 热词在降温？",
+          "summary_md": "降温最明显的是具体品牌词而不是赛道词：[kimi code](https://trends.google.com/trends/explore?q=kimi+code&date=now+7-d) 下降 -45.9%，但 GitHub 上 [MoonshotAI/kimi-code](https://github.com/MoonshotAI/kimi-code) 一周仍有 1,400 星，[MoonshotAI/kimi-cli](https://github.com/MoonshotAI/kimi-cli) 一周 1,443 星，说明搜索热度回落不等于开发者停止试用，而可能是发布峰值后的正常衰减。[codex](https://trends.google.com/trends/explore?q=codex&date=now+7-d) 下降 -1.6%，[hallmark](https://trends.google.com/trends/explore?q=hallmark&date=now+7-d) 下降 -5.5%，也提示单一品牌词更容易波动。相反，[ai agent](https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d) 仍上升 +35.9%，底层需求没有降温。",
+          "items": [
+            {
+              "title": "kimi code",
+              "url": "https://trends.google.com/trends/explore?q=kimi+code&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": -46
+            },
+            {
+              "title": "codex",
+              "url": "https://trends.google.com/trends/explore?q=codex&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": -2
+            },
+            {
+              "title": "hallmark",
+              "url": "https://trends.google.com/trends/explore?q=hallmark&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": -6
+            }
+          ],
+          "takeaway": "品牌词会降温，但 Agent 工具链需求仍在迁移到更具体的问题词。"
+        },
+        {
+          "id": "new-radar",
+          "heading": "新词雷达：有哪些从零起飞的新概念？",
+          "summary_md": "今天最早的弱信号来自 [jcode](https://trends.google.com/trends/explore?q=jcode&date=now+7-d) 的关联查询：breakout 里「1jehuang/jcode」数值 18,850，「jcode github」数值 120，同时 tracked 项显示 [jcode](https://trends.google.com/trends/explore?q=jcode&date=now+7-d) 上升 +121.1%。这不是泛 AI 热度，而是一个 Rust Agent harness 项目把搜索需求从 GitHub 外溢到 Google。类似现象值得监控：当一个 repo 名、GitHub 后缀和具体功能词同时出现，说明用户已经从看到榜单进入主动安装、比较和排错阶段。Builder 可以围绕这些词做安装教程、替代品比较、团队落地模板和监控页。",
+          "items": [
+            {
+              "title": "1jehuang/jcode",
+              "url": "https://trends.google.com/trends/explore?q=jcode&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 18850
+            },
+            {
+              "title": "jcode github",
+              "url": "https://trends.google.com/trends/explore?q=jcode&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 120
+            }
+          ],
+          "takeaway": "新词从零起飞时，最快的产品动作是抢占教程、模板和对比页。"
+        }
+      ]
+    },
+    {
+      "id": "actions",
+      "title": "行动触发",
+      "blocks": [
+        {
+          "id": "weekend-build",
+          "heading": "今天 2 小时和一个周末分别做什么？",
+          "summary_md": "2 小时内可以做一个「Agent 工具选型页」：抓取 [mattpocock/skills](https://github.com/mattpocock/skills)、[hallmark](https://github.com/Nutlope/hallmark)、[code-review-graph](https://github.com/tirth8205/code-review-graph)、[OmniRoute](https://github.com/diegosouzapw/OmniRoute) 的 README、安装命令、许可证和适用场景，输出团队选型矩阵。一个周末则可以做更可卖的版本：本地扫描一个代码库，生成 Agent 可读的技能建议、上下文索引建议和成本风险报告，再给出 Cursor、Codex、Claude Code 的配置片段。它不需要训练模型，核心是把今天榜单上的开源能力包装成可执行工作流。",
+          "items": [
+            {
+              "title": "mattpocock/skills",
+              "url": "https://github.com/mattpocock/skills",
+              "source": "GitHub",
+              "score": 10282
+            },
+            {
+              "title": "code-review-graph",
+              "url": "https://github.com/tirth8205/code-review-graph",
+              "source": "GitHub",
+              "score": 5639
+            },
+            {
+              "title": "OmniRoute",
+              "url": "https://github.com/diegosouzapw/OmniRoute",
+              "source": "GitHub",
+              "score": 6989
+            }
+          ],
+          "takeaway": "最快的周末项目是把热门 Agent repo 变成团队能直接采用的配置和报告。"
+        },
+        {
+          "id": "pricing-models",
+          "heading": "值得学习的定价和变现模式有哪些？",
+          "summary_md": "今天没有直接的 MRR、ARR 或订阅讨论，但产品形态已经给出变现线索。[BioScript](https://www.producthunt.com/products/bioscript-own-your-link-in-bio-saas) 是白标 link-in-bio，适合一次性授权加托管升级；[Astartis x Codex](https://www.producthunt.com/products/astartis-x-codex) 是企业安全控制平面，适合按席位、证据保留量和合规报告收费；[valv](https://www.producthunt.com/products/valv-2) 是数据库对 Agent 的安全查询层，适合按连接数、查询量和审计日志保留收费；[Basedash Developer Platform](https://www.producthunt.com/products/basedash) 是嵌入式 AI analytics，天然按月活用户、嵌入实例或数据源收费。今天可学的是：AI 产品别只卖 token 差价，要卖风险降低、白标交付和嵌入分发。",
+          "items": [
+            {
+              "title": "BioScript",
+              "url": "https://www.producthunt.com/products/bioscript-own-your-link-in-bio-saas",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "Astartis x Codex",
+              "url": "https://www.producthunt.com/products/astartis-x-codex",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "Basedash Developer Platform",
+              "url": "https://www.producthunt.com/products/basedash",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "今天值得抄的不是价格数字，而是把 AI 能力绑定到企业风险、白标和嵌入式分发。"
+        },
+        {
+          "id": "counterintuitive",
+          "heading": "今天最反直觉的发现是什么？",
+          "summary_md": "最反直觉的是：AI 工具越多，开发者越追求「少读、少说、少跑偏」。[ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd) 当日周星 1,699，描述是让 coding agent 别把答案埋起来；[code-review-graph](https://github.com/tirth8205/code-review-graph) 一周 5,639 星，目标是让 AI 只读相关上下文；[hallmark](https://github.com/Nutlope/hallmark) 一周 8,471 星，反对 AI slop 设计；[OmniRoute](https://github.com/diegosouzapw/OmniRoute) 一周 6,989 星，还把 token 压缩写进卖点。也就是说，用户不是想要更会聊天的 Agent，而是想要更克制、更便宜、更知道上下文边界的 Agent。",
+          "items": [
+            {
+              "title": "ayghri/i-have-adhd",
+              "url": "https://github.com/ayghri/i-have-adhd",
+              "source": "GitHub",
+              "score": 1699
+            },
+            {
+              "title": "Nutlope/hallmark",
+              "url": "https://github.com/Nutlope/hallmark",
+              "source": "GitHub",
+              "score": 8471
+            },
+            {
+              "title": "OmniRoute",
+              "url": "https://github.com/diegosouzapw/OmniRoute",
+              "source": "GitHub",
+              "score": 6989
+            }
+          ],
+          "takeaway": "Agent 产品的竞争力正在从「多做」变成「少打扰、少浪费、少跑偏」。"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2026-07-23T09:21:09+00:00",
+  "reddit_highlights": []
+}

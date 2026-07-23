@@ -1,0 +1,148 @@
+{
+  "date": "2026-07-23",
+  "items": [
+    {
+      "id": "2026-07-23-1",
+      "title": "AI废话开始被围剿",
+      "angle": "从 X 信息流审美疲劳切入，写开发者为什么开始用开源工具反击 AI slop。",
+      "opening": "一天涨 1K stars，不是因为大家又发现了一个神奇模型，而是因为大家受够了 AI 垃圾内容。更讽刺的是，反 AI 废话的技能本身还能被反向用来制造废话。",
+      "story_hook": {
+        "challenge": "AI 工具让内容生产更快，但信息流被同质化句式和空洞洞察淹没。",
+        "twist": "真正爆火的不是生成器，而是帮人识别、约束、清理 AI 味的工具。"
+      },
+      "takeaway": "内容创作者和产品团队要把「反 slop」做成工作流检查项，而不是只靠个人审美兜底。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Nikunj Kothari 吐槽 X 信息流被同质化 AI 内容刷屏",
+          "url": "https://x.com/nikunj/status/2080168083440750836"
+        },
+        {
+          "tag": "builders",
+          "ref": "Peter Yang 说一天涨 1K stars 说明大家受够 AI 垃圾内容",
+          "url": "https://x.com/petergyang/status/2080132334138151410"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub 高增长项目 Nutlope/hallmark，一周 8,471 星",
+          "url": "https://github.com/Nutlope/hallmark"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-23-2",
+      "title": "别换模型，先管上下文",
+      "angle": "从提示词变厚、技能库爆火和代码图增长，写 AI 编程工具竞争点正在后移。",
+      "opening": "今天最热的 AI 编程信号不是某个模型又强了 3%，而是开发者开始认真管理上下文。Zara Zhang 说别急着给模型写方案，先把问题和上下文喂厚；GitHub 上爆的也是 skills 和 code review graph。",
+      "story_hook": {
+        "challenge": "团队以为 Agent 不好用是模型不够强，实际常常是上下文薄、规范散、代码读太多。",
+        "twist": "下一代 AI 编程工具的护城河，可能不是推理能力，而是知道该读什么、不该做什么。"
+      },
+      "takeaway": "团队落地 AI 编程时，应优先建设技能库、代码上下文索引和审查规则，再评估是否更换模型。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Zara Zhang 建议直接给模型更厚的问题和上下文",
+          "url": "https://x.com/zarazhangrui/status/2080103288834510939"
+        },
+        {
+          "tag": "pulse",
+          "ref": "mattpocock/skills 一周 10,282 星",
+          "url": "https://github.com/mattpocock/skills"
+        },
+        {
+          "tag": "pulse",
+          "ref": "tirth8205/code-review-graph 一周 5,639 星",
+          "url": "https://github.com/tirth8205/code-review-graph"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-23-3",
+      "title": "AI攻防变成速度战",
+      "angle": "从 Swyx 提到的疑似 AI 驱动入侵，到 Claude Code 安全插件，写安全正在被移进开发终端。",
+      "opening": "Swyx 刚说网络攻防会变成速度战，Hugging Face 就被疑似 AI 驱动的高级入侵打中。另一边，Claude Code 的安全插件已经把漏洞扫描搬进终端和提交前检查。",
+      "story_hook": {
+        "challenge": "攻击者开始用自主代理提速，传统安全流程却还停在上线前扫描和事后审计。",
+        "twist": "防守方最现实的反击，不是等安全团队介入，而是把 AI 安全检查前置到每次代码修改。"
+      },
+      "takeaway": "开发团队应把 Agent 安全扫描、提交前审查和企业控制平面纳入默认工程流程。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Swyx 提到 AI 驱动入侵与网络攻防速度战",
+          "url": "https://x.com/swyx/status/2079965146693415340"
+        },
+        {
+          "tag": "builders",
+          "ref": "Claude Code 安全插件开放 beta",
+          "url": "https://x.com/claudeai/status/2079990597973057691"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt: Astartis x Codex 定位企业开发者安全控制平面",
+          "url": "https://www.producthunt.com/products/astartis-x-codex"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-23-4",
+      "title": "模型国籍不是数据流向",
+      "angle": "从中国训练模型争议切入，写开源权重、本地运行和企业数据边界的区别。",
+      "opening": "很多人把「中国训练的 LLM」直接等同于「数据会流回中国」，这个判断太粗了。Madhu Guru 的反驳很直接：开源权重下载后跑在你自己的云里，训练方已经不在链路里。",
+      "story_hook": {
+        "challenge": "企业选模型时常把地缘政治、模型来源和运行时数据安全混成一件事。",
+        "twist": "真正决定数据流向的不是模型从哪训练，而是权重形态、部署位置、日志策略和调用链。"
+      },
+      "takeaway": "评估模型风险时，把「训练来源」「部署环境」「推理日志」「外部工具调用」拆开审查，不要只看品牌国籍。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Madhu Guru 解释开源权重不等于数据交给训练方",
+          "url": "https://x.com/realmadhuguru/status/2080150245011509593"
+        },
+        {
+          "tag": "pulse",
+          "ref": "HuggingFace: prism-ml/Ternary-Bonsai-27B-gguf 强调 on-device",
+          "url": "https://huggingface.co/prism-ml/Ternary-Bonsai-27B-gguf"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt: valv 解决数据库对 Agent 的安全开放",
+          "url": "https://www.producthunt.com/products/valv-2"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-23-5",
+      "title": "AI没有灭工，只是放大人",
+      "angle": "从 Aaron Levie 的 Jevons 悖论和 Replit 开发者赚钱，写 AI 创业的价值单位正在从人力替代变成产出放大。",
+      "opening": "AI 到今天还没有大规模灭工，Aaron Levie 给出的解释是：它更像把懂行的人放大。与此同时，Amjad Masad 说 Replit 开发者已经开始闷声发财，这比「替代程序员」的叙事更值得盯。",
+      "story_hook": {
+        "challenge": "市场总爱问 AI 会替代多少岗位，但真实商业机会往往发生在少数人产出突然翻倍的地方。",
+        "twist": "最赚钱的 AI 产品不一定卖自动化本身，而是卖更快交付、更低风险和嵌入工作流。"
+      },
+      "takeaway": "做 AI 产品时优先寻找能直接提升产出、缩短交付或降低企业风险的场景，不要只包装 token 差价。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Aaron Levie 认为 AI 正在放大会用 AI 的人",
+          "url": "https://x.com/levie/status/2080156917373214900"
+        },
+        {
+          "tag": "builders",
+          "ref": "Amjad Masad 说 Replit 开发者开始闷声发财",
+          "url": "https://x.com/amasad/status/2080142844036321727"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt: Basedash Developer Platform 做嵌入式 AI analytics",
+          "url": "https://www.producthunt.com/products/basedash"
+        }
+      ]
+    }
+  ],
+  "notes": "今日主线很清楚：AI 圈热度没有消失，但读者疲劳点从「模型不够强」转向「内容太水、上下文太乱、安全边界太弱」。适合写偏工具链和落地判断的选题，少写发布新闻。",
+  "generated_at": "2026-07-23T09:21:52+00:00",
+  "model": "gpt-5.5"
+}
