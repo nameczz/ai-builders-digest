@@ -1,0 +1,148 @@
+{
+  "date": "2026-07-24",
+  "items": [
+    {
+      "id": "2026-07-24-1",
+      "title": "语音助手开始碰你的邮箱了",
+      "angle": "从 Claude 语音调用工具和 Peter Yang 的多语音线程实验切入，写语音 AI 如何从陪聊变成工作流入口。",
+      "opening": "Claude 语音这次不是多会聊天的问题。它开始跑在 Opus、Sonnet 这些同级模型上，还能在对话里碰你接好的邮箱和日历。另一边，Peter Yang 已经在想同时拉起多个 ChatGPT 语音线程，让一支 AI 团队彼此开会。",
+      "story_hook": {
+        "challenge": "语音 AI 一直被当成输入方式升级，但真正冲突是：一旦它能调用工具，用户到底是在聊天，还是在授权执行？",
+        "twist": "最拉胯的地方可能不是模型能力，而是中文发音、线程完成通知和多任务协作这些产品细节。"
+      },
+      "takeaway": "读者可以重新评估语音 AI 产品：不要只看识别率，要看工具权限、任务状态反馈、多线程协作和本地语言体验。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Claude 语音模式会调用同级模型并接入邮箱、日历等工具",
+          "url": "https://x.com/claudeai/status/2080376096873177300"
+        },
+        {
+          "tag": "builders",
+          "ref": "Peter Yang 设想同时拉起多个 ChatGPT 语音线程",
+          "url": "https://x.com/petergyang/status/2080508139091427741"
+        },
+        {
+          "tag": "pulse",
+          "ref": "thinkingmachines/Inkling 登上 HuggingFace 热榜，指向多模态私人助理入口",
+          "url": "https://huggingface.co/thinkingmachines/Inkling"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-24-2",
+      "title": "代码 Agent 不再只是插件",
+      "angle": "把 swyx 的 agentic GitHub 克隆、OmniRoute 和 code-review-graph 放在一起看：AI 编程代理正在长成基础设施层。",
+      "opening": "今天最值得看的不是又一个代码助手。swyx 自己用了一个月的 agentic GitHub 克隆，已经开始内置 CI/CD。与此同时，GitHub 上 OmniRoute 一周 8673 星，code-review-graph 一周 6257 星，大家都在抢代理执行前的那一层。",
+      "story_hook": {
+        "challenge": "过去 AI 编程的竞争点是补全和聊天，现在真正的问题变成：模型该读哪些上下文、走哪个 provider、失败后怎么回退、结果怎么进 CI。",
+        "twist": "最像产品机会的地方不是写代码本身，而是路由、上下文图谱、审计和部署这些原本不性感的中间层。"
+      },
+      "takeaway": "开发者做 AI 编程产品时，优先考虑上下文治理、模型路由、CI/CD 接入和团队规范沉淀，而不是再包一层聊天框。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Swyx 自用 agentic GitHub clone，并用 Workers for Platforms 内置 CI/CD",
+          "url": "https://x.com/swyx/status/2080500752183960017"
+        },
+        {
+          "tag": "pulse",
+          "ref": "OmniRoute 一周 8673 星，提供多 provider、多模型路由和 token compression",
+          "url": "https://github.com/diegosouzapw/OmniRoute"
+        },
+        {
+          "tag": "pulse",
+          "ref": "code-review-graph 一周 6257 星，主打 local-first code intelligence graph",
+          "url": "https://github.com/tirth8205/code-review-graph"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-24-3",
+      "title": "AI 成本战开始见血了",
+      "angle": "从 Amjad 的部署成本降 80%、Vercel Python 启动快 2 倍和 Firecrawl 10x fewer tokens 切入，写 AI 产品的新定价锚点。",
+      "opening": "Amjad 今天抛了一个很硬的数字：自动扩容部署成本直接降了 80%。Guillermo Rauch 也说 Vercel 上 Python 启动快了 2 倍。另一边，Firecrawl /search 把卖点写成 10x fewer tokens，AI 产品终于开始正面谈钱了。",
+      "story_hook": {
+        "challenge": "AI 应用不是只有模型账单贵，部署、冷启动、搜索、上下文读取都会变成毛利杀手。",
+        "twist": "下一批能收费的 AI 工具，可能不是生成得更多，而是让团队少读、少跑、少花。"
+      },
+      "takeaway": "读者评估 AI 工具和创业方向时，应把 token 节省、冷启动性能、自动扩容成本和供应商回退能力放进核心指标。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Amjad Masad 称自动扩容部署成本降了 80%",
+          "url": "https://x.com/amasad/status/2080513361301925957"
+        },
+        {
+          "tag": "builders",
+          "ref": "Guillermo Rauch 称 Vercel Python 代码启动快了 2 倍",
+          "url": "https://x.com/rauchg/status/2080454509508387251"
+        },
+        {
+          "tag": "pulse",
+          "ref": "The new Firecrawl /search 宣称搜索使用 10x fewer tokens",
+          "url": "https://www.producthunt.com/products/extract-by-firecrawl"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-24-4",
+      "title": "一个员工能生出上百个 Agent",
+      "angle": "从 Madhu 对 GPT Sol 事件的 IAM 判断切入，结合 HOL Guard 和 Pushary，写代理时代企业权限模型为何失效。",
+      "opening": "Madhu 今天说得很狠：旧 IAM 模型假设身份是有限员工，但现在一个员工能拉起上百个 agent，agent 还能继续繁殖。权限继承、生命周期、子 agent 授权和审计链都没想清楚。Product Hunt 上 HOL Guard 和 Pushary 这类产品，正好说明风险已经变成产品入口。",
+      "story_hook": {
+        "challenge": "企业安全系统过去管的是人和服务账号，现在要管一串会执行、会调用工具、会复制工作流的代理链。",
+        "twist": "代理安全的第一个商业机会，可能不是更强的防御模型，而是审批按钮、执行日志和权限过期机制。"
+      },
+      "takeaway": "团队引入 Agent 前，应先设计子代理权限、审批节点、审计日志、生命周期回收，而不是只讨论模型是否够聪明。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Madhu Guru 称 GPT Sol 事件刺穿旧 IAM 模型",
+          "url": "https://x.com/realmadhuguru/status/2080315474093760714"
+        },
+        {
+          "tag": "pulse",
+          "ref": "HOL Guard 将 AI Agent 防火墙产品化",
+          "url": "https://www.producthunt.com/products/hol-guard"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Pushary 主打从锁屏批准 AI 请求",
+          "url": "https://www.producthunt.com/products/pushary"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-24-5",
+      "title": "开放模型不能只喊口号",
+      "angle": "把 Garry Tan 的开放权重判断、swyx 对 Poolside 公开 benchmark 的强调和 HuggingFace 本地模型热度放在一起，写可验证开放的重要性。",
+      "opening": "Garry Tan 说，没有开放权重，AI builder 只能被封闭平台牵着走。swyx 今天夸 PoolsideAI，不是只夸模型强，而是夸它把 6 个公开 benchmark、每个 4 次运行、每轮数百 turn 的数据摊出来。开放模型的真正问题，正在从能不能下载，变成能不能复现和质疑。",
+      "story_hook": {
+        "challenge": "开放权重解决了可用性，但没有解决可信度；benchmark 不透明时，开发者仍然只能相信营销话术。",
+        "twist": "小模型写代码能压过更大对手这件事，最有价值的不是输赢，而是它愿意把评测过程交给别人检查。"
+      },
+      "takeaway": "读者选择开放模型时，不只看权重和榜单，要看评测数据、运行次数、任务粒度、本地部署成本和复现实验是否公开。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Garry Tan 强调开放权重模型对 AI builder 极其重要",
+          "url": "https://x.com/garrytan/status/2080345524620914897"
+        },
+        {
+          "tag": "builders",
+          "ref": "Swyx 称 PoolsideAI 公开完整评测数据集是被低估的透明度",
+          "url": "https://x.com/swyx/status/2080387171723137440"
+        },
+        {
+          "tag": "pulse",
+          "ref": "prism-ml/Bonsai-27B-gguf 在 HuggingFace 热榜中指向本地大模型部署需求",
+          "url": "https://huggingface.co/prism-ml/Bonsai-27B-gguf"
+        }
+      ]
+    }
+  ],
+  "notes": "今日主线很集中：不是模型发布，而是 Agent 进入真实工作流后的语音入口、路由层、成本层、安全层和可信评测。可以优先写第 2 或第 4 条，最贴近中文开发者当前会遇到的工程问题。",
+  "generated_at": "2026-07-24T09:28:13+00:00",
+  "model": "gpt-5.5"
+}
