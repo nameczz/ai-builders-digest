@@ -1,0 +1,148 @@
+{
+  "date": "2026-07-25",
+  "items": [
+    {
+      "id": "2026-07-25-1",
+      "title": "Agent 大词冷了，零件火了",
+      "angle": "从搜索降温和工具暴涨的反差切入：市场不是不要 agent，而是不要抽象平台故事。",
+      "opening": "“AI agent” 搜索跌了 3%，但 OmniRoute 一周涨了 9965 个 star。用户嘴上不搜 agent，手却在收藏路由器、代码图谱和托管运行时。真正的机会，可能藏在 agent 被拆碎之后。",
+      "story_hook": {
+        "challenge": "宏大的 agent 平台叙事在退潮，但路由、上下文、浏览器状态这些底层部件同时爆发。",
+        "twist": "降温的不是需求，而是抽象词；用户开始直接搜索能嵌入工作流的具体工具名。"
+      },
+      "takeaway": "做 AI 产品时，把首页从“AI Agent Platform”改成一个可验证任务：省上下文、省调用成本、减少中断或提高可靠性。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Zara Zhang：1-5 分钟等待正在把 agent 体验卡在最糟糕区间",
+          "url": "https://x.com/zarazhangrui/status/2080829737044439444"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Google Trends：ai agent -3.0%",
+          "url": "https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub：OmniRoute 本周 +9965 stars",
+          "url": "https://github.com/diegosouzapw/OmniRoute"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-25-2",
+      "title": "提示词越短，模型越强？",
+      "angle": "用 Claude Opus 5 砍掉 80% 系统提示的案例，反打“堆提示词工程”的旧习惯。",
+      "opening": "Claude Code 新模型砍掉了约 80% 的系统提示，效果反而更好。过去大家把 Claude.md、skills、system prompt 越写越厚，现在更强的模型在提醒我们：上下文不是垃圾桶。",
+      "story_hook": {
+        "challenge": "AI 编程工作流越来越复杂，团队本能地往提示词里塞更多规则、背景和限制。",
+        "twist": "新模型的提升反而来自更少、更精炼、更可执行的提示，而不是更长的说明书。"
+      },
+      "takeaway": "把团队提示词重构成少量可执行规则，并用代码图谱或上下文报告承载事实信息，不要把长期知识全塞进 system prompt。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Thariq：Claude Code 新模型砍掉约 80% 系统提示",
+          "url": "https://x.com/trq212/status/2080710971228918066"
+        },
+        {
+          "tag": "builders",
+          "ref": "Boris Cherny：Opus 5 的提示注入防护显著增强",
+          "url": "https://x.com/bcherny/status/2080713091688583312"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub：code-review-graph 本周 +6565 stars",
+          "url": "https://github.com/tirth8205/code-review-graph"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-25-3",
+      "title": "语音写代码，先记住线程名",
+      "angle": "从“躺床上指挥 Codex”的爽感切入，讲语音 agent 的真正瓶颈是任务状态和工作流记忆。",
+      "opening": "躺在床上用 ChatGPT Voice 指挥 Codex 干活，听起来像未来已经来了。问题是 Peter Yang 很快发现：如果你记不住所有长期运行线程的名字，这套工作流马上会乱。",
+      "story_hook": {
+        "challenge": "语音让 coding agent 的入口变得更自然，但长期任务、多个线程和上下文切换会迅速失控。",
+        "twist": "语音交互的短板不是识别率，而是 agent 工作台缺少可见、可管理、可恢复的任务状态。"
+      },
+      "takeaway": "如果做语音 AI 工具，不要只包装麦克风入口，要把线程命名、任务摘要、状态恢复和批准动作做成核心体验。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Peter Yang：用 ChatGPT Voice 指挥 Codex 很爽，但线程名会成为问题",
+          "url": "https://x.com/petergyang/status/2080793867960643823"
+        },
+        {
+          "tag": "builders",
+          "ref": "Josh Woodward：Gemini 能从学校日历 PDF 自动创建 Google Calendar 事件",
+          "url": "https://x.com/joshwoodward/status/2080771183944073347"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt：Heard 给 Claude Code 和 Codex 加语音入口",
+          "url": "https://www.producthunt.com/products/heard-2"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-25-4",
+      "title": "开放权重不是信仰，是账本",
+      "angle": "避开意识形态争论，讲开放权重在垂直场景、成本结构和本地部署里的实际 ROI。",
+      "opening": "Aaron Levie 说美国应该真正加码开放权重创新。听起来像政策表态，但今天 HuggingFace 和端侧模型的信号更现实：有些工作负载根本不该一直交给通用前沿模型。",
+      "story_hook": {
+        "challenge": "开放权重常被讨论成阵营站队：支持开放，还是保护前沿实验室。",
+        "twist": "真正能说服企业的不是价值观，而是成本、隐私、延迟和垂直任务适配。"
+      },
+      "takeaway": "评估模型选型时，把任务拆成前沿模型、开放权重模型和本地模型三层，而不是默认所有请求都走最强闭源模型。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Aaron Levie：开放权重能降低成本并覆盖垂直场景",
+          "url": "https://x.com/levie/status/2080761484305654091"
+        },
+        {
+          "tag": "builders",
+          "ref": "Amjad Masad：质疑 Anthropic 是否支持封杀开放权重模型",
+          "url": "https://x.com/amasad/status/2080850075358826871"
+        },
+        {
+          "tag": "pulse",
+          "ref": "HuggingFace：prism-ml/Ternary-Bonsai-27B-gguf",
+          "url": "https://huggingface.co/prism-ml/Ternary-Bonsai-27B-gguf"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-25-5",
+      "title": "代码图谱正在吃掉 Review",
+      "angle": "从 66 轮 autoreview 和 code-review-graph 暴涨切入，讲 AI review 的瓶颈从模型能力转向代码关系建模。",
+      "opening": "Peter Steinberger 的 autoreview 跑了 66 轮，才把一个棘手重构啃下来。另一边，code-review-graph 一周涨了 6565 个 star。AI review 真正缺的，可能不是更会说话的模型，而是看懂节点和边的上下文机器。",
+      "story_hook": {
+        "challenge": "AI code review 在小改动上很亮眼，但一遇到跨文件重构、隐式依赖和长期演进就容易失真。",
+        "twist": "解决方案不是让模型多读几万 token，而是先把代码库变成可查询的关系结构。"
+      },
+      "takeaway": "团队可以先做轻量版代码上下文报告：最近改动、依赖边、测试入口、风险文件，再交给 Codex 或 Claude Code 审查。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Peter Steinberger：autoreview 技能为复杂重构跑了 66 轮",
+          "url": "https://x.com/steipete/status/2080899298838098034"
+        },
+        {
+          "tag": "builders",
+          "ref": "Peter Steinberger：AI 应用最终会被复杂关系拖进图的世界",
+          "url": "https://x.com/steipete/status/2080779917130858598"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub：tirth8205/code-review-graph 本周 +6565 stars",
+          "url": "https://github.com/tirth8205/code-review-graph"
+        }
+      ]
+    }
+  ],
+  "notes": "今日最强主线是 agent 使用层拆分：模型发布很热，但更适合写成工作流基础设施、上下文管理、语音入口和开放权重成本账，而不是单纯复述新品。",
+  "generated_at": "2026-07-25T09:36:29+00:00",
+  "model": "gpt-5.5"
+}

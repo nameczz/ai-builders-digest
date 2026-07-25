@@ -1,0 +1,349 @@
+{
+  "date": "2026-07-25",
+  "top3": [
+    "今日最值得关注的是 AI 编程基础设施继续分层：OmniRoute、code-review-graph、Kimi Code、jcode 都在抢同一个开发入口。",
+    "Product Hunt 的新品从单点工具转向代理工作台：OpenComputer、ADE、Heard、Velane 都在围绕 agent 的部署、同步、语音和工具调用做包装。",
+    "Google Trends 显示注意力从泛化的 ai agent 转向具体项目名，worldmonitor +406.1%、code review graph +92.2%、omniroute +55.9% 是更明确的购买或试用信号。"
+  ],
+  "intro": "今天的主线不是又一个大模型，而是 AI agent 的使用层正在变成可拆分的工具链：路由、代码上下文、浏览器状态、语音入口、部署运行时各自长出产品机会。与此同时，泛词 ai agent 开始降温，具体项目和具体痛点更容易聚集真实需求。",
+  "sections": [
+    {
+      "id": "discovery",
+      "title": "发现机会",
+      "blocks": [
+        {
+          "id": "indie-products",
+          "heading": "今天有哪些独立开发者的新产品？",
+          "summary_md": "HN Show HN 今日为空，Product Hunt 原始数据也未返回票数与评论数字段，所以更适合看新品密度而不是热度排行。值得盯的是 [OpenComputer](https://www.producthunt.com/products/opencomputer)，定位是最简单的托管 agent 部署；[ADE](https://www.producthunt.com/products/ade-agentic-development-environment) 把多个 coding agents 同步到一个开发环境；[Heard](https://www.producthunt.com/products/heard-2) 给 Claude Code 和 Codex 加语音入口；[Velane](https://www.producthunt.com/products/velane) 则把 agent 的工具和函数云化。采集字段中这些产品票数与评论数均未返回，因此按 0 记录，不做热度夸大。\n\n更偏个人效率的机会在 Mac 原生小工具：[Wisprkey](https://www.producthunt.com/products/wisprkey-mac-ai-assistant)、[FluentDB](https://www.producthunt.com/products/fluentdb-2)、[Speech To Markdown](https://www.producthunt.com/products/speech-to-markdown)、[MinkNote](https://www.producthunt.com/products/minknote) 都在把 AI 放进桌面工作流。今天值得关注的不是单个爆款，而是独立开发者正在绕开完整 IDE，切入语音、数据库、笔记、远程 SSH 这些高频缝隙。",
+          "items": [
+            {
+              "title": "OpenComputer",
+              "url": "https://www.producthunt.com/products/opencomputer",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "ADE",
+              "url": "https://www.producthunt.com/products/ade-agentic-development-environment",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "Heard",
+              "url": "https://www.producthunt.com/products/heard-2",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "Velane",
+              "url": "https://www.producthunt.com/products/velane",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "今天的独立产品机会在于把 agent 拆成可付费的小入口，而不是再做一个完整聊天框。"
+        },
+        {
+          "id": "github-traction",
+          "heading": "GitHub 上哪些高增长开源项目还没有商业化？",
+          "summary_md": "GitHub Weekly 里最夸张的是 [bojieli/ai-agent-book](https://github.com/bojieli/ai-agent-book)，本周 +17401 stars、总星 19442，说明中文 AI Agent 工程教材正在变成入口型资产；[tirth8205/code-review-graph](https://github.com/tirth8205/code-review-graph) 本周 +6565、总星 26303，用本地代码图降低 AI review 上下文成本；[apache/ossie](https://github.com/apache/ossie) 本周 +471、总星 1623，押注语义元数据交换标准。\n\n这些项目的共同点是商业化页面不强，但它们抓住了真实预算附近的问题：团队培训、代码库理解、数据语义治理。尤其 code-review-graph 和 ossie 可以直接变成企业版：私有部署、审计报告、IDE 插件、数据平台连接器，比做横向 agent SaaS 更容易讲清 ROI。",
+          "items": [
+            {
+              "title": "bojieli/ai-agent-book",
+              "url": "https://github.com/bojieli/ai-agent-book",
+              "source": "GitHub",
+              "score": 17401
+            },
+            {
+              "title": "tirth8205/code-review-graph",
+              "url": "https://github.com/tirth8205/code-review-graph",
+              "source": "GitHub",
+              "score": 6565
+            },
+            {
+              "title": "apache/ossie",
+              "url": "https://github.com/apache/ossie",
+              "source": "GitHub",
+              "score": 471
+            }
+          ],
+          "takeaway": "高增长开源项目里，最像生意的不是模型本身，而是训练、上下文压缩和语义标准。"
+        }
+      ]
+    },
+    {
+      "id": "tech-stack",
+      "title": "技术选型",
+      "blocks": [
+        {
+          "id": "dev-tools",
+          "heading": "本周增长最快的开发者工具是什么？",
+          "summary_md": "开发者工具榜今天几乎被 AI coding 基建占满。[diegosouzapw/OmniRoute](https://github.com/diegosouzapw/OmniRoute) 本周 +9965 stars、总星 29354，卖点是一端点接 290+ providers、500+ models，并兼容 Claude Code、Codex、Cursor、OpenCode、Cline 与 Copilot；[earendil-works/pi](https://github.com/earendil-works/pi) 本周 +4880、总星 77259，覆盖统一 LLM API、agent loop、TUI 和 coding CLI；[1jehuang/jcode](https://github.com/1jehuang/jcode) 本周 +2773、总星 11291，主打 agent harness。\n\nProduct Hunt 侧也有 [HarnessRouter](https://www.producthunt.com/products/epsilla)、[The new Firecrawl /search](https://www.producthunt.com/products/extract-by-firecrawl)、[ADE](https://www.producthunt.com/products/ade-agentic-development-environment)。选型判断很清楚：如果你在做 AI 开发工具，模型调用层、搜索层、代码上下文层会被用户要求可替换；把供应商锁死会越来越难卖。",
+          "items": [
+            {
+              "title": "diegosouzapw/OmniRoute",
+              "url": "https://github.com/diegosouzapw/OmniRoute",
+              "source": "GitHub",
+              "score": 9965
+            },
+            {
+              "title": "earendil-works/pi",
+              "url": "https://github.com/earendil-works/pi",
+              "source": "GitHub",
+              "score": 4880
+            },
+            {
+              "title": "1jehuang/jcode",
+              "url": "https://github.com/1jehuang/jcode",
+              "source": "GitHub",
+              "score": 2773
+            }
+          ],
+          "takeaway": "AI 开发工具的默认架构正在变成可路由、可降级、可本地读代码。"
+        },
+        {
+          "id": "hf-models",
+          "heading": "HuggingFace 上最热的模型能做什么消费级产品？",
+          "summary_md": "HuggingFace 模型榜最强信号是视觉与本地化。[baidu/Unlimited-OCR](https://huggingface.co/baidu/Unlimited-OCR) trending_score 903、下载 2564264、likes 3039，可直接做票据、合同、课堂板书、多语言截图转结构化笔记；[thinkingmachines/Inkling](https://huggingface.co/thinkingmachines/Inkling) trending_score 478、likes 1552，覆盖图文与音频输入，适合做个人知识采集助手；[microsoft/Mage-Flow](https://huggingface.co/microsoft/Mage-Flow) trending_score 240，指向轻量图像生成和编辑。\n\n另一个方向是端侧模型。[prism-ml/Ternary-Bonsai-27B-gguf](https://huggingface.co/prism-ml/Ternary-Bonsai-27B-gguf) trending_score 288、下载 611685，[prism-ml/Bonsai-27B-gguf](https://huggingface.co/prism-ml/Bonsai-27B-gguf) 下载 2114963，标签里有 1-bit、2-bit、on-device、Metal。消费级产品可以从隐私 OCR、本地写作、离线客服知识库切入，而不是继续卷云端聊天。",
+          "items": [
+            {
+              "title": "baidu/Unlimited-OCR",
+              "url": "https://huggingface.co/baidu/Unlimited-OCR",
+              "source": "HuggingFace",
+              "score": 903
+            },
+            {
+              "title": "thinkingmachines/Inkling",
+              "url": "https://huggingface.co/thinkingmachines/Inkling",
+              "source": "HuggingFace",
+              "score": 478
+            },
+            {
+              "title": "prism-ml/Ternary-Bonsai-27B-gguf",
+              "url": "https://huggingface.co/prism-ml/Ternary-Bonsai-27B-gguf",
+              "source": "HuggingFace",
+              "score": 288
+            }
+          ],
+          "takeaway": "消费级 AI 的下一波小机会在隐私、本地和视觉输入，而不是更大的通用对话。"
+        }
+      ]
+    },
+    {
+      "id": "competition",
+      "title": "竞争情报",
+      "blocks": [
+        {
+          "id": "migrations",
+          "heading": "有没有「XX is dead」或迁移类文章？",
+          "summary_md": "HN 今日没有明显的「XX is dead」或迁移类文章，但 GitHub 与 Trends 给出了替代性迁移信号：开发者正在从单一模型、单一 IDE、单一浏览器控制方式，迁移到多 agent、多模型路由与可共享状态。OmniRoute 本周 +9965 stars，描述里强调一端点连接 290+ providers、90+ free providers 和 500+ models；[citrolabs/ego-lite](https://github.com/citrolabs/ego-lite) daily +880 stars，主打给 AI agents 共享登录态浏览器而不打扰用户。\n\n这不是某个工具死亡，而是使用习惯迁移：过去用户问哪个模型最强，现在问如何不中断工作流地把多个模型和 agent 接进同一个环境。对创业者来说，竞争不只来自 IDE，也来自路由器、浏览器、搜索 API、代码图谱这些更低层的入口。",
+          "items": [
+            {
+              "title": "diegosouzapw/OmniRoute",
+              "url": "https://github.com/diegosouzapw/OmniRoute",
+              "source": "GitHub",
+              "score": 9965
+            },
+            {
+              "title": "citrolabs/ego-lite",
+              "url": "https://github.com/citrolabs/ego-lite",
+              "source": "GitHub",
+              "score": 880
+            }
+          ],
+          "takeaway": "今天的迁移不是从 A 工具到 B 工具，而是从单点 AI 到可组合 agent 工作流。"
+        },
+        {
+          "id": "pricing-revenue",
+          "heading": "独立开发者在讨论什么营收和定价策略？",
+          "summary_md": "HN 今日没有 MRR、ARR、pricing、subscription、revenue 相关高信号讨论，但 Product Hunt 的新品形态已经暗示了可验证的定价方向。像 [ShellMate](https://www.producthunt.com/products/shellmate-2)、[FluentDB](https://www.producthunt.com/products/fluentdb-2)、[Hotspot Meter](https://www.producthunt.com/products/hotspot-meter-track-wi-fi-and-hotspots)、[MinkNote](https://www.producthunt.com/products/minknote) 这类 Mac 工具，更适合走一次性买断加 Pro 升级；[OpenComputer](https://www.producthunt.com/products/opencomputer)、[Velane](https://www.producthunt.com/products/velane)、[HarnessRouter](https://www.producthunt.com/products/epsilla) 则天然适合按 seat、调用量或托管实例收费。\n\n反直觉的是，agent 产品不一定要先做平台订阅。更容易起步的是把一个高频动作包装成明确 SKU：SSH workspace、AI database client、lock screen approval、managed agent deployment。用户理解成本低，付费理由也更具体。",
+          "items": [
+            {
+              "title": "ShellMate",
+              "url": "https://www.producthunt.com/products/shellmate-2",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "FluentDB",
+              "url": "https://www.producthunt.com/products/fluentdb-2",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "Velane",
+              "url": "https://www.producthunt.com/products/velane",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "独立开发者更该先卖清晰工作流，再把调用量和团队协作包装成扩展收入。"
+        }
+      ]
+    },
+    {
+      "id": "trends",
+      "title": "趋势判断",
+      "blocks": [
+        {
+          "id": "keywords",
+          "heading": "本周技术关键词频率有什么变化？",
+          "summary_md": "Google Trends 最强上升项是具体项目名：[worldmonitor](https://trends.google.com/trends/explore?q=worldmonitor&date=now+7-d) +406.1%，对应 GitHub Weekly +10936 stars、总星 73707 的实时全球情报仪表盘；[code review graph](https://trends.google.com/trends/explore?q=code+review+graph&date=now+7-d) +92.2%，对应本地优先代码智能图谱；[omniroute](https://trends.google.com/trends/explore?q=omniroute&date=now+7-d) +55.9%，对应多模型网关。\n\n这个组合很有解释力：信息监控、代码上下文和模型路由，是 AI 原生工作流的三块底座。相比 [codex](https://trends.google.com/trends/explore?q=codex&date=now+7-d) 只涨 +6.8%、[codex cli](https://trends.google.com/trends/explore?q=codex+cli&date=now+7-d) 只涨 +2.6%，用户注意力正在从大品牌词转到能解决具体痛点的工具名。",
+          "items": [
+            {
+              "title": "worldmonitor",
+              "url": "https://trends.google.com/trends/explore?q=worldmonitor&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 406.1
+            },
+            {
+              "title": "code review graph",
+              "url": "https://trends.google.com/trends/explore?q=code+review+graph&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 92.2
+            },
+            {
+              "title": "omniroute",
+              "url": "https://trends.google.com/trends/explore?q=omniroute&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 55.9
+            }
+          ],
+          "takeaway": "泛 AI 叙事在退潮，能被搜索的具体工具名正在接管增长。"
+        },
+        {
+          "id": "cooling",
+          "heading": "哪些 AI 热词在降温？",
+          "summary_md": "降温项值得认真看：[ai agent](https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d) -3.0%，[ai agent book](https://trends.google.com/trends/explore?q=ai+agent+book&date=now+7-d) -4.1%，[self hosted](https://trends.google.com/trends/explore?q=self+hosted&date=now+7-d) -7.2%，[kimi code](https://trends.google.com/trends/explore?q=kimi+code&date=now+7-d) -62.1%。这不代表 agent 需求消失，而是用户不再用抽象词搜索，转而直接搜 OmniRoute、worldmonitor、code review graph 这类解决方案。\n\n对 Builder 来说，今天不要再把首页标题写成泛泛的 AI Agent Platform。更好的表达是具体结果：减少代码审查上下文、共享浏览器登录态、把 500 个模型路由到一个 endpoint、把全球新闻变成风险仪表盘。热词降温后，产品定位必须从概念回到任务。",
+          "items": [
+            {
+              "title": "kimi code",
+              "url": "https://trends.google.com/trends/explore?q=kimi+code&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": -62.1
+            },
+            {
+              "title": "self hosted",
+              "url": "https://trends.google.com/trends/explore?q=self+hosted&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": -7.2
+            },
+            {
+              "title": "ai agent",
+              "url": "https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": -3.0
+            }
+          ],
+          "takeaway": "当大词降温，小工具反而更容易通过明确任务拿到搜索和转化。"
+        },
+        {
+          "id": "new-radar",
+          "heading": "新词雷达：有哪些从零起飞的新概念？",
+          "summary_md": "breakout 里最突出的两个来源都来自关联查询。[jcode](https://trends.google.com/trends/explore?q=jcode&date=now+7-d) 本体只涨 +4.6%，但 rising 里出现 jcodemunch、jcode 真愛 密碼、jcode github，其中 google_trends_breakouts 给 jcodemunch 41950、jcode 真愛 密碼 20650、jcode github 120；[kimi code](https://trends.google.com/trends/explore?q=kimi+code&date=now+7-d) 虽然整体 -62.1%，但 rising 出现 qwen 3.8、kimi code sold out、zenmux、how to use kimi k3、kimi k3 vs fable 5。\n\n这些词不一定都是真技术趋势，部分可能是噪声或跨语义混入，但它们说明用户正在把 coding agent 和具体模型、供给限制、替代方案放在一起比较。尤其 kimi code sold out 这种词，往往比品牌词更接近购买失败后的替代需求。",
+          "items": [
+            {
+              "title": "jcodemunch",
+              "url": "https://trends.google.com/trends/explore?q=jcode&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 41950
+            },
+            {
+              "title": "qwen 3.8",
+              "url": "https://trends.google.com/trends/explore?q=kimi+code&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 3650
+            },
+            {
+              "title": "kimi code sold out",
+              "url": "https://trends.google.com/trends/explore?q=kimi+code&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 1150
+            }
+          ],
+          "takeaway": "新词雷达里最有价值的不是热词本身，而是用户在供应不足时主动寻找替代路线。"
+        }
+      ]
+    },
+    {
+      "id": "actions",
+      "title": "行动触发",
+      "blocks": [
+        {
+          "id": "weekend-build",
+          "heading": "今天 2 小时和一个周末分别做什么？",
+          "summary_md": "2 小时版本：做一个面向 coding agent 的小型 context report 工具。输入一个 GitHub repo，输出最近修改文件、核心依赖、潜在测试入口和给 Codex 或 Claude Code 的上下文摘要。参考 [tirth8205/code-review-graph](https://github.com/tirth8205/code-review-graph) 本周 +6565 stars 的需求，但不要先做完整图数据库，只做一个可复制到 agent prompt 的报告。\n\n周末版本：做一个本地优先的 agent router demo，把 OpenAI、Claude、Kimi、Qwen 任意两个 provider 接成统一配置，并加一个失败自动切换日志页。参考 [OmniRoute](https://github.com/diegosouzapw/OmniRoute) 本周 +9965 stars 与 Product Hunt 上 [HarnessRouter](https://www.producthunt.com/products/epsilla) 的方向。关键不是覆盖 500 个模型，而是让用户看到省钱、可用性和可审计日志。",
+          "items": [
+            {
+              "title": "code-review-graph inspired context report",
+              "url": "https://github.com/tirth8205/code-review-graph",
+              "source": "GitHub",
+              "score": 6565
+            },
+            {
+              "title": "OmniRoute inspired model router",
+              "url": "https://github.com/diegosouzapw/OmniRoute",
+              "source": "GitHub",
+              "score": 9965
+            }
+          ],
+          "takeaway": "周末项目要避开大平台叙事，直接证明一个 agent 工作流能省上下文、省钱或少中断。"
+        },
+        {
+          "id": "pricing-models",
+          "heading": "值得学习的定价和变现模式有哪些？",
+          "summary_md": "今天可以学三类定价。第一类是桌面工具买断加升级包，比如 [Capsomnia](https://www.producthunt.com/products/capsomnia)、[Hotspot Meter](https://www.producthunt.com/products/hotspot-meter-track-wi-fi-and-hotspots)、[MinkNote](https://www.producthunt.com/products/minknote)，适合低运维、强个人偏好的 Mac 小工具。第二类是开发者 seat 订阅，比如 [ShellMate](https://www.producthunt.com/products/shellmate-2)、[FluentDB](https://www.producthunt.com/products/fluentdb-2)、[ADE](https://www.producthunt.com/products/ade-agentic-development-environment)，卖的是每天都会打开的工作台。\n\n第三类是用量制基础设施，比如 [OpenComputer](https://www.producthunt.com/products/opencomputer)、[Velane](https://www.producthunt.com/products/velane)、[HarnessRouter](https://www.producthunt.com/products/epsilla)、[The new Firecrawl /search](https://www.producthunt.com/products/extract-by-firecrawl)。如果你的产品触碰模型调用、搜索、部署或浏览器自动化，就不要只做 flat subscription，至少要保留按调用量、托管实例或团队审计功能扩张的空间。",
+          "items": [
+            {
+              "title": "MinkNote",
+              "url": "https://www.producthunt.com/products/minknote",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "ADE",
+              "url": "https://www.producthunt.com/products/ade-agentic-development-environment",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "The new Firecrawl /search",
+              "url": "https://www.producthunt.com/products/extract-by-firecrawl",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "定价模型要跟成本结构一致：桌面工具卖确定性，agent 基建卖用量和可靠性。"
+        },
+        {
+          "id": "counterintuitive",
+          "heading": "今天最反直觉的发现是什么？",
+          "summary_md": "最反直觉的是，AI agent 大词降温，但 agent 周边工具同时爆发。[ai agent](https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d) -3.0%，[kimi code](https://trends.google.com/trends/explore?q=kimi+code&date=now+7-d) -62.1%；可 GitHub 上 [OmniRoute](https://github.com/diegosouzapw/OmniRoute) 本周 +9965 stars、[code-review-graph](https://github.com/tirth8205/code-review-graph) +6565、[pi](https://github.com/earendil-works/pi) +4880，Product Hunt 又连续出现 OpenComputer、ADE、Heard、Velane。\n\n这说明市场不是不想要 agent，而是不想再听抽象 agent 故事。用户真正搜索和收藏的是更低层、更可替换、更能嵌入现有工作流的部件。今天做产品，少讲智能体会自主完成一切，多讲它如何接管一个具体环节：代码上下文、模型路由、浏览器状态、语音批准、数据库查询。",
+          "items": [
+            {
+              "title": "ai agent",
+              "url": "https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": -3
+            },
+            {
+              "title": "diegosouzapw/OmniRoute",
+              "url": "https://github.com/diegosouzapw/OmniRoute",
+              "source": "GitHub",
+              "score": 9965
+            },
+            {
+              "title": "tirth8205/code-review-graph",
+              "url": "https://github.com/tirth8205/code-review-graph",
+              "source": "GitHub",
+              "score": 6565
+            }
+          ],
+          "takeaway": "AI agent 不缺兴趣，缺的是从宏大承诺落到一个可验证工作流的产品表达。"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2026-07-25T09:35:28+00:00",
+  "reddit_highlights": []
+}
