@@ -1,0 +1,90 @@
+{
+  "date": "2026-07-26",
+  "generated_at": "2026-07-26T00:46:30+00:00",
+  "inbox_id": "sanyoumu@agentmail.to",
+  "window": {
+    "start": "2026-07-25T00:47:46+00:00",
+    "end": "2026-07-26T00:45:25.843394+00:00",
+    "source": "previous_digest_generated_at"
+  },
+  "count": 2,
+  "highlights": [
+    "今日精读：Claude Opus 5 发布引发模型评测争议，重点不只是是否追平 Fable 5，而是它在真实编码、工具使用和长任务代理中的可用性提升。",
+    "AINews 汇总显示，Opus 5 在 Epoch ECI 中接近 Fable 5，并在软件工程指标 SWE-ECI 上与 Fable 5 持平，但社区认为现有评测可能低估了实际进步。",
+    "Opinion AI 的长文把 Opus 5 的价值落到使用方法上：清晰目标、少量高质量上下文、合适工具和验证循环，比堆大上下文更重要。",
+    "两封邮件都把 Opus 5 定位为更适合日常高强度开发者工作的模型，而不是只服务极少数极难任务的旗舰模型。"
+  ],
+  "items": [
+    {
+      "id": "ainews-claude-opus-5-evals-and-agent-work",
+      "title_zh": "Claude Opus 5：接近 Fable 级别的日常智能体模型",
+      "title_original": "[AINews] Claude Opus 5: Fable-level performance at Opus price (half Fable)",
+      "source": "swyx.substack.com",
+      "from": "AINews <swyx+ainews@substack.com>",
+      "subject": "[AINews] Claude Opus 5: Fable-level performance at Opus price (half Fable)",
+      "url": "https://www.latent.space/p/ainews-claude-opus-5-fable-level",
+      "message_id": "<20260725072538.3.40303008908b5a66@mg-d1.substack.com>",
+      "published_at": "2026-07-25T07:25:38.000Z",
+      "importance": "high",
+      "summary_zh": "这封 AINews 把 Claude Opus 5 发布作为头条，重点整理了官方叙事、独立评测和社区反馈之间的张力：它在多个指标上已经接近甚至部分超过 Fable 5，但 Anthropic 仍谨慎表述为“接近”；Epoch 给出的 ECI 为 159，略低于 Fable 5 的 161，并在软件工程 SWE-ECI 上与 Fable 5 持平。邮件还指出，早期用户尤其关注它在编码、浏览器自动化和工具使用工作流中的实际表现，社区也在讨论现有公开评测是否已经难以反映“真实大模型能力”的差异。",
+      "deep_read_zh": "今天最值得精读的是 AINews 对 Claude Opus 5 发布后的评测与社区反应汇总。它的重要性不在于又一个模型刷新了某个榜单，而在于它暴露了前沿模型进入新阶段后的核心矛盾：官方 benchmark、第三方 eval 和真实开发者体验正在越来越难对齐。邮件中提到，Opus 5 在官方和独立指标上已经非常接近 Fable 5，Epoch 给出的综合 ECI 是 159，略低于 Fable 5 的 161；在软件工程相关的 SWE-ECI 上则达到 161，与 Fable 5 持平。与此同时，社区里不少技术用户认为这个分数低估了它在实践中的提升，尤其是编码、工具调用、浏览器自动化等 agentic workflow。还有一个值得注意的细节是，Opus 5 在 FrontierCode 上出现了中等 effort 反而优于更高 effort 的现象，这说明更多推理算力并不总是线性转化为更好结果，也可能暴露评测稳定性或任务搜索策略的问题。对 builder 来说，这封邮件的启发是：选模型不能只看总榜分数，更要看自己的任务是否属于模型实际增强的区域，比如长任务推进、代码修复、工具链控制、测试反馈循环。Opus 5 如果真的以更低成本接近 Fable 级别能力，它会改变许多团队对“默认日常高端模型”的选择。",
+      "why_important": "这是一条模型能力与模型评测同时发生变化的信号。Opus 5 的讨论重点已经从单点能力转向真实工作流中的稳定性、成本和 agent 表现。",
+      "impact": "AI builder 需要重新评估日常开发、代码审查、自动化测试和长任务代理的模型默认选择。产品团队也应该关注 effort 档位、成本控制和评测集是否匹配自身任务。",
+      "key_points": [
+        "Claude Opus 5 是当天 AI 社区头条，并被拿来与 Fable 5、GPT 5.6 Sol 等前沿模型比较。",
+        "Epoch 报告 Opus 5 的 ECI 为 159，略低于 Fable 5 的 161；软件工程 SWE-ECI 上与 Fable 5 持平。",
+        "社区反馈认为 Opus 5 的实际编码和工具使用能力可能强于分数显示。",
+        "FrontierCode 中出现中等 effort 优于高 effort 的异常，提示推理算力和结果质量不是简单线性关系。",
+        "AINews 本期基于 12 个 subreddit 和 544 条 Twitter 信息整理，没有进一步纳入 Discord 来源。"
+      ],
+      "reading_notes": [
+        "看 Opus 5 时，不要只问它是否超过 Fable 5，而要问它在哪些实际工作流中更可靠。",
+        "关注 effort 档位和评测结果的非单调关系，这会直接影响成本策略。",
+        "把公开榜单与自己的任务集分开看，尤其是代码修复、浏览器自动化和长程代理任务。",
+        "留意 Arena 后续基于真实使用的 leaderboard 分数。"
+      ],
+      "tags": [
+        "模型",
+        "评测",
+        "智能体",
+        "开发者工具"
+      ],
+      "related_sources": [
+        "emergingai.substack.com"
+      ]
+    },
+    {
+      "id": "opinion-ai-claude-opus-5-setup-guide",
+      "title_zh": "Claude Opus 5 的关键不只是能力，而是使用配置",
+      "title_original": "Claude Opus 5 Is Powerful. Your Setup Decides How Powerful: This is Full Setup Guide",
+      "source": "emergingai.substack.com",
+      "from": "Opinion AI <emergingai@substack.com>",
+      "subject": "Claude Opus 5 Is Powerful. Your Setup Decides How Powerful: This is Full Setup Guide",
+      "url": "https://emergingai.substack.com/p/claude-opus-5-is-powerful-your-setup",
+      "message_id": "<20260725215442.3.0580337f065f3841@mg2.substack.com>",
+      "published_at": "2026-07-25T21:54:42.000Z",
+      "importance": "high",
+      "summary_zh": "这封 Opinion AI 把 Claude Opus 5 的发布解读为“会主动补齐缺失步骤”的模型能力跃迁：它举例说，Opus 5 能在缺少常规视觉输入路径时自己写计算机视觉管线，从原始像素重建 3D 零件；也能在软件调试中发现既有补丁漏掉的边界情况，并在没有真实市场数据流时自建测试系统。文章的核心建议是，Opus 5 的强大依赖正确工作台：清晰目标、少量有用上下文、合适工具、验证循环和成本规则，比巨型指令文件和随机塞满上下文更有效。",
+      "why_important": "它把新模型发布从“参数和 benchmark”转成了可执行的使用方法。对实际做产品和自动化工作流的人来说，模型能力只有通过上下文管理、工具链和验证循环才会变成产出。",
+      "impact": "builder 应该为 Opus 5 设计更干净的任务入口、上下文检索和验证机制，而不是简单把所有资料塞进百万 token 窗口。团队也需要按任务选择 effort 档位，避免为小任务过度付费。",
+      "key_points": [
+        "文章称 Claude Opus 5 于 2026 年 7 月 24 日发布，价格为每百万输入 token 5 美元、每百万输出 token 25 美元。",
+        "文中列出一百万 token 上下文、最高 128000 输出 token、五档 effort、默认 thinking、更强视觉理解和长任务 agent 能力等特性。",
+        "作者强调 Opus 5 更适合作为开发者和重度用户的日常高端模型，Fable 5 则仍面向少数极难任务。"
+      ],
+      "reading_notes": [],
+      "tags": [
+        "模型",
+        "智能体",
+        "工作流",
+        "成本"
+      ],
+      "related_sources": [
+        "swyx.substack.com"
+      ],
+      "deep_read_zh": ""
+    }
+  ],
+  "skipped": [],
+  "notes": "今日两封正式 newsletter 都围绕 Claude Opus 5，没有系统邮件、确认邮件、广告或完全重复邮件需要剔除。今日精读选择 AINews，因为它同时覆盖发布、独立评测、社区质疑和真实使用反馈，比单篇设置指南更能代表当天最重要的行业信号。"
+}
