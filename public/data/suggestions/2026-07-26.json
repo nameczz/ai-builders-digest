@@ -1,0 +1,173 @@
+{
+  "date": "2026-07-26",
+  "items": [
+    {
+      "id": "2026-07-26-1",
+      "title": "产品不是代码，是工厂",
+      "angle": "从 Guillermo Rauch 和 Nan Yu 的“软件工厂”论，切到 GitHub 上 agent 基础设施爆发：真正的产品上限取决于生产系统。",
+      "opening": "今天最刺眼的共识不是“AI 会写代码”，而是“只会写代码已经不够了”。Guillermo Rauch 说软件工厂本身才是产品，Nan Yu 说我们还没有真正的 SoftwareFactory，因为软件开发仍停留在手工作坊阶段。",
+      "story_hook": {
+        "challenge": "大家以为瓶颈在模型能力，实际瓶颈在流程、上下文、责任边界和可复制的生产系统。",
+        "twist": "GitHub 增长最快的不是某个神秘模型，而是 OmniRoute、code-review-graph、pi 这类把 agent 变成工程基础设施的项目。"
+      },
+      "takeaway": "团队评估 AI 编程工具时，不要只问模型多强，而要检查路由、上下文复用、审查、回滚和团队治理是否可持续。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Guillermo Rauch：软件工厂本身才是产品",
+          "url": "https://x.com/rauchg/status/2081123293340520642"
+        },
+        {
+          "tag": "builders",
+          "ref": "Nan Yu：软件开发仍停留在手工作坊阶段",
+          "url": "https://x.com/thenanyu/status/2081195994499133820"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub Trending：OmniRoute 周增 11147 星",
+          "url": "https://github.com/diegosouzapw/OmniRoute"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub Trending：code-review-graph 周增 6423 星",
+          "url": "https://github.com/tirth8205/code-review-graph"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-26-2",
+      "title": "AI 开始让人等机器了",
+      "angle": "从 Zara Zhang 的等待问题切入：AI 工作流的新瓶颈不是人不会做，而是人如何管理机器异步产出。",
+      "opening": "过去我们等人写代码、回邮件、整理资料；现在开始等 AI 跑完任务。Zara Zhang 抛出的问题很准确：等 AI 出结果时，你到底在干什么？",
+      "story_hook": {
+        "challenge": "AI 把执行速度提高了，却制造出新的空档、切换成本和注意力碎片。",
+        "twist": "这不是效率提升的尾声，而是下一代产品入口：菜单栏、邮箱、移动端、状态追踪器都可能变成 AI 工作队列。"
+      },
+      "takeaway": "做 AI 工具时要把等待设计成产品能力：状态可见、结果可追踪、任务可暂停、失败可恢复，而不是只优化 prompt。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Zara Zhang：AI 工作流的新瓶颈是人在等机器",
+          "url": "https://x.com/zarazhangrui/status/2081200367480738098"
+        },
+        {
+          "tag": "builders",
+          "ref": "Thibault Sottiaux：ChatGPT Work 活跃用户已超过 Codex",
+          "url": "https://x.com/thsottiaux/status/2081198608293187635"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt：CodexBar Lite 做 macOS 菜单栏 Codex 追踪",
+          "url": "https://www.producthunt.com/products/codexbar-lite"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt：PureBox.ai 做 Gmail 清理队列",
+          "url": "https://www.producthunt.com/products/purebox-ai"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-26-3",
+      "title": "开放权重不再是口号",
+      "angle": "把 Aaron Levie 的 Google 入场、Madhu Guru 的现实碰撞和 HuggingFace 热榜放在一起看：开放权重正在从理念变成产业博弈。",
+      "opening": "开放权重 AI 今天不再只是社区理想主义。Aaron Levie 说 Google 入场等于给开放权重盖了行业级背书，Madhu Guru 则提醒：共识不是讨论出来的，是 DeepSeek、GLM、Kimi、OpenAI-Hugging Face 这些现实撞出来的。",
+      "story_hook": {
+        "challenge": "开发者想要开放、可控、低成本，但大公司要考虑算力、分发、责任和地缘政治。",
+        "twist": "真正推动开放权重前进的，可能不是某份原则声明，而是一次次公开实验逼迫各方亮出底牌。"
+      },
+      "takeaway": "评估开放模型时，不能只看许可证和跑分，还要看分发渠道、生态支持、推理成本、治理承诺和企业可用性。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Aaron Levie：Google 入场是开放权重 AI 的关键转折",
+          "url": "https://x.com/levie/status/2081054531908247937"
+        },
+        {
+          "tag": "builders",
+          "ref": "Madhu Guru：开放权重共识来自现实碰撞",
+          "url": "https://x.com/realmadhuguru/status/2081141594892415028"
+        },
+        {
+          "tag": "pulse",
+          "ref": "HuggingFace Trending：prism-ml/Ternary-Bonsai-27B-gguf 本地量化信号",
+          "url": "https://huggingface.co/prism-ml/Ternary-Bonsai-27B-gguf"
+        },
+        {
+          "tag": "pulse",
+          "ref": "HuggingFace Trending：webml-community/bonsai-webgpu-kernels",
+          "url": "https://huggingface.co/spaces/webml-community/bonsai-webgpu-kernels"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-26-4",
+      "title": "Agent 安全不是科幻了",
+      "angle": "从 Peter Steinberger 的 12 子代理 QA，到 Google Trends 里 rogue agent 查询暴涨，写 agent 从炫技进入治理阶段。",
+      "opening": "Peter Steinberger 今天不是让一个 agent 写代码，而是用 12 个子代理、真实 API Key、多端口网关和压力测试去挖 200 个 bug。另一边，Google Trends 里 open ai rogue agent、ai agent goes rogue 这类词突然冒头。",
+      "story_hook": {
+        "challenge": "agent 越能干，越需要权限、环境、密钥和长期上下文；这些正是最容易出事故的地方。",
+        "twist": "真正有商业价值的可能不是更聪明的 agent，而是能审计、回放、限权、压测 agent 的基础设施。"
+      },
+      "takeaway": "团队上 agent 前要建立最小权限、沙箱、日志、审批流和回放机制，把“能跑”升级成“可控地跑”。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Peter Steinberger：用 12 个子代理做 OpenClaw 端到端 QA",
+          "url": "https://x.com/steipete/status/2081169376317932017"
+        },
+        {
+          "tag": "builders",
+          "ref": "Peter Steinberger：Codex 大规模并行 QA 暴露复杂行为问题",
+          "url": "https://x.com/steipete/status/2081169373784633552"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Google Trends：open ai rogue agent 关联查询 +2550",
+          "url": "https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub Trending：OmniRoute 强调 fallback、token 压缩和多 provider",
+          "url": "https://github.com/diegosouzapw/OmniRoute"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-26-5",
+      "title": "语音交互终于修好了",
+      "angle": "从 Thibault 的“电脑终于会有用地回应你”切入，结合移动端和多模态模型热度，写语音 AI 从玩具变成入口。",
+      "opening": "过去你一直能对电脑说话，只是它基本不会回你什么有用的东西。Thibault Sottiaux 说，现在这个 bug 被修掉了，而且真正的变化发生在手机上。",
+      "story_hook": {
+        "challenge": "语音助手失败多年，不是因为人不想说话，而是因为系统听完之后不会做事、不会接上下文。",
+        "twist": "当 ChatGPT App、移动端语音和多模态记录模型成熟后，语音可能不再是输入法，而是个人工作流的启动器。"
+      },
+      "takeaway": "开发者可以重新评估语音入口：优先做短任务、移动场景、上下文续接和可编辑结果，而不是复刻旧语音助手。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Thibault Sottiaux：电脑不会有用回应你的 bug 被修掉了",
+          "url": "https://x.com/thsottiaux/status/2081254182502465981"
+        },
+        {
+          "tag": "builders",
+          "ref": "Thibault Sottiaux：真正变化在移动端，ChatGPT App 已可用",
+          "url": "https://x.com/thsottiaux/status/2081229262452097169"
+        },
+        {
+          "tag": "pulse",
+          "ref": "HuggingFace Trending：thinkingmachines/Inkling 覆盖图像到文本与音频到文本",
+          "url": "https://huggingface.co/thinkingmachines/Inkling"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt：Wisprkey Mac AI assistant",
+          "url": "https://www.producthunt.com/products/wisprkey-mac-ai-assistant"
+        }
+      ]
+    }
+  ],
+  "notes": "今日强信号集中在 agent 基础设施、软件工厂、开放权重、AI 工作流等待和语音入口；独立开发者素材偏产品入口层，缺少明确收入数据。",
+  "generated_at": "2026-07-26T09:19:02+00:00",
+  "model": "gpt-5.5"
+}

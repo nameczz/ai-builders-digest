@@ -1,0 +1,419 @@
+{
+  "date": "2026-07-26",
+  "top3": [
+    "今天最值得关注的是代码智能体基础设施继续爆发，OmniRoute、code-review-graph、pi-web、Kimi CLI 等项目同时上榜，说明开发者正在补齐路由、上下文、Web UI 和本地执行层。",
+    "worldmonitor 以 12085 个周新增星标和 Google Trends +577.4% 成为非编码类最强信号，实时情报仪表盘正在从小众 OSINT 走向大众化产品机会。",
+    "HuggingFace 热点从大模型参数战转向可直接落地的 OCR、图像编辑、WebGPU、本地量化和语音交互，消费级 AI 应用的入口更偏工具化。"
+  ],
+  "intro": "今天的脉络很清楚：AI Builder 生态的注意力正在从单一聊天产品转向可组合的工作流基础设施。GitHub 上代码智能体工具高增长，Product Hunt 上 Mac、浏览器、邮箱和代理管理产品密集出现，而 Google Trends 则提醒我们，真正破圈的是具体问题词，而不是泛泛的 AI Agent 叙事。",
+  "sections": [
+    {
+      "id": "discovery",
+      "title": "发现机会",
+      "blocks": [
+        {
+          "id": "indie-products",
+          "heading": "今天有哪些独立开发者的新产品？",
+          "summary_md": "HN Show HN 今天只有一个高质量样本：[I mapped every US golf course](https://golfcoursebrowser.com/) 拿到 123 票、63 条评论，信号不是高尔夫本身，而是垂直数据地图依然能靠完整覆盖和可浏览体验获得开发者社区反馈。Product Hunt 侧则集中在个人效率和轻量 AI 工具：[PureBox.ai](https://www.producthunt.com/products/purebox-ai) 做 Gmail 清理，[CodexBar Lite](https://www.producthunt.com/products/codexbar-lite) 做 macOS 菜单栏 Codex 追踪，[SF Apartment Finder](https://www.producthunt.com/products/sf-apartment-finder) 把租房聚合做成滑卡体验，但原始数据未提供 PH 票数和评论数，所以这里不把它们当强排序依据。\n\n今天值得关注的是，独立产品不再只是在大模型外面包一层聊天框，而是在邮箱、菜单栏、浏览器标签、租房、Mac notch 这类高频入口里找小而硬的场景。对 Builder 来说，机会在于拿一个已有低频工具，加上实时数据、上下文理解或更轻的交互入口。",
+          "items": [
+            {
+              "title": "I mapped every US golf course",
+              "url": "https://golfcoursebrowser.com/",
+              "source": "HN",
+              "score": 123
+            },
+            {
+              "title": "PureBox.ai",
+              "url": "https://www.producthunt.com/products/purebox-ai",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "CodexBar Lite",
+              "url": "https://www.producthunt.com/products/codexbar-lite",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "SF Apartment Finder",
+              "url": "https://www.producthunt.com/products/sf-apartment-finder",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "垂直数据加高频入口，比泛 AI 包装更容易得到真实反馈。"
+        },
+        {
+          "id": "github-traction",
+          "heading": "GitHub 上哪些高增长开源项目还没有商业化？",
+          "summary_md": "本周最强的开源增长集中在 AI Agent 工程层：[bojieli/ai-agent-book](https://github.com/bojieli/ai-agent-book) 周增 16579 星、总星 20209，是一本开源书而非 SaaS；[mattpocock/skills](https://github.com/mattpocock/skills) 周增 11790 星、总星 188799，本质是工程师技能目录；[tirth8205/code-review-graph](https://github.com/tirth8205/code-review-graph) 周增 6423 星、总星 26472，做本地优先代码智能图谱。这些项目的共同点是用户价值明确，但商业包装仍不强。\n\n更接近可商业化的是 [OmniRoute](https://github.com/diegosouzapw/OmniRoute)，周增 11147 星、总星 30334，定位为一个端点连接 290+ 提供商和 500+ 模型，并强调免费、自动 fallback、token 压缩和 MCP/A2A。它已经有明显的网关产品形态，但开源声量与付费托管、团队策略、合规审计之间仍有空间。",
+          "items": [
+            {
+              "title": "bojieli/ai-agent-book",
+              "url": "https://github.com/bojieli/ai-agent-book",
+              "source": "GitHub",
+              "score": 16579
+            },
+            {
+              "title": "mattpocock/skills",
+              "url": "https://github.com/mattpocock/skills",
+              "source": "GitHub",
+              "score": 11790
+            },
+            {
+              "title": "diegosouzapw/OmniRoute",
+              "url": "https://github.com/diegosouzapw/OmniRoute",
+              "source": "GitHub",
+              "score": 11147
+            },
+            {
+              "title": "tirth8205/code-review-graph",
+              "url": "https://github.com/tirth8205/code-review-graph",
+              "source": "GitHub",
+              "score": 6423
+            }
+          ],
+          "takeaway": "最有机会商业化的不是模型本身，而是模型调用、上下文压缩和团队治理。"
+        }
+      ]
+    },
+    {
+      "id": "tech-stack",
+      "title": "技术选型",
+      "blocks": [
+        {
+          "id": "dev-tools",
+          "heading": "本周增长最快的开发者工具是什么？",
+          "summary_md": "开发者工具榜今天几乎被代码智能体基础设施占满：[OmniRoute](https://github.com/diegosouzapw/OmniRoute) 周增 11147 星，主打一个 endpoint 覆盖 290+ provider；[code-review-graph](https://github.com/tirth8205/code-review-graph) 周增 6423 星，把大型代码库压成可复用上下文图；[pi](https://github.com/earendil-works/pi) 周增 5167 星，覆盖统一 LLM API、agent loop、TUI 和 coding agent CLI；[jcode](https://github.com/1jehuang/jcode) 周增 2914 星，用 Rust 做 agent harness。\n\n这组信号说明，2026 年下半年的技术选型重点不是再选一个最强模型，而是选一个可替换模型、可记录上下文、可跑本地流程、可被团队审计的智能体运行时。对工程团队来说，应该优先评估路由层、上下文索引层和审查层，而不是把所有流程锁死在某个 IDE 插件里。",
+          "items": [
+            {
+              "title": "diegosouzapw/OmniRoute",
+              "url": "https://github.com/diegosouzapw/OmniRoute",
+              "source": "GitHub",
+              "score": 11147
+            },
+            {
+              "title": "tirth8205/code-review-graph",
+              "url": "https://github.com/tirth8205/code-review-graph",
+              "source": "GitHub",
+              "score": 6423
+            },
+            {
+              "title": "earendil-works/pi",
+              "url": "https://github.com/earendil-works/pi",
+              "source": "GitHub",
+              "score": 5167
+            },
+            {
+              "title": "1jehuang/jcode",
+              "url": "https://github.com/1jehuang/jcode",
+              "source": "GitHub",
+              "score": 2914
+            }
+          ],
+          "takeaway": "代码智能体栈正在从 IDE 插件升级为可组合运行时。"
+        },
+        {
+          "id": "hf-models",
+          "heading": "HuggingFace 上最热的模型能做什么消费级产品？",
+          "summary_md": "HuggingFace 今天的消费级线索很实用：[baidu/Unlimited-OCR](https://huggingface.co/baidu/Unlimited-OCR) trending score 969、下载 2593460、点赞 3140，适合做票据、教材、合同和截图知识库入口；[thinkingmachines/Inkling](https://huggingface.co/thinkingmachines/Inkling) score 418，覆盖图像到文本与音频到文本，适合做多模态记录助手；[microsoft/Mage-Flow](https://huggingface.co/microsoft/Mage-Flow) score 290，配合 [microsoft/mage-flow Space](https://huggingface.co/spaces/microsoft/mage-flow) score 52，可以做轻量图像生成和编辑工具。\n\n更底层的信号来自本地化：[prism-ml/Ternary-Bonsai-27B-gguf](https://huggingface.co/prism-ml/Ternary-Bonsai-27B-gguf) 下载 631970，标签里明确写 on-device、2-bit、llama.cpp；[webml-community/bonsai-webgpu-kernels](https://huggingface.co/spaces/webml-community/bonsai-webgpu-kernels) Space score 113。消费应用如果能把 OCR、图像编辑和本地推理做进浏览器或桌面端，隐私和成本都会变成卖点。",
+          "items": [
+            {
+              "title": "baidu/Unlimited-OCR",
+              "url": "https://huggingface.co/baidu/Unlimited-OCR",
+              "source": "HuggingFace",
+              "score": 969
+            },
+            {
+              "title": "thinkingmachines/Inkling",
+              "url": "https://huggingface.co/thinkingmachines/Inkling",
+              "source": "HuggingFace",
+              "score": 418
+            },
+            {
+              "title": "microsoft/Mage-Flow",
+              "url": "https://huggingface.co/microsoft/Mage-Flow",
+              "source": "HuggingFace",
+              "score": 290
+            },
+            {
+              "title": "webml-community/bonsai-webgpu-kernels",
+              "url": "https://huggingface.co/spaces/webml-community/bonsai-webgpu-kernels",
+              "source": "HuggingFace",
+              "score": 113
+            }
+          ],
+          "takeaway": "OCR、多模态记录和本地 WebGPU 推理，是今天最容易转成消费产品的模型能力。"
+        },
+        {
+          "id": "show-hn",
+          "heading": "Show HN 高关注项目用的什么技术栈？",
+          "summary_md": "[I mapped every US golf course](https://golfcoursebrowser.com/) 的 HN 数据只有产品页，没有仓库和技术栈字段，但从产品形态可以判断它的核心不是炫技，而是数据完整性、地图浏览、筛选和前端性能。123 票、63 评论对一个高尔夫地图站来说已经足够说明，开发者社区愿意奖励把公开数据清洗成可探索界面的项目。\n\n这里对 Builder 的技术选型启发是：如果你的产品依赖地理、目录、榜单、交易或政策数据，不要一开始就上复杂 Agent。先把爬取、归一化、去重、地图或列表交互做扎实，再用 AI 做摘要、异常发现、个性化筛选。技术栈的壁垒在数据管线和索引，而不在页面上有没有聊天框。",
+          "items": [
+            {
+              "title": "I mapped every US golf course",
+              "url": "https://golfcoursebrowser.com/",
+              "source": "HN",
+              "score": 123
+            }
+          ],
+          "takeaway": "垂直数据产品的第一技术壁垒是数据质量，不是生成式界面。"
+        }
+      ]
+    },
+    {
+      "id": "competition",
+      "title": "竞争情报",
+      "blocks": [
+        {
+          "id": "migrations",
+          "heading": "有没有迁移类文章或替代品信号？",
+          "summary_md": "今天没有 HN 中明确的「XX is dead」或迁移文章，但 Google Trends 给了替代品需求：[cursor alternative](https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d) 上升 +92.6%，同时 [codex cli](https://trends.google.com/trends/explore?q=codex+cli&date=now+7-d) 下降 -14.5%，[codex](https://trends.google.com/trends/explore?q=codex&date=now+7-d) 下降 -18.6%。这不是简单的某个工具衰退，更像开发者开始比较多套 coding agent 入口。\n\nGitHub 榜单也支持这个判断：Kimi Code、Kimi CLI、pi、jcode、OmniRoute、code-review-graph 同时出现，说明竞争已经从单点代码补全转向完整工作流。谁能让用户保留上下文、切换模型、降低 token 成本、接入已有 CLI 和编辑器，谁就能吃到迁移需求。",
+          "items": [
+            {
+              "title": "cursor alternative",
+              "url": "https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 92
+            },
+            {
+              "title": "MoonshotAI/kimi-code",
+              "url": "https://github.com/MoonshotAI/kimi-code",
+              "source": "GitHub",
+              "score": 1534
+            },
+            {
+              "title": "earendil-works/pi",
+              "url": "https://github.com/earendil-works/pi",
+              "source": "GitHub",
+              "score": 5167
+            }
+          ],
+          "takeaway": "代码工具的竞争焦点正在变成可迁移性和多模型控制权。"
+        },
+        {
+          "id": "comebacks",
+          "heading": "有没有沉寂的老项目突然复活？",
+          "summary_md": "今天没有明确的老项目复活新闻，但有一类复古交互正在回潮：[permissionlesstech/bitchat](https://github.com/permissionlesstech/bitchat) 日榜周增 1720 星、总星 29012，描述是 bluetooth mesh chat、IRC vibes。它不是传统 AI 产品，却在一堆 Agent 工具里突出，说明离线、近场、无需中心服务器的通信方式重新获得关注。\n\n这对竞争情报的意义在于，AI 工具越依赖云端模型、浏览器登录态和复杂权限，用户越会对离线、本地、低权限方案敏感。同样的心理也出现在 Product Hunt 的 [TouchGrass](https://www.producthunt.com/products/touchgrass-2) 和 [PureBox.ai](https://www.producthunt.com/products/purebox-ai)：一个强调无侵入权限，一个强调 review-first Gmail 清理。",
+          "items": [
+            {
+              "title": "permissionlesstech/bitchat",
+              "url": "https://github.com/permissionlesstech/bitchat",
+              "source": "GitHub",
+              "score": 1720
+            },
+            {
+              "title": "TouchGrass",
+              "url": "https://www.producthunt.com/products/touchgrass-2",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "PureBox.ai",
+              "url": "https://www.producthunt.com/products/purebox-ai",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "当 AI 工具越来越重，低权限和离线体验反而会变成差异化。"
+        }
+      ]
+    },
+    {
+      "id": "trends",
+      "title": "趋势判断",
+      "blocks": [
+        {
+          "id": "keywords",
+          "heading": "本周技术关键词频率有什么变化？",
+          "summary_md": "最强上升词是 [worldmonitor](https://trends.google.com/trends/explore?q=worldmonitor&date=now+7-d) +577.4%，并且关联查询出现 github worldmonitor；GitHub 上 [koala73/worldmonitor](https://github.com/koala73/worldmonitor) 周增 12085 星、总星 74349，说明实时全球情报仪表盘不只是开发者收藏，而是搜索侧也在扩散。第二个明显上升词是 [cursor alternative](https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d) +92.6%，对应 GitHub 里多款 coding agent 和 agent harness 的集中上榜。\n\n较弱但值得盯的是 [code review graph](https://trends.google.com/trends/explore?q=code+review+graph&date=now+7-d) +42.4%，它与 [tirth8205/code-review-graph](https://github.com/tirth8205/code-review-graph) 周增 6423 星相互印证。相比泛词 [ai agent](https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d) -12.2%，真正上涨的是具体到产品名、替代需求和工程痛点的词。",
+          "items": [
+            {
+              "title": "worldmonitor",
+              "url": "https://trends.google.com/trends/explore?q=worldmonitor&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 577
+            },
+            {
+              "title": "cursor alternative",
+              "url": "https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 92
+            },
+            {
+              "title": "code review graph",
+              "url": "https://trends.google.com/trends/explore?q=code+review+graph&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 42
+            }
+          ],
+          "takeaway": "搜索热度从抽象 AI Agent 转向具体替代品、具体项目和具体工程问题。"
+        },
+        {
+          "id": "vc-radar",
+          "heading": "VC 和 YC 在关注什么主题？",
+          "summary_md": "综合今天的数据，VC 和 YC 最该盯三条线：第一是 Agent Infra，[OmniRoute](https://github.com/diegosouzapw/OmniRoute) 周增 11147 星，[pi](https://github.com/earendil-works/pi) 周增 5167 星，[Velane](https://www.producthunt.com/products/velane) 做 AI Agent 工具和函数云；第二是垂直情报系统，[worldmonitor](https://trends.google.com/trends/explore?q=worldmonitor&date=now+7-d) +577.4%，说明实时情报、地缘监控和基础设施追踪有新的大众入口；第三是本地优先生产力，[CodexBar Lite](https://www.producthunt.com/products/codexbar-lite)、[Second Brain for Mac and Windows](https://www.producthunt.com/products/second-brain-cloudflare)、[bitchat](https://github.com/permissionlesstech/bitchat) 都在强调桌面、本地或隐私。\n\n这类项目的共性是，它们不卖一个更聪明的模型，而是卖控制面板、记忆层、路由层、执行层和可信权限边界。对早期公司来说，这比直接做通用 Agent 更容易找到付费用户和组织采购理由。",
+          "items": [
+            {
+              "title": "OmniRoute",
+              "url": "https://github.com/diegosouzapw/OmniRoute",
+              "source": "GitHub",
+              "score": 11147
+            },
+            {
+              "title": "worldmonitor",
+              "url": "https://trends.google.com/trends/explore?q=worldmonitor&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 577
+            },
+            {
+              "title": "Velane",
+              "url": "https://www.producthunt.com/products/velane",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "下一批可投机会更像 Agent 控制平面，而不是又一个聊天入口。"
+        },
+        {
+          "id": "cooling",
+          "heading": "哪些 AI 热词在降温？",
+          "summary_md": "降温最明显的是泛化词和上一代入口：[jcode](https://trends.google.com/trends/explore?q=jcode&date=now+7-d) -46.1%，[self hosted](https://trends.google.com/trends/explore?q=self+hosted&date=now+7-d) -23.1%，[codex](https://trends.google.com/trends/explore?q=codex&date=now+7-d) -18.6%，[ai agent book](https://trends.google.com/trends/explore?q=ai+agent+book&date=now+7-d) -17.4%，[codex cli](https://trends.google.com/trends/explore?q=codex+cli&date=now+7-d) -14.5%，[ai agent](https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d) -12.2%。这不是说这些主题不重要，而是它们的搜索意图正在被更具体的新词拆分。\n\n真正的风险是继续用宽泛 AI Agent 定位产品。用户现在会搜 cursor alternative、free claude code、kimi cli、pi agent web ui、open code 这类更明确的替代、价格和使用问题。Builder 的文案也该从「你的 AI Agent」改成「帮你节省 token 的模型路由」、「可本地索引的大仓库代码审查」或「不打扰你的浏览器自动化」。",
+          "items": [
+            {
+              "title": "jcode",
+              "url": "https://trends.google.com/trends/explore?q=jcode&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": -46
+            },
+            {
+              "title": "self hosted",
+              "url": "https://trends.google.com/trends/explore?q=self+hosted&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": -23
+            },
+            {
+              "title": "ai agent",
+              "url": "https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": -12
+            }
+          ],
+          "takeaway": "泛 AI 叙事降温，具体替代需求和具体工作流痛点升温。"
+        },
+        {
+          "id": "new-radar",
+          "heading": "新词雷达：有哪些从零起飞的新概念？",
+          "summary_md": "今天最值得盯的新词不是主查询，而是 rising 和 breakouts：[omniroute](https://trends.google.com/trends/explore?q=omniroute&date=now+7-d) 的关联查询里出现 palmier pro +27050、cerebras +25200、free claude code +70、cloudflare ai +60、open code +60；[ai agent](https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d) 虽然主词 -12.2%，但关联查询里 open ai rogue agent +2550、ai agent goes rogue +2400、rogue ai agent +850 突然冒头。\n\n这说明市场在形成两个新雷达：一个是低成本高算力和免费额度相关的模型路由词，另一个是 Agent 安全和失控叙事。前者适合做模型网关、额度监控、团队成本看板；后者适合做 Agent sandbox、审批流、行为审计和回放工具。不要只看主词涨跌，rising 查询往往更像当天的早期需求样本。",
+          "items": [
+            {
+              "title": "palmier pro",
+              "url": "https://trends.google.com/trends/explore?q=omniroute&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 27050
+            },
+            {
+              "title": "cerebras",
+              "url": "https://trends.google.com/trends/explore?q=omniroute&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 25200
+            },
+            {
+              "title": "open ai rogue agent",
+              "url": "https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 2550
+            }
+          ],
+          "takeaway": "新词雷达指向两类机会：免费模型路由和 Agent 安全治理。"
+        }
+      ]
+    },
+    {
+      "id": "actions",
+      "title": "行动触发",
+      "blocks": [
+        {
+          "id": "weekend-build",
+          "heading": "今天 2 小时和一个周末分别做什么？",
+          "summary_md": "2 小时版本：选一个高频但低智能化的个人入口，做一个只解决单点痛苦的小工具。可选方向包括 Gmail 清理队列，参考 [PureBox.ai](https://www.producthunt.com/products/purebox-ai)；macOS 菜单栏状态追踪，参考 [CodexBar Lite](https://www.producthunt.com/products/codexbar-lite)；或者把某个垂直公开数据集做成可筛选地图，参考 HN 123 票、63 评论的 [I mapped every US golf course](https://golfcoursebrowser.com/)。\n\n一个周末版本：做一个面向 AI Builder 的成本与上下文控制面板。接入 2 到 3 个模型 provider，记录每次调用的 token、失败、fallback 和上下文来源，再用本地索引给代码库生成简易 review graph。灵感来自 [OmniRoute](https://github.com/diegosouzapw/OmniRoute) 周增 11147 星和 [code-review-graph](https://github.com/tirth8205/code-review-graph) 周增 6423 星。",
+          "items": [
+            {
+              "title": "PureBox.ai",
+              "url": "https://www.producthunt.com/products/purebox-ai",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "I mapped every US golf course",
+              "url": "https://golfcoursebrowser.com/",
+              "source": "HN",
+              "score": 123
+            },
+            {
+              "title": "OmniRoute",
+              "url": "https://github.com/diegosouzapw/OmniRoute",
+              "source": "GitHub",
+              "score": 11147
+            }
+          ],
+          "takeaway": "今天最适合动手的是小入口工具，周末可以升级成 Agent 控制面板。"
+        },
+        {
+          "id": "pricing-models",
+          "heading": "值得学习的定价和变现模式有哪些？",
+          "summary_md": "今天没有 HN 的 MRR、ARR、pricing、subscription 或 revenue 讨论，但产品形态已经暗示了几种可学模式。第一类是本地工具 freemium，比如 [CodexBar Lite](https://www.producthunt.com/products/codexbar-lite)、[Wisprkey](https://www.producthunt.com/products/wisprkey-mac-ai-assistant)、[Second Brain for Mac and Windows](https://www.producthunt.com/products/second-brain-cloudflare)，适合按设备、同步、历史记录和高级自动化收费。第二类是用量型基础设施，比如 [Velane](https://www.producthunt.com/products/velane) 和 [OmniRoute](https://github.com/diegosouzapw/OmniRoute)，可按调用、团队席位、审计日志、私有部署收费。\n\n第三类是垂直数据订阅，[worldmonitor](https://trends.google.com/trends/explore?q=worldmonitor&date=now+7-d) +577.4% 和 GitHub 周增 12085 星说明，实时情报看板可以从免费开源版本切到 alerts、历史查询、团队协作和专业数据源。今天不该学的是单纯卖 prompt，而是把权限、数据、监控和团队工作流做成收费边界。",
+          "items": [
+            {
+              "title": "CodexBar Lite",
+              "url": "https://www.producthunt.com/products/codexbar-lite",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "Velane",
+              "url": "https://www.producthunt.com/products/velane",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "worldmonitor",
+              "url": "https://trends.google.com/trends/explore?q=worldmonitor&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 577
+            }
+          ],
+          "takeaway": "最清晰的收费边界是同步、审计、调用量、团队协作和专业数据源。"
+        },
+        {
+          "id": "counterintuitive",
+          "heading": "今天最反直觉的发现是什么？",
+          "summary_md": "最反直觉的是，热度最高的 AI Builder 信号并不来自最新大模型，而来自把模型变得可控的外围层。HuggingFace 上当然有 [baidu/Unlimited-OCR](https://huggingface.co/baidu/Unlimited-OCR) 这种 score 969 的强模型，也有 [poolside/Laguna-S-2.1](https://huggingface.co/poolside/Laguna-S-2.1) score 652、[upstage/Solar-Open2-250B](https://huggingface.co/upstage/Solar-Open2-250B) score 495 的大模型，但 GitHub 更强的增长集中在书、技能、路由、上下文图和 agent harness。\n\n这意味着 Builder 的落点不必和模型公司正面竞争。更好的机会是把不稳定的模型能力包装成稳定工作流：什么时候走哪个 provider，失败怎么 fallback，代码库读哪些上下文，输出如何审查，权限怎么限制，成本如何归因。用户真正买单的不是模型参数，而是可重复、可解释、可控的结果。",
+          "items": [
+            {
+              "title": "baidu/Unlimited-OCR",
+              "url": "https://huggingface.co/baidu/Unlimited-OCR",
+              "source": "HuggingFace",
+              "score": 969
+            },
+            {
+              "title": "mattpocock/skills",
+              "url": "https://github.com/mattpocock/skills",
+              "source": "GitHub",
+              "score": 11790
+            },
+            {
+              "title": "code-review-graph",
+              "url": "https://github.com/tirth8205/code-review-graph",
+              "source": "GitHub",
+              "score": 6423
+            }
+          ],
+          "takeaway": "不要和模型比聪明，要帮用户把聪明变成稳定交付。"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2026-07-26T09:17:57+00:00",
+  "reddit_highlights": []
+}
