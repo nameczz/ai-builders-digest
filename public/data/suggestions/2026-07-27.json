@@ -1,0 +1,148 @@
+{
+  "date": "2026-07-27",
+  "items": [
+    {
+      "id": "2026-07-27-1",
+      "title": "别再用 Token 量骗自己",
+      "angle": "把 AI 采用率从成本指标改成交付指标：需求从出现到上线到底缩短了多少。",
+      "opening": "今天最值得警惕的指标，不是你们公司这个月烧了多少 token，而是一个用户需求从提出到上线还要几天。Zara Zhang 直接点破：token 消耗只能说明你在调用模型，不能说明产品真的变快了。",
+      "story_hook": {
+        "challenge": "企业和团队都在用 token、调用量、席位数证明 AI 采用，但这些指标可能只是成本膨胀。",
+        "twist": "真正能衡量 AI 价值的，反而是一个更朴素的工程指标：需求交付周期。"
+      },
+      "takeaway": "团队可以把 AI ROI 看板改成“需求响应时间、上线周期、返工率”，而不是只看模型调用量。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Zara Zhang：别用 token 衡量 AI 采用率，要看需求到上线耗时",
+          "url": "https://x.com/zarazhangrui/status/2081627581997269192"
+        },
+        {
+          "tag": "builders",
+          "ref": "Aaron Levie：AI 进企业难在反馈回路、数据系统、决策 UX 和合规约束",
+          "url": "https://x.com/levie/status/2081491621162668207"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub Agent 基建项目增长：code-review-graph、OmniRoute、ego-lite",
+          "url": "https://github.com/tirth8205/code-review-graph"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-27-2",
+      "title": "Agent 最大门槛是信任",
+      "angle": "从普通用户的反应切入：大家不是不会用 ChatGPT，而是不敢把 Gmail、日历和 Office 交出去。",
+      "opening": "AI 圈每天都在讨论 Agent 能不能完成任务，但圈外人问的是另一个问题：我凭什么信任它？Peter Yang 回加拿大后发现，真正的阻力不是 token 或模型能力，而是 Gmail、日历、Workspace、Office 这些权限能不能放心交出去。",
+      "story_hook": {
+        "challenge": "Agent 产品想接管工作流，就必须拿到用户最敏感的数据和账号权限。",
+        "twist": "最有商业机会的可能不是更聪明的 Agent，而是让 Agent 可审计、可隔离、可撤销的信任层。"
+      },
+      "takeaway": "做 Agent 产品时，优先设计权限边界、审计日志、数据保留策略和人工确认点，这些会比多接一个模型更影响转化。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Peter Yang：用户真正担心的是能否信任 ChatGPT 接管 Gmail、日历和办公套件",
+          "url": "https://x.com/petergyang/status/2081555286817648738"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Rivault：安全存储 Agent 数据与上下文",
+          "url": "https://www.producthunt.com/products/rivault"
+        },
+        {
+          "tag": "pulse",
+          "ref": "citrolabs/ego-lite：把登录态浏览器共享给 Codex 或 Claude Code",
+          "url": "https://github.com/citrolabs/ego-lite"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-27-3",
+      "title": "开源权重不是滥用入口",
+      "angle": "反驳“开放模型更危险”的单线叙事：攻击者可能更爱用被补贴的大厂订阅。",
+      "opening": "今天关于开放权重的争论，有一个很反直觉的角度：真正被滥用最多的，未必是开源模型。Amjad Masad 转述前 Anthropic 员工的爆料称，黑客攻击时更爱薅大厂实验室被巨额补贴的 AI 订阅。",
+      "story_hook": {
+        "challenge": "监管和舆论常把开放权重当成 AI 安全风险的核心入口。",
+        "twist": "如果攻击者更偏好便宜、强大、稳定的大厂订阅，那么问题就从“开源是否危险”变成“补贴型闭源 API 如何治理”。"
+      },
+      "takeaway": "讨论 AI 安全时要区分模型开放性、访问成本、账号治理和滥用监控，不要把所有风险都归因于开源。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Amjad Masad：黑客更爱薅大厂 AI 订阅，而不是用开源模型",
+          "url": "https://x.com/amasad/status/2081576172656456076"
+        },
+        {
+          "tag": "builders",
+          "ref": "Guillermo Rauch：Vercel 背书开放权重与美国 AI 领导力公开信",
+          "url": "https://x.com/rauchg/status/2081546513885622760"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Kimi-K3 同日登上 HN 与 HuggingFace",
+          "url": "https://huggingface.co/moonshotai/Kimi-K3"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-27-4",
+      "title": "AI CLI 要变成原生小工具",
+      "angle": "从 Vercel CLI 的 1.28MB 二进制切入，讲 AI 工程化正在追求低启动成本和本地分发。",
+      "opening": "一个 1.28MB、启动开销 1.5ms 的 Vercel CLI，比很多大模型 Demo 更值得开发者盯住。Guillermo Rauch 展示的不是炫技，而是一个信号：AI 工具链要进入日常工作流，最后必须像原生命令行工具一样轻。",
+      "story_hook": {
+        "challenge": "现在很多 AI 开发工具依赖重运行时、复杂环境和慢启动，难以成为高频基础设施。",
+        "twist": "LLM 不只是在写代码，还开始参与把 TypeScript 工具翻译、压缩、交付成原生二进制。"
+      },
+      "takeaway": "开发者工具选型可以重新关注冷启动、安装体积、离线可用性和部署形态，因为这些决定 Agent 工具能否每天被反复调用。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Guillermo Rauch：Vercel CLI 编成本地静态二进制，1.28MB、1.5ms 启动",
+          "url": "https://x.com/rauchg/status/2081517519303737559"
+        },
+        {
+          "tag": "pulse",
+          "ref": "OmniRoute：一个端点接入 290+ providers 与 500+ models",
+          "url": "https://github.com/diegosouzapw/OmniRoute"
+        },
+        {
+          "tag": "pulse",
+          "ref": "localskills.sh：面向团队的本地 Agent 技能与工作流",
+          "url": "https://www.producthunt.com/products/localskills-sh"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-27-5",
+      "title": "教程爆火说明产品太难用",
+      "angle": "把教程泛滥和 ai-agent-book 暴涨放在一起看：教育内容是在替产品补交互债。",
+      "opening": "当一个 AI 教程项目一周涨 15909 stars，别只说开发者爱学习。Zara Zhang 的判断更狠：教程泛滥的根本原因，是通用聊天产品太难用，用户面对空白输入框不知道该问什么。",
+      "story_hook": {
+        "challenge": "AI 公司以为给用户一个万能输入框就是自由，但用户实际得到的是选择困难。",
+        "twist": "最受欢迎的教程和工程实践，可能不是内容生意，而是在暴露产品入口设计失败。"
+      },
+      "takeaway": "做 AI 产品时少依赖 prompt 教程，多把任务模板、上下文预设和可点击工作流做进产品本身。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Zara Zhang：AI 教程泛滥是因为通用聊天产品越通用越难用",
+          "url": "https://x.com/zarazhangrui/status/2081627109299310684"
+        },
+        {
+          "tag": "pulse",
+          "ref": "bojieli/ai-agent-book：GitHub 周榜一周新增 15909 stars",
+          "url": "https://github.com/bojieli/ai-agent-book"
+        },
+        {
+          "tag": "pulse",
+          "ref": "PGSimCity：HN 556 points，用可视化解释 PostgreSQL 原理",
+          "url": "https://nikolays.github.io/PGSimCity/"
+        }
+      ]
+    }
+  ],
+  "notes": "今日主线不是模型单点突破，而是 Agent 从聊天框迁移到可信权限、上下文托管、本地工具链和可复用工程实践。适合写给开发者的角度是：别追概念，追交付周期、信任边界和工作流摩擦。",
+  "generated_at": "2026-07-27T10:03:21+00:00",
+  "model": "gpt-5.5"
+}
