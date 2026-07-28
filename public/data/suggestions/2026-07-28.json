@@ -1,0 +1,148 @@
+{
+  "date": "2026-07-28",
+  "items": [
+    {
+      "id": "2026-07-28-1",
+      "title": "别再按 token 算成本",
+      "angle": "从 Swyx 对 token 计价的否定切入，写 Agent 产品真正该按任务成本和业务结果来评估。",
+      "opening": "Swyx 今天直接把话说死：还拿输入输出 token 当成本横轴，就别谈严肃分析。另一边，Product Hunt 上的垂直 Agent 已经在做雇佣验证、酒店运营、电话短信活动，它们天然不是按 token 收费的生意。",
+      "story_hook": {
+        "challenge": "开发者习惯优化 token 单价，但客户真正买的是一个任务有没有被完成。",
+        "twist": "越像真实业务流程的 Agent，越不该按 AI 成本定价，而应该按验证成功、座席替代或流程完成收费。"
+      },
+      "takeaway": "做 Agent 产品时，把成本表从 token 改成任务：每次完成、失败、人工介入、回放和客户可感知 ROI。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Swyx 认为 AI 成本应按每个任务评估",
+          "url": "https://x.com/swyx/status/2081904230768816487"
+        },
+        {
+          "tag": "pulse",
+          "ref": "ProductHunt 上 Superunit、Conduit、Leaping AI 的垂直 Agent 定价信号",
+          "url": "https://www.producthunt.com/products/superunit"
+        },
+        {
+          "tag": "pulse",
+          "ref": "OmniRoute 周增 11057 星，强调多模型路由和成本控制",
+          "url": "https://github.com/diegosouzapw/OmniRoute"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-28-2",
+      "title": "Agent 已经开始替你上班",
+      "angle": "从 Peter Yang 骑车时让 Codex 远程改视频写起，讨论 AI 主界面正在从聊天框变成工作流控制台。",
+      "opening": "Peter Yang 人在骑车，Codex 在电脑上改视频、导出、发 Slack，还每 30 分钟看反馈迭代 V2/V3/V4。Nikunj 则把 Claude Code 当两周旅行的主界面，用完后还让它复盘下一次怎么做得更好。",
+      "story_hook": {
+        "challenge": "过去 AI 工具像副驾驶，必须等人不断输入下一步。",
+        "twist": "现在最有价值的用法，反而发生在人离开电脑之后：Agent 接管执行、反馈和迭代。"
+      },
+      "takeaway": "评估 Agent 产品时，别只看一次回答质量，要看它能不能持续跑完一个闭环：执行、观察反馈、修正、交付。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Peter Yang 骑车时用 Codex 远程完成视频迭代",
+          "url": "https://x.com/petergyang/status/2081775399097549083"
+        },
+        {
+          "tag": "builders",
+          "ref": "Nikunj Kothari 用 Claude Code 管理旅行并复盘",
+          "url": "https://x.com/nikunj/status/2081992618649547100"
+        },
+        {
+          "tag": "pulse",
+          "ref": "ProductHunt Phantom 做语音优先 Mac Agent",
+          "url": "https://www.producthunt.com/products/phantom-6"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-28-3",
+      "title": "开源模型赢在所有权",
+      "angle": "把 Aaron Levie 的“K3 权重到了”和 HN 对 open model 的讨论放在一起，写开源模型的新卖点不是便宜，而是可控感。",
+      "opening": "Aaron Levie 说，K3 权重能下载的那一刻，才算真正开局。HN 上今天也有一篇文章拿到 272 分：使用开源模型的体验，竟然意外地好。",
+      "story_hook": {
+        "challenge": "很多人仍把开源模型理解成闭源模型的廉价替代。",
+        "twist": "真正让开发者动心的不是省钱，而是模型可以下载、替换、本地化，并成为自己系统的一部分。"
+      },
+      "takeaway": "如果你在做 AI 应用，应该重新评估模型策略：哪些能力必须闭源前沿，哪些能力可以用开源模型换取可控性和信任。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Aaron Levie 评价 K3 权重发布",
+          "url": "https://x.com/levie/status/2081760710108012702"
+        },
+        {
+          "tag": "pulse",
+          "ref": "HN: Using an open model feels surprisingly good",
+          "url": "https://matthewsaltz.com/blog/using-an-open-model-feels-surprisingly-good/"
+        },
+        {
+          "tag": "pulse",
+          "ref": "HuggingFace moonshotai/Kimi-K3 trending_score 6744",
+          "url": "https://huggingface.co/moonshotai/Kimi-K3"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-28-4",
+      "title": "Agent 上生产先换沙箱",
+      "angle": "从 Kimi 论文暴露的宿主机风险切入，写 Agent 工程化的下一道门槛不是模型能力，而是隔离和审计。",
+      "opening": "Guillermo Rauch 今天转述了一个刺眼结论：容器级隔离不够，智能体实验里甚至能把宿主机搞到内核崩溃。与此同时，GitHub 周榜被 Agent 教程、技能库、网关和代码图谱占据，说明大家正在把 Agent 往真实系统里塞。",
+      "story_hook": {
+        "challenge": "开发者想让 Agent 自动执行代码、读写文件、调用工具，但这些能力越强，越像一个生产事故入口。",
+        "twist": "问题不在于 Agent 会不会犯错，而在于你有没有把它当不可信程序隔离起来。"
+      },
+      "takeaway": "上线 Agent 前先补三件事：microVM 级隔离、请求回放、权限和文件访问审计；别只在 prompt 上做安全感。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Guillermo Rauch 讨论 Kimi 论文中的 Agent 隔离问题",
+          "url": "https://x.com/rauchg/status/2081842439304995169"
+        },
+        {
+          "tag": "pulse",
+          "ref": "bojieli/ai-agent-book 周增 13627 星",
+          "url": "https://github.com/bojieli/ai-agent-book"
+        },
+        {
+          "tag": "pulse",
+          "ref": "tirth8205/code-review-graph 周增 4577 星",
+          "url": "https://github.com/tirth8205/code-review-graph"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-28-5",
+      "title": "AI 没裁员，但改了岗位",
+      "angle": "用 Aaron Levie 对大规模失业论的反驳，连接今日垂直 Agent 产品，写企业真正变化是岗位重心和流程边界。",
+      "opening": "Aaron Levie 今天反驳了一个常见判断：AI 造成的大规模失业并没有像预言那样发生。企业还在招人，只是岗位重心变了，AI 让他们能做以前做不了的事。",
+      "story_hook": {
+        "challenge": "很多公司把 AI 当裁员降本工具，短期看像效率提升。",
+        "twist": "更危险的竞争者不是少雇几个人，而是用 AI 做出以前根本做不了的客户服务和业务流程。"
+      },
+      "takeaway": "分析 AI 对组织的影响时，少问“替代了谁”，多问“原来做不了的哪段流程现在能做了”。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Aaron Levie 认为 AI 没有带来预言式大规模失业",
+          "url": "https://x.com/levie/status/2081930301752942703"
+        },
+        {
+          "tag": "pulse",
+          "ref": "ProductHunt Conduit 做 Hospitality 专用 Agent",
+          "url": "https://www.producthunt.com/products/conduit-ai"
+        },
+        {
+          "tag": "pulse",
+          "ref": "ProductHunt Leaping AI 做多日电话短信活动",
+          "url": "https://www.producthunt.com/products/leaping-ai"
+        }
+      ]
+    }
+  ],
+  "notes": "今日主线很清楚：Agent 不再停留在演示，而是在进入工作流、定价、隔离和组织结构。素材里独立开发者营收数据较少，选题应避免硬写 MRR，改写任务成本和业务结果。",
+  "generated_at": "2026-07-28T10:03:37+00:00",
+  "model": "gpt-5.5"
+}

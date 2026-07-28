@@ -1,0 +1,297 @@
+{
+  "date": "2026-07-28",
+  "top3": [
+    "今天最值得关注的是开源模型体验正在从可用走向舒服，HN 文章 [Using an open model feels surprisingly good](https://matthewsaltz.com/blog/using-an-open-model-feels-surprisingly-good/) 拿到 272 分和 93 条评论。",
+    "GitHub 周榜被 AI Agent 工程化占据，[bojieli/ai-agent-book](https://github.com/bojieli/ai-agent-book) 周增 13627 星，[diegosouzapw/OmniRoute](https://github.com/diegosouzapw/OmniRoute) 周增 11057 星，说明学习、网关、上下文控制正在成为刚需。",
+    "HuggingFace 热点从纯聊天模型转向多模态与本地能力，[moonshotai/Kimi-K3](https://huggingface.co/moonshotai/Kimi-K3) trending_score 6744，[baidu/Unlimited-OCR](https://huggingface.co/baidu/Unlimited-OCR) 下载 2694935 次，消费级入口更偏文档、视觉和自动化。"
+  ],
+  "intro": "今天的主线不是又一个大模型发布，而是 Builder 能否把模型接入真实工作流：开源模型体验、Agent 技能、AI 网关、代码审查、OCR 与本地 TTS 都在增长。机会更像基础设施的小切口，而不是单纯包装聊天框。",
+  "sections": [
+    {
+      "id": "discovery",
+      "title": "发现机会",
+      "blocks": [
+        {
+          "id": "indie-products",
+          "heading": "今天有哪些独立开发者的新产品？",
+          "summary_md": "今天 HN Show HN 没有采集到项目，Product Hunt 则集中在 Agent、桌面自动化与创作者工具，但原始数据未提供票数和评论数。值得看的是 [Firstpass](https://www.producthunt.com/products/glaze-4) 帮 Launch 做可执行反馈，[Phantom](https://www.producthunt.com/products/phantom-6) 做语音优先 Mac Agent，[TinyBridge](https://www.producthunt.com/products/tinybridge) 把 Mac 上的 Linux GUI 变成轻量 VM 入口。这里的共同点是，它们都把 AI 放进具体工作流，而不是做泛用助手。",
+          "items": [
+            {
+              "title": "Firstpass",
+              "url": "https://www.producthunt.com/products/glaze-4",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "Phantom",
+              "url": "https://www.producthunt.com/products/phantom-6",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "TinyBridge",
+              "url": "https://www.producthunt.com/products/tinybridge",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "今天的新产品机会在于把 Agent 嵌进一个高频窄场景。"
+        },
+        {
+          "id": "github-traction",
+          "heading": "GitHub 上哪些高增长开源项目还没有商业化？",
+          "summary_md": "GitHub 周榜显示，Agent 周边工具仍有大量未被产品化的开口：[bojieli/ai-agent-book](https://github.com/bojieli/ai-agent-book) 周增 13627 星、总星 23721，说明系统化 Agent 工程教育还在缺教材和训练营；[mattpocock/skills](https://github.com/mattpocock/skills) 周增 12682 星，把「给 Agent 装技能」变成可复制资产；[tirth8205/code-review-graph](https://github.com/tirth8205/code-review-graph) 周增 4577 星，切中大仓库代码审查时上下文浪费的问题。",
+          "items": [
+            {
+              "title": "bojieli/ai-agent-book",
+              "url": "https://github.com/bojieli/ai-agent-book",
+              "source": "GitHub",
+              "score": 13627
+            },
+            {
+              "title": "mattpocock/skills",
+              "url": "https://github.com/mattpocock/skills",
+              "source": "GitHub",
+              "score": 12682
+            },
+            {
+              "title": "tirth8205/code-review-graph",
+              "url": "https://github.com/tirth8205/code-review-graph",
+              "source": "GitHub",
+              "score": 4577
+            }
+          ],
+          "takeaway": "Agent 时代最容易商业化的不是模型，而是技能库、评测、上下文和团队落地。"
+        }
+      ]
+    },
+    {
+      "id": "tech-stack",
+      "title": "技术选型",
+      "blocks": [
+        {
+          "id": "dev-tools",
+          "heading": "本周增长最快的开发者工具是什么？",
+          "summary_md": "开发者工具里最强信号是 AI 网关和部署层：[diegosouzapw/OmniRoute](https://github.com/diegosouzapw/OmniRoute) 周增 11057 星、总星 32531，卖点是一端接入 290+ providers、500+ models 和配额感知 fallback；[oblien/openship](https://github.com/oblien/openship) 周增 4911 星，是自托管部署平台；[agegr/pi-web](https://github.com/agegr/pi-web) 周增 1676 星，为 pi coding agent 做 Web UI。技术选型上，Builder 应优先关注可替换供应商、低锁定、自托管和可观测性。",
+          "items": [
+            {
+              "title": "diegosouzapw/OmniRoute",
+              "url": "https://github.com/diegosouzapw/OmniRoute",
+              "source": "GitHub",
+              "score": 11057
+            },
+            {
+              "title": "oblien/openship",
+              "url": "https://github.com/oblien/openship",
+              "source": "GitHub",
+              "score": 4911
+            },
+            {
+              "title": "agegr/pi-web",
+              "url": "https://github.com/agegr/pi-web",
+              "source": "GitHub",
+              "score": 1676
+            }
+          ],
+          "takeaway": "Agent 应用的技术栈正在从单模型调用转向路由、部署、上下文和审计。"
+        },
+        {
+          "id": "hf-models",
+          "heading": "HuggingFace 上最热的模型能做什么消费级产品？",
+          "summary_md": "HuggingFace 今天的消费级机会很清楚：[moonshotai/Kimi-K3](https://huggingface.co/moonshotai/Kimi-K3) trending_score 6744、下载 99214、likes 7220，适合做多模态知识助手；[baidu/Unlimited-OCR](https://huggingface.co/baidu/Unlimited-OCR) trending_score 724、下载 2694935，适合票据、合同、截图和教材解析；[owensong/Inflect-Micro-v2](https://huggingface.co/owensong/Inflect-Micro-v2) trending_score 232，主打 CPU、本地 TTS 和 edge-ai，可做离线朗读、陪练和儿童内容。",
+          "items": [
+            {
+              "title": "moonshotai/Kimi-K3",
+              "url": "https://huggingface.co/moonshotai/Kimi-K3",
+              "source": "HuggingFace",
+              "score": 6744
+            },
+            {
+              "title": "baidu/Unlimited-OCR",
+              "url": "https://huggingface.co/baidu/Unlimited-OCR",
+              "source": "HuggingFace",
+              "score": 724
+            },
+            {
+              "title": "owensong/Inflect-Micro-v2",
+              "url": "https://huggingface.co/owensong/Inflect-Micro-v2",
+              "source": "HuggingFace",
+              "score": 232
+            }
+          ],
+          "takeaway": "多模态 OCR 和本地语音比纯聊天更容易做出可付费的消费产品。"
+        }
+      ]
+    },
+    {
+      "id": "competition",
+      "title": "竞争情报",
+      "blocks": [
+        {
+          "id": "pricing-revenue",
+          "heading": "独立开发者在讨论什么营收和定价策略？",
+          "summary_md": "今天没有采集到 HN 中包含 MRR、ARR、pricing、subscription、revenue 的高信号讨论，但 Product Hunt 的产品形态透露了定价方向：[Superunit](https://www.producthunt.com/products/superunit) 做电话、邮件和传真验证雇佣信息，[Conduit](https://www.producthunt.com/products/conduit-ai) 做 Hospitality 专用 Agent，[Leaping AI](https://www.producthunt.com/products/leaping-ai) 做多日电话短信活动。这类产品更适合按成功任务、座席替代或行业流程收费，而不是按 token 或普通 SaaS 席位收费。",
+          "items": [
+            {
+              "title": "Superunit",
+              "url": "https://www.producthunt.com/products/superunit",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "Conduit",
+              "url": "https://www.producthunt.com/products/conduit-ai",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "Leaping AI",
+              "url": "https://www.producthunt.com/products/leaping-ai",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "垂直 Agent 的竞争重点会从模型能力转向业务结果和可验证 ROI。"
+        }
+      ]
+    },
+    {
+      "id": "trends",
+      "title": "趋势判断",
+      "blocks": [
+        {
+          "id": "vc-radar",
+          "heading": "VC 和 YC 在关注什么主题？",
+          "summary_md": "即使 Google Trends 今天没有 tracked 与 breakout 数据，创业主题仍然集中：语音 Agent 有 [Cekura](https://www.producthunt.com/products/vocera)、[Phantom](https://www.producthunt.com/products/phantom-6)、[Leaping AI](https://www.producthunt.com/products/leaping-ai)，Agent 评测有 [Prefactor](https://www.producthunt.com/products/prefactor)，公司知识底座有 [FlowTask 2.0](https://www.producthunt.com/products/flowtask) 和 [Liminal](https://www.producthunt.com/products/liminal-4)。VC 会继续看能否替代一段真实运营流程，而不是看演示里能否对话。",
+          "items": [
+            {
+              "title": "Cekura",
+              "url": "https://www.producthunt.com/products/vocera",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "Prefactor",
+              "url": "https://www.producthunt.com/products/prefactor",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "FlowTask 2.0",
+              "url": "https://www.producthunt.com/products/flowtask",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "资本会更偏好可评测、可交付、可归因的 Agent 工作流。"
+        },
+        {
+          "id": "new-radar",
+          "heading": "新词雷达：有哪些从零起飞的新概念？",
+          "summary_md": "今天 google_trends_breakouts 为空，不能硬编破圈词；但从 GitHub 与 HF 可观察到三个弱信号：Agent skills、AI gateway、local-first code graph。[ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd) 周增 6961 星，把输出风格做成 Agent 技能；[diegosouzapw/OmniRoute](https://github.com/diegosouzapw/OmniRoute) 周增 11057 星，把多模型路由产品化；[tirth8205/code-review-graph](https://github.com/tirth8205/code-review-graph) 周增 4577 星，把代码上下文做成本地持久图谱。",
+          "items": [
+            {
+              "title": "ayghri/i-have-adhd",
+              "url": "https://github.com/ayghri/i-have-adhd",
+              "source": "GitHub",
+              "score": 6961
+            },
+            {
+              "title": "diegosouzapw/OmniRoute",
+              "url": "https://github.com/diegosouzapw/OmniRoute",
+              "source": "GitHub",
+              "score": 11057
+            },
+            {
+              "title": "tirth8205/code-review-graph",
+              "url": "https://github.com/tirth8205/code-review-graph",
+              "source": "GitHub",
+              "score": 4577
+            }
+          ],
+          "takeaway": "新词不是模型名，而是围绕 Agent 的可控性、路由和上下文资产。"
+        }
+      ]
+    },
+    {
+      "id": "actions",
+      "title": "行动触发",
+      "blocks": [
+        {
+          "id": "weekend-build",
+          "heading": "今天 2 小时和一个周末分别做什么？",
+          "summary_md": "2 小时可以做一个很窄的 Agent skills demo：参考 [ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd) 周增 6961 星的信号，把你的 coding agent 输出约束成「先结论、后细节、少废话」的本地 skill。一个周末则可以做一层轻量 AI gateway，参考 [OmniRoute](https://github.com/diegosouzapw/OmniRoute) 周增 11057 星，只支持 3 个 provider、失败 fallback、成本日志和请求回放，目标不是全功能，而是让团队愿意把真实调用接进来。",
+          "items": [
+            {
+              "title": "ayghri/i-have-adhd",
+              "url": "https://github.com/ayghri/i-have-adhd",
+              "source": "GitHub",
+              "score": 6961
+            },
+            {
+              "title": "diegosouzapw/OmniRoute",
+              "url": "https://github.com/diegosouzapw/OmniRoute",
+              "source": "GitHub",
+              "score": 11057
+            }
+          ],
+          "takeaway": "今天最该动手的是 Agent 可控性工具，而不是再做一个聊天 UI。"
+        },
+        {
+          "id": "pricing-models",
+          "heading": "值得学习的定价和变现模式有哪些？",
+          "summary_md": "今天可学习的定价模型来自垂直 Agent 和本地工具两边：[Superunit](https://www.producthunt.com/products/superunit) 适合按验证成功数收费，[Conduit](https://www.producthunt.com/products/conduit-ai) 适合按酒店或门店工作流收费，[Tag Your Photos](https://www.producthunt.com/products/tag-your-photos) 强调 100% on your Mac，更适合买断或本地高级版。对于 Builder，关键是先找一个用户能感知节省时间或降低风险的单位，再把价格绑到那个单位上。",
+          "items": [
+            {
+              "title": "Superunit",
+              "url": "https://www.producthunt.com/products/superunit",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "Conduit",
+              "url": "https://www.producthunt.com/products/conduit-ai",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "Tag Your Photos",
+              "url": "https://www.producthunt.com/products/tag-your-photos",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "好定价不是按 AI 成本加价，而是按业务完成单位收费。"
+        },
+        {
+          "id": "counterintuitive",
+          "heading": "今天最反直觉的发现是什么？",
+          "summary_md": "最反直觉的是，开源模型的机会不只在便宜，而在心理所有权。HN 的 [Using an open model feels surprisingly good](https://matthewsaltz.com/blog/using-an-open-model-feels-surprisingly-good/) 只有 272 分、93 条评论，不算爆炸，但和 [moonshotai/Kimi-K3](https://huggingface.co/moonshotai/Kimi-K3) trending_score 6744、[zai-org/GLM-5.2](https://huggingface.co/zai-org/GLM-5.2) 下载 1267198 次放在一起看，用户正在重新评估可控、可本地化、可替换模型的价值。",
+          "items": [
+            {
+              "title": "Using an open model feels surprisingly good",
+              "url": "https://matthewsaltz.com/blog/using-an-open-model-feels-surprisingly-good/",
+              "source": "HN",
+              "score": 272
+            },
+            {
+              "title": "moonshotai/Kimi-K3",
+              "url": "https://huggingface.co/moonshotai/Kimi-K3",
+              "source": "HuggingFace",
+              "score": 6744
+            },
+            {
+              "title": "zai-org/GLM-5.2",
+              "url": "https://huggingface.co/zai-org/GLM-5.2",
+              "source": "HuggingFace",
+              "score": 261
+            }
+          ],
+          "takeaway": "开源模型的卖点正在从低价转向可控与信任。"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2026-07-28T10:02:38+00:00",
+  "reddit_highlights": []
+}
