@@ -1,0 +1,322 @@
+{
+  "date": "2026-07-29",
+  "generated_at": "2026-07-29T09:11:03+00:00",
+  "count": 21,
+  "items": [
+    {
+      "id": "c1425d5df7",
+      "date": "2026-07-29",
+      "source": "x",
+      "author": "Peter Steinberger",
+      "bio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world. @OpenClaw🦞 + @OpenAI",
+      "title": "",
+      "summary_en": "Serving large models is hard. https://t.co/nCbfTx9lp3",
+      "summary_zh": "大模型推理服务不是把模型跑起来就完事了，真正难的是稳定、低延迟、低成本地伺候它。",
+      "url": "https://x.com/steipete/status/2082337130299457652",
+      "posted_at": "2026-07-29T05:27:14.000Z",
+      "tags": [
+        "@steipete"
+      ]
+    },
+    {
+      "id": "8a67bc8da5",
+      "date": "2026-07-29",
+      "source": "x",
+      "author": "Thibault Sottiaux",
+      "bio": "Codex & ChatGPT @OpenAI",
+      "title": "",
+      "summary_en": "One day we created the reset button and the rest is history.",
+      "summary_zh": "我们发明了重置按钮，从此一切都变成了“搞砸也没关系”。后来的软件史，就是人类不断按下重来的历史。",
+      "url": "https://x.com/thsottiaux/status/2082326593532473523",
+      "posted_at": "2026-07-29T04:45:22.000Z",
+      "tags": [
+        "@thsottiaux"
+      ]
+    },
+    {
+      "id": "1b8043777e",
+      "date": "2026-07-29",
+      "source": "x",
+      "author": "Peter Yang",
+      "bio": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6",
+      "title": "",
+      "summary_en": "These are all valid criticisms of Codex, even though I love the product too!\n\nI actually had no idea that Sol Pro even existed - is this better than Sol High? Why isn’t it available in Codex? https://t.co/nrPsjAgfk1 https://t.co/nFmz6awv7d",
+      "summary_zh": "这些对 Codex 的批评都成立，哪怕我也喜欢这个产品。更离谱的是，我才知道 Sol Pro 存在：它比 Sol High 更好吗？为什么 Codex 里用不了？",
+      "url": "https://x.com/petergyang/status/2082323512069685575",
+      "posted_at": "2026-07-29T04:33:07.000Z",
+      "tags": [
+        "@petergyang"
+      ]
+    },
+    {
+      "id": "41d410ffdc",
+      "date": "2026-07-29",
+      "source": "x",
+      "author": "Thibault Sottiaux",
+      "bio": "Codex & ChatGPT @OpenAI",
+      "title": "",
+      "summary_en": "Hello people of Sol! I've reset usage limits for all ChatGPT Work and Codex users. Together with that, a quick update on GPT-5.6 Sol usage limits.\n\nOver the past few weeks, many of you have told us that Sol was using your Codex limits faster than expected. To be clear, we have not reduced usage on any subscription plans.\n\nWe’ve been digging into what was happening and have landed several improvements. As a result, we expect your usage to last around 18% longer during typical use of Sol. Some of you should already see significantly larger improvements from today. Tomorrow, we’ll also restore the five-hour limit that we temporarily paused while investigating.\n\nHere’s what we found:\n- GPT-5.6 Sol is much more willing to work for longer, make additional tool calls, and coordinate complex workflows across tools and subagents. That makes it better at solving hard problems, but some tasks were using far more than we intended.\n- Sol also works harder at the same reasoning effort than previous models. High on Sol can use more tokens than High did on GPT-5.5.\n- Programmatic tool calling, also referred to as code mode, gives Sol much more flexibility to run tool calls in parallel or continue working while waiting. But it also led to more responses per turn, more cached input tokens, and higher usage than expected.\n- This was particularly noticeable when Sol was waiting for tool calls to finish or running many web searches. We’ve improved how we handle both cases and are continuing to make code mode more efficient.\n- The impact was also very uneven. The median user actually found Sol quite token efficient, while some power users working on harder tasks saw their usage drain much faster. We were very focused on average and median usage before launch and missed some cases where the long tail could use significantly more usage.\n\nSol is a significant step forward in what Codex can do, but capability and efficiency do not always improve at the same pace, and some issues only become clear once people are using the model at real-world scale. We should have recognized this sooner and been more upfront about it.\n\nYou keep pushing the frontier and we’ll keep improving efficiency and sharing updates as we go.",
+      "summary_zh": "Sol 没偷偷砍套餐额度，但 GPT-5.6 Sol 更爱长时间工作、频繁调工具和跑复杂流程，导致部分重度用户额度烧得比预期快很多。\n\nOpenAI 已重置 ChatGPT Work 和 Codex 用户额度，并优化了 Sol 的消耗，典型使用预计多撑约 18%，明天恢复此前暂停的五小时限制。",
+      "url": "https://x.com/thsottiaux/status/2082317452755751098",
+      "posted_at": "2026-07-29T04:09:02.000Z",
+      "tags": [
+        "@thsottiaux"
+      ]
+    },
+    {
+      "id": "e48a10395c",
+      "date": "2026-07-29",
+      "source": "x",
+      "author": "Amjad Masad",
+      "bio": "ceo @replit. civilizationist",
+      "title": "",
+      "summary_en": "Who’s writing an open letter against destroying rare books? https://t.co/6xOyRREqw1",
+      "summary_zh": "谁来写一封反对毁掉珍本书的公开信？讽刺的是，AI 圈连这种底线议题都需要被公开点名。",
+      "url": "https://x.com/amasad/status/2082317323445387514",
+      "posted_at": "2026-07-29T04:08:32.000Z",
+      "tags": [
+        "@amasad"
+      ]
+    },
+    {
+      "id": "bd1e087ade",
+      "date": "2026-07-29",
+      "source": "x",
+      "author": "Amjad Masad",
+      "bio": "ceo @replit. civilizationist",
+      "title": "",
+      "summary_en": "Imagine SETI@Home, where you donated compute to search for aliens, but instead you donate compute to search math proofs. https://t.co/5Stl475G4a",
+      "summary_zh": "把 SETI@Home 捐算力找外星人，换成捐算力找数学证明。人类的闲置算力从仰望星空，转向啃形式化数学。",
+      "url": "https://x.com/amasad/status/2082316553740284060",
+      "posted_at": "2026-07-29T04:05:28.000Z",
+      "tags": [
+        "@amasad"
+      ]
+    },
+    {
+      "id": "0e7e174b44",
+      "date": "2026-07-29",
+      "source": "x",
+      "author": "Amjad Masad",
+      "bio": "ceo @replit. civilizationist",
+      "title": "",
+      "summary_en": "1300 Elo!\n\nhttps://t.co/4WJ9SYmr1o https://t.co/87CcHf43N7 https://t.co/pk1AR8uNzd",
+      "summary_zh": "1300 Elo 到手。模型能力竞赛已经卷到用棋力分数当战报，简单粗暴，也足够扎眼。",
+      "url": "https://x.com/amasad/status/2082316150273360316",
+      "posted_at": "2026-07-29T04:03:52.000Z",
+      "tags": [
+        "@amasad"
+      ]
+    },
+    {
+      "id": "f54afffb6e",
+      "date": "2026-07-29",
+      "source": "x",
+      "author": "Dan Shipper",
+      "bio": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "title": "",
+      "summary_en": "or the reason is you don’t have the illness i have where wading through dense, abstract sentences is extremely calming https://t.co/yZH95T9H6p",
+      "summary_zh": "也可能只是你没得我这种病：越是密不透风、抽象到绕脑的句子，读起来越让人平静。",
+      "url": "https://x.com/danshipper/status/2082273076352315440",
+      "posted_at": "2026-07-29T01:12:42.000Z",
+      "tags": [
+        "@danshipper"
+      ]
+    },
+    {
+      "id": "237ac5cfa9",
+      "date": "2026-07-29",
+      "source": "x",
+      "author": "Dan Shipper",
+      "bio": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "title": "",
+      "summary_en": "This is why i do anti depressants and stimulants. \n\nDynamism x2. Join me America! https://t.co/yXB5FbDGsJ",
+      "summary_zh": "他把抗抑郁药和兴奋剂说成提升动能的组合拳：活力翻倍。然后直接喊话美国一起上车。",
+      "url": "https://x.com/danshipper/status/2082270947793350785",
+      "posted_at": "2026-07-29T01:04:15.000Z",
+      "tags": [
+        "@danshipper"
+      ]
+    },
+    {
+      "id": "358e73baa9",
+      "date": "2026-07-29",
+      "source": "x",
+      "author": "Swyx",
+      "bio": "achieve ambition with intentionality, intensity, integrity & insanity.  affiliations: - @smol_ai - @dxtipshq - @cognition - @aidotengineer - @latentspacepod",
+      "title": "",
+      "summary_en": "i'm just reporting; many counter examples if you dislike this trend: https://t.co/YZ7z66bEVk\n\nsee Edison on @latentspacepod https://t.co/3BDUegJrWf here",
+      "summary_zh": "我只是在陈述一个趋势；你要是不喜欢，也有一堆反例可以拿来反驳。Edison 在 Latent Space 的那期也讲到了这个方向。",
+      "url": "https://x.com/swyx/status/2082255848492183583",
+      "posted_at": "2026-07-29T00:04:15.000Z",
+      "tags": [
+        "@swyx"
+      ]
+    },
+    {
+      "id": "9e2ed7d95b",
+      "date": "2026-07-29",
+      "source": "x",
+      "author": "Peter Yang",
+      "bio": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6",
+      "title": "",
+      "summary_en": "I also built Tastemaker to see if I could turn a rough idea into a useful product with Claude Design and Claude Code.\n\nI made a video walking through my full process, including:\n\n1. Creating a design.md and HTML spec\n2. Prototyping screens in Claude Design\n3. Building and iterating with Claude Code\n\n📌 Subscribe to get the full tutorial tomorrow: https://t.co/NSTj7ijxE0",
+      "summary_zh": "他用 Claude Design 和 Claude Code 把一个粗糙想法硬推成 Tastemaker：先写 design.md 和 HTML spec，再做界面原型，最后边写边改成产品。完整教程明天放出。",
+      "url": "https://x.com/petergyang/status/2082254852600873376",
+      "posted_at": "2026-07-29T00:00:17.000Z",
+      "tags": [
+        "@petergyang"
+      ]
+    },
+    {
+      "id": "54f4d01baf",
+      "date": "2026-07-29",
+      "source": "x",
+      "author": "Peter Yang",
+      "bio": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6",
+      "title": "",
+      "summary_en": "I got tired of using IMDb to rate movies and TV shows, and Letterboxd doesn’t support video games.\n\nSo I built Tastemaker to let anyone curate their favorite movies, TV shows, and games all in one beautiful profile.\n\nYou can use it to:\n\n→ Rate and review your favorites\n→ Create and share lists\n→ Discover what to watch or play next\n\nBecause of API limits, I’m launching this as a limited release for the first 100 profiles only.\n\n📌 Claim your free profile now: https://t.co/HLkDespYE8",
+      "summary_zh": "受够了 IMDb 和 Letterboxd 的半吊子体验，他做了 Tastemaker：一个把电影、剧集、游戏评分、评论、榜单和发现整合到同一个个人主页里的工具。\n\n受 API 限制，现在只开放前 100 个免费主页名额。",
+      "url": "https://x.com/petergyang/status/2082254840655405293",
+      "posted_at": "2026-07-29T00:00:15.000Z",
+      "tags": [
+        "@petergyang"
+      ]
+    },
+    {
+      "id": "5496f7b9c9",
+      "date": "2026-07-29",
+      "source": "x",
+      "author": "Thibault Sottiaux",
+      "bio": "Codex & ChatGPT @OpenAI",
+      "title": "",
+      "summary_en": "More opensource goodness. We have just released a CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities in your code. Scan repositories, review changes, track findings over time, and run security checks in CI.\n\nhttps://t.co/nkfTbw8p7b",
+      "summary_zh": "又一个开源安全工具落地：他们发布了 CLI 和 TypeScript SDK，可以在代码库里发现、验证并修复安全漏洞。\n\n不只是扫一遍，还能审查变更、长期追踪问题，并把安全检查塞进 CI。",
+      "url": "https://x.com/thsottiaux/status/2082241164850364555",
+      "posted_at": "2026-07-28T23:05:54.000Z",
+      "tags": [
+        "@thsottiaux"
+      ]
+    },
+    {
+      "id": "ac3790afeb",
+      "date": "2026-07-29",
+      "source": "x",
+      "author": "Aditya Agarwal",
+      "bio": "General Partner @SouthPkCommons, Co-Founder @Bevel_Health | Ex: Early Eng @facebook, CTO @Dropbox, Board @Flipkart | Optimist, Builder, Dad",
+      "title": "",
+      "summary_en": "A decade ago…as I was going through my own Minus One journey and was lost in the fog of uncertainty, I got 2 pieces of deep personal insight:\n\n1/ I want to build new things in the world\n2/ I want to work with brilliant and intense people\n\nOn days such as this both feel abundant. https://t.co/muLvlHqTp1",
+      "summary_zh": "十年前在迷雾里自我归零时，他只确认了两件事：要亲手造新东西，要和聪明又高强度的人一起干。今天，这两样都显得过剩。",
+      "url": "https://x.com/adityaag/status/2082214798935326833",
+      "posted_at": "2026-07-28T21:21:08.000Z",
+      "tags": [
+        "@adityaag"
+      ]
+    },
+    {
+      "id": "6d60545b5d",
+      "date": "2026-07-29",
+      "source": "x",
+      "author": "Swyx",
+      "bio": "achieve ambition with intentionality, intensity, integrity & insanity.  affiliations: - @smol_ai - @dxtipshq - @cognition - @aidotengineer - @latentspacepod",
+      "title": "",
+      "summary_en": "re: hiring right now\n\nit's a huge bull market for AI-native IC's/player-coaches\nit's a huge bear market for \"heads of X\" managers\n\nnever seen such furious bifurcation. to oversimplify: 1 year experience managing 10 agents &gt; 10 years experience managing 10-100 people",
+      "summary_zh": "现在招聘市场正在极端分化：AI 原生的独立贡献者和能下场带队的人炙手可热，“Head of X”式管理者迅速失势。\n\n粗暴地说，带过 10 个 AI agent 的 1 年经验，比管理过 10 到 100 个人的 10 年经验更值钱。",
+      "url": "https://x.com/swyx/status/2082199414656127010",
+      "posted_at": "2026-07-28T20:20:00.000Z",
+      "tags": [
+        "@swyx"
+      ]
+    },
+    {
+      "id": "760b9f9a51",
+      "date": "2026-07-29",
+      "source": "x",
+      "author": "Garry Tan",
+      "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "title": "",
+      "summary_en": "It's OK to joke, but when it comes to your life, your intention, and your weltanschauung, be earnest as fuck https://t.co/cgQF2NPElz",
+      "summary_zh": "开玩笑可以，但谈到你的人生、意图和世界观，就别耍滑，要认真到近乎狠。",
+      "url": "https://x.com/garrytan/status/2082176112906711452",
+      "posted_at": "2026-07-28T18:47:24.000Z",
+      "tags": [
+        "@garrytan"
+      ]
+    },
+    {
+      "id": "3b2b99a861",
+      "date": "2026-07-29",
+      "source": "x",
+      "author": "Garry Tan",
+      "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "title": "",
+      "summary_en": "The original drafter of Sanctuary Cities never meant for this to happen \n https://t.co/KqUOnhS8DG",
+      "summary_zh": "“庇护城市”政策最初的起草者，绝不可能预料到它会演变成今天这种结果。讽刺的是，制度一旦脱离设计者的原意，就会按政治和现实的合力野蛮生长。",
+      "url": "https://x.com/garrytan/status/2082170934182756411",
+      "posted_at": "2026-07-28T18:26:50.000Z",
+      "tags": [
+        "@garrytan"
+      ]
+    },
+    {
+      "id": "006fde8209",
+      "date": "2026-07-29",
+      "source": "x",
+      "author": "Garry Tan",
+      "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "title": "",
+      "summary_en": "Sanctuary city policy was never meant to be used to protect fentanyl dealers or violent criminals https://t.co/jLsQzhfcuU",
+      "summary_zh": "庇护城市政策的初衷不是给芬太尼贩子和暴力罪犯当保护伞。现在把它用成这样，就是对政策本身的滥用。",
+      "url": "https://x.com/garrytan/status/2082169572212584877",
+      "posted_at": "2026-07-28T18:21:25.000Z",
+      "tags": [
+        "@garrytan"
+      ]
+    },
+    {
+      "id": "80a8135d0d",
+      "date": "2026-07-29",
+      "source": "x",
+      "author": "Aaron Levie",
+      "bio": "ceo @box - your business lives in content. unleash it with AI",
+      "title": "",
+      "summary_en": "Great piece and vision for AI from Zuckerberg https://t.co/kO0oQbx3CC https://t.co/XjwKwvBZIu",
+      "summary_zh": "扎克伯格这篇 AI 愿景写得有分量，值得看。",
+      "url": "https://x.com/levie/status/2082168124733116537",
+      "posted_at": "2026-07-28T18:15:40.000Z",
+      "tags": [
+        "@levie"
+      ]
+    },
+    {
+      "id": "1f4a96106b",
+      "date": "2026-07-29",
+      "source": "x",
+      "author": "Dan Shipper",
+      "bio": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "title": "",
+      "summary_en": "i spent the morning writing the definitive history of codex on my couch \n\nit comes from hours of in-depth interviews with the team including @thsottiaux, @ajambrosino, and @gdb \n\nmy hands didn’t touch the keyboard or mouse once …i did the whole thing, including organizing the interviews, building a timeline, writing, editing, and revising via ChatGPT for Work’s voice mode \n\nabsolutely goated for creative work. \n\nwhole piece will be published on @every in a few weeks",
+      "summary_zh": "他早上瘫在沙发上，用 ChatGPT for Work 语音模式全程完成 Codex 权威史：整理采访、搭时间线、写作、编辑、修订，手没碰过键盘鼠标。\n\n结论很直接：语音模式做创意工作已经强到离谱，整篇文章几周后发在 Every。",
+      "url": "https://x.com/danshipper/status/2082130836485259530",
+      "posted_at": "2026-07-28T15:47:30.000Z",
+      "tags": [
+        "@danshipper"
+      ]
+    },
+    {
+      "id": "2419c8c633",
+      "date": "2026-07-29",
+      "source": "x",
+      "author": "Madhu Guru",
+      "bio": "Sr Director, AI at Meta; Prev: Google - Led Gemini, Veo, Nano Banana.",
+      "title": "",
+      "summary_en": "I saw a SWE at work today. No Claude. No wispr. No tab key.\n\nJust writing code. With his bare hands. https://t.co/kfV3qV62T7",
+      "summary_zh": "今天看到一个软件工程师上班，不用 Claude、不用 Wispr、连 Tab 补全都不用。\n\n就这么赤手空拳写代码，像在看史前人类打猎。",
+      "url": "https://x.com/realmadhuguru/status/2082112941814661236",
+      "posted_at": "2026-07-28T14:36:23.000Z",
+      "tags": [
+        "@realmadhuguru"
+      ]
+    }
+  ]
+}
