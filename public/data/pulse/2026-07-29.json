@@ -1,11 +1,11 @@
 {
   "date": "2026-07-29",
   "top3": [
-    "今天最值得关注的是 coding agent 周边生态爆发：从技能、网关、记忆、监控到计费，开发者开始围绕代理工作流补齐基础设施。",
-    "GitHub 高增长项目显示开源机会集中在情报仪表盘、AI Agent 工程教程、模型网关、自托管部署和可视化 CMS。",
-    "HuggingFace 热度从通用大模型转向多模态、OCR、本地语音、浏览器自动化和安全终端代理，消费级产品可以更贴近具体工作流。"
+    "Agent 工作流进入「技能化」阶段：GitHub 周榜里 mattpocock/skills、ai-agent-book、OmniRoute 和多个 ADHD/agent harness 项目同时爆发。",
+    "开源基础设施正在从模型调用转向可控执行：OmniRoute、openship、Instatic、agent-governance-toolkit 都指向自托管、治理和部署层机会。",
+    "消费级 AI 的新入口从聊天框外溢到本地语音、OCR、图像编辑、菜单栏与个人工作流，适合独立开发者做窄场景产品。"
   ],
-  "intro": "今天的数据没有 HN 和 Google Trends，但 GitHub、Product Hunt 与 HuggingFace 给出了一条清晰主线：AI Agent 不再只是模型调用，而是在变成一套可观测、可治理、可计费、可迁移的工作系统。对独立开发者来说，机会不在再造聊天框，而在补齐代理跑任务时缺的上下文、成本、安全、反馈和交付闭环。",
+  "intro": "今天的数据没有 HN 侧信号，也缺少 Google Trends，因此判断重心放在 GitHub 周榜、Product Hunt 和 HuggingFace。主线很清楚：AI builder 市场从「接一个模型」转向「管理一组代理、技能、记忆、网关和可验证工作流」。",
   "sections": [
     {
       "id": "discovery",
@@ -14,17 +14,11 @@
         {
           "id": "indie-products",
           "heading": "今天有哪些独立开发者的新产品？",
-          "summary_md": "Product Hunt 今日更像一张 agent 周边生态地图：[Task Monki](https://www.producthunt.com/products/task-monki) 把 coding agents 放进完整开发流程，采集未返回票数和评论数，记为 0 票、0 评论；[/mission for Claude Code](https://www.producthunt.com/products/spine-2) 主打给 Claude Code 分派 mission 并生成 agent 团队，同样为 0 票、0 评论；[MemoryCustodian](https://www.producthunt.com/products/memorycustodian) 切 repo-native memory，0 票、0 评论。另一组是本地桌面伴随工具：[BlackFlare](https://www.producthunt.com/products/blackflare) 监控 Claude/Codex 完成状态，[AgentQuartz](https://www.producthunt.com/products/agentquartz) 把 Claude 与 Cursor 用量放进 macOS 菜单栏，[Epilude](https://www.producthunt.com/products/epilude) 做 Mac 本地语音转 polished text。值得关注的是，它们都不是大平台，而是贴着高频痛点做小而深的工具。",
+          "summary_md": "Product Hunt 今天最值得看的是围绕 AI agent 工作流的微型产品，但原始数据未提供票数和评论数，所以这里只按题材密度判断，而不伪造热度数字。[Task Monki](https://www.producthunt.com/products/task-monki) 主打让 coding agents 跑完整开发流程，[MemoryCustodian](https://www.producthunt.com/products/memorycustodian) 做 repo-native memory，[AgentQuartz](https://www.producthunt.com/products/agentquartz) 把 Claude 与 Cursor 用量放进 macOS 菜单栏，[BlackFlare](https://www.producthunt.com/products/blackflare) 则解决 Claude/Codex 跑完后的提醒问题。它们不是大平台功能，而是围绕 agent 日常使用摩擦做薄工具。\n\n另一组机会在垂直场景：[ClinicFrame](https://www.producthunt.com/products/clinic-scribe-clinicframe) 把 Granola 式记录带到医疗合规场景，[SceneNote](https://www.producthunt.com/products/scenenote-free-video-feedback-tool) 做视频反馈，[Tag Your Photos](https://www.producthunt.com/products/tag-your-photos) 做本地 Apple Photos 关键词，[Epilude](https://www.producthunt.com/products/epilude) 做 Mac 本地语音转写。今天的独立产品启示是，agent 基础能力已经足够，机会反而在提醒、记忆、用量、审批、反馈这些不起眼的边缘流程。",
           "items": [
             {
               "title": "Task Monki",
               "url": "https://www.producthunt.com/products/task-monki",
-              "source": "ProductHunt",
-              "score": 0
-            },
-            {
-              "title": "/mission for Claude Code",
-              "url": "https://www.producthunt.com/products/spine-2",
               "source": "ProductHunt",
               "score": 0
             },
@@ -35,18 +29,30 @@
               "score": 0
             },
             {
+              "title": "AgentQuartz",
+              "url": "https://www.producthunt.com/products/agentquartz",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
               "title": "BlackFlare",
               "url": "https://www.producthunt.com/products/blackflare",
               "source": "ProductHunt",
               "score": 0
+            },
+            {
+              "title": "ClinicFrame",
+              "url": "https://www.producthunt.com/products/clinic-scribe-clinicframe",
+              "source": "ProductHunt",
+              "score": 0
             }
           ],
-          "takeaway": "agent 生态的独立机会，正在从模型能力转向工作流缺口。"
+          "takeaway": "别再做通用聊天助手，围绕 agent 使用链路里的一个具体摩擦点做小而尖的工具。"
         },
         {
           "id": "github-traction",
           "heading": "GitHub 上哪些高增长开源项目还没有商业化？",
-          "summary_md": "GitHub weekly 的高增长项目里，最像可商业化但仍有开源窗口的是 [koala73/worldmonitor](https://github.com/koala73/worldmonitor)，周增 12173 星、总 76220 星，定位实时全球情报仪表盘；[diegosouzapw/OmniRoute](https://github.com/diegosouzapw/OmniRoute) 周增 10028 星、总 33594 星，用一个 endpoint 接 290+ providers、500+ models；[oblien/openship](https://github.com/oblien/openship) 周增 3628 星、总 9582 星，做自托管部署平台；[CoreBunch/Instatic](https://github.com/CoreBunch/Instatic) 周增 2828 星、总 6512 星，想做开源 Webflow、Framer、WordPress 替代。这里的共同点是需求都很商业化，但开发者仍偏好可控、自托管、低锁定的路径。",
+          "summary_md": "GitHub 周榜最强信号是开源项目正在吃掉传统 SaaS 的中间层。[koala73/worldmonitor](https://github.com/koala73/worldmonitor) 本周新增 12,173 stars，总星 76,195，定位是实时全球情报面板；它的商业化空间不一定是卖新闻聚合，而是卖垂直行业的监控模板、告警规则和私有部署。[CoreBunch/Instatic](https://github.com/CoreBunch/Instatic) 本周 2,828 stars，总星 6,509，直接打 Webflow、Framer、WordPress 的开源替代，适合延伸成托管、插件市场和企业权限。\n\n开发者基础设施也很热。[diegosouzapw/OmniRoute](https://github.com/diegosouzapw/OmniRoute) 本周 10,028 stars，总星 33,565，做 290+ provider、500+ model 的统一 AI gateway；[oblien/openship](https://github.com/oblien/openship) 本周 3,628 stars，总星 9,571，做自托管部署平台。这两类项目还没有完全商业化时，独立开发者可以做托管版、迁移工具、企业策略面板或用量审计插件，而不是重写核心开源产品。",
           "items": [
             {
               "title": "koala73/worldmonitor",
@@ -73,7 +79,7 @@
               "score": 2828
             }
           ],
-          "takeaway": "开源高增长项目里，最好的商业化切口是把自托管能力变成托管服务、审计与团队协作。"
+          "takeaway": "高增长开源项目最容易变现的不是代码本身，而是托管、治理、迁移、模板和审计。"
         }
       ]
     },
@@ -84,7 +90,7 @@
         {
           "id": "dev-tools",
           "heading": "本周增长最快的开发者工具是什么？",
-          "summary_md": "开发者工具的热度几乎被 agent 工程吞掉。[mattpocock/skills](https://github.com/mattpocock/skills) 周增 12794 星、总 193775 星，说明「可复用技能」正在成为工程师管理 agent 行为的新单位；[bojieli/ai-agent-book](https://github.com/bojieli/ai-agent-book) 周增 10637 星、总 25671 星，代表系统化学习需求；[OmniRoute](https://github.com/diegosouzapw/OmniRoute) 周增 10028 星，解决多模型 provider、quota fallback 和 token 压缩；[earendil-works/pi](https://github.com/earendil-works/pi) 周增 5244 星，覆盖统一 LLM API、agent loop、TUI 和 coding agent CLI。选型上，TypeScript 仍适合桌面和 Web agent 壳层，Python 更适合模型、教程和治理工具。",
+          "summary_md": "本周开发者工具的关键词不是 IDE，而是 agent harness、技能和网关。[mattpocock/skills](https://github.com/mattpocock/skills) 本周 12,794 stars，总星 193,719，说明「把经验写成 agent 可调用技能」已经从个人技巧变成可传播资产。[bojieli/ai-agent-book](https://github.com/bojieli/ai-agent-book) 本周 10,637 stars，总星 25,612，补上工程实践解释层；[diegosouzapw/OmniRoute](https://github.com/diegosouzapw/OmniRoute) 本周 10,028 stars，则补上模型路由和成本控制层。\n\n更细的工具也在冒头：[ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd) 本周 6,156 stars，主张让 coding agent 不要埋答案；[earendil-works/pi](https://github.com/earendil-works/pi) 本周 5,244 stars，做统一 LLM API、agent loop、TUI 和 CLI。技术选型上，今天不该只问选 Claude 还是 GPT，而要问团队是否有可复用技能、可观测执行、模型 fallback 和输出约束。",
           "items": [
             {
               "title": "mattpocock/skills",
@@ -99,10 +105,16 @@
               "score": 10637
             },
             {
-              "title": "OmniRoute",
+              "title": "diegosouzapw/OmniRoute",
               "url": "https://github.com/diegosouzapw/OmniRoute",
               "source": "GitHub",
               "score": 10028
+            },
+            {
+              "title": "ayghri/i-have-adhd",
+              "url": "https://github.com/ayghri/i-have-adhd",
+              "source": "GitHub",
+              "score": 6156
             },
             {
               "title": "earendil-works/pi",
@@ -111,39 +123,71 @@
               "score": 5244
             }
           ],
-          "takeaway": "本周开发者工具的主战场是 agent 的技能层、路由层和执行层。"
+          "takeaway": "AI 开发栈的护城河正在从模型选择转向技能库、执行框架和路由治理。"
         },
         {
           "id": "hf-models",
           "heading": "HuggingFace 上最热的模型能做什么消费级产品？",
-          "summary_md": "HuggingFace 热模型给出的消费级方向很具体：[moonshotai/Kimi-K3](https://huggingface.co/moonshotai/Kimi-K3) trending 7709、下载 99214、点赞 8346，适合多模态助理和图文工作流；[baidu/Unlimited-OCR](https://huggingface.co/baidu/Unlimited-OCR) trending 680、下载 2694935，适合票据、文档、截图和长图识别产品；[owensong/Inflect-Micro-v2](https://huggingface.co/owensong/Inflect-Micro-v2) trending 267，标签强调 local-tts、cpu、edge-ai，可以做离线语音播报与写作朗读；[microsoft/Fara1.5-27B](https://huggingface.co/microsoft/Fara1.5-27B) trending 185，标签含 computer-use、web-agent、browser-automation，更接近消费端自动化浏览器代理。",
+          "summary_md": "HuggingFace 热榜显示消费级产品机会在多模态和本地化能力。[moonshotai/Kimi-K3](https://huggingface.co/moonshotai/Kimi-K3) trending score 7,695，下载 99,214，标签包含 image-text-to-text 和 conversational，适合做图文混合的个人研究助手、购物截图问答和视觉笔记整理。[baidu/Unlimited-OCR](https://huggingface.co/baidu/Unlimited-OCR) trending score 678，下载 2,694,935，likes 3,456，OCR 已经足够热，能支撑票据、合同、课件、手写资料的本地或半本地工作流产品。\n\n小模型和本地语音也值得跟。[owensong/Inflect-Micro-v2](https://huggingface.co/owensong/Inflect-Micro-v2) trending score 266，定位 local TTS、CPU、edge AI；[microsoft/Fara1.5-27B](https://huggingface.co/microsoft/Fara1.5-27B) trending score 184，标签包含 computer-use、web-agent、browser-automation。消费端不一定要做大模型壳，反而可以把 OCR、语音、浏览器自动化和图片编辑封装成一个强约束场景。",
           "items": [
             {
               "title": "moonshotai/Kimi-K3",
               "url": "https://huggingface.co/moonshotai/Kimi-K3",
               "source": "HuggingFace",
-              "score": 7709
+              "score": 7695
             },
             {
               "title": "baidu/Unlimited-OCR",
               "url": "https://huggingface.co/baidu/Unlimited-OCR",
               "source": "HuggingFace",
-              "score": 680
+              "score": 678
             },
             {
               "title": "owensong/Inflect-Micro-v2",
               "url": "https://huggingface.co/owensong/Inflect-Micro-v2",
               "source": "HuggingFace",
-              "score": 267
+              "score": 266
             },
             {
               "title": "microsoft/Fara1.5-27B",
               "url": "https://huggingface.co/microsoft/Fara1.5-27B",
               "source": "HuggingFace",
-              "score": 185
+              "score": 184
             }
           ],
-          "takeaway": "消费 AI 产品不要只接通用模型，OCR、本地语音和浏览器自动化更容易落到真实场景。"
+          "takeaway": "面向消费者的 AI 产品可以从 OCR、语音、本地图片编辑和浏览器代办这四个窄入口切入。"
+        },
+        {
+          "id": "show-hn",
+          "heading": "Show HN 高关注项目用的什么技术栈？",
+          "summary_md": "今天没有 HN Show HN 数据，因此不能判断 Show HN 高关注项目的真实技术栈。但从 GitHub 与 Product Hunt 的交叉信号看，TypeScript 仍是独立开发者做 agent 产品、Web UI 和自托管平台的默认选择：worldmonitor、OmniRoute、openship、Instatic、pi-web、airi、GeoLibre 都是 TypeScript。Python 则集中在模型、教程、治理和数据类项目，如 ai-agent-book、ai-engineering-from-scratch、speech-to-speech、book-to-skill、agent-governance-toolkit。\n\n这意味着今天的实用选型是前端与控制面用 TypeScript，模型调用、离线处理、评测和安全治理用 Python，性能或底层服务再交给 Rust。不要过早追求全栈统一语言，先把 agent 可观测性、权限边界、失败重试和产物审查做好。",
+          "items": [
+            {
+              "title": "diegosouzapw/OmniRoute",
+              "url": "https://github.com/diegosouzapw/OmniRoute",
+              "source": "GitHub",
+              "score": 10028
+            },
+            {
+              "title": "CoreBunch/Instatic",
+              "url": "https://github.com/CoreBunch/Instatic",
+              "source": "GitHub",
+              "score": 2828
+            },
+            {
+              "title": "huggingface/speech-to-speech",
+              "url": "https://github.com/huggingface/speech-to-speech",
+              "source": "GitHub",
+              "score": 227
+            },
+            {
+              "title": "microsoft/agent-governance-toolkit",
+              "url": "https://github.com/microsoft/agent-governance-toolkit",
+              "source": "GitHub",
+              "score": 46
+            }
+          ],
+          "takeaway": "TypeScript 做控制面，Python 做模型与治理，Rust 做性能边界，是今天最顺手的 agent 产品组合。"
         }
       ]
     },
@@ -152,35 +196,9 @@
       "title": "竞争情报",
       "blocks": [
         {
-          "id": "pricing-revenue",
-          "heading": "独立开发者在讨论什么营收和定价策略？",
-          "summary_md": "虽然 HN 没有提供营收讨论，Product Hunt 上已经出现几个直接围绕变现的信号。[MCP-Billing](https://www.producthunt.com/products/mcp-billing) 用 OAuth 2.1 加 Stripe usage-based billing 给 MCP server 做计费基础设施，采集未返回票数和评论数，记为 0 票、0 评论；[Denovo](https://www.producthunt.com/products/denovo-business-manager) 直接把 vibe-coded app 转化为 paying customers，0 票、0 评论；[ClinicFrame](https://www.producthunt.com/products/clinic-scribe-clinicframe) 用 HIPAA 合规切医疗记录场景，0 票、0 评论。今天的定价启发不是低价订阅，而是把 agent、MCP、合规和行业工作流拆成可计量的 usage unit。",
-          "items": [
-            {
-              "title": "MCP-Billing",
-              "url": "https://www.producthunt.com/products/mcp-billing",
-              "source": "ProductHunt",
-              "score": 0
-            },
-            {
-              "title": "Denovo",
-              "url": "https://www.producthunt.com/products/denovo-business-manager",
-              "source": "ProductHunt",
-              "score": 0
-            },
-            {
-              "title": "ClinicFrame",
-              "url": "https://www.producthunt.com/products/clinic-scribe-clinicframe",
-              "source": "ProductHunt",
-              "score": 0
-            }
-          ],
-          "takeaway": "agent 时代的收费点会从 seat 转向任务、调用、验证和行业合规。"
-        },
-        {
           "id": "migrations",
-          "heading": "有没有迁移类文章或替代品信号？",
-          "summary_md": "今天没有 HN 的「XX is dead」或迁移文章，但 GitHub 的替代品叙事很强。[CoreBunch/Instatic](https://github.com/CoreBunch/Instatic) 明确说自己是 Webflow、Framer 和 WordPress 的开源替代，周增 2828 星、总 6512 星；[oblien/openship](https://github.com/oblien/openship) 周增 3628 星、总 9582 星，把部署平台往 self-hosted 拉；[OmniRoute](https://github.com/diegosouzapw/OmniRoute) 周增 10028 星，用统一网关削弱单一模型供应商锁定。迁移信号不一定来自旧工具死亡，更多来自用户想保留控制权、成本弹性和本地可审计性。",
+          "heading": "有没有迁移类或替代品信号？",
+          "summary_md": "今天没有 HN 的「is dead」或迁移文章，但 GitHub 已经给出替代品战争的早期信号。[CoreBunch/Instatic](https://github.com/CoreBunch/Instatic) 在描述里直接称自己是 Webflow、Framer 和 WordPress 的开源替代，本周 2,828 stars，总星 6,509；[oblien/openship](https://github.com/oblien/openship) 作为自托管部署平台，本周 3,628 stars，也在吃掉云部署平台中对可控性、成本和数据驻留敏感的需求。\n\n更隐性的迁移来自 AI provider 抽象层。[diegosouzapw/OmniRoute](https://github.com/diegosouzapw/OmniRoute) 本周 10,028 stars，强调一个 endpoint 接 290+ providers、500+ models、quota-aware fallback 和 token compression。它反映的不是大家讨厌某个模型，而是团队不愿把工作流锁死在单一供应商。竞争情报上，未来几个月会有更多「开源替代 + 自托管 + 多供应商路由」产品挑战现有 SaaS。",
           "items": [
             {
               "title": "CoreBunch/Instatic",
@@ -201,7 +219,39 @@
               "score": 10028
             }
           ],
-          "takeaway": "替代品机会不只靠旧平台衰落，也靠新工作流对可控性的重新定价。"
+          "takeaway": "迁移潮的核心不是便宜，而是用户想拿回部署、供应商和数据控制权。"
+        },
+        {
+          "id": "pricing-revenue",
+          "heading": "独立开发者在讨论什么营收和定价策略？",
+          "summary_md": "今天没有 HN 收入、MRR、ARR、pricing 或 subscription 关键词数据，但 Product Hunt 的产品形态已经暗示两类变现模式。第一类是 agent 辅助工具按席位或本地授权收费，例如 [AgentQuartz](https://www.producthunt.com/products/agentquartz)、[BlackFlare](https://www.producthunt.com/products/blackflare)、[MemoryCustodian](https://www.producthunt.com/products/memorycustodian)，它们价值点明确，适合一次性买断加团队版。第二类是垂直流程按工作量或合规溢价收费，例如 [ClinicFrame](https://www.producthunt.com/products/clinic-scribe-clinicframe)、[SceneNote](https://www.producthunt.com/products/scenenote-free-video-feedback-tool)、[Vela](https://www.producthunt.com/products/vela-4)。\n\n定价上不要把所有 AI 产品都做成聊天订阅。更好的路径是把节省的等待时间、减少的返工次数、合规记录和团队协作痕迹量化，然后按项目、席位、用量或私有部署收费。尤其是医疗、招聘、视频审阅这类流程，用户买的不是模型能力，而是少出错、可追踪和少沟通。",
+          "items": [
+            {
+              "title": "AgentQuartz",
+              "url": "https://www.producthunt.com/products/agentquartz",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "BlackFlare",
+              "url": "https://www.producthunt.com/products/blackflare",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "ClinicFrame",
+              "url": "https://www.producthunt.com/products/clinic-scribe-clinicframe",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "Vela",
+              "url": "https://www.producthunt.com/products/vela-4",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "小工具卖时间确定性，垂直工具卖流程可信度，不必都挤进月费聊天框。"
         }
       ]
     },
@@ -212,7 +262,7 @@
         {
           "id": "vc-radar",
           "heading": "VC 和 YC 在关注什么主题？",
-          "summary_md": "综合 Product Hunt 与 GitHub，VC 和 YC 今天最可能盯住三类主题。第一是 agent infrastructure：[microsoft/agent-governance-toolkit](https://github.com/microsoft/agent-governance-toolkit) 日榜周增 46 星、总 5390 星，强调 policy enforcement、zero-trust identity、sandboxing 和 OWASP Agentic Top 10；第二是垂直 agent，[Vela](https://www.producthunt.com/products/vela-4) 做 AI recruiting coordinator，[Conduit](https://www.producthunt.com/products/conduit-ai) 做 hospitality agents，[Superunit](https://www.producthunt.com/products/superunit) 用电话、邮件和传真验证雇佣；第三是可控部署和运营，[openship](https://github.com/oblien/openship) 与 [worldmonitor](https://github.com/koala73/worldmonitor) 都把复杂系统压进可运营界面。",
+          "summary_md": "今天没有 Google Trends tracked 与 breakouts 数据，所以趋势判断主要来自 GitHub 与 Product Hunt 的同频项。VC 和 YC 视角最可能关注三条线：第一是 agent workflow infrastructure，包括 Task Monki、MemoryCustodian、mattpocock/skills、OmniRoute、pi、ECC；第二是 AI governance 与企业落地，包括 microsoft/agent-governance-toolkit 的 policy enforcement、zero-trust identity、sandboxing；第三是垂直 AI 操作系统，如 Vela 做招聘协调、ClinicFrame 做医疗记录、worldmonitor 做全球情报面板。\n\n值得注意的是，热度不再集中于模型发布本身。GitHub 周榜里真正涨得快的是「让 agent 更可靠地工作」的外围系统：技能、记忆、路由、压缩、治理、Web UI、自托管部署。投资主题会从「谁有更强模型」转向「谁掌握 agent 在真实组织里可重复交付的工作流」。",
           "items": [
             {
               "title": "microsoft/agent-governance-toolkit",
@@ -221,25 +271,51 @@
               "score": 46
             },
             {
+              "title": "affaan-m/ECC",
+              "url": "https://github.com/affaan-m/ECC",
+              "source": "GitHub",
+              "score": 636
+            },
+            {
+              "title": "Task Monki",
+              "url": "https://www.producthunt.com/products/task-monki",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
               "title": "Vela",
               "url": "https://www.producthunt.com/products/vela-4",
               "source": "ProductHunt",
               "score": 0
-            },
-            {
-              "title": "Conduit",
-              "url": "https://www.producthunt.com/products/conduit-ai",
-              "source": "ProductHunt",
-              "score": 0
-            },
-            {
-              "title": "Superunit",
-              "url": "https://www.producthunt.com/products/superunit",
-              "source": "ProductHunt",
-              "score": 0
             }
           ],
-          "takeaway": "资本关注点正从「能不能生成」转向「能不能在真实组织里可靠执行」。"
+          "takeaway": "资本会继续看 agent，但更看重可治理、可复用、可审计的组织级工作流。"
+        },
+        {
+          "id": "new-radar",
+          "heading": "新词雷达：有哪些从零起飞的新概念？",
+          "summary_md": "原始数据中 google_trends_breakouts 为空，无法按搜索破圈词判断新概念；但从产品和仓库命名看，今天的新词不是单一模型名，而是「agent skills」「repo-native memory」「AI gateway」「agent governance」「computer-use web-agent」。[mattpocock/skills](https://github.com/mattpocock/skills) 本周 12,794 stars，[MemoryCustodian](https://www.producthunt.com/products/memorycustodian) 把记忆限定在 repo，[OmniRoute](https://github.com/diegosouzapw/OmniRoute) 用统一网关承接多模型，[microsoft/Fara1.5-27B](https://huggingface.co/microsoft/Fara1.5-27B) 则把 computer-use 和 browser-automation 写进模型标签。\n\n这些词的共同点是都在解决「代理如何接入真实工作环境」的问题。下一批产品名可能不会再强调 AI assistant，而会强调 mission、skill、memory、governance、route、sandbox、audit。做内容和产品命名时，围绕这些词建立解释权，比追某个短期模型热词更有价值。",
+          "items": [
+            {
+              "title": "mattpocock/skills",
+              "url": "https://github.com/mattpocock/skills",
+              "source": "GitHub",
+              "score": 12794
+            },
+            {
+              "title": "MemoryCustodian",
+              "url": "https://www.producthunt.com/products/memorycustodian",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "microsoft/Fara1.5-27B",
+              "url": "https://huggingface.co/microsoft/Fara1.5-27B",
+              "source": "HuggingFace",
+              "score": 184
+            }
+          ],
+          "takeaway": "新词雷达指向 agent 的工作环境，而不是又一个万能助手。"
         }
       ]
     },
@@ -250,7 +326,7 @@
         {
           "id": "weekend-build",
           "heading": "今天 2 小时和一个周末分别做什么？",
-          "summary_md": "2 小时可以做一个很窄的 agent monitor：监听 Claude、Codex 或 Cursor 的本地日志与进程状态，完成时发菜单栏通知，参考 [BlackFlare](https://www.producthunt.com/products/blackflare) 和 [AgentQuartz](https://www.producthunt.com/products/agentquartz) 的轻量切口，先不做团队版。一个周末可以升级成 repo-native agent memory：读取项目里的决策、命令、失败测试和待办，生成可编辑 memory 文件，参考 [MemoryCustodian](https://www.producthunt.com/products/memorycustodian) 与 [virgiliojr94/book-to-skill](https://github.com/virgiliojr94/book-to-skill) 的思路。关键是别做大而全 IDE 插件，先抓一个会让高频用户每天打开的状态或上下文入口。",
+          "summary_md": "2 小时内可以做一个很小的 agent 辅助工具：监听 Claude Code、Codex、Cursor 或本地脚本任务状态，完成后发桌面通知、Slack 消息或写入日志。这正好借鉴 [BlackFlare](https://www.producthunt.com/products/blackflare) 和 [AgentQuartz](https://www.producthunt.com/products/agentquartz) 的方向，不需要训练模型，只要把等待、失败、完成、成本这几个状态做清楚。目标不是炫技，而是让用户少盯终端。\n\n一个周末则可以做「repo-native agent memory + skills starter kit」。参考 [MemoryCustodian](https://www.producthunt.com/products/memorycustodian)、[mattpocock/skills](https://github.com/mattpocock/skills) 和 [ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd)：读取仓库结构、生成 AGENTS.md、记录常见决策、约束输出长度、保存验证命令。付费点可以放在团队模板、历史决策搜索和 CI 验证报告。",
           "items": [
             {
               "title": "BlackFlare",
@@ -271,45 +347,63 @@
               "score": 0
             },
             {
-              "title": "virgiliojr94/book-to-skill",
-              "url": "https://github.com/virgiliojr94/book-to-skill",
+              "title": "mattpocock/skills",
+              "url": "https://github.com/mattpocock/skills",
               "source": "GitHub",
-              "score": 423
+              "score": 12794
             }
           ],
-          "takeaway": "今天最适合动手的是 agent 状态栏、agent memory 或技能生成器。"
+          "takeaway": "最快可做的不是新 agent，而是让现有 agent 更像一个可交接、可追踪的同事。"
         },
         {
           "id": "pricing-models",
           "heading": "值得学习的定价和变现模式有哪些？",
-          "summary_md": "可以学习的定价模型有三种。第一是 [MCP-Billing](https://www.producthunt.com/products/mcp-billing) 代表的 usage-based billing，把 MCP server 的调用、资源和租户隔离变成 Stripe 计量项；第二是 [ClinicFrame](https://www.producthunt.com/products/clinic-scribe-clinicframe) 代表的合规溢价，用 HIPAA 合规给医疗工作流定价；第三是 [qsa.sh](https://www.producthunt.com/products/qsa-sh-quick-security-audit) 代表的终端工具按扫描、报告或团队审计收费。对独立开发者来说，这比「每月 9 美元 AI 助手」更稳，因为用户付费对象不是聊天，而是可核验的结果、风险降低和省下的人工时间。",
+          "summary_md": "今天值得学习三种定价。第一是开发者本地工具的低摩擦买断或订阅，例如 AgentQuartz 和 BlackFlare，可按个人版、团队版、企业审计版分层。第二是自托管基础设施的托管费与支持费，例如 [openship](https://github.com/oblien/openship)、[Instatic](https://github.com/CoreBunch/Instatic)、[OmniRoute](https://github.com/diegosouzapw/OmniRoute)，开源核心免费，收部署、权限、监控、备份、SLA 和模型成本优化。\n\n第三是垂直 AI 的合规溢价。ClinicFrame 这类医疗产品不该按 token 定价，而该按医生席位、诊所规模、记录量和合规归档收费；Vela 这类招聘协调产品则适合按招聘管道、候选人量或协调席位收费。独立开发者应该避免把 AI 成本原样转嫁给用户，而要把价格锚定在业务结果、风险降低和流程节省上。",
           "items": [
             {
-              "title": "MCP-Billing",
-              "url": "https://www.producthunt.com/products/mcp-billing",
-              "source": "ProductHunt",
-              "score": 0
+              "title": "openship",
+              "url": "https://github.com/oblien/openship",
+              "source": "GitHub",
+              "score": 3628
+            },
+            {
+              "title": "Instatic",
+              "url": "https://github.com/CoreBunch/Instatic",
+              "source": "GitHub",
+              "score": 2828
+            },
+            {
+              "title": "OmniRoute",
+              "url": "https://github.com/diegosouzapw/OmniRoute",
+              "source": "GitHub",
+              "score": 10028
             },
             {
               "title": "ClinicFrame",
               "url": "https://www.producthunt.com/products/clinic-scribe-clinicframe",
               "source": "ProductHunt",
               "score": 0
-            },
-            {
-              "title": "qsa.sh",
-              "url": "https://www.producthunt.com/products/qsa-sh-quick-security-audit",
-              "source": "ProductHunt",
-              "score": 0
             }
           ],
-          "takeaway": "把 AI 功能包装成可计量、可审计、可合规的结果，比卖聊天额度更有定价权。"
+          "takeaway": "AI 产品定价要锚定结果、风险和控制权，而不是锚定模型调用成本。"
         },
         {
           "id": "counterintuitive",
           "heading": "今天最反直觉的发现是什么？",
-          "summary_md": "最反直觉的是，越是 AI agent 变强，越多热门项目在处理「让它少乱来」的问题。[ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd) 周增 6156 星、总 13132 星，核心是让 coding agent 别埋没答案；[UditAkhourii/adhd](https://github.com/UditAkhourii/adhd) 周增 992 星，用 tree-of-thought、评分和剪枝控制发散；[Prelint](https://www.producthunt.com/products/prelint) 主打防止 AI-written code 发生 product drift；[microsoft/agent-governance-toolkit](https://github.com/microsoft/agent-governance-toolkit) 则把治理、安全和沙箱推到企业层。也就是说，下一波机会不是让模型更会说，而是让它在边界内持续产出。",
+          "summary_md": "最反直觉的是，越多模型出现，越热门的项目反而越不像模型。GitHub 周榜里 [mattpocock/skills](https://github.com/mattpocock/skills) 本周 12,794 stars，[OmniRoute](https://github.com/diegosouzapw/OmniRoute) 本周 10,028 stars，[ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd) 本周 6,156 stars，[earendil-works/pi](https://github.com/earendil-works/pi) 本周 5,244 stars；它们解决的是模型周边的可用性、表达、路由、执行和协作问题。模型能力越强，人的痛点越转向「如何让它稳定干活」。\n\n这对 builder 是好消息。你不需要和大厂比参数、上下文窗口或 benchmark，而可以在一个日常工作流里定义更好的交互协议：答案先行、失败可见、任务可拆、记忆可审、模型可换、成本可控。今天真正稀缺的不是智能，而是把智能接进现实工作的产品纪律。",
           "items": [
+            {
+              "title": "mattpocock/skills",
+              "url": "https://github.com/mattpocock/skills",
+              "source": "GitHub",
+              "score": 12794
+            },
+            {
+              "title": "diegosouzapw/OmniRoute",
+              "url": "https://github.com/diegosouzapw/OmniRoute",
+              "source": "GitHub",
+              "score": 10028
+            },
             {
               "title": "ayghri/i-have-adhd",
               "url": "https://github.com/ayghri/i-have-adhd",
@@ -317,29 +411,17 @@
               "score": 6156
             },
             {
-              "title": "UditAkhourii/adhd",
-              "url": "https://github.com/UditAkhourii/adhd",
+              "title": "earendil-works/pi",
+              "url": "https://github.com/earendil-works/pi",
               "source": "GitHub",
-              "score": 992
-            },
-            {
-              "title": "Prelint",
-              "url": "https://www.producthunt.com/products/prelint",
-              "source": "ProductHunt",
-              "score": 0
-            },
-            {
-              "title": "microsoft/agent-governance-toolkit",
-              "url": "https://github.com/microsoft/agent-governance-toolkit",
-              "source": "GitHub",
-              "score": 46
+              "score": 5244
             }
           ],
-          "takeaway": "agent 越强，围绕约束、记忆、治理和校准的工具越值钱。"
+          "takeaway": "模型越强，越值得做模型之外的控制层、协作层和信任层。"
         }
       ]
     }
   ],
-  "generated_at": "2026-07-29T09:48:06+00:00",
+  "generated_at": "2026-07-29T10:02:32+00:00",
   "reddit_highlights": []
 }

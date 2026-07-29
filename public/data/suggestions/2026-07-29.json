@@ -3,156 +3,156 @@
   "items": [
     {
       "id": "2026-07-29-1",
-      "title": "Agent 火了，运维才刚开始",
-      "angle": "从“模型能跑”切到“代理能不能稳定、便宜、可监控地跑完整个任务”。",
-      "opening": "今天最扎眼的不是某个新模型，而是一堆围着 coding agent 打补丁的工具。有人监控完成状态，有人管 memory，有人做任务流，还有人开始给 MCP 计费。Agent 时代的第一桶金，可能不在聊天框里。",
+      "title": "模型越强，账单越失控",
+      "angle": "从 Sol 额度消耗和 AI gateway 爆火切入：AI 产品的下一个战场不是模型能力，而是成本治理。",
+      "opening": "Sol 没有偷偷砍额度，但重度用户还是觉得额度突然不够用了。原因很尴尬：模型变强后，它更愿意长时间工作、频繁调工具、跑复杂流程，成本自然烧得更快。",
       "story_hook": {
-        "challenge": "大模型能力变强后，真正卡住开发者的是延迟、成本、状态、上下文和交付闭环。",
-        "twist": "越接近生产环境，越不像 AI 产品，反而更像一套 DevOps 系统。"
+        "challenge": "用户想要更聪明的 agent，但更聪明往往意味着更不可预测的 token、工具调用和等待时间。",
+        "twist": "真正爆火的不是新模型，而是 OmniRoute 这种统一网关和路由层。"
       },
-      "takeaway": "判断 agent 工具机会时，不要问“它会不会写代码”，而要问“它失败、超时、烧钱、跑偏时谁负责”。",
+      "takeaway": "做 AI 产品不能只接模型 API，要从第一天设计用量上限、fallback、压缩、审计和成本可见性。",
       "refs": [
         {
           "tag": "builders",
-          "ref": "Peter Steinberger 关于推理服务难点的推文",
+          "ref": "Thibault Sottiaux 谈 Sol 消耗优化和额度重置",
+          "url": "https://x.com/thsottiaux/status/2082317452755751098"
+        },
+        {
+          "tag": "builders",
+          "ref": "Peter Steinberger 谈大模型推理服务难在稳定、低延迟、低成本",
           "url": "https://x.com/steipete/status/2082337130299457652"
         },
         {
           "tag": "pulse",
-          "ref": "Product Hunt Task Monki：把 coding agents 放进完整开发流程",
-          "url": "https://www.producthunt.com/products/task-monki"
-        },
-        {
-          "tag": "pulse",
-          "ref": "Product Hunt BlackFlare：监控 Claude/Codex 完成状态",
-          "url": "https://www.producthunt.com/products/blackflare"
+          "ref": "GitHub 周榜 OmniRoute：统一 AI gateway，本周新增 10028 stars",
+          "url": "https://github.com/diegosouzapw/OmniRoute"
         }
       ]
     },
     {
       "id": "2026-07-29-2",
-      "title": "管理 10 人不如带 10 个 Agent？",
-      "angle": "用招聘市场分化解释 AI 原生 IC 为什么正在重定价传统管理经验。",
-      "opening": "Swyx 今天抛了个很狠的判断：带过 10 个 AI agent 的 1 年经验，可能比管过 10 到 100 个人的 10 年经验更值钱。听起来像段子，但 GitHub 热榜正在给这个判断补证据。技能库、agent 教程、执行层工具，都在把“会带 agent”变成新简历。",
+      "title": "AI 招聘开始反转了",
+      "angle": "从 Swyx 的招聘判断切入：管理经验正在被 agent 编排经验重新定价。",
+      "opening": "过去十年，履历里写“管过 100 人”是硬通货。现在更扎眼的一句话可能是：我带过 10 个 AI agent 干活。",
       "story_hook": {
-        "challenge": "传统组织里值钱的是管理层级，AI 原生工作流里值钱的是能把多个 agent 调成产出的操盘能力。",
-        "twist": "所谓 AI native，不是会用 ChatGPT，而是能设计任务、技能、反馈和边界。"
+        "challenge": "传统组织需要管理者协调人，但 AI 原生团队更需要能亲自下场、拆任务、管 agent 输出的人。",
+        "twist": "1 年 agent 实战经验，可能比 10 年中层管理经验更值钱。"
       },
-      "takeaway": "开发者和 PM 该开始把 agent orchestration 写进个人能力栈：沉淀技能、记录流程、构建可复用任务模板。",
+      "takeaway": "开发者和 PM 应该把 agent workflow、技能库、记忆、审查和交付记录做成自己的新作品集。",
       "refs": [
         {
           "tag": "builders",
-          "ref": "Swyx 关于 AI 原生 IC 与 Head of X 失势的推文",
+          "ref": "Swyx 谈 AI 原生 IC 和能带 agent 的人更抢手",
           "url": "https://x.com/swyx/status/2082199414656127010"
         },
         {
-          "tag": "pulse",
-          "ref": "GitHub Trending mattpocock/skills 周增 12794 星",
-          "url": "https://github.com/mattpocock/skills"
+          "tag": "builders",
+          "ref": "Aditya Agarwal 谈想亲手造东西、和高强度聪明人共事",
+          "url": "https://x.com/adityaag/status/2082214798935326833"
         },
         {
           "tag": "pulse",
-          "ref": "GitHub bojieli/ai-agent-book 周增 10637 星",
-          "url": "https://github.com/bojieli/ai-agent-book"
+          "ref": "GitHub 周榜 mattpocock/skills：agent 技能化，本周新增 12794 stars",
+          "url": "https://github.com/mattpocock/skills"
         }
       ]
     },
     {
       "id": "2026-07-29-3",
-      "title": "Sol 没砍额度，但你更快用光了",
-      "angle": "从 Sol 额度争议切入，讲强 agent 如何把模型计费、路由和预算管理推到台前。",
-      "opening": "OpenAI 说 Sol 没偷偷砍套餐额度，但用户确实更快烧完了。原因很简单：更强的模型更愿意长时间工作、频繁调工具、跑复杂流程。问题不再是“哪个模型最强”，而是“谁替我控制账单”。",
+      "title": "下一个爆款不是新 Agent",
+      "angle": "从 Product Hunt 上一批薄工具切入：独立开发者的机会在 agent 使用链路的具体摩擦点。",
+      "opening": "今天最有意思的产品不是又一个万能助手，而是提醒你 Claude/Codex 跑完了、记录 agent 记忆、统计 Cursor 和 Claude 用量的小工具。它们看起来很薄，但恰好卡在真实工作流最烦人的地方。",
       "story_hook": {
-        "challenge": "用户以为买的是固定额度，实际消耗取决于模型行为、工具调用和任务复杂度。",
-        "twist": "模型越能干，越需要网关、用量菜单栏和 usage-based billing 来约束它。"
+        "challenge": "大家都在做更大的 agent，但用户每天痛的是等待、失败、遗忘、超额和无法交接。",
+        "twist": "越窄的工具，反而越容易变成 AI 工作流里的刚需插件。"
       },
-      "takeaway": "团队使用 coding agent 时，要尽早引入模型路由、quota fallback、token 压缩和用量监控，而不是等账单爆了再复盘。",
+      "takeaway": "周末项目可以从监听任务状态、repo-native memory、用量统计、失败复盘这些小入口开始，而不是重做一个聊天框。",
       "refs": [
         {
           "tag": "builders",
-          "ref": "Thibault Sottiaux 关于 Sol 额度重置与消耗优化的推文",
-          "url": "https://x.com/thsottiaux/status/2082317452755751098"
-        },
-        {
-          "tag": "builders",
-          "ref": "Peter Yang 关于 Codex 与 Sol Pro 可用性的推文",
-          "url": "https://x.com/petergyang/status/2082323512069685575"
+          "ref": "Peter Yang 用 Claude Design 和 Claude Code 从想法推进到 Tastemaker",
+          "url": "https://x.com/petergyang/status/2082254852600873376"
         },
         {
           "tag": "pulse",
-          "ref": "GitHub OmniRoute：一个 endpoint 接 290+ providers、500+ models",
-          "url": "https://github.com/diegosouzapw/OmniRoute"
+          "ref": "Product Hunt BlackFlare：Claude/Codex 任务完成提醒",
+          "url": "https://www.producthunt.com/products/blackflare"
         },
         {
           "tag": "pulse",
-          "ref": "Product Hunt MCP-Billing：给 MCP server 做 usage-based billing",
-          "url": "https://www.producthunt.com/products/mcp-billing"
+          "ref": "Product Hunt MemoryCustodian：repo-native memory",
+          "url": "https://www.producthunt.com/products/memorycustodian"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt AgentQuartz：Claude 与 Cursor 用量菜单栏工具",
+          "url": "https://www.producthunt.com/products/agentquartz"
         }
       ]
     },
     {
       "id": "2026-07-29-4",
-      "title": "语音写作，不是听写升级",
-      "angle": "从 Dan Shipper 躺在沙发上完成长文工作流，讲语音正在变成创意工作的控制界面。",
-      "opening": "Dan Shipper 说自己早上瘫在沙发上，用 ChatGPT for Work 语音模式完成了一篇 Codex 权威史的采访整理、时间线、写作、编辑和修订。重点不是“语音输入更方便”，而是手离开键盘后，创作流程本身变了。AI 不再只是文本框里的副驾驶。",
+      "title": "语音写作不是玩具了",
+      "angle": "从 Dan Shipper 躺在沙发上用语音完成 Codex 史切入：创意工作的输入方式正在变。",
+      "opening": "Dan Shipper 早上瘫在沙发上，没碰键盘鼠标，用 ChatGPT for Work 语音模式完成了一篇 Codex 权威史的采访整理、时间线、写作和修订。这个细节比“AI 会写文章”更重要：创作入口正在从打字变成对话调度。",
       "story_hook": {
-        "challenge": "传统写作工具默认人坐在电脑前逐字输入，AI 语音工作流则把创作拆成对话、整理、改写和审稿。",
-        "twist": "语音模式最强的地方不是转文字，而是让作者像总编一样调度一个写作系统。"
+        "challenge": "很多人还把语音当成口述转文字，但真实创作需要整理资料、改结构、追问和反复修订。",
+        "twist": "语音模式强的不是转写，而是让作者用更低摩擦完成完整编辑链路。"
       },
-      "takeaway": "做内容、研究和知识管理产品时，可以把语音设计成流程入口，而不是输入法替代品。",
+      "takeaway": "内容团队和知识工作者应重新设计自己的写作流程：语音负责探索和粗编，文档负责结构化，最后再人工审稿。",
       "refs": [
         {
           "tag": "builders",
-          "ref": "Dan Shipper 关于用 ChatGPT 语音完成 Codex 长文工作流的推文",
+          "ref": "Dan Shipper 用 ChatGPT for Work 语音模式完成 Codex 权威史写作流程",
           "url": "https://x.com/danshipper/status/2082130836485259530"
         },
         {
-          "tag": "pulse",
-          "ref": "HuggingFace owensong/Inflect-Micro-v2：local-tts、cpu、edge-ai",
-          "url": "https://huggingface.co/owensong/Inflect-Micro-v2"
+          "tag": "builders",
+          "ref": "Madhu Guru 调侃不用 Claude、Wispr、Tab 补全写代码像史前打猎",
+          "url": "https://x.com/realmadhuguru/status/2082112941814661236"
         },
         {
           "tag": "pulse",
-          "ref": "HuggingFace moonshotai/Kimi-K3：多模态图文工作流热模型",
-          "url": "https://huggingface.co/moonshotai/Kimi-K3"
+          "ref": "HuggingFace Inflect-Micro-v2：local TTS、CPU、edge AI",
+          "url": "https://huggingface.co/owensong/Inflect-Micro-v2"
         }
       ]
     },
     {
       "id": "2026-07-29-5",
-      "title": "AI 写代码后，安全工具反而更值钱",
-      "angle": "用开源安全 CLI、Prelint 和 agent governance 说明下一波机会是限制 AI 乱改。",
-      "opening": "今天有 builder 发布了开源安全 CLI 和 TypeScript SDK，不只是扫描漏洞，还能验证、修复、审查变更并塞进 CI。另一边，Product Hunt 和 GitHub 上也出现了防 product drift、agent governance、终端安全审计工具。AI 代码越来越多，安全问题不是减少了，而是换了形态。",
+      "title": "开源替代开始抢 SaaS",
+      "angle": "从开源 Webflow、部署平台和多供应商路由切入：迁移潮的核心不是便宜，而是重新拿回控制权。",
+      "opening": "今天 GitHub 周榜里，一个项目要做 Webflow、Framer、WordPress 的开源替代，另一个项目做自托管部署平台，还有一个项目把 290 多个 provider 接到同一个 endpoint。它们共同指向一件事：用户不是只想省钱，而是不想被锁死。",
       "story_hook": {
-        "challenge": "AI agent 可以高速改代码，但团队很难确认它改得是否安全、是否偏离产品意图、是否留下长期风险。",
-        "twist": "开发者工具的新卖点不再是“帮你写更多代码”，而是“帮你少合并错误代码”。"
+        "challenge": "SaaS 帮团队省掉运维，但也把部署、数据、供应商和成本控制权收走了。",
+        "twist": "AI 时代越依赖外部服务，开源和自托管的吸引力反而越强。"
       },
-      "takeaway": "如果做 AI coding 产品，安全、审计、CI 校验和漂移检测应当成为核心功能，而不是企业版附加项。",
+      "takeaway": "创业者可以围绕开源核心做托管、迁移、权限、监控、备份、SLA 和企业审计，而不是只卖源码。",
       "refs": [
         {
           "tag": "builders",
-          "ref": "Thibault Sottiaux 关于开源安全 CLI 和 TypeScript SDK 的推文",
+          "ref": "Thibault Sottiaux 发布可发现、验证并修复安全漏洞的 CLI 和 TypeScript SDK",
           "url": "https://x.com/thsottiaux/status/2082241164850364555"
         },
         {
           "tag": "pulse",
-          "ref": "Product Hunt Prelint：防止 AI-written code 发生 product drift",
-          "url": "https://www.producthunt.com/products/prelint"
+          "ref": "GitHub Instatic：Webflow、Framer、WordPress 的开源替代，本周新增 2828 stars",
+          "url": "https://github.com/CoreBunch/Instatic"
         },
         {
           "tag": "pulse",
-          "ref": "GitHub microsoft/agent-governance-toolkit：policy enforcement 与 sandboxing",
-          "url": "https://github.com/microsoft/agent-governance-toolkit"
+          "ref": "GitHub openship：自托管部署平台，本周新增 3628 stars",
+          "url": "https://github.com/oblien/openship"
         },
         {
           "tag": "pulse",
-          "ref": "Product Hunt qsa.sh：Quick Security Audit 终端工具",
-          "url": "https://www.producthunt.com/products/qsa-sh-quick-security-audit"
+          "ref": "GitHub OmniRoute：多 provider AI gateway，本周新增 10028 stars",
+          "url": "https://github.com/diegosouzapw/OmniRoute"
         }
       ]
     }
   ],
-  "notes": "今日主线很集中：agent 不是单点模型能力，而是在形成工作流基础设施。适合写成“agent 进入生产后，钱、权限、记忆、监控、安全谁来管”的系列，而不是继续追模型参数。",
-  "generated_at": "2026-07-29T09:49:00+00:00",
+  "notes": "今日主线非常集中：agent 不再只是模型调用，而是在向技能、记忆、路由、成本、治理和本地工作流扩散。可写 4-5 条，但不建议再加纯模型发布选题，容易和基础设施主线重复。",
+  "generated_at": "2026-07-29T10:03:29+00:00",
   "model": "gpt-5.5"
 }
