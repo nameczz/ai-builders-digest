@@ -1,0 +1,158 @@
+{
+  "date": "2026-07-29",
+  "items": [
+    {
+      "id": "2026-07-29-1",
+      "title": "Agent 火了，运维才刚开始",
+      "angle": "从“模型能跑”切到“代理能不能稳定、便宜、可监控地跑完整个任务”。",
+      "opening": "今天最扎眼的不是某个新模型，而是一堆围着 coding agent 打补丁的工具。有人监控完成状态，有人管 memory，有人做任务流，还有人开始给 MCP 计费。Agent 时代的第一桶金，可能不在聊天框里。",
+      "story_hook": {
+        "challenge": "大模型能力变强后，真正卡住开发者的是延迟、成本、状态、上下文和交付闭环。",
+        "twist": "越接近生产环境，越不像 AI 产品，反而更像一套 DevOps 系统。"
+      },
+      "takeaway": "判断 agent 工具机会时，不要问“它会不会写代码”，而要问“它失败、超时、烧钱、跑偏时谁负责”。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Peter Steinberger 关于推理服务难点的推文",
+          "url": "https://x.com/steipete/status/2082337130299457652"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt Task Monki：把 coding agents 放进完整开发流程",
+          "url": "https://www.producthunt.com/products/task-monki"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt BlackFlare：监控 Claude/Codex 完成状态",
+          "url": "https://www.producthunt.com/products/blackflare"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-29-2",
+      "title": "管理 10 人不如带 10 个 Agent？",
+      "angle": "用招聘市场分化解释 AI 原生 IC 为什么正在重定价传统管理经验。",
+      "opening": "Swyx 今天抛了个很狠的判断：带过 10 个 AI agent 的 1 年经验，可能比管过 10 到 100 个人的 10 年经验更值钱。听起来像段子，但 GitHub 热榜正在给这个判断补证据。技能库、agent 教程、执行层工具，都在把“会带 agent”变成新简历。",
+      "story_hook": {
+        "challenge": "传统组织里值钱的是管理层级，AI 原生工作流里值钱的是能把多个 agent 调成产出的操盘能力。",
+        "twist": "所谓 AI native，不是会用 ChatGPT，而是能设计任务、技能、反馈和边界。"
+      },
+      "takeaway": "开发者和 PM 该开始把 agent orchestration 写进个人能力栈：沉淀技能、记录流程、构建可复用任务模板。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Swyx 关于 AI 原生 IC 与 Head of X 失势的推文",
+          "url": "https://x.com/swyx/status/2082199414656127010"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub Trending mattpocock/skills 周增 12794 星",
+          "url": "https://github.com/mattpocock/skills"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub bojieli/ai-agent-book 周增 10637 星",
+          "url": "https://github.com/bojieli/ai-agent-book"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-29-3",
+      "title": "Sol 没砍额度，但你更快用光了",
+      "angle": "从 Sol 额度争议切入，讲强 agent 如何把模型计费、路由和预算管理推到台前。",
+      "opening": "OpenAI 说 Sol 没偷偷砍套餐额度，但用户确实更快烧完了。原因很简单：更强的模型更愿意长时间工作、频繁调工具、跑复杂流程。问题不再是“哪个模型最强”，而是“谁替我控制账单”。",
+      "story_hook": {
+        "challenge": "用户以为买的是固定额度，实际消耗取决于模型行为、工具调用和任务复杂度。",
+        "twist": "模型越能干，越需要网关、用量菜单栏和 usage-based billing 来约束它。"
+      },
+      "takeaway": "团队使用 coding agent 时，要尽早引入模型路由、quota fallback、token 压缩和用量监控，而不是等账单爆了再复盘。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Thibault Sottiaux 关于 Sol 额度重置与消耗优化的推文",
+          "url": "https://x.com/thsottiaux/status/2082317452755751098"
+        },
+        {
+          "tag": "builders",
+          "ref": "Peter Yang 关于 Codex 与 Sol Pro 可用性的推文",
+          "url": "https://x.com/petergyang/status/2082323512069685575"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub OmniRoute：一个 endpoint 接 290+ providers、500+ models",
+          "url": "https://github.com/diegosouzapw/OmniRoute"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt MCP-Billing：给 MCP server 做 usage-based billing",
+          "url": "https://www.producthunt.com/products/mcp-billing"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-29-4",
+      "title": "语音写作，不是听写升级",
+      "angle": "从 Dan Shipper 躺在沙发上完成长文工作流，讲语音正在变成创意工作的控制界面。",
+      "opening": "Dan Shipper 说自己早上瘫在沙发上，用 ChatGPT for Work 语音模式完成了一篇 Codex 权威史的采访整理、时间线、写作、编辑和修订。重点不是“语音输入更方便”，而是手离开键盘后，创作流程本身变了。AI 不再只是文本框里的副驾驶。",
+      "story_hook": {
+        "challenge": "传统写作工具默认人坐在电脑前逐字输入，AI 语音工作流则把创作拆成对话、整理、改写和审稿。",
+        "twist": "语音模式最强的地方不是转文字，而是让作者像总编一样调度一个写作系统。"
+      },
+      "takeaway": "做内容、研究和知识管理产品时，可以把语音设计成流程入口，而不是输入法替代品。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Dan Shipper 关于用 ChatGPT 语音完成 Codex 长文工作流的推文",
+          "url": "https://x.com/danshipper/status/2082130836485259530"
+        },
+        {
+          "tag": "pulse",
+          "ref": "HuggingFace owensong/Inflect-Micro-v2：local-tts、cpu、edge-ai",
+          "url": "https://huggingface.co/owensong/Inflect-Micro-v2"
+        },
+        {
+          "tag": "pulse",
+          "ref": "HuggingFace moonshotai/Kimi-K3：多模态图文工作流热模型",
+          "url": "https://huggingface.co/moonshotai/Kimi-K3"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-29-5",
+      "title": "AI 写代码后，安全工具反而更值钱",
+      "angle": "用开源安全 CLI、Prelint 和 agent governance 说明下一波机会是限制 AI 乱改。",
+      "opening": "今天有 builder 发布了开源安全 CLI 和 TypeScript SDK，不只是扫描漏洞，还能验证、修复、审查变更并塞进 CI。另一边，Product Hunt 和 GitHub 上也出现了防 product drift、agent governance、终端安全审计工具。AI 代码越来越多，安全问题不是减少了，而是换了形态。",
+      "story_hook": {
+        "challenge": "AI agent 可以高速改代码，但团队很难确认它改得是否安全、是否偏离产品意图、是否留下长期风险。",
+        "twist": "开发者工具的新卖点不再是“帮你写更多代码”，而是“帮你少合并错误代码”。"
+      },
+      "takeaway": "如果做 AI coding 产品，安全、审计、CI 校验和漂移检测应当成为核心功能，而不是企业版附加项。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Thibault Sottiaux 关于开源安全 CLI 和 TypeScript SDK 的推文",
+          "url": "https://x.com/thsottiaux/status/2082241164850364555"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt Prelint：防止 AI-written code 发生 product drift",
+          "url": "https://www.producthunt.com/products/prelint"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub microsoft/agent-governance-toolkit：policy enforcement 与 sandboxing",
+          "url": "https://github.com/microsoft/agent-governance-toolkit"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt qsa.sh：Quick Security Audit 终端工具",
+          "url": "https://www.producthunt.com/products/qsa-sh-quick-security-audit"
+        }
+      ]
+    }
+  ],
+  "notes": "今日主线很集中：agent 不是单点模型能力，而是在形成工作流基础设施。适合写成“agent 进入生产后，钱、权限、记忆、监控、安全谁来管”的系列，而不是继续追模型参数。",
+  "generated_at": "2026-07-29T09:49:00+00:00",
+  "model": "gpt-5.5"
+}
