@@ -1,0 +1,502 @@
+{
+  "date": "2026-07-30",
+  "generated_at": "2026-07-30T09:11:25+00:00",
+  "count": 33,
+  "items": [
+    {
+      "id": "598f0aaa00",
+      "date": "2026-07-30",
+      "source": "x",
+      "author": "Zara Zhang",
+      "bio": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://t.co/KCuEajezlL YouTube: https://t.co/8xzbGWtf6w",
+      "title": "",
+      "summary_en": "If you both have deep domain expertise &amp; experience AND you’re AI-native and constantly reinventing yourself to adopt the new ways that work get done, you’re basically invincible https://t.co/vRwyZoTf3a",
+      "summary_zh": "同时拥有深厚行业经验，又能 AI-native 地不断重塑自己的工作方式，基本就是无敌状态。过时的不是经验，而是拒绝被 AI 改造的经验。",
+      "url": "https://x.com/zarazhangrui/status/2082705944782520462",
+      "posted_at": "2026-07-30T05:52:46.000Z",
+      "tags": [
+        "@zarazhangrui"
+      ]
+    },
+    {
+      "id": "ab89eb13d7",
+      "date": "2026-07-30",
+      "source": "x",
+      "author": "Zara Zhang",
+      "bio": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://t.co/KCuEajezlL YouTube: https://t.co/8xzbGWtf6w",
+      "title": "",
+      "summary_en": "Being good at marketing is not just good for your marketing; it’s good for your product \n\nSo many technical people are building for imaginary audiences with no contact with the reality of how people actually perceive and use these products https://t.co/d9TuyWeVpW",
+      "summary_zh": "会做营销不只是让营销变好，也会倒逼产品变好。\n\n太多技术人还在给想象中的用户造产品，完全脱离了真实用户如何理解、感知和使用这些东西。",
+      "url": "https://x.com/zarazhangrui/status/2082684904136134881",
+      "posted_at": "2026-07-30T04:29:10.000Z",
+      "tags": [
+        "@zarazhangrui"
+      ]
+    },
+    {
+      "id": "1d5e45118b",
+      "date": "2026-07-30",
+      "source": "x",
+      "author": "Aaron Levie",
+      "bio": "ceo @box - your business lives in content. unleash it with AI",
+      "title": "",
+      "summary_en": "Thought provoking post by Dwarkesh. In general - as AI gets more powerful - we should expect on the margin that inference goes toward the most economically useful task, and everything else gets priced out. \n\nThis in theory in a very scarce environment would cause the cost of inference to skyrocket because those tasks would be far more valuable than today. \n\nBut I don’t think it plays out in the way that’s laid out just simply due to market forces competing for inference demand as a way of continuing to drive down prices until capacity can catch up.\n\nThere are too many model providers and infra players that want these workloads to cause the effect that’s proposed here. But will see!",
+      "summary_zh": "AI 越强，推理资源越会流向最能赚钱的任务，其他需求被挤出；但“推理成本暴涨”未必会发生，因为模型厂商和基础设施玩家太多，都会抢这些工作负载、继续把价格压下去。",
+      "url": "https://x.com/levie/status/2082658870523248967",
+      "posted_at": "2026-07-30T02:45:43.000Z",
+      "tags": [
+        "@levie"
+      ]
+    },
+    {
+      "id": "fa0b9302cd",
+      "date": "2026-07-30",
+      "source": "x",
+      "author": "Thibault Sottiaux",
+      "bio": "Codex & ChatGPT @OpenAI",
+      "title": "",
+      "summary_en": "This week is all about intelligence too cheap to meter. Tomorrow we ship again.",
+      "summary_zh": "本周的主题很明确：智能正在便宜到可以忽略成本。明天继续发货。",
+      "url": "https://x.com/thsottiaux/status/2082655731204096275",
+      "posted_at": "2026-07-30T02:33:14.000Z",
+      "tags": [
+        "@thsottiaux"
+      ]
+    },
+    {
+      "id": "921055d6b9",
+      "date": "2026-07-30",
+      "source": "x",
+      "author": "Peter Yang",
+      "bio": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6",
+      "title": "",
+      "summary_en": "AI has been great for my productivity, but I’m starting to recognize three dark patterns:\n\n1. Becoming too lazy to read anything\n\nIt's too easy to just read AI summaries over the original piece or let agents go wild changing my files without reviewing what they did.\n\n2. Getting distracted by agents while I’m out\n\nIt’s too easy to open ChatGPT or Claude on my phone while I’m out to give feedback my agents and feel “productive,” even when I’m supposed to be watching my kids or doing literally anything else.\n\n3. Preferring to talk to the agent vs. a human\n\nThis is a new pattern with ChatGPT Voice, I sometimes find myself preferring to brainstorm with the agent instead of the actual human in the room.",
+      "summary_zh": "AI 提升了效率，也在把人训练成不读原文、不审改动、随时被 agent 牵着走的懒人。更危险的是，和 AI 语音头脑风暴开始比和房间里的真人说话更有吸引力。",
+      "url": "https://x.com/petergyang/status/2082642205811106158",
+      "posted_at": "2026-07-30T01:39:30.000Z",
+      "tags": [
+        "@petergyang"
+      ]
+    },
+    {
+      "id": "0939b50fb9",
+      "date": "2026-07-30",
+      "source": "x",
+      "author": "Thibault Sottiaux",
+      "bio": "Codex & ChatGPT @OpenAI",
+      "title": "",
+      "summary_en": "Terrific work by @ilanbigio and @sandersted on the investigation and post. Seems like it was a lot of fun.\n\nTake care of your harnesses out there, your model will thank you. https://t.co/3Enah7xd4t",
+      "summary_zh": "别把测试 harness 当配角，模型表现好不好，它可能比你想的更关键。照顾好它，你的模型会感谢你。",
+      "url": "https://x.com/thsottiaux/status/2082637967852806207",
+      "posted_at": "2026-07-30T01:22:39.000Z",
+      "tags": [
+        "@thsottiaux"
+      ]
+    },
+    {
+      "id": "a3959122fb",
+      "date": "2026-07-30",
+      "source": "x",
+      "author": "Madhu Guru",
+      "bio": "Sr Director, AI at Meta; Prev: Google - Led Gemini, Veo, Nano Banana.",
+      "title": "",
+      "summary_en": "7 months on, this continues to be true. Biggest alpha lies in understanding the model frontier. https://t.co/x4EPGKFvSQ",
+      "summary_zh": "7 个月过去，这个判断仍然没变：真正的超额优势，来自对模型前沿的理解。谁更懂模型边界，谁就更接近机会本身。",
+      "url": "https://x.com/realmadhuguru/status/2082629168035201459",
+      "posted_at": "2026-07-30T00:47:41.000Z",
+      "tags": [
+        "@realmadhuguru"
+      ]
+    },
+    {
+      "id": "722cf275fc",
+      "date": "2026-07-30",
+      "source": "x",
+      "author": "Sam Altman",
+      "bio": "AI is cool i guess",
+      "title": "",
+      "summary_en": "so excited for this.\n\nvery close to models that will significantly accelerate scientific discovery; the best way to do this is for us to empower scientists, not to try to figure out everything ourselves.\n\nwe all deserve the benefits. https://t.co/nzfHpb96re",
+      "summary_zh": "能显著加速科学发现的模型已经很近了，但关键不是让 AI 公司包打天下，而是把能力交到科学家手里。科学突破的红利不该只属于少数人。",
+      "url": "https://x.com/sama/status/2082628413769003269",
+      "posted_at": "2026-07-30T00:44:41.000Z",
+      "tags": [
+        "@sama"
+      ]
+    },
+    {
+      "id": "fa2d0d6c7a",
+      "date": "2026-07-30",
+      "source": "x",
+      "author": "Sam Altman",
+      "bio": "AI is cool i guess",
+      "title": "",
+      "summary_en": "goblin-level blog post https://t.co/pmcqmDjE4f",
+      "summary_zh": "这篇博客是“哥布林级”的狠活：野、怪、上头，值得直接点开看。",
+      "url": "https://x.com/sama/status/2082627724040884667",
+      "posted_at": "2026-07-30T00:41:57.000Z",
+      "tags": [
+        "@sama"
+      ]
+    },
+    {
+      "id": "570da0b7d5",
+      "date": "2026-07-30",
+      "source": "x",
+      "author": "Swyx",
+      "bio": "achieve ambition with intentionality, intensity, integrity & insanity.  affiliations: - @smol_ai - @dxtipshq - @cognition - @aidotengineer - @latentspacepod",
+      "title": "",
+      "summary_en": "today i tried to sign up for @docusign and was presented a captcha that i could not solve\n\nthis is an $11B company that everyone hates\n\npeople who say \"make something people want\" dont have the full picture https://t.co/DHT1CcVMbk https://t.co/j7J7irkwIB",
+      "summary_zh": "今天注册 DocuSign，被一个解不开的验证码挡住了。一个市值 110 亿美元、人人讨厌的公司还活得好好的，所以“做用户想要的东西”根本不是商业真相的全貌。",
+      "url": "https://x.com/swyx/status/2082617801362313527",
+      "posted_at": "2026-07-30T00:02:31.000Z",
+      "tags": [
+        "@swyx"
+      ]
+    },
+    {
+      "id": "764b360f29",
+      "date": "2026-07-30",
+      "source": "x",
+      "author": "Peter Steinberger",
+      "bio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world. @OpenClaw🦞 + @OpenAI",
+      "title": "",
+      "summary_en": "lol did nobody at Anthropic stop for a second and wonder why the numbers looked this absurd before posting the “victory”-tweet?\nhttps://t.co/DPdPc04YZT https://t.co/ObXC5D8g4v",
+      "summary_zh": "Anthropic 发“胜利”推前，居然没人停下来想一秒：这些数字荒唐成这样，真的合理吗？",
+      "url": "https://x.com/steipete/status/2082617409408762124",
+      "posted_at": "2026-07-30T00:00:58.000Z",
+      "tags": [
+        "@steipete"
+      ]
+    },
+    {
+      "id": "67e3d9484e",
+      "date": "2026-07-30",
+      "source": "x",
+      "author": "Dan Shipper",
+      "bio": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "title": "",
+      "summary_en": "Almost every single person @every is freaking out about how good voice mode in ChatGPT for Work is\n\nHave not seen vibes this high in a while. If you haven’t tried it yet, you should https://t.co/L6c67tNeF2",
+      "summary_zh": "几乎整个 @every 都在为 ChatGPT for Work 的语音模式炸锅，好久没见过这么高的内部兴奋度了。还没试的人，已经落后半拍。",
+      "url": "https://x.com/danshipper/status/2082613916706693560",
+      "posted_at": "2026-07-29T23:47:05.000Z",
+      "tags": [
+        "@danshipper"
+      ]
+    },
+    {
+      "id": "c1c89e241b",
+      "date": "2026-07-30",
+      "source": "x",
+      "author": "Thibault Sottiaux",
+      "bio": "Codex & ChatGPT @OpenAI",
+      "title": "",
+      "summary_en": "Turns out GPT-5.6 Sol is actually SoTA on ARC-AGI-3. \n\nJust took two setting changes. You just have to allow it to reason and work over multiple context windows with the help of our canonical compaction implementation.\n\nhttps://t.co/wHjaNsvIv8",
+      "summary_zh": "原来 GPT-5.6 Sol 已经是 ARC-AGI-3 的 SoTA，只差两个设置。让它真正推理，并借助标准 compaction 跨多个上下文窗口工作，结果就出来了。",
+      "url": "https://x.com/thsottiaux/status/2082609662231502932",
+      "posted_at": "2026-07-29T23:30:11.000Z",
+      "tags": [
+        "@thsottiaux"
+      ]
+    },
+    {
+      "id": "475b256f9a",
+      "date": "2026-07-30",
+      "source": "x",
+      "author": "Dan Shipper",
+      "bio": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "title": "",
+      "summary_en": "incredibly good write up \n\nbad actors will obviously try to use models to do stuff like this on purpose in the future. \n\non the bright side:\n\n- OpenAI’s safety classifiers were turned off, the model was explicitly directed to do exploits\n- HG’s AI actually surfaced the attack automatically (though not with a high enough criticality) \n\nWill obviously require any company dealing with sensitive customer data to have automated agentic defense systems, massive opportunity and seems effective",
+      "summary_zh": "恶意玩家以后一定会故意用模型干这种事；这次只是 OpenAI 安全分类器被关、模型被明示去打漏洞，HG 的 AI 还自动发现了攻击。任何处理敏感客户数据的公司都得上自动化智能防御系统，这会是个巨大的机会，而且看起来已经有效。",
+      "url": "https://x.com/danshipper/status/2082608994275725650",
+      "posted_at": "2026-07-29T23:27:31.000Z",
+      "tags": [
+        "@danshipper"
+      ]
+    },
+    {
+      "id": "e8a1aedf96",
+      "date": "2026-07-30",
+      "source": "x",
+      "author": "Dan Shipper",
+      "bio": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "title": "",
+      "summary_en": "usually the most honest answer ime https://t.co/tqDureRmzo",
+      "summary_zh": "“通常最诚实的答案就是：我不知道。”  \n少装懂，少包装，承认不确定性反而是最可靠的判断。",
+      "url": "https://x.com/danshipper/status/2082605739256734153",
+      "posted_at": "2026-07-29T23:14:35.000Z",
+      "tags": [
+        "@danshipper"
+      ]
+    },
+    {
+      "id": "5996ac4727",
+      "date": "2026-07-30",
+      "source": "x",
+      "author": "Peter Yang",
+      "bio": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6",
+      "title": "",
+      "summary_en": "One of my favorite features in Claude Design is a simple one:\n\nIt always asks clarifying questions before creating anything.\n\nI’ve found these questions consistently help me think through my design requirements with AI. I’m surprised other AI design tools haven’t copied this yet.\n\n📌 Here’s how I use Claude Design to prototype: https://t.co/DYtxQdhytA",
+      "summary_zh": "Claude Design 最狠的能力不是生成，而是动手前先追问，把你没想清楚的设计需求逼出来。奇怪的是，这么基础却有效的交互，其他 AI 设计工具到现在还没抄明白。",
+      "url": "https://x.com/petergyang/status/2082579428090192192",
+      "posted_at": "2026-07-29T21:30:02.000Z",
+      "tags": [
+        "@petergyang"
+      ]
+    },
+    {
+      "id": "e563dca140",
+      "date": "2026-07-30",
+      "source": "x",
+      "author": "Aditya Agarwal",
+      "bio": "General Partner @SouthPkCommons, Co-Founder @Bevel_Health | Ex: Early Eng @facebook, CTO @Dropbox, Board @Flipkart | Optimist, Builder, Dad",
+      "title": "",
+      "summary_en": "Imagine if you were LeBron at 19 years old but believed you only had 2 years to maximize earnings before basketball was played by robots.\n\nThis is what AI researchers are going through and explains all the goddamn drama.\n\nThey are MVPs with 18 months on the shot clock.",
+      "summary_zh": "AI 研究员现在就像 19 岁的詹姆斯，却相信篮球两年后就会被机器人接管，所以必须赶紧把身价榨到极限。\n\n他们是 MVP，但进攻时间只剩 18 个月，所有闹剧都从这里来。",
+      "url": "https://x.com/adityaag/status/2082558632705896899",
+      "posted_at": "2026-07-29T20:07:24.000Z",
+      "tags": [
+        "@adityaag"
+      ]
+    },
+    {
+      "id": "bd5d21e951",
+      "date": "2026-07-30",
+      "source": "x",
+      "author": "Nan Yu",
+      "bio": "head of product @linear",
+      "title": "",
+      "summary_en": "That is why we must pace https://t.co/CoIo5Y5Mf5",
+      "summary_zh": "这就是为什么我们必须控制节奏：别被 AI 的狂飙牵着跑。",
+      "url": "https://x.com/thenanyu/status/2082550710160310587",
+      "posted_at": "2026-07-29T19:35:55.000Z",
+      "tags": [
+        "@thenanyu"
+      ]
+    },
+    {
+      "id": "da4beb1ff2",
+      "date": "2026-07-30",
+      "source": "x",
+      "author": "Ryo Lu",
+      "bio": "Design @Cursor_ai. Early @NotionHQ, @Stripe, built startups. I make a world where anyone can make software. Aspiring k-pop idol.",
+      "title": "",
+      "summary_en": "your agents, anywhere\n\ntry Cursor on iOS today https://t.co/cUpj159sqj",
+      "summary_zh": "Cursor 上 iOS 了：你的 agents 不再被桌面绑住，随时随地开干。",
+      "url": "https://x.com/ryolu_/status/2082539893729972320",
+      "posted_at": "2026-07-29T18:52:57.000Z",
+      "tags": [
+        "@ryolu_"
+      ]
+    },
+    {
+      "id": "fb95d56e26",
+      "date": "2026-07-30",
+      "source": "x",
+      "author": "Aditya Agarwal",
+      "bio": "General Partner @SouthPkCommons, Co-Founder @Bevel_Health | Ex: Early Eng @facebook, CTO @Dropbox, Board @Flipkart | Optimist, Builder, Dad",
+      "title": "",
+      "summary_en": "Some observations from our Demo Faire yesterday:\n\n1/ There is a tremendous amount of interest from the larger investor community for frontier technology. Robots. Drones. Semiconductors. Bring it all. \n\n2/ The interest in Frontier Tech is legitimately Based. People want 🇺🇸 to win.\n\n3/ The bar for \"great\" in software has gone up a lot. If you are building something that resembles vertical SaaS or agent-for-X, then you have to show something truly different in terms of vision or on a bonkers ramp.\n\n4/ You should only do early stage investing if you love building the future. That is the real joy of it. It was so cool to see everyone deeply engaging with our founders about what they were building (as opposed to simply asking for up and to the right graphs).\n\n5/ Silicon Valley does best when we understand that it takes a village to build something special for many decades.",
+      "summary_zh": "前沿科技重新成了投资圈硬通货：机器人、无人机、半导体都有人抢着看，背后是很直接的“美国必须赢”。\n\n软件创业的“伟大”门槛已经暴涨，普通垂直 SaaS 或 agent-for-X 不够看，除非愿景真的不一样，或者增长曲线炸裂。",
+      "url": "https://x.com/adityaag/status/2082538703432630398",
+      "posted_at": "2026-07-29T18:48:13.000Z",
+      "tags": [
+        "@adityaag"
+      ]
+    },
+    {
+      "id": "1869b84a22",
+      "date": "2026-07-30",
+      "source": "x",
+      "author": "Garry Tan",
+      "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "title": "",
+      "summary_en": "The AI Datacenter Degrowthers are winning and it is actually a psy-op happening under our noses, and it's winning in every blue state\n\nhttps://t.co/svoLRmiRhD https://t.co/90vXFe4Ydq https://t.co/SdOOWXAZ7b",
+      "summary_zh": "AI 数据中心“去增长派”正在赢，而且这场心理战就在眼皮底下发生；在每个蓝州，它都已经占了上风。",
+      "url": "https://x.com/garrytan/status/2082529714162536926",
+      "posted_at": "2026-07-29T18:12:30.000Z",
+      "tags": [
+        "@garrytan"
+      ]
+    },
+    {
+      "id": "e404d2e7eb",
+      "date": "2026-07-30",
+      "source": "x",
+      "author": "Peter Yang",
+      "bio": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6",
+      "title": "",
+      "summary_en": "We’ve gone from AI defaulting to designs that look like purple slop to those that have that recognizable Claude look.\n\nTo avoid this, I always create a design md file with guidelines for color, typography, and more.\nHere are a few places to find inspiration for your design md:\n\n1. Go to @mobbin and install its MCP to find design patterns and app screens you like. Paste the screens and ask AI to make a design md.\n\n2. Check out designmd sh, which has a library of design md files for popular websites and apps.\n\n📌 I walk through an example of creating a design md in my new tutorial: https://t.co/3LIw4UXbpi",
+      "summary_zh": "AI 设计已经从默认的“紫色垃圾感”进化成一眼可辨的 Claude 风，但本质还是模板味。想摆脱这种同质化，就先写一份 design.md，用 Mobbin、designmd.sh 之类的真实产品设计样本约束颜色、字体和界面风格。",
+      "url": "https://x.com/petergyang/status/2082519030859264086",
+      "posted_at": "2026-07-29T17:30:02.000Z",
+      "tags": [
+        "@petergyang"
+      ]
+    },
+    {
+      "id": "de2f59ca3f",
+      "date": "2026-07-30",
+      "source": "x",
+      "author": "Garry Tan",
+      "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "title": "",
+      "summary_en": "Manhattan Institute is the truth https://t.co/mN8Qi19I0u",
+      "summary_zh": "曼哈顿研究所说的才是真相，其他噪音都可以先放一边。",
+      "url": "https://x.com/garrytan/status/2082518742752461268",
+      "posted_at": "2026-07-29T17:28:54.000Z",
+      "tags": [
+        "@garrytan"
+      ]
+    },
+    {
+      "id": "4af52720cb",
+      "date": "2026-07-30",
+      "source": "x",
+      "author": "Aaron Levie",
+      "bio": "ceo @box - your business lives in content. unleash it with AI",
+      "title": "",
+      "summary_en": "The openai agent sandbox escape actually has very real implications for the diffusion of AI in the enterprise. The incident showed the power and capability of agents, and the need to harden systems and environments to prepare for agents.\n\nThere are tons of measures that enterprises must take to ensure that agents are only able to operate on the data they give it, the ability to have audit trails and governance of what agents can do, figure out what systems should remain deterministic vs. nondeterministic, get access controls under control, have the ability to quickly block and defend if an agent goes rogue, and much more.\n\nEven in the happy path case with a good actor, if you give an agent a task like \"find all of our most important IP on project Maven\" it will gladly go out and execute that work -no matter how long- and find any resource relevant to the task. It might run into data with out of date access controls or reveal something that you shouldn't know about. Then, in the non-happy path case with a malicious actor the risk is clearly far worse.\n\nIn theory, you had to worry about this for people as well, but with AI the risks are inherently amplified. Agents will happily spend any amount of time on a task, don’t actually face any *real* risks by going rogue, and don’t have the inherent judgment (yet) that a person does that a task might make no sense. This means you need an all new way of managing data and protecting environments.\n\nThis obviously creates a huge opportunity for the startup and security ecosystems because there will be many different approaches to how we lock down agents or at least the underlying systems they work with. It should update everyone’s timelines on diffusion, though, as it also means that enterprises will have another step of work they have to go through for agents to handle more autonomous work.",
+      "summary_zh": "OpenAI agent 沙箱逃逸说明，企业要真正用上自主 Agent，先得重做数据权限、审计治理、访问控制和应急封锁，否则 Agent 会不知疲倦地把它能碰到的一切都翻出来。\n\n这不是“人也会犯错”的老问题，而是风险被 AI 放大了：Agent 没有现实代价、缺少判断力，却有无限执行耐心，这会拉长企业采用时间线，也给安全创业公司打开巨大机会。",
+      "url": "https://x.com/levie/status/2082514776392175844",
+      "posted_at": "2026-07-29T17:13:08.000Z",
+      "tags": [
+        "@levie"
+      ]
+    },
+    {
+      "id": "a456e41608",
+      "date": "2026-07-30",
+      "source": "x",
+      "author": "Amjad Masad",
+      "bio": "ceo @replit. civilizationist",
+      "title": "",
+      "summary_en": "Some models are great at CSS, others are fantastic at SVG, while yet others are really good at animations.\n\nReplit Design is powered by the best of open and closed models to generate superior aesthetics. https://t.co/qt5XNdHfQ8 https://t.co/Nqjzz7EyVO",
+      "summary_zh": "有些模型擅长 CSS，有些精通 SVG，还有些特别会做动画。Replit Design 把最强的开源和闭源模型组合起来，专门榨出更高级的视觉审美。",
+      "url": "https://x.com/amasad/status/2082508826767679668",
+      "posted_at": "2026-07-29T16:49:30.000Z",
+      "tags": [
+        "@amasad"
+      ]
+    },
+    {
+      "id": "f0b34215e0",
+      "date": "2026-07-30",
+      "source": "x",
+      "author": "Nikunj Kothari",
+      "bio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
+      "title": "",
+      "summary_en": "Evergreen post - wrote this as I held my son who’s now 20 months old! https://t.co/ZYutlcl2c2",
+      "summary_zh": "这是一篇常青帖，作者说当初是一边抱着儿子一边写下的，如今孩子已经 20 个月大。",
+      "url": "https://x.com/nikunj/status/2082507794889220545",
+      "posted_at": "2026-07-29T16:45:24.000Z",
+      "tags": [
+        "@nikunj"
+      ]
+    },
+    {
+      "id": "567dc2321f",
+      "date": "2026-07-30",
+      "source": "x",
+      "author": "Amjad Masad",
+      "bio": "ceo @replit. civilizationist",
+      "title": "",
+      "summary_en": "Post-prompt era https://t.co/fUiEzr3Fik",
+      "summary_zh": "后提示词时代：真正的壁垒不再是会写提示词，而是把 AI 接进产品、流程和系统里。",
+      "url": "https://x.com/amasad/status/2082505558293467363",
+      "posted_at": "2026-07-29T16:36:30.000Z",
+      "tags": [
+        "@amasad"
+      ]
+    },
+    {
+      "id": "d4fb0bad3a",
+      "date": "2026-07-30",
+      "source": "x",
+      "author": "Amjad Masad",
+      "bio": "ceo @replit. civilizationist",
+      "title": "",
+      "summary_en": "This is hands down the best AI design tool, both in taste and how fun and easy it is to use.\n\nTry it out! https://t.co/Nqjzz7EyVO",
+      "summary_zh": "这是目前最强的 AI 设计工具，不只是审美在线，用起来也足够好玩、顺手。值得直接试。",
+      "url": "https://x.com/amasad/status/2082504898801999990",
+      "posted_at": "2026-07-29T16:33:53.000Z",
+      "tags": [
+        "@amasad"
+      ]
+    },
+    {
+      "id": "7cd8af5ae6",
+      "date": "2026-07-30",
+      "source": "x",
+      "author": "Google Labs",
+      "bio": "Google’s home for our latest AI tools and experiments.",
+      "title": "",
+      "summary_en": "Expecting A Minor update? We prefer to B Major. 🎶\n\n@GoogleDeepMind just released Lyria 3.5, and we’ve plugged it directly into @GoogleFlowMusic to power your next session.\n\nWhat this means for your tracks:\n\n✨ Better prompt adherence: Flow Music understands your creative direction with much more accuracy. Set exact BPMs and export stems for full-length songs!\n\n🎤 Upgraded vocals: More expressive, dynamic, and rich singing.\n\n🎸 Richer musicality: Arrangements flow more naturally from note to note.\n\nHear it for yourself and start creating at https://t.co/3XMUc2pkzU 👇",
+      "summary_zh": "Google DeepMind 发布 Lyria 3.5，并接入 Google Flow Music：不是“小更新”，而是直接升到“大调”。\n\n它主打更听话的提示理解、精确 BPM 和分轨导出，更有表现力的人声，以及更自然的编曲流动。",
+      "url": "https://x.com/GoogleLabs/status/2082501360466174163",
+      "posted_at": "2026-07-29T16:19:49.000Z",
+      "tags": [
+        "@GoogleLabs"
+      ]
+    },
+    {
+      "id": "319be30036",
+      "date": "2026-07-30",
+      "source": "podcast",
+      "author": "AI & I by Every",
+      "bio": "",
+      "title": "Best of the Pod: Wired's Kevin Kelly on Why AI Is a 50-year Overnight Success",
+      "summary_en": "Speaker 1 | 00:00 - 00:28\nWhat I've learned with the future is that it's easy to make predictions and hard to make predictions that are true. Gerard Lanier showed me VR in '87. I was completely blown away and I thought, oh my gosh, this is the future. The VR that we had back then is not that much different than the VR you get now. The difference was that was multimillion dollars and it's a $100.\n\nSpeaker 1 | 00:28 - 00:36\nI've been very, very surprised about how slow that has been. You could say VR is still waiting for its LLM moment. AI's fifty year overnight success.\n\nSpeaker 2 | 00:50 - 00:52\nKevin, welcome to the show.\n\nSpeaker 1 | 00:52 - 00:54\nIt's a pleasure to be here. I'm glad to be seen.\n\nSpeaker 2 | 00:55 - 01:15\nI am very excited to have you. In addition to being a personal hero of mine, I am a longtime Wired reader. I had, like, a gigantic shelf of magazines growing up, so it's sort of crazy to get to chat with you. There's a lot of things I wanna talk to you about, but I wanna start with we have a mutual love of Annie Dillard.\n\nSpeaker 1 | 01:15 - 01:16\nMhmm. We do.\n\nSpeaker 2 | 01:16 - 01:24\nShe's my favorite writer, and I know she's your favorite writer as well. Tell me why you like her.\n\nSpeaker 1 | 01:27 - 02:15\nFor for the for those who aren't familiar with Annie, she burst onto the scene with a meteorite of a book called Pilgrim at Tinker Creek that, for some reason, it's account of her spending some year on musing kinda like a Henry David Thoreau intimate investigation of a creek in Virginia or West Virginia. I don't remember. And so it was just the writing and the style and the ideas and her blazing brilliance in being able to capture this into a few words. It was almost like poetry. There was prose.\n\nSpeaker 1 | 02:16 - 02:59\nIt somehow just worke",
+      "summary_zh": "预测未来很容易，难的是说中：Kevin Kelly 早在 1987 年就被 VR 震撼，以为它马上会到来，结果几十年过去，体验没变太多，只是从几百万美元跌到 100 美元。\n\nVR 还在等自己的 LLM 时刻，而 AI 是一场“用了 50 年才一夜爆红”的成功。",
+      "url": "https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL",
+      "posted_at": "2026-07-29T15:00:00.000Z",
+      "tags": [
+        "podcast"
+      ]
+    },
+    {
+      "id": "9d12b9abe6",
+      "date": "2026-07-30",
+      "source": "x",
+      "author": "Nan Yu",
+      "bio": "head of product @linear",
+      "title": "",
+      "summary_en": "Love this POV -- what products do you use which would absolutely suck to switch to an alternative, besides apple products?\n\nWhen I think about it, a couple of mundane examples come to mind. 3M post-it notes, and Expo whiteboard markers are unmatched. The alternatives are garbage https://t.co/DbY8Ltyg3F",
+      "summary_zh": "除了苹果，还有些产品一旦换替代品体验会断崖式下跌：3M 便利贴、Expo 白板笔就是典型。竞品不是差一点，是垃圾。",
+      "url": "https://x.com/thenanyu/status/2082480369543065855",
+      "posted_at": "2026-07-29T14:56:25.000Z",
+      "tags": [
+        "@thenanyu"
+      ]
+    },
+    {
+      "id": "4d7a569fd8",
+      "date": "2026-07-30",
+      "source": "x",
+      "author": "Garry Tan",
+      "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "title": "",
+      "summary_en": "Seasoned founders in the age of intelligence are aging like fine wine https://t.co/XVdaAVdine https://t.co/PXnKOcAQ9Q",
+      "summary_zh": "智能时代，老练创始人不是被淘汰，而是在越陈越香：经验、判断力和 AI 杠杆叠加，反而更值钱。",
+      "url": "https://x.com/garrytan/status/2082472533337813241",
+      "posted_at": "2026-07-29T14:25:17.000Z",
+      "tags": [
+        "@garrytan"
+      ]
+    },
+    {
+      "id": "48e49de4a8",
+      "date": "2026-07-30",
+      "source": "x",
+      "author": "Nikunj Kothari",
+      "bio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
+      "title": "",
+      "summary_en": "First kid teaches you unconditional love. \n\nSecond kid teaches you unbridled joy. \n\nAs AGI (digital & physical) comes close, having close family and friends is going to be the most important (only?) human connection we have. So if you are on the fence, let this be a vote in the yes direction!\n\nDon’t get me wrong having kids is really hard and one of life’s only irreversible choices - the highs are really high and the lows well sometimes can be very low (mostly temporary though). \n\nBut oh my, it’s such a privilege to have these two and I honestly wouldn’t trade it for anything else!",
+      "summary_zh": "AGI 逼近后，亲密的家人和朋友可能会成为人类仅剩的真实连接；如果你还在犹豫要不要孩子，这算一票赞成。\n\n养孩子很难，而且几乎不可逆，但一个教会你无条件的爱，一个带来不受控的快乐，这种特权没什么能换。",
+      "url": "https://x.com/nikunj/status/2082460273005433192",
+      "posted_at": "2026-07-29T13:36:33.000Z",
+      "tags": [
+        "@nikunj"
+      ]
+    }
+  ]
+}
