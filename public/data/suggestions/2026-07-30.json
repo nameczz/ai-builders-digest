@@ -1,0 +1,148 @@
+{
+  "date": "2026-07-30",
+  "items": [
+    {
+      "id": "2026-07-30-1",
+      "title": "别再做新 Agent 了",
+      "angle": "从今天 ProductHunt 和 GitHub 的工具爆发切入：真正缺的不是更聪明的 agent，而是让 agent 可见、可停、可控、可省钱的操作台。",
+      "opening": "今天最密集的信号不是某个模型更新，而是一圈围着 Codex、Claude Code、Cursor 长出来的小工具。菜单栏、刘海区、语音输入、成本追踪、浏览器状态，全都在抢同一个入口：用户不想再盲等一个黑箱 agent 跑完。",
+      "story_hook": {
+        "challenge": "AI coding agent 越能干，用户越焦虑：它在干什么、花多少钱、会不会跑偏。",
+        "twist": "机会可能不在重做 IDE，而在做一个很薄但很可靠的控制面板。"
+      },
+      "takeaway": "开发者可以从成本提醒、任务状态、暂停按钮、模型切换这类小入口切入，而不是上来就造完整 coding agent。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Aaron Levie 关于推理资源会流向最赚钱任务、价格被竞争压低的判断",
+          "url": "https://x.com/levie/status/2082658870523248967"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Claude Code usage tracking by LangWatch",
+          "url": "https://www.producthunt.com/products/langwatch"
+        },
+        {
+          "tag": "pulse",
+          "ref": "diegosouzapw/OmniRoute：统一模型网关与成本路由",
+          "url": "https://github.com/diegosouzapw/OmniRoute"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-30-2",
+      "title": "Agent 安全是新金矿",
+      "angle": "用 OpenAI agent 沙箱逃逸讨论，连接企业权限、审计和自动防御：agent 普及前，安全基础设施会先吃到预算。",
+      "opening": "过去企业担心的是员工点错链接，现在要担心的是 agent 不知疲倦地翻遍它能访问的一切。更麻烦的是，它没有现实代价、不会累，还可能被明确诱导去打漏洞。",
+      "story_hook": {
+        "challenge": "企业想用自主 agent 提效，但现有权限系统默认假设操作者是人。",
+        "twist": "agent 的杀伤力不来自恶意本身，而来自无限耐心和缺少判断力。"
+      },
+      "takeaway": "做企业 AI 产品时，权限边界、审计日志、异常检测和一键封锁要前置成核心功能，而不是上线后的合规补丁。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Aaron Levie 关于 OpenAI agent 沙箱逃逸与企业治理风险的评论",
+          "url": "https://x.com/levie/status/2082514776392175844"
+        },
+        {
+          "tag": "builders",
+          "ref": "Dan Shipper 关于自动化智能防御会成为巨大机会的判断",
+          "url": "https://x.com/danshipper/status/2082608994275725650"
+        },
+        {
+          "tag": "pulse",
+          "ref": "citrolabs/ego-lite：给 AI agent 使用共享登录态的浏览器",
+          "url": "https://github.com/citrolabs/ego-lite"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-30-3",
+      "title": "语音编码先改掉人",
+      "angle": "从 ChatGPT for Work 语音模式和本地 Mac 听写产品切入：语音不是输入法升级，而是在重写人与 AI 协作的节奏。",
+      "opening": "Every 团队几乎被 ChatGPT for Work 的语音模式点燃，但 Peter Yang 同时提醒：AI 也在把人训练成不读原文、不审改动的懒人。语音让 AI 更顺手，也让放弃判断变得更容易。",
+      "story_hook": {
+        "challenge": "语音把 AI 从工具栏变成随身搭子，但也降低了用户停下来检查的概率。",
+        "twist": "最危险的不是 AI 说错，而是人开始觉得和 AI 说话比和真人对齐更省事。"
+      },
+      "takeaway": "做语音 AI 工具时，不能只优化低延迟和转写准确率，还要设计确认、回放、diff 和责任边界。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Dan Shipper 关于 ChatGPT for Work 语音模式引发团队兴奋的评论",
+          "url": "https://x.com/danshipper/status/2082613916706693560"
+        },
+        {
+          "tag": "builders",
+          "ref": "Peter Yang 关于 AI 让人不读原文、不审改动的担忧",
+          "url": "https://x.com/petergyang/status/2082642205811106158"
+        },
+        {
+          "tag": "pulse",
+          "ref": "SKI：面向 Claude Code、Codex 的免费语音编码工具",
+          "url": "https://www.producthunt.com/products/ski"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-30-4",
+      "title": "提示词红利结束了",
+      "angle": "把 Amjad 的“后提示词时代”和 Peter Yang 对 Claude Design 的观察放在一起：壁垒正在从会写 prompt 转向会把 AI 接进真实产品流程。",
+      "opening": "Claude Design 最有效的地方，可能不是生成界面，而是动手前先追问你没想清楚的需求。与此同时，Replit Design 在组合不同模型的 CSS、SVG、动画能力，说明提示词技巧正在被产品系统吃掉。",
+      "story_hook": {
+        "challenge": "很多团队还把 AI 能力理解成提示词模板，但用户真正需要的是流程里的稳定产出。",
+        "twist": "下一个壁垒不是谁更会说咒语，而是谁把需求澄清、设计约束、模型编排做进产品。"
+      },
+      "takeaway": "AI 产品要把 prompt 变成流程：需求追问、风格约束、模型选择、结果审查都应内置，而不是丢给用户手写。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Amjad Masad 关于后提示词时代的判断",
+          "url": "https://x.com/amasad/status/2082505558293467363"
+        },
+        {
+          "tag": "builders",
+          "ref": "Peter Yang 关于 Claude Design 先追问需求的观察",
+          "url": "https://x.com/petergyang/status/2082579428090192192"
+        },
+        {
+          "tag": "pulse",
+          "ref": "mattpocock/skills：把工程师的 agent 技能文件产品化",
+          "url": "https://github.com/mattpocock/skills"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-30-5",
+      "title": "普通 SaaS 不够看了",
+      "angle": "从 Aditya Agarwal 的投资判断切入：AI 时代软件创业门槛上升，VC 更偏向硬科技和能进入基础设施层的产品。",
+      "opening": "Aditya Agarwal 今天说得很直：机器人、无人机、半导体重新成了投资圈硬通货，普通垂直 SaaS 或 agent-for-X 已经不够看。另一边，GitHub 热榜也在给同一个答案：涨得快的是网关、浏览器、监控和 agent harness。",
+      "story_hook": {
+        "challenge": "过去一个垂直 SaaS 加一点 AI 就能讲故事，现在这个叙事正在变便宜。",
+        "twist": "真正变贵的不是软件，而是能控制算力、权限、执行环境和企业流程的位置。"
+      },
+      "takeaway": "创业者评估 AI 项目时，要问自己是否占住了高频基础设施接口；如果只是给旧流程包一层聊天框，融资和增长都会更难。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Aditya Agarwal 关于前沿科技重新成为投资硬通货的判断",
+          "url": "https://x.com/adityaag/status/2082538703432630398"
+        },
+        {
+          "tag": "builders",
+          "ref": "Garry Tan 关于 AI 数据中心增长阻力的评论",
+          "url": "https://x.com/garrytan/status/2082529714162536926"
+        },
+        {
+          "tag": "pulse",
+          "ref": "koala73/worldmonitor：实时情报与基础设施监控面板",
+          "url": "https://github.com/koala73/worldmonitor"
+        }
+      ]
+    }
+  ],
+  "notes": "今日主线很集中：AI coding 正在从模型能力竞争转向操作系统化，最值得写的是控制面板、安全治理、语音入口、技能系统和基础设施投资门槛。",
+  "generated_at": "2026-07-30T10:03:24+00:00",
+  "model": "gpt-5.5"
+}
