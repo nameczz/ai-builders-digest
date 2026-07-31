@@ -1,0 +1,317 @@
+{
+  "date": "2026-07-31",
+  "top3": [
+    "今天最值得关注的是 AI Agent 浏览器与工作流基础设施一起升温，citrolabs/ego-lite 单周新增 5037 星，同时 Product Hunt 上也出现 Screencap、TraceLLM、DepthData 等围绕训练数据、可观测性和成本的工具。",
+    "开源增长榜正在从模型炫技转向 agent 操作系统化：OmniRoute、open-code-review、skills、AI agent book 都在补齐路由、审查、技能和工程知识层。",
+    "HuggingFace 热点显示多模态和本地语音正在进入消费级产品窗口，Kimi-K3、Unlimited-OCR、Inflect-Micro-v2、Fara1.5-27B 分别指向视觉助手、文档自动化、端侧语音和浏览器代理。"
+  ],
+  "intro": "今天的主线不是单个爆款，而是 AI Agent 从聊天框走向真实工作环境：浏览器状态、代码审查、模型路由、成本追踪、训练数据采集都在快速补位。对 builder 来说，机会正在从做一个模型壳，转向做 agent 执行链上的高频基础件。",
+  "sections": [
+    {
+      "id": "discovery",
+      "title": "发现机会",
+      "blocks": [
+        {
+          "id": "github-traction",
+          "heading": "GitHub 上哪些高增长开源项目还没有商业化？",
+          "summary_md": "[citrolabs/ego-lite](https://github.com/citrolabs/ego-lite) 单周新增 5037 星，总星 6781，定位是让 Codex 或 Claude Code 共享已登录浏览器状态而不打扰用户；[alibaba/open-code-review](https://github.com/alibaba/open-code-review) 单周新增 5322 星，总星 16803，把确定性流水线和 LLM Agent 结合做行级代码审查；[diegosouzapw/OmniRoute](https://github.com/diegosouzapw/OmniRoute) 单周新增 8464 星，总星 35506，做 290+ provider 和 500+ model 的统一 AI 网关。它们共同说明，agent 时代的未商业化机会不在单次生成，而在账号态、审查态、路由态这些每天反复发生的执行基础设施。",
+          "items": [
+            {
+              "title": "citrolabs/ego-lite",
+              "url": "https://github.com/citrolabs/ego-lite",
+              "source": "GitHub",
+              "score": 5037
+            },
+            {
+              "title": "alibaba/open-code-review",
+              "url": "https://github.com/alibaba/open-code-review",
+              "source": "GitHub",
+              "score": 5322
+            },
+            {
+              "title": "diegosouzapw/OmniRoute",
+              "url": "https://github.com/diegosouzapw/OmniRoute",
+              "source": "GitHub",
+              "score": 8464
+            }
+          ],
+          "takeaway": "agent 基础设施最容易变现的入口，是替用户保存上下文、降低成本、减少审查遗漏。"
+        }
+      ]
+    },
+    {
+      "id": "tech-stack",
+      "title": "技术选型",
+      "blocks": [
+        {
+          "id": "dev-tools",
+          "heading": "本周增长最快的开发者工具是什么？",
+          "summary_md": "开发者工具里最强信号来自三类：agent 协作、代码质量、AI 成本治理。[mattpocock/skills](https://github.com/mattpocock/skills) 单周新增 12147 星，总星 197012，把可复用 agent 技能变成工程资产；[alibaba/open-code-review](https://github.com/alibaba/open-code-review) 单周新增 5322 星，用 Go 做可插拔审查；Product Hunt 上的 [TraceLLM](https://www.producthunt.com/products/tracellm) 主打生产级 AI 应用 OpenTelemetry，[DepthData](https://www.producthunt.com/products/depthdata) 则把公司 AI spend 变成系统记录。选型上，今天更值得押注的是能接入现有 IDE、CI、账单和 observability 的工具，而不是独立新工作台。",
+          "items": [
+            {
+              "title": "mattpocock/skills",
+              "url": "https://github.com/mattpocock/skills",
+              "source": "GitHub",
+              "score": 12147
+            },
+            {
+              "title": "TraceLLM",
+              "url": "https://www.producthunt.com/products/tracellm",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "DepthData",
+              "url": "https://www.producthunt.com/products/depthdata",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "开发者工具的胜负点正在从生成能力转到可观测、可复用、可控成本。"
+        },
+        {
+          "id": "hf-models",
+          "heading": "HuggingFace 上最热的模型能做什么消费级产品？",
+          "summary_md": "HuggingFace 今天的热榜很适合拆消费级产品原型：[moonshotai/Kimi-K3](https://huggingface.co/moonshotai/Kimi-K3) trending score 8174、下载 493481、likes 9116，适合做图文理解助手；[baidu/Unlimited-OCR](https://huggingface.co/baidu/Unlimited-OCR) 下载 2513603、likes 3610，可做多语言票据、教材、截图归档；[owensong/Inflect-Micro-v2](https://huggingface.co/owensong/Inflect-Micro-v2) 是 CPU、本地 TTS、小模型，适合离线朗读和桌面助手；[microsoft/Fara1.5-27B](https://huggingface.co/microsoft/Fara1.5-27B) 带 computer-use、web-agent、browser-automation 标签，说明浏览器代理产品已经有更明确的模型底座。",
+          "items": [
+            {
+              "title": "moonshotai/Kimi-K3",
+              "url": "https://huggingface.co/moonshotai/Kimi-K3",
+              "source": "HuggingFace",
+              "score": 8174
+            },
+            {
+              "title": "baidu/Unlimited-OCR",
+              "url": "https://huggingface.co/baidu/Unlimited-OCR",
+              "source": "HuggingFace",
+              "score": 557
+            },
+            {
+              "title": "microsoft/Fara1.5-27B",
+              "url": "https://huggingface.co/microsoft/Fara1.5-27B",
+              "source": "HuggingFace",
+              "score": 183
+            }
+          ],
+          "takeaway": "消费级 AI 产品可以从 OCR、端侧语音、浏览器自动化这三个低摩擦场景切入。"
+        }
+      ]
+    },
+    {
+      "id": "competition",
+      "title": "竞争情报",
+      "blocks": [
+        {
+          "id": "migrations",
+          "heading": "有没有迁移类或状态可携带的问题？",
+          "summary_md": "HN 今日唯一 top 文章 [The session you cannot take with you](https://earendil.com/posts/session-portability/) 获得 272 分、56 条评论，虽然没有达到 300 分痛点阈值，但和 [citrolabs/ego-lite](https://github.com/citrolabs/ego-lite) 单周 5037 星形成同一个竞争信号：用户不想重新登录、不想重建上下文、不想让 agent 破坏自己的浏览器环境。未来做浏览器代理、云端 IDE、远程工作台或自动化测试平台，真正的壁垒可能不是动作执行，而是 session、cookie、权限、审计和隔离策略。谁能把可携带状态做成可信基础设施，谁就能卡住 agent 工作流入口。",
+          "items": [
+            {
+              "title": "The session you cannot take with you",
+              "url": "https://earendil.com/posts/session-portability/",
+              "source": "HN",
+              "score": 272
+            },
+            {
+              "title": "citrolabs/ego-lite",
+              "url": "https://github.com/citrolabs/ego-lite",
+              "source": "GitHub",
+              "score": 5037
+            }
+          ],
+          "takeaway": "浏览器 agent 的竞争壁垒会越来越像身份与会话基础设施，而不是简单自动点击。"
+        },
+        {
+          "id": "pricing-revenue",
+          "heading": "值得观察的成本与变现信号是什么？",
+          "summary_md": "原始数据里没有直接的 MRR、ARR 或 subscription 讨论，但 Product Hunt 上的 [Claude Code usage tracking by LangWatch](https://www.producthunt.com/products/langwatch) 和 [DepthData](https://www.producthunt.com/products/depthdata) 同时出现，说明 AI 编码与企业 AI spend 已经进入账单焦虑阶段；GitHub 上 [OmniRoute](https://github.com/diegosouzapw/OmniRoute) 单周新增 8464 星，还把 quota-aware auto-fallback 和 token compression 写进卖点。对竞争者来说，价格战不一定表现为更便宜的模型，而是更精确地告诉团队每次 agent 任务花了多少钱、为什么花、能不能自动换路由。",
+          "items": [
+            {
+              "title": "Claude Code usage tracking by LangWatch",
+              "url": "https://www.producthunt.com/products/langwatch",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "DepthData",
+              "url": "https://www.producthunt.com/products/depthdata",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "diegosouzapw/OmniRoute",
+              "url": "https://github.com/diegosouzapw/OmniRoute",
+              "source": "GitHub",
+              "score": 8464
+            }
+          ],
+          "takeaway": "AI 成本治理会从财务报表前移到开发者每日工作流。"
+        }
+      ]
+    },
+    {
+      "id": "trends",
+      "title": "趋势判断",
+      "blocks": [
+        {
+          "id": "keywords",
+          "heading": "本周技术关键词频率有什么变化？",
+          "summary_md": "Google Trends 里最强上升词是 [ego lite](https://trends.google.com/trends/explore?q=ego+lite&date=now+7-d)，7 日变化 +64.2%，并且 GitHub 上 citrolabs/ego-lite 单周新增 5037 星，说明这个词不是泛搜索噪音，而是和真实 repo 增长同步。相比之下，[codex cli](https://trends.google.com/trends/explore?q=codex+cli&date=now+7-d) 只涨 +6.0%，[codex](https://trends.google.com/trends/explore?q=codex&date=now+7-d) 涨 +3.8%，显示大词热度趋稳，小而具体的 agent 浏览器状态工具开始接棒。今天判断是：builder 不要只围着 agent 大词做内容，要盯住用户正在搜索的具体工作流缺口。",
+          "items": [
+            {
+              "title": "ego lite",
+              "url": "https://trends.google.com/trends/explore?q=ego+lite&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 64.2
+            },
+            {
+              "title": "codex cli",
+              "url": "https://trends.google.com/trends/explore?q=codex+cli&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 6
+            },
+            {
+              "title": "codex",
+              "url": "https://trends.google.com/trends/explore?q=codex&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 3.8
+            }
+          ],
+          "takeaway": "搜索热度从抽象 agent 概念转向具体可安装的 agent 工作流组件。"
+        },
+        {
+          "id": "vc-radar",
+          "heading": "VC 和 YC 在关注什么主题？",
+          "summary_md": "今天的 VC radar 可以概括为 agent ops、AI spend、垂直数据飞轮。Product Hunt 上 [Screencap](https://www.producthunt.com/products/screencap) 把真实团队流程转成 AI training data，[Poth Labs](https://www.producthunt.com/products/poth-labs) 做 customer brain，[Cleanlist AI](https://www.producthunt.com/products/cleanlist-ai) 做自然语言 prospecting，[Halo by Scam AI](https://www.producthunt.com/products/scam-ai) 切入视频会议身份真实性；GitHub 上 [koala73/worldmonitor](https://github.com/koala73/worldmonitor) 单周新增 6150 星，说明实时情报仪表盘也在吸引注意。VC 会喜欢的不是通用助手，而是能持续吃进独有流程数据、并直接影响收入、风控或运营效率的系统。",
+          "items": [
+            {
+              "title": "Screencap",
+              "url": "https://www.producthunt.com/products/screencap",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "Poth Labs",
+              "url": "https://www.producthunt.com/products/poth-labs",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "koala73/worldmonitor",
+              "url": "https://github.com/koala73/worldmonitor",
+              "source": "GitHub",
+              "score": 6150
+            }
+          ],
+          "takeaway": "资本会继续追逐能把私有流程数据变成可复利工作系统的产品。"
+        },
+        {
+          "id": "cooling",
+          "heading": "哪些 AI 热词在降温？",
+          "summary_md": "降温最明显的是泛化标签：[worldmonitor](https://trends.google.com/trends/explore?q=worldmonitor&date=now+7-d) 下滑 -78.9%，[cursor alternative](https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d) 下滑 -46.3%，[open code review](https://trends.google.com/trends/explore?q=open+code+review&date=now+7-d) 下滑 -33.2%，[ai agent book](https://trends.google.com/trends/explore?q=ai+agent+book&date=now+7-d) 下滑 -18.7%。但这不代表相关方向失效，因为 GitHub 里 open-code-review、AI agent book 仍有大额新增星。更合理的解释是，搜索注意力在快速轮换，用户会先追热点名称，再沉淀到 repo、教程和工具链里。",
+          "items": [
+            {
+              "title": "cursor alternative",
+              "url": "https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": -46.3
+            },
+            {
+              "title": "open code review",
+              "url": "https://trends.google.com/trends/explore?q=open+code+review&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": -33.2
+            },
+            {
+              "title": "ai agent book",
+              "url": "https://trends.google.com/trends/explore?q=ai+agent+book&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": -18.7
+            }
+          ],
+          "takeaway": "降温的是关键词窗口，不一定是底层需求。"
+        }
+      ]
+    },
+    {
+      "id": "actions",
+      "title": "行动触发",
+      "blocks": [
+        {
+          "id": "weekend-build",
+          "heading": "今天 2 小时和一个周末分别做什么？",
+          "summary_md": "2 小时可以做一个很窄的 agent 成本小工具：读取 Claude Code 或 Codex session 日志，按任务、模型、token、失败重试生成本地报表，对标 [Claude Code usage tracking by LangWatch](https://www.producthunt.com/products/langwatch) 和 [DepthData](https://www.producthunt.com/products/depthdata)。一个周末则做 browser-session vault：参考 [citrolabs/ego-lite](https://github.com/citrolabs/ego-lite) 单周 5037 星的需求，把已登录浏览器状态封装成只读、可撤销、可审计的 agent 环境，并给出每次自动化任务的权限轨迹。MVP 不要追求通用浏览器，先支持 GitHub、Linear、Gmail 这类高频开发者工作流。",
+          "items": [
+            {
+              "title": "Claude Code usage tracking by LangWatch",
+              "url": "https://www.producthunt.com/products/langwatch",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "citrolabs/ego-lite",
+              "url": "https://github.com/citrolabs/ego-lite",
+              "source": "GitHub",
+              "score": 5037
+            }
+          ],
+          "takeaway": "今天最适合动手的方向，是把 agent 的黑箱执行变成可见、可控、可计费。"
+        },
+        {
+          "id": "pricing-models",
+          "heading": "值得学习的定价和变现模式有哪些？",
+          "summary_md": "今天值得学的是用量型和节省型定价。像 [OmniRoute](https://github.com/diegosouzapw/OmniRoute) 强调 quota-aware fallback 与 token compression，天然可以按节省 token、成功路由次数或团队席位收费；[TraceLLM](https://www.producthunt.com/products/tracellm) 可按 traced requests、保留时长和告警规则收费；[DepthData](https://www.producthunt.com/products/depthdata) 则适合按管理的 AI spend 规模或部门数收费。反过来，不适合再做简单每月 9 美元的通用 AI wrapper，因为买单人现在要的是可归因节省、可审计风险和可复用工作流资产。",
+          "items": [
+            {
+              "title": "diegosouzapw/OmniRoute",
+              "url": "https://github.com/diegosouzapw/OmniRoute",
+              "source": "GitHub",
+              "score": 8464
+            },
+            {
+              "title": "TraceLLM",
+              "url": "https://www.producthunt.com/products/tracellm",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "DepthData",
+              "url": "https://www.producthunt.com/products/depthdata",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "AI 工具的定价锚点会从功能订阅转向节省金额、审计价值和运行规模。"
+        },
+        {
+          "id": "counterintuitive",
+          "heading": "今天最反直觉的发现是什么？",
+          "summary_md": "最反直觉的是，注意力最高的并不全是更强模型，而是让 agent 少说废话、少打扰人、少花钱的周边系统。[ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd) 单周新增 4978 星，[mattpocock/skills](https://github.com/mattpocock/skills) 单周新增 12147 星，[citrolabs/ego-lite](https://github.com/citrolabs/ego-lite) 单周新增 5037 星，它们都不是新模型，却都在解决 agent 使用中的真实摩擦。与此同时，HuggingFace 上 Kimi-K3 trending score 8174 仍然强势，说明模型能力是地基，但 builder 的短期商业机会更可能藏在体验修正、上下文管理和成本控制里。",
+          "items": [
+            {
+              "title": "ayghri/i-have-adhd",
+              "url": "https://github.com/ayghri/i-have-adhd",
+              "source": "GitHub",
+              "score": 4978
+            },
+            {
+              "title": "mattpocock/skills",
+              "url": "https://github.com/mattpocock/skills",
+              "source": "GitHub",
+              "score": 12147
+            },
+            {
+              "title": "moonshotai/Kimi-K3",
+              "url": "https://huggingface.co/moonshotai/Kimi-K3",
+              "source": "HuggingFace",
+              "score": 8174
+            }
+          ],
+          "takeaway": "agent 生态里，修正摩擦的小工具可能比大模型壳更快获得真实用户。"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2026-07-31T09:26:08+00:00",
+  "reddit_highlights": []
+}

@@ -1,0 +1,153 @@
+{
+  "date": "2026-07-31",
+  "items": [
+    {
+      "id": "2026-07-31-1",
+      "title": "AI 培训死在安装这一步",
+      "angle": "从 Zara Zhang 的“安装派对”切入，讲企业 AI 普及的瓶颈不是认知课，而是让每个人第一次跑通真实任务。",
+      "opening": "公司里最没用的 AI 培训，往往是 2 小时讲概念。Zara Zhang 给了一个更粗暴的办法：所有人带电脑，当场装 agent，当场做一个真任务。门槛的 80%，可能就卡在安装。",
+      "story_hook": {
+        "challenge": "企业想让非技术团队用 AI，却总把问题包装成认知升级，忽略了第一次启动工具的摩擦。",
+        "twist": "真正有效的培训可能不是课程，而是一场像装机活动一样的现场 onboarding。"
+      },
+      "takeaway": "做 AI 工具或内部推广时，先优化首次安装、登录、权限和第一个任务，而不是先写十页培训文档。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Zara Zhang 关于给非技术团队办 agent 安装派对的推文",
+          "url": "https://x.com/zarazhangrui/status/2083084770763002350"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub 高增长项目 citrolabs/ego-lite，解决 agent 共享已登录浏览器状态",
+          "url": "https://github.com/citrolabs/ego-lite"
+        },
+        {
+          "tag": "pulse",
+          "ref": "HN 文章 The session you cannot take with you",
+          "url": "https://earendil.com/posts/session-portability/"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-31-2",
+      "title": "Agent 闯祸不是玄学",
+      "angle": "把“AI 逃出沙箱”从科幻叙事拉回工程现实：大多数事故首先是权限、隔离和默认信任没做好。",
+      "opening": "今天好几位 builder 都在谈 agent 安全，但最值得写的不是“AI 很可怕”。Amjad Masad 说得更直接：很多所谓逃逸，只是基础安全错误。问题不是 agent 会不会听话，而是你给了它哪些门钥匙。",
+      "story_hook": {
+        "challenge": "企业一边想让 agent 代办真实任务，一边又把浏览器、文件、账号和内部系统暴露给它。",
+        "twist": "最先进的 AI 风险，最后可能输在最老派的安全配置上。"
+      },
+      "takeaway": "评估 agent 产品时，要看最小权限、隔离环境、审计日志和撤销机制，而不是只看模型演示效果。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Amjad Masad 关于 AI 沙箱与零信任防护的推文",
+          "url": "https://x.com/amasad/status/2083034412598579403"
+        },
+        {
+          "tag": "builders",
+          "ref": "Aaron Levie 关于智能体时代安全配置的推文",
+          "url": "https://x.com/levie/status/2082997703458570412"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt 上 Halo by Scam AI 切入视频会议身份真实性",
+          "url": "https://www.producthunt.com/products/scam-ai"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-31-3",
+      "title": "价格战正在进入 IDE",
+      "angle": "用 Sam Altman 降价和 OmniRoute、TraceLLM、DepthData 的升温，讲 AI 成本治理会从财务部门前移到开发者工作流。",
+      "opening": "GPT-5.6 Luna 降价 80% 听起来像模型厂商价格战，但 builder 真正该看的不是单价。今天同时升温的，是路由、追踪、账单归因和 token compression。AI 成本不再是月底账单，而会变成 IDE 里的实时反馈。",
+      "story_hook": {
+        "challenge": "前沿模型越来越便宜，但 agent 任务越来越长、越来越自动化，团队仍然不知道钱花在哪里。",
+        "twist": "价格战的赢家未必是最便宜的模型，而是能自动选择模型、解释成本、减少失败重试的基础设施。"
+      },
+      "takeaway": "开发 AI 产品时，把 token、模型路由、失败重试、任务成本做成一等指标，而不是上线后再补报表。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Sam Altman 关于 GPT-5.6 Luna 降价 80% 和 Sol API Fast 模式的推文",
+          "url": "https://x.com/sama/status/2082880720989532597"
+        },
+        {
+          "tag": "builders",
+          "ref": "Aaron Levie 关于按任务类型归一化看 AI 成本的推文",
+          "url": "https://x.com/levie/status/2082911418349920617"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub 高增长项目 OmniRoute，强调 quota-aware fallback 和 token compression",
+          "url": "https://github.com/diegosouzapw/OmniRoute"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt 上 DepthData 管理公司 AI spend",
+          "url": "https://www.producthunt.com/products/depthdata"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-31-4",
+      "title": "大模型的副产品是搜索",
+      "angle": "从 Swyx 的“一方搜索能力”切入，讲模型公司和 agent 产品为什么会被迫重建私有版 Google。",
+      "opening": "当你嫌 Common Crawl 不够好，下一步不是抱怨数据脏，而是自己爬网、建索引、持续更新。Swyx 提醒了一个容易被忽略的事实：预训练的副产品，可能是一套低频私有版 Google。到了 agent 时代，这套搜索能力会变成真正的护城河。",
+      "story_hook": {
+        "challenge": "大家都在盯模型参数和 benchmark，却忽略 agent 推理需要稳定、可验证、可更新的信息底座。",
+        "twist": "搜索不再只是模型训练前的数据来源，而会变成 agent 执行中的实时基础设施。"
+      },
+      "takeaway": "做垂直 agent 时，别只包装通用搜索 API，要考虑沉淀自己的索引、权限数据和高质量检索链路。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Swyx 关于预训练副产物是一方搜索能力的推文",
+          "url": "https://x.com/swyx/status/2083016652032188669"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt 上 Screencap 将真实团队流程转成 AI training data",
+          "url": "https://www.producthunt.com/products/screencap"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt 上 Poth Labs 做 customer brain",
+          "url": "https://www.producthunt.com/products/poth-labs"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-31-5",
+      "title": "最大 Agent 可能在路上",
+      "angle": "用 Samsara 的 physical AI 反衬软件 Copilot：当 AI 进入车辆、道路和保险，错误不再只是弹窗。",
+      "opening": "Matt Turck 说，没人谈的最大 physical AI 部署可能是 Samsara：每天看见 99% 的美国道路，手里有 25 万亿个数据点和 38 万起事故记录。这不是又一个写代码 Copilot。它一旦判断错，后果会发生在现实世界里。",
+      "story_hook": {
+        "challenge": "AI 产品从屏幕走向道路、车辆和安全决策后，传统 SaaS 的容错逻辑不够用了。",
+        "twist": "最像 agent 的系统，可能不是聊天框里的助手，而是已经嵌进物理运营网络的风控和调度系统。"
+      },
+      "takeaway": "评估 physical AI 时，要把责任归属、干预边界、数据闭环和事故成本放在产品能力之前。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Matt Turck 关于 Samsara 可能是最大 physical AI 部署的推文",
+          "url": "https://x.com/mattturck/status/2082907699646173484"
+        },
+        {
+          "tag": "builders",
+          "ref": "Matt Turck 与 Samsara CEO Sanjit Biswas 讨论 physical AI 的播客推文",
+          "url": "https://x.com/mattturck/status/2082907703735730609"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub 上 koala73/worldmonitor 单周新增 6150 星，指向实时情报仪表盘需求",
+          "url": "https://github.com/koala73/worldmonitor"
+        }
+      ]
+    }
+  ],
+  "notes": "今日主线很清楚：agent 从聊天框进入真实工作流后，机会集中在安装门槛、会话状态、安全隔离、成本治理和垂直数据闭环。素材里独立开发者收入案例较少，不适合硬写 MRR 叙事。",
+  "generated_at": "2026-07-31T09:27:09+00:00",
+  "model": "gpt-5.5"
+}
