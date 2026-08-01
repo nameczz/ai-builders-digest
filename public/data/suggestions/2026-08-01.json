@@ -1,0 +1,158 @@
+{
+  "date": "2026-08-01",
+  "items": [
+    {
+      "id": "2026-08-01-1",
+      "title": "Agent 不是员工，是流水线",
+      "angle": "从 Linear 式 Issue 到 Release 的闭环切入，讨论为什么 AI 编程的核心不再是模型聪明，而是证据、路由和质量门禁。",
+      "opening": "一个 bug 从 Linear 进来，Agent 写代码，PR 合并，然后直接发版。听起来像自动化胜利，但 Nan Yu 提醒：约 30% 的 bug 会漏到发布。真正的问题不是 Agent 会不会写代码，而是谁在它动手前强制它先找证据。",
+      "story_hook": {
+        "challenge": "团队想把研发流程自动化，但自动修复一旦缺少根因证据，就会把错误规模化。",
+        "twist": "最该优化的不是写代码速度，而是让 Agent 在 Datadog、Sentry、Issue、PR 之间学会停下来。"
+      },
+      "takeaway": "读者可以把自己的 Agent 工作流拆成三层：证据采集、修复执行、发布门禁；不要让 Agent 直接从 Issue 跳到 PR。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Nan Yu 关于 Linear 自动化闭环和 30% bug 漏发的推文",
+          "url": "https://x.com/thenanyu/status/2083230295206121807"
+        },
+        {
+          "tag": "builders",
+          "ref": "Guillermo Rauch 关于 Issue > Agent > PR > Release 的推文",
+          "url": "https://x.com/rauchg/status/2083208578526314513"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub 高增长项目 alibaba/open-code-review",
+          "url": "https://github.com/alibaba/open-code-review"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-01-2",
+      "title": "模型不贵，失控才贵",
+      "angle": "从 AI Gateway、OmniRoute 和 AI spend 管理产品看，AI 基础设施的付费理由正在从更强模型转向预算、审计和故障恢复。",
+      "opening": "企业真正害怕的不是 token 单价，而是某个项目半夜把预算烧穿。Guillermo Rauch 说 AI Gateway 要按 key、团队、项目控预算，这和 GitHub 上 OmniRoute 的爆发指向同一件事：模型只是原料，账单才是生产事故。",
+      "story_hook": {
+        "challenge": "AI 工具越接近生产环境，越难靠单模型调用和手工限额管理成本。",
+        "twist": "省钱功能不再是后台小设置，而正在变成 AI 产品的主卖点。"
+      },
+      "takeaway": "做 AI SaaS 时，应尽早设计团队级预算、provider fallback、调用观测和成本归因；这些会比多接一个模型更像企业采购理由。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Guillermo Rauch 关于 AI Gateway 预算、故障切换和可观测性的推文",
+          "url": "https://x.com/rauchg/status/2083319868766699699"
+        },
+        {
+          "tag": "builders",
+          "ref": "Aaron Levie 关于 harness 成为 AI stack 关键变量的推文",
+          "url": "https://x.com/levie/status/2083389460679373135"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub 高增长项目 diegosouzapw/OmniRoute",
+          "url": "https://github.com/diegosouzapw/OmniRoute"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt 产品 DepthData",
+          "url": "https://www.producthunt.com/products/depthdata"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-01-3",
+      "title": "Skill 会成为团队资产吗",
+      "angle": "从 Garry Tan 的个人知识大脑、Matt Pocock skills 暴涨和 book-to-skill 出发，写 agent skill 如何从个人配置变成团队基础设施。",
+      "opening": "今天 GitHub 上一个 skills 仓库周增 11622 星，另一个把书转成 Claude Code skill 的项目也涨了 4603 星。Garry Tan 说个人或公司知识大脑缺的不是模型，而是一套干净可控的运行框架。换句话说，大家已经不满足于写 prompt，开始想管理 prompt 的操作系统。",
+      "story_hook": {
+        "challenge": "Agent 能力被散落在 markdown、个人配置和聊天记录里，团队无法复用、评测和授权。",
+        "twist": "最有价值的知识资产可能不是文档本身，而是能被 Agent 稳定调用的技能包。"
+      },
+      "takeaway": "团队可以从内部 skill registry 开始，把高频流程沉淀成可版本化、可评测、可权限控制的 agent skill。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Garry Tan 关于公司知识大脑需要可控运行框架的推文",
+          "url": "https://x.com/garrytan/status/2083353760701833546"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub 高增长项目 mattpocock/skills",
+          "url": "https://github.com/mattpocock/skills"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub 高增长项目 virgiliojr94/book-to-skill",
+          "url": "https://github.com/virgiliojr94/book-to-skill"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-01-4",
+      "title": "AI 编程正在离开 IDE",
+      "angle": "用 Slack PR、菜单栏状态、手机跑 Codex 串起一个趋势：AI coding 的入口正在从编辑器扩散到人本来工作的地方。",
+      "opening": "Anthropic 产品和工程团队 65% 的 PR 已由 Claude Tag 发起，这个数字真正吓人的地方不在自动写代码，而在入口变了。Agent 不再等你打开 IDE，它正在钻进 Slack、菜单栏、手机和桌面 widget。",
+      "story_hook": {
+        "challenge": "开发者工具长期默认以编辑器为中心，但 AI 任务往往是长时间、异步、多设备的。",
+        "twist": "下一代 AI 编程产品可能不是 Cursor 替代品，而是一个低打扰的任务状态层。"
+      },
+      "takeaway": "独立开发者可以避开完整 IDE 竞争，优先做任务监控、移动端控制、PR 等待提醒、测试状态同步这类外围工具。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Zara Zhang 关于 Claude Tag 发起 65% PR 的推文",
+          "url": "https://x.com/zarazhangrui/status/2083161173563003268"
+        },
+        {
+          "tag": "builders",
+          "ref": "Peter Steinberger 关于 5.5 模型可边做边接新任务的推文",
+          "url": "https://x.com/steipete/status/2083369880599015713"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt 产品 AgentMicro",
+          "url": "https://www.producthunt.com/products/agentmicro"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt 产品 Port22",
+          "url": "https://www.producthunt.com/products/port22"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-01-5",
+      "title": "小模型赢了长思考？",
+      "angle": "从 8B 棋力模型短时推理打赢高推理 GPT 5.6 的反差，讨论垂直任务里架构、训练和约束可能比通用大模型更重要。",
+      "opening": "一个 8B 模型每步只想 1 到 2 秒，却能打赢开高推理、链式响应还磨 30 秒的 GPT 5.6。这个故事比小模型逆袭更重要：在可验证任务里，通用智能的排面可能输给专门训练的效率。",
+      "story_hook": {
+        "challenge": "行业习惯把更大模型、更长推理当作默认升级路线，但垂直任务并不总吃这一套。",
+        "twist": "当任务边界清楚、反馈可验证时，小模型加好训练可能比大模型硬想更有效。"
+      },
+      "takeaway": "做垂直 AI 产品时，先判断任务是否可验证、是否能构造专门数据和评测；不要默认用最贵的大模型堆推理时间。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Amjad Masad 关于 8B 模型约 1500 Elo 的推文",
+          "url": "https://x.com/amasad/status/2083424608993300824"
+        },
+        {
+          "tag": "builders",
+          "ref": "Unsupervised Learning 采访 Igor Babushkin 谈模型开发",
+          "url": "https://www.youtube.com/@RedpointAI"
+        },
+        {
+          "tag": "pulse",
+          "ref": "HuggingFace 热门模型 moonshotai/Kimi-K3",
+          "url": "https://huggingface.co/moonshotai/Kimi-K3"
+        }
+      ]
+    }
+  ],
+  "notes": "今日主线很集中：AI 编程正在从模型崇拜转向工作流基础设施，最适合写 agent 工程化、成本治理、skill 管理和入口迁移。消费级多模态素材有，但不如开发者工具线锋利。",
+  "generated_at": "2026-08-01T09:18:29+00:00",
+  "model": "gpt-5.5"
+}
