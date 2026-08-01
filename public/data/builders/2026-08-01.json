@@ -1,0 +1,457 @@
+{
+  "date": "2026-08-01",
+  "generated_at": "2026-08-01T09:11:19+00:00",
+  "count": 30,
+  "items": [
+    {
+      "id": "5b90c3d1b0",
+      "date": "2026-08-01",
+      "source": "x",
+      "author": "Swyx",
+      "bio": "achieve ambition with intentionality, intensity, integrity & insanity.  affiliations: - @smol_ai - @dxtipshq - @cognition - @aidotengineer - @latentspacepod",
+      "title": "",
+      "summary_en": "among ai leaders i seem to be in the minority in that i am STILL actively using /loop and /goal....\n\n... and i think all of u guys who stopped using it are wrong - not wrong forever, just giving up on it too early in the g5.6/c5 era\n\nnow you use it when:\n1) you want the right mix of steerability and autonomy\n2) you want open ended \"loop that generates loops\" type end state without deeply specifying path to get there\n\nheres an example of when having a goal on saved my ass in a very long action-reasonining turn",
+      "summary_zh": "在 G5.6/C5 时代就放弃 `/loop` 和 `/goal` 太早了：它们仍然是兼顾可控性和自主性的关键工具，尤其适合那种只定义终点、不想把路径掰碎讲清楚的开放任务。作者的意思很直接：AI 领导者们不是永远错了，但现在错在过早认输。",
+      "url": "https://x.com/swyx/status/2083439562437673053",
+      "posted_at": "2026-08-01T06:27:54.000Z",
+      "tags": [
+        "@swyx"
+      ]
+    },
+    {
+      "id": "5006b47d06",
+      "date": "2026-08-01",
+      "source": "x",
+      "author": "Thibault Sottiaux",
+      "bio": "Codex & ChatGPT @OpenAI",
+      "title": "",
+      "summary_en": "Optimize for curiosity",
+      "summary_zh": "别优化点击率，优化好奇心。能让人忍不住追问的东西，才值得继续做。",
+      "url": "https://x.com/thsottiaux/status/2083427516996292992",
+      "posted_at": "2026-08-01T05:40:02.000Z",
+      "tags": [
+        "@thsottiaux"
+      ]
+    },
+    {
+      "id": "4d30a10a3a",
+      "date": "2026-08-01",
+      "source": "x",
+      "author": "Amjad Masad",
+      "bio": "ceo @replit. civilizationist",
+      "title": "",
+      "summary_en": "~1500 Elo!\n\nConsistently beats frontier models and Stockfish level 0.\n\nFun seeing an 8b model mogging GPT 5.6 with high reasoning and response chaining. Spends 1-2 seconds per move vs 30 seconds.\n\nPlay it: https://t.co/qRg0HNwgC4 https://t.co/w6H0MWOmPx https://t.co/vNVXYdfCk6",
+      "summary_zh": "一个 8B 模型冲到约 1500 Elo，稳定打赢前沿模型和 Stockfish 0 级。更狠的是，它每步只想 1-2 秒，却能碾压开高推理、链式响应还磨 30 秒的 GPT 5.6。",
+      "url": "https://x.com/amasad/status/2083424608993300824",
+      "posted_at": "2026-08-01T05:28:29.000Z",
+      "tags": [
+        "@amasad"
+      ]
+    },
+    {
+      "id": "7a184471c4",
+      "date": "2026-08-01",
+      "source": "x",
+      "author": "Thibault Sottiaux",
+      "bio": "Codex & ChatGPT @OpenAI",
+      "title": "",
+      "summary_en": "To celebrate a week of efficiency and let you run 100'000 Luna threads this weekend... that's right... wait for it... I have reset usage limits for Codex and ChatGPT Work.\n\nEnjoy.",
+      "summary_zh": "为了庆祝效率周末，也为了让你这周末能跑 10 万个 Luna 线程，我已经重置了 Codex 和 ChatGPT Work 的使用限制。尽管用。",
+      "url": "https://x.com/thsottiaux/status/2083395449814229287",
+      "posted_at": "2026-08-01T03:32:37.000Z",
+      "tags": [
+        "@thsottiaux"
+      ]
+    },
+    {
+      "id": "035c41e231",
+      "date": "2026-08-01",
+      "source": "x",
+      "author": "Aaron Levie",
+      "bio": "ceo @box - your business lives in content. unleash it with AI",
+      "title": "",
+      "summary_en": "No idea if these specific numbers generalize across tasks, but directionally it’s clear that the harness is going to become the most important variable -right next to model capability- in the AI stack. \n\nThe ability for harnesses to break down work in the most efficient way and route to the right model at the right time is going to be a huge variable for maximizing accuracy and reducing costs.\n\nWe’re actually still incredibly early in this journey. The harness didn’t matter that much when tasks only took hundreds of thousands or millions of tokens. But as we have tasks that take tens of millions and hundreds of millions of tokens, this becomes a major variable. Huge opportunity ahead.",
+      "summary_zh": "具体数字未必能泛化，但方向已经很清楚：AI stack 里最关键的变量会变成 harness，几乎和模型能力同等重要。\n\n当任务从百万 token 级膨胀到千万、上亿 token 级，谁能把工作拆得更高效、在正确时机路由给正确模型，谁就能同时把准确率拉高、把成本打下来。",
+      "url": "https://x.com/levie/status/2083389460679373135",
+      "posted_at": "2026-08-01T03:08:49.000Z",
+      "tags": [
+        "@levie"
+      ]
+    },
+    {
+      "id": "6d539eef14",
+      "date": "2026-08-01",
+      "source": "x",
+      "author": "Thibault Sottiaux",
+      "bio": "Codex & ChatGPT @OpenAI",
+      "title": "",
+      "summary_en": "ChatGPT Work counted https://t.co/XlnkkYvx1s",
+      "summary_zh": "OpenAI 的 800 万用户口径把 Codex 和 ChatGPT Work 混在一起算，别急着把它包装成 Codex 暴涨。",
+      "url": "https://x.com/thsottiaux/status/2083387677945036995",
+      "posted_at": "2026-08-01T03:01:44.000Z",
+      "tags": [
+        "@thsottiaux"
+      ]
+    },
+    {
+      "id": "eae7cec9af",
+      "date": "2026-08-01",
+      "source": "x",
+      "author": "Dan Shipper",
+      "bio": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "title": "",
+      "summary_en": "pretty cool to have the kicker in this @WSJ piece on OpenAI vs Anthropic!\n\ni stand behind this…has been pretty clear since early spring that the momentum is shifting to @openai \n\nit’s a fascinating comeback story \nhttps://t.co/Aw3PCaoz1p https://t.co/wfOX44bBlt",
+      "summary_zh": "OpenAI 对 Anthropic 的势头反转从早春就很明显了。现在看，这是一场漂亮的翻盘。",
+      "url": "https://x.com/danshipper/status/2083380721607921904",
+      "posted_at": "2026-08-01T02:34:06.000Z",
+      "tags": [
+        "@danshipper"
+      ]
+    },
+    {
+      "id": "79864c998d",
+      "date": "2026-08-01",
+      "source": "x",
+      "author": "Peter Steinberger",
+      "bio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world. @OpenClaw🦞 + @OpenAI",
+      "title": "",
+      "summary_en": "Queue was the way but with 5.5 the model doesn’t get confused anymore, you can just throw stuff at it while it works and it will diligently process whatever you throw at it. https://t.co/tGqdxVEjev",
+      "summary_zh": "以前还得靠队列喂任务；到了 5.5，模型已经不容易被打乱了，你边让它干活边往里扔东西，它也会老老实实处理完。",
+      "url": "https://x.com/steipete/status/2083369880599015713",
+      "posted_at": "2026-08-01T01:51:01.000Z",
+      "tags": [
+        "@steipete"
+      ]
+    },
+    {
+      "id": "e15c6eed26",
+      "date": "2026-08-01",
+      "source": "x",
+      "author": "Zara Zhang",
+      "bio": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://t.co/KCuEajezlL YouTube: https://t.co/8xzbGWtf6w",
+      "title": "",
+      "summary_en": "For every viral post of mine, I had to combat a voice in my mind that said \"duh, isn't that obvious?\" \n\nTurns out what's obvious to you is not obvious to most people, most of the time",
+      "summary_zh": "每条爆款推文背后，我都得压住脑子里那句“废话，这不是显而易见吗？”。\n\n后来才发现：你觉得显而易见的事，大多数时候对大多数人根本不 obvious。",
+      "url": "https://x.com/zarazhangrui/status/2083354965482062079",
+      "posted_at": "2026-08-01T00:51:45.000Z",
+      "tags": [
+        "@zarazhangrui"
+      ]
+    },
+    {
+      "id": "966d9e4a35",
+      "date": "2026-08-01",
+      "source": "x",
+      "author": "Garry Tan",
+      "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "title": "",
+      "summary_en": "Your personal AI or your company brain needs a clean harness and this is the one our team built and uses every day \n\nFree and open source https://t.co/OgptxBMpI0",
+      "summary_zh": "个人 AI 或公司知识大脑不是缺模型，而是缺一套干净可控的运行框架。我们团队每天都在用的这套已经免费开源。",
+      "url": "https://x.com/garrytan/status/2083353760701833546",
+      "posted_at": "2026-08-01T00:46:58.000Z",
+      "tags": [
+        "@garrytan"
+      ]
+    },
+    {
+      "id": "6ff6c91e29",
+      "date": "2026-08-01",
+      "source": "x",
+      "author": "Dan Shipper",
+      "bio": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "title": "",
+      "summary_en": "this is a very good letter https://t.co/QVCw9RrE9R",
+      "summary_zh": "这条推文本身信息量极低，只是在给一封信背书：作者认为这封信很值得读，但没有说明理由或立场。",
+      "url": "https://x.com/danshipper/status/2083352181776732326",
+      "posted_at": "2026-08-01T00:40:41.000Z",
+      "tags": [
+        "@danshipper"
+      ]
+    },
+    {
+      "id": "3c15f6c106",
+      "date": "2026-08-01",
+      "source": "x",
+      "author": "Zara Zhang",
+      "bio": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://t.co/KCuEajezlL YouTube: https://t.co/8xzbGWtf6w",
+      "title": "",
+      "summary_en": "If you want to post here and don't know what to talk about: \n\nRemember that everything that feels totally native to you is brand new to someone outside your circle. Just do your normal work, then talk about it. Don’t try to be someone else, don’t overthink",
+      "summary_zh": "你觉得稀松平常的东西，对圈外人可能都是新鲜货。别装别人，也别想太多，照常干活，然后把过程讲出来。",
+      "url": "https://x.com/zarazhangrui/status/2083349919172313367",
+      "posted_at": "2026-08-01T00:31:42.000Z",
+      "tags": [
+        "@zarazhangrui"
+      ]
+    },
+    {
+      "id": "b7da392cab",
+      "date": "2026-08-01",
+      "source": "x",
+      "author": "Nan Yu",
+      "bio": "head of product @linear",
+      "title": "",
+      "summary_en": "You have permission from Josh to Just Do Normal Things. https://t.co/GVDSJae1AO",
+      "summary_zh": "Josh 已经给你许可了：别再绕弯子，去做那些正常该做的事。",
+      "url": "https://x.com/thenanyu/status/2083340761488126101",
+      "posted_at": "2026-07-31T23:55:18.000Z",
+      "tags": [
+        "@thenanyu"
+      ]
+    },
+    {
+      "id": "4bcb511635",
+      "date": "2026-08-01",
+      "source": "x",
+      "author": "Garry Tan",
+      "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "title": "",
+      "summary_en": "If Dems want to win elections that matter they need to study the San Francisco local political story of the last 5 years: vote out your local Democratic Socialists early and often https://t.co/NTagusgDkc",
+      "summary_zh": "民主党如果还想赢关键选举，就该好好研究过去 5 年旧金山地方政治：趁早、反复把本地民主社会主义者投下去。",
+      "url": "https://x.com/garrytan/status/2083331028446523842",
+      "posted_at": "2026-07-31T23:16:38.000Z",
+      "tags": [
+        "@garrytan"
+      ]
+    },
+    {
+      "id": "4e79f55f42",
+      "date": "2026-08-01",
+      "source": "x",
+      "author": "Aditya Agarwal",
+      "bio": "General Partner @SPC, Co-Founder @Bevel_Health | Ex: Early Eng @facebook, CTO @Dropbox, Board @Flipkart | Optimist, Builder, Dad",
+      "title": "",
+      "summary_en": "2 days left. Apply to @spc. https://t.co/76XRyoqwWj",
+      "summary_zh": "只剩 2 天，想进 @spc 就现在申请，别磨蹭。",
+      "url": "https://x.com/adityaag/status/2083330582210380106",
+      "posted_at": "2026-07-31T23:14:51.000Z",
+      "tags": [
+        "@adityaag"
+      ]
+    },
+    {
+      "id": "d086bbb13c",
+      "date": "2026-08-01",
+      "source": "x",
+      "author": "Peter Steinberger",
+      "bio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world. @OpenClaw🦞 + @OpenAI",
+      "title": "",
+      "summary_en": "will we have to wear radiation shielded underwear now? https://t.co/Iq67S3npbs",
+      "summary_zh": "现在连内裤都得考虑防辐射了吗？这句是在把某个“辐射风险”新闻嘲成荒诞到贴身防护级别。",
+      "url": "https://x.com/steipete/status/2083328272444915831",
+      "posted_at": "2026-07-31T23:05:41.000Z",
+      "tags": [
+        "@steipete"
+      ]
+    },
+    {
+      "id": "23d2c03e93",
+      "date": "2026-08-01",
+      "source": "x",
+      "author": "Guillermo Rauch",
+      "bio": "@vercel CEO",
+      "title": "",
+      "summary_en": "AI Gateway gives companies the critical infra to make AI a productive investment:\n🆕 Budgets per key/team/project\n◾ Failover for maximum uptime\n◾ Model and provider choice\n◾ Realtime observability\n\nIf you're still in a 'token-maxing' fever dream, it's time to wake up 😁 https://t.co/sj6V64DqIP",
+      "summary_zh": "AI Gateway 把 AI 从烧 token 的幻觉拉回企业基础设施：按 key、团队、项目控预算，支持故障切换、模型/供应商选择和实时可观测。还沉迷“token 拉满”的玩法，该醒了。",
+      "url": "https://x.com/rauchg/status/2083319868766699699",
+      "posted_at": "2026-07-31T22:32:17.000Z",
+      "tags": [
+        "@rauchg"
+      ]
+    },
+    {
+      "id": "a6dee292fc",
+      "date": "2026-08-01",
+      "source": "x",
+      "author": "Nikunj Kothari",
+      "bio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
+      "title": "",
+      "summary_en": "There's a quiet belief in venture that the best founders are running from something. A troubled childhood. A chip on the shoulder. Pain that keeps the foot on the gas..\n\nNew essay pondering where the drive actually comes from, and the gear most people never reach. https://t.co/khHEo1okqz",
+      "summary_zh": "创投圈有个隐秘信仰：最好的创始人都在逃离某种东西，童年创伤、不服输的怨气，或踩不下刹车的痛苦。新文追问真正的驱动力从何而来，以及多数人一辈子都挂不上的那一档。",
+      "url": "https://x.com/nikunj/status/2083307235619287363",
+      "posted_at": "2026-07-31T21:42:05.000Z",
+      "tags": [
+        "@nikunj"
+      ]
+    },
+    {
+      "id": "1f12eb533d",
+      "date": "2026-08-01",
+      "source": "x",
+      "author": "Swyx",
+      "bio": "achieve ambition with intentionality, intensity, integrity & insanity.  affiliations: - @smol_ai - @dxtipshq - @cognition - @aidotengineer - @latentspacepod",
+      "title": "",
+      "summary_en": "noticed that the perjorative connotation around \"vibe coding\" has completely disappeared since ~everyone, from nontechnical to supertechnical, is now doing it",
+      "summary_zh": "“氛围编程”已经不再带贬义了，因为现在从非技术人员到顶级技术人员，几乎所有人都在这么干。",
+      "url": "https://x.com/swyx/status/2083294839186260385",
+      "posted_at": "2026-07-31T20:52:50.000Z",
+      "tags": [
+        "@swyx"
+      ]
+    },
+    {
+      "id": "82aa8b4425",
+      "date": "2026-08-01",
+      "source": "x",
+      "author": "Dan Shipper",
+      "bio": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "title": "",
+      "summary_en": "Human programmer interviews, 2027: \n\nPlease describe the last 3 unresolved mathematical conjectures you solved, and share your prompts\n\nPlease describe the last cyber felony your agent unintentionally committed and what steps you took to mitigate \n\nPlease tell us how many R’s are in strawberry and how many e’s in seventeen",
+      "summary_zh": "2027 年程序员面试不再问你会不会写代码，而是问你用什么提示词攻克了数学猜想、你的 agent 最近误犯了什么网络重罪，以及你到底能不能数清 strawberry 里的 R 和 seventeen 里的 e。",
+      "url": "https://x.com/danshipper/status/2083239700664349128",
+      "posted_at": "2026-07-31T17:13:44.000Z",
+      "tags": [
+        "@danshipper"
+      ]
+    },
+    {
+      "id": "2478383861",
+      "date": "2026-08-01",
+      "source": "x",
+      "author": "Swyx",
+      "bio": "achieve ambition with intentionality, intensity, integrity & insanity.  affiliations: - @smol_ai - @dxtipshq - @cognition - @aidotengineer - @latentspacepod",
+      "title": "",
+      "summary_en": "MITM agent distillation is graduate level but yeah ofc this works https://t.co/Tn9LMbjNkm",
+      "summary_zh": "MITM 式 agent 蒸馏已经是研究生级别的操作了，但它当然能跑通。潜台词是：别再把 agent 能力当玄学，拦截、模仿、蒸馏这一套早就够硬核了。",
+      "url": "https://x.com/swyx/status/2083237045720465504",
+      "posted_at": "2026-07-31T17:03:11.000Z",
+      "tags": [
+        "@swyx"
+      ]
+    },
+    {
+      "id": "bb36cafad3",
+      "date": "2026-08-01",
+      "source": "x",
+      "author": "Nan Yu",
+      "bio": "head of product @linear",
+      "title": "",
+      "summary_en": "The most common loop written in Linear is some variant this one (Issue > Agent > PR > Release) \n\n~30% of our bugs make it all the way through this flow.\n\nBut there are some nuances to doing it -- The instructions should ask the agent to extensively research the root cause of the issue and to use Datadog and Sentry MCPs to gather more evidence.\n\nIt should only attempt to provide a fix if there's high certainty, otherwise you end up burning a lot of tokens.\n\nIf it thinks that more evidence would help it during its research, like asking the reporter to provide repro steps, etc, it should leave a comment on the issue requesting it.\n\nAgents need to be told to following good practices, just like people!",
+      "summary_zh": "Linear 里最常见的自动化闭环是「Issue > Agent > PR > Release」，但约 30% 的 bug 会一路漏到发布。Agent 不能一上来就修，必须先查根因、用 Datadog/Sentry 找证据，高确定性才动手；证据不够就去 issue 里要复现步骤，跟人一样，规矩得写清楚。",
+      "url": "https://x.com/thenanyu/status/2083230295206121807",
+      "posted_at": "2026-07-31T16:36:21.000Z",
+      "tags": [
+        "@thenanyu"
+      ]
+    },
+    {
+      "id": "86262827dd",
+      "date": "2026-08-01",
+      "source": "x",
+      "author": "Sam Altman",
+      "bio": "AI is cool i guess",
+      "title": "",
+      "summary_en": "cool use case of chatgpt work i heard last night:\n\nconnect your family calendars and explain your kids' interests.\n\nevery morning for the drive to school, have it make a podcast that talks about one kid's soccer game that afternoon, one kid's upcoming birthday, some news, etc.",
+      "summary_zh": "把全家日历和孩子兴趣接进 ChatGPT，每天早上让它自动生成一段上学路上听的家庭播客。内容直接围绕当天的比赛、生日、新闻这些真实事项，AI 不再闲聊，而是切进家庭生活的日程缝隙。",
+      "url": "https://x.com/sama/status/2083221585792762171",
+      "posted_at": "2026-07-31T16:01:45.000Z",
+      "tags": [
+        "@sama"
+      ]
+    },
+    {
+      "id": "da6557b01c",
+      "date": "2026-08-01",
+      "source": "podcast",
+      "author": "Unsupervised Learning",
+      "bio": "",
+      "title": "Ep 92: xAI Co-Founder Unpacks the Future of Model Development",
+      "summary_en": "Speaker 1 | 00:00 - 00:16\nWelcome back to unsupervised learning. I'm Jacob Efron. We had an awesome episode today with Igor Babushkin. Igor has been at all the right places at all the right times, leading a lot of really interesting AI work. He was at DeepMind where he led a lot of the work around StarCraft as well as AlphaCode.\n\nSpeaker 1 | 00:16 - 00:53\nHe was at OpenAI, we're doing the early work on reasoning. Then he was a co founder of x AI, where he did some of the heroic work on Colossus, well as helped get the models up to, you know, where they are today. It was awesome to get to talk to Igor about his new company River AI, the bets they're making around, personal AI for companies, for consumers, as well as local hardware. We talked about all his takes on where the ecosystem's headed, what's required to improve models beyond coding into nonverifiable domains, and when he thinks we'll get there. We talked about why he thinks the closed source model providers are actually in a really hard place right now as businesses.\n\nSpeaker 1 | 00:53 - 01:12\nAnd we hit on his reflections on what AI models mean for the future of the world and the policy implications of this as well. Just awesome to talk to someone who's at the forefront of the space on all the questions that are top of mind. I think folks will really enjoy Igor's perspective. Without further ado, here he is. Igor, thanks so much for coming on the podcast.\n\nSpeaker 1 | 01:12 - 01:14\nReally excited to to have you here.\n\nSpeaker 2 | 01:14 - 01:17\nYeah. Thank you for the invitation, Jacob. We're excited to to chat with you.\n\nSpeaker 1 | 01:17 - 01:39\nYou've pioneered so much important research in your time at DeepMind, OpenAI, xAI. You were early to like so many of the things that I feel like define the Sierra we h",
+      "summary_zh": "Igor Babushkin 几乎踩中了这一轮 AI 的每个关键节点：DeepMind 的 StarCraft/AlphaCode、OpenAI 早期推理、xAI 的 Colossus 和模型冲刺。  \n这期重点不是履历吹捧，而是他对下一阶段模型开发、非可验证领域突破、闭源模型商业困境，以及 AI 政策后果的判断。",
+      "url": "https://www.youtube.com/@RedpointAI",
+      "posted_at": "2026-07-31T15:15:49.000Z",
+      "tags": [
+        "podcast"
+      ]
+    },
+    {
+      "id": "3ed80306c0",
+      "date": "2026-08-01",
+      "source": "x",
+      "author": "Guillermo Rauch",
+      "bio": "@vercel CEO",
+      "title": "",
+      "summary_en": "This will be the norm as software projects transition to agentic software factories.\n\nIssue → Agent → PR → Release 🔁\n\nThe job of the author / maintainer is to work on the loop that yields the highest quality product and sets the criteria for what should be worked on. https://t.co/7A0YaXYJYn",
+      "summary_zh": "软件项目会越来越像智能体工厂：Issue 进来，Agent 写代码，PR 合并，直接发版。\n\n作者和维护者的核心工作不再是亲手搬砖，而是设计这条循环、定义质量标准、决定什么值得被做。",
+      "url": "https://x.com/rauchg/status/2083208578526314513",
+      "posted_at": "2026-07-31T15:10:03.000Z",
+      "tags": [
+        "@rauchg"
+      ]
+    },
+    {
+      "id": "9d8c966cf2",
+      "date": "2026-08-01",
+      "source": "x",
+      "author": "Sam Altman",
+      "bio": "AI is cool i guess",
+      "title": "",
+      "summary_en": "i see your moore's law and i raise you 20x https://t.co/fIgoPxhMbW",
+      "summary_zh": "别拿摩尔定律说事了，这里直接把牌面加到 20 倍。",
+      "url": "https://x.com/sama/status/2083203642975502640",
+      "posted_at": "2026-07-31T14:50:27.000Z",
+      "tags": [
+        "@sama"
+      ]
+    },
+    {
+      "id": "6df23368ac",
+      "date": "2026-08-01",
+      "source": "x",
+      "author": "Sam Altman",
+      "bio": "AI is cool i guess",
+      "title": "",
+      "summary_en": "it could be faster https://t.co/aodVOp6X6f",
+      "summary_zh": "还不够快，还能更快。",
+      "url": "https://x.com/sama/status/2083198135812383197",
+      "posted_at": "2026-07-31T14:28:34.000Z",
+      "tags": [
+        "@sama"
+      ]
+    },
+    {
+      "id": "d9368521eb",
+      "date": "2026-08-01",
+      "source": "x",
+      "author": "Zara Zhang",
+      "bio": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://t.co/KCuEajezlL YouTube: https://t.co/8xzbGWtf6w",
+      "title": "",
+      "summary_en": "Fascinating interview on how Claude Tag has changed the way work is done at Anthropic\n\n65% of PRs by product & eng teams at Anthropic are now raised by Claude Tag\n\nFor non-engineering teams, I think the ultimate agent interface is wherever they already work (eg Slack/other collaboration tools). In the past 6 months I’ve seen my own interface for working with agents change: \n\nJanuary - the terminal \nMarch - the desktop app (eg Codex)\nJune - my work collaboration tool\n\nEach step gets closer to how humans naturally communicate. The agent should literally meet the user where they are\n\nhttps://t.co/Qps5zCMB8z",
+      "summary_zh": "Anthropic 产品和工程团队 65% 的 PR 已由 Claude Tag 发起，Agent 正从终端、桌面应用一路迁移到 Slack 这类协作工具里。真正的终极入口不是新界面，而是直接钻进人类本来工作的地方。",
+      "url": "https://x.com/zarazhangrui/status/2083161173563003268",
+      "posted_at": "2026-07-31T12:01:41.000Z",
+      "tags": [
+        "@zarazhangrui"
+      ]
+    },
+    {
+      "id": "74a918d127",
+      "date": "2026-08-01",
+      "source": "x",
+      "author": "Nikunj Kothari",
+      "bio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
+      "title": "",
+      "summary_en": "Dads are the original compost box..\n\nSaw my dad scold us for not finishing our food and then happily (?) eat all the leftovers from our plates (and my mothers as well)\n\nHappy to continue the tradition for our family 😂",
+      "summary_zh": "爸爸才是家里最早的“厨余回收箱”：一边骂孩子浪费食物，一边把全家盘子里的剩菜全吃掉。这个传统，他还准备继续传下去。",
+      "url": "https://x.com/nikunj/status/2083140308045271325",
+      "posted_at": "2026-07-31T10:38:46.000Z",
+      "tags": [
+        "@nikunj"
+      ]
+    },
+    {
+      "id": "b58e44d7db",
+      "date": "2026-08-01",
+      "source": "x",
+      "author": "Peter Steinberger",
+      "bio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world. @OpenClaw🦞 + @OpenAI",
+      "title": "",
+      "summary_en": "Jason is doing such great work. Love this. https://t.co/g3FV3fY587",
+      "summary_zh": "Jason 做的东西确实漂亮，这活儿值得看。",
+      "url": "https://x.com/steipete/status/2083094971167781317",
+      "posted_at": "2026-07-31T07:38:37.000Z",
+      "tags": [
+        "@steipete"
+      ]
+    }
+  ]
+}
