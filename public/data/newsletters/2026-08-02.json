@@ -1,0 +1,92 @@
+{
+  "date": "2026-08-02",
+  "generated_at": "2026-08-02T00:47:00+00:00",
+  "inbox_id": "sanyoumu@agentmail.to",
+  "window": {
+    "start": "2026-08-01T00:47:45+00:00",
+    "end": "2026-08-02T00:45:58.078162+00:00",
+    "source": "previous_digest_generated_at"
+  },
+  "count": 2,
+  "highlights": [
+    "DeepSeek-V4-Flash API 公测并快速开放权重，核心看点是 post-training 带来的 agent 能力跃升、低价 API 和 MIT 权重发布。",
+    "AINews 认为这次 DeepSeek 更新不是单纯预训练扩容故事，而是后训练、工具调用与任务执行能力的竞争信号。",
+    "Opinion AI 把模型竞争概括为“团队运动”：单模型回答正在转向多 Agent 协作完成完整流程。",
+    "对 builder 来说，下一阶段重点不只是选模型，而是设计角色、交接、复核、人类审批和安全边界。"
+  ],
+  "items": [
+    {
+      "id": "deepseek-v4-flash-agentic-post-training",
+      "title_zh": "今日精读：DeepSeek-V4-Flash 用后训练把开源 Agent 模型推回前沿",
+      "title_original": "[AINews] not much happened today",
+      "source": "swyx.substack.com",
+      "from": "AINews <swyx+ainews@substack.com>",
+      "subject": "[AINews] not much happened today",
+      "url": "https://www.latent.space/p/ainews-not-much-happened-today-038",
+      "message_id": "<20260801013809.3.2c9a4459639b22f8@mg2.substack.com>",
+      "published_at": "2026-08-01T01:38:09.000Z",
+      "importance": "high",
+      "summary_zh": "这期 AINews 汇总了 2026 年 7 月 30-31 日 AI 社区动态，核心是 DeepSeek-V4-Flash API 公测与开放权重发布。邮件强调，这次更新的重点不是架构或参数规模变化，而是后训练带来的 agentic 能力跃升：官方称 Flash API 的 Agent 能力已超过 V4-Pro-Preview，并支持 Responses API 格式、适配 Codex；社区指标显示 Terminal-Bench、GDPval-AA v2、τ³-Bench Banking 等任务表现大幅提升，同时价格和缓存折扣非常激进。",
+      "deep_read_zh": "这封 AINews 最值得精读的是 DeepSeek-V4-Flash 0731 的发布。表面上，标题说“今天没发生什么”，但正文其实把一个重要信号放在了读者面前：开源或开放权重模型的竞争焦点，正在从单纯扩大参数、刷新通用榜单，转向更具体的 Agent 执行能力、API 兼容性、成本结构和开发者工作流适配。邮件提到，DeepSeek 官方推出 V4-Flash API 公测，称升级后的 Agent 能力超过 V4-Pro-Preview，并说明改进目前只适用于 Flash API，V4-Pro API、App 和 Web 仍未变化。社区观察者给出的数据很关键：Terminal-Bench 从 4 月预览的 56.9 到 82.7，Artificial Analysis 则称该模型仍是 284B 总参数、13B 激活参数、1M 上下文、文本模型，价格为每百万输入 0.14 美元、输出 0.28 美元，并有 98% 缓存命中折扣。更值得注意的是，邮件把这次进步归因为 post-training，而非架构或规模变化。这对 AI builder 的隐含判断是：模型能力差距可能会通过后训练、工具使用、任务环境优化迅速缩小；而真正影响产品可用性的，可能是模型能否稳定处理终端、银行流程、长上下文、低成本缓存和 Codex 类编码工具链。开放权重随后登陆 Hugging Face，并采用 MIT 许可，也意味着本地部署、二次微调、推理框架适配和企业私有化方案会更快跟进。后续值得关注的是：这些 benchmark 增益能否转化为真实生产任务完成率，Responses API 兼容是否足够完整，以及低价策略是否会迫使其他模型供应商重新定价。",
+      "why_important": "它提供了明确事实增量：API、公测、开放权重、价格、许可、上下文长度和多项 agent benchmark 变化都被集中呈现。相比泛泛讨论 AI Agent，这条更直接影响模型选型、成本测算和产品架构。",
+      "impact": "开发者可以把 DeepSeek-V4-Flash 作为低成本 agent/coding workflow 候选模型重新评估。行业层面，这会加剧开放权重模型与闭源前沿模型在 Agent 场景上的竞争，并把压力传导到 API 定价和工具兼容性。",
+      "key_points": [
+        "DeepSeek-V4-Flash API 进入 public beta，官方称 Agent 能力超过 V4-Pro-Preview。",
+        "模型支持 Responses API 格式，并被描述为“fully adapted for Codex”。",
+        "社区数据称 Terminal-Bench 从 56.9 提升到 82.7，Artificial Analysis 也报告多项 agentic benchmark 上涨。",
+        "邮件强调这次跃升来自 post-training，而不是架构或参数规模变化。",
+        "模型仍被描述为 284B 总参数、13B 激活参数、1M 上下文，价格和缓存折扣非常激进。",
+        "官方权重很快发布到 Hugging Face，并采用 MIT 许可。"
+      ],
+      "reading_notes": [
+        "关注 benchmark 提升是否来自真实任务能力，而不是特定评测优化。",
+        "评估 Responses API 和 Codex 适配是否能减少接入成本。",
+        "观察开放权重发布后 vLLM、本地推理和企业私有化部署的生态响应。",
+        "把价格、缓存命中和输出 token 降低一起纳入实际任务成本评估。"
+      ],
+      "tags": [
+        "model",
+        "agent",
+        "open-source",
+        "infra",
+        "pricing"
+      ],
+      "related_sources": [
+        "Opinion AI 对多 Agent 工作流的趋势判断与本条的 agentic gains 互补"
+      ]
+    },
+    {
+      "id": "ai-agent-team-workflow-graph-engineering",
+      "title_zh": "多 Agent 系统的关键不在模型数量，而在工作流交接设计",
+      "title_original": "How to Build a Team of AI Agents That Actually Finishes the Work",
+      "source": "emergingai.substack.com",
+      "from": "Opinion AI <emergingai@substack.com>",
+      "subject": "How to Build a Team of AI Agents That Actually Finishes the Work",
+      "url": "https://emergingai.substack.com/p/how-to-build-a-team-of-ai-agents",
+      "message_id": "<20260801211013.3.66312e1fa3fd0dd6@mg2.substack.com>",
+      "published_at": "2026-08-01T21:10:13.000Z",
+      "importance": "medium",
+      "summary_zh": "这封 Opinion AI 把近期模型进展概括为“模型竞争变成团队运动”：GPT-5.6 Sol、Kimi K3、Claude Opus 5 等模型被描述为不仅能生成文本，还能检查文件、搜索、调用工具、使用终端、把任务交给其他 Agent、读取结果并继续修正。作者认为，AI 工作单位正在从“一次回答”转向“一个完成的流程”。但文章也提醒，多 Agent 系统的真正难点是 handoff：角色如何分工、上下文如何传递、何时推进、何时回退、哪里需要人类审批。对 builder 来说，重点不是堆 Agent，而是做“graph engineering”。",
+      "deep_read_zh": "",
+      "why_important": "它把多 Agent 产品的核心问题从“模型更强”转到了“流程能否闭环”。这对正在做自动化、编码 Agent、内容流水线和客服 Agent 的团队很实用。",
+      "impact": "产品设计上需要把研究、规划、执行、审查、安全规则和人工审批拆成明确节点。工程实现上，LangGraph、n8n、MCP 工具和结构化交接会成为多 Agent 系统的基础能力。",
+      "key_points": [
+        "作者认为单个模型已经能持续工作数分钟到数小时，多 Agent 团队可以并行承担研究、计划、执行和复核。",
+        "没有结构的多 Agent 系统只会变成多个聊天窗口重复消耗 token。",
+        "关键能力是设计角色、输入输出、循环条件、人类拦截点和安全规则。"
+      ],
+      "reading_notes": [],
+      "tags": [
+        "agent",
+        "workflow",
+        "developer-tools",
+        "automation"
+      ],
+      "related_sources": [
+        "AINews 的 DeepSeek-V4-Flash 摘要提供了 Agent 能力提升的模型侧例子"
+      ]
+    }
+  ],
+  "skipped": [],
+  "notes": "今日共收到 2 封正式 newsletter，均已进入 items；没有发现欢迎邮件、确认订阅、广告、招聘或完全重复邮件。今日精读选择 AINews 的 DeepSeek-V4-Flash，是因为它包含更明确的事实增量：API 发布、开放权重、许可、价格、上下文长度和多项 Agent 评测变化。Opinion AI 更偏方法论与趋势判断，因此作为第二条信息流摘要保留。"
+}
