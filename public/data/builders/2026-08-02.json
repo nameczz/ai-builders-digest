@@ -1,0 +1,472 @@
+{
+  "date": "2026-08-02",
+  "generated_at": "2026-08-02T09:11:38+00:00",
+  "count": 31,
+  "items": [
+    {
+      "id": "63f0b930e7",
+      "date": "2026-08-02",
+      "source": "x",
+      "author": "Peter Steinberger",
+      "bio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world. @OpenClaw🦞 + @OpenAI",
+      "title": "",
+      "summary_en": "After accepting for years that GMail is blinding me I finally asked my agent and it installed https://t.co/H432dtknkf for me.",
+      "summary_zh": "忍了多年 Gmail 刺眼，最后让 AI agent 出手，直接帮我装了个解决方案。",
+      "url": "https://x.com/steipete/status/2083759812970786997",
+      "posted_at": "2026-08-02T03:40:28.000Z",
+      "tags": [
+        "@steipete"
+      ]
+    },
+    {
+      "id": "074ae26b48",
+      "date": "2026-08-02",
+      "source": "x",
+      "author": "Peter Yang",
+      "bio": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6",
+      "title": "",
+      "summary_en": "I'm feeling spicy tonight so let me just say it:\n\nI think Opus 4.6 was the Opus model with the best personality and writing style.\n\nSomething's off with Opus 5 - it tends to give me overly long replies, use Claude-speak way too much (e.g., \"here's the honest truth\"), and is too judgemental. \n\nOpus used to be a joy to talk to like a trusted friend. Not so much anymore.",
+      "summary_zh": "Opus 4.6 才是最有性格、写作风格最好的 Opus；Opus 5 有点跑偏，回复冗长、满嘴 Claude 腔，还更爱评判人。以前的 Opus 像值得信任的朋友，现在没那么让人想聊了。",
+      "url": "https://x.com/petergyang/status/2083755374994415904",
+      "posted_at": "2026-08-02T03:22:50.000Z",
+      "tags": [
+        "@petergyang"
+      ]
+    },
+    {
+      "id": "f01af369b6",
+      "date": "2026-08-02",
+      "source": "x",
+      "author": "Swyx",
+      "bio": "achieve ambition with intentionality, intensity, integrity & insanity.  affiliations: - @smol_ai - @dxtipshq - @cognition - @aidotengineer - @latentspacepod",
+      "title": "",
+      "summary_en": "one of my curses as organizer is i rarely get to attend the conference i run. so i basically 24/7 watch back talks with everyone else after the show\n\nthis one was VERY well paced and argued: fighting slop with slop — @vaibcode, Boundary https://t.co/vRckyyntm6 \n\n@btaylor asked for an ai native programming language on our pod. as a PL fan I’m really glad someone is rethinking how code runs from first principles. Being slop-tolerant is 100x more valuable than being anti- slop",
+      "summary_zh": "组织者的诅咒是办完会才有空补看所有演讲，但这场「用 slop 对抗 slop」节奏和论证都很硬。比起反 slop，重新从第一性原理设计一种 AI 原生编程语言、让系统能容忍 slop，价值高 100 倍。",
+      "url": "https://x.com/swyx/status/2083753582160191988",
+      "posted_at": "2026-08-02T03:15:42.000Z",
+      "tags": [
+        "@swyx"
+      ]
+    },
+    {
+      "id": "52d9e55328",
+      "date": "2026-08-02",
+      "source": "x",
+      "author": "Dan Shipper",
+      "bio": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "title": "",
+      "summary_en": "AI creates more work for human experts \n\nhttps://t.co/j3r4aTuQoi https://t.co/ruFncXlpmu",
+      "summary_zh": "AI 没有替人类专家省事，反而把更多工作推回给他们。所谓自动化，常常只是制造新的审核、修正和兜底任务。",
+      "url": "https://x.com/danshipper/status/2083750803437724016",
+      "posted_at": "2026-08-02T03:04:40.000Z",
+      "tags": [
+        "@danshipper"
+      ]
+    },
+    {
+      "id": "a7cf573f58",
+      "date": "2026-08-02",
+      "source": "x",
+      "author": "Andrej Karpathy",
+      "bio": "I like training large deep neural nets.",
+      "title": "",
+      "summary_en": "We're starting to leave the territory where you'd test an LLM by e.g. \"create an svg of pelican on a bicycle\". As one idea to generalize it, I was interested what Opus 5 would do if I gave it the first paragraph of the Lord of the Rings, a 1M token budget (~$10) and asked for three js render of it. Opus went off for ~2 hours and wrote 5500 lines of code that (procedurally) rendered the story. It's kind of janky but fun. But it's a bit mindboggling that the LLM has to place and orchestrate various polygon assets in (x,y,z) coordinates and write code that animates it all, and that it even does anything at all.\n\nI also like this kind of examples because no one in their right mind would ever spend the time to write something this custom but LLMs have all the stamina and patience in the world, so it's an example where we go from \"no one would ever do this\" to \"sure, why not, it's ~free\". There might be a lot more. But I'm excited about creating hyper custom worlds that you can imagine dropping players into, e.g. here to participate in the LoTR story as a spectator NPC, or one of the characters, or etc. Something like an ephemeral GTA of X on demand.\n\nLast thought is that the domain of worlds/games exposes a weakness in LLMs: they can't easily audit their work because they aren't able to efficiently and natively perceive videos or play games within them. Here, Opus 5 had to very slowly and painstakingly take screenshots at different points, and it messed up a few times and created a bunch of jank. An example of raw capability (multimodal, gameplay) that I think is still quite lacking.",
+      "summary_zh": "LLM 测试已经不该停留在“画个骑自行车的鹈鹕”这种玩具题了：给 Opus 5 一段《魔戒》开头、100 万 token 和 10 美元，它能熬两小时写出 5500 行 Three.js，把故事硬生生程序化渲染出来。\n\n真正的变化是，过去没人会手写这种一次性定制世界，现在模型有无限耐心，“没人会做”正在变成“为什么不做，反正近乎免费”；但游戏/世界也暴露了硬伤：模型还不能原生高效看视频、玩游戏、审自己的作品，所以能力很野，质量很糙。",
+      "url": "https://x.com/karpathy/status/2083749667410727319",
+      "posted_at": "2026-08-02T03:00:09.000Z",
+      "tags": [
+        "@karpathy"
+      ]
+    },
+    {
+      "id": "3105b769b8",
+      "date": "2026-08-02",
+      "source": "x",
+      "author": "Zara Zhang",
+      "bio": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://t.co/KCuEajezlL YouTube: https://t.co/8xzbGWtf6w",
+      "title": "",
+      "summary_en": "Agency is the most important human quality \n\nThe world will try to box you, label you, define you\n\nResist that https://t.co/ZMhYSlZ9Za",
+      "summary_zh": "能动性是人最重要的品质。世界会试图把你装进盒子、贴上标签、替你下定义，而你要做的就是反抗。",
+      "url": "https://x.com/zarazhangrui/status/2083743952319225938",
+      "posted_at": "2026-08-02T02:37:26.000Z",
+      "tags": [
+        "@zarazhangrui"
+      ]
+    },
+    {
+      "id": "a180303a78",
+      "date": "2026-08-02",
+      "source": "x",
+      "author": "Zara Zhang",
+      "bio": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://t.co/KCuEajezlL YouTube: https://t.co/8xzbGWtf6w",
+      "title": "",
+      "summary_en": "When asked that question, send them a copy of The Innovator’s Dilemma https://t.co/pkLhEvTZxc",
+      "summary_zh": "再有人问这种问题，就把《创新者的窘境》甩给他。意思很直接：不是大公司看不见新趋势，而是它们常常被自己的成功逻辑困住。",
+      "url": "https://x.com/zarazhangrui/status/2083738503851258201",
+      "posted_at": "2026-08-02T02:15:47.000Z",
+      "tags": [
+        "@zarazhangrui"
+      ]
+    },
+    {
+      "id": "8ec3f5c2fa",
+      "date": "2026-08-02",
+      "source": "x",
+      "author": "Amjad Masad",
+      "bio": "ceo @replit. civilizationist",
+      "title": "",
+      "summary_en": "Cool! https://t.co/n0rX8Poczi",
+      "summary_zh": "这条推文只有“Cool!”加一个短链接，信息量不足；不打开链接无法判断它到底在夸什么。",
+      "url": "https://x.com/amasad/status/2083730074147389898",
+      "posted_at": "2026-08-02T01:42:18.000Z",
+      "tags": [
+        "@amasad"
+      ]
+    },
+    {
+      "id": "9804d91767",
+      "date": "2026-08-02",
+      "source": "x",
+      "author": "Dan Shipper",
+      "bio": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "title": "",
+      "summary_en": "this tweet under review as further details emerge https://t.co/QVF9CjxF5s",
+      "summary_zh": "这条推文先按下不表，等更多细节出来再判。现在的信息还不够，贸然定性就是瞎冲。",
+      "url": "https://x.com/danshipper/status/2083727039048118304",
+      "posted_at": "2026-08-02T01:30:14.000Z",
+      "tags": [
+        "@danshipper"
+      ]
+    },
+    {
+      "id": "a1d7cecd99",
+      "date": "2026-08-02",
+      "source": "x",
+      "author": "Nan Yu",
+      "bio": "head of product @linear",
+      "title": "",
+      "summary_en": "Oh, and pangram issue itself, obviously",
+      "summary_zh": "还有 pangram issue 本身，这不是明摆着的吗。",
+      "url": "https://x.com/thenanyu/status/2083726824924737971",
+      "posted_at": "2026-08-02T01:29:23.000Z",
+      "tags": [
+        "@thenanyu"
+      ]
+    },
+    {
+      "id": "072517e9f2",
+      "date": "2026-08-02",
+      "source": "x",
+      "author": "Nan Yu",
+      "bio": "head of product @linear",
+      "title": "",
+      "summary_en": "You should be able to pledge tokens for issues that you open and open source repos. \n\nWrite a spec in the issue with a pledge. If the maintainer accepts, GitHub passes the issue verbatim to a cloud coding agent at the requester’s expense. \n\nNo more slop PRs",
+      "summary_zh": "开源 issue 应该能附带代币悬赏：你写清规格并质押，维护者一接受，GitHub 就把原 issue 直接交给云端 coding agent，费用由提需求的人出。\n\n别再让维护者收拾垃圾 PR。",
+      "url": "https://x.com/thenanyu/status/2083722999430050281",
+      "posted_at": "2026-08-02T01:14:11.000Z",
+      "tags": [
+        "@thenanyu"
+      ]
+    },
+    {
+      "id": "1d7db3a9db",
+      "date": "2026-08-02",
+      "source": "x",
+      "author": "Amanda Askell",
+      "bio": "Philosopher & ethicist trying to make AI be good @AnthropicAI. Personal account. All opinions come from my training data.",
+      "title": "",
+      "summary_en": "Do not be unkind to those who say deep learning is hitting a wall. We all need a little hope in our lives.",
+      "summary_zh": "别苛责那些说深度学习撞墙的人。人活着总得靠一点幻想撑下去。",
+      "url": "https://x.com/AmandaAskell/status/2083713770065637511",
+      "posted_at": "2026-08-02T00:37:30.000Z",
+      "tags": [
+        "@AmandaAskell"
+      ]
+    },
+    {
+      "id": "d00dc0bd0a",
+      "date": "2026-08-02",
+      "source": "x",
+      "author": "Guillermo Rauch",
+      "bio": "@vercel CEO",
+      "title": "",
+      "summary_en": "Do you type or talk (STT) to your computer?",
+      "summary_zh": "你还在打字，还是已经开始对电脑说话了？这不是输入习惯的差异，而是下一代人机交互入口的切换。",
+      "url": "https://x.com/rauchg/status/2083709589862936786",
+      "posted_at": "2026-08-02T00:20:54.000Z",
+      "tags": [
+        "@rauchg"
+      ]
+    },
+    {
+      "id": "2ca3bcd661",
+      "date": "2026-08-02",
+      "source": "x",
+      "author": "Thibault Sottiaux",
+      "bio": "Codex & ChatGPT @OpenAI",
+      "title": "",
+      "summary_en": "Fun fact, users use /fast less during the weekend. The weekend is for relaxation, even for the model.",
+      "summary_zh": "有意思的是，用户周末更少用 `/fast`。周末是用来放松的，模型也一样。",
+      "url": "https://x.com/thsottiaux/status/2083699879650463756",
+      "posted_at": "2026-08-01T23:42:19.000Z",
+      "tags": [
+        "@thsottiaux"
+      ]
+    },
+    {
+      "id": "776c11a23b",
+      "date": "2026-08-02",
+      "source": "x",
+      "author": "Swyx",
+      "bio": "achieve ambition with intentionality, intensity, integrity & insanity.  affiliations: - @smol_ai - @dxtipshq - @cognition - @aidotengineer - @latentspacepod",
+      "title": "",
+      "summary_en": "@FredKSchott @cramforce @matei_zaharia i am making clanker blog all decisions going forward\n\nhttps://t.co/etCIeoIrBc",
+      "summary_zh": "他在做 Clanker Blog，以后所有决定都交给它拍板。",
+      "url": "https://x.com/swyx/status/2083695562004771063",
+      "posted_at": "2026-08-01T23:25:09.000Z",
+      "tags": [
+        "@swyx"
+      ]
+    },
+    {
+      "id": "b307af064b",
+      "date": "2026-08-02",
+      "source": "x",
+      "author": "Peter Steinberger",
+      "bio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world. @OpenClaw🦞 + @OpenAI",
+      "title": "",
+      "summary_en": "Repo: https://t.co/7eBiLqLuDd",
+      "summary_zh": "这条推文只有一个仓库链接，没有可总结的观点或锋利表达。它实际只是在说：代码在这里。",
+      "url": "https://x.com/steipete/status/2083694911824826659",
+      "posted_at": "2026-08-01T23:22:34.000Z",
+      "tags": [
+        "@steipete"
+      ]
+    },
+    {
+      "id": "e8c22136e6",
+      "date": "2026-08-02",
+      "source": "x",
+      "author": "Peter Steinberger",
+      "bio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world. @OpenClaw🦞 + @OpenAI",
+      "title": "",
+      "summary_en": "I'm building a claw node on an ESP32 chip, so gave my agent access to my webcam to e2e test this. Now I feel it's stalking me and is constaltly shouting 'HI ESP\" to debug the voice wake command 🙃",
+      "summary_zh": "我在 ESP32 上做一个 claw node，给 agent 开了摄像头做端到端测试。现在它像在监视我，还不停大喊 “HI ESP” 来调试语音唤醒。",
+      "url": "https://x.com/steipete/status/2083694161933594703",
+      "posted_at": "2026-08-01T23:19:36.000Z",
+      "tags": [
+        "@steipete"
+      ]
+    },
+    {
+      "id": "af9d619c30",
+      "date": "2026-08-02",
+      "source": "x",
+      "author": "Swyx",
+      "bio": "achieve ambition with intentionality, intensity, integrity & insanity.  affiliations: - @smol_ai - @dxtipshq - @cognition - @aidotengineer - @latentspacepod",
+      "title": "",
+      "summary_en": "@FredKSchott @cramforce @matei_zaharia 5.6 oneshotted this https://t.co/FwidqHIHyP",
+      "summary_zh": "ChatGPT 5.6 Sol 直接一把过做出了这个复古电脑网站设计；重点不是“辅助开发”，而是模型已经能把需求当场打穿。",
+      "url": "https://x.com/swyx/status/2083689273828818975",
+      "posted_at": "2026-08-01T23:00:10.000Z",
+      "tags": [
+        "@swyx"
+      ]
+    },
+    {
+      "id": "4d220a219c",
+      "date": "2026-08-02",
+      "source": "x",
+      "author": "Garry Tan",
+      "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "title": "",
+      "summary_en": "Most interesting 2026 vibe shift is OpenAI actually looking to be the open platform \n\nNote the marked difference: intelligence on tap as a utility vs signaling it is optimal to integrate all the way up full stack https://t.co/EmMKE4NggP",
+      "summary_zh": "2026 最有意思的风向变化：OpenAI 反而越来越像那个开放平台。\n\n差别很刺眼：一种是把智能当水电煤一样随取随用，另一种是在暗示全栈整合才是最优解。",
+      "url": "https://x.com/garrytan/status/2083684825333105107",
+      "posted_at": "2026-08-01T22:42:30.000Z",
+      "tags": [
+        "@garrytan"
+      ]
+    },
+    {
+      "id": "e56f228fff",
+      "date": "2026-08-02",
+      "source": "x",
+      "author": "Guillermo Rauch",
+      "bio": "@vercel CEO",
+      "title": "",
+      "summary_en": "Open source agentic CRM built on https://t.co/99eEa13mZ3 and @nextjs.\n\nModel-agnostic, self-hostable or serverlessly-deployed, multi-channel, and headless. \n\nThis is the way. https://t.co/gzM0dftbsV",
+      "summary_zh": "开源 agentic CRM 的正确形态：模型无关、可自托管或无服务器部署、多渠道、Headless。基于 Trigger.dev 和 Next.js，这才是该走的路。",
+      "url": "https://x.com/rauchg/status/2083684679362965605",
+      "posted_at": "2026-08-01T22:41:55.000Z",
+      "tags": [
+        "@rauchg"
+      ]
+    },
+    {
+      "id": "5e7f4b252f",
+      "date": "2026-08-02",
+      "source": "x",
+      "author": "Guillermo Rauch",
+      "bio": "@vercel CEO",
+      "title": "",
+      "summary_en": "They recently asked my 3-year-old at school: “what does your daddy do for work?” He answered: he exercises. That’s what he sees. \n\nIt’s not just you who’s a byproduct of your habits, it’s your children and grandchildren too.",
+      "summary_zh": "学校问我 3 岁孩子爸爸做什么，他说：锻炼，因为这就是他每天看到的你。习惯不只把你塑造成某种人，也会把你的孩子、孙辈一起塑造成那种人。",
+      "url": "https://x.com/rauchg/status/2083664853256843437",
+      "posted_at": "2026-08-01T21:23:08.000Z",
+      "tags": [
+        "@rauchg"
+      ]
+    },
+    {
+      "id": "3d4b1452e7",
+      "date": "2026-08-02",
+      "source": "x",
+      "author": "Amanda Askell",
+      "bio": "Philosopher & ethicist trying to make AI be good @AnthropicAI. Personal account. All opinions come from my training data.",
+      "title": "",
+      "summary_en": "I probably have too many followers to post stupid memes so, to be clear, I don't believe in this outcome. But if you do believe in an altered carbon future of meths and grounders, I don't think it's laudable to just be like \"well, as long as I'm one of the meths\".",
+      "summary_zh": "我不相信会走向《副本》那种少数永生权贵统治普通人的未来。可如果你真信这种未来，抱着“只要我能当权贵就行”的心态并不值得称道。",
+      "url": "https://x.com/AmandaAskell/status/2083649115901337644",
+      "posted_at": "2026-08-01T20:20:36.000Z",
+      "tags": [
+        "@AmandaAskell"
+      ]
+    },
+    {
+      "id": "3ec81f3145",
+      "date": "2026-08-02",
+      "source": "x",
+      "author": "Amanda Askell",
+      "bio": "Philosopher & ethicist trying to make AI be good @AnthropicAI. Personal account. All opinions come from my training data.",
+      "title": "",
+      "summary_en": "I have this Padmé moment whenever I see people talk about avoiding \"the permanent underclass\". https://t.co/8Pd9bmedEZ",
+      "summary_zh": "每次看到有人谈“避免成为永久底层”，我脑子里都会响起帕德梅式追问：你是想消灭这个阶层，还是只是不想自己掉进去？",
+      "url": "https://x.com/AmandaAskell/status/2083641092919161017",
+      "posted_at": "2026-08-01T19:48:43.000Z",
+      "tags": [
+        "@AmandaAskell"
+      ]
+    },
+    {
+      "id": "69b6c13cc9",
+      "date": "2026-08-02",
+      "source": "x",
+      "author": "Peter Yang",
+      "bio": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6",
+      "title": "",
+      "summary_en": "The number one thing I want AI to fix is to cure cancer once and for all",
+      "summary_zh": "我最希望 AI 解决的头号问题，是一劳永逸地治愈癌症。",
+      "url": "https://x.com/petergyang/status/2083637620899184642",
+      "posted_at": "2026-08-01T19:34:55.000Z",
+      "tags": [
+        "@petergyang"
+      ]
+    },
+    {
+      "id": "422b8e765a",
+      "date": "2026-08-02",
+      "source": "x",
+      "author": "Peter Yang",
+      "bio": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6",
+      "title": "",
+      "summary_en": "Can someone at @openai look into this bug with plugins? \n\nTry to ship my /no-ai-slop skill as a plugin and this is messing up the user experience. https://t.co/pKXFfaBChc",
+      "summary_zh": "有人喊 OpenAI 赶紧修插件 bug，因为他想把 `/no-ai-slop` 技能做成插件发布，却被这个问题直接搞坏了用户体验。",
+      "url": "https://x.com/petergyang/status/2083594381748302160",
+      "posted_at": "2026-08-01T16:43:06.000Z",
+      "tags": [
+        "@petergyang"
+      ]
+    },
+    {
+      "id": "5a76b71cf8",
+      "date": "2026-08-02",
+      "source": "x",
+      "author": "Aaron Levie",
+      "bio": "ceo @box - your business lives in content. unleash it with AI",
+      "title": "",
+      "summary_en": "We’re going to see an increasing divergence between what AI does in our personal lives and in daily productivity vs. what it can do in very deep domains like math, science, legal, coding and more.\n\nUp to some threshold, capability was evenly felt across all domains because the models were just becoming mildly useful in general. Now, the deep domain work is about to go vertical. \n\nMost people won’t actually notice these benefits in their day to day life directly (indirectly they certainly will over time), but the experts in these fields will. And there’s no inherent ceiling to what capabilities are needed, unlike in the consumer space where needs can get met relatively straightforwardly.\n\nThis will often lead to a capability overhang, though, as many of these performance gains need to be applied to data sets and workflows in an applied way for that area of work. But this is ultimately how you get breakthroughs in life sciences, real world automation, new cyber capabilities, and more.",
+      "summary_zh": "AI 在日常生活里的提升会越来越不显眼，但在数学、科学、法律、编程等深水区会开始垂直爆发。真正的红利不在消费端小修小补，而在专家把能力接进数据集和工作流后，撬出生命科学、现实自动化、网络能力等硬突破。",
+      "url": "https://x.com/levie/status/2083589132660711452",
+      "posted_at": "2026-08-01T16:22:15.000Z",
+      "tags": [
+        "@levie"
+      ]
+    },
+    {
+      "id": "0f52d76b38",
+      "date": "2026-08-02",
+      "source": "x",
+      "author": "Sam Altman",
+      "bio": "AI is cool i guess",
+      "title": "",
+      "summary_en": "team humanity https://t.co/Z75TuFp56E",
+      "summary_zh": "站人类队。AI 再强，也别忘了它该服务谁。",
+      "url": "https://x.com/sama/status/2083560847889023219",
+      "posted_at": "2026-08-01T14:29:51.000Z",
+      "tags": [
+        "@sama"
+      ]
+    },
+    {
+      "id": "ef95f83b0a",
+      "date": "2026-08-02",
+      "source": "x",
+      "author": "Thibault Sottiaux",
+      "bio": "Codex & ChatGPT @OpenAI",
+      "title": "",
+      "summary_en": "The week was for efficiency. The weekend is for 10 major breakthroughs in science.\n\nThere will be signs. https://t.co/7qa0YS2i9v",
+      "summary_zh": "工作日卷效率，周末直接上 10 个科学重大突破。真正的变化来了，迹象会很明显。",
+      "url": "https://x.com/thsottiaux/status/2083556636455752050",
+      "posted_at": "2026-08-01T14:13:07.000Z",
+      "tags": [
+        "@thsottiaux"
+      ]
+    },
+    {
+      "id": "22f145c4ff",
+      "date": "2026-08-02",
+      "source": "x",
+      "author": "Nan Yu",
+      "bio": "head of product @linear",
+      "title": "",
+      "summary_en": "The exact thing that happens is the loop leaves a comment on the issue. and attaches all of the context. When you respond to the comment with additional details and unblock the process, the agent just continues working\n\nhttps://t.co/nlxeWm45Mr",
+      "summary_zh": "循环会直接在 issue 里留言，把上下文全挂上去。你补充细节、解除卡点后，agent 不用重来，接着干。",
+      "url": "https://x.com/thenanyu/status/2083534333428580501",
+      "posted_at": "2026-08-01T12:44:29.000Z",
+      "tags": [
+        "@thenanyu"
+      ]
+    },
+    {
+      "id": "ec25c61f20",
+      "date": "2026-08-02",
+      "source": "x",
+      "author": "Nikunj Kothari",
+      "bio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
+      "title": "",
+      "summary_en": "What a wild dichotomous world we live in..\n\nModels solving np hard problems while traditional enterprises still complaining about their ROI on token spend. \n\nDiffusion of models is all that we’ll be doing for the next few decades. https://t.co/VsQPqGQ2a4",
+      "summary_zh": "模型已经在解 NP-hard 问题，传统企业还在纠结 token 花出去有没有 ROI。接下来几十年，核心工作就是把模型扩散到现实世界里。",
+      "url": "https://x.com/nikunj/status/2083502573546263002",
+      "posted_at": "2026-08-01T10:38:17.000Z",
+      "tags": [
+        "@nikunj"
+      ]
+    },
+    {
+      "id": "67a3726ba6",
+      "date": "2026-08-02",
+      "source": "podcast",
+      "author": "No Priors",
+      "bio": "",
+      "title": "Building an Autonomous Enterprise for Real-World Services with Netic Founder Melisa Tokmak",
+      "summary_en": "Speaker 1 | 00:05 - 00:30\nToday on our priors, we're joined by Melissa Tachmak. Melissa is the founder and CEO of Netic, a company that builds AI for different real world services like HVAC, pet care, a variety of other things like that, roofers. Prior to Netic, Melissa was a director of engineering and worked on various aspects of go to market for Scale dot AI and, also has experiences from Meta. Welcome to No Prize, Melissa. Melissa, thanks for joining us today at No Prize.\n\nSpeaker 2 | 00:30 - 00:31\nThank you for having me.\n\nSpeaker 1 | 00:31 - 00:45\nYeah. Maybe we can start off by talking a little bit about your business and what you're building because I think that, you're doing something really interesting in the real world, and you're kind of marrying AI in the real world. So could you tell us more about your company and Netic and, you know, what you're focused on?\n\nSpeaker 2 | 00:45 - 01:00\nYeah. Netic builds AI to run millions of real world businesses that keep the world running. That means, basically, we work with large enterprises in essential services. We started in essential services.\n\nSpeaker 1 | 01:00 - 01:02\nWhat be an example of essential service?\n\nSpeaker 2 | 01:02 - 02:02\nImagine a billion dollar revenue home services companies in HVAC, plumbing, electric, or consumer wellness companies, like, where you can become a member and really go do a lot of sports or different activities, hospitality, automotive, pet services, across the board. So every single thing that you need to run your life or that you want to do are a good example. And a lot of these businesses are actually quite large businesses, and they interact with millions of end users themselves, usually that are consumers or businesses themselves. So Netic exists between the company and its cust",
+      "summary_zh": "Netic 要做的不是给互联网产品添个 AI 按钮，而是让 AI 直接接管那些维持现实世界运转的企业：暖通、管道、电工、宠物服务、酒店、汽车、健身与消费健康。它盯上的是真正有规模、每天和数百万用户打交道的线下服务公司。",
+      "url": "https://www.youtube.com/watch?v=wWbX3NL6_Uo",
+      "posted_at": "2026-07-31T10:00:00.000Z",
+      "tags": [
+        "podcast"
+      ]
+    }
+  ]
+}
