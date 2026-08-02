@@ -1,0 +1,153 @@
+{
+  "date": "2026-08-02",
+  "items": [
+    {
+      "id": "2026-08-02-1",
+      "title": "AI 编码正在逃离 IDE",
+      "angle": "从 Port22、AgentMicro 到 OmniRoute，看 AI 编码竞争如何从模型能力转向工作流控制权。",
+      "opening": "今天最强的信号不是谁又发布了新模型，而是开发者开始把 Codex、Claude Code 拆到手机、菜单栏和网关里。AI 编码的下一场仗，可能不在 IDE 里打。",
+      "story_hook": {
+        "challenge": "大家以为 Cursor 类工具会赢家通吃，但开发者真正痛的是执行位置、成本、状态和权限。",
+        "twist": "最有价值的产品可能不是更聪明的 coding agent，而是控制这些 agent 的外围控制面。"
+      },
+      "takeaway": "做 AI 开发工具时，先找一个高频控制点：模型路由、任务状态、移动端接管或浏览器登录态，而不是直接再造 IDE。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Garry Tan 认为 OpenAI 越来越像开放平台",
+          "url": "https://x.com/garrytan/status/2083684825333105107"
+        },
+        {
+          "tag": "builders",
+          "ref": "Guillermo Rauch 提到开源 agentic CRM 应模型无关、可自托管、Headless",
+          "url": "https://x.com/rauchg/status/2083684679362965605"
+        },
+        {
+          "tag": "pulse",
+          "ref": "OmniRoute 单周 7259 星，做多模型网关和 fallback",
+          "url": "https://github.com/diegosouzapw/OmniRoute"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Port22 把 Claude Code 和 Codex 带到手机",
+          "url": "https://www.producthunt.com/products/port22"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-02-2",
+      "title": "自动化把活还给专家",
+      "angle": "用 Dan Shipper 的判断切入：AI 自动化不是减少工作，而是制造新的审核、修正和兜底层。",
+      "opening": "AI 工具说要替专家省时间，但很多时候只是把脏活换了个名字。代码审查、issue 补充、agent 失败兜底，全都回到了专家桌面上。",
+      "story_hook": {
+        "challenge": "企业买 AI 是为了少做人力，但真实工作流里，专家反而要承担更多校验和责任。",
+        "twist": "最值钱的工具不是生成更多内容，而是减少专家必须返工的审核面。"
+      },
+      "takeaway": "评估 AI 自动化产品时，不要只看生成速度，要追问它把哪些责任、检查和失败处理转嫁给了人。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Dan Shipper 认为 AI 自动化常把更多工作推回给专家",
+          "url": "https://x.com/danshipper/status/2083750803437724016"
+        },
+        {
+          "tag": "builders",
+          "ref": "Nan Yu 提议 issue 质押悬赏，别让维护者收拾垃圾 PR",
+          "url": "https://x.com/thenanyu/status/2083722999430050281"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Alibaba open-code-review 单周 4708 星，用规则和 LLM Agent 做行级代码审查",
+          "url": "https://github.com/alibaba/open-code-review"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-02-3",
+      "title": "10 美元生成一个世界",
+      "angle": "从 Karpathy 的 5500 行 Three.js 实验看，一次性定制软件正在从不划算变成近乎免费。",
+      "opening": "给模型 100 万 token、10 美元和两小时，它把《魔戒》开头写成了 5500 行 Three.js 世界。这个实验粗糙，但真正吓人的不是质量，而是成本曲线。",
+      "story_hook": {
+        "challenge": "过去没人会为一次阅读体验手写一个交互世界，因为工程成本完全不成立。",
+        "twist": "当模型有无限耐心后，“没人会做”的东西开始变成“为什么不顺手做一个”。"
+      },
+      "takeaway": "内容产品和教育产品可以重新评估“一次性定制交互”的成本，先用 AI 生成原型，再人工收敛体验质量。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Andrej Karpathy 用 Opus 5 生成 5500 行 Three.js 渲染《魔戒》开头",
+          "url": "https://x.com/karpathy/status/2083749667410727319"
+        },
+        {
+          "tag": "pulse",
+          "ref": "HuggingFace 热点转向多模态、OCR、本地语音和图像编辑",
+          "url": "https://huggingface.co/moonshotai/Kimi-K3"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Show HN Cycloidal Gearbox 用 GitHub 展示可验证工程过程",
+          "url": "https://github.com/tom-ilan/cycloidal_gearbox"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-02-4",
+      "title": "热词冷了，项目还在涨",
+      "angle": "用 Google Trends 下滑和 GitHub 星标增长的反差，拆解 AI 工具从围观期进入筛选期。",
+      "opening": "cursor alternative 搜索热度跌了 82.7%，bitchat 跌了 77.7%。但同一时间，bitchat 一周还有 5737 星，ego-lite 一周 4090 星。",
+      "story_hook": {
+        "challenge": "很多人会把搜索降温误判成赛道死亡。",
+        "twist": "对开发者工具来说，大众围观退潮后，真实试用和收藏反而更能说明问题。"
+      },
+      "takeaway": "判断 AI 工具趋势时，把搜索热度和 GitHub 采用分开看；前者看情绪，后者看开发者是否真的愿意试。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Nikunj Kothari 认为核心工作是把模型扩散到现实世界",
+          "url": "https://x.com/nikunj/status/2083502573546263002"
+        },
+        {
+          "tag": "pulse",
+          "ref": "bitchat 搜索降温但 GitHub 单周 5737 星",
+          "url": "https://github.com/permissionlesstech/bitchat"
+        },
+        {
+          "tag": "pulse",
+          "ref": "ego-lite 搜索降温但 GitHub 单周 4090 星",
+          "url": "https://github.com/citrolabs/ego-lite"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-02-5",
+      "title": "开源 issue 该收费了",
+      "angle": "从 Nan Yu 的代币悬赏设想切入：AI agent 时代，开源维护的核心矛盾变成谁为需求质量买单。",
+      "opening": "AI coding agent 让提 PR 变得太便宜了，维护者却要为垃圾需求付出时间。Nan Yu 的建议很狠：issue 应该能质押代币，谁提需求谁付执行成本。",
+      "story_hook": {
+        "challenge": "开源社区以前缺贡献，现在更可能缺高质量需求和可执行规格。",
+        "twist": "AI 没有自动解决维护者负担，反而让“需求方付费、agent 执行、维护者验收”变成更合理的经济模型。"
+      },
+      "takeaway": "做开源 AI 工具时，可以把 issue 规格、赏金、agent 执行记录和维护者验收设计成完整闭环。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Nan Yu 提议开源 issue 附带代币悬赏并交给云端 coding agent",
+          "url": "https://x.com/thenanyu/status/2083722999430050281"
+        },
+        {
+          "tag": "builders",
+          "ref": "Nan Yu 提到 agent 会在 issue 里留言并保留上下文继续执行",
+          "url": "https://x.com/thenanyu/status/2083534333428580501"
+        },
+        {
+          "tag": "pulse",
+          "ref": "open-code-review 单周 4708 星，显示代码审查自动化需求强",
+          "url": "https://github.com/alibaba/open-code-review"
+        }
+      ]
+    }
+  ],
+  "notes": "今日素材主线集中在 AI 编码工作流、agent 执行控制和开发者工具外围生态；独立开发者营收故事较弱，不宜硬写 MRR 题。",
+  "generated_at": "2026-08-02T09:18:53+00:00",
+  "model": "gpt-5.5"
+}

@@ -1,0 +1,406 @@
+{
+  "date": "2026-08-02",
+  "top3": [
+    "今天最值得关注的是 AI 编码工具的外围生态正在爆发，从浏览器状态共享、手机端 Codex 到菜单栏状态监控，开发者不再只买模型能力，而是在买工作流控制权。",
+    "GitHub 周榜显示通信、代理浏览器、代码审查和 AI 网关四条线同时高增长，开源项目的商业化窗口集中在协作、安全和成本治理。",
+    "HuggingFace 热点从大模型转向多模态、OCR、本地语音和图像编辑，消费级产品机会更像轻量工具，而不是又一个聊天框。"
+  ],
+  "intro": "今天的主线不是单个模型发布，而是 Builder 工具链的外延扩张：AI 编码、浏览器自动化、本地语音、多模态编辑和支付基础设施都在靠近真实工作流。综合 HN、GitHub、Product Hunt、HuggingFace 与 Google Trends，机会更偏向把 AI 能力嵌进具体场景，而不是继续包装通用助手。",
+  "sections": [
+    {
+      "id": "discovery",
+      "title": "发现机会",
+      "blocks": [
+        {
+          "id": "indie-products",
+          "heading": "今天有哪些独立开发者的新产品？",
+          "summary_md": "HN Show HN 今天只有一个高质量样本：[Show HN: I'm a 15 Year Old Wannabe Engineer, This Is a Cycloidal Gearbox I Built](https://github.com/tom-ilan/cycloidal_gearbox) 拿到 149 票、32 条评论，亮点不是商业化，而是硬件机械项目用 GitHub 做公开作品集。Product Hunt 侧更集中在 AI 工作流小工具：[Termexo](https://www.producthunt.com/products/termexo) 是本地 Windows Claude Code 和 Codex 工作台，[Port22](https://www.producthunt.com/products/port22) 把 Claude Code、Codex 带到手机，[AgentMicro](https://www.producthunt.com/products/agentmicro) 做 macOS 菜单栏任务状态；PH 原始数据未给票数和评论数，因此这里按发布时间和赛道相关性判断。",
+          "items": [
+            {
+              "title": "Cycloidal Gearbox",
+              "url": "https://github.com/tom-ilan/cycloidal_gearbox",
+              "source": "HN",
+              "score": 149
+            },
+            {
+              "title": "Termexo",
+              "url": "https://www.producthunt.com/products/termexo",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "Port22",
+              "url": "https://www.producthunt.com/products/port22",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "AgentMicro",
+              "url": "https://www.producthunt.com/products/agentmicro",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "AI 编码工具的机会正在从 IDE 主战场转向本地、移动端和状态可视化这些窄入口。"
+        },
+        {
+          "id": "github-traction",
+          "heading": "GitHub 上哪些高增长开源项目还没有商业化？",
+          "summary_md": "周榜里最值得盯的是尚未明显 SaaS 化、但增长极快的基础工具：[block/buzz](https://github.com/block/buzz) 单周 9003 星、总 20673 星，定位蜂群通信平台；[permissionlesstech/bitchat](https://github.com/permissionlesstech/bitchat) 单周 5737 星、总 34046 星，做蓝牙 mesh 聊天；[citrolabs/ego-lite](https://github.com/citrolabs/ego-lite) 单周 4090 星、总 7494 星，解决 AI Agent 复用登录浏览器状态。它们都不是简单应用层玩具，而是在通信、身份状态和自动化上下文里卡位，后续可以长成托管协作、安全策略或企业控制台。",
+          "items": [
+            {
+              "title": "block/buzz",
+              "url": "https://github.com/block/buzz",
+              "source": "GitHub",
+              "score": 9003
+            },
+            {
+              "title": "permissionlesstech/bitchat",
+              "url": "https://github.com/permissionlesstech/bitchat",
+              "source": "GitHub",
+              "score": 5737
+            },
+            {
+              "title": "citrolabs/ego-lite",
+              "url": "https://github.com/citrolabs/ego-lite",
+              "source": "GitHub",
+              "score": 4090
+            }
+          ],
+          "takeaway": "高增长开源不一定马上收费，但谁掌握通信层和登录状态层，谁就更接近企业预算。"
+        }
+      ]
+    },
+    {
+      "id": "tech-stack",
+      "title": "技术选型",
+      "blocks": [
+        {
+          "id": "dev-tools",
+          "heading": "本周增长最快的开发者工具是什么？",
+          "summary_md": "开发者工具里最强信号来自 AI 编码的配套层：[diegosouzapw/OmniRoute](https://github.com/diegosouzapw/OmniRoute) 单周 7259 星、总 37324 星，用一个端点接 290 多个 provider 和 500 多个模型，核心卖点是免费网关、自动 fallback 与 token 压缩；[alibaba/open-code-review](https://github.com/alibaba/open-code-review) 单周 4708 星、总 17654 星，把确定性规则和 LLM Agent 结合做行级代码审查；[1jehuang/jcode](https://github.com/1jehuang/jcode) 单周 3548 星、总 15062 星，强调 RAM 高效 harness。选型上，团队应该把模型供应商抽象、审查规则和资源消耗作为一等架构对象。",
+          "items": [
+            {
+              "title": "OmniRoute",
+              "url": "https://github.com/diegosouzapw/OmniRoute",
+              "source": "GitHub",
+              "score": 7259
+            },
+            {
+              "title": "open-code-review",
+              "url": "https://github.com/alibaba/open-code-review",
+              "source": "GitHub",
+              "score": 4708
+            },
+            {
+              "title": "jcode",
+              "url": "https://github.com/1jehuang/jcode",
+              "source": "GitHub",
+              "score": 3548
+            }
+          ],
+          "takeaway": "AI 开发栈的技术选型重点正在从选哪个模型，转向如何路由、审查和控成本。"
+        },
+        {
+          "id": "hf-models",
+          "heading": "HuggingFace 上最热的模型能做什么消费级产品？",
+          "summary_md": "HuggingFace 今天的热度很适合拆成三类消费级工具：[moonshotai/Kimi-K3](https://huggingface.co/moonshotai/Kimi-K3) trending score 8461、下载 837202、9530 likes，适合多模态助手和图文理解产品；[baidu/Unlimited-OCR](https://huggingface.co/baidu/Unlimited-OCR) score 487、下载 2536284、3730 likes，适合票据、合同、截图知识库；[owensong/Inflect-Micro-v2](https://huggingface.co/owensong/Inflect-Micro-v2) score 233、1825 下载、365 likes，加上 [Audio8/Audio8-TTS-Preview-0.6b](https://huggingface.co/Audio8/Audio8-TTS-Preview-0.6b) score 163，说明本地 TTS 和低成本语音入口还有空间。",
+          "items": [
+            {
+              "title": "moonshotai/Kimi-K3",
+              "url": "https://huggingface.co/moonshotai/Kimi-K3",
+              "source": "HuggingFace",
+              "score": 8461
+            },
+            {
+              "title": "baidu/Unlimited-OCR",
+              "url": "https://huggingface.co/baidu/Unlimited-OCR",
+              "source": "HuggingFace",
+              "score": 487
+            },
+            {
+              "title": "owensong/Inflect-Micro-v2",
+              "url": "https://huggingface.co/owensong/Inflect-Micro-v2",
+              "source": "HuggingFace",
+              "score": 233
+            }
+          ],
+          "takeaway": "消费 AI 的新入口不一定是聊天框，图像理解、OCR 和本地语音更容易落到日常任务。"
+        },
+        {
+          "id": "show-hn",
+          "heading": "Show HN 高关注项目用的什么技术栈？",
+          "summary_md": "今天 Show HN 的 [Cycloidal Gearbox](https://github.com/tom-ilan/cycloidal_gearbox) 虽然只有 149 票、32 条评论，但它提醒 Builder 一个被忽视的分发路径：工程作品不必一定是 Web SaaS。项目在 GitHub 上展示机械设计和实现过程，本质是把可验证的工程细节变成可信度资产。对独立开发者来说，开源仓库、仿真文件、制造过程和演示视频可以组成一个强于 landing page 的技术栈，尤其适合硬件、机器人、制造工具和教育产品。",
+          "items": [
+            {
+              "title": "Cycloidal Gearbox",
+              "url": "https://github.com/tom-ilan/cycloidal_gearbox",
+              "source": "HN",
+              "score": 149
+            }
+          ],
+          "takeaway": "硬件和工程教育项目的技术栈，核心不是框架，而是把过程做成可验证的公开资产。"
+        }
+      ]
+    },
+    {
+      "id": "competition",
+      "title": "竞争情报",
+      "blocks": [
+        {
+          "id": "migrations",
+          "heading": "有没有「XX is dead」或迁移类文章？",
+          "summary_md": "HN 今天没有给出迁移类文章，但 GitHub 与 PH 的组合已经显示隐性迁移：开发者在从单一 AI 编码客户端迁移到跨端、跨模型、跨 provider 的工作流。[OmniRoute](https://github.com/diegosouzapw/OmniRoute) 单周 7259 星，直接吃掉多模型接入和 quota fallback 的痛点；[Termexo](https://www.producthunt.com/products/termexo)、[Port22](https://www.producthunt.com/products/port22)、[Lumichats(Free)](https://www.producthunt.com/products/lumichats-offline) 都在围绕 Claude Code、Codex 或终端门槛做替代入口。竞争判断是，Cursor 替代不是一个产品类别，而是一组围绕执行位置、成本和权限的微迁移。",
+          "items": [
+            {
+              "title": "OmniRoute",
+              "url": "https://github.com/diegosouzapw/OmniRoute",
+              "source": "GitHub",
+              "score": 7259
+            },
+            {
+              "title": "Termexo",
+              "url": "https://www.producthunt.com/products/termexo",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "Lumichats(Free)",
+              "url": "https://www.producthunt.com/products/lumichats-offline",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "真正的迁移不是离开某个 IDE，而是把 AI 编码能力拆到更便宜、更可控、更顺手的入口里。"
+        },
+        {
+          "id": "pricing-revenue",
+          "heading": "独立开发者在讨论什么营收和定价策略？",
+          "summary_md": "今天没有 HN 营收讨论样本，但产品供给侧已经给出定价线索：[UniwebPay Skill](https://www.producthunt.com/products/uniwebpay) 把支付基础设施包装成 AI 时代的金融 Infra，[SyncStaq](https://www.producthunt.com/products/syncstaq) 连接 Stripe billing 和 Google Sheets，[TimeOS 2.0](https://www.producthunt.com/products/timeos-ultimate-task-manager-for-pro) 把任务管理和客户计费合并。它们共同指向一个模式：不要只卖 AI 功能，而是贴近钱流、账单、工时和结算这些高意愿场景。即使没有票数数据，发布时间集中在 7 月 29 日到 8 月 1 日，也说明变现工具在 PH 侧持续上新。",
+          "items": [
+            {
+              "title": "UniwebPay Skill",
+              "url": "https://www.producthunt.com/products/uniwebpay",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "SyncStaq",
+              "url": "https://www.producthunt.com/products/syncstaq",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "TimeOS 2.0",
+              "url": "https://www.producthunt.com/products/timeos-ultimate-task-manager-for-pro",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "最容易收费的 AI 工具通常不在生成内容，而在把工作结果接到账单和支付。"
+        }
+      ]
+    },
+    {
+      "id": "trends",
+      "title": "趋势判断",
+      "blocks": [
+        {
+          "id": "keywords",
+          "heading": "本周技术关键词频率有什么变化？",
+          "summary_md": "Google Trends 里唯一明显上升的 tracked 词是 [buzz](https://trends.google.com/trends/explore?q=buzz&date=now+7-d) +7.0%，但它的关联 breakout 大量来自玩具 IP，如 platinum buzz lightyear ooshie +16650，技术相关只有 buzz agent +160。结合 GitHub 上 [block/buzz](https://github.com/block/buzz) 单周 9003 星，判断不能简单把 buzz 解读成 AI 平台热词，更像是技术社区局部爆发叠加大众搜索噪音。今天做关键词判断要把 GitHub 星标和 Trends 关联查询拆开看，否则会高估品牌词热度。",
+          "items": [
+            {
+              "title": "buzz",
+              "url": "https://trends.google.com/trends/explore?q=buzz&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 7
+            },
+            {
+              "title": "block/buzz",
+              "url": "https://github.com/block/buzz",
+              "source": "GitHub",
+              "score": 9003
+            }
+          ],
+          "takeaway": "关键词上涨要先排除大众语义噪音，再看它是否对应真实开发者采用。"
+        },
+        {
+          "id": "cooling",
+          "heading": "哪些 AI 热词在降温？",
+          "summary_md": "今天降温最明显的是 AI 编码与开源替代相关词：[cursor alternative](https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d) -82.7%，[bitchat](https://trends.google.com/trends/explore?q=bitchat&date=now+7-d) -77.7%，[ego lite](https://trends.google.com/trends/explore?q=ego+lite&date=now+7-d) -71.3%，[open code review](https://trends.google.com/trends/explore?q=open+code+review&date=now+7-d) -44.0%。但 GitHub 同期仍有 bitchat 单周 5737 星、ego-lite 单周 4090 星、open-code-review 单周 4708 星，说明搜索热度先冷，开发者试用还在继续。对 Builder 来说，这不是赛道死亡，而是从围观期进入筛选期。",
+          "items": [
+            {
+              "title": "cursor alternative",
+              "url": "https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": -82
+            },
+            {
+              "title": "bitchat",
+              "url": "https://trends.google.com/trends/explore?q=bitchat&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": -77
+            },
+            {
+              "title": "ego lite",
+              "url": "https://trends.google.com/trends/explore?q=ego+lite&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": -71
+            }
+          ],
+          "takeaway": "AI 工具热词降温后，真正能留住开发者的项目才开始显形。"
+        },
+        {
+          "id": "new-radar",
+          "heading": "新词雷达：有哪些从零起飞的新概念？",
+          "summary_md": "今天最强新词不是通用 AI，而是垂直 Agent：[sarvam ai coding agent](https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d) breakout +15900，[binance ai agent](https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d) +300，[buzz ai agent](https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d) 出现在 rising 里；同时 [codex security cli](https://trends.google.com/trends/explore?q=codex&date=now+7-d) +160、[codex security github](https://trends.google.com/trends/explore?q=codex&date=now+7-d) +100。弱信号很清楚：Agent 叙事正在从效率工具转向安全、金融和地域化编码场景，下一批产品名会更像某行业的执行代理，而不是又一个泛 AI Agent。",
+          "items": [
+            {
+              "title": "sarvam ai coding agent",
+              "url": "https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 15900
+            },
+            {
+              "title": "codex security cli",
+              "url": "https://trends.google.com/trends/explore?q=codex&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 160
+            },
+            {
+              "title": "binance ai agent",
+              "url": "https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 300
+            }
+          ],
+          "takeaway": "新词正在从 AI Agent 泛称，转向有行业、地区和安全语境的专用 Agent。"
+        },
+        {
+          "id": "vc-radar",
+          "heading": "VC 和 YC 在关注什么主题？",
+          "summary_md": "从今天的数据看，VC 和 YC 会更关注三类可形成基础设施价值的方向。第一是 AI 编码工作流基础设施，[OmniRoute](https://github.com/diegosouzapw/OmniRoute) 单周 7259 星、[ego-lite](https://github.com/citrolabs/ego-lite) 单周 4090 星，分别卡模型路由和浏览器状态。第二是语音与本地化，[Bolcho AI](https://www.producthunt.com/products/bolcho-ai) 主打印度语音 Agent，HF 上 Inflect-Micro-v2 和 Audio8-TTS 也在升温。第三是支付和账单，[UniwebPay Skill](https://www.producthunt.com/products/uniwebpay) 与 SyncStaq 说明 AI 工具最终要接入收入链路。",
+          "items": [
+            {
+              "title": "OmniRoute",
+              "url": "https://github.com/diegosouzapw/OmniRoute",
+              "source": "GitHub",
+              "score": 7259
+            },
+            {
+              "title": "Bolcho AI",
+              "url": "https://www.producthunt.com/products/bolcho-ai",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "UniwebPay Skill",
+              "url": "https://www.producthunt.com/products/uniwebpay",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "投资关注点会落在能控制执行环境、降低模型成本、连接支付结算的 AI 基础设施。"
+        }
+      ]
+    },
+    {
+      "id": "actions",
+      "title": "行动触发",
+      "blocks": [
+        {
+          "id": "weekend-build",
+          "heading": "今天 2 小时和一个周末分别做什么？",
+          "summary_md": "2 小时内，可以做一个 Agent 工作流状态面板：参考 [AgentMicro](https://www.producthunt.com/products/agentmicro) 和 [Port22](https://www.producthunt.com/products/port22)，只抓 Claude Code、Codex 或本地任务的运行状态、耗时、失败原因，先做 macOS 菜单栏或网页小面板。一个周末内，则可以做一个模型路由成本仪表盘：参考 [OmniRoute](https://github.com/diegosouzapw/OmniRoute) 单周 7259 星，把不同 provider、模型、token 压缩率和 fallback 成功率可视化。不要从大而全 IDE 开始，先做一个能每天打开的控制面。",
+          "items": [
+            {
+              "title": "AgentMicro",
+              "url": "https://www.producthunt.com/products/agentmicro",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "Port22",
+              "url": "https://www.producthunt.com/products/port22",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "OmniRoute",
+              "url": "https://github.com/diegosouzapw/OmniRoute",
+              "source": "GitHub",
+              "score": 7259
+            }
+          ],
+          "takeaway": "今天最适合做小而刚需的 AI 工作流控制面，而不是再造编码 Agent。"
+        },
+        {
+          "id": "pricing-models",
+          "heading": "值得学习的定价和变现模式有哪些？",
+          "summary_md": "今天最值得学习的是围绕钱流收费，而不是围绕生成次数收费。[SyncStaq](https://www.producthunt.com/products/syncstaq) 把 Stripe billing data 同步到 Google Sheets，天然可以按连接账户数、同步频率或收入规模收费；[TimeOS 2.0](https://www.producthunt.com/products/timeos-ultimate-task-manager-for-pro) 把任务、工时和客户账单放在一起，适合按席位和计费客户数收费；[UniwebPay Skill](https://www.producthunt.com/products/uniwebpay) 则把 AI 时代支付基础设施作为入口。Builder 可以把 AI 功能做成辅助层，真正的 pricing anchor 放在账单、合规、结算和团队协作上。",
+          "items": [
+            {
+              "title": "SyncStaq",
+              "url": "https://www.producthunt.com/products/syncstaq",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "TimeOS 2.0",
+              "url": "https://www.producthunt.com/products/timeos-ultimate-task-manager-for-pro",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "UniwebPay Skill",
+              "url": "https://www.producthunt.com/products/uniwebpay",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "AI 产品更稳的收费锚点，是客户已经愿意付钱管理的账单和收入流程。"
+        },
+        {
+          "id": "counterintuitive",
+          "heading": "今天最反直觉的发现是什么？",
+          "summary_md": "最反直觉的是，搜索热度在降温的词，GitHub 采用可能仍在上升。[bitchat](https://trends.google.com/trends/explore?q=bitchat&date=now+7-d) 搜索变化 -77.7%，但 [permissionlesstech/bitchat](https://github.com/permissionlesstech/bitchat) 单周还有 5737 星；[ego lite](https://trends.google.com/trends/explore?q=ego+lite&date=now+7-d) -71.3%，但 [citrolabs/ego-lite](https://github.com/citrolabs/ego-lite) 单周 4090 星；[open code review](https://trends.google.com/trends/explore?q=open+code+review&date=now+7-d) -44.0%，但 Alibaba 的 open-code-review 单周 4708 星。大众搜索在退潮时，开发者反而开始真正试用和收藏。",
+          "items": [
+            {
+              "title": "bitchat",
+              "url": "https://github.com/permissionlesstech/bitchat",
+              "source": "GitHub",
+              "score": 5737
+            },
+            {
+              "title": "ego-lite",
+              "url": "https://github.com/citrolabs/ego-lite",
+              "source": "GitHub",
+              "score": 4090
+            },
+            {
+              "title": "open-code-review",
+              "url": "https://github.com/alibaba/open-code-review",
+              "source": "GitHub",
+              "score": 4708
+            }
+          ],
+          "takeaway": "不要把搜索降温误判为需求消失，开发者市场常在热词退潮后才进入真实评估期。"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2026-08-02T09:17:36+00:00",
+  "reddit_highlights": [
+    {
+      "heading": "今天有哪些 solo-founder 产品发布？",
+      "body_md": "**🔍 信号**：[NudgeForMe](https://www.producthunt.com/products/nudgeforme) 以 283 票登顶 Product Hunt——一个帮你跟进漏掉邮件的 AI 跟进智能体；而 [Port22](https://www.producthunt.com/products/port22)（228 票）把 `Claude Code` 和 `Codex` 搬到了手机上。\n\n**白话说：** 普通人的收件箱里躺着大量值钱的未回复邮件——而一个替你跟进的 AI，赢下了今天票数最高的发布。\n\nProduct Hunt 榜单讲的是两条故事线。第一条是「找回收入」：NudgeForMe 的卖点是「替你跟进忘记回复的邮件」，收获 283 票和 47 条评论，是今天最强的发布。第二条是「智能体动起来」：`Port22` 让你在手机上运行 `Claude Code` 和 `Codex`（228 票），`AgentMicro` 把 Codex 任务状态实时显示在 macOS 菜单栏（150 票），`TerminalWidget` 把脚本输出放进桌面小组件（128 票）。三个产品同一天发布，这本身就是信号：编码智能体正在逃离笔记本电脑。\n\nReddit 上的发布更务实。`PracticeTherapy.ai` 是一个刻意练习模拟器，让心理治疗师对着 AI 客户演练动机访谈；`Azrivo` 让多个 AI 专家先辩论对立观点再作答；还有一个买菜记账应用加入了小票扫描功能，拍一张照片就能重建整趟购物的账本。最值得创始人关注的反而不是发布帖：一个[单人开源项目冲到 4.3K stars 和约 60K PyPI 下载](https://www.reddit.com/r/SideProject/comments/1vamddl/my_open_source_project_hit_43k_stars_and_60k_pypi/)，并成为作者辞职的理由。\n\n**关键判断**：抄 NudgeForMe 用 283 票验证过的「邮件跟进」切入口——找回漏掉的邮件是一个看得见、愿意付费、且仍可复制的品类。\n\n**反向视角**：Product Hunt 的票只是发布当天的情绪，不是收入——而且邮件工具是 SaaS 里最拥挤的品类之一。\n\n---",
+      "source_url": "https://raw.githubusercontent.com/BuilderPulse/BuilderPulse/main/zh/2026/2026-08-02.md"
+    },
+    {
+      "heading": "Indie 开发者在讨论哪些收入和定价问题？",
+      "body_md": "**🔍 信号**：Indie Hackers 本周最大的帖子是「[How to rank #1 on ChatGPT](https://www.indiehackers.com/post/how-to-rank-1-on-chatgpt-7c19eef6fa)」（103 条评论）、「[$6.4K MRR after three years side-hustling](https://www.indiehackers.com/post/tech/side-hustling-for-three-years-before-going-all-in-and-hitting-6-4k-mrr-5kZRj2Lln7jO7nVVoYFP)」（副业三年后做到 $6.4K MRR，50 条）和[一个应用构建器一年内做到 $10K MRR](https://www.indiehackers.com/post/tech/launching-an-app-builder-in-2-weeks-and-hitting-10k-mrr-within-a-year-gRWT2S68TIQwMvb6Xxt4)（82 条）——Reddit 上最火的创始人故事则是 [4.3K stars 和 60K PyPI 下载](https://www.reddit.com/r/SideProject/comments/1vamddl/my_open_source_project_hit_43k_stars_and_60k_pypi/)。\n\n**白话说：** 钱的话题已经从「做产品」变成「被找到」——分发，才是创始人现在愿意付费的话题。\n\n收入讨论有两条线。第一条是分发：那篇 103 条评论、问「怎么在 ChatGPT 上排第一」的帖子，是本周最强的创始人需求信号——不是「我怎么构建」，而是「搜索变成答案引擎之后，我怎么被找到」。第二条是「开源到收入」的路径：Reddit 上那位做到 4.3K stars、约 60K PyPI 下载然后辞职的创始人，加上经典的 `MRR` 故事——副业三年做到 $6.4K/月（Jonathan Geiger，第五和第六个产品）、一个应用构建器从两周的活儿做到一年 $10K MRR（Diego Roshardt），以及 [IbexAI 的观点](https://www.indiehackers.com/product/ibexai?post=sNZZql5hJt75kAJRQAZJ)：「$10K MRR solo beats $2M seed plus the stress.」（单人做到 $10K MRR，胜过 $2M 种子轮加一地焦虑。）\n\n实用的帖子补上了边角：[为有真实履约能力的商店做的 Shopify 捆绑包应用](https://www.indiehackers.com/post/building-a-shopify-bundles-app-for-stores-with-real-fulfillment-heres-the-wedge-f2e73344cd)（33 条评论），主张切入口是「库存真相」；[自动化退款审核但不把最终决定权交给 AI](https://www.indiehackers.com/post/how-to-automate-refund-reviews-without-giving-ai-the-final-say-7d2cff40ad)（24 条）；还有一条关于[solo 创始人怎么做 changelog、维护公告和状态页](https://www.indiehackers.com/post/solo-founders-how-do-you-handle-changelogs-maintenance-notices-and-status-updates-today-2171f34adb)（28 条）。\n\n**关键判断**：把「答案引擎里的位置」当作分发来做——下次发布前，先研究 `ChatGPT` 在你这个细分领域是怎么回答问题的。\n\n**反向视角**：MRR 故事流是幸存者偏差工厂，而「怎么在 ChatGPT 排第一」的建议目前大多还是民间传说。\n\n---",
+      "source_url": "https://raw.githubusercontent.com/BuilderPulse/BuilderPulse/main/zh/2026/2026-08-02.md"
+    }
+  ]
+}
