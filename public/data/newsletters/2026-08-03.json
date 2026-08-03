@@ -1,0 +1,70 @@
+{
+  "date": "2026-08-03",
+  "generated_at": "2026-08-03T00:46:10+00:00",
+  "inbox_id": "sanyoumu@agentmail.to",
+  "window": {
+    "start": "2026-08-02T00:47:00+00:00",
+    "end": "2026-08-03T00:45:34.110131+00:00",
+    "source": "previous_digest_generated_at"
+  },
+  "count": 1,
+  "highlights": [
+    "DeepSeek V4-Flash 以每百万输出 token 0.28 美元的价格提升代码与智能体能力，可能显著改变大规模 agent 工作流的成本结构。",
+    "V4-Flash 不是靠继续放大模型，而是在既有架构上重训，并以约 13B 激活参数处理请求，强调低推理成本。",
+    "该模型在 Terminal-Bench 2.1、DeepSWE 和 Artificial Analysis Intelligence Index 上都有明显提升，重点指向代码智能体场景。",
+    "Big Tech 的 AI 基建投入已超过 1.1 万亿美元，并开始挤压现金流；欧洲 AI 标签和水印规则也在 8 月 2 日进入可执行阶段。"
+  ],
+  "items": [
+    {
+      "id": "deepseek-v4-flash-cheap-agent-model",
+      "title_zh": "DeepSeek V4-Flash 把代码智能体价格打到每百万输出 token 0.28 美元",
+      "title_original": "DeepSeek V4-Flash brings frontier agent work to bargain pricing",
+      "source": "The Neuron",
+      "from": "The Neuron <theneuron@newsletter.theneurondaily.com>",
+      "subject": "😺DeepSeek’s 28-cent agent model",
+      "url": "https://api-docs.deepseek.com/updates/#date-2026-07-31",
+      "message_id": "<HaRuiHnsS5qgx4zNw5WN9Q@geopod-ismtpd-2>",
+      "published_at": "2026-08-02T20:32:00.000Z",
+      "importance": "high",
+      "summary_zh": "这封 The Neuron 的主线是 DeepSeek 升级 V4-Flash，并在保持极低 API 价格的同时提升代码和智能体能力。邮件还顺带提到 Claude Opus 5 生成类宝可梦 3D 游戏 demo、Big Tech AI 建设支出超过 1.1 万亿美元、欧洲 AI 标签和水印规则从 8 月 2 日起可执行，以及 Cleanlist 等工具更新。对 builder 最值得关注的是，DeepSeek V4-Flash 如果在真实任务中表现稳定，可能让大量分类、代码循环、浏览器 agent 重试、工具调用型流程从“太贵”变成可规模化。",
+      "deep_read_zh": "今日最值得精读的是 DeepSeek V4-Flash 的升级，因为它触及的是 AI 应用能否大规模落地的核心变量：单位智能成本。邮件强调，DeepSeek 这次并不是发布一个全新巨型模型，而是在既有 V4-Flash 架构上重训，使其成为更强的代码和智能体模型，同时继续维持低价。模型每次请求约激活 13B/284B 参数，这解释了它为什么能把运行成本压低。邮件列出的关键指标包括 Terminal-Bench 2.1 得分 82.7、DeepSWE 得分 54.4，以及 Artificial Analysis Intelligence Index 从上一代 Flash 提升 10 分至 50。更重要的是价格：输入每百万 token 0.14 美元，输出每百万 token 0.28 美元，缓存输入更低至 0.0028 美元。对于 AI builder 来说，这不是单纯的“又一个便宜模型”，而是可能改变 agent 产品设计边界的事件。过去很多多步任务、代码尝试、网页操作、候选结果验证，因为每次重试都会消耗高价模型预算，产品上必须节制调用。若 V4-Flash 在真实环境里能接近 benchmark 表现，开发者可以把 routine agent work、批量分类、初步研究、重复代码修改等任务路由给它，把更贵的前沿模型留给高难判断。邮件也提示它支持 Responses API，并适配 Codex 风格编码工作流，说明 DeepSeek 明确在争夺开发者和 agent 基础设施场景。后续最需要观察的不是单次 benchmark，而是长任务稳定性、工具调用可靠性、代码修改可接受率，以及云厂商和自部署生态是否快速跟上。",
+      "why_important": "它把“可用的智能体能力”和“极低推理成本”放在同一个产品里，直接影响 agent 应用的商业模型。对需要大量重试、批处理和代码循环的团队来说，成本下降可能比单点能力提升更有实际意义。",
+      "impact": "builder 可以重新评估哪些工作流值得 agent 化，尤其是过去因模型调用成本过高而被放弃的自动化任务。行业层面，这会继续给 OpenAI、Anthropic 等前沿模型厂商施加价格和路由策略压力。",
+      "key_points": [
+        "DeepSeek 在既有 V4-Flash 上重训，而不是简单扩大模型规模。",
+        "模型每次请求约激活 13B/284B 参数，以降低运行成本。",
+        "Terminal-Bench 2.1 得分 82.7，DeepSWE 得分 54.4，指向代码智能体能力提升。",
+        "Artificial Analysis Intelligence Index 得分 50，比上一代 Flash 高 10 分。",
+        "API 价格保持在每百万输入 token 0.14 美元、每百万输出 token 0.28 美元，缓存输入更低。",
+        "邮件称其支持 Responses API，并适配 Codex 风格编码工作流。"
+      ],
+      "reading_notes": [
+        "真实长任务里的可靠性是否能接近 benchmark 表现？",
+        "哪些 agent 流程适合用便宜模型承担，哪些仍需前沿模型兜底？",
+        "低价代码模型会不会改变 IDE、浏览器 agent、批量数据处理产品的默认架构？",
+        "云厂商、自部署生态和开发者工具链是否会快速支持该模型？"
+      ],
+      "tags": [
+        "模型",
+        "智能体",
+        "代码生成",
+        "开发者工具",
+        "AI基础设施"
+      ],
+      "related_sources": [
+        "https://artificialanalysis.ai/articles/deepseek-v4-flash-0731-scores-50-on-the-artificial-analysis-intelligence-index-10-points-above-previous-deepseek-v4-flash",
+        "https://api-docs.deepseek.com/quick_start/pricing/",
+        "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731"
+      ]
+    }
+  ],
+  "skipped": [
+    {
+      "message_id": "<20260802204110.3.97c8d32c327ecba4@mg-d0.substack.com>",
+      "subject": "Claude Code After Generation 5 Models: The Master Guide",
+      "from": "Opinion AI <emergingai@substack.com>",
+      "reason": "system"
+    }
+  ],
+  "notes": "当天输入中只有 1 封正式 newsletter，因此 items 只有 1 条，并将其中 DeepSeek V4-Flash 的低价代码智能体模型选为今日精读。邮件中的广告招商信息未进入 items；Claude 生成类宝可梦游戏 demo、Big Tech AI 支出、欧洲 AI 标签和水印规则、Cleanlist 等内容作为同一封 newsletter 的次要信息合并进摘要，没有拆成独立条目。"
+}
