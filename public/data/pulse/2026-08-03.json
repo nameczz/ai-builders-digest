@@ -1,0 +1,380 @@
+{
+  "date": "2026-08-03",
+  "top3": [
+    "Qwen3.8-Max 以 534 分、254 条评论冲到 HN 第一，同时登陆 Product Hunt，说明编码模型竞争正在从单点能力转向协作工作流。",
+    "GitHub 本周增长最猛的不是单一模型，而是 OmniRoute、buzz、open-code-review、ego-lite 这类围绕 Agent 编排、协作和浏览器执行的基础设施。",
+    "Google Trends 里多数 AI 关键词在降温，但 GitHub 和 Product Hunt 仍在上涨，机会更像是从大词叙事转向具体工作流缝隙。"
+  ],
+  "intro": "今天的主线不是又一个模型发布，而是 AI 编程从个人工具进入协作、记忆、浏览器和多端执行层。搜索热度在回落，但开发者投票和开源 star 显示，真正有牵引力的是把 Agent 嵌进现有工作流的薄基础设施。",
+  "sections": [
+    {
+      "id": "discovery",
+      "title": "发现机会",
+      "blocks": [
+        {
+          "id": "indie-products",
+          "heading": "今天有哪些独立开发者的新产品？",
+          "summary_md": "HN 上最清晰的独立产品信号是 [Isopolis](https://sf.isopolis.city/)，一个旧金山等距像素地图，拿到 213 分和 47 条评论；另一个是 [ssh.place](https://ssh.place)，用 SSH 作为入口，拿到 110 分和 66 条评论。Product Hunt 侧没有提供票数与评论数，但 [Inventory](https://www.producthunt.com/products/inventory)、[mpai](https://www.producthunt.com/products/mpai)、[Snapdown](https://www.producthunt.com/products/snapdown-2) 都在做同一件事：把开发者每天散落在 IDE、屏幕和 Agent 会话里的上下文重新收拢。",
+          "items": [
+            {
+              "title": "Isopolis",
+              "url": "https://sf.isopolis.city/",
+              "source": "HN",
+              "score": 213
+            },
+            {
+              "title": "ssh.place",
+              "url": "https://ssh.place",
+              "source": "HN",
+              "score": 110
+            },
+            {
+              "title": "Inventory",
+              "url": "https://www.producthunt.com/products/inventory",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "mpai",
+              "url": "https://www.producthunt.com/products/mpai",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "独立开发者今天最值得做的不是大模型本身，而是可被立即插进日常工作流的上下文工具。"
+        },
+        {
+          "id": "github-traction",
+          "heading": "GitHub 上哪些高增长开源项目还没有商业化？",
+          "summary_md": "本周 GitHub 的高增长项目集中在 Agent 协作与执行层：[block/buzz](https://github.com/block/buzz) 周增 8217 星，总星 21409；[diegosouzapw/OmniRoute](https://github.com/diegosouzapw/OmniRoute) 周增 7141 星，总星 38221；[citrolabs/ego-lite](https://github.com/citrolabs/ego-lite) 周增 3582 星，总星 7836。它们的商业化空间不在简单托管，而在团队权限、审计日志、用量控制、共享浏览器状态和企业安全边界。",
+          "items": [
+            {
+              "title": "block/buzz",
+              "url": "https://github.com/block/buzz",
+              "source": "GitHub",
+              "score": 8217
+            },
+            {
+              "title": "diegosouzapw/OmniRoute",
+              "url": "https://github.com/diegosouzapw/OmniRoute",
+              "source": "GitHub",
+              "score": 7141
+            },
+            {
+              "title": "citrolabs/ego-lite",
+              "url": "https://github.com/citrolabs/ego-lite",
+              "source": "GitHub",
+              "score": 3582
+            }
+          ],
+          "takeaway": "Agent 基础设施已经从玩具项目变成团队工具，付费点会优先出现在治理和可靠性上。"
+        }
+      ]
+    },
+    {
+      "id": "tech-stack",
+      "title": "技术选型",
+      "blocks": [
+        {
+          "id": "dev-tools",
+          "heading": "本周增长最快的开发者工具是什么？",
+          "summary_md": "开发者工具里最强信号是路由、评审和会话共享。[OmniRoute](https://github.com/diegosouzapw/OmniRoute) 周增 7141 星，用一个入口接 290 多个 provider 和 500 多个模型；[alibaba/open-code-review](https://github.com/alibaba/open-code-review) 周增 4365 星，把确定性规则和 LLM Agent 合在代码评审里；[1jehuang/jcode](https://github.com/1jehuang/jcode) 周增 3620 星，卖点是低内存 harness。Product Hunt 上 [AgentSky](https://www.producthunt.com/products/agentsky) 和 [mpai](https://www.producthunt.com/products/mpai) 也指向同一方向：谁能管理多 Agent、多模型、多会话，谁就更靠近团队预算。",
+          "items": [
+            {
+              "title": "OmniRoute",
+              "url": "https://github.com/diegosouzapw/OmniRoute",
+              "source": "GitHub",
+              "score": 7141
+            },
+            {
+              "title": "open-code-review",
+              "url": "https://github.com/alibaba/open-code-review",
+              "source": "GitHub",
+              "score": 4365
+            },
+            {
+              "title": "jcode",
+              "url": "https://github.com/1jehuang/jcode",
+              "source": "GitHub",
+              "score": 3620
+            }
+          ],
+          "takeaway": "开发者工具的选型正在从模型优先转向编排优先。"
+        },
+        {
+          "id": "hf-models",
+          "heading": "HuggingFace 上最热的模型能做什么消费级产品？",
+          "summary_md": "HuggingFace 今天最热的是 [Kimi-K3](https://huggingface.co/moonshotai/Kimi-K3)，trending score 6985、下载 967622、点赞 9738，标签覆盖 image-text-to-text 和 conversational；[DeepSeek-V4-Flash-0731](https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731) 得分 1743，适合低延迟文本生成；[MiniMax-H3](https://huggingface.co/MiniMaxAI/MiniMax-H3) 虽然下载为 0，但标签覆盖 text-to-video、image-to-video 和同步音视频。消费级机会不是再做聊天框，而是相册整理、短视频重剪、票据 OCR、语音日记和本地化学习助手。",
+          "items": [
+            {
+              "title": "moonshotai/Kimi-K3",
+              "url": "https://huggingface.co/moonshotai/Kimi-K3",
+              "source": "HuggingFace",
+              "score": 6985
+            },
+            {
+              "title": "deepseek-ai/DeepSeek-V4-Flash-0731",
+              "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731",
+              "source": "HuggingFace",
+              "score": 1743
+            },
+            {
+              "title": "MiniMaxAI/MiniMax-H3",
+              "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3",
+              "source": "HuggingFace",
+              "score": 786
+            }
+          ],
+          "takeaway": "多模态模型的落地机会在个人媒体资产和轻量生产工具，而不是通用助手。"
+        },
+        {
+          "id": "show-hn",
+          "heading": "Show HN 高关注项目用的什么技术栈？",
+          "summary_md": "[Isopolis](https://sf.isopolis.city/) 的 213 分说明浏览器端可视化仍然能拿到开发者注意力，尤其当它把城市地图、像素艺术和交互探索结合起来；[ssh.place](https://ssh.place) 的 110 分、66 条评论则说明反常规入口仍有传播性，SSH 本身就是分发界面。今天的技术栈判断是：视觉项目要把前端渲染做到可玩，工具项目要把入口做得足够低摩擦。",
+          "items": [
+            {
+              "title": "Isopolis",
+              "url": "https://sf.isopolis.city/",
+              "source": "HN",
+              "score": 213
+            },
+            {
+              "title": "ssh.place",
+              "url": "https://ssh.place",
+              "source": "HN",
+              "score": 110
+            }
+          ],
+          "takeaway": "Show HN 仍奖励清晰的交互入口，而不是复杂的功能清单。"
+        }
+      ]
+    },
+    {
+      "id": "competition",
+      "title": "竞争情报",
+      "blocks": [
+        {
+          "id": "migrations",
+          "heading": "有没有「XX is dead」或迁移类文章？",
+          "summary_md": "HN 今日没有典型的「XX is dead」或迁移类高分文章，但 GitHub 日榜里的 [different-ai/openwork](https://github.com/different-ai/openwork) 值得盯：它自称是 Claude Cowork 的开源替代，日榜周增 280 星、总星 20579。这个信号比口号更重要，因为它说明用户开始预期协作型编码环境应当有可替代实现，商业产品一旦限制定价、权限或数据导出，就会立刻给开源替代品让路。",
+          "items": [
+            {
+              "title": "different-ai/openwork",
+              "url": "https://github.com/different-ai/openwork",
+              "source": "GitHub",
+              "score": 280
+            }
+          ],
+          "takeaway": "Agent 协作产品的护城河不会来自界面，而会来自迁移成本和团队数据资产。"
+        },
+        {
+          "id": "pricing-revenue",
+          "heading": "独立开发者在讨论什么营收和定价策略？",
+          "summary_md": "原始 HN 数据里没有 MRR、ARR、pricing、subscription 或 revenue 关键词的高分讨论，但 Product Hunt 的产品线给了间接信号：[TimeOS 2.0](https://www.producthunt.com/products/timeos-ultimate-task-manager-for-pro) 主打任务与客户计费，[UniwebPay Skill](https://www.producthunt.com/products/uniwebpay) 把金融基础设施包装成 AI 时代能力，[Airtop for Google Ads Automation](https://www.producthunt.com/products/airtop) 则直接进入广告投放和报告。今天值得学习的是把 AI 功能贴到已有预算科目上，而不是教育用户购买一个新 AI 类目。",
+          "items": [
+            {
+              "title": "TimeOS 2.0",
+              "url": "https://www.producthunt.com/products/timeos-ultimate-task-manager-for-pro",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "UniwebPay Skill",
+              "url": "https://www.producthunt.com/products/uniwebpay",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "Airtop for Google Ads Automation",
+              "url": "https://www.producthunt.com/products/airtop",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "AI 产品更容易卖给已有预算，而不是卖给抽象好奇心。"
+        }
+      ]
+    },
+    {
+      "id": "trends",
+      "title": "趋势判断",
+      "blocks": [
+        {
+          "id": "keywords",
+          "heading": "本周技术关键词频率有什么变化？",
+          "summary_md": "Google Trends 里唯一明显上升的是 [buzz](https://trends.google.com/trends/explore?q=buzz&date=now+7-d)，变化 +8.7%，而它刚好对应 GitHub 周榜第一 [block/buzz](https://github.com/block/buzz) 的 8217 周增星。反过来，[ai agent](https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d) 下滑 -26.6%，[codex](https://trends.google.com/trends/explore?q=codex&date=now+7-d) 下滑 -17.4%，说明大词热度在退潮，但具体产品名和可执行工具仍能冲高。",
+          "items": [
+            {
+              "title": "buzz",
+              "url": "https://trends.google.com/trends/explore?q=buzz&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 8.7
+            },
+            {
+              "title": "ai agent",
+              "url": "https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": -26.6
+            },
+            {
+              "title": "codex",
+              "url": "https://trends.google.com/trends/explore?q=codex&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": -17.4
+            }
+          ],
+          "takeaway": "不要追逐 AI 大词，追逐正在变成专名和入口的具体工作流。"
+        },
+        {
+          "id": "vc-radar",
+          "heading": "VC 和 YC 在关注什么主题？",
+          "summary_md": "综合 HN、GitHub 和 Product Hunt，今天的融资雷达会落在三类：Agent 协作空间、浏览器自动化基础设施、AI 原生开发者治理。[Qwen3.8-Max](https://qwen.ai/blog?id=qwen3.8) 在 HN 拿到 534 分、254 条评论，是模型能力升级信号；但 [OmniRoute](https://github.com/diegosouzapw/OmniRoute)、[ego-lite](https://github.com/citrolabs/ego-lite)、[mpai](https://www.producthunt.com/products/mpai) 更像创业公司能切入的层，因为它们不需要赢模型，只需要赢工作流。",
+          "items": [
+            {
+              "title": "Qwen3.8-Max",
+              "url": "https://qwen.ai/blog?id=qwen3.8",
+              "source": "HN",
+              "score": 534
+            },
+            {
+              "title": "OmniRoute",
+              "url": "https://github.com/diegosouzapw/OmniRoute",
+              "source": "GitHub",
+              "score": 7141
+            },
+            {
+              "title": "ego-lite",
+              "url": "https://github.com/citrolabs/ego-lite",
+              "source": "GitHub",
+              "score": 3582
+            }
+          ],
+          "takeaway": "VC 会继续看模型，但早期公司更该押注模型之上的协作和执行层。"
+        },
+        {
+          "id": "cooling",
+          "heading": "哪些 AI 热词在降温？",
+          "summary_md": "降温最明显的是 [cursor alternative](https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d) 下滑 -72.1%，[open source alternative](https://trends.google.com/trends/explore?q=open+source+alternative&date=now+7-d) 下滑 -27.4%，[codex cli](https://trends.google.com/trends/explore?q=codex+cli&date=now+7-d) 下滑 -20.8%，[self hosted](https://trends.google.com/trends/explore?q=self+hosted&date=now+7-d) 下滑 -19.2%。这不是需求消失，而是搜索型好奇心降温；用户已经知道替代品存在，现在会用 star、下载、团队试用来投票。",
+          "items": [
+            {
+              "title": "cursor alternative",
+              "url": "https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": -72.1
+            },
+            {
+              "title": "open source alternative",
+              "url": "https://trends.google.com/trends/explore?q=open+source+alternative&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": -27.4
+            },
+            {
+              "title": "codex cli",
+              "url": "https://trends.google.com/trends/explore?q=codex+cli&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": -20.8
+            }
+          ],
+          "takeaway": "替代品叙事正在降温，真正的竞争转向留存、迁移和团队协作体验。"
+        }
+      ]
+    },
+    {
+      "id": "actions",
+      "title": "行动触发",
+      "blocks": [
+        {
+          "id": "weekend-build",
+          "heading": "今天 2 小时和一个周末分别做什么？",
+          "summary_md": "2 小时内可以做一个「Agent 会话搜索」原型：读取本地 Codex、Claude Code、Cursor 日志，做统一索引和 Markdown 摘要，参考 [Inventory](https://www.producthunt.com/products/inventory) 与 [Snapdown](https://www.producthunt.com/products/snapdown-2)。一个周末则可以做团队版：加浏览器状态共享、会话权限、成本统计和失败重跑，参考 [ego-lite](https://github.com/citrolabs/ego-lite) 的浏览器入口与 [OmniRoute](https://github.com/diegosouzapw/OmniRoute) 的多模型路由。",
+          "items": [
+            {
+              "title": "Inventory",
+              "url": "https://www.producthunt.com/products/inventory",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "Snapdown",
+              "url": "https://www.producthunt.com/products/snapdown-2",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "ego-lite",
+              "url": "https://github.com/citrolabs/ego-lite",
+              "source": "GitHub",
+              "score": 3582
+            }
+          ],
+          "takeaway": "今天最容易验证的机会是从个人上下文管理切入，再自然长成团队 Agent 控制台。"
+        },
+        {
+          "id": "pricing-models",
+          "heading": "值得学习的定价和变现模式有哪些？",
+          "summary_md": "可复制的定价模式有三种。第一是按团队席位卖协作层，像 [mpai](https://www.producthunt.com/products/mpai) 这类多人 Agent 会话天然适合 seat-based。第二是按用量卖网关与执行层，像 [OmniRoute](https://github.com/diegosouzapw/OmniRoute) 可以围绕请求量、fallback、压缩和审计收费。第三是按结果卖垂直自动化，像 [Airtop for Google Ads Automation](https://www.producthunt.com/products/airtop) 直接绑定广告预算和报表产出，采购阻力更低。",
+          "items": [
+            {
+              "title": "mpai",
+              "url": "https://www.producthunt.com/products/mpai",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "OmniRoute",
+              "url": "https://github.com/diegosouzapw/OmniRoute",
+              "source": "GitHub",
+              "score": 7141
+            },
+            {
+              "title": "Airtop for Google Ads Automation",
+              "url": "https://www.producthunt.com/products/airtop",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "最稳的 AI 定价不是按模型收费，而是按团队协作、执行量或业务结果收费。"
+        },
+        {
+          "id": "counterintuitive",
+          "heading": "今天最反直觉的发现是什么？",
+          "summary_md": "最反直觉的是：AI 关键词在 Google Trends 里普遍降温，但 AI 工具在 GitHub 和 Product Hunt 仍然密集爆发。[ai agent](https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d) 下滑 -26.6%，[codex](https://trends.google.com/trends/explore?q=codex&date=now+7-d) 下滑 -17.4%，可 [OmniRoute](https://github.com/diegosouzapw/OmniRoute) 仍周增 7141 星，[book-to-skill](https://github.com/virgiliojr94/book-to-skill) 周增 5223 星。这说明市场不是厌倦 AI，而是厌倦泛泛地谈 AI。",
+          "items": [
+            {
+              "title": "ai agent",
+              "url": "https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": -26.6
+            },
+            {
+              "title": "OmniRoute",
+              "url": "https://github.com/diegosouzapw/OmniRoute",
+              "source": "GitHub",
+              "score": 7141
+            },
+            {
+              "title": "book-to-skill",
+              "url": "https://github.com/virgiliojr94/book-to-skill",
+              "source": "GitHub",
+              "score": 5223
+            }
+          ],
+          "takeaway": "AI 大词退潮时，具体、窄、可执行的工具反而更容易被看见。"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2026-08-03T09:23:45+00:00",
+  "reddit_highlights": [
+    {
+      "heading": "今天有哪些 solo-founder 产品发布？",
+      "body_md": "**🔍 信号**：[Zinley](https://www.producthunt.com/products/zinley) 以 328 票登顶 Product Hunt——\"Your Personal AI Representative for calls, email, and tasks\"（你的个人 AI 代表，处理电话、邮件和任务）——而 [Capptivo](https://www.producthunt.com/products/capptivo)（264 票）发布开源录屏器和演示编辑器；Reddit 上最可爱的创始人故事，是一个把跑步数据上传到自己 Strava 账户的仓鼠滚轮。\n\n**白话说：** 今天赢的发布，把接电话、打字和录屏都交给了替你说话的软件。\n\nProduct Hunt 讲的是一个\"委托\"的故事。Zinley 的卖点——替你接电话、回邮件、处理任务的 AI——拿下 328 票和 79 条评论，是今天最强的一次发布。围绕它，同样的冲动在不同高度出现：[Lumichats](https://www.producthunt.com/products/lumichats-offline)（169 票）自称\"a Claude Code alternative for people who avoid the terminal\"（给不想碰终端的人用的 Claude Code 替代品），[Zen Whisper](https://www.producthunt.com/products/zen-whisper)（127 票）做端侧听写、可输入到任何应用，[Bolcho AI](https://www.producthunt.com/products/bolcho-ai)（101 票）打造\"actually speak India\"（真正说印度话）的语音智能体，[Finamie](https://www.producthunt.com/products/finamie-know-your-money-for-real)（110 票）让你把开销说成消费洞察。\n\nReddit 上的发布更偏向第一批真实客户，而不是积分榜。一款字体创建应用宣布了首批 95 名付费用户；[Tiny Slow Life](https://www.reddit.com/r/SideProject/comments/1vco5vj/a_stranger_bought_my_first_paid_app_today_after_a/)——一个运营一年的免费项目——拿到了第一位陌生人的购买，创始人写道：\"with open source, hitting publish already feels like a finish line. With a paid app, I immediately started wondering\"（做开源时，发布就像终点线；做了付费应用，立刻开始忐忑）；一位自称\"不是开发者\"的外科医生上线了他医疗拍照流程所需的应用；一个 Wear OS 飞行追踪应用突破 1,000 次下载。最有趣的尾巴：一个 `ESP32` 霍尔传感器数着仓鼠滚轮圈数，把 `.FIT` 文件上传到 Strava，配以随机生成的跑步标题。\n\n**关键判断**：把\"委托\"这个切入口复制到某一类具体人群——电话、听写或终端——先数到 95 名付费用户再加功能；Reddit 创始人们证明这个门槛一周就能跨过。\n\n**反向视角**：Product Hunt 票数只是发布当天的情绪，不是收入；语音/电话智能体是重基础设施的赛道，挤满了大玩家。\n\n---",
+      "source_url": "https://raw.githubusercontent.com/BuilderPulse/BuilderPulse/main/zh/2026/2026-08-03.md"
+    },
+    {
+      "heading": "Indie 开发者在讨论哪些收入和定价问题？",
+      "body_md": "**🔍 信号**：Indie Hackers 的新帖包括 [Aproov：从 0 到 400 用户](https://www.indiehackers.com/product/aproov?post=My1N2m10AAv3d05bI70p)（30 条评论）、[零付费用户发布 v2](https://www.indiehackers.com/post/i-shipped-v2-with-zero-paying-customers-heres-the-honest-version-fae23ae6a4)（35 条），Reddit 上[字体创建应用拿到首批 95 名付费用户](https://www.reddit.com/r/SideProject/comments/1vd0dbv/i_made_a_font_creation_app_with_my_first_95_paid/)——而本周的大 `MRR` 故事继续爬升（\"五个失败产品\"获 137 赞，死域名故事获 91 赞）。\n\n**白话说：** 今天谈钱的话题更小、更诚实——400 个用户、95 个付费、一位陌生人的第一笔购买。\n\n新的收入对话围绕诚实的中间地带，而不是曲棍球棒曲线。Aproov 的创始人是个新手，他完整讲述了从 0 到 400 用户的过程——30 条评论都在问哪些验证步骤真正产出了前 100 个用户。\"零付费用户发布 v2\"（35 条评论）是反炒作的一面：创始人照样发了版，并问大家当时会怎么做。在 Reddit 上，字体应用的首批 95 名付费用户和 [Tiny Slow Life](https://www.reddit.com/r/SideProject/comments/1vco5vj/a_stranger_bought_my_first_paid_app_today_after_a/) 的第一位陌生购买者是同一故事的小号版本——从\"发布即终点\"（开源）到\"现在我开始担心有没有人回来\"（付费）。\n\n本周的大讨论串还在后台爬升：137 赞的\"五个失败产品，月入 $7.5K\"、91 赞 73 条评论的死域名副业、还有\"如何在 ChatGPT 上排第一\"已到 105 条评论。周六已经报道过它们；新的是底下更安静的一层——创始人把 95 名付费用户当作真正的里程碑，并追问如何在没有发布脉冲的情况下做到。\n\n**关键判断**：首批 95 付费就是新的 go-to-market：挑一个细分（字体、手表、医疗照片），第一周就把收款流程做完，加功能前先数到 95。\n\n**反向视角**：MRR 故事流是幸存者偏差工厂；\"首批 95\"的轶事太小，分不清是产品好还是运气好。\n\n---",
+      "source_url": "https://raw.githubusercontent.com/BuilderPulse/BuilderPulse/main/zh/2026/2026-08-03.md"
+    }
+  ]
+}

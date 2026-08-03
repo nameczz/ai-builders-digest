@@ -1,0 +1,168 @@
+{
+  "date": "2026-08-03",
+  "items": [
+    {
+      "id": "2026-08-03-1",
+      "title": "公司 Agent 正在变成内网",
+      "angle": "从 Vercel 的 @v 切入，写企业 Agent 的竞争不在聊天框，而在入口、记忆、权限和路由权。",
+      "opening": "Vercel 不是缺 Agent，而是 Agent 多到失控。Guillermo Rauch 说，每个团队都在自己造、自己部署，最后体验像每个 Agent 都有一个独立域名。@v 真正想解决的不是“接个模型”，而是把公司里的工作流重新收口到一个默认入口。",
+      "story_hook": {
+        "challenge": "当公司里每个团队都有自己的 Agent，效率工具会先变成新的信息孤岛。",
+        "twist": "最有价值的 Agent 可能不是最聪明的那个，而是最会路由、记忆和管权限的那个。"
+      },
+      "takeaway": "做企业 Agent 产品时，优先设计统一入口、审计、权限、成本和上下文继承，而不是再包装一个聊天窗口。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Guillermo Rauch 谈 Vercel 内部运营代理 @v",
+          "url": "https://x.com/rauchg/status/2084042561690456157"
+        },
+        {
+          "tag": "builders",
+          "ref": "Guillermo Rauch 谈 @v 从多个团队 Agent 统一成路由器",
+          "url": "https://x.com/rauchg/status/2084060157085143512"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub 高增长项目 OmniRoute，周增 7141 星",
+          "url": "https://github.com/diegosouzapw/OmniRoute"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt 上的多人 Agent 会话产品 mpai",
+          "url": "https://www.producthunt.com/products/mpai"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-03-2",
+      "title": "客服没发现对面是机器人",
+      "angle": "从 Swyx 的 Codex CUA 客服实战写起，讨论 browser-use 从演示玩具进入可验证工作流。",
+      "opening": "Swyx 记录了一个很刺眼的瞬间：Codex CUA 替他和客服沟通、催升级、甩证据链，对面完全没发现自己在跟机器人说话。更关键的是，这不是“AI 会聊天”的故事，而是 AI 已经能拿着上下文、网页和证据链完成一段真实流程。",
+      "story_hook": {
+        "challenge": "浏览器 Agent 过去最大的问题是看起来很酷，但很难证明它真的完成了任务。",
+        "twist": "当任务对象变成客服、广告后台、邮件和表单，最重要的能力反而是保存证据、失败重试和过程可审计。"
+      },
+      "takeaway": "评估 browser-use 产品时，不要只看能不能点击网页，要看它能不能留下可复盘的行动轨迹和责任边界。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Swyx 记录 Codex CUA 与客服沟通的震撼时刻",
+          "url": "https://x.com/swyx/status/2084156733027701164"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub 项目 ego-lite 指向浏览器执行入口",
+          "url": "https://github.com/citrolabs/ego-lite"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Airtop for Google Ads Automation 将浏览器自动化接入广告工作流",
+          "url": "https://www.producthunt.com/products/airtop"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-03-3",
+      "title": "AI 热词凉了，工具火了",
+      "angle": "用 Google Trends 降温和 GitHub/Product Hunt 上涨的反差，写 AI 叙事从大词转向具体工作流。",
+      "opening": "今天最反直觉的数字是：ai agent 搜索热度跌了 26.6%，codex 跌了 17.4%，但 OmniRoute 一周涨了 7141 星，buzz 一周涨了 8217 星。市场不是不看 AI 了，只是不想再听泛泛而谈的 AI。",
+      "story_hook": {
+        "challenge": "创业者还在追逐大词，但用户已经开始用 star、下载和试用给具体工具投票。",
+        "twist": "AI 退潮的不是需求，而是抽象叙事；越窄、越具体、越能插进工作流的产品越容易被看见。"
+      },
+      "takeaway": "选题和产品判断都应从“AI 大趋势”切到“哪个工作流正在变成新入口”。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Nikunj Kothari 谈 AI 融资进入氛围资本阶段",
+          "url": "https://x.com/nikunj/status/2083873335998333227"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Google Trends：ai agent 下滑 26.6%",
+          "url": "https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub 高增长项目 block/buzz，周增 8217 星",
+          "url": "https://github.com/block/buzz"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub 高增长项目 OmniRoute，周增 7141 星",
+          "url": "https://github.com/diegosouzapw/OmniRoute"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-03-4",
+      "title": "Agent 也需要打扫记忆",
+      "angle": "从 Hermes Curator 写 Agent 长期使用后的新问题：不是不会学，而是会把垃圾也学进去。",
+      "opening": "Peter Yang 提到 Hermes 最有意思的部分不是会长技能，而是内置了一个 Curator，定期清理技能和记忆里的垃圾。这个细节很重要：当 Agent 开始长期替你工作，真正的风险不是它忘了什么，而是它记住了太多没用的东西。",
+      "story_hook": {
+        "challenge": "Agent 越会积累上下文，就越容易把临时偏好、错误路径和过期流程固化成记忆。",
+        "twist": "下一代 Agent 的核心功能可能不是学习更多，而是按你的标准删除、压缩和改写自己。"
+      },
+      "takeaway": "设计 Agent 记忆系统时，要把清理、版本、可解释和用户自定义 slop 标准放进第一版。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Peter Yang 谈 Hermes Curator 清理技能和记忆垃圾",
+          "url": "https://x.com/petergyang/status/2083968605432267139"
+        },
+        {
+          "tag": "builders",
+          "ref": "Guillermo Rauch 强调 Agent 需要掌握源码、运行时、数据和 token",
+          "url": "https://x.com/rauchg/status/2084042561690456157"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub 项目 book-to-skill 周增 5223 星",
+          "url": "https://github.com/virgiliojr94/book-to-skill"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt 产品 Inventory 收拢开发者上下文",
+          "url": "https://www.producthunt.com/products/inventory"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-03-5",
+      "title": "最难的工作反而先自动化",
+      "angle": "把 Aaron Levie 的判断和数学、代码、模型训练信号放在一起，解释为什么可验证反馈正在重排自动化顺序。",
+      "opening": "很多人以为 AI 会先替代简单工作，Aaron Levie 给了一个相反判断：数学、网络安全和代码这些“最难”的工作，反而可能最先被自动化。原因很冷酷，它们有客观答案，模型能拿到清晰反馈。",
+      "story_hook": {
+        "challenge": "传统职场按难度排序，但 AI 按反馈质量排序。",
+        "twist": "法律、销售、营销这类看起来更日常的工作，可能因为没有唯一正确答案，反而更依赖应用层和流程设计。"
+      },
+      "takeaway": "判断一个岗位或产品会不会被 AI 改写，先看反馈是否可验证，再看任务本身是否“高级”。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Aaron Levie 谈最难工作为何可能最先被自动化",
+          "url": "https://x.com/levie/status/2083965372747882741"
+        },
+        {
+          "tag": "builders",
+          "ref": "Thariq 谈数学领域出现 AI 版杰文斯悖论",
+          "url": "https://x.com/trq212/status/2083977795290734975"
+        },
+        {
+          "tag": "builders",
+          "ref": "Training Data 播客讨论从经验中学习不等于强化学习",
+          "url": "https://www.youtube.com/watch?v=2RJiaf0SY8s"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Alibaba open-code-review 将规则和 LLM Agent 结合做代码评审",
+          "url": "https://github.com/alibaba/open-code-review"
+        }
+      ]
+    }
+  ],
+  "notes": "今日主线很清楚：不是模型发布，而是 Agent 进入协作、浏览器执行、记忆治理和企业入口。可写选题应避免泛谈 AGI，优先抓住“统一入口”“可审计执行”“记忆清理”“反馈可验证”这些具体机制。",
+  "generated_at": "2026-08-03T09:24:27+00:00",
+  "model": "gpt-5.5"
+}
