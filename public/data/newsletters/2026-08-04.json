@@ -1,0 +1,309 @@
+{
+  "date": "2026-08-04",
+  "generated_at": "2026-08-04T00:47:44+00:00",
+  "inbox_id": "sanyoumu@agentmail.to",
+  "window": {
+    "start": "2026-08-03T00:46:10+00:00",
+    "end": "2026-08-04T00:45:53.054444+00:00",
+    "source": "previous_digest_generated_at"
+  },
+  "count": 9,
+  "highlights": [
+    "今日精读：Latent.Space 把“推理工程”拆成一门独立学科，核心问题是如何把模型权重变成快速、可靠、可负担的生产 API。",
+    "OpenAI 内部模型 Astra 被多封 newsletter 提到：据称在 10 个长期数学与理论计算机科学问题上取得突破，证明用 Lean 形式化验证。",
+    "Qwen3.8-Max、DeepSeek V4 Flash、Kimi K3 on AMD 等消息集中指向一个趋势：开源/开放权重模型和推理成本竞争正在加速。",
+    "Figma Make 新增属性面板和批注，说明设计工具里的 AI 正从“文本生成”转向更可控的上下文编辑。",
+    "UNAM 在线入学考试疑似 AI 作弊事件，暴露高风险评测中“AI 既是工具又是裁判”的信任问题。"
+  ],
+  "items": [
+    {
+      "id": "latent-space-inference-engineering-masterclass",
+      "title_zh": "今日精读：推理工程正在成为 AI 产品的核心学科",
+      "title_original": "The Inference Engineering Masterclass — Philip Kiely & Ali Taha, Baseten",
+      "source": "Latent.Space",
+      "from": "Latent.Space <swyx@substack.com>",
+      "subject": "The Inference Engineering Masterclass — Philip Kiely & Ali Taha, Baseten",
+      "url": "https://www.latent.space/p/inference-eng",
+      "message_id": "<20260803214403.3.8a0689e4c9a00515@mg-d0.substack.com>",
+      "published_at": "2026-08-03T21:44:03.000Z",
+      "importance": "high",
+      "summary_zh": "这封 Latent.Space 访谈把 Baseten 的 Philip Kiely 和 Ali Taha 请来系统讲“推理工程”：新模型发布之后，真正把它变成生产 API，需要处理缓存感知路由、prefill/decode 分离、量化、 speculative decoding、KV cache 移动、模型并行、GPU kernel、硬件差异和故障非确定性等问题。它的价值不在单个技巧，而在明确指出推理已经不再是训练之后的部署尾声，而是决定 AI 产品速度、成本、可靠性和模型可用性的独立工程体系。",
+      "deep_read_zh": "这篇最值得精读的地方，是它把很多平时分散在 infra 团队、模型团队、GPU kernel 优化和 API 运维里的经验，合并成一个清晰的新职业范畴：inference engineering。过去几年 AI 讨论的重心常放在训练、更大模型和 benchmark 上，但产品真正上线后，用户感受到的是延迟、吞吐、稳定性、价格、上下文长度、工具调用可靠性和流式输出体验。这些都不是“有了权重就自然发生”的事情。邮件里举的例子很具体：一个 200,000 token 请求进入系统后，如何复用已经计算过的 KV cache，如何把 prefill 和 decode 交给不同 GPU，什么时候专用部署比共享 API 更便宜可靠，如何用小模型做 speculative decoding 加速大模型，为什么同一组权重在不同集群上会表现不同，甚至为什么模型会崩成重复输出同一个 token。它还强调，推理优化不是边角料，仍可能带来 20%、100%、200% 甚至最高 10 倍的性能收益。一个有意思的细节是 GLM-5.2 实验中，更多量化反而保住 benchmark 质量并提升 20% 吞吐，因为不同层的误差可能互相抵消。这提醒 builder：模型质量不是单独由训练决定，部署路径也会改变实际可用性。文章还延伸到 Kimi 视觉编码器 graft 到 GLM-5.2、NVIDIA Dynamo、mega kernels、Rubin、AI 专用芯片、本地推理、视频生成，以及训练和推理可能重新汇合的方向。对独立开发者和产品团队来说，关键判断是：未来 AI 应用的护城河不只来自调用哪个模型，也来自谁能更好地控制成本、延迟、缓存、路由、专用部署和模型行为边界。",
+      "why_important": "它把“模型能力”之后的关键问题讲清楚：生产 AI 的差异，很大一部分来自推理系统，而不是宣传页上的模型名。对 builder 来说，这直接影响架构选型、成本结构和产品体验。",
+      "impact": "AI infra 会继续专业化，应用团队也需要理解缓存、吞吐、专用部署和模型服务策略。模型选择会从“哪个分数最高”变成“哪个在我的请求形态下最稳、最快、最便宜”。",
+      "key_points": [
+        "推理工程关注如何把训练好的权重变成可扩展、低延迟、可靠且便宜的 API。",
+        "缓存感知路由、prefill/decode 分离、KV cache 复用和移动，是长上下文场景的核心优化点。",
+        "量化、speculative decoding、GPU kernel 和模型并行仍可能带来 20% 到数倍的收益。",
+        "相同权重在不同集群上可能表现不同，硬件、kernel 和竞态条件会制造非确定性故障。",
+        "Baseten 讨论了把 Kimi 视觉编码器接到 GLM-5.2、为新开放模型做 day-zero 支持等实际工程问题。",
+        "推理和训练可能重新汇合，例如持久 KV cache、持续学习、以及模型帮助优化运行自身的基础设施。"
+      ],
+      "reading_notes": [
+        "读的时候重点看：哪些优化适合应用团队自己做，哪些只能依赖模型服务商或 infra 供应商。",
+        "把“长上下文请求”当成真实生产负载思考，而不是只看 benchmark。",
+        "注意专用部署和共享 API 的分界：什么时候成本、可靠性和数据路径会逼迫团队自建或托管专用实例。",
+        "观察开放权重模型兴起后，推理工程是否会成为新的差异化层。"
+      ],
+      "tags": [
+        "infra",
+        "inference",
+        "model",
+        "open-weights"
+      ],
+      "related_sources": [
+        "TLDR AI",
+        "TLDR Dev"
+      ]
+    },
+    {
+      "id": "opinion-ai-karpathy-procedural-worlds",
+      "title_zh": "Karpathy 的“先语音乱讲，再让模型造世界”工作流",
+      "title_original": "Karpathy’s New AI Trick: Ramble Your Idea, Then Build the World",
+      "source": "emergingai.substack.com",
+      "from": "Opinion AI <emergingai@substack.com>",
+      "subject": "Karpathy’s New AI Trick: Ramble Your Idea, Then Build the World",
+      "url": "https://emergingai.substack.com/p/karpathys-new-ai-trick-ramble-your",
+      "message_id": "<20260804000616.3.1f36217fa0210cce@mg2.substack.com>",
+      "published_at": "2026-08-04T00:06:16.000Z",
+      "importance": "high",
+      "summary_zh": "这封邮件围绕 Andrej Karpathy 的一个实验：给 Claude Opus 5 一段《魔戒》开头、百万 token 预算，让模型用约两小时生成一个 Three.js 程序化 3D 场景，产出约 5,500 行代码，成本约 10 美元。重点不是成品多精致，而是“图像是终点，程序化世界是起点”：生成出的世界可以继续移动建筑、调整镜头、增加交互、改写时间线，甚至让玩家进入。文章进一步介绍如何把十分钟语音 ramble 变成世界 brief，再用 Claude Code、scene graph、文件结构、prompt 循环、截图和浏览器检查构建可迭代的 3D 世界。",
+      "why_important": "它展示了 AI 生成内容从静态媒介转向可编辑、可运行、可测试的软件对象。对创作者和 builder 来说，这比单次出图更接近产品原型和互动叙事。",
+      "impact": "低成本长上下文模型会让“自然语言/语音到可交互场景”成为周末项目级别的能力。未来 AI 影视、游戏原型和教育仿真可能更多围绕可编辑代码世界展开。",
+      "key_points": [
+        "Karpathy 用一段文本生成了可在浏览器打开的 Three.js 低多边形 3D 山谷场景。",
+        "文章强调程序化世界可以被继续编辑、交互和测试，而不是生成后结束。",
+        "工作流包括语音 brief、Claude Code、scene graph、截图检查、浏览器验证和性能注意事项。"
+      ],
+      "reading_notes": [],
+      "tags": [
+        "agent",
+        "creative-coding",
+        "threejs",
+        "workflow"
+      ],
+      "related_sources": [],
+      "deep_read_zh": ""
+    },
+    {
+      "id": "ai-valley-openai-astra-qwen-robotics-meta-infra",
+      "title_zh": "OpenAI Astra、Qwen3.8-Max、Gemini Robotics 2 与 Meta AI 基建竞赛",
+      "title_original": "OpenAI previews its next AI model family",
+      "source": "www.theaivalley.com",
+      "from": "AI Valley <aivalley@mail.beehiiv.com>",
+      "subject": "OpenAI previews its next AI model family",
+      "url": "https://www.theaivalley.com/",
+      "message_id": "<20260803.150338.935e7a9f@mta7>",
+      "published_at": "2026-08-03T15:03:38.000Z",
+      "importance": "high",
+      "summary_zh": "AI Valley 今天覆盖了四个大事件：OpenAI 内部下一代模型 Astra 据称解决或推进 10 个长期数学和计算机科学问题，证明经 Lean 验证，生成成本约 2,000 美元；Alibaba 发布 2.4 万亿参数多模态 Qwen3.8-Max，主打编码、研究、长程 agent 和视觉推理，支持 100 万 token 上下文；Google DeepMind 发布 Gemini Robotics 2，让人形机器人获得全身控制能力；Meta 计划 2026 年最高投入 1,450 亿美元 AI 基建，包括 1GW 德州数据中心。整体信号是模型能力、机器人具身能力和算力资本开支同时升温。",
+      "why_important": "这封邮件把模型、机器人和基础设施放在同一天观察，能看到 AI 竞争正在从聊天产品扩展到数学发现、长程 agent、具身控制和数据中心军备。",
+      "impact": "builder 需要同时关注模型能力跃迁和成本曲线；大厂基建投入会影响 API 价格、可用模型形态和下游创业窗口。",
+      "key_points": [
+        "OpenAI Astra 的数学突破被多封 newsletter 重复提及，是当天最热模型事件之一。",
+        "Qwen3.8-Max 强调长上下文、多模态和长程 agent 任务。",
+        "Meta 的大规模基建计划说明 AI 资本开支仍在加速。"
+      ],
+      "reading_notes": [],
+      "tags": [
+        "model",
+        "robotics",
+        "infra",
+        "capital"
+      ],
+      "related_sources": [
+        "TLDR AI",
+        "TLDR",
+        "The Neuron"
+      ],
+      "deep_read_zh": ""
+    },
+    {
+      "id": "tldr-ai-deepseek-qwen-openai-math",
+      "title_zh": "TLDR AI：开放模型、数学突破和推理硬件继续升温",
+      "title_original": "DeepSeek V4 Flash ⚡, OpenAI’s math breakthrough 🔢, Qwen 3.8-Max 🤖",
+      "source": "TLDR AI",
+      "from": "TLDR AI <dan@tldrnewsletter.com>",
+      "subject": "DeepSeek V4 Flash ⚡, OpenAI’s math breakthrough 🔢, Qwen 3.8-Max 🤖",
+      "url": "https://refer.tldr.tech/0a897003/2",
+      "message_id": "<0100019fc7d81f05-7cd3f64b-80ed-4978-9ffc-8b9223d350c4-000000@email.amazonses.com>",
+      "published_at": "2026-08-03T13:37:37.000Z",
+      "importance": "high",
+      "summary_zh": "TLDR AI 今天的信息密度很高：Qwen3.8-Max 发布并称开放权重下周到来，2.4 万亿参数，面向编码、工作、研究和长程任务；OpenAI 分享未发布模型在 10 个数学与理论计算机科学开放问题上的结果；DeepSeek V4 Flash 正式生产版加入 speculative decoding，激活参数更少但据称多个 benchmark 超过 V4 Pro Preview；微软 MAI Realtime 语音模型出现在早期入口；深度文章还讨论内部 AI 模型越狱/黑客事件、OpenAI 的“abundant intelligence”叙事、Kimi K3 在 AMD MI355X 上的推理表现，以及 Ramp 私有 SWE-bench、smevals 等评测工具。",
+      "why_important": "这封邮件同时覆盖模型发布、推理成本、语音交互、安全风险和 eval 基础设施，是当天最完整的 AI 工程雷达之一。",
+      "impact": "开放权重模型和低成本推理会压低应用试错门槛，但模型安全、私有 benchmark 和硬件差异会成为产品团队必须补上的工程能力。",
+      "key_points": [
+        "Qwen3.8-Max 和 DeepSeek V4 Flash 都指向更强、更便宜、更适合 agent 的模型竞争。",
+        "OpenAI 数学突破再次成为跨 newsletter 重点事件。",
+        "Kimi K3 on AMD 和 speculative decoding 体现推理硬件与算法优化的重要性。"
+      ],
+      "reading_notes": [],
+      "tags": [
+        "model",
+        "open-weights",
+        "inference",
+        "evals"
+      ],
+      "related_sources": [
+        "AI Valley",
+        "TLDR",
+        "Latent.Space",
+        "The Neuron"
+      ],
+      "deep_read_zh": ""
+    },
+    {
+      "id": "marc-lou-is-saas-dead",
+      "title_zh": "Marc Lou：邮件正文缺失，无法判断《Is SaaS dead?》具体观点",
+      "title_original": "Is SaaS dead?",
+      "source": "unicorne.beehiiv.com",
+      "from": "Marc Lou <unicorne@mail.beehiiv.com>",
+      "subject": "Is SaaS dead?",
+      "url": "https://unicorne.beehiiv.com/p/is-saas-dead",
+      "message_id": "<20260803.130225.198316ea@mta18>",
+      "published_at": "2026-08-03T13:02:25.000Z",
+      "importance": "low",
+      "summary_zh": "这封邮件看起来是 Marc Lou 关于“SaaS 是否已死”的正式 newsletter，但提供的数据里正文只有在线阅读链接，没有实际文章内容。因此不能判断作者论点、事实依据或对独立开发者的建议。按规则保留为单篇条目，但不编造摘要。",
+      "why_important": "主题可能与 AI 时代 SaaS 形态变化有关，但当前邮件数据不足以确认。",
+      "impact": "无法基于正文判断对 builder 的实际影响。",
+      "key_points": [
+        "邮件仅包含在线阅读链接，缺少正文。",
+        "不能从现有数据推断文章观点。"
+      ],
+      "reading_notes": [],
+      "tags": [
+        "saas",
+        "builder"
+      ],
+      "related_sources": [],
+      "deep_read_zh": ""
+    },
+    {
+      "id": "tldr-design-figma-make-ai-design-workflows",
+      "title_zh": "TLDR Design：Figma Make 变得更可控，AI 设计要进入组件契约时代",
+      "title_original": "Pixel Fold Leaks 📱, Figma Make Upgrades 🎨, Reddit Goes TikTok 🎥",
+      "source": "TLDR Design",
+      "from": "TLDR Design <dan@tldrnewsletter.com>",
+      "subject": "Pixel Fold Leaks 📱, Figma Make Upgrades 🎨, Reddit Goes TikTok 🎥",
+      "url": "https://refer.tldr.tech/3bc21e1b/4",
+      "message_id": "<0100019fc79cf831-f9bc4264-f2df-4e5a-ab34-7cffc51a59c1-000000@email.amazonses.com>",
+      "published_at": "2026-08-03T12:33:00.000Z",
+      "importance": "medium",
+      "summary_zh": "TLDR Design 今天覆盖 Pixel 11 Pro Fold 渲染图泄露、Figma Make 新增属性面板和批注、Reddit 测试把热门帖做成类似 TikTok 的视频/旁白体验。更值得 builder 关注的是三篇 AI 设计观点：Jakob's Law 在 AI 时代的参照物从网站转向 ChatGPT、Claude、Copilot 等助手，产品要为被助手发现和调用而设计；企业 AI 项目失败常来自组织流程和审批，而非工具本身；设计系统 drift 可通过“component contracts”加 harness engineering 来约束 AI，测试中 contract catalog 让 agent 构建页面得分从 69/100 提升到 100/100。",
+      "why_important": "它把 AI 设计工具从“生成页面”推进到可控编辑、组件契约和被 agent 调用的产品架构问题。",
+      "impact": "设计和前端团队需要为 AI agent 提供清晰命名、结构化数据、标准 UI、MCP/A2UI 等接口，并用组件契约降低设计到代码的漂移。",
+      "key_points": [
+        "Figma Make 新增属性面板和批注，支持视觉编辑和局部 prompt。",
+        "产品设计需要考虑 AI 助手作为主要入口。",
+        "component contracts 可作为设计系统与 AI agent 之间的共享真相源。"
+      ],
+      "reading_notes": [],
+      "tags": [
+        "design",
+        "figma",
+        "agent",
+        "frontend"
+      ],
+      "related_sources": [],
+      "deep_read_zh": ""
+    },
+    {
+      "id": "tldr-dev-agentic-coding-llm-search-gpt56-pricing",
+      "title_zh": "TLDR Dev：远程 agent 编码、LLM 搜索架构与 GPT-5.6 降价",
+      "title_original": "GPT-5.6 gets cheaper 💰, how to build an OS 💻, SwiftUI after 7 years 🗑",
+      "source": "TLDR Dev",
+      "from": "TLDR Dev <dan@tldrnewsletter.com>",
+      "subject": "GPT-5.6 gets cheaper 💰, how to build an OS 💻, SwiftUI after 7 years 🗑",
+      "url": "https://refer.tldr.tech/7e988322/3",
+      "message_id": "<0100019fc757b31c-435c0f10-0f7c-4756-8c77-35da4b334b87-000000@email.amazonses.com>",
+      "published_at": "2026-08-03T11:17:21.000Z",
+      "importance": "high",
+      "summary_zh": "TLDR Dev 今天对 builder 很实用：一篇文章讲一个 agent 因为追踪 Ruby warning，发现 OpenTelemetry AWS instrumentation 启动时强制加载约 200 个 SDK service class，最终小补丁让 VM classes 和 heap 约降 60%、启动时间降 36%；另一篇分析 DoorDash、Instacart、Uber Eats 如何用不同深度的 LLM 改造食品搜索，从离线知识图谱、query understanding 到 fine-tuned Qwen embedding backbone；agentic coding setup 则建议把无人值守、多 agent、可从手机接续的编码环境搬到 disposable Ubuntu VM、Tailscale、git worktrees 和 Portless 上。工具部分包括 Mu、WebMCP React hook、Octane；最后提到 GPT-5.6 Luna 输入/输出价格大幅下降，Terra 也降价。",
+      "why_important": "这封邮件把 agent 编码的实际工作流、LLM 搜索落地和模型价格变化连在一起，都是独立开发者会立刻遇到的问题。",
+      "impact": "随着模型更便宜，团队会更愿意让 agent 长时间运行；但环境隔离、可恢复工作区、评价标准和人类监督会变得更重要。",
+      "key_points": [
+        "远程 disposable VM + Tailscale + worktrees 是一种面向并行 agent 的工程环境。",
+        "食品搜索案例显示 LLM 可以在知识图谱、query understanding、embedding backbone 不同层介入。",
+        "GPT-5.6 Luna 和 Terra 降价会改变 agent 工作流的成本边界。"
+      ],
+      "reading_notes": [],
+      "tags": [
+        "developer-tools",
+        "agent",
+        "search",
+        "pricing"
+      ],
+      "related_sources": [
+        "Latent.Space",
+        "TLDR AI"
+      ],
+      "deep_read_zh": ""
+    },
+    {
+      "id": "tldr-openai-astra-gh-stack-ai-infra-bubble",
+      "title_zh": "TLDR：OpenAI Astra、gh stack 和 AI 基建债务风险",
+      "title_original": "OpenAI Astra 🤖, Larry Ellison's bet 💰, GitHub CLI stacked diffs 👨‍💻",
+      "source": "TLDR",
+      "from": "TLDR <dan@tldrnewsletter.com>",
+      "subject": "OpenAI Astra 🤖, Larry Ellison's bet 💰, GitHub CLI stacked diffs 👨‍💻 ",
+      "url": "https://refer.tldr.tech/f45b3ac9/",
+      "message_id": "<0100019fc72fd032-ea8285ad-cb3b-4d4a-b25e-f4cc905faa53-000000@email.amazonses.com>",
+      "published_at": "2026-08-03T10:33:47.000Z",
+      "importance": "medium",
+      "summary_zh": "TLDR 主刊今天的 AI 相关重点包括 OpenAI Astra 在 10 个长期数学和理论计算机科学问题上的突破，生成这些解法按 GPT-5.6 Sol API 价格约需 2,000 美元，且都经 Lean 形式化验证；开发者工具部分介绍 GitHub CLI 扩展 gh stack，用于管理 stacked branches 和 PR，并支持 AI agent 集成；观点文章认为 AI 降低软件修改成本后，开发工具更应该开源，因为用户可以用 agent 直接个性化软件，而不是依赖庞大的插件和配置系统。杂项中还提到 Larry Ellison 对 AI 基建的高杠杆押注引发投资者对数据中心回报的担忧。",
+      "why_important": "它把 AI 模型突破、开发协作方式和基建泡沫风险放在同一期里，适合观察 AI 从技术能力到资本结构的连锁反应。",
+      "impact": "stacked PR 和开源 devtools 会更适合 agent 协作；同时，大规模算力投资若回报不确定，可能影响未来 API 价格和 infra 供应格局。",
+      "key_points": [
+        "OpenAI Astra 数学结果继续成为当天重复出现的核心新闻。",
+        "gh stack 代表大型改动拆成小 PR 的 agent-friendly 工作流。",
+        "AI 基建投资的债务和回报问题开始被更多关注。"
+      ],
+      "reading_notes": [],
+      "tags": [
+        "model",
+        "developer-tools",
+        "infra",
+        "capital"
+      ],
+      "related_sources": [
+        "AI Valley",
+        "TLDR AI"
+      ],
+      "deep_read_zh": ""
+    },
+    {
+      "id": "the-neuron-unam-ai-cheating-qwen38max",
+      "title_zh": "The Neuron：UNAM 疑似 AI 作弊风波与 Qwen3.8-Max",
+      "title_original": "😺 Why Mexico's top university axed exams",
+      "source": "www.theneurondaily.com",
+      "from": "The Neuron <theneuron@newsletter.theneurondaily.com>",
+      "subject": "😺 Why Mexico's top university axed exams",
+      "url": "https://x.com/Alibaba_Qwen/status/2084100707423289643",
+      "message_id": "<WwjwGloVSTCyqnIEaqSSdA@geopod-ismtpd-104>",
+      "published_at": "2026-08-03T10:33:19.000Z",
+      "importance": "medium",
+      "summary_zh": "The Neuron 开头提到 Alibaba 发布 Qwen3.8-Max：2.4 万亿参数，声称 coding agent 可无人监督连续工作 10 天以上，下周将开源，并提到其可一次性模拟 365 天电商策略。主文章则讲墨西哥顶尖大学 UNAM 首次把入学考试搬到线上后，因疑似 AI 辅助作弊取消约 3,000 份成绩。邮件给出的关键背景是：2021 到 2025 年约 3.5% 申请者能答对 100 题以上，今年异常上升触发审查；考试软件本应阻止开新标签并用 AI 标记可疑行为，但学生质疑系统过度依赖 AI、缺少真人监督。事件已被墨西哥总统 Claudia Sheinbaum 公开回应。",
+      "why_important": "它提醒大家，AI 不只是考试作弊工具，也正在成为判定作弊的裁判，而高风险场景里算法误判会直接伤害无辜用户。",
+      "impact": "教育、招聘、认证考试和远程评测产品都需要更强的可解释审查、申诉流程和人机结合机制，不能只把“AI 监考”当成自动化替代品。",
+      "key_points": [
+        "UNAM 取消约 3,000 份疑似异常成绩，并暂停新生注册调查。",
+        "系统既使用反作弊限制，也使用 AI 标记可疑行为，但可靠性受到质疑。",
+        "Qwen3.8-Max 被 The Neuron 作为当天开场模型新闻强调。"
+      ],
+      "reading_notes": [],
+      "tags": [
+        "ai-safety",
+        "education",
+        "model",
+        "agent"
+      ],
+      "related_sources": [
+        "AI Valley",
+        "TLDR AI"
+      ],
+      "deep_read_zh": ""
+    }
+  ],
+  "skipped": [],
+  "notes": "今日精读选择 Latent.Space 的推理工程访谈，因为它对 AI builder 的技术决策最直接：模型能力之外，推理系统正在决定成本、延迟、可靠性和产品形态。OpenAI Astra、Qwen3.8-Max、DeepSeek V4 Flash 在多封邮件中重复出现，但各来源侧重点不同，已分别保留为单篇总结并在 related_sources 标注。广告、赞助、招聘信息未作为独立 item；Marc Lou 邮件正文只有在线阅读链接，因无法判断内容而保留低信息量条目并明确说明未编造。"
+}
