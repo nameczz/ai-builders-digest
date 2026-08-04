@@ -1,0 +1,158 @@
+{
+  "date": "2026-08-04",
+  "items": [
+    {
+      "id": "2026-08-04-1",
+      "title": "Agent退潮，零件爆单",
+      "angle": "从搜索热度下滑和 GitHub 基础设施暴涨的反差切入，讲清楚 AI agent 正从概念消费进入零件采购期。",
+      "opening": "“AI agent” 搜索热度跌了 18.6%，但 reverse-skill 一周涨了 6154 星，open-code-review 涨了 3881 星。用户不是不需要 agent 了，而是不想再听愿景，他们开始下载能立刻塞进工作流的零件。",
+      "story_hook": {
+        "challenge": "概念在降温，但围绕 agent 的技能、审查、浏览器状态等基础设施却在爆发。",
+        "twist": "真正有价值的不是更会聊天的 agent，而是让 agent 少犯错、能复用、可审计的小模块。"
+      },
+      "takeaway": "做 AI 产品时少用“agent”做大标题，改用具体任务命名：审代码、接浏览器、转技能、保存团队记忆。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Peter Yang 谈个人智能体的核心是记忆、技能和上下文",
+          "url": "https://x.com/petergyang/status/2084289426012897433"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub 周榜 zhaoxuya520/reverse-skill 周增 6154 星",
+          "url": "https://github.com/zhaoxuya520/reverse-skill"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Google Trends：ai agent 近 7 日 -18.6%",
+          "url": "https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-04-2",
+      "title": "截图到日历才是真刚需",
+      "angle": "用 Zara Zhang 的日历截图用例对照 OCR 和多模态模型热度，说明消费级 AI 机会不在炫技，而在把一张截图变成一次确定动作。",
+      "opening": "旅行规划不一定需要一个复杂 agent。把餐厅、火车、活动截图丢进去，能自动进 Google 日历，这件小事可能比“全自动旅行助手”更接近真实付费需求。",
+      "story_hook": {
+        "challenge": "多模态模型越来越强，但大多数产品还停在“看懂图片”的 demo 阶段。",
+        "twist": "用户真正想买的不是理解能力，而是截图之后那一步：结构化、写入、提醒、同步。"
+      },
+      "takeaway": "如果做多模态小产品，优先选择高频输入和确定输出，比如截图到日历、票据到账本、表格到 CRM，而不是泛用图片聊天。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Zara Zhang：Codex 把预订截图塞进 Google 日历",
+          "url": "https://x.com/zarazhangrui/status/2084536363668611491"
+        },
+        {
+          "tag": "pulse",
+          "ref": "HuggingFace baidu/Unlimited-OCR 下载 2703366",
+          "url": "https://huggingface.co/baidu/Unlimited-OCR"
+        },
+        {
+          "tag": "pulse",
+          "ref": "HuggingFace moonshotai/Kimi-K3 trending score 2235",
+          "url": "https://huggingface.co/moonshotai/Kimi-K3"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-04-3",
+      "title": "开源模型逼近，钱去哪了",
+      "angle": "从 Aaron Levie 的模型层价值转移判断，接 GitHub 技能层项目暴涨，讨论 AI 经济价值为何向应用和工作流迁移。",
+      "opening": "几个月前还能震撼行业的模型能力，现在越来越难长期锁在闭源围墙里。开放权重模型逼近前沿后，最先被压缩的不是想象力，而是模型层的定价权。",
+      "story_hook": {
+        "challenge": "前沿能力扩散会让推理价格逼近底层算力成本，模型公司更难单靠能力差收费。",
+        "twist": "价值没有消失，而是转移到技能包、垂直流程、私有知识和团队部署这些更贴近业务的层。"
+      },
+      "takeaway": "开发者应把护城河从“我用了哪个模型”转向“我封装了哪个业务流程、数据入口和持续更新机制”。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Aaron Levie：开放权重模型逼近前沿，价值向应用层转移",
+          "url": "https://x.com/levie/status/2084510498519933318"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub virgiliojr94/book-to-skill 周增 5405 星",
+          "url": "https://github.com/virgiliojr94/book-to-skill"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub block/buzz 周增 7372 星",
+          "url": "https://github.com/block/buzz"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-04-4",
+      "title": "Claude接邮箱后，边界没了",
+      "angle": "从 Claude Connector 能被 Claude Code 和 Artifacts 调用切入，讲个人工作流接口化后的效率与权限风险。",
+      "opening": "当 Claude 接上 Gmail、日历、Slack，变化不只是“能查资料”了。更关键的是，Claude Code 和 Artifacts 也能借用这些接口，个人工作流正在被整体交给模型调度。",
+      "story_hook": {
+        "challenge": "AI 助手想真正干活，必须接入邮件、日历、笔记和知识库这些私人上下文。",
+        "twist": "连接越顺手，权限边界越模糊；下一代产品竞争点会变成记忆、审计、撤销和最小授权。"
+      },
+      "takeaway": "做 MCP 或 connector 产品时，别只卖“接入更多应用”，要把权限、日志、可撤销操作和数据出口设计成核心功能。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Thariq：Claude Connector 可被 Claude Code 和 Artifacts 调用",
+          "url": "https://x.com/trq212/status/2084387303959740449"
+        },
+        {
+          "tag": "builders",
+          "ref": "Peter Yang：ChatGPT 正从工具变成个人经历和记忆生成器",
+          "url": "https://x.com/petergyang/status/2084438872944242932"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt Glasp MCP Connector",
+          "url": "https://www.producthunt.com/products/glasp-mcp-connector"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub TencentCloud/TencentDB-Agent-Memory 周增 1090 星",
+          "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-04-5",
+      "title": "Codex不涨，周边在狂飙",
+      "angle": "用 Codex 品牌词微涨、CLI 词下滑和开发工具周榜爆发的错位，判断 AI 编程竞争正在从主工具转向协作层。",
+      "opening": "Google Trends 里 codex 只涨了 2.8%，codex cli 还跌了 7.6%。但 GitHub 上 openwork、ego-lite、open-code-review 同时暴涨，说明开发者的注意力正在从“用哪个 CLI”转向“怎么让 AI 进团队流程”。",
+      "story_hook": {
+        "challenge": "AI 编程主工具越来越强，单个 CLI 名称反而不再是用户关注中心。",
+        "twist": "真正升温的是外围基础设施：会话恢复、登录态浏览器、代码审查、规则约束和团队协作。"
+      },
+      "takeaway": "做 AI devtool 时，优先补 Codex/Claude Code 周边缺口：状态恢复、日志、审查、权限和团队模板，而不是再造一个聊天式编辑器。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Guillermo Rauch：Next.js 16.3 强调 agent-native DX",
+          "url": "https://x.com/rauchg/status/2084411344623902994"
+        },
+        {
+          "tag": "builders",
+          "ref": "Thibault Sottiaux：Codex 已是 AI 开发外骨骼，但很快会显得原始",
+          "url": "https://x.com/thsottiaux/status/2084483765158719542"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub different-ai/openwork 周增 3429 星",
+          "url": "https://github.com/different-ai/openwork"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub alibaba/open-code-review 周增 3881 星",
+          "url": "https://github.com/alibaba/open-code-review"
+        }
+      ]
+    }
+  ],
+  "notes": "今日主线很集中：不是模型发布日，而是 AI 工作流部件化的一天。适合写“概念退潮、基础设施爆发”的判断，不适合写泛泛的模型能力进展。",
+  "generated_at": "2026-08-04T09:48:12+00:00",
+  "model": "gpt-5.5"
+}

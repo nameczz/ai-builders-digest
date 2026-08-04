@@ -1,0 +1,401 @@
+{
+  "date": "2026-08-04",
+  "top3": [
+    "今天最值得关注的是「技能化 AI 工作流」爆发：book-to-skill、reverse-skill、i-have-adhd 同时冲上 GitHub 周榜，说明开发者正在把提示词、流程和知识库产品化。",
+    "第二件事是「AI 编程终端与协作层」继续升温：MOTHER、openwork、DeepSeek-Reasonix、ego-lite 都在围绕 Claude Code/Codex 类工作流补基础设施。",
+    "第三件事是多模态消费级入口更清晰：Kimi-K3、MiniMax-H3、Unlimited-OCR、Audio8-TTS 把图文、视频、OCR、语音能力推向可包装的小产品。"
+  ],
+  "intro": "今天没有 HN 数据，但 GitHub、Product Hunt、HuggingFace 和 Trends 拼出一条很清楚的线：AI 应用的竞争正在从模型调用转向工作流、记忆、技能包和本地执行环境。对 builder 来说，机会不在再做一个聊天框，而在把一个高频场景封装成可复用、可迁移、可收费的操作系统插件。",
+  "sections": [
+    {
+      "id": "discovery",
+      "title": "发现机会",
+      "blocks": [
+        {
+          "id": "indie-products",
+          "heading": "今天有哪些独立开发者的新产品？",
+          "summary_md": "Product Hunt 今天的独立产品集中在 AI 工作流周边：[Glasp MCP Connector](https://www.producthunt.com/products/glasp-mcp-connector) 把个人高亮和笔记接进 Claude 与 ChatGPT，[MOTHER](https://www.producthunt.com/products/mother-claude-code-terminal) 做 Claude Code 专用终端和一键恢复会话，[Finyuus](https://www.producthunt.com/products/finyuus) 主打可治理的 AI workflow 语言。原始数据未提供票数和评论数，因此这里不伪造热度数字。值得看的是它们都不是大而全助手，而是在抢「AI 工具之间的数据通道」和「会话连续性」这两个入口。",
+          "items": [
+            {
+              "title": "Glasp MCP Connector",
+              "url": "https://www.producthunt.com/products/glasp-mcp-connector",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "MOTHER",
+              "url": "https://www.producthunt.com/products/mother-claude-code-terminal",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "Finyuus",
+              "url": "https://www.producthunt.com/products/finyuus",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "Screen Awesome",
+              "url": "https://www.producthunt.com/products/screen-awesome-record-annotate",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "独立产品正在从「做 AI 助手」转向「占据 AI 助手的上下文入口」。"
+        },
+        {
+          "id": "github-traction",
+          "heading": "GitHub 上哪些高增长开源项目还没有商业化？",
+          "summary_md": "周榜最强信号是未显式商业化的 AI 基础件：[block/buzz](https://github.com/block/buzz) 周增 7372 星，定位 hive mind communication；[virgiliojr94/book-to-skill](https://github.com/virgiliojr94/book-to-skill) 周增 5405 星，把技术书 PDF 变成 Claude Code skill；[zhaoxuya520/reverse-skill](https://github.com/zhaoxuya520/reverse-skill) 周增 6154 星，做安全研究技能路由包；[ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd) 周增 5012 星，解决 coding agent 输出冗长的问题。这些项目的商业化空白不在代码托管，而在团队模板、合规知识包、私有部署和持续更新订阅。",
+          "items": [
+            {
+              "title": "block/buzz",
+              "url": "https://github.com/block/buzz",
+              "source": "GitHub",
+              "score": 7372
+            },
+            {
+              "title": "virgiliojr94/book-to-skill",
+              "url": "https://github.com/virgiliojr94/book-to-skill",
+              "source": "GitHub",
+              "score": 5405
+            },
+            {
+              "title": "zhaoxuya520/reverse-skill",
+              "url": "https://github.com/zhaoxuya520/reverse-skill",
+              "source": "GitHub",
+              "score": 6154
+            },
+            {
+              "title": "ayghri/i-have-adhd",
+              "url": "https://github.com/ayghri/i-have-adhd",
+              "source": "GitHub",
+              "score": 5012
+            }
+          ],
+          "takeaway": "开源增长最快的不是应用本身，而是让 AI 代理更好工作的「技能层」。"
+        }
+      ]
+    },
+    {
+      "id": "tech-stack",
+      "title": "技术选型",
+      "blocks": [
+        {
+          "id": "dev-tools",
+          "heading": "本周增长最快的开发者工具是什么？",
+          "summary_md": "开发者工具里，[alibaba/open-code-review](https://github.com/alibaba/open-code-review) 周增 3881 星，明确把确定性流水线和 LLM Agent 结合，说明代码审查正在从纯聊天式建议回到可控规则系统；[citrolabs/ego-lite](https://github.com/citrolabs/ego-lite) 周增 2625 星，切中 AI agent 需要复用登录态浏览器的问题；[different-ai/openwork](https://github.com/different-ai/openwork) 周增 3429 星，直接打「Claude Cowork 开源替代」。如果你在做 devtool，今天的选型方向应是：LLM 负责解释和调度，关键边界由规则、浏览器状态和权限模型兜住。",
+          "items": [
+            {
+              "title": "alibaba/open-code-review",
+              "url": "https://github.com/alibaba/open-code-review",
+              "source": "GitHub",
+              "score": 3881
+            },
+            {
+              "title": "citrolabs/ego-lite",
+              "url": "https://github.com/citrolabs/ego-lite",
+              "source": "GitHub",
+              "score": 2625
+            },
+            {
+              "title": "different-ai/openwork",
+              "url": "https://github.com/different-ai/openwork",
+              "source": "GitHub",
+              "score": 3429
+            }
+          ],
+          "takeaway": "AI devtool 的护城河正在从模型效果转向状态管理、规则约束和团队级可控性。"
+        },
+        {
+          "id": "hf-models",
+          "heading": "HuggingFace 上最热的模型能做什么消费级产品？",
+          "summary_md": "HuggingFace 热榜给消费级产品三个方向：[moonshotai/Kimi-K3](https://huggingface.co/moonshotai/Kimi-K3) trending score 2235、下载 1125935，适合图文理解助手；[MiniMaxAI/MiniMax-H3](https://huggingface.co/MiniMaxAI/MiniMax-H3) score 1636，覆盖 text-to-video、image-to-video 和同步音视频，适合短视频素材生成；[baidu/Unlimited-OCR](https://huggingface.co/baidu/Unlimited-OCR) 下载 2703366，适合票据、表格、截图到结构化数据的工具。更小的机会是把这些能力塞进现有工作流，而不是单独做模型 demo。",
+          "items": [
+            {
+              "title": "moonshotai/Kimi-K3",
+              "url": "https://huggingface.co/moonshotai/Kimi-K3",
+              "source": "HuggingFace",
+              "score": 2235
+            },
+            {
+              "title": "MiniMaxAI/MiniMax-H3",
+              "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3",
+              "source": "HuggingFace",
+              "score": 1636
+            },
+            {
+              "title": "baidu/Unlimited-OCR",
+              "url": "https://huggingface.co/baidu/Unlimited-OCR",
+              "source": "HuggingFace",
+              "score": 383
+            },
+            {
+              "title": "Audio8/Audio8-TTS-Preview-0.6b",
+              "url": "https://huggingface.co/Audio8/Audio8-TTS-Preview-0.6b",
+              "source": "HuggingFace",
+              "score": 204
+            }
+          ],
+          "takeaway": "模型热度已经足够分散，产品机会在垂直工作流包装和默认体验。"
+        },
+        {
+          "id": "show-hn",
+          "heading": "Show HN 高关注项目用的什么技术栈？",
+          "summary_md": "今天原始数据中 HN Show HN 为空，因此不能判断 Show HN 项目的技术栈。但 GitHub 周榜可以补一个侧面：高增长项目语言分布很实用，Rust 出现在 [block/buzz](https://github.com/block/buzz) 和 [1jehuang/jcode](https://github.com/1jehuang/jcode)，TypeScript 覆盖 [moeru-ai/airi](https://github.com/moeru-ai/airi)、[opengeos/GeoLibre](https://github.com/opengeos/GeoLibre)、[different-ai/openwork](https://github.com/different-ai/openwork)，Python 则集中在 skill、教育和模型封装。今天的栈选择不是追新语言，而是按边界分工：前端协作用 TypeScript，性能内核用 Rust，AI glue 用 Python。",
+          "items": [
+            {
+              "title": "1jehuang/jcode",
+              "url": "https://github.com/1jehuang/jcode",
+              "source": "GitHub",
+              "score": 3735
+            },
+            {
+              "title": "moeru-ai/airi",
+              "url": "https://github.com/moeru-ai/airi",
+              "source": "GitHub",
+              "score": 2978
+            },
+            {
+              "title": "opengeos/GeoLibre",
+              "url": "https://github.com/opengeos/GeoLibre",
+              "source": "GitHub",
+              "score": 2630
+            }
+          ],
+          "takeaway": "2026 年的 AI 项目栈越来越像产品工程组合，而不是单语言信仰。"
+        }
+      ]
+    },
+    {
+      "id": "competition",
+      "title": "竞争情报",
+      "blocks": [
+        {
+          "id": "migrations",
+          "heading": "有没有「XX is dead」或迁移类文章？",
+          "summary_md": "HN 迁移类数据为空，但 GitHub 和 Product Hunt 已经出现替代品叙事：[different-ai/openwork](https://github.com/different-ai/openwork) 周增 3429 星，直接标注为 Claude Cowork 的开源替代；[MOTHER](https://www.producthunt.com/products/mother-claude-code-terminal) 则用专用终端承接 Claude Code 会话恢复。这里的竞争信号不是某个老工具已死，而是用户开始把闭源 AI 工作台拆成终端、浏览器、记忆、技能包等可替换部件。",
+          "items": [
+            {
+              "title": "different-ai/openwork",
+              "url": "https://github.com/different-ai/openwork",
+              "source": "GitHub",
+              "score": 3429
+            },
+            {
+              "title": "MOTHER",
+              "url": "https://www.producthunt.com/products/mother-claude-code-terminal",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "当用户开始寻找开源替代，真正被挑战的是封闭工作台的一体化控制权。"
+        },
+        {
+          "id": "pricing-revenue",
+          "heading": "独立开发者在讨论什么营收和定价策略？",
+          "summary_md": "今天没有 HN 营收讨论数据，但 Product Hunt 的产品形态能看出变现试探：[FileFlippers](https://www.producthunt.com/products/fileflippers) 明确提出大文件下载付费，[ZapDigits MCP](https://www.producthunt.com/products/zapdigits) 把营销数据做成 MCP server，[Glasp MCP Connector](https://www.producthunt.com/products/glasp-mcp-connector) 则把个人知识库接入 AI 助手。这三类更适合按数据源、团队席位或交易抽成收费，而不是按 token 加价。对独立开发者来说，定价锚点应从「调用 AI」转向「帮用户带走数据、保存上下文、完成交易」。",
+          "items": [
+            {
+              "title": "FileFlippers",
+              "url": "https://www.producthunt.com/products/fileflippers",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "ZapDigits MCP",
+              "url": "https://www.producthunt.com/products/zapdigits",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "Glasp MCP Connector",
+              "url": "https://www.producthunt.com/products/glasp-mcp-connector",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "AI 工具更好卖的不是智能本身，而是用户愿意托付的数据入口和结果交付。"
+        }
+      ]
+    },
+    {
+      "id": "trends",
+      "title": "趋势判断",
+      "blocks": [
+        {
+          "id": "keywords",
+          "heading": "本周技术关键词频率有什么变化？",
+          "summary_md": "Google Trends 里唯一还在上涨的是 [codex](https://trends.google.com/trends/explore?q=codex&date=now+7-d) +2.8%，但 GitHub 周榜的实际项目更热：book-to-skill、reverse-skill、open-code-review、ego-lite 都围绕 AI coding agent 的上下文、技能、浏览器和审查链路展开。反过来，[codex cli](https://trends.google.com/trends/explore?q=codex+cli&date=now+7-d) -7.6%，说明用户兴趣可能从具体 CLI 名称扩散到更广义的 agent 工作流。今天关键词不是单点爆发，而是 Codex 生态的基础设施外溢。",
+          "items": [
+            {
+              "title": "codex",
+              "url": "https://trends.google.com/trends/explore?q=codex&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 2.8
+            },
+            {
+              "title": "codex cli",
+              "url": "https://trends.google.com/trends/explore?q=codex+cli&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": -7.6
+            }
+          ],
+          "takeaway": "Codex 作为品牌词微涨，真正的增长在围绕它重建工具链。"
+        },
+        {
+          "id": "vc-radar",
+          "heading": "VC 和 YC 在关注什么主题？",
+          "summary_md": "综合今天数据，VC 和 YC 会继续看三条线：第一是 team memory，[TencentDB-Agent-Memory](https://github.com/TencentCloud/TencentDB-Agent-Memory) 日榜周增 1090 星，Product Hunt 上 [Atlaso](https://www.producthunt.com/products/atlaso) 也在做 one memory for every AI；第二是 agent browser，[citrolabs/ego-lite](https://github.com/citrolabs/ego-lite) 周增 2625 星；第三是 AI code review，[alibaba/open-code-review](https://github.com/alibaba/open-code-review) 周增 3881 星。投资人真正关心的不是单次生成质量，而是企业能否把 AI 操作沉淀成可审计资产。",
+          "items": [
+            {
+              "title": "TencentCloud/TencentDB-Agent-Memory",
+              "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
+              "source": "GitHub",
+              "score": 1090
+            },
+            {
+              "title": "Atlaso",
+              "url": "https://www.producthunt.com/products/atlaso",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "citrolabs/ego-lite",
+              "url": "https://github.com/citrolabs/ego-lite",
+              "source": "GitHub",
+              "score": 2625
+            }
+          ],
+          "takeaway": "下一批 AI infra 项目会围绕记忆、权限、浏览器状态和审计能力融资。"
+        },
+        {
+          "id": "cooling",
+          "heading": "哪些 AI 热词在降温？",
+          "summary_md": "降温信号很直接：[ai agent](https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d) -18.6%，[ai for beginners](https://trends.google.com/trends/explore?q=ai+for+beginners&date=now+7-d) -33.3%，[open source alternative](https://trends.google.com/trends/explore?q=open+source+alternative&date=now+7-d) -9.9%，[book to skill](https://trends.google.com/trends/explore?q=book+to+skill&date=now+7-d) -8.2%。但 GitHub 上 microsoft/AI-For-Beginners 仍周增 7554 星，说明搜索热度降温不等于需求消失，而是泛词退潮、具体资源继续吸引收藏。今天做内容或产品，不要再用 AI agent 做大标题，要用更具体的 job-to-be-done 命名。",
+          "items": [
+            {
+              "title": "ai agent",
+              "url": "https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": -18.6
+            },
+            {
+              "title": "ai for beginners",
+              "url": "https://trends.google.com/trends/explore?q=ai+for+beginners&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": -33.3
+            },
+            {
+              "title": "open source alternative",
+              "url": "https://trends.google.com/trends/explore?q=open+source+alternative&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": -9.9
+            }
+          ],
+          "takeaway": "泛 AI 词在降温，具体任务词和可复用资产仍在吸星。"
+        },
+        {
+          "id": "new-radar",
+          "heading": "新词雷达：有哪些从零起飞的新概念？",
+          "summary_md": "今天 google_trends_breakouts 为空，tracked 项也没有 rising 关联词，因此不能宣称有从零起飞的新词。弱信号来自项目命名本身：skill、agent memory、MCP connector、AI browser、Claude Code terminal 同时出现，说明新概念不是一个单词，而是一组围绕 AI 操作系统的部件名。可优先观察 [codex](https://trends.google.com/trends/explore?q=codex&date=now+7-d) +2.8% 是否带动「skill router」「agent memory」「browser state」这些更窄查询。",
+          "items": [
+            {
+              "title": "codex",
+              "url": "https://trends.google.com/trends/explore?q=codex&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 2.8
+            }
+          ],
+          "takeaway": "今天没有破圈新词，只有 AI 工作流部件化的早期命名竞争。"
+        }
+      ]
+    },
+    {
+      "id": "actions",
+      "title": "行动触发",
+      "blocks": [
+        {
+          "id": "weekend-build",
+          "heading": "今天 2 小时和一个周末分别做什么？",
+          "summary_md": "2 小时内可以做一个「个人资料到 AI skill」的小工具：读取一份 PDF、Notion 导出或代码仓库 README，生成 Claude Code/Codex 可用的技能说明，参考 [virgiliojr94/book-to-skill](https://github.com/virgiliojr94/book-to-skill) 周增 5405 星的需求。一个周末则可以做团队版：加上版本管理、私有模板、权限和导出格式，面向安全研究、客服 SOP、销售话术或代码规范。不要先做完整平台，先证明用户愿意把自己的知识整理成可复用操作单元。",
+          "items": [
+            {
+              "title": "virgiliojr94/book-to-skill",
+              "url": "https://github.com/virgiliojr94/book-to-skill",
+              "source": "GitHub",
+              "score": 5405
+            },
+            {
+              "title": "zhaoxuya520/reverse-skill",
+              "url": "https://github.com/zhaoxuya520/reverse-skill",
+              "source": "GitHub",
+              "score": 6154
+            }
+          ],
+          "takeaway": "最快可验证的方向是把一个人的隐性知识变成一个代理可执行的 skill。"
+        },
+        {
+          "id": "pricing-models",
+          "heading": "值得学习的定价和变现模式有哪些？",
+          "summary_md": "今天最值得学的是三种定价锚点：一是 [FileFlippers](https://www.producthunt.com/products/fileflippers) 的结果抽成，把下载行为变成收入事件；二是 [ZapDigits MCP](https://www.producthunt.com/products/zapdigits) 的数据连接器，可以按数据源、刷新频率或团队席位收费；三是 [Screen Awesome](https://www.producthunt.com/products/screen-awesome-record-annotate) 的隐私承诺，适合用本地优先和不可上传作为付费信任点。AI 产品不要只卖模型额度，应该卖「省掉的工作」「安全边界」和「可复用的数据通道」。",
+          "items": [
+            {
+              "title": "FileFlippers",
+              "url": "https://www.producthunt.com/products/fileflippers",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "ZapDigits MCP",
+              "url": "https://www.producthunt.com/products/zapdigits",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "Screen Awesome",
+              "url": "https://www.producthunt.com/products/screen-awesome-record-annotate",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "定价要贴近用户交付结果，而不是贴近底层模型成本。"
+        },
+        {
+          "id": "counterintuitive",
+          "heading": "今天最反直觉的发现是什么？",
+          "summary_md": "最反直觉的是：搜索热度里 [ai agent](https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d) 跌了 -18.6%，但 GitHub 上 agent 相关基础设施仍爆发，reverse-skill 周增 6154 星、open-code-review 周增 3881 星、ego-lite 周增 2625 星。解释是用户不再为「agent」这个抽象概念兴奋，却在真实工作中急需更细的零件：安全技能路由、代码审查、登录态浏览器、团队记忆。builder 的动作应该是少讲愿景，多做可嵌入现有流程的小模块。",
+          "items": [
+            {
+              "title": "zhaoxuya520/reverse-skill",
+              "url": "https://github.com/zhaoxuya520/reverse-skill",
+              "source": "GitHub",
+              "score": 6154
+            },
+            {
+              "title": "alibaba/open-code-review",
+              "url": "https://github.com/alibaba/open-code-review",
+              "source": "GitHub",
+              "score": 3881
+            },
+            {
+              "title": "citrolabs/ego-lite",
+              "url": "https://github.com/citrolabs/ego-lite",
+              "source": "GitHub",
+              "score": 2625
+            }
+          ],
+          "takeaway": "概念退潮时，基础设施反而会露出真实需求。"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2026-08-04T09:47:30+00:00",
+  "reddit_highlights": [
+    {
+      "heading": "今天有哪些 solo-founder 产品发布？",
+      "body_md": "**🔍 信号**：[AgentSky](https://www.producthunt.com/products/agentsky) 以 397 票登顶 Product Hunt——\"Any harness, any LLM —— cloud-hosted agents on demand\"（按需云托管的 agent）——[Ctruh Studio](https://www.producthunt.com/products/ctruh-studio)（371 票）发布无代码 3D 与 XR 体验，[Appllama](https://www.producthunt.com/products/appllama)（196）则出售一份对 25,000 个顶级 iOS 应用屏幕的研究。\n\n**白话说：** 今天赢家的共同点是：把运行、设计和研究软件的活儿，交给别人的机器。\n\nProduct Hunt 讲了一个带研究色彩的\"外包\"故事。AgentSky 的卖点——为任何 `harness`、任何 LLM 提供云托管 agent——收获 397 票和 48 条评论，是今天最强的发布；Ctruh Studio 的无代码 3D 构建器拿下 371 票。旁边 Appllama（196）是异类：它卖的不是工具，而是一份*研究*——25,000 个顶级收入 iOS 应用的屏幕，分析它们凭什么赚钱。[Snapdown](https://www.producthunt.com/products/snapdown-2)（137）把屏幕上的任何内容转成干净的 `Markdown`，[mpai](https://www.producthunt.com/products/mpai)（116）让已有的 Codex 和 Claude Code 会话变成多人协作，[MacDupl](https://www.producthunt.com/products/macdupl-run-every-acc-in-its-own-app)（103）把任何 Mac 应用克隆成隔离实例。\n\nReddit 的发布偏向\"界面\"而非\"排行榜\"。一辆 [DIY 太阳能车](https://www.reddit.com/r/SideProject/comments/1vapmdd/i_built_a_diy_solar_vehicle_open_source/) 是开源的；[gesture.live](https://www.reddit.com/r/SideProject/comments/1veanaw/i_made_a_website_that_turns_hand_movements_into/) 把摄像头手势变成电子音乐，与一个 102 票的 Product Hunt 发布对上了——罕见的跨平台一致；[餐厅 AR 菜单系统](https://www.reddit.com/r/SideProject/comments/1vcnacs/i_built_a_fully_automated_ar_menu_system_for/) 把每道菜渲染成真实大小的 3D 模型。最有教育意义的帖子最不起眼：一个 [Nokia 3310 Space Impact 重制版](https://www.reddit.com/r/SideProject/comments/1ve7hc0/i_made_a_nokia_3310_space_impact_remake_for_apple/) 在 Apple Watch 上躺了四年，七月悄悄发布了 iPhone/iPad 版本——没有帖子、没有邮件、没有推文，曝光翻了三倍，销量涨了 200%。Indie Hackers 上，[AI YouTube Helper](https://www.indiehackers.com/product/ai-youtube-helper?post=RLiDX8cq3wSjA8eV0KsN)（87 个赞，40 条评论）用一个桌面应用取代十五个 AI 网站；`Hoplite`（YC S26）则在 Hacker News 上发布，用来部署云端编码 agent。\n\n**关键判断**：在碰营销之前，先把现有应用搬上新的界面——Nokia 3310 移植零宣传实现曝光三倍、销量 +200%，是今天可见的最便宜的增长杠杆。\n\n**反向视角**：Product Hunt 票数是发布日的情绪，不是收入；跨平台移植是一次性红利，不是增长引擎。\n\n---",
+      "source_url": "https://raw.githubusercontent.com/BuilderPulse/BuilderPulse/main/zh/2026/2026-08-04.md"
+    }
+  ]
+}
