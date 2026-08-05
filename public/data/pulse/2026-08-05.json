@@ -1,0 +1,413 @@
+{
+  "date": "2026-08-05",
+  "top3": [
+    "今天最值得关注的是 agent 技能与记忆层爆发，reverse-skill、book-to-skill、TencentDB-Agent-Memory 都在把一次性对话变成可复用能力。",
+    "DeepSeek V4 Flash 正在成为模型侧弱信号，HuggingFace 下载量和 Google Trends 关联查询同时抬头。",
+    "AI agent 产品从聊天框转向控制平面、浏览器状态、沙箱与钱包，商业机会更像基础设施而不是又一个 Copilot。"
+  ],
+  "intro": "今天的数据没有 HN 样本，信号主要来自 GitHub、Product Hunt、HuggingFace 与 Google Trends。主线很清楚：开发者不再只追求更聪明的模型，而是在补 agent 的技能路由、记忆、权限、执行环境和多模态输出链路。",
+  "sections": [
+    {
+      "id": "discovery",
+      "title": "发现机会",
+      "blocks": [
+        {
+          "id": "indie-products",
+          "heading": "今天有哪些独立开发者的新产品？",
+          "summary_md": "Product Hunt 侧今天更像 agent 基础设施专场：[Hansel](https://www.producthunt.com/products/hansel-2) 主打记住所有工作记录，采集源未返回票数与评论数，暂记 0 票、0 评论；[Aegisora](https://www.producthunt.com/products/aegisora) 定位 AI agent 工具与 API 调用的窄控制平面，同样为 0 票、0 评论；[npm i -g hotcell](https://www.producthunt.com/products/npm-i-g-hotcell) 则把本地沙箱交给 Mac、Linux 与裸机上的 agent 使用。这里值得看的不是单个产品热度，而是独立开发者正在围绕 agent 的记忆、权限、沙箱与工作流收口。",
+          "items": [
+            {
+              "title": "Hansel",
+              "url": "https://www.producthunt.com/products/hansel-2",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "Aegisora",
+              "url": "https://www.producthunt.com/products/aegisora",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "npm i -g hotcell",
+              "url": "https://www.producthunt.com/products/npm-i-g-hotcell",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "独立产品机会正在从前台聊天体验转向后台执行控制。"
+        },
+        {
+          "id": "github-traction",
+          "heading": "GitHub 上哪些高增长开源项目还没有商业化？",
+          "summary_md": "GitHub 周榜最强信号是可商品化但仍偏开源工具形态的 agent 配套层：[zhaoxuya520/reverse-skill](https://github.com/zhaoxuya520/reverse-skill) 周增 8386 星、总星 18599，把逆向、安全研究与授权渗透测试封装成 AI 技能路由包；[virgiliojr94/book-to-skill](https://github.com/virgiliojr94/book-to-skill) 周增 5420 星、总星 16637，把技术书 PDF 转成 Claude Code skill；[TencentCloud/TencentDB-Agent-Memory](https://github.com/TencentCloud/TencentDB-Agent-Memory) 周增 3659 星，指向团队级 agent 记忆治理。它们的商业化入口不是卖模型，而是卖团队知识、技能分发、合规边界与可审计执行。",
+          "items": [
+            {
+              "title": "zhaoxuya520/reverse-skill",
+              "url": "https://github.com/zhaoxuya520/reverse-skill",
+              "source": "GitHub",
+              "score": 8386
+            },
+            {
+              "title": "virgiliojr94/book-to-skill",
+              "url": "https://github.com/virgiliojr94/book-to-skill",
+              "source": "GitHub",
+              "score": 5420
+            },
+            {
+              "title": "TencentCloud/TencentDB-Agent-Memory",
+              "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
+              "source": "GitHub",
+              "score": 3659
+            }
+          ],
+          "takeaway": "agent 时代的开源增长点，正在从模型调用转向可迁移的组织能力。"
+        }
+      ]
+    },
+    {
+      "id": "tech-stack",
+      "title": "技术选型",
+      "blocks": [
+        {
+          "id": "dev-tools",
+          "heading": "本周增长最快的开发者工具是什么？",
+          "summary_md": "开发者工具榜的重心明显偏向 agent 工程化：[alibaba/open-code-review](https://github.com/alibaba/open-code-review) 周增 3361 星，用确定性流水线加 LLM Agent 做行级代码审查；[citrolabs/ego-lite](https://github.com/citrolabs/ego-lite) 周增 2633 星，解决 agent 浏览器自动化与登录态共享；[1jehuang/jcode](https://github.com/1jehuang/jcode) 周增 3294 星，强调低 RAM harness。若今天要选型，优先关注能减少 agent 运行成本、权限风险和上下文丢失的组件，而不是只换一个更会写代码的前端界面。",
+          "items": [
+            {
+              "title": "alibaba/open-code-review",
+              "url": "https://github.com/alibaba/open-code-review",
+              "source": "GitHub",
+              "score": 3361
+            },
+            {
+              "title": "citrolabs/ego-lite",
+              "url": "https://github.com/citrolabs/ego-lite",
+              "source": "GitHub",
+              "score": 2633
+            },
+            {
+              "title": "1jehuang/jcode",
+              "url": "https://github.com/1jehuang/jcode",
+              "source": "GitHub",
+              "score": 3294
+            }
+          ],
+          "takeaway": "真正涨得快的 devtool 在处理 agent 的运行环境，而不是包装提示词。"
+        },
+        {
+          "id": "hf-models",
+          "heading": "HuggingFace 上最热的模型能做什么消费级产品？",
+          "summary_md": "HuggingFace 今天给出两条消费级方向：[MiniMaxAI/MiniMax-H3](https://huggingface.co/MiniMaxAI/MiniMax-H3) trending score 2200，标签覆盖文生视频、图生视频、音视频同步，适合做短视频广告、带声音的商品展示和角色剧情生成；[deepseek-ai/DeepSeek-V4-Flash-0731](https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731) trending score 2167、下载 433284，更适合低延迟问答、代码助手和 agent 后端推理；[baidu/Unlimited-OCR](https://huggingface.co/baidu/Unlimited-OCR) 下载 2703366，把自校验 OCR 变成票据、表单和截图知识库入口。",
+          "items": [
+            {
+              "title": "MiniMaxAI/MiniMax-H3",
+              "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3",
+              "source": "HuggingFace",
+              "score": 2200
+            },
+            {
+              "title": "deepseek-ai/DeepSeek-V4-Flash-0731",
+              "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731",
+              "source": "HuggingFace",
+              "score": 2167
+            },
+            {
+              "title": "baidu/Unlimited-OCR",
+              "url": "https://huggingface.co/baidu/Unlimited-OCR",
+              "source": "HuggingFace",
+              "score": 321
+            }
+          ],
+          "takeaway": "消费级 AI 产品的下一波差异化会来自视频、OCR 与低延迟推理的组合。"
+        },
+        {
+          "id": "show-hn",
+          "heading": "Show HN 高关注项目用的什么技术栈？",
+          "summary_md": "今天 HN Show HN 为空，但 GitHub 周榜仍能替代观察技术栈分布：agent 记忆与协作产品多用 TypeScript，例如 [different-ai/openwork](https://github.com/different-ai/openwork) 周增 3601 星、[TencentCloud/TencentDB-Agent-Memory](https://github.com/TencentCloud/TencentDB-Agent-Memory) 周增 3659 星；性能与隔离类项目偏 Rust，例如 [block/buzz](https://github.com/block/buzz) 周增 7262 星、[firecrawl/pdf-inspector](https://github.com/firecrawl/pdf-inspector) 日增 2540 星。结论是前端控制面继续 TypeScript，执行、解析和自动化底层更偏 Rust。",
+          "items": [
+            {
+              "title": "different-ai/openwork",
+              "url": "https://github.com/different-ai/openwork",
+              "source": "GitHub",
+              "score": 3601
+            },
+            {
+              "title": "block/buzz",
+              "url": "https://github.com/block/buzz",
+              "source": "GitHub",
+              "score": 7262
+            },
+            {
+              "title": "firecrawl/pdf-inspector",
+              "url": "https://github.com/firecrawl/pdf-inspector",
+              "source": "GitHub",
+              "score": 2540
+            }
+          ],
+          "takeaway": "TypeScript 做 agent 产品面，Rust 做可信执行与高吞吐解析，是今天最稳的组合。"
+        }
+      ]
+    },
+    {
+      "id": "competition",
+      "title": "竞争情报",
+      "blocks": [
+        {
+          "id": "migrations",
+          "heading": "有没有「XX is dead」或迁移类文章？",
+          "summary_md": "虽然没有 HN 迁移文章，Product Hunt 和 GitHub 已经出现明显的替代叙事：[different-ai/openwork](https://github.com/different-ai/openwork) 周增 3601 星，直接定位 Claude Cowork 的开源替代；[Capacity Desktop](https://www.producthunt.com/products/capacity) 主打住在 Mac 上的免费 Lovable；[Kiro Crew](https://www.producthunt.com/products/kiro) 则把 agentic development workspace 开源化。与此同时，Google Trends 里 [cursor alternative](https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d) 下降 -46.9%，但关联词出现 windsurf ai、opencode、trae ai，说明用户不是不迁移，而是从泛泛搜索替代品转向点名比较具体工具。",
+          "items": [
+            {
+              "title": "different-ai/openwork",
+              "url": "https://github.com/different-ai/openwork",
+              "source": "GitHub",
+              "score": 3601
+            },
+            {
+              "title": "Capacity Desktop",
+              "url": "https://www.producthunt.com/products/capacity",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "Kiro Crew",
+              "url": "https://www.producthunt.com/products/kiro",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "竞争不再是 Cursor 替代 Cursor，而是本地、开源、工作区化的新范式替代云端 IDE。"
+        },
+        {
+          "id": "comebacks",
+          "heading": "有没有沉寂的老项目突然复活？",
+          "summary_md": "今天最像复活信号的不是老产品回归，而是基础工具被 agent 重新点燃：[cypress-io/cypress](https://github.com/cypress-io/cypress) 总星 50884、日增 11，[webpack/webpack](https://github.com/webpack/webpack) 总星 65976、日增 10，[gabime/spdlog](https://github.com/gabime/spdlog) 总星 29421、日增 10。这些不是爆款增速，但它们重新进入日榜说明 agent 工作流仍依赖测试、构建、日志这类老牌工程能力。新机会在于把成熟工具包装成 agent 可调用、可解释、可恢复的执行模块。",
+          "items": [
+            {
+              "title": "cypress-io/cypress",
+              "url": "https://github.com/cypress-io/cypress",
+              "source": "GitHub",
+              "score": 11
+            },
+            {
+              "title": "webpack/webpack",
+              "url": "https://github.com/webpack/webpack",
+              "source": "GitHub",
+              "score": 10
+            },
+            {
+              "title": "gabime/spdlog",
+              "url": "https://github.com/gabime/spdlog",
+              "source": "GitHub",
+              "score": 10
+            }
+          ],
+          "takeaway": "老工程工具的第二曲线，是成为 agent 的可靠动作接口。"
+        }
+      ]
+    },
+    {
+      "id": "trends",
+      "title": "趋势判断",
+      "blocks": [
+        {
+          "id": "keywords",
+          "heading": "本周技术关键词频率有什么变化？",
+          "summary_md": "趋势最强的是 [reverse skill](https://trends.google.com/trends/explore?q=reverse+skill&date=now+7-d) 上升 +417.0%，并且 GitHub 上 reverse-skill 周增 8386 星，说明技能包正在从个人偏好变成 agent 生态的分发单位。[codex](https://trends.google.com/trends/explore?q=codex&date=now+7-d) 上升 +10.2%，关联查询集中到 deepseek v4 flash、codex 接 入 deepseek、deepseek api，显示用户在把代码 agent 和更便宜或更快的模型后端拼接起来。[self hosted](https://trends.google.com/trends/explore?q=self+hosted&date=now+7-d) 也有 +4.6%，与 openwork、airi、ego-lite 的增长互相印证。",
+          "items": [
+            {
+              "title": "reverse skill",
+              "url": "https://trends.google.com/trends/explore?q=reverse+skill&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 417
+            },
+            {
+              "title": "codex",
+              "url": "https://trends.google.com/trends/explore?q=codex&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 10.2
+            },
+            {
+              "title": "self hosted",
+              "url": "https://trends.google.com/trends/explore?q=self+hosted&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 4.6
+            }
+          ],
+          "takeaway": "关键词从 AI agent 本体转向 skill、self hosted 和模型接入这些落地层。"
+        },
+        {
+          "id": "cooling",
+          "heading": "哪些 AI 热词在降温？",
+          "summary_md": "降温的词也很有价值：[ai agent](https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d) 下滑 -14.2%，[ai for beginners](https://trends.google.com/trends/explore?q=ai+for+beginners&date=now+7-d) 下滑 -39.8%，[open source alternative](https://trends.google.com/trends/explore?q=open+source+alternative&date=now+7-d) 下滑 -9.3%。这不是 AI 需求下降，而是泛概念红利在消退。用户已经不再搜索抽象大词，而是在找 reverse skill、DeepSeek V4 Flash、opencode、具体 IDE 或本地执行环境。内容和产品如果还停留在入门教程与笼统 agent 叙事，会被更具体的工具链关键词截流。",
+          "items": [
+            {
+              "title": "ai agent",
+              "url": "https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": -14.2
+            },
+            {
+              "title": "ai for beginners",
+              "url": "https://trends.google.com/trends/explore?q=ai+for+beginners&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": -39.8
+            },
+            {
+              "title": "open source alternative",
+              "url": "https://trends.google.com/trends/explore?q=open+source+alternative&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": -9.3
+            }
+          ],
+          "takeaway": "泛 AI 叙事降温，具体工作流关键词升温。"
+        },
+        {
+          "id": "new-radar",
+          "heading": "新词雷达：有哪些从零起飞的新概念？",
+          "summary_md": "破圈词集中在 DeepSeek 与 Codex 的组合：Google Trends breakout 里 deepseek v4 flash 值 1200，codex 接 入 deepseek 值 250，deepseek api 与 deepseek codex 都是 150；这些词来自 [codex](https://trends.google.com/trends/explore?q=codex&date=now+7-d) 的 rising 关联查询。同时 [codex cli](https://trends.google.com/trends/explore?q=codex+cli&date=now+7-d) 自身下降 -8.8%，但 rising 里出现 deepseek，说明用户兴趣不在 CLI 名字，而在如何把 agent 客户端接到更高性价比的模型。今天可以押注的内容选题是 Codex 接入 DeepSeek V4 Flash 的教程、成本对比和落地模板。",
+          "items": [
+            {
+              "title": "deepseek v4 flash",
+              "url": "https://trends.google.com/trends/explore?q=codex&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 1200
+            },
+            {
+              "title": "codex 接 入 deepseek",
+              "url": "https://trends.google.com/trends/explore?q=codex&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 250
+            },
+            {
+              "title": "deepseek codex",
+              "url": "https://trends.google.com/trends/explore?q=codex&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 150
+            }
+          ],
+          "takeaway": "新词不是新模型本身，而是模型和 agent 客户端的组合用法。"
+        },
+        {
+          "id": "vc-radar",
+          "heading": "VC 和 YC 在关注什么主题？",
+          "summary_md": "综合今天的 GitHub 与 Product Hunt，VC 视角会盯三类基础设施：第一是 agent 记忆与组织知识，例如 TencentDB-Agent-Memory、Hansel、BackEngine MCP；第二是 agent 权限与执行控制，例如 Aegisora、ngrok AI Gateway、hotcell、ego-lite；第三是 agent 经济活动入口，例如 Cloudflare Wallets 和 X Money。它们共同指向一个判断：AI 应用的护城河不只在模型效果，而在能否安全连接账号、数据、支付、浏览器和企业系统。",
+          "items": [
+            {
+              "title": "TencentDB-Agent-Memory",
+              "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
+              "source": "GitHub",
+              "score": 3659
+            },
+            {
+              "title": "Aegisora",
+              "url": "https://www.producthunt.com/products/aegisora",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "Cloudflare Wallets",
+              "url": "https://www.producthunt.com/products/cloudflare",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "资本会更偏爱 agent 的控制面、记忆层和交易入口。"
+        }
+      ]
+    },
+    {
+      "id": "actions",
+      "title": "行动触发",
+      "blocks": [
+        {
+          "id": "weekend-build",
+          "heading": "今天 2 小时和一个周末分别做什么？",
+          "summary_md": "2 小时内可以做一个最小版 agent skill marketplace：抓取 GitHub README，按 reverse-skill、book-to-skill、open-code-review 这类项目抽取适用客户端、依赖、风险等级和安装命令，输出给 Claude Code、Codex、Cursor 用户。一个周末则可以加上团队记忆层：把项目文档、issue、聊天记录转成可搜索 skill 与决策摘要，参考 [TencentDB-Agent-Memory](https://github.com/TencentCloud/TencentDB-Agent-Memory) 的四类资产思路。不要先做完整 IDE，先做一个能被现有 agent 客户端调用的窄工具。",
+          "items": [
+            {
+              "title": "reverse-skill",
+              "url": "https://github.com/zhaoxuya520/reverse-skill",
+              "source": "GitHub",
+              "score": 8386
+            },
+            {
+              "title": "book-to-skill",
+              "url": "https://github.com/virgiliojr94/book-to-skill",
+              "source": "GitHub",
+              "score": 5420
+            },
+            {
+              "title": "TencentDB-Agent-Memory",
+              "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
+              "source": "GitHub",
+              "score": 3659
+            }
+          ],
+          "takeaway": "周末项目应该嵌进现有 agent 工作流，而不是另造一个入口。"
+        },
+        {
+          "id": "pricing-models",
+          "heading": "值得学习的定价和变现模式有哪些？",
+          "summary_md": "今天最值得借鉴的是按风险、调用量和团队资产收费。Aegisora、ngrok AI Gateway、hotcell 这类控制面产品适合按 API 调用、并发沙箱、审计日志保留时长收费；Hansel、BackEngine MCP、TencentDB-Agent-Memory 更适合按席位加知识库规模收费；Cloudflare Wallets 和 FileFlippers 则提示了交易抽成路径。对独立开发者来说，最容易启动的是免费本地版加团队云同步，再把权限审计、共享记忆、私有部署和合规报表放进付费层。",
+          "items": [
+            {
+              "title": "Aegisora",
+              "url": "https://www.producthunt.com/products/aegisora",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "BackEngine MCP",
+              "url": "https://www.producthunt.com/products/backengine-mcp",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "FileFlippers",
+              "url": "https://www.producthunt.com/products/fileflippers",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "agent 基础设施的定价核心，是让用户为安全边界和组织复用付费。"
+        },
+        {
+          "id": "counterintuitive",
+          "heading": "今天最反直觉的发现是什么？",
+          "summary_md": "最反直觉的是，开源榜上涨最快的不是又一个聊天机器人，而是技能包、教程、记忆、浏览器和代码审查这些看似外围的东西。microsoft/AI-For-Beginners 周增 8582 星，说明入门需求仍大；但 reverse-skill 周增 8386 星、book-to-skill 周增 5420 星、TencentDB-Agent-Memory 日增 1111 星，说明更强的新需求是把知识变成 agent 可执行的工作资产。对 Builder 来说，机会不在证明 AI 很强，而在减少 AI 进入真实工作流前的摩擦。",
+          "items": [
+            {
+              "title": "microsoft/AI-For-Beginners",
+              "url": "https://github.com/microsoft/AI-For-Beginners",
+              "source": "GitHub",
+              "score": 8582
+            },
+            {
+              "title": "zhaoxuya520/reverse-skill",
+              "url": "https://github.com/zhaoxuya520/reverse-skill",
+              "source": "GitHub",
+              "score": 8386
+            },
+            {
+              "title": "TencentDB-Agent-Memory",
+              "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
+              "source": "GitHub",
+              "score": 1111
+            }
+          ],
+          "takeaway": "AI 产品的瓶颈正在从智力不足转向工作流接入不足。"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2026-08-05T09:25:22+00:00",
+  "reddit_highlights": [
+    {
+      "heading": "今天有哪些 solo-founder 产品发布？",
+      "body_md": "**🔍 信号**：[Hey Noah](https://www.producthunt.com/products/hey-noah) 以 485 票登顶 Product Hunt——一款\"面向创始人的主动式 AI 行政助理\"——[Wondering](https://www.producthunt.com/products/wondering-2)（307 票）把学习任何东西做成游戏，@gwern 则宣布从全职写作退休，转去发布 Guardian Angel（Hacker News 上 78 条评论）。\n\n**白话说：** 创始人的助理能赢下今天，是因为它干的那份活——追你的收件箱——正是人们最讨厌的事。\n\nProduct Hunt 今天讲的是一个\"委托\"故事，外加一点记忆的变奏。`Hey Noah` 的卖点——在你开口之前就替你打理日历和邮件——拿到 485 票和 90 条评论，是今天最强的发布。[Atlaso](https://www.producthunt.com/products/atlaso)（205）卖的是\"给你用的每个 AI 一份记忆\"，[Driven](https://www.producthunt.com/products/driven-ai)（192）是\"从洞察到行动\"的 AI 投资代理，[Dashi Metrics](https://www.producthunt.com/products/dashi-metrics)（194）把收入画在 3D 地球上——数据终于看起来像个游戏。有趣的尾巴是 [ScrollToll](https://www.producthunt.com/products/scrolltoll-2)（79）：统计你看的每条 Reel，然后锁住应用。\n\n今天最不寻常的发布根本不是创业公司。@gwern——互联网上被阅读最多的匿名作者之一——宣布从全职写作和匿名身份退休，转去发布 `Guardian Angel`，那条 78 条评论的帖子里，读者们都在掂量：一个作家的下一幕能不能是一款应用。Reddit 上的新面孔都很实用：[免费地图海报生成器](https://www.reddit.com/r/SideProject/comments/1vf86ee/i_built_a_free_map_poster_maker_any_place_on/)把地球上任意地点渲染成带 3D 地形和环绕视频的海报，无需账号、没有水印；一款 Wear OS 的[航班追踪器突破 1,000 次下载](https://www.reddit.com/r/SideProject/comments/1vdaft8/i_made_my_first_app_and_got_over_1000_downloads/)。Reddit 首页其余部分还是昨天的爆款——今天那里关于创始人新故事的动静不大。\n\n**关键判断**：针对单一收件箱做一款\"助理形状\"的切入口——Hey Noah 的 485 票证明创始人为主动处理自己消息的服务付费——先数到一百个用户，再加新功能。\n\n**反向视角**：Product Hunt 票数是发布当天的情绪，不是收入，而且\"面向创始人的 AI 助理\"是 SaaS 里最拥挤的品类之一。\n\n---",
+      "source_url": "https://raw.githubusercontent.com/BuilderPulse/BuilderPulse/main/zh/2026/2026-08-05.md"
+    }
+  ]
+}

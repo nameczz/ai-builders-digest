@@ -1,0 +1,148 @@
+{
+  "date": "2026-08-05",
+  "items": [
+    {
+      "id": "2026-08-05-1",
+      "title": "GitHub暴涨的不是模型",
+      "angle": "从 GitHub 周增星项目看，AI agent 的新红利正在从模型能力转向技能包、记忆层和可复用工作流。",
+      "opening": "今天 GitHub 上最扎眼的不是新模型，而是 reverse-skill 周增 8386 星、book-to-skill 周增 5420 星。开发者真正缺的，可能不是一个更聪明的聊天框，而是能把知识变成可调用动作的基础设施。",
+      "story_hook": {
+        "challenge": "大家还在讨论模型智商时，增长最快的项目却在解决技能分发、知识迁移和 agent 记忆这些脏活。",
+        "twist": "AI 越便宜，越值钱的反而不是智能本身，而是让智能进入组织工作流的互补品。"
+      },
+      "takeaway": "做 AI 产品不要只包装模型，优先找能沉淀团队知识、技能路由和可审计执行的窄入口。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Swyx 关于智能商品化后知识图谱重新变值钱的推文",
+          "url": "https://x.com/swyx/status/2084832553895444570"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub 周榜 reverse-skill 周增 8386 星",
+          "url": "https://github.com/zhaoxuya520/reverse-skill"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub 周榜 book-to-skill 周增 5420 星",
+          "url": "https://github.com/virgiliojr94/book-to-skill"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-05-2",
+      "title": "便宜模型开始改架构",
+      "angle": "从 DeepSeek V4 Flash 到 AI Gateway，模型成本下降正在逼开发者重新设计 agent 后端，而不是只换一个模型名。",
+      "opening": "Vercel 说加 1 行代码，DeepSeek v4 Flash 的 token 消耗能少掉 90% 以上。另一边，Google Trends 里 codex 的关联词已经变成 deepseek v4 flash、codex 接入 deepseek。模型降价不是省钱小技巧，而是架构变化的开端。",
+      "story_hook": {
+        "challenge": "复杂浏览器自动化、代码 agent 和高频调用正在把前沿模型账单推到失控边缘。",
+        "twist": "真正的机会不是某个模型更强，而是谁能把强模型验证、小模型生产、网关路由这套组合做顺。"
+      },
+      "takeaway": "团队应把模型调用层抽象出来，先用最强模型验证体验，再用便宜模型、网关和路由压低生产成本。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Guillermo Rauch 称 AI SDK 接入 DeepSeek v4 Flash 可显著降低 token 消耗",
+          "url": "https://x.com/rauchg/status/2084779435866398801"
+        },
+        {
+          "tag": "builders",
+          "ref": "Madhu Guru 关于先用前沿模型验证、再迁移小模型的推文",
+          "url": "https://x.com/realmadhuguru/status/2084809416105472070"
+        },
+        {
+          "tag": "pulse",
+          "ref": "HuggingFace DeepSeek-V4-Flash-0731 trending score 2167",
+          "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-05-3",
+      "title": "Micro SaaS不如流量漏斗",
+      "angle": "把 vibe-coded SaaS 当作高价服务的自助获客入口，可能比幻想小工具订阅收入更现实。",
+      "opening": "Peter Yang 今天连续泼了两盆冷水：现在 vibe code 一个 SaaS，更现实是拿它当服务漏斗；从 X 分成赚钱，甚至可能比做 micro SaaS 更容易。独立开发者最该问的不是能不能做出来，而是做出来后靠什么分发。",
+      "story_hook": {
+        "challenge": "AI 让软件生产成本下降，但没有让获客成本自动消失。",
+        "twist": "最赚钱的 SaaS 可能不是产品本身，而是把用户筛到高客单服务里的前台。"
+      },
+      "takeaway": "独立开发者做小产品前，先设计分发渠道、服务转化路径和高客单交付，而不是只优化功能列表。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Peter Yang 关于 vibe-coded SaaS 更适合作为服务获客漏斗的推文",
+          "url": "https://x.com/petergyang/status/2084855632029774167"
+        },
+        {
+          "tag": "builders",
+          "ref": "Peter Yang 称 X 分成赚钱可能比 micro SaaS 更容易",
+          "url": "https://x.com/petergyang/status/2084846191456751725"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt 今日 agent 基础设施产品 Hansel、Aegisora、hotcell 热度信号",
+          "url": "https://www.producthunt.com/products/aegisora"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-05-4",
+      "title": "企业AI还没有最终形态",
+      "angle": "从 Aaron Levie 的企业 AI 混乱判断切入，解释为什么 agent 控制面、权限、沙箱和记忆层会成为接下来几年的战场。",
+      "opening": "Aaron Levie 说，企业 AI 比早期云计算更混乱：编码代理、办公代理、模型选择、数据权限和护栏策略全在分叉。今天 Product Hunt 和 GitHub 的信号也一样：Hansel 做记忆，Aegisora 做控制面，hotcell 做本地沙箱。混乱不是噪音，是市场还没凝固。",
+      "story_hook": {
+        "challenge": "企业想用 AI，但每个关键环节都还没有标准答案：谁能访问数据、在哪执行、如何审计、失败后怎么恢复。",
+        "twist": "最终赢家未必是最会聊天的 Copilot，而是最早卡住权限、记忆和执行环境的基础设施。"
+      },
+      "takeaway": "面向企业做 AI，优先解决权限边界、审计日志、沙箱执行和组织记忆，而不是再造一个通用助手。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Aaron Levie 关于企业 AI 格局仍未凝固的推文",
+          "url": "https://x.com/levie/status/2084828773808239080"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt Aegisora 定位 AI agent 工具与 API 调用控制平面",
+          "url": "https://www.producthunt.com/products/aegisora"
+        },
+        {
+          "tag": "pulse",
+          "ref": "TencentDB-Agent-Memory 周增 3659 星",
+          "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-05-5",
+      "title": "AI钱包难在别晚一步",
+      "angle": "用 Rivo 的自动驾驶金融故事说明，AI 进入钱和账户之后，核心壁垒不是调用 API，而是边缘情况预测和信任成本。",
+      "opening": "Rivo 想做一件听起来很简单的事：把你活期账户里的闲钱自动扫进美国国债，账单扣款前再拉回来。但 Aditya Agarwal 点出的难点很残酷：早回来只是少赚点，晚回来就是账单跳票、信任崩塌。",
+      "story_hook": {
+        "challenge": "金融 agent 的动作看似只是转账，真正高风险的是现金流预测里的不对称错误。",
+        "twist": "自动驾驶金融最像自动驾驶汽车的地方，不是自动化，而是少数边缘情况决定用户是否敢托付。"
+      },
+      "takeaway": "做账户、支付、钱包类 AI 产品时，要把失败模式、兜底机制和用户信任设计放在功能之前。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Aditya Agarwal 关于 Rivo 自动驾驶金融的推文",
+          "url": "https://x.com/adityaag/status/2084691244496625793"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt Cloudflare Wallets 出现在 agent 经济活动入口信号中",
+          "url": "https://www.producthunt.com/products/cloudflare"
+        },
+        {
+          "tag": "pulse",
+          "ref": "今日 VC radar 判断 agent 交易入口成为基础设施方向",
+          "url": "https://www.producthunt.com/products/cloudflare"
+        }
+      ]
+    }
+  ],
+  "notes": "今日缺少 HN 样本，但 builder 与 pulse 信号高度一致：主线不是更强聊天框，而是 agent 的技能、记忆、控制面、成本路由和交易入口。",
+  "generated_at": "2026-08-05T09:26:32+00:00",
+  "model": "gpt-5.5"
+}
