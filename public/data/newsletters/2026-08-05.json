@@ -1,0 +1,311 @@
+{
+  "date": "2026-08-05",
+  "generated_at": "2026-08-05T00:48:33+00:00",
+  "inbox_id": "sanyoumu@agentmail.to",
+  "window": {
+    "start": "2026-08-04T00:47:44+00:00",
+    "end": "2026-08-05T00:46:02.082816+00:00",
+    "source": "previous_digest_generated_at"
+  },
+  "count": 9,
+  "highlights": [
+    "今日精读：Latent Space 拆解 ChatGPT Work，认为它不是小众工作流工具，而是 ChatGPT 面向十亿级用户的 agent 化预览。",
+    "Qwen 3.8 Max 以 2.4T 参数、长周期编码、多模态 agent 和承诺开源权重，重新强化了开放模型阵营的竞争力。",
+    "OpenAI Astra 的十项数学进展和 Claude Fable 的复现讨论，显示可验证科研任务正在进入“模型搜索 + 人类选题 + 形式化验证”的新循环。",
+    "Eval engineering、Kiro agent harness、Cloudflare Computer 等内容共同指向一个趋势：agent 产品竞争越来越依赖评测、运行时、协议边界和执行环境。",
+    "产品与设计类 newsletter 强调 AI 时代的判断力、设计系统治理、质量商业化和创意技术角色，而不是单纯产出更多内容。"
+  ],
+  "items": [
+    {
+      "id": "chatgpt-work-agent-for-billion-users",
+      "title_zh": "ChatGPT Work：十亿用户的知识工作 Agent 预演",
+      "title_original": "Unpacking ChatGPT Work: the Agent for a Billion Users",
+      "source": "Latent.Space",
+      "from": "Latent.Space <swyx@substack.com>",
+      "subject": "Unpacking ChatGPT Work: the Agent for a Billion Users",
+      "url": "https://www.latent.space/p/unpacking-chatgpt-work",
+      "message_id": "<20260804182014.3.62a41dafd04eb3de@mg-d1.substack.com>",
+      "published_at": "2026-08-04T18:20:14.000Z",
+      "importance": "high",
+      "summary_zh": "这封 Latent Space 重点拆解 OpenAI 在 7 月 9 日发布的 ChatGPT Work：它把 ChatGPT、Codex、云端 agent、桌面应用、浏览器使用、子 agent 和大量工作连接器揉进一个面向知识工作的产品形态。文章最值得关注的判断是，Work 当前虽与 Chat 模式并列，但 Greg Brockman 已确认二者会在年底前合并，因此它更像是 ChatGPT 十亿级用户未来使用方式的预览，而不是只给 power user 的独立工具。",
+      "deep_read_zh": "这篇文章的价值不在于复述 OpenAI 又发布了一个新产品，而在于把 ChatGPT Work 放到 OpenAI 从 Plugins、Devday、Codex 到云端 agent 的连续路线里理解。文章指出，Work 是一种面向知识工作的 agent：用户连接 Slack、邮件、Drive、日历、CRM、项目管理器和插件后，它跨来源收集上下文并产出完成品。更关键的是，它运行在 Codex harness 之上，因此继承了 Codex 的模型、子 agent、浏览器使用、文件编辑和云端执行能力。发布本身也很重：三种新模型、十四种配置、ChatGPT 与 Codex 桌面应用整合，以及云 agent 进入更主流的入口。文章引用的一个重要信号是，Work 连同 Codex 三周内已据称超过 1000 万用户，而 ChatGPT 被估计在 6 月跨过 10 亿月活、并在本月接近 10 亿周活。当前 Work 与 Chat 在 ChatGPT 内仍是并列模式，产品线也显得混乱：ChatGPT、Codex app、Codex harness、原始云 agent、ChatGPT agent、Atlas、OpenClaw 等概念交叠，且网页、移动端、桌面端能力并不完全一致。但文章认为，这种混杂状态反而说明 OpenAI 正在把 agent 能力从开发者工具迁移到大众知识工作界面。对 builder 来说，重点不是模仿界面，而是理解未来 AI 产品的基本结构：上下文连接器、可控执行环境、任务状态、工具调用、子 agent、人工交互与最终交付会被组合成一个统一工作空间。",
+      "why_important": "它把 agent 从“开发者和早期用户玩具”推进到 ChatGPT 主入口的可能形态。只要 Chat 与 Work 合并，这类模式就会直接影响大众对 AI 助手、工作台和自动化产品的默认预期。",
+      "impact": "做 AI 应用的团队需要重新评估自己的护城河：单点聊天、单一插件或轻量自动化会被平台吸收，价值更可能来自垂直上下文、专有工作流、可靠执行和深度集成。",
+      "key_points": [
+        "ChatGPT Work 于 2026 年 7 月 9 日发布，定位为面向知识工作的 agent 产品。",
+        "它连接 Slack、邮件、Drive、日历、CRM、项目追踪器等工作上下文，并产出完成品。",
+        "Work 运行在 Codex harness 上，继承模型、子 agent、浏览器使用和云端执行等能力。",
+        "文章称 Work 与 Codex 三周内已超过 1000 万用户。",
+        "Chat 与 Work 目前并列，但 Greg Brockman 已确认年底前会合并。",
+        "当前产品线混乱，但这可能是 OpenAI 把 agent 能力并入 ChatGPT 主体验的过渡状态。"
+      ],
+      "reading_notes": [
+        "Work 真正的产品边界在哪里：聊天界面、桌面 app、云端 agent 还是统一工作空间？",
+        "当 ChatGPT 主入口内置 agent，第三方 agent 产品还能靠什么差异化？",
+        "哪些工作流适合完全代理，哪些仍需要人类在关键节点做判断？",
+        "Codex harness 这种执行层是否会成为未来 AI 产品的事实基础设施？"
+      ],
+      "tags": [
+        "agent",
+        "OpenAI",
+        "产品",
+        "知识工作",
+        "AI应用"
+      ],
+      "related_sources": [
+        "TLDR AI 提到 Kiro agent harness",
+        "TLDR 提到 Cloudflare Computer",
+        "Opinion AI 讨论 eval engineering"
+      ]
+    },
+    {
+      "id": "eval-engineering-beginners-guide",
+      "title_zh": "Eval Engineering：让 Agent 不只走到终点，还要真的完成任务",
+      "title_original": "Eval Engineering: A Beginner’s Guide",
+      "source": "Opinion AI",
+      "from": "Opinion AI <emergingai@substack.com>",
+      "subject": "Eval Engineering: A Beginner’s Guide",
+      "url": "https://emergingai.substack.com/p/eval-engineering-a-beginners-guide",
+      "message_id": "<20260804215550.3.d9b0d17dc7ed347e@mg2.substack.com>",
+      "published_at": "2026-08-04T21:55:50.000Z",
+      "importance": "high",
+      "summary_zh": "这封 newsletter 用一个典型失败场景解释为什么 eval engineering 正在成为严肃的 AI 技能：agent 可以完成所有可见步骤、调用工具、写文件、交给下一个节点并给出自信答案，但如果搜索结果为空、上游编造细节、下游继续采纳，系统会安静地失败。文中引用的生产分析显示，响应质量可达 83.9%，但对工具结果的忠实度只有 32.3%。指南主张把 eval 放进 agent 图、循环和发布流程中，检查任务承诺、证据、路径、工具结果忠实度、代码检查、LLM 判断与人工判断。",
+      "why_important": "agent 可靠性问题正在从 prompt 问题变成工程治理问题。对 builder 来说，能否把真实 trace 转成长期 eval，可能决定产品能否从 demo 进入生产。",
+      "impact": "未来 agent 系统需要在每个关键节点设置“是否值得继续流转”的判断，而不是只看流程是否跑到 END。评测工程会成为 AI 产品、开发者工具和内部自动化系统的基础能力。",
+      "key_points": [
+        "agent 完成可见步骤不等于完成真实任务。",
+        "文中案例显示响应质量与工具忠实度可能严重背离。",
+        "eval 的作用是判断工作是否有证据、路径是否可接受、结果是否应继续流转。"
+      ],
+      "reading_notes": [],
+      "tags": [
+        "评测",
+        "agent",
+        "可靠性",
+        "AI工程"
+      ],
+      "related_sources": [
+        "Latent.Space 的 ChatGPT Work 拆解",
+        "TLDR Dev 的 AI code review 实验"
+      ],
+      "deep_read_zh": ""
+    },
+    {
+      "id": "tldr-ai-chroniclebio-gpt-live-kiro-astra",
+      "title_zh": "TLDR AI：AI 医疗数据、持续学习、实时语音和 Agent Harness",
+      "title_original": "ChronicleBio 🧬, Mind Lab continual learning 📈, GPT-Live architecture 🎙️",
+      "source": "TLDR AI",
+      "from": "TLDR AI <dan@tldrnewsletter.com>",
+      "subject": "ChronicleBio 🧬, Mind Lab continual learning 📈, GPT-Live architecture 🎙️",
+      "url": "https://refer.tldr.tech/0a897003/2",
+      "message_id": "<0100019fccf416f1-2aef2086-06d8-4bc7-990a-a686eebf718f-000000@email.amazonses.com>",
+      "published_at": "2026-08-04T13:26:16.000Z",
+      "importance": "high",
+      "summary_zh": "这封 TLDR AI 覆盖了多条 builder 值得关注的线索：Fidji Simo 离开 OpenAI 领导团队后创办 ChronicleBio，用慢性病血液数据和 AI 改善 POTS 等疾病研究；Mind Lab 的 Macaron-V1 用多个 LoRA 专家模块挂到 GLM-5.1 上，动态选择任务专家并尝试持续学习；OpenAI GPT-Live 的全双工语音架构结合状态化推理、异步委派、动态上下文和低延迟传输；Kiro agent harness 则强调服务端 agent 进程与 IDE、CLI、Web 客户端通过协议边界解耦。它还提到 Astra 数学成果、Orchard agentic modeling framework 等基础设施内容。",
+      "why_important": "这封邮件把 AI 在生物医疗、模型持续学习、实时语音交互和 agent 基础设施上的进展放在一起，显示 AI 产品正在从单点模型能力转向系统工程能力。",
+      "impact": "builder 可以从 Kiro 和 GPT-Live 看到未来 agent 产品的架构重点：客户端体验与 agent 运行时解耦、低延迟交互、状态管理和可移植评测/训练底座。",
+      "key_points": [
+        "ChronicleBio 已收集 153TB 慢性病血液数据。",
+        "Macaron-V1 通过多个 LoRA 专家模块和动态路由测试持续学习。",
+        "GPT-Live 使用全双工语音架构支持同时听说、推理和工具使用。"
+      ],
+      "reading_notes": [],
+      "tags": [
+        "AI医疗",
+        "语音模型",
+        "agent基础设施",
+        "持续学习"
+      ],
+      "related_sources": [
+        "The Neuron 同样讨论 OpenAI Astra",
+        "TLDR Dev 同样提到 MirrorCode"
+      ],
+      "deep_read_zh": ""
+    },
+    {
+      "id": "tldr-design-google-earth-ai-design-system",
+      "title_zh": "TLDR Design：Google Earth AI 回滚与 AI-ready 设计系统",
+      "title_original": "Google Earth AI 🍌, Googlebook Leaks 💻, Mac Studio Refresh 🖥️",
+      "source": "TLDR Design",
+      "from": "TLDR Design <dan@tldrnewsletter.com>",
+      "subject": "Google Earth AI 🍌, Googlebook Leaks 💻, Mac Studio Refresh 🖥️",
+      "url": "https://refer.tldr.tech/3bc21e1b/4",
+      "message_id": "<0100019fccafce6e-c5b3c308-aaf1-48c4-8bb3-bddb2351b8bd-000000@email.amazonses.com>",
+      "published_at": "2026-08-04T12:11:41.000Z",
+      "importance": "medium",
+      "summary_zh": "这封 TLDR Design 的 AI 相关重点有两条：Google Earth 网页版上线了基于 Nano Banana 2 的地点图像生成，可用真实卫星、航拍和 3D 数据生成地点改造图，但次日因部分生成图疑似违反政策而回滚；另一篇讲如何让设计系统 AI-ready，认为 AI 原型质量差往往不是模型能力不足，而是设计决策未文档化、硬编码和系统不一致造成。邮件还覆盖 Googlebook 泄露、Mac Studio M5/M7 路线、创意技术角色兴起和字体细节等设计趋势。",
+      "why_important": "Google Earth 的回滚说明生成式 AI 一旦接入真实世界地理语境，安全和政策问题会快速放大。AI-ready 设计系统则提醒团队：让 AI 可靠产出界面，需要治理设计资产而不是只换更强模型。",
+      "impact": "设计和产品团队需要把 tokens、spec、审计和设计决策文档化，作为 AI 原型和生产界面的基础设施。创意技术角色会更接近产品探索核心。",
+      "key_points": [
+        "Google Earth AI 生成地点图像功能上线后次日回滚。",
+        "AI 原型问题常来自设计系统债务，而非模型本身。",
+        "创意技术人员在 AI 时代从边缘角色进入更核心的位置。"
+      ],
+      "reading_notes": [],
+      "tags": [
+        "设计系统",
+        "生成式AI",
+        "产品设计",
+        "创意技术"
+      ],
+      "related_sources": [],
+      "deep_read_zh": ""
+    },
+    {
+      "id": "tldr-dev-mirrorcode-ai-code-review-nextjs",
+      "title_zh": "TLDR Dev：长周期编码评测、AI Code Review 与 Next.js 16.3",
+      "title_original": "Next.js 16.3 ⚡️, don’t be a meat proxy 🥩, LLMs reward expertise 🎓",
+      "source": "TLDR Dev",
+      "from": "TLDR Dev <dan@tldrnewsletter.com>",
+      "subject": "Next.js 16.3 ⚡️, don’t be a meat proxy 🥩, LLMs reward expertise 🎓",
+      "url": "https://refer.tldr.tech/7e988322/3",
+      "message_id": "<0100019fcc7c5fb9-4bf3af7b-e7e9-4bf9-b021-f8449e14f4f1-000000@email.amazonses.com>",
+      "published_at": "2026-08-04T11:15:30.000Z",
+      "importance": "high",
+      "summary_zh": "这封 TLDR Dev 对开发者最有价值的是三条线：MirrorCode 用“从零重建完整软件项目”评估 AI 的长周期自主编码能力；Wealthfront 多年实验 AI 辅助 code review，从怀疑走向结构化使用 Opus 4、Gemini 等模型做缺陷检测并降低误报；Next.js 16.3 则带来开发内存下降、更快构建、更好 SSR、自定义错误边界、Instant Navigations、Instant Insights 和 Partial Prefetching。观点部分强调 LLM 奖励专家，真正的领域知识仍能显著放大模型能力。",
+      "why_important": "它把 AI 编码从“能写函数”推进到“能否长期完成项目、参与评审、融入工程流程”的层面。",
+      "impact": "工程团队应把 AI 使用嵌入评测、code review、任务 runner 和框架升级流程，而不是只把模型当作临时问答工具。专家审阅和上下文成熟度仍是落地收益的关键瓶颈。",
+      "key_points": [
+        "MirrorCode 评估 AI 从零重建完整软件的能力。",
+        "Wealthfront 的 AI code review 实验强调迭代流程和误报控制。",
+        "Next.js 16.3 优化性能与开发体验，尽量不要求应用改代码。"
+      ],
+      "reading_notes": [],
+      "tags": [
+        "开发者工具",
+        "AI编程",
+        "代码评审",
+        "Next.js"
+      ],
+      "related_sources": [
+        "TLDR AI 同样提到 MirrorCode"
+      ],
+      "deep_read_zh": ""
+    },
+    {
+      "id": "tldr-cloudflare-computer-vertical-integration",
+      "title_zh": "TLDR：Cloudflare Computer 与 AI 垂直整合终局",
+      "title_original": "SpaceX buys land 🗺️, AI vertical integration 🤖, Cloudflare Computer 👨‍💻",
+      "source": "TLDR",
+      "from": "TLDR <dan@tldrnewsletter.com>",
+      "subject": "SpaceX buys land 🗺️, AI vertical integration 🤖, Cloudflare Computer 👨‍💻",
+      "url": "https://refer.tldr.tech/f45b3ac9/",
+      "message_id": "<0100019fcc55a531-db3ca411-dd8f-4009-aec4-53df3c0a1520-000000@email.amazonses.com>",
+      "published_at": "2026-08-04T10:33:12.000Z",
+      "importance": "medium",
+      "summary_zh": "这封 TLDR 是综合科技摘要，其中与 AI builder 最相关的是 Cloudflare Computer 和 AI 垂直整合。Cloudflare Computer 被描述为运行在 Durable Object 内的虚拟文件系统，以 SQLite 保存权威状态，并提供可插拔执行表面，屏蔽代码运行在 isolate、容器沙箱或浏览器中的细节，为每个 agent 提供高效可扩展的“计算机”。另一篇认为模型实验室和 agent 实验室正在汇合：模型公司做第一方应用，agent 公司也会走向模型训练，因为模型与 harness 的协同设计能带来优势。",
+      "why_important": "agent 不只需要模型，还需要可持久化、可隔离、可扩展的执行环境。Cloudflare Computer 这类抽象说明“给 agent 一台电脑”正在成为基础设施问题。",
+      "impact": "AI 应用公司需要思考自己在模型、harness、运行时和用户场景中的位置。只做薄应用会更容易被垂直整合的平台挤压。",
+      "key_points": [
+        "Cloudflare Computer 用 Durable Object 和 SQLite 维护 agent 文件系统状态。",
+        "它抽象 isolate、容器沙箱和浏览器等执行表面。",
+        "模型实验室和 agent 实验室都在向对方领域扩张。"
+      ],
+      "reading_notes": [],
+      "tags": [
+        "agent运行时",
+        "Cloudflare",
+        "AI基础设施",
+        "垂直整合"
+      ],
+      "related_sources": [
+        "Latent.Space 的 ChatGPT Work",
+        "TLDR AI 的 Kiro agent harness"
+      ],
+      "deep_read_zh": ""
+    },
+    {
+      "id": "the-neuron-openai-astra-math-advances",
+      "title_zh": "The Neuron：OpenAI Astra 十项数学进展与复现争议",
+      "title_original": "😺 OpenAI’s new Astra AI made 10 scientific advances",
+      "source": "The Neuron",
+      "from": "The Neuron <theneuron@newsletter.theneurondaily.com>",
+      "subject": "😺 OpenAI’s new Astra AI made 10 scientific advances",
+      "url": "https://openai.com/index/ten-advances-in-mathematics/",
+      "message_id": "<kg4oBePlQdeMBuU_zgNOwg@geopod-ismtpd-40>",
+      "published_at": "2026-08-04T10:32:48.000Z",
+      "importance": "high",
+      "summary_zh": "这封 The Neuron 聚焦 OpenAI 内部模型 Astra 产出的十项数学成果，覆盖几何、密码学、量子计算和纯数学问题，其中包括自 1978 年以来首次改进某个高维球堆积界限，并构造 non-sofic group 以反驳 Connes 相关猜想。OpenAI 称人类与 Astra 共同准备论文，模型把证明转成 Lean 由证明检查器验证。文章也加入批判视角：Gary Marcus 认为可验证数学不等于通用科学推理，Anthropic 数学家 Levent Alpöge 称公开 Claude Fable 在 24 小时内复现约一半结果，这削弱了 Astra 作为单一门槛突破的叙事。",
+      "why_important": "这可能标志着 AI 在可验证科研中的新范式：人类选题，模型大规模搜索，形式化系统检查答案。",
+      "impact": "数学、代码、部分 AI R&D 等可验证领域可能率先出现研究加速，但评估必须公开失败率、人工介入程度和总成本，否则容易高估突破。",
+      "key_points": [
+        "Astra reportedly 生成十项长期数学问题成果。",
+        "证明被转换为 Lean 文件进行形式化验证。",
+        "Claude Fable 据称可在 24 小时内复现约一半结果，带来可比性争议。"
+      ],
+      "reading_notes": [],
+      "tags": [
+        "科研AI",
+        "数学",
+        "形式化验证",
+        "OpenAI"
+      ],
+      "related_sources": [
+        "TLDR AI 也提到 OpenAI Astra"
+      ],
+      "deep_read_zh": ""
+    },
+    {
+      "id": "tldr-product-outcomes-quality-ai-writing",
+      "title_zh": "TLDR Product：AI 时代产品管理更需要结果、质量和判断力",
+      "title_original": "Stop using epics and user stories 🪓, the case for quality 🏆, spotting AI writing 🕵️‍♀️",
+      "source": "TLDR Product",
+      "from": "TLDR Product <dan@tldrnewsletter.com>",
+      "subject": "Stop using epics and user stories 🪓, the case for quality 🏆, spotting AI writing 🕵️‍♀️",
+      "url": "https://refer.tldr.tech/271505d3/9",
+      "message_id": "<0100019fcc3f0b1f-71a11928-2e8e-4506-bac2-cc4dfa682992-000000@email.amazonses.com>",
+      "published_at": "2026-08-04T10:08:31.000Z",
+      "importance": "medium",
+      "summary_zh": "这封 TLDR Product 不是单一 AI 新闻，而是一组面向产品决策者的判断框架：停止纠结 epic 和 user story，转向结果、机会和可衡量实验；质量只有在客户和市场愿意奖励时才可持续；AI 模型易复制，持久价值更可能来自嵌入公司数据和工作流的专用系统；Canva 的优势被归因于能把创始人判断快速转进产品的操作系统。它还强调大规模 UX writing 中每个字都会影响信任，并给出识别 2026 年 AI 写作痕迹的线索。",
+      "why_important": "当 AI 降低软件生产门槛后，产品判断、组织机制和质量取舍会成为更稀缺的能力。",
+      "impact": "builder 不应只追求更快产出，而应设计能学习业务上下文、承载判断并衡量结果的系统。产品团队也需要更清晰地区分输出、结果和商业价值。",
+      "key_points": [
+        "产品规划应围绕结果、机会和实验，而不是形式化需求标签。",
+        "AI 模型优势短暂，嵌入式专用系统更可能形成耐久价值。",
+        "AI 写作和 AI 产出增加后，清晰表达与判断力更重要。"
+      ],
+      "reading_notes": [],
+      "tags": [
+        "产品管理",
+        "AI产品",
+        "判断力",
+        "质量"
+      ],
+      "related_sources": [],
+      "deep_read_zh": ""
+    },
+    {
+      "id": "ainews-qwen-38-max-open-weights",
+      "title_zh": "AINews：Qwen 3.8 Max 和 27B 承诺开源权重，主攻编码与协作",
+      "title_original": "[AINews] Qwen 3.8 Max(2.4T) and 27B, new open weights models for Coding and Cowork",
+      "source": "AINews",
+      "from": "AINews <swyx+ainews@substack.com>",
+      "subject": "[AINews] Qwen 3.8 Max(2.4T) and 27B, new open weights models for Coding and Cowork",
+      "url": "https://www.latent.space/p/ainews-qwen-38-max24t-and-27b-new",
+      "message_id": "<20260804034914.3.6984754422d4b98f@mg-d1.substack.com>",
+      "published_at": "2026-08-04T03:49:14.000Z",
+      "importance": "high",
+      "summary_zh": "这封 AINews 的核心是 Alibaba Qwen 发布 Qwen 3.8 Max，并承诺 Qwen3.8-Max 与 Qwen3.8-27B 都将开放权重。邮件称 Qwen 3.8 Max 是 2.4T 参数模型，API 价格为每百万输入 2 美元、输出 6 美元、缓存 token 0.25 美元，重点能力包括 10 天以上无人值守编码、125 小时自主 AI 研究循环、24 小时内参加多模态对话意图识别挑战并超过 87% 人类团队、完整硅设计流程优化，以及把视觉反馈纳入规划、编码和 GUI 交互执行循环。AINews 的判断是，此次发布基本消除了外界对 Qwen 是否继续保持开放模型竞争力的疑虑。",
+      "why_important": "如果承诺的开放权重兑现，Qwen 会继续给开发者和模型服务商提供高性能开放模型选择，尤其是在编码、长周期 agent 和多模态执行任务上。",
+      "impact": "开源权重大模型会压低闭源 API 的议价空间，也会让本地化、私有部署和垂直 agent harness 的实验更容易。builder 应关注其真实开放时间、许可证、推理成本和独立评测表现。",
+      "key_points": [
+        "Qwen3.8-Max 被描述为 2.4T 参数旗舰模型。",
+        "Alibaba 承诺 Qwen3.8-Max 和 Qwen3.8-27B 将开放权重。",
+        "重点能力包括长周期编码、自主研究、多模态 agent 和芯片设计优化。"
+      ],
+      "reading_notes": [],
+      "tags": [
+        "开源模型",
+        "Qwen",
+        "AI编程",
+        "多模态agent"
+      ],
+      "related_sources": [
+        "TLDR AI 提到 Qwen3.8-Max 是更便宜的专业编码模型"
+      ],
+      "deep_read_zh": ""
+    }
+  ],
+  "skipped": [],
+  "notes": "今日精读选择 Latent.Space 的 ChatGPT Work，因为它最直接关系到 agent 产品形态从开发者工具走向十亿级 ChatGPT 主入口，对 builder 的产品定位、基础设施选择和竞争判断影响最大。所有 9 封正式 newsletter 均已保留为独立 item。TLDR 各封中的赞助、招聘、广告、推广和 referral 信息未单独汇总；The Neuron 开头的 meme 和广告未纳入重点。Astra 在 The Neuron 和 TLDR AI 中重复出现，已在 related_sources 标注；LLMs reward expertise 在 TLDR 与 TLDR Dev 中重复出现，分别按各自 newsletter 语境处理。"
+}
