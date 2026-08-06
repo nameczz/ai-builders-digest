@@ -1,0 +1,148 @@
+{
+  "date": "2026-08-06",
+  "items": [
+    {
+      "id": "2026-08-06-1",
+      "title": "一万并发 Agent 后，谁管它们",
+      "angle": "从“无限 Agent 算力”切入，写并发不是终局，真正稀缺的是技能、记忆和调度治理。",
+      "opening": "Guillermo Rauch 说，现在已经能同时跑 10,000 个 Agent 任务，每分钟调度 5,000 个 CPU 核心。问题是：当 Agent 数量不再稀缺，团队最先崩掉的可能不是算力，而是上下文、权限和验收。",
+      "story_hook": {
+        "challenge": "行业在炫耀 Agent 并发规模，但开发者真正缺的是让这些 Agent 可复用、可追踪、可协作的工作系统。",
+        "twist": "GitHub 增长最快的不是又一个聊天壳，而是 reverse-skill、Agent Memory、book-to-skill 这类“管 Agent 的工具”。"
+      },
+      "takeaway": "做 Agent 产品时，别只展示能跑多少任务，要先设计技能沉淀、记忆边界、队列调度和结果验收机制。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Guillermo Rauch 关于 10,000 并发 Agent 任务的推文",
+          "url": "https://x.com/rauchg/status/2085077900190208080"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub Trending reverse-skill 周增 9904 星",
+          "url": "https://github.com/zhaoxuya520/reverse-skill"
+        },
+        {
+          "tag": "pulse",
+          "ref": "TencentDB-Agent-Memory 周增 5445 星",
+          "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-06-2",
+      "title": "99% Token 会被企业吃掉？",
+      "angle": "用 Aaron Levie 的判断反打消费级 Agent 热潮：真正买单的是能进入企业预算、审计和工作流的 AI。",
+      "opening": "Aaron Levie 直接把话说死：全球 99% 的 token 会被企业吃掉。不是因为企业更爱 AI，而是写代码、读论文、反欺诈、制造自动化这些场景，真的能把 token 成本挣回来。",
+      "story_hook": {
+        "challenge": "消费级 Agent 看起来更酷，但企业场景才有持续吞 token 的理由和预算。",
+        "twist": "今天 Product Hunt 上火的不是“更聪明助手”，而是 AI Spend Console、Aegisora、Channels SDK 这些预算、控制面和协作入口。"
+      },
+      "takeaway": "如果做企业 AI 工具，优先把 ROI、权限、审计、用量归因做成产品核心，而不是把模型能力写成宣传语。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Aaron Levie 关于企业消耗 99% token 的推文",
+          "url": "https://x.com/levie/status/2085200776159490111"
+        },
+        {
+          "tag": "pulse",
+          "ref": "AI Spend Console by Rippling",
+          "url": "https://www.producthunt.com/products/rippling"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Aegisora Agent 工具和 API 调用控制面",
+          "url": "https://www.producthunt.com/products/aegisora"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-06-3",
+      "title": "PM 开始被迫审 PR 了",
+      "angle": "从 Peter Yang 的吐槽切入，写 AI 编程正在把产品经理推向代码评审和可视化验收现场。",
+      "opening": "Peter Yang 今天吐槽：现在连 PR 都得他来审，PM 培训可没教过这个。更现实的是，当 Agent 能完成 90% 的实现，最后 10% 的产品质感、文案、布局和边界条件，反而更需要人类进编辑器。",
+      "story_hook": {
+        "challenge": "AI 降低了写代码门槛，却提高了非工程角色参与验收的要求。",
+        "twist": "新的机会不是让 PM 学会写 React，而是让他们像改 Google Doc 一样审 HTML、Markdown、图片和交互。"
+      },
+      "takeaway": "团队应该补一层 human-review 工作流：让非工程角色能直接批注、改稿、验收，再把反馈交给 Agent 应用修改。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Peter Yang 关于 PM 被迫审 PR 的推文",
+          "url": "https://x.com/petergyang/status/2085157947735429334"
+        },
+        {
+          "tag": "builders",
+          "ref": "Peter Yang 关于 /human-review 技能的推文",
+          "url": "https://x.com/petergyang/status/2085055745410945126"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt Annotate 用屏幕录制作为提示词输入",
+          "url": "https://www.producthunt.com/products/annotate-8"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-06-4",
+      "title": "别再把 MCP 甩给用户了",
+      "angle": "从 Madhu Guru 的产品判断切入，写下一波 AI 普及不是新术语，而是把复杂性藏起来。",
+      "opening": "Madhu Guru 说，AI 普及慢不是用户不懂 AI，而是产品把提示词、模型、Agent、上下文、MCP、记忆、技能全扔给普通人。用户不想学习你的架构图，只想把事情办完。",
+      "story_hook": {
+        "challenge": "AI Builder 爱讲底层能力，但真实用户只关心结果、入口和稳定性。",
+        "twist": "Google Labs 的 Dreambeans、Website to Markdown API、Channels SDK 这些产品信号都在指向同一件事：AI 要变成安静的工作流入口。"
+      },
+      "takeaway": "设计 AI 产品时，把模型、工具、记忆、权限放到后台，把用户界面收敛成明确任务、默认流程和可理解结果。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Madhu Guru 关于隐藏 AI 复杂性的推文",
+          "url": "https://x.com/realmadhuguru/status/2085036386781221257"
+        },
+        {
+          "tag": "builders",
+          "ref": "Google Labs Dreambeans 扩大开放",
+          "url": "https://x.com/GoogleLabs/status/2085048743322345545"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Website to Markdown API",
+          "url": "https://www.producthunt.com/products/website-to-markdown-api"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-06-5",
+      "title": "算力扩张撞上城市规划",
+      "angle": "把 Nashville 阻止数据中心和“每瓦智能”放在一起，写 AI 基础设施的瓶颈正在从 GPU 转向社会许可。",
+      "opening": "今天最反直觉的 AI 新闻，可能不是模型，而是 Nashville 用征收权阻止动物园附近的数据中心。算力扩张终于撞上土地、电力、社区和城市规划，Builder 不能再只盯 GPU 价格。",
+      "story_hook": {
+        "challenge": "AI 行业默认算力会一直扩张，但现实世界开始要求数据中心解释自己的外部成本。",
+        "twist": "Nikunj Kothari 预言“每瓦智能”会成为热词，而轻量模型、本地推理和缓存优化突然从工程细节变成商业护城河。"
+      },
+      "takeaway": "未来做 AI 基础设施，要把推理成本、能耗、缓存、本地部署和小模型路线纳入产品卖点，而不是只拼更大模型。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Nikunj Kothari 关于每瓦智能等 AI 热词的推文",
+          "url": "https://x.com/nikunj/status/2085209022115029132"
+        },
+        {
+          "tag": "pulse",
+          "ref": "HN Nashville uses eminent domain to block data center near zoo",
+          "url": "https://www.costar.com/article/970809918/nashville-council-approves-eminent-domain-action-to-halt-data-center-project"
+        },
+        {
+          "tag": "pulse",
+          "ref": "LiquidAI/LFM2.5-2.6B",
+          "url": "https://huggingface.co/LiquidAI/LFM2.5-2.6B"
+        }
+      ]
+    }
+  ],
+  "notes": "今日主线集中在 Agent 工作方式产品化：并发算力、技能沉淀、企业治理、人类验收和基础设施约束都在同时浮现。独立开发者素材偏工具入口，缺少特别强的人物故事。",
+  "generated_at": "2026-08-06T09:30:03+00:00",
+  "model": "gpt-5.5"
+}
