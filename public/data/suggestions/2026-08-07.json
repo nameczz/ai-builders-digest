@@ -1,0 +1,173 @@
+{
+  "date": "2026-08-07",
+  "items": [
+    {
+      "id": "2026-08-07-1",
+      "title": "Agent 最贵的不是模型",
+      "angle": "从 Aaron Levie 和 GitHub 热榜一起看：企业 Agent 的瓶颈正在从智力变成治理、记忆和流程责任。",
+      "opening": "今天 GitHub 暴涨的不是新模型，而是 TencentDB-Agent-Memory、reverse-skill 和 cloudflare/computer。另一边，Aaron Levie 说企业用 Agent 不是问答，而是管理流程里的员工。真正的问题来了：谁来记住、授权、验收和背锅？",
+      "story_hook": {
+        "challenge": "大家以为 Agent 竞争是模型能力战，但企业真正卡住的是权限、上下文、审计和人工验收。",
+        "twist": "越是强大的 Agent，越需要传统企业软件里的治理层，反而让 Atlassian、Box 这类工作流平台更重要。"
+      },
+      "takeaway": "做 Agent 产品时，优先设计记忆、权限、日志、验收和回滚，而不是只堆模型调用。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Aaron Levie 谈企业 Agent 是流程员工而不是聊天机器人",
+          "url": "https://x.com/levie/status/2085587079405425146"
+        },
+        {
+          "tag": "builders",
+          "ref": "Aaron Levie 谈 Agent 让治理、安全、合规更关键",
+          "url": "https://x.com/levie/status/2085474309943030032"
+        },
+        {
+          "tag": "pulse",
+          "ref": "TencentCloud/TencentDB-Agent-Memory 单日新增 1057 星",
+          "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory"
+        },
+        {
+          "tag": "pulse",
+          "ref": "cloudflare/computer 单日新增 2802 星",
+          "url": "https://github.com/cloudflare/computer"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-07-2",
+      "title": "免费 AI 正在杀死卖点",
+      "angle": "从 ChatGPT 免费无限聊天到 FreeAI：基础 AI 能力正在变成水电煤，创业者必须重新定义收费单位。",
+      "opening": "如果免费用户也能无限文字聊天，很多 AI 产品的首页文案就该重写了。今天 Sam Altman、Thibault 和 Rauch 指向同一个现实：基础模型能力正在被打到免费档。问题不是还能不能收费，而是你到底在替用户承担什么风险。",
+      "story_hook": {
+        "challenge": "过去很多产品靠“接入强模型”收费，但免费档正在吞掉这层价值。",
+        "twist": "真正能收费的可能不是 token，而是授权预算、可观测性、人工验收和业务结果。"
+      },
+      "takeaway": "把定价单位从调用量改成一次可授权、可审计、可交付的业务动作。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Sam Altman 称 Sol 5.6 聊天增强且免费用户可无限文本聊天",
+          "url": "https://x.com/sama/status/2085454964814753990"
+        },
+        {
+          "tag": "builders",
+          "ref": "Guillermo Rauch 谈 FreeAI 把基础 AI 能力打到免费档",
+          "url": "https://x.com/rauchg/status/2085422692799570171"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Orite：给 AI Agent 钱但不是无限授权",
+          "url": "https://www.producthunt.com/products/orite"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Progress AI Observability：生产环境 trace、evaluate、improve",
+          "url": "https://www.producthunt.com/products/progress-ai-observability"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-07-3",
+      "title": "代码 Agent 要抢插件层",
+      "angle": "从 Rauch 的 Plugin 标准到 OpenWork、BrowserOS neo：下一轮开发工具竞争不在 IDE，而在谁定义 Agent 的扩展接口。",
+      "opening": "当 AI 编程 Agent 变成最重要的开发工具，真正值钱的可能不是聊天框，而是插件标准。Rauch 今天直接把话挑明：CLIs、IDE、云端 Agent 和个人助手要接到同一个生态里。谁先变成接口，谁就不只是工具，而是分发层。",
+      "story_hook": {
+        "challenge": "开发者以为自己在选 Cursor、Claude、Codex，其实是在把工作流交给不同的扩展生态。",
+        "twist": "开源替代品不是只在复制大厂产品，而是在拆分浏览器、协作、代码执行和权限这些可标准化模块。"
+      },
+      "takeaway": "开发者工具创业要少喊“替代某某”，多占一个可被复用的 Agent 扩展点。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Guillermo Rauch 谈 AI 编程 Agent 必须开源并统一扩展",
+          "url": "https://x.com/rauchg/status/2085403169551790359"
+        },
+        {
+          "tag": "builders",
+          "ref": "Amjad Masad 回顾 Replit 自训代码模型",
+          "url": "https://x.com/amasad/status/2085544020424716723"
+        },
+        {
+          "tag": "pulse",
+          "ref": "different-ai/openwork 定位为 Claude Cowork 开源替代",
+          "url": "https://github.com/different-ai/openwork"
+        },
+        {
+          "tag": "pulse",
+          "ref": "BrowserOS neo：The Missing Browser for Claude, Cowork & Codex",
+          "url": "https://www.producthunt.com/products/browseros_ai"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-07-4",
+      "title": "无代码败给了代码本身",
+      "angle": "从 Amjad 对 Airtable 的判断切入：AI 没有让 UI 造软件成功，而是让代码门槛塌了。",
+      "opening": "无代码的梦想不是错在需求，而是错在入口。Amjad 今天说得很狠：UI 永远无法让人构建任意软件，真正要解决的是代码本身。讽刺的是，AI 最后不是消灭代码，而是让更多人绕过无代码平台直接生成代码。",
+      "story_hook": {
+        "challenge": "无代码平台想用 UI 抽象掉复杂性，但任意软件的复杂性最后还是会溢出界面。",
+        "twist": "AI 编程 Agent 反而让代码重新成为更通用的产品入口，而不是被无代码取代。"
+      },
+      "takeaway": "面向非工程师的工具不要执着拖拽 UI，应该把需求表达、代码生成、测试和部署做成闭环。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Amjad Masad 谈 Airtable 与无代码兴衰",
+          "url": "https://x.com/amasad/status/2085451197323034902"
+        },
+        {
+          "tag": "builders",
+          "ref": "Thibault Sottiaux 称 Codex 可处理像几周工作量的任务",
+          "url": "https://x.com/thsottiaux/status/2085597685948813610"
+        },
+        {
+          "tag": "pulse",
+          "ref": "book-to-skill 把技术书 PDF 转成 Claude Code skill",
+          "url": "https://github.com/virgiliojr94/book-to-skill"
+        },
+        {
+          "tag": "pulse",
+          "ref": "addyosmani/agent-skills 单日新增 593 星",
+          "url": "https://github.com/addyosmani/agent-skills"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-07-5",
+      "title": "个人 AGI 先要记住你",
+      "angle": "把 Garry Tan 的个人 AGI 观点和 Agent Memory 热度放在一起看：长期上下文可能比模型智商更稀缺。",
+      "opening": "个人 AGI 听起来像一个更聪明的 ChatGPT，但 Garry Tan 今天给了另一个定义：它必须只懂你、持续记住你，并跟着你进化。巧的是，今天搜索和 GitHub 同时把 Agent Memory 推上来。市场正在承认一件事：不知道你是谁的 AI，再强也只是客服。",
+      "story_hook": {
+        "challenge": "多数产品还在宣传模型更强，但个人和团队真正需要的是长期、独特、可迁移的上下文。",
+        "twist": "最像个人 AGI 的能力，可能不是推理，而是可靠记忆和偏好继承。"
+      },
+      "takeaway": "做个人 AI 产品时，把记忆资产、偏好迁移和上下文可控性当成核心产品，而不是附属功能。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Garry Tan 谈个人 AGI 的核心是长期独特上下文",
+          "url": "https://x.com/garrytan/status/2085446068461043722"
+        },
+        {
+          "tag": "builders",
+          "ref": "Swyx 提醒所谓最后一版 spec 永远会变",
+          "url": "https://x.com/swyx/status/2085613357080723846"
+        },
+        {
+          "tag": "pulse",
+          "ref": "tencentdb agent memory Google Trends 上升 +999%",
+          "url": "https://trends.google.com/trends/explore?q=tencentdb+agent+memory&date=now+7-d"
+        },
+        {
+          "tag": "pulse",
+          "ref": "TencentDB-Agent-Memory 把对话、文档和代码沉淀成团队级 Agent 记忆资产",
+          "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory"
+        }
+      ]
+    }
+  ],
+  "notes": "今日主线很集中：Agent 不是更聪明的聊天框，而是在变成有记忆、技能、权限、环境和验收机制的工作系统。独立开发者素材偏少，选题更适合写给正在做开发者工具和企业 AI 产品的人。",
+  "generated_at": "2026-08-07T09:21:14+00:00",
+  "model": "gpt-5.5"
+}
