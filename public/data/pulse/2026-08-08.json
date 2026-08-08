@@ -1,0 +1,124 @@
+{
+  "date": "2026-08-08",
+  "top3": [],
+  "intro": "（无 LLM 编辑模式：以下为原始数据归档，建议安装 codex CLI 重新生成。）",
+  "sections": [
+    {
+      "id": "discovery",
+      "title": "发现机会",
+      "blocks": [
+        {
+          "id": "indie-products",
+          "heading": "今天有哪些独立开发者的新产品？",
+          "summary_md": "（自动归档模式）今日 Show HN 与 Product Hunt 上线的独立开发者产品列表。",
+          "items": [
+            {
+              "title": "The GTM Co-Founder",
+              "url": "https://www.producthunt.com/products/the-gtm-co-founder",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Toolport",
+              "url": "https://www.producthunt.com/products/conduit-12",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Hexis",
+              "url": "https://www.producthunt.com/products/bevel-4",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Basedash Subscriptions",
+              "url": "https://www.producthunt.com/products/basedash",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "AstraPixels",
+              "url": "https://www.producthunt.com/products/astrapixels",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "AndroMeld",
+              "url": "https://www.producthunt.com/products/andromeld",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "StepShot",
+              "url": "https://www.producthunt.com/products/stepshot-2",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Coldtea.ai",
+              "url": "https://www.producthunt.com/products/coldtea",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "AgentOne Desktop",
+              "url": "https://www.producthunt.com/products/agentone-desktop",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Progress AI Observability",
+              "url": "https://www.producthunt.com/products/progress-ai-observability",
+              "source": "ProductHunt"
+            }
+          ],
+          "takeaway": ""
+        }
+      ]
+    },
+    {
+      "id": "tech-stack",
+      "title": "技术选型",
+      "blocks": []
+    },
+    {
+      "id": "competition",
+      "title": "竞争情报",
+      "blocks": []
+    },
+    {
+      "id": "trends",
+      "title": "趋势判断",
+      "blocks": []
+    },
+    {
+      "id": "actions",
+      "title": "行动触发",
+      "blocks": []
+    }
+  ],
+  "generated_at": "2026-08-08T09:22:39+00:00",
+  "reddit_highlights": [
+    {
+      "heading": "今天有哪些 solo-founder 产品发布？",
+      "body_md": "**🔍 信号**: Product Hunt 前两名都是智能体时代的基建——`Coldtea`（413 票，「自动驾驶的软件交付」）和 `Soloop`（361 票，面向 solo founder 的「审批优先 Agent OS」）——而 Hacker News 带来一个打磨了两年的机械 `Magic Keyboard`（登上热榜，237 条评论）和一个无 `JavaScript` 的纯文本轻博客。\n\n**白话说：** 今天的 solo 发布分成两派：智能体时代的工具，和固执的个人硬件与纯文本项目。\n\n票数领先的 [Coldtea](https://www.producthunt.com/products/coldtea)（413 票）承诺「自己会开」的交付——是管道，不是仪表盘。对 solo founder 更有意思的是 [Soloop](https://www.producthunt.com/products/soloop)（361 票、53 条评论）：一个智能体 OS，你批准之前什么都不会发生。这是本周智能体审批焦虑的直接产品化（见 *趋势判断*）。[Nitro 4.0](https://www.producthunt.com/products/alconost-localization)（222 票）把人肉翻译做成 agent-ready API——「第一个为 AI 智能体构建的人工翻译平台」。\n\n个人项目才是今天的灵魂。一个做了两年的[机械 Magic Keyboard](https://electronicmaterialsoffice.com/) 拿下热榜和 237 条评论——一把键盘，做到近乎偏执。[textlog](https://textlog.cc/about)（138 票、60 条评论）是一个安静的开源纯文本轻博客平台，没有 JavaScript——以笔记为基本单位，一次 280 字符。Reddit 上，一个 [Wear OS flight scanner](https://www.reddit.com/r/SideProject/comments/1vdaft8/i_made_my_first_app_and_got_over_1000_downloads/) 先在 Garmin 上突破 1,000 次下载（Android 还没上）；一个[一起工作的虚拟咖啡馆](https://www.reddit.com/r/SideProject/comments/1vgq3q4/i_built_a_peaceful_virtual_place_where_you_can/)（「Manyplace」）超过 500 个地点。Indie Hackers 上，一位 builder 发布「[a tool to find people already talking about problems your product solves](https://www.indiehackers.com/post/i-built-a-tool-to-find-people-already-talking-about-problems-your-product-solves-dbca80a1cb)」（一个帮你找到已经在谈论你的产品所解决问题的用户群的工具，27 条评论）——把需求调研做成了产品。\n\n**关键判断**: 做买家一目了然的单任务智能体工具（审批、交付、翻译），或者做有故事的个人项目（一把键盘、一个纯文本博客）——两者今天都胜过又一个聊天壳子。\n\n**反向视角**: 发布日的票集中在人脉广的工具上；键盘的 237 条评论可能比 Agent OS 的 53 条更值钱——硬件的参与度不等于软件的收入。\n\n---",
+      "source_url": "https://raw.githubusercontent.com/BuilderPulse/BuilderPulse/main/zh/2026/2026-08-08.md"
+    },
+    {
+      "heading": "Indie 开发者在讨论哪些收入和定价问题？",
+      "body_md": "**🔍 信号**: 一个「象棋界的 `Duolingo`」应用分享了 428 个用户和 $56 MRR，还犯了三个错误（Reddit 上 24 个赞同）；`Wave` 把银行信息流设了付费墙，一天之内就出现了[迁移指南](https://www.indiehackers.com/post/wave-just-paywalled-bank-feeds-i-wrote-a-migration-guide-for-the-refugees-2a02629ef9)；Indie Hackers 获赞最多的故事（151 赞同、160 条讨论）是五次失败后做到 $7.5k/月。\n\n**白话说：** 一个象棋应用悄悄改价，三天销售归零；Wave 把银行信息流设了付费墙；五连败的幸存者做到 $7.5k/月。\n\n这个象棋应用是一个定价运维的案例研究：创始人改了服务器端的年费价格，结果同时作用于所有平台的版本——`$39.99` 变成 `$79.99`，销售连续三天归零，其中两天在怀疑付费墙代码。教训：价格变更需要 `flag`，而不是配置推送。[Wave 付费墙](https://www.indiehackers.com/post/wave-just-paywalled-bank-feeds-i-wrote-a-migration-guide-for-the-refugees-2a02629ef9) 展示了难民模式：免费记账工具把核心信息流设了付费墙，几小时内就有人发布迁移指南——而「quickbooks alternative」搜索三个月保持 +80%（见 *趋势判断*）。其余是一条励志弧线：[五次产品失败后做到 $7.5k/月](https://www.indiehackers.com/post/tech/after-five-failed-products-this-founder-quit-his-job-and-hit-7-5k-mo-in-12-months-xaDBfmynasknHQkim3sO)（160 条评论）、[靠验证框架 60 天内做到 $10k MRR](https://www.indiehackers.com/post/tech/exiting-his-agency-and-hitting-10k-mrr-within-60-days-of-launching-his-saas-sTo5m9qfhxXbruvhBIyH)（48 条评论）、[副业三年后做到 $6.4k/月](https://www.indiehackers.com/post/tech/side-hustling-for-three-years-before-going-all-in-and-hitting-6-4k-mrr-5kZRj2Lln7jO7nVVoYFP)（86 条评论）、[全职工作之余运营 $7k/月作品集](https://www.indiehackers.com/post/tech/this-full-time-data-scientist-built-a-7k-mo-portfolio-of-side-projects-quOo7AXtrGlePopsGslc)（35 条评论）。一条「[co-founders suck](https://www.indiehackers.com/post/co-founders-suck-e4116b6d72)」帖子（66 条评论）是警示性的反面。\n\n**关键判断**: 两个运营教训：把价格变更当部署对待（可回滚、按平台），以及每次付费墙都会制造一个 48 小时窗口来服务难民。\n\n**反向视角**: 幸存者故事有选择偏差，Wave 的付费墙是正常公司行为——难民会迁移，但很少给新来者付费。\n\n---",
+      "source_url": "https://raw.githubusercontent.com/BuilderPulse/BuilderPulse/main/zh/2026/2026-08-08.md"
+    },
+    {
+      "heading": "有没有沉寂的老项目突然复活？",
+      "body_md": "**🔍 信号**: [`MSN Messenger` 以可用的浏览器应用形式回来了](https://www.reddit.com/r/SideProject/comments/1veh829/i_rebuilt_msn_messenger_in_the_browser_realtime/)——实时聊天、nudge、声音和动画眨眼一应俱全；[Ancient Library](https://ancientlibrary.net/) 上线 1,060 部希腊语和拉丁语文本，支持点词即解析（登上热榜）；textlog 复活了纯文本轻博客。\n\n**白话说：** MSN Messenger 以浏览器应用回归，1,060 部古典文本可以点词解析，纯文本轻博客复兴。\n\nMSN 重建版（[notbrb.lol](https://notbrb.lol/)）最讨喜：和朋友打开它，nudge、声音、动画眨眼真的能用——实时基建裹着怀旧，无需安装。[Ancient Library](https://ancientlibrary.net/)（146 票、48 条评论）是安静的复活：1,060 部希腊语和拉丁语文本，点任何一个词都能解析——一个大多数人不碰的语料库实现了超文本之梦。[textlog](https://textlog.cc/about)（138 票）复活了更老的网络：没有图片、没有 JavaScript、280 字符的笔记——正如一位评论者所说，「twitter was better before images」。模式从昨天延续：移植到 iPhone 的 [Nokia 3310 Space Impact 重制版](https://www.reddit.com/r/SideProject/comments/1ve7hc0/i_made_a_nokia_3310_space_impact_remake_for_apple/) 零推广销量翻倍，一张 [1998 年 CD-ROM 世界地图集](https://lobste.rs/s/6i4a3w/i_got_1998_cd_rom_world_atlas_running_on) 在 Windows 11 上跑起来了。连计算界的老前辈都在复活：Quake 三十周年更新延续着长尾，一台 [1948 年 IBM 真空管触发器](https://www.righto.com/2026/07/ibm-604-trigger-tube-module.html) 重新通电。\n\n**关键判断**: 复活项目赢在消除旧摩擦——无需安装、没有 JavaScript、不要账号——怀旧加零配置就是可以复制的模式。\n\n**反向视角**: 怀旧产品变现能力差，浏览器版 MSN Messenger 离商标侵权函只差一个字母。\n\n---",
+      "source_url": "https://raw.githubusercontent.com/BuilderPulse/BuilderPulse/main/zh/2026/2026-08-08.md"
+    },
+    {
+      "heading": "如果今天有 2 小时或一个完整周末，应该做什么？",
+      "body_md": "**🔍 信号**: 99% 机器人的自白（登上热榜，352 条讨论）、Indie Hackers 的「分析数据大多是假的」帖子（92 条评论）、一个伪装人类鼠标移动的全新 LSTM、一个拿到 7.3M 浏览却只有 17 个支持者的 `Kickstarter`——市场在优化虚构，而诚实的计数器不存在。\n\n**白话说：** 两小时：一个给访客打上「真人/机器人」标签、只显示真实用户数字的脚本。\n\n证据链很紧。一位拥有 [150 万页网站](https://patronview.com/news/99-percent-of-my-website-traffic-is-bots/) 的创始人发现 99% 的流量是机器人；352 条评论的帖子里全是发现同样情况的人。Indie Hackers 上 @Angelcee 的[假分析帖子](https://www.indiehackers.com/post/i-just-discovered-my-analytics-numbers-are-mostly-fake-here-is-why-8197e3ff9d)（92 条评论——该平台今天最热闹的帖子）证实了这一点：广告拦截器、机器人和会话垃圾让每个虚荣指标膨胀。军备竞赛刚拿到了它的周末项目武器：[Mousecrack](https://github.com/puffinsoft/mousecrack)，一个像人一样移动鼠标的 LSTM——所以纯行为检测必死。钱的一面同样残酷：一个 [7.3M 自然浏览、3,000 人排队注册的 Kickstarter](https://www.reddit.com/r/SideProject/comments/1vhtt8q/update_i_posted_my_prototype_here_then_the/) 10 天只转化了 17 个支持者；一张[投资人截图带来 4.5M 浏览和 1 个付费订阅](https://www.indiehackers.com/post/an-investor-screenshotted-my-landing-page-and-it-did-4-5m-views-it-only-netter-me-1-paying-subscriber-3e174304d8)。创始人正基于虚构的数字做决策。\n\n**构建：RealCount。** 一个即插即用脚本（一个 `tag`，或一个 Cloudflare 风格的 `worker`），给每个请求打分——数据中心 `ASN` 段、无头浏览器 `user agent`、无 JavaScript + 秒跳模式、鼠标移动直方图——返回只算真人的浏览量、只算真人的转化率，以及一个「机器人占比」数字。2 小时的 `MVP` 只有三块：tag、十条规则的过滤器、一个返回诚实数字的端点。买家看得见的价值：*知道你的访客里有多少是真人。* 你相对在位者的不公平优势：他们卖给你计数，你卖的是减法。\n\n**关键判断**: 把诚实的计数器做出来——机器人占比是本周每个创始人都在缺失的指标，而自白帖就是你的获客名单。\n\n**反向视角**: 完美检测不存在——LSTM 老鼠已经有了——Google 自己的爬虫也是「机器人」，这个数字永远有争议；目标是更好的数字，不是完美的数字。\n\n---",
+      "source_url": "https://raw.githubusercontent.com/BuilderPulse/BuilderPulse/main/zh/2026/2026-08-08.md"
+    },
+    {
+      "heading": "哪些定价和变现模型值得研究？",
+      "body_md": "**🔍 信号**: 今天两个模型相撞：付费墙难民剧本——`Wave` 把银行信息流设了付费墙，几小时内就出现迁移指南，而「quickbooks alternative」三个月保持 +80%——以及静默改价的失败案例：一个象棋应用的服务端价格修改让销售归零三天。\n\n**白话说：** 付费墙制造可衡量的难民需求（Wave、`Doodle`、`QuickBooks`），静默改价摧毁销售——两个方向都值得研究。\n\n付费墙难民模型是今天最干净的模式。[Wave](https://www.indiehackers.com/post/wave-just-paywalled-bank-feeds-i-wrote-a-migration-guide-for-the-refugees-2a02629ef9) 在免费记账产品上把银行信息流设了付费墙；一天之内就有人发布迁移指南；「quickbooks alternative」搜索三个月保持在 +80%——需求在收入之前先在搜索上可衡量。同样的形状出现在日程（[doodle poll](https://trends.google.com/trends/explore?q=doodle+poll&date=now+7-d)，+70%——免费层缩水）和创作软件（InDesign 和 After Effects 的替代品在涨）。反例是那个象棋应用：[服务端年费变更](https://www.reddit.com/r/SideProject/comments/1vh45kg/i_built_a_duolingo_for_chess_5_weeks_in_428_users/) 静默地把所有平台的 $39.99 提到 $79.99，销售归零三天，创始人花了两天调试付费墙。定价运维——flag、回滚、按平台配置——是真实的失败模式。智能体时代带来第三个模型：[Nitro 4.0](https://www.producthunt.com/products/alconost-localization)（222 票）把人肉翻译按 agent-ready API 定价，[Rescript for Desktop](https://www.producthunt.com/products/rescript-edit-videos-like-you-edit-text)（83 票）以免费 + 端侧计算竞争——对付费墙浪潮的「免费且自豪」反制。\n\n**关键判断**: 研究难民剧本——每次免费转付费的动作都会制造一个你可以在 48 小时内接住的搜索尖峰——同时把价格变更当部署对待。\n\n**反向视角**: 难民需求真实但毛利低，迁移指南变现差；多数难民会退而求其次，选一个更差的免费选项。\n\n---",
+      "source_url": "https://raw.githubusercontent.com/BuilderPulse/BuilderPulse/main/zh/2026/2026-08-08.md"
+    },
+    {
+      "heading": "今天最反直觉的发现是什么？",
+      "body_md": "**🔍 信号**: 一个 7.3M 自然浏览、3,000 人排队注册的 Kickstarter 只转化了 17 个支持者；一张 4.5M 浏览的投资人截图只换来 1 个付费订阅；「Mario Meets Pareto」续篇（1,138 票、165 条讨论，昨天为 861 票）补上新的数据点：Koopa 在速度和加速度上都被支配。\n\n**白话说：** 浏览不是需求，「无需技能」和「品味至上」同时成立，大多数权衡是假的。\n\n**注意力不是需求。** 一个[收获 7.3M 自然浏览和 3,000 排队注册的 Kickstarter](https://www.reddit.com/r/SideProject/comments/1vhtt8q/update_i_posted_my_prototype_here_then_the/) 10 天只转化了 17 个支持者；一张[做到 4.5M 浏览的投资人截图](https://www.indiehackers.com/post/an-investor-screenshotted-my-landing-page-and-it-did-4-5m-views-it-only-netter-me-1-paying-subscriber-3e174304d8) 只换来 1 个付费订阅。同一周的 99% 机器人自白解释了原因：「观众」里很多根本不是人。*一句话洞察：浏览是虚荣单位；唯一诚实的分母是人。*\n\n**「无需技能」和「只剩品味」同时成立。** 煎牛排那篇（414 条评论）论证 AI 让烹饪（写代码）几乎不需要技能；品味那篇（514 条评论）论证剩下的技能——判断力——现在就是全部游戏。两者可以调和：入门变容易了，脱颖而出变难了。*一句话洞察：门槛降到了零，天花板移到了品味。*\n\n**马里奥赛车的数据胜过你的直觉。** 「[Mario Meets Pareto](https://www.mayerowitz.io/blog/mario-meets-pareto)」续篇（1,138 票、165 条评论——昨天还是 861）持续产出：`Koopa` 在速度和加速度上都被支配；@__s 指出速通配置都站在 `Pareto frontier` 上；@hspeiser 的弟弟偷偷用前沿配置比赛——「his build was directly on the pareto frontier and mine was not even close」（他的配置直接落在 Pareto 前沿上，我的连边都沾不上）。@cortesoft 补了一句提醒：「more of something is always better」并不总是成立。*一句话洞察：如果你不在前沿上，你引用的权衡只是一个故事，不是一条定律。*\n\n**关键判断**: 本周的三个反转——浏览不转化、技能和品味同时变便宜、大多数「权衡」是假的——指向同一个动作：衡量真人，优化前沿。\n\n**反向视角**: 爆款帖有幸存者偏差，17 个支持者可能在平台算法推流后变成 1,000；而 Pareto 前沿论证取悦的是分析师，不是产品。\n\n---",
+      "source_url": "https://raw.githubusercontent.com/BuilderPulse/BuilderPulse/main/zh/2026/2026-08-08.md"
+    }
+  ]
+}
