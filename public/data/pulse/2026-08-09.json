@@ -1,0 +1,114 @@
+{
+  "date": "2026-08-09",
+  "top3": [],
+  "intro": "（无 LLM 编辑模式：以下为原始数据归档，建议安装 codex CLI 重新生成。）",
+  "sections": [
+    {
+      "id": "discovery",
+      "title": "发现机会",
+      "blocks": [
+        {
+          "id": "indie-products",
+          "heading": "今天有哪些独立开发者的新产品？",
+          "summary_md": "（自动归档模式）今日 Show HN 与 Product Hunt 上线的独立开发者产品列表。",
+          "items": [
+            {
+              "title": "Prompt Golf",
+              "url": "https://www.producthunt.com/products/prompt-golf",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "DocsAlot CLI",
+              "url": "https://www.producthunt.com/products/docsalot-2",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Argos",
+              "url": "https://www.producthunt.com/products/argos-2",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Persodex",
+              "url": "https://www.producthunt.com/products/persodex-contacts-with-context-for-ios",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "VoiceOS App Store",
+              "url": "https://www.producthunt.com/products/voiceos",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Good Assistant 2",
+              "url": "https://www.producthunt.com/products/good-assistant",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Macrobite",
+              "url": "https://www.producthunt.com/products/macrobite",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "DuckDisk",
+              "url": "https://www.producthunt.com/products/duckdisk",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Soup CLI",
+              "url": "https://www.producthunt.com/products/soup-cli",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Omniwork",
+              "url": "https://www.producthunt.com/products/omniwork-2",
+              "source": "ProductHunt"
+            }
+          ],
+          "takeaway": ""
+        }
+      ]
+    },
+    {
+      "id": "tech-stack",
+      "title": "技术选型",
+      "blocks": []
+    },
+    {
+      "id": "competition",
+      "title": "竞争情报",
+      "blocks": []
+    },
+    {
+      "id": "trends",
+      "title": "趋势判断",
+      "blocks": []
+    },
+    {
+      "id": "actions",
+      "title": "行动触发",
+      "blocks": []
+    }
+  ],
+  "generated_at": "2026-08-09T09:27:05+00:00",
+  "reddit_highlights": [
+    {
+      "heading": "今天有哪些 solo-founder 产品发布？",
+      "body_md": "**🔍 信号**: Product Hunt 榜首是 `The GTM Co-Founder`——面向技术创始人的开源 GTM 技能包，338 票；紧随其后的是 `Hexis`（166 票），一个用 git 存储智能体技能与工具的商店；`Basedash Subscriptions`（146 票），把任意仪表盘按计划定时送达；以及 `Toolport`（138 票），\"所有工具、一个端口\"——一套 `MCP` 配置通吃所有智能体。\n\n**白话说：** 今天的发布大多是\"给智能体的技能\"和\"给仪表盘的计划表\"——开发者经济在卖杠杆，而不是卖应用。\n\n今日榜首卖的是分发知识：[The GTM Co-Founder](https://www.producthunt.com/products/the-gtm-co-founder)（338 票、9 条评论）为技术创始人打包了从 0 到市场的技能——这是一个强烈的信号：solo-founder 最大的未解难题不再是构建，而是找到买家（见 *竞争情报*）。[Hexis](https://www.producthunt.com/products/bevel-4)（166 票）是在给同一个想法做版本管理：把给 AI 智能体的技能、工具和上下文存进 git。[Basedash Subscriptions](https://www.producthunt.com/products/basedash)（146 票）把任意仪表盘变成定时摘要——\"subscribe to any dashboard, delivered on schedule\"（订阅任意仪表盘，按计划送达）。[Toolport](https://www.producthunt.com/products/conduit-12)（138 票）用一套 MCP 配置解决所有工具的智能体接入摩擦。Reddit 上，一位独立开发者的 [Swift 引擎把 1200 亿参数模型从 SSD 流式加载到 16GB MacBook Air 上运行](https://www.reddit.com/r/SideProject/comments/1vgwln5/i_built_an_engine_in_swift_that_runs_a/)（18 次赞同），速度 1.4 词/秒——和 ExpertCache 的 Show HN 是同一个技巧（见 *技术选型*）；而 [Trovy](https://www.reddit.com/r/SideProject/comments/1vir8wt/now_you_can_organize_your_hoard_room_by_room/)（14 次赞同）给家中物品拍照、命名、分类，用于保险理赔。[Pesterly](https://www.producthunt.com/products/pesterly)（12 票）自动催客户交资料，[AstraPixels](https://www.producthunt.com/products/astrapixels)（239 票）按太阳系此刻的真实位置渲染像素风行星。\n\n**关键判断**: 卖杠杆，不卖应用——技能包、定时摘要、一次性配置是今天的模式；榜首产品证明创始人最先关注的是分发。\n\n**反向视角**: 开源产品赢得投票，赢不到收入——而且\"一套 MCP 配置\"追的是一个智能体自己可能很快就解决的配置问题。\n\n---",
+      "source_url": "https://raw.githubusercontent.com/BuilderPulse/BuilderPulse/main/zh/2026/2026-08-09.md"
+    },
+    {
+      "heading": "开发者在抱怨哪些工具？",
+      "body_md": "**🔍 信号**: 今天最大的两个帖子根本不谈工具：1,167 条评论聊\"如果整个职业群体对职业失去信念会发生什么\"，360 条聊\"'写代码从来不是最难的部分'是对所有程序员的侮辱\"——另有 r/SideProject 上 25 次赞同的\"I hate AI-written posts!\"（我讨厌 AI 写的帖子！）和 DEV 上 127 条评论的\"你会怎么判断内容好坏\"。\n\n**白话说：** 今天最响亮的抱怨是关于工作、社区和内容——而不是软件。\n\n[Noema 文章的讨论串](https://news.ycombinator.com/item?id=49209539)是行业在和自己争论：@marginalia_nu 指出，90 年代的人上网是为了逃离线下现实，而 20 年代的人下线是为了逃离线上现实；@dec0dedab0de 干了 20 年技术，说这是他最不在乎这个行业的一次；@xlii 称技术是\"a gilded profession\"（镀金的职业），吸引的是追金者而非追手艺者；@brushfoot 的反驳——作者本人是 AI 运营总监，他的文章本身就是知识工作。反击文章是 [@senko 的这篇](https://blog.senko.net/code-was-never-the-hard-part-is-an-insult-to-all-programmers)：\"If coding is easy, why is software so damn buggy?\"（如果写代码很容易，为什么软件这么烂？）——360 条评论，Lobsters 又加了 15 条。文章之下是具体的怨气：[\"I hate AI-written posts!\"](https://www.reddit.com/r/SideProject/comments/1vedz02/i_hate_ai_written_posts/)（25 次赞同）捕捉到社区对机器生成的发布故事的疲劳——一位创始人称它们\"disrespectful and discouraging\"（既不尊重人又打击人）；DEV 那条 127 条评论的帖子问：当人人都在生成内容时，怎么判断内容好坏。连[被裁创始人的求助帖](https://www.reddit.com/r/SideProject/comments/1vi0glx/i_never_thought_id_be_the_one_making_a_post_like/)——\"down to about one month of savings\"（储蓄只剩大约一个月了，9 次赞同）——也属于同一种情绪。连续第二天，行业最大的话题是意义和信任，而不是可用性和功能。\n\n**关键判断**: 人写的故事现在是一种功能——今天表现最好的帖子都是\"读起来像人\"的；像人一样写作，别像模型。\n\n**反向视角**: 每次宏观波动之后职业话题都会聚集，7 月减少 23,000 个岗位的报告（349 条评论）也在其中起作用——即使 AI 不是周期性的，这种情绪可能是。\n\n---",
+      "source_url": "https://raw.githubusercontent.com/BuilderPulse/BuilderPulse/main/zh/2026/2026-08-09.md"
+    },
+    {
+      "heading": "本周最重要的开源 AI 进展是什么？",
+      "body_md": "**🔍 信号**: 两个独立项目现在都能在 16GB Mac 上跑 1200 亿参数模型——Reddit 上一个 solo Swift 引擎（1.4 词/秒）和 ExpertCache Show HN 从一个 63GB 文件流式运行 GPT-OSS 120B——而 DeepSeek V4 Flash 官方 ARC Prize 讨论串涨到 457 条评论，google/skills 新增 1,143 stars。\n\n**白话说：** 1200 亿参数模型现在能跑在基础款笔记本上——慢，但在本地。\n\nSSD 流式技巧今天正式出圈。那篇 [Reddit 帖子](https://www.reddit.com/r/SideProject/comments/1vgwln5/i_built_an_engine_in_swift_that_runs_a/)把机制说得很精确：120B 混合专家模型每个 token 只触及约 3% 的子网络，所以作者把 2GB 的共享核心放在内存里，其余部分从 SSD 流式加载——基础款 MacBook Air 上 1.4 词/秒，不需要 64GB 机器。[ExpertCache Show HN](https://github.com/amos-labs/expertcache) 用 GPT-OSS 120B（磁盘 63GB、16GB M1 Pro）做了同样的事。这不是基准测试，而是一个正在成型的模式——两个互不相识的作者、同一个架构洞见、同一周（antirez 的 ds4 之前覆盖了 CUDA/Metal 一侧）。另外，[DeepSeek V4 Flash 0731 ARC Prize 讨论串](https://news.ycombinator.com/item?id=49214008)涨到 457 条评论：@ak_t 报告双 RTX Pro 6000 上预填充约 8k tokens/秒，称这次发布\"a whole tier up\"（整体高了一档）；@mosura 说他现在编程更爱用 DeepSeek，\"because of the way it talks\"（因为它说话的方式），并在两个模型之间来回切换，让它们互相抓对方的错。还有 [google/skills](https://github.com/google/skills)（每周 1,143 stars）让 skill file 格式正式化（见 *趋势判断*）。开放权重生态正在两条线上成熟：更大的模型跑进更小的机器，更小的工件有了正式分发。\n\n**关键判断**: 本地 120B 推理是一股真实的工程浪潮——第一个带干净安装的托管式 `SSD-MoE` 运行器将赢下 16GB Mac 人群。\n\n**反向视角**: 1.4 词/秒是演示速度，不是工作速度——而且 SSD 流式是用电池和硬盘损耗换 RAM；在变快之前，用例依然狭窄。\n\n---",
+      "source_url": "https://raw.githubusercontent.com/BuilderPulse/BuilderPulse/main/zh/2026/2026-08-09.md"
+    },
+    {
+      "heading": "Indie 开发者在讨论哪些收入和定价问题？",
+      "body_md": "**🔍 信号**: 三条收入故事主导 Indie Hackers——发布 60 天内做到 `$10k MRR`（如今 `$20k`；88 次赞同）、副业三年后 $6.4k/月（106 次赞同）、数据科学家的 $7k/月 产品组合（69 次赞同）——而 Reddit 上最能赚钱的故事是个玩笑产品：一个会逃跑的\"不\"按钮，430 次打开，创始人人生第一笔成交。\n\n**白话说：** 今天的收入数据：验证驱动的发布 60 天做到 $10k MRR，一个玩笑网站赚到了第一笔钱。\n\n[@Ivan Nedelkovski 的故事](https://www.indiehackers.com/post/tech/exiting-his-agency-and-hitting-10k-mrr-within-60-days-of-launching-his-saas-sTo5m9qfhxXbruvhBIyH)——退出代理商、先验证、发布 60 天做到 $10k MRR、现在 $20k——是今天点赞最多的创始人故事（88 次赞同、51 条评论）；它的引擎是一套验证框架，而验证框架本身可能才是真正的产品。[@Jonathan Geiger 三年副业后的 $6.4k/月](https://www.indiehackers.com/post/tech/side-hustling-for-three-years-before-going-all-in-and-hitting-6-4k-mrr-5kZRj2Lln7jO7nVVoYFP)（106 次赞同）是耐心的对照：第五、第六个产品才真正跑通。那位[数据科学家的 $7k/月 组合](https://www.indiehackers.com/post/tech/this-full-time-data-scientist-built-a-7k-mo-portfolio-of-side-projects-quOo7AXtrGlePopsGslc)（69 次赞同）在正职之余运营着服务 2.5 亿用户的产品。Reddit 上最有教学意义的故事最小：一个[玩笑网站](https://www.reddit.com/r/SideProject/comments/1vebakd/my_first_money_ever_came_from_a_joke_product/)——把链接发给一个人，对方做是/否选择，\"不\"按钮会逃跑——430 次打开，创始人人生第一笔钱（22 次赞同）。两条帖子把定价问题磨得更锋利：[\"Are my ads actually making me money?\"](https://www.indiehackers.com/post/are-my-ads-actually-making-me-money-56f518aa4b)（我的广告真的在赚钱吗？15 次赞同、20 条评论）和[\"no signup, no email\" 宣言](https://www.reddit.com/r/SideProject/comments/1vgermn/is_anyone_else_building_things_that_ask/)（不注册、不邮箱，21 次赞同），后者认为漏斗至上的共识正在摧毁信任。还有一个给积压想法做\"做/跳过\"裁决的 [$12 技能文件](https://www.indiehackers.com/post/i-shipped-a-12-skill-file-that-gives-your-saved-idea-backlog-a-go-skip-verdict-heres-the-honest-test-d1fdc6f020)，展示了最新的微电商：卖工作流，不卖软件。\n\n**关键判断**: 验证优先赢下今天——60 天到 `$10k` 的路径有记录、可复现；玩笑产品则证明：付款先于打磨。\n\n**反向视角**: 幸存者偏差给两个故事都注了水——每一个 $20k MRR 背后都有几百篇\"104 个免费工具\"帖；真正重要的帖子是那些 `$56 MRR` 加一次定价事故的。\n\n---",
+      "source_url": "https://raw.githubusercontent.com/BuilderPulse/BuilderPulse/main/zh/2026/2026-08-09.md"
+    }
+  ]
+}
