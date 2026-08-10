@@ -1,0 +1,110 @@
+{
+  "date": "2026-08-10",
+  "top3": [],
+  "intro": "（无 LLM 编辑模式：以下为原始数据归档，建议安装 codex CLI 重新生成。）",
+  "sections": [
+    {
+      "id": "discovery",
+      "title": "发现机会",
+      "blocks": [
+        {
+          "id": "indie-products",
+          "heading": "今天有哪些独立开发者的新产品？",
+          "summary_md": "（自动归档模式）今日 Show HN 与 Product Hunt 上线的独立开发者产品列表。",
+          "items": [
+            {
+              "title": "Show HN: Voice driven murder mystery, Interview AI suspects with your voice",
+              "url": "https://www.whodunnitai.com/",
+              "source": "HN",
+              "score": 75
+            },
+            {
+              "title": "Remix",
+              "url": "https://www.producthunt.com/products/remix-8",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "oqoqo",
+              "url": "https://www.producthunt.com/products/oqoqo",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Vidaya",
+              "url": "https://www.producthunt.com/products/vidaya",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "AI Group Call",
+              "url": "https://www.producthunt.com/products/ai-group-call",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Prime Agent",
+              "url": "https://www.producthunt.com/products/prime-intellect",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "SecondBrain Note by GenSpark",
+              "url": "https://www.producthunt.com/products/genspark",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Gutta",
+              "url": "https://www.producthunt.com/products/gutta",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Portfolio Lab",
+              "url": "https://www.producthunt.com/products/portfolio-lab",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Paritok",
+              "url": "https://www.producthunt.com/products/paritok",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Good Assistant 2",
+              "url": "https://www.producthunt.com/products/good-assistant",
+              "source": "ProductHunt"
+            }
+          ],
+          "takeaway": ""
+        }
+      ]
+    },
+    {
+      "id": "tech-stack",
+      "title": "技术选型",
+      "blocks": []
+    },
+    {
+      "id": "competition",
+      "title": "竞争情报",
+      "blocks": []
+    },
+    {
+      "id": "trends",
+      "title": "趋势判断",
+      "blocks": []
+    },
+    {
+      "id": "actions",
+      "title": "行动触发",
+      "blocks": []
+    }
+  ],
+  "generated_at": "2026-08-10T09:22:29+00:00",
+  "reddit_highlights": [
+    {
+      "heading": "今天有哪些 solo-founder 产品发布？",
+      "body_md": "**🔍 信号**：本周发布的玩法分两派——面向创意工作的桌面 AI 智能体（`Omniwork` 拿到 345 票）和砍掉账号与订阅的小工具。\n\n**白话说：** 如果你用 AI 工具，本周的发布告诉你钱在往哪走：住在你桌面上的智能体、自带商店的语音应用，以及免费替代 `$24/月` 订阅的本地工具。\n\n[Omniwork](https://www.producthunt.com/products/omniwork-2) 以 345 票领跑 Product Hunt，自称 \"The Creative Agent OS\"（创意智能体操作系统——用桌面 AI 智能体创造得更好）。紧随其后的 [VoiceOS App Store](https://www.producthunt.com/products/voiceos)（271 票）开张为 \"the app store for voice native apps that lives in your notch\"（住在刘海里的语音原生应用商店）——一个一周前还不存在的语音应用分发货架。[SoloUno](https://www.producthunt.com/products/solouno)（251 票）走了另一条路：一个帮你打断拔头发、咬指甲、抠皮肤习惯的 iOS/Android 应用，38 条评论——在两个智能体平台之外，它是当天讨论最多的发布。\n\n开发者工具发布集中在「智能体信任」上：[Proxy Tester by ScrapeOps](https://www.producthunt.com/products/proxy-benchmark-by-scrapeops)（157）给代理做定向爬取基准测试，[DocsAlot CLI](https://www.producthunt.com/products/docsalot-2)（153）让 Claude 或 Codex 写文档，[AgentConnect](https://www.producthunt.com/products/agentconnect)（143）给任何地方发生的工作打上智能体标签，[TAKT](https://www.producthunt.com/products/takt-3)（14）贡献了本周最直白的宣言：\"Stop babysitting AI coding agents\"（别再当 AI 编码智能体的保姆了）——审查不能跳过。\n\nReddit 上的独立开发者走了完全相反的方向——免费、本地。[Rescript](https://github.com/wassgha/rescript)（16 赞）是「免费开源的 Descript 替代品，在设备本地剪辑播客」（\"Descript costs $24/mo, so I built this over a single weekend\"——「Descript 要 $24/月，所以我用一个周末自己造了一个」）；还有一个[地图海报生成器](https://www.reddit.com/r/SideProject/comments/1vf86ee/i_built_a_free_map_poster_maker_any_place_on/)主打无账号、无水印、零付费——\"the map lives in the URL after the #, so your location never reaches a server\"（地图存在 URL 的 # 后面，你的位置永远不会到达服务器）。[why.com](https://www.reddit.com/r/SideProject/comments/1vjqjoz/just_launched_whycom/) 上线时的卖点是 \"most search ends after one answer. i wanted the next question to be the fun part.\"（大多数搜索在得到一个答案后就结束了，我想让下一个问题成为有趣的部分）。\n\n**关键判断**：注意双轨模式：智能体在桌面端聚合（Omniwork、`VoiceOS`），而独立发布靠「无账号、无订阅」取胜——发布免费本地版，让 $24/月 的巨头给你送搜索流量。\n\n**反向视角**：Product Hunt 的票数是首日人群，不是收入——`Omniwork` 的 345 票可能是对一个此前坑过买家的品类（桌面智能体）的炒作。\n\n---",
+      "source_url": "https://raw.githubusercontent.com/BuilderPulse/BuilderPulse/main/zh/2026/2026-08-10.md"
+    },
+    {
+      "heading": "最受欢迎的 Show HN 项目在用哪些技术栈？",
+      "body_md": "**🔍 信号**：本周最高分 Show HN（104 分）是 1980 年代 `Oberon` 系统移植到 `FPGA` 板上的 `RISC-V`——而务实派聚集在 `Rust`、`Go` 和原生 JS 单文件工具上。\n\n**白话说：** Show HN 冠军是一个跑在 FPGA 上的 40 岁教学操作系统，亚军是各种微型 Rust 和 Go 工具——「裸金属」与「无聊技术栈」两个极端定义了本周。\n\n[Rochus](https://github.com/rochus-keller/OberonSystem/tree/op2-rv32) 把 Wirth 的 Project Oberon 移植到 RISC-V，整个系统「跑在一块低成本开发板（Xilinx Spartan-3……1 MB 静态 RAM）」上——104 分，一整个 Oberon 朝圣者线程：@thisislife2 称它 \"excellent work to keep Wirth's computing spirit alive\"（让 Wirth 的计算精神延续的出色工作）。工程工具聚集在 Rust 和 Go：[Albedo](https://github.com/klirix/albedo)，一个 Zig 写的单文件可听文档数据库；[Mandible](https://github.com/sadigaxund/mandible)，Rust 写的 CLI 手册查看器；[Preloop](https://preloop.dev)，Go 写的、用 libkrun microVM；[Wardline](https://github.com/kabirnarang39/wardline)，Go 写的封锁被攻陷智能体的代理。Web 玩法保持原生：[Alphabet Soup](https://alphabetsoup.club)（23 分）多人文字游戏；[Airy](https://airy.so)（36 分）免费语音内容创作——引来本周最狠的语音批评，来自 @MissTake：\"it seems to fail with prosody and simply speaks the very next word with zero regard to the nuance or cadence that author intended.\"（它在韵律上似乎完全失败，只是把下一个词念出来，完全不管作者意图的细微差别或节奏）。Reddit 的 [CrowdWar](https://www.reddit.com/r/SideProject/comments/1vi9uhq/crowdwar_v041_a_solo_100v100_browser_shooter_no/) 展示了同样的原生纪律放大到规模：\"vanilla JS + canvas... Node.js WebSocket server... ~15 KB/tick even at 100v100. The whole thing runs on a single Oracle Always-Free ARM instance — $0 hosting.\"（原生 JS + canvas……Node.js WebSocket 服务器……100v100 时每 tick 约 15 KB。整个东西跑在一台 Oracle Always-Free ARM 实例上——$0 托管费）。还有 [Whetstone](https://whetstone.akbarsha.dev/) 发布了 20 个 Claude Code skills，每个都从一次真实失败中蒸馏出来——把 `markdown` 当技术栈。\n\n**关键判断**：本周两条可信赛道：单文件 Rust/Go 工具（建得快、发得快）和 `$0` 托管的浏览器游戏——持续赢得 Show HN 的「技术栈」是那个不用付账单的。\n\n**反向视角**：Oberon 的 104 分是怀旧票——复古 OS 移植不会变成产品；那些 3 分的 Rust 工具证明大多数 Show HN 发布始终无人问津。\n\n---",
+      "source_url": "https://raw.githubusercontent.com/BuilderPulse/BuilderPulse/main/zh/2026/2026-08-10.md"
+    }
+  ]
+}
