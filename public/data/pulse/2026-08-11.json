@@ -1,0 +1,93 @@
+{
+  "date": "2026-08-11",
+  "top3": [],
+  "intro": "（无 LLM 编辑模式：以下为原始数据归档，建议安装 codex CLI 重新生成。）",
+  "sections": [
+    {
+      "id": "discovery",
+      "title": "发现机会",
+      "blocks": [
+        {
+          "id": "indie-products",
+          "heading": "今天有哪些独立开发者的新产品？",
+          "summary_md": "（自动归档模式）今日 Show HN 与 Product Hunt 上线的独立开发者产品列表。",
+          "items": [
+            {
+              "title": "Tines 3B",
+              "url": "https://www.producthunt.com/products/tines",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Product Analytics for Agents and Users",
+              "url": "https://www.producthunt.com/products/kubit",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Switchy for Mac",
+              "url": "https://www.producthunt.com/products/switchy-for-mac",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Bullet",
+              "url": "https://www.producthunt.com/products/bullet-6",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Octomind Cloud and Hub",
+              "url": "https://www.producthunt.com/products/octomind-plug-n-play-ai-agents",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "ScreenMark",
+              "url": "https://www.producthunt.com/products/screenmark-annotation-draw",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "bb",
+              "url": "https://www.producthunt.com/products/bb",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Vizard Agent",
+              "url": "https://www.producthunt.com/products/vizard-agent-the-first-video-agi",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "BetterClaw",
+              "url": "https://www.producthunt.com/products/betterclaw",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Xirp",
+              "url": "https://www.producthunt.com/products/spotify",
+              "source": "ProductHunt"
+            }
+          ],
+          "takeaway": ""
+        }
+      ]
+    },
+    {
+      "id": "tech-stack",
+      "title": "技术选型",
+      "blocks": []
+    },
+    {
+      "id": "competition",
+      "title": "竞争情报",
+      "blocks": []
+    },
+    {
+      "id": "trends",
+      "title": "趋势判断",
+      "blocks": []
+    },
+    {
+      "id": "actions",
+      "title": "行动触发",
+      "blocks": []
+    }
+  ],
+  "generated_at": "2026-08-11T09:39:42+00:00",
+  "reddit_highlights": []
+}

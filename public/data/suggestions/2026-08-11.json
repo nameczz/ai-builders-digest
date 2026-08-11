@@ -1,0 +1,62 @@
+{
+  "date": "2026-08-11",
+  "items": [
+    {
+      "id": "2026-08-11-1",
+      "title": "gpt luna max vs claude fable u",
+      "angle": "（自动归档模式：未生成）",
+      "opening": "gpt luna max vs claude fable ultracode \n\nsent \"pls build a mostly faithful clone of grok imagine with open models via fal\"\n\ni woke up to these two and assumed fable was left and luna was right\n\ni was ",
+      "story_hook": {
+        "challenge": "",
+        "twist": ""
+      },
+      "takeaway": "",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Swyx",
+          "url": "https://x.com/swyx/status/2087045848022843451"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-11-2",
+      "title": "btw pdb envs have an experimen",
+      "angle": "（自动归档模式：未生成）",
+      "opening": "btw pdb envs have an experimental AFS clone support that basically does what all of you are suggesting but runtime agnostic and language agnostic\n\nhttps://t.co/SiFupvsIm8\n\nwe shall replace git by maki",
+      "story_hook": {
+        "challenge": "",
+        "twist": ""
+      },
+      "takeaway": "",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Swyx",
+          "url": "https://x.com/swyx/status/2087017780617126075"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-11-3",
+      "title": "Are they going to send this to",
+      "angle": "（自动归档模式：未生成）",
+      "opening": "Are they going to send this to China too? https://t.co/uDui5DGmMD",
+      "story_hook": {
+        "challenge": "",
+        "twist": ""
+      },
+      "takeaway": "",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Garry Tan",
+          "url": "https://x.com/garrytan/status/2087015462014197906"
+        }
+      ]
+    }
+  ],
+  "notes": "fallback mode: codex CLI not available",
+  "generated_at": "2026-08-11T09:49:42+00:00",
+  "model": "gpt-5.5"
+}
