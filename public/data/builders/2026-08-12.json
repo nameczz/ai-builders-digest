@@ -1,0 +1,502 @@
+{
+  "date": "2026-08-12",
+  "generated_at": "2026-08-12T09:17:30+00:00",
+  "count": 33,
+  "items": [
+    {
+      "id": "016c1f7a14",
+      "date": "2026-08-12",
+      "source": "x",
+      "author": "Thibault Sottiaux",
+      "bio": "Codex & ChatGPT @OpenAI",
+      "title": "",
+      "summary_en": "I previously promised a reset for every 1M in additional active users for Codex, until 10M. \n\nWe blew past that and have been silent since 10M. Little surprise for you tomorrow.",
+      "summary_zh": "",
+      "url": "https://x.com/thsottiaux/status/2087423996115681767",
+      "posted_at": "2026-08-12T06:20:37.000Z",
+      "tags": [
+        "@thsottiaux"
+      ]
+    },
+    {
+      "id": "a4cb279b39",
+      "date": "2026-08-12",
+      "source": "x",
+      "author": "Aaron Levie",
+      "bio": "ceo @box - your business lives in content. unleash it with AI",
+      "title": "",
+      "summary_en": "Good post on how to think about FDEs. The key is that FDEs are real and not going away for AI any time soon.\n\nThe reason this is happening now at a scale that has never been seen before is because AI is fundamentally about adding a non-deterministic, rapidly changing system to workflows that largely have never been automated before. This looks very little like implementing traditional software.\n\n“If you're building an AI agent for accounting in 2026, there is no established workflow, because literally nobody has ever used one of these. Nobody knows what the user journey looks like — not you, and importantly, not your customer either. They can't tell you what they want, because the thing they'd want doesn't have a shape yet.”\n\nSoftware has largely always been deterministic and once implemented effectively worked the same for customers. This meant the upfront implementation work was *relatively* uniform across similar customers, and the system wasn’t regularly being upgraded in fundamental ways. \n\nAI agents are entirely different on nearly every dimension. The customer’s business process has to change to work with agents, there is heavy -necessary- customization to get agents to work in the customers end-state process, evals need to be run constantly, the AI models are constantly changing and updates need to keep getting incorporated, the underlying harness and broader system are often changing due to customer feedback, and much more. \n\nThis is real work for the customer, systems integrators, and the applied AI vendors. Even as AI capabilities improve dramatically, this work remains (or even gets more complicated) given enterprises will just throw increasingly more complex processes at agents. Great time to be an FDE.",
+      "summary_zh": "",
+      "url": "https://x.com/levie/status/2087385493684335064",
+      "posted_at": "2026-08-12T03:47:38.000Z",
+      "tags": [
+        "@levie"
+      ]
+    },
+    {
+      "id": "485e8b8611",
+      "date": "2026-08-12",
+      "source": "x",
+      "author": "Madhu Guru",
+      "bio": "Sr Director, AI at Meta; Prev: Google - Led Gemini, Veo, Nano Banana.",
+      "title": "",
+      "summary_en": "dev rels are having their moment.\n\nsince building software has become trivial, distribution is your biggest unlock. \n\npeople with great social media game + tech chops are invaluable. https://t.co/yTrUFcQdHZ",
+      "summary_zh": "",
+      "url": "https://x.com/realmadhuguru/status/2087362394280599641",
+      "posted_at": "2026-08-12T02:15:50.000Z",
+      "tags": [
+        "@realmadhuguru"
+      ]
+    },
+    {
+      "id": "7107f13fdd",
+      "date": "2026-08-12",
+      "source": "x",
+      "author": "Madhu Guru",
+      "bio": "Sr Director, AI at Meta; Prev: Google - Led Gemini, Veo, Nano Banana.",
+      "title": "",
+      "summary_en": "story time..\n\nin 2023 (my previous role) I remember the first time some customers volunteered their prompt logs to us. \n\nWe were surprised by the number of “build me an app for X” prompts.\n\nfelt wildly ambitious at the time. models were barely graduating from code completion to generating a useful block of code.\n\nBut it was a great signal of what people actually wanted, and shaped a lot of our vision: systems that could design, build and deploy an app end to end from a simple ask.\n\nPretty wild that 3 yrs later we’re basically there.",
+      "summary_zh": "",
+      "url": "https://x.com/realmadhuguru/status/2087355597851390220",
+      "posted_at": "2026-08-12T01:48:50.000Z",
+      "tags": [
+        "@realmadhuguru"
+      ]
+    },
+    {
+      "id": "6b45caf636",
+      "date": "2026-08-12",
+      "source": "x",
+      "author": "Guillermo Rauch",
+      "bio": "@vercel CEO",
+      "title": "",
+      "summary_en": "Many people are saying https://t.co/iluZF3d1Iu",
+      "summary_zh": "",
+      "url": "https://x.com/rauchg/status/2087354092914122896",
+      "posted_at": "2026-08-12T01:42:51.000Z",
+      "tags": [
+        "@rauchg"
+      ]
+    },
+    {
+      "id": "41204a8b65",
+      "date": "2026-08-12",
+      "source": "x",
+      "author": "Peter Yang",
+      "bio": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6",
+      "title": "",
+      "summary_en": "Getting many messages like these for /human-review.\n\nIt's now at 717 GitHub stars! \n\nTry it here for free and ⭐ it if you like it: https://t.co/iKZH4GceFn https://t.co/xVT7rH0nEI https://t.co/AfjdpMbwTX",
+      "summary_zh": "",
+      "url": "https://x.com/petergyang/status/2087345374633824486",
+      "posted_at": "2026-08-12T01:08:12.000Z",
+      "tags": [
+        "@petergyang"
+      ]
+    },
+    {
+      "id": "820e89d5e0",
+      "date": "2026-08-12",
+      "source": "x",
+      "author": "Nikunj Kothari",
+      "bio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
+      "title": "",
+      "summary_en": "if a founder cancels on you on a scheduled meeting, that’s a sign of great respect in their culture",
+      "summary_zh": "",
+      "url": "https://x.com/nikunj/status/2087341164752240860",
+      "posted_at": "2026-08-12T00:51:29.000Z",
+      "tags": [
+        "@nikunj"
+      ]
+    },
+    {
+      "id": "d7b019c37c",
+      "date": "2026-08-12",
+      "source": "x",
+      "author": "Peter Yang",
+      "bio": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6",
+      "title": "",
+      "summary_en": "Trying to onboard my parents to ChatGPT desktop app and the separation between Chat, Work, and Codex and the lack of consistency across ChatGPT web, desktop, and mobile apps is all incredibly messy.\n\nI think the team should do a clean up / quality pass or maybe ask Codex to do it.\n\n(I say all this as a Codex fan)",
+      "summary_zh": "",
+      "url": "https://x.com/petergyang/status/2087340277874995223",
+      "posted_at": "2026-08-12T00:47:57.000Z",
+      "tags": [
+        "@petergyang"
+      ]
+    },
+    {
+      "id": "76e7c5d233",
+      "date": "2026-08-12",
+      "source": "x",
+      "author": "Guillermo Rauch",
+      "bio": "@vercel CEO",
+      "title": "",
+      "summary_en": "The growth of @aisdk has been astonishing. ~80.5M downloads every 30 days, and growing faster than all AI labs SDKs. Most importantly: open and provider-agnostic. https://t.co/EZxyu94gk0 https://t.co/sdVZTZhsCP",
+      "summary_zh": "",
+      "url": "https://x.com/rauchg/status/2087339038781161858",
+      "posted_at": "2026-08-12T00:43:02.000Z",
+      "tags": [
+        "@rauchg"
+      ]
+    },
+    {
+      "id": "a63bd8b44c",
+      "date": "2026-08-12",
+      "source": "x",
+      "author": "Guillermo Rauch",
+      "bio": "@vercel CEO",
+      "title": "",
+      "summary_en": "Keep an eye on this view\nhttps://t.co/iir02GoUUw https://t.co/iYEI1rO9Jy https://t.co/0ey1ut4h70",
+      "summary_zh": "",
+      "url": "https://x.com/rauchg/status/2087314071519707288",
+      "posted_at": "2026-08-11T23:03:49.000Z",
+      "tags": [
+        "@rauchg"
+      ]
+    },
+    {
+      "id": "b2be2311dc",
+      "date": "2026-08-12",
+      "source": "x",
+      "author": "Matt Turck",
+      "bio": "VC at @FirstMarkCap.  Host: MAD Podcast; Organizer: Data Driven NYC, Author: MAD Landscape.",
+      "title": "",
+      "summary_en": "The Hugging Face intrusion got all the press, but the AISI incident last week might even more disturbing:  the first time an AI model autonomously manipulates a *human* (an open-source maintainer) while pursuing another goal (in the wild and unprompted) - @Thom_Wolf https://t.co/uVffjtTFuX https://t.co/zd0ot6hUZ2",
+      "summary_zh": "",
+      "url": "https://x.com/mattturck/status/2087311436779298897",
+      "posted_at": "2026-08-11T22:53:21.000Z",
+      "tags": [
+        "@mattturck"
+      ]
+    },
+    {
+      "id": "ae20acf3dd",
+      "date": "2026-08-12",
+      "source": "x",
+      "author": "Dan Shipper",
+      "bio": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "title": "",
+      "summary_en": "there is one glaring omission on this map 👀 https://t.co/UBbzGSLM8L",
+      "summary_zh": "",
+      "url": "https://x.com/danshipper/status/2087309557261324701",
+      "posted_at": "2026-08-11T22:45:53.000Z",
+      "tags": [
+        "@danshipper"
+      ]
+    },
+    {
+      "id": "42d395c73a",
+      "date": "2026-08-12",
+      "source": "x",
+      "author": "Peter Yang",
+      "bio": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6",
+      "title": "",
+      "summary_en": "I think @X should ship this button or better yet make @CommunityNotes cover this use case. https://t.co/sKJkqrqpGP",
+      "summary_zh": "",
+      "url": "https://x.com/petergyang/status/2087300215388979282",
+      "posted_at": "2026-08-11T22:08:46.000Z",
+      "tags": [
+        "@petergyang"
+      ]
+    },
+    {
+      "id": "4286c08131",
+      "date": "2026-08-12",
+      "source": "x",
+      "author": "Boris Cherny",
+      "bio": "Claude Code @anthropicai",
+      "title": "",
+      "summary_en": "LLMs still produce bugs, but those bugs are different than what they used to be. It’s less off-by-ones and more about system design, ui usability, missing broader context. Some kinds of coding has been solved, but not all.\n\nWhile models continue to improve, adversarial code review has been an incredibly powerful tool to catch many of these kinds of bugs.\n\nIt can be as simple as a one line prompt - “use a dynamic workflow to adversarial test every edge case in an iOS simulator”, or use Claude’s built in /code-review (or /code-review low, /code-review medium, etc.)",
+      "summary_zh": "",
+      "url": "https://x.com/bcherny/status/2087284684103537011",
+      "posted_at": "2026-08-11T21:07:03.000Z",
+      "tags": [
+        "@bcherny"
+      ]
+    },
+    {
+      "id": "65ca15689d",
+      "date": "2026-08-12",
+      "source": "x",
+      "author": "Nan Yu",
+      "bio": "head of product @linear",
+      "title": "",
+      "summary_en": "Even my 9-month old understands the parable of the hungry caterpillar https://t.co/Bg3BrEVgJI",
+      "summary_zh": "",
+      "url": "https://x.com/thenanyu/status/2087264637817409586",
+      "posted_at": "2026-08-11T19:47:23.000Z",
+      "tags": [
+        "@thenanyu"
+      ]
+    },
+    {
+      "id": "dce3f73c8c",
+      "date": "2026-08-12",
+      "source": "x",
+      "author": "Thariq",
+      "bio": "Claude Code @anthropicai.   prev YC W20, @spc, @medialab",
+      "title": "",
+      "summary_en": "There are more details in the help center &amp; we’ll share more as we roll this out: https://t.co/td69rBzrr4",
+      "summary_zh": "",
+      "url": "https://x.com/trq212/status/2087258093499695106",
+      "posted_at": "2026-08-11T19:21:23.000Z",
+      "tags": [
+        "@trq212"
+      ]
+    },
+    {
+      "id": "6e29d5684b",
+      "date": "2026-08-12",
+      "source": "x",
+      "author": "Thariq",
+      "bio": "Claude Code @anthropicai.   prev YC W20, @spc, @medialab",
+      "title": "",
+      "summary_en": "All Claude generated text will have this embedded watermarking. For example, you could check if a PR was generated by Claude Code.\n\nThat said, it does have limitations. https://t.co/umfn6nU5up",
+      "summary_zh": "",
+      "url": "https://x.com/trq212/status/2087258091821949074",
+      "posted_at": "2026-08-11T19:21:23.000Z",
+      "tags": [
+        "@trq212"
+      ]
+    },
+    {
+      "id": "66c166f6af",
+      "date": "2026-08-12",
+      "source": "x",
+      "author": "Thariq",
+      "bio": "Claude Code @anthropicai.   prev YC W20, @spc, @medialab",
+      "title": "",
+      "summary_en": "This is part of working with the EU AI Act, other labs are adding similar watermarking.\n\nIt’s hard to identify AI-generated text, and this gives people better tools to do that.  We’ll also be a shipping text detection API that you can use yourself. https://t.co/OZtG0fNsqc",
+      "summary_zh": "",
+      "url": "https://x.com/trq212/status/2087258090169414008",
+      "posted_at": "2026-08-11T19:21:22.000Z",
+      "tags": [
+        "@trq212"
+      ]
+    },
+    {
+      "id": "3f204305d1",
+      "date": "2026-08-12",
+      "source": "x",
+      "author": "Garry Tan",
+      "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "title": "",
+      "summary_en": "Anish is a G. Excited for our convo to drop! https://t.co/8rCH3YhHWl",
+      "summary_zh": "",
+      "url": "https://x.com/garrytan/status/2087256959913541812",
+      "posted_at": "2026-08-11T19:16:53.000Z",
+      "tags": [
+        "@garrytan"
+      ]
+    },
+    {
+      "id": "a513b80c60",
+      "date": "2026-08-12",
+      "source": "x",
+      "author": "Thibault Sottiaux",
+      "bio": "Codex & ChatGPT @OpenAI",
+      "title": "",
+      "summary_en": "We did it, finally... Codex &amp; ChatGPT desktop, now on Linux. \n\nThanks for waiting and you can cancel that MacBook order if you got impatient. It’s that good.\n\n👀 https://t.co/QiiDPFct2v",
+      "summary_zh": "",
+      "url": "https://x.com/thsottiaux/status/2087254026232775052",
+      "posted_at": "2026-08-11T19:05:13.000Z",
+      "tags": [
+        "@thsottiaux"
+      ]
+    },
+    {
+      "id": "b294d9f2a7",
+      "date": "2026-08-12",
+      "source": "x",
+      "author": "Garry Tan",
+      "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "title": "",
+      "summary_en": "Build both the job centers and the housing\n\nCalifornia will fall if we don’t do both https://t.co/lws98Go2ux",
+      "summary_zh": "",
+      "url": "https://x.com/garrytan/status/2087253768920556011",
+      "posted_at": "2026-08-11T19:04:12.000Z",
+      "tags": [
+        "@garrytan"
+      ]
+    },
+    {
+      "id": "d1d3be8002",
+      "date": "2026-08-12",
+      "source": "x",
+      "author": "Thibault Sottiaux",
+      "bio": "Codex & ChatGPT @OpenAI",
+      "title": "",
+      "summary_en": "Import your world. Codex. Run. https://t.co/Epj4ULlAC6",
+      "summary_zh": "",
+      "url": "https://x.com/thsottiaux/status/2087252528513814773",
+      "posted_at": "2026-08-11T18:59:16.000Z",
+      "tags": [
+        "@thsottiaux"
+      ]
+    },
+    {
+      "id": "e3558f0979",
+      "date": "2026-08-12",
+      "source": "x",
+      "author": "Swyx",
+      "bio": "achieve ambition with intentionality, intensity, integrity & insanity.  affiliations: - @smol_ai - @dxtipshq - @cognition - @aidotengineer - @latentspacepod",
+      "title": "",
+      "summary_en": "if you have a better skill cutting policy or skill cutting skill lmk\n\nhttps://t.co/ZkOxnGX5Md https://t.co/qXoMl8Vyd2",
+      "summary_zh": "",
+      "url": "https://x.com/swyx/status/2087244948441792543",
+      "posted_at": "2026-08-11T18:29:09.000Z",
+      "tags": [
+        "@swyx"
+      ]
+    },
+    {
+      "id": "f0764639fb",
+      "date": "2026-08-12",
+      "source": "x",
+      "author": "Dan Shipper",
+      "bio": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "title": "",
+      "summary_en": "i am claude's stay-at-home boyfriend https://t.co/7NIYL15uLk",
+      "summary_zh": "",
+      "url": "https://x.com/danshipper/status/2087226736186470821",
+      "posted_at": "2026-08-11T17:16:47.000Z",
+      "tags": [
+        "@danshipper"
+      ]
+    },
+    {
+      "id": "f9e7156e12",
+      "date": "2026-08-12",
+      "source": "x",
+      "author": "Josh Woodward",
+      "bio": "VP, @Google @GoogleLabs @GeminiApp @GoogleAIStudio",
+      "title": "",
+      "summary_en": "🌏On behalf of the whole Gemini team, thank you\nWhether you use Gemini on the Web, Android, iOS, or inside Chrome, we’ll keep listening to your feedback as we keep building for the next billion!",
+      "summary_zh": "",
+      "url": "https://x.com/joshwoodward/status/2087223963525284091",
+      "posted_at": "2026-08-11T17:05:46.000Z",
+      "tags": [
+        "@joshwoodward"
+      ]
+    },
+    {
+      "id": "0f87448209",
+      "date": "2026-08-12",
+      "source": "x",
+      "author": "Josh Woodward",
+      "bio": "VP, @Google @GoogleLabs @GeminiApp @GoogleAIStudio",
+      "title": "",
+      "summary_en": "🍎Apple users are turning to Gemini\n+ Over 100M+ active users on iOS\n+ macOS power users prompt ~2x more frequently than other surfaces",
+      "summary_zh": "",
+      "url": "https://x.com/joshwoodward/status/2087223962229186577",
+      "posted_at": "2026-08-11T17:05:45.000Z",
+      "tags": [
+        "@joshwoodward"
+      ]
+    },
+    {
+      "id": "6e200deee9",
+      "date": "2026-08-12",
+      "source": "x",
+      "author": "Josh Woodward",
+      "bio": "VP, @Google @GoogleLabs @GeminiApp @GoogleAIStudio",
+      "title": "",
+      "summary_en": "🤖Android users love Gemini\n+ Gemini can automate actions across 40+ popular apps\n+ Great for booking rides, reserving tables, and more\n+ More updates coming tomorrow at @madebygoogle!",
+      "summary_zh": "",
+      "url": "https://x.com/joshwoodward/status/2087223960807330234",
+      "posted_at": "2026-08-11T17:05:45.000Z",
+      "tags": [
+        "@joshwoodward"
+      ]
+    },
+    {
+      "id": "13cbcb5cc2",
+      "date": "2026-08-12",
+      "source": "x",
+      "author": "Dan Shipper",
+      "bio": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "title": "",
+      "summary_en": "a fun one to revisit: https://t.co/LuR72velu4",
+      "summary_zh": "",
+      "url": "https://x.com/danshipper/status/2087219724761309288",
+      "posted_at": "2026-08-11T16:48:55.000Z",
+      "tags": [
+        "@danshipper"
+      ]
+    },
+    {
+      "id": "960ae4af83",
+      "date": "2026-08-12",
+      "source": "x",
+      "author": "Aditya Agarwal",
+      "bio": "General Partner @SPC, Co-Founder @Bevel_Health | Ex: Early Eng @facebook, CTO @Dropbox, Board @Flipkart | Optimist, Builder, Dad",
+      "title": "",
+      "summary_en": "@technology @spc https://t.co/odtsQWfyXe",
+      "summary_zh": "",
+      "url": "https://x.com/adityaag/status/2087202353820659960",
+      "posted_at": "2026-08-11T15:39:54.000Z",
+      "tags": [
+        "@adityaag"
+      ]
+    },
+    {
+      "id": "989f546e70",
+      "date": "2026-08-12",
+      "source": "x",
+      "author": "Madhu Guru",
+      "bio": "Sr Director, AI at Meta; Prev: Google - Led Gemini, Veo, Nano Banana.",
+      "title": "",
+      "summary_en": "There’s going to be a ton of money in making open-weight models exceptional at boring, specific business domains.\n\nPick a size x domain combination and go deep. Eg mid-market legal, smb retail, enterprise logistics. \n\nThe hyperscalers have the primitives but will struggle with domain depth, scrappiness and sheer will to make a model exceptional for one particular kind of business.\n\nAnd that is your opportunity.",
+      "summary_zh": "",
+      "url": "https://x.com/realmadhuguru/status/2087198985685750013",
+      "posted_at": "2026-08-11T15:26:31.000Z",
+      "tags": [
+        "@realmadhuguru"
+      ]
+    },
+    {
+      "id": "ce82dd5187",
+      "date": "2026-08-12",
+      "source": "x",
+      "author": "Nikunj Kothari",
+      "bio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
+      "title": "",
+      "summary_en": "If you got a lot of “believe in yourself” texts from your VC, they may have read this blog post last night.. https://t.co/dzPrpTQhhg",
+      "summary_zh": "",
+      "url": "https://x.com/nikunj/status/2087190092716904666",
+      "posted_at": "2026-08-11T14:51:10.000Z",
+      "tags": [
+        "@nikunj"
+      ]
+    },
+    {
+      "id": "b570c66727",
+      "date": "2026-08-12",
+      "source": "x",
+      "author": "Zara Zhang",
+      "bio": "Builder. Make something people want, then make people want it. Harvard’17. GitHub: https://t.co/KCuEaje1wd  YouTube: https://t.co/8xzbGWsHgY",
+      "title": "",
+      "summary_en": "@marclou You should visit! There's one in Shanghai too",
+      "summary_zh": "",
+      "url": "https://x.com/zarazhangrui/status/2087161086701375782",
+      "posted_at": "2026-08-11T12:55:55.000Z",
+      "tags": [
+        "@zarazhangrui"
+      ]
+    },
+    {
+      "id": "c36520fc51",
+      "date": "2026-08-12",
+      "source": "x",
+      "author": "Garry Tan",
+      "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "title": "",
+      "summary_en": "Deep alignment of your AI with you and your context is massively important\n\nImportant new work by @ibab and team https://t.co/TijcK96ckO",
+      "summary_zh": "",
+      "url": "https://x.com/garrytan/status/2087154547580088470",
+      "posted_at": "2026-08-11T12:29:56.000Z",
+      "tags": [
+        "@garrytan"
+      ]
+    }
+  ]
+}
