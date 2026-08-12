@@ -1,0 +1,62 @@
+{
+  "date": "2026-08-12",
+  "items": [
+    {
+      "id": "2026-08-12-1",
+      "title": "I previously promised a reset ",
+      "angle": "（自动归档模式：未生成）",
+      "opening": "I previously promised a reset for every 1M in additional active users for Codex, until 10M. \n\nWe blew past that and have been silent since 10M. Little surprise for you tomorrow.",
+      "story_hook": {
+        "challenge": "",
+        "twist": ""
+      },
+      "takeaway": "",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Thibault Sottiaux",
+          "url": "https://x.com/thsottiaux/status/2087423996115681767"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-12-2",
+      "title": "Good post on how to think abou",
+      "angle": "（自动归档模式：未生成）",
+      "opening": "Good post on how to think about FDEs. The key is that FDEs are real and not going away for AI any time soon.\n\nThe reason this is happening now at a scale that has never been seen before is because AI ",
+      "story_hook": {
+        "challenge": "",
+        "twist": ""
+      },
+      "takeaway": "",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Aaron Levie",
+          "url": "https://x.com/levie/status/2087385493684335064"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-12-3",
+      "title": "dev rels are having their mome",
+      "angle": "（自动归档模式：未生成）",
+      "opening": "dev rels are having their moment.\n\nsince building software has become trivial, distribution is your biggest unlock. \n\npeople with great social media game + tech chops are invaluable. https://t.co/yTrU",
+      "story_hook": {
+        "challenge": "",
+        "twist": ""
+      },
+      "takeaway": "",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Madhu Guru",
+          "url": "https://x.com/realmadhuguru/status/2087362394280599641"
+        }
+      ]
+    }
+  ],
+  "notes": "fallback mode: codex CLI not available",
+  "generated_at": "2026-08-12T09:42:08+00:00",
+  "model": "gpt-5.5"
+}

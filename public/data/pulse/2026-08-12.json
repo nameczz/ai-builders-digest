@@ -1,0 +1,93 @@
+{
+  "date": "2026-08-12",
+  "top3": [],
+  "intro": "（无 LLM 编辑模式：以下为原始数据归档，建议安装 codex CLI 重新生成。）",
+  "sections": [
+    {
+      "id": "discovery",
+      "title": "发现机会",
+      "blocks": [
+        {
+          "id": "indie-products",
+          "heading": "今天有哪些独立开发者的新产品？",
+          "summary_md": "（自动归档模式）今日 Show HN 与 Product Hunt 上线的独立开发者产品列表。",
+          "items": [
+            {
+              "title": "Dograh",
+              "url": "https://www.producthunt.com/products/dograh",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Grok Bot",
+              "url": "https://www.producthunt.com/products/grok",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Sidekick™",
+              "url": "https://www.producthunt.com/products/sidekick-16",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Lettertrace",
+              "url": "https://www.producthunt.com/products/lettertrace",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Cohesor",
+              "url": "https://www.producthunt.com/products/cohesor",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "BearDrive",
+              "url": "https://www.producthunt.com/products/beardrive",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Ballet",
+              "url": "https://www.producthunt.com/products/ballet",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Media Sharing",
+              "url": "https://www.producthunt.com/products/argos",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Chat Agent by Trigger.dev",
+              "url": "https://www.producthunt.com/products/trigger-dev",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Click",
+              "url": "https://www.producthunt.com/products/click-6",
+              "source": "ProductHunt"
+            }
+          ],
+          "takeaway": ""
+        }
+      ]
+    },
+    {
+      "id": "tech-stack",
+      "title": "技术选型",
+      "blocks": []
+    },
+    {
+      "id": "competition",
+      "title": "竞争情报",
+      "blocks": []
+    },
+    {
+      "id": "trends",
+      "title": "趋势判断",
+      "blocks": []
+    },
+    {
+      "id": "actions",
+      "title": "行动触发",
+      "blocks": []
+    }
+  ],
+  "generated_at": "2026-08-12T09:32:08+00:00",
+  "reddit_highlights": []
+}
