@@ -1,0 +1,104 @@
+{
+  "date": "2026-08-13",
+  "top3": [],
+  "intro": "（无 LLM 编辑模式：以下为原始数据归档，建议安装 codex CLI 重新生成。）",
+  "sections": [
+    {
+      "id": "discovery",
+      "title": "发现机会",
+      "blocks": [
+        {
+          "id": "indie-products",
+          "heading": "今天有哪些独立开发者的新产品？",
+          "summary_md": "（自动归档模式）今日 Show HN 与 Product Hunt 上线的独立开发者产品列表。",
+          "items": [
+            {
+              "title": "Insta360 X6",
+              "url": "https://www.producthunt.com/products/insta-360",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Qencode MCP",
+              "url": "https://www.producthunt.com/products/qencode",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Skilldocs",
+              "url": "https://www.producthunt.com/products/skilldocs",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "FluidDocs CLI",
+              "url": "https://www.producthunt.com/products/fluiddocs-html-deck-builder",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Chiplab",
+              "url": "https://www.producthunt.com/products/chiplab",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Kane CLI",
+              "url": "https://www.producthunt.com/products/lambdatest",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Oasis",
+              "url": "https://www.producthunt.com/products/oasis-6",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Phinq",
+              "url": "https://www.producthunt.com/products/phinq",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Nuphos",
+              "url": "https://www.producthunt.com/products/nuphos",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Kivicube",
+              "url": "https://www.producthunt.com/products/kivicube",
+              "source": "ProductHunt"
+            }
+          ],
+          "takeaway": ""
+        }
+      ]
+    },
+    {
+      "id": "tech-stack",
+      "title": "技术选型",
+      "blocks": []
+    },
+    {
+      "id": "competition",
+      "title": "竞争情报",
+      "blocks": []
+    },
+    {
+      "id": "trends",
+      "title": "趋势判断",
+      "blocks": []
+    },
+    {
+      "id": "actions",
+      "title": "行动触发",
+      "blocks": []
+    }
+  ],
+  "generated_at": "2026-08-13T09:28:49+00:00",
+  "reddit_highlights": [
+    {
+      "heading": "今天有哪些 solo-founder 产品发布？",
+      "body_md": "**🔍 信号**：\"你在做什么？\"帖冲上 [1,155 条评论](https://news.ycombinator.com/item?id=49233423)，创月度新高。Reddit 发布：[Rescript](https://www.reddit.com/r/SideProject/comments/1vj4fna/i_built_a_free_open_source_descript_alternative/)（14 票），免费的 Descript 开源替代品；[PeekGuide](https://www.reddit.com/r/SideProject/comments/1vlkub5/i_built_a_free_site_that_turns_youtube_videos/)（19 票），把 YouTube 变成直播电视；[CrowdWar](https://www.reddit.com/r/SideProject/comments/1vi9uhq/crowdwar_v041_a_solo_100v100_browser_shooter_no/)（16 票），100v100 浏览器射击游戏。HN 上，[Shade Map](https://shademap.app)（159 票、41 条讨论）绘制热浪下的遮阳地图。\n\n**白话说：** solo 开发者今天交付的是播客剪辑器、电视混排、网页射击游戏和一张全球遮阳地图——发布品类正走向超本地化和端侧应用。\n\nWYOW 帖（1,155 条评论）才是今天真正的发布板。本轮新面孔：一位前修车工的 [OBD2 扫描仪应用](https://www.reddit.com/r/SideProject/comments/1vj4pqk/)——VIN 查询加故障码，来自修车厂的实战经验；[Cassava](https://cassava.dev/)，\"介于 Sublime Text 和 Excel 之间的 CSV 编辑器\"，支持 xlsx；[Sandustry](https://store.steampowered.com/app/2764460/Sandustry/)，一款流沙工厂建造游戏，下周上 `Steam`；还有 [Dictatorship Simulator](https://store.steampowered.com/app/4564800/Dictatorship_Simulator/)，一款卡牌构筑游戏——赢法不是进攻，而是腐蚀政治模拟。Reddit 的赛道是\"$24/mo 工具的免费版\"：Rescript 通过删掉转写文本里的词来剪辑播客，完全在端侧完成；PeekGuide 把 YouTube 排成 79 个直播频道。[Shade Map](https://shademap.app)（159/41）——为没车的人提供逐小时遮阳预报——是今天最有用的轻量网页应用。老面孔保持安静：`Needle2`（526 票）没有新叙事，`Photosynthesis`（323）继续它的定价之争。Google 的 [Pixel Watch 5](https://blog.google/products-and-platforms/devices/pixel/pixel-watch-5/)（112 票、214 条讨论）是唯一的大型公司发布，评测者还在吵续航。\n\n**关键判断**：两条发布赛道是敞开的：订阅工具的免费端侧版（Rescript、PeekGuide）和超本地化工具（Shade Map、OBD2）——两者演示成本都低，分发也轻。\n\n**反向视角**：本周 Reddit 上几乎每个发布帖都只有个位数互动——帖子是满的，观众并没有——\"$24/mo 工具\"的免费克隆版很少能转化。\n\n---",
+      "source_url": "https://raw.githubusercontent.com/BuilderPulse/BuilderPulse/main/zh/2026/2026-08-13.md"
+    },
+    {
+      "heading": "开发者在抱怨哪些工具？",
+      "body_md": "**🔍 信号**：[\"I hate packaging my software for Linux\"](https://getfresh.dev/docs/blog/packaging-for-linux/) 是 Lobsters 今日最热（67 票、53 条讨论）。[\"My Homelab Got Hacked — A Postmortem\"](https://phunky.cafe/my-homelab-got-hacked/)（34 票、5 条讨论）。Ask HN：[\"Is AI code verification becoming your main bottleneck?\"](https://news.ycombinator.com/item?id=49279494)（4/2）。Reddit 上，一位只剩一个月积蓄的失业撰稿人在 `r/SideProject` 发帖（[8 票](https://www.reddit.com/r/SideProject/comments/1vi0glx/i_never_thought_id_be_the_one_making_a_post_like/)）。\n\n**白话说：** 开发者今天最大的抱怨是 Linux 打包；紧随其后的，是 AI 代码验证正在变成他们的瓶颈。\n\nmtlynch —— 一位真发货的 solo 开发者 —— 写了篇《我恨给 Linux 打包软件》，直接冲上 Lobsters 第一，53 条实战吐槽：需要 `FUSE` 的 `AppImage`、缺库就挂的 `.deb`、沙箱有怪癖的 `Flatpak`。打包是每个 Linux 工具都要交的税，十年工具进化也没让它隐形。家庭实验室被黑的复盘（34/5）从另一个角度延续本周的安全抱怨线：受害者自己的网络暴露了——开放端口、默认凭据、被遗忘的服务——而修复清单大多是\"默认值就是错的\"。Ask HN 的验证问题（4/2）规模小但尖锐，\"software testing strategies\" 搜索 +50% 说明同样的痒在扩散。Reddit 补上人的一面：一位只剩约 30 天积蓄的失业内容写手，正是今早\"软件工程的中产阶级\"争论在就业市场上的另一面——抱怨已经不再只关于工具。\n\n**关键判断**：Linux 打包是今天最被验证的开发者之痛——53 条来自真实发货者的讨论，而工具行业无视了这个问题十年。\n\n**反向视角**：打包工具早就存在——`electron-builder`、AppImage 工具链、`flatpak-builder`——所以抱怨的可能是文档和默认值，而不是缺软件。\n\n---",
+      "source_url": "https://raw.githubusercontent.com/BuilderPulse/BuilderPulse/main/zh/2026/2026-08-13.md"
+    }
+  ]
+}
