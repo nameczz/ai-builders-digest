@@ -1,0 +1,445 @@
+{
+  "date": "2026-08-14",
+  "top3": [
+    "今天最值得关注的是智能体工作流从模型能力竞争转向长期执行基础设施，PrimeIntellect、TencentDB、LoopX、Cloudflare 都在争夺同一层。",
+    "视频和多模态生成重新升温，MiniMax-H3、LTX-2.5 与多个 HuggingFace Spaces 显示消费级视频工具还有窗口。",
+    "Cursor 替代、定价与自托管 runner 成为搜索弱信号，开发者正在为成本、可控性和迁移路线重新选型。"
+  ],
+  "intro": "今天的主线不是单个模型发布，而是围绕 AI coding agent 的运行层、记忆层、技能层和成本控制层快速堆栈化。对 builder 来说，机会从做一个聊天入口，转向做能被团队长期留在工作流里的小型基础设施。",
+  "sections": [
+    {
+      "id": "discovery",
+      "title": "发现机会",
+      "blocks": [
+        {
+          "id": "indie-products",
+          "heading": "今天有哪些独立开发者的新产品？",
+          "summary_md": "HN Show HN 今日没有可用样本，Product Hunt 样本未提供票数和评论数，因此这里更适合作为方向观察而不是热度排名。值得看的是代理工作流产品扎堆：[Munder Difflin](https://www.producthunt.com/products/munder-difflin) 主打用 Claude Code 和 Codex 复制工作分身，[Freebuff](https://www.producthunt.com/products/freebuff-2) 直接定位免费 coding agents，[Port22](https://www.producthunt.com/products/port22) 把 Claude Code、Codex 带到手机，[DeepSeek Harness](https://www.producthunt.com/products/deepseek) 则强调一切皆插件。票数与评论数在原始 Product Hunt 数据中未提供，记为 0。",
+          "items": [
+            {
+              "title": "Munder Difflin",
+              "url": "https://www.producthunt.com/products/munder-difflin",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "Freebuff",
+              "url": "https://www.producthunt.com/products/freebuff-2",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "Port22",
+              "url": "https://www.producthunt.com/products/port22",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "DeepSeek Harness",
+              "url": "https://www.producthunt.com/products/deepseek",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "独立产品正在从做单点 AI 工具，转向包装一套可携带、可编排、可替代付费 IDE 的 agent 工作流。"
+        },
+        {
+          "id": "github-traction",
+          "heading": "GitHub 上哪些高增长开源项目还没有商业化？",
+          "summary_md": "GitHub weekly 里最高信号是尚可被商业化包围的基础设施层：[PrimeIntellect-ai/prime-agent](https://github.com/PrimeIntellect-ai/prime-agent) 本周 12476 stars，做自改进 coding workflow 和长任务 agent；[TencentCloud/TencentDB-Agent-Memory](https://github.com/TencentCloud/TencentDB-Agent-Memory) 本周 5388 stars，把对话、文档、代码沉淀成团队级记忆资产；[semantica-agi/semantica](https://github.com/semantica-agi/semantica) 本周 4073 stars，切入 accountable AI 的图原生上下文。它们的共同点是离开发者日常很近，但商业包装还可以更垂直：审计、权限、团队知识迁移、agent 运行观测。",
+          "items": [
+            {
+              "title": "PrimeIntellect-ai/prime-agent",
+              "url": "https://github.com/PrimeIntellect-ai/prime-agent",
+              "source": "GitHub",
+              "score": 12476
+            },
+            {
+              "title": "TencentCloud/TencentDB-Agent-Memory",
+              "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
+              "source": "GitHub",
+              "score": 5388
+            },
+            {
+              "title": "semantica-agi/semantica",
+              "url": "https://github.com/semantica-agi/semantica",
+              "source": "GitHub",
+              "score": 4073
+            }
+          ],
+          "takeaway": "开源 traction 最大的空白不在模型壳，而在团队级 agent 记忆、治理和长任务执行。"
+        },
+        {
+          "id": "dev-pain",
+          "heading": "开发者在吐槽什么工具？",
+          "summary_md": "HN top 今日唯一高分样本是 [GLM-5.3: Frontier coding with emergent cyber capabilities](https://z.ai/blog/glm-5.3)，417 points、172 comments，但标题不含 broken、issue、bug、hate、wrong、dead 等吐槽关键词。真正的痛点来自旁路数据：Product Hunt 的 [oxpecker](https://www.producthunt.com/products/oxpecker) 标语是知道供应商刚刚破坏了你哪一行，GitHub 的 [NVIDIA-NeMo/Switchyard](https://github.com/NVIDIA-NeMo/Switchyard) 本周 408 stars，强调跨模型路由与成本性能优化。这说明开发者的抱怨正在从某个工具坏了，变成供应商不稳定、模型迁移贵、兼容层缺失。",
+          "items": [
+            {
+              "title": "GLM-5.3",
+              "url": "https://z.ai/blog/glm-5.3",
+              "source": "HN",
+              "score": 417
+            },
+            {
+              "title": "oxpecker",
+              "url": "https://www.producthunt.com/products/oxpecker",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "NVIDIA-NeMo/Switchyard",
+              "url": "https://github.com/NVIDIA-NeMo/Switchyard",
+              "source": "GitHub",
+              "score": 408
+            }
+          ],
+          "takeaway": "今天的开发者痛点不是单个 bug，而是 AI 供应链变化太快导致的可观测性和可迁移性焦虑。"
+        }
+      ]
+    },
+    {
+      "id": "tech-stack",
+      "title": "技术选型",
+      "blocks": [
+        {
+          "id": "dev-tools",
+          "heading": "本周增长最快的开发者工具是什么？",
+          "summary_md": "开发者工具榜几乎被 agent 周边占满。[PrimeIntellect-ai/prime-agent](https://github.com/PrimeIntellect-ai/prime-agent) 本周 12476 stars 是最强增长，[zhaoxuya520/reverse-skill](https://github.com/zhaoxuya520/reverse-skill) 本周 5270 stars，把安全研究工具链做成技能路由包；[addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) 本周 4562 stars，说明 production-grade skills 已经成为编码 agent 的新插件格式。若今天选型，优先关注 skills、memory、computer control、routing 这四层，而不是只比较模型榜单。",
+          "items": [
+            {
+              "title": "PrimeIntellect-ai/prime-agent",
+              "url": "https://github.com/PrimeIntellect-ai/prime-agent",
+              "source": "GitHub",
+              "score": 12476
+            },
+            {
+              "title": "zhaoxuya520/reverse-skill",
+              "url": "https://github.com/zhaoxuya520/reverse-skill",
+              "source": "GitHub",
+              "score": 5270
+            },
+            {
+              "title": "addyosmani/agent-skills",
+              "url": "https://github.com/addyosmani/agent-skills",
+              "source": "GitHub",
+              "score": 4562
+            }
+          ],
+          "takeaway": "agent 工具链的标准件正在形成，skills 会像 prompt 时代之后的可复用工程资产。"
+        },
+        {
+          "id": "hf-models",
+          "heading": "HuggingFace 上最热的模型能做什么消费级产品？",
+          "summary_md": "HuggingFace 模型榜显示消费级机会集中在多模态内容生产。[meta-models/Muse-Glimmer-30B](https://huggingface.co/meta-models/Muse-Glimmer-30B) trending score 1369、downloads 165300、likes 1457，适合做图文理解到文案、商品页、短视频脚本的轻工作流；[MiniMaxAI/MiniMax-H3](https://huggingface.co/MiniMaxAI/MiniMax-H3) score 856、downloads 1997541、likes 3862，配合 [multimodalart/minimax-h3](https://huggingface.co/spaces/multimodalart/minimax-h3) 这类 Space，可做广告素材、教育动画、社媒剪辑工具；[MiniMaxAI/MiniMax-Music3](https://huggingface.co/MiniMaxAI/MiniMax-Music3) 虽 downloads 只有 63，但 likes 497，说明音乐生成还在早期尝鲜阶段。",
+          "items": [
+            {
+              "title": "meta-models/Muse-Glimmer-30B",
+              "url": "https://huggingface.co/meta-models/Muse-Glimmer-30B",
+              "source": "HF",
+              "score": 1369
+            },
+            {
+              "title": "MiniMaxAI/MiniMax-H3",
+              "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3",
+              "source": "HF",
+              "score": 856
+            },
+            {
+              "title": "MiniMaxAI/MiniMax-Music3",
+              "url": "https://huggingface.co/MiniMaxAI/MiniMax-Music3",
+              "source": "HF",
+              "score": 490
+            }
+          ],
+          "takeaway": "消费级 AI 产品的短期机会不只是聊天，而是把图、视频、音频模型包装成可复用的生产模板。"
+        },
+        {
+          "id": "show-hn",
+          "heading": "Show HN 高关注项目用的什么技术栈？",
+          "summary_md": "今天 HN Show HN 数据为空，但 GitHub daily 给了可替代的技术栈信号。[cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design) 用 HTML 做 29 种 editorial diagram types，本周 4475 stars，说明轻量、可复制、可嵌入的视觉技能包比复杂编辑器更容易传播；[macro-inc/macro](https://github.com/macro-inc/macro) 用 Rust 做统一工作区，本周 1239 stars；[altic-dev/FluidVoice](https://github.com/altic-dev/FluidVoice) 用 Swift 做本地语音输入，本周 76 stars 但总星 10017，显示本地化、低延迟和隐私仍是 Mac 工具的卖点。",
+          "items": [
+            {
+              "title": "cathrynlavery/diagram-design",
+              "url": "https://github.com/cathrynlavery/diagram-design",
+              "source": "GitHub",
+              "score": 4475
+            },
+            {
+              "title": "macro-inc/macro",
+              "url": "https://github.com/macro-inc/macro",
+              "source": "GitHub",
+              "score": 1239
+            },
+            {
+              "title": "altic-dev/FluidVoice",
+              "url": "https://github.com/altic-dev/FluidVoice",
+              "source": "GitHub",
+              "score": 76
+            }
+          ],
+          "takeaway": "今天最容易扩散的技术栈不是重平台，而是 HTML 技能包、Rust 工作台和本地原生工具的组合。"
+        }
+      ]
+    },
+    {
+      "id": "competition",
+      "title": "竞争情报",
+      "blocks": [
+        {
+          "id": "pricing-revenue",
+          "heading": "独立开发者在讨论什么营收和定价策略？",
+          "summary_md": "HN 今日没有 MRR、ARR、pricing、subscription、revenue 关键词样本，但 Google Trends 里 [cursor alternative](https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d) 上升 +49.7%，关联查询出现 cursor pricing、github copilot、vscode，这已经是定价压力的间接信号。Product Hunt 的 [Freebuff](https://www.producthunt.com/products/freebuff-2) 直接喊出免费 coding agents，[Munder Difflin](https://www.producthunt.com/products/munder-difflin) 则卖分身式工作代理。独立开发者可借鉴的不是单纯降价，而是把免费层做成迁移入口，把高阶层卖给团队执行、权限、审计和共享记忆。",
+          "items": [
+            {
+              "title": "cursor alternative",
+              "url": "https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 50
+            },
+            {
+              "title": "Freebuff",
+              "url": "https://www.producthunt.com/products/freebuff-2",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "Munder Difflin",
+              "url": "https://www.producthunt.com/products/munder-difflin",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "AI 编码工具的价格战会把基础对话压到低价，真正可收费的是团队执行层和可控性。"
+        },
+        {
+          "id": "migrations",
+          "heading": "有没有「XX is dead」或迁移类文章？",
+          "summary_md": "原始 HN 没有 dead、end of、migrating 类标题，但迁移气味很强：Google Trends 的 [cursor alternative](https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d) 上升 +49.7%，而 [open source alternative](https://trends.google.com/trends/explore?q=open+source+alternative&date=now+7-d) 下降 -2.1%，说明用户不是泛泛寻找开源替代，而是针对具体 AI IDE 成本和限制寻找替换。Product Hunt 的 [ThreadPort](https://www.producthunt.com/products/threadport) 主打在 ChatGPT、Claude、Gemini 间搬迁聊天，[Port22](https://www.producthunt.com/products/port22) 把桌面 agent 搬到手机，这类迁移工具有机会成为下一波轻量 SaaS。",
+          "items": [
+            {
+              "title": "cursor alternative",
+              "url": "https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 50
+            },
+            {
+              "title": "ThreadPort",
+              "url": "https://www.producthunt.com/products/threadport",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "Port22",
+              "url": "https://www.producthunt.com/products/port22",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "迁移需求正在从代码仓库迁移，扩展到 AI 对话、上下文、agent 运行环境的迁移。"
+        }
+      ]
+    },
+    {
+      "id": "trends",
+      "title": "趋势判断",
+      "blocks": [
+        {
+          "id": "keywords",
+          "heading": "本周技术关键词频率有什么变化？",
+          "summary_md": "最强上升词是 [tencentdb agent memory](https://trends.google.com/trends/explore?q=tencentdb+agent+memory&date=now+7-d) +999%，并且 GitHub weekly 中 TencentDB-Agent-Memory 本周 5388 stars，二者互相验证。第二梯队是 [cursor alternative](https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d) +49.7%、[semantica](https://trends.google.com/trends/explore?q=semantica&date=now+7-d) +42.8%、[codex cli](https://trends.google.com/trends/explore?q=codex+cli&date=now+7-d) +24.0%、[skills](https://trends.google.com/trends/explore?q=skills&date=now+7-d) +22.3%。关键词之间的共同脉络很清楚：开发者正在从模型使用者变成 agent 系统管理员。",
+          "items": [
+            {
+              "title": "tencentdb agent memory",
+              "url": "https://trends.google.com/trends/explore?q=tencentdb+agent+memory&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 999
+            },
+            {
+              "title": "cursor alternative",
+              "url": "https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 50
+            },
+            {
+              "title": "codex cli",
+              "url": "https://trends.google.com/trends/explore?q=codex+cli&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 24
+            }
+          ],
+          "takeaway": "今天的关键词变化指向同一个结论：agent 时代的竞争焦点是上下文、技能和运行控制。"
+        },
+        {
+          "id": "vc-radar",
+          "heading": "VC 和 YC 在关注什么主题？",
+          "summary_md": "综合 GitHub、Product Hunt 和 HN，VC 雷达大概率会盯三类：第一是长任务 coding agent，[PrimeIntellect-ai/prime-agent](https://github.com/PrimeIntellect-ai/prime-agent) 本周 12476 stars 是明确验证；第二是 agent memory 与 accountable context，[TencentCloud/TencentDB-Agent-Memory](https://github.com/TencentCloud/TencentDB-Agent-Memory) 本周 5388 stars、[semantica-agi/semantica](https://github.com/semantica-agi/semantica) 本周 4073 stars；第三是软件工厂和 agent fleet，Product Hunt 的 [Hoplite](https://www.producthunt.com/products/hoplite)、[Basedash Tasks](https://www.producthunt.com/products/basedash)、[apra-fleet](https://www.producthunt.com/products/apra-fleet) 都在讲自动化组织能力。",
+          "items": [
+            {
+              "title": "PrimeIntellect-ai/prime-agent",
+              "url": "https://github.com/PrimeIntellect-ai/prime-agent",
+              "source": "GitHub",
+              "score": 12476
+            },
+            {
+              "title": "TencentDB-Agent-Memory",
+              "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
+              "source": "GitHub",
+              "score": 5388
+            },
+            {
+              "title": "Hoplite",
+              "url": "https://www.producthunt.com/products/hoplite",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "资本会更偏向买 agent 基础设施的控制面，而不是又一个聊天式生产力入口。"
+        },
+        {
+          "id": "cooling",
+          "heading": "哪些 AI 热词在降温？",
+          "summary_md": "降温信号同样重要。[prime agent](https://trends.google.com/trends/explore?q=prime+agent&date=now+7-d) 下降 -30.7%，尽管 GitHub 的 prime-agent 本周仍有 12476 stars，说明搜索热度可能已从爆点回落到开发者消化期。[open source alternative](https://trends.google.com/trends/explore?q=open+source+alternative&date=now+7-d) 下降 -2.1%，但 [cursor alternative](https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d) 上升 +49.7%，这不是替代需求消失，而是泛关键词降温、具体产品替代升温。泛 AI 词如 [ai agent](https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d) 仅 +9.0%，已不如 memory、skills、CLI 这些执行层词强。",
+          "items": [
+            {
+              "title": "prime agent",
+              "url": "https://trends.google.com/trends/explore?q=prime+agent&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": -31
+            },
+            {
+              "title": "open source alternative",
+              "url": "https://trends.google.com/trends/explore?q=open+source+alternative&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": -2
+            },
+            {
+              "title": "ai agent",
+              "url": "https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 9
+            }
+          ],
+          "takeaway": "泛化的 AI agent 叙事在降温，具名工具替代和执行层组件在升温。"
+        },
+        {
+          "id": "new-radar",
+          "heading": "新词雷达：有哪些从零起飞的新概念？",
+          "summary_md": "Breakout 里最值得抓的是 [cursor alternative](https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d) 的关联词 cursor pricing、github copilot、antigravity、vscode，说明替代搜索已经从品牌对比进入价格与编辑器生态层。[self hosted](https://trends.google.com/trends/explore?q=self+hosted&date=now+7-d) 只涨 +9.6%，但 rising 里出现 claude self hosted runner，breakout value 300，这是更早的弱信号：用户想把云端 coding agent 变成可控 runner。[skills](https://trends.google.com/trends/explore?q=skills&date=now+7-d) +22.3%，关联问题 what are the most useful skills i can learn right now to stay relevant and grow in my career? value 20300，说明 skills 一词正在从职业学习扩展到 agent 能力包。",
+          "items": [
+            {
+              "title": "cursor pricing",
+              "url": "https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 60
+            },
+            {
+              "title": "claude self hosted runner",
+              "url": "https://trends.google.com/trends/explore?q=self+hosted&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 300
+            },
+            {
+              "title": "what are the most useful skills i can learn right now to stay relevant and grow in my career?",
+              "url": "https://trends.google.com/trends/explore?q=skills&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 20300
+            }
+          ],
+          "takeaway": "新词雷达最早的信号是自托管 agent runner 和可复用 skills 包正在进入普通开发者视野。"
+        }
+      ]
+    },
+    {
+      "id": "actions",
+      "title": "行动触发",
+      "blocks": [
+        {
+          "id": "weekend-build",
+          "heading": "今天 2 小时和一个周末分别做什么？",
+          "summary_md": "2 小时内可以做一个很小但有价值的工具：读取本地项目的 issue、commit、聊天记录，生成 agent handoff 摘要，并导出为 Claude Code、Codex、Cursor 都能吃的 skills 文件。周末版本可以加两层：一层是团队记忆索引，参考 [TencentDB-Agent-Memory](https://github.com/TencentCloud/TencentDB-Agent-Memory) 本周 5388 stars 的方向；另一层是长任务状态机，参考 [huangruiteng/loopx](https://github.com/huangruiteng/loopx) 本周 1967 stars 的 durable goals、evidence logs、verifiable handoffs。不要先做大平台，先做一个能在真实项目里每天被复制粘贴的 agent 工作卡。",
+          "items": [
+            {
+              "title": "TencentDB-Agent-Memory",
+              "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
+              "source": "GitHub",
+              "score": 5388
+            },
+            {
+              "title": "huangruiteng/loopx",
+              "url": "https://github.com/huangruiteng/loopx",
+              "source": "GitHub",
+              "score": 1967
+            },
+            {
+              "title": "google/skills",
+              "url": "https://github.com/google/skills",
+              "source": "GitHub",
+              "score": 2359
+            }
+          ],
+          "takeaway": "今天最值得动手的是 agent handoff 与团队记忆的小插件，而不是再做一个聊天界面。"
+        },
+        {
+          "id": "pricing-models",
+          "heading": "值得学习的定价和变现模式有哪些？",
+          "summary_md": "可学习的定价模式有三种。第一，Freebuff 式免费入口，用免费 coding agents 抢 Cursor 和 Claude Code 的替代搜索流量，再在团队协作、并发 agent、审计上收费。第二，Port22 式设备扩展，把桌面 agent 的可达性卖给移动场景。第三，Switchyard 式成本优化，把多模型路由、benchmark 和 provider 兼容做成节省预算的明确 ROI。结合 [cursor alternative](https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d) +49.7%，定价故事应该围绕省钱、可迁移、不中断工作流，而不是更聪明。",
+          "items": [
+            {
+              "title": "Freebuff",
+              "url": "https://www.producthunt.com/products/freebuff-2",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "Port22",
+              "url": "https://www.producthunt.com/products/port22",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "NVIDIA-NeMo/Switchyard",
+              "url": "https://github.com/NVIDIA-NeMo/Switchyard",
+              "source": "GitHub",
+              "score": 408
+            }
+          ],
+          "takeaway": "AI 工具的付费理由正在从能力更强，转向成本更低、迁移更稳、团队更可控。"
+        },
+        {
+          "id": "counterintuitive",
+          "heading": "今天最反直觉的发现是什么？",
+          "summary_md": "最反直觉的是，模型榜上 GLM-5.3 在 HN 拿到 417 points、172 comments，看似又是模型能力新闻，但真正可构建的机会却在模型之外。GitHub 增长最高的不是单个模型，而是 [PrimeIntellect-ai/prime-agent](https://github.com/PrimeIntellect-ai/prime-agent) 12476 weekly stars、[TencentDB-Agent-Memory](https://github.com/TencentCloud/TencentDB-Agent-Memory) 5388 weekly stars、[addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) 4562 weekly stars。也就是说，builder 不一定要追前沿模型，反而应当把模型能力封装进可复用、可观测、可交接的工作系统。",
+          "items": [
+            {
+              "title": "GLM-5.3",
+              "url": "https://z.ai/blog/glm-5.3",
+              "source": "HN",
+              "score": 417
+            },
+            {
+              "title": "PrimeIntellect-ai/prime-agent",
+              "url": "https://github.com/PrimeIntellect-ai/prime-agent",
+              "source": "GitHub",
+              "score": 12476
+            },
+            {
+              "title": "addyosmani/agent-skills",
+              "url": "https://github.com/addyosmani/agent-skills",
+              "source": "GitHub",
+              "score": 4562
+            }
+          ],
+          "takeaway": "越是模型能力爆发，越应该把创业重心放到模型外部的工作流控制层。"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2026-08-14T09:21:39+00:00",
+  "reddit_highlights": [
+    {
+      "heading": "Indie 开发者在讨论哪些收入和定价问题？",
+      "body_md": "**🔍 信号**：\"$8M ARR 产品一夜失败，重建到 $2M ARR\"（22 赞 / 4 条评论）；\"我在跟用户聊天之前先做了两个网站\"（15 赞 / 78 条评论）；\"一个月 GEO，零结果\"（7 赞 / 19 条评论）；Google Ads 花 €327 → 99 次点击 → 1 个注册（2 赞 / 6 条评论）。\n\n**白话说：** 创始人正在争论验证的数学题——一个靠客户访谈重建了 200 万，一个在 `GEO` 上烧了一个月，一个花 €327 换了一个注册。\n\n今天最锋利的收入帖是那位 [眼看着 $8M ARR 产品一夜之间死掉](https://www.indiehackers.com/post/tech/building-a-2m-arr-product-after-his-8m-arr-product-failed-overnight-UZm68xNgjDZBHH7Mvc54)、如今正在向 $2M 重建的创始人——教训在重建过程里：功能第二，客户对话第一。今天评论最多的帖子（78 条）是忏悔帖\"[我在跟用户聊天之前先做了两个网站。我想我看出问题在哪了。](https://www.indiehackers.com/post/i-built-two-websites-before-talking-to-users-i-think-i-see-the-problem-now-05d712490c)\"——先验证再构建，评论里吵翻了天。最新的反方数据：一个为期一个月的 [GEO（AI 引用）实验，两个网站零结果](https://www.indiehackers.com/post/i-spent-a-month-optimizing-two-sites-for-ai-citations-geo-and-got-zero-results-here-s-the-actual-diagnosis-b4ab9e1367)——19 条评论分裂成\"这个渠道死了\"和\"你的样本量只有两个\"。还有付费获客的现实检验：[Google Ads 花 €327，99 次点击，1 个可追踪注册](https://www.indiehackers.com/post/327-on-google-ads-99-clicks-and-1-tracked-signup-01412e67f3)。\n\n收入里程碑是标准分布：一个副业项目 [500 用户、12 个付费](https://www.reddit.com/r/SideProject/comments/1vmm4uk/)（\"我自己还在天天用\"）、另一个 [靠 SEO 慢速复利做到 3,500 用户](https://www.reddit.com/r/SideProject/comments/1vlp7it/)、从一个 Reddit 点子找到 $3.3k MRR、身兼全职工作运营 250M 用户的组合月入 $7k/mo、副业三年后做到 $6.4k。值得注意的缺席：没有一个 AI-agent 驱动增长的案例。每个赢家点名的都是分发渠道（客户访谈、SEO、Reddit），从来说的都不是模型。\n\n**关键判断**：每个人的漏斗都在不同的接缝处开裂——客户访谈、广告、GEO 或 SEO——而解法永远一样：在构建之前先跟买家聊。\n\n**反向视角**：晒 `MRR` 的帖子是幸存者偏差——每有一个 $6.4k 的故事，就有几百个 builder 什么都没发；\"跟用户聊\"的建议对到近乎废话，但它本身不是策略。",
+      "source_url": "https://raw.githubusercontent.com/BuilderPulse/BuilderPulse/main/zh/2026/2026-08-14.md"
+    }
+  ]
+}

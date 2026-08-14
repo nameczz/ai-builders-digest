@@ -1,0 +1,148 @@
+{
+  "date": "2026-08-14",
+  "items": [
+    {
+      "id": "2026-08-14-1",
+      "title": "388个PR后，AI开始还债",
+      "angle": "从 Claude 进 Slack 维护代码库切入，讲 coding agent 的主战场正在从写新功能转向清技术债。",
+      "opening": "几周内，Claude 开了 388 个 PR，人工审完合了 180 个。最值得写的不是“AI 又会写代码了”，而是它开始接管工程团队最不愿意碰的维护活：撞崩 App、删死代码、合并重复抽象。",
+      "story_hook": {
+        "challenge": "工程团队一边担心 AI 写坏代码，一边又被大量机械维护活拖住。",
+        "twist": "AI 最先规模化落地的地方，可能不是新功能开发，而是那些没人想做但必须做的还债工作。"
+      },
+      "takeaway": "读者可以重新评估团队里最适合交给 agent 的任务：不是需求不清的新功能，而是可验证、可回滚、可批量处理的维护队列。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Boris Cherny：Claude 在 Slack 中几周内开 388 个 PR",
+          "url": "https://x.com/bcherny/status/2088014489438621990"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub weekly #1 PrimeIntellect-ai/prime-agent，12476 weekly stars",
+          "url": "https://github.com/PrimeIntellect-ai/prime-agent"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub trending addyosmani/agent-skills，4562 weekly stars",
+          "url": "https://github.com/addyosmani/agent-skills"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-14-2",
+      "title": "AI没杀工程师，反而加价",
+      "angle": "把“AI 消灭工程师”的叙事反过来写：模型越强，越多工作被工程化，越需要能驾驭系统的人。",
+      "opening": "如果 AI 真要让工程师贬值，招聘市场不该出现一堆带“工程师”的新岗位。前线部署工程师、设计工程师、产品工程师、增长工程师，听起来像是旧职业被重命名，其实是更多工作被纳入工程化。",
+      "story_hook": {
+        "challenge": "公众叙事还停留在“AI 替代程序员”，但公司内部的岗位需求正在相反方向移动。",
+        "twist": "AI 不是把专家变便宜，而是把更多行业问题变成只有专家能调度的工程系统。"
+      },
+      "takeaway": "读者应把职业升级重点从“会不会写代码”转到“能不能把业务、工具、模型和流程工程化”。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Aaron Levie：AI 不会消灭工程师，模型越强越需要专家",
+          "url": "https://x.com/levie/status/2088105350201270529"
+        },
+        {
+          "tag": "builders",
+          "ref": "Zara Zhang：最抢手岗位反而都带工程师三个字",
+          "url": "https://x.com/zarazhangrui/status/2088087765267386564"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub trending TencentDB-Agent-Memory，5388 weekly stars",
+          "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-14-3",
+      "title": "下一代IDE是一层控制面",
+      "angle": "从 token 统一管理、Cursor 替代搜索、自托管 runner 三个信号切入，写 AI coding 工具竞争从编辑器转向控制层。",
+      "opening": "当一条命令可以管住所有 token，IDE 就不再只是写代码的窗口。Guillermo Rauch 看重的是模型选择、成本、可观测性和 ZDR 统一配置，这正好对上开发者搜索 Cursor alternative 的压力。",
+      "story_hook": {
+        "challenge": "开发者一边依赖 coding agent，一边被定价、模型迁移、供应商不稳定和权限治理卡住。",
+        "twist": "真正的新入口可能不是另一个 Cursor，而是能接管 Claude Code、Codex、Copilot 的控制面。"
+      },
+      "takeaway": "做 AI 编程工具时，别只卷编辑体验；更值得做的是成本路由、审计、权限、runner 和团队可观测性。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Guillermo Rauch：一条命令管住所有 token，配置 Claude Code 和 Codex",
+          "url": "https://x.com/rauchg/status/2088020529039180204"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Google Trends：cursor alternative 上升 49.7%",
+          "url": "https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d"
+        },
+        {
+          "tag": "pulse",
+          "ref": "NVIDIA-NeMo/Switchyard：跨模型路由与成本性能优化",
+          "url": "https://github.com/NVIDIA-NeMo/Switchyard"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-14-4",
+      "title": "PRD要拆给人和Agent看吗",
+      "angle": "从 Peter Yang 的规格文档问题切入，讨论 AI 团队的文档正在从沟通材料变成可执行上下文。",
+      "opening": "以前 PRD 写不好，最多是产品和工程吵架。现在写不好，Agent 也会跟着跑偏。问题变尖了：一份文档到底要同时服务人和 Agent，还是干脆拆成两套？",
+      "story_hook": {
+        "challenge": "传统产品文档追求简洁共识，但 agent 执行需要结构化、边界、状态和可复用上下文。",
+        "twist": "未来最有价值的文档可能不是更漂亮的 Notion 页面，而是能被 agent 读取、继承和验证的工作协议。"
+      },
+      "takeaway": "读者可以把团队文档分成两层：给人看的决策摘要，给 agent 用的约束、接口、验收标准和上下文索引。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Peter Yang：产品规格文档该同时给人和 Agent 读，还是拆开",
+          "url": "https://x.com/petergyang/status/2088108304274960667"
+        },
+        {
+          "tag": "builders",
+          "ref": "Thariq：万物都在变成代码，配置和解释被压缩成可执行指令",
+          "url": "https://x.com/trq212/status/2088049989306192106"
+        },
+        {
+          "tag": "pulse",
+          "ref": "TencentDB-Agent-Memory：把对话、文档、代码沉淀成团队级记忆资产",
+          "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-14-5",
+      "title": "模型迭代快到旧版失效",
+      "angle": "用 /ultrafast、3 周做出更快更便宜模型、GLM-5.3 高热度串起来，写速度正在成为 AI 产品的新压力源。",
+      "opening": "Josh Woodward 说 3.7 Flash 更快、便宜 50%，而且大约 3 周就做出来了。Sam Altman 只甩出一个 `/ultrafast`，像是在提醒所有产品经理：解释能力不如直接把等待时间压下去。",
+      "story_hook": {
+        "challenge": "AI 产品还在写“能力更强”的发布稿，但用户体感越来越被速度和价格支配。",
+        "twist": "模型进步太快会反过来摧毁产品护城河：今天刚包装好的能力，三周后可能变成默认配置。"
+      },
+      "takeaway": "读者做产品选型时要少押单一模型能力，多押可替换模型、低延迟体验和能快速吸收新模型的架构。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Sam Altman：/ultrafast",
+          "url": "https://x.com/sama/status/2088101491802243121"
+        },
+        {
+          "tag": "builders",
+          "ref": "Josh Woodward：3.7 Flash 更快、便宜 50%，约 3 周做出",
+          "url": "https://x.com/joshwoodward/status/2088016871710957587"
+        },
+        {
+          "tag": "pulse",
+          "ref": "HN：GLM-5.3 获 417 points、172 comments",
+          "url": "https://z.ai/blog/glm-5.3"
+        }
+      ]
+    }
+  ],
+  "notes": "今日主线很清楚：不是单个模型发布，而是 agent 进入工程工作流后的控制面、记忆层、技能层和成本层。独立开发者素材偏少，适合写开发者工具与团队流程，不适合写消费级爆款。",
+  "generated_at": "2026-08-14T09:22:26+00:00",
+  "model": "gpt-5.5"
+}
