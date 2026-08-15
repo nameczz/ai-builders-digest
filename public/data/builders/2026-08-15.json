@@ -1,0 +1,472 @@
+{
+  "date": "2026-08-15",
+  "generated_at": "2026-08-15T09:11:27+00:00",
+  "count": 31,
+  "items": [
+    {
+      "id": "51766a422c",
+      "date": "2026-08-15",
+      "source": "x",
+      "author": "Thibault Sottiaux",
+      "bio": "Codex & ChatGPT @OpenAI",
+      "title": "",
+      "summary_en": "What’s a hard problem codex solved for you this week? Where do you learn from others on how to push the frontier?",
+      "summary_zh": "这条推文在逼问 AI builder：这周 Codex 到底替你啃下了什么硬骨头？你又在哪里学习别人如何把边界继续往前推？",
+      "url": "https://x.com/thsottiaux/status/2088500028721832432",
+      "posted_at": "2026-08-15T05:36:23.000Z",
+      "tags": [
+        "@thsottiaux"
+      ]
+    },
+    {
+      "id": "7891ace98a",
+      "date": "2026-08-15",
+      "source": "x",
+      "author": "Thibault Sottiaux",
+      "bio": "Codex & ChatGPT @OpenAI",
+      "title": "",
+      "summary_en": "Looking for a quick restaurant reservation is now super easy in ChatGPT. Together with a bunch more ships https://t.co/8AN0GbFMy3",
+      "summary_zh": "在 ChatGPT 里快速订餐厅已经变得很顺手了。除此之外，他们还一次性发了一堆新功能。",
+      "url": "https://x.com/thsottiaux/status/2088493756391768252",
+      "posted_at": "2026-08-15T05:11:28.000Z",
+      "tags": [
+        "@thsottiaux"
+      ]
+    },
+    {
+      "id": "6fdd16eae2",
+      "date": "2026-08-15",
+      "source": "x",
+      "author": "Madhu Guru",
+      "bio": "Sr Director, AI at Meta; Prev: Google - Led Gemini, Veo, Nano Banana.",
+      "title": "",
+      "summary_en": "Cursor’s impact on AI product culture is underrated.\n\nfor a while, ai products were stuck in the chatbot phase and was searching for a product meta to piggyback off of. \n\nit was then that “cursor for x” came along and inspired a whole new product pattern. https://t.co/8ZBgFRqVLJ",
+      "summary_zh": "Cursor 对 AI 产品文化的影响被低估了：当 AI 产品还困在聊天机器人形态里找不到抓手时，“Cursor for X”直接给了一整代产品新的母版。\n\n它把 AI 从对话框里拽出来，变成嵌进具体工作流的生产力界面。",
+      "url": "https://x.com/realmadhuguru/status/2088489059115270532",
+      "posted_at": "2026-08-15T04:52:48.000Z",
+      "tags": [
+        "@realmadhuguru"
+      ]
+    },
+    {
+      "id": "bfbf076f5a",
+      "date": "2026-08-15",
+      "source": "x",
+      "author": "Peter Steinberger",
+      "bio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world. @OpenClaw🦞 + @OpenAI",
+      "title": "",
+      "summary_en": "Added a short instruction to our shared AGENTS MD file to upload videos to each PR that changes UI state. https://t.co/BjpJL1qFSR https://t.co/09wZoz7X0J",
+      "summary_zh": "他在共享的 AGENTS.md 里加了一条硬规矩：凡是改 UI 状态的 PR，都必须上传视频。让代码评审别再靠想象猜交互效果。",
+      "url": "https://x.com/steipete/status/2088486859244741020",
+      "posted_at": "2026-08-15T04:44:04.000Z",
+      "tags": [
+        "@steipete"
+      ]
+    },
+    {
+      "id": "655b63687b",
+      "date": "2026-08-15",
+      "source": "x",
+      "author": "Aaron Levie",
+      "bio": "ceo @box - your business lives in content. unleash it with AI",
+      "title": "",
+      "summary_en": "Amazing outcome. Cursor executed the applied AI strategy flawlessly. \n\nMost people completely underestimated the market size in AI coding. The biggest developer tool exits in history were on the order of low billions of dollars. And it was already assumed to be a heavily competitive and somewhat saturated space when they really got going.\n\nMultiple mental models shattered near instantly. The market sizes for agentic coding was far larger than most realized. There was actually tons and tons of room to innovate between the user and the underlying model, and even on the model itself.\n\nCursor provided out the applied AI playbook by figuring out the right product shape for agentic coding work, acting as a neutral layer between models and the workflows, post training models for the areas that make most sense to drive down costs or improve performance, building out the right infra stack for the relevant workflows, building out a strong category-aligned GTM motion, and more.\n\nGreat set of lessons for anyone doing applied AI right now. We’re going to see a lot more of these.",
+      "summary_zh": "Cursor 把应用层 AI 的打法打穿了：大多数人严重低估了 AI 编程的市场规模，也低估了模型和用户工作流之间还能榨出多少产品、基础设施和成本优化空间。\n\n所谓“开发者工具市场已饱和”的旧模型被瞬间击碎，接下来会有更多应用 AI 公司照着这套剧本冲出来。",
+      "url": "https://x.com/levie/status/2088476232933577124",
+      "posted_at": "2026-08-15T04:01:50.000Z",
+      "tags": [
+        "@levie"
+      ]
+    },
+    {
+      "id": "8ccefd5331",
+      "date": "2026-08-15",
+      "source": "x",
+      "author": "Peter Steinberger",
+      "bio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world. @OpenClaw🦞 + @OpenAI",
+      "title": "",
+      "summary_en": "We moved the team over to build openclaw with openclaw. \nBeing able to share agent sessions as URLs is a superpower. https://t.co/peCQydXWyc",
+      "summary_zh": "他们已经让团队用 OpenClaw 来开发 OpenClaw。能把 agent 会话直接以 URL 分享出去，这就是产品级工作流的外挂。",
+      "url": "https://x.com/steipete/status/2088473882357530979",
+      "posted_at": "2026-08-15T03:52:30.000Z",
+      "tags": [
+        "@steipete"
+      ]
+    },
+    {
+      "id": "b7044b1517",
+      "date": "2026-08-15",
+      "source": "x",
+      "author": "Nan Yu",
+      "bio": "head of product @linear",
+      "title": "",
+      "summary_en": "There’s no force in tech as destructive as the PM promo packet",
+      "summary_zh": "科技圈最具破坏力的东西，不是什么技术泡沫，而是产品经理的晋升材料。它能把团队、路线图和判断力一起扭曲。",
+      "url": "https://x.com/thenanyu/status/2088461657311785236",
+      "posted_at": "2026-08-15T03:03:55.000Z",
+      "tags": [
+        "@thenanyu"
+      ]
+    },
+    {
+      "id": "fa8e29a290",
+      "date": "2026-08-15",
+      "source": "x",
+      "author": "Nikunj Kothari",
+      "bio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
+      "title": "",
+      "summary_en": "Three pros of monthly walks with @JustJake..\n\n1) his ability to articulate how every piece of infra will evolve is next to none. i’ve been proven wrong a few times already. \n\n2) the velocity of this company is just batshit insane and again just mogs his own high lofty goals. \n\n3) he walks at an insane speed and gets me 10k steps for free.",
+      "summary_zh": "每月和 @JustJake 散步最大的收获：他对基础设施演进的判断准得离谱，公司速度也疯到不断碾压他自己设的高目标。副作用是他走路快得变态，顺手白送你 1 万步。",
+      "url": "https://x.com/nikunj/status/2088440618196607061",
+      "posted_at": "2026-08-15T01:40:19.000Z",
+      "tags": [
+        "@nikunj"
+      ]
+    },
+    {
+      "id": "11da05f6b5",
+      "date": "2026-08-15",
+      "source": "x",
+      "author": "Madhu Guru",
+      "bio": "Sr Director, AI at Meta; Prev: Google - Led Gemini, Veo, Nano Banana.",
+      "title": "",
+      "summary_en": "when everyone can build with ai, your differentiators are product sense, domain knowledge, distribution, execution. https://t.co/qO8hGmsY07",
+      "summary_zh": "当人人都能用 AI 搭东西，真正拉开差距的不是会不会写代码，而是产品判断、行业认知、分发能力和执行力。",
+      "url": "https://x.com/realmadhuguru/status/2088425380130783287",
+      "posted_at": "2026-08-15T00:39:46.000Z",
+      "tags": [
+        "@realmadhuguru"
+      ]
+    },
+    {
+      "id": "81e33158f2",
+      "date": "2026-08-15",
+      "source": "x",
+      "author": "Garry Tan",
+      "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "title": "",
+      "summary_en": "All the opponents are helping YIMBYs make a comprehensive list of California laws that need to be repealed https://t.co/R5p7AgJCTp",
+      "summary_zh": "反对者正在替 YIMBY 们把加州那些该废掉的法律一条条列全。越反对，越像是在递刀。",
+      "url": "https://x.com/garrytan/status/2088420395670184238",
+      "posted_at": "2026-08-15T00:19:57.000Z",
+      "tags": [
+        "@garrytan"
+      ]
+    },
+    {
+      "id": "f4d0612a75",
+      "date": "2026-08-15",
+      "source": "x",
+      "author": "Amjad Masad",
+      "bio": "ceo @replit. civilizationist",
+      "title": "",
+      "summary_en": "Even if you don’t plan on publishing to the App Store, building personal apps via TestFlight is really great. https://t.co/SLco60a3RZ",
+      "summary_zh": "不打算上架 App Store 也没关系，用 TestFlight 做个人 App 依然很爽。它把“给自己做软件”这件事变得足够轻、足够快。",
+      "url": "https://x.com/amasad/status/2088388714351518130",
+      "posted_at": "2026-08-14T22:14:04.000Z",
+      "tags": [
+        "@amasad"
+      ]
+    },
+    {
+      "id": "cc50400f9f",
+      "date": "2026-08-15",
+      "source": "x",
+      "author": "Garry Tan",
+      "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "title": "",
+      "summary_en": "The most surprising thing about using GStack pre-Fable 5 and after is now for many one-way-door questions you might get back in Claude Code, you can actually just say \"Take all recommendations\" and be happy",
+      "summary_zh": "GStack 到 Fable 5 之后，很多以前在 Claude Code 里像“单向门”一样需要纠结的决策，现在可以直接点“接受所有建议”，结果还真能让人满意。",
+      "url": "https://x.com/garrytan/status/2088388000267002195",
+      "posted_at": "2026-08-14T22:11:14.000Z",
+      "tags": [
+        "@garrytan"
+      ]
+    },
+    {
+      "id": "3bf82e06c4",
+      "date": "2026-08-15",
+      "source": "x",
+      "author": "Garry Tan",
+      "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "title": "",
+      "summary_en": "\"Steve Jobs walked by and said the font city names weren't bad, but 'at least call them world-class cities.'\n\nThat's how Paoli and Wynwood became New York and Geneva.\" https://t.co/U9PPNUwkJE",
+      "summary_zh": "乔布斯路过看了眼字体命名，说城市名可以，但至少得叫“世界级城市”。于是 Paoli、Wynwood 这种小地方，摇身一变成了 New York 和 Geneva。",
+      "url": "https://x.com/garrytan/status/2088383794013470812",
+      "posted_at": "2026-08-14T21:54:31.000Z",
+      "tags": [
+        "@garrytan"
+      ]
+    },
+    {
+      "id": "af391ba801",
+      "date": "2026-08-15",
+      "source": "x",
+      "author": "Swyx",
+      "bio": "achieve ambition with intentionality, intensity, integrity & insanity.  affiliations: - @smol_ai - @dxtipshq - @cognition - @aidotengineer - @latentspacepod",
+      "title": "",
+      "summary_en": "the reason @databricks \"ipo is lava\" fundraises are a meme is this but unironically\n\nthe M in their $188B series M stands for \"we are going to kill so many meetings\" https://t.co/sQsoPICYzT https://t.co/JAE86kHe2f",
+      "summary_zh": "Databricks 这种“死也不 IPO”的融资已经成了梗：估值一路 Series M 拉到 1880 亿美元，嘴上是融资，实际是在宣告要屠掉一大堆企业会议。",
+      "url": "https://x.com/swyx/status/2088381680478540096",
+      "posted_at": "2026-08-14T21:46:07.000Z",
+      "tags": [
+        "@swyx"
+      ]
+    },
+    {
+      "id": "fece36cfab",
+      "date": "2026-08-15",
+      "source": "x",
+      "author": "Swyx",
+      "bio": "achieve ambition with intentionality, intensity, integrity & insanity.  affiliations: - @smol_ai - @dxtipshq - @cognition - @aidotengineer - @latentspacepod",
+      "title": "",
+      "summary_en": "ask away https://t.co/GExUalUexr",
+      "summary_zh": "随便问。",
+      "url": "https://x.com/swyx/status/2088358628000768263",
+      "posted_at": "2026-08-14T20:14:31.000Z",
+      "tags": [
+        "@swyx"
+      ]
+    },
+    {
+      "id": "4cfeb58a29",
+      "date": "2026-08-15",
+      "source": "x",
+      "author": "Nikunj Kothari",
+      "bio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
+      "title": "",
+      "summary_en": "/goal may not be the MOST token efficient thing, but it's a thing of beauty to see it one-shot an extremely detailed spec (with generous CLI tools) in 14h.. https://t.co/VJ996PIL32",
+      "summary_zh": "/goal 未必是最省 token 的做法，但它能在 14 小时内靠充足的 CLI 工具一次性打穿极其详细的 spec，这画面确实漂亮。",
+      "url": "https://x.com/nikunj/status/2088351343434138111",
+      "posted_at": "2026-08-14T19:45:34.000Z",
+      "tags": [
+        "@nikunj"
+      ]
+    },
+    {
+      "id": "58f898228a",
+      "date": "2026-08-15",
+      "source": "x",
+      "author": "Josh Woodward",
+      "bio": "VP, @Google @GoogleLabs @GeminiApp @GoogleAIStudio",
+      "title": "",
+      "summary_en": "3.7 Flash is in the @GeminiApp https://t.co/txm3fI0wZo",
+      "summary_zh": "3.7 Flash 已经进了 Gemini App。",
+      "url": "https://x.com/joshwoodward/status/2088344782821326980",
+      "posted_at": "2026-08-14T19:19:30.000Z",
+      "tags": [
+        "@joshwoodward"
+      ]
+    },
+    {
+      "id": "2b3c1390bf",
+      "date": "2026-08-15",
+      "source": "x",
+      "author": "Nan Yu",
+      "bio": "head of product @linear",
+      "title": "",
+      "summary_en": "AI is not \"jagged\" it is just AI-shaped. \n\nThat's like saying dogs are \"jagged\" because they are similar, superior, or inferior compared to humans when it comes to specific tasks.",
+      "summary_zh": "AI 不是“参差不齐”，只是有自己的形状。说它参差，就像因为狗在某些任务上和人类有高低之分，就说狗也是“参差”的。",
+      "url": "https://x.com/thenanyu/status/2088335744909619230",
+      "posted_at": "2026-08-14T18:43:35.000Z",
+      "tags": [
+        "@thenanyu"
+      ]
+    },
+    {
+      "id": "705911c18d",
+      "date": "2026-08-15",
+      "source": "x",
+      "author": "Guillermo Rauch",
+      "bio": "@vercel CEO",
+      "title": "",
+      "summary_en": "Vercel is the fastest [AI Gateway] infrastructure in the world https://t.co/AdxxRBdgvt",
+      "summary_zh": "Vercel 宣称自己拥有全球最快的 AI Gateway 基础设施。潜台词很明确：AI 应用的模型层之外，真正的性能战场已经烧到网关和推理基础设施。",
+      "url": "https://x.com/rauchg/status/2088323451132199338",
+      "posted_at": "2026-08-14T17:54:44.000Z",
+      "tags": [
+        "@rauchg"
+      ]
+    },
+    {
+      "id": "193cdb92d0",
+      "date": "2026-08-15",
+      "source": "x",
+      "author": "Matt Turck",
+      "bio": "VC at @FirstMarkCap.  Host: MAD Podcast; Organizer: Data Driven NYC, Author: MAD Landscape.",
+      "title": "",
+      "summary_en": "The evolution of a workday:\n\nBefore AI: \n[decision] [process] [process] [decision] [process] [process] [process]\n10pm: still going\n\nWith AI: \n[decision] [decision] [decision] [decision] [decision]\n3pm: [brain empty] [need coffee] [staring at wall]",
+      "summary_zh": "AI 把工作日里的“流程苦力”吃掉了，只剩下一连串高密度决策。结果不是更轻松，而是下午 3 点大脑已烧空，只能靠咖啡和发呆续命。",
+      "url": "https://x.com/mattturck/status/2088323186819539041",
+      "posted_at": "2026-08-14T17:53:41.000Z",
+      "tags": [
+        "@mattturck"
+      ]
+    },
+    {
+      "id": "32994b7d8d",
+      "date": "2026-08-15",
+      "source": "x",
+      "author": "Swyx",
+      "bio": "achieve ambition with intentionality, intensity, integrity & insanity.  affiliations: - @smol_ai - @dxtipshq - @cognition - @aidotengineer - @latentspacepod",
+      "title": "",
+      "summary_en": "AIE NYC CFP wave 1 acceptances are being finalized today. last day to get in for wave 1!\n\nhttps://t.co/ldei0UywCk\n\nour NYC event last year was the most successful summit we've ever had. excited to head back to 🗽 bigger and better than ever - note the special requirements for our mainstage finance keynotes",
+      "summary_zh": "AIE NYC 第一波 CFP 今天收口，想挤进 Wave 1 这是最后一天。去年纽约场是他们史上最成功的峰会，今年回归规模更大，但主舞台金融主题 keynote 有额外门槛。",
+      "url": "https://x.com/swyx/status/2088322211241447801",
+      "posted_at": "2026-08-14T17:49:48.000Z",
+      "tags": [
+        "@swyx"
+      ]
+    },
+    {
+      "id": "c6986f2c2f",
+      "date": "2026-08-15",
+      "source": "x",
+      "author": "Google Labs",
+      "bio": "Google’s home for our latest AI tools and experiments.",
+      "title": "",
+      "summary_en": "In the Lab, we’re always tinkering 🧪– from the experiments we graduate to the ones still brewing, we bring the best of our AI models to all kinds of users. Try out these two (if you haven't already!):\n\n@PomellibyGoogle - build captivating marketing campaigns tailored to your brand and your business at scale\n\n@FlowbyGoogle - craft visual stories that channel your imagination and draw the attention of your audience",
+      "summary_zh": "Google Labs 还在把 AI 模型往具体工具里塞：Pomelli 用来批量生成贴合品牌的营销活动，Flow 用来把想象力做成抓眼球的视觉故事。",
+      "url": "https://x.com/GoogleLabs/status/2088307370787328223",
+      "posted_at": "2026-08-14T16:50:50.000Z",
+      "tags": [
+        "@GoogleLabs"
+      ]
+    },
+    {
+      "id": "b4f85ad720",
+      "date": "2026-08-15",
+      "source": "x",
+      "author": "Dan Shipper",
+      "bio": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "title": "",
+      "summary_en": "Some people are using AI in ways that make everyone around them feel slightly behind.\n\nWe want those people at Thesis: 2027.\n\nIf a person comes to mind—an executive, a builder, a creative—nominate them. We’ve reserved free tickets for our favorite nominees.\n\nhttps://t.co/ModuXIMpdY",
+      "summary_zh": "有些人用 AI 的方式，已经让身边所有人都显得慢半拍。Thesis: 2027 要找的就是这类高密度使用 AI 的高管、builder 和创作者，并给最强提名者留了免费票。",
+      "url": "https://x.com/danshipper/status/2088298533912989736",
+      "posted_at": "2026-08-14T16:15:43.000Z",
+      "tags": [
+        "@danshipper"
+      ]
+    },
+    {
+      "id": "4c96555956",
+      "date": "2026-08-15",
+      "source": "x",
+      "author": "Madhu Guru",
+      "bio": "Sr Director, AI at Meta; Prev: Google - Led Gemini, Veo, Nano Banana.",
+      "title": "",
+      "summary_en": "Making steam engines more efficient increased coal demand.\n\nHigher-level languages made programming easier and resulted in far more software being built.\n\nSpreadsheets made financial analysis cheaper and resulted in businesses doing far more analysis.\n\nWhen the cost and complexity of a task falls, new use cases become economically viable.\n\nAI + software engineering will likely follow the same pattern: far more software solving far more problems, including problems that were previously economically unviable.",
+      "summary_zh": "蒸汽机、编程语言和电子表格都证明了一件事：成本和复杂度下降，不会减少需求，只会释放更多需求。AI + 软件工程也会一样，带来更多软件，去解决过去根本不划算解决的问题。",
+      "url": "https://x.com/realmadhuguru/status/2088294414255112329",
+      "posted_at": "2026-08-14T15:59:21.000Z",
+      "tags": [
+        "@realmadhuguru"
+      ]
+    },
+    {
+      "id": "2b6ccaed38",
+      "date": "2026-08-15",
+      "source": "x",
+      "author": "Aditya Agarwal",
+      "bio": "General Partner @SPC, Co-Founder @Bevel_Health | Ex: Early Eng @facebook, CTO @Dropbox, Board @Flipkart | Optimist, Builder, Dad",
+      "title": "",
+      "summary_en": "One of the things we think about a lot @spc is that as investors we must deeply embody the traits we look for in founders.\n\n@evantana  doesn't like to talk about himself...but it is one of the great joys (and privileges) of my life to work with someone as driven, talented and curious as him to build SPC for many years and decades to come.",
+      "summary_zh": "投资人不能只会挑创始人特质，自己也必须活成那种人。Evan Tana 不爱自夸，但他身上的驱动力、才华和好奇心，正是 SPC 想长期押注和共同建设的东西。",
+      "url": "https://x.com/adityaag/status/2088290208911675761",
+      "posted_at": "2026-08-14T15:42:39.000Z",
+      "tags": [
+        "@adityaag"
+      ]
+    },
+    {
+      "id": "d4d3c050f2",
+      "date": "2026-08-15",
+      "source": "x",
+      "author": "Nan Yu",
+      "bio": "head of product @linear",
+      "title": "",
+      "summary_en": "If you believe your colleagues are smart, their ideas didn't come from nowhere. There's something motivating them that gets to a real problem, or is likely interesting to think about.\n\nSome of the most interesting things we've shipped are fusions of multiple ideas or several derivatives away from the original concept.",
+      "summary_zh": "如果你承认同事不蠢，就别把他们的想法当空气：背后一定有真实问题或值得挖的动机。很多最有意思的成果，都是多个想法杂交、再偏离原点几步之后长出来的。",
+      "url": "https://x.com/thenanyu/status/2088278730808426900",
+      "posted_at": "2026-08-14T14:57:02.000Z",
+      "tags": [
+        "@thenanyu"
+      ]
+    },
+    {
+      "id": "ac8bd83724",
+      "date": "2026-08-15",
+      "source": "x",
+      "author": "Dan Shipper",
+      "bio": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "title": "",
+      "summary_en": "not really \n\nyou can be an AI-native rocketship without being in a permanent fundraising situation and in a constant death match with other rocketships to capture customers, sacrificing gross margin\n\nbut the rules for building a company like that are very different https://t.co/gP6IVRx2ib",
+      "summary_zh": "不一定，AI 原生公司也可以高速增长，而不是永远在融资、跟同行打生死战、靠牺牲毛利来抢客户。只是这种公司的打法完全不是同一套规则。",
+      "url": "https://x.com/danshipper/status/2088270756043993503",
+      "posted_at": "2026-08-14T14:25:21.000Z",
+      "tags": [
+        "@danshipper"
+      ]
+    },
+    {
+      "id": "c9d97cdc09",
+      "date": "2026-08-15",
+      "source": "x",
+      "author": "Josh Woodward",
+      "bio": "VP, @Google @GoogleLabs @GeminiApp @GoogleAIStudio",
+      "title": "",
+      "summary_en": "Pomelli is our Google Labs experiment popular with a growing number of small businesses. Why? It's one of the easiest ways to make your products look good in any setting.\n\nWith this launch, turn those amazing photoshoots into short videos or gifs with that same ease! https://t.co/cH3AAkQgsL",
+      "summary_zh": "Pomelli 是 Google Labs 给小商家的实验工具，核心卖点很直接：让产品在任何场景里都显得好看。现在它把这套傻瓜式产品大片能力扩展到短视频和 GIF。",
+      "url": "https://x.com/joshwoodward/status/2088261701028503965",
+      "posted_at": "2026-08-14T13:49:22.000Z",
+      "tags": [
+        "@joshwoodward"
+      ]
+    },
+    {
+      "id": "57ea2df583",
+      "date": "2026-08-15",
+      "source": "x",
+      "author": "Peter Yang",
+      "bio": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6",
+      "title": "",
+      "summary_en": "I was curious how X is fighting AI slop, so I looked at its open-source algorithm.\n\nIt has a behavioral model called TweetSpamBot that analyzes up to 512 recent account actions, looking at signals like posting bursts, quote-post behavior, timing, and normal browsing or dwell between actions.\n\nThe model is trained to recognize patterns such as:\n\n→ TWEET_CREATE_BURST\n→ QUOTE_TWEET_SPAMMER\n→ CONTENT_AMPLIFIER\n\nA high score on the above can feed into an account challenge but doesn't seem to downrank the slop posts themselves.\n\nI think the gap here is that the model doesn’t read the actual post content.\n\nSo a sophisticated AI content mill can still post slop all day long:\n\n1. Find viral posts\n2. Quote tweet with the same template each time: hook → numbers → backstory → takeaway\n3. Repeat 10+ times a day across unrelated topics\n\nIf @X doesn't want to become like LinkedIn, I think it should consider looking at accounts that repeatedly turn unrelated viral posts into the same templated quote tweet slop at high volume.\n\nRight now the guardrails above are too easy to bypass.",
+      "summary_zh": "X 的反垃圾模型盯的是行为节奏，不读内容本身，所以 AI 内容农场只要别像低级机器人一样操作，就能靠同一套模板批量蹭热点。  \n如果 X 不想变成 LinkedIn，就该盯住那些高频把无关爆款改写成同款废话引用推的人；现在这套护栏太好绕了。",
+      "url": "https://x.com/petergyang/status/2088261100202868768",
+      "posted_at": "2026-08-14T13:46:58.000Z",
+      "tags": [
+        "@petergyang"
+      ]
+    },
+    {
+      "id": "86b8a1b5e1",
+      "date": "2026-08-15",
+      "source": "x",
+      "author": "Josh Woodward",
+      "bio": "VP, @Google @GoogleLabs @GeminiApp @GoogleAIStudio",
+      "title": "",
+      "summary_en": "This fix addresses #6 in https://t.co/5PFi8qXzjF",
+      "summary_zh": "这个修复专门解决了链接项目里的 #6 问题。",
+      "url": "https://x.com/joshwoodward/status/2088259247184507170",
+      "posted_at": "2026-08-14T13:39:37.000Z",
+      "tags": [
+        "@joshwoodward"
+      ]
+    },
+    {
+      "id": "8b22400172",
+      "date": "2026-08-15",
+      "source": "x",
+      "author": "Dan Shipper",
+      "bio": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "title": "",
+      "summary_en": "the list of people who applied to this event over the list 24 hours is incredible, i can’t wait to get everyone in one room \n\nif you’re a business interested in being part of this event DM @itsbdell https://t.co/9huAwWNnzz",
+      "summary_zh": "过去 24 小时申请参加这个活动的人名单已经炸裂，真想马上把这些人都聚到一个房间里。\n\n想参与的企业直接私信 @itsbdell。",
+      "url": "https://x.com/danshipper/status/2088246494885302639",
+      "posted_at": "2026-08-14T12:48:56.000Z",
+      "tags": [
+        "@danshipper"
+      ]
+    }
+  ]
+}
