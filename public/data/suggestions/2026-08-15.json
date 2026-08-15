@@ -1,0 +1,163 @@
+{
+  "date": "2026-08-15",
+  "items": [
+    {
+      "id": "2026-08-15-1",
+      "title": "Agent 大词凉了，基建疯了",
+      "angle": "用“搜索降温 vs GitHub 暴涨”的反差切入：用户不想再听 agent 故事，但开发者正在补它缺的工程层。",
+      "opening": "“AI agent”搜索热度跌了，但 Prime Agent 一周涨了 10739 星。最有意思的信号不是热词退潮，而是 builders 开始把长期任务、记忆、技能和运行时拆成基础设施。",
+      "story_hook": {
+        "challenge": "市场叙事在降温，工程投入却在加速，这两个信号看起来互相矛盾。",
+        "twist": "降温的不是 agent 需求，而是泛泛而谈的 agent 话术；升温的是能被安装、部署、替换的组件。"
+      },
+      "takeaway": "判断 AI 机会时，不要只看大词热度，要看开发者是否在为某个工作流补记忆、技能、路由和状态层。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Thibault Sottiaux 追问 Codex 本周啃下了什么硬骨头",
+          "url": "https://x.com/thsottiaux/status/2088500028721832432"
+        },
+        {
+          "tag": "pulse",
+          "ref": "PrimeIntellect-ai/prime-agent 周增 10739 星",
+          "url": "https://github.com/PrimeIntellect-ai/prime-agent"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Google Trends: ai agent 下降 -6.2%",
+          "url": "https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-15-2",
+      "title": "Cursor for X 不是梗",
+      "angle": "从 Cursor 对产品形态的影响切入：真正的新机会不是聊天机器人，而是嵌进具体工作流的 AI 控制面。",
+      "opening": "过去一年，“Cursor for X”听起来像套模板。可今天的 GitHub 和 Product Hunt 信号说明，它可能是这一代 AI 产品最有效的母版：把模型从对话框里拽出来，塞进 IDE、浏览器、调用链和团队流程。",
+      "story_hook": {
+        "challenge": "很多 AI 产品还在做通用聊天入口，用户却开始寻找更具体的工作流替代品。",
+        "twist": "Cursor 的价值未必是代码补全，而是证明了 AI 应用可以围绕一个高频工作界面重构。"
+      },
+      "takeaway": "做 AI 产品时，先找一个已有高频工作台，再问 AI 应该嵌在哪个动作里，而不是先做一个聊天框。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Madhu Guru：Cursor for X 给 AI 产品提供了新母版",
+          "url": "https://x.com/realmadhuguru/status/2088489059115270532"
+        },
+        {
+          "tag": "builders",
+          "ref": "Aaron Levie：Cursor 打穿应用层 AI 打法",
+          "url": "https://x.com/levie/status/2088476232933577124"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Google Trends: cursor alternative 上涨 +123.4%",
+          "url": "https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-15-3",
+      "title": "AI 写代码，评审要看证据",
+      "angle": "从“UI PR 必须上传视频”切入，讲 AI 编程团队的下一层需求：不是更快生成，而是可审计、可复现、可回放。",
+      "opening": "AI 已经能帮你改 UI 状态，但 reviewer 不能靠想象猜交互。Peter Steinberger 把规则写进 AGENTS.md：凡是 UI 状态 PR，都必须上传视频。这句话背后，是 AI 开发从“能跑”进入“能被检查”的阶段。",
+      "story_hook": {
+        "challenge": "AI 让代码产出更快，但团队协作里的信任成本反而上升。",
+        "twist": "最该补的工具可能不是更强 agent，而是视频、调用收据、失败定位和审计日志。"
+      },
+      "takeaway": "团队引入 AI 编程后，要尽快建立证据层：录屏、调用记录、成本、失败原因和变更定位。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Peter Steinberger：改 UI 状态的 PR 必须上传视频",
+          "url": "https://x.com/steipete/status/2088486859244741020"
+        },
+        {
+          "tag": "builders",
+          "ref": "Peter Steinberger：OpenClaw 会话可 URL 分享",
+          "url": "https://x.com/steipete/status/2088473882357530979"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Inferock Bench：为每次 LLM API 调用留独立凭证",
+          "url": "https://www.producthunt.com/products/inferock-bench"
+        },
+        {
+          "tag": "pulse",
+          "ref": "oxpecker：追踪供应商破坏了哪一行代码",
+          "url": "https://www.producthunt.com/products/oxpecker"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-15-4",
+      "title": "别卖 token，卖成功动作",
+      "angle": "从 AI 原生公司增长与 Product Hunt 小工具切入：更好的商业模式是按审计、成功任务和接入范围收费。",
+      "opening": "AI 产品最偷懒的定价，是把 token 加价卖给用户。但今天冒出来的一批产品更像业务工具：有人卖调用凭证，有人卖抓取成功，有人卖银行接入范围。它们都在把账单绑定到结果，而不是生成次数。",
+      "story_hook": {
+        "challenge": "AI 公司容易陷入高成本、低毛利、同质化竞争。",
+        "twist": "更稳的收费点不在模型输出，而在客户愿意为“可验证结果”付钱的地方。"
+      },
+      "takeaway": "设计 AI 产品定价时，把收费锚点从生成次数改成证据、成功结果、接入范围或团队治理。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Dan Shipper：AI 原生公司也可以高速增长且不牺牲毛利",
+          "url": "https://x.com/danshipper/status/2088270756043993503"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Inferock Bench：LLM API 调用审计入口",
+          "url": "https://www.producthunt.com/products/inferock-bench"
+        },
+        {
+          "tag": "pulse",
+          "ref": "BrowserAct Cloud：按网页抓取任务和并发浏览器形成计费点",
+          "url": "https://www.producthunt.com/products/browseract"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Talvo：接入 2500 多家欧洲银行",
+          "url": "https://www.producthunt.com/products/talvo-2"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-15-5",
+      "title": "多模态机会变小了",
+      "angle": "不是说市场小，而是产品切口要小：电商短视频、播客切片、课程片段比通用创作站更值得做。",
+      "opening": "多模态模型还在密集上新，但“做一个万能创作平台”已经不够锋利。Google Labs 把 Pomelli 做成小商家营销工具，MiniMax 和 Qwen 的热度则说明供给端继续过剩。真正缺的是能直接帮用户完成一个高频小工作的产品。",
+      "story_hook": {
+        "challenge": "模型能力越来越强，通用创作产品却越来越难差异化。",
+        "twist": "机会不是更大的创作平台，而是更窄、更可分发的微工作流。"
+      },
+      "takeaway": "用多模态模型做产品时，优先选择有明确分发渠道和复用频率的场景，例如商品短视频、课程片段、播客切片和社媒封面。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Google Labs：Pomelli 生成品牌营销活动，Flow 制作视觉故事",
+          "url": "https://x.com/GoogleLabs/status/2088307370787328223"
+        },
+        {
+          "tag": "builders",
+          "ref": "Josh Woodward：Pomelli 扩展到短视频和 GIF",
+          "url": "https://x.com/joshwoodward/status/2088261701028503965"
+        },
+        {
+          "tag": "pulse",
+          "ref": "MiniMaxAI/MiniMax-H3 覆盖 text-to-video、image-to-video 和同步音视频",
+          "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Qwen/Qwen3.8-27B HuggingFace trending 9059",
+          "url": "https://huggingface.co/Qwen/Qwen3.8-27B"
+        }
+      ]
+    }
+  ],
+  "notes": "今日整体主线很清楚：agent 叙事降温，但工程化基础设施升温；适合写给开发者和 PM 的不是“AI 又进步了”，而是控制面、证据层、定价锚点和小工作流。",
+  "generated_at": "2026-08-15T09:17:15+00:00",
+  "model": "gpt-5.5"
+}
