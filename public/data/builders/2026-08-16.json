@@ -1,0 +1,337 @@
+{
+  "date": "2026-08-16",
+  "generated_at": "2026-08-16T09:11:10+00:00",
+  "count": 22,
+  "items": [
+    {
+      "id": "99babd6710",
+      "date": "2026-08-16",
+      "source": "x",
+      "author": "Amjad Masad",
+      "bio": "ceo @replit. civilizationist",
+      "title": "",
+      "summary_en": "The argument that “AI structurally centralizes power” because it’s currently compute hungry ignores 125 years of super exponential growth in compute price-performance. \n\nImprovement in algorithms and continued hardware efficiency gains     means there is no reason to assume AGI-level capabilities will always require a data center to run.\n\nScaling laws are not laws of physics. They’re simply empirical relationships observed for particular architectures, objectives, datasets etc. Change any one of those factors and you get a different scaling curve. \n\nIf the brain is any guide, true AGI will likely be very efficient. In fact, current scaling laws might a bug and not a feature. It shows how inefficiency of the ML algorithms we discovered so far.",
+      "summary_zh": "把 AI 天然导向权力集中归咎于算力饥渴，是无视 125 年算力性价比暴涨的短视判断；没有理由假设 AGI 永远只能住在数据中心里。\n\n所谓 scaling laws 不是物理定律，只是当前架构、目标和数据下的经验曲线；如果大脑能做参照，真正的 AGI 很可能极其高效，今天的 scaling law 更像是机器学习算法低效的症状。",
+      "url": "https://x.com/amasad/status/2088867492907327573",
+      "posted_at": "2026-08-16T05:56:34.000Z",
+      "tags": [
+        "@amasad"
+      ]
+    },
+    {
+      "id": "5760d9d11a",
+      "date": "2026-08-16",
+      "source": "x",
+      "author": "Thibault Sottiaux",
+      "bio": "Codex & ChatGPT @OpenAI",
+      "title": "",
+      "summary_en": "On tokens and prices per token.\n\nI said I’d write more about this, so here goes: an OpenAI token != another model’s token. We compare AI prices in dollars per million tokens as if a token were a standardized unit, like a gram or a kilowatt-hour. It isn’t. Different models use and produce the exact same text using different numbers of tokens, which means a lower price per token does not necessarily mean a lower bill.\n\nImagine two identical pizzas. One is cut into 8 slices at $2 each. The other is cut into 16 slices at $1.25 each. The second place advertises cheaper slices, but the whole pizza costs $20 instead of $16. Bummer ... your stomach doesn't actually care about the number of slices you just ate.\n\nI know you are hungry now, but back to tokens. In one small comparison spanning English, technical, multilingual, and numerical text, the tokenizer we use for GPT-5.6 Sol used 766 tokens versus an estimated 1,170 for Claude Opus 5. That's a very significant difference of about 34.5% fewer tokens. You can get the same exact text, but pay for all those extra tokens. The price per token doesn't really tell this story.\n\nEven correcting for tokenizer differences misses the bigger point. What actually matters is price per successful outcome, and for that you can use benchmarks as a starting point, but really you have to try it and measure on your own use cases.\n\nThat's all. May the tokens flow.",
+      "summary_zh": "拿“每百万 token 多少钱”比 AI 价格，本质上像按披萨切片数比便宜：不同模型切 token 的刀法不同，单价低不等于账单低。真正该算的是每次成功结果的成本，benchmark 只能打底，最后还得在自己的场景里实测。",
+      "url": "https://x.com/thsottiaux/status/2088866513008873560",
+      "posted_at": "2026-08-16T05:52:40.000Z",
+      "tags": [
+        "@thsottiaux"
+      ]
+    },
+    {
+      "id": "df7a835320",
+      "date": "2026-08-16",
+      "source": "x",
+      "author": "Thibault Sottiaux",
+      "bio": "Codex & ChatGPT @OpenAI",
+      "title": "",
+      "summary_en": "If you have a company and still use Opus instead of Sol, why so? Does price not matter to you? What's something that would convince you to switch?",
+      "summary_zh": "如果你有家公司还在用 Opus 而不是 Sol，到底图什么？价格对你完全不重要吗，还是需要什么才肯换？",
+      "url": "https://x.com/thsottiaux/status/2088850995430477882",
+      "posted_at": "2026-08-16T04:51:00.000Z",
+      "tags": [
+        "@thsottiaux"
+      ]
+    },
+    {
+      "id": "c60b7ef020",
+      "date": "2026-08-16",
+      "source": "x",
+      "author": "Guillermo Rauch",
+      "bio": "@vercel CEO",
+      "title": "",
+      "summary_en": "Recursive self improvement https://t.co/wOqa7mW997",
+      "summary_zh": "递归式自我改进来了：AI 不只是写代码，而是在开始改造自己。",
+      "url": "https://x.com/rauchg/status/2088838302367732178",
+      "posted_at": "2026-08-16T04:00:34.000Z",
+      "tags": [
+        "@rauchg"
+      ]
+    },
+    {
+      "id": "e4313310e7",
+      "date": "2026-08-16",
+      "source": "x",
+      "author": "Nan Yu",
+      "bio": "head of product @linear",
+      "title": "",
+      "summary_en": "These two were ahead of their time https://t.co/adjYZkvCM1",
+      "summary_zh": "这两个早就跑在时代前面了，只是当时多数人还没看懂。",
+      "url": "https://x.com/thenanyu/status/2088811172090769461",
+      "posted_at": "2026-08-16T02:12:46.000Z",
+      "tags": [
+        "@thenanyu"
+      ]
+    },
+    {
+      "id": "6281ed03e2",
+      "date": "2026-08-16",
+      "source": "x",
+      "author": "Nan Yu",
+      "bio": "head of product @linear",
+      "title": "",
+      "summary_en": "This is also my dream. I want to sit in a park all day and record content with the homies… and have a fleet of agents turn that content into actions and working software. https://t.co/V9SzxqFEnL",
+      "summary_zh": "他的梦想是整天坐在公园里和兄弟们录内容，然后让一队 AI agents 把这些内容直接变成行动和可运行的软件。内容不再只是内容，而是软件生产线的原料。",
+      "url": "https://x.com/thenanyu/status/2088810666958196988",
+      "posted_at": "2026-08-16T02:10:45.000Z",
+      "tags": [
+        "@thenanyu"
+      ]
+    },
+    {
+      "id": "562bf7c7c0",
+      "date": "2026-08-16",
+      "source": "x",
+      "author": "Nan Yu",
+      "bio": "head of product @linear",
+      "title": "",
+      "summary_en": "Watches https://t.co/pbushpJPOH",
+      "summary_zh": "只丢下一个词“Watches”和链接，像是在用最低信息密度预告一个手表/可穿戴相关项目。",
+      "url": "https://x.com/thenanyu/status/2088808413744558266",
+      "posted_at": "2026-08-16T02:01:48.000Z",
+      "tags": [
+        "@thenanyu"
+      ]
+    },
+    {
+      "id": "7ecfe04ccf",
+      "date": "2026-08-16",
+      "source": "x",
+      "author": "Guillermo Rauch",
+      "bio": "@vercel CEO",
+      "title": "",
+      "summary_en": "Impressive https://t.co/fv5zyLbPNt",
+      "summary_zh": "这个东西确实惊艳，已经到了让人停下来看的程度。",
+      "url": "https://x.com/rauchg/status/2088801077659635715",
+      "posted_at": "2026-08-16T01:32:39.000Z",
+      "tags": [
+        "@rauchg"
+      ]
+    },
+    {
+      "id": "9424df2f9e",
+      "date": "2026-08-16",
+      "source": "x",
+      "author": "Dan Shipper",
+      "bio": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "title": "",
+      "summary_en": "Dario should tweet more https://t.co/N29v9simn6",
+      "summary_zh": "Dario 别再低调了，该多发推，别总让别人替他输出观点。",
+      "url": "https://x.com/danshipper/status/2088780884048552202",
+      "posted_at": "2026-08-16T00:12:25.000Z",
+      "tags": [
+        "@danshipper"
+      ]
+    },
+    {
+      "id": "162a9a8b42",
+      "date": "2026-08-16",
+      "source": "x",
+      "author": "Peter Yang",
+      "bio": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6",
+      "title": "",
+      "summary_en": "I am a fan of Grok Bot but @X is the #1 differentiated data source that it should  have access to and it doesn't seem to work? \n\nThe connector doesn't work and I can't even login to X on the cloud computer. \n\nAm I doing something wrong? https://t.co/O5OI9OhETb",
+      "summary_zh": "Grok 最大的差异化数据源本该是 X，但现在连接器用不了，云电脑里甚至登不上 X。问题很刺眼：到底是我操作错了，还是自家王牌数据源根本没打通？",
+      "url": "https://x.com/petergyang/status/2088773343629750535",
+      "posted_at": "2026-08-15T23:42:27.000Z",
+      "tags": [
+        "@petergyang"
+      ]
+    },
+    {
+      "id": "9315d2e4ad",
+      "date": "2026-08-16",
+      "source": "x",
+      "author": "Peter Yang",
+      "bio": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6",
+      "title": "",
+      "summary_en": "I 100% agree with Dario that using AI to cure diseases (and speeding up the regulatory approval of AI breakthroughs in healthcare) could bring 10x the benefit to humanity as everything else combined. https://t.co/1CkVwkyxtW",
+      "summary_zh": "用 AI 治病，以及加速医疗 AI 突破的监管审批，可能给人类带来的收益是其他所有 AI 应用加起来的 10 倍。\n\nDario 这点说得对，真正的大头不在聊天、写代码或生成内容，而在把疾病治好。",
+      "url": "https://x.com/petergyang/status/2088772605323214999",
+      "posted_at": "2026-08-15T23:39:31.000Z",
+      "tags": [
+        "@petergyang"
+      ]
+    },
+    {
+      "id": "2d35ea88db",
+      "date": "2026-08-16",
+      "source": "x",
+      "author": "Guillermo Rauch",
+      "bio": "@vercel CEO",
+      "title": "",
+      "summary_en": "I think people don’t realize how much of the success of React is actually @shadcn.\n\nI once referred to React as the actual “LEGO brick for adults.” But in reality it was more the description of the geometry of the bricks. The spec.\n\nShadcn is what people actually wanted from React. Reusable high quality components that also tunable. It’s a pseudo-library. There’s code but it’s actually meant to be digested into your context window and remixed.",
+      "summary_zh": "React 的成功很大一部分其实是 shadcn 的成功：React 更像是乐高积木的几何规格，而不是人们真正想要的积木本身。shadcn 才是开发者想从 React 得到的东西：高质量、可复用、可调的组件代码，能被吸收到上下文里再混合改造。",
+      "url": "https://x.com/rauchg/status/2088757738037989755",
+      "posted_at": "2026-08-15T22:40:26.000Z",
+      "tags": [
+        "@rauchg"
+      ]
+    },
+    {
+      "id": "c0d53222b4",
+      "date": "2026-08-16",
+      "source": "x",
+      "author": "Swyx",
+      "bio": "achieve ambition with intentionality, intensity, integrity & insanity.  affiliations: - @smol_ai - @dxtipshq - @cognition - @aidotengineer - @latentspacepod",
+      "title": "",
+      "summary_en": "in case you’re not living in the tech bubble, as a general rule i’ve been surprised by how infrequently top tier folks actually meet/know each other. as an outsider i might have assumed that everyone is in secret illuminati group chats. those exist, but are very much short lived exceptions rather than the rule. what you see of the major headlines is pretty much what they also see. i guess one way to interpret this is also simply that most effort is still on doing the work rather than working the narrative or the gossip. and that, to me at least, is genuinely quite reassuring, this far in to my career.",
+      "summary_zh": "别以为顶级科技圈人人都在神秘小群里互通有无，大多数人看到的也只是新闻头条。真正的精力还是花在做事上，而不是操纵叙事和八卦，这反倒让人安心。",
+      "url": "https://x.com/swyx/status/2088755688361378082",
+      "posted_at": "2026-08-15T22:32:17.000Z",
+      "tags": [
+        "@swyx"
+      ]
+    },
+    {
+      "id": "87c426a2f1",
+      "date": "2026-08-16",
+      "source": "x",
+      "author": "Aditya Agarwal",
+      "bio": "General Partner @SPC, Co-Founder @Bevel_Health | Ex: Early Eng @facebook, CTO @Dropbox, Board @Flipkart | Optimist, Builder, Dad",
+      "title": "",
+      "summary_en": "America turned 250 years old earlier this year. \n\nIndia turns 80 today...80 years young.\n\nBuilding countries is really hard. 80 years in...America was struggling with a civil war.\n\nIndians should be damn proud of the country they have built. \n\nLike America, India wants more. She wants to be better and stronger and more successful. She will get there.",
+      "summary_zh": "建国从来不容易：美国80岁时还在内战里挣扎，印度80岁已建成今天这样的国家，印度人当然该骄傲。像美国一样，印度还想更强、更成功，而且它会到达那里。",
+      "url": "https://x.com/adityaag/status/2088734739893293175",
+      "posted_at": "2026-08-15T21:09:03.000Z",
+      "tags": [
+        "@adityaag"
+      ]
+    },
+    {
+      "id": "4e59e96518",
+      "date": "2026-08-16",
+      "source": "x",
+      "author": "Thibault Sottiaux",
+      "bio": "Codex & ChatGPT @OpenAI",
+      "title": "",
+      "summary_en": "Incredible things are happening at OpenAI right now. Energy is high.",
+      "summary_zh": "OpenAI 现在正发生一些惊人的事，团队能量拉满。",
+      "url": "https://x.com/thsottiaux/status/2088725514542575903",
+      "posted_at": "2026-08-15T20:32:23.000Z",
+      "tags": [
+        "@thsottiaux"
+      ]
+    },
+    {
+      "id": "5c62f0b309",
+      "date": "2026-08-16",
+      "source": "x",
+      "author": "Thariq",
+      "bio": "Claude Code @anthropicai.   prev YC W20, @spc, @medialab",
+      "title": "",
+      "summary_en": "Watermarking without quality loss is a bit unintuitive, doesn't feel like it should work.\n\nI made this artifact with Claude to help me understand how it works, sharing in case it's helpful. https://t.co/ALReoOH6tB https://t.co/hEPeCHgGRM",
+      "summary_zh": "无损加水印听起来像玄学：既要藏信息，又不牺牲质量，但它确实能工作。作者用 Claude 做了个交互 artifact，把这件反直觉的事讲清楚了。",
+      "url": "https://x.com/trq212/status/2088721023223132213",
+      "posted_at": "2026-08-15T20:14:33.000Z",
+      "tags": [
+        "@trq212"
+      ]
+    },
+    {
+      "id": "38ebe8064c",
+      "date": "2026-08-16",
+      "source": "x",
+      "author": "Nikunj Kothari",
+      "bio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
+      "title": "",
+      "summary_en": "Last week I’m sitting across a stealth portfolio founder working in a deeply unsexy space (at least from Bay Area standards)..\n\nThey’re lamenting about how how some of the critical contracts and partnerships that would give them credibility (and revenue and network effects) are basically stuck at the 1-yard line. This is a massively fragmented market. And this is btw just straight up pure bureaucracy. The champions, terms and everything is lined up. It’s purely a win win situation but summer and one random clause is the issue. And, it might cause them to not reach their ambitious timelines. \n\nAnd I’m sitting there smiling and eventually laughing and at some point they ask what’s funny. I tell them “do you know how long it’ll take anyone to do the same thing as you” - and this is with leverage and relationships that they already have. \n\nAnd, this in the short term is painful but in the long term becomes such a strong moat. That they’ll look back and laugh why they were worried about a few days when in the long term this is what will make them one of the biggest companies in the world. \n\nUnnecessary and 996 performative pain is not the moat. But building entrenched software and relationships that take a lot of pain is a moat :)",
+      "summary_zh": "真正的护城河不是 996 式的表演型吃苦，而是那些卡在官僚流程、条款和合作关系里的痛苦积累。短期看是拖慢进度的破事，长期看是别人就算有资源也很难复制的深壕。",
+      "url": "https://x.com/nikunj/status/2088716743615352963",
+      "posted_at": "2026-08-15T19:57:32.000Z",
+      "tags": [
+        "@nikunj"
+      ]
+    },
+    {
+      "id": "71babe13d7",
+      "date": "2026-08-16",
+      "source": "x",
+      "author": "Madhu Guru",
+      "bio": "Sr Director, AI at Meta; Prev: Google - Led Gemini, Veo, Nano Banana.",
+      "title": "",
+      "summary_en": "There is no longer an excuse for B2B software to have such poor UX.\n\nThanks to AI, every software product can and should be as easy to use as the best consumer software.",
+      "summary_zh": "B2B 软件烂 UX 已经没有借口了。AI 让每个软件产品都应该像最好的消费级软件一样好用。",
+      "url": "https://x.com/realmadhuguru/status/2088710566689018103",
+      "posted_at": "2026-08-15T19:33:00.000Z",
+      "tags": [
+        "@realmadhuguru"
+      ]
+    },
+    {
+      "id": "b8cc9fc9a6",
+      "date": "2026-08-16",
+      "source": "x",
+      "author": "Garry Tan",
+      "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "title": "",
+      "summary_en": "Whitepill timeline cleanser: \n\nProgress and abundance looks like record production of crops, year on year, progressing upwards and to the right. This is the output of markets and technology working together for millenia. \n\nhttps://t.co/LXe01sF5G4 https://t.co/VZct22uHUF",
+      "summary_zh": "真正的进步不是情绪价值，而是粮食产量年年创新高、一路向右上。市场和技术联手几千年的结果，就是把稀缺一点点碾碎。",
+      "url": "https://x.com/garrytan/status/2088661047913914847",
+      "posted_at": "2026-08-15T16:16:13.000Z",
+      "tags": [
+        "@garrytan"
+      ]
+    },
+    {
+      "id": "797f7c05c7",
+      "date": "2026-08-16",
+      "source": "x",
+      "author": "Garry Tan",
+      "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "title": "",
+      "summary_en": "Anyone else's Codex Desktop app erroring out on chats? https://t.co/raNUNTPqbe",
+      "summary_zh": "有人遇到 Codex Desktop 聊天直接报错，怀疑不是个例。",
+      "url": "https://x.com/garrytan/status/2088642982614651196",
+      "posted_at": "2026-08-15T15:04:26.000Z",
+      "tags": [
+        "@garrytan"
+      ]
+    },
+    {
+      "id": "cd89f8236f",
+      "date": "2026-08-16",
+      "source": "x",
+      "author": "Aditya Agarwal",
+      "bio": "General Partner @SPC, Co-Founder @Bevel_Health | Ex: Early Eng @facebook, CTO @Dropbox, Board @Flipkart | Optimist, Builder, Dad",
+      "title": "",
+      "summary_en": "This is remarkably well done.\n\nAnd of course featuring our very own @shreepoorna365.\n\nLet's go. https://t.co/UacgWndqL4",
+      "summary_zh": "这个发布/作品做得相当出色，还特别点名了自家成员 @shreepoorna365 参与其中。语气很直接：该冲了。",
+      "url": "https://x.com/adityaag/status/2088629172512195035",
+      "posted_at": "2026-08-15T14:09:34.000Z",
+      "tags": [
+        "@adityaag"
+      ]
+    },
+    {
+      "id": "ece246c8ea",
+      "date": "2026-08-16",
+      "source": "x",
+      "author": "Peter Yang",
+      "bio": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6",
+      "title": "",
+      "summary_en": "Tomorrow, I’m really excited to share a new episode with @rileybrown on how he uses Codex to run his entire content business.\n\nI particularly loved watching him demo how he creates YouTube thumbnails with AI:\n\n1. He uses Codex to find 100 top-performing thumbnails in his niche and add them to a Paper canvas.\n\n2. He uses Paper to mix and match those thumbnails with photos of himself until he creates something he’s happy with.\n\nHonestly, you have to watch the workflow to see how crazy it is.\n\n📌 Subscribe to get the full episode tomorrow: https://t.co/NSTj7ijxE0",
+      "summary_zh": "Riley Brown 用 Codex 直接抓取所在赛道 100 张高表现 YouTube 缩略图，再丢进 Paper 和自己的照片混搭，直到拼出能打的封面。内容生意正在变成一套 AI 驱动的流水线，连“爆款感”都能被拆解、重组和复用。",
+      "url": "https://x.com/petergyang/status/2088626815166464507",
+      "posted_at": "2026-08-15T14:00:12.000Z",
+      "tags": [
+        "@petergyang"
+      ]
+    }
+  ]
+}
