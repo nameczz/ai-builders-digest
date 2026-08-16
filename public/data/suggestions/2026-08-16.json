@@ -1,0 +1,158 @@
+{
+  "date": "2026-08-16",
+  "items": [
+    {
+      "id": "2026-08-16-1",
+      "title": "别再按 token 买模型了",
+      "angle": "从模型采购的计价错觉切入：企业真正该优化的不是每百万 token 单价，而是每次任务成功的总成本。",
+      "opening": "最便宜的模型，可能反而让你花最多钱。Thibault 说按 token 比价就像按披萨切片数比便宜，而今天 GitHub 和趋势数据里，Switchyard 这类模型路由工具正在起飞。模型战争进入下一阶段：不是谁报价低，而是谁能把失败、延迟和回退算进账单。",
+      "story_hook": {
+        "challenge": "AI 团队习惯用 token 单价做采购决策，但不同模型的 tokenizer、成功率、重试次数和延迟会让表面低价失真。",
+        "twist": "真正值得买的可能不是某个模型，而是能在多模型之间动态路由、审计和回退的基础设施。"
+      },
+      "takeaway": "把内部 AI 成本看板从 token 单价改成任务成功成本，并为关键流程记录模型、重试、延迟和最终结果。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Thibault Sottiaux 关于按 token 比价像按披萨切片数比便宜的推文",
+          "url": "https://x.com/thsottiaux/status/2088866513008873560"
+        },
+        {
+          "tag": "builders",
+          "ref": "Thibault Sottiaux 追问企业为何还在用 Opus 而不是 Sol 的推文",
+          "url": "https://x.com/thsottiaux/status/2088850995430477882"
+        },
+        {
+          "tag": "pulse",
+          "ref": "NVIDIA-NeMo/Switchyard GitHub 项目，本周 1326 星",
+          "url": "https://github.com/NVIDIA-NeMo/Switchyard"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-16-2",
+      "title": "AI 自我改进不是科幻了",
+      "angle": "从递归式自我改进的口号落到工程现实：agent 需要记忆、技能、代码图谱和执行环境，才谈得上改造自己。",
+      "opening": "Guillermo Rauch 说，AI 已经不只是写代码，而是在开始改造自己。听起来像科幻，但今天 GitHub 的热榜更像一张施工图：prime-agent、Agent Memory、agent-skills、code-graph-rag 都在补同一件事。自我改进的第一步，可能不是更聪明的大脑，而是一套能复盘、记忆和迁移的工作系统。",
+      "story_hook": {
+        "challenge": "很多人把 self-improving agent 理解成模型突然觉醒，但真实瓶颈在上下文丢失、技能不可复用、执行不可验证。",
+        "twist": "今天增长最快的不是终端聊天产品，而是让 agent 像工程团队一样积累经验的底层组件。"
+      },
+      "takeaway": "评估 coding agent 时，不要只看生成代码能力，要检查它是否有持久记忆、技能包、代码图谱和可审计执行记录。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Guillermo Rauch 关于递归式自我改进到来的推文",
+          "url": "https://x.com/rauchg/status/2088838302367732178"
+        },
+        {
+          "tag": "pulse",
+          "ref": "PrimeIntellect-ai/prime-agent GitHub 项目，本周 8488 星",
+          "url": "https://github.com/PrimeIntellect-ai/prime-agent"
+        },
+        {
+          "tag": "pulse",
+          "ref": "TencentCloud/TencentDB-Agent-Memory GitHub 项目，本周 3956 星",
+          "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory"
+        },
+        {
+          "tag": "pulse",
+          "ref": "addyosmani/agent-skills GitHub 项目，本周 3300 星",
+          "url": "https://github.com/addyosmani/agent-skills"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-16-3",
+      "title": "内容人正在变成软件工厂",
+      "angle": "从内容创作流水线切入：视频、播客、封面和图解正在从手工活变成可编排的 AI 生产流程。",
+      "opening": "一个人坐在公园聊天，一队 AI agents 把内容变成行动和软件。Nan Yu 讲的是愿景，Peter Yang 给了更现实的样本：用 Codex 抓 100 张高表现 YouTube 缩略图，再和自己的照片混搭出封面。内容创业的门槛没有消失，只是从会剪辑变成会搭流水线。",
+      "story_hook": {
+        "challenge": "创作者过去靠审美、经验和外包堆出爆款素材，但高频内容生产越来越吃流程和实验速度。",
+        "twist": "AI 不只是帮你写文案，而是把封面分析、素材混搭、图解生成和多模态发布连成一条可重复的生产线。"
+      },
+      "takeaway": "内容团队可以先自动化一个窄环节，比如爆款封面拆解或文章配图生成，再逐步接入脚本、视频和分发。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Nan Yu 关于内容作为软件生产线原料的推文",
+          "url": "https://x.com/thenanyu/status/2088810666958196988"
+        },
+        {
+          "tag": "builders",
+          "ref": "Peter Yang 关于 Riley Brown 用 Codex 生成 YouTube 缩略图的推文",
+          "url": "https://x.com/petergyang/status/2088626815166464507"
+        },
+        {
+          "tag": "pulse",
+          "ref": "cathrynlavery/diagram-design GitHub 项目，本周 14735 星",
+          "url": "https://github.com/cathrynlavery/diagram-design"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Lightricks/LTX-2.5 HuggingFace 模型",
+          "url": "https://huggingface.co/Lightricks/LTX-2.5"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-16-4",
+      "title": "AGI 未必住在数据中心",
+      "angle": "从算力中心化叙事反切：如果 AGI 的关键是算法效率，小模型和边缘多模态产品可能被低估。",
+      "opening": "Amjad Masad 反驳了一个常见判断：AI 必然因为算力饥渴走向权力集中。他提醒，scaling laws 不是物理定律，只是当前架构下的经验曲线。与此同时，14MB foundation model 和多模态模型同时升温，说明另一个方向也在冒头：更小、更近、更便宜的智能。",
+      "story_hook": {
+        "challenge": "主流叙事把 AI 进步绑定到巨型数据中心、巨额资本和超大模型。",
+        "twist": "如果今天的 scaling law 只是算法低效的症状，那么边缘模型、可穿戴和本地多模态应用反而可能成为下一波入口。"
+      },
+      "takeaway": "做产品选型时，不要默认所有 AI 能力都必须云端大模型优先；对延迟、隐私和设备场景强的需求，应测试小模型和端侧方案。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Amjad Masad 关于 AGI 不一定永远住在数据中心的推文",
+          "url": "https://x.com/amasad/status/2088867492907327573"
+        },
+        {
+          "tag": "pulse",
+          "ref": "cactus-compute/needle GitHub 项目，14MB foundation model，本周 2488 星",
+          "url": "https://github.com/cactus-compute/needle"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Qwen/Qwen3.8-27B HuggingFace 模型，trending score 9570",
+          "url": "https://huggingface.co/Qwen/Qwen3.8-27B"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-16-5",
+      "title": "Grok 输在自家数据源？",
+      "angle": "从 Grok 连接不上 X 的尴尬切入：agent 产品的护城河不只是模型，而是能否可靠接入关键数据和执行环境。",
+      "opening": "Grok 最大的差异化本该是 X 数据，但 Peter Yang 发现连接器用不了，云电脑里甚至登不上 X。这不是一个小 bug，而是 agent 产品最刺眼的短板：模型再强，拿不到数据、进不了环境、完不成动作，用户只会记住失败。今天 Cloudflare computer 和 BrowserAct Cloud 的热度，正好说明执行层正在变成新战场。",
+      "story_hook": {
+        "challenge": "AI 公司常把独家数据和模型能力当卖点，但用户真正体验到的是连接器、权限、浏览器和任务完成率。",
+        "twist": "最强的数据源如果没有被产品打通，反而会暴露 agent 基础设施的脆弱性。"
+      },
+      "takeaway": "评估 agent 产品时，把登录、权限、连接器稳定性和任务恢复能力列为核心指标，而不是只看模型发布会。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Peter Yang 关于 Grok 连接器和 X 数据源未打通的推文",
+          "url": "https://x.com/petergyang/status/2088773343629750535"
+        },
+        {
+          "tag": "pulse",
+          "ref": "cloudflare/computer GitHub 项目，本周 1966 星",
+          "url": "https://github.com/cloudflare/computer"
+        },
+        {
+          "tag": "pulse",
+          "ref": "BrowserAct Cloud Product Hunt 产品",
+          "url": "https://www.producthunt.com/products/browseract"
+        }
+      ]
+    }
+  ],
+  "notes": "今日素材的主线很集中：builder 端在讨论模型效率、成本和执行环境，pulse 端则显示技能、记忆、路由、代码图谱和多模态工具走热。选题应避免泛讲 AI agent，优先讲可计费、可验证、可迁移的工程基础设施。",
+  "generated_at": "2026-08-16T09:18:07+00:00",
+  "model": "gpt-5.5"
+}
