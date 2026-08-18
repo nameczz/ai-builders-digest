@@ -1,0 +1,93 @@
+{
+  "date": "2026-08-18",
+  "top3": [],
+  "intro": "（无 LLM 编辑模式：以下为原始数据归档，建议安装 codex CLI 重新生成。）",
+  "sections": [
+    {
+      "id": "discovery",
+      "title": "发现机会",
+      "blocks": [
+        {
+          "id": "indie-products",
+          "heading": "今天有哪些独立开发者的新产品？",
+          "summary_md": "（自动归档模式）今日 Show HN 与 Product Hunt 上线的独立开发者产品列表。",
+          "items": [
+            {
+              "title": "Dates by Agenda Hero",
+              "url": "https://www.producthunt.com/products/dates-by-agenda-hero",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Meterless.ai",
+              "url": "https://www.producthunt.com/products/meterless-ai",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Deepmark",
+              "url": "https://www.producthunt.com/products/deepmark",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Salem Robotics",
+              "url": "https://www.producthunt.com/products/salem-robotics",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "CrewTower",
+              "url": "https://www.producthunt.com/products/crew-tower",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "monolog",
+              "url": "https://www.producthunt.com/products/monolog-2",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Taku AI",
+              "url": "https://www.producthunt.com/products/taku-ai",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "ElevenLabs MCP in Claude",
+              "url": "https://www.producthunt.com/products/elevenlabs-mcp-2",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Finch",
+              "url": "https://www.producthunt.com/products/finch-6",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Memoria",
+              "url": "https://www.producthunt.com/products/memoria-5",
+              "source": "ProductHunt"
+            }
+          ],
+          "takeaway": ""
+        }
+      ]
+    },
+    {
+      "id": "tech-stack",
+      "title": "技术选型",
+      "blocks": []
+    },
+    {
+      "id": "competition",
+      "title": "竞争情报",
+      "blocks": []
+    },
+    {
+      "id": "trends",
+      "title": "趋势判断",
+      "blocks": []
+    },
+    {
+      "id": "actions",
+      "title": "行动触发",
+      "blocks": []
+    }
+  ],
+  "generated_at": "2026-08-18T09:22:14+00:00",
+  "reddit_highlights": []
+}
