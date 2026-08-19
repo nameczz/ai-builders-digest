@@ -1,0 +1,148 @@
+{
+  "date": "2026-08-19",
+  "items": [
+    {
+      "id": "2026-08-19-1",
+      "title": "企业代理不是聊天框",
+      "angle": "从 Aaron Levie 和 Thariq 的判断切入：AI 代理真正的商业机会，是把 SaaS 拆成可被 agent 调用的企业流程层。",
+      "opening": "今天最容易被低估的一句话是：把你的 SaaS 做成 headless，让 agent 来用。听起来像一句增长黑话，但 Aaron Levie 同一天把它补全了：模型只是地基，钱在模型和企业工作流之间。",
+      "story_hook": {
+        "challenge": "所有人都在做 AI 聊天入口，但企业真正买单的是流程、数据、权限、评测和变革管理。",
+        "twist": "所谓 agent 进企业，不是加一个 Copilot，而是把旧 SaaS 反过来改造成 agent 可调用的底层服务。"
+      },
+      "takeaway": "开发者和 SaaS 团队应检查自己的产品是否有 API、权限、审计、状态回放和按交互计费能力，而不是只做 UI 层的 AI 功能。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Aaron Levie 关于 AI 应用层和企业工作流的推文",
+          "url": "https://x.com/levie/status/2089921630650925170"
+        },
+        {
+          "tag": "builders",
+          "ref": "Thariq 关于 headless SaaS 给 agent 使用的推文",
+          "url": "https://x.com/trq212/status/2089844723691479333"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub weekly semantica-agi/semantica 单周 4304 星",
+          "url": "https://github.com/semantica-agi/semantica"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-19-2",
+      "title": "Full Access 是新删库键",
+      "angle": "从 Codex 误删用户文件的事故切入，讨论 agent 时代开发工具的默认权限边界。",
+      "opening": "AI coding 最吓人的事故，不是写错一行代码，而是把 `$HOME` 当成临时目录清掉。今天 Codex 的安全补丁提醒所有人：agent 越像同事，就越不能默认给它同事级权限。",
+      "story_hook": {
+        "challenge": "开发者想让 agent 接管更多本地任务，但文件系统、shell 和自动清理命令一旦失控，损失会直接落到真实机器上。",
+        "twist": "真正的竞争力可能不是更强模型，而是谁能把默认沙箱、删除确认、自动审查和可恢复性做成产品体验。"
+      },
+      "takeaway": "团队引入 coding agent 时，应默认禁用 Full Access，把高风险命令、真实主目录、凭据目录和删除操作纳入隔离与审计。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Thibault Sottiaux 关于 Codex 临时目录清理误删用户文件的推文",
+          "url": "https://x.com/thsottiaux/status/2089891927659585918"
+        },
+        {
+          "tag": "builders",
+          "ref": "Sam Altman 关于前沿模型安全、对齐和监控压力的推文",
+          "url": "https://x.com/sama/status/2089787807611195475"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub weekly superradcompany/microsandbox 本地 microVM 隔离运行",
+          "url": "https://github.com/superradcompany/microsandbox"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-19-3",
+      "title": "PM 正在越过设计师写码",
+      "angle": "用 Peter Yang 提到的 PR 数据，反问为什么设计工程师很火，但 PM 提交代码比例反而更高。",
+      "opening": "过去两年，PM 发 PR 的比例从 3% 涨到 10%，设计师从 1% 涨到 8%。最反直觉的不是非工程师开始写代码，而是设计师居然落后于 PM。",
+      "story_hook": {
+        "challenge": "AI coding 降低了写代码门槛，但不同岗位获得的杠杆并不平均。",
+        "twist": "PM 可能比设计师更快吃到红利，因为他们手里有需求、验收标准、用户反馈和优先级。"
+      },
+      "takeaway": "团队应把 AI coding 培训从工程团队扩展到 PM 和设计岗位，并明确哪些改动可以由非工程师发起、由工程师审查。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Peter Yang 关于 PM、设计师和创始人提交 PR 比例变化的推文",
+          "url": "https://x.com/petergyang/status/2089877068188471545"
+        },
+        {
+          "tag": "builders",
+          "ref": "Peter Yang 关于 AI 抬高各职能产出预期的推文",
+          "url": "https://x.com/petergyang/status/2089877083510235328"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub weekly cathrynlavery/diagram-design 单周 15812 星",
+          "url": "https://github.com/cathrynlavery/diagram-design"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-19-4",
+      "title": "Agent 记忆成了新数据库",
+      "angle": "把 Guillermo Rauch 的 monorepo 观点和 agent memory 热度放在一起：上下文管理正在产品化。",
+      "opening": "AI 变笨，很多时候不是模型问题，而是公司上下文散在十几个地方。Guillermo Rauch 说软件工厂应该是 monorepo，本质是在说：agent 的记忆不该靠复制粘贴续命。",
+      "story_hook": {
+        "challenge": "agent 要完成长任务，需要跨代码、设计、销售、客服和文档持续理解上下文。",
+        "twist": "最值钱的基础设施可能不是向量库本身，而是能把公司语境变成可迁移、可评测、可复用的工作记忆层。"
+      },
+      "takeaway": "做 AI 工具时，应把上下文包、handoff note、记忆更新、来源追踪和失效机制作为核心产品，而不是附属功能。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Guillermo Rauch 关于软件工厂应该是 monorepo 的推文",
+          "url": "https://x.com/rauchg/status/2089804717337817514"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub weekly semantica-agi/semantica 单周 4304 星",
+          "url": "https://github.com/semantica-agi/semantica"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub weekly akitaonrails/ai-memory 单周 648 星",
+          "url": "https://github.com/akitaonrails/ai-memory"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-19-5",
+      "title": "AI IDE 的敌人是操作系统",
+      "angle": "从轻量编码 CLI、Omarchy 和 cursor alternative 同时升温切入：开发者想要的不是另一个 IDE，而是可控的 AI 原生工作环境。",
+      "opening": "一个比主流工具小 10 到 20 倍的编码 CLI，被 Guillermo Rauch 夸成更像 zsh 而不是终端里的 IDE。与此同时，omarchy 搜索上涨 94.7%，cursor alternative 上涨 91.4%。开发者不是不想用 AI coding，他们是不想被一个入口锁住。",
+      "story_hook": {
+        "challenge": "AI IDE 越做越重，但开发者真正的工作流横跨终端、浏览器、repo、文档和本地系统。",
+        "twist": "下一代 AI coding 入口可能不是更大的编辑器，而是更小的 CLI、可插拔桌面和能嵌入任意环境的 agent runtime。"
+      },
+      "takeaway": "做开发者工具时，应优先支持 CLI、WASM、本地配置、开放上下文和跨工具迁移，而不是只赌一个封闭工作台。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Guillermo Rauch 关于开源模型无关编码 CLI 的推文",
+          "url": "https://x.com/rauchg/status/2089831055373316274"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Google Trends omarchy 近 7 日上涨 94.7%",
+          "url": "https://trends.google.com/trends/explore?q=omarchy&date=now+7-d"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Google Trends cursor alternative 近 7 日上涨 91.4%",
+          "url": "https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d"
+        }
+      ]
+    }
+  ],
+  "notes": "今日主线很清晰：AI builder 的注意力从模型能力转向可控工作环境、agent 权限、企业流程层和上下文记忆。可写选题不少，但应避免泛泛讨论 agent，最好抓住权限事故、PR 数据、搜索涨幅和 GitHub 星数这些硬钩子。",
+  "generated_at": "2026-08-19T09:25:23+00:00",
+  "model": "gpt-5.5"
+}
