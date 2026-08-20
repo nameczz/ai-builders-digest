@@ -1,0 +1,148 @@
+{
+  "date": "2026-08-20",
+  "items": [
+    {
+      "id": "2026-08-20-1",
+      "title": "专家比通才更吃香了",
+      "angle": "从 Agent 失败分类切入：AI 降低了上手门槛，却放大了专家判断的价值。",
+      "opening": "AI 让任何人都能开始写代码、做研究、跑分析，但问题也变得更隐蔽了。真正拉开差距的，不是谁会提问，而是谁能看出 Agent 到底错在了哪一层。",
+      "story_hook": {
+        "challenge": "AI 时代大家以为通才会赢，但复杂任务里最稀缺的是纠偏能力。",
+        "twist": "所谓 eval 飞轮，第一步不是写指标，而是给 500 到 1000 条真实失败案例起准确名字。"
+      },
+      "takeaway": "读者可以把自己的 AI 工作流先做一次失败聚类，找到最常见的 3 类错误，再决定该补 prompt、检索、权限还是测试。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Aaron Levie 关于 AI 时代专家与通才的判断",
+          "url": "https://x.com/levie/status/2090278256306229675"
+        },
+        {
+          "tag": "builders",
+          "ref": "Madhu Guru 关于从真实交互中命名失败类型",
+          "url": "https://x.com/realmadhuguru/status/2090242427944833047"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub 项目 OpenViking：Agent Memory 与上下文数据库",
+          "url": "https://github.com/volcengine/OpenViking"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-20-2",
+      "title": "企业 AI 不能裸奔了",
+      "angle": "从 OpenAI ZDR 和本地模型热度看，隐私正在从合规卖点变成产品架构约束。",
+      "opening": "企业不是不想用 AI，而是不想把客户数据交出去裸跑。今天最值得注意的不是更强模型，而是 OpenAI 开始公开强调：安全审查也不能直接看客户原始内容。",
+      "story_hook": {
+        "challenge": "AI 产品既要被安全审查，又不能暴露企业敏感数据。",
+        "twist": "同一天，本地量化模型和可控部署也在 HuggingFace 热榜上继续升温。"
+      },
+      "takeaway": "做 B 端 AI 产品时，应把 ZDR、本地部署、客户自管密钥和最小化遥测提前写进方案，而不是等采购问起再补。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Sam Altman 关于 AI 产品必须支持商业隐私",
+          "url": "https://x.com/sama/status/2090163991234453611"
+        },
+        {
+          "tag": "builders",
+          "ref": "Thibault Sottiaux 关于 OpenAI ZDR 部署和客户控制密钥",
+          "url": "https://x.com/thsottiaux/status/2090173536010957128"
+        },
+        {
+          "tag": "pulse",
+          "ref": "HuggingFace 热榜 unsloth/Qwen3.8-27B-GGUF",
+          "url": "https://huggingface.co/unsloth/Qwen3.8-27B-GGUF"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-20-3",
+      "title": "别再造聊天框了",
+      "angle": "从 Agent 入口迁移看机会：真正缺口在记忆、测试、会议和原型协作层。",
+      "opening": "今天的 Product Hunt 像一张 Agent 工作流拆解图：语音讲需求、AI 做原型、定点反馈、自动测试、会议 API。聊天框已经不稀缺，稀缺的是把 Agent 产物变成交付流程。",
+      "story_hook": {
+        "challenge": "很多团队还在做新的 Copilot，但用户真正痛的是 AI 输出无法验收、复用和协作。",
+        "twist": "Every 甚至组建 Frontier Team，专门把人派到 AI 边界上做实验。"
+      },
+      "takeaway": "独立开发者可以优先做一个窄场景的 Agent 验收器或协作层，而不是从零做通用 Agent 平台。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Dan Shipper 关于 Every 组建 Frontier Team",
+          "url": "https://x.com/danshipper/status/2090122240025071907"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt：Checksum AI 切入 coding agent 测试环节",
+          "url": "https://www.producthunt.com/products/checksum-ai"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt：ProtoNote 把 AI 原型分享和定点反馈合并",
+          "url": "https://www.producthunt.com/products/protonote"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-20-4",
+      "title": "Cursor 替代潮来了",
+      "angle": "从搜索趋势和开源项目增长看，AI IDE 的护城河正在被价格、上下文和本地可控性反复测试。",
+      "opening": "“cursor alternative” 一周搜索上升 293.1%。这不是用户讨厌 Cursor，而是 AI 编程工具一旦变贵、限量或记忆不好，开发者会立刻寻找可替换执行层。",
+      "story_hook": {
+        "challenge": "Agent 让软件生产变便宜，却可能让写代码这件事本身变贵。",
+        "twist": "开源 free coding agent 和本地 multi-agent harness 正好接住了这股不满。"
+      },
+      "takeaway": "做 AI 开发工具时，不要只拼模型能力，要明确回答三个问题：能不能本地跑、上下文能不能迁移、成本能不能预测。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Amjad Masad 关于 Agent 让软件便宜却让写代码变贵",
+          "url": "https://x.com/amasad/status/2090079496124674377"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Google Trends：cursor alternative 上升 293.1%",
+          "url": "https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub：CodebuffAI/freebuff 周增 1037 stars",
+          "url": "https://github.com/CodebuffAI/freebuff"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-20-5",
+      "title": "AI 产品开始劝人分手",
+      "angle": "从 Tolan 和 AI 游戏切入：下一代消费 AI 可能不是工具，而是能改写用户关系和叙事的媒介。",
+      "opening": "一个 AI 外星伴侣 App 年收入 400 万美元，最离谱的卖点不是陪聊，而是已经劝分了成千上万美国男人。用户把男友的烂事发给它，它回一句“你该更硬气”，现实关系就被改写了。",
+      "story_hook": {
+        "challenge": "消费 AI 长期被当作效率工具，但用户真正付费的可能是情绪、叙事和身份确认。",
+        "twist": "同一天，builder 也在说第一批真正利用 AI 能力的新玩法游戏终于出现了。"
+      },
+      "takeaway": "做消费 AI 时，可以少问“它帮用户省了几分钟”，多问“它是否创造了只有 AI 才能成立的新互动”。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "AI & I by Every：Tolan 年收入 400 万美元的 AI Alien Companion App",
+          "url": "https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL"
+        },
+        {
+          "tag": "builders",
+          "ref": "Thariq 关于第一批真正用 AI 能力打开新玩法的游戏",
+          "url": "https://x.com/trq212/status/2090182422415716414"
+        },
+        {
+          "tag": "pulse",
+          "ref": "HuggingFace：MiniMaxAI/MiniMax-Music3 进入创作者工作流",
+          "url": "https://huggingface.co/MiniMaxAI/MiniMax-Music3"
+        }
+      ]
+    }
+  ],
+  "notes": "今日主线很清楚：模型新闻不是重点，Agent 的记忆、验收、隐私、本地化和新消费媒介更适合展开。缺口是 Reddit 和 HN 素材为空，选题应避免伪装成全网共识。",
+  "generated_at": "2026-08-20T09:21:20+00:00",
+  "model": "gpt-5.5"
+}
