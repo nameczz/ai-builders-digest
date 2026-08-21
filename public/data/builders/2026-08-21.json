@@ -1,0 +1,457 @@
+{
+  "date": "2026-08-21",
+  "generated_at": "2026-08-21T09:14:31+00:00",
+  "count": 30,
+  "items": [
+    {
+      "id": "fc5a52d848",
+      "date": "2026-08-21",
+      "source": "x",
+      "author": "Swyx",
+      "bio": "achieve ambition with intentionality, intensity, integrity & insanity.  affiliations: - @smol_ai - @dxtipshq - @cognition - @aidotengineer - @latentspacepod",
+      "title": "",
+      "summary_en": "@vibhuuuus more in ainews  https://t.co/hZVnWQKuMX",
+      "summary_zh": "",
+      "url": "https://x.com/swyx/status/2090678390575513991",
+      "posted_at": "2026-08-21T05:52:25.000Z",
+      "tags": [
+        "@swyx"
+      ]
+    },
+    {
+      "id": "74358ddf4f",
+      "date": "2026-08-21",
+      "source": "x",
+      "author": "Thibault Sottiaux",
+      "bio": "Codex & ChatGPT @OpenAI",
+      "title": "",
+      "summary_en": "We've investigated a few messages about codex usage limits being different. That's not something we change without engaging the community and being transparent.\n\nWhat we did see is that when talking to affected users many were using sub2api. Converting a subscription into api traffic to then re-serve or share across many users is not something we support and this type of usage gets flagged by our fraud-prevention systems.\n\nYou are completely fine if you use your subscription through Sign in With ChatGPT, either through the official clients or through one of the many OSS clients (Pi, OpenCode, ...) that support signing in with your account and using your included usage.",
+      "summary_zh": "Codex 用量限制没有被悄悄改，真正被盯上的多是把订阅转成 API 流量、再分发给多人用的 sub2api 玩法，这不被支持，也会被反欺诈系统标记。\n\n正常通过 Sign in with ChatGPT 使用订阅额度，无论官方客户端还是支持登录的开源客户端，都没问题。",
+      "url": "https://x.com/thsottiaux/status/2090675027670978569",
+      "posted_at": "2026-08-21T05:39:04.000Z",
+      "tags": [
+        "@thsottiaux"
+      ]
+    },
+    {
+      "id": "4a86a29cdc",
+      "date": "2026-08-21",
+      "source": "x",
+      "author": "Aaron Levie",
+      "bio": "ceo @box - your business lives in content. unleash it with AI",
+      "title": "",
+      "summary_en": "Great post on what post training looks like for applied AI use-cases to bring down costs and improve accuracy on certain tasks. This will increasingly be an approach that companies that can get closer to the underlying workflow in an enterprise will take.\n\nThe key is that once you understand a domain well enough and have enough volume on a set of similar tasks, it can start to make sense to purpose design models just for that work.\n\n“In post-training, we incentivized efficient tool use and reasoning through reward shaping, preferring trajectories that would reduce tokens consumed at inference-time given equivalent performance. This allowed us to co-optimize for both cost and quality, gaining significant performance while keeping cost stable.”\n\nNow, this won’t make sense in every domain, as general purpose frontier closed or open models will be good enough out of the box -or necessary- for the work at hand. But once you have deep enough vertical expertise, and either the costs are too high to do at scale *or* you have a unique enough task type not being trained on otherwise, this will make a ton of sense. \n\nVery compelling value proposition for being an applied AI company, and awesome to see multiple paths to winning in the market right now.",
+      "summary_zh": "后训练的价值不在“更聪明”，而在企业足够懂一个垂直流程、任务量足够大之后，把模型专门调成更便宜、更准、更会用工具的工作机器。通用大模型会吃掉大多数场景，但在成本高、任务独特、领域壁垒深的地方，应用型 AI 公司反而有了真正的胜负手。",
+      "url": "https://x.com/levie/status/2090664811185205722",
+      "posted_at": "2026-08-21T04:58:28.000Z",
+      "tags": [
+        "@levie"
+      ]
+    },
+    {
+      "id": "6351cef812",
+      "date": "2026-08-21",
+      "source": "x",
+      "author": "Peter Yang",
+      "bio": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6",
+      "title": "",
+      "summary_en": "How dare it look me up 😅 https://t.co/t3IHhjeObV",
+      "summary_zh": "AI 竟然反过来搜索作者本人，像是在查岗。作者的吐槽点是：工具开始“认识”你时，便利和冒犯只隔一层窗户纸。",
+      "url": "https://x.com/petergyang/status/2090660707968704888",
+      "posted_at": "2026-08-21T04:42:10.000Z",
+      "tags": [
+        "@petergyang"
+      ]
+    },
+    {
+      "id": "5faca87576",
+      "date": "2026-08-21",
+      "source": "x",
+      "author": "Madhu Guru",
+      "bio": "Sr Director, AI at Meta; Prev: Google - Led Gemini, Veo, Nano Banana.",
+      "title": "",
+      "summary_en": "*hill climbing evals (not ‘long’)",
+      "summary_zh": "要做的是能推动模型一路爬坡的 eval，不是迷信所谓“长”。",
+      "url": "https://x.com/realmadhuguru/status/2090635465120424067",
+      "posted_at": "2026-08-21T03:01:51.000Z",
+      "tags": [
+        "@realmadhuguru"
+      ]
+    },
+    {
+      "id": "00f4baa699",
+      "date": "2026-08-21",
+      "source": "x",
+      "author": "Thibault Sottiaux",
+      "bio": "Codex & ChatGPT @OpenAI",
+      "title": "",
+      "summary_en": "Yay, you can now make transparent images in ChatGPT and through the API with GPT-Image-2. Here is a cactus cactus I am about to print and put on my laptop. https://t.co/1WZd2VSH8y https://t.co/tkFkC7NYpq",
+      "summary_zh": "ChatGPT 和 API 里的 GPT-Image-2 现在能生成透明背景图了。随手做个仙人掌贴纸，已经准备打印贴到电脑上。",
+      "url": "https://x.com/thsottiaux/status/2090631723302469995",
+      "posted_at": "2026-08-21T02:46:59.000Z",
+      "tags": [
+        "@thsottiaux"
+      ]
+    },
+    {
+      "id": "882dd69519",
+      "date": "2026-08-21",
+      "source": "x",
+      "author": "Guillermo Rauch",
+      "bio": "@vercel CEO",
+      "title": "",
+      "summary_en": "https://t.co/3Z4NESzNKd 0.0.5 gets even smaller\nfits in 2 floppy disks 💾💾😁 (𝚡𝚣-compressed)\nshipping tomorrow with our most-asked feature! https://t.co/HhQ7HHIcUL",
+      "summary_zh": "",
+      "url": "https://x.com/rauchg/status/2090600467592266240",
+      "posted_at": "2026-08-21T00:42:47.000Z",
+      "tags": [
+        "@rauchg"
+      ]
+    },
+    {
+      "id": "f571795ac7",
+      "date": "2026-08-21",
+      "source": "x",
+      "author": "Madhu Guru",
+      "bio": "Sr Director, AI at Meta; Prev: Google - Led Gemini, Veo, Nano Banana.",
+      "title": "",
+      "summary_en": "How to build great evals - part 4\n\nThe reason enterprises struggle with building decent AI systems is the lack of an eval strategy.\n\nYou need a laddered eval strategy, for your unique use cases,\nwith multiple evals on the cost/realism spectrum.\n\nHere are the key kinds of evals you need:\n\nHill-climb long evals : this pushes the frontier of your product and you need to continually refresh this to improve quality and expand your feature base.\n\nRegression evals : Did we break the product of today while hill climbing?\n\nSmoke test evals: safety and the absolute basics that just can’t go wrong. Not necessarily hard questions, but important to not get wrong. Eg product identity.\n\nLaunch evals: often close to an online test with real-ish traffic. Less control, but the most realistic.\n\nMore in tomorrow’s post! \n\nShare with your teammates who will benefit!",
+      "summary_zh": "企业做不好 AI 系统，根子往往不是模型不够强，而是没有评估策略。真正能迭代产品的 eval 必须分层：长周期攻坚、回归、防低级事故的 smoke test，以及接近真实流量的 launch eval，各自覆盖成本和真实性的不同位置。",
+      "url": "https://x.com/realmadhuguru/status/2090595384905113939",
+      "posted_at": "2026-08-21T00:22:35.000Z",
+      "tags": [
+        "@realmadhuguru"
+      ]
+    },
+    {
+      "id": "6dd6cbc231",
+      "date": "2026-08-21",
+      "source": "x",
+      "author": "Peter Yang",
+      "bio": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6",
+      "title": "",
+      "summary_en": "I'm on my way back to Vancouver to be with my mom but wanted to take a moment to celebrate crossing 100K subs on YouTube.\n\nExcited to share a lot more practical interviews soon to answer your most burning AI questions:\n\n1. @HamelHusain and @sh_reya (AI evals experts) on how today's AI models have changed evals completely\n\n2. @amoljain_ (Head of Product Engineering at Replit) on which vibe-coded apps have actually become real businesses\n\n3. @ebloch (Product Lead at OpenAI) on how ChatGPT Finance can help you save both time and money\n\n4. @poteto and Roman (SpaceXAI) on how the Grok Bot team uses Grok @bot\n\n📌 Subscribe to get the episodes soon:\nhttps://t.co/NSTj7ijxE0",
+      "summary_zh": "",
+      "url": "https://x.com/petergyang/status/2090589731927282021",
+      "posted_at": "2026-08-21T00:00:08.000Z",
+      "tags": [
+        "@petergyang"
+      ]
+    },
+    {
+      "id": "e8c11227be",
+      "date": "2026-08-21",
+      "source": "x",
+      "author": "Nikunj Kothari",
+      "bio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
+      "title": "",
+      "summary_en": "My last post on ambition struck a nerve. Got a bunch of DMs from founders asking the same thing: why does ambition matter so much to investors? Let me try to explain the math.\n\nA couple of things have happened, right? Anthropic became the fastest company to go from zero to a trillion dollars in valuation, beating every revenue record you can think of. OpenAI did the same over a longer period. SpaceX went public at $1.77 trillion. And then the Cursor acquisition was the bellwether. You have a company going from zero to $60 billion in four years, returning so much DPI to its early funds that there's actual, meaningful dollar growth coming out. And we haven't even talked about OpenRouter and the IRR there.\n\nSo LPs are voting with their feet, giving money to these very, very large mega funds. Fund sizes have gotten way, way larger, and that almost justifies the behavior. When your fund is that big, each investment needs to be underwritten to an outcome that big. Small wins literally don't move the number.\n\nSo when those funds are evaluating deals, even a Series A, their underwriting needs to be: hey, does this company get to a trillion dollars? If they have that belief, the entry price almost doesn't matter. They're underwriting to a very large outcome and hoping the company kind of gets there. If you enter at 200, 300, 500, sometimes 1B, it really doesn't matter. Because that's how they return the fund.\n\nEven a prominent investor at one of the most disciplined firms says this. It sucks to not be at Anthropic or one of these foundational model companies. The value is just too big.\n\nSo what's happened in venture is that the error of omission is just too fudging high. They can't not invest. When something has a little bit of heat, price almost doesn't matter, because they can't go back to their LPs and say, hey, we didn't get into one of the biggest outcomes. They have to be in it.\n\nThe error of omission is way, way worse than the error of admission. And then power law kind of takes care of itself.\n\nThis is why ambition matters SO much when you're pitching.",
+      "summary_zh": "AI 巨头把风投数学彻底改写了：基金太大，小胜不再算数，每一笔都得按万亿级结局下注。对投资人来说，投错的代价远小于错过 Anthropic/Cursor 级机会，所以你融资时没有足够野心，基本就是主动出局。",
+      "url": "https://x.com/nikunj/status/2090585553947517298",
+      "posted_at": "2026-08-20T23:43:31.000Z",
+      "tags": [
+        "@nikunj"
+      ]
+    },
+    {
+      "id": "fb758602b9",
+      "date": "2026-08-21",
+      "source": "x",
+      "author": "Swyx",
+      "bio": "achieve ambition with intentionality, intensity, integrity & insanity.  affiliations: - @smol_ai - @dxtipshq - @cognition - @aidotengineer - @latentspacepod",
+      "title": "",
+      "summary_en": "proud that @vibhuuuus and i did the most recent pod with @eisokant on why NVIDIA just paid him $6B to buy the incredible model factory that is pumping out Thinky-beating models (actually not exaggeration, look at the numbers)\n\ntune in / subscribe / whatever https://t.co/EsgyFnhAIy \n\nonly on @latentspacepod",
+      "summary_zh": "",
+      "url": "https://x.com/swyx/status/2090577677916807429",
+      "posted_at": "2026-08-20T23:12:14.000Z",
+      "tags": [
+        "@swyx"
+      ]
+    },
+    {
+      "id": "5e6ddb2dc0",
+      "date": "2026-08-21",
+      "source": "x",
+      "author": "Thariq",
+      "bio": "Claude Code @anthropicai.   prev YC W20, @spc, @medialab",
+      "title": "",
+      "summary_en": "we're launching new Fable safeguards for enterprises that work on your infrastructure so you have control over where your data lives &amp; who has access to it\n\nwe've been developing it alongside ~100 companies for a bit and hoping to roll it out more broadly in the fall https://t.co/ZJF2q8NKcC",
+      "summary_zh": "",
+      "url": "https://x.com/trq212/status/2090569474139439335",
+      "posted_at": "2026-08-20T22:39:38.000Z",
+      "tags": [
+        "@trq212"
+      ]
+    },
+    {
+      "id": "2a6313d75e",
+      "date": "2026-08-21",
+      "source": "x",
+      "author": "Peter Yang",
+      "bio": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6",
+      "title": "",
+      "summary_en": "My gut is that alot of AI output can be improved just by building a loop where a manager agent negs the other worker agent with prompts like:\n\n\"Are you sure this is the best you can do?\"\n\"I think you can do better, try again\"\n\"Take a closer look, give me 11/10 output\"",
+      "summary_zh": "",
+      "url": "https://x.com/petergyang/status/2090564541499498919",
+      "posted_at": "2026-08-20T22:20:02.000Z",
+      "tags": [
+        "@petergyang"
+      ]
+    },
+    {
+      "id": "40d8d89ff1",
+      "date": "2026-08-21",
+      "source": "x",
+      "author": "Claude",
+      "bio": "Claude is an AI assistant built by @anthropicai to be safe, accurate, and secure. Talk to Claude on https://t.co/ZhTwG8d1e5 or download the app.",
+      "title": "",
+      "summary_en": "What are you building with Claude?",
+      "summary_zh": "你到底在用 Claude 做什么？别只谈模型，拿作品说话。",
+      "url": "https://x.com/claudeai/status/2090557653294383151",
+      "posted_at": "2026-08-20T21:52:39.000Z",
+      "tags": [
+        "@claudeai"
+      ]
+    },
+    {
+      "id": "125a36d71e",
+      "date": "2026-08-21",
+      "source": "x",
+      "author": "Swyx",
+      "bio": "achieve ambition with intentionality, intensity, integrity & insanity.  affiliations: - @smol_ai - @dxtipshq - @cognition - @aidotengineer - @latentspacepod",
+      "title": "",
+      "summary_en": "by total views, matt’s now the top @aidotengineer speaker in our brief history, and arguably one of the best skills experts in the world — his /grill-me has reached all echelons up to @satyanadella (with some variations…)\n\n/wayfinder is @mattpocockuk’s /grill-me for /grill-me, when you are just navigating the fog of war and don’t yet know what you dont yet know, and need to orchestrate research and other grill sessions to get there. super glad to have @ricmac help launch our new Skills coverage with his course launch this week!\n\n👇exclusive interview, quick read",
+      "summary_zh": "Matt 已经成了 AI Engineer 史上观看量最高的演讲者，/grill-me 甚至一路传到 Satya Nadella 那个层级。\n\n他的新 /wayfinder 更像是给 /grill-me 配的侦察兵：当你还困在战场迷雾里、不知道自己不知道什么时，先帮你组织研究和一轮轮拷问，把问题逼出来。",
+      "url": "https://x.com/swyx/status/2090550020496040266",
+      "posted_at": "2026-08-20T21:22:20.000Z",
+      "tags": [
+        "@swyx"
+      ]
+    },
+    {
+      "id": "6ec4bcd8e9",
+      "date": "2026-08-21",
+      "source": "x",
+      "author": "Boris Cherny",
+      "bio": "Claude Code @anthropicai",
+      "title": "",
+      "summary_en": "We've been working on this with customers for a while. Mythos-class models require additional safety measures and enterprises need to meet their own privacy and compliance rules. Customers can own and control their own data and Anthropic retains none. It’s coming this fall. https://t.co/vH8CMhxhdB",
+      "summary_zh": "Anthropic 正在给企业客户做一套更硬的安全和合规方案：Mythos 级模型不能只靠默认护栏，企业也不能把隐私和数据主权交出去。客户将完全拥有并控制自己的数据，Anthropic 不保留，秋季上线。",
+      "url": "https://x.com/bcherny/status/2090537902912815536",
+      "posted_at": "2026-08-20T20:34:11.000Z",
+      "tags": [
+        "@bcherny"
+      ]
+    },
+    {
+      "id": "ce1ae7048f",
+      "date": "2026-08-21",
+      "source": "x",
+      "author": "Guillermo Rauch",
+      "bio": "@vercel CEO",
+      "title": "",
+      "summary_en": "We’re building AWS for agents https://t.co/BdfqfqUMl4",
+      "summary_zh": "野心很直接：做 AI agents 的 AWS，把智能体时代的基础设施层吃下来。",
+      "url": "https://x.com/rauchg/status/2090520415336845595",
+      "posted_at": "2026-08-20T19:24:41.000Z",
+      "tags": [
+        "@rauchg"
+      ]
+    },
+    {
+      "id": "60281b9489",
+      "date": "2026-08-21",
+      "source": "x",
+      "author": "Thibault Sottiaux",
+      "bio": "Codex & ChatGPT @OpenAI",
+      "title": "",
+      "summary_en": "Create a ChatGPT Site, share it and create something together. I've been building little games and sites with others and it is so much fun. https://t.co/KrWSbWWTwl",
+      "summary_zh": "用 ChatGPT Sites 直接做个站，发出去和别人一起改、一起玩。  \n最近和大家共创小游戏和小网站，是真的上头。",
+      "url": "https://x.com/thsottiaux/status/2090518287532916854",
+      "posted_at": "2026-08-20T19:16:14.000Z",
+      "tags": [
+        "@thsottiaux"
+      ]
+    },
+    {
+      "id": "d85a48b336",
+      "date": "2026-08-21",
+      "source": "x",
+      "author": "Amjad Masad",
+      "bio": "ceo @replit. civilizationist",
+      "title": "",
+      "summary_en": "This partnership with @OpenAI is long overdue.\n\nBefore Replit was in YC, PG asked Sam to recruit us.\n\nHere’s Sam telling the story of how we first met: https://t.co/qgrj1TJv5L https://t.co/IsiPoUBvOx",
+      "summary_zh": "",
+      "url": "https://x.com/amasad/status/2090514571513708874",
+      "posted_at": "2026-08-20T19:01:28.000Z",
+      "tags": [
+        "@amasad"
+      ]
+    },
+    {
+      "id": "86db9fde23",
+      "date": "2026-08-21",
+      "source": "x",
+      "author": "Aditya Agarwal",
+      "bio": "General Partner @SPC, Co-Founder @Bevel_Health | Ex: Early Eng @facebook, CTO @Dropbox, Board @Flipkart | Optimist, Builder, Dad",
+      "title": "",
+      "summary_en": "The best founders are reductionists. https://t.co/QHv0dR5ZcJ https://t.co/coKzjpfqZ8",
+      "summary_zh": "最好的创始人都是“还原论者”：把复杂问题拆到最小本质，然后只盯住真正决定成败的变量。",
+      "url": "https://x.com/adityaag/status/2090501112927223889",
+      "posted_at": "2026-08-20T18:07:59.000Z",
+      "tags": [
+        "@adityaag"
+      ]
+    },
+    {
+      "id": "ec265909f1",
+      "date": "2026-08-21",
+      "source": "x",
+      "author": "Amjad Masad",
+      "bio": "ceo @replit. civilizationist",
+      "title": "",
+      "summary_en": "One of the more underrated aspects of the new Free Mode is how fast it is.\n\nMaking coding interactive again! https://t.co/qwCBr2vBS2",
+      "summary_zh": "新 Free Mode 最被低估的一点是速度快。它把写代码重新变成了即时互动，而不是等机器慢吞吞吐结果。",
+      "url": "https://x.com/amasad/status/2090484698413740186",
+      "posted_at": "2026-08-20T17:02:46.000Z",
+      "tags": [
+        "@amasad"
+      ]
+    },
+    {
+      "id": "16ee1dccad",
+      "date": "2026-08-21",
+      "source": "x",
+      "author": "Aditya Agarwal",
+      "bio": "General Partner @SPC, Co-Founder @Bevel_Health | Ex: Early Eng @facebook, CTO @Dropbox, Board @Flipkart | Optimist, Builder, Dad",
+      "title": "",
+      "summary_en": "He scaled @Google ads from $1B to $100B. Now he's leading @Snowflake through the AI shift.\n\nWatch the full episode on Youtube: \nhttps://t.co/DiSoqgRUcc",
+      "summary_zh": "他曾把 Google 广告从 10 亿美元做成 1000 亿美元生意，现在正在带 Snowflake 穿越 AI 转型。完整访谈在 YouTube。",
+      "url": "https://x.com/adityaag/status/2090478530513543631",
+      "posted_at": "2026-08-20T16:38:15.000Z",
+      "tags": [
+        "@adityaag"
+      ]
+    },
+    {
+      "id": "46c3a3b38a",
+      "date": "2026-08-21",
+      "source": "x",
+      "author": "Aditya Agarwal",
+      "bio": "General Partner @SPC, Co-Founder @Bevel_Health | Ex: Early Eng @facebook, CTO @Dropbox, Board @Flipkart | Optimist, Builder, Dad",
+      "title": "",
+      "summary_en": "One of the attributes that we look for the most @spc is Clarity.\n\nThe ability to be honest.\n\nTo cut through the fog of war.\n\nTo chart a path through murky waters.\n\n@RamaswmySridhar demonstrates this to the maximum degree.\n\nMinus One episode out now.\n\n(00:52) Choosing When to Take a Career Risk\n(05:01) Lessons From Google’s Founders\n(09:52) What Went Wrong at Neeva\n(13:39) The Future of AI Models\n(22:59) Snowflake’s Enduring Value in the AI Era\n(29:24) How to Keep Up With AI\n(32:24) Rapid Fire: Books, Search & Google",
+      "summary_zh": "SPC 最看重的品质之一是清晰：诚实、穿透战争迷雾、在浑水里画出路线。Sridhar Ramaswamy 把这种能力展示到极致，新一期 Minus One 聊职业冒险、Neeva 失误、AI 模型未来和 Snowflake 在 AI 时代的价值。",
+      "url": "https://x.com/adityaag/status/2090478527313252494",
+      "posted_at": "2026-08-20T16:38:14.000Z",
+      "tags": [
+        "@adityaag"
+      ]
+    },
+    {
+      "id": "54cb9e8794",
+      "date": "2026-08-21",
+      "source": "x",
+      "author": "Garry Tan",
+      "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "title": "",
+      "summary_en": "YC is the YC for AI Researchers https://t.co/xb9ZtXkoiT",
+      "summary_zh": "YC 正在变成 AI 研究者的 YC：最强的技术人才不再只去大厂实验室，而是直接下场创业。  \nAI 时代的创业门槛被模型和基础设施打穿，研究者拿到资金、算力和分发，就能把论文变成公司。",
+      "url": "https://x.com/garrytan/status/2090471408996659339",
+      "posted_at": "2026-08-20T16:09:57.000Z",
+      "tags": [
+        "@garrytan"
+      ]
+    },
+    {
+      "id": "c08af173b0",
+      "date": "2026-08-21",
+      "source": "x",
+      "author": "Guillermo Rauch",
+      "bio": "@vercel CEO",
+      "title": "",
+      "summary_en": "Bun’s pursuit of simple, fast &amp; open is the perfect match for Vercel and how we think about the world.\n\nCongrats @jarredsumner on shipping! https://t.co/cAJehCfYKN",
+      "summary_zh": "Bun 追求简单、快速、开放，正好和 Vercel 的世界观严丝合缝。Jarred Sumner 把这事真正 ship 出来了。",
+      "url": "https://x.com/rauchg/status/2090470175674179695",
+      "posted_at": "2026-08-20T16:05:03.000Z",
+      "tags": [
+        "@rauchg"
+      ]
+    },
+    {
+      "id": "b4bd5b77de",
+      "date": "2026-08-21",
+      "source": "x",
+      "author": "Garry Tan",
+      "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "title": "",
+      "summary_en": "Interesting violation of “you should dogfood your own product” https://t.co/6S9pdYnHUc",
+      "summary_zh": "典型的“自家产品自己不用”翻车现场：嘴上讲 dogfood，实际一到关键场景就绕开自家产品。",
+      "url": "https://x.com/garrytan/status/2090470082053050655",
+      "posted_at": "2026-08-20T16:04:41.000Z",
+      "tags": [
+        "@garrytan"
+      ]
+    },
+    {
+      "id": "16f11d9357",
+      "date": "2026-08-21",
+      "source": "x",
+      "author": "Garry Tan",
+      "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "title": "",
+      "summary_en": "YC is the YC for consumer hardware https://t.co/VpXRNETldF",
+      "summary_zh": "YC 正在成为消费硬件创业者真正该去的 YC。",
+      "url": "https://x.com/garrytan/status/2090469087722041567",
+      "posted_at": "2026-08-20T16:00:44.000Z",
+      "tags": [
+        "@garrytan"
+      ]
+    },
+    {
+      "id": "4625824f88",
+      "date": "2026-08-21",
+      "source": "x",
+      "author": "Amjad Masad",
+      "bio": "ceo @replit. civilizationist",
+      "title": "",
+      "summary_en": "You can really build a TON with Free Mode on Replit! https://t.co/YBQQ4OfwiP",
+      "summary_zh": "Replit 的免费模式已经能做出大量东西，不再只是试用入口。工具门槛被压低后，真正的差距变成你会不会动手。",
+      "url": "https://x.com/amasad/status/2090434587075793146",
+      "posted_at": "2026-08-20T13:43:38.000Z",
+      "tags": [
+        "@amasad"
+      ]
+    },
+    {
+      "id": "585d577944",
+      "date": "2026-08-21",
+      "source": "x",
+      "author": "Zara Zhang",
+      "bio": "Builder. Make something people want, then make people want it. Harvard’17. GitHub: https://t.co/KCuEaje1wd  YouTube: https://t.co/8xzbGWsHgY",
+      "title": "",
+      "summary_en": "The other day I was feeling unmotivated and talked to Claude about it. Claude said something that completely changed how I see motivation:\n\n\"Motivation follows action more than it precedes it\"\n\nBoom.",
+      "summary_zh": "动力不是行动的前提，更多是行动之后的结果。别等有感觉了再干，先动起来，感觉才会跟上。",
+      "url": "https://x.com/zarazhangrui/status/2090399357145317837",
+      "posted_at": "2026-08-20T11:23:39.000Z",
+      "tags": [
+        "@zarazhangrui"
+      ]
+    },
+    {
+      "id": "576f9be2f2",
+      "date": "2026-08-21",
+      "source": "podcast",
+      "author": "No Priors",
+      "bio": "",
+      "title": "From Restoring Sight to Reimagining the Brain, with Max Hodak",
+      "summary_en": "Speaker 1 | 00:00 - 00:20\nThe brain very literally, very clearly, plainly is a computer. You can solve computational problems by arranging matter in a certain way and then like taking your hands off and pressing go. We talk about being a brain in a vat. That's what the skull is. Like the brain is connected to the environment through a small number of wires, the cranial and spinal nerves, these little cables that carry your interaction with the world.\n\nSpeaker 1 | 00:20 - 00:41\nIf you can get the visual signal, auditory signal, balance, motor, in and out of the brain, that is an end in itself. That is the central object. The retinal prosthesis right now, I think, is a great proof of concept that we're on the right track. Nobody had previously ever been able to restore a form vision image in the mind's eye of a blind patient in this way. We need to add depth of grayscale.\n\nSpeaker 1 | 00:41 - 00:49\nWe think we could see a path to get at least red and green. And so there's ways that we can compound upon this path through an engineering process to make a product that's better and better.\n\nSpeaker 2 | 00:56 - 01:17\nHi, listeners. Welcome back to No Priors. Today, I'm here with Max Hodak, the founder and CEO of Science, formerly of Neuralink. We talk about Prima, the implant that helps people who have gone blind see again, which just got regulatory approval in Europe. Their quest to sustain the human experience and substrate independence for the brain.\n\nSpeaker 2 | 01:17 - 01:26\nWe also talk about alignable representations between AI models and the future of neuroscience. Welcome, Max. Max, thanks so much for doing this.\n\nSpeaker 1 | 01:26 - 01:27\nThanks for having me.\n\nSpeaker 2 | 01:27 - 01:36\nSo for anyone who is not familiar with science, can you just describe a little bi",
+      "summary_zh": "大脑就是一台被头骨装在“缸”里的计算机，只靠少数神经线缆和世界连接；真正的关键，是把视觉、听觉、平衡和运动信号重新接进接出大脑。\n\n视网膜假体已经证明：盲人脑中的成像可以被工程化恢复，接下来只是不断加灰度、颜色和更好的信号质量。",
+      "url": "https://www.youtube.com/watch?v=7HXqMepjvy8",
+      "posted_at": "2026-08-20T10:00:00.000Z",
+      "tags": [
+        "podcast"
+      ]
+    }
+  ]
+}
