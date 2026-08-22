@@ -1,0 +1,93 @@
+{
+  "date": "2026-08-22",
+  "top3": [],
+  "intro": "（无 LLM 编辑模式：以下为原始数据归档，建议安装 codex CLI 重新生成。）",
+  "sections": [
+    {
+      "id": "discovery",
+      "title": "发现机会",
+      "blocks": [
+        {
+          "id": "indie-products",
+          "heading": "今天有哪些独立开发者的新产品？",
+          "summary_md": "（自动归档模式）今日 Show HN 与 Product Hunt 上线的独立开发者产品列表。",
+          "items": [
+            {
+              "title": "SubtitleGenerator",
+              "url": "https://www.producthunt.com/products/subtitlegenerator",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "VeloFiler",
+              "url": "https://www.producthunt.com/products/velofiler",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Open Analytics",
+              "url": "https://www.producthunt.com/products/open-analytics-2",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Port Radar for macOS",
+              "url": "https://www.producthunt.com/products/port-radar-for-macos",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Toplify",
+              "url": "https://www.producthunt.com/products/toplify",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Zero",
+              "url": "https://www.producthunt.com/products/zero-15",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Pocket by Meta",
+              "url": "https://www.producthunt.com/products/pocket-by-meta",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Pawvis",
+              "url": "https://www.producthunt.com/products/pawvis",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Maccess",
+              "url": "https://www.producthunt.com/products/maccess",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "AutoClaw",
+              "url": "https://www.producthunt.com/products/z-ai",
+              "source": "ProductHunt"
+            }
+          ],
+          "takeaway": ""
+        }
+      ]
+    },
+    {
+      "id": "tech-stack",
+      "title": "技术选型",
+      "blocks": []
+    },
+    {
+      "id": "competition",
+      "title": "竞争情报",
+      "blocks": []
+    },
+    {
+      "id": "trends",
+      "title": "趋势判断",
+      "blocks": []
+    },
+    {
+      "id": "actions",
+      "title": "行动触发",
+      "blocks": []
+    }
+  ],
+  "generated_at": "2026-08-22T09:29:24+00:00",
+  "reddit_highlights": []
+}

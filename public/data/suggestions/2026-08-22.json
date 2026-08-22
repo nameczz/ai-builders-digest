@@ -1,0 +1,62 @@
+{
+  "date": "2026-08-22",
+  "items": [
+    {
+      "id": "2026-08-22-1",
+      "title": "The rate of progress in AI rig",
+      "angle": "（自动归档模式：未生成）",
+      "opening": "The rate of progress in AI right now is unlike any other period in tech history. Models are getting cheaper on a like for like task basis, more generally capable, faster, and they’re going deeper in a",
+      "story_hook": {
+        "challenge": "",
+        "twist": ""
+      },
+      "takeaway": "",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Aaron Levie",
+          "url": "https://x.com/levie/status/2091038566260539574"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-22-2",
+      "title": "Update on rate limits in Codex",
+      "angle": "（自动归档模式：未生成）",
+      "opening": "Update on rate limits in Codex. We do see that for some users the cache hit rate has been worse this week than the stable state the weeks before. This could explain that usage is draining somewhat fas",
+      "story_hook": {
+        "challenge": "",
+        "twist": ""
+      },
+      "takeaway": "",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Thibault Sottiaux",
+          "url": "https://x.com/thsottiaux/status/2091033630147854385"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-22-3",
+      "title": "🌍🔫👩‍🚀 https://t.co/23FdI9i5JY",
+      "angle": "（自动归档模式：未生成）",
+      "opening": "🌍🔫👩‍🚀 https://t.co/23FdI9i5JY",
+      "story_hook": {
+        "challenge": "",
+        "twist": ""
+      },
+      "takeaway": "",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Swyx",
+          "url": "https://x.com/swyx/status/2091000431996473688"
+        }
+      ]
+    }
+  ],
+  "notes": "fallback mode: codex CLI not available",
+  "generated_at": "2026-08-22T09:39:24+00:00",
+  "model": "gpt-5.5"
+}
