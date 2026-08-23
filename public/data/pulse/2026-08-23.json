@@ -1,0 +1,93 @@
+{
+  "date": "2026-08-23",
+  "top3": [],
+  "intro": "（无 LLM 编辑模式：以下为原始数据归档，建议安装 codex CLI 重新生成。）",
+  "sections": [
+    {
+      "id": "discovery",
+      "title": "发现机会",
+      "blocks": [
+        {
+          "id": "indie-products",
+          "heading": "今天有哪些独立开发者的新产品？",
+          "summary_md": "（自动归档模式）今日 Show HN 与 Product Hunt 上线的独立开发者产品列表。",
+          "items": [
+            {
+              "title": "Tab Notes",
+              "url": "https://www.producthunt.com/products/tab-notes",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Yattayo",
+              "url": "https://www.producthunt.com/products/yattayo",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Aximote",
+              "url": "https://www.producthunt.com/products/aximote",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Local Music Organizer for Mac",
+              "url": "https://www.producthunt.com/products/local-music-organizer-for-mac",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "ANCBuddy for Bose QC Ultra",
+              "url": "https://www.producthunt.com/products/ancbuddy-for-bose-qc-ultra",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "FetchSandbox MCP",
+              "url": "https://www.producthunt.com/products/fetchsandbox",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Flown",
+              "url": "https://www.producthunt.com/products/flown",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Yatko",
+              "url": "https://www.producthunt.com/products/yatko",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Plask",
+              "url": "https://www.producthunt.com/products/plask-3",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "OpenLogi",
+              "url": "https://www.producthunt.com/products/openlogi",
+              "source": "ProductHunt"
+            }
+          ],
+          "takeaway": ""
+        }
+      ]
+    },
+    {
+      "id": "tech-stack",
+      "title": "技术选型",
+      "blocks": []
+    },
+    {
+      "id": "competition",
+      "title": "竞争情报",
+      "blocks": []
+    },
+    {
+      "id": "trends",
+      "title": "趋势判断",
+      "blocks": []
+    },
+    {
+      "id": "actions",
+      "title": "行动触发",
+      "blocks": []
+    }
+  ],
+  "generated_at": "2026-08-23T09:25:53+00:00",
+  "reddit_highlights": []
+}

@@ -1,0 +1,62 @@
+{
+  "date": "2026-08-23",
+  "items": [
+    {
+      "id": "2026-08-23-1",
+      "title": "Update on rate limits in Codex",
+      "angle": "（自动归档模式：未生成）",
+      "opening": "Update on rate limits in Codex. \n\nWe’ve found (a) some inefficiencies when using images in long sessions with multiple compactions (b) high p95+ usage for Computer History (c) a feature that was meant",
+      "story_hook": {
+        "challenge": "",
+        "twist": ""
+      },
+      "takeaway": "",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Thibault Sottiaux",
+          "url": "https://x.com/thsottiaux/status/2091407991736332689"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-23-2",
+      "title": "Few things:\n1) These are Twitt",
+      "angle": "（自动归档模式：未生成）",
+      "opening": "Few things:\n1) These are Twitter DMs. I try to be helpful to as many cold DMs as I can. This one shouldn’t have passed the bar. \n\n2) Doxxing someone is not my style. I hope they learned their lesson. ",
+      "story_hook": {
+        "challenge": "",
+        "twist": ""
+      },
+      "takeaway": "",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Nikunj Kothari",
+          "url": "https://x.com/nikunj/status/2091403643815604629"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-23-3",
+      "title": "Kids, I don't know what advice",
+      "angle": "（自动归档模式：未生成）",
+      "opening": "Kids, I don't know what advice you are getting, but ragebaiting investors and then sending them SAFE docs to just wire you money is NOT how investing works.. https://t.co/MSXm6S85Vd",
+      "story_hook": {
+        "challenge": "",
+        "twist": ""
+      },
+      "takeaway": "",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Nikunj Kothari",
+          "url": "https://x.com/nikunj/status/2091381756012511244"
+        }
+      ]
+    }
+  ],
+  "notes": "fallback mode: codex CLI not available",
+  "generated_at": "2026-08-23T09:35:53+00:00",
+  "model": "gpt-5.5"
+}
