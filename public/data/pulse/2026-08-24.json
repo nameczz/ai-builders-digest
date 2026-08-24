@@ -1,0 +1,93 @@
+{
+  "date": "2026-08-24",
+  "top3": [],
+  "intro": "（无 LLM 编辑模式：以下为原始数据归档，建议安装 codex CLI 重新生成。）",
+  "sections": [
+    {
+      "id": "discovery",
+      "title": "发现机会",
+      "blocks": [
+        {
+          "id": "indie-products",
+          "heading": "今天有哪些独立开发者的新产品？",
+          "summary_md": "（自动归档模式）今日 Show HN 与 Product Hunt 上线的独立开发者产品列表。",
+          "items": [
+            {
+              "title": "PaymentKit",
+              "url": "https://www.producthunt.com/products/paymentkit",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Cortex by SKYNETLAB",
+              "url": "https://www.producthunt.com/products/cortex-by-skynetlab",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Trama",
+              "url": "https://www.producthunt.com/products/trama-mac-automation-in-plain-language",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Decawork",
+              "url": "https://www.producthunt.com/products/decawork",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Destiny Rings",
+              "url": "https://www.producthunt.com/products/destiny-rings",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Localdock",
+              "url": "https://www.producthunt.com/products/localdock",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Navigara",
+              "url": "https://www.producthunt.com/products/navigara",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Antigravity Remote Control",
+              "url": "https://www.producthunt.com/products/google-antigravity",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Phoenix",
+              "url": "https://www.producthunt.com/products/phoenix-10",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Bumply",
+              "url": "https://www.producthunt.com/products/bumply",
+              "source": "ProductHunt"
+            }
+          ],
+          "takeaway": ""
+        }
+      ]
+    },
+    {
+      "id": "tech-stack",
+      "title": "技术选型",
+      "blocks": []
+    },
+    {
+      "id": "competition",
+      "title": "竞争情报",
+      "blocks": []
+    },
+    {
+      "id": "trends",
+      "title": "趋势判断",
+      "blocks": []
+    },
+    {
+      "id": "actions",
+      "title": "行动触发",
+      "blocks": []
+    }
+  ],
+  "generated_at": "2026-08-24T09:22:34+00:00",
+  "reddit_highlights": []
+}
