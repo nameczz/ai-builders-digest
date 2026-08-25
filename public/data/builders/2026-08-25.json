@@ -1,0 +1,442 @@
+{
+  "date": "2026-08-25",
+  "generated_at": "2026-08-25T09:11:52+00:00",
+  "count": 29,
+  "items": [
+    {
+      "id": "a8569abd10",
+      "date": "2026-08-25",
+      "source": "x",
+      "author": "Thibault Sottiaux",
+      "bio": "Codex & ChatGPT @OpenAI",
+      "title": "",
+      "summary_en": "OpenAI DevDay 2026 will be our best DevDay in the history of the company. It will not be close.",
+      "summary_zh": "OpenAI 放话：DevDay 2026 将是公司史上最强的一届，而且不是险胜，是碾压。",
+      "url": "https://x.com/thsottiaux/status/2092117461646856505",
+      "posted_at": "2026-08-25T05:10:47.000Z",
+      "tags": [
+        "@thsottiaux"
+      ]
+    },
+    {
+      "id": "c361776dcb",
+      "date": "2026-08-25",
+      "source": "x",
+      "author": "Aaron Levie",
+      "bio": "ceo @box - your business lives in content. unleash it with AI",
+      "title": "",
+      "summary_en": "Systems of record have never been more important than in a world where you have AI agents that will do 100X more work on these platforms than people ever did. \n\nAgents will be querying the data in these systems, processing tasks, executing workflows, collaborating with human and agent users, and more. \n\nThus, the governance, reliability, security, access controls, and business logic remain critical more than ever — the OpenAI Hugging Face incident is just a small peek into what the future will look like with agents running around trying to execute on their goals.\n\nBut this only works for the systems of record that respond with the right product experiences, APIs, and business models to support agents on and off their platform executing in these systems.\n\nHuge moment of opportunity and disruption right now in all of software.",
+      "summary_zh": "AI 代理会在各类记录系统里完成远超人类规模的查询、处理、协作和工作流执行，所以治理、可靠性、安全、权限和业务逻辑只会更重要，OpenAI/Hugging Face 事件只是未来代理乱跑执行目标的预告片。\n\n但机会只属于那些能用正确产品体验、API 和商业模式支持代理的平台；整个软件行业正站在巨大机会和颠覆的临界点。",
+      "url": "https://x.com/levie/status/2092087679240569126",
+      "posted_at": "2026-08-25T03:12:26.000Z",
+      "tags": [
+        "@levie"
+      ]
+    },
+    {
+      "id": "85e5ecd44d",
+      "date": "2026-08-25",
+      "source": "x",
+      "author": "Guillermo Rauch",
+      "bio": "@vercel CEO",
+      "title": "",
+      "summary_en": "It's faster, cheaper, more capable, and… smaller.\n\nAs software evolves, it tends to get slower, more bloated, buggier, and bigger. \n\nhttps://t.co/3Z4NESzNKd is architected from the outset to prevent this. https://t.co/w00UuR0URa",
+      "summary_zh": "软件越迭代越慢、越臃肿、越多 bug、越庞大，几乎是行业惯性。https://t.co/3Z4NESzNKd 从架构起点就反着来：更快、更便宜、更强，还更小。",
+      "url": "https://x.com/rauchg/status/2092081554814320677",
+      "posted_at": "2026-08-25T02:48:06.000Z",
+      "tags": [
+        "@rauchg"
+      ]
+    },
+    {
+      "id": "a48da9d2ab",
+      "date": "2026-08-25",
+      "source": "x",
+      "author": "Peter Yang",
+      "bio": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6",
+      "title": "",
+      "summary_en": "Whenever I have to login to a new website/app or even use an agent that's trapped in a website /app I usually just prefer to stop using the product (the only exception is entertainment or gaming).\n\nI can't be the only one.",
+      "summary_zh": "登录墙和被困在网页/App 里的 agent，已经足够让人直接弃用产品。除了娱乐和游戏，没人愿意为了试个工具先被迫走一遍账号流程。",
+      "url": "https://x.com/petergyang/status/2092080901094248474",
+      "posted_at": "2026-08-25T02:45:30.000Z",
+      "tags": [
+        "@petergyang"
+      ]
+    },
+    {
+      "id": "62ff56b1d9",
+      "date": "2026-08-25",
+      "source": "x",
+      "author": "Zara Zhang",
+      "bio": "Builder. Make something people want, then make people want it. Harvard’17. GitHub: https://t.co/KCuEaje1wd  YouTube: https://t.co/8xzbGWsHgY",
+      "title": "",
+      "summary_en": "Unpopular opinion: hackathons are an outdated event format (at least the way they’re traditionally held)",
+      "summary_zh": "黑客松这种活动形式已经过时了，至少传统办法那套早该淘汰。",
+      "url": "https://x.com/zarazhangrui/status/2092079390301556883",
+      "posted_at": "2026-08-25T02:39:30.000Z",
+      "tags": [
+        "@zarazhangrui"
+      ]
+    },
+    {
+      "id": "9c06894d10",
+      "date": "2026-08-25",
+      "source": "x",
+      "author": "Nikunj Kothari",
+      "bio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
+      "title": "",
+      "summary_en": "Every (unconventional) deal that’s officially wired dies a 100 times in venture..\n\nIt usually takes one champion sticking their neck out for the founder - and quietly steering it to the completion line. \n\nFounders it’s in your benefit to figure out who your real champion is to help steer the fund dynamics and arm them with whatever info you can to make your case. \n\nThis is where associates and non-voting partners are extraordinarily useful as they are incentivized to help you - and it’s a good test of how they’d partner with you as they come on your cap table!",
+      "summary_zh": "非共识投资在 VC 内部会死上一百次，最后往往靠一个真正的 champion 替创始人冒头、暗中把交易推过终点线。\n\n创始人要尽早识别谁是真正站你这边的人，把弹药喂足；associate 和无投票权合伙人尤其值得用，因为他们有动力帮你，也能提前暴露他们上桌后会不会真当战友。",
+      "url": "https://x.com/nikunj/status/2092079149028716877",
+      "posted_at": "2026-08-25T02:38:32.000Z",
+      "tags": [
+        "@nikunj"
+      ]
+    },
+    {
+      "id": "f617040490",
+      "date": "2026-08-25",
+      "source": "x",
+      "author": "Garry Tan",
+      "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "title": "",
+      "summary_en": "Datacenters create jobs and prosperity, actually\n\nhttps://t.co/l1ilGEu4Lh https://t.co/oFc8CNsOnj https://t.co/CaoduT9zRO",
+      "summary_zh": "数据中心不是吞电怪物，而是实打实创造就业和繁荣的基础设施。反对它的人，本质上是在反对当地获得新产业和新税基。",
+      "url": "https://x.com/garrytan/status/2092062820229890209",
+      "posted_at": "2026-08-25T01:33:39.000Z",
+      "tags": [
+        "@garrytan"
+      ]
+    },
+    {
+      "id": "09e80188ff",
+      "date": "2026-08-25",
+      "source": "x",
+      "author": "Garry Tan",
+      "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "title": "",
+      "summary_en": "Conductor Cloud has made me so much more productive and I don't have to keep my Macbook Pro cracked open anymore",
+      "summary_zh": "Conductor Cloud 让他生产力暴涨，连 MacBook Pro 都不用一直开着了。  \n核心卖点很直接：把开发工作搬到云端，本地机器不再是瓶颈。",
+      "url": "https://x.com/garrytan/status/2092062231488061584",
+      "posted_at": "2026-08-25T01:31:19.000Z",
+      "tags": [
+        "@garrytan"
+      ]
+    },
+    {
+      "id": "744608b199",
+      "date": "2026-08-25",
+      "source": "x",
+      "author": "Garry Tan",
+      "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "title": "",
+      "summary_en": "Form a view.\nTurn it into an artifact or experiment.\nPut it in contact with reality.\nRead the result without self-deception.\nRevise and run again.",
+      "summary_zh": "先形成判断，把它做成作品或实验，扔进现实里接受检验。别自欺地读结果，修正后再跑一遍。",
+      "url": "https://x.com/garrytan/status/2092059517446156640",
+      "posted_at": "2026-08-25T01:20:32.000Z",
+      "tags": [
+        "@garrytan"
+      ]
+    },
+    {
+      "id": "eece3af9af",
+      "date": "2026-08-25",
+      "source": "x",
+      "author": "Thibault Sottiaux",
+      "bio": "Codex & ChatGPT @OpenAI",
+      "title": "",
+      "summary_en": "Tomorrow we will bring back the 5h limit for Plus accounts across ChatGPT Work and Codex. I had mentioned this a while ago, but then postponed it.\n\nThis is necessary as (a) the 5h limit allows us to smoothen the load on our compute, allowing to keep the plan generous in terms of weekly usage and (b) users on the Plus plan are relatively casual and new users, but then also just accidentally eat through their whole weeks usage and then are confused, making it not a great experience.\n\nWe are for the upcoming months keeping the 5h limit not enabled for Pro $100 and Pro $200 subscriptions.",
+      "summary_zh": "Plus 用户明天起恢复 5 小时限额：官方说是为了削峰算力，也防止更随意的新手用户一不小心把整周额度烧光再一脸困惑。接下来几个月，$100/$200 的 Pro 用户暂时不受这个限制。",
+      "url": "https://x.com/thsottiaux/status/2092058556707344708",
+      "posted_at": "2026-08-25T01:16:43.000Z",
+      "tags": [
+        "@thsottiaux"
+      ]
+    },
+    {
+      "id": "9c7a343dc5",
+      "date": "2026-08-25",
+      "source": "x",
+      "author": "Madhu Guru",
+      "bio": "Sr Director, AI at Meta; Prev: Google - Led Gemini, Veo, Nano Banana.",
+      "title": "",
+      "summary_en": "How to build great evals - part 8.\n\nThe discriminatory property of evals.\nA hill-climbing eval is useful when it can separate AI systems that are meaningfully different.\n\nImagine you run an eval on five AI systems:\n\nA: 94\nB: 93\nC: 95\nD: 94\nE: 92\n\nNow suppose you already know A and C are substantially better systems than D and E.\n\nThe eval is bad cos it doesn’t tell you that. It has low discriminatory power.\n\nIt’s like giving a fifth-grade math test to a group of PhDs - everyone aces it and  you’ve learned nothing about who is the smartest.\n\nThat doesn’t mean making evals arbitrarily hard. Then everyone fails and you’re not measuring what your systems are meant for.\n\nThe sweet spot for an eval is:\nRealistic + difficult + sensitive to differences in capability.\n\nOver time, your good evals will saturate as your harness and underlying models improve. What do you do then?\n\nDrop your guesses in the comments.\n\nShare this with your teammates.",
+      "summary_zh": "好的 eval 要有区分度：如果明知道 A、C 比 D、E 强，分数却挤在 92-95 之间，那它就像拿五年级数学题考一群博士，谁更强根本测不出来。\n\n难点不是把题做得变态到全员翻车，而是让评测足够真实、足够难，并且对能力差异足够敏感。",
+      "url": "https://x.com/realmadhuguru/status/2092058332735693264",
+      "posted_at": "2026-08-25T01:15:49.000Z",
+      "tags": [
+        "@realmadhuguru"
+      ]
+    },
+    {
+      "id": "bc3f34d4dc",
+      "date": "2026-08-25",
+      "source": "x",
+      "author": "Zara Zhang",
+      "bio": "Builder. Make something people want, then make people want it. Harvard’17. GitHub: https://t.co/KCuEaje1wd  YouTube: https://t.co/8xzbGWsHgY",
+      "title": "",
+      "summary_en": "I really appreciate how @davidsenra immediately cuts to the chase and gets his guests to be their most natural selves\n\nI've watched lots of Sam Altman interviews; I feel like he's his most comfortable self during this one https://t.co/x8DG8BGTeu",
+      "summary_zh": "David Senra 的采访厉害在于不绕弯，直接把嘉宾逼回最自然的状态。看过那么多 Sam Altman 访谈，这一次可能是他最松弛、最像自己的。",
+      "url": "https://x.com/zarazhangrui/status/2092053829772881972",
+      "posted_at": "2026-08-25T00:57:56.000Z",
+      "tags": [
+        "@zarazhangrui"
+      ]
+    },
+    {
+      "id": "470fc367dc",
+      "date": "2026-08-25",
+      "source": "x",
+      "author": "Peter Yang",
+      "bio": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6",
+      "title": "",
+      "summary_en": "I got 3 AI chief of staffs now, clearly the next step is to add one more https://t.co/noC4KIsLtE",
+      "summary_zh": "已经有 3 个 AI 幕僚长还不够，下一步当然是再塞一个进去。",
+      "url": "https://x.com/petergyang/status/2092048940732682395",
+      "posted_at": "2026-08-25T00:38:30.000Z",
+      "tags": [
+        "@petergyang"
+      ]
+    },
+    {
+      "id": "9bddcfcf42",
+      "date": "2026-08-25",
+      "source": "x",
+      "author": "Nan Yu",
+      "bio": "product enthusiast",
+      "title": "",
+      "summary_en": "setting up a new computer with Codex is kind of nice... \"download and install handy, slack, chrome, cleanshot, rectangle\"\n\nmakes you wish siri was good",
+      "summary_zh": "用 Codex 配新电脑还挺爽：一句话让它装 Handy、Slack、Chrome、CleanShot、Rectangle。反过来更显得 Siri 到底有多废。",
+      "url": "https://x.com/thenanyu/status/2092048044502192374",
+      "posted_at": "2026-08-25T00:34:56.000Z",
+      "tags": [
+        "@thenanyu"
+      ]
+    },
+    {
+      "id": "cea8fdd67d",
+      "date": "2026-08-25",
+      "source": "x",
+      "author": "Dan Shipper",
+      "bio": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "title": "",
+      "summary_en": "@Google @YouTube @every @YouTubeCreators can you help?",
+      "summary_zh": "公开点名 Google、YouTube 和创作者团队求助，暗示问题已经卡到只能让平台出来处理。",
+      "url": "https://x.com/danshipper/status/2092034751037096260",
+      "posted_at": "2026-08-24T23:42:07.000Z",
+      "tags": [
+        "@danshipper"
+      ]
+    },
+    {
+      "id": "56ae380d8e",
+      "date": "2026-08-25",
+      "source": "x",
+      "author": "Peter Yang",
+      "bio": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6",
+      "title": "",
+      "summary_en": "I'd like to try using AI to call customer support phone numbers using voice, navigate the terrible automated phone systems, and talk to a human to book appointments or cancel subscriptions.\n\nWhat's the easiest way to try this?",
+      "summary_zh": "想用 AI 语音去打客服电话，替人忍受糟糕的自动语音系统，最终转接真人来预约或取消订阅。问题是：现在最简单的上手方式是什么？",
+      "url": "https://x.com/petergyang/status/2092031413319266382",
+      "posted_at": "2026-08-24T23:28:51.000Z",
+      "tags": [
+        "@petergyang"
+      ]
+    },
+    {
+      "id": "0febc9cfb9",
+      "date": "2026-08-25",
+      "source": "x",
+      "author": "Dan Shipper",
+      "bio": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "title": "",
+      "summary_en": "so it looks @google disabled the @youtube account for @every with 0 notice and no reason given...\n\nanyone have any experience with this or know how to help us get it back? https://t.co/5yR7vQxHm1",
+      "summary_zh": "Google 毫无通知、毫无解释地封掉了 Every 的 YouTube 账号。现在他们只能在 X 上求助，问有没有人知道怎么把账号救回来。",
+      "url": "https://x.com/danshipper/status/2092026065644335446",
+      "posted_at": "2026-08-24T23:07:36.000Z",
+      "tags": [
+        "@danshipper"
+      ]
+    },
+    {
+      "id": "007852f407",
+      "date": "2026-08-25",
+      "source": "x",
+      "author": "Nan Yu",
+      "bio": "product enthusiast",
+      "title": "",
+      "summary_en": "Feel the agi https://t.co/Uvr0TCMKyg",
+      "summary_zh": "别再分析参数和榜单了，AGI 已经近到可以被“感觉到”。这不是科普，是一句带挑衅意味的行业暗号：时代已经变了。",
+      "url": "https://x.com/thenanyu/status/2092013239643394076",
+      "posted_at": "2026-08-24T22:16:38.000Z",
+      "tags": [
+        "@thenanyu"
+      ]
+    },
+    {
+      "id": "a88dd82b4e",
+      "date": "2026-08-25",
+      "source": "x",
+      "author": "Nan Yu",
+      "bio": "product enthusiast",
+      "title": "",
+      "summary_en": "“L7 promo: shipped emoji reactions to Gmail that show up as ugly random one character emails with metadata to anyone using another mail app including iPhone mail app the most common mail app on Earth”\n\nhttps://t.co/bQkjEBJIB4",
+      "summary_zh": "",
+      "url": "https://x.com/thenanyu/status/2091993558018572434",
+      "posted_at": "2026-08-24T20:58:26.000Z",
+      "tags": [
+        "@thenanyu"
+      ]
+    },
+    {
+      "id": "7baeff64d2",
+      "date": "2026-08-25",
+      "source": "x",
+      "author": "Amjad Masad",
+      "bio": "ceo @replit. civilizationist",
+      "title": "",
+      "summary_en": "Only a few have reached this milestone! https://t.co/FEmlDPmJfj",
+      "summary_zh": "这个里程碑没几个人摸到，已经是少数派玩家的入场券。",
+      "url": "https://x.com/amasad/status/2091963442186092639",
+      "posted_at": "2026-08-24T18:58:46.000Z",
+      "tags": [
+        "@amasad"
+      ]
+    },
+    {
+      "id": "a9add8baff",
+      "date": "2026-08-25",
+      "source": "x",
+      "author": "Amjad Masad",
+      "bio": "ceo @replit. civilizationist",
+      "title": "",
+      "summary_en": "True. Replit Agent completely replaced Claude CoWork in my day-to-day work. It's much more persistent and fastidious, and it uses code/software more effectively to complete tasks. https://t.co/QZ89DvogmZ",
+      "summary_zh": "说得没错：Replit Agent 已经彻底取代 Claude CoWork，成了我日常工作的主力。\n\n它更能坚持把事做完，也更细致，调用代码和软件完成任务的能力明显更强。",
+      "url": "https://x.com/amasad/status/2091962601907638352",
+      "posted_at": "2026-08-24T18:55:25.000Z",
+      "tags": [
+        "@amasad"
+      ]
+    },
+    {
+      "id": "bfcd087b64",
+      "date": "2026-08-25",
+      "source": "x",
+      "author": "Aditya Agarwal",
+      "bio": "General Partner @SPC, Co-Founder @Bevel_Health | Ex: Early Eng @facebook, CTO @Dropbox, Board @Flipkart | Optimist, Builder, Dad",
+      "title": "",
+      "summary_en": "Apply to SPC if you'd like to join us https://t.co/xWaXyqC7Rj",
+      "summary_zh": "想加入 SPC，就直接申请。机会在这儿：https://t.co/xWaXyqC7Rj",
+      "url": "https://x.com/adityaag/status/2091958077591347630",
+      "posted_at": "2026-08-24T18:37:27.000Z",
+      "tags": [
+        "@adityaag"
+      ]
+    },
+    {
+      "id": "2309cb461f",
+      "date": "2026-08-25",
+      "source": "x",
+      "author": "Aditya Agarwal",
+      "bio": "General Partner @SPC, Co-Founder @Bevel_Health | Ex: Early Eng @facebook, CTO @Dropbox, Board @Flipkart | Optimist, Builder, Dad",
+      "title": "",
+      "summary_en": "Hans Robertson was early at @VMware, co-founded @meraki and sold it to Cisco for $1.2B, and co-founded Verkada in 2016. \n\nHe's still running it today. \n\nHe's coming by @spc this week. https://t.co/6D6dhVIEJ5",
+      "summary_zh": "Hans Robertson 早年在 VMware，后来联合创办 Meraki 并以 12 亿美元卖给 Cisco，2016 年又联合创办 Verkada。更狠的是，他今天还在亲自跑这家公司。",
+      "url": "https://x.com/adityaag/status/2091958074827313523",
+      "posted_at": "2026-08-24T18:37:26.000Z",
+      "tags": [
+        "@adityaag"
+      ]
+    },
+    {
+      "id": "2f4dd15f1f",
+      "date": "2026-08-25",
+      "source": "x",
+      "author": "Guillermo Rauch",
+      "bio": "@vercel CEO",
+      "title": "",
+      "summary_en": "If your terminal ever gets into a 'bad state', like garbled outputs, you run 𝚛𝚎𝚜𝚎𝚝. I noticed it was… oddly slow.\n\nTurns out in 1979 3BSD's 𝚝𝚜𝚎𝚝 had a 𝚜𝚕𝚎𝚎𝚙(𝟷) to let mechanical printer-and-ink terminals 'settle down' 😂\n\nI asked 𝚏𝚡 to write me a faster alternative in Zig. It takes 1ms instead of 1s. It was really cool to dive deeper into 𝚗𝚌𝚞𝚛𝚜𝚎𝚜, 𝚝𝚜𝚎𝚝, 𝚝𝚎𝚛𝚖𝚒𝚗𝚏𝚘, and the myriad ways in which your terminal can get… cursed.\n\nIt's legit fascinating how far back our technology stack goes, and how enduring good system design is, even with the occasional 'spider webs' you can find.\n\nCheck out https://t.co/7EH0lothku for a fun explainer (and some alternative solutions.)\n\nps: once you start using 𝚏𝚡, you'll notice slowness like this everywhere :D",
+      "summary_zh": "终端坏掉时敲的 `reset` 之所以慢，是因为 1979 年 3BSD 的 `tset` 留了个 `sleep(1)`，给机械打印终端“缓一缓”的时间。作者让 `fx` 用 Zig 写了个替代品，把 1 秒降到 1 毫秒，也顺手扒开了现代技术栈里那些还没清干净的上古蜘蛛网。",
+      "url": "https://x.com/rauchg/status/2091957823945216474",
+      "posted_at": "2026-08-24T18:36:26.000Z",
+      "tags": [
+        "@rauchg"
+      ]
+    },
+    {
+      "id": "927bfa9f56",
+      "date": "2026-08-25",
+      "source": "x",
+      "author": "Amjad Masad",
+      "bio": "ceo @replit. civilizationist",
+      "title": "",
+      "summary_en": "Cool! https://t.co/11uSkCUPrc",
+      "summary_zh": "这条推文本身只有一句“Cool!”和一个短链接；不打开链接无法判断他到底在夸什么，也不该硬编。",
+      "url": "https://x.com/amasad/status/2091937147473551474",
+      "posted_at": "2026-08-24T17:14:16.000Z",
+      "tags": [
+        "@amasad"
+      ]
+    },
+    {
+      "id": "275f62ed62",
+      "date": "2026-08-25",
+      "source": "x",
+      "author": "Peter Steinberger",
+      "bio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world. @OpenClaw🦞 + @OpenAI",
+      "title": "",
+      "summary_en": "We need to get away from software that we can’t change with a prompt. https://t.co/Fthfm8WYGH",
+      "summary_zh": "不能用一句 prompt 改掉的软件，正在变成包袱。未来的软件默认应该可被自然语言重塑，否则就是旧时代遗物。",
+      "url": "https://x.com/steipete/status/2091923535513928015",
+      "posted_at": "2026-08-24T16:20:11.000Z",
+      "tags": [
+        "@steipete"
+      ]
+    },
+    {
+      "id": "4bfc4b602b",
+      "date": "2026-08-25",
+      "source": "x",
+      "author": "Aaron Levie",
+      "bio": "ceo @box - your business lives in content. unleash it with AI",
+      "title": "",
+      "summary_en": "It’s not fully appreciated that ZDR is responsible for a substantial amount of the growth of AI, because it dramatically simplified the compliance process most companies deal with in handling data with subprocessors. The alternative path would have been a far slower adoption rate.\n\nFor the applied AI tools that are primarily responsible for driving AI growth, they generally have agreements in place with their customers to only offer models with ZDR to ensure that customers don’t have to inspect each model they turn on. Anything else is an exception process that takes far longer.\n\nAnd then inside enterprises directly, most companies have internal governance requirements that say they can only use ZDR models because they have no way of explicitly separating PII and other sensitive or confidential data they put in the context window across their enterprise.\n\nNow, all of this could change if the entire industry went this direction, but with one off models hold outs it would take years for these policies to change. Without ZDR, AI diffusion grinds to a halt.",
+      "summary_zh": "ZDR 被严重低估了：它把企业处理数据和子处理方的合规流程大幅简化，否则 AI 采用速度会慢得多。没有 ZDR，企业客户就得逐个审查模型、走漫长例外流程，AI 的扩散基本会卡死。",
+      "url": "https://x.com/levie/status/2091909170308296950",
+      "posted_at": "2026-08-24T15:23:06.000Z",
+      "tags": [
+        "@levie"
+      ]
+    },
+    {
+      "id": "454686e1fb",
+      "date": "2026-08-25",
+      "source": "x",
+      "author": "Peter Steinberger",
+      "bio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world. @OpenClaw🦞 + @OpenAI",
+      "title": "",
+      "summary_en": "More blog posts should come with theme songs.",
+      "summary_zh": "更多博客文章就该自带主题曲。文字不够带感，就让音乐先把气氛拉满。",
+      "url": "https://x.com/steipete/status/2091779461650006514",
+      "posted_at": "2026-08-24T06:47:41.000Z",
+      "tags": [
+        "@steipete"
+      ]
+    },
+    {
+      "id": "a73db574a2",
+      "date": "2026-08-25",
+      "source": "x",
+      "author": "Peter Steinberger",
+      "bio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world. @OpenClaw🦞 + @OpenAI",
+      "title": "",
+      "summary_en": "TIL: prompt kiddie https://t.co/N92Q7aIzPq",
+      "summary_zh": "今天学到一个新词：prompt kiddie。意思大概是只会复制粘贴提示词、不会真正理解系统的人。",
+      "url": "https://x.com/steipete/status/2091778518531395927",
+      "posted_at": "2026-08-24T06:43:56.000Z",
+      "tags": [
+        "@steipete"
+      ]
+    }
+  ]
+}
