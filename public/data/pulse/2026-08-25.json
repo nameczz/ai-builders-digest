@@ -1,0 +1,467 @@
+{
+  "date": "2026-08-25",
+  "top3": [
+    "今天最值得关注的是 agent 记忆与工作台基础设施继续升温：OpenViking、ai-memory、Apache Maka、session-indexer 同时出现，说明上下文持久化正在从功能点变成新平台层。",
+    "本周开源增量最强的商业空白在本地优先工具：OpenLogi 周增 7019 星、omarchy 周增 3934 星，用户正在用开源项目替代带账号、遥测或重型配置的官方软件。",
+    "HuggingFace 热度集中在 Qwen3.8-27B 的本地量化、视觉语言与去限制分支，同时 LTX-2.5、MiniMax-Music3、MiniMax-H3 把消费级多媒体生成推向可产品化阶段。"
+  ],
+  "intro": "今天的数据没有 HN 样本，但 GitHub、Product Hunt、HuggingFace 和 Google Trends 给出了一条清晰主线：AI builder 的注意力从单个聊天模型，转向本地优先、可审计、可组合的 agent 工作流。机会不在再做一个聊天入口，而在记忆、插件、视觉证据、终端编排、私有数据接口这些底层缝隙里。",
+  "sections": [
+    {
+      "id": "discovery",
+      "title": "发现机会",
+      "blocks": [
+        {
+          "id": "indie-products",
+          "heading": "今天有哪些独立开发者的新产品？",
+          "summary_md": "HN Show HN 今日原始数据为空，Product Hunt 则集中出现一批面向 builder 的小工具，但原始字段未提供票数与评论数，因此这里不虚构互动数据。值得看的是 [Keymap](https://www.producthunt.com/products/keymap)，主张把所有快捷键放到一个双击 Command 入口；[session-indexer](https://www.producthunt.com/products/session-indexer) 做 Claude Code 会话历史语义搜索；[Buddy Visual Tests](https://www.producthunt.com/products/buddy) 把 UI 变更前置到合并前审查；[ChatGPT Ad Library](https://www.producthunt.com/products/chatgpt-ad-library) 则押注 ChatGPT 内广告透明度这个新观察位。",
+          "items": [
+            {
+              "title": "Keymap",
+              "url": "https://www.producthunt.com/products/keymap",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "session-indexer",
+              "url": "https://www.producthunt.com/products/session-indexer",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "Buddy Visual Tests",
+              "url": "https://www.producthunt.com/products/buddy",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "ChatGPT Ad Library",
+              "url": "https://www.producthunt.com/products/chatgpt-ad-library",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "今天的独立产品机会不是大而全 AI，而是围绕开发者日常动作做一个可立即感知的小闭环。"
+        },
+        {
+          "id": "github-traction",
+          "heading": "GitHub 上哪些高增长开源项目还没有商业化？",
+          "summary_md": "周榜最强信号是 [MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) 周增 10647 星、总星 116180，说明一键短视频生成仍有强烈需求，但更像开源自动化模板而非成熟 SaaS。真正值得 builder 研究的是 [OpenLogi](https://github.com/AprilNEA/OpenLogi) 周增 7019 星、总星 16141，它用 Rust 做本地优先 Logitech Options+ 替代，卖点是无账号、无遥测；[OpenViking](https://github.com/volcengine/OpenViking) 周增 4048 星、总星 33119，把 agent memory、RAG 和 skills 合成上下文数据库；[ai-memory](https://github.com/akitaonrails/ai-memory) 周增 2520 星、总星 4468，直接服务多 agent CLI 交接。",
+          "items": [
+            {
+              "title": "MoneyPrinterTurbo",
+              "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+              "source": "GitHub",
+              "score": 10647
+            },
+            {
+              "title": "OpenLogi",
+              "url": "https://github.com/AprilNEA/OpenLogi",
+              "source": "GitHub",
+              "score": 7019
+            },
+            {
+              "title": "OpenViking",
+              "url": "https://github.com/volcengine/OpenViking",
+              "source": "GitHub",
+              "score": 4048
+            },
+            {
+              "title": "ai-memory",
+              "url": "https://github.com/akitaonrails/ai-memory",
+              "source": "GitHub",
+              "score": 2520
+            }
+          ],
+          "takeaway": "高增长开源项目正在暴露两个可商业化缺口：本地硬件控制和 agent 长期记忆。"
+        }
+      ]
+    },
+    {
+      "id": "tech-stack",
+      "title": "技术选型",
+      "blocks": [
+        {
+          "id": "dev-tools",
+          "heading": "本周增长最快的开发者工具是什么？",
+          "summary_md": "开发者工具榜里，[modular/modular](https://github.com/modular/modular) 周增 2285 星、总星 29102，继续把 Mojo、MAX 和 AI infra 放在性能工程叙事中心；[cursor/plugins](https://github.com/cursor/plugins) 周增 1832 星、总星 5067，[anthropics/claude-plugins-community](https://github.com/anthropics/claude-plugins-community) 周增 877 星、总星 1500，显示插件规范正在成为代码 agent 的新分发层。更偏工作流的是 [nodeterm](https://github.com/eneskirca/nodeterm) 周增 529 星、总星 1207，把 tmux、并行 agent session 和无限画布合在一起，适合观察下一代 agent IDE 的交互原型。",
+          "items": [
+            {
+              "title": "modular/modular",
+              "url": "https://github.com/modular/modular",
+              "source": "GitHub",
+              "score": 2285
+            },
+            {
+              "title": "cursor/plugins",
+              "url": "https://github.com/cursor/plugins",
+              "source": "GitHub",
+              "score": 1832
+            },
+            {
+              "title": "anthropics/claude-plugins-community",
+              "url": "https://github.com/anthropics/claude-plugins-community",
+              "source": "GitHub",
+              "score": 877
+            },
+            {
+              "title": "nodeterm",
+              "url": "https://github.com/eneskirca/nodeterm",
+              "source": "GitHub",
+              "score": 529
+            }
+          ],
+          "takeaway": "代码 agent 的技术栈正在从模型调用，扩展到插件规范、终端编排和可复用运行时。"
+        },
+        {
+          "id": "hf-models",
+          "heading": "HuggingFace 上最热的模型能做什么消费级产品？",
+          "summary_md": "HuggingFace 今日被 Qwen3.8-27B 系列刷屏：[Qwen/Qwen3.8-27B](https://huggingface.co/Qwen/Qwen3.8-27B) 趋势分 1330、下载 2945415、点赞 12578，[unsloth/Qwen3.8-27B-GGUF](https://huggingface.co/unsloth/Qwen3.8-27B-GGUF) 趋势分 1024、下载 7334695，说明本地量化和视觉语言能力已经足够被包装成桌面助手、私有相册搜索、离线客服排查工具。非文本方向同样有产品信号：[LTX-2.5](https://huggingface.co/Lightricks/LTX-2.5) 趋势分 386、下载 833845，覆盖图生视频、文生视频和音频视频互转；[MiniMax-Music3](https://huggingface.co/MiniMaxAI/MiniMax-Music3) 趋势分 290，可做短视频 BGM、播客片头和游戏素材生成。",
+          "items": [
+            {
+              "title": "Qwen/Qwen3.8-27B",
+              "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
+              "source": "HuggingFace",
+              "score": 1330
+            },
+            {
+              "title": "unsloth/Qwen3.8-27B-GGUF",
+              "url": "https://huggingface.co/unsloth/Qwen3.8-27B-GGUF",
+              "source": "HuggingFace",
+              "score": 1024
+            },
+            {
+              "title": "LTX-2.5",
+              "url": "https://huggingface.co/Lightricks/LTX-2.5",
+              "source": "HuggingFace",
+              "score": 386
+            },
+            {
+              "title": "MiniMax-Music3",
+              "url": "https://huggingface.co/MiniMaxAI/MiniMax-Music3",
+              "source": "HuggingFace",
+              "score": 290
+            }
+          ],
+          "takeaway": "消费级 AI 产品的入口正在从聊天框外溢到相册、视频、音乐和桌面工作流。"
+        },
+        {
+          "id": "show-hn",
+          "heading": "Show HN 高关注项目用的什么技术栈？",
+          "summary_md": "今日 HN Show HN 原始数据为空，无法判断具体 Show HN 项目的票数、评论数和实现栈。但 GitHub 周榜可以作为替代信号：agent 相关项目集中采用 TypeScript 与 Python，[Apache Maka](https://github.com/apache/maka) 周增 1313 星，用 TypeScript 做本地优先 agent workspace；[OpenViking](https://github.com/volcengine/OpenViking) 周增 4048 星，用 Python 做上下文数据库；[OpenLogi](https://github.com/AprilNEA/OpenLogi) 周增 7019 星，用 Rust 处理本地 HID++ 硬件控制。今天的选型含义很直接：前端交互和 agent shell 用 TypeScript，模型与数据管线用 Python，本地系统控制用 Rust。",
+          "items": [
+            {
+              "title": "Apache Maka",
+              "url": "https://github.com/apache/maka",
+              "source": "GitHub",
+              "score": 1313
+            },
+            {
+              "title": "OpenViking",
+              "url": "https://github.com/volcengine/OpenViking",
+              "source": "GitHub",
+              "score": 4048
+            },
+            {
+              "title": "OpenLogi",
+              "url": "https://github.com/AprilNEA/OpenLogi",
+              "source": "GitHub",
+              "score": 7019
+            }
+          ],
+          "takeaway": "今天最稳的技术分工是 TypeScript 管界面，Python 管智能，Rust 管本地系统边界。"
+        }
+      ]
+    },
+    {
+      "id": "competition",
+      "title": "竞争情报",
+      "blocks": [
+        {
+          "id": "migrations",
+          "heading": "有没有「XX is dead」或迁移类文章？",
+          "summary_md": "HN 没有可用的 dead、end of、migrating 类样本，但迁移信号在 GitHub 和 Product Hunt 里很明显。[OpenLogi](https://github.com/AprilNEA/OpenLogi) 周增 7019 星，明确对标 Logitech Options+，把竞争点落在本地原生、无账号、无遥测；[Plane](https://github.com/makeplane/plane) 日榜周增 243 星、总星 58146，对标 Jira、Linear、Monday 和 ClickUp；[DockDuck](https://www.producthunt.com/products/dockduck) 则用「Finder should be」定位切入 macOS 文件管理。今天的替代叙事不是便宜，而是更轻、更私有、更接近用户真实工作流。",
+          "items": [
+            {
+              "title": "OpenLogi",
+              "url": "https://github.com/AprilNEA/OpenLogi",
+              "source": "GitHub",
+              "score": 7019
+            },
+            {
+              "title": "Plane",
+              "url": "https://github.com/makeplane/plane",
+              "source": "GitHub",
+              "score": 243
+            },
+            {
+              "title": "DockDuck",
+              "url": "https://www.producthunt.com/products/dockduck",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "替代型产品最容易赢的不是功能表，而是把官方软件里让用户厌烦的账号、遥测和重量感移除。"
+        },
+        {
+          "id": "pricing-revenue",
+          "heading": "独立开发者在讨论什么营收和定价策略？",
+          "summary_md": "今天没有 HN MRR、ARR、pricing、subscription、revenue 样本，因此不能引用具体营收讨论。但 Product Hunt 里的产品形态已经暗示几种可验证价格模型：[Purchase API by Agentcard](https://www.producthunt.com/products/agent-card) 适合按 API 调用或成功采购抽成收费；[akta.pro](https://www.producthunt.com/products/akta-pro) 是私营公司数据与信号 API，更适合 seat 加 usage；[Diet Claude](https://www.producthunt.com/products/diet-claude) 围绕 Claude 使用限制预警，天然适合低价订阅；[Agnost AI](https://www.producthunt.com/products/agnost-ai) 做 agent failure 捕捉，可以按监控量、会话量或团队席位定价。",
+          "items": [
+            {
+              "title": "Purchase API by Agentcard",
+              "url": "https://www.producthunt.com/products/agent-card",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "akta.pro",
+              "url": "https://www.producthunt.com/products/akta-pro",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "Diet Claude",
+              "url": "https://www.producthunt.com/products/diet-claude",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "Agnost AI",
+              "url": "https://www.producthunt.com/products/agnost-ai",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "agent 周边工具最清晰的变现路径，是围绕用量、风险和交易结果收费。"
+        }
+      ]
+    },
+    {
+      "id": "trends",
+      "title": "趋势判断",
+      "blocks": [
+        {
+          "id": "keywords",
+          "heading": "本周技术关键词频率有什么变化？",
+          "summary_md": "Google Trends 里最异常的主线是 [omarchy](https://trends.google.com/trends/explore?q=omarchy&date=now+7-d) 上升 +265.1%，并且 GitHub 上 [basecamp/omarchy](https://github.com/basecamp/omarchy) 周增 3934 星、总星 30570，说明它不是孤立搜索噪声，而是 Linux 桌面体验重新被 builder 讨论。另一个温和上升的是 [openviking](https://trends.google.com/trends/explore?q=openviking&date=now+7-d) +17.9%，对应 GitHub 周增 4048 星。反过来看，[modular](https://trends.google.com/trends/explore?q=modular&date=now+7-d) -11.9% 但周增 2285 星，说明搜索热度回落不等于开发者兴趣消失。",
+          "items": [
+            {
+              "title": "omarchy",
+              "url": "https://trends.google.com/trends/explore?q=omarchy&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 265
+            },
+            {
+              "title": "openviking",
+              "url": "https://trends.google.com/trends/explore?q=openviking&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 18
+            },
+            {
+              "title": "modular",
+              "url": "https://trends.google.com/trends/explore?q=modular&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": -12
+            }
+          ],
+          "takeaway": "搜索增长最强的是可见的新桌面体验，开发者增长最强的是可嵌入的新基础设施。"
+        },
+        {
+          "id": "vc-radar",
+          "heading": "VC 和 YC 在关注什么主题？",
+          "summary_md": "今天的 VC 雷达应该盯三类基础设施。第一是 agent memory 和上下文数据库：[OpenViking](https://github.com/volcengine/OpenViking) 周增 4048 星、[ai-memory](https://github.com/akitaonrails/ai-memory) 周增 2520 星、[agent-memory-leaderboard](https://huggingface.co/spaces/agent-memory-leaderboard/leaderboard) 趋势分 148，说明记忆质量正在变成可比较指标。第二是 agent 插件市场：[cursor/plugins](https://github.com/cursor/plugins) 周增 1832 星、[claude-plugins-community](https://github.com/anthropics/claude-plugins-community) 周增 877 星。第三是 AI 安全与可观测：[Tencent/AI-Infra-Guard](https://github.com/Tencent/AI-Infra-Guard) 周增 1212 星，[Agnost AI](https://www.producthunt.com/products/agnost-ai) 和 [Inquio](https://www.producthunt.com/products/inquio) 都在抓 agent 出错后的诊断场景。",
+          "items": [
+            {
+              "title": "OpenViking",
+              "url": "https://github.com/volcengine/OpenViking",
+              "source": "GitHub",
+              "score": 4048
+            },
+            {
+              "title": "cursor/plugins",
+              "url": "https://github.com/cursor/plugins",
+              "source": "GitHub",
+              "score": 1832
+            },
+            {
+              "title": "AI-Infra-Guard",
+              "url": "https://github.com/Tencent/AI-Infra-Guard",
+              "source": "GitHub",
+              "score": 1212
+            },
+            {
+              "title": "agent-memory-leaderboard",
+              "url": "https://huggingface.co/spaces/agent-memory-leaderboard/leaderboard",
+              "source": "HuggingFace",
+              "score": 148
+            }
+          ],
+          "takeaway": "资本会继续追 agent 应用，但更稀缺的标的是记忆、插件、安全和评测这四个基础层。"
+        },
+        {
+          "id": "cooling",
+          "heading": "哪些 AI 热词在降温？",
+          "summary_md": "降温最明显的是 [cursor alternative](https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d) -81.7%，说明用户不再只是寻找替代 IDE，而是在寻找能嵌进现有工具链的插件和工作流。[moneyprinterturbo](https://trends.google.com/trends/explore?q=moneyprinterturbo&date=now+7-d) -62.1%，但 GitHub 周增仍有 10647 星，代表短视频自动化的注意力从搜索围观转向安装试用。[ai agent](https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d) -23.6%、[codex cli](https://trends.google.com/trends/explore?q=codex+cli&date=now+7-d) -24.8%，也说明泛概念词在降温，具体工具和明确任务在升温。",
+          "items": [
+            {
+              "title": "cursor alternative",
+              "url": "https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": -82
+            },
+            {
+              "title": "moneyprinterturbo",
+              "url": "https://trends.google.com/trends/explore?q=moneyprinterturbo&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": -62
+            },
+            {
+              "title": "ai agent",
+              "url": "https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": -24
+            },
+            {
+              "title": "codex cli",
+              "url": "https://trends.google.com/trends/explore?q=codex+cli&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": -25
+            }
+          ],
+          "takeaway": "泛 AI 词在降温，任务明确、安装即用、能嵌入工作流的工具还在升温。"
+        },
+        {
+          "id": "new-radar",
+          "heading": "新词雷达：有哪些从零起飞的新概念？",
+          "summary_md": "新词雷达里最值得追的是 tracked rising 与 breakout 的交叉项。[modular](https://trends.google.com/trends/explore?q=modular&date=now+7-d) 虽整体 -11.9%，但关联词「modular mojo open source release」breakout 值 11650，结合 [modular/modular](https://github.com/modular/modular) 周增 2285 星，说明 Mojo 开源叙事还在扩散。[codex](https://trends.google.com/trends/explore?q=codex&date=now+7-d) 整体 -19.3%，但「codex vs claude code abraham quiros villalba」breakout 值 37650、「codex harness 开源」值 2050，说明用户开始比较 agent CLI 生态而非只搜索品牌名。[omarchy](https://trends.google.com/trends/explore?q=omarchy&date=now+7-d) 的「omarchy foundation」breakout 值 400，则可能是社区组织化的早期弱信号。",
+          "items": [
+            {
+              "title": "modular mojo open source release",
+              "url": "https://trends.google.com/trends/explore?q=modular&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 11650
+            },
+            {
+              "title": "codex vs claude code abraham quiros villalba",
+              "url": "https://trends.google.com/trends/explore?q=codex&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 37650
+            },
+            {
+              "title": "codex harness 开源",
+              "url": "https://trends.google.com/trends/explore?q=codex&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 2050
+            },
+            {
+              "title": "omarchy foundation",
+              "url": "https://trends.google.com/trends/explore?q=omarchy&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 400
+            }
+          ],
+          "takeaway": "真正的新词不是 AI agent，而是围绕具体生态比较、开源发布和社区组织化冒出来的长尾查询。"
+        }
+      ]
+    },
+    {
+      "id": "actions",
+      "title": "行动触发",
+      "blocks": [
+        {
+          "id": "weekend-build",
+          "heading": "今天 2 小时和一个周末分别做什么？",
+          "summary_md": "2 小时可以做一个很窄的 Claude Code 会话搜索原型：学习 [session-indexer](https://www.producthunt.com/products/session-indexer) 的定位，把本机最近 20 个 agent session 转成向量索引，只支持按问题、文件名、错误片段召回即可。一个周末则可以做「agent memory health check」：参考 [OpenViking](https://github.com/volcengine/OpenViking) 周增 4048 星、[ai-memory](https://github.com/akitaonrails/ai-memory) 周增 2520 星、[agent-memory-leaderboard](https://huggingface.co/spaces/agent-memory-leaderboard/leaderboard) 趋势分 148，给用户输出哪些记忆过期、冲突、重复、缺少来源，并提供一键压缩或删除。",
+          "items": [
+            {
+              "title": "session-indexer",
+              "url": "https://www.producthunt.com/products/session-indexer",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "OpenViking",
+              "url": "https://github.com/volcengine/OpenViking",
+              "source": "GitHub",
+              "score": 4048
+            },
+            {
+              "title": "ai-memory",
+              "url": "https://github.com/akitaonrails/ai-memory",
+              "source": "GitHub",
+              "score": 2520
+            }
+          ],
+          "takeaway": "最快可做的不是新 agent，而是帮现有 agent 找回、清理和复用上下文。"
+        },
+        {
+          "id": "pricing-models",
+          "heading": "值得学习的定价和变现模式有哪些？",
+          "summary_md": "今天值得借鉴的是三种定价。第一，API 型产品按调用和成功结果收费，[Purchase API by Agentcard](https://www.producthunt.com/products/agent-card) 把 agent 采购抽象成一次 API 调用，天然能按订单或成功购买收费。第二，情报型产品按席位加数据量收费，[akta.pro](https://www.producthunt.com/products/akta-pro) 做私营公司数据和信号 API，适合销售、投资、招聘团队。第三，风险控制型产品按监控对象收费，[Agnost AI](https://www.producthunt.com/products/agnost-ai) 与 [Inquio](https://www.producthunt.com/products/inquio) 都在抓「你的 bot 哪里错了」，比单纯 token 加价更容易让 B 端理解预算。",
+          "items": [
+            {
+              "title": "Purchase API by Agentcard",
+              "url": "https://www.producthunt.com/products/agent-card",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "akta.pro",
+              "url": "https://www.producthunt.com/products/akta-pro",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "Agnost AI",
+              "url": "https://www.producthunt.com/products/agnost-ai",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "Inquio",
+              "url": "https://www.producthunt.com/products/inquio",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "比卖模型更好的模式，是卖调用结果、数据稀缺性和失败风险降低。"
+        },
+        {
+          "id": "counterintuitive",
+          "heading": "今天最反直觉的发现是什么？",
+          "summary_md": "最反直觉的是：Google Trends 里多个大词在降温，但开发者行为没有同步降温。[ai agent](https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d) -23.6%、[codex cli](https://trends.google.com/trends/explore?q=codex+cli&date=now+7-d) -24.8%、[cursor alternative](https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d) -81.7%，看起来像热潮退去；但 GitHub 日榜里 [openai/codex](https://github.com/openai/codex) 周增 1994 星、[hermes-agent](https://github.com/NousResearch/hermes-agent) 周增 896 星、[claude-plugins-community](https://github.com/anthropics/claude-plugins-community) 日榜周增 489 星。解释是用户不再搜索抽象名词，而是在直接安装、比较、组合具体工具。",
+          "items": [
+            {
+              "title": "ai agent",
+              "url": "https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": -24
+            },
+            {
+              "title": "openai/codex",
+              "url": "https://github.com/openai/codex",
+              "source": "GitHub",
+              "score": 1994
+            },
+            {
+              "title": "hermes-agent",
+              "url": "https://github.com/NousResearch/hermes-agent",
+              "source": "GitHub",
+              "score": 896
+            },
+            {
+              "title": "claude-plugins-community",
+              "url": "https://github.com/anthropics/claude-plugins-community",
+              "source": "GitHub",
+              "score": 489
+            }
+          ],
+          "takeaway": "当搜索热词降温时，真正的机会可能已经进入安装、插件和工作流集成阶段。"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2026-08-25T09:17:20+00:00",
+  "reddit_highlights": []
+}

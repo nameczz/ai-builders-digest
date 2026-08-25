@@ -1,0 +1,173 @@
+{
+  "date": "2026-08-25",
+  "items": [
+    {
+      "id": "2026-08-25-1",
+      "title": "Agent 真正的门槛不是模型",
+      "angle": "从 Aaron Levie 的治理提醒切入：agent 进入企业系统后，护城河会从聊天体验转向权限、审计和业务规则。",
+      "opening": "大家还在争哪个 agent 更聪明，企业软件老板已经开始担心另一件事：它们会不会在系统里乱跑。一个 agent 一旦能查 CRM、改工单、跑采购流程，问题就不再是回答对不对，而是谁允许它这么做。",
+      "story_hook": {
+        "challenge": "AI agent 的价值来自自动执行，但自动执行越强，权限、可靠性和审计风险越大。",
+        "twist": "真正受益的可能不是最会做 agent 的应用，而是能把 agent 管住的平台。"
+      },
+      "takeaway": "做 B 端 AI 产品时，把权限边界、日志、回滚、ZDR 和业务规则当成核心功能，而不是上线后再补的合规模块。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Aaron Levie 谈 agent 将在记录系统中大规模查询、处理和协作",
+          "url": "https://x.com/levie/status/2092087679240569126"
+        },
+        {
+          "tag": "builders",
+          "ref": "Aaron Levie 谈 ZDR 对企业 AI 采用速度的重要性",
+          "url": "https://x.com/levie/status/2091909170308296950"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub 周榜 Tencent/AI-Infra-Guard 周增 1212 星",
+          "url": "https://github.com/Tencent/AI-Infra-Guard"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt Agnost AI 做 agent failure 捕捉",
+          "url": "https://www.producthunt.com/products/agnost-ai"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-25-2",
+      "title": "登录墙正在赶走 AI 用户",
+      "angle": "把 Peter Yang 对登录墙的吐槽，与 OpenLogi、Keymap 这类本地优先工具的增长放在一起看：AI 产品的第一竞争力可能是零摩擦。",
+      "opening": "现在让用户注册账号，可能比模型慢 2 秒更致命。Peter Yang 说得很直白：除了娱乐和游戏，没人愿意为了试个工具先被迫登录。另一边，OpenLogi 靠无账号、无遥测的 Logitech 替代方案一周涨了 7019 星。",
+      "story_hook": {
+        "challenge": "AI 工具想收集用户、留存和数据，却在第一步用账号流程消耗了用户耐心。",
+        "twist": "开源替代品增长最快的卖点，不是更强 AI，而是少一个账号、少一点遥测、少一点重量感。"
+      },
+      "takeaway": "面向开发者的 AI 工具应优先做免登录试用、本地模式和最短成功路径，再考虑账号体系和团队协作。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Peter Yang 谈登录墙和困在网页/App 里的 agent 会让人弃用产品",
+          "url": "https://x.com/petergyang/status/2092080901094248474"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub OpenLogi 周增 7019 星，主打本地优先、无账号、无遥测",
+          "url": "https://github.com/AprilNEA/OpenLogi"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt Keymap 把快捷键放到双击 Command 入口",
+          "url": "https://www.producthunt.com/products/keymap"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-25-3",
+      "title": "Agent 缺的不是智商，是记忆",
+      "angle": "从 Replit Agent 取代 Claude CoWork 的个人工作流变化，切到 OpenViking、ai-memory、session-indexer 的集体升温。",
+      "opening": "Amjad Masad 说，Replit Agent 已经成了他的日常主力，因为它更能坚持把事做完。可一个 agent 真想长期工作，靠单次上下文远远不够：它要记住项目、会话、文件、失败和人的偏好。今天 GitHub 和 Product Hunt 同时给出信号，agent memory 正在从功能点变成平台层。",
+      "story_hook": {
+        "challenge": "代码 agent 越能接手真实任务，越容易被上下文断裂、历史不可搜索和多 agent 交接拖垮。",
+        "twist": "下一个机会未必是再做一个 agent，而是给所有 agent 做记忆层和会话索引。"
+      },
+      "takeaway": "可以从很窄的场景切入：先做 Claude Code/Codex/Replit 会话搜索、记忆去重和过期记忆检查，而不是重造完整 IDE。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Amjad Masad 称 Replit Agent 已取代 Claude CoWork 成为日常主力",
+          "url": "https://x.com/amasad/status/2091962601907638352"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub OpenViking 周增 4048 星，做 agent memory、RAG 和 skills 上下文数据库",
+          "url": "https://github.com/volcengine/OpenViking"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub ai-memory 周增 2520 星，服务多 agent CLI 交接",
+          "url": "https://github.com/akitaonrails/ai-memory"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt session-indexer 做 Claude Code 会话历史语义搜索",
+          "url": "https://www.producthunt.com/products/session-indexer"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-25-4",
+      "title": "AI 热词降温，工具在升温",
+      "angle": "用 Google Trends 的下降和 GitHub 增长制造反差：用户不是不关心 AI agent，而是不再搜索大词，开始安装具体工具。",
+      "opening": "如果只看搜索趋势，AI agent 好像冷了：ai agent 下降 23.6%，codex cli 下降 24.8%。但同一天，openai/codex、hermes-agent、claude 插件社区还在涨。热闹没有消失，只是从搜索框搬进了终端和插件目录。",
+      "story_hook": {
+        "challenge": "媒体和市场容易把搜索热度下降误判成需求退潮。",
+        "twist": "真正的采用阶段，往往表现为搜索大词变少、具体 repo 和插件增长变多。"
+      },
+      "takeaway": "判断 AI 工具机会时，不只看 Trends 和社媒声量，要同时看 GitHub star 增量、插件生态、安装路径和开发者工作流嵌入深度。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Nan Yu 称别再只分析参数和榜单，AGI 已经近到可以被感觉到",
+          "url": "https://x.com/thenanyu/status/2092013239643394076"
+        },
+        {
+          "tag": "builders",
+          "ref": "Amjad Masad 称 Replit Agent 更能坚持把事做完",
+          "url": "https://x.com/amasad/status/2091962601907638352"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Google Trends 中 ai agent 下降 23.6%、codex cli 下降 24.8%",
+          "url": "https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub openai/codex 周增 1994 星",
+          "url": "https://github.com/openai/codex"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub hermes-agent 周增 896 星",
+          "url": "https://github.com/NousResearch/hermes-agent"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-25-5",
+      "title": "AI 评测正在失去区分度",
+      "angle": "从 Madhu Guru 对 eval 的吐槽切入，说明模型榜单和 agent 榜单下一步会竞争“真实难度”而不是漂亮分数。",
+      "opening": "如果 A、C 明显比 D、E 强，但分数都挤在 92 到 95 之间，这个评测就已经没用了。Madhu Guru 把问题说穿了：这就像拿五年级数学题考博士。今天 agent memory leaderboard 出现，说明下一轮评测战不会只发生在模型上，也会发生在 agent 的长期记忆和真实工作能力上。",
+      "story_hook": {
+        "challenge": "AI 能力越来越接近时，简单 benchmark 会把差异抹平，让开发者和买家都误判。",
+        "twist": "最有价值的评测不是更刁钻，而是更接近真实任务，并能稳定拉开能力差距。"
+      },
+      "takeaway": "做模型或 agent 产品时，要自建贴近用户任务的 eval：包含长上下文、工具调用、记忆冲突、失败恢复和结果审计，而不是只引用通用榜单。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Madhu Guru 谈好的 eval 必须有区分度，不能让强弱模型分数挤在一起",
+          "url": "https://x.com/realmadhuguru/status/2092058332735693264"
+        },
+        {
+          "tag": "pulse",
+          "ref": "HuggingFace agent-memory-leaderboard 趋势分 148",
+          "url": "https://huggingface.co/spaces/agent-memory-leaderboard/leaderboard"
+        },
+        {
+          "tag": "pulse",
+          "ref": "HuggingFace Qwen/Qwen3.8-27B 趋势分 1330、下载 2945415",
+          "url": "https://huggingface.co/Qwen/Qwen3.8-27B"
+        },
+        {
+          "tag": "pulse",
+          "ref": "HuggingFace unsloth/Qwen3.8-27B-GGUF 趋势分 1024",
+          "url": "https://huggingface.co/unsloth/Qwen3.8-27B-GGUF"
+        }
+      ]
+    }
+  ],
+  "notes": "今日主线很清晰：不是单个模型新闻，而是 agent 进入真实工作流后暴露出的记忆、权限、评测、插件和本地优先基础设施机会。缺口在于 builders 里独立开发者营收素材偏少，不适合硬写 MRR 选题。",
+  "generated_at": "2026-08-25T09:18:07+00:00",
+  "model": "gpt-5.5"
+}
