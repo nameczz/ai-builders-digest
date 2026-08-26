@@ -1,0 +1,148 @@
+{
+  "date": "2026-08-26",
+  "items": [
+    {
+      "id": "2026-08-26-1",
+      "title": "Agent 的利润不在模型里",
+      "angle": "从企业购买行为切入：真正值钱的是把模型接进权限、日志、工作流和交付结果的中间层。",
+      "opening": "Aaron Levie 说，企业买的不是模型，也不是 Agent，而是问题被解决。今天 GitHub 和 Product Hunt 的增长刚好在验证这句话：最热的不是聊天框，而是 agent 的运行、审计、权限和 workload 基础设施。",
+      "story_hook": {
+        "challenge": "模型能力越来越强，但企业落地仍卡在数据、权限、UX、评测和变革管理这些脏活上。",
+        "twist": "利润池可能不在更聪明的模型，而在那些看起来无聊的连接器、日志和运行时。"
+      },
+      "takeaway": "做 AI 应用时，把卖点从“模型更强”改成“我能稳定交付哪一个业务结果”，并优先补齐权限、审计和失败回放。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Aaron Levie 关于企业买结果而非模型的推文",
+          "url": "https://x.com/levie/status/2092466424694649066"
+        },
+        {
+          "tag": "pulse",
+          "ref": "apache/maka 周增 1,769 星，记录 agent append-only log",
+          "url": "https://github.com/apache/maka"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Warren 切入 coding-agent workload infrastructure",
+          "url": "https://www.producthunt.com/products/warren-5"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-26-2",
+      "title": "记忆层正在抢入口",
+      "angle": "把 Claude 记忆打通、ai-memory 增长和跨工具交接放在一起看：下一代入口不是聊天框，而是可迁移上下文。",
+      "opening": "Claude 今天把 Chat 和 Cowork 的记忆打通了，用户只要让它记一次，另一个入口就能继续干活。与此同时，GitHub 上 ai-memory 一周新增 2,073 星，说明开发者已经开始担心：我的上下文到底属于谁？",
+      "story_hook": {
+        "challenge": "AI 工具越多，项目背景、偏好、失败经验和决策记录越容易被困在单个平台里。",
+        "twist": "记忆功能表面上是体验优化，背后其实是入口控制权和迁移成本之争。"
+      },
+      "takeaway": "团队应该把可复用上下文沉淀为独立资产：项目事实、约束、评测样例、失败记录都要能跨模型和工具迁移。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Claude 关于 Chat 和 Cowork 共享记忆的推文",
+          "url": "https://x.com/claudeai/status/2092299704864284888"
+        },
+        {
+          "tag": "builders",
+          "ref": "Cat Wu 关于 Claude 记忆打通的推文",
+          "url": "https://x.com/_catwu/status/2092337156455051345"
+        },
+        {
+          "tag": "pulse",
+          "ref": "akitaonrails/ai-memory 周增 2,073 星",
+          "url": "https://github.com/akitaonrails/ai-memory"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-26-3",
+      "title": "本地优先又热了",
+      "angle": "从 Codex 的 macOS 锁定事故切入，解释为什么开发者重新追捧可控、本地、少遥测的个人计算环境。",
+      "opening": "Swyx 今天提醒大家别碰 Codex 的 locked use：一个不稳定的 macOS 特性，已经两次把他锁在钥匙串外。另一边，Omarchy 搜索热度涨了 245.3%，OpenLogi 一周新增 7,648 星，开发者的反应很直接：工具越智能，越不能把控制权全交出去。",
+      "story_hook": {
+        "challenge": "AI 工具为了安全和托管体验，正在深入接管本地机器、密钥、权限和执行环境。",
+        "twist": "越是进入 agent 时代，越多人开始怀念本地可控、无账号、无遥测的工具。"
+      },
+      "takeaway": "判断一个 AI 开发工具是否值得长期使用，不只看能力，还要检查本地可恢复性、权限边界、遥测策略和故障退出路径。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Swyx 关于 Codex locked use 风险的推文",
+          "url": "https://x.com/swyx/status/2092492963435946494"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Omarchy 搜索热度 7 日变化 +245.3%",
+          "url": "https://trends.google.com/trends/explore?q=omarchy&date=now+7-d"
+        },
+        {
+          "tag": "pulse",
+          "ref": "AprilNEA/OpenLogi 周增 7,648 星，主打无账号、无遥测",
+          "url": "https://github.com/AprilNEA/OpenLogi"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-26-4",
+      "title": "你的 eval 可能过期了",
+      "angle": "用 Madhu Guru 的 eval 观点对照 agent 工具链增长：评测不再是上线前打分，而是产品迭代方向盘。",
+      "opening": "很多团队以为自己在优化模型，其实是在被一套没区分度的 eval 牵着走。Madhu Guru 今天提醒：用户已经从短问答跑到长上下文、多轮和主动代理，你的 eval 如果还停在第 1 周，产品流失会在第 3 周暴露。",
+      "story_hook": {
+        "challenge": "AI 产品的真实失败越来越发生在长任务、多工具调用和复杂上下文里，传统静态测试集很难捕捉。",
+        "twist": "eval 不是一次性验收表，而是决定路线图、成本和爬坡节奏的产品仪表盘。"
+      },
+      "takeaway": "把 eval 按真实用户任务重建：覆盖长上下文、多轮失败、工具调用、成本、延迟和可恢复性，而不是只看平均分。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Madhu Guru 关于 eval 应作为产品迭代方向盘的推文",
+          "url": "https://x.com/realmadhuguru/status/2092461206783373758"
+        },
+        {
+          "tag": "builders",
+          "ref": "Madhu Guru 关于 eval 跟不上用户行为演化的推文",
+          "url": "https://x.com/realmadhuguru/status/2092426017118028266"
+        },
+        {
+          "tag": "pulse",
+          "ref": "openai/codex 周增 11,424 星，agent 使用场景扩张",
+          "url": "https://github.com/openai/codex"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-26-5",
+      "title": "AI 要证明惠及谁",
+      "angle": "从数据中心反对声和医疗场景切入：AI 叙事不能只服务高收入知识工作者，必须拿出大众能感知的结果。",
+      "opening": "Aditya Agarwal 说，普通人讨厌数据中心扩建并不奇怪，因为今天的 AI 主要服务知识工作者和高收入人群。Peter Yang 的抗癌简报技能给了一个反方向样本：AI 不必先变成万能医生，先把混乱的医疗信息钉成一份真相源，就已经有价值。",
+      "story_hook": {
+        "challenge": "AI 行业消耗能源、土地和资本，却很难向普通人解释他们得到了什么。",
+        "twist": "真正能改变公众态度的，可能不是更炫的模型发布，而是医疗、照护、教育里具体可见的小工具。"
+      },
+      "takeaway": "面向大众场景做 AI 产品时，优先选择高痛苦、信息混乱、可验证结果的流程，比如病程记录、就诊准备和术语解释。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Aditya Agarwal 关于数据中心反对与 AI 受益人群的推文",
+          "url": "https://x.com/adityaag/status/2092290497826173186"
+        },
+        {
+          "tag": "builders",
+          "ref": "Peter Yang 关于 /fuck-cancer 医疗简报技能的推文",
+          "url": "https://x.com/petergyang/status/2092311110871617915"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Knack MCP Server 提供 HIPAA-compliant backend 给 AI builders",
+          "url": "https://www.producthunt.com/products/knack"
+        }
+      ]
+    }
+  ],
+  "notes": "今日主线很集中：agent 基础设施、记忆层、本地控制权和评测方法都在升温；真正缺的是独立开发者营收实数，所以选题应少谈融资，多谈可落地的产品判断。",
+  "generated_at": "2026-08-26T09:18:33+00:00",
+  "model": "gpt-5.5"
+}
