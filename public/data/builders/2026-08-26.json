@@ -1,0 +1,487 @@
+{
+  "date": "2026-08-26",
+  "generated_at": "2026-08-26T09:12:25+00:00",
+  "count": 32,
+  "items": [
+    {
+      "id": "1dafe8214b",
+      "date": "2026-08-26",
+      "source": "x",
+      "author": "Swyx",
+      "bio": "achieve ambition with intentionality, intensity, integrity & insanity.  affiliations: - @smol_ai - @dxtipshq - @cognition - @aidotengineer - @latentspacepod",
+      "title": "",
+      "summary_en": "PSA: do not use codex \"locked use\" capabilities right now. it is currently relying on unstable mac features and has completely locked me out of my macos keychain twice this week. \n\nthx @_chenglou for linking to apple developer forums acknowledging this is a \"known bug\". just avoid. ofc, would be nice to do everything in cloud, but cloud isn't there yet.",
+      "summary_zh": "别用 Codex 现在的“locked use”能力：它依赖不稳定的 macOS 特性，本周已经两次把作者彻底锁在 macOS 钥匙串外。苹果开发者论坛也承认这是“已知 bug”，所以先躲开；云端全托管当然好，但现在还没到那个水平。",
+      "url": "https://x.com/swyx/status/2092492963435946494",
+      "posted_at": "2026-08-26T06:02:53.000Z",
+      "tags": [
+        "@swyx"
+      ]
+    },
+    {
+      "id": "a1f0340f62",
+      "date": "2026-08-26",
+      "source": "x",
+      "author": "Thibault Sottiaux",
+      "bio": "Codex & ChatGPT @OpenAI",
+      "title": "",
+      "summary_en": "Good products take time. At least 34 days.",
+      "summary_zh": "好产品需要时间。至少 34 天。",
+      "url": "https://x.com/thsottiaux/status/2092487667426738179",
+      "posted_at": "2026-08-26T05:41:51.000Z",
+      "tags": [
+        "@thsottiaux"
+      ]
+    },
+    {
+      "id": "069d225139",
+      "date": "2026-08-26",
+      "source": "x",
+      "author": "Nikunj Kothari",
+      "bio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
+      "title": "",
+      "summary_en": "find someone who loves you as much as the VC who loves posting photos of an “exclusive” dinner 🙈",
+      "summary_zh": "找个爱你的人，至少要像爱晒“独家晚宴”照片的 VC 那么上头。\n\n讽刺的是，所谓独家，常常只是换个角度的社交炫耀。",
+      "url": "https://x.com/nikunj/status/2092476274312933634",
+      "posted_at": "2026-08-26T04:56:34.000Z",
+      "tags": [
+        "@nikunj"
+      ]
+    },
+    {
+      "id": "cb82e7df7c",
+      "date": "2026-08-26",
+      "source": "x",
+      "author": "Aaron Levie",
+      "bio": "ceo @box - your business lives in content. unleash it with AI",
+      "title": "",
+      "summary_en": "Good post on what the applied AI strategy looks like at scale. It’s clear that there’s a wide gap between the AI models and the underlying workflows of an enterprise, which leaves a ton of opportunity for applied AI companies.\n\n“The world doesn’t just want raw models and agents; it wants problems resolved and outcomes achieved. The premium will sit with the companies that can diffuse this intelligence through every aspect of civilization, converting raw tokens into real world outcomes, transforming industries, and creating economies in the process.”\n\nThis requires understanding the context, driving the change management, having a harness that can route to various models, connecting to the critical business systems in that vertical, solving the UX challenges of connecting users to agents in the right way in a workflow, understanding the evals in the space, and so on.  \n\nThat’s a ton of value that goes beyond just the model intelligence itself. And there’s a window of opportunity right now to build the defining companies that can bring intelligence to the critical domains in an enterprise.",
+      "summary_zh": "企业真正买的不是裸模型或 Agent，而是问题被解决、结果被交付；模型和企业工作流之间的巨大断层，正是应用 AI 公司的利润池。\n\n能把智能嵌进业务系统、改造流程、处理 UX、评测和变革管理的公司，才有机会成为关键行业里的定义性公司。",
+      "url": "https://x.com/levie/status/2092466424694649066",
+      "posted_at": "2026-08-26T04:17:26.000Z",
+      "tags": [
+        "@levie"
+      ]
+    },
+    {
+      "id": "38a4ab4bf3",
+      "date": "2026-08-26",
+      "source": "x",
+      "author": "Madhu Guru",
+      "bio": "Sr Director, AI at Meta; Prev: Google - Led Gemini, Veo, Nano Banana.",
+      "title": "",
+      "summary_en": "Full eval series so far:\n\n1/ Getting started with evals\nhttps://t.co/fh4yQR64Ta\n\n2/ Quality first, then cost\nhttps://t.co/hqNaE2ykTQ\n\n3/ Failure modes taxonomy\nhttps://t.co/MM2wgiAnoF\n\n4/ Laddered eval strategy\nhttps://t.co/2ioAe4hvqb\n\n5/ Tyranny of the average\nhttps://t.co/QPiGbxxb72\n\n6/ Hill climbing on evals\nhttps://t.co/EtxbF1kqgD\n\n7/ The Goldilocks principle\nhttps://t.co/PXSX3jsLtk\n\n8/ Discriminatory power of evals\nhttps://t.co/epINGK6dGV\n\n9/ The Eval Roadmap Problem\nhttps://t.co/nw2U3R6U1Y",
+      "summary_zh": "这串 eval 文章的核心不是“怎么跑分”，而是把评测当成产品迭代的方向盘：先抓质量和失败模式，再谈成本、平均值、爬坡和路线图。真正的问题是，很多团队以为自己在优化模型，其实只是在被一套没区分度的 eval 牵着走。",
+      "url": "https://x.com/realmadhuguru/status/2092461206783373758",
+      "posted_at": "2026-08-26T03:56:42.000Z",
+      "tags": [
+        "@realmadhuguru"
+      ]
+    },
+    {
+      "id": "63dfea85e8",
+      "date": "2026-08-26",
+      "source": "x",
+      "author": "Madhu Guru",
+      "bio": "Sr Director, AI at Meta; Prev: Google - Led Gemini, Veo, Nano Banana.",
+      "title": "",
+      "summary_en": "How to build great evals — Part 9\n\nThe Eval Roadmap Problem \n\nMost evals fail because teams treat them as static artifacts while their users  expectations and behaviors have evolved.\n \nYour evals need a roadmap that evolves with your product and actual usage patterns.\n\nTake a financial research agent. Here is how use cases will evolve over time.\n\nEarly user: Summarize this 5-page earnings report.\n\n3 weeks later: review the last 5 earnings reports and explain their growth story.\n\n2 months later: Here are 15 filings, earnings transcripts and research reports. Build an investment thesis.\n\nEventually: Monitor my stock portfolio and tell send me alerts when something materially changes my thesis.\n\nEach stage requires different capabilities and hence different evals.\n\nYour evals should change with usage patterns:\n\nshort-context -> long-context\nsingle-turn QA -> multi-turn\npassage citations -> doc and line citations \nSimple QA -> complex synthesis\nreactive chat -> proactive agent\n\nIf your evals are stuck in week 1 while users are in week 3, it will show in your product and churn metrics.\n\nHere’s a practical way to build the roadmap:\n1/ Map the dimensions along which usage will evolve (eg # turns, document size, tool use, autonomy, journey coverage).\n2/ Prioritize the use cases and dimensions that matter most for your product.\n3/ Talk to your users, mine production traces to look for shifts.\n4/ Build P0 evals for the next stage of usage.\n5/ Run the evals, find failure modes (remember the taxonomy from Part 3), and hill-climb (from part 6).\n\nThe goal is to stay ahead of usage patterns. PM 101.\n\nDrop your questions and I will address in future posts.\n\nShare this with your teammates who think your evals are perfect.",
+      "summary_zh": "多数 eval 失败，是因为团队把它当静态资产，而用户行为早就从短问答进化到长上下文、多轮、复杂综合和主动代理。你的 eval 如果还停在第 1 周，用户已经跑到第 3 周，产品和流失率会直接露馅。",
+      "url": "https://x.com/realmadhuguru/status/2092426017118028266",
+      "posted_at": "2026-08-26T01:36:52.000Z",
+      "tags": [
+        "@realmadhuguru"
+      ]
+    },
+    {
+      "id": "39196f1c71",
+      "date": "2026-08-26",
+      "source": "x",
+      "author": "Nikunj Kothari",
+      "bio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
+      "title": "",
+      "summary_en": "Originally inspired by the @TheStalwart’s Odd Lots episode. \n\nBuilt using @ChatGPT codex and @Railway \n\nDesign polish courtesy of @emilkowalski skills and @itskasturiii generative loaders. \n\nDirect link here: https://t.co/L0zbiLPH55\n\nFeedback always welcome!",
+      "summary_zh": "受 Odd Lots 一期节目启发，他用 ChatGPT Codex 和 Railway 直接做了个可访问的项目；设计质感靠 Emil Kowalski 的技巧和 Kasturi 的生成式加载器补刀。",
+      "url": "https://x.com/nikunj/status/2092384774459674957",
+      "posted_at": "2026-08-25T22:52:59.000Z",
+      "tags": [
+        "@nikunj"
+      ]
+    },
+    {
+      "id": "03f2309f4f",
+      "date": "2026-08-26",
+      "source": "x",
+      "author": "Nikunj Kothari",
+      "bio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
+      "title": "",
+      "summary_en": "Introducing the El Niño situation monitor (elneenyo dot com)..\n\n> real time updates, news and what’s happening straight from government sources\n> impact per region and costs\n> historical records and what’s the importance\n> glossary and FAQ on all the different readings\n\nIf this topic pops up in your group chat, you know where to go now!",
+      "summary_zh": "他做了个 El Niño 实时监控站 elneenyo.com，把政府信源、区域影响、成本、历史记录和术语 FAQ 都塞进去。以后群聊里再有人聊厄尔尼诺，别凭感觉吵，直接去查。",
+      "url": "https://x.com/nikunj/status/2092383834470002922",
+      "posted_at": "2026-08-25T22:49:15.000Z",
+      "tags": [
+        "@nikunj"
+      ]
+    },
+    {
+      "id": "fc19b0e14b",
+      "date": "2026-08-26",
+      "source": "x",
+      "author": "Guillermo Rauch",
+      "bio": "@vercel CEO",
+      "title": "",
+      "summary_en": "(Not affiliated with Denny's)",
+      "summary_zh": "先声明：跟 Denny’s 没关系，别来找它。",
+      "url": "https://x.com/rauchg/status/2092383119248884043",
+      "posted_at": "2026-08-25T22:46:24.000Z",
+      "tags": [
+        "@rauchg"
+      ]
+    },
+    {
+      "id": "b312ba2f89",
+      "date": "2026-08-26",
+      "source": "x",
+      "author": "Guillermo Rauch",
+      "bio": "@vercel CEO",
+      "title": "",
+      "summary_en": "We're introducing Run SDK: secure 𝚎𝚟𝚊𝚕 for dynamic Code Mode execution.\n\nWhen agents write code, you don't always need a full sandbox. You can 𝚛𝚞𝚗 their code in a lightweight QuickJS secure context. Faster and more cost-efficient.\n\n𝚗𝚙𝚖 𝚒 𝚛𝚞𝚗\nhttps://t.co/br24j8Qp4r https://t.co/ZLqpkwqTT5 https://t.co/6ElyxieLme",
+      "summary_zh": "Run SDK 把 agent 写出的代码丢进轻量 QuickJS 安全上下文里直接跑，用「安全 eval」替代一部分完整 sandbox。\n\n重点很直白：动态 Code Mode 执行不一定都要重型沙箱，能更快，也更省钱。",
+      "url": "https://x.com/rauchg/status/2092382653161107534",
+      "posted_at": "2026-08-25T22:44:33.000Z",
+      "tags": [
+        "@rauchg"
+      ]
+    },
+    {
+      "id": "6831c95a13",
+      "date": "2026-08-26",
+      "source": "x",
+      "author": "Thibault Sottiaux",
+      "bio": "Codex & ChatGPT @OpenAI",
+      "title": "",
+      "summary_en": "I want to see the polymarket",
+      "summary_zh": "他不想听空话，只想看 Polymarket 上真金白银押出来的判断。",
+      "url": "https://x.com/thsottiaux/status/2092359619075314102",
+      "posted_at": "2026-08-25T21:13:02.000Z",
+      "tags": [
+        "@thsottiaux"
+      ]
+    },
+    {
+      "id": "a3ffaafaa4",
+      "date": "2026-08-26",
+      "source": "x",
+      "author": "Boris Cherny",
+      "bio": "Claude Code @anthropicai",
+      "title": "",
+      "summary_en": "A small improvement: memory is now simpler and more powerful. Enjoy! https://t.co/11wCkgPyfJ",
+      "summary_zh": "一个小升级：Memory 现在更简单、更强了。直接用。",
+      "url": "https://x.com/bcherny/status/2092355642363453943",
+      "posted_at": "2026-08-25T20:57:13.000Z",
+      "tags": [
+        "@bcherny"
+      ]
+    },
+    {
+      "id": "b95098d7b6",
+      "date": "2026-08-26",
+      "source": "x",
+      "author": "Guillermo Rauch",
+      "bio": "@vercel CEO",
+      "title": "",
+      "summary_en": "The hardest problem in building agents is secure connectivity to services and data.\n\nExcited for Vercel Connect to be GA. Run e.g: 𝚟𝚎𝚛𝚌𝚎𝚕 𝚌𝚘𝚗𝚗𝚎𝚌𝚝 𝚌𝚛𝚎𝚊𝚝𝚎 𝚗𝚘𝚝𝚒𝚘𝚗, then get an MCP client you can query on behalf of the authenticated user. https://t.co/UrQxaEDfHx",
+      "summary_zh": "做 Agent 最难的不是推理，而是安全地连上服务和数据。Vercel Connect GA 后，一行命令就能为已认证用户拿到可查询的 MCP client。",
+      "url": "https://x.com/rauchg/status/2092352411839193234",
+      "posted_at": "2026-08-25T20:44:23.000Z",
+      "tags": [
+        "@rauchg"
+      ]
+    },
+    {
+      "id": "f2785d4c0f",
+      "date": "2026-08-26",
+      "source": "x",
+      "author": "Garry Tan",
+      "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "title": "",
+      "summary_en": "Ok apparently this guy came up with it\n\nDon’t really care though\n\nClout chaser lmao he is the one who blocked me https://t.co/oltJDirXcZ",
+      "summary_zh": "原来这点子好像是那个人先想出来的，但我不在乎。蹭热度的小丑，还先把我拉黑了。",
+      "url": "https://x.com/garrytan/status/2092351492397383908",
+      "posted_at": "2026-08-25T20:40:44.000Z",
+      "tags": [
+        "@garrytan"
+      ]
+    },
+    {
+      "id": "b90f0afa63",
+      "date": "2026-08-26",
+      "source": "x",
+      "author": "Thibault Sottiaux",
+      "bio": "Codex & ChatGPT @OpenAI",
+      "title": "",
+      "summary_en": "So much demand for this one. Works similar to the Pro $100 plan but designed for teams and small companies.\n\n✅ All ChatGPT, ChatGPT Work, and Codex features\n✅ Connect to Google Workspace, Slack, GitHub, Microsoft 365, and more\n✅ Secure workspace with SAML, SSO, and MFA\n✅ Centralized billing and administration\n✅ Usage analytics and spend controls\n✅ No 5h limits",
+      "summary_zh": "团队和小公司版的 Pro 级方案来了：ChatGPT、Work、Codex 全功能，加上 Google Workspace、Slack、GitHub、Microsoft 365 等连接能力。企业安全、统一账单、用量分析、花费控制都有，最关键是没有 5 小时限制。",
+      "url": "https://x.com/thsottiaux/status/2092345330272780499",
+      "posted_at": "2026-08-25T20:16:15.000Z",
+      "tags": [
+        "@thsottiaux"
+      ]
+    },
+    {
+      "id": "00d9a7388a",
+      "date": "2026-08-26",
+      "source": "x",
+      "author": "Sam Altman",
+      "bio": "AI is cool i guess",
+      "title": "",
+      "summary_en": "we made a chip and it is fast",
+      "summary_zh": "我们做了块芯片，速度很快。",
+      "url": "https://x.com/sama/status/2092339694210040187",
+      "posted_at": "2026-08-25T19:53:51.000Z",
+      "tags": [
+        "@sama"
+      ]
+    },
+    {
+      "id": "0ad2aef162",
+      "date": "2026-08-26",
+      "source": "x",
+      "author": "Cat Wu",
+      "bio": "claude code + cowork @anthropicai, prev: @dagster, @scale_ai",
+      "title": "",
+      "summary_en": "Thanks to your feedback, we’ve unified memory across Chat and Cowork. Now, you can tell Claude to remember something once and it’ll have that context across surfaces!\n\nTell us what you’d like to see next :) https://t.co/0Vw2o4zeaB",
+      "summary_zh": "Claude 现在把 Chat 和 Cowork 的记忆打通了：你只要让它记一次，跨入口都会带着同一份上下文。此前割裂的记忆体验，终于补上了。",
+      "url": "https://x.com/_catwu/status/2092337156455051345",
+      "posted_at": "2026-08-25T19:43:46.000Z",
+      "tags": [
+        "@_catwu"
+      ]
+    },
+    {
+      "id": "87307adf7f",
+      "date": "2026-08-26",
+      "source": "x",
+      "author": "Garry Tan",
+      "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "title": "",
+      "summary_en": "lmao https://t.co/y6BqsiuTQs",
+      "summary_zh": "这条推文只有一句 “lmao” 加一个链接，本身没有可总结的信息；要保留锋利度，只能说：笑死，链接内容才是重点。",
+      "url": "https://x.com/garrytan/status/2092321194037195022",
+      "posted_at": "2026-08-25T18:40:20.000Z",
+      "tags": [
+        "@garrytan"
+      ]
+    },
+    {
+      "id": "9d4d38d91e",
+      "date": "2026-08-26",
+      "source": "x",
+      "author": "Peter Yang",
+      "bio": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6",
+      "title": "",
+      "summary_en": "Here's an example brief that the /fuck-cancer skill creates and updates.\n\nI’ve found it really useful to have a single source of truth doc with patient information, what to do next, what we know, definitions of medical terms, and an update log.\n\n📌 Get the free skill here:\nhttps://t.co/YUGoFbhnNc",
+      "summary_zh": "这个 `/fuck-cancer` 技能会自动生成并更新一份抗癌作战简报：病人信息、下一步、已知情况、医学术语解释和更新日志都放在同一个真相源里。\n\n对抗混乱的病情和医疗信息，先把所有关键事实钉死在一份文档里。",
+      "url": "https://x.com/petergyang/status/2092311110871617915",
+      "posted_at": "2026-08-25T18:00:16.000Z",
+      "tags": [
+        "@petergyang"
+      ]
+    },
+    {
+      "id": "035482a40e",
+      "date": "2026-08-26",
+      "source": "x",
+      "author": "Thariq",
+      "bio": "Claude Code @anthropicai.   prev YC W20, @spc, @medialab",
+      "title": "",
+      "summary_en": "excited to share more on how we’re making Claude Code more hackable soon https://t.co/liQ5rQG887",
+      "summary_zh": "Claude Code 很快会开放更多可折腾、可改造的能力，让 builder 能更深地把它拆开来用。",
+      "url": "https://x.com/trq212/status/2092303682616627311",
+      "posted_at": "2026-08-25T17:30:45.000Z",
+      "tags": [
+        "@trq212"
+      ]
+    },
+    {
+      "id": "e007e8e557",
+      "date": "2026-08-26",
+      "source": "x",
+      "author": "Claude",
+      "bio": "Claude is an AI assistant built by @anthropicai to be safe, accurate, and secure. Talk to Claude on https://t.co/ZhTwG8d1e5 or download the app.",
+      "title": "",
+      "summary_en": "Topics some consider sensitive, like health or religious beliefs, stay out of memory unless you turn them on in Settings.\n\nMemory is on by default on Free, Pro, and Max plans. Review yours anytime in Settings &gt; Memory.\n\nRead more: https://t.co/2y4B3am1RX",
+      "summary_zh": "健康、宗教信仰这类敏感话题不会进记忆，除非你自己在设置里打开。Free、Pro、Max 默认开启记忆功能，想查就去 Settings > Memory。",
+      "url": "https://x.com/claudeai/status/2092299710002319742",
+      "posted_at": "2026-08-25T17:14:58.000Z",
+      "tags": [
+        "@claudeai"
+      ]
+    },
+    {
+      "id": "246d14b2b8",
+      "date": "2026-08-26",
+      "source": "x",
+      "author": "Claude",
+      "bio": "Claude is an AI assistant built by @anthropicai to be safe, accurate, and secure. Talk to Claude on https://t.co/ZhTwG8d1e5 or download the app.",
+      "title": "",
+      "summary_en": "Everything Claude remembers is saved as a list of topics in Settings, where you can read, edit, or delete each one.\n\nMemory also updates on its own as you chat, saving new details as they come up. You can also say \"remember this\" to save something specific. https://t.co/ExpQAHkyhu",
+      "summary_zh": "Claude 的记忆不是黑箱，而是设置里一条条可读、可改、可删的主题列表。它会在聊天中自动更新，你也可以直接命令它“记住这个”。",
+      "url": "https://x.com/claudeai/status/2092299707653439497",
+      "posted_at": "2026-08-25T17:14:58.000Z",
+      "tags": [
+        "@claudeai"
+      ]
+    },
+    {
+      "id": "f3959b5f90",
+      "date": "2026-08-26",
+      "source": "x",
+      "author": "Claude",
+      "bio": "Claude is an AI assistant built by @anthropicai to be safe, accurate, and secure. Talk to Claude on https://t.co/ZhTwG8d1e5 or download the app.",
+      "title": "",
+      "summary_en": "Claude now has one memory across chat and Claude Cowork, and you decide what's in it.\n\nHand Cowork a task and it starts from what Claude already knows from your chats: the project you talked through, your manager's preferences, or the client from last quarter. https://t.co/ViKapsT8K6",
+      "summary_zh": "Claude 现在把聊天和 Claude Cowork 的记忆打通成同一份，而且记什么由你决定。你把任务丢给 Cowork，它会直接带着 Claude 已知的项目背景、老板偏好和老客户上下文开干。",
+      "url": "https://x.com/claudeai/status/2092299704864284888",
+      "posted_at": "2026-08-25T17:14:57.000Z",
+      "tags": [
+        "@claudeai"
+      ]
+    },
+    {
+      "id": "d1aace263c",
+      "date": "2026-08-26",
+      "source": "x",
+      "author": "Peter Steinberger",
+      "bio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world. @OpenClaw🦞 + @OpenAI",
+      "title": "",
+      "summary_en": "This week. https://t.co/AM08qn6Zfd",
+      "summary_zh": "本周会有大事发生，但这条推文本身只是在放风，没有给出任何具体信息。",
+      "url": "https://x.com/steipete/status/2092294123638362346",
+      "posted_at": "2026-08-25T16:52:46.000Z",
+      "tags": [
+        "@steipete"
+      ]
+    },
+    {
+      "id": "eb1823ab25",
+      "date": "2026-08-26",
+      "source": "x",
+      "author": "Google Labs",
+      "bio": "Google’s home for our latest AI tools and experiments.",
+      "title": "",
+      "summary_en": "🚨 NEW LABS EXPERIMENT 🚨\n\nGreat minds t̵h̵i̵n̵k̵  play alike!\n\nPlay with Putty is a collaborative vibe coding tool that lets you build tools and websites together in real time. 🫟\n\nReady for your imagination to go multiplayer? Join the waitlist at https://t.co/v4m5iiYt9T and share your feedback with us!\n\nUS only, ages 18+",
+      "summary_zh": "",
+      "url": "https://x.com/GoogleLabs/status/2092293667688173593",
+      "posted_at": "2026-08-25T16:50:57.000Z",
+      "tags": [
+        "@GoogleLabs"
+      ]
+    },
+    {
+      "id": "e292290683",
+      "date": "2026-08-26",
+      "source": "x",
+      "author": "Aditya Agarwal",
+      "bio": "General Partner @SPC, Co-Founder @Bevel_Health | Ex: Early Eng @facebook, CTO @Dropbox, Board @Flipkart | Optimist, Builder, Dad",
+      "title": "",
+      "summary_en": "It's totally unsurprising that the general population hates datacenter buildout. \n\nAI today primarily helps knowledge workers and the highest paid segments of the country. \n\nI suspect that the big change will happen when AI is able to find cures for diseases that ail everyone. We are starting to see light at the end of the tunnel here.\n\nAlso makes sense why some of the brightest minds now want to focus there.\n\nOur industry also hasn't done ourselves any favors by all our fear-mongering. Instead of painting a positive version of the future, we have instead talked about all the reasons why we should be afraid 🤦‍♂️.",
+      "summary_zh": "普通人讨厌数据中心扩建一点也不意外：今天的 AI 主要服务知识工作者和高收入人群，还没真正惠及所有人。\n\n真正的转折点会是 AI 能治愈困扰大众的疾病；而这个行业过去只会贩卖恐惧，不会描绘一个值得期待的未来。",
+      "url": "https://x.com/adityaag/status/2092290497826173186",
+      "posted_at": "2026-08-25T16:38:22.000Z",
+      "tags": [
+        "@adityaag"
+      ]
+    },
+    {
+      "id": "687c9854ef",
+      "date": "2026-08-26",
+      "source": "x",
+      "author": "Peter Yang",
+      "bio": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6",
+      "title": "",
+      "summary_en": "Very excited to attend @OpenAI Dev Day.\n\nChatGPT / Codex is basically the OS I use for everything I do on my computer.\n\nCan't wait to see what updates the team has in store. https://t.co/0mvJVeQqFa https://t.co/rhxpVhn7Ue",
+      "summary_zh": "ChatGPT / Codex 已经成了他电脑上做任何事的“操作系统”。这次去 OpenAI Dev Day，就等着看它下一步还要接管什么。",
+      "url": "https://x.com/petergyang/status/2092281120650047746",
+      "posted_at": "2026-08-25T16:01:06.000Z",
+      "tags": [
+        "@petergyang"
+      ]
+    },
+    {
+      "id": "0473d5883f",
+      "date": "2026-08-26",
+      "source": "x",
+      "author": "Dan Shipper",
+      "bio": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "title": "",
+      "summary_en": "GET DOT https://t.co/EG90vQX7nR",
+      "summary_zh": "GET DOT。三个字加一个链接，像是在甩出一个新工具入口：别解释，直接去用。",
+      "url": "https://x.com/danshipper/status/2092279611988050181",
+      "posted_at": "2026-08-25T15:55:06.000Z",
+      "tags": [
+        "@danshipper"
+      ]
+    },
+    {
+      "id": "382b4c2fd1",
+      "date": "2026-08-26",
+      "source": "x",
+      "author": "Garry Tan",
+      "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "title": "",
+      "summary_en": "You need to be cross-harness memory maxxing https://t.co/sauwBL6tYK",
+      "summary_zh": "",
+      "url": "https://x.com/garrytan/status/2092277912053657722",
+      "posted_at": "2026-08-25T15:48:21.000Z",
+      "tags": [
+        "@garrytan"
+      ]
+    },
+    {
+      "id": "f5aacfe56f",
+      "date": "2026-08-26",
+      "source": "x",
+      "author": "Dan Shipper",
+      "bio": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "title": "",
+      "summary_en": "I got one of these to test\n\n@every vibe check forthcoming! https://t.co/YvEcro1WLZ",
+      "summary_zh": "他拿到了一台新东西准备实测。@every 的「vibe check」马上开刀。",
+      "url": "https://x.com/danshipper/status/2092277639591461056",
+      "posted_at": "2026-08-25T15:47:16.000Z",
+      "tags": [
+        "@danshipper"
+      ]
+    },
+    {
+      "id": "19fdcc8456",
+      "date": "2026-08-26",
+      "source": "x",
+      "author": "Peter Yang",
+      "bio": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6",
+      "title": "",
+      "summary_en": "Today, I’m open-sourcing /fuck-cancer, an AI skill that helps patients and caregivers navigate cancer diagnosis and treatment and advocate for themselves and their loved ones.\n\nHere’s what patients and caregivers have told me since I shared my mom’s story:\n\n“You have to be a huge patient advocate. Ask questions and push for answers, biopsies, and proper testing.”\n\n“I need help navigating difficult conversations and advocating for myself.”\n\n“The volume of doctors, documents, and insurance paperwork can quickly become overwhelming.”\n\nI built the skill to help with these problems. It creates and updates a practical brief with five sections:\n\n1. Patient and care-team information for easy reference during calls\n\n2. What to do next, limited to three specific actions\n\n3. What we know, separating confirmed facts from what remains unclear\n\n4. Medical terms explained in plain English\n\n5. A care log with recent updates and decisions\n\nIt builds this brief from documents, and context you provide. When research is needed, it uses trusted sources such as the National Cancer Institute and the ClinicalTrials gov API.\n\nI use it with ChatGPT/Codex and Claude Code to prepare for conversations and research. It can save the brief locally as a Markdown file or update a shareable Google Doc so the whole family can work from the same information.\n\n📌 Get the free, open-source skill here:\nhttps://t.co/YUGoFbhnNc\n\nIf you find it useful, please ⭐ the repo and share it with someone going through this BS disease.",
+      "summary_zh": "他开源了 `/fuck-cancer`：一个帮癌症患者和照护者整理病情、医生、文件、保险和下一步行动的 AI skill，让人别在这堆烂事里被系统碾碎。它会把资料变成可更新的照护简报，需要研究时查 NCI、ClinicalTrials.gov 等可信来源，方便全家拿同一份信息去追问、逼近答案。",
+      "url": "https://x.com/petergyang/status/2092249012913258946",
+      "posted_at": "2026-08-25T13:53:31.000Z",
+      "tags": [
+        "@petergyang"
+      ]
+    },
+    {
+      "id": "d577a39902",
+      "date": "2026-08-26",
+      "source": "podcast",
+      "author": "Training Data",
+      "bio": "",
+      "title": "Parallel’s Parag Agrawal: Building a New Web for AI Agents",
+      "summary_en": "Speaker 1 | 00:00 - 00:40\nOur view at Parallel is that human click data is a bug, and agent doing work with search should rely on agent feedback, not human feedback. We believe that these models are really good at compressing information and we can benefit from a lot of the research that have gone into building models and apply it to search indexing and ranking. And so you can now make many, many arguments. And that's the arguments we made back then that actually now it's way more tractable as a problem because of the existence of agents, not just as in technology, but as a distinct customer.\n\nSpeaker 2 | 00:57 - 01:23\nParag, thank you so much for joining us today. We're delighted to have you on the show. For those who don't know, Parag of Twitter CEO fame was the CEO for of Twitter before selling it to Elon and is now back on the founder arc. You founded a company called Parallel Web Systems, which is scaling up agentic search for the agentic web. We're very excited to have you here today to talk about the future of search and the future of the Internet.\n\nSpeaker 2 | 01:23 - 01:25\nSo let's get started. What's Parallel?\n\nSpeaker 1 | 01:25 - 01:50\nThank you, Sonia, for having me. Thanks, Andrew, for joining us. I'm really excited about this conversation. At Parallel, we're building a bunch of technology in order to allow agents to search and use the web. So just like humans forever have figured out how to use browsers and search engines and clicking and browsing on the web to access information, agents need to do the same things.\n\nSpeaker 1 | 01:50 - 02:07\nWe started parallel with the bet that agents would do it a thousand x more than humans ever have. And as a result, we need to reinvent the technology that can power search for agents, but also the business models that ",
+      "summary_zh": "Parallel 的判断很激进：人类点击数据是搜索系统的 bug，AI agent 做搜索应该靠 agent 反馈，而不是人类反馈。既然 agent 会以人类千倍规模使用网络，搜索索引、排序和商业模式都得为 agent 这个新客户重写。",
+      "url": "https://www.youtube.com/playlist?list=PLOhHNjZItNnMm5tdW61JpnyxeYH5NDDx8",
+      "posted_at": "2026-08-25T09:00:00.000Z",
+      "tags": [
+        "podcast"
+      ]
+    }
+  ]
+}
