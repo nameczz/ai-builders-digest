@@ -1,0 +1,502 @@
+{
+  "date": "2026-08-28",
+  "generated_at": "2026-08-28T09:12:16+00:00",
+  "count": 33,
+  "items": [
+    {
+      "id": "9c73ad82f0",
+      "date": "2026-08-28",
+      "source": "blog",
+      "author": "Claude Blog",
+      "bio": "",
+      "title": "Claude in Chrome is generally available ",
+      "summary_en": "Claude in Chrome is now generally available on every paid Claude plan. Claude can now also take actions autonomously in the browser, instead of needing approval for every one. A safety classifier validates each action before it’s performed to ensure it’s safe and matches your request. Many of the tools you use every day connect to Claude . But many others don’t, such as internal dashboards, legacy systems, and vendor portals. Claude in Chrome lets Claude access those. It can view the page you’re on and take actions like reading and typing text, clicking links, navigating between pages, and filling out forms, using your existing logins. We first announced Claude in Chrome as a pilot last year, so we could test it while also shoring up our defenses against prompt injection : malicious instructions hidden in websites, emails, or documents that try to trick an AI agent into acting against the user’s wishes. These defenses, described below, give us the confidence to make Claude in Chrome generally available. Safeguarding against prompt injection As we outlined when we announced the pilot, an AI agent that works in your browser is also vulnerable to prompt injection. So we’ve worked to improve our safeguards before releasing Claude in Chrome more widely. In a prompt injection attack, malicious actors hide instructions in web content such as a web page, an email, or a form field. You may never see them, but these instructions can redirect the agent to do something you never asked for. For example, if you’ve asked Claude to draft replies to your emails, a hidden instruction in one message could tell Claude to forward your other emails to the attacker instead. At launch, we described how we tested Claude’s defenses against these attacks and the safeguards we had in place at the time; we later released a more detailed description of our browser-use safeguards . Since then, we’ve improved how we train both the model and our probes , and added an additional set of classifiers that make it possible for Claude to safely take more autonomous actions in Chrome. In the next section, we discuss the results of our evaluations, which show the efficacy of these safeguards. Claude recognizes more attacks. We train Claude against a growing library of prompt injection attacks, sourced from our internal automated attackers, external red-teamers, and real-world monitoring. When a new",
+      "summary_zh": "Claude in Chrome 终于向所有付费用户开放，并开始允许 Claude 在浏览器里自主点击、输入、填表和跳转，直接接管那些没有 API、只有网页入口的内部系统和供应商门户。\n\n但这也是把 AI agent 放进提示注入的雷区：Anthropic 的底气来自更强的攻击识别训练和动作前安全分类器，确保 Claude 执行动作前仍然符合用户意图。",
+      "url": "https://claude.com/blog/claude-in-chrome-generally-available",
+      "posted_at": "Aug 26, 2026",
+      "tags": [
+        "blog"
+      ]
+    },
+    {
+      "id": "723744a8b8",
+      "date": "2026-08-28",
+      "source": "blog",
+      "author": "Claude Blog",
+      "bio": "",
+      "title": "Claude gets its own browser in Cowork",
+      "summary_en": "Claude now has a browser built into Claude Cowork on the desktop app. When a task needs to use a website, a browser opens in the side panel and Claude navigates webpages, reads them, clicks, and types. You can now hand off the web part of the task and stay where you are: Claude can fill in a form, pull numbers from a dashboard, or work through a portal that has no connector. No extension, no setup, and nothing shared from your own browser unless you choose to. Until now, giving Claude the ability to use the web in Cowork meant giving it access to your browser through the Claude in Chrome extension. When the work is on a page you already have open, that&#x27;s still the right choice. But a lot of web tasks don&#x27;t need your browser, just a browser, and now Claude has one. It&#x27;s rolling out this week to Pro, Max, and Team plans in the Claude desktop app. Enterprise admins can turn it on for their organization starting today. Which browser, when It&#x27;s Claude&#x27;s browser, not yours. The built-in browser is separate from your own. Claude never sees your tabs, bookmarks, or passwords. To stay signed in to your sites, you can bring your logins over site by site, from Chrome, Edge, or Firefox on macOS and from Firefox on Windows and Linux. Banking, email, and single sign-on sites are left out unless you choose to include them. That&#x27;s also the difference between the two ways Claude can use the web. The built-in browser is for handing web tasks to Claude while you keep working: gathering research for a report, or collecting this month’s invoices from a vendor portal. Claude in Chrome is for the page you already have open, with the accounts you&#x27;re already signed in to, such as updating your CRM, working through your inbox, or editing the doc in front of you. If you already use Claude in Chrome, it keeps working and stays your default; otherwise Claude uses the built-in browser. Switch anytime in Settings → Cowork → Preferred browser. Staying in control The built-in browser carries the same prompt injection risks as any AI agent that acts in a browser, where instructions hidden in a page try to redirect Claude. It runs the same safeguards as Claude in Chrome, including the checks that review Claude&#x27;s actions against what you asked for. We describe them on the Claude in Chrome blog post . Those measures meaningfully reduce the risk but can&#x",
+      "summary_zh": "Claude 在 Cowork 里终于有了自己的浏览器：不是接管你的浏览器，而是自己开侧栏网页、读、点、填表、扒仪表盘数据，适合那些“没有连接器但必须上网页干活”的任务。\n\n边界也说清了：内置浏览器看不到你的标签、书签和密码，Claude in Chrome 仍然适合处理你已经打开、已经登录的页面；但浏览器代理的提示注入风险还在，只是加了防护，不是魔法消失。",
+      "url": "https://claude.com/blog/cowork-built-in-browser",
+      "posted_at": "Aug 26, 2026",
+      "tags": [
+        "blog"
+      ]
+    },
+    {
+      "id": "e19c8bf443",
+      "date": "2026-08-28",
+      "source": "x",
+      "author": "Thibault Sottiaux",
+      "bio": "Codex & ChatGPT @OpenAI",
+      "title": "",
+      "summary_en": "A good thing about having aged is that I feel that it’s been 20 years since I’ve pressed the reset button. Intrigued to see if I can find it tomorrow and dust it up",
+      "summary_zh": "年纪上来后才发现，自己已经 20 年没按过“重启键”了。明天想把它找出来，掸掸灰，看还按不按得动。",
+      "url": "https://x.com/thsottiaux/status/2092862554632826968",
+      "posted_at": "2026-08-27T06:31:31.000Z",
+      "tags": [
+        "@thsottiaux"
+      ]
+    },
+    {
+      "id": "02520f178a",
+      "date": "2026-08-28",
+      "source": "x",
+      "author": "Peter Yang",
+      "bio": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6",
+      "title": "",
+      "summary_en": "Who should I tag for @X bugs now that @nikitabier has retired?",
+      "summary_zh": "@nikitabier 退休了，现在 X 出 bug 该 tag 谁来背锅？",
+      "url": "https://x.com/petergyang/status/2092829981885796800",
+      "posted_at": "2026-08-27T04:22:05.000Z",
+      "tags": [
+        "@petergyang"
+      ]
+    },
+    {
+      "id": "369f799163",
+      "date": "2026-08-28",
+      "source": "x",
+      "author": "Peter Steinberger",
+      "bio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world. @OpenClaw🦞 + @OpenAI",
+      "title": "",
+      "summary_en": "codex' visualization feature got really good. https://t.co/Ik65LULsY2",
+      "summary_zh": "Codex 的可视化功能已经变得很能打了，不再只是凑合看的 Demo。",
+      "url": "https://x.com/steipete/status/2092822007843061823",
+      "posted_at": "2026-08-27T03:50:24.000Z",
+      "tags": [
+        "@steipete"
+      ]
+    },
+    {
+      "id": "0c866b9eb6",
+      "date": "2026-08-28",
+      "source": "x",
+      "author": "Matt Turck",
+      "bio": "VC at @FirstMarkCap.  Host: MAD Podcast; Organizer: Data Driven NYC, Author: MAD Landscape.",
+      "title": "",
+      "summary_en": "Truly a win-win-win:\n\n* NVIDIA is officially the center of open source AI w/ Nemotron and now HF\n\n* Hugging Face scores huge + gets the perfect home (no more nagging re business model!)\n\n* Open source AI wins!\n\nMassive congrats to friends @ClementDelangue, @Thom_Wolf (+ @ctnzr!)",
+      "summary_zh": "NVIDIA 凭 Nemotron 和 Hugging Face 坐上开源 AI 的中心位置，HF 也终于找到最合适的归宿，商业模式质疑可以闭嘴了。开源 AI 这波大赢。",
+      "url": "https://x.com/mattturck/status/2092808287280329097",
+      "posted_at": "2026-08-27T02:55:52.000Z",
+      "tags": [
+        "@mattturck"
+      ]
+    },
+    {
+      "id": "07981311dc",
+      "date": "2026-08-28",
+      "source": "x",
+      "author": "Peter Yang",
+      "bio": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6",
+      "title": "",
+      "summary_en": "@ChatGPT If you enjoyed this, sign up for free to my newsletter to get my best AI and product guides.\n\nJoin 110,000+ subscribers here:\nhttps://t.co/yz9xcsfrhF",
+      "summary_zh": "喜欢这类内容就去订阅他的免费 newsletter，里面是他最好的 AI 和产品指南。已经有 11 万多人订阅。",
+      "url": "https://x.com/petergyang/status/2092790875978162378",
+      "posted_at": "2026-08-27T01:46:41.000Z",
+      "tags": [
+        "@petergyang"
+      ]
+    },
+    {
+      "id": "8b78dc7ec5",
+      "date": "2026-08-28",
+      "source": "x",
+      "author": "Peter Yang",
+      "bio": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6",
+      "title": "",
+      "summary_en": "Only thing linear is missing is a sauna perk wdyt @karrisaarinen 😅",
+      "summary_zh": "Linear 什么都快配齐了，现在就差把桑拿也做成员工福利了。@karrisaarinen 你怎么看？",
+      "url": "https://x.com/petergyang/status/2092789702940340369",
+      "posted_at": "2026-08-27T01:42:01.000Z",
+      "tags": [
+        "@petergyang"
+      ]
+    },
+    {
+      "id": "1231ca8030",
+      "date": "2026-08-28",
+      "source": "x",
+      "author": "Zara Zhang",
+      "bio": "Builder. Make something people want, then make people want it. Harvard’17. GitHub: https://t.co/KCuEaje1wd  YouTube: https://t.co/8xzbGWsHgY",
+      "title": "",
+      "summary_en": "Most PR teams at large companies exist in order to block real marketing and branding \n\nIt’s so ironic that a function designed to enhance a company’s brand ends up being antithetical to it https://t.co/vuL0pkC3cK",
+      "summary_zh": "大公司里的多数 PR 团队，本质上是在阻止真正的市场营销和品牌建设。讽刺的是，一个本该提升品牌的职能，最后反而成了品牌的反面。",
+      "url": "https://x.com/zarazhangrui/status/2092774923320369394",
+      "posted_at": "2026-08-27T00:43:18.000Z",
+      "tags": [
+        "@zarazhangrui"
+      ]
+    },
+    {
+      "id": "6f8a7944c5",
+      "date": "2026-08-28",
+      "source": "x",
+      "author": "Zara Zhang",
+      "bio": "Builder. Make something people want, then make people want it. Harvard’17. GitHub: https://t.co/KCuEaje1wd  YouTube: https://t.co/8xzbGWsHgY",
+      "title": "",
+      "summary_en": "When it comes to AI writing, many people seem to apply a double standard to the effect of “it’s fine if I use it; it’s not fine if YOU use it”",
+      "summary_zh": "",
+      "url": "https://x.com/zarazhangrui/status/2092773720112988366",
+      "posted_at": "2026-08-27T00:38:31.000Z",
+      "tags": [
+        "@zarazhangrui"
+      ]
+    },
+    {
+      "id": "3bdf1033f2",
+      "date": "2026-08-28",
+      "source": "x",
+      "author": "Thibault Sottiaux",
+      "bio": "Codex & ChatGPT @OpenAI",
+      "title": "",
+      "summary_en": "A few weeks at OpenAI feel like years at other companies in terms of how much gets done. Crazy how much you can age in a few days",
+      "summary_zh": "在 OpenAI 待几周，产出密度像在别的公司干了几年。几天就能把人熬老，离谱但真实。",
+      "url": "https://x.com/thsottiaux/status/2092756702349398036",
+      "posted_at": "2026-08-26T23:30:54.000Z",
+      "tags": [
+        "@thsottiaux"
+      ]
+    },
+    {
+      "id": "81cc8a066f",
+      "date": "2026-08-28",
+      "source": "x",
+      "author": "Dan Shipper",
+      "bio": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "title": "",
+      "summary_en": "THEY DID IT FOLKS https://t.co/67ogquTD3g",
+      "summary_zh": "Claude Code 桌面端终于内置浏览器了：能读文档、看设计、点网页，还能像操作本地 dev server 一样操作任意站点，沙盒和会话持久化也可控。([ww.twstalker.com](https://ww.twstalker.com/NathanMotorCity?utm_source=openai))",
+      "url": "https://x.com/danshipper/status/2092756144447983619",
+      "posted_at": "2026-08-26T23:28:41.000Z",
+      "tags": [
+        "@danshipper"
+      ]
+    },
+    {
+      "id": "0fb9fc387c",
+      "date": "2026-08-28",
+      "source": "x",
+      "author": "Peter Steinberger",
+      "bio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world. @OpenClaw🦞 + @OpenAI",
+      "title": "",
+      "summary_en": "maybe it is a bubble? https://t.co/ZJP249nWRN",
+      "summary_zh": "也许这就是泡沫？",
+      "url": "https://x.com/steipete/status/2092756010280853815",
+      "posted_at": "2026-08-26T23:28:09.000Z",
+      "tags": [
+        "@steipete"
+      ]
+    },
+    {
+      "id": "777a487fca",
+      "date": "2026-08-28",
+      "source": "x",
+      "author": "Claude",
+      "bio": "Claude is an AI assistant built by @anthropicai to be safe, accurate, and secure. Talk to Claude on https://t.co/ZhTwG8d1e5 or download the app.",
+      "title": "",
+      "summary_en": "If you prefer to work in your own browser where you're already signed in, Claude in Chrome is now generally available on all paid plans. It remains your default if you already use it: https://t.co/4fDkGrY6YR",
+      "summary_zh": "Claude in Chrome 现在向所有付费用户开放，让你直接在自己已登录的浏览器里干活。已经在用的人不用折腾，它会继续作为默认方式。",
+      "url": "https://x.com/claudeai/status/2092755574563741871",
+      "posted_at": "2026-08-26T23:26:25.000Z",
+      "tags": [
+        "@claudeai"
+      ]
+    },
+    {
+      "id": "afc4c777d4",
+      "date": "2026-08-28",
+      "source": "x",
+      "author": "Claude",
+      "bio": "Claude is an AI assistant built by @anthropicai to be safe, accurate, and secure. Talk to Claude on https://t.co/ZhTwG8d1e5 or download the app.",
+      "title": "",
+      "summary_en": "There's nothing to install. Claude's browser is built into the desktop app and stays separate from your own browser and logins.\n\nRolling out over the next week on the desktop app for all paid plans: https://t.co/w4Ja60vZu6",
+      "summary_zh": "不用装任何东西，Claude 的浏览器直接内置在桌面端里，而且和你的个人浏览器、登录状态隔离。\n\n未来一周向所有付费用户的桌面端开放。",
+      "url": "https://x.com/claudeai/status/2092755573183828193",
+      "posted_at": "2026-08-26T23:26:24.000Z",
+      "tags": [
+        "@claudeai"
+      ]
+    },
+    {
+      "id": "6484dd3d30",
+      "date": "2026-08-28",
+      "source": "x",
+      "author": "Claude",
+      "bio": "Claude is an AI assistant built by @anthropicai to be safe, accurate, and secure. Talk to Claude on https://t.co/ZhTwG8d1e5 or download the app.",
+      "title": "",
+      "summary_en": "Claude now has its own built-in browser in Cowork.\n\nWhen your task involves a website, a browser opens in Cowork's side panel, and Claude navigates, fills forms, and finishes the job. https://t.co/yHDOTRQZ12",
+      "summary_zh": "Claude 在 Cowork 里有了内置浏览器，遇到网站任务会直接在侧边栏打开网页。它能自己导航、填表、把活干完，不再只是告诉你怎么做。",
+      "url": "https://x.com/claudeai/status/2092755571455758427",
+      "posted_at": "2026-08-26T23:26:24.000Z",
+      "tags": [
+        "@claudeai"
+      ]
+    },
+    {
+      "id": "ed00fd75f6",
+      "date": "2026-08-28",
+      "source": "x",
+      "author": "Guillermo Rauch",
+      "bio": "@vercel CEO",
+      "title": "",
+      "summary_en": "So cool. Global compute at your (agents') fingertips.\n\nMultiple regions, failover, up to 10,000 concurrent sandboxes &amp; 5,000 vCPUs/min ramp by default, with more regions to come 🫪 https://t.co/d5RUqFDtiz https://t.co/j3wezkZM4B",
+      "summary_zh": "全球算力现在直接塞到 agent 手边：多区域、故障切换、默认 1 万并发沙箱和每分钟 5000 vCPU 扩容。接下来拼的不是能不能跑，而是谁能把这股算力调度成产品。",
+      "url": "https://x.com/rauchg/status/2092735785460277627",
+      "posted_at": "2026-08-26T22:07:47.000Z",
+      "tags": [
+        "@rauchg"
+      ]
+    },
+    {
+      "id": "e0ea07fbec",
+      "date": "2026-08-28",
+      "source": "x",
+      "author": "Sam Altman",
+      "bio": "AI is cool i guess",
+      "title": "",
+      "summary_en": "i think we should do another party for our next model release, the 5.5 party was a lot of fun.\n\nwhat would make the next one awesome?",
+      "summary_zh": "他想下次模型发布继续办派对，5.5 那场玩得够爽。现在直接问社区：下一场怎么搞才够炸？",
+      "url": "https://x.com/sama/status/2092733018838290817",
+      "posted_at": "2026-08-26T21:56:47.000Z",
+      "tags": [
+        "@sama"
+      ]
+    },
+    {
+      "id": "9b1dc762f7",
+      "date": "2026-08-28",
+      "source": "x",
+      "author": "Thariq",
+      "bio": "Claude Code @anthropicai.   prev YC W20, @spc, @medialab",
+      "title": "",
+      "summary_en": "We're seeing several of our customers be targeted by fraudulent requests and glad for all the work Stripe is doing to help them.\n\nStill a lot of work to do, these sort of attacks hurt everyones ability to provide usage to legitimate users. https://t.co/51HHI9mwI4",
+      "summary_zh": "不少客户正被欺诈请求盯上，Stripe 的防护工作确实在救火。\n\n但这类攻击还远没解决，它们正在伤害所有服务方给真实用户提供正常用量的能力。",
+      "url": "https://x.com/trq212/status/2092729394565657010",
+      "posted_at": "2026-08-26T21:42:23.000Z",
+      "tags": [
+        "@trq212"
+      ]
+    },
+    {
+      "id": "cc633cd32c",
+      "date": "2026-08-28",
+      "source": "x",
+      "author": "Nan Yu",
+      "bio": "product enthusiast",
+      "title": "",
+      "summary_en": "Ah yes, the rule of 2.5 https://t.co/WWnnWBT2iu",
+      "summary_zh": "所谓“2.5 法则”：AI 圈很多东西听起来像规律，本质上只是把拍脑袋包装成方法论。",
+      "url": "https://x.com/thenanyu/status/2092726934216343739",
+      "posted_at": "2026-08-26T21:32:36.000Z",
+      "tags": [
+        "@thenanyu"
+      ]
+    },
+    {
+      "id": "441e44de47",
+      "date": "2026-08-28",
+      "source": "x",
+      "author": "Sam Altman",
+      "bio": "AI is cool i guess",
+      "title": "",
+      "summary_en": "this is a good report about a bad thing: https://t.co/j21E754kP3",
+      "summary_zh": "这是一份写得不错的报告，但报告揭示的是一件糟糕透顶的事。",
+      "url": "https://x.com/sama/status/2092712656096358527",
+      "posted_at": "2026-08-26T20:35:52.000Z",
+      "tags": [
+        "@sama"
+      ]
+    },
+    {
+      "id": "a1284197a6",
+      "date": "2026-08-28",
+      "source": "x",
+      "author": "Aaron Levie",
+      "bio": "ceo @box - your business lives in content. unleash it with AI",
+      "title": "",
+      "summary_en": "Yesterday, at Box we reported our Q2 results with revenue of $321.1 million for the quarter, up 9%, or 11% in constant currency (our highest constant-currency growth rate in 14 quarters), and we raised our full-year revenue target to $1.290 billion. Overall, this growth is being driven by the demand we're seeing from enterprises aiming to get the most out of their enterprise content and transform in the era of AI.\n\nAs I shared on our earnings call, during the quarter I spoke with many enterprise technology leaders who highlighted their primary goals and challenges in implementing AI. One of the most common topics is how enterprises can get the right context to AI agents, as well as tap into the full value of their unstructured data, in a secure and governed way.\n\nThe world’s most advanced superintelligence is only as useful as the underlying enterprise knowledge it has access to. Agents need access to the critical information that makes up the bulk of corporate knowledge --like contracts, research materials, financial documents, marketing assets, product roadmap information, and so on-- most of which lives within an enterprise’s unstructured data.\n\nWe've long been able to query, calculate, and automate work that deals with structured data; but the vast majority of data in an enterprise is unstructured, often in the form of our enterprise content. Instead of sitting on millions or hundreds of millions of files they know very little about, companies can now use AI agents to ask questions about this data, mine it all for intelligence, and automate nearly any workflow that involves this enterprise content.\n\nThe technology leaders I'm talking to are also recognizing that as AI model capabilities advance across AI labs --like OpenAI, Anthropic, SpaceXAI, Meta, Google, NVIDIA, and a variety of open-weight providers-- they will need applied AI platforms that can bring the full power of these models to their processes. And with AI token usage continuing to grow exponentially, the ability to draw the right cost-performance mix becomes essential. Rather than migrating data and workflows into separate systems to unlock AI's benefits, enterprises need the ability to swap models or agents on their workflows and information at any time.\n\nFinally, as we saw with the recent OpenAI Hugging Face incident, enterprises will increasingly need platforms that can securely protect their corporate data and ensure that neither humans nor agents can get access to information they shouldn’t have access to. As external AI agents interact with enterprise data, enterprises will need platforms that offer robust guardrails, comprehensive audit logs, and real-time security alerts to ensure content remains protected and governed at all times.\n\nGiven all of these dynamics, there's going to be a tremendous amount of opportunity for various plays to bring intelligence to the critical workflows inside of enterprises at the applied AI layer. At Box. we're focused on building the leading intelligent content management platform to empower enterprises to transform how they work with their unstructured data at scale. And we're looking forward to partnering with all of the other companies bringing intelligence into organizations as well.",
+      "summary_zh": "Box 的增长押注很明确：企业 AI 的瓶颈不是模型多聪明，而是能否安全、可治理地吃到合同、财务、研发、路线图这些非结构化核心知识。随着模型能力和 token 成本继续分化，企业不会把数据搬进某个单一 AI 系统，而会需要一个能随时切换模型和 agent、同时守住权限和审计的应用层平台。",
+      "url": "https://x.com/levie/status/2092702955292230100",
+      "posted_at": "2026-08-26T19:57:19.000Z",
+      "tags": [
+        "@levie"
+      ]
+    },
+    {
+      "id": "7b19310a6f",
+      "date": "2026-08-28",
+      "source": "x",
+      "author": "Thariq",
+      "bio": "Claude Code @anthropicai.   prev YC W20, @spc, @medialab",
+      "title": "",
+      "summary_en": "this was my change, excited to roll it out\n\nClaude now has a SendFeedback tool so instead of you guys having to hit /feedback and write up a report, you can just tell Claude to draft and approve it\n\nthe feedback helps us improve and understand problems, so it's very appreciated https://t.co/8IhMwspobv",
+      "summary_zh": "Claude 现在能直接代写并提交反馈了，不用再手动敲 `/feedback` 写报告。你只要告诉它问题、审核一下，它就能把反馈送到团队手里。",
+      "url": "https://x.com/trq212/status/2092696449616376140",
+      "posted_at": "2026-08-26T19:31:28.000Z",
+      "tags": [
+        "@trq212"
+      ]
+    },
+    {
+      "id": "3f6f3d2425",
+      "date": "2026-08-28",
+      "source": "x",
+      "author": "Matt Turck",
+      "bio": "VC at @FirstMarkCap.  Host: MAD Podcast; Organizer: Data Driven NYC, Author: MAD Landscape.",
+      "title": "",
+      "summary_en": "Fun to be in the guest chair (vs host), for once.  Chatted with Dan Nathan about:\n\n* why the best venture firm in the world might be NVIDIA \n* the \"hyper power law\"\n* why apps are becoming labs faster than labs are becoming apps\n* RSI and \"building God\"\n* AI bubble vs.duration mismatch concern\n* Learning to stop underestimating China",
+      "summary_zh": "这期聊的是 AI 时代权力重排：最强 VC 可能不是基金而是 NVIDIA，应用变实验室的速度正在超过实验室变应用。还谈到 AI 泡沫、久期错配、“造神”冲动，以及硅谷终于该停止低估中国。",
+      "url": "https://x.com/mattturck/status/2092688916969095587",
+      "posted_at": "2026-08-26T19:01:32.000Z",
+      "tags": [
+        "@mattturck"
+      ]
+    },
+    {
+      "id": "8ae4fff902",
+      "date": "2026-08-28",
+      "source": "x",
+      "author": "Dan Shipper",
+      "bio": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "title": "",
+      "summary_en": "Codex native apps are here! https://t.co/OMjAee4xYx",
+      "summary_zh": "Codex 原生应用正式来了。",
+      "url": "https://x.com/danshipper/status/2092686463859126492",
+      "posted_at": "2026-08-26T18:51:47.000Z",
+      "tags": [
+        "@danshipper"
+      ]
+    },
+    {
+      "id": "a47dd2ed1b",
+      "date": "2026-08-28",
+      "source": "x",
+      "author": "Aditya Agarwal",
+      "bio": "General Partner @SPC, Co-Founder @Bevel_Health | Ex: Early Eng @facebook, CTO @Dropbox, Board @Flipkart | Optimist, Builder, Dad",
+      "title": "",
+      "summary_en": "The AI frontier will be determined by post-training.\n\n@DeepCogito is a post-training research lab. \n\nToday they’re announcing their $43M Series A.\n\nTheir research focuses on large-scale reinforcement learning and recursive self-improvement. \n\nThe core method is iterated distillation and amplification (IDA). \n\nThey’ve already proven the method in public for models from 3B to 600B+ parameters.\n\nWe met @drishanarora and @dhruvmalrana in March 2024 as Founder Fellows at @spc. They've known each other for 14 years. \n\nWe’re excited to support the team working on the frontier of intelligence alongside @benchmark, @TQVentures, @Atreidesmgmt, @nexusvp, and @zscaler. \n\nMore on why we invested below.",
+      "summary_zh": "AI 前沿不再只靠预训练堆规模，而是由后训练决定。DeepCogito 刚融到 4300 万美元，要用大规模强化学习、递归自我改进和 IDA，把 3B 到 600B+ 模型的能力继续往上榨。",
+      "url": "https://x.com/adityaag/status/2092679288869019700",
+      "posted_at": "2026-08-26T18:23:17.000Z",
+      "tags": [
+        "@adityaag"
+      ]
+    },
+    {
+      "id": "191eb8a2a7",
+      "date": "2026-08-28",
+      "source": "x",
+      "author": "Nan Yu",
+      "bio": "product enthusiast",
+      "title": "",
+      "summary_en": "scrum https://t.co/Qf26uRCN5q",
+      "summary_zh": "他在嘲讽 Scrum：打着敏捷旗号，最后把 builder 变成会议工人，代码没写快，流程先长满了。",
+      "url": "https://x.com/thenanyu/status/2092674125529743864",
+      "posted_at": "2026-08-26T18:02:46.000Z",
+      "tags": [
+        "@thenanyu"
+      ]
+    },
+    {
+      "id": "8663cc8a2d",
+      "date": "2026-08-28",
+      "source": "x",
+      "author": "Nan Yu",
+      "bio": "product enthusiast",
+      "title": "",
+      "summary_en": "I am upset because the terrible comms has caused @gruber to lose his mind about watermarking and make @ditheringfm unlistenable for like 2 full episodes",
+      "summary_zh": "糟糕的公关沟通把水印这事搞到让 @gruber 失控，连带着 @ditheringfm 连续两期都变得听不下去。",
+      "url": "https://x.com/thenanyu/status/2092673092103688348",
+      "posted_at": "2026-08-26T17:58:39.000Z",
+      "tags": [
+        "@thenanyu"
+      ]
+    },
+    {
+      "id": "ab37cf48cb",
+      "date": "2026-08-28",
+      "source": "x",
+      "author": "Amjad Masad",
+      "bio": "ceo @replit. civilizationist",
+      "title": "",
+      "summary_en": "Interesting https://t.co/U8kB6SPjjM",
+      "summary_zh": "这条推文只有一个判断：有意思。没有足够信息判断他指的到底是什么。",
+      "url": "https://x.com/amasad/status/2092658681947246868",
+      "posted_at": "2026-08-26T17:01:24.000Z",
+      "tags": [
+        "@amasad"
+      ]
+    },
+    {
+      "id": "2f0c4289fe",
+      "date": "2026-08-28",
+      "source": "x",
+      "author": "Dan Shipper",
+      "bio": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "title": "",
+      "summary_en": "definite golden age for polymaths and philosophers (luckily, a good antidote for epistemic despair) \n\nincredible time https://t.co/LvFaal4txH",
+      "summary_zh": "这是属于博学者和哲学家的黄金时代，也是对抗认知绝望的一剂解药。时代荒谬地好。",
+      "url": "https://x.com/danshipper/status/2092636264902148262",
+      "posted_at": "2026-08-26T15:32:19.000Z",
+      "tags": [
+        "@danshipper"
+      ]
+    },
+    {
+      "id": "b77ef816d8",
+      "date": "2026-08-28",
+      "source": "podcast",
+      "author": "AI & I by Every",
+      "bio": "",
+      "title": "A $10B Hedge Fund’s AI Playbook (Best of the Pod)",
+      "summary_en": "Speaker 1 | 00:00 - 00:13\nIt's becoming a meme that CEOs are, like, writing basically, like, the We're AI first memo. You have the best example of that memo that I've ever seen. Would you mind just, like, reading, I don't know, maybe the first paragraph or two of what you wrote? Because I think it's amazing.\n\nSpeaker 2 | 00:13 - 00:29\nUsing ChatGPT is not cheating. That's a non applicable idea from academia. I use ChatGPT to write this email. You should be using it too and be proud of it. As a hedge fund, we should be ashamed to leave money on the table by ignoring tools that make us faster, smarter, and more effective.\n\nSpeaker 2 | 00:29 - 00:38\nFrom the very top, we are building a culture around AI. Not using these tools is like refusing to use the Internet in 1995 because it wasn't perfect.\n\nSpeaker 1 | 00:52 - 00:53\nWill, welcome to the show.\n\nSpeaker 2 | 00:53 - 00:55\nThanks, Ben. Thank you.\n\nSpeaker 1 | 00:55 - 01:24\nSo it's great to have you. For people who don't know you, you are the the benevolent dictator of Walleye, which is a close to 10,000,000,000 AUM hedge fund. And you're an every consulting client. We're working with you to help you do AI training and implementation inside of Walleye. And honestly, regardless of the stuff we've done, you're, I think, one of the most impressive examples of someone, a CEO, who is pivoting their entire organization around AI, and you're leading by example.\n\nSpeaker 1 | 01:24 - 01:25\nAnd so I'm psyched to get to talk to you.\n\nSpeaker 2 | 01:25 - 01:41\nYeah. Thanks. Yeah. Maybe I could just give a little more context to that. I guess my my technical title is is CEO CIO managing partner, but, you know, both both the owner operator of, you know, one of the one of the larger hedge funds out there.\n\nSpeaker 2 | 01:41 - 01:50\nI I",
+      "summary_zh": "把 ChatGPT 当作弊是学院派的过时洁癖；对一家对冲基金来说，放着能让人更快、更聪明、更有效的工具不用，才是真的丢钱。\n\nCEO 亲自把公司转向 AI-first：现在拒绝用 AI，就像 1995 年嫌互联网不完美所以不用互联网。",
+      "url": "https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL",
+      "posted_at": "2026-08-26T15:00:00.000Z",
+      "tags": [
+        "podcast"
+      ]
+    },
+    {
+      "id": "d7d75824ad",
+      "date": "2026-08-28",
+      "source": "x",
+      "author": "Guillermo Rauch",
+      "bio": "@vercel CEO",
+      "title": "",
+      "summary_en": "We're shipping a cool security dashboard, but also the 𝚟𝚎𝚛𝚌𝚎𝚕 𝚜𝚎𝚌𝚞𝚛𝚒𝚝𝚢 𝚌𝚑𝚎𝚌𝚔 CLI.\n\nMuch like 𝚒𝚜-𝚊𝚐𝚎𝚗𝚝𝚒𝚌, you can call on agents to improve your security posture with human-in-the-loop, or run in crons.\n\nWho would have thunk CLIs would save the world 😁 https://t.co/xuVkD7KlHp https://t.co/SS4rnLhVep",
+      "summary_zh": "Vercel 不只是发安全仪表盘，还把 `vercel security check` 做成 CLI，让 agent 能在人类把关下或定时任务里自动补安全短板。谁能想到，最后拯救世界的可能是 CLI。",
+      "url": "https://x.com/rauchg/status/2092621371914482026",
+      "posted_at": "2026-08-26T14:33:08.000Z",
+      "tags": [
+        "@rauchg"
+      ]
+    },
+    {
+      "id": "0ce6bec74f",
+      "date": "2026-08-28",
+      "source": "x",
+      "author": "Josh Woodward",
+      "bio": "VP, @Google @GoogleLabs @GeminiApp @GoogleAIStudio",
+      "title": "",
+      "summary_en": "Experimenting with multiplayer AI https://t.co/USWItAK4Xw",
+      "summary_zh": "他在试验“多人 AI”：不是一个人对一个模型，而是多人同时和 AI 协作、博弈、共创。AI 产品的下一波可能不再是单人助手，而是多人场景里的智能玩家。",
+      "url": "https://x.com/joshwoodward/status/2092614266818064389",
+      "posted_at": "2026-08-26T14:04:54.000Z",
+      "tags": [
+        "@joshwoodward"
+      ]
+    }
+  ]
+}
