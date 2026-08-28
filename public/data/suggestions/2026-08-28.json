@@ -1,0 +1,153 @@
+{
+  "date": "2026-08-28",
+  "items": [
+    {
+      "id": "2026-08-28-1",
+      "title": "浏览器正在变成新 API",
+      "angle": "从 Claude 直接接管网页入口切入：没有 API 的内部系统，可能反而先被 browser agent 自动化。",
+      "opening": "Claude 今天把浏览器能力推给所有付费用户，能自己点击、输入、填表。最值得写的不是“它更方便了”，而是很多企业最核心的系统，原来根本没有 API，只有一个网页入口。",
+      "story_hook": {
+        "challenge": "企业想自动化工作流，但供应商门户、后台系统和仪表盘常常没有干净 API。",
+        "twist": "browser agent 绕过了 API 缺口，却把提示注入和越权操作变成产品核心风险。"
+      },
+      "takeaway": "开发者评估 browser agent 时，不应只看能不能点网页，而要看权限隔离、动作确认、注入防护和审计能力。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Claude Blog：Claude in Chrome is generally available",
+          "url": "https://claude.com/blog/claude-in-chrome-generally-available"
+        },
+        {
+          "tag": "builders",
+          "ref": "Claude Blog：Claude gets its own browser in Cowork",
+          "url": "https://claude.com/blog/cowork-built-in-browser"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt：CTRL Micro 主打 Mac 与 AI agents 的触觉控制台",
+          "url": "https://www.producthunt.com/products/ctrl-micro"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-28-2",
+      "title": "Agent 插件是新渠道",
+      "angle": "从 Codex、Claude、Cursor 插件仓库同时冲高切入：插件不只是功能扩展，而是开发者工具的新分发入口。",
+      "opening": "今天 GitHub 上最热的不是某个单点工具，而是一组入口：openai/codex 周增 12358 stars，Claude 插件社区周增 2069，Cursor 插件周增 1732。开发者工具竞争正在从“谁的模型更强”，转向“谁能让第三方把工作流塞进来”。",
+      "story_hook": {
+        "challenge": "AI IDE 和 coding agent 越来越像，但用户真正需要的是可复用的团队工作流。",
+        "twist": "插件生态一旦成型，工具本身就从软件变成渠道，早期插件可能拿到比独立 SaaS 更便宜的流量。"
+      },
+      "takeaway": "Builder 可以优先把垂直能力做成 Codex、Claude 或 Cursor 插件，而不是先做完整平台。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Dan Shipper：Codex 原生应用正式来了",
+          "url": "https://x.com/danshipper/status/2092686463859126492"
+        },
+        {
+          "tag": "builders",
+          "ref": "Peter Steinberger：Codex 可视化功能已经很能打",
+          "url": "https://x.com/steipete/status/2092822007843061823"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub：openai/codex 周增 12358 stars",
+          "url": "https://github.com/openai/codex"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub：anthropics/claude-plugins-community 周增 2069 stars",
+          "url": "https://github.com/anthropics/claude-plugins-community"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-28-3",
+      "title": "报错词比发布会更值钱",
+      "angle": "从 Codex CLI 报错搜索暴涨切入：真实用户进入运维期后，第一批机会藏在安装、路径、插件状态检测里。",
+      "opening": "Google Trends 里今天最刺眼的词，不是新模型名，而是“unable to locate the codex cli binary”。一个报错关联词涨到 +20650，另一个完整错误句涨到 +36100，这说明用户已经不在围观 AI agent，而是在本机把它跑坏了。",
+      "story_hook": {
+        "challenge": "AI coding agent 进入真实使用后，失败点从模型能力变成安装路径、插件状态、权限和 IDE 集成。",
+        "twist": "最容易变现的产品，可能不是更强 agent，而是帮用户把 agent 跑起来的一键诊断工具。"
+      },
+      "takeaway": "与其追大平台叙事，不如从高频错误日志做故障页、诊断脚本和团队级配置巡检。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Dan Shipper：Claude Code 桌面端内置浏览器",
+          "url": "https://x.com/danshipper/status/2092756144447983619"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Google Trends：codex cli 上升 +48.3%",
+          "url": "https://trends.google.com/trends/explore?q=codex+cli&date=now+7-d"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub：openai/codex 周增 12358 stars",
+          "url": "https://github.com/openai/codex"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-28-4",
+      "title": "开源 AI 的中心换人了",
+      "angle": "从 Matt Turck 对 NVIDIA、Hugging Face 的判断切入：开源 AI 的赢家可能不是模型创业公司，而是算力和分发平台。",
+      "opening": "Matt Turck 今天直接说，NVIDIA 凭 Nemotron 和 Hugging Face 坐到了开源 AI 的中心。与此同时，HuggingFace 榜单被 Qwen3.8 刷屏，Qwen3.8-27B 下载量已经到 3457687。",
+      "story_hook": {
+        "challenge": "开源模型越来越强，但单个模型项目很难独占商业价值。",
+        "twist": "真正收租的位置可能在算力、托管、分发、微调和企业集成，而不是模型权重本身。"
+      },
+      "takeaway": "判断开源 AI 机会时，要少问谁模型最强，多问谁控制开发者分发、推理成本和企业采用路径。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Matt Turck：NVIDIA 和 Hugging Face 成为开源 AI 中心",
+          "url": "https://x.com/mattturck/status/2092808287280329097"
+        },
+        {
+          "tag": "pulse",
+          "ref": "HuggingFace：Qwen/Qwen3.8-Flash-Next trending score 3938",
+          "url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next"
+        },
+        {
+          "tag": "pulse",
+          "ref": "HuggingFace：Qwen/Qwen3.8-27B 下载 3457687",
+          "url": "https://huggingface.co/Qwen/Qwen3.8-27B"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-28-5",
+      "title": "企业 AI 卡在权限层",
+      "angle": "从 Aaron Levie 的 Box 增长逻辑切入：企业 AI 的瓶颈不是模型，而是能否安全读取非结构化核心知识。",
+      "opening": "Aaron Levie 今天把企业 AI 的问题说得很直：模型不是瓶颈，合同、财务、研发、路线图这些非结构化知识才是。企业不会把所有数据搬进单一 AI 系统，它们更需要一个能切换模型、agent，同时守住权限和审计的应用层。",
+      "story_hook": {
+        "challenge": "企业想让 AI 进入核心业务，但最有价值的数据往往最敏感、最碎、最难治理。",
+        "twist": "未来卖给企业的 AI 产品，可能不是“更聪明”，而是“更会被审计”。"
+      },
+      "takeaway": "做企业 AI 应把权限继承、操作日志、数据边界和模型可替换性设计成一等功能。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Aaron Levie：企业 AI 需要安全治理非结构化核心知识",
+          "url": "https://x.com/levie/status/2092702955292230100"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub：apache/maka 周增 1978 stars，记录 agent 消息、工具调用和权限决策",
+          "url": "https://github.com/apache/maka"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt：Firecrawl Developer Index 提供 7000 万以上 artifacts",
+          "url": "https://www.producthunt.com/products/extract-by-firecrawl"
+        }
+      ]
+    }
+  ],
+  "notes": "今日主线高度集中在 agent 工具链：浏览器执行、插件分发、故障诊断、开源模型分发和企业治理。独立开发者素材偏少，但报错词和插件生态给了更具体的选题入口。",
+  "generated_at": "2026-08-28T09:19:05+00:00",
+  "model": "gpt-5.5"
+}

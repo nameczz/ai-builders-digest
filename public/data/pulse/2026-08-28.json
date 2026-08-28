@@ -1,0 +1,395 @@
+{
+  "date": "2026-08-28",
+  "top3": [
+    "AI 编程代理的插件生态正在从工具走向渠道，Codex、Claude、Cursor 相关项目同时冲高。",
+    "多模态开源模型热度集中在 Qwen3.8 与视频生成，消费级机会更偏向本地化创作工作流。",
+    "Google Trends 显示用户正在搜索具体故障与替代方案，说明代理工具的采用已进入真实运维期。"
+  ],
+  "intro": "今天的主线不是单个大模型发布，而是 AI agent 工具链开始进入分发、插件、记忆、评测和本地优先的基础设施竞争。对 Builder 来说，机会在于把这些底层热度翻译成更窄、更可靠、更可收费的工作流产品。",
+  "sections": [
+    {
+      "id": "discovery",
+      "title": "发现机会",
+      "blocks": [
+        {
+          "id": "indie-products",
+          "heading": "今天有哪些独立开发者的新产品？",
+          "summary_md": "HN Show HN 今天没有可用条目，Product Hunt 则集中出现 AI agent 和 Mac 工作流产品，但原始数据未提供票数与评论数，因此这里按「票数 0、评论数 0」标记为未披露。[CTRL Micro](https://www.producthunt.com/products/ctrl-micro) 主打 Mac 与 AI agents 的触觉控制台，[Revalvo](https://www.producthunt.com/products/revalvo) 做多模型提示词并行评测与版本管理，[Firecrawl Developer Index](https://www.producthunt.com/products/extract-by-firecrawl) 提供 7000 万以上 artifacts 给 coding agents 使用。",
+          "items": [
+            {
+              "title": "CTRL Micro",
+              "url": "https://www.producthunt.com/products/ctrl-micro",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "Revalvo",
+              "url": "https://www.producthunt.com/products/revalvo",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "Firecrawl Developer Index",
+              "url": "https://www.producthunt.com/products/extract-by-firecrawl",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "独立产品正在从「又一个聊天界面」转向控制台、评测器和 agent 数据源。"
+        },
+        {
+          "id": "github-traction",
+          "heading": "GitHub 上哪些高增长开源项目还没有商业化？",
+          "summary_md": "本周最值得盯的是没有清晰商业外壳、但增长极快的基础设施型项目：[freestylefly/awesome-gpt-image-2](https://github.com/freestylefly/awesome-gpt-image-2) 周增 11300 stars，总星 23807，把图片提示词做成工程化模板库；[AprilNEA/OpenLogi](https://github.com/AprilNEA/OpenLogi) 周增 5946 stars，总星 17235，用 Rust 做本地优先 Logitech Options+ 替代；[volcengine/OpenViking](https://github.com/volcengine/OpenViking) 周增 3078 stars，总星 34025，瞄准 agent memory、RAG 与 skills 的统一上下文数据库。",
+          "items": [
+            {
+              "title": "freestylefly/awesome-gpt-image-2",
+              "url": "https://github.com/freestylefly/awesome-gpt-image-2",
+              "source": "GitHub",
+              "score": 11300
+            },
+            {
+              "title": "AprilNEA/OpenLogi",
+              "url": "https://github.com/AprilNEA/OpenLogi",
+              "source": "GitHub",
+              "score": 5946
+            },
+            {
+              "title": "volcengine/OpenViking",
+              "url": "https://github.com/volcengine/OpenViking",
+              "source": "GitHub",
+              "score": 3078
+            }
+          ],
+          "takeaway": "高增长开源的商业化缺口集中在模板资产、硬件控制和 agent 记忆层。"
+        }
+      ]
+    },
+    {
+      "id": "tech-stack",
+      "title": "技术选型",
+      "blocks": [
+        {
+          "id": "dev-tools",
+          "heading": "本周增长最快的开发者工具是什么？",
+          "summary_md": "开发者工具榜的核心变化是「agent 可扩展性」成为显性卖点。[openai/codex](https://github.com/openai/codex) 周增 12358 stars，总星 119399，继续证明终端 coding agent 是主战场；[anthropics/claude-plugins-community](https://github.com/anthropics/claude-plugins-community) 周增 2069 stars，总星 2473，说明插件市场刚启动就有分发红利；[cursor/plugins](https://github.com/cursor/plugins) 周增 1732 stars，总星 5791，也把编辑器竞争从模型能力推向插件规范。",
+          "items": [
+            {
+              "title": "openai/codex",
+              "url": "https://github.com/openai/codex",
+              "source": "GitHub",
+              "score": 12358
+            },
+            {
+              "title": "anthropics/claude-plugins-community",
+              "url": "https://github.com/anthropics/claude-plugins-community",
+              "source": "GitHub",
+              "score": 2069
+            },
+            {
+              "title": "cursor/plugins",
+              "url": "https://github.com/cursor/plugins",
+              "source": "GitHub",
+              "score": 1732
+            }
+          ],
+          "takeaway": "下一轮开发者工具竞争点是插件标准、权限边界和可复用技能包。"
+        },
+        {
+          "id": "hf-models",
+          "heading": "HuggingFace 上最热的模型能做什么消费级产品？",
+          "summary_md": "HuggingFace 今天几乎被 Qwen3.8 系列刷屏：[Qwen/Qwen3.8-Flash-Next](https://huggingface.co/Qwen/Qwen3.8-Flash-Next) trending score 3938，likes 4033，支持 image-text-to-text；[Qwen/Qwen3.8-27B](https://huggingface.co/Qwen/Qwen3.8-27B) 下载 3457687，likes 13074；视频侧的 [Lightricks/LTX-2.5](https://huggingface.co/Lightricks/LTX-2.5) trending score 315，覆盖 image-to-video、text-to-video 和 audio-to-video。消费级产品不该只包装聊天，而应做本地视觉问答、图片改稿、短视频脚本到成片的窄流程。",
+          "items": [
+            {
+              "title": "Qwen/Qwen3.8-Flash-Next",
+              "url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next",
+              "source": "HuggingFace",
+              "score": 3938
+            },
+            {
+              "title": "Qwen/Qwen3.8-27B",
+              "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
+              "source": "HuggingFace",
+              "score": 954
+            },
+            {
+              "title": "Lightricks/LTX-2.5",
+              "url": "https://huggingface.co/Lightricks/LTX-2.5",
+              "source": "HuggingFace",
+              "score": 315
+            }
+          ],
+          "takeaway": "多模态模型的产品机会在「端侧可控的创作流水线」，不是泛用聊天壳。"
+        },
+        {
+          "id": "show-hn",
+          "heading": "Show HN 高关注项目用的什么技术栈？",
+          "summary_md": "今天 HN Show HN 数据为空，无法判断高关注项目技术栈；但 GitHub 日榜给出相邻信号：[tt-a1i/archify](https://github.com/tt-a1i/archify) 用 JavaScript 做可验证架构图与动效导出，周增 4239 stars；[calesthio/OpenMontage](https://github.com/calesthio/OpenMontage) 用 Python 做 agentic video production，周增 1292 stars；[JetBrains/go-modern-guidelines](https://github.com/JetBrains/go-modern-guidelines) 用 Go 规范帮助 coding agents 写现代 Go，周增 300 stars。技术栈并不新，新的部分是把 agent 的输出约束成可验证 artifact。",
+          "items": [
+            {
+              "title": "tt-a1i/archify",
+              "url": "https://github.com/tt-a1i/archify",
+              "source": "GitHub",
+              "score": 4239
+            },
+            {
+              "title": "calesthio/OpenMontage",
+              "url": "https://github.com/calesthio/OpenMontage",
+              "source": "GitHub",
+              "score": 1292
+            },
+            {
+              "title": "JetBrains/go-modern-guidelines",
+              "url": "https://github.com/JetBrains/go-modern-guidelines",
+              "source": "GitHub",
+              "score": 300
+            }
+          ],
+          "takeaway": "Builder 应优先选择能产生可检查、可导出、可复跑结果的技术栈。"
+        }
+      ]
+    },
+    {
+      "id": "competition",
+      "title": "竞争情报",
+      "blocks": [
+        {
+          "id": "comebacks",
+          "heading": "有没有沉寂的老项目突然复活？",
+          "summary_md": "日榜里的 [zedeus/nitter](https://github.com/zedeus/nitter) 是一个值得注意的老项目回声：它是 Alternative Twitter front-end，本周仍有 71 stars，总星 14016。虽然数据不能证明项目正式复活，但它与 Product Hunt 上 [Eventually](https://www.producthunt.com/products/eventually-3) 这类 X bookmarks 邮件回流产品形成同一条需求线：用户仍在寻找摆脱平台 UI、算法流和封闭数据体验的方法。",
+          "items": [
+            {
+              "title": "zedeus/nitter",
+              "url": "https://github.com/zedeus/nitter",
+              "source": "GitHub",
+              "score": 71
+            },
+            {
+              "title": "Eventually",
+              "url": "https://www.producthunt.com/products/eventually-3",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "社交平台替代前端没有消失，只是从浏览入口转向归档、摘要和个人数据再利用。"
+        },
+        {
+          "id": "migrations",
+          "heading": "有没有「XX is dead」或迁移类文章？",
+          "summary_md": "HN 今日没有明确的「dead」或迁移文章，但 Google Trends 的替代搜索更有价值：[cursor alternative](https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d) 上升 +140.2%，[open source alternative](https://trends.google.com/trends/explore?q=open+source+alternative&date=now+7-d) 上升 +24.3%，关联查询还出现「n8n open source alternative」。这类信号通常不是用户讨厌某个工具，而是团队开始担心价格、锁定、隐私和可迁移性。",
+          "items": [
+            {
+              "title": "cursor alternative",
+              "url": "https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 140
+            },
+            {
+              "title": "open source alternative",
+              "url": "https://trends.google.com/trends/explore?q=open+source+alternative&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 24
+            }
+          ],
+          "takeaway": "替代方案需求上升时，最容易成交的是迁移指南、兼容层和自托管版本。"
+        }
+      ]
+    },
+    {
+      "id": "trends",
+      "title": "趋势判断",
+      "blocks": [
+        {
+          "id": "keywords",
+          "heading": "本周技术关键词频率有什么变化？",
+          "summary_md": "趋势最强的不是泛 AI，而是具体工具名和工作流词：[awesome gpt image 2](https://trends.google.com/trends/explore?q=awesome+gpt+image+2&date=now+7-d) 上升 +999.0%，对应 GitHub 周增 11300 stars；[ai coding agent](https://trends.google.com/trends/explore?q=ai+coding+agent&date=now+7-d) 上升 +80.7%，与 [openai/codex](https://github.com/openai/codex) 周增 12358 stars 同频；[ai agent](https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d) 上升 +56.3%，但泛词价值低于「插件、模板、记忆、索引」这些可落地模块。",
+          "items": [
+            {
+              "title": "awesome gpt image 2",
+              "url": "https://trends.google.com/trends/explore?q=awesome+gpt+image+2&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 999
+            },
+            {
+              "title": "ai coding agent",
+              "url": "https://trends.google.com/trends/explore?q=ai+coding+agent&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 81
+            },
+            {
+              "title": "ai agent",
+              "url": "https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 56
+            }
+          ],
+          "takeaway": "关键词热度正在从概念教育转向可安装、可调试、可替换的工程组件。"
+        },
+        {
+          "id": "vc-radar",
+          "heading": "VC 和 YC 在关注什么主题？",
+          "summary_md": "从 Product Hunt 和 GitHub 合看，VC 视角今天会偏向三类：一是 agent 基础设施，[Apache Maka](https://github.com/apache/maka) 周增 1978 stars，把消息、工具调用和权限决策记录为 append-only log；二是 agent 数据源，[Firecrawl Developer Index](https://www.producthunt.com/products/extract-by-firecrawl) 强调 7000 万以上 artifacts；三是工作入口，[Almanac](https://www.producthunt.com/products/almanac-5) 和 [OpenTag](https://www.producthunt.com/products/opentag) 都把 AI coworker 放到团队协作流里。",
+          "items": [
+            {
+              "title": "apache/maka",
+              "url": "https://github.com/apache/maka",
+              "source": "GitHub",
+              "score": 1978
+            },
+            {
+              "title": "Firecrawl Developer Index",
+              "url": "https://www.producthunt.com/products/extract-by-firecrawl",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "OpenTag",
+              "url": "https://www.producthunt.com/products/opentag",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "投资叙事会从「更聪明的模型」转向「更可信的 agent 工作系统」。"
+        },
+        {
+          "id": "cooling",
+          "heading": "哪些 AI 热词在降温？",
+          "summary_md": "降温项提醒我们，GitHub 热度和搜索热度并不总同步：[claude plugins community](https://trends.google.com/trends/explore?q=claude+plugins+community&date=now+7-d) 变化 -100.0%，但对应 GitHub 社区镜像仍周增 2069 stars；[openlogi](https://trends.google.com/trends/explore?q=openlogi&date=now+7-d) 变化 -62.0%，但项目本周仍增 5946 stars；[omarchy](https://trends.google.com/trends/explore?q=omarchy&date=now+7-d) 变化 -6.6%，总星仍有 32843。对 Builder 来说，负增长不一定是坏信号，可能只是搜索高峰过后进入安装和使用期。",
+          "items": [
+            {
+              "title": "claude plugins community",
+              "url": "https://trends.google.com/trends/explore?q=claude+plugins+community&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": -100
+            },
+            {
+              "title": "openlogi",
+              "url": "https://trends.google.com/trends/explore?q=openlogi&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": -62
+            },
+            {
+              "title": "omarchy",
+              "url": "https://trends.google.com/trends/explore?q=omarchy&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": -7
+            }
+          ],
+          "takeaway": "别只看搜索曲线，安装型工具要同时看 GitHub 增长和社区复用。"
+        },
+        {
+          "id": "new-radar",
+          "heading": "新词雷达：有哪些从零起飞的新概念？",
+          "summary_md": "今天最强弱信号来自故障搜索而非新品名：[codex cli](https://trends.google.com/trends/explore?q=codex+cli&date=now+7-d) 上升 +48.3%，关联破圈词「unable to locate the codex cli binary」达到 +20650，「unable to locate the codex cli binary. set codex_cli_path or ensure the electron resources include bin/codex.」达到 +36100；[codex](https://trends.google.com/trends/explore?q=codex&date=now+7-d) 上升 +21.9%，关联「codex vs claude code abraham quiros villalba」达到 +82050。这说明真实用户开始在安装、路径、插件和 IDE 集成里踩坑。",
+          "items": [
+            {
+              "title": "unable to locate the codex cli binary",
+              "url": "https://trends.google.com/trends/explore?q=codex+cli&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 20650
+            },
+            {
+              "title": "codex vs claude code abraham quiros villalba",
+              "url": "https://trends.google.com/trends/explore?q=codex&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 82050
+            },
+            {
+              "title": "apache maka",
+              "url": "https://trends.google.com/trends/explore?q=maka&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 150
+            }
+          ],
+          "takeaway": "最早的商业机会常藏在报错关键词里，而不是发布公告里。"
+        }
+      ]
+    },
+    {
+      "id": "actions",
+      "title": "行动触发",
+      "blocks": [
+        {
+          "id": "weekend-build",
+          "heading": "今天 2 小时和一个周末分别做什么？",
+          "summary_md": "2 小时内可以做一个「agent 工具故障页」：围绕 [codex cli](https://trends.google.com/trends/explore?q=codex+cli&date=now+7-d) 上升 +48.3% 和两个破圈报错词，整理安装路径检测、环境变量检查和一键诊断脚本。一个周末则可以做成轻量 SaaS：读取本机 agent 配置，检测 Codex、Claude Code、Cursor 插件状态，输出修复建议，并把常见错误映射到官方或社区 repo issue。",
+          "items": [
+            {
+              "title": "codex cli",
+              "url": "https://trends.google.com/trends/explore?q=codex+cli&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 48
+            },
+            {
+              "title": "openai/codex",
+              "url": "https://github.com/openai/codex",
+              "source": "GitHub",
+              "score": 12358
+            },
+            {
+              "title": "cursor/plugins",
+              "url": "https://github.com/cursor/plugins",
+              "source": "GitHub",
+              "score": 1732
+            }
+          ],
+          "takeaway": "从高频报错切入，比从宏大 agent 平台切入更容易拿到第一批用户。"
+        },
+        {
+          "id": "pricing-models",
+          "heading": "值得学习的定价和变现模式有哪些？",
+          "summary_md": "今天没有足够 HN 定价讨论，但产品形态本身给了可学模式：[Revalvo](https://www.producthunt.com/products/revalvo) 适合按团队席位加评测运行量收费，因为它处理 prompts、models、scores 和 versions；[Firecrawl Developer Index](https://www.producthunt.com/products/extract-by-firecrawl) 更像 API 或数据订阅，按查询量、索引覆盖和新鲜度分层；[CTRL Micro](https://www.producthunt.com/products/ctrl-micro) 是硬件加软件订阅，适合卖设备毛利，再用 agent profile、workflow packs 和高级同步收费。",
+          "items": [
+            {
+              "title": "Revalvo",
+              "url": "https://www.producthunt.com/products/revalvo",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "Firecrawl Developer Index",
+              "url": "https://www.producthunt.com/products/extract-by-firecrawl",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "CTRL Micro",
+              "url": "https://www.producthunt.com/products/ctrl-micro",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "agent 时代更适合按「运行、索引、配置资产」收费，而不是只卖聊天次数。"
+        },
+        {
+          "id": "counterintuitive",
+          "heading": "今天最反直觉的发现是什么？",
+          "summary_md": "最反直觉的是，最强需求信号不是新模型，而是「替代」和「修复」。[cursor alternative](https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d) 上升 +140.2%，[self hosted](https://trends.google.com/trends/explore?q=self+hosted&date=now+7-d) 上升 +24.7%，同时 GitHub 上 [tashfeenahmed/freellmapi](https://github.com/tashfeenahmed/freellmapi) 周增 2014 stars，用 34 个免费 LLM providers 和 635 个 endpoints 做统一入口。用户不是只想要更先进的 AI，而是在主动寻找成本、可控性和退出路径。",
+          "items": [
+            {
+              "title": "cursor alternative",
+              "url": "https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 140
+            },
+            {
+              "title": "self hosted",
+              "url": "https://trends.google.com/trends/explore?q=self+hosted&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 25
+            },
+            {
+              "title": "tashfeenahmed/freellmapi",
+              "url": "https://github.com/tashfeenahmed/freellmapi",
+              "source": "GitHub",
+              "score": 2014
+            }
+          ],
+          "takeaway": "越是 AI 工具爆发期，用户越愿意为可迁移、可替换、可自托管买单。"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2026-08-28T09:18:17+00:00",
+  "reddit_highlights": []
+}
