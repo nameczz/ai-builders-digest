@@ -1,0 +1,173 @@
+{
+  "date": "2026-08-29",
+  "items": [
+    {
+      "id": "2026-08-29-1",
+      "title": "Cursor 危机不是模型，是信任",
+      "angle": "从 OpenAI 合作终止、替代搜索上升和 Replit 抢迁移切入，写 AI IDE 竞争正在从能力战变成信任战。",
+      "opening": "Cursor 最危险的对手，可能不是另一个更会写代码的编辑器，而是用户心里的那句：我还能信它吗？一边是 OpenAI 官方合作通道将在 11 月 12 日结束，另一边是 cursor alternative 搜索上升 46.2%。AI IDE 的战场突然从模型效果，转向迁移、路由和数据边界。",
+      "story_hook": {
+        "challenge": "Cursor 曾经代表 AI 编程大众化，但越成为基础工作台，用户越担心供应商锁定、模型通道和企业数据控制权。",
+        "twist": "Replit 没有只说自己更强，而是直接打出免费 OpenAI 模型、低成本路由和付费迁移，抢的是 Cursor 用户的风险预算。"
+      },
+      "takeaway": "做 AI 开发工具时，别只卷补全质量；现在必须把可迁移配置、可选模型、权限审计和退出路径当成核心卖点。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Thibault Sottiaux 关于 OpenAI 和 Cursor 合作通道结束的推文",
+          "url": "https://x.com/thsottiaux/status/2093515916076343774"
+        },
+        {
+          "tag": "builders",
+          "ref": "Amjad Masad 关于 Replit 免费开放 OpenAI 模型并帮助迁移的推文",
+          "url": "https://x.com/amasad/status/2093533378880667787"
+        },
+        {
+          "tag": "pulse",
+          "ref": "HN：Our decision on Cursor following its acquisition by SpaceX，503 分、265 条评论",
+          "url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex/"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Google Trends：cursor alternative 上升 46.2%",
+          "url": "https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-29-2",
+      "title": "插件目录成了新应用商店",
+      "angle": "从 MCP、agent skills 和 GitHub 周增星看，开发者分发入口正在从网页和模板迁移到插件目录。",
+      "opening": "今天最像 App Store 的地方，不是手机桌面，而是 agent 的插件目录。archify 一周涨 11099 星，Claude 插件社区一周涨 2207 星，连实现 MCP server 的 mcp-handler 下载量也在起飞。开发者不再只是发布工具，而是在争夺 agent 能不能发现、调用、复用你的能力。",
+      "story_hook": {
+        "challenge": "过去开发者工具靠官网、文档和 CLI 分发；现在用户的入口可能是 Codex、Claude、Cursor 或某个 MCP registry。",
+        "twist": "真正值钱的不是又做一个 agent，而是让自己的工具变成所有 agent 都能安全调用的一项技能。"
+      },
+      "takeaway": "如果你有开发者产品，应该立刻评估插件协议、MCP server、安装说明、权限描述和可观测日志，而不是只优化官网转化率。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Guillermo Rauch 关于 MCP 和 mcp-handler 增长的推文",
+          "url": "https://x.com/rauchg/status/2093463771071336497"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub Trending：tt-a1i/archify 周增 11099 星",
+          "url": "https://github.com/tt-a1i/archify"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub Trending：anthropics/claude-plugins-community 周增 2207 星",
+          "url": "https://github.com/anthropics/claude-plugins-community"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub Trending：cursor/plugins 周增 1594 星",
+          "url": "https://github.com/cursor/plugins"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-29-3",
+      "title": "中间网页会被 Agent 吃掉",
+      "angle": "用 Rauch 的 Web 两极化判断，连接 Staats、archify 和 agent UI 趋势，写实用型网页为何会失去固定形态。",
+      "opening": "很多工具网站还在纠结首页怎么排版，但 Agent 可能根本不看你的首页。Guillermo Rauch 说 Web 会分裂成两端：一端给人类做沉浸体验，另一端给机器提供无损信号。最尴尬的是中间层，那些实用内容和数据页面，可能会被 Agent 即时生成的 UI 取代。",
+      "story_hook": {
+        "challenge": "SaaS 和开发者工具长期依赖固定页面承载信息、转化和工作流，但 agent 需要的是结构化数据、API 和可执行动作。",
+        "twist": "未来不是所有网页都更漂亮，而是很多网页不再需要被人打开；真正的界面由 agent 临时生成。"
+      },
+      "takeaway": "产品团队应该把文档、数据、权限、操作接口整理成机器可读层，同时把留给人看的页面做得更有品牌和体验差异。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Guillermo Rauch 关于 Web 分裂为人类体验和 Agent 信号层的推文",
+          "url": "https://x.com/rauchg/status/2093482695838007318"
+        },
+        {
+          "tag": "builders",
+          "ref": "Peter Yang 关于 Grok Bot 云端电脑更易被非技术用户理解的推文",
+          "url": "https://x.com/petergyang/status/2093379695144530313"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt：Staats，让 coding agent 读取网站表现",
+          "url": "https://www.producthunt.com/products/staats-3"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub Trending：tt-a1i/archify，把架构图和流程图做成 agent skill",
+          "url": "https://github.com/tt-a1i/archify"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-29-4",
+      "title": "AI 创业剧本只活三个月",
+      "angle": "把 Aaron Levie 和 Madhu Guru 的半衰期判断，与 Product Hunt 小工具和 VC pitch 讨论合在一起，写 AI builder 的反脆弱打法。",
+      "opening": "在传统 SaaS 里，一个好 playbook 可能吃五年；在 AI 里，三个月就可能过期。今天 builders 反复提到同一件事：开源追不上、RAG 已死、工程师要被替代，这些判断都可能很快翻车。真正稀缺的不是押中一句口号，而是团队能不能连续重造打法。",
+      "story_hook": {
+        "challenge": "AI 创业者很容易把“为什么是现在”写成一句 AI 变强了，但这类叙事太薄，也最容易被下一轮模型更新推翻。",
+        "twist": "更稳的机会反而藏在窄工具里：prompt 评测、代码 diff、网站诊断、CLI 排错，它们不需要预测终局，只需要解决今天的高频摩擦。"
+      },
+      "takeaway": "写 pitch 或做产品路线时，把重点从“AI 会改变一切”改成具体工作流、分发入口、数据闭环和三个月内可验证的迭代节奏。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Aaron Levie 关于 AI 圈信念半衰期最多 6 个月的推文",
+          "url": "https://x.com/levie/status/2093568352736436576"
+        },
+        {
+          "tag": "builders",
+          "ref": "Madhu Guru 关于 AI 产品打法半衰期只有 3 个月的推文",
+          "url": "https://x.com/realmadhuguru/status/2093562783627620456"
+        },
+        {
+          "tag": "builders",
+          "ref": "Nikunj Kothari 关于 pitch 不应只靠 AI 作为 why now 的推文",
+          "url": "https://x.com/nikunj/status/2093367245024240043"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt：Revalvo，多模型 prompt 评测与版本管理",
+          "url": "https://www.producthunt.com/products/revalvo"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-29-5",
+      "title": "给 Agent 账号权限前先刹车",
+      "angle": "从 Grok Bot 操作真实 X 账号的风险，延展到 agent 工作流里账号资产、风控和权限设计。",
+      "opening": "最刺激的 agent demo，往往也是最危险的权限设计。把真实 X 账号交给 Grok Bot 操作，看起来像自动化增长，实际碰到的是账号资产、封号风控和不可逆操作。Agent 不是插件那么简单，它开始接触你的身份、渠道和生意入口。",
+      "story_hook": {
+        "challenge": "非技术用户喜欢“云端电脑”这个简单隐喻，但一旦 agent 能登录账号、发帖、点按钮，产品边界就从效率工具变成风险代理。",
+        "twist": "增长 agent 被低估的原因，可能不是能力不够，而是权限、审计和风控还没有被设计成默认层。"
+      },
+      "takeaway": "做 agent 产品时，应优先设计最小权限、操作预览、可撤销队列、账号隔离和异常风控，而不是先追求全自动发布。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Zara Zhang 关于 Grok Bot 操作真实 X 账号可能触发封号和风控的推文",
+          "url": "https://x.com/zarazhangrui/status/2093317719320064164"
+        },
+        {
+          "tag": "builders",
+          "ref": "Amjad Masad 关于 Growth agent 被严重低估的推文",
+          "url": "https://x.com/amasad/status/2093434828385313068"
+        },
+        {
+          "tag": "builders",
+          "ref": "Peter Yang 关于 Grok Bot 是人人能理解的云端电脑的推文",
+          "url": "https://x.com/petergyang/status/2093379695144530313"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub Trending：apache/maka 强调工具调用和权限决策写入 append-only log",
+          "url": "https://github.com/apache/maka"
+        }
+      ]
+    }
+  ],
+  "notes": "今日主线很清楚：AI 开发者工具的竞争焦点从模型能力外溢到信任、插件分发、权限审计和可迁移性；独立产品素材偏弱，但窄工具机会足够多。",
+  "generated_at": "2026-08-29T09:18:04+00:00",
+  "model": "gpt-5.5"
+}
