@@ -1,0 +1,472 @@
+{
+  "date": "2026-08-29",
+  "generated_at": "2026-08-29T09:11:35+00:00",
+  "count": 31,
+  "items": [
+    {
+      "id": "20ad8f493a",
+      "date": "2026-08-29",
+      "source": "x",
+      "author": "Thibault Sottiaux",
+      "bio": "Codex & ChatGPT @OpenAI",
+      "title": "",
+      "summary_en": "Looking at the dashboard we might hit a new milestone to celebrate tomorrow. Hold on to your Codex",
+      "summary_zh": "Codex 的数据看起来明天可能要冲出一个新的里程碑。先别眨眼。",
+      "url": "https://x.com/thsottiaux/status/2093573991965557198",
+      "posted_at": "2026-08-29T05:38:31.000Z",
+      "tags": [
+        "@thsottiaux"
+      ]
+    },
+    {
+      "id": "cc2c2e1c29",
+      "date": "2026-08-29",
+      "source": "x",
+      "author": "Aaron Levie",
+      "bio": "ceo @box - your business lives in content. unleash it with AI",
+      "title": "",
+      "summary_en": "The average strongly held belief these days in AI has a half life of 6 months at best. Here are just a few the industry has cycled through and probably has no consensus on at the moment:\n\n* OSS is too far behind to catch up \n\n* The labs can’t be profitable at scale\n\n* All software will be replaced by agents\n\n* You can’t build moats on top of models\n\n* Cheaper models will mean less compute\n\n* You don’t need evals\n\n* RAG is dead \n\n* AI will decimate engineering jobs\n\n* Prompting won’t matter in the future \n\n* We’ve hit a training wall\n\n* Frontier models are too dangerous to release \n\n…and dozens and dozens more. The key here is to remain flexible in your thinking because we’re going to be in a constant state of change for a while.",
+      "summary_zh": "AI 圈那些被说得斩钉截铁的信念，半衰期最多 6 个月：开源追不上、Agent 会替代所有软件、RAG 已死、工程师要被干掉、训练撞墙……一轮轮被推翻又重来。\n\n真正该坚持的不是某个判断，而是在持续剧变里保持脑子可变形。",
+      "url": "https://x.com/levie/status/2093568352736436576",
+      "posted_at": "2026-08-29T05:16:06.000Z",
+      "tags": [
+        "@levie"
+      ]
+    },
+    {
+      "id": "78dec2f900",
+      "date": "2026-08-29",
+      "source": "x",
+      "author": "Madhu Guru",
+      "bio": "Sr Director, AI at Meta; Prev: Google - Led Gemini, Veo, Nano Banana.",
+      "title": "",
+      "summary_en": "AI product building has a ~3-month playbook half-life. Here’s how to adapt.\n\nMost trad product teams are built to discover a playbook and then milk it for the next 5 years.\n\nHowever in the AI labs, we consciously throw away playbooks every few months cos we start seeing diminishing returns.\n\nHere’s what you can do as an AI builder:\n\nFocus on defining a set of meta-principles for \n1/ how you continuously learn what the market wants today and what it might want in 3 months\n2/ how you execute with extreme urgency\n\nThe specifics of 1 and 2 will vary based on your domain and product type.\nBuild a team that learns and adapts at that pace. \n\nLegacy teams are optimized for playbook milking.\n\nAI teams need to be optimized for inventing.",
+      "summary_zh": "AI 产品打法的半衰期只有 3 个月，传统团队那套“找到剧本吃 5 年”的模式已经失效。AI builder 真正要优化的不是复用 playbook，而是持续判断市场变化、极速执行，并组建一支能不断重造打法的团队。",
+      "url": "https://x.com/realmadhuguru/status/2093562783627620456",
+      "posted_at": "2026-08-29T04:53:58.000Z",
+      "tags": [
+        "@realmadhuguru"
+      ]
+    },
+    {
+      "id": "02c53a4ab5",
+      "date": "2026-08-29",
+      "source": "x",
+      "author": "Peter Yang",
+      "bio": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6",
+      "title": "",
+      "summary_en": "Saw this well timed ad https://t.co/8YklrNqO8i",
+      "summary_zh": "看到一个时机卡得很准的广告，像是算法刚好踩中了当下的情绪和需求。",
+      "url": "https://x.com/petergyang/status/2093547793327763699",
+      "posted_at": "2026-08-29T03:54:24.000Z",
+      "tags": [
+        "@petergyang"
+      ]
+    },
+    {
+      "id": "d44ee8ddd2",
+      "date": "2026-08-29",
+      "source": "x",
+      "author": "Thariq",
+      "bio": "Claude Code @anthropicai.   prev YC W20, @spc, @medialab",
+      "title": "",
+      "summary_en": "Long-time admirer of the Cursor team, few have done more to bring AI coding to the world. \n\nExcited to continue to partner with them. https://t.co/N5DdX96mg8",
+      "summary_zh": "Cursor 团队把 AI 编程真正推向了大众，贡献少有人能比。接下来还会继续和他们合作。",
+      "url": "https://x.com/trq212/status/2093541555068182781",
+      "posted_at": "2026-08-29T03:29:37.000Z",
+      "tags": [
+        "@trq212"
+      ]
+    },
+    {
+      "id": "4f11d868ab",
+      "date": "2026-08-29",
+      "source": "x",
+      "author": "Amjad Masad",
+      "bio": "ceo @replit. civilizationist",
+      "title": "",
+      "summary_en": "You can access OpenAI models on Replit for free.\n\nOur router also makes high-end models incredibly cost-efficient.\n\nIf you’re a business looking for an independent, multi-model alternative to Cursor, we’d be happy to fund your transition. https://t.co/7JXaIXE2GH",
+      "summary_zh": "Replit 正在把 OpenAI 模型免费开放给开发者，还用路由器把高端模型成本打下来。对想摆脱 Cursor、转向独立多模型方案的企业，他们甚至愿意出钱帮你迁移。",
+      "url": "https://x.com/amasad/status/2093533378880667787",
+      "posted_at": "2026-08-29T02:57:08.000Z",
+      "tags": [
+        "@amasad"
+      ]
+    },
+    {
+      "id": "7fc7013876",
+      "date": "2026-08-29",
+      "source": "x",
+      "author": "Thibault Sottiaux",
+      "bio": "Codex & ChatGPT @OpenAI",
+      "title": "",
+      "summary_en": "We unfortunately have decided that we cannot continue providing access to our models through Cursor and are ending our partnership. It boils down to trust and we’ve asked that this takes effect on November 12 to give you some time to plan.\n\nMany have used the GPT models through Cursor and here are options we know should work in the future:\n\n- We will continue to allow using your own OpenAI API key and similarly will continue to provide access through our IDE extensions for Cursor.\n- We will keep working with the broadest range of tools and harnesses, some of which are OSS, but also many many closed-source ones.\n\nWe are as committed as ever to continue supporting developers and the flourishing ecosystem of tools, harnesses and products. We will also continue to invest in our own open-source initiatives and believe in broad optionality for developers.\n\nYou can read more about our decision in the blog:\nhttps://t.co/Oj76Bkc2KX",
+      "summary_zh": "OpenAI 和 Cursor 分手，核心原因说白了就是“不再信任”，模型接入会在 11 月 12 日结束。以后还能用自己的 OpenAI API Key 或 IDE 扩展，但 Cursor 这条官方合作通道没了。",
+      "url": "https://x.com/thsottiaux/status/2093515916076343774",
+      "posted_at": "2026-08-29T01:47:44.000Z",
+      "tags": [
+        "@thsottiaux"
+      ]
+    },
+    {
+      "id": "e2cc79b664",
+      "date": "2026-08-29",
+      "source": "x",
+      "author": "Garry Tan",
+      "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "title": "",
+      "summary_en": "Datacenters create prosperity and good jobs https://t.co/VRt2wlIBBK https://t.co/z5pncGj26B",
+      "summary_zh": "数据中心不是负担，而是繁荣和高质量就业的发动机。",
+      "url": "https://x.com/garrytan/status/2093500353849544842",
+      "posted_at": "2026-08-29T00:45:54.000Z",
+      "tags": [
+        "@garrytan"
+      ]
+    },
+    {
+      "id": "e1a8d0cfc7",
+      "date": "2026-08-29",
+      "source": "x",
+      "author": "Guillermo Rauch",
+      "bio": "@vercel CEO",
+      "title": "",
+      "summary_en": "I see the web evolving in two extremes:\n\n1️⃣ ultra-fancy human experiences, in the service of delight, exploration, brand, entertainment. https://t.co/0nyTRPKDEJ / threejs / typegpu are enabling this\n\n2️⃣ agent-centric content, data and APIs. the opposite end of the spectrum: pure, lossless signal for machines. The rise of markdown and MCP are the tip of this iceberg\n\nThe 'in between' is likely to be subsumed by agents producing just-in-time UI. When you need utilitarian content or data, it'll be generated just-in-time for you. Think of the agent as the new browser in this model.",
+      "summary_zh": "Web 会分裂成两个极端：一端是为人类打造的炫技体验，服务愉悦、探索、品牌和娱乐；另一端是面向 Agent 的内容、数据和 API，只追求给机器的无损信号。\n\n中间层会被 Agent 吞掉：实用型内容和数据不再需要固定页面，而是由 Agent 即时生成 UI，Agent 就是新的浏览器。",
+      "url": "https://x.com/rauchg/status/2093482695838007318",
+      "posted_at": "2026-08-28T23:35:44.000Z",
+      "tags": [
+        "@rauchg"
+      ]
+    },
+    {
+      "id": "1a64b188cf",
+      "date": "2026-08-29",
+      "source": "x",
+      "author": "Aditya Agarwal",
+      "bio": "General Partner @SPC, Co-Founder @Bevel_Health | Ex: Early Eng @facebook, CTO @Dropbox, Board @Flipkart | Optimist, Builder, Dad",
+      "title": "",
+      "summary_en": "It's interesting to me to see a lot of people comment on visa stuff without actually going through it.\n\nI am a proud American citizen who has also had the following visas: F1, OPT, CPT, H1-B, EB-3 Green Card etc.\n\nI think ALL of the following things can be true:\n1/ There is abuse of the H1-B system. We should 100% stop that. It prevents legitimate use cases. I am glad the government is doing something about this.\n\n2/ We make it too hard for truly high-skilled workers to stay in the USA. It is a huge source of strength for us that the sharpest minds in the world WANT to come here. \n\n3/ In particular, high-skilled Indians have it harder than most. \n\n4/ In any country, the laws and regulations should prioritize it's own citizens.",
+      "summary_zh": "很多没真正走过签证流程的人在对 H1-B 指点江山；这个系统确实有滥用，必须砍掉，但美国也把真正高技能人才留下来搞得太难了。\n\n美国的强大之一在于全世界最聪明的人愿意来，尤其高技能印度人承受了不成比例的难度；同时，任何国家的法律都该优先照顾本国公民。",
+      "url": "https://x.com/adityaag/status/2093468512459321512",
+      "posted_at": "2026-08-28T22:39:22.000Z",
+      "tags": [
+        "@adityaag"
+      ]
+    },
+    {
+      "id": "ff9cf46bfe",
+      "date": "2026-08-29",
+      "source": "x",
+      "author": "Guillermo Rauch",
+      "bio": "@vercel CEO",
+      "title": "",
+      "summary_en": "MCP is growing explosively. And it's not just Vercel MCP… Look at 𝚖𝚌𝚙-𝚑𝚊𝚗𝚍𝚕𝚎𝚛 npm downloads, which you can use to implement MCP servers https://t.co/nGrblswCmK https://t.co/Ek4itRUtkI",
+      "summary_zh": "MCP 正在爆炸式增长，而且不只是 Vercel MCP 一家在火。看 `mcp-handler` 的 npm 下载量就知道：用来实现 MCP server 的基础设施也已经起飞。",
+      "url": "https://x.com/rauchg/status/2093463771071336497",
+      "posted_at": "2026-08-28T22:20:32.000Z",
+      "tags": [
+        "@rauchg"
+      ]
+    },
+    {
+      "id": "07f2ca33a9",
+      "date": "2026-08-29",
+      "source": "x",
+      "author": "Nan Yu",
+      "bio": "product enthusiast. I am grader",
+      "title": "",
+      "summary_en": "This is true\n\nhttps://t.co/XEGzfUokJ2",
+      "summary_zh": "这条推文本身只有“这是真的”一句；短链我这边打不开，无法可靠总结它指向的内容。",
+      "url": "https://x.com/thenanyu/status/2093445209766178889",
+      "posted_at": "2026-08-28T21:06:46.000Z",
+      "tags": [
+        "@thenanyu"
+      ]
+    },
+    {
+      "id": "c5d833b7a5",
+      "date": "2026-08-29",
+      "source": "x",
+      "author": "Garry Tan",
+      "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "title": "",
+      "summary_en": "An unfit SF city supervisor who has only hurt the city and its citizens has quiet quit the job to try to jump to the next rung of utter incompetence\n\nConnie Chan doesn’t deserve public office\n\nhttps://t.co/NJ1Nqma3Ec https://t.co/RepLCfbmsM",
+      "summary_zh": "这位 AI builder 猛批旧金山市监督员 Connie Chan 无能且伤害城市和市民，称她已经“安静辞职”，只是想跳到下一层级继续无能。  \n他直言 Connie Chan 不配担任公职。",
+      "url": "https://x.com/garrytan/status/2093443836228125151",
+      "posted_at": "2026-08-28T21:01:19.000Z",
+      "tags": [
+        "@garrytan"
+      ]
+    },
+    {
+      "id": "edc1a98eba",
+      "date": "2026-08-29",
+      "source": "x",
+      "author": "Amjad Masad",
+      "bio": "ceo @replit. civilizationist",
+      "title": "",
+      "summary_en": "Growth agent is such an untapped potential. https://t.co/KTlU1FAisU",
+      "summary_zh": "Growth agent 仍是 AI 里被严重低估的方向，潜力还没真正被挖出来。",
+      "url": "https://x.com/amasad/status/2093434828385313068",
+      "posted_at": "2026-08-28T20:25:31.000Z",
+      "tags": [
+        "@amasad"
+      ]
+    },
+    {
+      "id": "e6b8f963d5",
+      "date": "2026-08-29",
+      "source": "x",
+      "author": "Dan Shipper",
+      "bio": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "title": "",
+      "summary_en": "in AI there are no bad ideas just weak models\n\nevery idea has its day as the exponential continues",
+      "summary_zh": "AI 领域没有烂点子，只有模型还不够强。\n\n指数曲线继续往上，每个想法迟早都会轮到它爆发。",
+      "url": "https://x.com/danshipper/status/2093434101067808930",
+      "posted_at": "2026-08-28T20:22:38.000Z",
+      "tags": [
+        "@danshipper"
+      ]
+    },
+    {
+      "id": "b8408f495e",
+      "date": "2026-08-29",
+      "source": "x",
+      "author": "Garry Tan",
+      "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "title": "",
+      "summary_en": "Fund treatment and recovery and defund nonprofits that hurt treatment and recovery with their insistence unlimited support for drug use is the only way to “help”\n\nIt’s harm acceleration https://t.co/2H6GgTzL56",
+      "summary_zh": "把钱投给戒毒治疗和康复，别再资助那些打着“帮助”旗号、却坚持无限支持吸毒的非营利组织。\n\n这不是减害，是加速伤害。",
+      "url": "https://x.com/garrytan/status/2093429113306661121",
+      "posted_at": "2026-08-28T20:02:49.000Z",
+      "tags": [
+        "@garrytan"
+      ]
+    },
+    {
+      "id": "aea0f1b34f",
+      "date": "2026-08-29",
+      "source": "x",
+      "author": "Nan Yu",
+      "bio": "product enthusiast. I am grader",
+      "title": "",
+      "summary_en": "VCs: https://t.co/uAbEvzMK1N",
+      "summary_zh": "这条推文信息量不足：只写了「VCs:」加一个短链接，无法判断作者具体在讽刺、批评还是指向哪类风险。",
+      "url": "https://x.com/thenanyu/status/2093411864667656633",
+      "posted_at": "2026-08-28T18:54:16.000Z",
+      "tags": [
+        "@thenanyu"
+      ]
+    },
+    {
+      "id": "009a377145",
+      "date": "2026-08-29",
+      "source": "x",
+      "author": "Josh Woodward",
+      "bio": "VP, @Google @GoogleLabs @GeminiApp @GoogleAIStudio",
+      "title": "",
+      "summary_en": "One of my favorite parts of Expert Intelligence in @Gemini_Notebook is the letter from the author, such a nice touch! https://t.co/I6iDB4hHOt",
+      "summary_zh": "Gemini Notebook 的 Expert Intelligence 最抓人的不是功能堆叠，而是那封“作者来信”。这个小细节比很多炫技更有温度，也更会收买人。",
+      "url": "https://x.com/joshwoodward/status/2093409673571631480",
+      "posted_at": "2026-08-28T18:45:34.000Z",
+      "tags": [
+        "@joshwoodward"
+      ]
+    },
+    {
+      "id": "772c5cdee1",
+      "date": "2026-08-29",
+      "source": "x",
+      "author": "Zara Zhang",
+      "bio": "Builder. Make something people want, then make people want it. Harvard’17. GitHub: https://t.co/KCuEaje1wd  YouTube: https://t.co/8xzbGWsHgY",
+      "title": "",
+      "summary_en": "Whether something is slop or not has less to do with whether it's AI-generated and more to do with whether it is informed by specific, unique human experiences/perspectives\n\nThere's plenty of human-generated slop",
+      "summary_zh": "判断一个东西是不是垃圾，不在于它是不是 AI 生成，而在于它有没有被具体、独特的人类经验和视角喂养过。\n\n人类手搓的垃圾也多得是。",
+      "url": "https://x.com/zarazhangrui/status/2093396989329469505",
+      "posted_at": "2026-08-28T17:55:10.000Z",
+      "tags": [
+        "@zarazhangrui"
+      ]
+    },
+    {
+      "id": "e181b4ece3",
+      "date": "2026-08-29",
+      "source": "x",
+      "author": "Guillermo Rauch",
+      "bio": "@vercel CEO",
+      "title": "",
+      "summary_en": "There are many “easy” ways to create agents out there.\n\nBut how many that give you a Git repo where you actually *own* the entire intelligence stack? Runtime, model choice, skills, tools, connectivity, sandbox…\n\nEasiest way to start with eve: \nhttps://t.co/cUFDog6P3d https://t.co/SG8xsDPAPX",
+      "summary_zh": "市面上做 agent 的“简单方案”很多，但真正把完整智能栈交到你手里的没几个：运行时、模型选择、技能、工具、连接和沙箱都在你的 Git repo 里。eve 的卖点就是：别租一个黑盒 agent，直接拥有它。",
+      "url": "https://x.com/rauchg/status/2093387887668814214",
+      "posted_at": "2026-08-28T17:19:00.000Z",
+      "tags": [
+        "@rauchg"
+      ]
+    },
+    {
+      "id": "496c23bbaa",
+      "date": "2026-08-29",
+      "source": "x",
+      "author": "Nan Yu",
+      "bio": "product enthusiast. I am grader",
+      "title": "",
+      "summary_en": "Now that SF has discovered Paris, maybe it's safe to go to Japan again.",
+      "summary_zh": "既然旧金山那帮人终于把巴黎当成新玩具了，日本也许又安全了，可以重新去了。",
+      "url": "https://x.com/thenanyu/status/2093384613620252878",
+      "posted_at": "2026-08-28T17:05:59.000Z",
+      "tags": [
+        "@thenanyu"
+      ]
+    },
+    {
+      "id": "7ca668cb63",
+      "date": "2026-08-29",
+      "source": "x",
+      "author": "Peter Yang",
+      "bio": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6",
+      "title": "",
+      "summary_en": "My hot take is that Claude Cowork and ChatGPT Work are partial solutions and that Grok Bot is the right end state for a capable AI agent product for non-technical people.\n\nGrok Bot I think people can easily \"grok\" that it's a computer that runs in the cloud. \n\nIf you asked people to explain what the difference between ChatGPT Work and Codex is (e.g., Work can run cloud tasks but Codex cannot) or how Claude Cowork actually works I bet most people have no idea.",
+      "summary_zh": "Claude Cowork 和 ChatGPT Work 只是半截方案，真正面向非技术用户的 AI Agent 终局应该是 Grok Bot：一个人人都能理解的「云端电脑」。相比之下，ChatGPT Work、Codex、Claude Cowork 这些产品边界混乱到大多数人根本讲不清。",
+      "url": "https://x.com/petergyang/status/2093379695144530313",
+      "posted_at": "2026-08-28T16:46:27.000Z",
+      "tags": [
+        "@petergyang"
+      ]
+    },
+    {
+      "id": "ccfc3a4d80",
+      "date": "2026-08-29",
+      "source": "x",
+      "author": "Nikunj Kothari",
+      "bio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
+      "title": "",
+      "summary_en": "Dear founder,\n\n1) The best pitches don’t even need to use the word “AI”. \n\n2) AI cannot be the only “why now” for your pitch. \n\nObviously it’s just me speaking, subjective to each VC etc. \n\nBut trust me, it’ll help if you get ahead of these two!",
+      "summary_zh": "最好的 pitch 根本不需要把“AI”挂在嘴边；如果你的“为什么是现在”只剩 AI，那这个故事太薄了。VC 各有偏好，但先把这两点补上，胜率会高很多。",
+      "url": "https://x.com/nikunj/status/2093367245024240043",
+      "posted_at": "2026-08-28T15:56:58.000Z",
+      "tags": [
+        "@nikunj"
+      ]
+    },
+    {
+      "id": "7bf173178e",
+      "date": "2026-08-29",
+      "source": "x",
+      "author": "Thibault Sottiaux",
+      "bio": "Codex & ChatGPT @OpenAI",
+      "title": "",
+      "summary_en": "What is the most ambitious task you’ve given ChatGPT Work?",
+      "summary_zh": "你交给 ChatGPT Work 的最野任务是什么？",
+      "url": "https://x.com/thsottiaux/status/2093354037198696932",
+      "posted_at": "2026-08-28T15:04:29.000Z",
+      "tags": [
+        "@thsottiaux"
+      ]
+    },
+    {
+      "id": "2ef9460fe0",
+      "date": "2026-08-29",
+      "source": "x",
+      "author": "Dan Shipper",
+      "bio": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "title": "",
+      "summary_en": "unrealistic, i would never surf in a t-shirt https://t.co/dXTPaKTIC8",
+      "summary_zh": "不真实，我绝不会穿 T 恤冲浪。",
+      "url": "https://x.com/danshipper/status/2093348166196220398",
+      "posted_at": "2026-08-28T14:41:10.000Z",
+      "tags": [
+        "@danshipper"
+      ]
+    },
+    {
+      "id": "79966ebc0a",
+      "date": "2026-08-29",
+      "source": "x",
+      "author": "Dan Shipper",
+      "bio": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "title": "",
+      "summary_en": "WE NOW HAVE A HEAD OF EVALS\n\nthe work he's doing is honestly gamechanging. cannot wait to show it to you https://t.co/WHipOzAVMC",
+      "summary_zh": "我们现在有了 Head of Evals。  \n他做的东西真的是改游戏规则级别，迫不及待想拿出来给你们看。",
+      "url": "https://x.com/danshipper/status/2093347973669286146",
+      "posted_at": "2026-08-28T14:40:24.000Z",
+      "tags": [
+        "@danshipper"
+      ]
+    },
+    {
+      "id": "2d7b0294e9",
+      "date": "2026-08-29",
+      "source": "x",
+      "author": "Peter Yang",
+      "bio": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6",
+      "title": "",
+      "summary_en": "GTA VI looks incredible",
+      "summary_zh": "GTA VI 看起来太炸了。",
+      "url": "https://x.com/petergyang/status/2093337802113171545",
+      "posted_at": "2026-08-28T13:59:59.000Z",
+      "tags": [
+        "@petergyang"
+      ]
+    },
+    {
+      "id": "b107b63fe5",
+      "date": "2026-08-29",
+      "source": "x",
+      "author": "Nikunj Kothari",
+      "bio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
+      "title": "",
+      "summary_en": "Bay Area put on a show last night 🌅 https://t.co/L9XJ4LpVln",
+      "summary_zh": "昨晚的湾区狠狠刷了一波存在感，天际线和落日直接把场面拉满。",
+      "url": "https://x.com/nikunj/status/2093333205181145372",
+      "posted_at": "2026-08-28T13:41:43.000Z",
+      "tags": [
+        "@nikunj"
+      ]
+    },
+    {
+      "id": "2499b11650",
+      "date": "2026-08-29",
+      "source": "x",
+      "author": "Zara Zhang",
+      "bio": "Builder. Make something people want, then make people want it. Harvard’17. GitHub: https://t.co/KCuEaje1wd  YouTube: https://t.co/8xzbGWsHgY",
+      "title": "",
+      "summary_en": "Question on @bot : if I sign into my actual X account on Grok Bot's virtual computer & ask it to do stuff (e.g. picking out interesting tweets from my timeline/bookmarks, helping me go through my followers list), is there a risk of my X account being banned/flagged?\n\nI have been extremely cautious when it comes to giving any agent access to my X account out of this fear; not sure if Grok Bot is any different",
+      "summary_zh": "把真实 X 账号交给 Grok Bot 的虚拟电脑操作，等于让代理直接碰账号资产，最怕的不是它能不能干活，而是会不会触发封号/风控。\n\n对任何 agent 开放 X 账号权限都得极其谨慎，Grok Bot 未必例外。",
+      "url": "https://x.com/zarazhangrui/status/2093317719320064164",
+      "posted_at": "2026-08-28T12:40:10.000Z",
+      "tags": [
+        "@zarazhangrui"
+      ]
+    },
+    {
+      "id": "659c4ed387",
+      "date": "2026-08-29",
+      "source": "x",
+      "author": "Matt Turck",
+      "bio": "VC at @FirstMarkCap.  Host: MAD Podcast; Organizer: Data Driven NYC, Author: MAD Landscape.",
+      "title": "",
+      "summary_en": "VC due diligence in a hot round  https://t.co/KVg5NQeH3i",
+      "summary_zh": "热门轮里的 VC 尽调，大概率就是走个过场。钱和 FOMO 已经先替判断力投票了。",
+      "url": "https://x.com/mattturck/status/2093304544029463009",
+      "posted_at": "2026-08-28T11:47:49.000Z",
+      "tags": [
+        "@mattturck"
+      ]
+    },
+    {
+      "id": "c76b483ed3",
+      "date": "2026-08-29",
+      "source": "podcast",
+      "author": "No Priors",
+      "bio": "",
+      "title": "Rethinking Legacy Data Infrastructure with Eon Co-Founders Ofir Ehrlich and Gonen Stein",
+      "summary_en": "Speaker 1 | 00:00 - 00:22\nUp until now, the concerns came from human threats. What we're seeing now on steroids is that the same type of threat is coming from nonhuman actors, agents that essentially have legitimate access to the environment with legitimate permissions. Fortunately for us, it's a very similar methodology in terms of detecting that and protecting against that, but the velocity of that happening is extreme.\n\nSpeaker 2 | 00:22 - 00:51\nThink of the nontechnical people. They're not even aware for things like security or compliance or who is gonna use this data. Maybe their agent that they are building are using other agents, and they're not technical to even understand what it means. It creates complete set of actors inside the organization, not bound by the rules of the organization and not necessarily running within the premises of the organization, but handling sensitive data. It's a good thing and bad thing that everyone inside the organization can become builders.\n\nSpeaker 2 | 00:51 - 00:52\nWe live in very interesting times.\n\nSpeaker 3 | 00:59 - 01:25\nToday on our priors, we're joined by Ofer Oerlech and Goenen Stein, the cofounders of EON. EON is a cloud backup disaster recovery centric services designed for the AI era. In this discussion, we talk about data, AI, why Google bought out the data of Spirit Airlines out of bankruptcy, and what it means to really manage and use data infrastructure in the AI era. Ophelia Gunnen, thank you so much for joining me Enterprise today. It's great to see you.\n\nSpeaker 1 | 01:25 - 01:27\nAbsolutely. Thanks for having us.\n\nSpeaker 3 | 01:27 - 01:49\nYeah. So one thing that you guys are doing at EON is or, why don't you give a quick overview of EON and what it does really quickly? Because I think that'll set the context ",
+      "summary_zh": "AI 代理正在把安全威胁从“人类黑客”升级成拥有合法权限、速度极快的内部行动者，传统规则和边界被彻底打穿。人人都能成为 builder 是机会，也是风险：非技术员工可能在不理解安全、合规和数据责任的情况下，让一整套不受组织约束的代理处理敏感数据。",
+      "url": "https://www.youtube.com/@NoPriorsPodcast",
+      "posted_at": "2026-08-27T10:00:00.000Z",
+      "tags": [
+        "podcast"
+      ]
+    }
+  ]
+}
