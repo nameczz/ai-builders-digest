@@ -1,0 +1,148 @@
+{
+  "date": "2026-08-30",
+  "items": [
+    {
+      "id": "2026-08-30-1",
+      "title": "AI 产品开始要你的全部账号",
+      "angle": "从“授权疲劳”切入，解释为什么本地优先和可审计会成为 AI 产品的新卖点。",
+      "opening": "现在试一个 AI 产品，第一步不是体验功能，而是交出 Gmail、日历、Notion、GitHub 和 Slack。用户不是不想用 AI，而是不想把整个工作流押给一个还没证明价值的新工具。",
+      "story_hook": {
+        "challenge": "AI 应用越想替你做事，就越需要深入你的私人数据和工作系统。",
+        "twist": "真正被市场奖励的，可能不是更聪明的云端助手，而是 no account、no telemetry、本地日志这些看起来“不性感”的设计。"
+      },
+      "takeaway": "做 AI 产品时，把权限请求拆到具体动作后再索取；默认本地、可导出、可审计会比“全接入”更容易建立信任。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Zara Zhang 关于 AI 产品索取 Gmail、日历、Notion 等权限的推文",
+          "url": "https://x.com/zarazhangrui/status/2093950273706430720"
+        },
+        {
+          "tag": "pulse",
+          "ref": "HN 热点：California lawmakers unanimously pass Linux exemption from age-verification law",
+          "url": "https://www.tomshardware.com/software/linux/california-lawmakers-unanimously-pass-linux-exemption-from-age-verification-law-software-distributed-under-the-gpl-mit-bsd-and-apache-licenses-are-exempt"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub 高增长项目 AprilNEA/OpenLogi 强调 no account, no telemetry",
+          "url": "https://github.com/AprilNEA/OpenLogi"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-30-2",
+      "title": "下个插件商店在终端里",
+      "angle": "把 MCP、CLI agent 和 GitHub 高增长 skill 项目放在一起看：开发者工具的新入口正在从聊天框转向可复用技能。",
+      "opening": "archify 一周涨了 14875 星，Claude plugins 和 Cursor plugins 也在涨。与此同时，Guillermo Rauch 在推 `fx` 的 MCP 和 shell 执行能力：agent 的胜负不在会不会聊天，而在能不能稳定跑命令。",
+      "story_hook": {
+        "challenge": "每家 IDE 和 agent 都想成为入口，但开发者不想为每个平台重写一套能力。",
+        "twist": "最值钱的可能不是 agent 本体，而是能跨 Codex、Claude Code、Cursor 复用的 skill 格式和分发层。"
+      },
+      "takeaway": "团队可以先把内部高频流程封装成 agent skill：输入、权限、命令、输出格式固定下来，再考虑发布到不同 agent 平台。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Guillermo Rauch 关于 fx 0.0.7 支持 MCP 和 shell 执行的推文",
+          "url": "https://x.com/rauchg/status/2093736865191076318"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub 周榜 tt-a1i/archify 周增 14875 星",
+          "url": "https://github.com/tt-a1i/archify"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub 周榜 anthropics/claude-plugins-community 周增 2234 星",
+          "url": "https://github.com/anthropics/claude-plugins-community"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-30-3",
+      "title": "便宜 token 可能快结束了",
+      "angle": "从补贴 token、$1 agent computer 和本地加速工具的反差切入，提醒开发者重新算 AI 产品毛利。",
+      "opening": "Nikunj Kothari 说，未来不到 6 个月，算力价格和短缺会真正传导到 token 价格上。另一边 Product Hunt 上已经有人把 agent computer 打到 $1/month，市场同时在赌两件事：更贵的模型，和更便宜的运行环境。",
+      "story_hook": {
+        "challenge": "AI 产品过去靠低价 token 和平台补贴跑通体验，但这些成本迟早会回到账单上。",
+        "twist": "短期最受益的，可能不是模型公司，而是开放 harness、本地运行、云电脑和 agent 执行环境。"
+      },
+      "takeaway": "重新检查产品的单位经济模型：把 token 成本、重试成本、长任务挂起成本单独列出来，优先设计缓存、本地推理或按任务收费。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Nikunj Kothari 关于算力价格传导到 token 价格的推文",
+          "url": "https://x.com/nikunj/status/2093860971781746776"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt Maritime：dedicated computers for AI agents, starting at $1/month",
+          "url": "https://www.producthunt.com/products/maritime"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt oMLX：把 Mac LLM agent 等待从 90 秒降到 5 秒",
+          "url": "https://www.producthunt.com/products/omlx"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-30-4",
+      "title": "AI 应用正在变成作业",
+      "angle": "用 Zara 对同质化的吐槽，对照 Product Hunt 的单点工具热潮，讨论为什么“更好一点”已经不够卖了。",
+      "opening": "Zara Zhang 说，现在每打开一个新 AI 应用都像在做作业：号称同样的事做得更好，但好在哪要试几小时才知道。Product Hunt 今天也很像一张工具地图，会议纪要、视频生成、文件交付、agent 入口全都有，却很少有人能一句话说明非用不可。",
+      "story_hook": {
+        "challenge": "AI 产品数量爆炸，但用户的试用耐心没有跟着增长。",
+        "twist": "越是复杂的 AI 能力，越需要被压缩成一个明确、低摩擦、可付费的动作。"
+      },
+      "takeaway": "新产品首页和 onboarding 不要讲“AI 平台”，而要直接证明一个动作：省多少钱、少等多久、替代哪个现有付费工具。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Zara Zhang 关于 AI 产品同质化和试用疲劳的推文",
+          "url": "https://x.com/zarazhangrui/status/2093944988262371465"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt Ulpaso：Stop paying just to take meeting notes",
+          "url": "https://www.producthunt.com/products/ulpaso"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt Superagent：A home for your AI agents",
+          "url": "https://www.producthunt.com/products/superagent-a-home-for-your-ai-agents"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-30-5",
+      "title": "X 才是 AI 创业者 CRM",
+      "angle": "从 Guillermo Rauch 每条私信都看的习惯，反推 AI builder 如何用公开信号和私信做产品情报系统。",
+      "opening": "Guillermo Rauch 说他每条私信都看，因为里面有新想法、产品短板、潜在人选和投资线索。今天的 pulse 也说明同一件事：GitHub 星标、Google Trends、Product Hunt 定位，正在变成 builder 的实时雷达。",
+      "story_hook": {
+        "challenge": "AI 创业者面对的信息太多，很容易只看大新闻，错过真实用户的细微信号。",
+        "twist": "最有效的竞争情报，可能不是付费报告，而是把 X 私信、GitHub 增长和搜索关联词连成一张小型雷达。"
+      },
+      "takeaway": "每天固定记录 10 条用户原话、3 个高增长 repo、3 个 rising keyword，再用它们反推产品定位和内容选题。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Guillermo Rauch 关于 X 私信是实时情报系统的推文",
+          "url": "https://x.com/rauchg/status/2093803989578170404"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Google Trends：archify 搜索热度暴涨 +9160.5%",
+          "url": "https://trends.google.com/trends/explore?q=archify&date=now+7-d"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub 周榜 openai/codex 周增 7775 星",
+          "url": "https://github.com/openai/codex"
+        }
+      ]
+    }
+  ],
+  "notes": "今日主线很清晰：AI 产品从模型叙事转向 agent 执行层、技能分发、本地优先和低摩擦付费。素材里 builder 一侧偏观点，独立开发者一手营收案例偏少。",
+  "generated_at": "2026-08-30T09:16:32+00:00",
+  "model": "gpt-5.5"
+}
