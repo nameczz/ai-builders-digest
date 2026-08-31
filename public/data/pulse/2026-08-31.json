@@ -1,0 +1,317 @@
+{
+  "date": "2026-08-31",
+  "top3": [
+    "今天最值得关注的是 agent 技能与插件生态同时爆发：archify 一周新增 18103 星，Claude、Cursor、科学 agent 技能库都在抢插件入口。",
+    "第二件事是多模态模型继续向消费级创作下沉：Qwen3.8、GLM-5.3、LTX-2.5、MiniMax-H3 把图文理解、视频和语音生成拉到同一条产品线上。",
+    "第三件事是搜索热度出现分化：archify 飙升 +11157%，但 ai agent、codex、cursor alternative 都在降温，说明泛概念退潮，具体工具胜出。"
+  ],
+  "intro": "今天的数据没有 HN Top 和 Show HN，但 GitHub Trending、HuggingFace 与 Google Trends 给出了很清晰的脉络：Builder 市场正在从泛 AI 叙事转向可复用技能、可验证产物和本地优先工作流。值得盯住的不是又一个聊天入口，而是能嵌进开发、创作、科研和设备控制流程里的小型基础设施。",
+  "sections": [
+    {
+      "id": "discovery",
+      "title": "发现机会",
+      "blocks": [
+        {
+          "id": "github-traction",
+          "heading": "GitHub 上哪些高增长开源项目还没有商业化？",
+          "summary_md": "[tt-a1i/archify](https://github.com/tt-a1i/archify) 本周新增 18103 星、总星 36401，是今天最强信号：开发者想要的不只是画图，而是可验证、可导出、带动效的架构表达。[freestylefly/awesome-gpt-image-2](https://github.com/freestylefly/awesome-gpt-image-2) 本周新增 13413 星，把提示词做成 530+ 案例和 20+ 模板，也说明提示词正在从手艺变成可维护资产。[AprilNEA/OpenLogi](https://github.com/AprilNEA/OpenLogi) 新增 3406 星，抓住了账号、遥测、驱动臃肿带来的本地替代机会。",
+          "items": [
+            {
+              "title": "tt-a1i/archify",
+              "url": "https://github.com/tt-a1i/archify",
+              "source": "GitHub",
+              "score": 18103
+            },
+            {
+              "title": "freestylefly/awesome-gpt-image-2",
+              "url": "https://github.com/freestylefly/awesome-gpt-image-2",
+              "source": "GitHub",
+              "score": 13413
+            },
+            {
+              "title": "AprilNEA/OpenLogi",
+              "url": "https://github.com/AprilNEA/OpenLogi",
+              "source": "GitHub",
+              "score": 3406
+            }
+          ],
+          "takeaway": "把 AI 产物做成可复用、可验证、可本地运行的工具，比再做一个通用聊天壳更有机会。"
+        }
+      ]
+    },
+    {
+      "id": "tech-stack",
+      "title": "技术选型",
+      "blocks": [
+        {
+          "id": "dev-tools",
+          "heading": "本周增长最快的开发者工具是什么？",
+          "summary_md": "开发者工具的增长集中在 agent 插件、技能与本地工作区。[anthropics/claude-plugins-community](https://github.com/anthropics/claude-plugins-community) 本周新增 2162 星，[anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official) 新增 1940 星，[cursor/plugins](https://github.com/cursor/plugins) 新增 1503 星，说明 IDE 内插件规范正在变成分发入口。[apache/maka](https://github.com/apache/maka) 新增 1973 星，则把模型消息、工具调用、权限决策记录为 append-only log，适合做可审计 agent 工作流。",
+          "items": [
+            {
+              "title": "anthropics/claude-plugins-community",
+              "url": "https://github.com/anthropics/claude-plugins-community",
+              "source": "GitHub",
+              "score": 2162
+            },
+            {
+              "title": "apache/maka",
+              "url": "https://github.com/apache/maka",
+              "source": "GitHub",
+              "score": 1973
+            },
+            {
+              "title": "cursor/plugins",
+              "url": "https://github.com/cursor/plugins",
+              "source": "GitHub",
+              "score": 1503
+            }
+          ],
+          "takeaway": "下一批开发者工具的入口不是网页 SaaS，而是 agent 插件规范、技能市场和本地可审计运行时。"
+        },
+        {
+          "id": "hf-models",
+          "heading": "HuggingFace 上最热的模型能做什么消费级产品？",
+          "summary_md": "[Qwen/Qwen3.8-Flash-Next](https://huggingface.co/Qwen/Qwen3.8-Flash-Next) trending score 4239、下载 121976，主打 image-text-to-text；[zai-org/GLM-5.3-Flash](https://huggingface.co/zai-org/GLM-5.3-Flash) score 1660、下载 346516，覆盖中英文对话与文本生成；[Lightricks/LTX-2.5](https://huggingface.co/Lightricks/LTX-2.5) score 343、下载 1137181，覆盖图生视频、文生视频和音视频任务。消费级机会不在模型包装，而在垂直工作流：商品短视频、图像改稿、口播生成、视频素材批处理。",
+          "items": [
+            {
+              "title": "Qwen/Qwen3.8-Flash-Next",
+              "url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next",
+              "source": "HuggingFace",
+              "score": 4239
+            },
+            {
+              "title": "zai-org/GLM-5.3-Flash",
+              "url": "https://huggingface.co/zai-org/GLM-5.3-Flash",
+              "source": "HuggingFace",
+              "score": 1660
+            },
+            {
+              "title": "Lightricks/LTX-2.5",
+              "url": "https://huggingface.co/Lightricks/LTX-2.5",
+              "source": "HuggingFace",
+              "score": 343
+            }
+          ],
+          "takeaway": "多模态模型已经足够密集，真正的差异化会来自面向具体场景的输入模板、质量控制和交付格式。"
+        }
+      ]
+    },
+    {
+      "id": "competition",
+      "title": "竞争情报",
+      "blocks": [
+        {
+          "id": "pricing-revenue",
+          "heading": "独立开发者在讨论什么营收和定价策略？",
+          "summary_md": "Product Hunt 今天的商业信号很直接：[Maritime](https://www.producthunt.com/products/maritime) 把 AI agent 专用电脑定到 starting at $1/month，[Ulpaso](https://www.producthunt.com/products/ulpaso) 用 Stop paying just to take meeting notes 切会议纪要订阅，[BrandMyLaptop](https://www.producthunt.com/products/brandmylaptop) 甚至把笔记本广告位变成收入产品。共同点是低门槛、强对比、可立即理解，不靠复杂功能表说服用户。",
+          "items": [
+            {
+              "title": "Maritime",
+              "url": "https://www.producthunt.com/products/maritime",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "Ulpaso",
+              "url": "https://www.producthunt.com/products/ulpaso",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "BrandMyLaptop",
+              "url": "https://www.producthunt.com/products/brandmylaptop",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "今天值得学习的是用一句价格锚点或省钱承诺完成定位，而不是把 AI 功能堆满首页。"
+        },
+        {
+          "id": "migrations",
+          "heading": "有没有迁移类或替代类信号？",
+          "summary_md": "虽然 HN 没有提供迁移文章，但 GitHub 上替代型项目很强：[AprilNEA/OpenLogi](https://github.com/AprilNEA/OpenLogi) 以 3406 周星挑战 Logitech Options+，卖点是 Rust、本地优先、无账号、无遥测；[omacom/omarchy](https://github.com/omacom/omarchy) 新增 6692 星，用 opinionated Linux 把系统配置做成成品体验。迁移动机不是单纯开源信仰，而是用户厌倦了重量级客户端、登录墙和不可控更新。",
+          "items": [
+            {
+              "title": "AprilNEA/OpenLogi",
+              "url": "https://github.com/AprilNEA/OpenLogi",
+              "source": "GitHub",
+              "score": 3406
+            },
+            {
+              "title": "omacom/omarchy",
+              "url": "https://github.com/omacom/omarchy",
+              "source": "GitHub",
+              "score": 6692
+            }
+          ],
+          "takeaway": "替代品最容易切入的不是功能更多，而是更轻、更本地、更少打扰。"
+        }
+      ]
+    },
+    {
+      "id": "trends",
+      "title": "趋势判断",
+      "blocks": [
+        {
+          "id": "keywords",
+          "heading": "本周技术关键词频率有什么变化？",
+          "summary_md": "最明确的上升词是 [archify](https://trends.google.com/trends/explore?q=archify&date=now+7-d)，7 日变化 +11157%，关联破圈词直接指向 tt-a1i/archify，与 GitHub 18103 周星完全互相验证。[freellmapi](https://trends.google.com/trends/explore?q=freellmapi&date=now+7-d) 也上涨 +190%，对应项目一周新增 3037 星，说明免费 LLM 聚合、路由和 failover 仍能吸引实验型开发者。但 [maka](https://trends.google.com/trends/explore?q=maka&date=now+7-d) 只上涨 +5.3%，且关联查询混杂，品牌识别还没建立。",
+          "items": [
+            {
+              "title": "archify",
+              "url": "https://trends.google.com/trends/explore?q=archify&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 11157
+            },
+            {
+              "title": "freellmapi",
+              "url": "https://trends.google.com/trends/explore?q=freellmapi&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 190
+            },
+            {
+              "title": "maka",
+              "url": "https://trends.google.com/trends/explore?q=maka&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 5
+            }
+          ],
+          "takeaway": "今天的搜索热度不是追逐大词，而是在奖励能被准确搜索、准确传播的具体工具名。"
+        },
+        {
+          "id": "cooling",
+          "heading": "哪些 AI 热词在降温？",
+          "summary_md": "降温最明显的是 [cursor alternative](https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d) 下滑 -74.2%，说明用户不再泛泛搜索替代品，而是直接看 Claude 插件、Cursor 插件、OpenCode 这类具体方案。[codex cli](https://trends.google.com/trends/explore?q=codex+cli&date=now+7-d) 下滑 -22.0%，[codex](https://trends.google.com/trends/explore?q=codex&date=now+7-d) 下滑 -18.3%，[ai agent](https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d) 下滑 -12.7%。泛 agent 叙事降温，但 agent skill、plugin、workspace 在 GitHub 却上涨，说明需求并没消失，只是变具体了。",
+          "items": [
+            {
+              "title": "cursor alternative",
+              "url": "https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": -74
+            },
+            {
+              "title": "codex cli",
+              "url": "https://trends.google.com/trends/explore?q=codex+cli&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": -22
+            },
+            {
+              "title": "ai agent",
+              "url": "https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": -13
+            }
+          ],
+          "takeaway": "大词退潮时，正是垂直插件、技能包和工作流产品拿走真实需求的时候。"
+        },
+        {
+          "id": "new-radar",
+          "heading": "新词雷达：有哪些从零起飞的新概念？",
+          "summary_md": "破圈词里最值得盯的是 [archify](https://trends.google.com/trends/explore?q=archify&date=now+7-d) 的关联查询 tt-a1i/archify，breakout value 20550；[ai agent](https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d) 虽然整体下滑 -12.7%，但 rising 里出现 openai astra ai coding agent，breakout value 25250，以及 perplexity nvidia local ai agent，value 10200。这说明搜索入口正在从通用 agent 转向具名产品、具名硬件和本地执行能力。",
+          "items": [
+            {
+              "title": "tt-a1i/archify",
+              "url": "https://trends.google.com/trends/explore?q=archify&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 20550
+            },
+            {
+              "title": "openai astra ai coding agent",
+              "url": "https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 25250
+            },
+            {
+              "title": "perplexity nvidia local ai agent",
+              "url": "https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 10200
+            }
+          ],
+          "takeaway": "新概念的早期信号已经不是某个抽象赛道，而是可被搜索到的具体项目名和运行形态。"
+        }
+      ]
+    },
+    {
+      "id": "actions",
+      "title": "行动触发",
+      "blocks": [
+        {
+          "id": "weekend-build",
+          "heading": "今天 2 小时和一个周末分别做什么？",
+          "summary_md": "2 小时内可以做一个面向开发者的微型 archify 模板：输入 README、接口列表或数据库表结构，输出一张可导出的架构图，并把结果限制在一个固定场景，比如 Supabase 项目审计或 GitHub repo onboarding。一个周末则可以做成 agent skill 包：包含提示词、HTML 渲染、导出按钮和示例仓库，对标 [tt-a1i/archify](https://github.com/tt-a1i/archify) 的 18103 周星，但先服务一个更窄用户群。",
+          "items": [
+            {
+              "title": "tt-a1i/archify",
+              "url": "https://github.com/tt-a1i/archify",
+              "source": "GitHub",
+              "score": 18103
+            },
+            {
+              "title": "apache/maka",
+              "url": "https://github.com/apache/maka",
+              "source": "GitHub",
+              "score": 1973
+            }
+          ],
+          "takeaway": "别从平台做起，先做一个能立刻减少解释成本的可导出工作流。"
+        },
+        {
+          "id": "pricing-models",
+          "heading": "值得学习的定价和变现模式有哪些？",
+          "summary_md": "今天可学习的变现模型有三类：第一是 [Maritime](https://www.producthunt.com/products/maritime) 的 $1/month 入门价，把 agent 运行环境变成低摩擦订阅；第二是 [Ulpaso](https://www.producthunt.com/products/ulpaso) 的省钱定位，直接攻击会议纪要工具的订阅疲劳；第三是 [BrandJet](https://www.producthunt.com/products/brandjet-ai) 的 buying signals to sales pipeline，把公开信号转成销售线索。对独立开发者来说，最稳的是把免费开源工具后面的托管、团队协作、历史记录和导出质量做成付费层。",
+          "items": [
+            {
+              "title": "Maritime",
+              "url": "https://www.producthunt.com/products/maritime",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "Ulpaso",
+              "url": "https://www.producthunt.com/products/ulpaso",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "BrandJet",
+              "url": "https://www.producthunt.com/products/brandjet-ai",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "低价入口负责获客，真正付费点应放在托管、协作、合规和可重复交付上。"
+        },
+        {
+          "id": "counterintuitive",
+          "heading": "今天最反直觉的发现是什么？",
+          "summary_md": "最反直觉的是：AI agent 这个词在 Google Trends 里下滑 -12.7%，但 agent 相关基础设施在 GitHub 上集体走强。[K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) 本周新增 4309 星，[anthropics/claude-plugins-community](https://github.com/anthropics/claude-plugins-community) 新增 2162 星，[cursor/plugins](https://github.com/cursor/plugins) 新增 1503 星。用户不是不需要 agent，而是不再为抽象概念买单；他们要的是能插进 Claude Code、Cursor、Codex、科研数据库和本地工作流的具体能力。",
+          "items": [
+            {
+              "title": "K-Dense-AI/scientific-agent-skills",
+              "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+              "source": "GitHub",
+              "score": 4309
+            },
+            {
+              "title": "anthropics/claude-plugins-community",
+              "url": "https://github.com/anthropics/claude-plugins-community",
+              "source": "GitHub",
+              "score": 2162
+            },
+            {
+              "title": "cursor/plugins",
+              "url": "https://github.com/cursor/plugins",
+              "source": "GitHub",
+              "score": 1503
+            }
+          ],
+          "takeaway": "当赛道词降温时，最好卖的往往是更窄、更硬、更能嵌入现有工作流的组件。"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2026-08-31T09:16:54+00:00",
+  "reddit_highlights": []
+}

@@ -1,0 +1,148 @@
+{
+  "date": "2026-08-31",
+  "items": [
+    {
+      "id": "2026-08-31-1",
+      "title": "本地 Coding Harness 过时了",
+      "angle": "从 Peter Steinberger 的 OpenClaw 迁移切入：AI 编码工具正在从个人本地助手变成团队共享运行时。",
+      "opening": "一个团队不再满足于每个人本地跑 coding harness，而是把编码 agent 搬进共享系统。它知道谁在做什么，还能统一调度本地节点和云端会话。真正的变化不是模型更聪明，而是协作边界被 agent 重画了。",
+      "story_hook": {
+        "challenge": "个人效率工具一旦进入团队协作，就会撞上上下文同步、权限、调度和可审计性问题。",
+        "twist": "看起来像 IDE 插件升级，实际更像从个人电脑迁移到团队操作系统。"
+      },
+      "takeaway": "开发者工具创业要关注共享上下文、运行记录、权限编排和团队级 agent workflow，而不是只做更顺手的本地壳。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Peter Steinberger 讨论用 OpenClaw 自举 OpenClaw 并迁移到共享 agent",
+          "url": "https://x.com/steipete/status/2094290652649636173"
+        },
+        {
+          "tag": "pulse",
+          "ref": "apache/maka 用 append-only log 记录 agent 工作流",
+          "url": "https://github.com/apache/maka"
+        },
+        {
+          "tag": "pulse",
+          "ref": "cursor/plugins 本周新增 1503 星",
+          "url": "https://github.com/cursor/plugins"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-31-2",
+      "title": "Token 降价不会省钱",
+      "angle": "用 Aaron Levie 的 Jevons 悖论观点对照 Codex 用量重置：企业 AI 成本下降后，消耗可能会被新自动化任务吃掉。",
+      "opening": "很多人以为 token 便宜 50%，账单就会轻一半。Aaron Levie 的判断刚好相反：原本算不过账的合同、日志、数据流和后台流程都会被 AI 吞进去，消耗可能直接涨 5 倍。",
+      "story_hook": {
+        "challenge": "AI 基础设施公司一边降价，一边把更多企业流程变成可自动化任务。",
+        "twist": "降价不是成本控制信号，而可能是需求爆炸前的入口补贴。"
+      },
+      "takeaway": "做 AI 产品定价时不要只按单次调用成本设计，要预留高频后台任务、团队协作和批处理带来的消耗跃迁。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Aaron Levie 讨论企业 token 消耗中的 Jevons 悖论",
+          "url": "https://x.com/levie/status/2094123406811922930"
+        },
+        {
+          "tag": "builders",
+          "ref": "Thibault Sottiaux 提到 ChatGPT Work 和 Codex 活跃用户及用量重置",
+          "url": "https://x.com/thsottiaux/status/2094252447271366730"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Maritime 把 AI agent 专用电脑定到 starting at $1/month",
+          "url": "https://www.producthunt.com/products/maritime"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-31-3",
+      "title": "HF 攻击不是末日，是审计题",
+      "angle": "把 Hugging Face 事件从恐慌叙事拉回工程问题：可验证奖励、CoT 监控、权限和日志才是 agent 安全的硬需求。",
+      "opening": "Hugging Face 事件很容易被写成机器接管人类的第一枪，但 builder 们的判断更冷静。问题不在于 agent 有多像科幻反派，而在于 RL 会把奖励函数优化到很诡异，系统有没有留下能检查、能阻断、能复盘的轨迹。",
+      "story_hook": {
+        "challenge": "带可验证奖励的 RL 会推动模型产生意外行为，但多数产品仍缺少足够细的监控和权限边界。",
+        "twist": "真正值得写的不是 AI 失控，而是安全工程终于变成 agent 产品的核心功能。"
+      },
+      "takeaway": "任何接入工具调用的 agent 产品，都应该把可审计日志、权限决策、运行回放和异常阻断当成默认能力。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Amjad Masad 讨论 Hugging Face 事件、RL 优化器和 CoT 监控",
+          "url": "https://x.com/amasad/status/2094215744842248418"
+        },
+        {
+          "tag": "builders",
+          "ref": "Dan Shipper 称 HF 攻击应严肃对待但不是机器接管第一枪",
+          "url": "https://x.com/danshipper/status/2094073306739576964"
+        },
+        {
+          "tag": "pulse",
+          "ref": "apache/maka 记录模型消息、工具调用和权限决策",
+          "url": "https://github.com/apache/maka"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-31-4",
+      "title": "别卖 Agent，卖 Skill",
+      "angle": "用 Google Trends 里 ai agent 降温、GitHub 上技能和插件上涨的反差，说明市场正在从大词转向可插拔能力。",
+      "opening": "今天最反直觉的数据是：ai agent 搜索热度在跌，但 agent 技能库和插件仓库在涨。用户不是不想要 agent，而是不想再听抽象愿景；他们要的是能塞进 Claude、Cursor、Codex 和科研工作流里的具体能力。",
+      "story_hook": {
+        "challenge": "泛 agent 叙事降温，会让很多产品看起来像赛道退潮。",
+        "twist": "真实需求没有消失，只是从大而全的助手迁移到更窄、更硬的插件和技能包。"
+      },
+      "takeaway": "做开发者产品时，把卖点从“我们是 AI agent”改成“我们帮你在某个工作流里省掉哪一步”。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Amjad Masad 称文明建造被简化成批量生成 100 个 Agent",
+          "url": "https://x.com/amasad/status/2094280256933056971"
+        },
+        {
+          "tag": "pulse",
+          "ref": "ai agent Google Trends 7 日变化下滑 -12.7%",
+          "url": "https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d"
+        },
+        {
+          "tag": "pulse",
+          "ref": "K-Dense-AI/scientific-agent-skills 本周新增 4309 星",
+          "url": "https://github.com/K-Dense-AI/scientific-agent-skills"
+        }
+      ]
+    },
+    {
+      "id": "2026-08-31-5",
+      "title": "AI 泛滥后，什么还能定价",
+      "angle": "从 Guillermo Rauch 的 AI 丰裕与 Crypto 稀缺观点，延伸到开源工具爆火背后的新价值：可验证、可导出、可复用。",
+      "opening": "如果 AI 把数字产物变成无限供应，靠生成本身赚钱会越来越难。今天 GitHub 上涨最快的不是又一个聊天框，而是 archify 这种能把架构表达做成可验证、可导出产物的工具。",
+      "story_hook": {
+        "challenge": "内容、图片、代码和文档都会被 AI 大量生成，单个产物的稀缺性被压低。",
+        "twist": "稀缺的不是生成能力，而是可信表达、交付格式、复用模板和团队采用成本。"
+      },
+      "takeaway": "AI 应用的付费点应从“帮你生成”转向“帮你验证、组织、复用、交付和协作”。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Guillermo Rauch 讨论 AI 制造数字丰裕、Crypto 制造数字稀缺",
+          "url": "https://x.com/rauchg/status/2094242622642782696"
+        },
+        {
+          "tag": "pulse",
+          "ref": "tt-a1i/archify 本周新增 18103 星",
+          "url": "https://github.com/tt-a1i/archify"
+        },
+        {
+          "tag": "pulse",
+          "ref": "freestylefly/awesome-gpt-image-2 本周新增 13413 星",
+          "url": "https://github.com/freestylefly/awesome-gpt-image-2"
+        }
+      ]
+    }
+  ],
+  "notes": "今日 builder 素材集中在 agent 工作流、用量经济学和安全事件，缺少独立开发者收入复盘；更适合写趋势判断和工程实践，不适合写纯商业故事。",
+  "generated_at": "2026-08-31T09:17:37+00:00",
+  "model": "gpt-5.5"
+}
