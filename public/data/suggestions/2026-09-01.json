@@ -1,0 +1,148 @@
+{
+  "date": "2026-09-01",
+  "items": [
+    {
+      "id": "2026-09-01-1",
+      "title": "数据公司不想再租模型了",
+      "angle": "从 Aaron Levie 的判断切入：开源模型和后训练成熟后，垂直行业公司会从“卖数据”转向“自己造模型”。",
+      "opening": "过去的生意是：你有行业数据，大模型厂商来买授权。Aaron Levie 今天提醒，下一阶段可能反过来：有数据的公司不再只出租原料，而是自己训练垂直模型。",
+      "story_hook": {
+        "challenge": "通用前沿模型仍然最强，但垂直场景里真正稀缺的是数据和分发。",
+        "twist": "开源基础模型越强，反而越削弱大模型厂商对行业数据的议价权。"
+      },
+      "takeaway": "判断一个 AI 垂直产品是否有护城河，要看它能否沉淀专有数据并形成后训练闭环，而不是只看调用了哪个模型。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Aaron Levie 关于垂直模型和企业数据的推文",
+          "url": "https://x.com/levie/status/2094650992818274514"
+        },
+        {
+          "tag": "pulse",
+          "ref": "HuggingFace Trending：Qwen3.8-Flash-Next trending_score 4,328",
+          "url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next"
+        },
+        {
+          "tag": "pulse",
+          "ref": "HuggingFace Trending：GLM-5.3-Flash 下载 379,271",
+          "url": "https://huggingface.co/zai-org/GLM-5.3-Flash"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-01-2",
+      "title": "Agent 不缺能力，缺信任",
+      "angle": "把 Peter Yang 的“信任门槛”放到本地 Agent、隐私路由和代码安全产品一起看：Agent 普及的卡点不是模型智商。",
+      "opening": "个人智能体最难卖的不是“能帮你做什么”，而是“你敢不敢让它做”。Peter Yang 今天说，信任会同时成为个人 Agent 最大门槛和最大推动力。",
+      "story_hook": {
+        "challenge": "Agent 越有用，就越需要访问文件、账号、会议、代码和上下文。",
+        "twist": "真正能让用户掏钱的，可能不是更聪明的 Agent，而是更可控、更可审计的 Agent。"
+      },
+      "takeaway": "做个人 Agent 产品时，应优先设计权限边界、可回滚操作、日志审计和本地执行策略，而不是只堆任务能力。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Peter Yang 关于个人智能体信任问题的推文",
+          "url": "https://x.com/petergyang/status/2094639655258091792"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt：Naseem 原生 Mac AI Agent",
+          "url": "https://www.producthunt.com/products/naseem-2"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt：TrustedRouter 模型路由与隐私审计方向",
+          "url": "https://www.producthunt.com/products/trustedrouter"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-01-3",
+      "title": "设计系统变成 DESIGN.md",
+      "angle": "从 Guillermo Rauch 的 DESIGN.md 观点切入，讨论 AI 编程时代设计品味如何从 Figma 组件迁移到可执行规则。",
+      "opening": "大组织的 AI 产物为什么总有一股廉价感？Guillermo Rauch 给了一个很直接的答案：下一个设计系统可能不是 Figma 组件库，而是一份 AI 能读懂的 DESIGN.md。",
+      "story_hook": {
+        "challenge": "AI 能快速生成界面，但很难稳定继承团队的设计判断和产品品味。",
+        "twist": "设计系统的核心资产可能不再是组件截图，而是写给 Agent 执行的规则。"
+      },
+      "takeaway": "团队可以把布局、文案、交互、颜色、组件禁忌写成仓库级 DESIGN.md，让 AI 生成结果先被规则约束。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Guillermo Rauch 关于 DESIGN.md 的推文",
+          "url": "https://x.com/rauchg/status/2094541309579235680"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub Trending：tt-a1i/archify 周增 22,095 星",
+          "url": "https://github.com/tt-a1i/archify"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub Trending：cursor/plugins 周增 1,479 星",
+          "url": "https://github.com/cursor/plugins"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-01-4",
+      "title": "AI Token 要按云资源管了",
+      "angle": "把 AI Gateway 的 token 治理和 GPU 成本透明化放在一起看：AI 成本正在从账单黑盒变成基础设施指标。",
+      "opening": "很多公司还在把 coding token 当免费空气用。Guillermo Rauch 今天的比喻很狠：这就像把无限制 AWS key 发给所有人，然后让实习生用 192 vCPU 托管静态网页。",
+      "story_hook": {
+        "challenge": "AI 调用已经进入核心工作流，但预算、归因、限额和观测还停留在粗放阶段。",
+        "twist": "下一批 AI 基础设施机会，可能不是更便宜的模型，而是让每一次调用都能被治理。"
+      },
+      "takeaway": "团队应尽快按用户、项目、key 和任务类型建立 token 预算与告警，把 AI 成本纳入工程治理。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Guillermo Rauch 关于 AI Gateway 和 token 预算的推文",
+          "url": "https://x.com/rauchg/status/2094523399280435630"
+        },
+        {
+          "tag": "pulse",
+          "ref": "HN：GPU World 209 分、95 条评论",
+          "url": "https://www.gpuworld.org/"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt：Computable GPU Index",
+          "url": "https://www.producthunt.com/products/computable-gpu-index-cgi"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-01-5",
+      "title": "PM 要会预测模型路线图",
+      "angle": "从 Madhu Guru 的 PM 要懂模型边界切入：AI 产品经理的核心能力正在从写需求变成押注模型能力曲线。",
+      "opening": "AI 产品经理现在不能只问“这个模型能不能做”。Madhu Guru 今天说得更狠：PM 必须知道不同尺寸模型会在哪失败，还要判断 2-3 个月后模型会变成什么样。",
+      "story_hook": {
+        "challenge": "产品路线图的节奏，正在被模型能力更新速度打乱。",
+        "twist": "最危险的 PM 不是不懂用户，而是不知道哪些功能该等模型、哪些必须绕模型做工程补丁。"
+      },
+      "takeaway": "做 AI 产品规划时，要把模型边界、失败模式、替代方案和未来 2-3 个月能力假设写进 PRD。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Madhu Guru 关于 AI PM 必须理解模型边界的推文",
+          "url": "https://x.com/realmadhuguru/status/2094591503981281503"
+        },
+        {
+          "tag": "pulse",
+          "ref": "HuggingFace Trending：Lightricks/LTX-2.5 下载 1,182,585",
+          "url": "https://huggingface.co/Lightricks/LTX-2.5"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Google Trends：codex cli 下降 -15.9%",
+          "url": "https://trends.google.com/trends/explore?q=codex+cli&date=now+7-d"
+        }
+      ]
+    }
+  ],
+  "notes": "今日主线很清晰：Agent 口号降温，但可执行技能、插件、成本治理、信任机制和垂直模型在升温。独立开发者素材偏少，适合写趋势判断和产品方法论。",
+  "generated_at": "2026-09-01T09:16:55+00:00",
+  "model": "gpt-5.5"
+}
