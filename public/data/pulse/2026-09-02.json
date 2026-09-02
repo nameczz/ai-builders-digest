@@ -1,0 +1,317 @@
+{
+  "date": "2026-09-02",
+  "top3": [
+    "今天最值得关注的是 Agent Skill 和插件生态同时升温：archify 周增 25469 星，Claude 与 Cursor 插件仓库也进入高增长区。",
+    "OpenMAIC 搜索热度 +999.0%，GitHub 周增 8014 星，说明多智能体教育场景正在从概念演示变成可分发产品。",
+    "HuggingFace 热榜被轻量多模态与视频模型占据，Qwen3.8-Flash-Next、GLM-5.3-Flash、LTX-2.5 都指向低成本消费级创作工具。"
+  ],
+  "intro": "今天的主线不是单个大模型，而是围绕 Agent 的可组合能力：插件、Skill、可视化工作流、教育场景和本地工具都在涨。对 Builder 来说，机会更像是把模型能力包装成具体任务入口，而不是再做一个泛聊天产品。",
+  "sections": [
+    {
+      "id": "discovery",
+      "title": "发现机会",
+      "blocks": [
+        {
+          "id": "indie-products",
+          "heading": "今天有哪些独立开发者的新产品？",
+          "summary_md": "HN Show HN 今天没有采集到项目，Product Hunt 则集中在桌面增强、Agent 工具和垂直 AI。值得看的是 [Dynamic Edge](https://www.producthunt.com/products/dynamic-edge)，主打 Windows 版 Dynamic Island，采集数据未提供票数与评论数；[Doop](https://www.producthunt.com/products/doop) 把 AI agent 放到同一设计画布；[Onset MCP](https://www.producthunt.com/products/onset-io) 则切 release notes 这个高频但低意愿任务。这里的信号是小产品不再强调大而全，而是在系统边缘做一个强入口。",
+          "items": [
+            {
+              "title": "Dynamic Edge",
+              "url": "https://www.producthunt.com/products/dynamic-edge",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "Doop",
+              "url": "https://www.producthunt.com/products/doop",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "Onset MCP",
+              "url": "https://www.producthunt.com/products/onset-io",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "今天独立产品的机会在操作系统边缘和 Agent 工作流入口，而不是再造完整平台。"
+        },
+        {
+          "id": "github-traction",
+          "heading": "GitHub 上哪些高增长开源项目还没有商业化？",
+          "summary_md": "GitHub 周榜最强信号是 [tt-a1i/archify](https://github.com/tt-a1i/archify) 周增 25469 星，总星 42864，用 Agent Skill 生成可验证架构图；[THU-MAIC/OpenMAIC](https://github.com/THU-MAIC/OpenMAIC) 周增 8014 星，总星 30056，切多智能体课堂；[every-app/open-seo](https://github.com/every-app/open-seo) 周增 2625 星，总星 16232，定位 Semrush 和 Ahrefs 的开源替代。它们都已经有清晰用户任务，但商业层还不明显，适合做托管版、团队协作版或模板市场。",
+          "items": [
+            {
+              "title": "tt-a1i/archify",
+              "url": "https://github.com/tt-a1i/archify",
+              "source": "GitHub",
+              "score": 25469
+            },
+            {
+              "title": "THU-MAIC/OpenMAIC",
+              "url": "https://github.com/THU-MAIC/OpenMAIC",
+              "source": "GitHub",
+              "score": 8014
+            },
+            {
+              "title": "every-app/open-seo",
+              "url": "https://github.com/every-app/open-seo",
+              "source": "GitHub",
+              "score": 2625
+            }
+          ],
+          "takeaway": "高增长开源项目正在从模型封装转向可交付工作件，商业化可围绕协作、托管和模板展开。"
+        }
+      ]
+    },
+    {
+      "id": "tech-stack",
+      "title": "技术选型",
+      "blocks": [
+        {
+          "id": "dev-tools",
+          "heading": "本周增长最快的开发者工具是什么？",
+          "summary_md": "开发者工具榜的核心不是 IDE 本身，而是 IDE 周边协议和能力市场。[anthropics/claude-plugins-community](https://github.com/anthropics/claude-plugins-community) 周增 1634 星，总星 3220；[cursor/plugins](https://github.com/cursor/plugins) 周增 1377 星，总星 6588；再加上 [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) 周增 6962 星，总星 41897，说明 Skill 正在变成 Agent 的新包管理形态。选型上应优先兼容 Claude Code、Cursor、Codex 这类宿主，而不是绑定单一模型 API。",
+          "items": [
+            {
+              "title": "anthropics/claude-plugins-community",
+              "url": "https://github.com/anthropics/claude-plugins-community",
+              "source": "GitHub",
+              "score": 1634
+            },
+            {
+              "title": "cursor/plugins",
+              "url": "https://github.com/cursor/plugins",
+              "source": "GitHub",
+              "score": 1377
+            },
+            {
+              "title": "K-Dense-AI/scientific-agent-skills",
+              "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+              "source": "GitHub",
+              "score": 6962
+            }
+          ],
+          "takeaway": "Agent 时代的开发者工具要把自己做成可安装、可组合、可迁移的能力单元。"
+        },
+        {
+          "id": "hf-models",
+          "heading": "HuggingFace 上最热的模型能做什么消费级产品？",
+          "summary_md": "HuggingFace 模型热榜明显偏向低延迟多模态。[Qwen/Qwen3.8-Flash-Next](https://huggingface.co/Qwen/Qwen3.8-Flash-Next) 趋势分 2128、下载 207941，适合做图文客服、截图问答和移动端助理；[zai-org/GLM-5.3-Flash](https://huggingface.co/zai-org/GLM-5.3-Flash) 趋势分 1786、下载 441348，MIT 许可更适合商业试验；[Lightricks/LTX-2.5](https://huggingface.co/Lightricks/LTX-2.5) 趋势分 341、下载 1232274，指向短视频二创、商品动效和低成本广告素材。",
+          "items": [
+            {
+              "title": "Qwen/Qwen3.8-Flash-Next",
+              "url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next",
+              "source": "HuggingFace",
+              "score": 2128
+            },
+            {
+              "title": "zai-org/GLM-5.3-Flash",
+              "url": "https://huggingface.co/zai-org/GLM-5.3-Flash",
+              "source": "HuggingFace",
+              "score": 1786
+            },
+            {
+              "title": "Lightricks/LTX-2.5",
+              "url": "https://huggingface.co/Lightricks/LTX-2.5",
+              "source": "HuggingFace",
+              "score": 341
+            }
+          ],
+          "takeaway": "消费级 AI 产品的窗口正在从纯文本助手转向低延迟图文理解和可编辑视频生成。"
+        }
+      ]
+    },
+    {
+      "id": "competition",
+      "title": "竞争情报",
+      "blocks": [
+        {
+          "id": "migrations",
+          "heading": "有没有「XX is dead」或迁移类文章？",
+          "summary_md": "HN 今天没有出现明显的「XX is dead」或迁移文章，但 GitHub 与 Product Hunt 的替代品叙事很强。[OpenCut-app/OpenCut](https://github.com/OpenCut-app/OpenCut) 周增 2630 星，总星 88436，明示开源 CapCut 替代；[every-app/open-seo](https://github.com/every-app/open-seo) 周增 2625 星，总星 16232，直接对标 Semrush 和 Ahrefs；Product Hunt 上 [RoundOS](https://www.producthunt.com/products/roundos-data-room) 标注 Free Docsend alternative。竞争信号不是用户逃离某个产品，而是开源替代开始围绕价格、隐私和本地控制打包。",
+          "items": [
+            {
+              "title": "OpenCut-app/OpenCut",
+              "url": "https://github.com/OpenCut-app/OpenCut",
+              "source": "GitHub",
+              "score": 2630
+            },
+            {
+              "title": "every-app/open-seo",
+              "url": "https://github.com/every-app/open-seo",
+              "source": "GitHub",
+              "score": 2625
+            },
+            {
+              "title": "RoundOS",
+              "url": "https://www.producthunt.com/products/roundos-data-room",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "今天的迁移机会藏在替代品定位里，尤其是创作、SEO 和销售资料室这类高价格 SaaS。"
+        }
+      ]
+    },
+    {
+      "id": "trends",
+      "title": "趋势判断",
+      "blocks": [
+        {
+          "id": "keywords",
+          "heading": "本周技术关键词频率有什么变化？",
+          "summary_md": "Google Trends 与 GitHub 同向指向 Agent 基础设施。[openmaic](https://trends.google.com/trends/explore?q=openmaic&date=now+7-d) 上涨 +999.0%，同时 OpenMAIC 周增 8014 星；[archify](https://trends.google.com/trends/explore?q=archify&date=now+7-d) 上涨 +155.6%，对应 GitHub 周增 25469 星；[codex cli](https://trends.google.com/trends/explore?q=codex+cli&date=now+7-d) 上涨 +18.2%，关联查询却是报错和 changelog。关键词变化说明市场关注从抽象 Agent 转向可安装、可运行、可调试的具体工具链。",
+          "items": [
+            {
+              "title": "openmaic",
+              "url": "https://trends.google.com/trends/explore?q=openmaic&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 999
+            },
+            {
+              "title": "archify",
+              "url": "https://trends.google.com/trends/explore?q=archify&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 155.6
+            },
+            {
+              "title": "codex cli",
+              "url": "https://trends.google.com/trends/explore?q=codex+cli&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 18.2
+            }
+          ],
+          "takeaway": "热度正在从 AI 概念词迁移到 Agent 工具链的具体名词和报错场景。"
+        },
+        {
+          "id": "cooling",
+          "heading": "哪些 AI 热词在降温？",
+          "summary_md": "降温项里最值得注意的是 [cursor alternative](https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d) 下滑 -22.2%，这不代表 Cursor 生态变弱，反而说明用户不再只搜索替代品，而是直接进入插件与工作流层。[awesome gpt image 2](https://trends.google.com/trends/explore?q=awesome+gpt+image+2&date=now+7-d) 下滑 -100.0%，但 GitHub 上 awesome-gpt-image-2 仍周增 10669 星，说明提示词模板库的传播可能从搜索迁移到了社区收藏与转发。",
+          "items": [
+            {
+              "title": "cursor alternative",
+              "url": "https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": -22.2
+            },
+            {
+              "title": "awesome gpt image 2",
+              "url": "https://trends.google.com/trends/explore?q=awesome+gpt+image+2&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": -100
+            }
+          ],
+          "takeaway": "降温的不是 AI 编程和图像生成，而是泛化搜索词，用户正在转向具体仓库和生态入口。"
+        },
+        {
+          "id": "new-radar",
+          "heading": "新词雷达：有哪些从零起飞的新概念？",
+          "summary_md": "新词雷达里，[archify](https://trends.google.com/trends/explore?q=archify&date=now+7-d) 的关联查询出现 orca +52850、tt-a1i/archify +27500，是今天最强弱信号；[codex cli](https://trends.google.com/trends/explore?q=codex+cli&date=now+7-d) 的 rising 包含 unable to locate the codex cli binary、codex cli changelog，说明安装和版本兼容会成为内容机会；[ai agent](https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d) 关联 openai astra ai coding agent +27050，显示编码 Agent 仍是破圈入口。",
+          "items": [
+            {
+              "title": "orca",
+              "url": "https://trends.google.com/trends/explore?q=archify&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 52850
+            },
+            {
+              "title": "tt-a1i/archify",
+              "url": "https://trends.google.com/trends/explore?q=archify&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 27500
+            },
+            {
+              "title": "openai astra ai coding agent",
+              "url": "https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 27050
+            }
+          ],
+          "takeaway": "今天的新词机会在 Agent 可视化、CLI 故障排查和编码 Agent 品牌词。"
+        }
+      ]
+    },
+    {
+      "id": "actions",
+      "title": "行动触发",
+      "blocks": [
+        {
+          "id": "weekend-build",
+          "heading": "今天 2 小时和一个周末分别做什么？",
+          "summary_md": "2 小时可以做一个 Codex CLI 故障诊断页，专门覆盖 [codex cli](https://trends.google.com/trends/explore?q=codex+cli&date=now+7-d) 里 rising 的 unable to locate the codex cli binary，并附不同编辑器的修复路径。一个周末则适合做 archify 风格的架构图生成小工具：输入 README、repo URL 或需求文档，输出 HTML 动态图、PNG 导出和可复制 prompt。参考 [tt-a1i/archify](https://github.com/tt-a1i/archify) 周增 25469 星，这类工具的需求已经被验证。",
+          "items": [
+            {
+              "title": "Codex CLI 故障诊断页",
+              "url": "https://trends.google.com/trends/explore?q=codex+cli&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 18.2
+            },
+            {
+              "title": "tt-a1i/archify",
+              "url": "https://github.com/tt-a1i/archify",
+              "source": "GitHub",
+              "score": 25469
+            }
+          ],
+          "takeaway": "最快的行动不是训练模型，而是围绕热门工具的安装、解释和导出链路做可用产品。"
+        },
+        {
+          "id": "pricing-models",
+          "heading": "值得学习的定价和变现模式有哪些？",
+          "summary_md": "今天最清晰的变现模式来自开源替代和 Agent 工具层。[OpenCut-app/OpenCut](https://github.com/OpenCut-app/OpenCut) 周增 2630 星，可以学习 CapCut 替代的本地免费、云端协作付费；[every-app/open-seo](https://github.com/every-app/open-seo) 周增 2625 星，适合做免费自托管、付费数据源和团队报表；[Onset MCP](https://www.producthunt.com/products/onset-io) 则可按发布次数、仓库数或团队席位计费。共同点是开源或工具入口先降低试用阻力，再把团队协作和自动化交付作为收费点。",
+          "items": [
+            {
+              "title": "OpenCut-app/OpenCut",
+              "url": "https://github.com/OpenCut-app/OpenCut",
+              "source": "GitHub",
+              "score": 2630
+            },
+            {
+              "title": "every-app/open-seo",
+              "url": "https://github.com/every-app/open-seo",
+              "source": "GitHub",
+              "score": 2625
+            },
+            {
+              "title": "Onset MCP",
+              "url": "https://www.producthunt.com/products/onset-io",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "把个人免费入口和团队自动化付费层拆开，是今天最值得复用的商业模型。"
+        },
+        {
+          "id": "counterintuitive",
+          "heading": "今天最反直觉的发现是什么？",
+          "summary_md": "最反直觉的是：越是 AI 热榜，越不像在比模型参数。GitHub 的 [AprilNEA/OpenLogi](https://github.com/AprilNEA/OpenLogi) 周增 2089 星，只是本地优先 Logitech Options+ 替代；Product Hunt 的 [Roadie](https://www.producthunt.com/products/roadie-4) 只解决 Mac 麦克风和扬声器切换；[Dynamic Edge](https://www.producthunt.com/products/dynamic-edge) 只是把 Dynamic Island 带到 Windows。这说明用户愿意为低频烦恼里的确定性付费，AI 只是放大工具分发，不一定是产品主体。",
+          "items": [
+            {
+              "title": "AprilNEA/OpenLogi",
+              "url": "https://github.com/AprilNEA/OpenLogi",
+              "source": "GitHub",
+              "score": 2089
+            },
+            {
+              "title": "Roadie",
+              "url": "https://www.producthunt.com/products/roadie-4",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "Dynamic Edge",
+              "url": "https://www.producthunt.com/products/dynamic-edge",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "别只追大模型，把一个系统级小痛点做到稳定，今天仍然能获得注意力。"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2026-09-02T09:17:12+00:00",
+  "reddit_highlights": []
+}

@@ -1,0 +1,163 @@
+{
+  "date": "2026-09-02",
+  "items": [
+    {
+      "id": "2026-09-02-1",
+      "title": "Agent Skills 正在失控",
+      "angle": "从“插件生态爆发”和“技能过拟合”这组反差切入：Agent 的下一场竞争不是多装能力，而是会删能力。",
+      "opening": "今天 GitHub 上 Claude、Cursor 插件仓库都在涨，但 Peter Yang 却在劝大家删 skills。最危险的不是 Agent 没能力，而是每次失败后你都给它补一条规则，最后把系统训成一次性脚本。",
+      "story_hook": {
+        "challenge": "大家都在把 skills 当 Agent 的新包管理器，但真实使用中规则会越积越多、越改越偏。",
+        "twist": "真正提升 one-shot 成功率的动作，可能不是加 prompt，而是定期审计和删除 prompt。"
+      },
+      "takeaway": "把 skills 当代码维护：保留高频任务、删除低命中规则、用版本评测防止技能漂移。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Peter Yang 关于不要装太多 skills 的推文",
+          "url": "https://x.com/petergyang/status/2094999358525821099"
+        },
+        {
+          "tag": "builders",
+          "ref": "Peter Yang 关于 skill 过拟合与漂移的推文",
+          "url": "https://x.com/petergyang/status/2094995775952740795"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub dev tools：anthropics/claude-plugins-community 周增 1634 星",
+          "url": "https://github.com/anthropics/claude-plugins-community"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub dev tools：cursor/plugins 周增 1377 星",
+          "url": "https://github.com/cursor/plugins"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-02-2",
+      "title": "AI 安全不是防守题了",
+      "angle": "从漏洞发现泛滥切入：AI 让攻击和防守同时自动化，企业最缺的会是“会管 AI 安全流水线的人”。",
+      "opening": "Aaron Levie 说 AI 网络安全马上垂直爆发，不是因为安全问题变少，而是发现和利用漏洞的能力都在变强。企业本来已经被告警淹没，接下来可能会被 AI 生成的发现再淹一次。",
+      "story_hook": {
+        "challenge": "前沿模型和开源权重都在提升攻防能力，传统人工分诊无法跟上漏洞发现速度。",
+        "twist": "AI 不一定消灭安全岗位，反而可能制造一批“AI 安全调度员”和“自动修复审计员”。"
+      },
+      "takeaway": "开发者应关注自动分诊、修复建议、权限审计和 Agent 可观测，而不是只把安全理解成模型拒答。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Aaron Levie 关于 AI 网络安全垂直爆发的推文",
+          "url": "https://x.com/levie/status/2095024699441119612"
+        },
+        {
+          "tag": "builders",
+          "ref": "Alex Albert 关于 EFS 与 Agent 风险监控的推文",
+          "url": "https://x.com/alexalbert__/status/2094889286990446769"
+        },
+        {
+          "tag": "builders",
+          "ref": "Nikunj Kothari 关于泄露会更严重的推文",
+          "url": "https://x.com/nikunj/status/2095002897859912044"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-02-3",
+      "title": "Claude 腔终于成产品债",
+      "angle": "从 Fable 5.1 的“更会写人话”和误伤率下降切入：模型体验竞争开始从智商转向不烦人。",
+      "opening": "Claude 新版本的头条之一，居然是“写东西没那么烦人”。这听起来像小修小补，但 Nan Yu 说得很准：用户还没拿到价值就被气走，再聪明也没用。",
+      "story_hook": {
+        "challenge": "大模型越来越强，但用户真正抱怨的常常是语气、打断、误拒和交互摩擦。",
+        "twist": "Fable 5.1 的关键卖点不是单一 benchmark，而是把缓存成本、护栏误伤和 Claude 腔一起往下压。"
+      },
+      "takeaway": "做 AI 产品时要把语气、拒答、等待成本和干预频率纳入评测，不要只测任务完成率。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Nan Yu 关于让 agent 少烦人的推文",
+          "url": "https://x.com/thenanyu/status/2094928205753040999"
+        },
+        {
+          "tag": "builders",
+          "ref": "Boris Cherny 关于 Fable 5.1 改善 Claude 腔的推文",
+          "url": "https://x.com/bcherny/status/2094864064648536068"
+        },
+        {
+          "tag": "builders",
+          "ref": "Boris Cherny 关于安全护栏误伤下降 85% 与 60% 的推文",
+          "url": "https://x.com/bcherny/status/2094864063478276288"
+        },
+        {
+          "tag": "builders",
+          "ref": "Boris Cherny 关于缓存读取降价到每百万 token 0.25 美元的推文",
+          "url": "https://x.com/bcherny/status/2094864062186426373"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-02-4",
+      "title": "网站要给 Agent 用了",
+      "angle": "从 WebMCP 和 Doop 切入：下一代网站不只是给人点击，而是给 Agent 创建视图、调用工具、交接结果。",
+      "opening": "Nikunj Kothari 说 WebMCP 被严重低估了。它展示的不是又一个聊天框，而是 Agent 能在网站里调用工具、搭 UI、留下可编辑结果。",
+      "story_hook": {
+        "challenge": "今天多数 Web 产品仍默认人类点击界面，Agent 只能靠浏览器模拟操作。",
+        "twist": "真正的新入口可能不是更强的聊天机器人，而是 Agent 原生可操作的网站和画布。"
+      },
+      "takeaway": "做工具型产品时，应开始设计 Agent 可调用的操作、可分享的中间状态和人类可接管的编辑界面。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Nikunj Kothari 关于 WebMCP 和 El Nino 追踪器 demo 的推文",
+          "url": "https://x.com/nikunj/status/2094922789128196314"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt：Doop 把 AI agent 放到同一设计画布",
+          "url": "https://www.producthunt.com/products/doop"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt：Onset MCP 切 release notes 高频任务",
+          "url": "https://www.producthunt.com/products/onset-io"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-02-5",
+      "title": "别再做泛聊天产品",
+      "angle": "用 GitHub 高增长项目反证：今天最强注意力来自可交付工作件，而不是“又一个 AI 助手”。",
+      "opening": "今天 pulse 里最刺眼的数字不是某个大模型，而是 archify 周增 25469 星。它做的事情很具体：让 Agent Skill 生成可验证架构图。",
+      "story_hook": {
+        "challenge": "Builder 容易继续追泛 Agent、泛聊天、泛 Copilot，但用户已经在追具体任务入口。",
+        "twist": "最有商业化潜力的项目，反而像架构图、课堂、多模态客服、SEO 报表这些“窄工作件”。"
+      },
+      "takeaway": "选题可拆成一篇行动文：如何把 AI 产品从聊天框改造成一个可安装、可导出、可协作的任务工具。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Madhu Guru 关于企业应搭后训练系统和数据飞轮的推文",
+          "url": "https://x.com/realmadhuguru/status/2094973690576576675"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub Trending：tt-a1i/archify 周增 25469 星",
+          "url": "https://github.com/tt-a1i/archify"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub Trending：THU-MAIC/OpenMAIC 周增 8014 星",
+          "url": "https://github.com/THU-MAIC/OpenMAIC"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub Trending：every-app/open-seo 周增 2625 星",
+          "url": "https://github.com/every-app/open-seo"
+        }
+      ]
+    }
+  ],
+  "notes": "今日主线很清楚：Agent 生态从模型能力转向可安装能力、可交付工作件和企业级风险控制。Fable 5.1 热度很高，但建议避免写成版本通稿，优先写成本、误伤、语气和工作流变化。",
+  "generated_at": "2026-09-02T09:17:54+00:00",
+  "model": "gpt-5.5"
+}
