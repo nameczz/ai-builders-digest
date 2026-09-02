@@ -1,0 +1,562 @@
+{
+  "date": "2026-09-02",
+  "generated_at": "2026-09-02T09:12:05+00:00",
+  "count": 37,
+  "items": [
+    {
+      "id": "541a45e07b",
+      "date": "2026-09-02",
+      "source": "x",
+      "author": "Aaron Levie",
+      "bio": "ceo @box - your business lives in content. unleash it with AI",
+      "title": "",
+      "summary_en": "AI for cyber is about to go vertical. The models increasingly becoming insanely good at finding and exploiting vulnerabilities. Frontier models are ahead, but we’re already seeing that open weights is not far behind.\n\nMost enterprises are already inundated with cyber discoveries, so now that’s only going to multiply. Triaging and automating the fixes with more AI -along with human oversight- is essentially the only way forward. \n\nIn case you were wondering what jobs AI was going to create, it’s definitely going to great time to be in security.",
+      "summary_zh": "AI 网络安全马上要垂直爆发：模型找漏洞、打漏洞的能力越来越离谱，前沿模型领先，但开源权重也快追上了。企业本来就被安全发现淹没，接下来只会成倍增加，靠更多 AI 自动分诊和修复、再加人工监督，几乎是唯一出路；想知道 AI 会创造什么岗位，安全绝对会吃香。",
+      "url": "https://x.com/levie/status/2095024699441119612",
+      "posted_at": "2026-09-02T05:43:06.000Z",
+      "tags": [
+        "@levie"
+      ]
+    },
+    {
+      "id": "61aabcdafd",
+      "date": "2026-09-02",
+      "source": "x",
+      "author": "Nikunj Kothari",
+      "bio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
+      "title": "",
+      "summary_en": "Terrifying.. also just the start of how leaks like this are going to get way worse 😭 https://t.co/gN8PiNCUXJ",
+      "summary_zh": "可怕的是，这还只是开始：这类泄露只会变得更严重、更失控。",
+      "url": "https://x.com/nikunj/status/2095002897859912044",
+      "posted_at": "2026-09-02T04:16:28.000Z",
+      "tags": [
+        "@nikunj"
+      ]
+    },
+    {
+      "id": "5f5b46e844",
+      "date": "2026-09-02",
+      "source": "x",
+      "author": "Zara Zhang",
+      "bio": "Builder. Make something people want, then make people want it. Harvard’17. GitHub: https://t.co/KCuEaje1wd  YouTube: https://t.co/8xzbGWsHgY",
+      "title": "",
+      "summary_en": "I wish every city was in Tokyo https://t.co/j1ppDGCx7p",
+      "summary_zh": "真希望全世界的城市都长在东京里。",
+      "url": "https://x.com/zarazhangrui/status/2094999513627025757",
+      "posted_at": "2026-09-02T04:03:01.000Z",
+      "tags": [
+        "@zarazhangrui"
+      ]
+    },
+    {
+      "id": "0e6b8f9156",
+      "date": "2026-09-02",
+      "source": "x",
+      "author": "Peter Yang",
+      "bio": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6",
+      "title": "",
+      "summary_en": "fwiw I dislike having alot of random skills installed. \n\nI'm at a point where I only have about a dozen or so (mostly my own) and I regularly delete skills that I don't use anymore.\n\nAlso I try to keep all my skills as short as possible.\n\nI encourage you to do the same.",
+      "summary_zh": "别装一堆乱七八糟的 skills，没用的就删，只留十来个真正会用的。skills 也别写成长篇大论，越短越好。",
+      "url": "https://x.com/petergyang/status/2094999358525821099",
+      "posted_at": "2026-09-02T04:02:24.000Z",
+      "tags": [
+        "@petergyang"
+      ]
+    },
+    {
+      "id": "36704efe4c",
+      "date": "2026-09-02",
+      "source": "x",
+      "author": "Peter Yang",
+      "bio": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6",
+      "title": "",
+      "summary_en": "While I'm cleaning up my AI skills I have a question for the experts here. Sometimes I end up in this pattern:\n\n1. I run my skill and it doesn't get it perfect in one shot\n2. I do manual iteration with AI to get it right\n3. I then ask AI something like: \"How would you update the skill so we can one-shot this?\" before reviewing and approving its edits.\n\nThe problem is AI often overfits on this one thread and over time the skill drifts. Any good solutions here?",
+      "summary_zh": "我在用 AI 技能时经常陷入一个危险循环：技能没法一次做对，就靠手动和 AI 迭代补救，再让 AI 反向改技能以便下次 one-shot。问题是 AI 很容易过拟合这一次对话，久而久之技能就开始漂移。",
+      "url": "https://x.com/petergyang/status/2094995775952740795",
+      "posted_at": "2026-09-02T03:48:10.000Z",
+      "tags": [
+        "@petergyang"
+      ]
+    },
+    {
+      "id": "38da5c13ee",
+      "date": "2026-09-02",
+      "source": "x",
+      "author": "Peter Yang",
+      "bio": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6",
+      "title": "",
+      "summary_en": "If you're trying out Fable 5.1 I highly recommend running:\n\n/claude-api prompt-audit\n\non your skills. It finds a bunch of redundancies and rules to remove for the latest models.\n\nRunning it for all my skills now.",
+      "summary_zh": "用 Fable 5.1 的人应该直接跑 `/claude-api prompt-audit` 检查自己的 skills。它会揪出一堆对最新模型已经多余、该删的规则。",
+      "url": "https://x.com/petergyang/status/2094987791566622971",
+      "posted_at": "2026-09-02T03:16:27.000Z",
+      "tags": [
+        "@petergyang"
+      ]
+    },
+    {
+      "id": "bb79fe7f19",
+      "date": "2026-09-02",
+      "source": "x",
+      "author": "Madhu Guru",
+      "bio": "Sr Director, AI at Meta; Prev: Google - Led Gemini, Veo, Nano Banana.",
+      "title": "",
+      "summary_en": "Great example of the immense opportunity enterprises have if they build their own post training systems, great evals and a data flywheel.\n\nI’ve worked with the Shopify ML team and they are world class. \n\nMore enterprises should be doing this. https://t.co/IzlWkndA6u",
+      "summary_zh": "企业真正的机会不在买模型，而在自己搭后训练系统、强评测和数据飞轮。Shopify 的 ML 团队已经证明这条路可行，更多企业该动手了。",
+      "url": "https://x.com/realmadhuguru/status/2094973690576576675",
+      "posted_at": "2026-09-02T02:20:25.000Z",
+      "tags": [
+        "@realmadhuguru"
+      ]
+    },
+    {
+      "id": "455a19ec68",
+      "date": "2026-09-02",
+      "source": "x",
+      "author": "Thariq",
+      "bio": "Claude Code @anthropicai. prev YC W20, @spc, @medialab",
+      "title": "",
+      "summary_en": "it’s a very good model, I spent a lot of time diving into it- longer write up coming \n\nbut try it on lower effort for tasks that need less verification or have fewer edge cases, switching effort no longer breaks prompt cache as well https://t.co/MCGYQTnR0X",
+      "summary_zh": "这是个很强的模型，但别默认把所有任务都开高强度；低验证、少边界条件的任务直接用 lower effort，更省也更顺。现在切换 effort 不再打断 prompt cache，使用成本和节奏都更可控。",
+      "url": "https://x.com/trq212/status/2094945951865520458",
+      "posted_at": "2026-09-02T00:30:11.000Z",
+      "tags": [
+        "@trq212"
+      ]
+    },
+    {
+      "id": "97db38aa6f",
+      "date": "2026-09-02",
+      "source": "x",
+      "author": "Zara Zhang",
+      "bio": "Builder. Make something people want, then make people want it. Harvard’17. GitHub: https://t.co/KCuEaje1wd  YouTube: https://t.co/8xzbGWsHgY",
+      "title": "",
+      "summary_en": "Since when did this type of website design become in vogue? https://t.co/Cwnz0MhMhz",
+      "summary_zh": "他在吐槽：这种网站设计到底什么时候成了潮流？言下之意是，大家突然集体迷上了一种他看不顺眼的网页套路。",
+      "url": "https://x.com/zarazhangrui/status/2094943457769099520",
+      "posted_at": "2026-09-02T00:20:17.000Z",
+      "tags": [
+        "@zarazhangrui"
+      ]
+    },
+    {
+      "id": "460b0fc168",
+      "date": "2026-09-02",
+      "source": "x",
+      "author": "Dan Shipper",
+      "bio": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "title": "",
+      "summary_en": "remember when we used to have to type out low level code like this? https://t.co/h30xZEfRle",
+      "summary_zh": "以前写底层代码还得一行行手敲，现在回头看像是在用石器时代工具造火箭。",
+      "url": "https://x.com/danshipper/status/2094942644497457527",
+      "posted_at": "2026-09-02T00:17:03.000Z",
+      "tags": [
+        "@danshipper"
+      ]
+    },
+    {
+      "id": "971ff21460",
+      "date": "2026-09-02",
+      "source": "x",
+      "author": "Sam Altman",
+      "bio": "The mission of OpenAI to ensure that AGI benefits all of humanity",
+      "title": "",
+      "summary_en": "Over the summer, we have been sprinting on safety priorities; it's more important than ever for capabilities and safeguards to advance together. We have more to do but have made a lot of progress. We are also going to be launching our next model soon.\n\nThere is an obvious tension here: on one hand, Astra is very good and we are excited to see what people will build with it. We are proud of our work.\n\nOn the other hand, we are clearly in a phase of development where we believe caution is warranted, and we are pacing our progress to ensure that we can meet the safety standards required by new capability levels.\n\nAstra has been done training for a while now and is a significant step forward in both capabilities and alignment. For the models after that, we have been slowing things as needed to ensure that we can do sufficient work on safety and alignment.\n\nAI is getting extremely capable; no one fully understands the consequences of this. Managing the transition to a world with abundant and powerful AI to optimize for safety and benefits to people should be one of the highest priorities in the world. It is our highest priority at OpenAI.\n\nWe have been living with the tension between being excited and anxious about progress for some time, and it is still discordant for us. We know it is much more discordant for other people. And yet, we believe strongly that the world needs to understand where AI is going and how models perform in the real world. More importantly, we believe the world will need aligned AI to manage the future phases of this transition.\n\nAn iterative loop where society and this technology evolve together is what will lead to the highest chance of getting this right.\n\nSo we hope you enjoy our new model, and we hope the world continues to take what’s happening in AI extremely seriously.",
+      "summary_zh": "OpenAI 一边承认 Astra 已经强到没人真正知道后果，一边仍准备很快发布：能力和安全必须一起往前，但他们也在主动放慢后续模型节奏。\n\n核心判断很硬：世界必须认真面对强大 AI 的到来，而不是等它失控后才补课；OpenAI 认为只有让社会和模型在真实世界里迭代，才有机会把这件事做对。",
+      "url": "https://x.com/sama/status/2094934592062959832",
+      "posted_at": "2026-09-01T23:45:03.000Z",
+      "tags": [
+        "@sama"
+      ]
+    },
+    {
+      "id": "b97482d55c",
+      "date": "2026-09-02",
+      "source": "x",
+      "author": "Cat Wu",
+      "bio": "claude code + cowork @anthropicai, prev: @dagster, @scale_ai",
+      "title": "",
+      "summary_en": "With Fable 5.1, our team has taken on more ambitious projects that would have previously taken months. What big bets do you want to take? \n\nAsk Fable 5.1 in Claude Code, Claude Cowork, Claude Tag to take on the task and let us know what you think! https://t.co/LCloUBWKeO",
+      "summary_zh": "Fable 5.1 已经能接下过去要耗几个月的大项目。现在的问题不是能不能做，而是你敢不敢把真正的大赌注交给它。",
+      "url": "https://x.com/_catwu/status/2094933602228416603",
+      "posted_at": "2026-09-01T23:41:07.000Z",
+      "tags": [
+        "@_catwu"
+      ]
+    },
+    {
+      "id": "e5d86da1e5",
+      "date": "2026-09-02",
+      "source": "x",
+      "author": "Nan Yu",
+      "bio": "(soon) member of product staff @openai. prev head of product @linear. I am grader.",
+      "title": "",
+      "summary_en": "A new Claude release where one of the headline features is less annoying writing \n\nhttps://t.co/xHS4TdxaX4",
+      "summary_zh": "Claude 新版本的头条功能之一，居然是让它写东西没那么烦人。",
+      "url": "https://x.com/thenanyu/status/2094928209095872530",
+      "posted_at": "2026-09-01T23:19:41.000Z",
+      "tags": [
+        "@thenanyu"
+      ]
+    },
+    {
+      "id": "64a89c248f",
+      "date": "2026-09-02",
+      "source": "x",
+      "author": "Nan Yu",
+      "bio": "(soon) member of product staff @openai. prev head of product @linear. I am grader.",
+      "title": "",
+      "summary_en": "Like this kind of thing may seem small but makes a big difference\n\nhttps://t.co/JrAjOa8pMS",
+      "summary_zh": "这种东西看着只是小优化，但往往是真正拉开体验差距的地方。",
+      "url": "https://x.com/thenanyu/status/2094928207179067682",
+      "posted_at": "2026-09-01T23:19:41.000Z",
+      "tags": [
+        "@thenanyu"
+      ]
+    },
+    {
+      "id": "74965874d0",
+      "date": "2026-09-02",
+      "source": "x",
+      "author": "Nan Yu",
+      "bio": "(soon) member of product staff @openai. prev head of product @linear. I am grader.",
+      "title": "",
+      "summary_en": "There’s a lot of alpha in making your agents *less annoying*. If you want users to get to value they need to stop rage-quitting. \n\nI think an untapped opportunity for UX designers is to become conversation/rhetoric designers.",
+      "summary_zh": "让 agent 少烦人本身就是巨大红利：用户还没拿到价值就被气到退出，再聪明也没用。UX 设计师的下一块机会，是从界面设计转向对话和修辞设计。",
+      "url": "https://x.com/thenanyu/status/2094928205753040999",
+      "posted_at": "2026-09-01T23:19:40.000Z",
+      "tags": [
+        "@thenanyu"
+      ]
+    },
+    {
+      "id": "c4e077e94a",
+      "date": "2026-09-02",
+      "source": "x",
+      "author": "Nikunj Kothari",
+      "bio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
+      "title": "",
+      "summary_en": "People are still sleeping on WebMCP.. \n\nYou can now give agents tool calls to interact with your website natively. Including full UI/UX support and interactive elements to build their own views.\n\nSharing a demo below that I submitted for the WebMCP challenge - see how agents can interact with the El Nino situation tracker. It creates it's own views, preserves human edits, and creates a shareable link to share with other agents (or humans). \n\nVideo and code by Codex @ChatGPT & @Railway\n\nLive at elneenyo dot com to try out today!",
+      "summary_zh": "WebMCP 被严重低估了：现在可以让 agent 原生调用工具操作网站，还能自己搭 UI、保留人类编辑、生成可分享链接。这个 El Nino 追踪器 demo 直接展示了下一步：网站不只是给人点，agent 也能在里面建视图、协作和交接。",
+      "url": "https://x.com/nikunj/status/2094922789128196314",
+      "posted_at": "2026-09-01T22:58:09.000Z",
+      "tags": [
+        "@nikunj"
+      ]
+    },
+    {
+      "id": "eb88706bb2",
+      "date": "2026-09-02",
+      "source": "x",
+      "author": "Guillermo Rauch",
+      "bio": "@vercel CEO",
+      "title": "",
+      "summary_en": "Excited to partner with and support @tannerlinsley and team, champion of React, open source, and the web\n\nWhat this means for our customers: whether you choose @nextjs or @tan_stack, we are committed to the highest quality service and support. https://t.co/9lnHQIqHxZ",
+      "summary_zh": "Vercel 把 Tanner Linsley 和 TanStack 拉进阵营，信号很直接：不管你选 Next.js 还是 TanStack，它都要做你背后的服务和支持层。",
+      "url": "https://x.com/rauchg/status/2094901483414372716",
+      "posted_at": "2026-09-01T21:33:29.000Z",
+      "tags": [
+        "@rauchg"
+      ]
+    },
+    {
+      "id": "3e4e2f2298",
+      "date": "2026-09-02",
+      "source": "x",
+      "author": "Alex Albert",
+      "bio": "Research @AnthropicAI. Opinions are my own!",
+      "title": "",
+      "summary_en": "One non-model thing I'm very excited we announced today with Fable 5.1 is Enterprise Frontier Safeguards (EFS).\n\nEven if you're not a CEO/CISO, this blog post is a look into how big companies are thinking about AI adoption which is important to understand if you're interested in how AI might diffuse across industry.\n\nCompanies are giving agents more and more access to internal systems. With traditional zero data retention, there's been no way to spot patterns in what agents might be doing across sessions on these systems.\n\nEFS is ZDR++. It's ZDR built for a world with agents. A company's data stays in its own cloud, and an automated monitoring layer we built flags risky patterns to its team.\n\nI think of this as an observability and risk mitigation layer for agents. My guess is it will become a standard requirement from enterprises for running increasingly powerful AI on their systems.",
+      "summary_zh": "企业把越来越多内网权限交给 Agent，传统零数据保留根本看不到跨会话风险模式；EFS 本质是给 Agent 时代补上的“ZDR++”监控层。  \n这类 Agent 可观测与风险缓释能力，很可能会变成大公司部署强 AI 的标配门槛。",
+      "url": "https://x.com/alexalbert__/status/2094889286990446769",
+      "posted_at": "2026-09-01T20:45:01.000Z",
+      "tags": [
+        "@alexalbert__"
+      ]
+    },
+    {
+      "id": "4214d7228c",
+      "date": "2026-09-02",
+      "source": "x",
+      "author": "Guillermo Rauch",
+      "bio": "@vercel CEO",
+      "title": "",
+      "summary_en": "Fable 5.1 now on @vercel AI Gateway\nTry it with https://t.co/OL0LzGtvAw. Every model at your fingertips 🥹",
+      "summary_zh": "Fable 5.1 已接入 Vercel AI Gateway，打开链接就能试。所有模型现在都被塞进了你的指尖。",
+      "url": "https://x.com/rauchg/status/2094867652573528074",
+      "posted_at": "2026-09-01T19:19:03.000Z",
+      "tags": [
+        "@rauchg"
+      ]
+    },
+    {
+      "id": "c16b78bcea",
+      "date": "2026-09-02",
+      "source": "x",
+      "author": "Boris Cherny",
+      "bio": "Claude Code @anthropicai",
+      "title": "",
+      "summary_en": "Last but not least, Fable 5.1 writes better and has better tone. We heard your feedback, and are actively working on reducing Claude-speak. Solid progress with 5.1, more to come.",
+      "summary_zh": "Fable 5.1 写得更好、语气也更像人话。团队听到了对“Claude 腔”的吐槽，5.1 已经明显收敛，后面还会继续改。",
+      "url": "https://x.com/bcherny/status/2094864064648536068",
+      "posted_at": "2026-09-01T19:04:48.000Z",
+      "tags": [
+        "@bcherny"
+      ]
+    },
+    {
+      "id": "0b09da0e64",
+      "date": "2026-09-02",
+      "source": "x",
+      "author": "Boris Cherny",
+      "bio": "Claude Code @anthropicai",
+      "title": "",
+      "summary_en": "We have been working on how often safeguards intervene. Our latest biology safeguards intervene on benign requests 85% less often than the ones we shipped with Fable 5, and Claude Code users should see around 60% fewer cyber interventions per session. Expect more improvements soon.",
+      "summary_zh": "他们在减少安全护栏的误伤：最新生物安全机制对良性请求的拦截比 Fable 5 版本低 85%，Claude Code 用户每次会话遇到的网络安全拦截也会少约 60%。\n\n意思很明确：安全不是越频繁插手越好，接下来还会继续砍掉不必要的干预。",
+      "url": "https://x.com/bcherny/status/2094864063478276288",
+      "posted_at": "2026-09-01T19:04:48.000Z",
+      "tags": [
+        "@bcherny"
+      ]
+    },
+    {
+      "id": "5c6da0709d",
+      "date": "2026-09-02",
+      "source": "x",
+      "author": "Boris Cherny",
+      "bio": "Claude Code @anthropicai",
+      "title": "",
+      "summary_en": "We have also reduced prices for Enterprise, API, and SDK customers. Cache reads on Fable 5.1 are now $0.25 per million tokens (previously: $1). Up to 38% cheaper for a typical Claude Code session.",
+      "summary_zh": "Fable 5.1 面向 Enterprise、API 和 SDK 客户降价，缓存读取从每百万 token 1 美元砍到 0.25 美元。典型 Claude Code 会话最多便宜 38%，这不是小修小补，是直接往成本命门上开刀。",
+      "url": "https://x.com/bcherny/status/2094864062186426373",
+      "posted_at": "2026-09-01T19:04:47.000Z",
+      "tags": [
+        "@bcherny"
+      ]
+    },
+    {
+      "id": "579fa1d4c5",
+      "date": "2026-09-02",
+      "source": "x",
+      "author": "Alex Albert",
+      "bio": "Research @AnthropicAI. Opinions are my own!",
+      "title": "",
+      "summary_en": "using blender headless btw",
+      "summary_zh": "顺带一提，他跑的是无头 Blender。",
+      "url": "https://x.com/alexalbert__/status/2094860189316899083",
+      "posted_at": "2026-09-01T18:49:24.000Z",
+      "tags": [
+        "@alexalbert__"
+      ]
+    },
+    {
+      "id": "da5c83acf9",
+      "date": "2026-09-02",
+      "source": "x",
+      "author": "Alex Albert",
+      "bio": "Research @AnthropicAI. Opinions are my own!",
+      "title": "",
+      "summary_en": "Fable 5.1 is a beast at many things but one thing in particular I have been having a ton of fun with is generating videos through code. \n\nFor this one I gave it a picture of a property lot. It designed a house for the lot, rendered it, and produced a cinematic walkthrough. https://t.co/eBIaCmaav8",
+      "summary_zh": "Fable 5.1 很猛，尤其是用代码生成视频：给它一张地块照片，它直接设计房子、完成渲染，还生成了一段电影感 walkthrough。",
+      "url": "https://x.com/alexalbert__/status/2094860187743986169",
+      "posted_at": "2026-09-01T18:49:24.000Z",
+      "tags": [
+        "@alexalbert__"
+      ]
+    },
+    {
+      "id": "c147f9d99e",
+      "date": "2026-09-02",
+      "source": "x",
+      "author": "Dan Shipper",
+      "bio": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "title": "",
+      "summary_en": "READ THE FABLE 5.1 VIBE CHECK ON @every \nhttps://t.co/VxEDSTgqVL https://t.co/6UqJw8Z70N",
+      "summary_zh": "作者直接甩出 @every 的 Fable 5.1 评测链接，核心就是：别听二手转述，自己去看这次版本的真实体感。",
+      "url": "https://x.com/danshipper/status/2094855479167996036",
+      "posted_at": "2026-09-01T18:30:41.000Z",
+      "tags": [
+        "@danshipper"
+      ]
+    },
+    {
+      "id": "29877a075a",
+      "date": "2026-09-02",
+      "source": "x",
+      "author": "Dan Shipper",
+      "bio": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "title": "",
+      "summary_en": "READ THE FULL VIBE CHECK: https://t.co/z7axZ7Sr1j",
+      "summary_zh": "这条推文没有观点，只是在硬拉流量：想知道完整判断，自己点进去读「Vibe Check」。",
+      "url": "https://x.com/danshipper/status/2094854526574424203",
+      "posted_at": "2026-09-01T18:26:54.000Z",
+      "tags": [
+        "@danshipper"
+      ]
+    },
+    {
+      "id": "c28a10c5d5",
+      "date": "2026-09-02",
+      "source": "x",
+      "author": "Aaron Levie",
+      "bio": "ceo @box - your business lives in content. unleash it with AI",
+      "title": "",
+      "summary_en": "At Box, we’ve been testing Fable 5.1 in early release against our complex enterprise work eval. Fable 5.1 delivers a huge 7 percentage point jump over Fable 5 for unstructured data tasks in the enterprise.\n\nOn this updated test, we use the Box Agent with Fable 5.1 to work through a wide range of real world enterprise scenarios with documents in financial services, life sciences, the public sector, and more industries. All of these tasks require a high degree of analytical, math, logic, and domain knowledge to perform successfully.\n\nHere are a few examples of wins:\n\n* Financial Services (+17% improvement): on a tax-adjusted profit projection, Fable 5.1 correctly applies capital allowances before computing tax liability; this is a subtle ordering that Fable 5 misses, producing wrong figures all the way through retained earnings.\n\n* Technology (+37% improvement): on a cost-optimization analysis where a key metric's normalization is ambiguous, Fable 5.1 recognized the ambiguity, computed both forms, and presented the correct one, where Fable 5 committed to the wrong normalization.\n\n* Public Sector (+16% improvement): on an educational data analysis task, Fable 5.1 works through the full weighted-mean methodology and produces correct rankings, while Fable 5 miscategorizes one item and cascades errors through the whole sheet.\n\nThese are just a few of the wins we saw. Overall major jump in capability for long running agentic workflows in the enterprise. \n\nFable 5.1 will be available shortly in the Box AI Studio for building custom AI agents with enterprise content.",
+      "summary_zh": "Box 测了 Fable 5.1：在复杂企业非结构化数据任务上比 Fable 5 暴涨 7 个百分点，金融、科技、公共部门案例里，旧模型会把税务顺序、指标归一化、加权均值这种细节做错并一路错到底。  \n结论很直接：Fable 5.1 更像能跑长链路企业 Agent 工作流的模型，很快会上 Box AI Studio。",
+      "url": "https://x.com/levie/status/2094851976769257770",
+      "posted_at": "2026-09-01T18:16:46.000Z",
+      "tags": [
+        "@levie"
+      ]
+    },
+    {
+      "id": "3822f70d51",
+      "date": "2026-09-02",
+      "source": "x",
+      "author": "Claude",
+      "bio": "Claude is an AI assistant built by @anthropicai to be safe, accurate, and secure. Talk to Claude on https://t.co/ZhTwG8d1e5 or download the app.",
+      "title": "",
+      "summary_en": "Claude Fable 5.1 is available everywhere today. Claude Mythos 5.1, our model for cyberdefenders and life scientists, is available through trusted access programs.\n\nRead more: https://t.co/nfkH5hyDyO",
+      "summary_zh": "Claude Fable 5.1 今天全面开放；面向网络防御者和生命科学家的 Claude Mythos 5.1 只通过可信访问计划放行。",
+      "url": "https://x.com/claudeai/status/2094848592812917122",
+      "posted_at": "2026-09-01T18:03:19.000Z",
+      "tags": [
+        "@claudeai"
+      ]
+    },
+    {
+      "id": "01db8ccb9c",
+      "date": "2026-09-02",
+      "source": "x",
+      "author": "Claude",
+      "bio": "Claude is an AI assistant built by @anthropicai to be safe, accurate, and secure. Talk to Claude on https://t.co/ZhTwG8d1e5 or download the app.",
+      "title": "",
+      "summary_en": "Finally, we’ve improved our safeguards. Our cybersecurity safeguards now flag benign requests about 60% less often.\n\nOn basic biology and medical questions, we’ve recently reduced the fallback rate by around 85%.",
+      "summary_zh": "终于把安全护栏调得没那么神经质了：网络安全里的正常请求误伤少了约 60%，基础生物和医疗问题的兜底拒答率也降了约 85%。",
+      "url": "https://x.com/claudeai/status/2094848591617483020",
+      "posted_at": "2026-09-01T18:03:19.000Z",
+      "tags": [
+        "@claudeai"
+      ]
+    },
+    {
+      "id": "2b6a340ea0",
+      "date": "2026-09-02",
+      "source": "x",
+      "author": "Claude",
+      "bio": "Claude is an AI assistant built by @anthropicai to be safe, accurate, and secure. Talk to Claude on https://t.co/ZhTwG8d1e5 or download the app.",
+      "title": "",
+      "summary_en": "We’re also introducing Enterprise Frontier Safeguards (EFS), which give enterprise customers complete privacy (the same as zero data retention), while still being state-of-the-art at preventing adversarial use. EFS rolls out in phases, starting this fall. https://t.co/EMbLgL5KVo",
+      "summary_zh": "OpenAI 推出 Enterprise Frontier Safeguards：给企业客户接近零数据保留级别的隐私，同时继续拦截对抗性滥用。这个机制今年秋天开始分阶段上线。",
+      "url": "https://x.com/claudeai/status/2094848590245965931",
+      "posted_at": "2026-09-01T18:03:18.000Z",
+      "tags": [
+        "@claudeai"
+      ]
+    },
+    {
+      "id": "2d710f420d",
+      "date": "2026-09-02",
+      "source": "x",
+      "author": "Guillermo Rauch",
+      "bio": "@vercel CEO",
+      "title": "",
+      "summary_en": "Fluid is the thing that has enabled Vercel's:\n◾ Industry-leading Build performance\n◾ Sandbox reliability & massive concurrency\n◾ 30min Function durations (& soon longer)\n\nThis unification makes the best DX possible. Shared 𝙳𝚘𝚌𝚔𝚎𝚛𝚏𝚒𝚕𝚎, security perimeters, networking, file systems, across all compute products. \n\nYou already see this in some pretty unique Vercel capabilities, like our Builds and Functions being able to participate in the same Secure Compute boundary and config.\n\nImagine the same egress Firewall features for Sandbox that prevent agent escapes, applying to your Builds, Functions and Servers.\n\nThe future is one global and unified compute platform, with only known physics as the limiting factor 😊",
+      "summary_zh": "Fluid 让 Vercel 把构建、沙箱、函数和服务器统一到同一套计算底座上，性能、并发、隔离、网络、文件系统和安全边界都吃同一套能力。\n\n这不是多几个产品功能，而是在做一个全球统一计算平台：以后限制 Vercel 的，可能只剩物理定律。",
+      "url": "https://x.com/rauchg/status/2094831747037085978",
+      "posted_at": "2026-09-01T16:56:23.000Z",
+      "tags": [
+        "@rauchg"
+      ]
+    },
+    {
+      "id": "4983a4db68",
+      "date": "2026-09-02",
+      "source": "x",
+      "author": "Matt Turck",
+      "bio": "VC at @FirstMarkCap.  Host: MAD Podcast; Organizer: Data Driven NYC, Author: MAD Landscape.",
+      "title": "",
+      "summary_en": "Do you want to grow massively on X? \n\nHere are the top hacks, a 🧵\n\n1) Become CEO of Apple https://t.co/WO9aMocWUY",
+      "summary_zh": "想在 X 上爆火？顶级增长黑客只有一个：先当上苹果 CEO。",
+      "url": "https://x.com/mattturck/status/2094829606855462940",
+      "posted_at": "2026-09-01T16:47:52.000Z",
+      "tags": [
+        "@mattturck"
+      ]
+    },
+    {
+      "id": "76debde62c",
+      "date": "2026-09-02",
+      "source": "x",
+      "author": "Thibault Sottiaux",
+      "bio": "Codex & ChatGPT @OpenAI",
+      "title": "",
+      "summary_en": "Should we do a merch line? https://t.co/IgyRywd8yH",
+      "summary_zh": "他们在试探要不要做一条周边产品线。语气像是在把社区热度直接变现：喜欢就掏钱，不喜欢就当没看见。",
+      "url": "https://x.com/thsottiaux/status/2094826808114057246",
+      "posted_at": "2026-09-01T16:36:45.000Z",
+      "tags": [
+        "@thsottiaux"
+      ]
+    },
+    {
+      "id": "5620ae9d57",
+      "date": "2026-09-02",
+      "source": "x",
+      "author": "Madhu Guru",
+      "bio": "Sr Director, AI at Meta; Prev: Google - Led Gemini, Veo, Nano Banana.",
+      "title": "",
+      "summary_en": "Self-improving products is a meta idea every company should be implementing.  \n\nSome of the core pieces you will need:\n\n1/ a crisp definition of the various metrics you care about : primary, secondary, guardrail\n\n2/ an articulation of your strategy, roadmap and metrics you care about moving the most\n\n3/ knowledge base of past product decisions and principles so the agent knows how decisions get made \n\n4/ connections to your to your internal product systems: dashboards, APIs, MCPs, and tools your agent  needs to observe and act on your product. \n\n5/ a harness built with knowledge of  your end to end product development flow. \n\nDepending on the complexity of your product, you might be able to prototype with fairly simple versions of each of the above and reuse existing swe agents.",
+      "summary_zh": "自我进化产品不是口号，而是每家公司都该落地的元能力：先定义清楚主指标、次指标和护栏指标，再把战略、路线图、历史决策原则和内部系统接进 agent。复杂度不高的产品，别等完美平台，先用简化版流程和现成 SWE agent 跑起来。",
+      "url": "https://x.com/realmadhuguru/status/2094817857821704659",
+      "posted_at": "2026-09-01T16:01:11.000Z",
+      "tags": [
+        "@realmadhuguru"
+      ]
+    },
+    {
+      "id": "ff66b1dff9",
+      "date": "2026-09-02",
+      "source": "x",
+      "author": "Zara Zhang",
+      "bio": "Builder. Make something people want, then make people want it. Harvard’17. GitHub: https://t.co/KCuEaje1wd  YouTube: https://t.co/8xzbGWsHgY",
+      "title": "",
+      "summary_en": "Be a person, not a persona",
+      "summary_zh": "做真实的人，别把自己活成精心包装的人设。人设讨好算法，人承担判断。",
+      "url": "https://x.com/zarazhangrui/status/2094812574395371857",
+      "posted_at": "2026-09-01T15:40:12.000Z",
+      "tags": [
+        "@zarazhangrui"
+      ]
+    },
+    {
+      "id": "1092d8c4df",
+      "date": "2026-09-02",
+      "source": "x",
+      "author": "Nikunj Kothari",
+      "bio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
+      "title": "",
+      "summary_en": "Casual MG banger that started as a comment to my recent essay via *checks notes* iMessage 😂 https://t.co/t0YSIB4Ui9",
+      "summary_zh": "一条随手的 MG 狠活，起点居然只是 iMessage 里对我最近文章的评论。",
+      "url": "https://x.com/nikunj/status/2094784484625531065",
+      "posted_at": "2026-09-01T13:48:35.000Z",
+      "tags": [
+        "@nikunj"
+      ]
+    },
+    {
+      "id": "6e88337d04",
+      "date": "2026-09-02",
+      "source": "podcast",
+      "author": "Training Data",
+      "bio": "",
+      "title": "Making Cities Awesome: Peregrine’s Nick Noone &amp; Ben Rudolph",
+      "summary_en": "Speaker 1 | 00:00 - 00:40\nPeregrine is really around this idea of how can we leverage technology to work with our cities, our counties, our states to to impact the the places that we live in. At the bottom of the pyramid, really, when it comes to how to make cities awesome, is the idea of safety. The idea that people need objective safety and also need to feel safe. And when that stability is there, it's amazing what's possible. And there are all these kind of contrasting, but actually similar concepts that we were wrestling with at the time.\n\nSpeaker 1 | 00:40 - 01:11\nWe were thinking about how to deploy inside of institutions and also find ways to eliminate the mishandling of information inside of really complex organizations that have access to super, super sensitive data. And then, if we could create an the backbone infrastructure level Yep. Of the modern city, then we could help to preserve individuality. We talk about privacy and other aspects of what it means to be, like, an individual person, but also bring people together.\n\nSpeaker 2 | 01:28 - 01:57\nOne of the most important stories in AI is from a company that you may not have heard of, but is almost certainly keeping you and your loved ones safe. Peregrine is building AI that protects cities and communities, and they're rejecting the surveillance state while doing that. And this should be a fantastic conversation about one of the most important applications of AI, forward deployed engineering, civil liberties, and much more. So let's get into it. Nick, you ran Palantir's SOCOM unit.\n\nSpeaker 2 | 01:57 - 02:07\nYou deployed into dangerous high stakes intelligence operations in The Middle East. Tell me, what does forward deployed engineering actually mean, and what does Silicon Valley get wrong about it?\n\nSpeake",
+      "summary_zh": "Peregrine 把 AI 放进城市和政府的底层基础设施：先解决“真实安全”和“安全感”，再谈城市活力。它的锋利处在于一边处理极敏感数据、消灭复杂机构里的信息误用，一边拒绝滑向监控国家，把公共安全和个体自由同时摆上桌面。",
+      "url": "https://www.youtube.com/playlist?list=PLOhHNjZItNnMm5tdW61JpnyxeYH5NDDx8",
+      "posted_at": "2026-09-01T09:00:00.000Z",
+      "tags": [
+        "podcast"
+      ]
+    }
+  ]
+}
