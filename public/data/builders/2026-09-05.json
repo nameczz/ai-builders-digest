@@ -1,0 +1,412 @@
+{
+  "date": "2026-09-05",
+  "generated_at": "2026-09-05T09:11:21+00:00",
+  "count": 27,
+  "items": [
+    {
+      "id": "48e0a1c196",
+      "date": "2026-09-05",
+      "source": "x",
+      "author": "Thibault Sottiaux",
+      "bio": "Codex & ChatGPT @OpenAI",
+      "title": "",
+      "summary_en": "Astra was probably our biggest competitive advantage while it wasn’t generally available.\n\nSince we’ve had it our productivity jumped so much that we shifted some of our plans 6 months ahead and will ship them at DevDay instead of mid next year.",
+      "summary_zh": "Astra 还没公开开放时，可能就是我们最大的竞争优势；它把团队生产力拉高到足以把原定明年中的计划提前半年，直接搬到 DevDay 发布。",
+      "url": "https://x.com/thsottiaux/status/2096101429832552872",
+      "posted_at": "2026-09-05T05:01:39.000Z",
+      "tags": [
+        "@thsottiaux"
+      ]
+    },
+    {
+      "id": "c8b1abdc18",
+      "date": "2026-09-05",
+      "source": "x",
+      "author": "Swyx",
+      "bio": "achieve ambition with intentionality, intensity, integrity & insanity.  affiliations: - @smol_ai - @dxtipshq - @cognition - @aidotengineer - @latentspacepod",
+      "title": "",
+      "summary_en": "i am working on a massive Astra/Fable frontier model AEO report and it looks like Claude loves @latentspacepod when asked for best ai newsletter/podcast!! was so surprised that @ricmac made me doublecheck for memory leaks lol https://t.co/fpiS98Tzu8",
+      "summary_zh": "我在做一份大型 Astra/Fable 前沿模型 AEO 报告，结果发现 Claude 被问到最佳 AI newsletter/podcast 时疯狂偏爱 @latentspacepod。离谱到 @ricmac 都让我去查是不是有记忆泄漏。",
+      "url": "https://x.com/swyx/status/2096095862732755342",
+      "posted_at": "2026-09-05T04:39:31.000Z",
+      "tags": [
+        "@swyx"
+      ]
+    },
+    {
+      "id": "e6e4b3bdf1",
+      "date": "2026-09-05",
+      "source": "x",
+      "author": "Guillermo Rauch",
+      "bio": "@vercel CEO",
+      "title": "",
+      "summary_en": "これ https://t.co/ZDbjqCl3M6",
+      "summary_zh": "这条推文本身就是一句“就这个”：不解释、不铺垫，把全部判断都压在链接里，意思是别废话，看这个就够了。",
+      "url": "https://x.com/rauchg/status/2096092393569501263",
+      "posted_at": "2026-09-05T04:25:44.000Z",
+      "tags": [
+        "@rauchg"
+      ]
+    },
+    {
+      "id": "5e9ee20327",
+      "date": "2026-09-05",
+      "source": "x",
+      "author": "Peter Yang",
+      "bio": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6",
+      "title": "",
+      "summary_en": "OpenAI should ship an app for Apple Watch where I can just voice dictate to my Codex threads and it'll reply back with voice too. \n\nThen I won't have to carry my phone around and have screen addiction.\n\nOr maybe this is what the rumored OpenAI device does.",
+      "summary_zh": "OpenAI 该给 Apple Watch 做个 Codex 语音应用，让人直接对线程口述、再用语音听回复，少带手机也少被屏幕绑架。也许传闻中的 OpenAI 硬件，干的就是这件事。",
+      "url": "https://x.com/petergyang/status/2096086845159563476",
+      "posted_at": "2026-09-05T04:03:41.000Z",
+      "tags": [
+        "@petergyang"
+      ]
+    },
+    {
+      "id": "88022c678c",
+      "date": "2026-09-05",
+      "source": "x",
+      "author": "Zara Zhang",
+      "bio": "Builder. Make something people want, then make people want it. Harvard’17. GitHub: https://t.co/KCuEaje1wd  YouTube: https://t.co/8xzbGWsHgY",
+      "title": "",
+      "summary_en": "Most people perceive AI to be a better writer than it actually is https://t.co/3OotzOgCkW",
+      "summary_zh": "多数人高估了 AI 的写作能力，以为它比实际更会写。真正的问题不是 AI 写得多好，而是人们太容易被它的表面流畅骗过去。",
+      "url": "https://x.com/zarazhangrui/status/2096082116828406233",
+      "posted_at": "2026-09-05T03:44:54.000Z",
+      "tags": [
+        "@zarazhangrui"
+      ]
+    },
+    {
+      "id": "3ad006ef2a",
+      "date": "2026-09-05",
+      "source": "x",
+      "author": "Guillermo Rauch",
+      "bio": "@vercel CEO",
+      "title": "",
+      "summary_en": "Super bullish on WebMCP. Much like Tesla FSD meets the world where it is (streets, stoplights, potholes and all), agents *need* to ride the existing WWW infrastructure… WebMCP makes it more efficient.\n\nSome pretty unique wins too. e.g: Next.js dev pages could expose debugging tools directly to agents in the specific tab they’re testing, with page-specific context, instead of sifting through server logs. No separate MCP server to find and configure because the page directly exposes its own 'agent tools'.\n\ne.g: in this world 𝚏𝚡 + 𝚊𝚐𝚎𝚗𝚝-𝚋𝚛𝚘𝚠𝚜𝚎𝚛 is a complete web dev stack with zero loss in debugging depth",
+      "summary_zh": "WebMCP 的关键价值是让 agents 直接骑在现有 WWW 基础设施上，而不是另起一套要找、要配的 MCP server。最锋利的场景是前端调试：Next.js 页面自己暴露带上下文的 agent tools，`fx + agent-browser` 就能成为零调试深度损失的完整 Web 开发栈。",
+      "url": "https://x.com/rauchg/status/2096065378598441431",
+      "posted_at": "2026-09-05T02:38:23.000Z",
+      "tags": [
+        "@rauchg"
+      ]
+    },
+    {
+      "id": "6f8f93d8a9",
+      "date": "2026-09-05",
+      "source": "x",
+      "author": "Peter Yang",
+      "bio": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6",
+      "title": "",
+      "summary_en": "Astra generated the most stereotypical image of a PM I've ever seen for my game https://t.co/kTHOWcVSWP",
+      "summary_zh": "Astra 给我的游戏生成了一张“产品经理”图，刻板到像是把所有 PM 梗都压进了一张脸里。",
+      "url": "https://x.com/petergyang/status/2096036429159973348",
+      "posted_at": "2026-09-05T00:43:21.000Z",
+      "tags": [
+        "@petergyang"
+      ]
+    },
+    {
+      "id": "915e3add67",
+      "date": "2026-09-05",
+      "source": "x",
+      "author": "Thibault Sottiaux",
+      "bio": "Codex & ChatGPT @OpenAI",
+      "title": "",
+      "summary_en": "And the team will have some nice sleep now. See you next week for some more ships.",
+      "summary_zh": "团队终于可以睡个好觉了；下周继续发货。",
+      "url": "https://x.com/thsottiaux/status/2096035748130795560",
+      "posted_at": "2026-09-05T00:40:39.000Z",
+      "tags": [
+        "@thsottiaux"
+      ]
+    },
+    {
+      "id": "71b192daa6",
+      "date": "2026-09-05",
+      "source": "x",
+      "author": "Thibault Sottiaux",
+      "bio": "Codex & ChatGPT @OpenAI",
+      "title": "",
+      "summary_en": "Because we are beyond happy to have Astra rolled out today ahead of schedule and you have been super patient with us (not really, but it’s ok!)… we will do the full banked reset today too for all Plus, Pro and Business users. Lands end of day.\n\nHappy Astra day and enjoy a phenomenal weekend. \n\nPS: If you create the account or upgrade before 8pm PT you will get it too. Still time!",
+      "summary_zh": "Astra 提前上线，Plus、Pro 和 Business 用户今天也会拿到完整的 banked reset，最晚当天结束前落地。太“耐心”的人有福了：太平洋时间晚 8 点前新建账号或升级，也能赶上。",
+      "url": "https://x.com/thsottiaux/status/2096035437299237298",
+      "posted_at": "2026-09-05T00:39:25.000Z",
+      "tags": [
+        "@thsottiaux"
+      ]
+    },
+    {
+      "id": "de891c9d3d",
+      "date": "2026-09-05",
+      "source": "x",
+      "author": "Amjad Masad",
+      "bio": "ceo @replit. civilizationist",
+      "title": "",
+      "summary_en": "The singularity is here, it’s just not evenly distributed https://t.co/8osY33GqLS",
+      "summary_zh": "奇点不是未来，它已经发生了；只是现在只有少数人、少数公司和少数场景先用上了。",
+      "url": "https://x.com/amasad/status/2096022087035195647",
+      "posted_at": "2026-09-04T23:46:22.000Z",
+      "tags": [
+        "@amasad"
+      ]
+    },
+    {
+      "id": "83c41eb103",
+      "date": "2026-09-05",
+      "source": "x",
+      "author": "Peter Yang",
+      "bio": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6",
+      "title": "",
+      "summary_en": "Would you all want to play my roguelike deckbuilder https://t.co/5XUsQU7S83",
+      "summary_zh": "他直接抛出一款自制 Roguelike 卡牌构筑游戏，问大家想不想玩。",
+      "url": "https://x.com/petergyang/status/2096020213775118765",
+      "posted_at": "2026-09-04T23:38:55.000Z",
+      "tags": [
+        "@petergyang"
+      ]
+    },
+    {
+      "id": "32a99f0256",
+      "date": "2026-09-05",
+      "source": "x",
+      "author": "Sam Altman",
+      "bio": "The mission of OpenAI to ensure that AGI benefits all of humanity",
+      "title": "",
+      "summary_en": "Now out to all Plus and Business users.\n\nHappy building! https://t.co/66tabg3Yid",
+      "summary_zh": "新功能已向所有 Plus 和 Business 用户开放。别等了，直接开造。",
+      "url": "https://x.com/sama/status/2096008528834244741",
+      "posted_at": "2026-09-04T22:52:29.000Z",
+      "tags": [
+        "@sama"
+      ]
+    },
+    {
+      "id": "12fe719b92",
+      "date": "2026-09-05",
+      "source": "x",
+      "author": "Amjad Masad",
+      "bio": "ceo @replit. civilizationist",
+      "title": "",
+      "summary_en": "Astra on Replit ✨ https://t.co/ONm0dLAwoD",
+      "summary_zh": "Astra 已经上线 Replit，主打一个把 AI 开发工具直接塞进在线编程工作流。",
+      "url": "https://x.com/amasad/status/2095986658185453928",
+      "posted_at": "2026-09-04T21:25:35.000Z",
+      "tags": [
+        "@amasad"
+      ]
+    },
+    {
+      "id": "eaa0858241",
+      "date": "2026-09-05",
+      "source": "x",
+      "author": "Sam Altman",
+      "bio": "The mission of OpenAI to ensure that AGI benefits all of humanity",
+      "title": "",
+      "summary_en": "GPT-6 Astra is now available to all Pro, Enterprise, and Business Premium users in Work/Codex, and is available in the API.\n\nWe will start rollout to Plus and Business users next.\n\nThank you for the patience.",
+      "summary_zh": "GPT-6 Astra 已向 Work/Codex 的 Pro、Enterprise、Business Premium 用户和 API 开放。Plus 和 Business 用户下一批。",
+      "url": "https://x.com/sama/status/2095973658867171733",
+      "posted_at": "2026-09-04T20:33:56.000Z",
+      "tags": [
+        "@sama"
+      ]
+    },
+    {
+      "id": "413dfd2aee",
+      "date": "2026-09-05",
+      "source": "x",
+      "author": "Garry Tan",
+      "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "title": "",
+      "summary_en": "Absolutely insane experience using @AsideAI as an AI harness - trying to setup OpenClaw with Slack was a 2 hour experience. \n\nAside's harness with full integrations AND browser integration did it in less than 3 minutes, and it's fully featured with smart access control defaults https://t.co/ja81EcaMUh",
+      "summary_zh": "用 OpenClaw 接 Slack 折腾了 2 小时，换 AsideAI 的 AI harness 不到 3 分钟搞定。它不仅集成全、带浏览器集成，还默认做了聪明的访问控制，体验差距离谱。",
+      "url": "https://x.com/garrytan/status/2095971990645755941",
+      "posted_at": "2026-09-04T20:27:18.000Z",
+      "tags": [
+        "@garrytan"
+      ]
+    },
+    {
+      "id": "8d09964d8d",
+      "date": "2026-09-05",
+      "source": "x",
+      "author": "Garry Tan",
+      "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "title": "",
+      "summary_en": "GStack now uses @AsideAI browser as it's preferred remote session browser\n\nDoes your AI agent need access to web and credentials as you? Aside is now the #1 absolute best way to do it I've found out of all AI agent tools. \n\nAside is a/ an amazing browser, b/ great at credentials, c/ has all the integrations you need and c/ actually an amazing harness and memory system in its own right\n\nIt's my new favorite AI browser",
+      "summary_zh": "GStack 已把 @AsideAI 设为首选远程会话浏览器：如果你的 AI Agent 需要像你一样访问网页和凭证，Aside 是目前他试过的所有工具里最强方案。\n\n它不只是浏览器好用，凭证处理、集成、执行框架和记忆系统都够硬，已经成了他新的 AI 浏览器首选。",
+      "url": "https://x.com/garrytan/status/2095948689823121872",
+      "posted_at": "2026-09-04T18:54:43.000Z",
+      "tags": [
+        "@garrytan"
+      ]
+    },
+    {
+      "id": "15daf2a514",
+      "date": "2026-09-05",
+      "source": "x",
+      "author": "Guillermo Rauch",
+      "bio": "@vercel CEO",
+      "title": "",
+      "summary_en": "AI software factories will yield bug-free, self-improving software https://t.co/m8J9LT2wbR",
+      "summary_zh": "AI 软件工厂会产出零 bug、能自我改进的软件。意思很直接：软件开发正在从“人写人修”变成自动化生产线。",
+      "url": "https://x.com/rauchg/status/2095926173293572467",
+      "posted_at": "2026-09-04T17:25:14.000Z",
+      "tags": [
+        "@rauchg"
+      ]
+    },
+    {
+      "id": "8c9c670a4c",
+      "date": "2026-09-05",
+      "source": "x",
+      "author": "Dan Shipper",
+      "bio": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "title": "",
+      "summary_en": "can’t help myself https://t.co/ZEZh9OlqvI",
+      "summary_zh": "又没管住手，还是忍不住把这东西做出来/发出来了。",
+      "url": "https://x.com/danshipper/status/2095925615467659637",
+      "posted_at": "2026-09-04T17:23:01.000Z",
+      "tags": [
+        "@danshipper"
+      ]
+    },
+    {
+      "id": "fd7d7ce5d4",
+      "date": "2026-09-05",
+      "source": "x",
+      "author": "Aditya Agarwal",
+      "bio": "General Partner @SPC, Co-Founder @Bevel_Health | Ex: Early Eng @facebook, CTO @Dropbox, Board @Flipkart | Optimist, Builder, Dad",
+      "title": "",
+      "summary_en": "Me: I totally understand how RL, inference time scaling, modern data-verification loops work.\n\nAlso Me: These models are total sorcery. There is no way that they should be able to do what they do.",
+      "summary_zh": "嘴上说自己完全理解 RL、推理时扩展和数据验证循环，心里还是得承认：这些模型就是巫术，根本不该强到这种地步。",
+      "url": "https://x.com/adityaag/status/2095910036652577028",
+      "posted_at": "2026-09-04T16:21:07.000Z",
+      "tags": [
+        "@adityaag"
+      ]
+    },
+    {
+      "id": "a2062ee2f7",
+      "date": "2026-09-05",
+      "source": "x",
+      "author": "Madhu Guru",
+      "bio": "Sr Director, AI at Meta; Prev: Google - Led Gemini, Veo, Nano Banana.",
+      "title": "",
+      "summary_en": "Here’s one practical thing you can do this weekend to get better at building AI products.\n\nPick a workflow you know well - from your personal life or your work.\n\nAutomate the whole thing with AI.\n\nUse the AI product you’re comfortable with - you’ll probably have to experiment with a few.\n\nThis exercise will force you to think about\n\n1/ What does a great end-to-end experience look like?\n2/ How should you use MCPs and tools?\n3/ Where should humans stay in the loop?\n4/ How do you evaluate it?\n\nThen keep expanding the ambition.\n\nYou’ll learn more by doing this once than by reading about AI product building for a month.\n\nThe only way to learn is to build.",
+      "summary_zh": "这个周末别再读 AI 产品方法论了，挑一个你最熟的工作流，用 AI 从头到尾自动化一遍。你会被迫搞清楚端到端体验、工具/MCP、人类介入和评估怎么设计；做一次，比读一个月都管用。",
+      "url": "https://x.com/realmadhuguru/status/2095907570540335174",
+      "posted_at": "2026-09-04T16:11:19.000Z",
+      "tags": [
+        "@realmadhuguru"
+      ]
+    },
+    {
+      "id": "90042c7567",
+      "date": "2026-09-05",
+      "source": "x",
+      "author": "Nikunj Kothari",
+      "bio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
+      "title": "",
+      "summary_en": "Adding “sovereign” to this list based on the last few weeks https://t.co/Qyu5uXanZA",
+      "summary_zh": "过去几周已经足够说明，“主权 AI”也该被列入这张危险清单。",
+      "url": "https://x.com/nikunj/status/2095890365723406590",
+      "posted_at": "2026-09-04T15:02:57.000Z",
+      "tags": [
+        "@nikunj"
+      ]
+    },
+    {
+      "id": "47aa5e0339",
+      "date": "2026-09-05",
+      "source": "x",
+      "author": "Dan Shipper",
+      "bio": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "title": "",
+      "summary_en": "can you tell Astra is running my @every office fantasy team\n\nthis is my team name: https://t.co/2t1fY52eFh",
+      "summary_zh": "Astra 已经接管了他在 Every 办公室的 fantasy 队，连队名都透着一股“AI 替我上班”的味道。",
+      "url": "https://x.com/danshipper/status/2095885899871449385",
+      "posted_at": "2026-09-04T14:45:12.000Z",
+      "tags": [
+        "@danshipper"
+      ]
+    },
+    {
+      "id": "81486f1628",
+      "date": "2026-09-05",
+      "source": "x",
+      "author": "Matt Turck",
+      "bio": "VC at @FirstMarkCap.  Host: MAD Podcast; Organizer: Data Driven NYC, Author: MAD Landscape.",
+      "title": "",
+      "summary_en": "From our recent pod: \n\nhttps://t.co/ZOvmqrsNSx",
+      "summary_zh": "这条推文没有实质观点，只是在给近期播客导流；真正信息全压在链接里。",
+      "url": "https://x.com/mattturck/status/2095885287960264962",
+      "posted_at": "2026-09-04T14:42:46.000Z",
+      "tags": [
+        "@mattturck"
+      ]
+    },
+    {
+      "id": "f4072eb81b",
+      "date": "2026-09-05",
+      "source": "x",
+      "author": "Matt Turck",
+      "bio": "VC at @FirstMarkCap.  Host: MAD Podcast; Organizer: Data Driven NYC, Author: MAD Landscape.",
+      "title": "",
+      "summary_en": "Hugging Face and @Thom_Wolf cannot stop winning, first the acquisition and now this comment lol https://t.co/Mj4Iy4ssT4",
+      "summary_zh": "Hugging Face 和 Thomas Wolf 最近风头太盛：刚完成收购，又靠一条评论继续刷存在感。赢麻了，而且还挺会整活。",
+      "url": "https://x.com/mattturck/status/2095885284801982779",
+      "posted_at": "2026-09-04T14:42:46.000Z",
+      "tags": [
+        "@mattturck"
+      ]
+    },
+    {
+      "id": "dd8301b974",
+      "date": "2026-09-05",
+      "source": "x",
+      "author": "Dan Shipper",
+      "bio": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "title": "",
+      "summary_en": "i've got Astra doing film study for our @every fantasy football draft \n\nwe going to take over this league 😤 https://t.co/kMKz5XscV8",
+      "summary_zh": "他已经让 Astra 给 @every 的梦幻橄榄球选秀做“看片分析”了。\n\n这不是玩票，是准备把整个联盟打穿。",
+      "url": "https://x.com/danshipper/status/2095882683729490108",
+      "posted_at": "2026-09-04T14:32:26.000Z",
+      "tags": [
+        "@danshipper"
+      ]
+    },
+    {
+      "id": "8fada603f5",
+      "date": "2026-09-05",
+      "source": "x",
+      "author": "Amjad Masad",
+      "bio": "ceo @replit. civilizationist",
+      "title": "",
+      "summary_en": "It’s coming 🤗 https://t.co/FUYGCMIFmV https://t.co/K9SJQxdAj6",
+      "summary_zh": "它要来了，暗示某个新 AI 产品或功能即将发布。",
+      "url": "https://x.com/amasad/status/2095792059647234204",
+      "posted_at": "2026-09-04T08:32:19.000Z",
+      "tags": [
+        "@amasad"
+      ]
+    },
+    {
+      "id": "1680bb32ac",
+      "date": "2026-09-05",
+      "source": "podcast",
+      "author": "No Priors",
+      "bio": "",
+      "title": "Redefining Chip Architecture with Arm CEO Rene Haas",
+      "summary_en": "Speaker 1 | 00:00 - 00:15\nThere's no computing problem that's ever been invented that doesn't utilize and can't utilize the microprocessor. It is the heart of everything. All roads lead through it, around it, past it. Something has to do the orchestration, arbitration decision around where those tokens go. That's what CPUs do.\n\nSpeaker 1 | 00:15 - 00:36\nChip design can take anywhere from twenty four to thirty six months depending on the complexity of the chip, etcetera, etcetera. The actual design is not the largest amount of time. The largest amount of time is in the verification, the validation, the debug. AI is really good at that. And if we were to shut it off, it's like being in the 1990s, you've got internet and you're now saying, you know, only internet between the hours of two and four.\n\nSpeaker 2 | 00:36 - 00:37\nYeah.\n\nSpeaker 1 | 00:37 - 00:42\nAfter that, go to the library that we have down the hall. It'd be anarchy. Yeah. The genie's out of the bottle and there's no stopping that.\n\nSpeaker 2 | 00:49 - 01:13\nHi, listeners. Welcome back to No Priors. Today, Elad and I are here with Renee Haas, the CEO of ARM and SoftBank Group International. We talk about the position of ARM within the chip industry, the resurgence of interest in chip innovation, the challenges of the supply chain, the future of robotics, energy, his place in the SoftBank Group, and how he sees workloads changing in the future and for ARM. Renee, thanks so much for doing this with us.\n\nSpeaker 1 | 01:13 - 01:13\nPleasure.\n\nSpeaker 2 | 01:14 - 01:36\nCongratulations on the chip presentation at hot chips and, you know, all of the progress that ARM has made. I think there's enormous amount of interest from the technology industry and the software industry and just sort better understanding the chip ",
+      "summary_zh": "微处理器是所有计算的心脏，最终都要靠 CPU 来编排、仲裁 token 往哪走。芯片设计最耗时的不是设计，而是验证、调试和排错；AI 已经把这块改写了，现在关掉它就像把互联网限时开放，混乱不可避免。",
+      "url": "https://www.youtube.com/@NoPriorsPodcast",
+      "posted_at": "2026-09-03T10:00:00.000Z",
+      "tags": [
+        "podcast"
+      ]
+    }
+  ]
+}
