@@ -1,0 +1,148 @@
+{
+  "date": "2026-09-05",
+  "items": [
+    {
+      "id": "2026-09-05-1",
+      "title": "Astra 提前半年发布的真相",
+      "angle": "从“内部工具变成公开产品”的瞬间，看前沿模型如何把公司路线图压缩掉半年。",
+      "opening": "Astra 原本是明年中的东西，现在被提前半年搬到 DevDay。最有意思的不是模型更强了，而是它强到先改变了团队自己的生产节奏。",
+      "story_hook": {
+        "challenge": "一个还没公开的模型，本来是团队最大的内部竞争优势；一旦发布，优势就从秘密武器变成全民军备竞赛。",
+        "twist": "真正推动发布的可能不是市场节奏，而是内部生产力已经被模型改写到藏不住。"
+      },
+      "takeaway": "判断新模型价值，不只看 benchmark，要看它是否让发布节奏、路线图和组织协作发生可见变化。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Thibault Sottiaux 称 Astra 把原定明年中的计划提前半年",
+          "url": "https://x.com/thsottiaux/status/2096101429832552872"
+        },
+        {
+          "tag": "builders",
+          "ref": "Sam Altman 宣布 GPT-6 Astra 向 Pro、Enterprise、Business Premium 和 API 开放",
+          "url": "https://x.com/sama/status/2095973658867171733"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Google Trends 中 codex cli、gpt astra、codex astra 搜索上升",
+          "url": "https://trends.google.com/trends/explore?q=codex+cli&date=now+7-d"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-05-2",
+      "title": "Agent Skills 正在替代教程",
+      "angle": "把 Agent Skills 写成新的“开发者分发层”，而不是又一套 prompt 技巧合集。",
+      "opening": "今天最热的不是某个神级提示词，而是一批 skills 项目同时冲上来。开发者正在从“教 AI 怎么说话”，转向“给 AI 安装工作能力”。",
+      "story_hook": {
+        "challenge": "过去 AI 工作流靠经验、口述和方法论传播，很难复用、测试和迁移。",
+        "twist": "现在真正被 star 的，是能被 agent 直接加载、组合、验证的技能目录。"
+      },
+      "takeaway": "如果你有稳定工作流，不要先写长文教程，先把它拆成可调用的 skill、样例和测试输入。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Madhu Guru 建议周末挑一个熟悉工作流，用 AI 端到端自动化一遍",
+          "url": "https://x.com/realmadhuguru/status/2095907570540335174"
+        },
+        {
+          "tag": "pulse",
+          "ref": "K-Dense-AI/scientific-agent-skills 单周 6898 星",
+          "url": "https://github.com/K-Dense-AI/scientific-agent-skills"
+        },
+        {
+          "tag": "pulse",
+          "ref": "mattpocock/skills 单周 2758 星",
+          "url": "https://github.com/mattpocock/skills"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-05-3",
+      "title": "MCP 可能不需要服务器",
+      "angle": "从 WebMCP 看 agent 工具链的反常识：入口可能不是新协议生态，而是现有网页自己长出工具。",
+      "opening": "大家还在找 MCP server、配 MCP server，Guillermo Rauch 直接把问题反过来：为什么不让网页自己暴露 agent tools？如果 Next.js 页面能带上下文被 agent 调试，前端开发栈会少掉一层巨大摩擦。",
+      "story_hook": {
+        "challenge": "MCP 的问题不是概念不强，而是发现、配置、权限和上下文丢失都让开发者疲惫。",
+        "twist": "WebMCP 的锋利点在于不新建一套世界，而是骑在 WWW 这个现成分发层上。"
+      },
+      "takeaway": "做 agent infra 时优先问：能不能嵌进用户已有入口，而不是要求用户先接一套新后台。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Guillermo Rauch 谈 WebMCP：让 agents 直接骑在现有 WWW 基础设施上",
+          "url": "https://x.com/rauchg/status/2096065378598441431"
+        },
+        {
+          "tag": "pulse",
+          "ref": "TrackMCP 把 MCP Server 做成类似 Google Analytics 的观测面板",
+          "url": "https://www.producthunt.com/products/trackmcp"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Hyperprobe 主打让 AI agents 无需重新部署就调试生产",
+          "url": "https://www.producthunt.com/products/hyperprobe"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-05-4",
+      "title": "Agent 浏览器的护城河是凭证",
+      "angle": "用 Garry Tan 的 2 小时 vs 3 分钟对比，讲清 agent 浏览器竞争不在 UI，而在权限、凭证和执行框架。",
+      "opening": "同样是让 agent 接 Slack，一个方案折腾 2 小时，另一个不到 3 分钟搞定。这个差距不是按钮摆得好不好，而是 AI 要真正替你上网时，凭证和访问控制才是硬门槛。",
+      "story_hook": {
+        "challenge": "Agent 想像人一样操作网页，就必须碰到登录态、权限边界、浏览器上下文和审计问题。",
+        "twist": "用户感受到的“聪明”，往往来自底层把凭证和访问控制处理干净，而不是模型回答更漂亮。"
+      },
+      "takeaway": "评估 agent 浏览器产品时，不要只试网页操作，要重点测试登录、权限隔离、记忆、审计和失败恢复。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Garry Tan 称 OpenClaw 接 Slack 折腾 2 小时，AsideAI 不到 3 分钟搞定",
+          "url": "https://x.com/garrytan/status/2095971990645755941"
+        },
+        {
+          "tag": "builders",
+          "ref": "Garry Tan 称 GStack 已把 AsideAI 设为首选远程会话浏览器",
+          "url": "https://x.com/garrytan/status/2095948689823121872"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt 上 agent infra 产品集中出现，包括 Reflexio、TrackMCP、Hyperprobe",
+          "url": "https://www.producthunt.com/products/reflexio-2"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-05-5",
+      "title": "聊天模型之外，TimesFM 起飞",
+      "angle": "把 TimesFM 的三端共振写成一个产品判断：下一批 AI 应用可能不从聊天框开始，而从预测表格开始。",
+      "opening": "今天最强的非聊天模型信号是 TimesFM：GitHub、HuggingFace、Google Trends 同时抬头。这说明开发者的注意力正在从“让 AI 回答我”，转向“让 AI 预测下一周会发生什么”。",
+      "story_hook": {
+        "challenge": "过去 AI 产品默认围绕对话入口展开，但很多业务问题本质上不是问答，而是库存、销量、流量和现金流预测。",
+        "twist": "时间序列模型一旦足够易用，最先被改变的可能不是研究团队，而是小店、运营和 SaaS 仪表盘。"
+      },
+      "takeaway": "有业务数据入口的团队，可以先做一个窄场景预测模板：导入 CSV，输出预测、置信区间和可执行建议。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "No Priors 采访 Arm CEO Rene Haas，谈 AI 正在改写芯片验证、调试和排错",
+          "url": "https://www.youtube.com/@NoPriorsPodcast"
+        },
+        {
+          "tag": "pulse",
+          "ref": "google-research/timesfm 单周 2653 星",
+          "url": "https://github.com/google-research/timesfm"
+        },
+        {
+          "tag": "pulse",
+          "ref": "google/timesfm-3.0-pytorch 在 HuggingFace trending",
+          "url": "https://huggingface.co/google/timesfm-3.0-pytorch"
+        }
+      ]
+    }
+  ],
+  "notes": "今日主线很集中：Astra 发布带动开发者入口重排，Agent Skills、WebMCP、agent 浏览器都在争夺工作流控制权；TimesFM 是少数明显跳出聊天框的机会。",
+  "generated_at": "2026-09-05T09:18:28+00:00",
+  "model": "gpt-5.5"
+}
