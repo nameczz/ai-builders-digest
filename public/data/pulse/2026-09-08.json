@@ -1,0 +1,230 @@
+{
+  "date": "2026-09-08",
+  "top3": [],
+  "intro": "（无 LLM 编辑模式：以下为原始数据归档，建议安装 codex CLI 重新生成。）",
+  "sections": [
+    {
+      "id": "discovery",
+      "title": "发现机会",
+      "blocks": [
+        {
+          "id": "indie-products",
+          "heading": "今天有哪些独立开发者的新产品？",
+          "summary_md": "（自动归档模式）今日 Show HN 与 Product Hunt 上线的独立开发者产品列表。",
+          "items": [
+            {
+              "title": "Jupitrr Cut",
+              "url": "https://www.producthunt.com/products/jupitrr",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Switch",
+              "url": "https://www.producthunt.com/products/switch-11",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Tables.so",
+              "url": "https://www.producthunt.com/products/tables-so",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Catenary",
+              "url": "https://www.producthunt.com/products/catenary",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "TapCraft",
+              "url": "https://www.producthunt.com/products/tapcraft-launch-videos-for-mobile-devs",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "SODAX SDK",
+              "url": "https://www.producthunt.com/products/sodax",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Relaticle",
+              "url": "https://www.producthunt.com/products/relaticle",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Lyrimuse",
+              "url": "https://www.producthunt.com/products/lyrimuse",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Nametag",
+              "url": "https://www.producthunt.com/products/nametag-ai",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Replay QA Security Scan",
+              "url": "https://www.producthunt.com/products/replayio",
+              "source": "ProductHunt"
+            }
+          ],
+          "takeaway": ""
+        },
+        {
+          "id": "github-traction",
+          "heading": "GitHub 上哪些高增长开源项目还没有商业化？",
+          "summary_md": "（自动归档模式）本周 GitHub Trending 高速增长的仓库。",
+          "items": [
+            {
+              "title": "magnitudedev/magnitude",
+              "url": "https://github.com/magnitudedev/magnitude",
+              "source": "GitHub",
+              "score": 2430
+            },
+            {
+              "title": "tt-a1i/archify",
+              "url": "https://github.com/tt-a1i/archify",
+              "source": "GitHub",
+              "score": 14946
+            },
+            {
+              "title": "Gitlawb/openclaude",
+              "url": "https://github.com/Gitlawb/openclaude",
+              "source": "GitHub",
+              "score": 2040
+            },
+            {
+              "title": "THU-MAIC/OpenMAIC",
+              "url": "https://github.com/THU-MAIC/OpenMAIC",
+              "source": "GitHub",
+              "score": 6934
+            },
+            {
+              "title": "google-research/timesfm",
+              "url": "https://github.com/google-research/timesfm",
+              "source": "GitHub",
+              "score": 3506
+            },
+            {
+              "title": "jingyaogong/minimind",
+              "url": "https://github.com/jingyaogong/minimind",
+              "source": "GitHub",
+              "score": 3633
+            },
+            {
+              "title": "pollen-robotics/microduck_rl",
+              "url": "https://github.com/pollen-robotics/microduck_rl",
+              "source": "GitHub",
+              "score": 828
+            },
+            {
+              "title": "debpalash/VoiceStudio",
+              "url": "https://github.com/debpalash/VoiceStudio",
+              "source": "GitHub",
+              "score": 7916
+            },
+            {
+              "title": "fmtlib/fmt",
+              "url": "https://github.com/fmtlib/fmt",
+              "source": "GitHub",
+              "score": 1909
+            },
+            {
+              "title": "affaan-m/ECC",
+              "url": "https://github.com/affaan-m/ECC",
+              "source": "GitHub",
+              "score": 7735
+            }
+          ],
+          "takeaway": ""
+        }
+      ]
+    },
+    {
+      "id": "tech-stack",
+      "title": "技术选型",
+      "blocks": [
+        {
+          "id": "hf-models",
+          "heading": "HuggingFace 上最热的模型能做什么消费级产品？",
+          "summary_md": "（自动归档模式）HuggingFace trending 模型列表。",
+          "items": [
+            {
+              "title": "XHToken/Spark-X2.5-4B",
+              "url": "https://huggingface.co/XHToken/Spark-X2.5-4B",
+              "source": "HuggingFace",
+              "score": 652
+            },
+            {
+              "title": "Qwen/Qwen3.8-27B",
+              "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
+              "source": "HuggingFace",
+              "score": 522
+            },
+            {
+              "title": "ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF",
+              "url": "https://huggingface.co/ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF",
+              "source": "HuggingFace",
+              "score": 480
+            },
+            {
+              "title": "google/timesfm-3.0-pytorch",
+              "url": "https://huggingface.co/google/timesfm-3.0-pytorch",
+              "source": "HuggingFace",
+              "score": 446
+            },
+            {
+              "title": "openbmb/MiniCPM5-2B",
+              "url": "https://huggingface.co/openbmb/MiniCPM5-2B",
+              "source": "HuggingFace",
+              "score": 397
+            },
+            {
+              "title": "Lightricks/LTX-2.5",
+              "url": "https://huggingface.co/Lightricks/LTX-2.5",
+              "source": "HuggingFace",
+              "score": 358
+            },
+            {
+              "title": "Qwen/Qwen3.8-Flash-Next",
+              "url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next",
+              "source": "HuggingFace",
+              "score": 329
+            },
+            {
+              "title": "deepseek-ai/DeepSeek-V4-Flash-Vision-Exp",
+              "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-Vision-Exp",
+              "source": "HuggingFace",
+              "score": 305
+            },
+            {
+              "title": "DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
+              "url": "https://huggingface.co/DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
+              "source": "HuggingFace",
+              "score": 287
+            },
+            {
+              "title": "unsloth/Qwen3.8-27B-GGUF",
+              "url": "https://huggingface.co/unsloth/Qwen3.8-27B-GGUF",
+              "source": "HuggingFace",
+              "score": 282
+            }
+          ],
+          "takeaway": ""
+        }
+      ]
+    },
+    {
+      "id": "competition",
+      "title": "竞争情报",
+      "blocks": []
+    },
+    {
+      "id": "trends",
+      "title": "趋势判断",
+      "blocks": []
+    },
+    {
+      "id": "actions",
+      "title": "行动触发",
+      "blocks": []
+    }
+  ],
+  "generated_at": "2026-09-08T09:13:55+00:00",
+  "reddit_highlights": []
+}
