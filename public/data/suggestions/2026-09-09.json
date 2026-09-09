@@ -1,0 +1,62 @@
+{
+  "date": "2026-09-09",
+  "items": [
+    {
+      "id": "2026-09-09-1",
+      "title": "Demand for Astra is really unp",
+      "angle": "（自动归档模式：未生成）",
+      "opening": "Demand for Astra is really unprecedented. We're pulling all the levers possible to sustain the demand, but I've not seen anything like it until now and we went through very steep growth before. Priori",
+      "story_hook": {
+        "challenge": "",
+        "twist": ""
+      },
+      "takeaway": "",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Thibault Sottiaux",
+          "url": "https://x.com/thsottiaux/status/2097559315150426222"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-09-2",
+      "title": "Also note that well aligned mo",
+      "angle": "（自动归档模式：未生成）",
+      "opening": "Also note that well aligned models are not sufficient to solve prompt injection by themselves yet. That said, we have solved prompt injection in practice when layering our latest models with prompt in",
+      "story_hook": {
+        "challenge": "",
+        "twist": ""
+      },
+      "takeaway": "",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Boris Cherny",
+          "url": "https://x.com/bcherny/status/2097557079762624563"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-09-3",
+      "title": "Run your own game\n\nIt's going ",
+      "angle": "（自动归档模式：未生成）",
+      "opening": "Run your own game\n\nIt's going to work out https://t.co/fdy2X1GkYa",
+      "story_hook": {
+        "challenge": "",
+        "twist": ""
+      },
+      "takeaway": "",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Garry Tan",
+          "url": "https://x.com/garrytan/status/2097540189430415785"
+        }
+      ]
+    }
+  ],
+  "notes": "fallback mode: codex CLI not available",
+  "generated_at": "2026-09-09T09:20:54+00:00",
+  "model": "gpt-5.5"
+}

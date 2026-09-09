@@ -1,0 +1,230 @@
+{
+  "date": "2026-09-09",
+  "top3": [],
+  "intro": "（无 LLM 编辑模式：以下为原始数据归档，建议安装 codex CLI 重新生成。）",
+  "sections": [
+    {
+      "id": "discovery",
+      "title": "发现机会",
+      "blocks": [
+        {
+          "id": "indie-products",
+          "heading": "今天有哪些独立开发者的新产品？",
+          "summary_md": "（自动归档模式）今日 Show HN 与 Product Hunt 上线的独立开发者产品列表。",
+          "items": [
+            {
+              "title": "Mastra Factory",
+              "url": "https://www.producthunt.com/products/mastra",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Noodle Seed",
+              "url": "https://www.producthunt.com/products/noodle-seed",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "ChatGPT Images 2.5",
+              "url": "https://www.producthunt.com/products/openai",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Harden",
+              "url": "https://www.producthunt.com/products/agent-integrity-foundation-aif",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "DuckFightClub",
+              "url": "https://www.producthunt.com/products/duckfightclub",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Diiverge",
+              "url": "https://www.producthunt.com/products/diiverge-co",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Ass Auction",
+              "url": "https://www.producthunt.com/products/ass-auction",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Type.com",
+              "url": "https://www.producthunt.com/products/type-com",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "WorkID.ai",
+              "url": "https://www.producthunt.com/products/workid-ai",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Frigade Assist API",
+              "url": "https://www.producthunt.com/products/frigade",
+              "source": "ProductHunt"
+            }
+          ],
+          "takeaway": ""
+        },
+        {
+          "id": "github-traction",
+          "heading": "GitHub 上哪些高增长开源项目还没有商业化？",
+          "summary_md": "（自动归档模式）本周 GitHub Trending 高速增长的仓库。",
+          "items": [
+            {
+              "title": "fmtlib/fmt",
+              "url": "https://github.com/fmtlib/fmt",
+              "source": "GitHub",
+              "score": 1935
+            },
+            {
+              "title": "affaan-m/ECC",
+              "url": "https://github.com/affaan-m/ECC",
+              "source": "GitHub",
+              "score": 8527
+            },
+            {
+              "title": "DietrichGebert/ponytail",
+              "url": "https://github.com/DietrichGebert/ponytail",
+              "source": "GitHub",
+              "score": 12598
+            },
+            {
+              "title": "tt-a1i/archify",
+              "url": "https://github.com/tt-a1i/archify",
+              "source": "GitHub",
+              "score": 13318
+            },
+            {
+              "title": "blader/humanizer",
+              "url": "https://github.com/blader/humanizer",
+              "source": "GitHub",
+              "score": 5790
+            },
+            {
+              "title": "Imbad0202/academic-research-skills",
+              "url": "https://github.com/Imbad0202/academic-research-skills",
+              "source": "GitHub",
+              "score": 2430
+            },
+            {
+              "title": "mattpocock/skills",
+              "url": "https://github.com/mattpocock/skills",
+              "source": "GitHub",
+              "score": 13419
+            },
+            {
+              "title": "coreyhaines31/marketingskills",
+              "url": "https://github.com/coreyhaines31/marketingskills",
+              "source": "GitHub",
+              "score": 2141
+            },
+            {
+              "title": "ChromeDevTools/chrome-devtools-mcp",
+              "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+              "source": "GitHub",
+              "score": 1014
+            },
+            {
+              "title": "llvm/llvm-project",
+              "url": "https://github.com/llvm/llvm-project",
+              "source": "GitHub",
+              "score": 304
+            }
+          ],
+          "takeaway": ""
+        }
+      ]
+    },
+    {
+      "id": "tech-stack",
+      "title": "技术选型",
+      "blocks": [
+        {
+          "id": "hf-models",
+          "heading": "HuggingFace 上最热的模型能做什么消费级产品？",
+          "summary_md": "（自动归档模式）HuggingFace trending 模型列表。",
+          "items": [
+            {
+              "title": "XHToken/Spark-X2.5-4B",
+              "url": "https://huggingface.co/XHToken/Spark-X2.5-4B",
+              "source": "HuggingFace",
+              "score": 716
+            },
+            {
+              "title": "openbmb/MiniCPM5-2B",
+              "url": "https://huggingface.co/openbmb/MiniCPM5-2B",
+              "source": "HuggingFace",
+              "score": 632
+            },
+            {
+              "title": "Qwen/Qwen3.8-27B",
+              "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
+              "source": "HuggingFace",
+              "score": 538
+            },
+            {
+              "title": "ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF",
+              "url": "https://huggingface.co/ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF",
+              "source": "HuggingFace",
+              "score": 527
+            },
+            {
+              "title": "google/timesfm-3.0-pytorch",
+              "url": "https://huggingface.co/google/timesfm-3.0-pytorch",
+              "source": "HuggingFace",
+              "score": 369
+            },
+            {
+              "title": "Lightricks/LTX-2.5",
+              "url": "https://huggingface.co/Lightricks/LTX-2.5",
+              "source": "HuggingFace",
+              "score": 357
+            },
+            {
+              "title": "DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
+              "url": "https://huggingface.co/DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
+              "source": "HuggingFace",
+              "score": 313
+            },
+            {
+              "title": "unsloth/Qwen3.8-27B-GGUF",
+              "url": "https://huggingface.co/unsloth/Qwen3.8-27B-GGUF",
+              "source": "HuggingFace",
+              "score": 308
+            },
+            {
+              "title": "sentence-transformers/all-MiniLM-L6-v2",
+              "url": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2",
+              "source": "HuggingFace",
+              "score": 277
+            },
+            {
+              "title": "Qwen/Qwen3.8-Flash-Next",
+              "url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next",
+              "source": "HuggingFace",
+              "score": 274
+            }
+          ],
+          "takeaway": ""
+        }
+      ]
+    },
+    {
+      "id": "competition",
+      "title": "竞争情报",
+      "blocks": []
+    },
+    {
+      "id": "trends",
+      "title": "趋势判断",
+      "blocks": []
+    },
+    {
+      "id": "actions",
+      "title": "行动触发",
+      "blocks": []
+    }
+  ],
+  "generated_at": "2026-09-09T09:20:23+00:00",
+  "reddit_highlights": []
+}
