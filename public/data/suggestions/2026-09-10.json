@@ -1,0 +1,62 @@
+{
+  "date": "2026-09-10",
+  "items": [
+    {
+      "id": "2026-09-10-1",
+      "title": "Finally got cloud sessions wor",
+      "angle": "（自动归档模式：未生成）",
+      "opening": "Finally got cloud sessions working *fast* in OpenClaw.\nRemote Terminal, WebVNC and CUA for computer use. https://t.co/VwbyGV5k2p",
+      "story_hook": {
+        "challenge": "",
+        "twist": ""
+      },
+      "takeaway": "",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Peter Steinberger",
+          "url": "https://x.com/steipete/status/2097935551735423464"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-10-2",
+      "title": "The world is going to be using",
+      "angle": "（自动归档模式：未生成）",
+      "opening": "The world is going to be using coding agents for far more than anyone would have thought before. \n\nWe’ll be building tools in all new categories, building software for companies that couldn’t afford i",
+      "story_hook": {
+        "challenge": "",
+        "twist": ""
+      },
+      "takeaway": "",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Aaron Levie",
+          "url": "https://x.com/levie/status/2097920810543468551"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-10-3",
+      "title": "One of the greatest joys is de",
+      "angle": "（自动归档模式：未生成）",
+      "opening": "One of the greatest joys is debating new model names with researchers. They come up with the most hilarious stuff",
+      "story_hook": {
+        "challenge": "",
+        "twist": ""
+      },
+      "takeaway": "",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Thibault Sottiaux",
+          "url": "https://x.com/thsottiaux/status/2097912273264095536"
+        }
+      ]
+    }
+  ],
+  "notes": "fallback mode: codex CLI not available",
+  "generated_at": "2026-09-10T09:17:52+00:00",
+  "model": "gpt-5.5"
+}

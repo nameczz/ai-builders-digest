@@ -1,0 +1,236 @@
+{
+  "date": "2026-09-10",
+  "top3": [],
+  "intro": "（无 LLM 编辑模式：以下为原始数据归档，建议安装 codex CLI 重新生成。）",
+  "sections": [
+    {
+      "id": "discovery",
+      "title": "发现机会",
+      "blocks": [
+        {
+          "id": "indie-products",
+          "heading": "今天有哪些独立开发者的新产品？",
+          "summary_md": "（自动归档模式）今日 Show HN 与 Product Hunt 上线的独立开发者产品列表。",
+          "items": [
+            {
+              "title": "Show HN: What if the speed of light was 5 km/h?",
+              "url": "https://rivendell.dmitrybrant.com/relativity/",
+              "source": "HN",
+              "score": 295
+            },
+            {
+              "title": "AI Observability by OpenObserve",
+              "url": "https://www.producthunt.com/products/openobserve",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "FreeScan.app",
+              "url": "https://www.producthunt.com/products/freescan-app",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Desert Ant Labs",
+              "url": "https://www.producthunt.com/products/desert-ant-labs",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Whip",
+              "url": "https://www.producthunt.com/products/whip",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "hob",
+              "url": "https://www.producthunt.com/products/hob-2",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Typewise Nova",
+              "url": "https://www.producthunt.com/products/typewise",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Mock Magic: Video Presets",
+              "url": "https://www.producthunt.com/products/mockmagic",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Wealthfolio",
+              "url": "https://www.producthunt.com/products/wealthfolio",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Speechmark",
+              "url": "https://www.producthunt.com/products/speechmark",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Gojo",
+              "url": "https://www.producthunt.com/products/gojo",
+              "source": "ProductHunt"
+            }
+          ],
+          "takeaway": ""
+        },
+        {
+          "id": "github-traction",
+          "heading": "GitHub 上哪些高增长开源项目还没有商业化？",
+          "summary_md": "（自动归档模式）本周 GitHub Trending 高速增长的仓库。",
+          "items": [
+            {
+              "title": "DietrichGebert/ponytail",
+              "url": "https://github.com/DietrichGebert/ponytail",
+              "source": "GitHub",
+              "score": 12431
+            },
+            {
+              "title": "affaan-m/ECC",
+              "url": "https://github.com/affaan-m/ECC",
+              "source": "GitHub",
+              "score": 9146
+            },
+            {
+              "title": "fmtlib/fmt",
+              "url": "https://github.com/fmtlib/fmt",
+              "source": "GitHub",
+              "score": 1847
+            },
+            {
+              "title": "tt-a1i/archify",
+              "url": "https://github.com/tt-a1i/archify",
+              "source": "GitHub",
+              "score": 12541
+            },
+            {
+              "title": "mattpocock/skills",
+              "url": "https://github.com/mattpocock/skills",
+              "source": "GitHub",
+              "score": 13143
+            },
+            {
+              "title": "blader/humanizer",
+              "url": "https://github.com/blader/humanizer",
+              "source": "GitHub",
+              "score": 5925
+            },
+            {
+              "title": "NousResearch/hermes-agent",
+              "url": "https://github.com/NousResearch/hermes-agent",
+              "source": "GitHub",
+              "score": 4114
+            },
+            {
+              "title": "ChromeDevTools/chrome-devtools-mcp",
+              "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+              "source": "GitHub",
+              "score": 962
+            },
+            {
+              "title": "heygen-com/hyperframes",
+              "url": "https://github.com/heygen-com/hyperframes",
+              "source": "GitHub",
+              "score": 4643
+            },
+            {
+              "title": "ayghri/i-have-adhd",
+              "url": "https://github.com/ayghri/i-have-adhd",
+              "source": "GitHub",
+              "score": 6581
+            }
+          ],
+          "takeaway": ""
+        }
+      ]
+    },
+    {
+      "id": "tech-stack",
+      "title": "技术选型",
+      "blocks": [
+        {
+          "id": "hf-models",
+          "heading": "HuggingFace 上最热的模型能做什么消费级产品？",
+          "summary_md": "（自动归档模式）HuggingFace trending 模型列表。",
+          "items": [
+            {
+              "title": "openbmb/MiniCPM5-2B",
+              "url": "https://huggingface.co/openbmb/MiniCPM5-2B",
+              "source": "HuggingFace",
+              "score": 825
+            },
+            {
+              "title": "XHToken/Spark-X2.5-4B",
+              "url": "https://huggingface.co/XHToken/Spark-X2.5-4B",
+              "source": "HuggingFace",
+              "score": 723
+            },
+            {
+              "title": "deepseek-ai/DeepSeek-V4.1-Flash",
+              "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash",
+              "source": "HuggingFace",
+              "score": 592
+            },
+            {
+              "title": "Qwen/Qwen3.8-27B",
+              "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
+              "source": "HuggingFace",
+              "score": 540
+            },
+            {
+              "title": "ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF",
+              "url": "https://huggingface.co/ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF",
+              "source": "HuggingFace",
+              "score": 539
+            },
+            {
+              "title": "nex-agi/Nex-N2.5-mini",
+              "url": "https://huggingface.co/nex-agi/Nex-N2.5-mini",
+              "source": "HuggingFace",
+              "score": 462
+            },
+            {
+              "title": "google/timesfm-3.0-pytorch",
+              "url": "https://huggingface.co/google/timesfm-3.0-pytorch",
+              "source": "HuggingFace",
+              "score": 340
+            },
+            {
+              "title": "Lightricks/LTX-2.5",
+              "url": "https://huggingface.co/Lightricks/LTX-2.5",
+              "source": "HuggingFace",
+              "score": 339
+            },
+            {
+              "title": "unsloth/Qwen3.8-27B-GGUF",
+              "url": "https://huggingface.co/unsloth/Qwen3.8-27B-GGUF",
+              "source": "HuggingFace",
+              "score": 328
+            },
+            {
+              "title": "openai-community/gpt2",
+              "url": "https://huggingface.co/openai-community/gpt2",
+              "source": "HuggingFace",
+              "score": 294
+            }
+          ],
+          "takeaway": ""
+        }
+      ]
+    },
+    {
+      "id": "competition",
+      "title": "竞争情报",
+      "blocks": []
+    },
+    {
+      "id": "trends",
+      "title": "趋势判断",
+      "blocks": []
+    },
+    {
+      "id": "actions",
+      "title": "行动触发",
+      "blocks": []
+    }
+  ],
+  "generated_at": "2026-09-10T09:17:26+00:00",
+  "reddit_highlights": []
+}
