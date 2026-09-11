@@ -1,0 +1,148 @@
+{
+  "date": "2026-09-11",
+  "items": [
+    {
+      "id": "2026-09-11-1",
+      "title": "Agent 时代先卖水电煤",
+      "angle": "从 Vercel 和 OpenAI 的基础设施动作切入：真正赚钱的不是 agent 演示，而是让 agent 能稳定运行的底座。",
+      "opening": "Vercel 每天约 1000 万次部署，刚把元数据系统 p99 延迟打掉 91%。另一边，OpenAI 把 ChatGPT Work 底层的 agent 运行基础设施封成 API。Agent 爆发后，最先紧张的不是想象力，而是调度、容量、回滚和全球可用性。",
+      "story_hook": {
+        "challenge": "大家都在追更聪明的 agent，但生产环境真正卡住的是基础设施能不能扛住规模。",
+        "twist": "最像 AI 创业机会的，反而是传统云计算里最无聊的那部分：部署、运行、监控和容量管理。"
+      },
+      "takeaway": "判断 agent 产品机会时，不要只看模型能力，要看它有没有把运行、审计、扩容和失败恢复做成可复用基础设施。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Thibault Sottiaux：OpenAI 将 ChatGPT Work 的 agent 基础设施开放为 API",
+          "url": "https://x.com/thsottiaux/status/2098238138334548260"
+        },
+        {
+          "tag": "builders",
+          "ref": "Guillermo Rauch：Vercel 每天约 1000 万次部署，p99 延迟降低 91%",
+          "url": "https://x.com/rauchg/status/2098091056302833837"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub Trending：mattpocock/skills 本周 +12356 stars",
+          "url": "https://github.com/mattpocock/skills"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-11-2",
+      "title": "AI 代码必须比人更严",
+      "angle": "把 Boris Cherny 的生产代码质量线和 Aaron Levie 的企业 agent 焦虑合在一起，写一篇反对“能跑就行”的文章。",
+      "opening": "原型代码可以乱，生产代码不行。Boris Cherny 说得很直：Claude 写进生产的代码，标准必须比人写的更高。问题是企业现在最缺的不是更多 agent，而是 lint、测试、审计、评测和身份控制这些老东西。",
+      "story_hook": {
+        "challenge": "AI 让写代码变快，但也让低质量代码进入生产的速度变快。",
+        "twist": "企业害怕的不是 agent 取代员工，而是 agent 在没有护栏时把系统搞穿。"
+      },
+      "takeaway": "团队上 AI 编程前，先补齐自动测试、端到端验证、代码审查、fuzz 和运行日志，否则模型升级只会放大维护债。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Boris Cherny：AI 生产代码需要 lint、测试、端到端、fuzz 和自动审查",
+          "url": "https://x.com/bcherny/status/2098217573276131577"
+        },
+        {
+          "tag": "builders",
+          "ref": "Aaron Levie：企业 agent 焦虑转向安全、身份、遗留系统和评测",
+          "url": "https://x.com/levie/status/2098218284139311615"
+        },
+        {
+          "tag": "pulse",
+          "ref": "HN：Astra for Coding: Why Are We Doing This Again?",
+          "url": "https://lucumr.pocoo.org/2026/9/7/astra-why/"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-11-3",
+      "title": "别做 Cursor 替代品了",
+      "angle": "从 Google Trends 的 cursor alternative 暴跌切入，解释为什么开发者注意力正在从 IDE 替代转向 agent 行为层。",
+      "opening": "“cursor alternative”一周暴跌 71.8%，但“ai agent”和“skills”还在涨。这个反差说明开发者不是不关心 AI coding 了，而是不想再听一个新 IDE 的故事。真正被收藏的是能让 agent 少犯错、少丢上下文、少返工的工作流资产。",
+      "story_hook": {
+        "challenge": "AI 编程工具越来越多，但用户对“替代某某 IDE”的叙事开始疲劳。",
+        "twist": "热度正在流向更小的东西：skills、上下文压缩、可验证产物和行为约束。"
+      },
+      "takeaway": "做开发者工具时，与其定位 Cursor 替代品，不如明确服务一个工作流：代码审查、架构图生成、上下文压缩或 agent 行为治理。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Peter Steinberger：别急着抽象，抽象错了比复制代码更贵",
+          "url": "https://x.com/steipete/status/2098089196800098798"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Google Trends：cursor alternative 下跌 -71.8%",
+          "url": "https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub：mksglu/context-mode 本周 +1619 stars",
+          "url": "https://github.com/mksglu/context-mode"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-11-4",
+      "title": "Computer Use 还没到爽点",
+      "angle": "用桌面端扩张和用户吐槽并置，写清楚 computer use 的战略价值与现实瓶颈。",
+      "opening": "Google 把 Gemini 推到 Windows，Vercel 想让每个 AI Agent 在每个地区都有一台电脑。但 Zara Zhang 的吐槽也很真实：AI 的 computer use 依然慢得离谱。桌面是下一块战场，可用户不会为“看起来能操作电脑”买单，他们只会为速度和稳定性买单。",
+      "story_hook": {
+        "challenge": "大厂都在抢桌面入口，但 computer use 的基础体验还没过关。",
+        "twist": "战略上最重要的入口，短期内可能也是最容易让用户失望的入口。"
+      },
+      "takeaway": "评估 computer use 产品时，优先看任务完成时间、错误恢复和可观测性，而不是看它能不能点开几个应用。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Zara Zhang：AI 的 computer use 依然慢得离谱",
+          "url": "https://x.com/zarazhangrui/status/2098136119154254287"
+        },
+        {
+          "tag": "builders",
+          "ref": "Guillermo Rauch：让每个 AI Agent 在每个地区都有一台电脑",
+          "url": "https://x.com/rauchg/status/2098158541932794222"
+        },
+        {
+          "tag": "builders",
+          "ref": "Josh Woodward：Gemini 上 Windows",
+          "url": "https://x.com/joshwoodward/status/2098131750660772342"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-11-5",
+      "title": "消费 AI 缺的不是聊天",
+      "angle": "从 Nan Yu 的“AI 还没进入日常”切入，结合 Dreambeans 和记忆产品，讨论消费级 AI 的入口迁移。",
+      "opening": "普通人每天离不开 Google、Instagram、Zillow、DoorDash，但很多 AI 产品还没真正进入他们的日常。Google Labs 的 Dreambeans 选择了一个小切口：读取 Gemini 聊天记录，每天生成更懂你的个性化故事。消费 AI 的问题可能不是模型不够强，而是它还没有变成一个自然的日常动作。",
+      "story_hook": {
+        "challenge": "AI 产品很多，但真正像社交、搜索、外卖一样高频的还很少。",
+        "twist": "下一个消费级入口未必是更万能的聊天框，而是记忆、个性化内容和固定日课。"
+      },
+      "takeaway": "做消费 AI 时，先设计一个用户每天愿意重复的小动作，再谈多模态、agent 和长期记忆。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Nan Yu：很多 AI 产品还没真正进入普通人的日常",
+          "url": "https://x.com/thenanyu/status/2098216215525331353"
+        },
+        {
+          "tag": "builders",
+          "ref": "Google Labs：Dreambeans 接入 Gemini 聊天记录生成个性化故事",
+          "url": "https://x.com/GoogleLabs/status/2098110018289803558"
+        },
+        {
+          "tag": "builders",
+          "ref": "Thariq：让 Claude 深挖个人背景并写入记忆",
+          "url": "https://x.com/trq212/status/2098157600361861579"
+        }
+      ]
+    }
+  ],
+  "notes": "今日主线是 agent 从模型竞争转向工作流、基础设施和治理竞争；独立开发者素材偏工具层，消费级素材相对少，但 Dreambeans 和 AI 记忆提供了一个可写的日常入口。",
+  "generated_at": "2026-09-11T09:20:11+00:00",
+  "model": "gpt-5.5"
+}
