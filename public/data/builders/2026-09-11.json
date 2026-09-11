@@ -1,0 +1,532 @@
+{
+  "date": "2026-09-11",
+  "generated_at": "2026-09-11T09:12:32+00:00",
+  "count": 35,
+  "items": [
+    {
+      "id": "5717c297a3",
+      "date": "2026-09-11",
+      "source": "x",
+      "author": "Boris Cherny",
+      "bio": "Claude Code @anthropicai",
+      "title": "",
+      "summary_en": "The latest Threat Intelligence report is an absolutely terrifying and important read. \n\nAs models become more intelligent, without the right safeguards and monitoring they also become more dangerous. Many capabilities are dual use: a model that codes well can be used to hack critical infrastructure; a model that assists with biology research can also be used to engineer the next pandemic. \n\nThese issues are complex, thorny, and increasingly important for everyone to understand so that the world can weigh in and respond to rapidly escalating risks.\n\nhttps://t.co/0rnV2HjPP6",
+      "summary_zh": "最新威胁情报报告读起来令人不寒而栗：模型越聪明，缺乏防护和监控时就越危险。会写代码的模型也能攻击关键基础设施，能辅助生物研究的模型也可能被用来制造下一场大流行。",
+      "url": "https://x.com/bcherny/status/2098281805770309686",
+      "posted_at": "2026-09-11T05:25:41.000Z",
+      "tags": [
+        "@bcherny"
+      ]
+    },
+    {
+      "id": "df407e6e58",
+      "date": "2026-09-11",
+      "source": "x",
+      "author": "Nikunj Kothari",
+      "bio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
+      "title": "",
+      "summary_en": "This post is probably my personal record from thought -> publishing.. lacks some of the usual polish! \n\nA little behind the scenes:\n\n> voice memo while driving to work\n> more voice memos throughout the day\n> 30 minutes of furious writing between two meetings\n> quick read through & publish\n\n@claudeai please fix your voice transcription 🙏",
+      "summary_zh": "这篇文章可能创下了我从想法到发布的个人最快纪录：开车语音备忘、白天继续补几段、两场会之间狂写 30 分钟，扫一眼就发。Claude 的语音转写该修修了。",
+      "url": "https://x.com/nikunj/status/2098255116751257663",
+      "posted_at": "2026-09-11T03:39:38.000Z",
+      "tags": [
+        "@nikunj"
+      ]
+    },
+    {
+      "id": "8bbb3676f1",
+      "date": "2026-09-11",
+      "source": "x",
+      "author": "Thibault Sottiaux",
+      "bio": "Codex & ChatGPT @OpenAI",
+      "title": "",
+      "summary_en": "Scaled agents on demand.\n\nThis is pretty much the infrastructure that runs under the hood for ChatGPT Work, all wrapped up in an API which you can use to get started in &lt; 1 min. Happy building. https://t.co/GhmuBkfjP1",
+      "summary_zh": "把 ChatGPT Work 底层跑的那套可按需扩容的 agent 基础设施，直接封成 API 给开发者用。不到 1 分钟就能接入，省掉自己重造一整套调度和运行系统。",
+      "url": "https://x.com/thsottiaux/status/2098238138334548260",
+      "posted_at": "2026-09-11T02:32:10.000Z",
+      "tags": [
+        "@thsottiaux"
+      ]
+    },
+    {
+      "id": "b2a389b760",
+      "date": "2026-09-11",
+      "source": "x",
+      "author": "Peter Steinberger",
+      "bio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world. @OpenClaw🦞 + @OpenAI",
+      "title": "",
+      "summary_en": "Trading tokens for an AC. Who knew SF could be so hot 🫠",
+      "summary_zh": "拿代币换空调，旧金山热到让人重新排序人生优先级。谁能想到 SF 也会这么烤人。",
+      "url": "https://x.com/steipete/status/2098229090570629419",
+      "posted_at": "2026-09-11T01:56:13.000Z",
+      "tags": [
+        "@steipete"
+      ]
+    },
+    {
+      "id": "b50e7a37ac",
+      "date": "2026-09-11",
+      "source": "x",
+      "author": "Aaron Levie",
+      "bio": "ceo @box - your business lives in content. unleash it with AI",
+      "title": "",
+      "summary_en": "Some more tales from the road. Met with a couple dozen technology leaders this week across banking, media, information services, insurance, and consulting to discuss agents in the enterprise.\n\nSome of the biggest trends right now:\n\n* Cyber! Everyone nervous about the growing rate of vulnerabilities coming at them from AI, and the implications of the OpenAI Hugging Face incident. The conversation is not as existential as it is in Silicon Valley, but still highly concerned and pragmatic about what to do about it operationally in their environments. Lots of new discoveries due to AI, and still hard to keep up with all the changes they have to execute now.\n\n* Model battles persist. Most companies are deploying multiple frontier models within their enterprise. Too hard to standardize on anything and seeing different preferences across their teams and use cases. But the dollars are still concentrated on just a few vendors. Open weights still in infancy at scale in most of these organizations, often due to lack of domestic “frontier” OSS options. Plenty of appetite for more options here, but so far few places to go.\n\n* Agent security and identity. Somewhat tied to Hugging Face, there’s much more awareness to the new challenges around agent security and identity management in a world when agents are trying to get into every system they can. In a perfect world enterprises could setup identities for all their agents and control what they’re doing, but of course sometimes the agent needs to act exactly as the user as well.\n\n* Process reengineering. Most companies realizing that the big upside of agents is when they can change the actual workflow itself to get the full gains from AI. Far more ROI when companies can adjust their workflows to support agents changing how the work happens instead of just layering on agents into the existing flow. But the big question is who can actually tackle driving these changes, where does that live, etc. Best lessons were still around embedded FDEs in the functions.\n\n* Ruthless adjusting of architectures. Most companies had examples of changing systems out multiple times just in the past year or two with different vendors. I probably haven’t heard “we tried X and it didn’t work so have gone with Y” more than in today’s environment. The lesson here is that because innovation is happening so fast, no one hangs around until a vendor gets something right, they just move on to the next one. \n\n* Evals! Still very early for most companies to have a good grasp of evals of their workflows. A few customers out of a couple dozen called this out - huge opportunity right now for enterprises to have a good sense of how their work actually happens and how well AI is doing against it.\n\n* Legacy systems still a hurdle. As always, legacy systems still remain a mainstay issue that holds back enterprises from rapid adoption of AI in enterprises. Data is fragmented across legacy environments that weren’t built for an agentic world. Companies spending a lot of time just cleaning up these old platforms. \n\nMany more topics, but these tend to be some of the more top of mind items at the moment in the enterprise.",
+      "summary_zh": "企业上智能体的焦虑已经从“会不会取代人”转向“怎么不把系统搞穿”：安全、身份、遗留系统、评测全都没准备好，但模型和架构已经被迫不停换血。\n\n真正的 ROI 不在给旧流程贴一层 agent，而在重写工作流；问题是大公司里没人天然负责这种手术，供应商也没时间慢慢等，跑不通就立刻换下一个。",
+      "url": "https://x.com/levie/status/2098218284139311615",
+      "posted_at": "2026-09-11T01:13:16.000Z",
+      "tags": [
+        "@levie"
+      ]
+    },
+    {
+      "id": "f24d776416",
+      "date": "2026-09-11",
+      "source": "x",
+      "author": "Boris Cherny",
+      "bio": "Claude Code @anthropicai",
+      "title": "",
+      "summary_en": "Hey ████,\n\nI think there is room for both.\n\n1. Prototypes and other throw-away code can be treated as totally black box. If you’re going to throw it away anyway, and if the blast radius of it breaking is low, it doesn’t need to be perfect.\n2. Production code written by Claude should have a higher bar than if it was written by a human. At Anthropic, we have many guardrails in place to make sure this is happening: lots of lint rules, lots of tests, Claude-driven end to end tests, Claude-powered fuzzers running daily, automated code reviews and security reviews, automated code refactoring, and so on. Without these, you can end up with a mess that is hard to maintain down the line. Luckily, the model makes it increasingly easy to do these well — run a few daily routines, use Claude Code Review, etc.\n\nYour job is to hold the bar on code quality. If Claude’s code doesn’t meet the bar, try:\n- Using the latest frontier model (Opus 5 or Fable 5.1)\n- Increase effort to high or xhigh\n- Invest in your CLAUDE.md and skills to succinctly teach Claude how to work in your codebase\n\nIf all else fails, steer Claude more when you work with it, or have Claude fix accumulated debt and rewrite your codebase to make it easier to work with. Or, wait for the next model.\n\nBest,\nBoris",
+      "summary_zh": "原型和一次性代码可以黑盒乱跑，坏了也无所谓；但 Claude 写进生产的代码，标准必须比人写的更高。\n\n如果没有 lint、测试、端到端、fuzz、自动审查和重构这些护栏，AI 代码很快就会变成维护地狱；守不住质量线，就升级模型、拉高推理强度、写好 CLAUDE.md，或者让 Claude 先把技术债还掉。",
+      "url": "https://x.com/bcherny/status/2098217573276131577",
+      "posted_at": "2026-09-11T01:10:27.000Z",
+      "tags": [
+        "@bcherny"
+      ]
+    },
+    {
+      "id": "b1f9a28641",
+      "date": "2026-09-11",
+      "source": "x",
+      "author": "Boris Cherny",
+      "bio": "Claude Code @anthropicai",
+      "title": "",
+      "summary_en": "Every day, I get a lot of of emails and messages like this one. I try to respond to as many as I can.\n\nSharing my response below, for anyone else in a similar situation. What do you think? https://t.co/z1GtgK14RM",
+      "summary_zh": "每天都有人拿类似困境来求助，作者直接把自己的回复公开给所有同病相怜的人看。核心态度是：别等私聊救命，先把问题摊开让更多人一起检验。",
+      "url": "https://x.com/bcherny/status/2098217571153838124",
+      "posted_at": "2026-09-11T01:10:26.000Z",
+      "tags": [
+        "@bcherny"
+      ]
+    },
+    {
+      "id": "08523e0382",
+      "date": "2026-09-11",
+      "source": "x",
+      "author": "Nan Yu",
+      "bio": "(soon) member of product staff @openai. prev head of product @linear. I am grader.",
+      "title": "",
+      "summary_en": "Yet normies use Google and Instagram and Zillow and Doordash all day every day. \n\nStill. Early. https://t.co/YO92sTMaqd",
+      "summary_zh": "普通人每天离不开 Google、Instagram、Zillow、DoorDash，但很多 AI 产品还没真正进入他们的日常。结论很刺眼：现在依然早得很。",
+      "url": "https://x.com/thenanyu/status/2098216215525331353",
+      "posted_at": "2026-09-11T01:05:03.000Z",
+      "tags": [
+        "@thenanyu"
+      ]
+    },
+    {
+      "id": "6dbafa6e18",
+      "date": "2026-09-11",
+      "source": "x",
+      "author": "Peter Yang",
+      "bio": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6",
+      "title": "",
+      "summary_en": "In my humble opinion, for getting shit done Sol &gt; Astra",
+      "summary_zh": "论干活效率，Sol 比 Astra 强。",
+      "url": "https://x.com/petergyang/status/2098215935467544604",
+      "posted_at": "2026-09-11T01:03:56.000Z",
+      "tags": [
+        "@petergyang"
+      ]
+    },
+    {
+      "id": "921eea210f",
+      "date": "2026-09-11",
+      "source": "x",
+      "author": "Amjad Masad",
+      "bio": "ceo @replit. civilizationist",
+      "title": "",
+      "summary_en": "Chat with the etn bros! https://t.co/lMH3Pqbeat",
+      "summary_zh": "作者直接丢入口：想懂 ETN，就去和那帮 bros 聊。",
+      "url": "https://x.com/amasad/status/2098171773413929322",
+      "posted_at": "2026-09-10T22:08:27.000Z",
+      "tags": [
+        "@amasad"
+      ]
+    },
+    {
+      "id": "4db53551fa",
+      "date": "2026-09-11",
+      "source": "x",
+      "author": "Amjad Masad",
+      "bio": "ceo @replit. civilizationist",
+      "title": "",
+      "summary_en": "Chat with PG in London! https://t.co/E0Gs90oQRc",
+      "summary_zh": "他在伦敦和 PG 当面聊了一场。AI builder 的问题，直接拿去和 Paul Graham 碰撞。",
+      "url": "https://x.com/amasad/status/2098171501505581559",
+      "posted_at": "2026-09-10T22:07:22.000Z",
+      "tags": [
+        "@amasad"
+      ]
+    },
+    {
+      "id": "7a53d2f6cd",
+      "date": "2026-09-11",
+      "source": "x",
+      "author": "Amjad Masad",
+      "bio": "ceo @replit. civilizationist",
+      "title": "",
+      "summary_en": "Lots of risk with AI. I worry a lot about cybersecurity for example. However, “extinction risk” — literally 100% of humans die — is not remotely one of them. https://t.co/48n1fYmyh7",
+      "summary_zh": "AI 风险很多，比如网络安全确实让人担心。但所谓“灭绝风险”——人类 100% 死光——根本不在现实威胁清单上。",
+      "url": "https://x.com/amasad/status/2098171265924116732",
+      "posted_at": "2026-09-10T22:06:26.000Z",
+      "tags": [
+        "@amasad"
+      ]
+    },
+    {
+      "id": "965c75d3d9",
+      "date": "2026-09-11",
+      "source": "x",
+      "author": "Thibault Sottiaux",
+      "bio": "Codex & ChatGPT @OpenAI",
+      "title": "",
+      "summary_en": "Do you pronounce it data or data? This is the way everyone makes dashboards and learns about the business at OpenAI. Can't live without it. https://t.co/9NAremYs1h",
+      "summary_zh": "不管 data 怎么读，OpenAI 内部做仪表盘、理解业务都靠它。已经是离不开的基础设施。",
+      "url": "https://x.com/thsottiaux/status/2098165551554240764",
+      "posted_at": "2026-09-10T21:43:44.000Z",
+      "tags": [
+        "@thsottiaux"
+      ]
+    },
+    {
+      "id": "1813845ab7",
+      "date": "2026-09-11",
+      "source": "x",
+      "author": "Dan Shipper",
+      "bio": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "title": "",
+      "summary_en": "very handsome interviewer too https://t.co/jJNArUBaEL",
+      "summary_zh": "他顺手把采访者也拎出来夸：不只是主角帅，提问的人也够抢镜。",
+      "url": "https://x.com/danshipper/status/2098162669769695676",
+      "posted_at": "2026-09-10T21:32:17.000Z",
+      "tags": [
+        "@danshipper"
+      ]
+    },
+    {
+      "id": "fb51b7ec0f",
+      "date": "2026-09-11",
+      "source": "x",
+      "author": "Guillermo Rauch",
+      "bio": "@vercel CEO",
+      "title": "",
+      "summary_en": "A computer for every agent, in every region https://t.co/3Bzea8XIY0",
+      "summary_zh": "让每个 AI Agent 在每个地区都有一台可用的电脑。Agent 基础设施要像云一样普及，不是少数人的实验环境。",
+      "url": "https://x.com/rauchg/status/2098158541932794222",
+      "posted_at": "2026-09-10T21:15:52.000Z",
+      "tags": [
+        "@rauchg"
+      ]
+    },
+    {
+      "id": "a832f83788",
+      "date": "2026-09-11",
+      "source": "x",
+      "author": "Thariq",
+      "bio": "Claude Code @anthropicai. prev YC W20, @spc, @medialab",
+      "title": "",
+      "summary_en": "Try this prompt in Claude chat to give it more context about yourself:\n\nInterview me in depth using free text, or askuserquestion tool when multiple choice works, about relevant parts of my life you don’t know about yet and save it all to memory. https://t.co/VnfnFo7h4q",
+      "summary_zh": "让 Claude 反过来深挖你的人生背景、偏好和经历，再写进记忆里。AI 真正有用的前提不是更聪明，而是它先知道你是谁。",
+      "url": "https://x.com/trq212/status/2098157600361861579",
+      "posted_at": "2026-09-10T21:12:08.000Z",
+      "tags": [
+        "@trq212"
+      ]
+    },
+    {
+      "id": "719963902d",
+      "date": "2026-09-11",
+      "source": "x",
+      "author": "Claude",
+      "bio": "Claude is an AI assistant built by @anthropicai to be safe, accurate, and secure. Talk to Claude on https://t.co/ZhTwG8d1e5 or download the app.",
+      "title": "",
+      "summary_en": "Fable 5.1 Build Days start this week. The Claude community is hosting buildathons in cities all around the world from September 11–25. Bring a problem, an idea, or just show up and see what's possible.\n\nRSVP at https://t.co/AjMK4OHHBV https://t.co/0U8lcqsdrq",
+      "summary_zh": "Fable 5.1 Build Days 本周开场，Claude 社区从 9 月 11 日到 25 日在全球多城办 buildathon。带着问题或想法来，没想法也可以直接到场，看 Claude 到底能把什么做出来。",
+      "url": "https://x.com/claudeai/status/2098138736642933143",
+      "posted_at": "2026-09-10T19:57:11.000Z",
+      "tags": [
+        "@claudeai"
+      ]
+    },
+    {
+      "id": "435381f0dd",
+      "date": "2026-09-11",
+      "source": "x",
+      "author": "Zara Zhang",
+      "bio": "Builder. Make something people want, then make people want it. Harvard’17. GitHub: https://t.co/KCuEaje1wd  YouTube: https://t.co/8xzbGWsHgY",
+      "title": "",
+      "summary_en": "Why is computer use still so painfully slow??",
+      "summary_zh": "AI 的 computer use 依然慢得离谱。问题不是体验不够好，而是基础速度还卡在让人痛苦的阶段。",
+      "url": "https://x.com/zarazhangrui/status/2098136119154254287",
+      "posted_at": "2026-09-10T19:46:46.000Z",
+      "tags": [
+        "@zarazhangrui"
+      ]
+    },
+    {
+      "id": "44e7de9a78",
+      "date": "2026-09-11",
+      "source": "x",
+      "author": "Aaron Levie",
+      "bio": "ceo @box - your business lives in content. unleash it with AI",
+      "title": "",
+      "summary_en": "Excited to partner more deeply with OpenAI so you can work with your enterprise content from Box securely in ChatGPT.\n\nSoftware continues to go headless, and we’re massive believers that the future of work will be AI agents that can process data and execute workflows anywhere. https://t.co/CNZv5CH8bn",
+      "summary_zh": "Box 正在加深与 OpenAI 合作，让企业内容能安全接入 ChatGPT。软件继续走向“无头化”，未来工作的核心会是能在任何地方处理数据、执行流程的 AI Agent。",
+      "url": "https://x.com/levie/status/2098135659714085281",
+      "posted_at": "2026-09-10T19:44:57.000Z",
+      "tags": [
+        "@levie"
+      ]
+    },
+    {
+      "id": "284fddb765",
+      "date": "2026-09-11",
+      "source": "x",
+      "author": "Josh Woodward",
+      "bio": "VP, @Google @GoogleLabs @GeminiApp @GoogleAIStudio",
+      "title": "",
+      "summary_en": "Gemini, now on Windows!\n\nGet it: https://t.co/mKpROGeCl3 https://t.co/59jHumlY0X",
+      "summary_zh": "Gemini 终于上 Windows 了，Google 把战线推进到桌面端。",
+      "url": "https://x.com/joshwoodward/status/2098131750660772342",
+      "posted_at": "2026-09-10T19:29:25.000Z",
+      "tags": [
+        "@joshwoodward"
+      ]
+    },
+    {
+      "id": "7fa4f4c99a",
+      "date": "2026-09-11",
+      "source": "x",
+      "author": "Dan Shipper",
+      "bio": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "title": "",
+      "summary_en": "I’m so sorry https://t.co/txK4iw6MYE",
+      "summary_zh": "作者只甩出一句“我很抱歉”和一个链接，像是在用最短文本制造悬念或甩锅。信息量几乎为零，真正内容全押在链接里。",
+      "url": "https://x.com/danshipper/status/2098120649701204416",
+      "posted_at": "2026-09-10T18:45:18.000Z",
+      "tags": [
+        "@danshipper"
+      ]
+    },
+    {
+      "id": "80cc9162f4",
+      "date": "2026-09-11",
+      "source": "x",
+      "author": "Dan Shipper",
+      "bio": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "title": "",
+      "summary_en": "the possibilities for this are incredible\n\nextremely psyched to experiment https://t.co/DdtRknm8TU",
+      "summary_zh": "这东西的可能性大到离谱，已经迫不及待想上手试。",
+      "url": "https://x.com/danshipper/status/2098116268671025210",
+      "posted_at": "2026-09-10T18:27:54.000Z",
+      "tags": [
+        "@danshipper"
+      ]
+    },
+    {
+      "id": "0fd5e84233",
+      "date": "2026-09-11",
+      "source": "x",
+      "author": "Thibault Sottiaux",
+      "bio": "Codex & ChatGPT @OpenAI",
+      "title": "",
+      "summary_en": "To make sure our current users have an incredible experience and continued access to Astra, we are going to pause subscriptions to our $200 Pro plan. These put the most strain on our systems and we wanted to take the smallest step that allows us to continue giving the broadest access possible. All other plans and the api remain available.\n\nThere is no impact to existing accounts and we are working on adding more capacity as fast as we can. Thanks!",
+      "summary_zh": "Astra 顶不住 $200 Pro 用户的系统压力，先暂停新订阅，把容量留给现有用户和更广泛访问。现有账号不受影响，其他套餐和 API 继续开放。",
+      "url": "https://x.com/thsottiaux/status/2098113585683808624",
+      "posted_at": "2026-09-10T18:17:14.000Z",
+      "tags": [
+        "@thsottiaux"
+      ]
+    },
+    {
+      "id": "86c799e00a",
+      "date": "2026-09-11",
+      "source": "x",
+      "author": "Aditya Agarwal",
+      "bio": "General Partner @SPC, Co-Founder @Bevel_Health | Ex: Early Eng @facebook, CTO @Dropbox, Board @Flipkart | Optimist, Builder, Dad",
+      "title": "",
+      "summary_en": "If you had a machine capable of doing only 1 thing: Finding cures to our most pressing diseases.\n\nHow much of your GDP would you devote to this machine?\n\nI think the answer is: very high. \n\nThis is the world we live in now.",
+      "summary_zh": "如果有台机器唯一能做的事就是攻克最紧迫的疾病，你愿意把多少 GDP 砸进去？答案显然是很高，而这台机器已经出现了。",
+      "url": "https://x.com/adityaag/status/2098112281267843264",
+      "posted_at": "2026-09-10T18:12:03.000Z",
+      "tags": [
+        "@adityaag"
+      ]
+    },
+    {
+      "id": "ee99ab6a14",
+      "date": "2026-09-11",
+      "source": "x",
+      "author": "Google Labs",
+      "bio": "Google’s home for our latest AI tools and experiments.",
+      "title": "",
+      "summary_en": "It’s time to ☁️ dream bigger ☁️\n\nDreambeans is officially available to all US users (18+) on iOS and Android, free of charge. No subscription required.\n\nYou can also now connect @Geminiapp to Dreambeans. Dreambeans will build off the nuance and understanding from your chats to surface even more insightful and personalized daily stories.\n\nGet your daily, freshly brewed collection of stories here: https://t.co/jCdAzMHvOD",
+      "summary_zh": "Dreambeans 向美国 18 岁以上用户免费开放，iOS 和 Android 都能用，不要订阅。现在还能接入 Gemini 聊天记录，让它基于你对话里的细节每天吐出更懂你的个性化故事。",
+      "url": "https://x.com/GoogleLabs/status/2098110018289803558",
+      "posted_at": "2026-09-10T18:03:04.000Z",
+      "tags": [
+        "@GoogleLabs"
+      ]
+    },
+    {
+      "id": "9183ec885f",
+      "date": "2026-09-11",
+      "source": "x",
+      "author": "Nan Yu",
+      "bio": "(soon) member of product staff @openai. prev head of product @linear. I am grader.",
+      "title": "",
+      "summary_en": "Don't call it a private equity acquisition for a huge discount from peak valuation. \nCall it an Italian goodbye.",
+      "summary_zh": "别说这是按峰值估值大幅打折卖给私募股权，太直白。叫它“意大利式告别”就体面多了。",
+      "url": "https://x.com/thenanyu/status/2098094411465048497",
+      "posted_at": "2026-09-10T17:01:03.000Z",
+      "tags": [
+        "@thenanyu"
+      ]
+    },
+    {
+      "id": "20412312e2",
+      "date": "2026-09-11",
+      "source": "x",
+      "author": "Guillermo Rauch",
+      "bio": "@vercel CEO",
+      "title": "",
+      "summary_en": "Each day ~10 million deployments are made on Vercel, with 2.35 billion made to date.\n\nVercel is one of the most heavily multi-tenant systems in the world. Billions of application deployments co-exist and are accessible ('routable') on our CDN at any given moment.\n\nUnderlying our CDN is a global metadata store that synchronizes within hundreds of milliseconds, globally. e.g: when you roll back, change config, add routes, etc.\n\nWe just made this system 91% faster at p99, and in the process sped up the build→deploy pipeline. All of this while the system is under immense pressure from the growth in agentic deployments.\n\nGreat read on the internals of Vercel from our CDN engineering team:",
+      "summary_zh": "Vercel 每天约 1000 万次部署，累计 23.5 亿次，背后是一个全球级多租户系统：数十亿应用同时挂在 CDN 上，回滚、改配置、加路由都要在数百毫秒内全球同步。\n\n他们刚把这套元数据系统的 p99 延迟打掉 91%，还顺手加速了 build→deploy 流水线，而这一切发生在 agentic deployments 暴涨的压力下。",
+      "url": "https://x.com/rauchg/status/2098091056302833837",
+      "posted_at": "2026-09-10T16:47:43.000Z",
+      "tags": [
+        "@rauchg"
+      ]
+    },
+    {
+      "id": "2c5bd1675b",
+      "date": "2026-09-11",
+      "source": "x",
+      "author": "Peter Steinberger",
+      "bio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world. @OpenClaw🦞 + @OpenAI",
+      "title": "",
+      "summary_en": "This makes a lot of sense. Duplicating logic is no longer painful. Abstractions still are. https://t.co/q4jqVBW00r",
+      "summary_zh": "这话很有道理：现在重复写逻辑已经没那么痛苦，真正痛苦的还是抽象。别急着抽象，抽象错了比复制代码更贵。",
+      "url": "https://x.com/steipete/status/2098089196800098798",
+      "posted_at": "2026-09-10T16:40:19.000Z",
+      "tags": [
+        "@steipete"
+      ]
+    },
+    {
+      "id": "1809f1fcb5",
+      "date": "2026-09-11",
+      "source": "x",
+      "author": "Peter Steinberger",
+      "bio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world. @OpenClaw🦞 + @OpenAI",
+      "title": "",
+      "summary_en": "Better hop on soon. Astra demand is growing too fast! https://t.co/MgCFw04sxJ",
+      "summary_zh": "Astra 需求增长太快，窗口期正在迅速变窄。再不上车，可能就只能追着跑了。",
+      "url": "https://x.com/steipete/status/2098088917782413740",
+      "posted_at": "2026-09-10T16:39:13.000Z",
+      "tags": [
+        "@steipete"
+      ]
+    },
+    {
+      "id": "285522f699",
+      "date": "2026-09-11",
+      "source": "x",
+      "author": "Matt Turck",
+      "bio": "VC at @FirstMarkCap.  Host: MAD Podcast; Organizer: Data Driven NYC, Author: MAD Landscape.",
+      "title": "",
+      "summary_en": "This conversation with @RichardSocher is also available on Spotify, Apple Podcasts and here on YouTube (like and subscribe!):\n\nhttps://t.co/8gsssP8fcu",
+      "summary_zh": "和 @RichardSocher 的这期对谈已同步上线 Spotify、Apple Podcasts 和 YouTube。",
+      "url": "https://x.com/mattturck/status/2098081452839637480",
+      "posted_at": "2026-09-10T16:09:33.000Z",
+      "tags": [
+        "@mattturck"
+      ]
+    },
+    {
+      "id": "fb2fa36758",
+      "date": "2026-09-11",
+      "source": "x",
+      "author": "Matt Turck",
+      "bio": "VC at @FirstMarkCap.  Host: MAD Podcast; Organizer: Data Driven NYC, Author: MAD Landscape.",
+      "title": "",
+      "summary_en": "When AI builds AI: my conversation with @RichardSocher about RSI and scientific progress. \n\n00:00 Intro: AI That Improves Itself\n00:55 Why Scientific Progress Is Slowing\n03:08 The Labyrinth of Human Knowledge\n05:59 Can AI Put Science Back Together?\n07:57 How LLMs Learn Biology and Proteins\n10:56 Next-Token Prediction as a World Model\n16:44 Can AI Generate Truly Original Ideas?\n17:32 Simulations, Verifiers and Superhuman AI\n22:18 The Path to Recursive Self-Improvement\n24:49 Why AI Hallucinations Can Drive Discovery\n27:42 From Reading Biology to Writing It\n31:31 Can AI Accelerate Drug Discovery?\n33:31 Will AI Help Cure Cancer?\n38:03 AI Breakthroughs in Biology, Energy and Materials\n40:19 Will Some Societies Reject AI?\n45:07 Building the AI Economist\n52:22 The Scientific Data Bottleneck\n53:41 The Four Pillars of the Eureka Machine\n55:01 Teaching AI the Rules of Reality\n57:44 Simulations and Virtual Cells\n1:00:40 Self-Driving Robotic Laboratories\n1:02:51 Agent Swarms and Open-Ended Discovery\n1:04:30 The Compute Bottleneck\n1:05:44 Inside @Recursive_SI \n1:07:33 What Recursive Will Build First\n1:10:10 How Do We Define Intelligence?\n1:11:32 How Far Can Intelligence Go?",
+      "summary_zh": "AI 不只是替人做科研，而是要把被人类知识迷宫拖慢的科学重新拼起来：读懂生物、写出生物，用模拟器、验证器和机器人实验室逼近递归自我改进。\n\n真正的瓶颈不再是想法，而是数据、算力和谁敢把发现权交给机器。",
+      "url": "https://x.com/mattturck/status/2098081448330674182",
+      "posted_at": "2026-09-10T16:09:32.000Z",
+      "tags": [
+        "@mattturck"
+      ]
+    },
+    {
+      "id": "38894a50bc",
+      "date": "2026-09-11",
+      "source": "x",
+      "author": "Nikunj Kothari",
+      "bio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
+      "title": "",
+      "summary_en": "Three truths in early stage venture right now:\n\n1) everyone wants to raise a $50 million seed\n2) everyone thinks they will hit $30 million ARR next year\n3) every hot tranched seed round magically ends up at the ~$300 million valuation",
+      "summary_zh": "早期创投现在有三条真相：人人都想融 5000 万美元种子轮，人人都觉得明年能做到 3000 万美元 ARR。凡是热门的分批种子轮，最后估值都像被施了魔法一样落在 3 亿美元左右。",
+      "url": "https://x.com/nikunj/status/2098078391065018816",
+      "posted_at": "2026-09-10T15:57:23.000Z",
+      "tags": [
+        "@nikunj"
+      ]
+    },
+    {
+      "id": "13739bb250",
+      "date": "2026-09-11",
+      "source": "x",
+      "author": "Guillermo Rauch",
+      "bio": "@vercel CEO",
+      "title": "",
+      "summary_en": "We made deployments faster again https://t.co/lrtQdx1iK1",
+      "summary_zh": "他们又把部署速度往前推了一截。部署慢这件事，继续被当成该消灭的问题。",
+      "url": "https://x.com/rauchg/status/2098066258155708851",
+      "posted_at": "2026-09-10T15:09:10.000Z",
+      "tags": [
+        "@rauchg"
+      ]
+    },
+    {
+      "id": "7248cd8ae2",
+      "date": "2026-09-11",
+      "source": "x",
+      "author": "Madhu Guru",
+      "bio": "Sr Director, AI at Meta; Prev: Google - Led Gemini, Veo, Nano Banana.",
+      "title": "",
+      "summary_en": "How to build great evals - part 10\n\nMeasure the steps, not just the result.\n\nMuch like high school math, it isn’t sufficient just to get the right answer, the steps to get there are critical.\n\nTwo agent trajectories might produce the same answer (42!!).\n\nbut one of them  searches the right sources, retrieves the right document, makes 4 clean tool calls and calculates the result. The other makes 17 calls, searches the same thing 3 times, recovers from 2 errors and eventually gets there. \n\nIt’s clear which one is better.\n\nHere’s what you need to do:\n1/ clearly define your whole workflow\n2/ define the tasks in each step\n3/ think through how you measure each step - separate evals or is it a slice of a bigger eval\n4/ define your median and hard tasks - reflect them in your evals\n\nNow any time you look at eval results, study the steps first and the final results next.",
+      "summary_zh": "好的 eval 不是只看答案对不对，而是先审判过程：同样得到 42，一个 agent 找对来源、4 次干净调用就算完，另一个绕 17 次、重复搜索、撞错再补救，显然不是同一个水平。\n\n把 workflow 拆开，逐步定义任务和评估方式，并覆盖中位难度和高难任务；看 eval 结果时，先看每一步怎么走，再看最终答案。",
+      "url": "https://x.com/realmadhuguru/status/2098064969464217720",
+      "posted_at": "2026-09-10T15:04:03.000Z",
+      "tags": [
+        "@realmadhuguru"
+      ]
+    },
+    {
+      "id": "e8cc17e1c1",
+      "date": "2026-09-11",
+      "source": "podcast",
+      "author": "The MAD Podcast with Matt Turck",
+      "bio": "",
+      "title": "When AI Improves Itself | Richard Socher (Recursive)",
+      "summary_en": "Speaker 1 | 00:00 - 00:19\nAnything you can simulate, AI will solve. And before you know it, you're in this recursive self improvement loop and we believe that that will be a great unlock. Boy, are we far away from the true upper bounds of any of the spaces of intelligence. And there is still so much further that AI can go.\n\nSpeaker 2 | 00:19 - 00:47\nHi. I'm Matt Turk. Welcome back to the MAD podcast. My guest today is Richard Socher, one of the most cited researchers in AI and now at the center of the term everyone in AI is suddenly talking about, recursive self improvement, AI that makes better AI. Richard just raised $650,000,000 for Recursive, a company built to do exactly that, and his new book, The Eureka Machine, is a fascinating blueprint for how AI and RSI are about to revolutionize science.\n\nSpeaker 2 | 00:47 - 00:54\nPlease enjoy my conversation with the always excellent Richard Socher. Hey, Richard. Welcome back.\n\nSpeaker 1 | 00:54 - 00:55\nGreat to be back. Thanks for having me.\n\nSpeaker 2 | 00:55 - 01:18\nAlright. So lots to catch up on. We're going to talk about recursive intelligence. We're going to talk about recursive the company. But first and foremost, and most importantly, perhaps, we're going to talk about your new book entitled The Yorker Machine, which I read with great interest and would strongly recommend, coming out in a couple weeks, I believe.\n\nSpeaker 2 | 01:18 - 01:38\nThe book, opens with a premise that, I think a lot of people find surprising and shocking, which is this claim that, scientific progress has slowed down, which feels counterintuitive given the number of researchers we have around the world and the sheer amount of money that goes into the space. So why is that?\n\nSpeaker 1 | 01:39 - 02:07\nYeah. It's a somewhat surprising fact and y",
+      "summary_zh": "任何能被模拟的领域，AI 最终都会攻下来；一旦进入递归自我改进，AI 做出更强 AI 的飞轮就会打开。Socher 的判断很直接：今天的智能空间离真正上限还远，AI 还能往前冲很长一段。",
+      "url": "https://www.youtube.com/@DataDrivenNYC/videos",
+      "posted_at": "2026-09-10T11:30:00.000Z",
+      "tags": [
+        "podcast"
+      ]
+    }
+  ]
+}
