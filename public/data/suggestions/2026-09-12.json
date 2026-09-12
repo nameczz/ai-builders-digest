@@ -1,0 +1,143 @@
+{
+  "date": "2026-09-12",
+  "items": [
+    {
+      "id": "2026-09-12-1",
+      "title": "Agent 技能包正在抢入口",
+      "angle": "从 GitHub 爆红的 skills 项目和 Claude plugin evals 切入，讲 agent 生态的入口正在从 IDE 转向可安装的工作习惯。",
+      "opening": "今天 GitHub weekly 前排不是新模型，而是一堆让 agent 更短、更稳、更会画图的技能包。更关键的是，Claude 已经开始给插件作者做 evals，说明技能不再是 prompt 小抄，而是要被测试、分发和信任的产品。",
+      "story_hook": {
+        "challenge": "开发者已经不缺 agent，缺的是可复用、可验证、不会把工作流搞乱的 agent 行为层。",
+        "twist": "真正像插件市场的，可能不是应用商店，而是这些看起来像 meme 的 skills repo。"
+      },
+      "takeaway": "做 AI 工具不要只包装模型能力，可以把高频工作习惯做成可安装、可评测、可迁移的 skill。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Thariq 提到 Claude plugin evals",
+          "url": "https://x.com/trq212/status/2098531560643539440"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub weekly 中 ayghri/i-have-adhd 单周 13164 stars",
+          "url": "https://github.com/ayghri/i-have-adhd"
+        },
+        {
+          "tag": "pulse",
+          "ref": "DietrichGebert/ponytail 单周 11054 stars",
+          "url": "https://github.com/DietrichGebert/ponytail"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-12-2",
+      "title": "通宵 Agent 先别急着开",
+      "angle": "用 Peter Yang 对软件工厂的质疑，对照 Cursor 长时间 agents 和 Every 的真实任务评测，写 agent 自动化的边界。",
+      "opening": "Cursor 开始支持长时间运行的 agents，但 Peter Yang 直接泼冷水：一个假设错了，通宵跑出来的可能全是在烧 token。问题不在 agent 能不能跑更久，而是谁来定需求、谁来验收、谁来发现方向错了。",
+      "story_hook": {
+        "challenge": "AI 工具正在从补全几行代码变成持续施工，但产品判断、验证和验收还没有自动化。",
+        "twist": "越是长任务，越需要更短的反馈回路，而不是更放手的无人值守。"
+      },
+      "takeaway": "把长跑 agent 用在有明确验收标准的任务上，并先建立个人或团队级 eval，而不是直接追求无人软件工厂。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Peter Yang 质疑软件工厂叙事",
+          "url": "https://x.com/petergyang/status/2098565668241334366"
+        },
+        {
+          "tag": "builders",
+          "ref": "Ryo Lu 提到 Cursor 长时间运行 agents",
+          "url": "https://x.com/ryolu_/status/2098324260867772806"
+        },
+        {
+          "tag": "builders",
+          "ref": "Dan Shipper 介绍 Every 的个人基准平台",
+          "url": "https://x.com/danshipper/status/2098481799047647715"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-12-3",
+      "title": "AI Gateway 是新 CDN 吗",
+      "angle": "从 Tailscale 使用 Vercel AI Gateway 和 Google 反爬更新切入，讲 AI 应用对上游入口的脆弱依赖。",
+      "opening": "Guillermo Rauch 说，Tailscale 的 model router 底层用的是 Vercel AI Gateway，因为直连源站脆弱，自己造又痛又贵。另一边，Google 一个反爬更新就在 HN 拿到 412 分和 302 条评论，提醒所有依赖外部入口的产品：你的基础设施可能比你想象中更薄。",
+      "story_hook": {
+        "challenge": "AI 应用越来越依赖模型、搜索、数据源和外部 API，但这些入口都可能突然改变规则。",
+        "twist": "新的平台机会不一定在更聪明的 agent，而在帮 agent 稳定访问世界。"
+      },
+      "takeaway": "如果产品依赖模型路由或数据采集，应该尽早做 fallback、缓存、监控和多源策略，把入口风险产品化。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Guillermo Rauch 称 AI Gateway 正在变成新的 CDN",
+          "url": "https://x.com/rauchg/status/2098531157230969062"
+        },
+        {
+          "tag": "pulse",
+          "ref": "HN 高分讨论 Google anti-scraping update",
+          "url": "https://www.autom.dev/blog/google-search-goto-links"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-12-4",
+      "title": "企业 AI 输在组织打法",
+      "angle": "用 Madhu Guru 的企业 AI 失败诊断，对照 Box 给 agent 挂载文件系统，写企业 agent 落地不是买模型而是重做工作流。",
+      "opening": "很多企业 AI 项目失败，不是模型太弱，而是组织还在用老产品时代的方法：中央团队闭门造平台，然后要求一线采用。Madhu Guru 的判断很刺耳：最强的 AI builder 应该嵌进财务、销售、客服这些现场，和业务一起重做工作本身。",
+      "story_hook": {
+        "challenge": "企业想要生产力，但常把 AI 当成横向平台，而不是嵌入具体岗位的能力改造。",
+        "twist": "Box 让 agent 像人一样读写文件，说明真正的企业 agent 要先获得普通员工的基础操作权。"
+      },
+      "takeaway": "企业落地 AI 时，先选一个高频业务流，把 builder、eval 和权限放进去验证闭环，而不是先做大平台。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Madhu Guru 诊断企业 AI 失败原因",
+          "url": "https://x.com/realmadhuguru/status/2098448235048378456"
+        },
+        {
+          "tag": "builders",
+          "ref": "Aaron Levie 提到把 Box 挂载到 agent 沙盒",
+          "url": "https://x.com/levie/status/2098478938003841123"
+        },
+        {
+          "tag": "pulse",
+          "ref": "agent 周边基础设施正在产品化",
+          "url": "https://github.com/mksglu/context-mode"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-12-5",
+      "title": "平台会买走平台原生公司",
+      "angle": "从 Replit 收购一家完全在 Replit 上搭起来的公司，讲 AI 开发平台的新增长飞轮。",
+      "opening": "Amjad Masad 说，Replit 收购了一家完全在 Replit 上搭起来的公司，这不是孤例，而是开端。过去平台卖工具给开发者，现在平台可能直接收购从自己生态里长出来的产品。",
+      "story_hook": {
+        "challenge": "独立开发者以为自己只是在平台上省时间，但平台其实能最早看见哪些项目跑出了真实需求。",
+        "twist": "未来最好的分发渠道，可能同时也是你的第一个买家。"
+      },
+      "takeaway": "在平台生态里做产品时，要把构建过程、用户信号和可迁移性都当成资产，而不是只盯着工具本身。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Amjad Masad 谈 Replit 收购平台上长出的公司",
+          "url": "https://x.com/amasad/status/2098548464452055437"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt 上 Cortex 将 API specs 变成 docs、SDK 和 MCP servers",
+          "url": "https://www.producthunt.com/products/cortex-25"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub agent skills 集体增长",
+          "url": "https://github.com/mattpocock/skills"
+        }
+      ]
+    }
+  ],
+  "notes": "今日主线很集中：agent 生态从模型竞争转向技能、评测、权限、路由和入口稳定性。适合写基础设施和工作流，不适合写泛泛的模型新闻。",
+  "generated_at": "2026-09-12T09:19:41+00:00",
+  "model": "gpt-5.5"
+}

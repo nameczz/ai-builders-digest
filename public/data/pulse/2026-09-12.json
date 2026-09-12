@@ -1,0 +1,319 @@
+{
+  "date": "2026-09-12",
+  "top3": [
+    "今天最值得关注的是 agent skills 从工具生态变成了分发入口：GitHub weekly 前十几乎被技能、上下文、工作流项目占满。",
+    "Google 搜索反爬更新在 HN 拿到 412 分、302 条评论，提醒所有依赖搜索流量和采集管线的产品重新评估数据入口风险。",
+    "HuggingFace 热榜显示消费级多模态和本地小模型继续分化：DeepSeek-V4.1-Flash、MiniCPM5-2B、Qwen3.8-27B 都在抢不同场景。"
+  ],
+  "intro": "今天的主线不是又一个通用 AI agent，而是 agent 周边基础设施正在产品化：skills、上下文压缩、可视化、测试、文档、桌面工作流都在升温。与此同时，Google 反爬、搜索趋势降温和开源替代词下滑，说明入口红利正在收窄，Builder 更需要做具体痛点和可验证交付。",
+  "sections": [
+    {
+      "id": "discovery",
+      "title": "发现机会",
+      "blocks": [
+        {
+          "id": "indie-products",
+          "heading": "今天有哪些独立开发者的新产品？",
+          "summary_md": "Product Hunt 今天的独立产品集中在 Mac、创作者和 agent 辅助工作流，但原始数据没有提供票数和评论数，因此只能把票数与评论数标记为未披露。值得看的是 [VoxelWall](https://www.producthunt.com/products/voxelwall)，主打 Mac 音乐响应动态壁纸；[Pascal’s Pager](https://www.producthunt.com/products/pascal-s-pager) 把 webhook JSON 转成 iPhone 推送；[Cortex](https://www.producthunt.com/products/cortex-25) 则把 API specs 变成 docs、SDK 和 MCP servers。这里的共同点是都没有试图做大而全平台，而是卡住一个小而频繁的工作缝隙。",
+          "items": [
+            {
+              "title": "VoxelWall",
+              "url": "https://www.producthunt.com/products/voxelwall",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "Pascal’s Pager",
+              "url": "https://www.producthunt.com/products/pascal-s-pager",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "Cortex",
+              "url": "https://www.producthunt.com/products/cortex-25",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "独立产品今天最好的切口是把高频小麻烦做成系统级捷径。"
+        },
+        {
+          "id": "github-traction",
+          "heading": "GitHub 上哪些高增长开源项目还没有商业化？",
+          "summary_md": "GitHub weekly 的异常信号非常集中：[ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd) 单周 13,164 stars、总 42,665 stars，用一句话解决 agent 输出太长的问题；[DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) 单周 11,054 stars、总 136,125 stars，把资深工程师的少写代码策略封装成技能；[tt-a1i/archify](https://github.com/tt-a1i/archify) 单周 11,006 stars、总 58,935 stars，面向可验证架构图和工作流图。它们还不像传统 SaaS 那样有清晰商业页，但已经证明了 agent 使用者愿意安装工作习惯层插件。",
+          "items": [
+            {
+              "title": "ayghri/i-have-adhd",
+              "url": "https://github.com/ayghri/i-have-adhd",
+              "source": "GitHub",
+              "score": 13164
+            },
+            {
+              "title": "DietrichGebert/ponytail",
+              "url": "https://github.com/DietrichGebert/ponytail",
+              "source": "GitHub",
+              "score": 11054
+            },
+            {
+              "title": "tt-a1i/archify",
+              "url": "https://github.com/tt-a1i/archify",
+              "source": "GitHub",
+              "score": 11006
+            }
+          ],
+          "takeaway": "agent skills 正在成为新的插件市场，先拿到默认工作流的人会更接近商业入口。"
+        }
+      ]
+    },
+    {
+      "id": "tech-stack",
+      "title": "技术选型",
+      "blocks": [
+        {
+          "id": "dev-tools",
+          "heading": "本周增长最快的开发者工具是什么？",
+          "summary_md": "本周开发者工具的增长不在 IDE 本体，而在 agent harness 与产物层。[affaan-m/ECC](https://github.com/affaan-m/ECC) 单周 8,714 stars、总 256,728 stars，定位是面向 Claude Code、Codex、Cursor 等的性能优化系统；[mksglu/context-mode](https://github.com/mksglu/context-mode) 单周 1,810 stars、总 22,258 stars，卖点是上下文窗口压缩和跨 17 平台路由；[heygen-com/hyperframes](https://github.com/heygen-com/hyperframes) 单周 5,100 stars、总 49,085 stars，把 HTML 渲染成视频，说明 agent 产物正在从代码扩展到媒体和交付物。",
+          "items": [
+            {
+              "title": "affaan-m/ECC",
+              "url": "https://github.com/affaan-m/ECC",
+              "source": "GitHub",
+              "score": 8714
+            },
+            {
+              "title": "mksglu/context-mode",
+              "url": "https://github.com/mksglu/context-mode",
+              "source": "GitHub",
+              "score": 1810
+            },
+            {
+              "title": "heygen-com/hyperframes",
+              "url": "https://github.com/heygen-com/hyperframes",
+              "source": "GitHub",
+              "score": 5100
+            }
+          ],
+          "takeaway": "下一波开发者工具机会在 agent 的记忆、路由、验证和交付产物。"
+        },
+        {
+          "id": "hf-models",
+          "heading": "HuggingFace 上最热的模型能做什么消费级产品？",
+          "summary_md": "HuggingFace 热榜给了两个方向：一是多模态通用能力，二是低成本本地化。[deepseek-ai/DeepSeek-V4.1-Flash](https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash) trending score 1,736、下载 75,774、likes 1,868，适合做图文理解、轻量客服和知识库入口；[openbmb/MiniCPM5-2B](https://huggingface.co/openbmb/MiniCPM5-2B) trending score 1,023、下载 67,550，标签里有 on-device、edge-ai、tool-calling，适合隐私笔记、桌面助手和本地自动化；[Lightricks/LTX-2.5](https://huggingface.co/Lightricks/LTX-2.5) 下载 1,669,564，指向低门槛视频生成工作流。",
+          "items": [
+            {
+              "title": "deepseek-ai/DeepSeek-V4.1-Flash",
+              "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash",
+              "source": "HuggingFace",
+              "score": 1736
+            },
+            {
+              "title": "openbmb/MiniCPM5-2B",
+              "url": "https://huggingface.co/openbmb/MiniCPM5-2B",
+              "source": "HuggingFace",
+              "score": 1023
+            },
+            {
+              "title": "Lightricks/LTX-2.5",
+              "url": "https://huggingface.co/Lightricks/LTX-2.5",
+              "source": "HuggingFace",
+              "score": 348
+            }
+          ],
+          "takeaway": "消费级 AI 产品不要只追大模型，边缘部署和视频工作流更容易形成具体付费场景。"
+        }
+      ]
+    },
+    {
+      "id": "competition",
+      "title": "竞争情报",
+      "blocks": [
+        {
+          "id": "platform-risk",
+          "heading": "平台入口风险今天在哪里暴露？",
+          "summary_md": "HN 今日唯一高分故事是 [google.com/goto: Google's anti-scraping update](https://www.autom.dev/blog/google-search-goto-links)，拿到 412 分、302 条评论。它不是普通 SEO 新闻，而是对所有依赖搜索结果采集、SERP 监控、价格比较、线索抓取和内容聚合产品的成本提醒：当入口平台改变链接结构或反爬策略，小团队的毛利会被验证码、代理池、解析失败和补采任务吃掉。竞争上，谁能把数据来源多样化、缓存策略和失败恢复做成基础设施，谁就能从受影响的小 SaaS 里接迁移单。",
+          "items": [
+            {
+              "title": "google.com/goto: Google's anti-scraping update",
+              "url": "https://www.autom.dev/blog/google-search-goto-links",
+              "source": "HN",
+              "score": 412
+            }
+          ],
+          "takeaway": "依赖单一平台采集的产品今天风险上升，反而给数据韧性工具带来机会。"
+        },
+        {
+          "id": "migrations",
+          "heading": "有没有迁移类或替代类信号？",
+          "summary_md": "今天没有典型的「XX is dead」迁移文章，但替代类信号出现在 GitHub daily：[melgarafael/DeskcommCRM](https://github.com/melgarafael/DeskcommCRM) 单周 152 stars、总 1,509 stars，明确写着 open alternative to Kommo、Octadesk 与 Intercom，并且绑定 AI agents、WhatsApp、MCP-ready、multi-tenant。与此同时，Google Trends 里 [open source alternative](https://trends.google.com/trends/explore?q=open+source+alternative&date=now+7-d) 下降 -3.6%，说明通用替代叙事在降温，但垂直场景里的开源替代仍有吸引力。",
+          "items": [
+            {
+              "title": "melgarafael/DeskcommCRM",
+              "url": "https://github.com/melgarafael/DeskcommCRM",
+              "source": "GitHub",
+              "score": 152
+            }
+          ],
+          "takeaway": "开源替代不再靠口号增长，必须绑定明确渠道、行业流程和迁移对象。"
+        }
+      ]
+    },
+    {
+      "id": "trends",
+      "title": "趋势判断",
+      "blocks": [
+        {
+          "id": "keywords",
+          "heading": "本周技术关键词频率有什么变化？",
+          "summary_md": "Google Trends 里最强的 tracked 信号是 [i have adhd](https://trends.google.com/trends/explore?q=i+have+adhd&date=now+7-d) 上升 +26.8%，并且 rising 里直接出现「github i have adhd」。这和 GitHub weekly 单周 13,164 stars 完全对上：用户不是在搜索疾病科普，而是在搜索一种更短、更可控的 agent 输出风格。[archify](https://trends.google.com/trends/explore?q=archify&date=now+7-d) 上升 +6.0%，也对应架构图技能的爆发。关键词层面的判断是，agent 时代的增长词不再只是模型名，而是具体工作习惯和输出格式。",
+          "items": [
+            {
+              "title": "i have adhd",
+              "url": "https://trends.google.com/trends/explore?q=i+have+adhd&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 26
+            },
+            {
+              "title": "archify",
+              "url": "https://trends.google.com/trends/explore?q=archify&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 6
+            }
+          ],
+          "takeaway": "搜索增长正在从 AI 名词转向可安装、可复用的工作方式。"
+        },
+        {
+          "id": "cooling",
+          "heading": "哪些 AI 热词在降温？",
+          "summary_md": "降温最明显的是工具大词：[codex cli](https://trends.google.com/trends/explore?q=codex+cli&date=now+7-d) 下滑 -29.0%，[cursor alternative](https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d) 下滑 -22.9%，[codex](https://trends.google.com/trends/explore?q=codex&date=now+7-d) 下滑 -18.3%，[plugins](https://trends.google.com/trends/explore?q=plugins&date=now+7-d) 下滑 -17.3%。这不代表开发者不再用 agent，而是注意力从品牌和替代品比较，转向具体技能包、上下文控制和产物交付。做内容和产品时，不应再写泛泛的「AI agent 平台」，而要把标题压到一个可感知结果上。",
+          "items": [
+            {
+              "title": "codex cli",
+              "url": "https://trends.google.com/trends/explore?q=codex+cli&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": -29
+            },
+            {
+              "title": "cursor alternative",
+              "url": "https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": -22
+            },
+            {
+              "title": "plugins",
+              "url": "https://trends.google.com/trends/explore?q=plugins&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": -17
+            }
+          ],
+          "takeaway": "AI 工具大词在降温，精确场景词和可执行技能在接棒。"
+        },
+        {
+          "id": "new-radar",
+          "heading": "新词雷达：有哪些从零起飞的新概念？",
+          "summary_md": "breakouts 里最值得剥离噪音看的是 [ai agent](https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d) 的 rising：虽然主词下降 -4.4%，但关联词「meta muse ai agent」达到 26,200，「1980s photo prompt chatgpt」达到 55,450。这说明大众侧流量仍被视觉玩法驱动，而 builder 侧真实转化在 GitHub 的「github i have adhd」和「agent skills」。另一个弱信号来自 [ponytail](https://trends.google.com/trends/explore?q=ponytail&date=now+7-d) 的 rising 里出现「graphify github」和「agent skills」，说明技能命名会越来越像 meme，传播先于品类定义。",
+          "items": [
+            {
+              "title": "meta muse ai agent",
+              "url": "https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 26200
+            },
+            {
+              "title": "github i have adhd",
+              "url": "https://trends.google.com/trends/explore?q=i+have+adhd&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 60
+            },
+            {
+              "title": "agent skills",
+              "url": "https://trends.google.com/trends/explore?q=ponytail&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 60
+            }
+          ],
+          "takeaway": "新词从 meme 和具体痛点起飞，品类命名往往要等增长之后才稳定。"
+        }
+      ]
+    },
+    {
+      "id": "actions",
+      "title": "行动触发",
+      "blocks": [
+        {
+          "id": "weekend-build",
+          "heading": "今天 2 小时和一个周末分别做什么？",
+          "summary_md": "2 小时项目：做一个「agent answer compressor」浏览器或 CLI 小工具，目标不是重新实现 [ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd)，而是把长回复自动压成决策、风险、下一步三段，并支持复制为 prompt snippet。周末项目：做一个「scraping resilience dashboard」，用 [google.com/goto: Google's anti-scraping update](https://www.autom.dev/blog/google-search-goto-links) 作为切入点，监控目标页面解析成功率、跳转结构变化、缓存命中和备用来源，卖给依赖搜索采集的小团队。",
+          "items": [
+            {
+              "title": "agent answer compressor",
+              "url": "https://github.com/ayghri/i-have-adhd",
+              "source": "GitHub",
+              "score": 13164
+            },
+            {
+              "title": "scraping resilience dashboard",
+              "url": "https://www.autom.dev/blog/google-search-goto-links",
+              "source": "HN",
+              "score": 412
+            }
+          ],
+          "takeaway": "今天最该做的是把宏大的 agent 叙事压成一个可安装、可测量的小工作流。"
+        },
+        {
+          "id": "pricing-models",
+          "heading": "值得学习的定价和变现模式有哪些？",
+          "summary_md": "今天没有直接的 MRR、ARR 或 pricing 讨论，但可以从产品形态倒推定价。[Pascal’s Pager](https://www.producthunt.com/products/pascal-s-pager) 适合按通知量和 webhook endpoint 数做阶梯；[Cortex](https://www.producthunt.com/products/cortex-25) 适合按 API spec 数、生成 SDK 语言数和 MCP server 部署收费；[QApilot MCP for Android](https://www.producthunt.com/products/qapilot) 适合按测试分钟数或 seat 收费。共同点是不要卖 AI token，而要卖自动化后省下的人工检查、文档维护和测试时间。",
+          "items": [
+            {
+              "title": "Pascal’s Pager",
+              "url": "https://www.producthunt.com/products/pascal-s-pager",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "Cortex",
+              "url": "https://www.producthunt.com/products/cortex-25",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "QApilot MCP for Android",
+              "url": "https://www.producthunt.com/products/qapilot",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "AI 工具的价格锚点应该是省掉的维护动作，而不是模型调用本身。"
+        },
+        {
+          "id": "counterintuitive",
+          "heading": "今天最反直觉的发现是什么？",
+          "summary_md": "最反直觉的是：当 [ai agent](https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d) 下降 -4.4%、[codex cli](https://trends.google.com/trends/explore?q=codex+cli&date=now+7-d) 下降 -29.0% 时，GitHub 上 agent skills 却集体爆发。表面看是热词降温，实际是用户已经越过尝鲜阶段，开始搜索如何让 agent 更短、更稳、更像团队里的可控成员。Builder 的机会不在重新教育市场，而在顺着现有 agent 使用场景补上规范、记忆、图示、测试和输出约束。",
+          "items": [
+            {
+              "title": "ai agent",
+              "url": "https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": -4
+            },
+            {
+              "title": "codex cli",
+              "url": "https://trends.google.com/trends/explore?q=codex+cli&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": -29
+            },
+            {
+              "title": "mattpocock/skills",
+              "url": "https://github.com/mattpocock/skills",
+              "source": "GitHub",
+              "score": 10571
+            }
+          ],
+          "takeaway": "热词降温不等于需求消失，往往意味着用户开始为具体工作流付出注意力。"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2026-09-12T09:18:41+00:00",
+  "reddit_highlights": []
+}
