@@ -1,0 +1,257 @@
+{
+  "date": "2026-09-12",
+  "generated_at": "2026-09-12T00:48:35+00:00",
+  "inbox_id": "sanyoumu@agentmail.to",
+  "window": {
+    "start": "2026-09-11T00:45:54+00:00",
+    "end": "2026-09-12T00:46:12.102895+00:00",
+    "source": "previous_digest_generated_at"
+  },
+  "count": 7,
+  "highlights": [
+    "OpenAI 将 Codex 背后的 agent harness 和基础设施以 Agents API 公测形式开放，可能把长期运行、多工具、多子代理的 agent 开发从自建框架推向托管平台。",
+    "Anthropic 发布 154 页威胁报告，披露过去数月阻断的 Claude 滥用案例，包括潜在生物武器研究、模型蒸馏、监控、武器软件和恶意代码规避。",
+    "OpenAI 面向金融服务推出专用 ChatGPT Work 版本，内置 Daloopa、PitchBook、LSEG News、Crunchbase 等数据源，并与多家金融数据平台集成。",
+    "AI 正在改变产品与设计工作流：从 ChatGPT Images 2.5、更快图像生成，到 Shopify 收购 Tailwind，再到 AI 原型需要补齐状态设计。",
+    "多封 newsletter 都在讨论同一个方向：模型本身之外，真正的商业价值越来越来自 harness、路由、工具、评估、工作流和分发。"
+  ],
+  "items": [
+    {
+      "id": "tldr-ai-openai-agents-api",
+      "title_zh": "今日精读：OpenAI Agents API 把 Codex 的 agent 基础设施开放给开发者",
+      "title_original": "Agents API 🤖, Cognition SWE-2 👨‍💻, Muse Shared Agents 🧑‍🤝‍🧑",
+      "source": "TLDR AI",
+      "from": "TLDR AI <dan@tldrnewsletter.com>",
+      "subject": "Agents API 🤖, Cognition SWE-2 👨‍💻, Muse Shared Agents 🧑‍🤝‍🧑",
+      "url": "https://refer.tldr.tech/0a897003/2",
+      "message_id": "<010001a090b7561a-880a6f68-9ed6-4905-b730-3c2dda4becd2-000000@email.amazonses.com>",
+      "published_at": "2026-09-11T13:45:29.000Z",
+      "importance": "high",
+      "summary_zh": "这期 TLDR AI 的主线是 agent 基础设施和 AI 研发进展：OpenAI 推出 Agents API 公测，把 Codex 背后的托管 agent harness 开放给开发者；Meta 的 Muse 将推出可共享的自定义 agent；OpenAI 内部讨论是否放慢前沿模型开发；Anthropic 发布 2026 年 9 月威胁报告；研究侧还包括 CoT 可监控性、机器人视频预训练、North Small Translate 模型卡、Cognition SWE-2 编程模型以及 OpenCodeReview。对 builder 来说，最关键的信号是 agent 产品化正在从“提示词和工具调用”进入“长期任务执行基础设施”的竞争。",
+      "deep_read_zh": "最值得精读的是 OpenAI Agents API 公测。邮件把它描述为向开发者开放 Codex 背后的托管 agent harness 和基础设施：它处理上下文、工具、子代理、持久执行、文件和代码环境，让 agent 可以长时间运行，而不只是完成一次短会话问答。这个变化重要，是因为过去许多 agent 产品的难点不在模型调用本身，而在“围绕模型的系统”：如何保存任务状态，如何协调工具，如何拆分子任务，如何在失败后恢复，如何让 agent 在文件和代码环境中留下中间成果。Agents API 若能稳定承接这些复杂度，开发者可以把更多精力放在具体业务工作流上，比如代码维护、研究分析、运营报表、客户支持、金融建模，而不是反复自建执行队列、上下文压缩、工具协议和沙箱。邮件还把这个主题放在更大的行业语境里：Meta 准备在 Muse 中推出可共享 agent，Cognition SWE-2 用更低成本逼近更强编程模型，Anthropic 威胁报告提醒长期自治能力也会扩大滥用面。隐含判断是，agent 的差异化会越来越不只来自“选哪个模型”，而来自 harness、工具生态、评估、权限、可观察性和可靠执行。接下来值得关注的是 API 的真实稳定性、成本结构、是否支持严肃企业权限和审计，以及它会不会改变 LangGraph、CrewAI、自建 agent 框架和垂直 SaaS agent 的价值边界。",
+      "why_important": "这是 agent 开发栈的一次基础设施级变化：OpenAI 不只是发布模型，而是在把 Codex 的执行系统产品化。对开发者来说，可靠长期执行、文件环境和子代理协调可能比单次模型能力提升更直接影响可交付产品。",
+      "impact": "builder 可以更快做出可运行的垂直 agent，但竞争也会从“会调模型”转向“谁更懂具体业务任务、权限边界、评估和交付”。现有 agent 框架和垂直自动化产品需要重新判断哪些能力应自建，哪些应交给平台。",
+      "key_points": [
+        "OpenAI Agents API 进入 public beta，开放 Codex 背后的 managed agent harness。",
+        "API 覆盖上下文、工具、子代理、持久执行、文件和代码环境。",
+        "Meta Muse 将引入 Shared Agents，说明可分享、可定制 agent 正在进入消费和小商家场景。",
+        "Anthropic 威胁报告显示更强 agent 能力也带来更复杂的安全和滥用治理问题。",
+        "Cognition SWE-2 强调成本和能力的 Pareto 改进，编程 agent 市场正在进入效率竞争。"
+      ],
+      "reading_notes": [
+        "判断 Agents API 的关键不是 demo，而是长任务失败恢复、状态保存和可观察性。",
+        "关注它和现有开源 agent 框架的边界：平台托管会吃掉哪部分工程复杂度。",
+        "对垂直产品来说，护城河可能更多来自数据、流程、权限和评估，而不是 agent 外壳。",
+        "安全报告与 agent 基础设施应一起看：越能长期行动，越需要权限和审计设计。"
+      ],
+      "tags": [
+        "agent",
+        "infra",
+        "developer-tools",
+        "openai",
+        "model"
+      ],
+      "related_sources": [
+        "TLDR",
+        "AI Valley",
+        "The Neuron",
+        "Opinion AI"
+      ]
+    },
+    {
+      "id": "opinion-ai-agentic-harness-business",
+      "title_zh": "模型之外的机会：把 GPT-6 Astra 包成可交付的 agentic harness",
+      "title_original": "How to Build a $20K/Month Agentic Harness using GPT-6 Astra (Full course)",
+      "source": "opinionai.substack.com",
+      "from": "Opinion AI <opinionai@substack.com>",
+      "subject": "How to Build a $20K/Month Agentic Harness using GPT-6 Astra (Full course)",
+      "url": "https://opinionai.substack.com/p/how-to-build-a-20kmonth-agentic-harness",
+      "message_id": "<20260911192831.3.ef5afb947e63fab4@mg2.substack.com>",
+      "published_at": "2026-09-11T19:28:31.000Z",
+      "importance": "medium",
+      "summary_zh": "这封 Opinion AI 用 GPT-6 Astra 和 ARC Prize 的表现差异引出一个观点：同一个模型在不同系统外壳下效果可能天差地别，真正的机会在于围绕模型构建 agentic harness。文章用“每周研究 30 家公司、比较变化、更新报告、标出重要事项”的场景说明，客户买的不是模型名，而是能持续完成真实业务工作的系统。它更像一篇课程型/商业化文章，但对 builder 的启发很明确：把模型能力、浏览、文件、代码、MCP、Skills、重试和进度记忆组合成可复用工作流，才更接近可收费产品。",
+      "why_important": "它把今天多封邮件反复出现的主题说得很直白：价值从模型迁移到围绕模型的业务系统。对独立开发者来说，这比追逐 benchmark 更接近收入路径。",
+      "impact": "适合启发垂直自动化产品选题，尤其是研究、报告、运营和重复分析类工作。但邮件带有课程推广色彩，商业数字应视为营销叙事而不是事实验证。",
+      "key_points": [
+        "同一模型在不同 harness 中表现差异巨大。",
+        "agentic harness 的重点是持续执行真实业务任务，而不是单轮提示。",
+        "商业化应围绕具体工作流和客户节省的时间定价。"
+      ],
+      "reading_notes": [],
+      "tags": [
+        "agent",
+        "workflow",
+        "business",
+        "automation"
+      ],
+      "related_sources": [
+        "TLDR AI",
+        "TLDR"
+      ],
+      "deep_read_zh": ""
+    },
+    {
+      "id": "ai-valley-anthropic-threat-report-finance-chatgpt",
+      "title_zh": "Anthropic 威胁报告、金融版 ChatGPT 与 GPT-Live-1 同日出现",
+      "title_original": "Anthropic dropped a 154 page threat report",
+      "source": "www.theaivalley.com",
+      "from": "AI Valley <aivalley@mail.beehiiv.com>",
+      "subject": "Anthropic dropped a 154 page threat report",
+      "url": "https://www.theaivalley.com/",
+      "message_id": "<20260911.142546.608ef64e@mta6>",
+      "published_at": "2026-09-11T14:25:46.000Z",
+      "importance": "high",
+      "summary_zh": "AI Valley 汇总了几条高密度新闻：OpenAI 推出面向金融服务的 ChatGPT Work 版本，基于 GPT-6 Astra，并内置 Daloopa、PitchBook、LSEG News、Crunchbase 等金融数据源，可用于研究、模型、pitchbook、客户材料，并对接 S&P Capital IQ、MSCI、Moody’s 等机构已有数据；OpenAI 还发布 GPT-Live-1 API，用于实时听说交互；同时 Anthropic 发布威胁报告，披露潜在生物武器研究、Claude 蒸馏、火箭制导、电话线监控、约会应用虚假人格和恶意软件规避等案例。这封邮件的价值在于把“企业垂直化产品”“实时语音接口”和“安全滥用治理”放在同一天观察。",
+      "why_important": "金融版 ChatGPT 说明 OpenAI 正在把通用模型封装成行业工作台，而 Anthropic 报告提醒强模型已经被用于更现实的高风险场景。",
+      "impact": "AI 产品团队需要同时考虑垂直数据集成、可验证输出和安全策略。金融、法律、医疗等高价值行业的 AI 产品会越来越依赖授权数据、来源追踪和合规交付。",
+      "key_points": [
+        "ChatGPT for Financial Services 内置多家金融数据源并支持生成模型、研究笔记、deck 和图表。",
+        "GPT-Live-1 面向实时语音交互，邮件提到基础价格为每分钟 0.05 美元。",
+        "Anthropic 报告披露多个 Claude 滥用与模型蒸馏案例。"
+      ],
+      "reading_notes": [],
+      "tags": [
+        "enterprise",
+        "finance",
+        "safety",
+        "voice",
+        "openai",
+        "anthropic"
+      ],
+      "related_sources": [
+        "TLDR AI",
+        "TLDR",
+        "The Neuron"
+      ],
+      "deep_read_zh": ""
+    },
+    {
+      "id": "tldr-design-chatgpt-images-tailwind-shopify",
+      "title_zh": "图像模型加速、Tailwind 被 Shopify 收购，AI 设计流程继续工程化",
+      "title_original": "ChatGPT Images 2.5 🎨, Tailwind Joins Shopify 🛍️, iPhone 18 Pro 📱",
+      "source": "TLDR Design",
+      "from": "TLDR Design <dan@tldrnewsletter.com>",
+      "subject": "ChatGPT Images 2.5 🎨, Tailwind Joins Shopify 🛍️, iPhone 18 Pro 📱",
+      "url": "https://refer.tldr.tech/3bc21e1b/4",
+      "message_id": "<010001a0906364df-7f0f3e9d-185d-4d27-92bd-60cf6dde6e26-000000@email.amazonses.com>",
+      "published_at": "2026-09-11T12:13:48.000Z",
+      "importance": "medium",
+      "summary_zh": "TLDR Design 关注设计和前端生态：OpenAI 的 ChatGPT Images 2.5 生成速度最高提升 50%，增强光照、纹理、连续编辑细节保留，并加入 Sketch 工具、不同速度/保真度变体、C2PA 元数据和水印；Shopify 收购 Tailwind Labs，Tailwind CSS 继续开源和 MIT 授权，但 Tailwind Labs 的商业产品将停止新注册；设计方法论部分强调 AI 设计要先有约束、复用组件库、用真实数据预览验证，并补齐 loading、empty、权限变化、重叠操作等 AI 原型常漏掉的状态。",
+      "why_important": "这封邮件把 AI 视觉生成、前端基础设施和 AI 辅助设计流程连接起来看。它提醒团队不要只看漂亮首屏，而要看组件、状态和真实数据下的可用性。",
+      "impact": "设计工程师和前端团队会更依赖 AI 生成初稿，但也更需要组件系统、状态契约和审查流程。Tailwind 进入 Shopify 也可能影响大量前端项目的长期生态稳定性。",
+      "key_points": [
+        "ChatGPT Images 2.5 更快，并改善连续编辑中的细节保留。",
+        "Shopify 收购 Tailwind Labs，Tailwind CSS 继续开源。",
+        "AI 原型需要系统测试非 happy path 的界面状态。"
+      ],
+      "reading_notes": [],
+      "tags": [
+        "design",
+        "image-generation",
+        "frontend",
+        "tailwind",
+        "workflow"
+      ],
+      "related_sources": [],
+      "deep_read_zh": ""
+    },
+    {
+      "id": "tldr-openai-agents-open-models-sharded-postgres",
+      "title_zh": "Agents API、开源模型路由与大规模 Postgres 架构同框出现",
+      "title_original": "OpenAI Agents API 🤖, open model adoption 📈, sharded Postgres 🧑‍💻",
+      "source": "TLDR",
+      "from": "TLDR <dan@tldrnewsletter.com>",
+      "subject": "OpenAI Agents API 🤖, open model adoption 📈, sharded Postgres 🧑‍💻",
+      "url": "https://refer.tldr.tech/f45b3ac9/",
+      "message_id": "<010001a0900e6636-2d2d6d7c-60ef-45e2-8b5c-e79687d65256-000000@email.amazonses.com>",
+      "published_at": "2026-09-11T10:40:57.000Z",
+      "importance": "high",
+      "summary_zh": "TLDR 主刊从更宽的技术视角覆盖了 OpenAI Agents API 公测、Anthropic 阻断潜在生物武器相关滥用、Unitree IPO、AI 可能带来双位数经济增长的讨论、企业转向更便宜开源模型和路由策略，以及分片 Postgres 查询生命周期。对 AI builder 最有价值的是两条并置的信号：一边是 OpenAI 把 Codex 式 agent harness 托管化，另一边是企业更积极用开放模型和模型路由控制推理成本。这说明未来 AI 应用架构很可能同时依赖强 agent 平台和更细颗粒度的模型成本治理。",
+      "why_important": "它补充了 TLDR AI 的 Agents API 视角，同时强调企业正在通过开放模型、路由和用量限制管理成本。",
+      "impact": "AI 应用不宜默认把所有请求交给最强模型。产品架构需要区分任务难度、延迟、成本和可靠性，把 agent harness 与模型路由结合起来。",
+      "key_points": [
+        "OpenAI Agents API 支持长时间运行、工具使用、子代理和文件/代码环境。",
+        "企业正在试用更便宜的开放模型与推理供应商。",
+        "模型路由和 per-developer 用量限制正在成为成本管理手段。"
+      ],
+      "reading_notes": [],
+      "tags": [
+        "agent",
+        "infra",
+        "model-routing",
+        "open-models",
+        "database"
+      ],
+      "related_sources": [
+        "TLDR AI",
+        "AI Valley",
+        "The Neuron"
+      ],
+      "deep_read_zh": ""
+    },
+    {
+      "id": "the-neuron-openai-millennium-problem",
+      "title_zh": "OpenAI 声称在第二个千禧年难题上取得实质进展",
+      "title_original": "😺 OpenAI advances ANOTHER Millennium problem?",
+      "source": "www.theneurondaily.com",
+      "from": "The Neuron <theneuron@newsletter.theneurondaily.com>",
+      "subject": "😺 OpenAI advances ANOTHER Millennium problem?",
+      "url": "https://www.tines.com/webinars/wild-code-you-cant-govern-what-you-cant-see/?utm_source=TheNeuron&utm_medium=paid_media&utm_content=newsletter-primary-1109",
+      "message_id": "<Cl1vnaZdTqqLZkR87CQePw@geopod-ismtpd-108>",
+      "published_at": "2026-09-11T10:31:42.000Z",
+      "importance": "high",
+      "summary_zh": "The Neuron 的主线是 OpenAI 在数学研究上的新进展：继此前用约 10,000 个 agent 运行约 88 小时、生成 Navier-Stokes 方案和 Lean 形式化证明后，OpenAI 又称已在第二个千禧年难题上取得“实质进展”，但尚未公布具体问题。邮件提到外界传闻可能是 Hodge Conjecture、未发布模型可能叫 Aeon，但这些都未获 OpenAI 确认。它还顺带覆盖 UMG 与 ElevenLabs 开发授权 AI remix 平台、Suno v6 加速和编辑能力、Anthropic 生物滥用案例、金融版 ChatGPT、Agents API 和基于真实工作的 eval。",
+      "why_important": "如果独立数学审查和形式化验证成立，这类成果会成为比 benchmark 更强的能力信号。关键不在传闻是哪道题，而在大规模 agent 协作能否产出可检验研究成果。",
+      "impact": "科研型 agent 的产品方向会更受关注，尤其是可验证推理、形式化证明、并行探索和结果审查流程。对 builder 来说，这提示“可检查任务”可能是 agent 扩展最先落地的高价值区域。",
+      "key_points": [
+        "OpenAI 称在第二个千禧年难题上取得实质进展，但未公布题目。",
+        "此前 Navier-Stokes 相关工作使用约 10,000 个 agent 协作约 88 小时。",
+        "邮件强调外部数学家审查和形式化验证比传闻本身更重要。"
+      ],
+      "reading_notes": [],
+      "tags": [
+        "research",
+        "agent",
+        "formal-verification",
+        "openai",
+        "science"
+      ],
+      "related_sources": [
+        "TLDR AI"
+      ],
+      "deep_read_zh": ""
+    },
+    {
+      "id": "tldr-product-retention-software-as-content",
+      "title_zh": "AI 让软件更像内容，产品留存逻辑可能被改写",
+      "title_original": "The product retention crisis 📉, software becomes content 📚, weak PM signs 🛑",
+      "source": "TLDR Product",
+      "from": "TLDR Product <dan@tldrnewsletter.com>",
+      "subject": "The product retention crisis 📉, software becomes content 📚, weak PM signs 🛑",
+      "url": "https://refer.tldr.tech/271505d3/9",
+      "message_id": "<010001a08ff199f9-7c49d4ed-ae81-4de1-b3d6-67e13478b788-000000@email.amazonses.com>",
+      "published_at": "2026-09-11T10:09:30.000Z",
+      "importance": "medium",
+      "summary_zh": "TLDR Product 聚焦 AI 时代的产品管理：AI 擅长处理例行工作，但消费级产品留存依赖新鲜感和真实感，随着应用构建成本下降，软件可能更像可分享、可混剪、可快速消费的内容，成功标准从长期留存部分转向持续制造新 hit 和打造品牌。邮件还提到 Lovable 用免费 AI 访问作为获客成本、弱 PM 在 AI 加速下更难被发现、产品策略要从“不做什么”开始、创业验证不能只看 demo 和口头反馈，以及给 AI agent 写下目标和背景相当于给它一种外部记忆。",
+      "why_important": "它从产品视角补上技术新闻背后的商业问题：当构建软件变便宜，稀缺的可能变成分发、品牌、真实需求和持续注意力。",
+      "impact": "PM 和 founder 需要重新设计增长和留存假设。AI 降低构建成本后，产品策略更要明确取舍、验证付费意愿，并把 onboarding 到首次价值的路径缩短。",
+      "key_points": [
+        "AI 可能让软件更像内容，产品竞争转向新鲜感、分发和品牌。",
+        "免费 AI 访问可被当作获客成本，但需要回本周期和防滥用规则。",
+        "AI 会放大弱产品管理，问题理解和方向选择仍是基本功。"
+      ],
+      "reading_notes": [],
+      "tags": [
+        "product",
+        "growth",
+        "retention",
+        "startup",
+        "agent"
+      ],
+      "related_sources": [],
+      "deep_read_zh": ""
+    }
+  ],
+  "skipped": [],
+  "notes": "今日精读选择 TLDR AI 的 OpenAI Agents API，因为它与多封邮件重复出现，且对 AI builder 的产品架构、基础设施选择和商业化路径影响最大。TLDR、AI Valley、The Neuron 也覆盖了 Agents API 或相关 OpenAI 动态，因此在 related_sources 中标注为补充来源。各邮件中的赞助、广告、招聘、订阅保留提示未单独成条；Opinion AI 带有课程/商业推广色彩，但正文围绕 agentic harness 的方法论信息较多，仍作为正式 newsletter 保留。"
+}
