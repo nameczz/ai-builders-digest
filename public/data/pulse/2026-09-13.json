@@ -1,0 +1,293 @@
+{
+  "date": "2026-09-13",
+  "top3": [
+    "AI coding agent 的机会正在从模型能力转向工作流约束、上下文压缩和输出治理。",
+    "Gods Eye View 把真实空间数据做成浏览器里的 3D 情报体验，说明开源可视化产品还有强传播空间。",
+    "Google Trends 显示通用「ai agent」「codex cli」降温，但具体 repo 名和 skill 名正在破圈。"
+  ],
+  "intro": "今天的数据主线很清晰：Builder 不再只追逐更强模型，而是在给 agent 加边界、记忆、技能和可验证产物。与此同时，空间情报、私有计算、图像视频生成这些具体应用，比抽象 AI 热词更容易获得新增注意力。",
+  "sections": [
+    {
+      "id": "discovery",
+      "title": "发现机会",
+      "blocks": [
+        {
+          "id": "github-traction",
+          "heading": "GitHub 上哪些高增长开源项目还没有商业化？",
+          "summary_md": "[ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd) 本周新增 15924 stars，总星 43721，它解决的不是模型推理，而是「让 coding agent 别把答案埋起来」这种输出形态问题。[DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) 本周新增 9272 stars，总星 136868，也在强调少写代码、少做复杂事。机会不在再造 IDE，而在把 agent 的行为压成可复用、可分发、可安装的工作习惯。\n\n另一个方向是可视化产物。[tt-a1i/archify](https://github.com/tt-a1i/archify) 本周新增 10442 stars，总星 60077，[cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design) 本周新增 7409 stars，总星 38990，都把 agent 输出从文本推进到可验证图表、HTML 和 SVG。还没明显商业化的切口，是给团队做「规范化交付包」：架构图、评审图、事故复盘图一键生成并可导出。",
+          "items": [
+            {
+              "title": "ayghri/i-have-adhd",
+              "url": "https://github.com/ayghri/i-have-adhd",
+              "source": "GitHub",
+              "score": 15924
+            },
+            {
+              "title": "tt-a1i/archify",
+              "url": "https://github.com/tt-a1i/archify",
+              "source": "GitHub",
+              "score": 10442
+            },
+            {
+              "title": "cathrynlavery/diagram-design",
+              "url": "https://github.com/cathrynlavery/diagram-design",
+              "source": "GitHub",
+              "score": 7409
+            }
+          ],
+          "takeaway": "agent 生态的新机会，是把「提示词」产品化成可安装的行为标准。"
+        }
+      ]
+    },
+    {
+      "id": "tech-stack",
+      "title": "技术选型",
+      "blocks": [
+        {
+          "id": "dev-tools",
+          "heading": "本周增长最快的开发者工具是什么？",
+          "summary_md": "本周 dev tool 的增长集中在 agent harness、技能目录和浏览器调试接口。[affaan-m/ECC](https://github.com/affaan-m/ECC) 本周新增 8086 stars，总星 257325，定位是 Claude Code、Codex、Cursor 等工具的性能优化系统；[mksglu/context-mode](https://github.com/mksglu/context-mode) 本周新增 1936 stars，总星 22468，主打上下文窗口优化、MCP 和 hooks；[ChromeDevTools/chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp) 本周新增 783 stars，总星 51783，则把浏览器调试直接交给 coding agent。\n\n如果你今天要选技术栈，关键不是「接哪个模型」，而是把 agent 的输入、记忆、浏览器环境和输出格式纳入工程系统。TypeScript 项目在 MCP、前端调试和自动化链路里仍占优势，Python 则更适合文档转换、模型调用和技能脚本。",
+          "items": [
+            {
+              "title": "affaan-m/ECC",
+              "url": "https://github.com/affaan-m/ECC",
+              "source": "GitHub",
+              "score": 8086
+            },
+            {
+              "title": "mksglu/context-mode",
+              "url": "https://github.com/mksglu/context-mode",
+              "source": "GitHub",
+              "score": 1936
+            },
+            {
+              "title": "ChromeDevTools/chrome-devtools-mcp",
+              "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+              "source": "GitHub",
+              "score": 783
+            }
+          ],
+          "takeaway": "开发者工具正在从插件生态转向 agent 操作系统生态。"
+        },
+        {
+          "id": "hf-models",
+          "heading": "HuggingFace 上最热的模型能做什么消费级产品？",
+          "summary_md": "[deepseek-ai/DeepSeek-V4.1-Flash](https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash) trending score 1884、下载 140636、点赞 2071，带 image-text-to-text 和 8-bit、fp8 标签，适合做低成本多模态问答、票据理解、截图助手。[openbmb/MiniCPM5-2B](https://huggingface.co/openbmb/MiniCPM5-2B) trending score 1082、下载 102334、点赞 1284，明确打上 on-device、edge-ai、tool-calling 标签，更适合隐私笔记、离线客服、桌面助理。\n\n生成侧也在升温。[Lightricks/LTX-2.5](https://huggingface.co/Lightricks/LTX-2.5) 下载 1548442，覆盖 text-to-video、image-to-video、audio-to-video；[m-a-p/YuE2-3B](https://huggingface.co/m-a-p/YuE2-3B) trending score 336，指向音乐生成和 agentic editing。消费级入口可以不是完整剪辑软件，而是「一张图生成短视频」「一句话改 BGM」「本地私有视觉助理」这些窄场景。",
+          "items": [
+            {
+              "title": "deepseek-ai/DeepSeek-V4.1-Flash",
+              "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash",
+              "source": "HuggingFace",
+              "score": 1884
+            },
+            {
+              "title": "openbmb/MiniCPM5-2B",
+              "url": "https://huggingface.co/openbmb/MiniCPM5-2B",
+              "source": "HuggingFace",
+              "score": 1082
+            },
+            {
+              "title": "Lightricks/LTX-2.5",
+              "url": "https://huggingface.co/Lightricks/LTX-2.5",
+              "source": "HuggingFace",
+              "score": 361
+            }
+          ],
+          "takeaway": "多模态模型的产品化窗口，在本地隐私和轻量内容生成两个端点。"
+        }
+      ]
+    },
+    {
+      "id": "competition",
+      "title": "竞争情报",
+      "blocks": [
+        {
+          "id": "migrations",
+          "heading": "有没有「XX is dead」或迁移类文章？",
+          "summary_md": "HN 今天没有典型「XX is dead」迁移帖，但 GitHub 日榜出现了更现实的替代信号：[melgarafael/DeskcommCRM](https://github.com/melgarafael/DeskcommCRM) 本周新增 504 stars，总星 1960，直接写明是 Kommo、Octadesk 与 Intercom 的开源替代，且自带 AI agents、WhatsApp、MCP-ready、多租户和 LGPD。这个项目说明迁移叙事正在从「某工具死了」变成「我能自托管同一个工作流」。\n\n对创业者更重要的是，它选择了聊天销售这个高频、强付费、强集成场景，而不是泛 CRM。若你在做 SaaS 替代品，竞争关键词不应只写 open source alternative，而要写清楚替代对象、迁移成本、核心渠道和合规约束。",
+          "items": [
+            {
+              "title": "melgarafael/DeskcommCRM",
+              "url": "https://github.com/melgarafael/DeskcommCRM",
+              "source": "GitHub",
+              "score": 504
+            }
+          ],
+          "takeaway": "开源替代的下一轮竞争，是垂直工作流加自托管 AI agent。"
+        },
+        {
+          "id": "comebacks",
+          "heading": "有没有沉寂的老项目突然复活？",
+          "summary_md": "[openai/plugins](https://github.com/openai/plugins) 本周新增 1120 stars，总星 6565，是今天很有意思的复活信号。旧的 Plugins 概念曾被更强的 GPTs、tools、MCP 和 agent runtime 稀释，但现在它以仓库热度形式回到视野，说明开发者仍在寻找一种简单、可声明、可分发的外部能力接入方式。\n\n这不是单纯怀旧，而是生态在重新收敛：技能、插件、MCP、hooks 都在回答同一件事，agent 如何安全地调用外部能力。对产品来说，谁能把「安装、授权、运行、审计」做成低摩擦闭环，谁就能吃到下一批工具市场流量。",
+          "items": [
+            {
+              "title": "openai/plugins",
+              "url": "https://github.com/openai/plugins",
+              "source": "GitHub",
+              "score": 1120
+            }
+          ],
+          "takeaway": "插件没有消失，只是换成了 agent 能理解和执行的新包装。"
+        }
+      ]
+    },
+    {
+      "id": "trends",
+      "title": "趋势判断",
+      "blocks": [
+        {
+          "id": "keywords",
+          "heading": "本周技术关键词频率有什么变化？",
+          "summary_md": "最强上升词是 [gods eye view](https://trends.google.com/trends/explore?q=gods+eye+view&date=now+7-d)，7 日变化 +170.3%，并且对应 GitHub 周榜 [bilawalsidhu/gods-eye-view](https://github.com/bilawalsidhu/gods-eye-view) 本周新增 10510 stars、总星 30711。它不是普通地图 demo，而是「真实数据 + 写实 3D 地球 + 浏览器体验」的组合，容易被媒体、开发者和 OSINT 兴趣人群同时传播。\n\n相比之下，[i have adhd](https://trends.google.com/trends/explore?q=i+have+adhd&date=now+7-d) 仍上升 +13.2%，说明 agent skill 的搜索需求还在，但更偏具体项目名。今天的关键词变化提醒我们：通用类别词不如可展示、可截图、可转发的产品名有效。",
+          "items": [
+            {
+              "title": "gods eye view",
+              "url": "https://trends.google.com/trends/explore?q=gods+eye+view&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 170
+            },
+            {
+              "title": "i have adhd",
+              "url": "https://trends.google.com/trends/explore?q=i+have+adhd&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 13
+            }
+          ],
+          "takeaway": "能被一句话看懂的具体项目名，正在跑赢抽象技术词。"
+        },
+        {
+          "id": "cooling",
+          "heading": "哪些 AI 热词在降温？",
+          "summary_md": "降温最明显的是 [cursor alternative](https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d) -85.3%、[context mode](https://trends.google.com/trends/explore?q=context+mode&date=now+7-d) -55.3%、[codex cli](https://trends.google.com/trends/explore?q=codex+cli&date=now+7-d) -50.8%、[codex](https://trends.google.com/trends/explore?q=codex&date=now+7-d) -42.0%。这不代表 coding agent 退潮，而是用户不再搜索大类名，开始追具体 repo、具体 skill、具体工作流。\n\n[ai agent](https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d) 也下降 -37.0%，但 GitHub 周榜里 agent 相关项目仍密集增长。判断上要分清「概念热度下降」和「采购需求下降」：前者说明叙事变旧，后者才说明市场变小；今天的数据更像是前者。",
+          "items": [
+            {
+              "title": "cursor alternative",
+              "url": "https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": -85
+            },
+            {
+              "title": "codex cli",
+              "url": "https://trends.google.com/trends/explore?q=codex+cli&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": -51
+            },
+            {
+              "title": "ai agent",
+              "url": "https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": -37
+            }
+          ],
+          "takeaway": "AI agent 不是没人要了，而是通用卖点已经不够用了。"
+        },
+        {
+          "id": "new-radar",
+          "heading": "新词雷达：有哪些从零起飞的新概念？",
+          "summary_md": "Google Trends 的破圈词里，最值得盯的是 [gods eye view](https://trends.google.com/trends/explore?q=gods+eye+view&date=now+7-d) 关联查询「github gods eye view」value 100，以及 [i have adhd](https://trends.google.com/trends/explore?q=i+have+adhd&date=now+7-d) 关联查询「i have adhd github」value 70、「i have adhd skill」value 50、「adhd skill」value 50。这些不是泛搜索，而是用户已经在找仓库和安装对象。\n\n另一个弱信号来自 [ponytail](https://trends.google.com/trends/explore?q=ponytail&date=now+7-d)：主词下降 -4.6%，但 rising 里出现「ponytail github」「ponytail claude」「caveman skill」。这类带人格化命名的 agent skill，会比功能名更容易传播，但也更需要落地到团队规范、PR 检查和代码审查场景。",
+          "items": [
+            {
+              "title": "github gods eye view",
+              "url": "https://trends.google.com/trends/explore?q=gods+eye+view&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 100
+            },
+            {
+              "title": "i have adhd github",
+              "url": "https://trends.google.com/trends/explore?q=i+have+adhd&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 70
+            },
+            {
+              "title": "ponytail claude",
+              "url": "https://trends.google.com/trends/explore?q=ponytail&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 40
+            }
+          ],
+          "takeaway": "新词机会不在大模型名，而在可安装、可转述、可人格化的 skill 名。"
+        }
+      ]
+    },
+    {
+      "id": "actions",
+      "title": "行动触发",
+      "blocks": [
+        {
+          "id": "weekend-build",
+          "heading": "今天 2 小时和一个周末分别做什么？",
+          "summary_md": "2 小时版本：做一个 agent 输出治理小工具，专门把长回答压成「结论、证据、下一步」三段，并提供 Cursor、Codex、Claude Code 的 skill 或 prompt 安装方式。参考 [ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd) 本周 15924 stars 的信号，用户要的不是更多内容，而是更少噪音、更快决策。\n\n周末版本：做一个「可验证架构图生成器」，输入 repo、README 或 issue，输出 HTML/SVG 架构图、数据流图和 review checklist。参考 [tt-a1i/archify](https://github.com/tt-a1i/archify) 本周 10442 stars、[cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design) 本周 7409 stars，市场已经证明开发者愿意为高质量可视化产物传播。",
+          "items": [
+            {
+              "title": "ayghri/i-have-adhd",
+              "url": "https://github.com/ayghri/i-have-adhd",
+              "source": "GitHub",
+              "score": 15924
+            },
+            {
+              "title": "tt-a1i/archify",
+              "url": "https://github.com/tt-a1i/archify",
+              "source": "GitHub",
+              "score": 10442
+            }
+          ],
+          "takeaway": "今天最值得动手的，是把 agent 的输出从聪明变成可交付。"
+        },
+        {
+          "id": "pricing-models",
+          "heading": "值得学习的定价和变现模式有哪些？",
+          "summary_md": "Product Hunt 里值得拆的是 [Perplexity Hybrid Compute](https://www.producthunt.com/products/perplexity-ai)：云端负责研究，Mac 负责隐私，这是一种很适合定价的分层叙事。用户可以为「云端深度任务」按量付费，为「本地私有处理」按设备或 Pro 订阅付费，既解释成本，也解释隐私价值。\n\n另一个可学的是 [Visiby](https://www.producthunt.com/products/visiby) 的 AI search visibility，以及 [Epilude Notetaker](https://www.producthunt.com/products/epilude) 的 100% private meeting notes。前者可以按监控关键词和报告频率收费，后者可以按席位、存储和本地模型能力收费。定价重点不是 AI 本身，而是把可观测性、隐私和自动化节省变成清晰账单项。",
+          "items": [
+            {
+              "title": "Perplexity Hybrid Compute",
+              "url": "https://www.producthunt.com/products/perplexity-ai",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "Visiby",
+              "url": "https://www.producthunt.com/products/visiby",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "Epilude Notetaker",
+              "url": "https://www.producthunt.com/products/epilude",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "AI 产品的好定价，来自可解释的成本边界和隐私边界。"
+        },
+        {
+          "id": "counterintuitive",
+          "heading": "今天最反直觉的发现是什么？",
+          "summary_md": "HN 今日最高分文章 [Everyone should slow down AI development except for me](https://xeiaso.net/notes/2026/everyone-slowdown-but-me/) 拿到 442 points、274 comments，表面看是 AI 发展速度争论；但和 GitHub 数据放在一起看，真正的需求不是「慢下来」，而是「给快速变化的 agent 加限制」。增长最快的项目几乎都在做约束：少说废话、少写代码、压缩上下文、生成可验证图表。\n\n所以反直觉点是：AI 越强，用户越愿意安装让它变「笨」一点的工具。笨不是能力下降，而是少犯错、少跑偏、少消耗上下文。下一个好产品未必是更强 agent，而是让团队敢把 agent 放进日常流程的刹车、护栏和仪表盘。",
+          "items": [
+            {
+              "title": "Everyone should slow down AI development except for me",
+              "url": "https://xeiaso.net/notes/2026/everyone-slowdown-but-me/",
+              "source": "HN",
+              "score": 442
+            },
+            {
+              "title": "mksglu/context-mode",
+              "url": "https://github.com/mksglu/context-mode",
+              "source": "GitHub",
+              "score": 1936
+            },
+            {
+              "title": "DietrichGebert/ponytail",
+              "url": "https://github.com/DietrichGebert/ponytail",
+              "source": "GitHub",
+              "score": 9272
+            }
+          ],
+          "takeaway": "强模型时代的稀缺品，是让 AI 可控、可审、可停下来的产品。"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2026-09-13T09:17:12+00:00",
+  "reddit_highlights": []
+}

@@ -1,0 +1,163 @@
+{
+  "date": "2026-09-13",
+  "items": [
+    {
+      "id": "2026-09-13-1",
+      "title": "AI越强，越需要变笨",
+      "angle": "从「减速争论」切到产品机会：强模型时代最缺的不是能力，而是刹车、边界和可审计输出。",
+      "opening": "今天最反直觉的信号是：大家一边说 AI 已经像 AGI，一边在 GitHub 上疯狂收藏让 agent 少说、少跑偏、少浪费上下文的工具。模型越强，用户越想给它套上限制器。这不是保守，而是把 AI 真正放进工作流的前提。",
+      "story_hook": {
+        "challenge": "前沿模型能力增长太快，但团队的安全、验证和交付流程跟不上。",
+        "twist": "最受欢迎的新工具不是让 AI 更聪明，而是让它更克制、更短、更可控。"
+      },
+      "takeaway": "做 agent 产品时，优先设计输出治理、上下文预算、人工确认和可回滚机制，而不是只堆模型能力。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Thariq 关于 Claude Code、AGI 体感和系统加固的推文",
+          "url": "https://x.com/trq212/status/2098860941391872132"
+        },
+        {
+          "tag": "builders",
+          "ref": "Amjad Masad 关于放慢脚步和系统被智能体攻破的推文",
+          "url": "https://x.com/amasad/status/2098828265800835310"
+        },
+        {
+          "tag": "pulse",
+          "ref": "HN：Everyone should slow down AI development except for me",
+          "url": "https://xeiaso.net/notes/2026/everyone-slowdown-but-me/"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub：mksglu/context-mode 本周新增 1936 stars",
+          "url": "https://github.com/mksglu/context-mode"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-13-2",
+      "title": "Agent成了新编译器",
+      "angle": "从 Vercel 的多语言提速看，软件工程的瓶颈正在从语言易用性转向 agent 编排能力。",
+      "opening": "Guillermo Rauch 说，Vercel 团队用 Zig、Go、Rust 的迭代速度已经不输 TypeScript 和 Python。这句话真正吓人的地方不是 Rust 变简单了，而是人类友好语法的重要性被 agent 稀释了。以后技术选型可能不是问团队会不会写，而是问 agent 能不能稳定生成、调试和验证。",
+      "story_hook": {
+        "challenge": "过去开发效率高度依赖语言生态和人类熟练度。",
+        "twist": "当 agent 能承担实现和调试，低层语言反而可能重新变成高速迭代选项。"
+      },
+      "takeaway": "团队评估技术栈时，应把 MCP、浏览器调试、测试反馈和 agent harness 纳入工程基建，而不是只比较语言本身。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Guillermo Rauch 关于 Zig、Go、Rust 与 agent 成为新编译器的推文",
+          "url": "https://x.com/rauchg/status/2098833404707922239"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub：ChromeDevTools/chrome-devtools-mcp 本周新增 783 stars",
+          "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub：affaan-m/ECC 本周新增 8086 stars",
+          "url": "https://github.com/affaan-m/ECC"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-13-3",
+      "title": "插件复活，不是怀旧",
+      "angle": "把 openai/plugins 回暖和 AGENTS.md 编排放在一起看：开发者真正想要的是可安装的 agent 行为标准。",
+      "opening": "OpenAI 旧 plugins 仓库本周突然新增 1120 stars，看起来像一次考古。但同一天，Guillermo Rauch 又在讲用 AGENTS.md 让不同模型分工协作。两个信号合在一起说明：插件没有死，只是从 API 接口变成了 agent 能读懂、能执行、能审计的工作习惯。",
+      "story_hook": {
+        "challenge": "GPTs、tools、MCP、skills、hooks 名词越来越多，开发者反而缺少简单的安装和分发范式。",
+        "twist": "旧插件概念重新变热，说明市场仍需要一个低摩擦的外部能力接入层。"
+      },
+      "takeaway": "如果做 agent 工具，应该把能力包装成可安装、可授权、可复用、可审计的 skill 或插件，而不是只卖一段 prompt。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Guillermo Rauch 关于用 AGENTS.md 编排 Fable、Grok 等子 Agent 的推文",
+          "url": "https://x.com/rauchg/status/2098803573861621778"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub：openai/plugins 本周新增 1120 stars",
+          "url": "https://github.com/openai/plugins"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Google Trends：i have adhd github、i have adhd skill 相关查询上升",
+          "url": "https://trends.google.com/trends/explore?q=i+have+adhd&date=now+7-d"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-13-4",
+      "title": "AI先做半个游戏",
+      "angle": "从《星际争霸 3》吐槽切入：AI 游戏生产的突破口不是全自动生成，而是「AI 量产资产，人类把关体验」。",
+      "opening": "Peter Yang 说，如果真想快点做出好游戏，就让 AI 生成一半美术、人类把关，玩家不会介意。这比「AI 自动做完整游戏」更现实，也更危险：内容生产成本一旦被砍掉，游戏团队的稀缺能力会从画得快变成筛得准、调得好。",
+      "story_hook": {
+        "challenge": "玩家想要更快的新内容，但完整游戏开发仍被美术、视频、音频和关卡制作拖慢。",
+        "twist": "AI 不一定先替代设计师，而是先把半成品资产洪水交给人类筛选。"
+      },
+      "takeaway": "游戏和内容团队应优先搭建素材生成、筛选、版本管理和人工验收流水线，而不是幻想一键生成完整产品。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Peter Yang 关于用 AI 生成一半美术、人类把关做新《星际争霸》的推文",
+          "url": "https://x.com/petergyang/status/2098846399949627553"
+        },
+        {
+          "tag": "builders",
+          "ref": "Peter Yang 关于 RTS 指挥官与队友微操玩法的推文",
+          "url": "https://x.com/petergyang/status/2098945475038912741"
+        },
+        {
+          "tag": "pulse",
+          "ref": "HuggingFace：Lightricks/LTX-2.5 覆盖 text-to-video、image-to-video、audio-to-video",
+          "url": "https://huggingface.co/Lightricks/LTX-2.5"
+        },
+        {
+          "tag": "pulse",
+          "ref": "HuggingFace：m-a-p/YuE2-3B 指向音乐生成和 agentic editing",
+          "url": "https://huggingface.co/m-a-p/YuE2-3B"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-13-5",
+      "title": "别再卖AI Agent了",
+      "angle": "从 Google Trends 降温看，市场不是不要 agent，而是不要抽象大词，开始追具体 repo、具体 skill、具体工作流。",
+      "opening": "「ai agent」7 日搜索下降 37%，「codex cli」下降 50.8%，但 GitHub 上 agent 相关项目还在猛涨。这不是退潮，而是换词了。用户不再搜索概念，他们直接搜索能安装、能截图、能解决一个具体问题的项目名。",
+      "story_hook": {
+        "challenge": "创业者还在用 AI agent、Copilot、workflow automation 这类泛词包装产品。",
+        "twist": "真正破圈的是 gods-eye-view、i-have-adhd、ponytail 这种具体、可传播、可安装的名字。"
+      },
+      "takeaway": "产品定位要从抽象 AI 能力改成明确场景、明确对象和明确工作流，并让名字本身能被搜索和转述。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Garry Tan 关于软件要么死成记录系统，要么变成垂直操作框架的推文",
+          "url": "https://x.com/garrytan/status/2098666551629267324"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Google Trends：ai agent 7 日下降 37%",
+          "url": "https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Google Trends：gods eye view 7 日上升 170.3%",
+          "url": "https://trends.google.com/trends/explore?q=gods+eye+view&date=now+7-d"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub：ayghri/i-have-adhd 本周新增 15924 stars",
+          "url": "https://github.com/ayghri/i-have-adhd"
+        }
+      ]
+    }
+  ],
+  "notes": "今日主线是「加速后的约束」：安全减速、agent 输出治理、插件/skill 分发、垂直工作流都在回答同一个问题，如何让 AI 从演示进入可重复交付。",
+  "generated_at": "2026-09-13T09:18:16+00:00",
+  "model": "gpt-5.5"
+}
