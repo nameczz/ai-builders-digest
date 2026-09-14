@@ -1,0 +1,367 @@
+{
+  "date": "2026-09-14",
+  "generated_at": "2026-09-14T09:11:53+00:00",
+  "count": 24,
+  "items": [
+    {
+      "id": "dd983ff13d",
+      "date": "2026-09-14",
+      "source": "x",
+      "author": "Sam Altman",
+      "bio": "The mission of OpenAI is to ensure that AGI benefits all of humanity",
+      "title": "",
+      "summary_en": "There are two ways AI progress could go very badly and that we must avoid.\n\nFirst, we could lose control of the future to AI. This is unacceptable; we are unapologetically on Team Humanity, and AI must always serve people. To ensure that, we need ways to ensure that alignment and safety techniques stay ahead of progress in model capabilities.\n\nSecond, we could end up in a world with too much concentration of power. If an extraordinarily powerful AI is used by one person or company to impress their worldview onto everyone else, the results could be extremely dystopian.\n\nAvoiding these two threats requires walking a narrow middle path; for example, one country could gain too much power. Another example is one lab ending up with too much power.",
+      "summary_zh": "AI 失控接管未来不可接受，AI 必须永远服务人类，安全与对齐必须跑在能力进步前面。另一个噩梦是权力过度集中：一个人、一家公司、一个实验室或一个国家用超级 AI 把自己的世界观强加给所有人，那会极其反乌托邦。",
+      "url": "https://x.com/sama/status/2099352016988614852",
+      "posted_at": "2026-09-14T04:18:19.000Z",
+      "tags": [
+        "@sama"
+      ]
+    },
+    {
+      "id": "3819744cf3",
+      "date": "2026-09-14",
+      "source": "x",
+      "author": "Sam Altman",
+      "bio": "The mission of OpenAI is to ensure that AGI benefits all of humanity",
+      "title": "",
+      "summary_en": "The world deserves confidence that American companies developing increasingly capable AI will act responsibly, especially as the trajectory of progress has steepened. Every frontier lab must deliver on this, and there is no reason any of us should come to work if we cannot.\n\nWe welcome a federal framework that sets consistent safety requirements for frontier AI. But we do not believe we need to wait for an anti-trust exemption or legislation to begin the work of providing this confidence. Consistent rules to manage frontier risk so that we can maximize the benefits are a good idea (and we are excited by ideas like independent auditors).\n\nYears ago, companies like ours developed things like Responsible Scaling Policies and Preparedness Frameworks. Those were good for that moment, and focused primarily on the deployment of completed models, not what happens during their development process.\n\nToday's shift to focusing on safe development and evaluation will need new tools. For example, at OpenAI we now formulate explicit safety cases in advance of frontier reinforcement learning runs we expect to significantly increase capability, in addition to the safety work we have long done in advance of model releases.\n\nWe hope that other companies will learn from our approaches and propose their own; we think shared standards for misalignment, monitoring, and safety will lead to better outcomes. We look forward to collaborating with our colleagues across the industry to formulate the best version of these.\n\nWhen we talk about “pacing”, we do not mean “stopping”. Progress has been rapid and will continue to be. But it should be slower than it otherwise could be; interventions like safety cases and monitoring have significant costs.\n\nPacing will be well worth this cost; no amount of American competitive pressure should justify recklessness, or let capabilities get ahead of alignment and monitoring.\n\nWhere we will need the help of our government is for international coordination. But first we should do what we can ourselves.",
+      "summary_zh": "美国前沿 AI 公司不能一边喊竞争压力一边把能力推进到对齐和监控前面；“节奏控制”不是停下，而是用安全论证、独立审计和持续监控给激进扩张踩刹车。OpenAI 说行业不该等反垄断豁免或立法才开始自律，先把开发过程中的风险管住，再谈政府层面的国际协调。",
+      "url": "https://x.com/sama/status/2099348812305473766",
+      "posted_at": "2026-09-14T04:05:35.000Z",
+      "tags": [
+        "@sama"
+      ]
+    },
+    {
+      "id": "966f9b8d5c",
+      "date": "2026-09-14",
+      "source": "x",
+      "author": "Zara Zhang",
+      "bio": "Builder. Make something people want, then make people want it. Harvard’17. GitHub: https://t.co/KCuEaje1wd  YouTube: https://t.co/8xzbGWsHgY",
+      "title": "",
+      "summary_en": "Anyone else notices this problem with Astra?\n\nAstra: I have done X\nMe: This is wrong, you should do Y instead\nAstra: You're right. I should do Y\nMe: ...\n\nWhy doesn't it just go and do Y, like the other models??",
+      "summary_zh": "Astra 的问题不是会犯错，而是被指出错后只会承认“你说得对”，却不继续把正确的事做完。别的模型会改，Astra 像是在等你再下一个命令。",
+      "url": "https://x.com/zarazhangrui/status/2099348631291883945",
+      "posted_at": "2026-09-14T04:04:52.000Z",
+      "tags": [
+        "@zarazhangrui"
+      ]
+    },
+    {
+      "id": "a1a23d05e8",
+      "date": "2026-09-14",
+      "source": "x",
+      "author": "Peter Yang",
+      "bio": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6",
+      "title": "",
+      "summary_en": "I'm really curious who's actually managing this account https://t.co/BWu6Imtxuy",
+      "summary_zh": "真想知道这个账号到底是谁在操盘。",
+      "url": "https://x.com/petergyang/status/2099345068893298816",
+      "posted_at": "2026-09-14T03:50:43.000Z",
+      "tags": [
+        "@petergyang"
+      ]
+    },
+    {
+      "id": "54b8748c52",
+      "date": "2026-09-14",
+      "source": "x",
+      "author": "Amjad Masad",
+      "bio": "ceo @replit. civilizationist",
+      "title": "",
+      "summary_en": "Nominal determinism strikes again. https://t.co/rFD1V1y2D9",
+      "summary_zh": "又一个“名如其人”的现实笑话：名字早就把命运剧透了。",
+      "url": "https://x.com/amasad/status/2099343474734911917",
+      "posted_at": "2026-09-14T03:44:22.000Z",
+      "tags": [
+        "@amasad"
+      ]
+    },
+    {
+      "id": "61fd50ef78",
+      "date": "2026-09-14",
+      "source": "x",
+      "author": "Boris Cherny",
+      "bio": "Claude Code @anthropicai",
+      "title": "",
+      "summary_en": "Fable solved the Cyphral Distich (a 370 year old cypher). Super cool way to use Claude\n\nhttps://t.co/0fgTdITSfO",
+      "summary_zh": "Fable 用 Claude 解开了有 370 年历史的 Cyphral Distich 密码。这个用法很硬核，也说明大模型在历史谜题和密码分析上已经不只是玩具。",
+      "url": "https://x.com/bcherny/status/2099322487603634395",
+      "posted_at": "2026-09-14T02:20:59.000Z",
+      "tags": [
+        "@bcherny"
+      ]
+    },
+    {
+      "id": "e24246f5b0",
+      "date": "2026-09-14",
+      "source": "x",
+      "author": "Nikunj Kothari",
+      "bio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
+      "title": "",
+      "summary_en": "All the questions to ask when you’re joining a startup https://t.co/m3c5GRQ7kI",
+      "summary_zh": "加入创业公司前，别被愿景和期权话术带走，先把融资跑道、股权稀释、增长真实性、创始人稳定性和退出条款问到底。问不出来的答案，就是这家公司最大的答案。",
+      "url": "https://x.com/nikunj/status/2099272635926671532",
+      "posted_at": "2026-09-13T23:02:53.000Z",
+      "tags": [
+        "@nikunj"
+      ]
+    },
+    {
+      "id": "370195255a",
+      "date": "2026-09-14",
+      "source": "x",
+      "author": "Nikunj Kothari",
+      "bio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
+      "title": "",
+      "summary_en": "When a seed investor realizes their marked down investment is suddenly going to return half the fund..  https://t.co/5V4BhqW7Dx",
+      "summary_zh": "当种子轮投资人发现那笔早被减记的项目，突然要给整支基金贡献一半回报时，表情管理基本失效。",
+      "url": "https://x.com/nikunj/status/2099271686969569309",
+      "posted_at": "2026-09-13T22:59:07.000Z",
+      "tags": [
+        "@nikunj"
+      ]
+    },
+    {
+      "id": "6424b93372",
+      "date": "2026-09-14",
+      "source": "x",
+      "author": "Peter Steinberger",
+      "bio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world. @OpenClaw🦞 + @OpenAI",
+      "title": "",
+      "summary_en": "And yes, I'll test this for a few weeks and if we see that this helps the majority of users I'll try to get this into codex!",
+      "summary_zh": "先跑几周实测：如果它确实帮到了大多数用户，就想办法塞进 Codex。",
+      "url": "https://x.com/steipete/status/2099262092633411832",
+      "posted_at": "2026-09-13T22:20:59.000Z",
+      "tags": [
+        "@steipete"
+      ]
+    },
+    {
+      "id": "2c08539580",
+      "date": "2026-09-14",
+      "source": "x",
+      "author": "Aditya Agarwal",
+      "bio": "General Partner @SPC, Co-Founder @Bevel_Health | Ex: Early Eng @facebook, CTO @Dropbox, Board @Flipkart | Optimist, Builder, Dad",
+      "title": "",
+      "summary_en": "Imagine a world where we didn’t have to rely on any one organization to be good and virtuous. https://t.co/Vkz9lpNeE2",
+      "summary_zh": "想象一个世界：我们不必把命运押在某个组织是否善良、是否有道德上。真正可靠的不是相信某个机构会做好人，而是让系统不需要它做好人也能运转。",
+      "url": "https://x.com/adityaag/status/2099259374544003527",
+      "posted_at": "2026-09-13T22:10:11.000Z",
+      "tags": [
+        "@adityaag"
+      ]
+    },
+    {
+      "id": "443390792f",
+      "date": "2026-09-14",
+      "source": "x",
+      "author": "Matt Turck",
+      "bio": "VC at @FirstMarkCap.  Host: MAD Podcast; Organizer: Data Driven NYC, Author: MAD Landscape.",
+      "title": "",
+      "summary_en": "Seed investor when a company he forgot about years ago gets acquired out of nowhere https://t.co/X6NWlHRNle",
+      "summary_zh": "种子轮投资人早把这家公司忘干净了，结果多年后它突然被收购。最会赚钱的项目，有时就是你已经懒得管的那一个。",
+      "url": "https://x.com/mattturck/status/2099257395708879286",
+      "posted_at": "2026-09-13T22:02:20.000Z",
+      "tags": [
+        "@mattturck"
+      ]
+    },
+    {
+      "id": "8a3d2a75b8",
+      "date": "2026-09-14",
+      "source": "x",
+      "author": "Guillermo Rauch",
+      "bio": "@vercel CEO",
+      "title": "",
+      "summary_en": "You don't get it, I build software to relax",
+      "summary_zh": "你不懂，我写软件是为了放松。",
+      "url": "https://x.com/rauchg/status/2099248037507797164",
+      "posted_at": "2026-09-13T21:25:08.000Z",
+      "tags": [
+        "@rauchg"
+      ]
+    },
+    {
+      "id": "9153e34f94",
+      "date": "2026-09-14",
+      "source": "x",
+      "author": "Dan Shipper",
+      "bio": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "title": "",
+      "summary_en": "started using Astra medium for simple tasks\n\ncall that pacing the frontier",
+      "summary_zh": "开始用 Astra Medium 处理简单任务了；这不叫偷懒，叫给前沿技术配速。",
+      "url": "https://x.com/danshipper/status/2099231248027730195",
+      "posted_at": "2026-09-13T20:18:26.000Z",
+      "tags": [
+        "@danshipper"
+      ]
+    },
+    {
+      "id": "60a7afa18e",
+      "date": "2026-09-14",
+      "source": "x",
+      "author": "Madhu Guru",
+      "bio": "Sr Director, AI at Meta; Prev: Google - Led Gemini, Veo, Nano Banana.",
+      "title": "",
+      "summary_en": "Stud traders like Kaushik love Muse! https://t.co/UPhEaGi5g6",
+      "summary_zh": "高手交易员 Kaushik 这种人都爱用 Muse。这不是普通用户背书，是圈内硬核玩家的信号。",
+      "url": "https://x.com/realmadhuguru/status/2099224198732517750",
+      "posted_at": "2026-09-13T19:50:25.000Z",
+      "tags": [
+        "@realmadhuguru"
+      ]
+    },
+    {
+      "id": "396c083d66",
+      "date": "2026-09-14",
+      "source": "x",
+      "author": "Nan Yu",
+      "bio": "(soon) member of product staff @openai. prev head of product @linear. I am grader.",
+      "title": "",
+      "summary_en": "37 signals would have called the the Nuse Feed https://t.co/RigssbRcMo",
+      "summary_zh": "如果 37signals 来做这个东西，估计会把它叫成 “Nuse Feed”。这句是在拿产品命名开刀：故意别扭、像“News Feed”又不是，典型的反营销式冷笑话。",
+      "url": "https://x.com/thenanyu/status/2099216347138011190",
+      "posted_at": "2026-09-13T19:19:13.000Z",
+      "tags": [
+        "@thenanyu"
+      ]
+    },
+    {
+      "id": "d5d51adf02",
+      "date": "2026-09-14",
+      "source": "x",
+      "author": "Peter Steinberger",
+      "bio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world. @OpenClaw🦞 + @OpenAI",
+      "title": "",
+      "summary_en": "This is all written in Rust.\nBecause you can't escape Rust. https://t.co/WnauslO08k",
+      "summary_zh": "全都是 Rust 写的。你以为能逃离 Rust，结果根本逃不掉。",
+      "url": "https://x.com/steipete/status/2099201162922938418",
+      "posted_at": "2026-09-13T18:18:53.000Z",
+      "tags": [
+        "@steipete"
+      ]
+    },
+    {
+      "id": "e8cb9856f1",
+      "date": "2026-09-14",
+      "source": "x",
+      "author": "Peter Yang",
+      "bio": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6",
+      "title": "",
+      "summary_en": "While we're all debating whether AI will lead to a bad outcome for humanity, it's important to remember that most of the world hasn’t even started using it yet.\n\nPedro, Brex’s CEO, likes to refer to a specific chart (see the clip):\n\n“Each dot is 3.2 million people. Every gray box is someone that never used AI in the world (84%). Green boxes are free chatbot users (16%). Orange boxes are people who pay $20 a month for AI (~0.3%).\n\nAnd this tiny red box is people using agents effectively (~0.04%).”\n\nI think the chart is from February 2026, so things have probably picked up since then, but we're still super early.\n\n📌 Watch the full episode here: https://t.co/0E7XHvBEBR",
+      "summary_zh": "大家还在争 AI 会不会毁灭人类，但现实是：全球 84% 的人压根没用过 AI，真正有效使用 agent 的只有约 0.04%。别急着写结局，AI 时代大多数人连门都还没进。",
+      "url": "https://x.com/petergyang/status/2099200231820963891",
+      "posted_at": "2026-09-13T18:15:11.000Z",
+      "tags": [
+        "@petergyang"
+      ]
+    },
+    {
+      "id": "fdd35ca601",
+      "date": "2026-09-14",
+      "source": "x",
+      "author": "Nikunj Kothari",
+      "bio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
+      "title": "",
+      "summary_en": "I get at least 1x text a day from a founder facing this exact conundrum..\n\nApplicants your entry valuation being higher and your total comp being higher is often a bug and not a feature. \n\nJust because a company has raised at a higher valuation doesn’t mean they are realistically more secure and the better place to go. \n\nYou have to really look at the numbers objectively - what’s the market, what’s the traction and how well positioned are they. And if they are worth 100x ARR, well they have to grow into it. \n\nThen, do your own analysis on what do you think this company exits at. Not to mention your 409a prices and tax implications. \n\nIt’s so freaking important right now when everything is upside down and numbers are not rooted in reality.\n\nPS: I have first hand personal experience with this. I worked at a company that raised $60M from probably one of the best investors on this planet. And the company folded 3 years in, all equity wiped out.",
+      "summary_zh": "高估值和高薪酬对候选人未必是福利，很多时候反而是坑：公司融了更多钱、估值更高，不代表更安全，也不代表你的期权更值钱。\n\n现在很多数字已经脱离现实，真要看市场、增长、ARR 倍数、退出可能性、409A 和税务后果；顶级投资人投了 6000 万美元的公司，三年后照样能倒，股权归零。",
+      "url": "https://x.com/nikunj/status/2099198567923765357",
+      "posted_at": "2026-09-13T18:08:34.000Z",
+      "tags": [
+        "@nikunj"
+      ]
+    },
+    {
+      "id": "947d1c4c63",
+      "date": "2026-09-14",
+      "source": "x",
+      "author": "Peter Steinberger",
+      "bio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world. @OpenClaw🦞 + @OpenAI",
+      "title": "",
+      "summary_en": "Next release (or dev channel) does worktrees ~80% faster via apfs/brtfs/xfs/ReFS folder clones.\n\nAlso saves lots of disk space.",
+      "summary_zh": "下一版（或 dev channel）会用 APFS/Btrfs/XFS/ReFS 的文件夹克隆把 worktrees 提速约 80%，还顺手省下一大堆磁盘空间。  \n这是底层文件系统能力终于开始直接榨干开发工具链效率的典型例子。",
+      "url": "https://x.com/steipete/status/2099197266636783989",
+      "posted_at": "2026-09-13T18:03:24.000Z",
+      "tags": [
+        "@steipete"
+      ]
+    },
+    {
+      "id": "6082bcef14",
+      "date": "2026-09-14",
+      "source": "x",
+      "author": "Amjad Masad",
+      "bio": "ceo @replit. civilizationist",
+      "title": "",
+      "summary_en": "It was painful to see so many users being priced out of AI coding for a while. But now it’s free to build again! https://t.co/LBe5fPBBGC https://t.co/VwkZ2a5QAN",
+      "summary_zh": "眼看这么多用户一度被 AI 编程的价格挡在门外，确实刺痛。现在，动手构建又免费了。",
+      "url": "https://x.com/amasad/status/2099197117013340450",
+      "posted_at": "2026-09-13T18:02:48.000Z",
+      "tags": [
+        "@amasad"
+      ]
+    },
+    {
+      "id": "6e917d50ba",
+      "date": "2026-09-14",
+      "source": "x",
+      "author": "Garry Tan",
+      "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "title": "",
+      "summary_en": "The content about startups we do is merely the teaser for the specific advice we give 1:1 when you actually are a YC startup https://t.co/MZ2tMlxLzJ",
+      "summary_zh": "我们公开讲的创业内容只是开胃菜，真正具体、狠准的建议只会在你成为 YC 创业公司后 1 对 1 给你。",
+      "url": "https://x.com/garrytan/status/2099181676039704870",
+      "posted_at": "2026-09-13T17:01:27.000Z",
+      "tags": [
+        "@garrytan"
+      ]
+    },
+    {
+      "id": "a87dccd43c",
+      "date": "2026-09-14",
+      "source": "x",
+      "author": "Peter Yang",
+      "bio": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6",
+      "title": "",
+      "summary_en": "Record &amp; Replay seems broken and won't trigger @nickbaumann_ @OpenAIDevs https://t.co/RYm8F1y3vT",
+      "summary_zh": "Record & Replay 看起来坏了，根本触发不了。直接点名 @OpenAIDevs 和相关负责人，要求修。",
+      "url": "https://x.com/petergyang/status/2099175305818890472",
+      "posted_at": "2026-09-13T16:36:08.000Z",
+      "tags": [
+        "@petergyang"
+      ]
+    },
+    {
+      "id": "460651dfac",
+      "date": "2026-09-14",
+      "source": "x",
+      "author": "Aaron Levie",
+      "bio": "ceo @box - your business lives in content. unleash it with AI",
+      "title": "",
+      "summary_en": "“Pacing” can be somewhat of a trigger word because it sounds like an arbitrary slow down of capability or a way to hobble competitors through undue regulation. \n\nHowever, the specific improvement goals laid out in Dario’s are absolute necessities in AI development. We expect equivalent in areas like aerospace, life sciences, health care, and other industries, and AI development likely shouldn’t be that different. \n\nAI is going to be the technology underpinning our financial trading systems, our medical devices, our biotech breakthroughs, defense systems, government workflows, and many more mission critical domains. So it completely stands to reason that we want these systems to be safe and “aligned”. \n\nHow we get there -without meaningfully slowing down innovation progress or reducing competition- is one of the most complex questions in the 21st century, but the need is clearly real.",
+      "summary_zh": "“放缓”听起来像人为阉割能力、借监管打压竞争，但 Dario 提到的安全与对齐目标不是可选项，而是 AI 进入金融、医疗、生物、国防和政府等关键系统前的硬门槛。真正难的是：如何做到这一点，同时不把创新和竞争一起掐死。",
+      "url": "https://x.com/levie/status/2099167992835924301",
+      "posted_at": "2026-09-13T16:07:04.000Z",
+      "tags": [
+        "@levie"
+      ]
+    },
+    {
+      "id": "ee172c000a",
+      "date": "2026-09-14",
+      "source": "x",
+      "author": "Dan Shipper",
+      "bio": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "title": "",
+      "summary_en": "we’re going to the moon https://t.co/f02uVIYNHS",
+      "summary_zh": "",
+      "url": "https://x.com/danshipper/status/2099152769080828197",
+      "posted_at": "2026-09-13T15:06:35.000Z",
+      "tags": [
+        "@danshipper"
+      ]
+    }
+  ]
+}
