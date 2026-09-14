@@ -1,0 +1,395 @@
+{
+  "date": "2026-09-14",
+  "top3": [
+    "今天最值得关注的是 AI agent 的工具链开始从模型能力转向上下文、技能、浏览器与输出控制。",
+    "开源热度里，空间智能项目 gods-eye-view 与低成本本地推理 colibri 给消费级产品提供了新的演示入口。",
+    "Google Trends 显示泛化的 AI agent、Codex、self hosted 在降温，但具体用例词和可截图传播的视觉玩法在起飞。"
+  ],
+  "intro": "今天的脉络很清晰：开发者不再只追新模型，而是在补 agent 工作流里的上下文、技能、可视化和交付短板。对 builder 来说，机会更像是把复杂能力包装成一个明确场景，而不是再做一个泛用助手。",
+  "sections": [
+    {
+      "id": "discovery",
+      "title": "发现机会",
+      "blocks": [
+        {
+          "id": "indie-products",
+          "heading": "今天有哪些独立开发者的新产品？",
+          "summary_md": "HN Show HN 今天只有一个有完整互动数据的项目：[Is It Greg?](https://github.com/antoineleclair/is-it-greg) 拿到 56 票、18 条评论，说明小而荒诞的判断型工具仍然能靠传播性获得注意力。Product Hunt 侧更集中在个人效率与 AI 可见性：[Marqly 6.0](https://www.producthunt.com/products/marqly) 把书签变成可问答知识库，[Oats](https://www.producthunt.com/products/oats-2) 做本地会议记录，[Visiby](https://www.producthunt.com/products/visiby) 跟踪 AI 搜索曝光，但原始数据未采集票数和评论数。",
+          "items": [
+            {
+              "title": "Is It Greg?",
+              "url": "https://github.com/antoineleclair/is-it-greg",
+              "source": "HN",
+              "score": 56
+            },
+            {
+              "title": "Marqly 6.0",
+              "url": "https://www.producthunt.com/products/marqly",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "Oats",
+              "url": "https://www.producthunt.com/products/oats-2",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "Visiby",
+              "url": "https://www.producthunt.com/products/visiby",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "轻量工具要么极好传播，要么贴住 AI 工作流里的一个明确断点。"
+        },
+        {
+          "id": "github-traction",
+          "heading": "GitHub 上哪些高增长开源项目还没有商业化？",
+          "summary_md": "本周 GitHub 增长最高的一组不是传统框架，而是 agent 使用层：[ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd) 周增 16,740 星、总 44,819 星，解决输出埋重点的问题；[tt-a1i/archify](https://github.com/tt-a1i/archify) 周增 10,132 星、总 61,443 星，把架构图变成可验证 HTML；[cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design) 周增 7,129 星、总 39,499 星，进一步证明图表审美和导出质量已经是刚需。这里的商业化空间在托管模板库、团队规范、CI 校验与私有知识库适配。",
+          "items": [
+            {
+              "title": "ayghri/i-have-adhd",
+              "url": "https://github.com/ayghri/i-have-adhd",
+              "source": "GitHub",
+              "score": 16740
+            },
+            {
+              "title": "tt-a1i/archify",
+              "url": "https://github.com/tt-a1i/archify",
+              "source": "GitHub",
+              "score": 10132
+            },
+            {
+              "title": "cathrynlavery/diagram-design",
+              "url": "https://github.com/cathrynlavery/diagram-design",
+              "source": "GitHub",
+              "score": 7129
+            }
+          ],
+          "takeaway": "agent 周边的高星项目正在暴露团队级工作流产品的空白。"
+        }
+      ]
+    },
+    {
+      "id": "tech-stack",
+      "title": "技术选型",
+      "blocks": [
+        {
+          "id": "dev-tools",
+          "heading": "本周增长最快的开发者工具是什么？",
+          "summary_md": "增长最快的开发者工具几乎都围绕 agent 操控面板展开：[affaan-m/ECC](https://github.com/affaan-m/ECC) 周增 7,264 星、总 257,983 星，定位为跨 Claude Code、Codex、Cursor 的 agent harness；[mksglu/context-mode](https://github.com/mksglu/context-mode) 周增 2,102 星、总 22,728 星，强调上下文窗口压缩和 MCP 路由；[ChromeDevTools/chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp) 周增 736 星、总 51,882 星，把浏览器调试直接接入 coding agent。技术选型上，MCP、hooks、上下文压缩和浏览器自动化已经是 agent 产品的基础设施。",
+          "items": [
+            {
+              "title": "affaan-m/ECC",
+              "url": "https://github.com/affaan-m/ECC",
+              "source": "GitHub",
+              "score": 7264
+            },
+            {
+              "title": "mksglu/context-mode",
+              "url": "https://github.com/mksglu/context-mode",
+              "source": "GitHub",
+              "score": 2102
+            },
+            {
+              "title": "ChromeDevTools/chrome-devtools-mcp",
+              "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+              "source": "GitHub",
+              "score": 736
+            }
+          ],
+          "takeaway": "开发者工具的新标准是能被 agent 调用、约束、审计和复用。"
+        },
+        {
+          "id": "hf-models",
+          "heading": "HuggingFace 上最热的模型能做什么消费级产品？",
+          "summary_md": "HuggingFace 热榜给出的消费级方向是多模态、本地化和创作工具。[deepseek-ai/DeepSeek-V4.1-Flash](https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash) trending score 2,055、下载 244,457，适合做低延迟图文问答与客服；[openbmb/MiniCPM5-2B](https://huggingface.co/openbmb/MiniCPM5-2B) score 1,153、下载 150,110，标签包含 long-context、tool-calling、on-device，适合浏览器侧个人助理；[Lightricks/LTX-2.5](https://huggingface.co/Lightricks/LTX-2.5) score 375、下载 1,548,442，覆盖图生视频、文生视频、音视频互转，适合短视频模板化生产。",
+          "items": [
+            {
+              "title": "deepseek-ai/DeepSeek-V4.1-Flash",
+              "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash",
+              "source": "HuggingFace",
+              "score": 2055
+            },
+            {
+              "title": "openbmb/MiniCPM5-2B",
+              "url": "https://huggingface.co/openbmb/MiniCPM5-2B",
+              "source": "HuggingFace",
+              "score": 1153
+            },
+            {
+              "title": "Lightricks/LTX-2.5",
+              "url": "https://huggingface.co/Lightricks/LTX-2.5",
+              "source": "HuggingFace",
+              "score": 375
+            }
+          ],
+          "takeaway": "模型机会不在参数叙事，而在把多模态能力塞进具体创作和办公链路。"
+        },
+        {
+          "id": "show-hn",
+          "heading": "Show HN 高关注项目用的什么技术栈？",
+          "summary_md": "今天唯一 Show HN 项目 [Is It Greg?](https://github.com/antoineleclair/is-it-greg) 是 GitHub 开源项目，拿到 56 票和 18 条评论。原始数据没有给出语言字段，但它的关注点不在技术栈炫技，而在一句话产品化：用户立刻知道它判断什么、为什么有趣、如何转发。对独立开发者来说，这类项目更像传播实验，可以用极低成本测试命名、梗、社交截图和 README 转化。",
+          "items": [
+            {
+              "title": "Is It Greg?",
+              "url": "https://github.com/antoineleclair/is-it-greg",
+              "source": "HN",
+              "score": 56
+            }
+          ],
+          "takeaway": "Show HN 的早期反馈常常先奖励清晰概念，再奖励复杂技术。"
+        }
+      ]
+    },
+    {
+      "id": "competition",
+      "title": "竞争情报",
+      "blocks": [
+        {
+          "id": "comebacks",
+          "heading": "有没有沉寂的老项目突然复活？",
+          "summary_md": "Product Hunt 里有两个复古工具值得看：[Afterglow](https://www.producthunt.com/products/afterglow-4) 把经典 After Dark 屏保带回现代 macOS，[AppZapper 3000](https://www.producthunt.com/products/appzapper) 则用「Apple 忘了做的卸载器」重新包装老式 Mac 工具心智。它们不一定是大市场，但说明一类机会仍然存在：把用户熟悉、怀旧、可解释的桌面体验，用现代系统权限、订阅分发和轻量品牌重新上架。",
+          "items": [
+            {
+              "title": "Afterglow",
+              "url": "https://www.producthunt.com/products/afterglow-4",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "AppZapper 3000",
+              "url": "https://www.producthunt.com/products/appzapper",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "老工具复活的关键不是怀旧，而是重新占领一个系统厂商长期忽略的小痛点。"
+        },
+        {
+          "id": "migrations",
+          "heading": "有没有「XX is dead」或迁移类文章？",
+          "summary_md": "今天 HN top 数据为空，没有足够证据写出真正的「XX is dead」迁移潮。不过 Product Hunt 里的 [Elva](https://www.producthunt.com/products/elva) 用「Goodbye, Postman」切入 API 工具，[Deplo](https://www.producthunt.com/products/deplo-2) 用云替代叙事切入部署，[Oats](https://www.producthunt.com/products/oats-2) 用本地开源会议记录对抗云端会议助手。这些都不是成熟迁移证据，但它们共享一个竞争姿态：把巨头产品说成过重、过云端或过人工。",
+          "items": [
+            {
+              "title": "Elva",
+              "url": "https://www.producthunt.com/products/elva",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "Deplo",
+              "url": "https://www.producthunt.com/products/deplo-2",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "Oats",
+              "url": "https://www.producthunt.com/products/oats-2",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "挑战成熟工具时，最容易被理解的切口是更轻、更本地、更适合 agent 消费。"
+        }
+      ]
+    },
+    {
+      "id": "trends",
+      "title": "趋势判断",
+      "blocks": [
+        {
+          "id": "keywords",
+          "heading": "本周技术关键词频率有什么变化？",
+          "summary_md": "Google Trends 最强信号来自 [gods eye view](https://trends.google.com/trends/explore?q=gods+eye+view&date=now+7-d) 上升 +169.9%，且 GitHub 上 [bilawalsidhu/gods-eye-view](https://github.com/bilawalsidhu/gods-eye-view) 周增 12,931 星、日榜周增 2,680 星，搜索和代码热度互相印证。相比之下，[i have adhd](https://trends.google.com/trends/explore?q=i+have+adhd&date=now+7-d) 只升 +2.8%，但 GitHub 周增 16,740 星，说明它更像开发者圈层爆款，还没完全破圈到大众搜索。",
+          "items": [
+            {
+              "title": "gods eye view",
+              "url": "https://trends.google.com/trends/explore?q=gods+eye+view&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 169
+            },
+            {
+              "title": "bilawalsidhu/gods-eye-view",
+              "url": "https://github.com/bilawalsidhu/gods-eye-view",
+              "source": "GitHub",
+              "score": 12931
+            },
+            {
+              "title": "i have adhd",
+              "url": "https://trends.google.com/trends/explore?q=i+have+adhd&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 2
+            }
+          ],
+          "takeaway": "空间智能是今天少数同时具备视觉传播和开源牵引的方向。"
+        },
+        {
+          "id": "vc-radar",
+          "heading": "VC 和 YC 在关注什么主题？",
+          "summary_md": "综合 Product Hunt 与 GitHub，VC 和 YC 视角会盯三类：第一是 agent 基础设施，如 [ECC](https://github.com/affaan-m/ECC) 周增 7,264 星、[context-mode](https://github.com/mksglu/context-mode) 周增 2,102 星；第二是销售与获客自动化，如 [Naoma AI Demo Agent V2](https://www.producthunt.com/products/naoma) 把网站流量转成合格会议，[Hello Inbox](https://www.producthunt.com/products/helloinbox) 做邮件进箱率；第三是 AI 可见性，如 [LLMagnet](https://www.producthunt.com/products/llmagnet) 和 [Visiby](https://www.producthunt.com/products/visiby)。这些方向都贴近预算，而不只是实验性玩具。",
+          "items": [
+            {
+              "title": "ECC",
+              "url": "https://github.com/affaan-m/ECC",
+              "source": "GitHub",
+              "score": 7264
+            },
+            {
+              "title": "Naoma AI Demo Agent V2",
+              "url": "https://www.producthunt.com/products/naoma",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "Visiby",
+              "url": "https://www.producthunt.com/products/visiby",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "投资人会更偏好能直接影响开发效率、销售转化或 AI 搜索分发的工具。"
+        },
+        {
+          "id": "cooling",
+          "heading": "哪些 AI 热词在降温？",
+          "summary_md": "降温最明显的是泛化词：[cursor alternative](https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d) 下滑 -71.7%，[context mode](https://trends.google.com/trends/explore?q=context+mode&date=now+7-d) 下滑 -52.4%，[codex cli](https://trends.google.com/trends/explore?q=codex+cli&date=now+7-d) 下滑 -46.0%，[ai agent](https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d) 下滑 -29.8%。这不代表 agent 市场变冷，而是用户不再搜索抽象类别，转向具体仓库、具体失败点和具体玩法。产品命名若继续押泛词，获客效率会下降。",
+          "items": [
+            {
+              "title": "cursor alternative",
+              "url": "https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": -71
+            },
+            {
+              "title": "context mode",
+              "url": "https://trends.google.com/trends/explore?q=context+mode&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": -52
+            },
+            {
+              "title": "ai agent",
+              "url": "https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": -29
+            }
+          ],
+          "takeaway": "降温的是泛化标签，不是具体需求。"
+        },
+        {
+          "id": "new-radar",
+          "heading": "新词雷达：有哪些从零起飞的新概念？",
+          "summary_md": "新词雷达里最强的是视觉社交梗：关联查询 [ai agent](https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d) 下的「1980s ai photo prompt」breakout value 66,000，「1980s photo prompt chatgpt」为 60,000，说明大众侧仍在被可复制的图像提示词驱动。开发者侧则是 [gods eye view](https://trends.google.com/trends/explore?q=gods+eye+view&date=now+7-d) 的关联词「google maps api」value 170、「gods eye view github」value 90，把地图 API、真实地理数据和 3D 浏览器演示绑定起来。",
+          "items": [
+            {
+              "title": "1980s ai photo prompt",
+              "url": "https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 66000
+            },
+            {
+              "title": "google maps api",
+              "url": "https://trends.google.com/trends/explore?q=gods+eye+view&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 170
+            },
+            {
+              "title": "gods eye view github",
+              "url": "https://trends.google.com/trends/explore?q=gods+eye+view&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 90
+            }
+          ],
+          "takeaway": "最早破圈的弱信号通常不是技术名词，而是用户能立刻复刻的视觉结果。"
+        }
+      ]
+    },
+    {
+      "id": "actions",
+      "title": "行动触发",
+      "blocks": [
+        {
+          "id": "weekend-build",
+          "heading": "今天 2 小时和一个周末分别做什么？",
+          "summary_md": "2 小时可以做一个「agent 输出整理器」：参考 [i-have-adhd](https://github.com/ayghri/i-have-adhd) 周增 16,740 星的信号，把长日志压成结论、证据、下一步三栏，先做浏览器插件或 CLI wrapper。一个周末则可以做「PR 视频讲解 + 图表导出」组合，借鉴 [TryCase](https://www.producthunt.com/products/trycase)、[archify](https://github.com/tt-a1i/archify) 和 [diagram-design](https://github.com/cathrynlavery/diagram-design)，输入 PR diff，输出 90 秒 walkthrough、架构图和可贴进 README 的摘要。",
+          "items": [
+            {
+              "title": "i-have-adhd",
+              "url": "https://github.com/ayghri/i-have-adhd",
+              "source": "GitHub",
+              "score": 16740
+            },
+            {
+              "title": "TryCase",
+              "url": "https://www.producthunt.com/products/trycase",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "archify",
+              "url": "https://github.com/tt-a1i/archify",
+              "source": "GitHub",
+              "score": 10132
+            }
+          ],
+          "takeaway": "最快可验证的产品是把 agent 的输出变短、变清楚、变可交付。"
+        },
+        {
+          "id": "pricing-models",
+          "heading": "值得学习的定价和变现模式有哪些？",
+          "summary_md": "今天最值得学习的是按工作流价值定价，而不是按模型调用定价。[Hello Inbox](https://www.producthunt.com/products/helloinbox) 可以按发信域名、发信量或进箱率监控收费；[Naoma AI Demo Agent V2](https://www.producthunt.com/products/naoma) 更适合按合格会议或席位收费；[Visiby](https://www.producthunt.com/products/visiby) 和 [LLMagnet](https://www.producthunt.com/products/llmagnet) 则可以按监控关键词、站点数和报告频率分层。共同点是客户买的是结果可见性，而不是 AI 聊天次数。",
+          "items": [
+            {
+              "title": "Hello Inbox",
+              "url": "https://www.producthunt.com/products/helloinbox",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "Naoma AI Demo Agent V2",
+              "url": "https://www.producthunt.com/products/naoma",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "LLMagnet",
+              "url": "https://www.producthunt.com/products/llmagnet",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "把计费单位绑定到客户已经理解的业务指标，AI 成本才不会成为定价锚点。"
+        },
+        {
+          "id": "counterintuitive",
+          "heading": "今天最反直觉的发现是什么？",
+          "summary_md": "最反直觉的是，搜索热词里 [ai agent](https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d) 下滑 -29.8%，但 GitHub 上 agent 相关项目却在爆发：[ECC](https://github.com/affaan-m/ECC) 周增 7,264 星、[superpowers](https://github.com/obra/superpowers) 周增 4,068 星、[marketingskills](https://github.com/coreyhaines31/marketingskills) 周增 2,678 星。这说明市场正在从「我想要一个 agent」迁移到「我想让 agent 在某个场景更可靠」。如果你还在写泛 AI agent 文案，应该改成具体任务、具体失败率和具体交付物。",
+          "items": [
+            {
+              "title": "ai agent",
+              "url": "https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": -29
+            },
+            {
+              "title": "obra/superpowers",
+              "url": "https://github.com/obra/superpowers",
+              "source": "GitHub",
+              "score": 4068
+            },
+            {
+              "title": "coreyhaines31/marketingskills",
+              "url": "https://github.com/coreyhaines31/marketingskills",
+              "source": "GitHub",
+              "score": 2678
+            }
+          ],
+          "takeaway": "agent 没有退潮，退潮的是把 agent 当作卖点本身。"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2026-09-14T09:18:02+00:00",
+  "reddit_highlights": []
+}

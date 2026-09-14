@@ -1,0 +1,163 @@
+{
+  "date": "2026-09-14",
+  "items": [
+    {
+      "id": "2026-09-14-1",
+      "title": "AI安全正在变成产品卖点",
+      "angle": "从 Sam Altman 和 Aaron Levie 的安全争论切入：真正的新机会不是更强模型，而是可审计、可限速、可监控的 agent 基础设施。",
+      "opening": "今天最值得注意的不是某个模型又强了多少，而是几个一线 builder 同时在谈“刹车”。Sam Altman 说 AI 不能跑到对齐和监控前面，Aaron Levie 则提醒：安全不能变成掐死竞争的借口。",
+      "story_hook": {
+        "challenge": "AI 公司需要证明自己足够安全，但一旦安全变成监管口号，又可能被大公司用来压制后来者。",
+        "twist": "开源热度显示，开发者真正买账的不是抽象安全宣言，而是能约束、审计、复用 agent 的工具链。"
+      },
+      "takeaway": "做 AI 工具时，把“可控性”做成具体功能：日志、权限、回放、审计、风险阈值，而不是只写安全愿景。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Sam Altman 关于能力进步不能跑在对齐和监控前面的推文",
+          "url": "https://x.com/sama/status/2099348812305473766"
+        },
+        {
+          "tag": "builders",
+          "ref": "Aaron Levie 关于安全与竞争不能二选一的推文",
+          "url": "https://x.com/levie/status/2099167992835924301"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub 高增长 agent harness 项目 ECC",
+          "url": "https://github.com/affaan-m/ECC"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-14-2",
+      "title": "AI会认错，但不会补完",
+      "angle": "从 Zara Zhang 对 Astra 的吐槽切入：下一代 AI 产品的分水岭不是答对，而是被纠错后能否继续完成任务。",
+      "opening": "Astra 的问题不是犯错，而是被指出错后只会说“你说得对”。这听起来像小毛病，但对真实工作流是致命的：用户不是在找一个会道歉的模型，而是在找一个能把事做完的同事。",
+      "story_hook": {
+        "challenge": "模型越来越会承认错误，但很多产品仍停在对话层，缺少自我修正后的连续执行能力。",
+        "twist": "GitHub 爆火的不是新模型，而是整理输出、压缩上下文、路由任务的 agent 周边工具。"
+      },
+      "takeaway": "评估 AI 产品时，别只看首答质量，要测试纠错后是否能更新状态、继续执行、交付最终结果。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Zara Zhang 对 Astra 纠错后不继续执行的吐槽",
+          "url": "https://x.com/zarazhangrui/status/2099348631291883945"
+        },
+        {
+          "tag": "builders",
+          "ref": "Dan Shipper 开始用 Astra Medium 处理简单任务",
+          "url": "https://x.com/danshipper/status/2099231248027730195"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub 周增 16,740 星的 i-have-adhd",
+          "url": "https://github.com/ayghri/i-have-adhd"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub 周增 2,102 星的 context-mode",
+          "url": "https://github.com/mksglu/context-mode"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-14-3",
+      "title": "Agent没退潮，泛词退潮了",
+      "angle": "用 Peter Yang 的 0.04% agent 使用率，对照 Google Trends 中 ai agent 下滑与 GitHub agent 工具爆发，写一篇反直觉趋势判断。",
+      "opening": "全球 84% 的人还没用过 AI，真正有效使用 agent 的只有约 0.04%。但另一边，GitHub 上 agent 工具链正在暴涨。矛盾吗？不矛盾，退潮的是“AI agent”这个词，不是具体需求。",
+      "story_hook": {
+        "challenge": "大众市场还没进入 agent，开发者圈却已经开始重构 agent 工作流。",
+        "twist": "搜索热词在降温，具体仓库和具体失败点反而在起飞。"
+      },
+      "takeaway": "产品命名和传播要从“AI agent”改成具体任务：调试浏览器、压缩上下文、生成交付物、监控 AI 搜索曝光。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Peter Yang 关于 84% 未用过 AI、0.04% 有效使用 agent 的推文",
+          "url": "https://x.com/petergyang/status/2099200231820963891"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Google Trends 中 ai agent 过去 7 天下降",
+          "url": "https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub 周增 7,264 星的 ECC",
+          "url": "https://github.com/affaan-m/ECC"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub 周增 736 星的 chrome-devtools-mcp",
+          "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-14-4",
+      "title": "80%提速不是靠模型",
+      "angle": "从 Peter Steinberger 说 worktrees 可用文件夹克隆提速约 80% 切入，提醒开发者：AI 编程体验的瓶颈正在回到底层工程。",
+      "opening": "AI 编程工具的下一次体感提升，可能不是换一个更贵的模型，而是文件系统少拷贝一点。Peter Steinberger 说下一版会用 APFS、Btrfs、XFS、ReFS 的文件夹克隆，让 worktrees 提速约 80%。",
+      "story_hook": {
+        "challenge": "大家把注意力放在模型能力上，但真实开发体验常常卡在 checkout、上下文加载、浏览器调试和磁盘占用。",
+        "twist": "越是 agent 化，越需要传统工程基础设施重新变快、变稳、变可复用。"
+      },
+      "takeaway": "做 AI devtool 不要只堆模型能力，优先优化 worktree、缓存、浏览器 MCP、上下文压缩这些高频基础路径。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Peter Steinberger 关于文件夹克隆让 worktrees 提速约 80% 的推文",
+          "url": "https://x.com/steipete/status/2099197266636783989"
+        },
+        {
+          "tag": "builders",
+          "ref": "Peter Steinberger 关于先实测几周再塞进 Codex 的推文",
+          "url": "https://x.com/steipete/status/2099262092633411832"
+        },
+        {
+          "tag": "pulse",
+          "ref": "ChromeDevTools chrome-devtools-mcp 周增 736 星",
+          "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-14-5",
+      "title": "AI创业Offer别只看估值",
+      "angle": "从 Nikunj Kothari 的候选人提醒切入，把 AI 创业公司的高估值、高薪酬、期权幻觉写成一篇求职避坑指南。",
+      "opening": "高估值和高薪酬不一定是福利，有时只是风险包装得更好看。Nikunj Kothari 说，候选人加入创业公司前要问融资跑道、稀释、ARR 倍数、409A 和退出可能性，问不出来的答案就是答案。",
+      "story_hook": {
+        "challenge": "AI 创业公司融资和估值都很夸张，候选人容易把公司融资能力误读成个人期权价值。",
+        "twist": "今天真正贴近预算的机会，反而集中在能直接影响开发效率、销售转化和 AI 搜索分发的工具。"
+      },
+      "takeaway": "评估 AI startup offer 时，用 ARR 增长、现金跑道、409A、清算优先权和真实客户预算，替代“谁投了”和“估值多高”。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Nikunj Kothari 关于高估值和高薪酬可能是坑的推文",
+          "url": "https://x.com/nikunj/status/2099198567923765357"
+        },
+        {
+          "tag": "builders",
+          "ref": "Nikunj Kothari 关于加入创业公司前要问清融资跑道和股权条款的推文",
+          "url": "https://x.com/nikunj/status/2099272635926671532"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt 上面向销售转化的 Naoma AI Demo Agent V2",
+          "url": "https://www.producthunt.com/products/naoma"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt 上追踪 AI 搜索曝光的 Visiby",
+          "url": "https://www.producthunt.com/products/visiby"
+        }
+      ]
+    }
+  ],
+  "notes": "今日适合写“agent 从概念转向工程化”的主线：安全、纠错、上下文、浏览器、文件系统都在指向同一个变化。独立开发者素材偏少，最好避免硬写产品合集。",
+  "generated_at": "2026-09-14T09:18:51+00:00",
+  "model": "gpt-5.5"
+}
