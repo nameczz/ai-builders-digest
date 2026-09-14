@@ -1,0 +1,60 @@
+{
+  "date": "2026-09-14",
+  "generated_at": "2026-09-14T00:46:37+00:00",
+  "inbox_id": "sanyoumu@agentmail.to",
+  "window": {
+    "start": "2026-09-13T00:46:51+00:00",
+    "end": "2026-09-14T00:45:38.819415+00:00",
+    "source": "previous_digest_generated_at"
+  },
+  "count": 1,
+  "highlights": [
+    "今日精读：Google Research 与 HHMI Janelia 发布雄性果蝇完整连接组后，开发者把它接入 Doom、Beat Saber、交易、机器人导航等实验，展示“真实生物神经 wiring”如何被转译成可运行的 AI/控制系统原型。",
+    "这些果蝇大脑实验不是“上传意识”，而是把 166,000 多个神经元的连接图作为网络结构，再由开发者定义感官输入、奖励信号和动作输出。",
+    "The Neuron 还提到 OpenAI 向美国国会议员询问，行业共同放慢最前沿 AI 系统开发是否可能触及反垄断问题，但邮件正文片段未提供更多细节。",
+    "Moonshot 被提到正在冲刺 20 亿美元年化销售额，说明中国大模型产品化与商业化速度仍是值得关注的变量。",
+    "Cursor Projects、OpenAI 10,000 个 agent 研究 Navier-Stokes 等动态，显示长任务 coding agent 和大规模 agent 协作继续成为 builder 侧重点。"
+  ],
+  "items": [
+    {
+      "id": "fruit-fly-connectome-ai-experiments",
+      "title_zh": "果蝇连接组被接入游戏、交易和机器人：真实生物神经图谱如何变成 AI 实验场",
+      "title_original": "😺 OpenAI asked Congress if AI can slow down",
+      "source": "The Neuron",
+      "from": "The Neuron <theneuron@newsletter.theneurondaily.com>",
+      "subject": "😺 OpenAI asked Congress if AI can slow down",
+      "url": "https://research.google/blog/a-connectomics-milestone-mapping-the-complete-male-fruit-fly-brain/",
+      "message_id": "<b972msAPQhCOuznT87nA_Q@geopod-ismtpd-13>",
+      "published_at": "2026-09-13T17:31:30.000Z",
+      "importance": "high",
+      "summary_zh": "这封 The Neuron 主要围绕 Google Research 与 HHMI Janelia 发布雄性果蝇完整连接组后的开发者实验展开：有人把果蝇神经连接图接进 Doom、Beat Saber、Bitcoin 交易、Mario、Smash Bros、Rubik’s Cube、Minecraft、虚拟无人机和 Hugging Face 上的 banana 寻找 demo。邮件强调，这不是把果蝇意识上传到电脑，而是使用真实神经元连接图作为结构，再由人定义视觉、疼痛、奖励、动作等输入输出映射。它还顺带列出当天 AI 动态，包括 OpenAI 询问国会“行业共同放慢前沿 AI 开发是否会违反反垄断规则”、Moonshot 目标 20 亿美元年化销售额、OpenAI 结束 1 美元联邦模型试点、Cursor Projects 协调长期 coding agent 工作，以及 OpenAI 用 10,000 个 agent 处理 Navier-Stokes 问题。",
+      "deep_read_zh": "这封邮件最值得精读的部分不是标题里的 OpenAI 国会询问，而是果蝇连接组被开发者迅速改造成一批可运行实验的现象。Google Research 和 HHMI Janelia 发布的是雄性果蝇大脑的 connectome，也就是超过 166,000 个神经元之间如何连接的 wiring diagram。The Neuron 特别澄清：这不是果蝇的记忆、意识或完整数字心智，而是一张真实生物神经网络的连接结构。要让它“动起来”，开发者仍然必须定义外部世界如何映射为神经刺激，比如什么算视觉、气味、疼痛或奖励；也必须决定神经活动如何被翻译成移动、买卖、挥剑或寻找香蕉等动作。正因为这一步需要大量人为建模，所以这些 demo 更像是“用真实生物结构做控制系统和强化学习接口实验”，而不是证明果蝇理解 Doom、金融市场或语言。邮件列举的案例很密集：Doomfly 用游戏帧刺激感官神经元，把神经活动映射到控制操作，并用受伤刺激两个多巴胺细胞作为强化信号；Beat Saber demo 使用回放数据和强化学习训练 connectome 产生更高分动作；Stonkfly 把 BTC-USDC 市场数据转成感官输入，再把网络活动读成买入、卖出或持有，还可接 Coinbase 但带有硬限制；Microfly 则把果蝇大脑和 Microduck 机器人结合，用 Hugging Face demo 寻找香蕉。对 AI builder 来说，这批实验真正有价值的地方在于：它展示了一种不同于 Transformer 的架构想象来源，也暴露了从“连接结构”到“智能行为”之间仍然需要感知编码、奖励设计、记忆机制、训练过程和输出解码等大量工程层。邮件最后提到 FLM，即 fly-language model，说明已经有人尝试把这个连接组方向推向语言模型叙事，但正文片段没有提供足够结果细节，仍需谨慎看待。",
+      "why_important": "它把生物神经科学数据、强化学习、仿真环境和开发者工具串到了一起，是一个典型的跨领域原型爆发信号。对 AI builder 来说，重点不是这些 demo 现在有多强，而是它们展示了真实神经连接图如何被包装成可实验、可 remix 的计算基底。",
+      "impact": "短期影响更可能体现在研究 demo、教育产品、神经仿真工具和 agent 控制实验，而不是直接替代现有大模型架构。长期看，如果这类连接组能与训练方法、记忆机制和仿真环境更好结合，可能为非 Transformer 架构、具身智能和小型控制模型提供新的设计灵感。",
+      "key_points": [
+        "Google Research 与 HHMI Janelia 发布的是雄性果蝇大脑连接组，包含超过 166,000 个神经元的连接关系。",
+        "连接组本身不是可运行意识或完整数字大脑，必须由开发者定义感官输入、奖励信号和动作输出。",
+        "Doomfly、Beat Saber、Stonkfly、Mario、Minecraft、虚拟无人机和 Microfly 等 demo 展示了同一连接组在不同任务中的快速迁移实验。",
+        "Stonkfly 把 BTC-USDC 市场数据转为神经输入，并把输出解释为买入、卖出或持有，但邮件明确提醒这不代表果蝇理解金融。",
+        "邮件提到 FLM fly-language model，说明开发者已经开始把果蝇连接组与语言模型叙事连接起来，但正文片段没有提供实证效果细节。",
+        "同封邮件还列出 OpenAI 咨询 AI 行业放缓是否触及反垄断、Moonshot 商业化目标、Cursor Projects 和大规模 agent 科研等动态。"
+      ],
+      "reading_notes": [
+        "区分“真实神经连接结构”和“可独立学习的智能体”，不要把 demo 误读成意识上传。",
+        "关注每个 demo 中人为设计的输入编码、奖励信号和动作解码，因为这些决定了系统能力边界。",
+        "把它视为架构探索和仿真接口实验，而不是马上可商业化的基础模型路线。",
+        "后续可继续观察 FLM 或类似项目是否能拿出可复现、可比较的语言或控制任务结果。"
+      ],
+      "tags": [
+        "模型",
+        "智能体",
+        "AI基础设施",
+        "神经科学",
+        "强化学习"
+      ],
+      "related_sources": []
+    }
+  ],
+  "skipped": [],
+  "notes": "今日只有 1 封正式 newsletter，因此它同时作为单篇总结和今日精读。虽然邮件主题突出 OpenAI 向国会询问 AI 行业放缓与反垄断风险，但提供的正文片段在该部分被截断，无法展开更多事实；因此今日精读选择正文信息更完整、对 builder 更有启发的果蝇连接组实验。广告招商内容已忽略。"
+}
