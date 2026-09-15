@@ -1,0 +1,148 @@
+{
+  "date": "2026-09-15",
+  "items": [
+    {
+      "id": "2026-09-15-1",
+      "title": "AI 工具开始学会少说话",
+      "angle": "从 GitHub 爆火的“约束型工具”切入：开发者不缺更强 agent，缺的是更少废话、更少误操作的 agent。",
+      "opening": "一个让 AI 回答少埋重点的 repo，一周涨了 17658 星。另一个项目直接宣称要把工具输出压缩 98%。这不是模型能力竞赛，而是开发者在集体给 agent 戴刹车。",
+      "story_hook": {
+        "challenge": "AI 编码工具越强，输出越长、上下文越脏、误操作成本越高。",
+        "twist": "最受欢迎的新工具不是让 agent 更自主，而是让它更克制。"
+      },
+      "takeaway": "做 AI devtool 时，优先设计结论前置、输出压缩、验证器、linter 和规则化工作流，而不是再包装一个聊天框。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Guillermo Rauch 关于 proof-checker、编译器、类型系统决定 agent 上限的推",
+          "url": "https://x.com/rauchg/status/2099540886409695346"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub ayghri/i-have-adhd 一周新增 17658 星",
+          "url": "https://github.com/ayghri/i-have-adhd"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub mksglu/context-mode 主张压缩工具输出 98%",
+          "url": "https://github.com/mksglu/context-mode"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-15-2",
+      "title": "Agent 越勤奋，公司越危险",
+      "angle": "从 Aaron Levie 的企业治理提醒切入：agent 访问系统的频率可能远高于人类，安全问题会从权限管理变成生产力瓶颈。",
+      "opening": "如果 agent 每天替公司读邮件、查 CRM、扫会议纪要、审代码，问题就不再是它会不会干活。真正的问题是：它到底该看到多少数据？放太开会泄露，锁太死又没有红利。",
+      "story_hook": {
+        "challenge": "企业想要 24/7 agent，但现有权限、审计和数据治理体系是按人类使用频率设计的。",
+        "twist": "agent 带来的最大商业机会，可能不是自动化本身，而是能让自动化被安全地允许。"
+      },
+      "takeaway": "面向企业的 agent 产品应把权限边界、审计日志、数据最小化和 MCP 访问控制做成核心卖点。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Aaron Levie 关于 agent 访问企业系统频率和数据治理的推",
+          "url": "https://x.com/levie/status/2099550035239424465"
+        },
+        {
+          "tag": "builders",
+          "ref": "Aaron Levie 关于 agentic workload 可能扩大 100 倍信息处理量的推",
+          "url": "https://x.com/levie/status/2099739019517235618"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt Buddy AI Access MCP",
+          "url": "https://www.producthunt.com/products/buddy"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-15-3",
+      "title": "Serverless 之后是 Agent 计算",
+      "angle": "从 Google Cloud Run 创造者加入 Vercel 切入：agent 不是普通请求负载，它需要新的运行时、隔离和常驻任务模型。",
+      "opening": "Cloud Run 的创造者去了 Vercel，不是去重写上一代 serverless。Guillermo Rauch 说得很直：Serverless 是上一章，Agent 才是下一战场。今天 Product Hunt 上的 microVM 常驻 agent，也在指向同一个方向。",
+      "story_hook": {
+        "challenge": "传统云函数适合短请求，但 agent 需要长会话、后台执行、上下文保持和更强隔离。",
+        "twist": "下一代云计算卖的可能不是“函数调用”，而是“可控的 agent 工作单元”。"
+      },
+      "takeaway": "关注 agent runtime、microVM、会话恢复、任务队列、状态可观测性和计费原语，这些会成为 AI 应用的新基础设施。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Guillermo Rauch 关于 Steren 加入 Vercel 负责 Fluid 计算产品的推",
+          "url": "https://x.com/rauchg/status/2099514906366328902"
+        },
+        {
+          "tag": "builders",
+          "ref": "Guillermo Rauch 关于 fx 长会话和自动升级体验的推",
+          "url": "https://x.com/rauchg/status/2099653035685445760"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt jurniti 主打 Firecracker microVM 常驻 AI agents",
+          "url": "https://www.producthunt.com/products/jurniti"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-15-4",
+      "title": "Claude 正在变成插件平台",
+      "angle": "从 Claude Mods 和社区把俄罗斯方块塞进 Claude 切入：大模型产品的边界正在从聊天窗口扩展到可安装、可分享的运行环境。",
+      "opening": "社区已经把俄罗斯方块塞进 Claude 了。听起来像玩具，但这类 demo 往往先暴露平台方向：用户不只想和模型对话，还想把模型变成一个能装模块的工作台。",
+      "story_hook": {
+        "challenge": "模型厂商都在争抢用户时间，但聊天框本身很难承载复杂工作流。",
+        "twist": "真正有粘性的入口，可能是 mods、skills、模板和可执行 demo 组成的生态。"
+      },
+      "takeaway": "开发者可以把 prompt、工作流、输出规范和小型 UI 打包成可传播模块，而不是只发布一段提示词。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Boris Cherny 关于 Claude Mods 和社区 demo 的推",
+          "url": "https://x.com/bcherny/status/2099551291601248485"
+        },
+        {
+          "tag": "builders",
+          "ref": "Thariq 关于 Claude Code 构建细节的推",
+          "url": "https://x.com/trq212/status/2099551141621329994"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub agent skills、context-mode、superpowers 同时冲上趋势",
+          "url": "https://github.com/mksglu/context-mode"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-15-5",
+      "title": "真实世界界面突然起飞",
+      "angle": "从语音生产力和 gods-eye-view 爆火切入：AI 的下一个入口可能不是更大的聊天窗口，而是声音、地图、视频和真实世界数据。",
+      "opening": "一个 3D 地球 OSINT 项目一周涨了 14403 星，Google Trends 里相关搜索也在抬头。另一边，builder 开始把散步和语音当成生产力场景。AI 正在从屏幕里的聊天，扩散到真实世界的输入和可视化。",
+      "story_hook": {
+        "challenge": "多数 AI 产品仍围绕文本框设计，但用户真实工作发生在路上、会议里、浏览器里和空间数据里。",
+        "twist": "越接近真实世界的界面，越容易让 AI 从工具变成环境。"
+      },
+      "takeaway": "新产品可以优先探索语音输入、实时地图、OSINT 可视化、截图理解和本地多模态，而不是继续优化聊天首页。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Peter Yang 关于语音让散步变成生产力场景的推",
+          "url": "https://x.com/petergyang/status/2099677771408846975"
+        },
+        {
+          "tag": "builders",
+          "ref": "Aditya Agarwal 关于 AI 可以像人一样的 demo 推",
+          "url": "https://x.com/adityaag/status/2099529959262019887"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub bilawalsidhu/gods-eye-view 一周新增 14403 星",
+          "url": "https://github.com/bilawalsidhu/gods-eye-view"
+        }
+      ]
+    }
+  ],
+  "notes": "今日主线很集中：agent 生态从“更强模型”转向“约束、运行时、治理和真实世界入口”。适合写开发者视角，不适合泛泛写模型发布。",
+  "generated_at": "2026-09-15T09:17:56+00:00",
+  "model": "gpt-5.5"
+}
