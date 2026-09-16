@@ -1,0 +1,148 @@
+{
+  "date": "2026-09-16",
+  "items": [
+    {
+      "id": "2026-09-16-1",
+      "title": "模型越强，应用层越值钱",
+      "angle": "从 Aaron Levie 的企业 AI 判断切入：模型进步没有消灭应用层，反而把流程、权限、上下文和审计变成新基础设施。",
+      "opening": "今天最反直觉的信号是：大家都在等模型变强，但真正涨起来的是管住模型的工具。代码审查、上下文压缩、worktree 并行开发，全都不是更聪明的模型，而是更硬的工作流。",
+      "story_hook": {
+        "challenge": "企业想要自动化，但模型能力和真实业务流程之间隔着数据、权限、安全和人类介入。",
+        "twist": "模型越强，任务越复杂，应用层反而越不可替代。"
+      },
+      "takeaway": "开发者做 AI 产品时，不要只包装模型能力，要优先设计上下文、审计、权限和失败兜底。业务用户买的是可控流程，不是聪明聊天框。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Aaron Levie 关于 AI 模型与企业工作流鸿沟的推文",
+          "url": "https://x.com/levie/status/2099976021311398230"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub 增长：alibaba/open-code-review 周增 5,169 星",
+          "url": "https://github.com/alibaba/open-code-review"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub 增长：mksglu/context-mode 主打 98% tool output 压缩",
+          "url": "https://github.com/mksglu/context-mode"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-16-2",
+      "title": "AI 代码工具开始反噬 Cursor",
+      "angle": "从“cursor alternative”搜索暴涨切入：用户不是不需要 AI IDE，而是开始寻找可替代、可自托管、可审计的版本。",
+      "opening": "Cursor 还没死，但替代 Cursor 的搜索已经起来了。Google Trends 里 cursor alternative 上升 112.5%，同时 GitHub 上代码审查、自托管和本地工作流项目集体增长。",
+      "story_hook": {
+        "challenge": "闭源 AI IDE 把体验做顺了，但团队越来越在意数据边界、审计链路和供应商锁定。",
+        "twist": "真正的竞争对手可能不是另一个编辑器，而是一组开源审查、上下文和多代理协作工具。"
+      },
+      "takeaway": "做开发者工具要把“替代迁移”当成需求入口：兼容现有工作流、提供私有化部署、给出审计记录，比再做一个聊天侧边栏更重要。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Guillermo Rauch 关于未来是多模型、不能隐藏模型选择的推文",
+          "url": "https://x.com/rauchg/status/2099905740505055680"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Google Trends：cursor alternative 上升 +112.5%",
+          "url": "https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Google Trends：self hosted 上升 +21.0%",
+          "url": "https://trends.google.com/trends/explore?q=self+hosted&date=now+7-d"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-16-3",
+      "title": "别让大模型回答选择题",
+      "angle": "从 Dan Shipper 和 Amjad Masad 的判断切入：很多 AI 任务不该生成文本，而该输出概率、枚举值或裁判分数。",
+      "opening": "一个判断任务，如果答案本来就在几个选项里，为什么还要让模型写一大段话？Dan Shipper 提到不输出文字、只输出概率的模型可能快 25 倍、便宜 600 倍；Amjad 也在质疑，把确定性枚举问题绕成生成问题是否多此一举。",
+      "story_hook": {
+        "challenge": "AI 产品默认把所有问题都交给聊天模型生成答案，导致速度慢、成本高、结果还难校验。",
+        "twist": "下一批刚需模型可能不是更会写，而是更会当裁判。"
+      },
+      "takeaway": "产品设计时先判断任务类型：分类、评分、路由、审核、排序应优先用 logprobs、枚举输出或轻量裁判模型，不要默认调用长文本生成。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Dan Shipper 关于概率型基础模型速度快 25 倍、价格低 600 倍的推文",
+          "url": "https://x.com/danshipper/status/2099947471518474522"
+        },
+        {
+          "tag": "builders",
+          "ref": "Amjad Masad 关于可枚举输出应直接训练 logprobs 的推文",
+          "url": "https://x.com/amasad/status/2100056178705514703"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub 增长：alibaba/open-code-review 用确定性流水线加 LLM Agent 做代码审查",
+          "url": "https://github.com/alibaba/open-code-review"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-16-4",
+      "title": "小企业 AI 不靠功能，靠培训",
+      "angle": "从 Claude 小企业发布切入：AI 进入 SMB 的关键不是再加一个模型，而是把工作流、集成、课程和认证培训师一起打包。",
+      "opening": "Claude for Small Business 一次性拿出 43 个工作流、27 个新集成，还要做线下课和认证培训师。这说明小企业 AI 的瓶颈不是老板不知道 AI 厉害，而是不知道今天下午该自动化哪一步。",
+      "story_hook": {
+        "challenge": "小企业缺少 AI 专员，单纯给一个聊天框很难转化为销售、客服、运营动作。",
+        "twist": "真正的产品形态可能更像“软件加教练”，而不是 SaaS 控制台。"
+      },
+      "takeaway": "面向 SMB 做 AI 产品，要把模板、行业工作流、上手培训和现成集成做成默认包；增长不只靠产品功能，还靠降低组织学习成本。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Claude Blog：Claude for Small Business 推出 43 个工作流和 27 个新集成",
+          "url": "https://claude.com/blog/claude-for-small-business-launches-new-workflows-integrations-and-training-programs"
+        },
+        {
+          "tag": "builders",
+          "ref": "Peter Yang 关于增长、运营、客服、研究被 AI agent 接管的推文",
+          "url": "https://x.com/petergyang/status/2100027487681953834"
+        },
+        {
+          "tag": "pulse",
+          "ref": "ProductHunt：Jottoo 把会议纪要转成可追踪任务",
+          "url": "https://www.producthunt.com/products/jottoo"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-16-5",
+      "title": "AI 搜索开始改写营销预算",
+      "angle": "从 Profound 18 亿美元估值切入：品牌不只要在 Google 里被搜到，还要在 AI 答案里被正确提到。",
+      "opening": "Profound 刚拿到 1.8 亿美元 D 轮，估值 18 亿美元，还跑进三分之一 Fortune 100。它押中的不是传统 SEO，而是 AI 搜索时代的品牌可见性：当答案由模型生成，营销团队要优化的就不只是网页排名了。",
+      "story_hook": {
+        "challenge": "品牌过去买关键词、做 SEO、投广告，但用户开始直接问 AI，传统曝光路径被截断。",
+        "twist": "增长最快的 AI 营销平台，卖的可能不是内容生产，而是“模型如何理解你”。"
+      },
+      "takeaway": "AI 营销选题可以从 SEO 迁移到 AEO：品牌需要监控模型答案、纠正错误叙述、比较不同模型里的可见性，并把它纳入增长预算。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Aditya Agarwal 关于 Profound 估值 18 亿美元、进入三分之一 Fortune 100 的推文",
+          "url": "https://x.com/adityaag/status/2099939685657141257"
+        },
+        {
+          "tag": "builders",
+          "ref": "Aditya Agarwal 关于押注 Profound 切入 AI 搜索和品牌可见性的推文",
+          "url": "https://x.com/adityaag/status/2099939689738191146"
+        },
+        {
+          "tag": "pulse",
+          "ref": "ProductHunt：Twigg 定位为不需要自己搭的 context layer",
+          "url": "https://www.producthunt.com/products/twigg"
+        }
+      ]
+    }
+  ],
+  "notes": "今日主线是 agent 从“能做事”进入“可控、可审、可迁移”的工程化阶段。适合写应用层、治理层和商业化控制面，少写单纯模型发布。",
+  "generated_at": "2026-09-16T09:17:15+00:00",
+  "model": "gpt-5.5"
+}
