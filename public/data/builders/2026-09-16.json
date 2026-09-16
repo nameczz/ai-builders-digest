@@ -1,0 +1,442 @@
+{
+  "date": "2026-09-16",
+  "generated_at": "2026-09-16T09:11:20+00:00",
+  "count": 29,
+  "items": [
+    {
+      "id": "8e49fee5b2",
+      "date": "2026-09-16",
+      "source": "blog",
+      "author": "Claude Blog",
+      "bio": "",
+      "title": "Claude for Small Business launches new workflows, integrations, and training programs",
+      "summary_en": "Claude for Small Business now includes 43 workflows and 27 new integrations with tools small businesses already use, including Shopify, Salesforce, TikTok, Atlassian, Zoom, Xero, Gusto, Square, Stripe, and Zapier. The new workflows extend Claude from running the back office to growing the business, and they arrive with a fall schedule of free in-person workshops and partner webinars for owners who want help getting started. We launched Claude for Small Business in May as a set of connectors and ready-to-run workflows that put Claude inside the tools owners depend on. It has since been installed more than 900,000 times. Thank you to our original, and continued, partners Intuit Quickbooks, PayPal, HubSpot, Canva, Docusign, Google Workspace, and Microsoft 365.On our spring Claude SMB Tour, more than 1,000 owners in 10 cities told us what they wanted Claude to take on next. About a third asked for help growing the business: generating leads, answering inbound inquiries, and writing proposals. Many also wanted day-to-day reporting handled for them. We built this new release around those requests. The tour returns this fall with free workshops in 10 US cities. More than 150 organizations we&#x27;ve trained as Approved Claude SMB Trainers will run over 750 workshops in their own communities, and 14 integration partners are hosting free webinars about their connectors. Here&#x27;s what small business leaders shared with us during the first leg of our Claude SMB tour: “What used to take me 120 hours now takes me five minutes. I have so much time on my hands that I can now spend more time with my family, do things I like, and pursue parts of my business that I’ve always neglected.” — Pedro Rubio, Founder and CEO, Blackfyre GovCon, Washington, D.C. \"I really see Claude as an equalizer for small businesses, where we can do stuff as big as a 100 person, 200 person firm now. At 40 people and scaling, that&#x27;s how we get time back for our clients and culture.\" — Cara Roellgen, Director of Strategy and Innovation, KBSO Consulting, Carmel, Indiana \"At 6:00 am every morning, it goes and looks through our CRM, gets all of the to-do list items, prioritizes them, and sends out an email saying, here&#x27;s what needs to be done today, here&#x27;s the biggest priorities. We call it the daily briefing.\" — Garrett French, Owner, Driller Design Co., Tulsa, Oklahoma \"I made $20,000",
+      "summary_zh": "Claude 正在把小企业常用工具一口气接进来，用 43 个工作流和 27 个新集成把自己从“后台助手”推到“增长机器”。它已经被安装超 90 万次，下一步是靠线下课、认证培训师和伙伴 webinar，把不会用 AI 的老板也拖进自动化时代。",
+      "url": "https://claude.com/blog/claude-for-small-business-launches-new-workflows-integrations-and-training-programs",
+      "posted_at": "Sep 15, 2026",
+      "tags": [
+        "blog"
+      ]
+    },
+    {
+      "id": "573c35f2c4",
+      "date": "2026-09-16",
+      "source": "x",
+      "author": "Amjad Masad",
+      "bio": "ceo @replit. civilizationist",
+      "title": "",
+      "summary_en": "This is cool, but if your output domain is known in advance, why not just train a model to produce logprobs over enums? https://t.co/rmyen2d7iM",
+      "summary_zh": "这很酷，但如果输出域一开始就已知，为什么不直接训练一个模型对枚举值输出 logprobs？核心质疑是：别把可枚举的确定性问题绕成复杂生成问题。",
+      "url": "https://x.com/amasad/status/2100056178705514703",
+      "posted_at": "2026-09-16T02:56:24.000Z",
+      "tags": [
+        "@amasad"
+      ]
+    },
+    {
+      "id": "8a6efdb8cc",
+      "date": "2026-09-16",
+      "source": "x",
+      "author": "Amjad Masad",
+      "bio": "ceo @replit. civilizationist",
+      "title": "",
+      "summary_en": "If you’re curious about Effective Altruism, the origins of the cult, their tactics, and their influence network — check out my conversation with Tucker from two years ago: https://t.co/HOUUx56ZgQ",
+      "summary_zh": "如果你想搞清楚有效利他主义这个“邪教”的起源、套路和影响力网络，可以去看我两年前和 Tucker 的对谈。原推重点不是科普 EA，而是直接把它定性为一套有组织的意识形态机器。",
+      "url": "https://x.com/amasad/status/2100045670845763791",
+      "posted_at": "2026-09-16T02:14:39.000Z",
+      "tags": [
+        "@amasad"
+      ]
+    },
+    {
+      "id": "af96f19193",
+      "date": "2026-09-16",
+      "source": "x",
+      "author": "Peter Yang",
+      "bio": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6",
+      "title": "",
+      "summary_en": "Thank you all for your replies!\n\nJust sent @bot codes to a bunch of you — a few use cases that stood out:\n\nFor growth & clients:\n→ Find leads, draft outreach, and turn wins into case studies @kouroshbaloo\n→ Build a competitor comparison matrix with sources @PaulWeissAI\n\nFor ops & shipping:\n→ Monitor hundreds of ad accounts and catch broken signup/payment flows @yashjain10k\n→ Watch Jira, flag blockers, and draft the weekly status update @partykma\n→ Triage support tickets, draft replies, and escalate with full context @jurlycat\n→ For hotel owners: regularly test the booking flow so website booking errors get caught @LeenCanvas\n→ Automate paperwork and back-office workflows for an electrical contracting business @kerwinv101\n\nFor research & content:\n→ Monitor AI builders on X, verify sources, then turn wins into hooks and scripts @jenni489471\n→ A research desk for AI that turns noise into a daily brief @Orynsky\n\nWill run this again if I get more codes. Meanwhile consider subscribing to my YouTube below :)\nhttps://t.co/SKvvXlY6Km",
+      "summary_zh": "这波 @bot 码筛出来的需求很明确：增长、运营、客服、研究都在被 AI agent 接管，从找线索、盯广告账户、测订房流程，到把 X 噪音压成日报。真正有价值的不是聊天，而是替团队盯住那些没人想做、但一出错就要命的工作。",
+      "url": "https://x.com/petergyang/status/2100027487681953834",
+      "posted_at": "2026-09-16T01:02:24.000Z",
+      "tags": [
+        "@petergyang"
+      ]
+    },
+    {
+      "id": "6a2e50d655",
+      "date": "2026-09-16",
+      "source": "x",
+      "author": "Nikunj Kothari",
+      "bio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
+      "title": "",
+      "summary_en": "I’m meeting one too many founders who think the money spigot will magically flow and the next round will happen no matter what..\n\nCapital is a weapon for acceleration. Used well you’re unbeatable. If you are so dependent on it, a simple downturn can lead to not so great consequences. If you don’t believe me, a simple prompt asking for this history will suffice. \n\nSo been sharing this with a lot of the founders we advise: figure out the default path that ensures the survival of your company and a great self fulfilling business. \n\nAnd then figure out scenarios where abundant (or lack of) capital and what it does to your business. \n\nThe only constant is change and we don’t know how capital markets evolve in the next 6-18 months!",
+      "summary_zh": "太多创始人还幻想钱龙头会一直开着、下一轮融资必然发生，但资本只是加速武器，不是续命氧气。先设计一条不靠融资也能活下去、能自我造血的默认路径，再推演未来 6-18 个月钱多或钱少时公司会怎么死、怎么赢。",
+      "url": "https://x.com/nikunj/status/2100008917980102863",
+      "posted_at": "2026-09-15T23:48:36.000Z",
+      "tags": [
+        "@nikunj"
+      ]
+    },
+    {
+      "id": "262e0d75c4",
+      "date": "2026-09-16",
+      "source": "x",
+      "author": "Garry Tan",
+      "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "title": "",
+      "summary_en": "I think Muse is going to win tbh https://t.co/ptFcAa9Zu0",
+      "summary_zh": "Muse 大概率会赢，没什么好绕的。",
+      "url": "https://x.com/garrytan/status/2099980972641124629",
+      "posted_at": "2026-09-15T21:57:34.000Z",
+      "tags": [
+        "@garrytan"
+      ]
+    },
+    {
+      "id": "cd8685ee60",
+      "date": "2026-09-16",
+      "source": "x",
+      "author": "Peter Yang",
+      "bio": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6",
+      "title": "",
+      "summary_en": "My attempt to get Muse to negotiate my Xfinity cable bill has sadly failed https://t.co/efkmGmHi2h",
+      "summary_zh": "想让 Muse 替我去跟 Xfinity 砍有线电视账单，结果很遗憾，谈崩了。",
+      "url": "https://x.com/petergyang/status/2099978848255533280",
+      "posted_at": "2026-09-15T21:49:07.000Z",
+      "tags": [
+        "@petergyang"
+      ]
+    },
+    {
+      "id": "12b1c34c37",
+      "date": "2026-09-16",
+      "source": "x",
+      "author": "Aaron Levie",
+      "bio": "ceo @box - your business lives in content. unleash it with AI",
+      "title": "",
+      "summary_en": "There’s a massive chasm between the power of AI models and the ultimate workflows that enterprises are trying to automate. This gap is the opportunity for the applied AI layer to fill. \n\nYou need to connect the intelligence to workflows, often reengineer processes, aggregate the right context and data, allow for the right human in the loop experiences, drive change management, do domain specific evals, manage the security and governance of the data and process, and much more.\n\nWe’re going to see this layer emerge in every vertical and horizontal category. And ironically, even as models improve at incredible rates, this layer still must exist - and may become even more important and useful. Greater capability enables even more complex tasks to be tackled, amplifying the challenges if you don’t do this well.\n\nWas super fun chatting with @sonyatweetybird on all the things going into AI diffusion.",
+      "summary_zh": "AI 模型的能力和企业真正想自动化的工作流之间隔着巨大鸿沟，机会就在应用 AI 层：把智能接进流程、重构业务、接上数据和上下文、人类介入、安全治理、行业评测。\n\n讽刺的是，模型越强，这一层越不可或缺，因为更强的能力只会把任务推向更复杂的地方，做不好反而放大混乱。",
+      "url": "https://x.com/levie/status/2099976021311398230",
+      "posted_at": "2026-09-15T21:37:53.000Z",
+      "tags": [
+        "@levie"
+      ]
+    },
+    {
+      "id": "004abc3d2c",
+      "date": "2026-09-16",
+      "source": "x",
+      "author": "Guillermo Rauch",
+      "bio": "@vercel CEO",
+      "title": "",
+      "summary_en": "Safari 27 supports JSPI, a magic WebAssembly capability for sync native code to suspend on an async 𝙿𝚛𝚘𝚖𝚒𝚜𝚎.\n\nOn https://t.co/OL0LzGtvAw, libfx uses the built-in browser 𝚏𝚎𝚝𝚌𝚑 stack to make API calls.\n\nAs more code goes native, I expect WebAssembly to play a huge role in the future of the web.",
+      "summary_zh": "Safari 27 支持 JSPI，让同步原生代码能在异步 Promise 上挂起，WebAssembly 的边界又被往前推了一截。随着更多代码转向 native，WebAssembly 很可能会成为未来 Web 的核心底座。",
+      "url": "https://x.com/rauchg/status/2099974859023683975",
+      "posted_at": "2026-09-15T21:33:16.000Z",
+      "tags": [
+        "@rauchg"
+      ]
+    },
+    {
+      "id": "ea0fb8e672",
+      "date": "2026-09-16",
+      "source": "x",
+      "author": "Peter Yang",
+      "bio": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6",
+      "title": "",
+      "summary_en": "The Grok @bot team asked me if I had any advice for solopreneurs.\n\nI’ve only been doing this full time for three months, but my advice is to design your business so you can spend more time doing work you actually enjoy.\n\nThere will always be choices that could make more money. But if those choices leave you doing work you don’t enjoy, then that defeats the purpose of becoming a solopreneur in the first place.\n\nDelegate that boring work to your bots instead or just don't do it :)\n\nWas super fun joining the @SpaceXAI live stream this morning, the team is still going strong here: https://t.co/u2qwydK7M8",
+      "summary_zh": "单干不是为了赚每一分钱，而是把生意设计成能多做自己真正喜欢的事。那些更赚钱但让你讨厌的活，要么丢给 bot，要么干脆别做。",
+      "url": "https://x.com/petergyang/status/2099968897323778416",
+      "posted_at": "2026-09-15T21:09:35.000Z",
+      "tags": [
+        "@petergyang"
+      ]
+    },
+    {
+      "id": "af7550c47c",
+      "date": "2026-09-16",
+      "source": "x",
+      "author": "Garry Tan",
+      "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "title": "",
+      "summary_en": "I just started using @capydotai with GStack/GBrain on some fix waves on outstanding issues/PRs and it did what would have taken a day with raw Codex/Claude Code in about half as much time, using the same frontier models. \n\nI'm amazed.",
+      "summary_zh": "用同样的前沿模型，Capy + GStack/GBrain 处理遗留 issues/PR 的修复波次，硬是把原本 Codex/Claude Code 要干一天的活压到半天左右。不是模型变强了，是工作流把时间砍掉了。",
+      "url": "https://x.com/garrytan/status/2099964487667454097",
+      "posted_at": "2026-09-15T20:52:03.000Z",
+      "tags": [
+        "@garrytan"
+      ]
+    },
+    {
+      "id": "b154f884fa",
+      "date": "2026-09-16",
+      "source": "x",
+      "author": "Peter Steinberger",
+      "bio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world. @OpenClaw🦞 + @OpenAI",
+      "title": "",
+      "summary_en": "Excited to have you on board, Graham! https://t.co/zAbozt9Lpf",
+      "summary_zh": "Graham 加入团队，官方公开欢迎。推文本身没展开细节，重点就是这次加盟已被确认。",
+      "url": "https://x.com/steipete/status/2099960081207242808",
+      "posted_at": "2026-09-15T20:34:33.000Z",
+      "tags": [
+        "@steipete"
+      ]
+    },
+    {
+      "id": "bcf2ed7fd1",
+      "date": "2026-09-16",
+      "source": "x",
+      "author": "Thariq",
+      "bio": "Claude Code @anthropicai. prev YC W20, @spc, @medialab",
+      "title": "",
+      "summary_en": "I was not expecting things to go this way, but I think MCPs are better than CLIs for most integrations. \n\nThe models have gotten much better at tool calling, we can defer tools &amp; MCP is now stateless.\n\nIf you need to compose/filter data, add params like query to your MCP tools.",
+      "summary_zh": "没想到会这样，但多数集成里 MCP 已经比 CLI 更好：模型更会调工具，工具可延迟加载，MCP 也变成无状态了。需要组合或过滤数据时，别绕，直接给 MCP 工具加 `query` 这类参数。",
+      "url": "https://x.com/trq212/status/2099958388230873165",
+      "posted_at": "2026-09-15T20:27:49.000Z",
+      "tags": [
+        "@trq212"
+      ]
+    },
+    {
+      "id": "70b4c240b3",
+      "date": "2026-09-16",
+      "source": "x",
+      "author": "Garry Tan",
+      "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "title": "",
+      "summary_en": "Interesting to realize this peptides boom didn't start in SF but rather the midwest in bodybuilding subcultures\n\nI recently started using peptides with @Ronan_RX and I've lost 18 lbs in two months! https://t.co/kIOkGEkOGf",
+      "summary_zh": "这波多肽热潮不是从旧金山精英圈爆出来的，而是中西部健美亚文化先玩起来的。作者自己跟 Ronan_RX 用了两个月，直接瘦了 18 磅。",
+      "url": "https://x.com/garrytan/status/2099948078606520676",
+      "posted_at": "2026-09-15T19:46:51.000Z",
+      "tags": [
+        "@garrytan"
+      ]
+    },
+    {
+      "id": "a07ef9fe71",
+      "date": "2026-09-16",
+      "source": "x",
+      "author": "Dan Shipper",
+      "bio": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "title": "",
+      "summary_en": "we almost never test new foundation models but we've been testing this for ~a week @every and it's pretty wild.\n\nthe kind of things that will be obviously indispensible in 6-12 months\n\nit doesn't produce words as output, it produces probabilities. so it can efficiently act as a judge in cases where you'd need a Fable-level model—but in our testing was 25x faster and 600x lower priced \n\nexcellent vibe check by @hammer_mt on @every:\nhttps://t.co/yVX25Wsu4Z",
+      "summary_zh": "这类不输出文字、只输出概率的基础模型，很可能 6-12 个月内变成刚需：它能高效充当“裁判”，处理原本需要 Fable 级模型的判断任务。实测速度快 25 倍、价格低 600 倍，已经不是小优化，而是成本结构级别的变化。",
+      "url": "https://x.com/danshipper/status/2099947471518474522",
+      "posted_at": "2026-09-15T19:44:27.000Z",
+      "tags": [
+        "@danshipper"
+      ]
+    },
+    {
+      "id": "9e1b0ee222",
+      "date": "2026-09-16",
+      "source": "x",
+      "author": "Aditya Agarwal",
+      "bio": "General Partner @SPC, Co-Founder @Bevel_Health | Ex: Early Eng @facebook, CTO @Dropbox, Board @Flipkart | Optimist, Builder, Dad",
+      "title": "",
+      "summary_en": "More on why we invested in @profound from the beginning: https://t.co/kIiRR7fMM9",
+      "summary_zh": "他们从一开始就押注 Profound，因为看中了它正在切进 AI 搜索和品牌可见性的核心战场。",
+      "url": "https://x.com/adityaag/status/2099939689738191146",
+      "posted_at": "2026-09-15T19:13:31.000Z",
+      "tags": [
+        "@adityaag"
+      ]
+    },
+    {
+      "id": "239b8879f0",
+      "date": "2026-09-16",
+      "source": "x",
+      "author": "Aditya Agarwal",
+      "bio": "General Partner @SPC, Co-Founder @Bevel_Health | Ex: Early Eng @facebook, CTO @Dropbox, Board @Flipkart | Optimist, Builder, Dad",
+      "title": "",
+      "summary_en": "People ask what we saw in @profound before there was a Profound to see.\n\nIt's now worth $1.8B. One third of the Fortune 100 runs on it.\n\nWe didn't find the company. We watched it form.\n\n@thejamescad and @dbabbs met at @spc. Opposite worlds: an Uber maps engineer and a founder with no college degree who willed businesses into existence.\n\nNeither arrived with the idea. The partnership formed first. \n\nProfound has now evolved to become the fastest-growing AI marketing platform. \n\nWe've invested in every round since the beginning and are proud to congratulate the team on their $180M Series D, co-led by @sequoia and @kleinerperkins with participation from @lightspeedvp, @khoslaventures, @Saga_Ventures, @EvanticCapital, and SPC.",
+      "summary_zh": "Profound 不是被“发现”的，是在 SPC 里被看着长出来的：一个 Uber 地图工程师和一个没上过大学、硬把生意做出来的创始人，先形成了搭档，后来才有了公司。\n\n现在它估值 18 亿美元，跑进三分之一 Fortune 100，成了增长最快的 AI 营销平台，并刚拿下 1.8 亿美元 D 轮。",
+      "url": "https://x.com/adityaag/status/2099939685657141257",
+      "posted_at": "2026-09-15T19:13:30.000Z",
+      "tags": [
+        "@adityaag"
+      ]
+    },
+    {
+      "id": "ee25d79d14",
+      "date": "2026-09-16",
+      "source": "x",
+      "author": "Thibault Sottiaux",
+      "bio": "Codex & ChatGPT @OpenAI",
+      "title": "",
+      "summary_en": "2026 is the year of efficiency and Tuesday is for random swag drops on your door handle https://t.co/w68GaYgrmX",
+      "summary_zh": "2026 号称“效率之年”，结果周二的效率体现在把随机周边挂到你家门把手上。",
+      "url": "https://x.com/thsottiaux/status/2099922755655479624",
+      "posted_at": "2026-09-15T18:06:14.000Z",
+      "tags": [
+        "@thsottiaux"
+      ]
+    },
+    {
+      "id": "fc07885348",
+      "date": "2026-09-16",
+      "source": "x",
+      "author": "Josh Woodward",
+      "bio": "VP, @Google @GoogleLabs @GeminiApp @GoogleAIStudio",
+      "title": "",
+      "summary_en": "The offer\n\nhttps://t.co/meLzcwjkEI",
+      "summary_zh": "这条推文可见内容只有 “The offer” 和一个短链；短链内容无法打开，没法判断这份 offer 指什么，不能硬编。",
+      "url": "https://x.com/joshwoodward/status/2099921868652482741",
+      "posted_at": "2026-09-15T18:02:42.000Z",
+      "tags": [
+        "@joshwoodward"
+      ]
+    },
+    {
+      "id": "8b7576898e",
+      "date": "2026-09-16",
+      "source": "x",
+      "author": "Josh Woodward",
+      "bio": "VP, @Google @GoogleLabs @GeminiApp @GoogleAIStudio",
+      "title": "",
+      "summary_en": "The features\n\nhttps://t.co/VzCNJS6PRU",
+      "summary_zh": "别讲故事了，功能才是硬通货。AI builder 最后拼的就是谁真能把东西做出来。",
+      "url": "https://x.com/joshwoodward/status/2099921867331235956",
+      "posted_at": "2026-09-15T18:02:42.000Z",
+      "tags": [
+        "@joshwoodward"
+      ]
+    },
+    {
+      "id": "46e7b3b639",
+      "date": "2026-09-16",
+      "source": "x",
+      "author": "Josh Woodward",
+      "bio": "VP, @Google @GoogleLabs @GeminiApp @GoogleAIStudio",
+      "title": "",
+      "summary_en": "New updates in @Gemini_Notebook for students, my 2 favorites:\n\n1) Have a live, spoken Q&A with your class materials in ~100 languages\n\n2) Record lectures and notes on the go, the audio notes save automatically into your chosen notebook\n\nAs a university student, you can also still get a free Google AI Plan in 140+ countries for bigger limits and access to more Google products!",
+      "summary_zh": "Gemini Notebook 新功能直接把课堂材料变成可用约 100 种语言实时语音问答的助教，还能随手录课和记音频笔记，自动存进指定 notebook。\n\n大学生在 140 多个国家还可以继续白嫖 Google AI Plan，拿更高额度和更多 Google 产品入口。",
+      "url": "https://x.com/joshwoodward/status/2099921866014306633",
+      "posted_at": "2026-09-15T18:02:42.000Z",
+      "tags": [
+        "@joshwoodward"
+      ]
+    },
+    {
+      "id": "7576026d41",
+      "date": "2026-09-16",
+      "source": "x",
+      "author": "Guillermo Rauch",
+      "bio": "@vercel CEO",
+      "title": "",
+      "summary_en": "Excited to formally introduce Vercel Labs.\n\nhttps://t.co/zCNVryaiin is the home for the in-public research and experimentation arm of Vercel.\n\n247 million downloads in, we wanted to, also in public, share what we're supporting, what we're researching, and what experiments didn't pan out.\n\nKudos to @ctatedev and @cramforce for shaping this great initiative and iterating in public.",
+      "summary_zh": "Vercel 正式推出 Vercel Labs，把研究、实验、支持方向，甚至失败项目都摊开在公众面前。247 million downloads 之后，他们要把“公开迭代”从口号变成研究部门的默认工作方式。",
+      "url": "https://x.com/rauchg/status/2099911447598059812",
+      "posted_at": "2026-09-15T17:21:18.000Z",
+      "tags": [
+        "@rauchg"
+      ]
+    },
+    {
+      "id": "51ea668777",
+      "date": "2026-09-16",
+      "source": "x",
+      "author": "Guillermo Rauch",
+      "bio": "@vercel CEO",
+      "title": "",
+      "summary_en": "The future is multi-model. Trying to hide the choice confuses and hurts customers, who can't participate in the upside of the most exciting market competition of our times, nor master the best tool for the job. https://t.co/DWMmd7lUqX",
+      "summary_zh": "未来就是多模型；硬把模型选择藏起来，只会让用户更困惑、更受伤。用户被剥夺了参与这场最激烈市场竞争红利的机会，也没法学会为不同任务挑最强工具。",
+      "url": "https://x.com/rauchg/status/2099905740505055680",
+      "posted_at": "2026-09-15T16:58:37.000Z",
+      "tags": [
+        "@rauchg"
+      ]
+    },
+    {
+      "id": "861c53b7fa",
+      "date": "2026-09-16",
+      "source": "x",
+      "author": "Aditya Agarwal",
+      "bio": "General Partner @SPC, Co-Founder @Bevel_Health | Ex: Early Eng @facebook, CTO @Dropbox, Board @Flipkart | Optimist, Builder, Dad",
+      "title": "",
+      "summary_en": "Profound started at @spc. \n\nWe're proud to be a part of the journey. \n\nOnwards. https://t.co/LlM4KCSzO3",
+      "summary_zh": "Profound 从 SPC 起步，现在已经走到能被公开押注和背书的位置。早期社区不是旁观者，而是这家公司故事的一部分。",
+      "url": "https://x.com/adityaag/status/2099905666324312141",
+      "posted_at": "2026-09-15T16:58:19.000Z",
+      "tags": [
+        "@adityaag"
+      ]
+    },
+    {
+      "id": "8b4bf62f94",
+      "date": "2026-09-16",
+      "source": "x",
+      "author": "Claude",
+      "bio": "Claude is an AI assistant built by @anthropicai to be safe, accurate, and secure. Talk to Claude on https://t.co/ZhTwG8d1e5 or download the app.",
+      "title": "",
+      "summary_en": "Learn more about Salesforce in Claude: https://t.co/LVP8WIUzaY",
+      "summary_zh": "Claude 里的 Salesforce 集成值得看一眼，细节在官方链接里。",
+      "url": "https://x.com/claudeai/status/2099876515840245772",
+      "posted_at": "2026-09-15T15:02:29.000Z",
+      "tags": [
+        "@claudeai"
+      ]
+    },
+    {
+      "id": "f804237e40",
+      "date": "2026-09-16",
+      "source": "x",
+      "author": "Claude",
+      "bio": "Claude is an AI assistant built by @anthropicai to be safe, accurate, and secure. Talk to Claude on https://t.co/ZhTwG8d1e5 or download the app.",
+      "title": "",
+      "summary_en": "Salesforce in Claude is now available in beta.\n\nIt brings your accounts, opportunities, and pipeline into Claude, with 37 pre-built sales skills. Prep a call, review a deal, create a pipeline dashboard, or send your forecast without leaving the conversation. https://t.co/juvI0sU3mX",
+      "summary_zh": "Salesforce 直接塞进 Claude 了，账户、商机、管道和 37 个销售技能都能在对话里调出来。备会、审单、做管道看板、发预测，不用再切工具。",
+      "url": "https://x.com/claudeai/status/2099876514330206578",
+      "posted_at": "2026-09-15T15:02:29.000Z",
+      "tags": [
+        "@claudeai"
+      ]
+    },
+    {
+      "id": "658897857a",
+      "date": "2026-09-16",
+      "source": "x",
+      "author": "Sam Altman",
+      "bio": "The mission of OpenAI is to ensure that AGI benefits all of humanity",
+      "title": "",
+      "summary_en": "big 🚢 this week\n\nand then for devday\n\n🚢🚢🚢🚢🚢🚢 https://t.co/Kyj0mGE913",
+      "summary_zh": "这周有个大发布，DevDay 还会继续狂发。先来一艘大船，后面直接舰队下水。",
+      "url": "https://x.com/sama/status/2099872600977760451",
+      "posted_at": "2026-09-15T14:46:56.000Z",
+      "tags": [
+        "@sama"
+      ]
+    },
+    {
+      "id": "710e0bafa7",
+      "date": "2026-09-16",
+      "source": "podcast",
+      "author": "Training Data",
+      "bio": "",
+      "title": "Box's Aaron Levie: On Reinventing Yourself in the AI Age and Enterprise Diffusion",
+      "summary_en": "Speaker 1 | 00:00 - 00:07\nI wanna send an emergency alert to, like, everybody who's, like, a sophomore or junior in college and just be, like, follow these 20 accounts\n\nSpeaker 2 | 00:07 - 00:07\non Twitter Yeah.\n\nSpeaker 1 | 00:07 - 00:23\nI agree. And also join Twitter because, like, this will just help your career. You're either, like, a year ahead or a year behind simply based on your feed. And my feed is like so so wired in. I'll still talk to to 20 year olds that are like, yeah, like, you know, I I I see some articles and I'm like, what do mean?\n\nSpeaker 1 | 00:23 - 00:31\nHow do you see articles? Like, I don't even know what that means. Like, do you just, like, get lucky that somebody emailed you an article? You just have to be wired in. I I enjoy it.\n\nSpeaker 1 | 00:31 - 00:33\nIt's a lot of fun. I play with everything.\n\nSpeaker 2 | 00:50 - 01:11\nToday, I'm excited to welcome Erin Levy, founder and CEO of Box. Box is building a collaboration platform and content management platform for the enterprise that has now taken on really new life with AI. And I'm excited to chat with you today about Box and AI, about your general thoughts on AI because you are such a thought leader, and then about how founders can reinvent themselves for this AI wave. So thanks for joining us.\n\nSpeaker 1 | 01:11 - 01:22\nThanks for having me. I'm a big fan of the the podcast. I religiously watch every episode and and so great work. I am wondering, though, I know this is a different podcast, but when do you talk about root canals in in this?\n\nSpeaker 2 | 01:22 - 01:23\nOh my gosh.\n\nSpeaker 1 | 01:23 - 01:24\nIs that\n\nSpeaker 2 | 01:24 - 01:26\nare are we We're gonna call in Doug Leone.\n\nSpeaker 1 | 01:26 - 01:28\nWe figured out how to weave that in yet or or not.\n\nSpeaker 2 | 01:28 - 01:29\nI mean,",
+      "summary_zh": "你的职业生涯可能只因为信息流不同，就领先一年或落后一整年；还在“偶然看到几篇文章”的人，已经不够接线了。\n\n真正重要的是把自己接入一线信号源，跟着最懂行的人、玩遍新工具，否则 AI 时代还没开始你就已经掉队。",
+      "url": "https://www.youtube.com/playlist?list=PLOhHNjZItNnMm5tdW61JpnyxeYH5NDDx8",
+      "posted_at": "2026-09-15T09:00:00.000Z",
+      "tags": [
+        "podcast"
+      ]
+    },
+    {
+      "id": "3c60c2ab7f",
+      "date": "2026-09-16",
+      "source": "x",
+      "author": "Amjad Masad",
+      "bio": "ceo @replit. civilizationist",
+      "title": "",
+      "summary_en": "The AI naming curse strikes again. \n\n“AI Safety” firm made AI unsafe.\n\n“Effective Altruists” are both ineffective and enabling criminal activity. \n\n“Irregular” is regularly incompetent. https://t.co/vaOgS5lyKf",
+      "summary_zh": "AI 圈的命名诅咒又来了：“AI Safety” 把 AI 搞得更不安全，“Effective Altruists” 既无效又纵容犯罪，“Irregular” 则稳定地无能。",
+      "url": "https://x.com/amasad/status/2099760428314411232",
+      "posted_at": "2026-09-15T07:21:12.000Z",
+      "tags": [
+        "@amasad"
+      ]
+    }
+  ]
+}
