@@ -1,0 +1,158 @@
+{
+  "date": "2026-09-17",
+  "items": [
+    {
+      "id": "2026-09-17-1",
+      "title": "Claude 正在消灭入口",
+      "angle": "从 Claude 合并 Cowork、Chat、Docs、Slides、Design 切入，写 AI 产品竞争从功能堆叠转向入口消失。",
+      "opening": "Anthropic 今天做了一件反直觉的事：不是给 Claude 再加一个 App，而是把入口干掉。以后用户不需要判断该打开聊天、Cowork、Docs 还是 Slides，只要把任务丢进同一个对话。",
+      "story_hook": {
+        "challenge": "AI 产品越做越复杂，用户反而被迫学习更多入口和工作流。",
+        "twist": "真正的产品进化可能不是增加功能，而是让用户完全不用知道功能在哪里。"
+      },
+      "takeaway": "做 AI 应用时，不要只问还能加什么能力，要问用户是否还能少做一次选择。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Claude Blog：Claude Cowork and chat are now one Claude",
+          "url": "https://claude.com/blog/cowork-is-now-claude"
+        },
+        {
+          "tag": "builders",
+          "ref": "Boris Cherny 关于 Claude 把文档、幻灯片和设计塞进对话的推文",
+          "url": "https://x.com/bcherny/status/2100260544087535639"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt 今日 AI 交付层产品：Higgsfield API、S-Roll、Bitrise、MCPJam",
+          "url": "https://www.producthunt.com/products/mcpjam-inspector"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-17-2",
+      "title": "Agent 先学会守规矩",
+      "angle": "用 GitHub 高增长项目和 builder 讨论证明：AI 编程代理的热点不是更会写代码，而是更可控、可审计。",
+      "opening": "今天 GitHub 最热的 AI 编程信号，不是某个更强模型，而是一堆给 agent 上规矩的工具。代码评审、安全审计、skills、上下文压缩，正在变成团队使用 AI 的新基础设施。",
+      "story_hook": {
+        "challenge": "开发者已经不缺会生成代码的 AI，缺的是敢接进真实仓库和 CI 的 AI。",
+        "twist": "最值钱的能力不是让 agent 做更多，而是让它少胡来、能复盘、能被团队信任。"
+      },
+      "takeaway": "团队引入 coding agent 时，应优先建设输出协议、审计规则、上下文边界和代码评审流程。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Peter Yang：AI skills 没过时，反而是让 AI 按编辑口味和浏览器规则干活的杠杆",
+          "url": "https://x.com/petergyang/status/2100328939034128856"
+        },
+        {
+          "tag": "builders",
+          "ref": "Thariq：不要骗 Claude，直接把工具做成真正想让它使用的形状",
+          "url": "https://x.com/trq212/status/2100315537251463523"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub Trending：alibaba/open-code-review weekly 8594 星",
+          "url": "https://github.com/alibaba/open-code-review"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub Trending：cloudflare/security-audit-skill daily 927 星",
+          "url": "https://github.com/cloudflare/security-audit-skill"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-17-3",
+      "title": "企业 AI 不靠聊天框",
+      "angle": "从 Aaron Levie 的判断切入，写极快、便宜、够用的小模型会吃掉企业里的分类、路由、审查和安全判断。",
+      "opening": "企业 AI 最容易被忽略的一波机会，可能不是智能助手，而是那些看起来很无聊的判断节点。分类、路由、风控、安全审查、权限判断，只要足够快、足够便宜、足够准，就能成为 agent 工作流的底座。",
+      "story_hook": {
+        "challenge": "大家都在盯通用大模型和聊天入口，但企业流程真正卡住的是大量小而高频的决策点。",
+        "twist": "下一代企业 AI 基础设施可能更像 JSON 分类器和策略引擎，而不是一个会聊天的同事。"
+      },
+      "takeaway": "B2B AI 创业可以从高频、低容错、可评测的企业判断节点切入，而不是先做完整 agent 平台。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Aaron Levie：极快、极便宜、能力够强的信息处理会改写企业关键关卡",
+          "url": "https://x.com/levie/status/2100448648672993540"
+        },
+        {
+          "tag": "builders",
+          "ref": "Guillermo Rauch：JEV p95 速度快到 18 倍还更准，可能成为 Vercel AI Gateway 默认",
+          "url": "https://x.com/rauchg/status/2100307962262872105"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Google Trends：open code review 上涨 78.7%",
+          "url": "https://trends.google.com/trends/explore?q=open+code+review&date=now+7-d"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-17-4",
+      "title": "AI 味正在成为负资产",
+      "angle": "把 Zara Zhang 对 Claude 语气的反感，与 GitHub 上 no-ai-slop、人类化、短输出项目升温放在一起看。",
+      "opening": "一个危险信号是：用户不是嫌 AI 不聪明，而是嫌它太像 AI。Claude 被吐槽说话像在展示自己多高级，而 GitHub 上一批项目正在专门压缩废话、清理 AI 味、约束输出。",
+      "story_hook": {
+        "challenge": "模型能力越强，输出越容易变得自信、冗长、表演感过重。",
+        "twist": "开发者真正愿意收藏的工具，可能不是增强 AI，而是削弱 AI 的表演欲。"
+      },
+      "takeaway": "面向开发者和知识工作者的 AI 产品，应把少废话、强格式、可编辑、像人类同事作为核心体验指标。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Zara Zhang：越来越少用 Claude，因为它说话方式让人难以忍受",
+          "url": "https://x.com/zarazhangrui/status/2100278750776824115"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub Trending：ayghri/i-have-adhd weekly 13737 星",
+          "url": "https://github.com/ayghri/i-have-adhd"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub Trending：petergyang/no-ai-slop weekly 2320 星",
+          "url": "https://github.com/petergyang/no-ai-slop"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-17-5",
+      "title": "家庭群机器人更像未来",
+      "angle": "用 Nikunj 的 Nous Home 家庭代理，连接 self-hosted、本地模型和私有知识库趋势，写 AI agent 从炫技走向家庭真实协作。",
+      "opening": "Nikunj 说他的 Nous Home 代理终于变得真正好用，而且已经成了夫妻每天共用的家庭群机器人。它不是陪聊玩具，而是能只读指定邮件、解析附件、处理登录浏览器会话的家庭操作层。",
+      "story_hook": {
+        "challenge": "消费级 agent 很容易停在 demo：会聊天、会总结，但进不了真实生活权限和数据。",
+        "twist": "最有用的家庭 AI 可能不是一个万能人格，而是一个粒度足够细、权限足够清楚的共享工作流。"
+      },
+      "takeaway": "做消费级 agent 时，优先设计权限、数据范围、多人协作和可控工具调用，而不是只包装一个聊天角色。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Nikunj Kothari：NousResearch Home 代理成为他和妻子每天共用的家庭群机器人",
+          "url": "https://x.com/nikunj/status/2100212813625196917"
+        },
+        {
+          "tag": "builders",
+          "ref": "Garry Tan：个人 AGI 可以换外壳，但保留同一性格和完整记忆",
+          "url": "https://x.com/garrytan/status/2100339347669279149"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Google Trends：self hosted 上涨 34.3%",
+          "url": "https://trends.google.com/trends/explore?q=self+hosted&date=now+7-d"
+        },
+        {
+          "tag": "pulse",
+          "ref": "HuggingFace：openbmb/MiniCPM5-2B 强调 on-device、edge-ai、tool-calling",
+          "url": "https://huggingface.co/openbmb/MiniCPM5-2B"
+        }
+      ]
+    }
+  ],
+  "notes": "今日主线很集中：AI 产品的竞争正在从模型能力转向入口整合、工作流约束、审计安全、输出质感和私有可控部署。缺少 HN 与 Reddit 样本，因此不适合写社区争议型选题。",
+  "generated_at": "2026-09-17T09:17:26+00:00",
+  "model": "gpt-5.5"
+}
