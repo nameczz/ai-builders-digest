@@ -1,0 +1,173 @@
+{
+  "date": "2026-09-18",
+  "items": [
+    {
+      "id": "2026-09-18-1",
+      "title": "Token 被 Agent 吃光后",
+      "angle": "从算力需求反推产品机会：真正缺的不是更多 agent，而是证明它们在后台干对了。",
+      "opening": "Aaron Levie 说，Agent 已经吃掉了大部分推理量，未来一两年会逼近全部。Amjad Masad 则说，海量数据中心是值得的。问题是，当 token 大头都被 24/7 的后台 agent 消耗掉，谁来证明这些算力没有白烧？",
+      "story_hook": {
+        "challenge": "行业一边疯狂扩数据中心，一边还没有足够可靠的 agent 验收层。",
+        "twist": "今天 GitHub 和 Product Hunt 热起来的不是新聊天机器人，而是代码审查、安全审计、CI 自修复和任务验证工具。"
+      },
+      "takeaway": "开发者可以优先寻找 agent 结果验收、审计报告、可机器读取 findings 这类基础设施机会。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Aaron Levie 关于 agent 将消耗大多数 token 的推文",
+          "url": "https://x.com/levie/status/2100799668573946191"
+        },
+        {
+          "tag": "builders",
+          "ref": "Amjad Masad 关于海量数据中心必要性的推文",
+          "url": "https://x.com/amasad/status/2100829093923320083"
+        },
+        {
+          "tag": "pulse",
+          "ref": "alibaba/open-code-review 单周 11489 星",
+          "url": "https://github.com/alibaba/open-code-review"
+        },
+        {
+          "tag": "pulse",
+          "ref": "cloudflare/security-audit-skill 日榜 3607 星",
+          "url": "https://github.com/cloudflare/security-audit-skill"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-18-2",
+      "title": "聊天框正在失业",
+      "angle": "用 Claude Projects 的发布看一个变化：AI 产品入口正在从单次对话转向项目级工作现场。",
+      "opening": "Boris Cherny 说，他现在大量代码都在 Claude Projects 里写。Cat Wu 的描述更关键：Claude 不再只是回答问题，而是在多个线程之间调度任务、汇总进度、记住项目上下文。聊天框没有消失，但它正在变成一个太小的容器。",
+      "story_hook": {
+        "challenge": "过去 AI 工具围绕 prompt 和 session 设计，项目协作却需要长期记忆、任务拆分和进度管理。",
+        "twist": "Claude 的新 Projects 把工作台、资料库、线程和常驻 agent 混到一起，像是在重做 IDE 之外的第二个开发环境。"
+      },
+      "takeaway": "判断 AI 编程产品时，不只看模型能力，要看它是否能管理项目上下文、长期记忆和多线程任务。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Boris Cherny 称 Projects 成为主要编码工作台",
+          "url": "https://x.com/bcherny/status/2100669598995816511"
+        },
+        {
+          "tag": "builders",
+          "ref": "Cat Wu 关于新版 Claude Projects 调度中枢的推文",
+          "url": "https://x.com/_catwu/status/2100641163120423057"
+        },
+        {
+          "tag": "builders",
+          "ref": "Claude 官方关于项目记忆和资料库的说明",
+          "url": "https://x.com/claudeai/status/2100632684074549309"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Google Trends：context mode 上升 164.2%",
+          "url": "https://trends.google.com/trends/explore?q=context+mode&date=now+7-d"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-18-3",
+      "title": "零反链网站靠 Agent 涨了",
+      "angle": "从一个儿童零食目录站切入，讲 AI 内容产品的反常识：不是爆款内容，而是自动维护带来的复利。",
+      "opening": "Nikunj Kothari 提到，有人用 Claude 搭了一个儿童健康零食目录站：每天自动查新品、清死链、盯 SEO、写内容、拉外链。没有社媒、零反链，已经自然涨到每天约 6000 展示和 60 点击。最值得注意的不是这个站有多大，而是它几乎像一个自动驾驶内容产品。",
+      "story_hook": {
+        "challenge": "传统内容站依赖人工选题、更新和外链，AI 生成内容又常被认为低质量、难留存。",
+        "twist": "这个案例的增长点不在一次性生成文章，而在 agent 持续做脏活：监控、更新、修复和补全。"
+      },
+      "takeaway": "独立开发者做内容型产品时，可以把核心能力设计成持续运营 agent，而不是一次性内容生成器。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Nikunj Kothari 关于 Claude 自动运营儿童零食目录站的推文",
+          "url": "https://x.com/nikunj/status/2100714665571737885"
+        },
+        {
+          "tag": "builders",
+          "ref": "Nikunj Kothari 关于为 agent 提供 MCP / WebMCP 接口的推文",
+          "url": "https://x.com/nikunj/status/2100718806004064730"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt：Verity Score 做 AI 可见性增长工具",
+          "url": "https://www.producthunt.com/products/verity-score-geo-ai-visibility"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt：Unfetch.com 让 ChatGPT 和 Claude 管广告",
+          "url": "https://www.producthunt.com/products/unfetch-com"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-18-4",
+      "title": "软件要变成一次性用品",
+      "angle": "用 Vercel 的部署数字解释 AI 编程的下一阶段：软件数量暴涨后，部署和回滚会比生成更值钱。",
+      "opening": "Guillermo Rauch 给了一个很硬的数字：Vercel 花 10 年做到 10 亿次部署，却在最近 10 个月又新增 14 亿次。他的判断是，明年生成的软件量可能超过整个计算史总和。听起来夸张，但如果每个人都能让 agent 写小软件，真正卡住的就不是写代码，而是怎么安全上线。",
+      "story_hook": {
+        "challenge": "AI 让软件生成成本骤降，但生产环境仍要求构建、审查、权限、回滚和托管稳定性。",
+        "twist": "Vercel 不只在卖前端云，还想把 Java 后端、热修复和 agent 部署都纳入按钮级流程。"
+      },
+      "takeaway": "AI 编程时代的基础设施机会在部署速度、隔离环境、自动审查和短生命周期软件管理。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Guillermo Rauch 关于 Vercel 10 个月新增 14 亿次部署的推文",
+          "url": "https://x.com/rauchg/status/2100698591417499972"
+        },
+        {
+          "tag": "builders",
+          "ref": "Guillermo Rauch 关于 agent 直接 vercel --turbo --prod 修线上 bug 的推文",
+          "url": "https://x.com/rauchg/status/2100682030170489160"
+        },
+        {
+          "tag": "builders",
+          "ref": "Guillermo Rauch 关于 Vercel 收编 Java 生态的推文",
+          "url": "https://x.com/rauchg/status/2100745015362552312"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt：Sutura 做 verified self-healing CI",
+          "url": "https://www.producthunt.com/products/sutura"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-18-5",
+      "title": "AI 越强越要审计",
+      "angle": "把 GoodfireAI、OpenAI 内部仓库被攻破讨论和 Cloudflare 安全审计串起来，讲安全如何从后台成本变成前台卖点。",
+      "opening": "Aditya Agarwal 说，GoodfireAI 做的对齐和安全不是一代产品级别，而是一代人级别。另一边，HN 今天高分讨论却是 OpenAI 内部仓库被攻破的复盘。AI 越自动化，用户越不只问它能不能做事，而是问它有没有权限乱跑、有没有证据可查。",
+      "story_hook": {
+        "challenge": "AI 工具正在接触代码、凭证、浏览器和生产系统，但多数团队还没有对应的审计习惯。",
+        "twist": "安全不再只是合规部门关心的功能，它可能成为 AI agent 产品的购买理由。"
+      },
+      "takeaway": "做企业 AI 工具时，要把权限边界、审计日志、安全 findings 和人工复核设计成核心体验。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Aditya Agarwal 关于 GoodfireAI 和对齐安全的推文",
+          "url": "https://x.com/adityaag/status/2100746235426836708"
+        },
+        {
+          "tag": "builders",
+          "ref": "Garry Tan 关于 AI 对齐不能对齐单一目标的推文",
+          "url": "https://x.com/garrytan/status/2100636443127210112"
+        },
+        {
+          "tag": "pulse",
+          "ref": "HN：A heap overflow and SSO misconfiguration to compromise OpenAI internal repos",
+          "url": "https://www.hacktron.ai/blog/hacking-openai"
+        },
+        {
+          "tag": "pulse",
+          "ref": "cloudflare/security-audit-skill 日榜 3607 星",
+          "url": "https://github.com/cloudflare/security-audit-skill"
+        }
+      ]
+    }
+  ],
+  "notes": "今日主线很集中：agent 从能干活转向要被验收、审计和编排。可写的独立开发者素材偏少，但基础设施、Claude Projects、Vercel 部署和安全审计能形成几条互不重复的强选题。",
+  "generated_at": "2026-09-18T09:17:25+00:00",
+  "model": "gpt-5.5"
+}
