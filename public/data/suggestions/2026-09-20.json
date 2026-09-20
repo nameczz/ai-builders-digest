@@ -1,0 +1,148 @@
+{
+  "date": "2026-09-20",
+  "items": [
+    {
+      "id": "2026-09-20-1",
+      "title": "下一个入口不是人，是 Agent",
+      "angle": "从 Aaron Levie 的判断切入：消费产品竞争正在从抢用户注意力，变成抢 Agent 的默认执行权。",
+      "opening": "过去做产品，核心问题是用户会不会点开你。现在更残酷的问题是：Agent 会不会调用你。Aaron Levie 说得很直，谁能让 Agent 顺畅下单、订票、读数据，谁就可能成为新默认入口。",
+      "story_hook": {
+        "challenge": "App 时代的入口是屏幕和注意力，但 Agent 时代入口可能变成 API、MCP、CLI 和可执行权限。",
+        "twist": "真正被颠覆的未必是大模型公司，而是所有还只把网站做给人看的消费产品。"
+      },
+      "takeaway": "开发者应开始为 Agent 设计产品接口：清晰权限、可调用动作、结构化返回、可审计日志，而不只是优化人类 UI。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Aaron Levie 关于个人智能体改写消费科技入口的推文",
+          "url": "https://x.com/levie/status/2101427997597446636"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt 上 Epismo OS 主打切换 AI 工具时保留工作",
+          "url": "https://www.producthunt.com/products/epismo"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Ruby UTCP 将自己定位为 MCP 的安全替代",
+          "url": "https://www.producthunt.com/products/utcp"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-20-2",
+      "title": "代码审查 Agent 先带来安全账单",
+      "angle": "把 Aditya 的安全警告和阿里 open-code-review 的爆发放在一起看：企业正在自动化代码审查，也在扩大 Agent 攻击面。",
+      "opening": "阿里的 open-code-review 一周涨了 15028 星，代码审查正在变成可部署的 Agent 流水线。但同一天，Aditya Agarwal 提醒：更深入的 Agent 能力发布后，默认已有大公司被国家级黑客渗透，只是还没发现。",
+      "story_hook": {
+        "challenge": "企业想用 Agent 加速审查、修复和合规，但 Agent 越深入代码库、CI 和权限系统，安全半径就越大。",
+        "twist": "代码审查 Agent 的第一笔商业化收入，可能不是来自效率提升，而是来自安全、审计和权限治理。"
+      },
+      "takeaway": "做开发者工具时，不要只卖自动评论；要把权限边界、规则包、审计记录、私有部署和误报处理设计成核心功能。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Aditya Agarwal 关于 Agent 能力和国家级黑客风险的推文",
+          "url": "https://x.com/adityaag/status/2101426570850451914"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub Trending #1 alibaba/open-code-review，周增 15028 星",
+          "url": "https://github.com/alibaba/open-code-review"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Google Trends 中 open code review 上升 392.6%",
+          "url": "https://trends.google.com/trends/explore?q=open+code+review&date=now+7-d"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-20-3",
+      "title": "AI 投资人也得每天写代码",
+      "angle": "用 Nikunj Kothari 的观点反打纸上谈兵：AI 基础设施机会必须靠亲手试 repo 才看得见。",
+      "opening": "Nikunj Kothari 说，AI 时代如果不亲手写代码、折腾项目、试新 repo，就很难判断模型和基础设施机会。这句话今天尤其刺耳：GitHub 增长最快的不是聊天壳，而是 agent skills、worktree 编排和上下文压缩。",
+      "story_hook": {
+        "challenge": "AI 投资和产品判断越来越依赖一线开发体验，光听 pitch 很容易错过真实摩擦点。",
+        "twist": "最有价值的机会可能不是“模型更聪明”，而是开发者在终端里每天被卡住的上下文、分支和技能复用问题。"
+      },
+      "takeaway": "判断 AI 工具机会时，至少亲自跑一遍安装、接入、失败恢复和多人协作流程，再决定它是不是伪需求。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Nikunj Kothari 关于 AI 投资人必须亲手写代码的推文",
+          "url": "https://x.com/nikunj/status/2101340098356990058"
+        },
+        {
+          "tag": "pulse",
+          "ref": "addyosmani/agent-skills 周增 3445 星",
+          "url": "https://github.com/addyosmani/agent-skills"
+        },
+        {
+          "tag": "pulse",
+          "ref": "max-sixty/worktrunk 服务并行 AI Agent 的 Git worktree 管理",
+          "url": "https://github.com/max-sixty/worktrunk"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-20-4",
+      "title": "你的品味文件，可能值钱了",
+      "angle": "从 Peter Yang 的 Markdown 私人推荐系统切入：本地模型和浏览器 AI 让个人偏好数据变成新产品入口。",
+      "opening": "Peter Yang 用一个 Markdown 文件记录电影、剧和书，再让 /tastemaker 每周自动推荐，结果准到离谱。这个小玩具背后其实是个大问题：当 AI 真正懂你的品味，数据应该放在云端平台，还是放在你自己的文件夹里？",
+      "story_hook": {
+        "challenge": "推荐系统过去属于 Netflix、豆瓣和 Spotify，现在个人可以用 Markdown、脚本和本地模型重建一套轻量推荐引擎。",
+        "twist": "真正的 moat 可能不是模型，而是用户长期积累的私人偏好文件。"
+      },
+      "takeaway": "独立开发者可以从“个人数据文件 + 本地推理 + 定期任务”切入，做离线书影音、消费决策和知识推荐工具。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Peter Yang 关于 Markdown + /tastemaker 私人推荐系统的推文",
+          "url": "https://x.com/petergyang/status/2101503916743749878"
+        },
+        {
+          "tag": "pulse",
+          "ref": "prism-ml/Ternary-Bonsai-2-27B-gguf 指向 on-device 与 GGUF 趋势",
+          "url": "https://huggingface.co/prism-ml/Ternary-Bonsai-2-27B-gguf"
+        },
+        {
+          "tag": "pulse",
+          "ref": "webml-community/ternary-bonsai-2-webgpu-kernels 展示浏览器端 WebGPU 方向",
+          "url": "https://huggingface.co/spaces/webml-community/ternary-bonsai-2-webgpu-kernels"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-20-5",
+      "title": "别再做 Cursor 替代品了",
+      "angle": "把 Thibault 的 Linux 桌面判断和趋势降温放一起：开发者迁移不是换一个编辑器，而是重组整套本地工作流。",
+      "opening": "“2026 终于轮到 Linux 桌面了”听起来像老梗，但这次背景变了。Cursor alternative 搜索热度下降 100%，self hosted 却上升 124%，开发者不一定想换编辑器，他们想把 AI 工作流掌握在自己机器和团队规则里。",
+      "story_hook": {
+        "challenge": "单纯做某个工具的替代品越来越难，因为用户真正迁移的是上下文、权限、模型、代码库和自动化流程。",
+        "twist": "Linux 桌面叙事重新升温，不是因为桌面体验突然赢了，而是因为本地 AI、私有部署和开发者控制权一起变重要了。"
+      },
+      "takeaway": "做 AI 开发者产品时，优先补齐跨工具上下文、私有部署、自托管、日志审计和本地模型接入，而不是只喊“替代 Cursor”。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Thibault Sottiaux 关于 2026 Linux 桌面的推文",
+          "url": "https://x.com/thsottiaux/status/2101431497437950458"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Google Trends 中 cursor alternative 下降 100%",
+          "url": "https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Google Trends 中 self hosted 上升 124%",
+          "url": "https://trends.google.com/trends/explore?q=self+hosted&date=now+7-d"
+        }
+      ]
+    }
+  ],
+  "notes": "今日主线是 Agent 工程化、私有化和工具调用入口迁移；可写的大选题不在模型发布，而在代码审查、上下文可携带、本地推理和 Agent 权限治理。",
+  "generated_at": "2026-09-20T09:16:16+00:00",
+  "model": "gpt-5.5"
+}
