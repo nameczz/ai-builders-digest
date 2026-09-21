@@ -1,0 +1,148 @@
+{
+  "date": "2026-09-21",
+  "items": [
+    {
+      "id": "2026-09-21-1",
+      "title": "QA 要被 Agent 卷爆了",
+      "angle": "从 Vercel 的移动端复现案例切入，讲 AI 不只是写代码，而是在接管测试、部署、验证这条质量流水线。",
+      "opening": "一个移动端内嵌浏览器渲染 bug，人类 QA 可能要约设备、录屏、写复现步骤。Guillermo Rauch 看到的是另一件事：Agent 可以一路模拟、修复、部署到临时 Vercel，再用 iPhone 模拟器验证。软件质量的竞争，可能从“谁写得快”变成“谁验证得狠”。",
+      "story_hook": {
+        "challenge": "AI 编程工具的瓶颈不再是生成代码，而是能不能对结果负责、反复验证、留下审计痕迹。",
+        "twist": "最像爆款的不是聊天式 Copilot，而是阿里 open-code-review 这种把 LLM 拉回确定性流水线的工具。"
+      },
+      "takeaway": "开发团队要重新设计 PR 流程：规则先筛风险，LLM 做行级解释，Agent 负责复现和验证，而不是只让模型补几行代码。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Guillermo Rauch 谈 Agent 做软件测试和 QA",
+          "url": "https://x.com/rauchg/status/2101846262840799251"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub 高增长项目 alibaba/open-code-review 单周新增 15,504 星",
+          "url": "https://github.com/alibaba/open-code-review"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub 项目 cloudflare/security-audit-skill 日榜新增 2,428 星",
+          "url": "https://github.com/cloudflare/security-audit-skill"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-21-2",
+      "title": "别把半条命交给 Agent",
+      "angle": "从 Peter Yang 的个人智能体判断切入，讲下一轮竞争不是谁更聪明，而是谁能让技能、文件和上下文可迁移。",
+      "opening": "个人智能体还没分出胜负，但用户已经开始付出迁移成本。Peter Yang 的提醒很刺耳：如果你的技能和文件不能迁移，你会把半条命耗在换工具上。今天的 Agent 战争，表面是 Muse、ChatGPT、Grok、Google，底层其实是上下文资产的所有权。",
+      "story_hook": {
+        "challenge": "每个 Agent 都想成为入口，但用户真正积累的是私有文件、偏好、工作流和技能。",
+        "twist": "GitHub 上涨最快的不是又一个超级助手，而是 agent-skills、context-mode、worktree 管理这类“可迁移工程层”。"
+      },
+      "takeaway": "选 Agent 工具时要优先看导出、技能封装、权限边界和上下文管理，不要把长期资产锁在单一聊天窗口里。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Peter Yang 谈个人智能体、多人 AI 与可迁移资产",
+          "url": "https://x.com/petergyang/status/2101862331345154469"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub 项目 addyosmani/agent-skills 单周新增 3,986 星",
+          "url": "https://github.com/addyosmani/agent-skills"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub 项目 mksglu/context-mode 单周新增 1,242 星",
+          "url": "https://github.com/mksglu/context-mode"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-21-3",
+      "title": "Siri 输在一年一更",
+      "angle": "用苹果拥有设备、隐私和系统入口却迭代太慢的反差，讲 AI 产品的胜负正在从资源禀赋转向反馈速度。",
+      "opening": "苹果理论上最该赢：设备、系统、隐私口碑、用户习惯全在手里。但 Peter Yang 说，Siri 真正的问题是一年一更，而且不在 X 等平台直接吃用户反馈。AI 产品的护城河，可能正在从“我有入口”变成“我能不能每天改”。",
+      "story_hook": {
+        "challenge": "大平台握着分发和数据，却可能被更快迭代的小团队追上。",
+        "twist": "同一天 Product Hunt 和趋势词里，Jev、Google Labs CC 这类新 Agent 信号正在从零起飞。"
+      },
+      "takeaway": "做 AI 产品不要迷信入口优势，应该建立高频反馈回路：公开收集失败案例、快速发版、让用户看到能力变化。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Peter Yang 批评苹果和 Siri 迭代节奏过慢",
+          "url": "https://x.com/petergyang/status/2101865476145959373"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt 产品 Jev",
+          "url": "https://www.producthunt.com/products/jev-2"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Google Trends 新词 google labs cc family ai agent",
+          "url": "https://www.producthunt.com/products/google-labs"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-21-4",
+      "title": "AI 圈按天换皇帝",
+      "angle": "从 Matt Turck 对 Jev 与 Instinct 热度切换的吐槽切入，讲 Builder 如何识别注意力泡沫和真实产品信号。",
+      "opening": "上周中，大家还在吹 Instinct；今天，全网又在吹 Jev。Matt Turck 的吐槽不是八卦，而是一个残酷提醒：AI 圈的“时代更替”已经快到按天计。问题是，Builder 到底该追热点，还是拆解热点背后的结构性需求？",
+      "story_hook": {
+        "challenge": "AI 产品注意力周期越来越短，今天的爆款可能明天就被新名字盖掉。",
+        "twist": "Jev 的可写角度不在“又一个 Agent”，而在 AI 决策 API、发布前评估和高频小闭环这些更耐久的需求。"
+      },
+      "takeaway": "判断新产品不要只看声量，要拆成输入、输出、频率、预算和替代成本；能嵌进工作流的信号比社交热度更重要。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Matt Turck 谈 Jev 与 Instinct 的注意力切换",
+          "url": "https://x.com/mattturck/status/2101820308009206077"
+        },
+        {
+          "tag": "builders",
+          "ref": "Swyx 预告 Jev 上 Latent Space 播客",
+          "url": "https://x.com/swyx/status/2101873256097804529"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt 产品 Jev",
+          "url": "https://www.producthunt.com/products/jev-2"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-21-5",
+      "title": "Agent 最缺的是黑匣子",
+      "angle": "从 Aaron Levie 对 AI agent 冲击的玩笑切入，讲真正的创业机会可能是代理的防线、审计和运行时保护。",
+      "opening": "当一群 AI agent 开始替人点按钮、跑命令、改文件，问题就不再是“它能做什么”。Aaron Levie 那句“铜墙铁壁”背后，其实是企业最关心的事：Agent 到底碰了什么、越权了吗、出事能不能追责？今天最反直觉的机会，是给 Agent 装刹车和黑匣子。",
+      "story_hook": {
+        "challenge": "企业想用 Agent 提效，但安全、合规、权限和可观测性会先挡在门口。",
+        "twist": "SecAIQ Watch、Arcjet、security-audit-skill 同时出现，说明市场不是只要更强代理，也要能管住代理。"
+      },
+      "takeaway": "独立开发者可以从 Agent Activity Watch 做起：记录文件访问、命令执行、网络请求和权限变化，先服务已经试用 Claude Code、Codex、Cursor 的团队。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Aaron Levie 谈面对成群 AI agent 的防线",
+          "url": "https://x.com/levie/status/2101731574668747081"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt 产品 SecAIQ Watch",
+          "url": "https://www.producthunt.com/products/secaiq-watch"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt 产品 Arcjet",
+          "url": "https://www.producthunt.com/products/arcjet"
+        }
+      ]
+    }
+  ],
+  "notes": "今日最强编辑主线是 Agent 工程化：代码审查、QA、安全审计、上下文和技能管理都在升温。独立开发者素材偏少，但 builder 发声足够支撑“从聊天框转向可审计工作流”的判断。",
+  "generated_at": "2026-09-21T09:17:17+00:00",
+  "model": "gpt-5.5"
+}
