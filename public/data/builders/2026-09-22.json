@@ -1,0 +1,322 @@
+{
+  "date": "2026-09-22",
+  "generated_at": "2026-09-22T09:11:25+00:00",
+  "count": 21,
+  "items": [
+    {
+      "id": "9d7508a6de",
+      "date": "2026-09-22",
+      "source": "x",
+      "author": "Thibault Sottiaux",
+      "bio": "Codex & ChatGPT @OpenAI",
+      "title": "",
+      "summary_en": "Ladies and gentlemen... start... your... ENGINES. We are almost Tuesday and I promised a reset for Tuesday. Among some other things. See you soon.",
+      "summary_zh": "各位，准备发动引擎：周二快到了，我说过周二会重置，还有别的东西一起上。很快见。",
+      "url": "https://x.com/thsottiaux/status/2102254445082116335",
+      "posted_at": "2026-09-22T04:31:32.000Z",
+      "tags": [
+        "@thsottiaux"
+      ]
+    },
+    {
+      "id": "c2792f797f",
+      "date": "2026-09-22",
+      "source": "x",
+      "author": "Aaron Levie",
+      "bio": "ceo @box - your business lives in content. unleash it with AI",
+      "title": "",
+      "summary_en": "The monetization potential of personal agents that are transacting on your behalf you is quite significant.\n\nIf you imagine agents that are perfectly capable of handling an arbitrarily complex task end to end, then eventually a substantial amount of commerce inevitably goes through them. \n\nYou’ll start by slinging your daily simple and annoying tasks at the agent. Then as people get used to it, they’ll just start to throw more complex tasks at the agent, ultimately leading to even more spend through these systems than what they were doing before. If you can bring down the friction for commerce and services, then you end up spending even more. \n\nThis thus creates a ton of opportunity for the agent providers (Muse, etc.), but also completely new opportunities to build the layer that the agents want to interact with (commerce, local, b2b services, etc.). Win/win for multiple layers.",
+      "summary_zh": "个人 Agent 一旦能替你端到端办事，就会变成新的消费入口：越省事，人越敢把复杂任务和更多花钱决策丢给它。机会不只在 Agent 提供商，也在那些专门为 Agent 重写的商业、本地服务和 B2B 服务层。",
+      "url": "https://x.com/levie/status/2102253246807261579",
+      "posted_at": "2026-09-22T04:26:46.000Z",
+      "tags": [
+        "@levie"
+      ]
+    },
+    {
+      "id": "6a2e3a8ff8",
+      "date": "2026-09-22",
+      "source": "x",
+      "author": "Aaron Levie",
+      "bio": "ceo @box - your business lives in content. unleash it with AI",
+      "title": "",
+      "summary_en": "AI agents will use software 100X more than people ever did. Even as interfaces begin to fade into the background as you primarily interact with agents, those agents still need many of the core primitives that people have used.\n\nIn fact, in many ways these core primitives become even more important when agents can take destructive actions in our systems or where the context they’re accessing with make or break the workflow. This will be true of where you house your CRM or ERP or structured or unstructured data platforms.\n\nThe platforms that can best act as the security layer and guardrails for agents, manage the data for agents and people, and orchestrate the business logic for workflows have a huge opportunity right now. This is true for brand new startups as well as existing platforms that can move fast enough.",
+      "summary_zh": "AI 代理使用软件的频率会是人的 100 倍，界面退到幕后后，真正变得更关键的是权限、数据上下文和可执行的业务原语。\n\n谁能成为代理时代的安全层、数据层和业务编排层，谁就抓住了巨大机会；新创业公司有机会，跑得够快的老平台也有。",
+      "url": "https://x.com/levie/status/2102235949430354273",
+      "posted_at": "2026-09-22T03:18:02.000Z",
+      "tags": [
+        "@levie"
+      ]
+    },
+    {
+      "id": "c8a464f9d0",
+      "date": "2026-09-22",
+      "source": "x",
+      "author": "Garry Tan",
+      "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "title": "",
+      "summary_en": "If you really think about it Cluely as a realtime thought helper and semi-adversarial assistant with ongoing context is still a good idea https://t.co/HGeFe0ttBi",
+      "summary_zh": "认真想想，Cluely 这种带持续上下文的实时思考助手、半对抗式副驾，方向依然成立。",
+      "url": "https://x.com/garrytan/status/2102233173833007536",
+      "posted_at": "2026-09-22T03:07:00.000Z",
+      "tags": [
+        "@garrytan"
+      ]
+    },
+    {
+      "id": "50ca122d50",
+      "date": "2026-09-22",
+      "source": "x",
+      "author": "Peter Yang",
+      "bio": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6",
+      "title": "",
+      "summary_en": "I think we're in for a rude awakening in the ad markets:\n\nIf a huge part of your business is showing targeted display ads to humans what happens when agents browse your website and get the job done without a human seeing your ads at all?",
+      "summary_zh": "靠给真人展示定向广告赚钱的生意，可能要被 AI Agent 狠狠打醒：它们直接替用户逛网站、办完事，人连广告都不看一眼。",
+      "url": "https://x.com/petergyang/status/2102215701255844074",
+      "posted_at": "2026-09-22T01:57:35.000Z",
+      "tags": [
+        "@petergyang"
+      ]
+    },
+    {
+      "id": "cbb49db892",
+      "date": "2026-09-22",
+      "source": "x",
+      "author": "Guillermo Rauch",
+      "bio": "@vercel CEO",
+      "title": "",
+      "summary_en": "In addition to our type-safe TypeSafe @aisdk API (get it?), you can now use Jev over HTTP in AI Gateway https://t.co/u9OiIyILCE",
+      "summary_zh": "除了那个“类型安全到名字都叫 TypeSafe”的 @aisdk API，现在还能在 AI Gateway 里通过 HTTP 直接用 Jev。",
+      "url": "https://x.com/rauchg/status/2102205684544852121",
+      "posted_at": "2026-09-22T01:17:46.000Z",
+      "tags": [
+        "@rauchg"
+      ]
+    },
+    {
+      "id": "fc3f104f06",
+      "date": "2026-09-22",
+      "source": "x",
+      "author": "Thariq",
+      "bio": "Claude Code @anthropicai. prev YC W20, @spc, @medialab",
+      "title": "",
+      "summary_en": "I now type \"use big pictures and few words\" several times a day",
+      "summary_zh": "他现在每天都要反复敲“用大图，少废话”。这基本就是给 AI 生成内容的审美纠偏。",
+      "url": "https://x.com/trq212/status/2102186805034635576",
+      "posted_at": "2026-09-22T00:02:45.000Z",
+      "tags": [
+        "@trq212"
+      ]
+    },
+    {
+      "id": "56db90a8a9",
+      "date": "2026-09-22",
+      "source": "x",
+      "author": "Nikunj Kothari",
+      "bio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
+      "title": "",
+      "summary_en": "I have been using Codex as my primary \"agent\" for such a long time that I forget the average person has never used it..\n\nInstinct and Muse are great especially for browser use on the phone. It shows what a great agent is like for the masses with ZERO setup. \n\nBut, Codex on Mac is simply undefeated in all the work in can do with Computer Use (h/t @AriX and the Sky team). Like try doing a workflow that you do manually and give it Codex to one-shot. \n\nI can't wait to see what their latest launch will be as they reportedly get ready to release their \"agent\" to the masses. My only ask would be to showcase the work and make it easy for folks to get started.\n\nSuch a privileged time to be a customer for all these products - truly the golden age!",
+      "summary_zh": "",
+      "url": "https://x.com/nikunj/status/2102186665863463199",
+      "posted_at": "2026-09-22T00:02:12.000Z",
+      "tags": [
+        "@nikunj"
+      ]
+    },
+    {
+      "id": "d1220621ae",
+      "date": "2026-09-22",
+      "source": "x",
+      "author": "Peter Yang",
+      "bio": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6",
+      "title": "",
+      "summary_en": "ChatGPT Finances can help you spot charges you missed and get your money back.\n\nFrom Ethan, product lead for ChatGPT Finances:\n\n“I used points to book a hotel, and then they still billed me. I had no idea it happened but ChatGPT caught it, worked with customer service, and I ended up getting reimbursed.”\n\nI then shared with Ethan that I had a similar experience where I asked ChatGPT to cancel a hotel booking for my parents, monitor the replies, and keep following up until we got the money back.\n\n📌 Watch the full episode here: https://t.co/xSJd1OwSGT",
+      "summary_zh": "ChatGPT Finances 不只是记账，而是能替你盯出漏扣、误扣，甚至跟客服拉扯到退款到账。酒店积分订房还被收费这种事，人可能没发现，AI 先抓到了。",
+      "url": "https://x.com/petergyang/status/2102186174911746151",
+      "posted_at": "2026-09-22T00:00:15.000Z",
+      "tags": [
+        "@petergyang"
+      ]
+    },
+    {
+      "id": "5cdd6a3835",
+      "date": "2026-09-22",
+      "source": "x",
+      "author": "Peter Yang",
+      "bio": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6",
+      "title": "",
+      "summary_en": "Nah. I no longer live in email or text, I live in the chat with my agent(s). https://t.co/dh3JdEgVPN",
+      "summary_zh": "不，我已经不活在邮件或短信里了。我的工作和沟通入口，现在都在和智能体的聊天里。",
+      "url": "https://x.com/petergyang/status/2102181024507765167",
+      "posted_at": "2026-09-21T23:39:47.000Z",
+      "tags": [
+        "@petergyang"
+      ]
+    },
+    {
+      "id": "6e5548fabc",
+      "date": "2026-09-22",
+      "source": "x",
+      "author": "Swyx",
+      "bio": "achieve ambition with intentionality, intensity, integrity & insanity.  affiliations: - @smol_ai - @dxtipshq - @cognition - @aidotengineer - @latentspacepod",
+      "title": "",
+      "summary_en": "@latentspacepod @allenpark out now wherever fine podcasts are sold! \n\n(email, apple podcasts, youtube) \n\nhttps://t.co/AMwZCJ5IEK",
+      "summary_zh": "这期节目已经上线，所谓“高级播客售卖处”都能听到。说白了就是邮件、Apple Podcasts 和 YouTube。",
+      "url": "https://x.com/swyx/status/2102160025666101658",
+      "posted_at": "2026-09-21T22:16:21.000Z",
+      "tags": [
+        "@swyx"
+      ]
+    },
+    {
+      "id": "d0d384cb70",
+      "date": "2026-09-22",
+      "source": "x",
+      "author": "Nikunj Kothari",
+      "bio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
+      "title": "",
+      "summary_en": "Someone in my DMs asked for proof given my \"public\" Github doesn't have many green squares.. \n\nThere is more to me than what meets the eye 👀 https://t.co/FhWBYwtonM https://t.co/0E0pPeHCeE",
+      "summary_zh": "有人拿他公开 GitHub 没多少绿格子质疑实力，他直接甩证据：别用表面数据判断一个 builder。\n\n公开账号只是冰山一角，真正的活不一定都摆在你眼前。",
+      "url": "https://x.com/nikunj/status/2102136369191800888",
+      "posted_at": "2026-09-21T20:42:20.000Z",
+      "tags": [
+        "@nikunj"
+      ]
+    },
+    {
+      "id": "a888dad1c9",
+      "date": "2026-09-22",
+      "source": "x",
+      "author": "Guillermo Rauch",
+      "bio": "@vercel CEO",
+      "title": "",
+      "summary_en": "Game recognizing game https://t.co/CILOFbroWi",
+      "summary_zh": "高手一眼认出高手。真正会做事的人，不需要解释太多。",
+      "url": "https://x.com/rauchg/status/2102126936592191695",
+      "posted_at": "2026-09-21T20:04:51.000Z",
+      "tags": [
+        "@rauchg"
+      ]
+    },
+    {
+      "id": "9194b13b89",
+      "date": "2026-09-22",
+      "source": "x",
+      "author": "Amjad Masad",
+      "bio": "ceo @replit. civilizationist",
+      "title": "",
+      "summary_en": "AI is reviving the American Dream. https://t.co/H7T1Yzdm07",
+      "summary_zh": "AI 正在把“美国梦”从坟里拉回来。",
+      "url": "https://x.com/amasad/status/2102120769232978174",
+      "posted_at": "2026-09-21T19:40:21.000Z",
+      "tags": [
+        "@amasad"
+      ]
+    },
+    {
+      "id": "337b72de95",
+      "date": "2026-09-22",
+      "source": "x",
+      "author": "Peter Steinberger",
+      "bio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world. @OpenClaw🦞 + @OpenAI",
+      "title": "",
+      "summary_en": "Because this “Meta uses OpenClaw” story is going around. They built their own agent, being inspired. Nat and his team did a great job. Kudos! https://t.co/ZumVBrDKCh",
+      "summary_zh": "所谓“Meta 使用 OpenClaw”的说法不准确：他们是受启发后做了自己的 agent。",
+      "url": "https://x.com/steipete/status/2102116206371315854",
+      "posted_at": "2026-09-21T19:22:13.000Z",
+      "tags": [
+        "@steipete"
+      ]
+    },
+    {
+      "id": "70a4093887",
+      "date": "2026-09-22",
+      "source": "x",
+      "author": "Garry Tan",
+      "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "title": "",
+      "summary_en": "Example PR - here is https://t.co/0wdR9PPUB4 executing against a very ambitious bug fix wave on GBrain with very clear task delineation, automatic parallelization, and very clean Github PR and CI workflow. https://t.co/xURT9mkqvo",
+      "summary_zh": "这条 PR 展示了 Codex 在 GBrain 上处理一波高难度 bug 修复：任务拆得清楚、自动并行推进，GitHub PR 和 CI 流程也干净利落。  \n真正有价值的是，它不是在炫单点能力，而是在展示 AI builder 如何把复杂修复变成可并行、可审查、可落地的工程流水线。",
+      "url": "https://x.com/garrytan/status/2102096495847551011",
+      "posted_at": "2026-09-21T18:03:54.000Z",
+      "tags": [
+        "@garrytan"
+      ]
+    },
+    {
+      "id": "db5635e3bc",
+      "date": "2026-09-22",
+      "source": "x",
+      "author": "Garry Tan",
+      "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "title": "",
+      "summary_en": "Not really sure how @capydotai does it, but it really is able to track multi-step workflow and do large PRs faster than Codex or Claude Code on its own. My most favorite new agentic coding secret weapon in my arsenal the last week.",
+      "summary_zh": "@capydotai 能跟踪多步骤工作流、处理大 PR，速度比单独用 Codex 或 Claude Code 更快。过去一周，它已经成了我最顺手的 agentic coding 秘密武器。",
+      "url": "https://x.com/garrytan/status/2102095924893827501",
+      "posted_at": "2026-09-21T18:01:38.000Z",
+      "tags": [
+        "@garrytan"
+      ]
+    },
+    {
+      "id": "f4dfd0e0f7",
+      "date": "2026-09-22",
+      "source": "x",
+      "author": "Guillermo Rauch",
+      "bio": "@vercel CEO",
+      "title": "",
+      "summary_en": "I just gave Grok 4.7 a pretty hard problem, involving reverse-engineering a running binary. Beautifully solved. And it's so fast!",
+      "summary_zh": "Grok 4.7 刚漂亮地解决了一个相当硬核的问题：逆向分析正在运行的二进制文件。关键是，它还快得离谱。",
+      "url": "https://x.com/rauchg/status/2102089968860721335",
+      "posted_at": "2026-09-21T17:37:58.000Z",
+      "tags": [
+        "@rauchg"
+      ]
+    },
+    {
+      "id": "c86f295c59",
+      "date": "2026-09-22",
+      "source": "x",
+      "author": "Peter Steinberger",
+      "bio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world. @OpenClaw🦞 + @OpenAI",
+      "title": "",
+      "summary_en": "Proud to say that we did our homework. They found nothing critical. https://t.co/UT152Oggpj",
+      "summary_zh": "我们做足了功课，对方没查出任何关键问题。",
+      "url": "https://x.com/steipete/status/2102049706830647467",
+      "posted_at": "2026-09-21T14:57:58.000Z",
+      "tags": [
+        "@steipete"
+      ]
+    },
+    {
+      "id": "73ab12e637",
+      "date": "2026-09-22",
+      "source": "x",
+      "author": "Nikunj Kothari",
+      "bio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
+      "title": "",
+      "summary_en": "With a few exceptions, the companies boasting about tokenmaxxing have the worst product experiences..\n\nIt’s because good products are all about curation &amp; gardening and not throwing the kitchen sink at agents expecting them to figure it out. \n\nLess is more has never more apt.",
+      "summary_zh": "少数例外之外，最爱吹“tokenmaxxing”的公司，产品体验往往最烂。好产品靠的是策展和打磨，不是把一切都塞给 Agent 让它自己猜；“少即是多”从没这么贴切。",
+      "url": "https://x.com/nikunj/status/2102049065504739366",
+      "posted_at": "2026-09-21T14:55:26.000Z",
+      "tags": [
+        "@nikunj"
+      ]
+    },
+    {
+      "id": "3606f2b381",
+      "date": "2026-09-22",
+      "source": "x",
+      "author": "Peter Steinberger",
+      "bio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world. @OpenClaw🦞 + @OpenAI",
+      "title": "",
+      "summary_en": "The beauty of running a claw yourself: they cannot block you. https://t.co/WKSs0TwM8f",
+      "summary_zh": "自己跑一套 Claw 的爽点很简单：他们想封也封不了你。",
+      "url": "https://x.com/steipete/status/2102044040397238286",
+      "posted_at": "2026-09-21T14:35:27.000Z",
+      "tags": [
+        "@steipete"
+      ]
+    }
+  ]
+}
