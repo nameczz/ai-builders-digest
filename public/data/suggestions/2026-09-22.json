@@ -1,0 +1,148 @@
+{
+  "date": "2026-09-22",
+  "items": [
+    {
+      "id": "2026-09-22-1",
+      "title": "AI广告会先杀死广告",
+      "angle": "从 Agent 绕过网页广告与 coding agent 内售卖开发者注意力的反差切入。",
+      "opening": "Peter Yang 说，AI Agent 替你逛网站、办完事，人可能连广告都不看一眼。但 Product Hunt 上已经有人反过来卖「coding agent 里的 50 万开发者触达」。广告没死，它可能只是从网页搬进了工作流入口。",
+      "story_hook": {
+        "challenge": "传统广告依赖真人看页面，但 Agent 正在替真人跳过页面。",
+        "twist": "最先被 Agent 冲击的广告模式，反而可能在 Agent 内部重生。"
+      },
+      "takeaway": "判断 AI 产品商业模式时，不要只看订阅费，要看它是否掌握高频工作流入口和可售卖的注意力。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Peter Yang 关于 AI Agent 绕过广告的推文",
+          "url": "https://x.com/petergyang/status/2102215701255844074"
+        },
+        {
+          "tag": "builders",
+          "ref": "Aaron Levie 关于个人 Agent 成为消费入口的推文",
+          "url": "https://x.com/levie/status/2102253246807261579"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt: Freebuff Ads 面向 coding agent 内 500k developers 售卖广告",
+          "url": "https://www.producthunt.com/products/freebuff-2"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-22-2",
+      "title": "AI写完代码，轮到审代码",
+      "angle": "从 coding agent 热潮外溢到代码审查、CI 和工程流水线切入。",
+      "opening": "今天最硬的信号不是又一个代码助手，而是 Alibaba 的 open-code-review 一周新增 14499 stars。Garry Tan 也在展示 Codex 如何把复杂 bug 修复拆成可并行、可审查、可落地的 PR 流程。AI coding 的下一站，可能不是写得更快，而是把风险挡在合并前。",
+      "story_hook": {
+        "challenge": "AI 生成代码越多，团队越难人工审完所有改动。",
+        "twist": "真正爆发的机会不在生成端，而在审查、安全和工程治理端。"
+      },
+      "takeaway": "开发者产品可以避开正面挑战 Cursor/Codex，转向 PR 风险扫描、规则市场、审计日志和 GitHub App 集成。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Garry Tan 关于 Codex 处理 GBrain 高难度 bug 修复 PR 的推文",
+          "url": "https://x.com/garrytan/status/2102096495847551011"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub Weekly: alibaba/open-code-review 一周新增 14499 stars",
+          "url": "https://github.com/alibaba/open-code-review"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Google Trends: open code review 上升 362.8%",
+          "url": "https://trends.google.com/trends/explore?q=open+code+review&date=now+7-d"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-22-3",
+      "title": "Agent记忆不是越多越好",
+      "angle": "从 agent memory 产品扎堆与 builder 对 tokenmaxxing 的反感切入。",
+      "opening": "Product Hunt 今天同时出现 Contextberg、ResumeContext、Valori，全部都在卖 Agent 记忆。但 Nikunj Kothari 的提醒更刺耳：最爱吹 tokenmaxxing 的公司，产品体验往往最烂。记忆层的价值不是塞更多上下文，而是知道什么该忘。",
+      "story_hook": {
+        "challenge": "Agent 需要长期上下文，但无限堆上下文会让体验变慢、变贵、变乱。",
+        "twist": "真正稀缺的不是记忆容量，而是策展、压缩和可控注入。"
+      },
+      "takeaway": "做 agent memory 不要卖「无限上下文」，要卖 repo brief、偏好规则、历史决策摘要和跨工具 handoff。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Nikunj Kothari 关于 tokenmaxxing 与产品体验的推文",
+          "url": "https://x.com/nikunj/status/2102049065504739366"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt: Contextberg 私有 AI agents 记忆",
+          "url": "https://www.producthunt.com/products/contextberg"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub: mksglu/context-mode 强调减少 98% 上下文占用",
+          "url": "https://github.com/mksglu/context-mode"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-22-4",
+      "title": "智能体也开始反SaaS",
+      "angle": "从自托管、防封锁和开源替代品热度切入 Agent 基础设施的控制权问题。",
+      "opening": "Peter Steinberger 说，自己跑一套 Claw 的爽点很简单：他们想封也封不了你。与此同时，self hosted 搜索上升 91.9%，OpenStock、LibreChat 这类开源替代品继续涨。Agent 越像工作入口，用户越不想把它完全交给某个 SaaS。",
+      "story_hook": {
+        "challenge": "Agent 一旦接入代码、知识库、浏览器和财务数据，平台锁定风险会急剧变高。",
+        "twist": "开源替代品不只是省钱工具，而是在卖控制权和可迁移性。"
+      },
+      "takeaway": "闭源 AI 工具必须用运维省心、权限治理和企业合规证明价值；开源项目则应尽快补托管、审计和团队功能。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Peter Steinberger 关于自跑 Claw 防封锁的推文",
+          "url": "https://x.com/steipete/status/2102044040397238286"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Google Trends: self hosted 上升 91.9%",
+          "url": "https://trends.google.com/trends/explore?q=self+hosted&date=now+7-d"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub: danny-avila/LibreChat 自托管 AI 平台",
+          "url": "https://github.com/danny-avila/LibreChat"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-22-5",
+      "title": "聊天框正在吞掉工作入口",
+      "angle": "从邮件、浏览器、Mac 操作和 Computer Use 汇合到 Agent 工作入口切入。",
+      "opening": "Peter Yang 说，他已经不活在邮件或短信里，工作和沟通入口都在和智能体的聊天里。Nikunj Kothari 则说，Codex on Mac 配合 Computer Use 在真实工作流里几乎无敌。问题不再是 Agent 会不会回答，而是它能不能接管你每天真正打开的入口。",
+      "story_hook": {
+        "challenge": "过去的软件入口是邮件、浏览器、IDE 和各种 SaaS 页面。",
+        "twist": "Agent 不是新增一个入口，而是在把旧入口折叠进聊天和自动化执行层。"
+      },
+      "takeaway": "做 AI 应用时，优先思考它能接管哪个高频入口：邮箱、PR、浏览器、会议、财务，或团队知识库。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Peter Yang 关于工作入口转向智能体聊天的推文",
+          "url": "https://x.com/petergyang/status/2102181024507765167"
+        },
+        {
+          "tag": "builders",
+          "ref": "Nikunj Kothari 关于 Codex on Mac 与 Computer Use 的推文",
+          "url": "https://x.com/nikunj/status/2102186665863463199"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub: trycua/cua 浏览器与本地 Computer Use 方向",
+          "url": "https://github.com/trycua/cua"
+        }
+      ]
+    }
+  ],
+  "notes": "今天素材高度集中在 agent 工程化、工作流入口和控制权问题；HN 数据为空，消费级爆款素材偏少。",
+  "generated_at": "2026-09-22T09:17:22+00:00",
+  "model": "gpt-5.5"
+}
