@@ -1,0 +1,148 @@
+{
+  "date": "2026-09-23",
+  "items": [
+    {
+      "id": "2026-09-23-1",
+      "title": "代码审查成了Agent第一战场",
+      "angle": "从“AI 会写代码”切到“AI 能不能发现人类看不见的并发、状态和安全 bug”。",
+      "opening": "Boris Cherny 用 Opus 5.5 加 Lean 正式验证 Claude Agent SDK，几句提示就挖出一堆数据流、并发和状态管理问题，最后变成 16 个修 bug 的 PR。另一边，GitHub 上 open-code-review 本周暴涨 12590 星。Agent 真正进入工程交付链，第一站不是聊天框，而是审查席。",
+      "story_hook": {
+        "challenge": "团队想让 Agent 写更多代码，但真正害怕的是它把不可见的 bug 带进生产环境。",
+        "twist": "最有价值的 Agent 用法可能不是生成代码，而是用形式化验证和规则化审查把人类漏掉的问题挖出来。"
+      },
+      "takeaway": "开发者可以先从垂直代码审查规则集做起，把 NPE、SQL 注入、线程安全、迁移风险和测试缺口做成可复用的 Agent 工作流。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Boris Cherny 用 Opus 5.5 + Lean 验证 Claude Agent SDK，产出 16 个修 bug PR",
+          "url": "https://x.com/bcherny/status/2102543349102338309"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub 本周高增长项目 alibaba/open-code-review，新增 12590 星",
+          "url": "https://github.com/alibaba/open-code-review"
+        },
+        {
+          "tag": "pulse",
+          "ref": "今日行动建议：2 小时做 code review prompt pack",
+          "url": "https://github.com/anthropics/claude-code"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-23-2",
+      "title": "模型降价后，工作流才爆炸",
+      "angle": "把前沿模型价格战解释成 Agent 工作流爆发的成本拐点，而不是单纯的跑分新闻。",
+      "opening": "Guillermo Rauch 贴出最新 Next.js 评测：Opus 5.5、GPT 6 Sol、Fable 5.1 都是 97%，Grok 4.7 也有 94%，但便宜 2 到 7 倍。Aaron Levie 直接把这叫做 Agent 版杰文斯悖论：token 越便宜，用量越会爆炸。真正的变化不是模型更聪明，而是以前不敢自动化的流程突然算得过账了。",
+      "story_hook": {
+        "challenge": "过去很多 Agent 场景不是做不到，而是每一步都太贵，没人敢把它放进真实工作流。",
+        "twist": "价格下降不会让大家少花钱，反而会让代码安全、日志分析、数据处理和多 Agent 调度成倍增长。"
+      },
+      "takeaway": "选题可以提醒读者重新评估自己产品里的高频任务：凡是过去因为 token 成本没法持续跑的评测、审查、路由和监控，现在都值得重算 ROI。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Guillermo Rauch：Next.js 评测里 Grok 4.7 分数接近但便宜 2 到 7 倍",
+          "url": "https://x.com/rauchg/status/2102519097770885231"
+        },
+        {
+          "tag": "builders",
+          "ref": "Aaron Levie：AI 前沿模型价格暴跌带来 Agent 版杰文斯悖论",
+          "url": "https://x.com/levie/status/2102477253070430322"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Google Trends：ai agent 近 7 天上涨 51.6%",
+          "url": "https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-23-3",
+      "title": "软件不会死，只会被重生成",
+      "angle": "从 Google Reader 这类已死产品切入，讨论 AI 让软件从公司资产变成个人可生成资产。",
+      "opening": "Guillermo Rauch 说，软件不会再死了：喜欢 Google Reader？自己生成、部署一个，归你，永远归你。这句话听起来像情怀，背后却是一个更硬的趋势：agent-skills、ECC、GBrain 这类项目都在把软件能力拆成可复用技能、记忆和工具链。未来很多产品不会被复刻成一个完整 SaaS，而会被重组成你的私人工作流。",
+      "story_hook": {
+        "challenge": "传统软件一旦公司关闭、API 下线、团队转向，用户只能被迫迁移。",
+        "twist": "AI 生成软件让“产品死亡”变得没那么绝对，真正稀缺的反而是技能、数据、权限和部署闭环。"
+      },
+      "takeaway": "读者可以把怀旧产品当成原型库：不要只复刻界面，而要拆出它的核心信息流、规则和长期记忆，再用 Agent 技能包重建。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Guillermo Rauch：软件不会再死，喜欢 Google Reader 就自己生成部署一个",
+          "url": "https://x.com/rauchg/status/2102594015669756323"
+        },
+        {
+          "tag": "pulse",
+          "ref": "addyosmani/agent-skills 本周新增 4224 星，总星数 98562",
+          "url": "https://github.com/addyosmani/agent-skills"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt：GBrain 做跨 AI 的 memory、tools、skills",
+          "url": "https://www.producthunt.com/products/gbrain"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-23-4",
+      "title": "Cursor替代品心智在塌",
+      "angle": "用搜索趋势反差说明：开发者不再寻找“某某替代品”，而是在寻找迁移后的 Agent 管理层。",
+      "opening": "今天最反直觉的数据是：cursor alternative 近 7 天下跌 73.9%，但 claude code 和 codex cli 还在上涨。用户不是不写 AI 代码了，而是已经过了“我要换哪个 IDE”的阶段，开始关心任务、成本、权限、日志和评测怎么统一管理。Garry Tan 说 Capy 让他提 PR 的速度暴涨，这类产品真正卖的也不是编辑器，而是多 Agent 的执行效率。",
+      "story_hook": {
+        "challenge": "如果还把产品定位成 Cursor 替代品，就会撞进一个快速降温的搜索心智。",
+        "twist": "更大的机会在替用户管理已经迁移后的 Agent 生态，而不是劝他再换一次工具。"
+      },
+      "takeaway": "独立开发者应少写“替代 Cursor”，多写“统一 Claude Code、Codex、Cline、Orca 的任务、权限、成本和回滚”。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Garry Tan：Capy 让他提 PR 的速度比单用 Codex 或 Claude Code 快得多",
+          "url": "https://x.com/garrytan/status/2102544711647129902"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Google Trends：cursor alternative 近 7 天下跌 73.9%",
+          "url": "https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d"
+        },
+        {
+          "tag": "pulse",
+          "ref": "stablyai/orca 本周新增 6205 星，定位为并行 Agent 的 ADE",
+          "url": "https://github.com/stablyai/orca"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-23-5",
+      "title": "融资头条越来越像烟幕弹",
+      "angle": "把 SPV、分层估值和 Agent 基建热放在一起，看 AI 创业公司真正该讲什么账本。",
+      "opening": "Nikunj Kothari 今天泼了一盆冷水：连顶级投资人都在疯狂组 SPV，大额融资新闻里的主基金领投，可能有相当一部分其实来自 SPV。另一边，YC 和 Product Hunt 的信号却很清楚：AgentScore、Solid、Koreshield 这类项目都在讲评分、账号、预算和安全。资本故事越花，产品故事反而越要窄。",
+      "story_hook": {
+        "challenge": "AI 创业圈的融资头条越来越难判断真假，估值、收入和领投结构都可能被包装。",
+        "twist": "真正可写的不是谁融了多少钱，而是谁抓住了 Agent 自动化里的持续控制点。"
+      },
+      "takeaway": "读者判断 AI 项目时，应少看融资金额，多看它是否控制了持续发生的环节：评测、预算、权限、安全证据或分销归因。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Nikunj Kothari：融资新闻里的主基金领投可能混入大量 SPV，真实账本没人看得到",
+          "url": "https://x.com/nikunj/status/2102534909076349291"
+        },
+        {
+          "tag": "pulse",
+          "ref": "AgentScore 做每日 Agent 分数，适合按项目数或评测次数收费",
+          "url": "https://www.producthunt.com/products/latitude-4"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Solid 给 Agent 配电脑、账号和预算，把执行资源变成可管理对象",
+          "url": "https://www.producthunt.com/products/solid-3"
+        }
+      ]
+    }
+  ],
+  "notes": "今日主线是 Agent 工程化和成本拐点。独立开发者素材偏少，但 builder 侧关于模型降价、代码审查、软件生成和融资噪音的观点足够支撑 4-5 个锋利选题。",
+  "generated_at": "2026-09-23T09:17:53+00:00",
+  "model": "gpt-5.5"
+}
