@@ -1,0 +1,279 @@
+{
+  "date": "2026-09-23",
+  "generated_at": "2026-09-23T00:47:08+00:00",
+  "inbox_id": "sanyoumu@agentmail.to",
+  "window": {
+    "start": "2026-09-22T00:47:16+00:00",
+    "end": "2026-09-23T00:45:32.282166+00:00",
+    "source": "previous_digest_generated_at"
+  },
+  "count": 8,
+  "highlights": [
+    "今日精读：小米 MiMo-V2.6-Pro 进入开放权重前沿模型竞争，重点不只是模型本身，而是其多任务 RL 环境、训练配方和 agent harness 的开放。",
+    "Google ERA 把科学问题抽象为“可打分任务”，用 LLM 变异实验 notebook，显示 AI for Science 正在从辅助写作走向自动实验搜索。",
+    "Meta Muse 被 Amazon 阻断，暴露 agent 产品的核心瓶颈：能力不等于平台许可，未来可能出现面向 agent 的访问费和授权层。",
+    "OpenAI、Anthropic、Grok、MiMo 等消息共同指向一个趋势：AI 正在参与下一代 AI 的研发、评测和优化流程。",
+    "产品与设计侧的重点从“会用 AI”转向“把 AI 嵌入工作流、设计系统、视觉验证和用户真实省力指标”。"
+  ],
+  "items": [
+    {
+      "id": "ainews-xiaomi-mimo-v26-open-weights",
+      "title_zh": "小米 MiMo-V2.6-Pro：开放权重模型竞争的新变量",
+      "title_original": "[AINews] Xiaomi MiMo-V2.6-Pro 1T-A42B: the new top Open Weights model, trained for $3M",
+      "source": "AINews",
+      "from": "AINews <swyx+ainews@substack.com>",
+      "subject": "[AINews] Xiaomi MiMo-V2.6-Pro 1T-A42B: the new top Open Weights model, trained for $3M",
+      "url": "https://www.latent.space/p/ainews-xiaomi-mimo-v26-pro-1t-a42b",
+      "message_id": "<20260922063057.3.acc490c30aad858c@mg-d0.substack.com>",
+      "published_at": "2026-09-22T06:30:57.000Z",
+      "importance": "high",
+      "summary_zh": "这期 AINews 聚焦小米 MiMo-V2.6 系列，尤其是 MiMo-V2.6-Pro：一个原生全模态、面向 agent 和复杂任务训练的开放权重模型。最值得注意的不是单点 benchmark，而是小米披露并计划开源的训练环境、奖励机制、任务 harness 和 RL 配方，覆盖编码、通用 agent、视觉、网络安全、网页开发和音乐生成等场景。对 builder 来说，这意味着开放模型竞争正在从“谁的模型分数高”推进到“谁能开放可复用的训练与评测基础设施”。",
+      "deep_read_zh": "这封邮件把小米 MiMo-V2.6-Pro 放在开放权重生态的关键位置上。小米过去并不在外界熟悉的中国前沿 AI 实验室名单里，但这次发布的 MiMo-V2.6 系列显示，它正在以手机厂商之外的身份进入模型竞争。邮件强调 MiMo-V2.6-Pro 是小米目前最强模型，Flash 版本主打智能、效率和成本平衡，另有 UltraSpeed 版本在同质量下追求更快输出。真正值得精读的是其训练方法：小米沿三个方向扩大 RL compute，包括更大的 batch 和更高吞吐、覆盖编码/通用 agent/视觉/网络安全等更多任务和环境，以及更多 grader compute，用相对比较给长程任务提供更丰富的奖励信号。邮件还提到，小米会开放环境代码、训练 recipe、任务 harness、数据加载器、奖励实现、网络安全复现环境、网页开发 grading、音乐 scorer 和共享环境适配器，但完整 7000 多个任务数据集尚未释放。这里的隐含判断是：开放模型的壁垒正在从权重本身转向可复现的后训练系统。对独立开发者和 AI infra builder 来说，如果这些环境真的可用，它们可能成为构建垂直 agent、自动评测和自改进系统的基础组件。需要继续关注的是模型能力是否经得起第三方复测，开放代码是否足够完整，以及多任务 RL 是否会形成新的开放生态标准。",
+      "why_important": "它把开放模型竞争推进到训练环境和 agent 评测基础设施层面，而不只是模型权重发布。对想基于开放模型做产品、自动化研发或垂直 agent 的团队，这类开放 RL 工具链可能比单次模型分数更有长期价值。",
+      "impact": "builder 可以关注这些 harness 是否能复用到自己的任务评测和后训练流程中。行业上，中国开放权重生态的竞争者名单可能继续扩大，模型公司和硬件/终端公司之间的边界会更模糊。",
+      "key_points": [
+        "MiMo-V2.6 系列包括 Pro、Flash 和 UltraSpeed 版本，定位覆盖能力、成本和速度。",
+        "训练扩展重点包括大 batch、高吞吐、多任务环境和更多 grader compute。",
+        "任务环境覆盖编码、通用 agent、视觉、网络安全、网页开发和音乐生成。",
+        "小米计划开放环境代码和训练 recipe，但完整 7000 多个任务数据集尚未发布。",
+        "邮件认为这对既有中国前沿模型格局是一个意外变量。"
+      ],
+      "reading_notes": [
+        "不要只看模型榜单，要看开放的训练环境是否真的可运行、可复现、可迁移。",
+        "关注多任务 RL 是否会带来跨任务能力迁移，还是只是在特定 harness 上优化。",
+        "对 builder 来说，最可复用的资产可能是 grader、reward 和环境适配层。",
+        "留意 TLDR AI 对同一发布的补充：模型已进入多个产品/API/路由平台。"
+      ],
+      "tags": [
+        "model",
+        "open-source",
+        "agent",
+        "rl",
+        "infra"
+      ],
+      "related_sources": [
+        "TLDR AI 同日也报道了 Xiaomi MiMo-V2.6 Pro 和 Flash 的发布与开放技术材料。"
+      ]
+    },
+    {
+      "id": "latent-space-john-platt-era-ai-science",
+      "title_zh": "Google ERA：把科学问题变成可搜索、可优化的实验树",
+      "title_original": "An Oscar, Two Asteroids, and the Algorithm in Your sklearn: John Platt on AI for Science",
+      "source": "Latent.Space",
+      "from": "Latent.Space <swyx@substack.com>",
+      "subject": "🔬 An Oscar, Two Asteroids, and the Algorithm in Your sklearn: John Platt on AI for Science",
+      "url": "https://www.latent.space/p/john-platt",
+      "message_id": "<20260922210739.3.c15079b53345c714@mg-d0.substack.com>",
+      "published_at": "2026-09-22T21:07:39.000Z",
+      "importance": "high",
+      "summary_zh": "Latent.Space 访谈 John Platt，重点介绍 Google 的 Empirical Research Assistance（ERA）：把许多科学问题抽象为“可打分任务”，再让 Gemini 在实验 notebook 树上做变异和搜索，用类似 Monte Carlo Tree Search 与 UCB 的方式选择有潜力的分支继续探索。邮件强调 ERA 在 Gemini 2.0 到 2.5 之间出现明显能力跃迁，已经帮助产出多篇论文，也用于气候等科学问题。关键提醒是：ERA 给的是预测模型和优化结果，科学家仍要判断它是否真正描述了现实，避免被分数函数误导。",
+      "why_important": "它展示了 AI for Science 的一个务实范式：不是让模型直接“发现真理”，而是把实验、评分和搜索自动化。对做科研工具、自动实验平台和数据科学 agent 的 builder 很有参考价值。",
+      "impact": "未来科学软件可能围绕 score function、实验树、自动变异和验证闭环重构。产品上，谁能帮用户定义好评分函数和防止过拟合，谁就更接近真正可用的科研 agent。",
+      "key_points": [
+        "ERA 把问题建模为给定 score function 后寻找最大化代码的过程。",
+        "系统维护 notebook 实验树，选择分支并让 Gemini 生成多个变异。",
+        "John Platt 强调 ERA 是强力工具，但可能因错误评分或验证不足误导研究。"
+      ],
+      "reading_notes": [],
+      "tags": [
+        "ai-science",
+        "agent",
+        "research",
+        "optimization"
+      ],
+      "related_sources": [
+        "AI Valley 和 TLDR AI 同日也提到 AI 正在参与下一代 AI 与科研问题求解。"
+      ],
+      "deep_read_zh": ""
+    },
+    {
+      "id": "the-neuron-amazon-blocks-meta-muse",
+      "title_zh": "Amazon 阻断 Meta Muse：agent 时代的许可问题浮出水面",
+      "title_original": "Why Amazon blocked Meta’s Muse",
+      "source": "The Neuron",
+      "from": "The Neuron <theneuron@newsletter.theneurondaily.com>",
+      "subject": "😺 Why Amazon blocked Meta’s Muse",
+      "url": "",
+      "message_id": "<W2LcIlbQTQahDS3JcTGrCA@geopod-ismtpd-99>",
+      "published_at": "2026-09-22T10:31:54.000Z",
+      "importance": "high",
+      "summary_zh": "The Neuron 今天的主线是 Amazon 阻止 Meta Muse 在 Amazon.com 上代用户购物。Amazon 的理由包括 Meta 未获授权访问、agent 浏览时没有清晰标识自身，以及凭证处理存在安全担忧；Meta 则称 Muse 在专用安全虚拟机中运行，并在敏感操作前请求用户批准。邮件把这个事件提炼为 agent 产品的核心矛盾：技术上能操作网站，不代表平台允许你操作。Shopify 迅速与 Muse 展开更深合作，说明中小服务商可能更愿意开放 agent 入口，而 Amazon 这类强平台有动力守住客户关系。",
+      "why_important": "它把 agent 从 demo 带回商业现实：权限、身份、凭证、安全和平台利益分配会决定 agent 能不能真正完成任务。",
+      "impact": "builder 做购物、预订、表单和办公 agent 时，需要提前设计平台授权、审计和失败路径。行业可能出现面向 agent 的 API、白名单、付费访问或新的“agent toll”。",
+      "key_points": [
+        "Muse 可以浏览网页并代表用户采取行动，但被 Amazon 判定为未授权第三方 agent。",
+        "Shopify 选择与 Muse 深度合作，形成与 Amazon 不同的平台策略。",
+        "未来 agent 竞争可能转向谁掌握用户关系和 checkout。"
+      ],
+      "reading_notes": [],
+      "tags": [
+        "agent",
+        "platform",
+        "commerce",
+        "security"
+      ],
+      "related_sources": [
+        "TLDR AI 也报道了 Meta Muse 下载量和隐私争议。"
+      ],
+      "deep_read_zh": ""
+    },
+    {
+      "id": "ai-valley-ai-building-next-ai",
+      "title_zh": "AI 参与构建下一代 AI：递归自我改进仍需人类闭环",
+      "title_original": "AI is now building the next AI",
+      "source": "AI Valley",
+      "from": "AI Valley <aivalley@mail.beehiiv.com>",
+      "subject": "AI is now building the next AI",
+      "url": "https://www.theaivalley.com/",
+      "message_id": "<20260922.144745.7b3f93f2@mta17>",
+      "published_at": "2026-09-22T14:47:45.000Z",
+      "importance": "medium",
+      "summary_zh": "AI Valley 今天围绕“AI 正在构建下一代 AI”展开，引用 OpenAI 据称自动化实验模型训练、Anthropic 称 AI 主导 26% 的研发工作并参与 90% 的协作，以及 METR 用人类专家任务时长衡量模型自主能力增长的观察。邮件也提到 OpenAI 称一个内部新模型在训练 24 天后解决了 100 多个长期数学开放问题，并因此成立由 Edward Witten、Timothy Gowers、Martin Hairer 等参与的独立数学顾问组。整体基调是：递归自我改进还没有脱离人类，但 AI 在研发链条中的占比正在快速上升。",
+      "why_important": "这封邮件把多个信号放在一起，说明模型研发本身正在被 AI 工具化和自动化。",
+      "impact": "AI builder 需要关注研发流程的自动化能力，而不是只关注终端模型能力。对行业而言，评测、验证、数学审查和安全标准会变得更关键。",
+      "key_points": [
+        "Anthropic 称 AI 已主导 26% 的 R&D 工作并参与 90% 的协作。",
+        "METR 用可自主完成的人类专家任务时长追踪模型能力增长。",
+        "OpenAI 的数学突破说法仍需独立顾问组审查。"
+      ],
+      "reading_notes": [],
+      "tags": [
+        "model",
+        "research",
+        "rsi",
+        "evaluation"
+      ],
+      "related_sources": [
+        "TLDR AI 的《The Business of Building God》也讨论了递归自我改进与 AI 实验室商业约束。"
+      ],
+      "deep_read_zh": ""
+    },
+    {
+      "id": "tldr-ai-frontier-open-models-agent-economics",
+      "title_zh": "TLDR AI：Grok 4.7、MiMo 开源与开放模型经济性",
+      "title_original": "Opus 5.5 imminent ⏳, Grok 4.7 🚀, MiMo v2.6 🤖",
+      "source": "TLDR AI",
+      "from": "TLDR AI <dan@tldrnewsletter.com>",
+      "subject": "Opus 5.5 imminent ⏳, Grok 4.7 🚀, MiMo v2.6 🤖  ",
+      "url": "https://refer.tldr.tech/0a897003/2",
+      "message_id": "<010001a0c94f285b-b2674a7a-1b85-43f0-be18-25fd969c2ae6-000000@email.amazonses.com>",
+      "published_at": "2026-09-22T13:30:03.000Z",
+      "importance": "high",
+      "summary_zh": "TLDR AI 汇总了多条前沿模型和 AI 经济结构消息：Grok 4.7 面向编码和知识工作，价格为每百万输入 token 2 美元、输出 token 6 美元；小米开源 MiMo-V2.6 Pro 和 Flash，并发布技术报告、训练环境和 RL 代码；Anthropic 据称在外部测试 Fable 5.2 和 Opus 5.5；Meta Muse 上线后下载量超过 ChatGPT、Grok 和 Claude，但也引发隐私和平台阻断问题。深度阅读部分还讨论开放模型与闭源模型差距缩小、agent swarm 的速度与效率权衡、智能能力被拆分成更便宜的专用模块，以及 AI 实验室商业模式的普通约束。",
+      "why_important": "这封邮件把模型发布、开放生态、agent 产品和 AI 成本结构放在同一天视野中，适合判断行业短期方向。",
+      "impact": "builder 选型会更重视价格、路由、专用模型和开放权重可控性。多 agent 系统未必更省 token，但在高时间价值任务中可能有产品优势。",
+      "key_points": [
+        "Grok 4.7 主打编码和知识工作，并强调自验证与安全防护。",
+        "MiMo-V2.6 发布开放训练环境和 RL 代码，是开放模型生态的重要增量。",
+        "开放模型经济性、能力拆分和 agent swarm 成为本期分析重点。"
+      ],
+      "reading_notes": [],
+      "tags": [
+        "model",
+        "open-source",
+        "agent",
+        "economics"
+      ],
+      "related_sources": [
+        "AINews 对 MiMo-V2.6 做了更深入的单篇分析。",
+        "The Neuron 对 Meta Muse 的平台冲突做了更完整解读。"
+      ],
+      "deep_read_zh": ""
+    },
+    {
+      "id": "tldr-design-ai-design-workflows",
+      "title_zh": "TLDR Design：AI 设计工作流从生成走向验证和协作",
+      "title_original": "Adobe Hover Patent 🖱️, Claude Projects 🤖, iPhone Redesign 📱",
+      "source": "TLDR Design",
+      "from": "TLDR Design <dan@tldrnewsletter.com>",
+      "subject": "Adobe Hover Patent 🖱️, Claude Projects 🤖, iPhone Redesign 📱",
+      "url": "https://refer.tldr.tech/3bc21e1b/4",
+      "message_id": "<010001a0c9060196-7a60bb3a-48cf-408d-a63a-b12e097ffb96-000000@email.amazonses.com>",
+      "published_at": "2026-09-22T12:10:09.000Z",
+      "importance": "medium",
+      "summary_zh": "TLDR Design 今天关注 AI 如何进入设计和开发协作链路。Adobe 的专利设想根据鼠标悬停对象的上下文自动生成 AI prompt，并提前生成内容以降低点击后的等待；Claude Code Projects 从文件夹概念转向由协调器分解请求、并行分支执行、审查并组装结果的协作模式；Help Scout 的案例强调用 design.md 和更适合 LLM 理解的设计系统，让设计师能编码组件并把部分改进推到生产。Applitools 与 Figma 的集成则把设计稿变成视觉测试基线，让 coding agent 能发现实现与设计的偏差。",
+      "why_important": "设计侧的 AI 价值正在从“生成素材”转向“理解上下文、并行执行、保持设计一致性和自动验收”。",
+      "impact": "产品团队需要把设计系统整理成机器可读资产，并把视觉回归测试纳入 AI 编码流程。未来设计师与 agent 的协作边界会更接近产品工程。",
+      "key_points": [
+        "Adobe 的 hover 专利体现了预判式 AI 交互，但会带来错误预生成成本。",
+        "Claude Code Projects 强调并行分支、共享记忆和协调器模式。",
+        "Figma 作为视觉基线，可帮助 agent 判断代码是否真正匹配设计。"
+      ],
+      "reading_notes": [],
+      "tags": [
+        "design",
+        "agent",
+        "workflow",
+        "frontend"
+      ],
+      "related_sources": [
+        "TLDR Product 同日也讨论了 PM 和团队如何提升 AI fluency。"
+      ],
+      "deep_read_zh": ""
+    },
+    {
+      "id": "tldr-googlebooks-grok-system-one-models",
+      "title_zh": "TLDR：Googlebooks、Grok 4.7 与超低价决策模型",
+      "title_original": "Googlebooks 💻, Grok 4.7 🤖, Google infiltrates hackers 👨‍💻",
+      "source": "TLDR",
+      "from": "TLDR <dan@tldrnewsletter.com>",
+      "subject": "Googlebooks 💻, Grok 4.7 🤖, Google infiltrates hackers 👨‍💻",
+      "url": "https://refer.tldr.tech/f45b3ac9/",
+      "message_id": "<010001a0c8b87283-b539a85f-fb79-43d4-941b-f29122fbdaf6-000000@email.amazonses.com>",
+      "published_at": "2026-09-22T10:45:26.000Z",
+      "importance": "medium",
+      "summary_zh": "TLDR 主刊覆盖更广的科技新闻，其中与 AI builder 最相关的是 Googlebooks、Grok 4.7 和 Jev System One。Googlebooks 被描述为运行 Android 的高端“真电脑”，强调本地应用、开发工具和深度 Gemini 集成；Grok 4.7 面向编码与知识工作，已进入 Cursor、Grok Build、API、模型路由和云平台；Jev 提出“System One models”，只输出分类、评分、yes/no 和置信度等浮点结果，输入价格极低且输出免费。邮件还提到 AI 帮助多个开源项目做性能优化，以及 Google 分析师卧底供应链黑客组织的安全故事。",
+      "why_important": "这封邮件显示 AI 正在进入终端形态、开发工具链和更细粒度的模型服务层。",
+      "impact": "builder 可以关注“只做判断/路由/评分”的小模型是否能显著降低产品推理成本。Gemini 深度集成到新硬件也会影响桌面 AI 应用的入口格局。",
+      "key_points": [
+        "Googlebooks 试图把 Android、开发工具和 Gemini 结合成高端笔记本体验。",
+        "Grok 4.7 已在多种编码工具和模型路由渠道开放。",
+        "Jev 的 System One 模型代表低成本、专用输出模型的方向。"
+      ],
+      "reading_notes": [],
+      "tags": [
+        "hardware",
+        "model",
+        "developer-tools",
+        "security"
+      ],
+      "related_sources": [
+        "TLDR AI 同日也报道 Grok 4.7。"
+      ],
+      "deep_read_zh": ""
+    },
+    {
+      "id": "tldr-product-ai-product-management-fluency",
+      "title_zh": "TLDR Product：AI 产品管理的重点是用户省力、习惯和真实反馈",
+      "title_original": "Caring vs knowing 🚨, the stakeholder who matters most 👑, grading PMs on AI fluency ⚡",
+      "source": "TLDR Product",
+      "from": "TLDR Product <dan@tldrnewsletter.com>",
+      "subject": "Caring vs knowing 🚨, the stakeholder who matters most 👑, grading PMs on AI fluency ⚡",
+      "url": "https://refer.tldr.tech/271505d3/9",
+      "message_id": "<010001a0c89883dc-bb45ff05-931e-41ec-9cc7-14e2e2841efd-000000@email.amazonses.com>",
+      "published_at": "2026-09-22T10:10:33.000Z",
+      "importance": "medium",
+      "summary_zh": "TLDR Product 关注 AI 时代的产品管理基本功：AI 降低了软件开发成本，但用户规模扩大后，团队仍要持续学习、维持质量并处理多样化需求；评估 agent 产品不能只看机器功能，而要衡量它是否真正减少用户努力、覆盖完整旅程并避免隐藏推理成本和用户流失；订阅产品里“使用不足”往往是习惯循环断裂，而不是价格问题。资源部分包括 AI 产品设计学习指南、Zapier CEO 关于 PM AI fluency 分级的访谈，以及对“在失效 backlog 上套 AI”的批评。",
+      "why_important": "它提醒产品团队：AI 不是替代产品判断的捷径，真正指标仍是用户是否更省力、更持续地获得价值。",
+      "impact": "PM 和 founder 需要把 AI fluency 落到工作方式、评估指标和反馈闭环，而不是只追求更快生成需求文档或用户故事。",
+      "key_points": [
+        "agent 指标应衡量用户实际省力，而不只是模型或功能表现。",
+        "“使用不足”型流失通常来自习惯循环断裂，降价无法解决。",
+        "在混乱 backlog 上叠加 AI 可能只会美化问题，而非修复产品发现。"
+      ],
+      "reading_notes": [],
+      "tags": [
+        "product",
+        "agent",
+        "metrics",
+        "workflow"
+      ],
+      "related_sources": [
+        "TLDR Design 同日讨论了设计团队如何把 AI 嵌入实际生产流程。"
+      ],
+      "deep_read_zh": ""
+    }
+  ],
+  "skipped": [],
+  "notes": "今日精读选择 AINews 的小米 MiMo-V2.6-Pro，因为它同时涉及开放权重模型、后训练基础设施、agent 环境和开源生态，对 AI builder 的可操作价值最高。TLDR AI 也报道了 MiMo，但偏新闻汇总，因此作为补充来源保留。已忽略一封空正文的 TLDR Product Management 留存/订阅确认邮件：<6f5ee21d-e40a-4c1b-9ed5-01ffd2cd2d92@mtasv.net>。各正式 newsletter 均保留为独立 item；邮件内赞助、招聘和课程促销只在必要处略过，不单独成条。"
+}
