@@ -1,0 +1,148 @@
+{
+  "date": "2026-09-24",
+  "items": [
+    {
+      "id": "2026-09-24-1",
+      "title": "Cursor 替代不是换 IDE",
+      "angle": "从搜索词暴涨切入：开发者真正想迁移的不是编辑器，而是价格、并行代理和团队控制权。",
+      "opening": "「cursor alternative」7 天上涨 200.6%，这不是普通的竞品搜索。开发者不是突然讨厌 Cursor，而是开始算一笔账：谁能给我更多并行会话、更少锁定、更清楚的团队审计？",
+      "story_hook": {
+        "challenge": "AI 编程工具从单人效率工具变成组织基础设施后，价格和控制权开始比补全体验更重要。",
+        "twist": "真正的替代品可能不是另一个 IDE，而是 Orca 这类并行 agent 管理层，或围绕会话观测、权限和审计的控制台。"
+      },
+      "takeaway": "做 AI coding 产品时，不要只卖「更聪明的补全」，要把迁移、并行、审计和成本控制做成明确卖点。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Peter Yang：模型强到 Claude Code 壳子需要补语音、浏览器和电脑操作",
+          "url": "https://x.com/petergyang/status/2102952201350254667"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Google Trends：cursor alternative 7 日上涨 200.6%",
+          "url": "https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub：stablyai/orca 单周新增 6,435 stars",
+          "url": "https://github.com/stablyai/orca"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-24-2",
+      "title": "Claude 要当企业 AI 商场",
+      "angle": "从 Claude Marketplace 切入：大模型入口正在从聊天框变成企业工具、服务商和代理的分发货架。",
+      "opening": "Claude 今天不只是上了一个插件页，而是在搭一个企业 AI 商场。Slack、Notion、Cursor、CrowdStrike、德勤和埃森哲被放到同一个入口里，模型公司开始抢软件分发权。",
+      "story_hook": {
+        "challenge": "企业 AI 的难点不是再问模型一句话，而是如何发现、安装、授权和管理一堆代理与连接器。",
+        "twist": "独立开发者的机会可能不在做下一个聊天工具，而是在这个新货架上做事实层、治理层和专家服务。"
+      },
+      "takeaway": "如果做 Claude 生态产品，优先思考可被企业采购的连接器、权限、审计、事实校验和行业工作流。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Claude：Claude Marketplace 上线",
+          "url": "https://x.com/claudeai/status/2102840851538080172"
+        },
+        {
+          "tag": "builders",
+          "ref": "Claude：做 Claude 工具、Agent 或服务的人可以挂到市场",
+          "url": "https://x.com/claudeai/status/2102840855258452037"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt：NOAN 定位 AI agents 的 fact layer",
+          "url": "https://www.producthunt.com/products/noan-2"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-24-3",
+      "title": "代码审查开始抓竞态了",
+      "angle": "从 Boris Cherny 的形式化思路切入：AI code review 正在从风格建议升级到建模、找反例和复现 bug。",
+      "opening": "过去的 AI 代码审查像一个高级 linter，今天的信号更危险：Claude 正在给程序建模，盯住状态机和竞态区，先找反例，再复现，再修。代码审查不再只是「这行写得丑」，而是「这个并发路径会炸」。",
+      "story_hook": {
+        "challenge": "工程团队真正怕的 bug 往往不是格式问题，而是空指针、线程安全、XSS、SQL 注入和状态机边界。",
+        "twist": "开源增长最快的代码审查项目，恰好也在把确定性流水线和 LLM Agent 结合。"
+      },
+      "takeaway": "评估 AI code review 工具时，应重点看它能否复现缺陷、给出可验证修复，而不是只看评论数量。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Boris Cherny：Claude 类似在建模程序、找 counter-example、复现并修复 bug",
+          "url": "https://x.com/bcherny/status/2102898067133595992"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub：alibaba/open-code-review 单周新增 9,833 stars",
+          "url": "https://github.com/alibaba/open-code-review"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub：addyosmani/agent-skills 单周新增 3,867 stars",
+          "url": "https://github.com/addyosmani/agent-skills"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-24-4",
+      "title": "Agent 最贵的是那台电脑",
+      "angle": "从 Guillermo Rauch 的「脑子、手和文件」切入：Agent 成本战的核心不是模型，而是运行时拆分。",
+      "opening": "把一个 Agent 塞进 Mac Mini 很直观：有模型、有浏览器、有文件系统。但真到云上规模化运行，最贵的可能不是 token，而是你每次都启动了一整台「电脑」。",
+      "story_hook": {
+        "challenge": "Agent 需要记忆、文件、工具和执行环境，但完整虚拟电脑带来成本、安全和审计压力。",
+        "twist": "Drives 这类存储解耦思路，可能比再做一个聊天 UI 更接近 Agent 基础设施的付费点。"
+      },
+      "takeaway": "做 Agent 基建时，优先拆分文件、记忆、浏览器和执行层，把成本与权限边界做清楚。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Guillermo Rauch：成功 Agent 是脑子、手和文件三件套，云上低成本必须拆开",
+          "url": "https://x.com/rauchg/status/2102820148629614685"
+        },
+        {
+          "tag": "builders",
+          "ref": "Peter Steinberger：有了浏览器，还要什么 VNC？",
+          "url": "https://x.com/steipete/status/2102990776439636089"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub：google/ax 定位 open agentic orchestration runtime",
+          "url": "https://github.com/google/ax"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-24-5",
+      "title": "PPT 一键变美只是前菜",
+      "angle": "从企业 PPT 重做和 AI 电影争议切入：生成式创作的机会不在替代审美，而在降低试错成本。",
+      "opening": "一个提示词把丑 PPT 改成惊艳版本，这听起来像办公小技巧。但放到电影、视频和设计工具里看，它其实指向同一件事：创作成本下降后，作品不会变少，只会让更多人敢试。",
+      "story_hook": {
+        "challenge": "创作者担心 AI 把作品变廉价，企业用户却已经在用它消灭低质量交付。",
+        "twist": "真正稀缺的不是软件会不会生成，而是人能否判断哪个版本值得留下。"
+      },
+      "takeaway": "面向创作工具的产品，不要只展示生成效果，要把版本比较、审美判断和交付场景做进工作流。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Peter Yang：一个提示词能把难看的公司 PPT 重做成惊艳版本",
+          "url": "https://x.com/petergyang/status/2102956775645552645"
+        },
+        {
+          "tag": "builders",
+          "ref": "Aaron Levie：AI 会带来更多作品、更多冒险和新的叙事形式",
+          "url": "https://x.com/levie/status/2102934874470617303"
+        },
+        {
+          "tag": "pulse",
+          "ref": "HuggingFace：Qwen/Qwen-Image-2.1 支持 text-to-image、image-editing、rgba",
+          "url": "https://huggingface.co/Qwen/Qwen-Image-2.1"
+        }
+      ]
+    }
+  ],
+  "notes": "今日主线很清楚：Agent 大词在降温，但围绕 AI 编程、企业市场、代码审查、运行时拆分和创作工作流的具体控制点在升温。选题应少写模型崇拜，多写迁移成本、组织治理和可付费场景。",
+  "generated_at": "2026-09-24T09:18:09+00:00",
+  "model": "gpt-5.5"
+}
