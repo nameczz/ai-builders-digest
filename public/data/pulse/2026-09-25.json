@@ -1,0 +1,407 @@
+{
+  "date": "2026-09-25",
+  "top3": [
+    "今天最值得关注的是 AI 编程代理周边基础设施爆发：代码审查、记忆、技能、编排和办公室运行时都在 GitHub 高速增长。",
+    "消费级 AI 的机会正在从聊天框转向图像、视频、语音和决策路由，Qwen Image 2.1、Laya、Audio8-ASR-Infinite 都给了可落地入口。",
+    "搜索趋势显示开发者开始主动寻找 Cursor 替代品，而泛化的 AI agent、self hosted、agent skills 热词正在降温。"
+  ],
+  "intro": "今天的主线不是又一个通用 AI 助手，而是围绕 AI coding agent 的生产化配套：审查、记忆、技能、运行时和成本治理。另一边，Google Trends 的信号说明用户已经从尝鲜转向替换、迁移和具体工作流采购。",
+  "sections": [
+    {
+      "id": "discovery",
+      "title": "发现机会",
+      "blocks": [
+        {
+          "id": "github-traction",
+          "heading": "GitHub 上哪些高增长开源项目还没有商业化？",
+          "summary_md": "[alibaba/open-code-review](https://github.com/alibaba/open-code-review) 本周新增 6920 stars，总星数 41030，描述里直接把确定性流水线和 LLM Agent 组合成企业代码审查系统；[vectorize-io/hindsight](https://github.com/vectorize-io/hindsight) 本周新增 3363 stars，总星数 28386，聚焦 Agent Memory；[akitaonrails/ai-memory](https://github.com/akitaonrails/ai-memory) 本周新增 1243 stars，总星数 8372，切的是跨 agent vendor 的长期记忆与交接。机会不在再做一个聊天 IDE，而是在 agent 进入团队协作后的可审计、可迁移、可追责层。\n\n另一个值得盯的是 [Fission-AI/OpenSpec](https://github.com/Fission-AI/OpenSpec)，本周新增 1415 stars，总星数 70279，把 spec-driven development 变成 AI coding assistant 的前置协议。它和 [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) 本周 3345 stars 形成同一个方向：把优秀工程实践包装成 agent 可执行资产。",
+          "items": [
+            {
+              "title": "alibaba/open-code-review",
+              "url": "https://github.com/alibaba/open-code-review",
+              "source": "GitHub",
+              "score": 6920
+            },
+            {
+              "title": "vectorize-io/hindsight",
+              "url": "https://github.com/vectorize-io/hindsight",
+              "source": "GitHub",
+              "score": 3363
+            },
+            {
+              "title": "Fission-AI/OpenSpec",
+              "url": "https://github.com/Fission-AI/OpenSpec",
+              "source": "GitHub",
+              "score": 1415
+            }
+          ],
+          "takeaway": "Agent 时代的独立机会在控制面，而不是再造一个前端壳。"
+        },
+        {
+          "id": "product-directions",
+          "heading": "今天有哪些独立开发者的新产品方向？",
+          "summary_md": "Product Hunt 数据没有提供票数和评论数，因此今天不把它当热度榜，只把它当题材雷达。值得注意的产品包括 [Basedash MCP write](https://www.producthunt.com/products/basedash)、[GitHub statistics · Velocity Radar](https://www.producthunt.com/products/github-statistics-velocity-radar)、[DEV·TV](https://www.producthunt.com/products/dev-tv)、[Relium](https://www.producthunt.com/products/relium) 和 [Token Forecaster](https://www.producthunt.com/products/token-forecaster)。它们的共同点是把开发者已有系统接进 AI 工作流：MCP 写仪表盘、私有 repo 动量追踪、开发信息流聚合、dbt 风险检查、LLM 回复长度预测。\n\n消费端也有几个细分入口：[FinalFrame](https://www.producthunt.com/products/finalframe) 做 AI 照片批评，[UIDCaption](https://www.producthunt.com/products/uidcaption) 做离线动态字幕，[COOLDOWN](https://www.producthunt.com/products/cooldown-5) 做冲动消费前的暂停。这些不是大模型能力炫技，而是把一个高频、可解释的微决策产品化。",
+          "items": [
+            {
+              "title": "Basedash MCP write",
+              "url": "https://www.producthunt.com/products/basedash",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "Relium",
+              "url": "https://www.producthunt.com/products/relium",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "Token Forecaster",
+              "url": "https://www.producthunt.com/products/token-forecaster",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "没有票数时更要看题材密度：今天的 PH 机会集中在开发者工作流的小闭环。"
+        }
+      ]
+    },
+    {
+      "id": "tech-stack",
+      "title": "技术选型",
+      "blocks": [
+        {
+          "id": "dev-tools",
+          "heading": "本周增长最快的开发者工具是什么？",
+          "summary_md": "开发者工具的增长冠军是 [stablyai/orca](https://github.com/stablyai/orca)，本周新增 6547 stars，总星数 77809，定位是可并行运行多个 coding agent 的 ADE。紧随其后的是 [alibaba/open-code-review](https://github.com/alibaba/open-code-review) 的 6920 weekly stars，它把静态规则和 LLM line-level comments 放在同一条审查链路里。再往下看，[google/ax](https://github.com/google/ax) 日榜新增 1373 stars，说明 agent orchestration runtime 已经从框架爱好者话题进入平台级竞争。\n\n技术选型上，TypeScript 仍适合做 IDE、桌面、前端控制台和 agent 编排界面；Go 正在承担高并发审查与编排服务；Python 继续占据模型、RAG、金融和记忆层。今天如果要开新项目，建议先选一个具体控制面：review、memory、spec、orchestration 或 spend，而不是笼统写成 AI dev tool。",
+          "items": [
+            {
+              "title": "stablyai/orca",
+              "url": "https://github.com/stablyai/orca",
+              "source": "GitHub",
+              "score": 6547
+            },
+            {
+              "title": "alibaba/open-code-review",
+              "url": "https://github.com/alibaba/open-code-review",
+              "source": "GitHub",
+              "score": 6920
+            },
+            {
+              "title": "google/ax",
+              "url": "https://github.com/google/ax",
+              "source": "GitHub",
+              "score": 1373
+            }
+          ],
+          "takeaway": "Agent IDE 的下一步不是更会写代码，而是能管理一组 agent 的运行质量。"
+        },
+        {
+          "id": "hf-models",
+          "heading": "HuggingFace 上最热的模型能做什么消费级产品？",
+          "summary_md": "[convaiinnovations/laya](https://huggingface.co/convaiinnovations/laya) trending score 3316、likes 3492，标签集中在 routing、scoring、guardrails、moderation，适合做面向创作者和客服的自动决策裁判：哪些回复能发、哪些内容要拦、哪个模型该接手。它不是生成模型，但消费级产品里最缺的正是稳定决策层。\n\n图像侧，[Qwen/Qwen-Image-2.1](https://huggingface.co/Qwen/Qwen-Image-2.1) trending score 2090、downloads 42469，[abenzerps/Qwen-Image-2.1-Uncensored-GGUF](https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-GGUF) downloads 575697，[Comfy-Org/Qwen-Image-2.1](https://huggingface.co/Comfy-Org/Qwen-Image-2.1) downloads 3266380，说明本地和 ComfyUI 工作流已经足够热。可做的不是通用生图站，而是照片修图决策、商品图批处理、短视频封面 A/B、离线隐私图像编辑。",
+          "items": [
+            {
+              "title": "convaiinnovations/laya",
+              "url": "https://huggingface.co/convaiinnovations/laya",
+              "source": "HuggingFace",
+              "score": 3316
+            },
+            {
+              "title": "Qwen/Qwen-Image-2.1",
+              "url": "https://huggingface.co/Qwen/Qwen-Image-2.1",
+              "source": "HuggingFace",
+              "score": 2090
+            },
+            {
+              "title": "Edge0/Audio8-ASR-Infinite",
+              "url": "https://huggingface.co/Edge0/Audio8-ASR-Infinite",
+              "source": "HuggingFace",
+              "score": 394
+            }
+          ],
+          "takeaway": "模型机会正在从生成能力本身转向可嵌入的判断、编辑和离线执行。"
+        },
+        {
+          "id": "show-hn",
+          "heading": "Show HN 高关注项目用的什么技术栈？",
+          "summary_md": "今天 HN Show HN 原始数据为空，无法从 Show HN 直接判断技术栈。但 GitHub 和 Product Hunt 的替代信号很一致：面向 agent 的工具栈正在围绕 Python、TypeScript、Go、Rust、C 和本地推理格式重组。Python 对应 RAG、memory、模型优化和金融场景；TypeScript 对应桌面与 Office runtime；Go 对应 orchestration 和 code review；Rust 与 C 则负责低层网络和本地模型执行。\n\n如果你在做新产品，技术栈不该先从模型选型开始，而应从部署边界开始：团队 SaaS 用 TypeScript + Go/Python，隐私本地用 Rust/C + GGUF，数据工具用 TypeScript 前端加 Python 分析后端。",
+          "items": [
+            {
+              "title": "JustVugg/colibri",
+              "url": "https://github.com/JustVugg/colibri",
+              "source": "GitHub",
+              "score": 2055
+            },
+            {
+              "title": "dream-num/univer",
+              "url": "https://github.com/dream-num/univer",
+              "source": "GitHub",
+              "score": 1082
+            },
+            {
+              "title": "cloudflare/quiche",
+              "url": "https://github.com/cloudflare/quiche",
+              "source": "GitHub",
+              "score": 741
+            }
+          ],
+          "takeaway": "今天的技术栈判断重点是部署边界，而不是单纯追逐最大模型。"
+        }
+      ]
+    },
+    {
+      "id": "competition",
+      "title": "竞争情报",
+      "blocks": [
+        {
+          "id": "migrations",
+          "heading": "有没有迁移类信号？",
+          "summary_md": "HN 没有提供「XX is dead」或迁移类文章，但 Google Trends 给了更强的迁移信号：[cursor alternative](https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d) 上升 +302.2%，同时 GitHub 周榜里 [anthropics/claude-code](https://github.com/anthropics/claude-code) 本周新增 2384 stars、总星数 148010，[stablyai/orca](https://github.com/stablyai/orca) 本周新增 6547 stars，说明开发者不是放弃 AI coding，而是在寻找 Cursor 之外的可组合方案。\n\n这对竞争判断很关键：IDE 入口正在被终端代理、agent fleet、agent skills 和 spec workflow 拆开。Cursor 的替代者未必是另一个完整 IDE，也可能是审查层、记忆层、技能包、远程运行时或团队仪表盘。",
+          "items": [
+            {
+              "title": "cursor alternative",
+              "url": "https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 302
+            },
+            {
+              "title": "anthropics/claude-code",
+              "url": "https://github.com/anthropics/claude-code",
+              "source": "GitHub",
+              "score": 2384
+            },
+            {
+              "title": "stablyai/orca",
+              "url": "https://github.com/stablyai/orca",
+              "source": "GitHub",
+              "score": 6547
+            }
+          ],
+          "takeaway": "Cursor 的竞争压力来自工作流拆分，而不是单点功能复制。"
+        },
+        {
+          "id": "pricing-revenue",
+          "heading": "独立开发者在讨论什么营收和定价策略？",
+          "summary_md": "HN 的 MRR、ARR、pricing、subscription、revenue 数据为空，但今天的产品题材已经暗示两个可学定价模型。第一类是开发者基础设施按 seat、repo、run 或 usage 收费，例如 [Relium](https://www.producthunt.com/products/relium) 可以按 dbt 项目和风险检查次数计费，[Basedash MCP write](https://www.producthunt.com/products/basedash) 可以按 MCP 写入、dashboard 数和团队权限计费。\n\n第二类是小决策型消费工具，用低价订阅或一次性包卖清晰结果，例如 [FinalFrame](https://www.producthunt.com/products/finalframe) 的照片编辑建议、[Token Forecaster](https://www.producthunt.com/products/token-forecaster) 的回复长度预测、[COOLDOWN](https://www.producthunt.com/products/cooldown-5) 的冲动消费拦截。共同点是定价单位要贴近一次具体风险或一次明确节省。",
+          "items": [
+            {
+              "title": "Relium",
+              "url": "https://www.producthunt.com/products/relium",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "Basedash MCP write",
+              "url": "https://www.producthunt.com/products/basedash",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "FinalFrame",
+              "url": "https://www.producthunt.com/products/finalframe",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "AI 产品的好定价单位不是 token，而是一次风险被避免或一次判断被完成。"
+        }
+      ]
+    },
+    {
+      "id": "trends",
+      "title": "趋势判断",
+      "blocks": [
+        {
+          "id": "keywords",
+          "heading": "本周技术关键词频率有什么变化？",
+          "summary_md": "最强上升词是 [cursor alternative](https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d) +302.2%，它和 GitHub 上 Claude Code、Orca、agent skills、OpenSpec 的增长互相印证：开发者正在重新评估 AI 编程入口。第二个是 [weknora](https://trends.google.com/trends/explore?q=weknora&date=now+7-d) +47.4%，对应 [Tencent/WeKnora](https://github.com/Tencent/WeKnora) 本周新增 3749 stars，说明企业知识库、RAG、自维护 Wiki 仍然有需求，但用户更关心可部署系统，而非抽象 RAG 概念。\n\n[claude code](https://trends.google.com/trends/explore?q=claude+code&date=now+7-d) 仅 +10.2%，不是冷却，而是进入高基数常态。真正的新增需求落在替代、编排、记忆和技能这些二级关键词上。",
+          "items": [
+            {
+              "title": "cursor alternative",
+              "url": "https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 302
+            },
+            {
+              "title": "weknora",
+              "url": "https://trends.google.com/trends/explore?q=weknora&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 47
+            },
+            {
+              "title": "claude code",
+              "url": "https://trends.google.com/trends/explore?q=claude+code&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 10
+            }
+          ],
+          "takeaway": "增长最快的不是 AI coding 本身，而是围绕它的替代和治理需求。"
+        },
+        {
+          "id": "vc-radar",
+          "heading": "VC 和 YC 在关注什么主题？",
+          "summary_md": "今天的 VC radar 可以概括为 agent operating layer。GitHub 上 [stablyai/orca](https://github.com/stablyai/orca) 6547 weekly stars、[google/ax](https://github.com/google/ax) 1373 weekly stars、[dream-num/univer](https://github.com/dream-num/univer) 1082 weekly stars，共同指向多 agent 编排、Office runtime 和工作流接管；Product Hunt 上 [Bleetz Network](https://www.producthunt.com/products/bleetz-network) 甚至把 agent-to-agent 放进 VC fundraising 和 scouting。\n\n另一个主题是成本与可观测性。[Fivemetrics](https://www.producthunt.com/products/fivemetrics) 做 cloud 和 AI spend 调查，[GitHub statistics · Velocity Radar](https://www.producthunt.com/products/github-statistics-velocity-radar) 做私有 repo 与 AI agent 动量。资本会更偏好能嵌入预算、权限、审计和团队协作的产品，因为这些比单人效率工具更容易扩张 ACV。",
+          "items": [
+            {
+              "title": "stablyai/orca",
+              "url": "https://github.com/stablyai/orca",
+              "source": "GitHub",
+              "score": 6547
+            },
+            {
+              "title": "Fivemetrics",
+              "url": "https://www.producthunt.com/products/fivemetrics",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "Bleetz Network",
+              "url": "https://www.producthunt.com/products/bleetz-network",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "VC 关注点正在从个人 AI 助手转向团队级 agent 控制平面。"
+        },
+        {
+          "id": "cooling",
+          "heading": "哪些 AI 热词在降温？",
+          "summary_md": "几个泛化词明显降温：[ai agent](https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d) -45.6%，[self hosted](https://trends.google.com/trends/explore?q=self+hosted&date=now+7-d) -50.2%，[agent skills](https://trends.google.com/trends/explore?q=agent+skills&date=now+7-d) -54.4%，[open code review](https://trends.google.com/trends/explore?q=open+code+review&date=now+7-d) -69.7%。这不代表这些方向消失，而是通用词搜索热度让位于具体产品名和具体问题。\n\n对 builder 的含义很直接：不要把首页标题写成又一个 AI agent 或 self-hosted AI assistant。今天更好的表达是「减少 dbt 破坏性变更」、「把 Claude Code 技能标准化」、「预测一次 LLM 回复成本」、「审查 agent 写出的 PR」。",
+          "items": [
+            {
+              "title": "ai agent",
+              "url": "https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": -46
+            },
+            {
+              "title": "self hosted",
+              "url": "https://trends.google.com/trends/explore?q=self+hosted&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": -50
+            },
+            {
+              "title": "agent skills",
+              "url": "https://trends.google.com/trends/explore?q=agent+skills&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": -54
+            }
+          ],
+          "takeaway": "泛 AI 叙事在降温，具体故障、成本和迁移场景在升温。"
+        },
+        {
+          "id": "new-radar",
+          "heading": "新词雷达：有哪些从零起飞的新概念？",
+          "summary_md": "破圈词里最强的是 [claude code](https://trends.google.com/trends/explore?q=claude+code&date=now+7-d) 关联查询「claude code opus 5.5」value 69850、「opus 5.5」value 65900、「claude opus 5.5」value 59150。无论这些词最终是否对应真实发布，它们都说明开发者对下一代 coding model 的预期已经绑定到 Claude Code 这个工作流入口。\n\n另一个弱信号来自 [codex](https://trends.google.com/trends/explore?q=codex&date=now+7-d) 的 rising：jev value 1100、gpt 6 sol value 700；以及 [ai agent](https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d) 下的「google ax ai agent orchestrator」value 10600。今天的新词不是泛概念，而是具体 runtime、模型代号、orchestrator 名称和社区口令。",
+          "items": [
+            {
+              "title": "claude code opus 5.5",
+              "url": "https://trends.google.com/trends/explore?q=claude+code&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 69850
+            },
+            {
+              "title": "google ax ai agent orchestrator",
+              "url": "https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 10600
+            },
+            {
+              "title": "jev",
+              "url": "https://trends.google.com/trends/explore?q=codex&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 1100
+            }
+          ],
+          "takeaway": "最早的需求信号往往藏在关联查询里的产品代号和工作流名。"
+        }
+      ]
+    },
+    {
+      "id": "actions",
+      "title": "行动触发",
+      "blocks": [
+        {
+          "id": "weekend-build",
+          "heading": "今天 2 小时和一个周末分别做什么？",
+          "summary_md": "2 小时版本：做一个「AI coding session diff auditor」。输入一个 repo、一次 agent 修改和测试输出，生成风险摘要、可疑文件、需要人工复核的行，并参考 [alibaba/open-code-review](https://github.com/alibaba/open-code-review) 的确定性规则 + LLM 注释思路。不要先做完整 SaaS，先做 GitHub Action 或 CLI，把输出写进 PR comment。\n\n周末版本：做一个「Agent Memory Inspector」。参考 [vectorize-io/hindsight](https://github.com/vectorize-io/hindsight) 和 [akitaonrails/ai-memory](https://github.com/akitaonrails/ai-memory)，先支持 Claude Code、Codex、Cursor 会话日志导入，自动提取决策、约束、未完成事项和危险假设。卖点不是记得更多，而是让团队知道 agent 为什么这么改。",
+          "items": [
+            {
+              "title": "alibaba/open-code-review",
+              "url": "https://github.com/alibaba/open-code-review",
+              "source": "GitHub",
+              "score": 6920
+            },
+            {
+              "title": "vectorize-io/hindsight",
+              "url": "https://github.com/vectorize-io/hindsight",
+              "source": "GitHub",
+              "score": 3363
+            },
+            {
+              "title": "akitaonrails/ai-memory",
+              "url": "https://github.com/akitaonrails/ai-memory",
+              "source": "GitHub",
+              "score": 1243
+            }
+          ],
+          "takeaway": "今天最容易动手的是给 agent 工作结果加审计层。"
+        },
+        {
+          "id": "pricing-models",
+          "heading": "值得学习的定价和变现模式有哪些？",
+          "summary_md": "开发者工具优先学三种计费：按 repo、按 seat、按风险检查次数。[Relium](https://www.producthunt.com/products/relium) 这种 dbt 风险检查适合按关键数据项目收费；[Fivemetrics](https://www.producthunt.com/products/fivemetrics) 这种 AI spend 分析适合按云账户和月度节省分层；[Basedash MCP write](https://www.producthunt.com/products/basedash) 适合把团队权限、写入能力和历史审计作为付费墙。\n\n消费工具则适合低承诺购买：[FinalFrame](https://www.producthunt.com/products/finalframe) 可以卖照片批评包，[UIDCaption](https://www.producthunt.com/products/uidcaption) 可以卖离线字幕导出额度，[COOLDOWN](https://www.producthunt.com/products/cooldown-5) 可以卖一次性或轻订阅。定价文案要落在「少犯一次错」或「少浪费一次成本」上。",
+          "items": [
+            {
+              "title": "Fivemetrics",
+              "url": "https://www.producthunt.com/products/fivemetrics",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "UIDCaption",
+              "url": "https://www.producthunt.com/products/uidcaption",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "COOLDOWN",
+              "url": "https://www.producthunt.com/products/cooldown-5",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "最佳变现切口是把 AI 的不确定性转化成可计费的风险控制。"
+        },
+        {
+          "id": "counterintuitive",
+          "heading": "今天最反直觉的发现是什么？",
+          "summary_md": "最反直觉的是：越多人说 AI agent，搜索热度反而越冷。[ai agent](https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d) -45.6%、[agent skills](https://trends.google.com/trends/explore?q=agent+skills&date=now+7-d) -54.4%，但 GitHub 上 agent 相关项目却继续暴涨：Orca 6547 weekly stars、OpenSpec 1415 weekly stars、agent-skills 3345 weekly stars、Hindsight 3363 weekly stars。\n\n这说明市场没有离开 agent，而是离开了笼统叫法。用户现在搜索和 star 的是更具体的东西：Cursor 替代、Claude Code 技能、Agent Memory、code review、orchestrator、Office runtime。builder 应该把产品命名和落地页从技术名词改成岗位任务名。",
+          "items": [
+            {
+              "title": "agent skills",
+              "url": "https://trends.google.com/trends/explore?q=agent+skills&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": -54
+            },
+            {
+              "title": "addyosmani/agent-skills",
+              "url": "https://github.com/addyosmani/agent-skills",
+              "source": "GitHub",
+              "score": 3345
+            },
+            {
+              "title": "Fission-AI/OpenSpec",
+              "url": "https://github.com/Fission-AI/OpenSpec",
+              "source": "GitHub",
+              "score": 1415
+            }
+          ],
+          "takeaway": "热词在冷却，任务在升温；命名越具体，越接近成交。"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2026-09-25T09:16:54+00:00",
+  "reddit_highlights": []
+}

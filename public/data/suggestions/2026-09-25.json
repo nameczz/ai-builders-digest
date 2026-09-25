@@ -1,0 +1,168 @@
+{
+  "date": "2026-09-25",
+  "items": [
+    {
+      "id": "2026-09-25-1",
+      "title": "Anthropic 份额突然掉了",
+      "angle": "从 Vercel AI Gateway 的消耗结构切入，讲模型竞争正在从发布会转向真实调用账单。",
+      "opening": "Anthropic 在 Vercel AI Gateway 的收入份额两个月里从 69% 掉到 40%，OpenAI 从 10% 冲到 24%。更刺眼的是：OpenAI 已经在 token 量上反超。模型战争最真实的排行榜，可能不是 benchmark，而是开发者每晚跑出来的账单。",
+      "story_hook": {
+        "challenge": "大家还在讨论谁的模型最强，但真实业务里开发者已经开始按成本、速度、图像能力和路由结果换供应商。",
+        "twist": "Anthropic 仍是收入第一，却正在被 OpenAI、Kimi、DeepSeek 从不同侧面吃掉份额。"
+      },
+      "takeaway": "读者应该把模型选型从单模型信仰改成网关化、可观测、可替换的供应链管理。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Guillermo Rauch 关于 Vercel AI Gateway 模型消耗份额的推文",
+          "url": "https://x.com/rauchg/status/2103216656747262419"
+        },
+        {
+          "tag": "pulse",
+          "ref": "HuggingFace trending：convaiinnovations/laya 做 routing、scoring、guardrails",
+          "url": "https://huggingface.co/convaiinnovations/laya"
+        },
+        {
+          "tag": "pulse",
+          "ref": "ProductHunt：Token Forecaster 预测 LLM 回复长度",
+          "url": "https://www.producthunt.com/products/token-forecaster"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-25-2",
+      "title": "Cursor 替代品不是 IDE",
+      "angle": "把 Google Trends 的 cursor alternative 暴涨和 GitHub agent 工具增长放在一起，说明替代 Cursor 的可能是一组控制层。",
+      "opening": "“cursor alternative”一周涨了 302.2%，但开发者不是回到手写代码。Claude Code、Orca、OpenSpec、open-code-review 都在涨，说明真正的问题不是 Cursor 不好用，而是团队开始想拆掉单一入口。",
+      "story_hook": {
+        "challenge": "AI 编程从个人提效进入团队生产后，IDE 入口无法独自承担审查、记忆、规范、编排和追责。",
+        "twist": "Cursor 的竞争对手未必是另一个 Cursor，而可能是 PR 审查、agent memory、spec workflow 或多 agent 运行台。"
+      },
+      "takeaway": "做 AI dev tool 时，不要再复制一个聊天 IDE；优先选择 review、memory、spec、orchestration 里的一个控制面。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Thariq 关于 Claude Plan Mode 应该可自定义、可变成内置 mod 的推文",
+          "url": "https://x.com/trq212/status/2103212051065921632"
+        },
+        {
+          "tag": "builders",
+          "ref": "Peter Steinberger 关于给 agent 设定明确测试清理目标的推文",
+          "url": "https://x.com/steipete/status/2103148444701610233"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Google Trends：cursor alternative 上升 302.2%",
+          "url": "https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub：stablyai/orca 多 coding agent ADE，本周新增 6547 stars",
+          "url": "https://github.com/stablyai/orca"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-25-3",
+      "title": "AI 工厂最缺的不是 GPU",
+      "angle": "用 VAST Data 的 300 亿美元叙事反驳“AI 基建等于买卡”，讲数据、存储、权限、KV cache 和记忆层的机会。",
+      "opening": "VAST Data 已经长成 300 亿美元公司，但它卖的不是模型，也不是 GPU。它卡在 AI 五层蛋糕最容易被忽略的中间层：怎么把数据持续、可信、低延迟地喂给 GPU。",
+      "story_hook": {
+        "challenge": "AI 公司嘴上讲模型，实际瓶颈却在数据供给、权限、缓存、向量、记忆和可信执行。",
+        "twist": "最赚钱的 AI 基建公司，可能不是站在舞台中央发布模型的那批，而是躲在 GPU 后面供血的那层软件。"
+      },
+      "takeaway": "读者看 AI 基建机会时，应从“谁有模型”转向“谁控制数据流、记忆层和执行可信度”。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Matt Turck 关于 VAST Data 和 AI 隐藏 300 亿美元基础设施层的推文",
+          "url": "https://x.com/mattturck/status/2103167531917721866"
+        },
+        {
+          "tag": "builders",
+          "ref": "The MAD Podcast：Who Feeds the GPUs? Inside AI's Hidden $30B Layer",
+          "url": "https://www.youtube.com/@DataDrivenNYC/videos"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub：vectorize-io/hindsight 聚焦 Agent Memory，本周新增 3363 stars",
+          "url": "https://github.com/vectorize-io/hindsight"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub：akitaonrails/ai-memory 做跨 agent vendor 长期记忆与交接",
+          "url": "https://github.com/akitaonrails/ai-memory"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-25-4",
+      "title": "小企业不需要通用 AI",
+      "angle": "从蓝领服务业的最后一公里软件切入，讲 AI SaaS 的机会不是更通用，而是更贴近具体客户和员工体验。",
+      "opening": "Nikunj Kothari 押注每个小企业都会有自己的定制软件，尤其是蓝领服务行业。这句话反过来看更有意思：通用 AI 工具越强，最后一公里的行业体验反而越值钱。",
+      "story_hook": {
+        "challenge": "小企业不缺又一个聊天框，缺的是把报价、排班、客户沟通、现场交付和员工流程连起来的软件。",
+        "twist": "AI 降低了定制软件成本，结果不是让 SaaS 更通用，而是让更多小行业终于买得起自己的垂直系统。"
+      },
+      "takeaway": "独立开发者可以从一个小行业的具体流程开做，把 AI 包进报价、审查、排班或售后，而不是把首页写成 AI agent。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Nikunj Kothari 关于每个小企业都会拥有定制软件的推文",
+          "url": "https://x.com/nikunj/status/2103360292973633770"
+        },
+        {
+          "tag": "pulse",
+          "ref": "ProductHunt：Basedash MCP write 把开发者系统接入 AI 工作流",
+          "url": "https://www.producthunt.com/products/basedash"
+        },
+        {
+          "tag": "pulse",
+          "ref": "ProductHunt：Relium 做 dbt 风险检查",
+          "url": "https://www.producthunt.com/products/relium"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Google Trends：ai agent、自托管、agent skills 等泛词降温",
+          "url": "https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-25-5",
+      "title": "AI 创作的下一站是现实",
+      "angle": "把 Dreambeans、AI 创意工具和多模态模型热度放在一起，讨论消费 AI 如何从屏幕生成转向现实行动。",
+      "opening": "Google Labs 的 Dreambeans 每天早上给用户一批“豆子”，目标不是让人继续刷屏，而是把人拉回现实世界。另一边，图像、视频、语音模型继续变强。消费 AI 的新问题变成：生成完之后，用户到底去做什么？",
+      "story_hook": {
+        "challenge": "多模态能力爆炸让内容生成越来越便宜，但用户时间和现实行动仍然稀缺。",
+        "twist": "最有黏性的消费 AI 也许不是更会生成图片，而是能把生成内容变成一次线下行动、一次共同创作或一次可完成的任务。"
+      },
+      "takeaway": "做消费 AI 时，不要只设计生成按钮；要设计生成后的决策、协作、发布、见面或复盘闭环。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Josh Woodward 关于 Google Labs Dreambeans 的推文",
+          "url": "https://x.com/joshwoodward/status/2103182635992514569"
+        },
+        {
+          "tag": "builders",
+          "ref": "Thariq 关于 AI 与创造力产品应放大创意而非替代创作者的推文",
+          "url": "https://x.com/trq212/status/2103259550325575806"
+        },
+        {
+          "tag": "pulse",
+          "ref": "HuggingFace：Qwen/Qwen-Image-2.1 trending score 2090",
+          "url": "https://huggingface.co/Qwen/Qwen-Image-2.1"
+        },
+        {
+          "tag": "pulse",
+          "ref": "HuggingFace：Edge0/Audio8-ASR-Infinite 语音模型",
+          "url": "https://huggingface.co/Edge0/Audio8-ASR-Infinite"
+        }
+      ]
+    }
+  ],
+  "notes": "今日主线很清楚：AI coding agent 的生产化配套最强，消费 AI 则从聊天框转向多模态和现实任务闭环。缺口是独立开发者的一手收入数据较少，营收类选题需要谨慎写成方法论而非案例复盘。",
+  "generated_at": "2026-09-25T09:17:36+00:00",
+  "model": "gpt-5.5"
+}
