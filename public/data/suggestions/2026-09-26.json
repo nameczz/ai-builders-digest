@@ -1,0 +1,168 @@
+{
+  "date": "2026-09-26",
+  "items": [
+    {
+      "id": "2026-09-26-1",
+      "title": "漂亮 AI 多收你 1000 美元",
+      "angle": "从 Muse 订机票翻车切入，写消费级 AI 的核心门槛不是 UI，而是可验证的决策链。",
+      "opening": "Muse 看起来像一个能走向十亿用户的 AI 产品，但 Peter Yang 用一次日本航班搜索戳破了泡泡：同一趟行程，它比 Grok Bot 贵了 1000 多美元。更尴尬的是，追问后才发现它根本不是在查 Google Flights，而是用了 Duffel。",
+      "story_hook": {
+        "challenge": "AI 产品越来越会包装成聪明助手，但用户真正付钱的是决策质量。",
+        "twist": "最会做 UI 和吉祥物的产品，可能在最基础的价格比较上输给更粗糙的 bot。"
+      },
+      "takeaway": "做消费级 AI 时，不要只优化拟人感；关键流程必须暴露来源、可追问、可复核，否则一次错误报价就会摧毁信任。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Peter Yang：Muse 日本航班报价比 Grok Bot 贵 1000 多美元",
+          "url": "https://x.com/petergyang/status/2103693608729932025"
+        },
+        {
+          "tag": "builders",
+          "ref": "Peter Yang：Muse UI 和吉祥物惊艳，但模型聪明程度可疑",
+          "url": "https://x.com/petergyang/status/2103696644558704796"
+        },
+        {
+          "tag": "pulse",
+          "ref": "ProductHunt 今日产品趋势：AI 工具转向单个高频微工作流",
+          "url": "https://www.producthunt.com/products/demoscreen"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-26-2",
+      "title": "没有 eval，企业 AI 不准上岗",
+      "angle": "把 Aaron Levie 的企业 eval 观点和 Dan Shipper 的个人 benchmark 放在一起，写 AI 采用正在从榜单崇拜转向工作流验收。",
+      "opening": "企业 AI 推不动，可能不是模型不够强，而是没人知道它到底有没有变好。Aaron Levie 说 eval 会成为企业部署 AI 的闸门；Dan Shipper 则提醒，通用榜单不重要，模型要在你的真实工作流里能打。",
+      "story_hook": {
+        "challenge": "模型厂商每天都在宣称更强，但企业和个人都缺少自己的验收标准。",
+        "twist": "真正决定 AI 能不能上线的，不是 SOTA，而是你能否证明它没把业务流程弄坏。"
+      },
+      "takeaway": "团队应该建立自己的任务集、失败样例和回归测试，把模型升级当成工程变更，而不是凭发布会和排行榜决策。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Aaron Levie：Evals 会成为企业部署、升级和扩展 AI 的闸门",
+          "url": "https://x.com/levie/status/2103629073595728372"
+        },
+        {
+          "tag": "builders",
+          "ref": "Dan Shipper：个人 benchmark 比通用榜单更重要",
+          "url": "https://x.com/danshipper/status/2103678798827020298"
+        },
+        {
+          "tag": "pulse",
+          "ref": "cloudflare/security-audit-skill 一周 +9547 stars",
+          "url": "https://github.com/cloudflare/security-audit-skill"
+        },
+        {
+          "tag": "pulse",
+          "ref": "alibaba/open-code-review 一周 +5030 stars",
+          "url": "https://github.com/alibaba/open-code-review"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-26-3",
+      "title": "Agent 终于开始要同事待遇了",
+      "angle": "从 Boris Cherny 的 Tag 和 Peter Steinberger 的 Astra 迁移案例切入，写 agent 从玩具机器人变成需要管理的工程劳动力。",
+      "opening": "Tag 已经不只是 Slack 机器人：它能写 PR、跑数据分析、复现 bug，每天吃掉团队一半以上 PR。另一边，Astra 的 /goal 已经帮 Peter Steinberger 团队落了 575 个 PR，把同步数据库访问迁到 async workers。",
+      "story_hook": {
+        "challenge": "当 agent 真开始干活，问题就从“能不能写代码”变成“谁来调度、记忆、审计和追责”。",
+        "twist": "最有价值的产品可能不是下一个 coding agent，而是管理 agent 的控制台。"
+      },
+      "takeaway": "如果要创业或做内部工具，优先考虑 agent run log、权限、记忆、并行任务调度和 PR 审计，而不是再做一个聊天入口。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Boris Cherny：Tag 已经能写 PR、跑数据分析、复现并修 bug",
+          "url": "https://x.com/bcherny/status/2103538666597691552"
+        },
+        {
+          "tag": "builders",
+          "ref": "Peter Steinberger：Astra /goal 已落 575 个 PR，完成 async workers 迁移",
+          "url": "https://x.com/steipete/status/2103648679169257737"
+        },
+        {
+          "tag": "pulse",
+          "ref": "stablyai/orca 一周 +6537 stars，做并行 agent fleet",
+          "url": "https://github.com/stablyai/orca"
+        },
+        {
+          "tag": "pulse",
+          "ref": "vectorize-io/hindsight 一周 +4869 stars，押注 agent memory",
+          "url": "https://github.com/vectorize-io/hindsight"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-26-4",
+      "title": "Cursor 替代潮不是换 IDE",
+      "angle": "把 Guillermo Rauch 的 agentic SaaS 判断和 Google Trends 的 cursor alternative 暴涨放在一起，写开发工具竞争正在从单点编辑器转向工具生态。",
+      "opening": "Google Trends 里，cursor alternative 暴涨 999%。但这不一定说明用户只是想找另一个 Cursor，而是他们开始重新计算 IDE、CLI、MCP、API、业务数据和 agent skills 的组合成本。",
+      "story_hook": {
+        "challenge": "过去开发者选一个代码助手，现在要选一整套 agent 工作台。",
+        "twist": "Cursor 的真正对手可能不是另一个编辑器，而是能把公司内部工具都接进来的 agent 操作系统。"
+      },
+      "takeaway": "开发者工具不要只比较补全质量，要比较连接器、上下文注入、权限、安全审计和团队协作能力。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Guillermo Rauch：企业 SaaS 新采购门槛会变成 Agent 好不好用",
+          "url": "https://x.com/rauchg/status/2103564484602384855"
+        },
+        {
+          "tag": "builders",
+          "ref": "Guillermo Rauch：过去我们写代码，现在我们写英文",
+          "url": "https://x.com/rauchg/status/2103543983557517340"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Google Trends：cursor alternative 近 7 天 +999.0%",
+          "url": "https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d"
+        },
+        {
+          "tag": "pulse",
+          "ref": "paperclipai/paperclip 日榜 +2109 stars，管理 workplace agents",
+          "url": "https://github.com/paperclipai/paperclip"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-26-5",
+      "title": "AI 生产线也会停电",
+      "angle": "从 Codex 短暂故障切入，写 builder 对 AI 基础设施的依赖已经进入生产系统级别。",
+      "opening": "Codex 又挂了一次，官方很快恢复并承诺重置付费用户额度。表面上这是一次短暂 disruption，但对每天靠 agent 写代码、跑分析、修 bug 的 builder 来说，这已经不是工具抽风，而是生产线停摆。",
+      "story_hook": {
+        "challenge": "AI 工具越深入工作流，宕机成本就越像云服务故障，而不是网页打不开。",
+        "twist": "当大家都在追更强模型时，真正缺的可能是本地降级、任务续跑和 agent session 账单。"
+      },
+      "takeaway": "团队需要为 AI coding 工作流设计备份方案：保留 session receipt、关键任务可重放、供应商可切换，并明确哪些环节不能完全依赖云端 agent。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Thibault Sottiaux：Codex 短暂故障后恢复，并重置 paid users 使用限制",
+          "url": "https://x.com/thsottiaux/status/2103637477760311522"
+        },
+        {
+          "tag": "builders",
+          "ref": "Thibault Sottiaux：Codex 故障正在恢复处理中",
+          "url": "https://x.com/thsottiaux/status/2103620061156290622"
+        },
+        {
+          "tag": "pulse",
+          "ref": "今日行动建议：做 agent run receipt，把一次 agent session 转成报告",
+          "url": "https://www.producthunt.com/products/chit-2"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Google Trends：codex 相关 rising 出现 incorrect api key 等故障查询",
+          "url": "https://trends.google.com/trends/explore?q=codex&date=now+7-d"
+        }
+      ]
+    }
+  ],
+  "notes": "今日主线很清楚：AI builder 讨论从模型能力转向生产化问题，包括 eval、可靠性、agent 管理、工具替代和可验证工作流。独立开发者素材偏少，但 agent 基础设施信号很强。",
+  "generated_at": "2026-09-26T09:17:19+00:00",
+  "model": "gpt-5.5"
+}
