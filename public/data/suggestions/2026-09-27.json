@@ -1,0 +1,148 @@
+{
+  "date": "2026-09-27",
+  "items": [
+    {
+      "id": "2026-09-27-1",
+      "title": "Agent退潮，事故现场升温",
+      "angle": "从 Garry Tan 用 agent 修生产事故切入，讲清楚 agent 真正变热的不是概念，而是运维、审计和回放层。",
+      "opening": "Google Trends 里 ai agent 一周跌了 72.2%，但 GitHub 上 agent 记忆、工作台和安全审计项目却同时爆星。更有意思的是，Garry Tan 已经把 agent 用到生产事故处理里。市场不是不信 agent 了，而是不想再听空泛 demo。",
+      "story_hook": {
+        "challenge": "一边是泛 AI agent 搜索热度暴跌，一边是真实工程流程里的 agent 基础设施爆发。",
+        "twist": "agent 的下一波机会可能不在更聪明的聊天，而在事故处理、审计记录和团队流程控制。"
+      },
+      "takeaway": "做 agent 产品时，把卖点从“替你思考”改成“让团队敢把它放进生产流程”。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Garry Tan 用 capy.ai 搭配 GStack /autoplan 处理生产事故",
+          "url": "https://x.com/garrytan/status/2103989902476259702"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub Trending vectorize-io/hindsight 本周 7282 星",
+          "url": "https://github.com/vectorize-io/hindsight"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Google Trends ai agent 一周下降 72.2%",
+          "url": "https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-27-2",
+      "title": "AI写PR，谁来负责理解",
+      "angle": "从 Guillermo Rauch 批评 AI 垃圾文本污染理解入手，转向代码审计和机器可读 review 的新入口。",
+      "opening": "一个爆火的“编译器性能提升”案例，PR 里明明写着原因不是编译器，很多人却照着误读传播。Guillermo Rauch 的愤怒点不是 AI 会写错，而是低质 AI 文本正在让人放弃理解。今天 GitHub 上最热的开发者工具，恰好也在转向 audit、review 和 machine-readable findings。",
+      "story_hook": {
+        "challenge": "AI 让代码、PR 和解释都变多了，但验证和理解没有同步变强。",
+        "twist": "AI coding 的下一个入口可能不是补全，而是让每一次 AI 输出都能被追责、复查和落库。"
+      },
+      "takeaway": "开发者工具可以优先做结构化审计、行级证据和可复查报告，而不是再卷一个代码生成界面。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Guillermo Rauch 批评 AI 垃圾弹让阅读和理解贬值",
+          "url": "https://x.com/rauchg/status/2103939888513274147"
+        },
+        {
+          "tag": "pulse",
+          "ref": "cloudflare/security-audit-skill 本周 6474 星",
+          "url": "https://github.com/cloudflare/security-audit-skill"
+        },
+        {
+          "tag": "pulse",
+          "ref": "alibaba/open-code-review 本周 4310 星",
+          "url": "https://github.com/alibaba/open-code-review"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-27-3",
+      "title": "Claude闸门拆了，产品要变",
+      "angle": "用 Claude 限额突然放宽和 Opus 5.5 搜索暴涨，讨论模型供给变化如何改变独立产品的成本结构。",
+      "opening": "Peter Yang 说 Claude 的限额突然像被拆了闸门：之前几乎没法用，现在像无限量供应。同一天，opus 5.5 成了 Google Trends 的 breakout 词。对 builder 来说，这不是单纯的模型新闻，而是产品边界被重新定价了。",
+      "story_hook": {
+        "challenge": "过去很多 AI 产品受限于调用成本、速率限制和模型可用性，功能只能做得很克制。",
+        "twist": "当顶级模型供给突然变宽，原本不划算的长任务、创作流和多轮 agent 可能重新变成可产品化。"
+      },
+      "takeaway": "重新检查那些因成本和限额搁置的功能，尤其是长上下文创作、多轮代码任务和批量生成工作流。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Peter Yang 说 Claude 限额突然大幅放宽",
+          "url": "https://x.com/petergyang/status/2104066667361992892"
+        },
+        {
+          "tag": "builders",
+          "ref": "Dan Shipper 用 Opus 5.5 把柏拉图改编成短片",
+          "url": "https://x.com/danshipper/status/2103850415930708437"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Google Trends opus 5.5 breakout +84200",
+          "url": "https://trends.google.com/trends/explore?q=claude+code&date=now+7-d"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-27-4",
+      "title": "语音陪练的窗口期来了",
+      "angle": "从 Peter Yang 用 Gemini audio API 做日语陪练，连接实时 ASR 和多模态模型的消费级小工具机会。",
+      "opening": "Peter Yang 用 Gemini audio API 做了一个日语口语陪练：10 节课，每节 10 个短语。这个 demo 小到像周末项目，但背后信号不小：语音 API、实时 ASR 和前端包装正在给独立开发者留下短窗口。",
+      "story_hook": {
+        "challenge": "大模型语音能力越来越强，但很多产品仍停留在语音转文字或聊天壳。",
+        "twist": "真正容易起量的可能不是通用语音助手，而是日语陪练、会议校对、客服摘要这类窄场景成品。"
+      },
+      "takeaway": "不要做语音模型门户，先选一个有明确反馈循环的场景，把听、说、纠错和复习闭环做完整。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Peter Yang 用 Gemini audio API 做日语口语陪练",
+          "url": "https://x.com/petergyang/status/2104059554204188833"
+        },
+        {
+          "tag": "builders",
+          "ref": "Peter Yang 试 Google 新音频 API 时不知道该向谁反馈问题",
+          "url": "https://x.com/petergyang/status/2104003094615052443"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Edge0/Audio8-ASR-Infinite 主打 streaming realtime ASR",
+          "url": "https://huggingface.co/Edge0/Audio8-ASR-Infinite"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-27-5",
+      "title": "别再押AI Agent大词",
+      "angle": "把 Nikunj 的“去真实世界找信号”和 Google Trends 的大词降温放在一起，提醒内容和产品定位该从概念词转向任务词。",
+      "opening": "Nikunj Kothari 说，别只盯着屏幕造 AI，真实世界里的信号可能比时间线噪音更值钱。今天的数据正好印证这点：ai agent、codex、self hosted 这些大词都在降温，但 paperclip、security audit skill、连接 Claude Code 到 note taker 这类具体词在冒头。",
+      "story_hook": {
+        "challenge": "大家还在用宏大概念写标题、做 SEO、讲融资故事，但用户搜索正在变得更具体。",
+        "twist": "需求没有消失，只是从“AI agent 是什么”迁移到“我怎么把某个 agent 接进某个工作流”。"
+      },
+      "takeaway": "写内容和做产品定位时，用具体任务词替代泛概念词，例如 agent memory、audit dashboard、Claude Code 日报导出。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Nikunj Kothari 说真实世界里的信号比时间线噪音更值钱",
+          "url": "https://x.com/nikunj/status/2104030951370322145"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Google Trends paperclip 一周上涨 7.8%",
+          "url": "https://trends.google.com/trends/explore?q=paperclip&date=now+7-d"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt Hemory 做 searchable memory for AI agents",
+          "url": "https://www.producthunt.com/products/hemory"
+        }
+      ]
+    }
+  ],
+  "notes": "今日最强主线不是模型本身，而是 agent 进入真实工作流后的记忆、审计、限额、语音和定位问题。可优先开稿 agent 基础设施和 AI 审计两条。",
+  "generated_at": "2026-09-27T09:17:04+00:00",
+  "model": "gpt-5.5"
+}
