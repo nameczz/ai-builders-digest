@@ -1,0 +1,148 @@
+{
+  "date": "2026-09-28",
+  "items": [
+    {
+      "id": "2026-09-28-1",
+      "title": "Agent 正在消灭惯性税",
+      "angle": "从 Aaron Levie 和 Dan Shipper 的判断切入：Agent 不是提高点击效率，而是在重写靠切换成本赚钱的市场。",
+      "opening": "过去十年，很多软件公司的护城河其实是用户懒得换。现在 Agent 真开始替用户做理性选择，最先被打穿的可能不是功能差的产品，而是靠惯性收费的产品。",
+      "story_hook": {
+        "challenge": "整个 SaaS 行业一边把用户建模成理性代理，一边靠用户不够理性赚钱。",
+        "twist": "当真正的理性代理出现后，恐慌的不是用户，而是平台和中间商。"
+      },
+      "takeaway": "判断一个 AI 产品是否有价值，要看它能不能减少交易摩擦，而不是只看它是否更会聊天。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Aaron Levie 关于 Agent 压缩切换成本的推文",
+          "url": "https://x.com/levie/status/2104350592290406849"
+        },
+        {
+          "tag": "builders",
+          "ref": "Dan Shipper 关于人类终于使用理性代理的推文",
+          "url": "https://x.com/danshipper/status/2104302924251951553"
+        },
+        {
+          "tag": "pulse",
+          "ref": "ProductHunt Harness Router：AI tool routing 决策层",
+          "url": "https://www.producthunt.com/products/harness-103"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-28-2",
+      "title": "CI 要被 Agent 重写了",
+      "angle": "从 Peter Steinberger 想让 Codex 判断哪些测试该跑切入，写 coding agent 如何把 CI 从全量执行变成风险决策系统。",
+      "opening": "CI 最贵的地方，不是机器费，而是每次都假装所有改动一样危险。现在有人开始让 Codex 判断哪些测试真该跑，甚至把测试频率砍到每小时一次。",
+      "story_hook": {
+        "challenge": "传统 CI 追求确定性，Agent 却天然带来不确定性。",
+        "twist": "真正省钱的办法可能不是更快的 runner，而是让 Agent 学会不跑无意义测试。"
+      },
+      "takeaway": "团队引入 coding agent 后，应优先建设测试选择、审计日志和失败归因，而不是只堆更多自动化。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Peter Steinberger 关于让 Codex 判断测试范围的推文",
+          "url": "https://x.com/steipete/status/2104305554760114488"
+        },
+        {
+          "tag": "pulse",
+          "ref": "cloudflare/security-audit-skill 本周新增 4805 stars",
+          "url": "https://github.com/cloudflare/security-audit-skill"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Alibaba open-code-review 本周新增 3727 stars",
+          "url": "https://github.com/alibaba/open-code-review"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-28-3",
+      "title": "AI 桌面应用开始返祖",
+      "angle": "用 Guillermo Rauch 把 Mini 从 Electron+Bun 迁到 Rust+Swift 的案例，解释 AI 工具为什么重新追求原生、轻量和系统级控制。",
+      "opening": "过去几年，桌面应用的默认答案是 Electron。现在 AI 工具越做越像系统组件，启动速度、焦点控制、输入权限和安全边界突然都变成核心体验。",
+      "story_hook": {
+        "challenge": "AI 应用想成为用户的日常入口，却常常被臃肿抽象层拖住。",
+        "twist": "越接近 Agent 工作台，越不像网页应用，反而越像原生系统工具。"
+      },
+      "takeaway": "做桌面 AI 产品时，不要只比较模型能力，要把启动速度、权限控制、全局输入和本地数据边界当成一等功能。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Guillermo Rauch 关于 Mini 从 Electron+Bun 迁到 Rust+Swift 的推文",
+          "url": "https://x.com/rauchg/status/2104428800134013205"
+        },
+        {
+          "tag": "pulse",
+          "ref": "ProductHunt PIP：桌面 AI buddy",
+          "url": "https://www.producthunt.com/products/pip-9"
+        },
+        {
+          "tag": "pulse",
+          "ref": "ProductHunt MuM：macOS 阅读优先 Markdown 引擎",
+          "url": "https://www.producthunt.com/products/mum-multi-project-markdown"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-28-4",
+      "title": "Agent 热词凉了，项目爆了",
+      "angle": "抓住 Google Trends 泛词下滑和 GitHub Agent 项目暴涨的反差：市场不是不关心 Agent，而是从概念搜索进入工具安装。",
+      "opening": "今天最反直觉的数据是：ai agent 搜索热度下滑 57.6%，但 Agent 工具链项目却在 GitHub 上爆发。用户不是不信 Agent 了，而是不再搜概念，开始找能装、能跑、能接进工作流的东西。",
+      "story_hook": {
+        "challenge": "外部热度看起来在降温，开发者采用却在加速。",
+        "twist": "真正的增长信号不在泛关键词，而在 install、harness、pairings 这种脏活关键词里。"
+      },
+      "takeaway": "Builder 做增长时，应把精力放在可运行 demo、安装页、模板库和故障排查页，而不是继续抢泛 AI SEO。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Nikunj Kothari 关于 Astra 做难验证端到端任务的推文",
+          "url": "https://x.com/nikunj/status/2104444216017637575"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Google Trends：ai agent 下滑 -57.6%",
+          "url": "https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d"
+        },
+        {
+          "tag": "pulse",
+          "ref": "vectorize-io/hindsight 本周新增 11089 stars",
+          "url": "https://github.com/vectorize-io/hindsight"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-28-5",
+      "title": "别再做会忘的 AI 产品",
+      "angle": "从 Peter Yang 对游戏和 LLM 记忆反差的观察切入，讨论消费级 AI 为什么要从模型能力转向可记住的体验。",
+      "opening": "很少有人怀念自己用过的 SaaS，但很多人会记一辈子某个游戏。LLM 模型可能正好相反：能力越来越强，记忆点越来越弱。",
+      "story_hook": {
+        "challenge": "AI 产品追逐参数、榜单和速度，却很难让用户形成情感记忆。",
+        "twist": "消费级 AI 的机会可能不是更聪明，而是更像游戏和创作工具一样可被记住。"
+      },
+      "takeaway": "做消费级 AI 时，要设计可重复体验、作品产出和个人痕迹，而不是只把最新模型包成聊天框。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Peter Yang 关于游戏是最能留在记忆里的软件的推文",
+          "url": "https://x.com/petergyang/status/2104414495376564517"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Qwen/Qwen-Image-2.1 HuggingFace 热门模型",
+          "url": "https://huggingface.co/Qwen/Qwen-Image-2.1"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Edge0/Audio8-ASR-Infinite 实时音频模型",
+          "url": "https://huggingface.co/Edge0/Audio8-ASR-Infinite"
+        }
+      ]
+    }
+  ],
+  "notes": "今日主线不是单个爆款，而是 Agent 从概念进入工作台、审计、路由和桌面控制层。可写的锋利角度集中在反差：热词降温但项目暴涨，SaaS 惯性被 Agent 挑战，AI 工具从网页聊天框退回原生桌面。",
+  "generated_at": "2026-09-28T09:17:14+00:00",
+  "model": "gpt-5.5"
+}
