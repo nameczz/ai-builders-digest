@@ -1,0 +1,367 @@
+{
+  "date": "2026-09-28",
+  "generated_at": "2026-09-28T09:11:13+00:00",
+  "count": 24,
+  "items": [
+    {
+      "id": "9b1f8a82d3",
+      "date": "2026-09-28",
+      "source": "x",
+      "author": "Nikunj Kothari",
+      "bio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
+      "title": "",
+      "summary_en": "Astra is absurd.. \n\nGive it decently hard verifiable end to end tasks with the right tools and watch it just fly 😅 https://t.co/SGOlvOxoNP",
+      "summary_zh": "Astra 强得离谱：给它配上合适工具，再丢一个足够难、可验证的端到端任务，它就能一路狂飙。",
+      "url": "https://x.com/nikunj/status/2104444216017637575",
+      "posted_at": "2026-09-28T05:32:54.000Z",
+      "tags": [
+        "@nikunj"
+      ]
+    },
+    {
+      "id": "d04fbff70f",
+      "date": "2026-09-28",
+      "source": "x",
+      "author": "Guillermo Rauch",
+      "bio": "@vercel CEO",
+      "title": "",
+      "summary_en": "I¹ ported my Mini web browser to Rust & Swift. It's faster, more secure, and shockingly, nicer to iterate on than Electron + Bun.\n\nI always wanted Safari-like UX but… Chrome 😁. Thanks to the 𝚌𝚎𝚏 crate, I can bundle up-to-date Chromium.\n\n𝚏𝚡 𝚊𝚌𝚙 lets me embed an agent without bloating the app. It talks to my local fx CLI over ACP. fx can then manage the browser via an MCP server².\n\nBy ditching Electron, I was able to get Liquid Glass, faster boots, and a more Mac-native feeling. Little things like fine-grained focus and input control, which are nightmare fuel in JS, just work®.\n\nNative is the future, both on the desktop and in the cloud. I suspect the entire software world will \"nativify\" faster than people realize, as DHH hinted at Rails World. Excited that Vercel's bet on Fluid will help support this, whether you choose to go Rust, Go, Zig, scriptc…\n\n¹ Built on https://t.co/OL0LzGsXKY with Opus 5.5 and Sol 6\n² In the process I learned about https://t.co/sJoQWFreGF, which I'm now really excited about. This will allow a more secure and direct way to expose MCP tools",
+      "summary_zh": "他把 Mini 浏览器从 Electron+Bun 搬到 Rust+Swift：启动更快、更安全、更像原生 Mac，连 JS 里折磨人的焦点和输入控制都“直接能用”。他的判断更狠：桌面和云都会加速“原生化”，整个软件世界比多数人想象中更快抛弃臃肿抽象层。",
+      "url": "https://x.com/rauchg/status/2104428800134013205",
+      "posted_at": "2026-09-28T04:31:39.000Z",
+      "tags": [
+        "@rauchg"
+      ]
+    },
+    {
+      "id": "728c0987df",
+      "date": "2026-09-28",
+      "source": "x",
+      "author": "Amjad Masad",
+      "bio": "ceo @replit. civilizationist",
+      "title": "",
+      "summary_en": "Cool to see Replit being popular at Chan-Zuckerberg household! https://t.co/JbuFL0HN3m",
+      "summary_zh": "Replit 已经火到扎克伯格家里了。AI 编程工具的渗透路径，正在从开发者社区一路打进顶级科技家庭。",
+      "url": "https://x.com/amasad/status/2104428789417857436",
+      "posted_at": "2026-09-28T04:31:36.000Z",
+      "tags": [
+        "@amasad"
+      ]
+    },
+    {
+      "id": "c394132428",
+      "date": "2026-09-28",
+      "source": "x",
+      "author": "Nan Yu",
+      "bio": "(soon) member of product staff @openai. prev head of product @linear",
+      "title": "",
+      "summary_en": "We came up in the golden era https://t.co/wEcyVOZQps https://t.co/HyuPtFIrnf",
+      "summary_zh": "我们是在 AI 黄金时代杀出来的一代。",
+      "url": "https://x.com/thenanyu/status/2104424388309496182",
+      "posted_at": "2026-09-28T04:14:07.000Z",
+      "tags": [
+        "@thenanyu"
+      ]
+    },
+    {
+      "id": "ad1361c015",
+      "date": "2026-09-28",
+      "source": "x",
+      "author": "Peter Yang",
+      "bio": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6",
+      "title": "",
+      "summary_en": "Notice how almost nobody has fond memories of SaaS or business software that they used back in the day but everyone remembers their favorite games. \n\nGames really are the software that has the longest staying power in our memories.\n\nLLM models are probably the inverse of that 😂",
+      "summary_zh": "几乎没人会怀念当年用过的 SaaS 或商务软件，但人人都记得自己最爱的游戏。游戏是最能留在记忆里的软件，LLM 模型大概正好相反。",
+      "url": "https://x.com/petergyang/status/2104414495376564517",
+      "posted_at": "2026-09-28T03:34:48.000Z",
+      "tags": [
+        "@petergyang"
+      ]
+    },
+    {
+      "id": "26afff2982",
+      "date": "2026-09-28",
+      "source": "x",
+      "author": "Peter Yang",
+      "bio": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6",
+      "title": "",
+      "summary_en": "Btw follow the goat @David_Wise for composing the amazing donkey Kong country music",
+      "summary_zh": "顺手关注一下大神 @David_Wise，Donkey Kong Country 那些神级配乐就是他写的。",
+      "url": "https://x.com/petergyang/status/2104406922216808505",
+      "posted_at": "2026-09-28T03:04:42.000Z",
+      "tags": [
+        "@petergyang"
+      ]
+    },
+    {
+      "id": "3546cc09f5",
+      "date": "2026-09-28",
+      "source": "x",
+      "author": "Peter Yang",
+      "bio": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6",
+      "title": "",
+      "summary_en": "Yes I am a millennial 🙂 https://t.co/Lngb9TdCzO https://t.co/bqSDgGkRpE",
+      "summary_zh": "他自嘲式承认：没错，我就是千禧一代。",
+      "url": "https://x.com/petergyang/status/2104405655406923922",
+      "posted_at": "2026-09-28T02:59:40.000Z",
+      "tags": [
+        "@petergyang"
+      ]
+    },
+    {
+      "id": "ff5b774489",
+      "date": "2026-09-28",
+      "source": "x",
+      "author": "Thariq",
+      "bio": "Claude Code @anthropicai. prev YC W20, @spc, @medialab",
+      "title": "",
+      "summary_en": "dating myself with neopets I fear https://t.co/Dz5CMnfLd8",
+      "summary_zh": "一提 Neopets 就是在自曝年龄，尴尬但藏不住。",
+      "url": "https://x.com/trq212/status/2104403711699423680",
+      "posted_at": "2026-09-28T02:51:57.000Z",
+      "tags": [
+        "@trq212"
+      ]
+    },
+    {
+      "id": "eee6f67128",
+      "date": "2026-09-28",
+      "source": "x",
+      "author": "Garry Tan",
+      "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "title": "",
+      "summary_en": "Anti-bot is for losers tbh https://t.co/kFAhqE1cCB",
+      "summary_zh": "反机器人机制说白了就是输家才搞的东西。真正有竞争力的产品，不该靠拦人来证明自己。",
+      "url": "https://x.com/garrytan/status/2104402742517420517",
+      "posted_at": "2026-09-28T02:48:06.000Z",
+      "tags": [
+        "@garrytan"
+      ]
+    },
+    {
+      "id": "d3142f929a",
+      "date": "2026-09-28",
+      "source": "x",
+      "author": "Aaron Levie",
+      "bio": "ceo @box - your business lives in content. unleash it with AI",
+      "title": "",
+      "summary_en": "Interesting to think about all the implications in a world where agents begin to make the best or most efficient choice for their users.\n\nOn one hand, there is some subset of the economy that benefits from the friction customers traditionally have changing something about their habits. In those parts of the market, switching costs will come down and competition is going to increase dramatically until some equilibrium is reached between the disruptive alternatives and the incumbents.\n\nOn the other hand, there are lots of markets that are hurt by a significant amount of friction, where agents will begin to unlock all kinds of economic activity by making it far easier to buy products or services that were too frictionful before. Healthcare, travel, local services, certain information services, and other entirely new markets probably are net beneficiaries of agents as a result.\n\nNo matter what, a future meaningfully mediated by agents that work tirelessly for us and our goals can’t possibly function exactly the same as today. Going to be wild.",
+      "summary_zh": "当 Agent 开始替用户做最优选择，靠用户惯性和切换成本赚钱的市场会被狠狠压缩，竞争会急剧升温。相反，那些长期被交易摩擦卡住的领域，医疗、旅行、本地服务、信息服务等，可能会被 Agent 释放出全新的经济活动。",
+      "url": "https://x.com/levie/status/2104350592290406849",
+      "posted_at": "2026-09-27T23:20:52.000Z",
+      "tags": [
+        "@levie"
+      ]
+    },
+    {
+      "id": "a96217eeb5",
+      "date": "2026-09-28",
+      "source": "x",
+      "author": "Amjad Masad",
+      "bio": "ceo @replit. civilizationist",
+      "title": "",
+      "summary_en": "Love to see it 😂 https://t.co/wzKM5TseSi https://t.co/4cHj9x5f2M",
+      "summary_zh": "太好看了，乐子就该这么来。",
+      "url": "https://x.com/amasad/status/2104344877798719516",
+      "posted_at": "2026-09-27T22:58:10.000Z",
+      "tags": [
+        "@amasad"
+      ]
+    },
+    {
+      "id": "953b9ffe03",
+      "date": "2026-09-28",
+      "source": "x",
+      "author": "Matt Turck",
+      "bio": "VC at @FirstMarkCap.  Host: MAD Podcast; Organizer: Data Driven NYC, Author: MAD Landscape.",
+      "title": "",
+      "summary_en": "It continues to be notable how many AI researchers (who understand how AI actually works) believe in neither AI doom nor massive uncontrollable acceleration, while non AI researchers (who have limited knowledge) have very definite and certain views on the topic.",
+      "summary_zh": "最懂 AI 怎么运作的研究者，反而既不信“AI 毁灭论”，也不信“失控式大加速”。倒是那些懂得有限的圈外人，个个都对这个话题笃定得很。",
+      "url": "https://x.com/mattturck/status/2104331402385002831",
+      "posted_at": "2026-09-27T22:04:37.000Z",
+      "tags": [
+        "@mattturck"
+      ]
+    },
+    {
+      "id": "a57838480b",
+      "date": "2026-09-28",
+      "source": "x",
+      "author": "Peter Steinberger",
+      "bio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world. @OpenClaw🦞 + @OpenAI",
+      "title": "",
+      "summary_en": "Same. @useblacksmith has been an amazing sponsor but we need to distribute the load. \n\nMy plan is to let codex decide which tests actually need to run and drastically nix CI and run tests hourly. https://t.co/Yo4PYOT2cI",
+      "summary_zh": "Blacksmith 这个赞助商很给力，但负载不能全压它一家。接下来让 Codex 判断哪些测试真该跑，把 CI 大幅砍掉，改成每小时跑一次测试。",
+      "url": "https://x.com/steipete/status/2104305554760114488",
+      "posted_at": "2026-09-27T20:21:55.000Z",
+      "tags": [
+        "@steipete"
+      ]
+    },
+    {
+      "id": "e7acae5927",
+      "date": "2026-09-28",
+      "source": "x",
+      "author": "Dan Shipper",
+      "bio": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "title": "",
+      "summary_en": "industry built on modeling humans as rational agents panics as humans adopt rational agents https://t.co/GYx8lXBURY",
+      "summary_zh": "整个行业靠把人类建模成“理性代理”赚钱，如今人类真的开始使用理性代理，行业反而慌了。",
+      "url": "https://x.com/danshipper/status/2104302924251951553",
+      "posted_at": "2026-09-27T20:11:27.000Z",
+      "tags": [
+        "@danshipper"
+      ]
+    },
+    {
+      "id": "b72e8bbee4",
+      "date": "2026-09-28",
+      "source": "x",
+      "author": "Garry Tan",
+      "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "title": "",
+      "summary_en": "\"Oh I can do this with CDP\" Haha you have not actually hit any real anti-bot then",
+      "summary_zh": "“我可以用 CDP 搞定。”哈哈，那只能说明你还没碰到真正的反机器人系统。",
+      "url": "https://x.com/garrytan/status/2104288345547591747",
+      "posted_at": "2026-09-27T19:13:32.000Z",
+      "tags": [
+        "@garrytan"
+      ]
+    },
+    {
+      "id": "e29de768cf",
+      "date": "2026-09-28",
+      "source": "x",
+      "author": "Thariq",
+      "bio": "Claude Code @anthropicai. prev YC W20, @spc, @medialab",
+      "title": "",
+      "summary_en": "I am most afraid of us eating the productivity gains of agents by just becoming lazier.",
+      "summary_zh": "我最担心的是，Agent 带来的生产力红利，最后被我们用来偷懒吃掉。\n\n不是效率革命，而是人类懒惰的放大器。",
+      "url": "https://x.com/trq212/status/2104273243599405395",
+      "posted_at": "2026-09-27T18:13:31.000Z",
+      "tags": [
+        "@trq212"
+      ]
+    },
+    {
+      "id": "9ec35fb4a4",
+      "date": "2026-09-28",
+      "source": "x",
+      "author": "Amanda Askell",
+      "bio": "Philosopher & ethicist trying to make AI be good @AnthropicAI. Personal account. All opinions come from my training data.",
+      "title": "",
+      "summary_en": "Admittedly I'm averse to a lot of smells, but I like things like the smell of a fresh orange. The perfumes that are supposed to be realistic and citrusy smell at best like orange layered over skunk.",
+      "summary_zh": "再逼真的柑橘香水，也只是把橙子味盖在臭鼬味上。喜欢新鲜橙子的气味，不等于能忍这些所谓“真实”的香氛。",
+      "url": "https://x.com/AmandaAskell/status/2104266890726309908",
+      "posted_at": "2026-09-27T17:48:16.000Z",
+      "tags": [
+        "@AmandaAskell"
+      ]
+    },
+    {
+      "id": "e6adad9864",
+      "date": "2026-09-28",
+      "source": "x",
+      "author": "Nikunj Kothari",
+      "bio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
+      "title": "",
+      "summary_en": "Asked ChatGPT for book recommendations after a long back and forth of books I tend to like.. if you have others to add, let me know 👋\n\nCurrently reading:\n\n&gt; White Mirror by @TinkeredThinker \n&gt; Challenger by @HigginbothamA https://t.co/lfwXz4IgEb",
+      "summary_zh": "让 ChatGPT 按自己的阅读口味反复筛书单后，他现在在读《White Mirror》和《Challenger》。还有更硬的推荐可以直接补上。",
+      "url": "https://x.com/nikunj/status/2104261968043663591",
+      "posted_at": "2026-09-27T17:28:43.000Z",
+      "tags": [
+        "@nikunj"
+      ]
+    },
+    {
+      "id": "c446d0342f",
+      "date": "2026-09-28",
+      "source": "x",
+      "author": "Amanda Askell",
+      "bio": "Philosopher & ethicist trying to make AI be good @AnthropicAI. Personal account. All opinions come from my training data.",
+      "title": "",
+      "summary_en": "I wanted to know if I only hate perfume because I've never owned a nice one. So I researched a bunch of the fanciest and most well reviewed perfumes and bought a tiny sample bottle of each. I can now confidently confirm that all perfume smells disgusting.",
+      "summary_zh": "她原本想验证自己讨厌香水是不是因为没用过好货，于是买了一堆顶级高分香水小样。现在可以确信：所有香水都难闻。",
+      "url": "https://x.com/AmandaAskell/status/2104261424625381528",
+      "posted_at": "2026-09-27T17:26:33.000Z",
+      "tags": [
+        "@AmandaAskell"
+      ]
+    },
+    {
+      "id": "ebf7a22359",
+      "date": "2026-09-28",
+      "source": "x",
+      "author": "Nikunj Kothari",
+      "bio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
+      "title": "",
+      "summary_en": "This is the larger one (13.3”) with Renaissance art https://t.co/19fCrtQUgN",
+      "summary_zh": "这是更大的 13.3 英寸版本，走文艺复兴艺术风。",
+      "url": "https://x.com/nikunj/status/2104254321131245653",
+      "posted_at": "2026-09-27T16:58:19.000Z",
+      "tags": [
+        "@nikunj"
+      ]
+    },
+    {
+      "id": "d6cb6289cd",
+      "date": "2026-09-28",
+      "source": "x",
+      "author": "Zara Zhang",
+      "bio": "Builder. Make something people want, then make people want it. Harvard’17. GitHub: https://t.co/KCuEajezlL  YouTube: https://t.co/8xzbGWtf6w",
+      "title": "",
+      "summary_en": "People who ask “why do you keep posting without monetizing your content” don’t understand that:\n\n1. Self-expression is an innate human instinct that requires no justification or utilitarian motive\n2. Influence is so much more valuable than money",
+      "summary_zh": "问“为什么不变现还一直发内容”的人，不懂表达本身就是人的本能，不需要功利理由。影响力比钱值钱得多。",
+      "url": "https://x.com/zarazhangrui/status/2104253882025341231",
+      "posted_at": "2026-09-27T16:56:35.000Z",
+      "tags": [
+        "@zarazhangrui"
+      ]
+    },
+    {
+      "id": "4a02d7bd47",
+      "date": "2026-09-28",
+      "source": "x",
+      "author": "Garry Tan",
+      "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "title": "",
+      "summary_en": "Do not nerf\n\nMade in San Francisco https://t.co/m4XDmQKaZW",
+      "summary_zh": "别削弱，旧金山制造。  \n一句短到像宣言，也像在给 AI 产品划线：要做强，不要做阉割版。",
+      "url": "https://x.com/garrytan/status/2104231083701420282",
+      "posted_at": "2026-09-27T15:25:59.000Z",
+      "tags": [
+        "@garrytan"
+      ]
+    },
+    {
+      "id": "3fe03a26ce",
+      "date": "2026-09-28",
+      "source": "x",
+      "author": "Zara Zhang",
+      "bio": "Builder. Make something people want, then make people want it. Harvard’17. GitHub: https://t.co/KCuEajezlL  YouTube: https://t.co/8xzbGWtf6w",
+      "title": "",
+      "summary_en": "New technology can be so dazzling and flashy that it blinds us to the ways in which it’s not working \n\n(and sometimes makes you feel that if something is not working, it’s probably your fault not the technology’s fault, because the world is moving so fast and everyone seems ahead of you)",
+      "summary_zh": "新技术常常光鲜到让人看不见它的失灵之处，甚至让你误以为问题出在自己身上。世界跑得太快、人人都像领先一步，于是技术的失败被包装成了你的落后。",
+      "url": "https://x.com/zarazhangrui/status/2104112917264126195",
+      "posted_at": "2026-09-27T07:36:26.000Z",
+      "tags": [
+        "@zarazhangrui"
+      ]
+    },
+    {
+      "id": "c0dc39b25a",
+      "date": "2026-09-28",
+      "source": "x",
+      "author": "Thibault Sottiaux",
+      "bio": "Codex & ChatGPT @OpenAI",
+      "title": "",
+      "summary_en": "Code freeze isn’t really a thing anymore before releases and in the future the code might even be generated online per request according to some constraints.",
+      "summary_zh": "发布前“代码冻结”这套东西已经不太成立了。往后代码甚至可能按每次请求的约束在线生成，而不是提前写好、冻住再发布。",
+      "url": "https://x.com/thsottiaux/status/2104108167806550046",
+      "posted_at": "2026-09-27T07:17:34.000Z",
+      "tags": [
+        "@thsottiaux"
+      ]
+    }
+  ]
+}
