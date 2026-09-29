@@ -1,0 +1,153 @@
+{
+  "date": "2026-09-29",
+  "items": [
+    {
+      "id": "2026-09-29-1",
+      "title": "订阅制正在杀死额度套利",
+      "angle": "从 OpenAI Pro 用量价值被砍，看 AI 产品定价从“买便宜 token”转向“买稳定工作流”。",
+      "opening": "一个 $200/月订阅重新开放，但用户实际拿到的 API 用量价值反而只有旧版一半。官方给出的理由也很直白：不想再用虚高 API 标价制造“订阅很划算”的错觉。AI 工具的定价逻辑正在从额度套利，变成稳定交付能力。",
+      "story_hook": {
+        "challenge": "用户习惯把订阅看成便宜 API 包，但平台开始主动切断这种心智。",
+        "twist": "真正更容易收费的，可能不是 token，而是 agent 管理、审计、远程运行这些工作流控制面。"
+      },
+      "takeaway": "做 AI 产品时不要只包装模型额度，应该把权限、日志、模板、团队协作和可预测成本设计成核心付费点。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Thibault Sottiaux 关于 Pro $200 订阅与 API 用量价值变化",
+          "url": "https://x.com/thsottiaux/status/2104823812042940713"
+        },
+        {
+          "tag": "pulse",
+          "ref": "paperclipai/paperclip 本周 10,518 stars",
+          "url": "https://github.com/paperclipai/paperclip"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Codex Remote 把 Codex 或 Claude Code 放到自有云机器",
+          "url": "https://www.producthunt.com/products/codex-remote"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-29-2",
+      "title": "Sonnet 5.5 挤压中端模型",
+      "angle": "不要写“新模型更强”，而是写当速度、成本、质量同时改善后，中端模型的存在理由被削弱。",
+      "opening": "Sonnet 5.5 的可怕之处不是某个榜单第一，而是它同时更快、更省、更能交付。Claude Code 用户多完成约 30% 任务，Box 的复杂企业内容评测里速度约 2.4 倍，还少用 12% token。中端模型最尴尬的时刻来了：便宜不够便宜，强又不够强。",
+      "story_hook": {
+        "challenge": "过去产品会用中端模型平衡成本和体验，但新一代主力模型正在同时吃掉两边。",
+        "twist": "模型分层不会消失，但“默认用中端模型省钱”的工程直觉可能过时。"
+      },
+      "takeaway": "重新做一次模型路由评估：不要只按单价选模型，要按任务完成率、返工率、等待时间和总 token 成本一起算。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Cat Wu 称 Sonnet 5.5 在 Claude Code 中多完成约 30% 任务",
+          "url": "https://x.com/_catwu/status/2104639552170377399"
+        },
+        {
+          "tag": "builders",
+          "ref": "Aaron Levie 分享 Box 企业内容复杂评测数据",
+          "url": "https://x.com/levie/status/2104648654074343480"
+        },
+        {
+          "tag": "pulse",
+          "ref": "davila7/claude-code-templates 本周 1,200 stars",
+          "url": "https://github.com/davila7/claude-code-templates"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-29-3",
+      "title": "Prompt 秘方时代结束了",
+      "angle": "从 Thariq 的“prompt 只是入口”切入，解释开发者正在把经验沉淀到引用、技能、范例和模板里。",
+      "opening": "现在再问高手“把 prompt 发我看看”，可能已经问错了。真正起作用的不是一句咒语，而是 agent 读过哪些仓库、拿到哪些范例、调用哪些工具、记住哪些上下文。搜索热度里 claude code templates 暴涨 +999%，这不是巧合。",
+      "story_hook": {
+        "challenge": "大众还在寻找万能 prompt，但 builder 已经把有效经验工程化了。",
+        "twist": "最值钱的不是提示词文本，而是可复用的上下文包、技能和模板系统。"
+      },
+      "takeaway": "把团队里反复成功的 AI 工作流整理成模板：包含参考仓库、约束文档、测试命令、反例和验收标准，而不只是 prompt。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Thariq 称真正起作用的是引用、技能和范例",
+          "url": "https://x.com/trq212/status/2104608785696440510"
+        },
+        {
+          "tag": "pulse",
+          "ref": "claude code templates Google Trends 上升 +999.0%",
+          "url": "https://trends.google.com/trends/explore?q=claude+code+templates&date=now+7-d"
+        },
+        {
+          "tag": "pulse",
+          "ref": "cloudflare/security-audit-skill 本周 3,962 stars",
+          "url": "https://github.com/cloudflare/security-audit-skill"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-29-4",
+      "title": "Coding Agent 正逃离 IDE",
+      "angle": "把 WhatsApp、公开部署搜索、远程 Codex 放在一起看：开发协作入口正在从编辑器变成消息、云机和网页。",
+      "opening": "代码生成接进 WhatsApp 听起来像噱头，但它暴露了一个更大的迁移：开发协作不一定还困在 IDE 里。Vercel 域名免登录搜索、Codex Remote 上 Product Hunt、openrig 同时跑 Claude Code 和 Codex，入口正在碎片化。谁掌握上下文、权限和运行环境，谁才是新的工作台。",
+      "story_hook": {
+        "challenge": "IDE 插件曾经是 coding agent 的默认形态，但用户开始寻找可替换、可远程、可审计的运行栈。",
+        "twist": "下一个开发者工具入口可能不是更强编辑器，而是聊天窗口、部署平台或远程机器控制台。"
+      },
+      "takeaway": "如果在做 dev tool，优先设计跨入口的上下文同步、任务日志和权限边界，而不是只优化编辑器内补全体验。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Garry Tan 谈代码生成进入 WhatsApp",
+          "url": "https://x.com/garrytan/status/2104771351009702168"
+        },
+        {
+          "tag": "builders",
+          "ref": "Guillermo Rauch 称 Vercel 域名现在可免登录搜索",
+          "url": "https://x.com/rauchg/status/2104764419305796094"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Codex Remote 把 Codex 或 Claude Code 放到自有云机器",
+          "url": "https://www.producthunt.com/products/codex-remote"
+        },
+        {
+          "tag": "pulse",
+          "ref": "cursor alternative 搜索上升 +30.2%",
+          "url": "https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-29-5",
+      "title": "AI 前端的垃圾味怎么去掉",
+      "angle": "从 Zara Zhang 找人拆解“AI 味垃圾”前端开始，写 AI 生成界面从 demo 炫技走向可复刻工作流。",
+      "opening": "很多人看 X 上的 AI 前端 demo 会有同一个挫败感：别人一条 prompt 做出炫酷产品，自己复刻出来却像模板垃圾。Zara Zhang 直接点名想找这类 builder 聊，Product Hunt 上 Timeful 也在主打设计 Web app 并同步到代码库。问题不是 AI 会不会写页面，而是有没有一套能稳定产出好体验的流程。",
+      "story_hook": {
+        "challenge": "AI 已经能生成可玩的游戏、动画和网页，但普通开发者很难把炫酷 demo 复刻成可维护产品。",
+        "twist": "破局点可能不是更长 prompt，而是设计参考、组件约束、代码同步和验收标准的流水线。"
+      },
+      "takeaway": "开稿可以拆一个 AI 前端工作流：先定视觉参考和组件库，再让模型生成页面，最后用真实截图、响应式检查和代码审查过滤“AI 味”。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Zara Zhang 寻找用 AI 做网页和前端体验的人",
+          "url": "https://x.com/zarazhangrui/status/2104689580045979811"
+        },
+        {
+          "tag": "builders",
+          "ref": "Peter Yang 用 Sonnet 5.5 做出可玩的星际争霸关卡",
+          "url": "https://x.com/petergyang/status/2104736498151256303"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Timeful 主打设计 Web app 并同步到代码库",
+          "url": "https://www.producthunt.com/products/timeful"
+        }
+      ]
+    }
+  ],
+  "notes": "今日主线集中在 Sonnet 5.5、agent 工作台、模板化和远程运行；适合少写发布会预测，多写“工作流入口正在重排”。",
+  "generated_at": "2026-09-29T09:17:45+00:00",
+  "model": "gpt-5.5"
+}
