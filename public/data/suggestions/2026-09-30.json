@@ -1,0 +1,148 @@
+{
+  "date": "2026-09-30",
+  "items": [
+    {
+      "id": "2026-09-30-1",
+      "title": "AI Agent 降温是假象",
+      "angle": "从搜索词下滑和开源基础设施暴涨的反差切入，判断 agent 正从概念词变成工作流零件。",
+      "opening": "Google Trends 里「ai agent」跌了 4.1%，但 GitHub 周榜却被 agent memory、agent ops 和 runtime 刷屏。需求没有消失，只是用户不再搜索大词了。他们开始找能装进团队流程的具体部件。",
+      "story_hook": {
+        "challenge": "表面上 agent 热词退潮，实际开发者正在疯狂收藏 agent 周边基础设施。",
+        "twist": "真正升温的不是「再造一个 AI agent」，而是记忆、编排、审计、运行时这些看起来不性感的底层组件。"
+      },
+      "takeaway": "做产品和内容时，把关键词从「AI agent」切到具体任务词：memory、workspace、runtime、audit、CLI。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Sam Altman 发布 Dots，强调 24/7 替用户干活的 AI 用法",
+          "url": "https://x.com/sama/status/2104995014208258235"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Google Trends：ai agent 本周 -4.1%",
+          "url": "https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub 周榜 vectorize-io/hindsight +17,365 stars",
+          "url": "https://github.com/vectorize-io/hindsight"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-30-2",
+      "title": "下一波不是模型，是控制面",
+      "angle": "从 Sol 6.1 降价和开源 agent 工作台爆发切入，讨论 AI 工具付费点如何从 token 迁移到团队控制面。",
+      "opening": "Sam Altman 说 6.1 Sol 只要 Astra 五分之一价格，还有 95% 缓存读取折扣。模型越来越便宜后，谁还靠转售 token 挣钱？今天 GitHub 和 Product Hunt 给出的答案很直接：卖权限、编排、审计和工作区。",
+      "story_hook": {
+        "challenge": "模型价格下探会压缩一大批 API wrapper 的利润。",
+        "twist": "开源项目反而暴露了新的收费层：团队席位、私有部署、agent 模板、运行时配额和审计日志。"
+      },
+      "takeaway": "AI SaaS 定价应少围绕调用量，多围绕团队协作、控制权、合规和跨工具管理设计。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Sam Altman：6.1 Sol 价格为 Astra 五分之一，缓存读取 95% 折扣",
+          "url": "https://x.com/sama/status/2104994395980533804"
+        },
+        {
+          "tag": "pulse",
+          "ref": "paperclipai/paperclip 周增 +12,941 stars",
+          "url": "https://github.com/paperclipai/paperclip"
+        },
+        {
+          "tag": "pulse",
+          "ref": "stablyai/orca 周增 +6,242 stars",
+          "url": "https://github.com/stablyai/orca"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-30-3",
+      "title": "六条提示词卖掉一个水瓶",
+      "angle": "用 Zara Zhang 的 AI 营销站案例，对照 HuggingFace 图像与语音模型热度，写创作者工具链正在被一口气串起来。",
+      "opening": "一个水瓶，现在可以用 6 条提示词做出广告片级官网。文案、配乐、3D 资产、生图、页面，全都被 AI builder 串成流水线。问题不是「AI 能不能做营销」，而是谁能把这条流水线产品化。",
+      "story_hook": {
+        "challenge": "过去品牌官网需要设计、文案、3D、视频和前端协同，现在一个 builder 可以压缩成一次连续生成。",
+        "twist": "真正的机会不在单点生图，而在把语音、视觉编辑、3D 资产和网页生成打成创作者工作流。"
+      },
+      "takeaway": "面向独立品牌和创作者的 AI 产品，应优先做端到端工作流，而不是只做单个生成按钮。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Zara Zhang 用 6 条提示词生成水瓶营销网站，并串起 ElevenLabs、Meshy 和 OpenAI 生图",
+          "url": "https://x.com/zarazhangrui/status/2105096296831017078"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Qwen/Qwen-Image-2.1 下载 64,362",
+          "url": "https://huggingface.co/Qwen/Qwen-Image-2.1"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Edge0/Audio8-ASR-Infinite 支持 realtime、zh、en，下载 23,674",
+          "url": "https://huggingface.co/Edge0/Audio8-ASR-Infinite"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-30-4",
+      "title": "本地语音克隆开始产品化",
+      "angle": "从 VoiceStudio 同时登上 GitHub 与 Google Trends 切入，判断本地语音工具正在从玩具走向可售卖的生产工具。",
+      "opening": "VoiceStudio 今天同时在 GitHub 和 Google Trends 起飞：周增 12,722 stars，搜索热度涨 189.1%。这不是又一个好玩的 demo，而是一个信号：语音克隆、转写、字幕和播客剪辑，正在变成本地优先的产品入口。",
+      "story_hook": {
+        "challenge": "语音 AI 以前像娱乐玩具，难以进入稳定工作流。",
+        "twist": "当本地替代、实时转写和说话人分离同时成熟，语音工具就能接到会议、播客、短视频和开发任务里。"
+      },
+      "takeaway": "开发者可以从「本地语音到任务」切入：转写录音，识别说话人，再自动生成 issue、纪要或剪辑脚本。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Peter Yang 抱怨 AI 垃圾短视频，并寻找关闭 Shorts 的方式",
+          "url": "https://x.com/petergyang/status/2105127506701644024"
+        },
+        {
+          "tag": "pulse",
+          "ref": "debpalash/VoiceStudio 周榜 +12,722 stars",
+          "url": "https://github.com/debpalash/VoiceStudio"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Google Trends：voicestudio 本周 +189.1%",
+          "url": "https://trends.google.com/trends/explore?q=voicestudio&date=now+7-d"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-30-5",
+      "title": "AI 创业在奖励雇佣兵",
+      "angle": "把 Nikunj 对人才流动的尖锐吐槽，和 Product Hunt 上 agent 身份、工作区、任务板密集出现放在一起，写 AI 创业护城河从点子变成执行系统。",
+      "opening": "Nikunj Kothari 说得很刺耳：AI 创业市场正在奖励雇佣兵，CEO、联合创始人、核心员工随时跳去「显而易见的赢家」。这句话残酷，但和今天的产品潮流正好对上了：单点创意不值钱，能把团队、agent、任务和执行速度锁进系统里，才可能留下东西。",
+      "story_hook": {
+        "challenge": "AI 创业速度太快，人才和注意力会迅速流向看起来更大的机会。",
+        "twist": "所谓护城河不再是一个模型或一个 prompt，而是产品、技术、GTM、团队协作和 agent 工作流的密集细节。"
+      },
+      "takeaway": "创业者要少迷信单点功能，多建设能沉淀组织记忆、任务流和协作习惯的执行系统。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Nikunj Kothari：AI 创业市场正在奖励雇佣兵，护城河来自千百个细节",
+          "url": "https://x.com/nikunj/status/2105148927599423752"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt：Campfire 做人类与 coding agents 的共享工作区",
+          "url": "https://www.producthunt.com/products/campfire-12"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt：Agent Identity 给 agent 身份、邮箱和电话",
+          "url": "https://www.producthunt.com/products/agent-identity"
+        }
+      ]
+    }
+  ],
+  "notes": "今日主线是 agent 从概念退到后台，具体工作流基础设施接棒；独立开发者素材充足，但 PH 原始票数缺失，不宜写强弱排序。",
+  "generated_at": "2026-09-30T09:17:19+00:00",
+  "model": "gpt-5.5"
+}
