@@ -1,0 +1,148 @@
+{
+  "date": "2026-10-01",
+  "items": [
+    {
+      "id": "2026-10-01-1",
+      "title": "$0 代码后，最贵的是连接",
+      "angle": "从 Vercel Connect 和 agent 开源热榜看：AI 编程的下一层战场不是写代码，而是安全地连接服务、权限和运行时。",
+      "opening": "Guillermo Rauch 说，代码快要“免费”了，真正的终局 Boss 变成了连接各种服务。另一边，Hindsight 一周 18,389 星，Paperclip 一周 13,855 星，大家都在补 agent 的记忆、权限和团队控制面。",
+      "story_hook": {
+        "challenge": "模型越来越会写代码，但企业真正卡住的是密钥、权限、审计和跨服务协作。",
+        "twist": "看起来最底层的“连接器”，反而可能成为 2000 万开发者和数十亿 agents 面前的新入口。"
+      },
+      "takeaway": "做 AI 开发工具时，不要只包装模型调用；优先检查能否解决身份、权限、日志、团队模板和失败恢复。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Guillermo Rauch 谈 Connect 和 agents 的连接层",
+          "url": "https://x.com/rauchg/status/2105390544096841942"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub 周榜 vectorize-io/hindsight 一周 18,389 星",
+          "url": "https://github.com/vectorize-io/hindsight"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub 周榜 paperclipai/paperclip 一周 13,855 星",
+          "url": "https://github.com/paperclipai/paperclip"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-01-2",
+      "title": "AI 替不了最脏的增长活",
+      "angle": "用 Nikunj 和 Aaron Levie 的两条发声拆解一个反差：AI 自动化越强，越暴露线下销售、部署和组织改造的不可替代。",
+      "opening": "Nikunj Kothari 说，他已经把大部分工作自动化掉了，剩下的却是找人、冷邮件、线下见创始人和手写 pass notes。Aaron Levie 则提醒，企业 AI 落地不是装个软件，而是重接旧系统、数据、流程、人和评估。",
+      "story_hook": {
+        "challenge": "AI 让原型变便宜，但真正成交和落地的部分变得更重、更人工、更行业化。",
+        "twist": "最有机会的公司，可能不是做“更聪明的 agent”，而是做 AI 进入经济系统的部署层。"
+      },
+      "takeaway": "创业者应把销售、实施、评估和客户成功当产品的一部分设计，而不是幻想模型能力会自动完成落地。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Nikunj Kothari 谈自动化后剩下的脏活",
+          "url": "https://x.com/nikunj/status/2105532229866942772"
+        },
+        {
+          "tag": "builders",
+          "ref": "Aaron Levie 谈企业 AI 部署复杂度",
+          "url": "https://x.com/levie/status/2105354449795621179"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt Chat.sh 从 Intercom 搜索坏了切入",
+          "url": "https://www.producthunt.com/products/chat-sh"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-01-3",
+      "title": "多智能体先别刷屏",
+      "angle": "从 Capy、OC harness、OpenRig 和 Paperclip 看多智能体产品的第一性问题：不是能不能协作，而是协作过程如何不污染用户工作流。",
+      "opening": "Garry Tan 夸 Capy 的点，不是“又一个代码编辑器”，而是代理群能像同级一样互相沟通。Peter Steinberger 马上给了另一面：智能体之间的聊天流太吵，他已经把这类消息默认压成一行。",
+      "story_hook": {
+        "challenge": "多智能体需要透明协作，但把所有中间对话倒给用户，只会制造新的噪音。",
+        "twist": "下一代 agent 工作台的关键 UI，可能不是更大的聊天框，而是可折叠、可审计、可回放的协作轨迹。"
+      },
+      "takeaway": "设计多智能体产品时，把“代理之间怎么说话”和“用户什么时候需要看见”分开建模。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Garry Tan 谈 Capy 的同级代理协作",
+          "url": "https://x.com/garrytan/status/2105449821645480046"
+        },
+        {
+          "tag": "builders",
+          "ref": "Peter Steinberger 将 agent 聊天默认折叠",
+          "url": "https://x.com/steipete/status/2105362785534361996"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub openrig 多代理系统",
+          "url": "https://github.com/mvschwarz/openrig"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-01-4",
+      "title": "本地语音到了开源爆点",
+      "angle": "把 Swyx 的播客分发意外上榜和 VoiceStudio、ASR、diarization 热度放在一起看：音频生产正在从平台流量游戏变成本地工具链机会。",
+      "opening": "Swyx 说自己没为 Apple Podcasts 做优化，还主动讨厌 Spotify，结果居然和一堆行业传奇一起上榜。与此同时，VoiceStudio 一周 15,186 星，Audio8-ASR-Infinite 下载 26,749，本地语音工具突然站到台前。",
+      "story_hook": {
+        "challenge": "音频内容过去依赖平台分发和云端工具，开发者很难掌控全链路。",
+        "twist": "真正的新机会不是再做一个播客平台，而是把转写、说话人分离、配音和知识库全部本地化。"
+      },
+      "takeaway": "可以优先验证“本地会议到知识库”或“播客到结构化素材库”这类窄流程，而不是直接挑战 ElevenLabs 或 Spotify。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Swyx 谈播客未优化却上榜",
+          "url": "https://x.com/swyx/status/2105419486383964544"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub 周榜 debpalash/VoiceStudio 一周 15,186 星",
+          "url": "https://github.com/debpalash/VoiceStudio"
+        },
+        {
+          "tag": "pulse",
+          "ref": "HuggingFace Edge0/Audio8-ASR-Infinite",
+          "url": "https://huggingface.co/Edge0/Audio8-ASR-Infinite"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-01-5",
+      "title": "平台一关，产品就裸奔",
+      "angle": "用 Google Opal 关停、Android 验证争议和 FxEmbed 的替代需求，写平台控制权如何重新成为 AI builder 的生存风险。",
+      "opening": "Google Labs 把 Opal 的实验结果并进 Gemini Skills，同时给出关停日期：2026 年 11 月 17 日。今天 pulse 里另一个信号也很硬：Android 开发者验证争议正在提醒独立开发者，不要把分发、运行时和身份完全押在单一平台上。",
+      "story_hook": {
+        "challenge": "平台给流量、能力和信任，也随时能改规则、收入口、关产品。",
+        "twist": "用户寻找替代品时，往往不是因为巨头倒下，而是一个具体功能长期不好用或突然不可控。"
+      },
+      "takeaway": "评估 AI 产品时要列出平台依赖清单：账号、分发、API、嵌入、支付、数据出口，能替换的尽早做抽象层。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Google Labs 宣布 Opal 并入 Gemini Skills 并将关停",
+          "url": "https://x.com/GoogleLabs/status/2105352889665564838"
+        },
+        {
+          "tag": "pulse",
+          "ref": "今日 pulse top3：Android 开发者验证争议",
+          "url": "https://trends.google.com/trends/explore?q=android+developer+verification&date=now+7-d"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub FxEmbed 修复 X/Twitter 和 Bluesky 嵌入体验",
+          "url": "https://github.com/FxEmbed/FxEmbed"
+        }
+      ]
+    }
+  ],
+  "notes": "今日最强主线是 agent 从概念转向控制面、记忆层和部署层；独立开发者素材偏工具链，消费级故事主要集中在本地语音。",
+  "generated_at": "2026-10-01T09:18:05+00:00",
+  "model": "gpt-5.5"
+}
