@@ -1,0 +1,193 @@
+{
+  "date": "2026-10-01",
+  "generated_at": "2026-10-01T00:47:24+00:00",
+  "inbox_id": "sanyoumu@agentmail.to",
+  "window": {
+    "start": "2026-09-30T00:47:23+00:00",
+    "end": "2026-10-01T00:46:06.544743+00:00",
+    "source": "previous_digest_generated_at"
+  },
+  "count": 5,
+  "highlights": [
+    "今日精读：Latent.Space 通过 OpenAI Computer Use 负责人 Ari Weinstein 与 API 团队 Nikunj Handa 的访谈，把「电脑使用型 agent」的能力跃迁和 OpenAI 新开发者栈串成了一条主线：更快的工具调用、更强的失败恢复、更接近实时的软件操作。",
+    "OpenAI DevDay 2026 是当天多封 newsletter 的共同核心：Dots、GPT-6.1 Sol、Ultrafast、Decisions API、Agents API、Spaces、Marketplace 等更新显示 OpenAI 正在从模型 API 供应商扩展成更完整的 AI cloud。",
+    "Dots 被多封邮件重点提到：它是运行在云电脑上的常驻 agent，可连接 4000 多个应用，并通过 Slack、Teams、ChatGPT、Codex 等入口执行跨工具任务。",
+    "设计与产品侧的重点是「结果优先」：AI 产品不一定要复刻传统工具界面，而是直接交付用户原本想通过工具获得的结果。",
+    "独立 builder 视角下，AI 设计工具增长、Replit 收购 Atta、MCP Events、Sign in with ChatGPT 等信息都指向一个趋势：AI 应用的入口、身份、自动化、分析和工作流正在被重新打包。"
+  ],
+  "items": [
+    {
+      "id": "latent-space-computer-use-openai-devday",
+      "title_zh": "今日精读：Computer Use 从演示能力走向可用软件劳动力",
+      "title_original": "Why Dwarkesh is Wrong about Computer Use + How OpenAI shipped its Jev competitor in 1 Week",
+      "source": "Latent.Space",
+      "from": "Latent.Space <swyx@substack.com>",
+      "subject": "Why Dwarkesh is Wrong about Computer Use + How OpenAI shipped its Jev competitor in 1 Week",
+      "url": "https://www.latent.space/p/devday-2026",
+      "message_id": "<20260930222340.3.58975b2d49e592b1@mg2.substack.com>",
+      "published_at": "2026-09-30T22:23:40.000Z",
+      "importance": "high",
+      "summary_zh": "这封 Latent.Space 以 OpenAI DevDay 2026 相关访谈为主线，前半部分采访 OpenAI Computer Use 方向的 Ari Weinstein，讨论电脑使用型 agent 为什么已与几个月前「180 度不同」：它们能结合截图、无障碍树、DOM、Playwright 和生成代码，更快完成网页和软件操作，并在失败后调试、恢复。后半部分采访 OpenAI API 团队 Nikunj Handa，梳理 async tool calling、mid-turn steering、WebSockets、UltraFast inference、Decisions API、prompt caching、pre-warming、compaction、Agents API 等开发者栈更新，尤其强调 Decisions API 是 OpenAI 快速回应 Jev 类决策模型需求的一次产品化尝试。",
+      "deep_read_zh": "这篇最值得精读的地方，不只是它罗列 OpenAI DevDay 的发布项，而是把 Computer Use、agent 运行环境和开发者 API 的变化放在同一个技术叙事里。Ari Weinstein 的核心判断是，Computer Use 已经从「模型看屏幕、慢慢点」的早期形态，进入了多模态上下文与程序化控制结合的新阶段。截图仍然重要，但不再是唯一输入；无障碍数据、DOM、Playwright、生成 JavaScript、App Shots 等信息源共同让 agent 能更快理解界面、执行动作并验证结果。对 builder 来说，这意味着未来的 agent 不只是替人点按钮，而是能在真实软件环境中闭环完成写代码、测试、调试和修复。文章还强调失败恢复的重要性：现代 agent 的价值不只在一次性成功，而在于遇到错误后能定位、重试、修正策略。后半部分则把这种能力落到 OpenAI 的平台层：async function calling 让模型在工具运行时不必停止推理，mid-turn steering 和 WebSockets 改善交互响应，UltraFast inference 试图把前沿模型推向低延迟场景，Decisions API 则提供更快、更适合分类和工作流判断的接口。作者也点出它目前仍像 Luna 的轻量封装，但 OpenAI 愿意快速复制好模式，这对开发者生态很关键。整体看，这篇文章揭示的不是单个产品更新，而是 OpenAI 正在把 agent 所需的感知、执行、低延迟、长线程管理和高层 API 拼成一套 AI cloud 原语。",
+      "why_important": "它把当天多个分散发布项背后的共同方向讲清楚：agent 正从聊天框内的文本推理，转向拥有运行环境、软件操作能力和平台级工具链的执行系统。",
+      "impact": "对 builder 来说，未来产品设计要考虑 agent 是否能直接进入软件流程、是否有权限边界、是否能被外部工具实时 steering，以及是否需要围绕缓存、低延迟和长线程状态重新设计架构。",
+      "key_points": [
+        "Ari Weinstein 认为 Computer Use 与几个月前相比已经发生显著变化，agent 更擅长调试和从失败中恢复。",
+        "新一代 Computer Use 不只依赖截图，还结合无障碍树、DOM、Playwright、生成代码和 App Shots。",
+        "Computer Use 的目标正在从接近人类操作速度，走向在软件使用上达到超人水平。",
+        "OpenAI 的开发者栈更新包括 async tool calling、mid-turn steering、WebSockets、UltraFast inference、prompt caching、pre-warming、compaction 和 Agents API。",
+        "Decisions API 被描述为 OpenAI 快速回应 Jev 类模式的产品，目前更像 Luna 的轻量封装，但可用于支持分类和内部工作流等低延迟决策场景。",
+        "文章把 OpenAI 描述成正在寻找更高层 AI cloud 原语的平台，而不只是原始模型 API 提供商。"
+      ],
+      "reading_notes": [
+        "判断 Computer Use 价值时，不要只看单步操作成功率，也要看失败恢复、调试能力和闭环验证。",
+        "关注 OpenAI 是否会把 Computer Use、Agents API 和 Decisions API 进一步整合成统一的 agent 运行平台。",
+        "对现有 SaaS 产品，要思考哪些流程会被 agent 直接操作，哪些接口需要为 agent 暴露更结构化的上下文。",
+        "Decisions API 当前能力与真正校准过的决策模型之间仍有差距，后续是否补上校准、反馈学习和可靠性机制值得跟踪。"
+      ],
+      "tags": [
+        "agent",
+        "computer-use",
+        "openai",
+        "developer-tools",
+        "infra"
+      ],
+      "related_sources": [
+        "AINews",
+        "TLDR AI",
+        "TLDR Design"
+      ]
+    },
+    {
+      "id": "tldr-ai-openai-dots-gpt-sol-software-factories",
+      "title_zh": "OpenAI Dots、GPT-6.1 Sol 与 agent 平台更新成为 TLDR AI 主线",
+      "title_original": "OpenAI Dots 🟡, GPT-6.1 Sol ⚡, software factories 🏭",
+      "source": "TLDR AI",
+      "from": "TLDR AI <dan@tldrnewsletter.com>",
+      "subject": "OpenAI Dots 🟡, GPT-6.1 Sol ⚡, software factories 🏭",
+      "url": "https://refer.tldr.tech/0a897003/2",
+      "message_id": "<010001a0f2937235-db847e24-3649-4294-be77-94a25eef55c6-000000@email.amazonses.com>",
+      "published_at": "2026-09-30T13:49:04.000Z",
+      "importance": "high",
+      "summary_zh": "这封 TLDR AI 汇总了 OpenAI Dots、GPT-6.1 Sol、Meta Muse、小企业 AI、AI 实验室治理、AI 定价分层、MCP Events、Sign in with ChatGPT 和 d1 决策模型等内容。最核心的信息是 OpenAI 正把 agent 产品和开发者平台同时推进：Dots 是由 GPT-6 Astra 驱动、拥有云电脑并连接 4000 多个应用的自主 agent；GPT-6.1 Sol 则主打接近 Astra 的智能但成本只有五分之一，在编码、PDF 查询和商业流程自动化上提升明显。工程侧值得注意的是 MCP Events 支持 ChatGPT 从 MCP server 订阅更新，Sign in with ChatGPT 则把 ChatGPT 身份扩展到外部应用。",
+      "deep_read_zh": "",
+      "why_important": "它覆盖了当天 AI infra、agent 产品、身份系统和模型经济性的多个关键更新，适合作为 DevDay 后的快速全景索引。",
+      "impact": "builder 需要关注 agent 产品是否会成为新的应用分发入口，同时也要关注低成本高性能模型、MCP 事件机制和 ChatGPT 身份登录对产品集成方式的影响。",
+      "key_points": [
+        "Dots 被描述为拥有云电脑、可连接 4000 多个应用并可在 ChatGPT、Slack、Teams 等环境中工作的自主 agent。",
+        "GPT-6.1 Sol 主打接近 Astra 的能力和更低成本，覆盖编码、复杂 PDF 查询和业务自动化。",
+        "MCP Events 和 Sign in with ChatGPT 显示 ChatGPT 正在扩展为事件订阅、身份和外部应用连接层。"
+      ],
+      "reading_notes": [],
+      "tags": [
+        "agent",
+        "model",
+        "mcp",
+        "identity",
+        "openai"
+      ],
+      "related_sources": [
+        "Latent.Space",
+        "AINews",
+        "TLDR Design"
+      ]
+    },
+    {
+      "id": "marc-lou-ai-design-tool-growth",
+      "title_zh": "一个 AI 设计工具 30 天增长 1702%",
+      "title_original": "This AI design tool skyrocketed 1702% in 30 days",
+      "source": "unicorne.beehiiv.com",
+      "from": "Marc Lou <unicorne@mail.beehiiv.com>",
+      "subject": "This AI design tool skyrocketed 1702% in 30 days",
+      "url": "https://unicorne.beehiiv.com/p/this-ai-design-tool-skyrocketed-1702-in-30-days",
+      "message_id": "<20260930.130251.b69f09b8@mta18>",
+      "published_at": "2026-09-30T13:02:51.000Z",
+      "importance": "medium",
+      "summary_zh": "这封 Marc Lou 的邮件正文片段只提供了在线阅读链接和标题，能确认的核心信息是：它讨论了一个 AI 设计工具在 30 天内增长 1702% 的案例。由于正文没有给出工具名称、增长口径、渠道、产品机制或商业数据，不能进一步判断增长是否来自流量、收入、用户数或使用量。对 builder 来说，这仍然是一个值得追踪的信号：AI 设计工具赛道仍可能出现短周期爆发，但需要原文细节才能判断可复用的方法。",
+      "deep_read_zh": "",
+      "why_important": "标题指向 AI 设计工具的异常增长案例，但当前邮件片段缺少可验证细节。",
+      "impact": "如果原文包含渠道、定位或转化机制，它可能对独立开发者做 AI 设计工具、模板产品或增长实验有参考价值；仅凭片段还不能提炼方法论。",
+      "key_points": [
+        "邮件可确认的信息只有：一个 AI 设计工具在 30 天内增长 1702%。",
+        "正文片段没有提供工具名称、增长指标和具体策略。"
+      ],
+      "reading_notes": [],
+      "tags": [
+        "design-tools",
+        "growth",
+        "ai-product"
+      ],
+      "related_sources": []
+    },
+    {
+      "id": "tldr-design-dots-replit-atta-outcome-first-design",
+      "title_zh": "设计侧看 OpenAI Dots、Replit 收购 Atta 与结果优先产品",
+      "title_original": "OpenAI Dots 🤖, Replit Acquires Atta 📊, Formula E Rebrand 🏎️",
+      "source": "TLDR Design",
+      "from": "TLDR Design <dan@tldrnewsletter.com>",
+      "subject": "OpenAI Dots 🤖, Replit Acquires Atta 📊, Formula E Rebrand 🏎️",
+      "url": "https://refer.tldr.tech/3bc21e1b/4",
+      "message_id": "<010001a0f23b0107-fa014e15-6afc-4bbb-9593-f94340935bb5-000000@email.amazonses.com>",
+      "published_at": "2026-09-30T12:12:28.000Z",
+      "importance": "medium",
+      "summary_zh": "这封 TLDR Design 从设计、产品和品牌角度汇总了 OpenAI Dots、Replit 收购 Atta、Formula E 新品牌、设计过程方法、AI 产品界面取舍、UX 叙事、AI agent 网站生成工具、产品 onboarding 案例库和 WCAG 3 草案。最有价值的两条是：第一，Dots 的卡通浮动 avatar 试图给自主软件一个更亲和的人格化入口，并可能形成多个专门 agent 协作的产品形态；第二，Replit 收购 AI 商业分析工作区 Atta，把数据分析和图表生成并入构建软件的平台，意味着「构建、分析、运营」正在被同一 agent 环境吸收。产品观点上，Exposit 的例子强调 AI 可以跳过传统工具界面，直接交付用户想要的结果。",
+      "deep_read_zh": "",
+      "why_important": "它补足了 OpenAI Dots 的设计和交互视角，也把 agent 产品化、业务分析自动化和 AI 原生界面问题放在一起看。",
+      "impact": "对产品团队来说，重点不只是把 AI 加进现有工具，而是重新判断用户是否还需要传统界面、报表和导航，还是可以直接获得个性化结果。",
+      "key_points": [
+        "Dots 被描述为常驻个人 agent，可从 ChatGPT 或 Codex 启动，并通过 Slack、Teams 等平台联系。",
+        "Replit 收购 Atta 后，用户可上传或连接数据集，让 Replit Agent 直接调查问题或生成可视化，无需写 SQL。",
+        "“outcome first, tool second” 是这封邮件最值得记住的产品设计问题。"
+      ],
+      "reading_notes": [],
+      "tags": [
+        "design",
+        "agent",
+        "product",
+        "analytics",
+        "accessibility"
+      ],
+      "related_sources": [
+        "Latent.Space",
+        "AINews",
+        "TLDR AI"
+      ]
+    },
+    {
+      "id": "ainews-openai-devday-2026-dots-sol-platform",
+      "title_zh": "AINews 全景追踪 OpenAI DevDay 2026：Dots、Sol、Ultrafast 与平台化",
+      "title_original": "[AINews] OpenAI DevDay 2026: Dots, 6.1 Sol, Ultrafast, Decisions API, Agents API, Spaces, Marketplace, and 1.2 Bil…",
+      "source": "AINews",
+      "from": "AINews <swyx+ainews@substack.com>",
+      "subject": "[AINews] OpenAI DevDay 2026: Dots, 6.1 Sol, Ultrafast, Decisions API, Agents API, Spaces, Marketplace, and 1.2 Bil…",
+      "url": "https://www.latent.space/p/ainews-openai-devday-2026-dots-61",
+      "message_id": "<20260930055310.3.84e82df4cd322597@mg-d1.substack.com>",
+      "published_at": "2026-09-30T05:53:10.000Z",
+      "importance": "high",
+      "summary_zh": "这封 AINews 是 OpenAI DevDay 2026 的密集社区与社媒汇总，覆盖 Dots、ChatGPT Spaces、GPT-6.1 Sol、Ultrafast、Decisions API、Agents API、Marketplace 等发布。它把 OpenAI 同时描述为消费 AI 公司、AI cloud、企业平台和编码平台。Dots 是重头戏：每个 dot 由 GPT-6 Astra 驱动，运行在自己的云电脑上，连接 4000 多个应用以及 Slack、Teams，用户可设定哪些事能自主完成、哪些需要批准、哪些永远不能做；它面向 Pro、Business Premium 和 Enterprise。文章还提到 Dots 可通过 Codex 处理 bug triage、失败构建和 PR，早期测试中出现过主动与客服交涉、节省约 500 美元年费的案例。",
+      "deep_read_zh": "",
+      "why_important": "它是当天关于 OpenAI DevDay 信息最完整的新闻流式索引，适合快速把握 OpenAI 多条产品线同时推进的战略方向。",
+      "impact": "OpenAI 正把 agent、办公空间、开发者 API、低延迟推理和应用市场放进同一生态，builder 需要重新评估自己是在做独立应用、插件、agent 工具，还是 OpenAI 平台上的一个工作流模块。",
+      "key_points": [
+        "Dots 拥有自己的云电脑，可连接 4000 多个应用，并支持用户设定权限边界。",
+        "ChatGPT Spaces 被视为 OpenAI 对办公生产力套件和 Notion 类场景的回应。",
+        "Decisions API 被描述为对 Jev 相关模式的快速回应，但当前仍是 Luna 上的轻量层。"
+      ],
+      "reading_notes": [],
+      "tags": [
+        "openai",
+        "agent",
+        "developer-platform",
+        "model",
+        "marketplace"
+      ],
+      "related_sources": [
+        "Latent.Space",
+        "TLDR AI",
+        "TLDR Design"
+      ]
+    }
+  ],
+  "skipped": [],
+  "notes": "今日精读选择 Latent.Space，因为它不仅覆盖 OpenAI DevDay 的发布项，还通过访谈解释了 Computer Use 能力跃迁和 OpenAI 开发者栈背后的技术逻辑。TLDR AI、TLDR Design、AINews 都重复覆盖 Dots 和 DevDay，但角度不同：TLDR AI 偏全景新闻和工程入口，TLDR Design 偏产品设计与交互，AINews 偏社媒与社区密集汇总，因此分别保留为独立条目。Marc Lou 邮件是正式 newsletter，但正文片段只有标题和链接，已按可确认信息保留，未编造工具名称或增长细节。TLDR 邮件中的赞助、广告、注册活动和工具清单只在摘要中择要处理，没有单独拆成 item。"
+}
