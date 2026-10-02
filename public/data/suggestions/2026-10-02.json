@@ -1,0 +1,163 @@
+{
+  "date": "2026-10-02",
+  "items": [
+    {
+      "id": "2026-10-02-1",
+      "title": "一次性软件要吞掉文章",
+      "angle": "从 Karpathy 的“可丢弃软件制品”切入：AI 不是只帮你写稿，而是在把解释、演示和交互本身变成内容。",
+      "opening": "以前写一篇技术文章，最多配几张图。Karpathy 今天说，未来我们会花更多时间理解模型输出，而不是亲手干活；解释网页、定制视频、临时工具都可以随手生成。问题是：当一个交互页面比 3000 字更便宜，文章还剩下什么价值？",
+      "story_hook": {
+        "challenge": "内容创作者还在把 AI 当写作助手，但 builders 已经开始把前端代码当成叙事媒介。",
+        "twist": "真正被淘汰的可能不是程序员，而是只会输出静态文本的表达方式。"
+      },
+      "takeaway": "开发者和内容创作者可以把“文章”升级成可运行 demo、交互解释器或临时工作台，用软件制品承载观点。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Andrej Karpathy 关于可丢弃软件制品的推",
+          "url": "https://x.com/karpathy/status/2105819303471976479"
+        },
+        {
+          "tag": "builders",
+          "ref": "Zara Zhang 关于前端代码是叙事媒介的推",
+          "url": "https://x.com/zarazhangrui/status/2105753728183828692"
+        },
+        {
+          "tag": "pulse",
+          "ref": "ProductHunt WeftCut：AI agent 驱动的开源视频编辑器",
+          "url": "https://www.producthunt.com/products/weftcut"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-02-2",
+      "title": "Agent 降温是假信号",
+      "angle": "用 Google Trends 的“ai agent 下滑”对撞 GitHub agent 基建暴涨，说明需求从大词迁移到了具体 runtime、memory 和工作台。",
+      "opening": "今天最反直觉的数据是：ai agent 搜索热度跌了 12.6%，但 agent 项目还在 GitHub 上狂涨。hindsight 一周涨 17,403 星，paperclip 一周涨 14,335 星。用户不是不需要 agent 了，只是不再用“AI agent”这个词找答案。",
+      "story_hook": {
+        "challenge": "舆论层面的 AI agent 在退潮，开发者层面的 agent 基建却在加速。",
+        "twist": "热词降温不是市场消失，而是购买意图变得更具体。"
+      },
+      "takeaway": "做产品和选题时少追泛概念，多盯 memory、runtime、desktop、CLI 安装、权限和审计这些更接近付费动作的关键词。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Peter Steinberger：AI agents 是思维的飞机",
+          "url": "https://x.com/steipete/status/2105773541652308145"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Google Trends：ai agent 下滑 -12.6%",
+          "url": "https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub weekly：vectorize-io/hindsight 周增 17,403 星",
+          "url": "https://github.com/vectorize-io/hindsight"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub weekly：paperclipai/paperclip 周增 14,335 星",
+          "url": "https://github.com/paperclipai/paperclip"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-02-3",
+      "title": "验证工程正在接管 AI",
+      "angle": "从 Rauch 的“未来属于验证工程”切入，连接 Cloudflare 决策模型和 HuggingFace laya，讲 AI 产品竞争从生成能力转向判断与验证能力。",
+      "opening": "AI 产品的下一层护城河，可能不是更会生成，而是更会证明自己没错。Guillermo Rauch 今天直接说，未来属于验证工程：proof、E2E test、benchmark、lint 都会成为 AI 构建的基础设施。另一边，Cloudflare 和 HuggingFace 热榜已经在把“决策模型”推到台前。",
+      "story_hook": {
+        "challenge": "大家还在卷模型能生成什么，但真实生产环境更关心模型做出的判断能不能被验证。",
+        "twist": "AI 应用的核心岗位可能从 prompt engineer 变成 verification engineer。"
+      },
+      "takeaway": "开发 AI 产品时，应尽早设计评测、回归测试、guardrails、路由评分和可追踪日志，而不是上线后再补安全网。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Guillermo Rauch 关于验证工程的推",
+          "url": "https://x.com/rauchg/status/2105723481413550427"
+        },
+        {
+          "tag": "builders",
+          "ref": "Peter Steinberger 转述 Cloudflare Clef 决策模型",
+          "url": "https://x.com/steipete/status/2105778011635400949"
+        },
+        {
+          "tag": "pulse",
+          "ref": "HuggingFace 热榜：convaiinnovations/laya 决策模型",
+          "url": "https://huggingface.co/convaiinnovations/laya"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-02-4",
+      "title": "Claude 正在变成插件平台",
+      "angle": "从 Boris Cherny 的 Claude Mods 和 Sam Altman 的订阅基础设施观点切入：AI 产品形态正在从单一应用转向可改造、可嵌入、可分发的工作流层。",
+      "opening": "Boris Cherny 今天说得很直：凭什么所有人都用同一个 Claude？Mods 允许用户用一句提示词改 Claude 的工作方式和界面，再把这些 mods 做成插件给别人用。Sam Altman 也在同一天强调，AI 订阅不该锁在单一产品里。",
+      "story_hook": {
+        "challenge": "大模型公司想做超级应用，但用户的真实工作流天然分散在 IDE、文档、表格、浏览器和桌面里。",
+        "twist": "未来最有价值的可能不是一个更强聊天框，而是能把聊天框拆进所有工具里的插件协议。"
+      },
+      "takeaway": "builder 可以优先做可嵌入的 agent 控件、mods、插件和权限层，而不是从零复制一个完整 AI 助手。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Boris Cherny 关于 Claude Mods 的推",
+          "url": "https://x.com/bcherny/status/2105756563302723721"
+        },
+        {
+          "tag": "builders",
+          "ref": "Sam Altman 关于 AI 订阅基础设施化的推",
+          "url": "https://x.com/sama/status/2105739098640298253"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub weekly：dream-num/univer 办公 agent runtime",
+          "url": "https://github.com/dream-num/univer"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub daily：NVIDIA/OpenShell 自主 agent runtime",
+          "url": "https://github.com/NVIDIA/OpenShell"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-02-5",
+      "title": "游戏原型的新外挂是老师",
+      "angle": "用 Thariq 让 Claude 教动画、做编辑器的案例，对照 LTX-2.5 和 WeftCut：AI 创作工具的重点不是一键生成，而是陪创作者跨过能力上限。",
+      "opening": "Thariq 今天给 Claude 的任务不是“帮我做游戏”，而是“教我动画、找参考、做一个跳跃动作编辑器”。这比一键生成更有意思：AI 没有替他完成创作，而是在他能力边界旁边搭了一个临时工具。对独立开发者来说，这可能才是 AI 最实用的形态。",
+      "story_hook": {
+        "challenge": "创作者真正卡住的地方往往不是灵感，而是某个具体技能和调参循环。",
+        "twist": "最好的 AI 工具不一定直接产出成品，而是临时生成一个让人变强的编辑环境。"
+      },
+      "takeaway": "做创作类 AI 产品时，可以从“教、改、对比、迭代”入手，把模型放进编辑循环，而不是只做最终生成按钮。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Thariq 用 Claude 做游戏动画编辑器的推",
+          "url": "https://x.com/trq212/status/2105849295580889208"
+        },
+        {
+          "tag": "builders",
+          "ref": "Thariq 关于能力上限和判断力的推",
+          "url": "https://x.com/trq212/status/2105849728097509678"
+        },
+        {
+          "tag": "pulse",
+          "ref": "HuggingFace 热榜：Lightricks/LTX-2.5 视频生成模型",
+          "url": "https://huggingface.co/Lightricks/LTX-2.5"
+        },
+        {
+          "tag": "pulse",
+          "ref": "ProductHunt WeftCut：AI agent 驱动的视频编辑器",
+          "url": "https://www.producthunt.com/products/weftcut"
+        }
+      ]
+    }
+  ],
+  "notes": "今日更适合写“AI 产品形态变化”，而不是单点模型新闻。builders 侧的高质量素材集中在可丢弃软件、验证工程、Claude Mods 和创作工作流；pulse 侧则提供了 agent runtime、决策模型、本地媒体工具的趋势支撑。",
+  "generated_at": "2026-10-02T09:18:58+00:00",
+  "model": "gpt-5.5"
+}
