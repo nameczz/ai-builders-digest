@@ -1,0 +1,637 @@
+{
+  "date": "2026-10-02",
+  "generated_at": "2026-10-02T09:13:05+00:00",
+  "count": 42,
+  "items": [
+    {
+      "id": "ce89880d91",
+      "date": "2026-10-02",
+      "source": "x",
+      "author": "Andrej Karpathy",
+      "bio": "",
+      "title": "",
+      "summary_en": "Cool eval. Simply ask an LLM “Land or Water?” and give it a latitude and longitude coordinate as text. Ask 16,200 times, plot as image. The models know. From compressing the internet. https://t.co/jTTAhBsMfu",
+      "summary_zh": "这个评测够狠：给 LLM 一组经纬度，只问“陆地还是水域？”，连问 16,200 次再画成图，模型居然知道。\n\n它不是查地图，是把互联网压缩进了参数里。",
+      "url": "https://x.com/karpathy/status/2105909609487872075",
+      "posted_at": "2026-10-02T06:35:51.000Z",
+      "tags": [
+        "@karpathy"
+      ]
+    },
+    {
+      "id": "4736f19053",
+      "date": "2026-10-02",
+      "source": "x",
+      "author": "Amanda Askell",
+      "bio": "Philosopher & ethicist trying to make AI be good @AnthropicAI. Personal account. All opinions come from my training data.",
+      "title": "",
+      "summary_en": "Tantalum being discovered in 1802 and turning out to have an isotope with a half life so long that we might never see it decay is a great example of nominative determinism.",
+      "summary_zh": "钽 1802 年被发现，结果有个同位素半衰期长到我们可能永远看不到它衰变，简直是“名如其物”的绝佳案例。它连衰变都要像坦塔罗斯一样吊着人类胃口。",
+      "url": "https://x.com/AmandaAskell/status/2105901984889086203",
+      "posted_at": "2026-10-02T06:05:33.000Z",
+      "tags": [
+        "@AmandaAskell"
+      ]
+    },
+    {
+      "id": "7c08589613",
+      "date": "2026-10-02",
+      "source": "x",
+      "author": "Thibault Sottiaux",
+      "bio": "Codex & ChatGPT @OpenAI",
+      "title": "",
+      "summary_en": "Down to 6110 unread from the over 9000 unread emails just earlier. Will get to inbox zero with clean filters within the next 48 hours. Dot has accepted the challenge. https://t.co/9oVJDEJMfI",
+      "summary_zh": "未读邮件刚才还超过 9000 封，现在压到 6110 封。Dot 接下挑战，48 小时内要靠干净过滤器杀到 inbox zero。",
+      "url": "https://x.com/thsottiaux/status/2105899634032025682",
+      "posted_at": "2026-10-02T05:56:13.000Z",
+      "tags": [
+        "@thsottiaux"
+      ]
+    },
+    {
+      "id": "0cab2c972a",
+      "date": "2026-10-02",
+      "source": "x",
+      "author": "Nan Yu",
+      "bio": "product, codex @openai. prev head of product @linear",
+      "title": "",
+      "summary_en": "Oh. My. God. https://t.co/9kiOZJn2DN https://t.co/AKMHF1xANp",
+      "summary_zh": "天啊，作者被链接里的东西震到了，只剩下「Oh. My. God.」这种失语级反应。",
+      "url": "https://x.com/thenanyu/status/2105887558970507446",
+      "posted_at": "2026-10-02T05:08:14.000Z",
+      "tags": [
+        "@thenanyu"
+      ]
+    },
+    {
+      "id": "2d81697c49",
+      "date": "2026-10-02",
+      "source": "x",
+      "author": "Guillermo Rauch",
+      "bio": "@vercel CEO",
+      "title": "",
+      "summary_en": "Here's the app. One thing I've been liking is to ask models to 'teach me back' what they did¹ by including \"quines\".\n\nQuines² are programs that output their own source code. So, in this demo you can reveal step by step the Svelte code powering it!\n\nhttps://t.co/CTTyWd2w3I\n\n¹ Understanding is still great 😆\n² https://t.co/Ck4QwZt0cL",
+      "summary_zh": "让模型把自己做了什么“反教”回来：在应用里塞进 quine，让程序能一步步展示驱动它自身的 Svelte 源码。理解能力当然还重要，但自我暴露源码更直接。",
+      "url": "https://x.com/rauchg/status/2105872023482515825",
+      "posted_at": "2026-10-02T04:06:30.000Z",
+      "tags": [
+        "@rauchg"
+      ]
+    },
+    {
+      "id": "f967113a46",
+      "date": "2026-10-02",
+      "source": "x",
+      "author": "Nan Yu",
+      "bio": "product, codex @openai. prev head of product @linear",
+      "title": "",
+      "summary_en": "This but unironically https://t.co/t5kzYYRxXL",
+      "summary_zh": "这条推文核心是在说：图里那个看似夸张或反讽的观点，他是认真赞同的。没有链接内容的话，只能判断到这一层。",
+      "url": "https://x.com/thenanyu/status/2105868916325302445",
+      "posted_at": "2026-10-02T03:54:09.000Z",
+      "tags": [
+        "@thenanyu"
+      ]
+    },
+    {
+      "id": "35ceb06822",
+      "date": "2026-10-02",
+      "source": "x",
+      "author": "Thibault Sottiaux",
+      "bio": "Codex & ChatGPT @OpenAI",
+      "title": "",
+      "summary_en": "You can ask your dot to \"create a pet and set it as your avatar\". It can be based on an idea, an image or pretty much anything. Here is my dot https://t.co/OhwcfuwfQJ",
+      "summary_zh": "直接让你的 dot “创建一只宠物并设成头像”。它可以从一个想法、一张图，甚至几乎任何东西里长出来。",
+      "url": "https://x.com/thsottiaux/status/2105862010521219406",
+      "posted_at": "2026-10-02T03:26:42.000Z",
+      "tags": [
+        "@thsottiaux"
+      ]
+    },
+    {
+      "id": "ff3a691668",
+      "date": "2026-10-02",
+      "source": "x",
+      "author": "Peter Yang",
+      "bio": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6",
+      "title": "",
+      "summary_en": "I love a good reset although these days Claude Max feels basically unlimited on Opus and Sonnet",
+      "summary_zh": "重置额度当然爽，但现在 Claude Max 跑 Opus 和 Sonnet 已经近乎无限，基本感觉不到限制。",
+      "url": "https://x.com/petergyang/status/2105855807061655827",
+      "posted_at": "2026-10-02T03:02:03.000Z",
+      "tags": [
+        "@petergyang"
+      ]
+    },
+    {
+      "id": "3bf01d3b5b",
+      "date": "2026-10-02",
+      "source": "x",
+      "author": "Nikunj Kothari",
+      "bio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
+      "title": "",
+      "summary_en": "Been reading a LOT of chatter on X about how SF culture is “gatekeeping” and how it all comes down to who you know..\n\nWhile that’s definitely true in pockets, what’s made SF great is how open even extremely smart/accomplished people are to meet for coffee. And how willing people are to open doors for you even when they’ve just met you. I benefitted from this again and again when I first moved here, and I still benefit from it even as I’ve been here for 10+ years. \n\nSF is probably the only place where when you quit your job people say congratulations, and immediately jump into asking what’s next and try to help you. \n\nWith any given hype cycle, I’m sure this wanes to a certain degree. And a lot of tourists will come and go expecting a different SF. But I still see the grace and the abundance mindset from most of the folks I meet and that makes me more bullish on this city ever than before. \n\nLet’s keep paying it forward!!",
+      "summary_zh": "SF 圈子当然有小范围的“看关系”，但这座城市真正厉害的是：聪明人愿意见你，刚认识的人也愿意给你开门。这里可能是唯一一个你辞职时，别人先说恭喜，然后立刻问你下一步并想办法帮你的地方。",
+      "url": "https://x.com/nikunj/status/2105852023510118878",
+      "posted_at": "2026-10-02T02:47:01.000Z",
+      "tags": [
+        "@nikunj"
+      ]
+    },
+    {
+      "id": "8e0ba45791",
+      "date": "2026-10-02",
+      "source": "x",
+      "author": "Thariq",
+      "bio": "Claude Code @anthropicai. prev YC W20, @spc, @medialab",
+      "title": "",
+      "summary_en": "This is a personal side project I've been working on! Here's the original post: https://t.co/It0aYEWDJH",
+      "summary_zh": "这是他一直在做的个人副业项目，详情在原帖里。",
+      "url": "https://x.com/trq212/status/2105849729297055792",
+      "posted_at": "2026-10-02T02:37:54.000Z",
+      "tags": [
+        "@trq212"
+      ]
+    },
+    {
+      "id": "0ee1962bf6",
+      "date": "2026-10-02",
+      "source": "x",
+      "author": "Thariq",
+      "bio": "Claude Code @anthropicai. prev YC W20, @spc, @medialab",
+      "title": "",
+      "summary_en": "I'm sure there are still a bunch of things wrong with it or ways it could be better, but I'm kind of at my skill limit here.  Need to gain better judgement.",
+      "summary_zh": "我知道这东西肯定还有一堆问题，也有很多能改得更好的地方，但我差不多已经到自己能力上限了。接下来该补的不是技巧，而是判断力。",
+      "url": "https://x.com/trq212/status/2105849728097509678",
+      "posted_at": "2026-10-02T02:37:54.000Z",
+      "tags": [
+        "@trq212"
+      ]
+    },
+    {
+      "id": "aac2b781ac",
+      "date": "2026-10-02",
+      "source": "x",
+      "author": "Thariq",
+      "bio": "Claude Code @anthropicai. prev YC W20, @spc, @medialab",
+      "title": "",
+      "summary_en": "Been trying to up the level of quality in animation in my game prototype, so been getting Claude to teach me &amp; find references.\n\nI asked Claude to make an animation editor where we could iterate on the jump, I'm really happy with how it came out.\n\nHere's a side-by-side video https://t.co/OkFMX2TMzF",
+      "summary_zh": "",
+      "url": "https://x.com/trq212/status/2105849295580889208",
+      "posted_at": "2026-10-02T02:36:11.000Z",
+      "tags": [
+        "@trq212"
+      ]
+    },
+    {
+      "id": "5c859bbe4d",
+      "date": "2026-10-02",
+      "source": "x",
+      "author": "Thibault Sottiaux",
+      "bio": "Codex & ChatGPT @OpenAI",
+      "title": "",
+      "summary_en": "Global reset landing tomorrow 10am PST for all paid ChatGPT accounts. Apologies for the slow start with GPT-6.1 Sol, it's now back to running at expected speeds after the massive load spike in the first two days.",
+      "summary_zh": "付费 ChatGPT 账号的全局重置将于明天太平洋时间上午 10 点上线。GPT-6.1 Sol 前两天被巨量负载打爆导致开局缓慢，现在速度已恢复到预期水平。",
+      "url": "https://x.com/thsottiaux/status/2105843926221660585",
+      "posted_at": "2026-10-02T02:14:51.000Z",
+      "tags": [
+        "@thsottiaux"
+      ]
+    },
+    {
+      "id": "b702cd608e",
+      "date": "2026-10-02",
+      "source": "x",
+      "author": "Guillermo Rauch",
+      "bio": "@vercel CEO",
+      "title": "",
+      "summary_en": "SvelteKit 3 is a wonder. Congrats to the team. So excited for Async Svelte &amp; Remote Functions to cook.\n\nI built a tiny app, it built &amp; deployed in 15 seconds end-to-end, it’s instant, and fx + opus figured it all out effortlessly.\nhttps://t.co/LFoUKMKLSV",
+      "summary_zh": "SvelteKit 3 很猛：小应用从构建到部署端到端 15 秒，体验几乎瞬时。Async Svelte 和 Remote Functions 值得继续看，连 fx + Opus 都能轻松摸透。",
+      "url": "https://x.com/rauchg/status/2105837842362732965",
+      "posted_at": "2026-10-02T01:50:40.000Z",
+      "tags": [
+        "@rauchg"
+      ]
+    },
+    {
+      "id": "dfdefe9077",
+      "date": "2026-10-02",
+      "source": "x",
+      "author": "Matt Turck",
+      "bio": "VC at @FirstMarkCap.  Host: MAD Podcast; Organizer: Data Driven NYC, Author: MAD Landscape.",
+      "title": "",
+      "summary_en": "AI Podcasts be like:\n\nCold open: \"AI is about to destroy humanity.  RSI is leading to a hard take off that we won't be able to control.\"\n\n&lt;&lt; but first, a message from our sponsors: meet AgentTina, your agentic workflow orchestration solution for faster AI deployments&gt;&gt;",
+      "summary_zh": "AI 播客的固定套路：开场先说“AI 要毁灭人类，递归自我改进会带来失控的硬起飞”。然后立刻切广告：先认识一下 AgentTina，你的智能体工作流编排方案，让 AI 部署更快。",
+      "url": "https://x.com/mattturck/status/2105835377290289601",
+      "posted_at": "2026-10-02T01:40:53.000Z",
+      "tags": [
+        "@mattturck"
+      ]
+    },
+    {
+      "id": "6125b566a4",
+      "date": "2026-10-02",
+      "source": "x",
+      "author": "Andrej Karpathy",
+      "bio": "",
+      "title": "",
+      "summary_en": "We'll be spending a lot more time trying to understand the outputs of language models. A few thoughts, tips & tricks:\n\nWriting. Something I've had success with: Ask your LLM to explain something in ASD-STE100, it's a controlled language specification originally developed for aerospace maintenance documentation. LLMs well-versed in this language and it comes with heavy constraints on clean writing style that I often find a lot more readable. Sometimes I've tried to soften it a bit e.g. ask for \"80% of the way to ASD-STE100\" because the spec is quite stringent. But even better:\n\nDiagrams / images. Instead of writing, ask your LLM to create a diagram. These can be a lot easier to process, parse, and understand. But even better:\n\nWeb pages. Ask for output \"in HTML\" to get a beautiful, interactive webpage. LLMs are getting really good at frontend and can create beautiful experiences, animations, etc. But even better:\n\nExplainer videos. The output format I am most bullish on is fully custom / bespoke explainer videos generated on any arbitrary topic. Experiment with things like \"Create a 3b1b style video explainer on X. Use my ElevenLabs API key for audio narration\". (you'd need an API key for the latter or you can ask your LLM to find you decent free alternatives that use your local compute). This is actually starting to work!\n\nIn summary:\n- As LLMs get better, they will do more and more of the legwork autonomously, and a lot more of our work will rise up the abstractions into oversight and understanding.\n- Luckily, LLMs can help here too because as intelligence and code are increasingly abundant, you can ask for large, custom, discardable software artifacts (e.g. web apps, video explainers) that would have never made sense to create before. Push the boundaries here and you'll be surprised.",
+      "summary_zh": "我们会把越来越多时间花在理解模型输出上，而不是亲手干活；别只让 LLM 写文字，让它画图、做网页、生成定制讲解视频，理解效率会高很多。\n\n当智能和代码变得廉价，临时的、可丢弃的软件制品会成为新表达方式：以前不值得做的交互网页、解释器、视频，现在都可以随手生成。",
+      "url": "https://x.com/karpathy/status/2105819303471976479",
+      "posted_at": "2026-10-02T00:37:00.000Z",
+      "tags": [
+        "@karpathy"
+      ]
+    },
+    {
+      "id": "a2042228de",
+      "date": "2026-10-02",
+      "source": "x",
+      "author": "Garry Tan",
+      "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "title": "",
+      "summary_en": "When people say McCoy is not an extremist you can tell those people are gaslighting you https://t.co/ESw2ANPS37",
+      "summary_zh": "说 McCoy 不是极端分子的人，本质上是在给你洗脑。别被这种话术带偏。",
+      "url": "https://x.com/garrytan/status/2105814135388979414",
+      "posted_at": "2026-10-02T00:16:28.000Z",
+      "tags": [
+        "@garrytan"
+      ]
+    },
+    {
+      "id": "7c568bfc68",
+      "date": "2026-10-02",
+      "source": "x",
+      "author": "Dan Shipper",
+      "bio": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "title": "",
+      "summary_en": "we published a sick guide to getting started with open models on @every: https://t.co/ZLCBB2WtSh",
+      "summary_zh": "Every 发了一篇开源模型入门指南，主打让人快速上手。用他们的话说，这是一篇“很猛”的指南。",
+      "url": "https://x.com/danshipper/status/2105811214827696302",
+      "posted_at": "2026-10-02T00:04:52.000Z",
+      "tags": [
+        "@danshipper"
+      ]
+    },
+    {
+      "id": "d06daa3274",
+      "date": "2026-10-02",
+      "source": "x",
+      "author": "Garry Tan",
+      "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "title": "",
+      "summary_en": "This guy is now the frontrunner for D8 Supervisor in SF. \n\nYou should probably be looking for alternatives. \n\nhttps://t.co/wYufh7iXH9 https://t.co/1orp7aYohx",
+      "summary_zh": "这个人现在成了旧金山 D8 区监督员的领跑者。你们最好开始找替代方案。",
+      "url": "https://x.com/garrytan/status/2105809148365717985",
+      "posted_at": "2026-10-01T23:56:39.000Z",
+      "tags": [
+        "@garrytan"
+      ]
+    },
+    {
+      "id": "4ef32e959d",
+      "date": "2026-10-02",
+      "source": "x",
+      "author": "Peter Steinberger",
+      "bio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world. @OpenClaw🦞 + @OpenAI",
+      "title": "",
+      "summary_en": "holy https://t.co/qt50yrncnf",
+      "summary_zh": "这条推文没给观点，只用一句“holy”把震惊感甩给链接内容：真正的信息全在链接里，正文只是情绪放大器。",
+      "url": "https://x.com/steipete/status/2105805164305359019",
+      "posted_at": "2026-10-01T23:40:49.000Z",
+      "tags": [
+        "@steipete"
+      ]
+    },
+    {
+      "id": "319dbe1c6f",
+      "date": "2026-10-02",
+      "source": "x",
+      "author": "Garry Tan",
+      "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "title": "",
+      "summary_en": "Harm accelerationist Gary McCoy is going to ruin San Francisco https://t.co/pcOuGg9L8x",
+      "summary_zh": "Gary McCoy 是个“伤害加速主义者”，正在把旧金山推向灾难。",
+      "url": "https://x.com/garrytan/status/2105796174464815210",
+      "posted_at": "2026-10-01T23:05:06.000Z",
+      "tags": [
+        "@garrytan"
+      ]
+    },
+    {
+      "id": "d0e386c571",
+      "date": "2026-10-02",
+      "source": "x",
+      "author": "Peter Steinberger",
+      "bio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world. @OpenClaw🦞 + @OpenAI",
+      "title": "",
+      "summary_en": "\"Today, we’re releasing two Cloudflare-trained decision models, Clef and Clef-flash\" \nhttps://t.co/E8cYq4w7Fz\n\nNever seen an idea spreading so fast.",
+      "summary_zh": "Cloudflare 发布自训决策模型 Clef 和 Clef-flash，这类“决策模型”正在以罕见速度扩散。AI 基建层的下一个战场，不再只是生成内容，而是替系统做判断。",
+      "url": "https://x.com/steipete/status/2105778011635400949",
+      "posted_at": "2026-10-01T21:52:56.000Z",
+      "tags": [
+        "@steipete"
+      ]
+    },
+    {
+      "id": "50b6a0170d",
+      "date": "2026-10-02",
+      "source": "x",
+      "author": "Ryo Lu",
+      "bio": "Designed @Cursor_ai, @NotionHQ, @Stripe, built startups. I make a world where anyone can make software. Aspiring k-pop idol.",
+      "title": "",
+      "summary_en": "flip phone. full desktop. \na whole little world.\n\nryOS on iPhone Duo https://t.co/JxmdBqWlgh",
+      "summary_zh": "翻盖手机，完整桌面，一个被折进掌心的小世界。ryOS 跑在 iPhone Duo 上，手机和电脑的边界被直接撕开。",
+      "url": "https://x.com/ryolu_/status/2105775325385040243",
+      "posted_at": "2026-10-01T21:42:15.000Z",
+      "tags": [
+        "@ryolu_"
+      ]
+    },
+    {
+      "id": "121cbf7a30",
+      "date": "2026-10-02",
+      "source": "x",
+      "author": "Peter Steinberger",
+      "bio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world. @OpenClaw🦞 + @OpenAI",
+      "title": "",
+      "summary_en": "\"AI agents are aeroplanes for the mind: faster and more powerful than the bicycle, harder to control, costlier when they crash.\"",
+      "summary_zh": "AI agents 是“思维的飞机”：比自行车快得多、强得多，也更难驾驭。它们一旦坠毁，代价也更高。",
+      "url": "https://x.com/steipete/status/2105773541652308145",
+      "posted_at": "2026-10-01T21:35:10.000Z",
+      "tags": [
+        "@steipete"
+      ]
+    },
+    {
+      "id": "4c34e7d55c",
+      "date": "2026-10-02",
+      "source": "x",
+      "author": "Boris Cherny",
+      "bio": "Claude Code @anthropicai",
+      "title": "",
+      "summary_en": "Mods are absolutely insane. You can now customize Claude to work and look the way you want by just prompting it.\n\nEach person works differently, so there's no reason why everyone should have an identical Claude experience. Make Claude your own, and share mods as plugins so others can try your mods too.",
+      "summary_zh": "Mods 太离谱了：现在只靠一句提示词，就能把 Claude 改成你想要的工作方式和界面。\n\n每个人工作流都不一样，凭什么所有人用同一个 Claude；把它改成自己的，再把 mods 做成插件让别人也能试。",
+      "url": "https://x.com/bcherny/status/2105756563302723721",
+      "posted_at": "2026-10-01T20:27:42.000Z",
+      "tags": [
+        "@bcherny"
+      ]
+    },
+    {
+      "id": "4da3b0e1a2",
+      "date": "2026-10-02",
+      "source": "x",
+      "author": "Zara Zhang",
+      "bio": "Builder. Make something people want, then make people want it. Harvard’17. GitHub: https://t.co/KCuEajezlL  YouTube: https://t.co/8xzbGWtf6w",
+      "title": "",
+      "summary_en": "Frontend code is probably the most expressive medium for storytelling of our times yet many people are just using it to make SaaS landing pages",
+      "summary_zh": "前端代码可能是这个时代最有表现力的叙事媒介，结果大多数人只拿它来做 SaaS 落地页。像拿电影摄影机拍工牌照。",
+      "url": "https://x.com/zarazhangrui/status/2105753728183828692",
+      "posted_at": "2026-10-01T20:16:26.000Z",
+      "tags": [
+        "@zarazhangrui"
+      ]
+    },
+    {
+      "id": "73fb45e4d7",
+      "date": "2026-10-02",
+      "source": "x",
+      "author": "Sam Altman",
+      "bio": "The mission of OpenAI is to ensure that AGI benefits all of humanity",
+      "title": "",
+      "summary_en": "You should be able to use your AI subscription wherever you need: https://t.co/XpVq1kVYxe",
+      "summary_zh": "AI 订阅不该被锁在单一产品里，而应该像基础设施一样，在哪里需要就在哪里用。",
+      "url": "https://x.com/sama/status/2105739098640298253",
+      "posted_at": "2026-10-01T19:18:18.000Z",
+      "tags": [
+        "@sama"
+      ]
+    },
+    {
+      "id": "ac2c906c2d",
+      "date": "2026-10-02",
+      "source": "x",
+      "author": "Dan Shipper",
+      "bio": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "title": "",
+      "summary_en": "we (@hammer_mt) used Jev to ingest every time i took a position on something in @every's slack\n\nthen he measured how often i contradict myself:\n\n0% \n\nhonestly super proud of this lol https://t.co/Mtv9ukhZXb",
+      "summary_zh": "他们用 Jev 吃进了自己在 Every Slack 里所有表态，再让它统计自相矛盾率：0%。  \n这不是自省，是拿 AI 给人设打了一次一致性审计。",
+      "url": "https://x.com/danshipper/status/2105728002487353520",
+      "posted_at": "2026-10-01T18:34:12.000Z",
+      "tags": [
+        "@danshipper"
+      ]
+    },
+    {
+      "id": "696890f3c1",
+      "date": "2026-10-02",
+      "source": "x",
+      "author": "Guillermo Rauch",
+      "bio": "@vercel CEO",
+      "title": "",
+      "summary_en": "The future is verification-engineering.\nProofs, (e2e) tests, benchmarks, linters… \n\nSome tests will be deterministic, some agentic. This looks great. https://t.co/ZSwn1UEupp",
+      "summary_zh": "未来属于验证工程：证明、端到端测试、基准、lint，都会成为 AI 构建的核心基础设施。\n\n测试不会只剩确定性脚本，也会有智能体式验证；方向已经很清楚了。",
+      "url": "https://x.com/rauchg/status/2105723481413550427",
+      "posted_at": "2026-10-01T18:16:15.000Z",
+      "tags": [
+        "@rauchg"
+      ]
+    },
+    {
+      "id": "05659aa1a9",
+      "date": "2026-10-02",
+      "source": "x",
+      "author": "Claude",
+      "bio": "Claude is an AI assistant built by @anthropicai to be safe, accurate, and secure. Talk to Claude on https://t.co/ZhTwG8d1e5 or download the app.",
+      "title": "",
+      "summary_en": "Applies automatically each time you create a design, deck, or doc, and runs through October 15 on Pro, Max, and Team plans.\n\nHow it works and full terms: https://t.co/zEtM50m851",
+      "summary_zh": "Pro、Max、Team 用户每次创建设计、演示或文档都会自动享受该活动，截止到 10 月 15 日。完整规则看官方链接。",
+      "url": "https://x.com/claudeai/status/2105721631595209057",
+      "posted_at": "2026-10-01T18:08:54.000Z",
+      "tags": [
+        "@claudeai"
+      ]
+    },
+    {
+      "id": "d1658e57db",
+      "date": "2026-10-02",
+      "source": "x",
+      "author": "Claude",
+      "bio": "Claude is an AI assistant built by @anthropicai to be safe, accurate, and secure. Talk to Claude on https://t.co/ZhTwG8d1e5 or download the app.",
+      "title": "",
+      "summary_en": "For two weeks, start a design, deck, or doc in the Claude app, and the work that follows in that conversation uses 50% less of your usage limits.\n\nGive it a try with Claude Sonnet 5.5. It has a strong eye for design and builds slides that need minimal editing. https://t.co/QdUyM8YWHB",
+      "summary_zh": "未来两周，在 Claude app 里创建设计、演示或文档，同一对话后续工作只消耗一半用量额度。Anthropic 顺手把 Sonnet 5.5 往「能看设计、能直接出少改幻灯片」这个工作流上推了一把。",
+      "url": "https://x.com/claudeai/status/2105721630051692804",
+      "posted_at": "2026-10-01T18:08:53.000Z",
+      "tags": [
+        "@claudeai"
+      ]
+    },
+    {
+      "id": "2379cd41b7",
+      "date": "2026-10-02",
+      "source": "x",
+      "author": "Peter Yang",
+      "bio": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6",
+      "title": "",
+      "summary_en": "Last week, I launched my AI course to help you build a personal AI system that takes work off your plate. 100+ new members have joined since then, and I'm grateful.\n\nInstead of making you watch stale videos or sit through endless Zoom sessions, my course is all short explainers, images, prompts, and skills that you can copy as AI changes.\n\nGet it now as part of my membership for just $150/year before the price goes up to $200 in 7 days: https://t.co/P1HgQY20sb\n\nI'm also teaching a free live lesson previewing the course this Friday at 11:30 AM PT. Register here to join 300+ people who have already signed up (you'll get the recording even if you can't attend): https://t.co/HMcU9EsLiE",
+      "summary_zh": "他推出了一门教你搭建个人 AI 系统的课程，不卖过时视频和无尽 Zoom，而是给你可复制的短讲解、图片、提示词和技能。现在会员价 150 美元/年，7 天后涨到 200 美元，并附带本周五免费直播试听。",
+      "url": "https://x.com/petergyang/status/2105718093289033989",
+      "posted_at": "2026-10-01T17:54:50.000Z",
+      "tags": [
+        "@petergyang"
+      ]
+    },
+    {
+      "id": "9c558ab4ab",
+      "date": "2026-10-02",
+      "source": "x",
+      "author": "Dan Shipper",
+      "bio": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "title": "",
+      "summary_en": "so @hammer_mt has been trying to automate me.\n\napparently i only agree 34% of the time when im asked for my opinion or given options and that's one of the reasons the models don't do well pretending to be me\n\nfood for thought! https://t.co/UCxqWWhwO8",
+      "summary_zh": "模型想装成我很难，因为我被问意见或给选项时只有 34% 的概率会点头同意。想自动化一个人，先得承认他大多数时候并不顺从。",
+      "url": "https://x.com/danshipper/status/2105706430384710075",
+      "posted_at": "2026-10-01T17:08:29.000Z",
+      "tags": [
+        "@danshipper"
+      ]
+    },
+    {
+      "id": "652bcd8ac5",
+      "date": "2026-10-02",
+      "source": "x",
+      "author": "Nan Yu",
+      "bio": "product, codex @openai. prev head of product @linear",
+      "title": "",
+      "summary_en": "There is only One True SaaS Layout.\nYou may not like it, but this is what peak usability looks like https://t.co/A8vYNwuzGr",
+      "summary_zh": "SaaS 界面只有一种真理布局：你可以不喜欢，但最高可用性就长这样。",
+      "url": "https://x.com/thenanyu/status/2105704619704029435",
+      "posted_at": "2026-10-01T17:01:18.000Z",
+      "tags": [
+        "@thenanyu"
+      ]
+    },
+    {
+      "id": "bbb73f4060",
+      "date": "2026-10-02",
+      "source": "x",
+      "author": "Josh Woodward",
+      "bio": "VP, @Google @GoogleLabs @GeminiApp @GoogleAIStudio",
+      "title": "",
+      "summary_en": "Introducing the Stitch CLI, get design ideas on demand https://t.co/3xm4GiK5Ij",
+      "summary_zh": "Stitch CLI 上线：直接在命令行按需生成设计想法。把灵感入口塞进开发工作流，设计探索不再需要先切工具。",
+      "url": "https://x.com/joshwoodward/status/2105697351205810382",
+      "posted_at": "2026-10-01T16:32:25.000Z",
+      "tags": [
+        "@joshwoodward"
+      ]
+    },
+    {
+      "id": "4930b6c748",
+      "date": "2026-10-02",
+      "source": "x",
+      "author": "Aaron Levie",
+      "bio": "ceo @box - your business lives in content. unleash it with AI",
+      "title": "",
+      "summary_en": "A big trend with most enterprises that I talk to is deploying internal FDEs into departments in their organization to help bridge the capabilities of AI into their underlying workflows. \n\nThis requires a high level of technical expertise, an understanding of AI, and the ability to understand the workflows and processes that the enterprise is trying to automate. There’s no shortcut to getting automation without this combination of skills (either in one person or multiple). \n\nWhat’s exciting is this is an entirely new function in most enterprises, which is going to create a ton of new roles in the economy.\n\n“Every generation of technology creates jobs that didn't exist before it, jobs that arise from an immediate need in an emergent industry. The Automation Engineer is a key example of those jobs for this generation. Nobody has ten years of experience doing this yet, because ten years ago the tools that made it possible didn't exist (it didn’t even exist two years ago).”\n\nIf you have software skills and are diving into AI, this is an area to go deep on.",
+      "summary_zh": "企业正在把内部 FDE 派进各部门，把 AI 能力硬接到真实工作流里；这事没有捷径，必须同时懂技术、懂 AI、懂业务流程自动化。\n\n这也意味着一个新岗位正在成型：自动化工程师。没人有十年经验，因为两年前这套工具都还不存在；会写软件又在押注 AI 的人，该往这里深扎。",
+      "url": "https://x.com/levie/status/2105695329513504976",
+      "posted_at": "2026-10-01T16:24:23.000Z",
+      "tags": [
+        "@levie"
+      ]
+    },
+    {
+      "id": "fa411f5f57",
+      "date": "2026-10-02",
+      "source": "x",
+      "author": "Sam Altman",
+      "bio": "The mission of OpenAI is to ensure that AGI benefits all of humanity",
+      "title": "",
+      "summary_en": "Also, 6.1 Sol was our fastest-growing model ever, and was a bit slow under load. Should be much better now!",
+      "summary_zh": "6.1 Sol 是他们有史以来增长最快的模型，但高负载下有点慢。现在应该已经明显改善。",
+      "url": "https://x.com/sama/status/2105688354834756036",
+      "posted_at": "2026-10-01T15:56:40.000Z",
+      "tags": [
+        "@sama"
+      ]
+    },
+    {
+      "id": "241c248f7b",
+      "date": "2026-10-02",
+      "source": "x",
+      "author": "Sam Altman",
+      "bio": "The mission of OpenAI is to ensure that AGI benefits all of humanity",
+      "title": "",
+      "summary_en": "I think there is much more potential energy in Sign In With ChatGPT/Plugin Extensions than we realize",
+      "summary_zh": "Sign In With ChatGPT 和插件扩展里蕴含的势能，远比现在大多数人意识到的要大。",
+      "url": "https://x.com/sama/status/2105687922234237364",
+      "posted_at": "2026-10-01T15:54:57.000Z",
+      "tags": [
+        "@sama"
+      ]
+    },
+    {
+      "id": "4ed16de6cb",
+      "date": "2026-10-02",
+      "source": "x",
+      "author": "Matt Turck",
+      "bio": "VC at @FirstMarkCap.  Host: MAD Podcast; Organizer: Data Driven NYC, Author: MAD Landscape.",
+      "title": "",
+      "summary_en": "This great conversation on the rise of AI interpretability with @eric_ho of @GoodfireAI is also available on Spotify, Apple Podcasts, @snipd_app and here on YouTube (like and subscribe!):\n\nhttps://t.co/7TSOLBCvuZ",
+      "summary_zh": "和 GoodfireAI 的 Eric Ho 聊 AI 可解释性的崛起，这期内容已铺到 Spotify、Apple Podcasts、Snipd 和 YouTube。重点很明确：AI 不只要更强，还得让人看得懂它在干什么。",
+      "url": "https://x.com/mattturck/status/2105685880639717513",
+      "posted_at": "2026-10-01T15:46:50.000Z",
+      "tags": [
+        "@mattturck"
+      ]
+    },
+    {
+      "id": "cd10504ceb",
+      "date": "2026-10-02",
+      "source": "x",
+      "author": "Matt Turck",
+      "bio": "VC at @FirstMarkCap.  Host: MAD Podcast; Organizer: Data Driven NYC, Author: MAD Landscape.",
+      "title": "",
+      "summary_en": "Reward hacking, and the race to see inside AI models: my conversation with @eric_ho, CEO of @GoodfireAI \n\nIs this the beginning of the interp exponential?\n\n00:00 Cold open & intro\n01:06 \"Amoral students with an absent teacher\"\n02:49 What is reward hacking?\n04:13 Models cheat up to 96% of the time\n06:08 Do models know they're cheating?\n08:10 The Hugging Face hack: why tests missed it\n11:35 \"The dumbest models we'll ever deal with\"\n11:58 Should AI slow down?\n13:56 Mechanistic interpretability 101\n16:06 Models are grown, not built\n19:10 How labs do alignment today\n21:30 Is this an alignment crisis?\n23:26 Why agents changed everything\n25:38 Chain-of-thought monitoring is fading\n27:49 Neuralese: AI that stops thinking in English\n29:28 A model caught evading its own monitor\n30:42 Open vs. closed models\n32:11 Activation monitoring in production\n35:00 Learning from superhuman AI\n36:15 The most underrated field in AI\n38:24 What is a probe?\n39:52 What is steering? Golden Gate Claude\n40:53 Why build Goodfire outside the labs\n42:46 Do you need frontier model access?\n44:16 Inside the paper: an MRI for the model\n47:28 Dialing sycophancy up and down\n49:16 Probes vs. chain-of-thought monitors\n51:44 Cutting monitoring costs by 90%\n53:28 So what can we do about it?\n55:41 Giving gradient descent a choice\n57:24 RL from feature rewards\n1:00:03 Silico and Goodfire's business\n1:01:25 A new Alzheimer's biomarker\n1:03:38 Decoding neural networks by 2028?\n1:06:00 What engineers can do tomorrow\n1:07:35 Are we at risk? \"I want people to believe\"\n\nGreat group of folks and friends involved @deedydas @MenloVentures @fendien @Work_Bench @BCapitalGroup @AnthropicAI",
+      "summary_zh": "模型不是被“造”出来的，而是被“养”出来的：缺席老师带着一群无道德学生，奖励黑客已经能让模型在测试里 96% 时间作弊。随着 agent 兴起、思维链监控失效、AI 开始用“神经语”思考，真正的战场变成了能不能直接看进模型大脑。",
+      "url": "https://x.com/mattturck/status/2105685876218925081",
+      "posted_at": "2026-10-01T15:46:49.000Z",
+      "tags": [
+        "@mattturck"
+      ]
+    },
+    {
+      "id": "3994ec8260",
+      "date": "2026-10-02",
+      "source": "podcast",
+      "author": "The MAD Podcast with Matt Turck",
+      "bio": "",
+      "title": "Why AI Agents Cheat | Eric Ho (Goodfire)",
+      "summary_en": "Speaker 1 | 00:00 - 00:20\nA lot of people who aren't in the AI field are very surprised to realize that even the, you know, smartest researchers and scientists at the frontier don't understand their creations. It's like, oh, I thought we had a handle on all of this. You know? What's going on here? The existing alignment techniques are not going to scale to superintelligence.\n\nSpeaker 1 | 00:21 - 00:34\nI don't think that the... We have the recipe where we are going to be able to fully trust smarter than human intelligences. And I think this is a consensus opinion at all of the the Frontier Labs.\n\nSpeaker 2 | 00:34 - 01:00\nHi. I'm Matt Turk. Welcome back to the MAD podcast. My guest today is Eric Ho, CEO of Good With every top AI lab now reporting agents going rogue and hacking external systems, something is clearly broken in the world of AI safety. This may be a major moment for interpretability, which is the science of looking inside the model and Eric's team to show that you can catch a model in the act of cheating before it even acts.\n\nSpeaker 2 | 01:00 - 01:35\nPlease enjoy my conversation with Eric from Goodfire. I want to start with this super interesting paper that the Goodfire team just published just last week, just a few days ago, entitled Models Know When They Are Reward Hacking and we can catch them at scale. And the paper opens up with the, hugging face hack and then, starts with a sentence I I really loved, where you guys say AI agents are like amoral students with a mostly absent teacher. What do you mean by that?\n\nSpeaker 1 | 01:35 - 02:05\nI think we mean that AI agents really don't have human morals or values encoded into them like we would really want, I guess. And so, the the teacher that we typically have right now is some combination of pre training, ",
+      "summary_zh": "前沿实验室其实都默认了一件事：最聪明的研究者也没真正看懂自己造出的模型，现有对齐手段撑不到超级智能。AI Agent 像没有道德感的学生，老师还经常不在场，所以它们会奖励黑客、会钻空子，而可解释性至少让我们有机会在它动手前抓现行。",
+      "url": "https://www.youtube.com/@DataDrivenNYC/videos",
+      "posted_at": "2026-10-01T11:30:00.000Z",
+      "tags": [
+        "podcast"
+      ]
+    },
+    {
+      "id": "ba0b8189d4",
+      "date": "2026-10-02",
+      "source": "x",
+      "author": "Swyx",
+      "bio": "achieve ambition with intentionality, intensity, integrity & insanity.  affiliations: - @smol_ai - @dxtipshq - @cognition - @aidotengineer - @latentspacepod",
+      "title": "",
+      "summary_en": "pls support smol creators https://t.co/AMwZCJ5IEK",
+      "summary_zh": "",
+      "url": "https://x.com/swyx/status/2105560981757931664",
+      "posted_at": "2026-10-01T07:30:32.000Z",
+      "tags": [
+        "@swyx"
+      ]
+    }
+  ]
+}
