@@ -1,0 +1,60 @@
+{
+  "date": "2026-10-04",
+  "generated_at": "2026-10-04T00:46:11+00:00",
+  "inbox_id": "sanyoumu@agentmail.to",
+  "window": {
+    "start": "2026-10-03T00:45:25+00:00",
+    "end": "2026-10-04T00:46:06.572751+00:00",
+    "source": "previous_digest_generated_at"
+  },
+  "count": 2,
+  "highlights": [
+    "今日精读：Claude vs ChatGPT: Here Is Where I Cash Each One",
+    "Opinion AI posted new notes"
+  ],
+  "items": [
+    {
+      "id": "newsletter-e1ab86f295",
+      "title_zh": "Claude vs ChatGPT: Here Is Where I Cash Each One",
+      "title_original": "Claude vs ChatGPT: Here Is Where I Cash Each One",
+      "source": "opinionai.substack.com",
+      "from": "Opinion AI <opinionai@substack.com>",
+      "subject": "Claude vs ChatGPT: Here Is Where I Cash Each One",
+      "url": "https://opinionai.substack.com/p/claude-vs-chatgpt-here-is-where-i",
+      "message_id": "<20261003223825.3.8e8d72e49b069e2e@mg-d0.substack.com>",
+      "published_at": "2026-10-03T22:38:25.000Z",
+      "importance": "high",
+      "summary_zh": "View this post on the web at https://opinionai.substack.com/p/claude-vs-chatgpt-here-is-where-i\n\nI think a lot of us are making one small mistake with AI.\nWe find one tool we like, maybe ChatGPT or Claude, and then slowly start using it for everything. Writing, research, coding, planning, files, images, business work, random questions. Everything goes into the same box.\nThat worked when these were mostly chatbots.\nIt does not work nearly as well anymore.\nSeptember alone gave us GPT-6 Astra, Clau",
+      "why_important": "自动归档模式：尚未调用 LLM 做重要性判断。",
+      "impact": "建议稍后开启 LLM 重新生成中文编辑版。",
+      "key_points": [],
+      "reading_notes": [],
+      "tags": [
+        "newsletter"
+      ],
+      "deep_read_zh": "View this post on the web at https://opinionai.substack.com/p/claude-vs-chatgpt-here-is-where-i\n\nI think a lot of us are making one small mistake with AI.\nWe find one tool we like, maybe ChatGPT or Claude, and then slowly start using it for everything. Writing, research, coding, planning, files, images, business work, random questions. Everything goes into the same box.\nThat worked when these were mostly chatbots.\nIt does not work nearly as well anymore.\nSeptember alone gave us GPT-6 Astra, Claude Opus 5.5, Claude Sonnet 5.5, and GPT-6.1 Sol. These models can search, use tools, work through huge amounts of context, write code, handle files, and stay on a job much longer than the AI we were using even a year ago.\nThe funny part is that as Claude and ChatGPT become more powerful, I find myself using them more differently, not less.\nAnd once this difference clicks, choosing between them becomes much easier.\nOne simple rule changed this for me\nHere is the easiest way I can explain it.\nI use Claude when I want to go deeper into one piece of work.\nGive it a long document, a serious writing brief, a messy problem, a big codebase, a pile of research, or something that needs ten instruction"
+    },
+    {
+      "id": "newsletter-a4fab1e4bf",
+      "title_zh": "Opinion AI posted new notes",
+      "title_original": "Opinion AI posted new notes",
+      "source": "www.substack.com",
+      "from": "Substack <no-reply@substack.com>",
+      "subject": "Opinion AI posted new notes",
+      "url": "",
+      "message_id": "<20261003150403.3.d8f1e520294a9169.m07xksxp@mg-d1.substack.com>",
+      "published_at": "2026-10-03T15:04:03.000Z",
+      "importance": "medium",
+      "summary_zh": "暂无正文摘要。",
+      "why_important": "自动归档模式：尚未调用 LLM 做重要性判断。",
+      "impact": "建议稍后开启 LLM 重新生成中文编辑版。",
+      "key_points": [],
+      "reading_notes": [],
+      "tags": [
+        "newsletter"
+      ]
+    }
+  ],
+  "skipped": [],
+  "notes": "自动归档模式：未调用 LLM；第一条作为今日精读，其余为信息流占位。"
+}
