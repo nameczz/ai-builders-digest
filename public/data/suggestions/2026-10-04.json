@@ -1,0 +1,62 @@
+{
+  "date": "2026-10-04",
+  "items": [
+    {
+      "id": "2026-10-04-1",
+      "title": "The man has spoken https://t.c",
+      "angle": "（自动归档模式：未生成）",
+      "opening": "The man has spoken https://t.co/KINPyEKtEp",
+      "story_hook": {
+        "challenge": "",
+        "twist": ""
+      },
+      "takeaway": "",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Nan Yu",
+          "url": "https://x.com/thenanyu/status/2106620595534491948"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-04-2",
+      "title": "All right, we’re locking in. O",
+      "angle": "（自动归档模式：未生成）",
+      "opening": "All right, we’re locking in. Only things being worked on are simplifications, more efficiency for more usage, groundbreaking features or new models. \n\nSometimes you have to invest ahead of the curve, ",
+      "story_hook": {
+        "challenge": "",
+        "twist": ""
+      },
+      "takeaway": "",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Thibault Sottiaux",
+          "url": "https://x.com/thsottiaux/status/2106610099720720811"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-04-3",
+      "title": "What it did\n\n- delete all cate",
+      "angle": "（自动归档模式：未生成）",
+      "opening": "What it did\n\n- delete all categories of email that were not needed for me to keep, validating them in batch\n- identify labels for types of work that I do and label all the emails appropriately\n- walke",
+      "story_hook": {
+        "challenge": "",
+        "twist": ""
+      },
+      "takeaway": "",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Thibault Sottiaux",
+          "url": "https://x.com/thsottiaux/status/2106603980386394123"
+        }
+      ]
+    }
+  ],
+  "notes": "fallback mode: codex CLI not available",
+  "generated_at": "2026-10-04T09:13:52+00:00",
+  "model": "gpt-5.5"
+}
