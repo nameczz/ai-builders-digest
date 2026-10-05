@@ -1,0 +1,60 @@
+{
+  "date": "2026-10-05",
+  "generated_at": "2026-10-05T00:46:19+00:00",
+  "inbox_id": "sanyoumu@agentmail.to",
+  "window": {
+    "start": "2026-10-04T00:46:11+00:00",
+    "end": "2026-10-05T00:46:15.821436+00:00",
+    "source": "previous_digest_generated_at"
+  },
+  "count": 2,
+  "highlights": [
+    "今日精读：New Claude Is Ridiculously Good at Building AI Agents (Here is Full Practical Guide)",
+    "😺 a16z: Only 2% disclose tracked AI metrics"
+  ],
+  "items": [
+    {
+      "id": "newsletter-f48b36d6e0",
+      "title_zh": "New Claude Is Ridiculously Good at Building AI Agents (Here is Full Practical Guide)",
+      "title_original": "New Claude Is Ridiculously Good at Building AI Agents (Here is Full Practical Guide)",
+      "source": "opinionai.substack.com",
+      "from": "Opinion AI <opinionai@substack.com>",
+      "subject": "New Claude Is Ridiculously Good at Building AI Agents (Here is Full Practical Guide)",
+      "url": "https://opinionai.substack.com/p/new-claude-is-ridiculously-good-at",
+      "message_id": "<20261004232029.3.05acf7b2a162b9d8@mg-d0.substack.com>",
+      "published_at": "2026-10-04T23:20:29.000Z",
+      "importance": "high",
+      "summary_zh": "View this post on the web at https://opinionai.substack.com/p/new-claude-is-ridiculously-good-at\n\nSomething important has quietly happened to Claude over the last two weeks.\nYou can now give Claude a job that normally takes you an hour, tell it what a good result looks like, give it the right tools, and let it work through the whole thing itself.\nNot one prompt. Not one answer.\nA job.\nIt can search, open files, use tools, make decisions, check what it has done, fix mistakes, save the final work ",
+      "why_important": "自动归档模式：尚未调用 LLM 做重要性判断。",
+      "impact": "建议稍后开启 LLM 重新生成中文编辑版。",
+      "key_points": [],
+      "reading_notes": [],
+      "tags": [
+        "newsletter"
+      ],
+      "deep_read_zh": "View this post on the web at https://opinionai.substack.com/p/new-claude-is-ridiculously-good-at\n\nSomething important has quietly happened to Claude over the last two weeks.\nYou can now give Claude a job that normally takes you an hour, tell it what a good result looks like, give it the right tools, and let it work through the whole thing itself.\nNot one prompt. Not one answer.\nA job.\nIt can search, open files, use tools, make decisions, check what it has done, fix mistakes, save the final work and come back again tomorrow or next Monday to do it all over again.\nThat is why I think Opus 5.5 and Sonnet 5.5 are much more interesting than another benchmark chart.\nIf you already use AI for research, writing, coding, business, marketing or automations, this is the next thing I would learn.\nAnd it is much simpler than the word agent makes it sound.\nFirst, forget the word “agent”\nImagine you ask Claude:\nFind the five most important AI launches this week.\nNormal Claude can research that and give you an answer.\nNow change the request:\nEvery Monday, check the AI companies I follow. Find what changed during the last seven days. Ignore recycled news. Check important claims against official sou"
+    },
+    {
+      "id": "newsletter-64c0615b0d",
+      "title_zh": "😺 a16z: Only 2% disclose tracked AI metrics",
+      "title_original": "😺 a16z: Only 2% disclose tracked AI metrics",
+      "source": "www.theneurondaily.com",
+      "from": "The Neuron <theneuron@newsletter.theneurondaily.com>",
+      "subject": "😺 a16z: Only 2% disclose tracked AI metrics",
+      "url": "https://www.tinyfish.ai/300K?utm_source=newsletter&utm_medium=email&utm_campaign=200k-launch-general-2026q4&utm_content=primary-oct04&utm_term=the-neuron",
+      "message_id": "<Bv8eMJO_RHq4HMA8KVd7Dw@geopod-ismtpd-30>",
+      "published_at": "2026-10-04T18:32:11.000Z",
+      "importance": "medium",
+      "summary_zh": "View image: (https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/54de2375-9767-4222-a040-cc4d13ef1e79/In_partnership_with_TinyFish.png?t=1790948247)\nFollow image link: (https://www.tinyfish.ai/300K?utm_source=newsletter&utm_medium=email&utm_campaign=200k-launch-general-2026q4&utm_content=primary-oct04&utm_term=the-neuron)\nCaption: \n\n**Welcome, humans.**\n\nSo apparently, the Pope has thoughts on your AI art. [Pope Leo XIV argued](https:",
+      "why_important": "自动归档模式：尚未调用 LLM 做重要性判断。",
+      "impact": "建议稍后开启 LLM 重新生成中文编辑版。",
+      "key_points": [],
+      "reading_notes": [],
+      "tags": [
+        "newsletter"
+      ]
+    }
+  ],
+  "skipped": [],
+  "notes": "自动归档模式：未调用 LLM；第一条作为今日精读，其余为信息流占位。"
+}
