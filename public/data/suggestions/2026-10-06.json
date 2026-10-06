@@ -1,0 +1,163 @@
+{
+  "date": "2026-10-06",
+  "items": [
+    {
+      "id": "2026-10-06-1",
+      "title": "别把 eval 当验收",
+      "angle": "从 Madhu Guru 和 Aaron Levie 的同日判断切入：Agent 产品的规格书，正在从 PRD 变成 eval 基础设施。",
+      "opening": "很多团队还在等 Agent 做完后再补一轮测试，但今天两个 builder 同时反过来说：eval 不是 QA，是产品规格本身。真正的瓶颈也不是模型不够聪明，而是企业没有真实文件、CRM、邮件环境里的仿真测试场。",
+      "story_hook": {
+        "challenge": "AI 产品最大冲突是：用户要可靠执行，但团队还在用传统软件的验收思路做不可预测系统。",
+        "twist": "过去 eval 像上线前检查表，现在它更像产品经理写需求、工程师定义边界、企业采购判断风险的共同语言。"
+      },
+      "takeaway": "写 Agent 产品时先写 eval：任务样本、失败标准、真实环境夹具和回归测试，比先堆功能更能决定产品是否能卖进企业。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Madhu Guru：Your evals are your product spec",
+          "url": "https://x.com/realmadhuguru/status/2107292113214091355"
+        },
+        {
+          "tag": "builders",
+          "ref": "Aaron Levie：企业缺少 Agent 测试和调优基础设施",
+          "url": "https://x.com/levie/status/2107283615247999257"
+        },
+        {
+          "tag": "pulse",
+          "ref": "tester-army/e2e 一周 1398 stars，下一代 Web 与移动端 E2E 测试",
+          "url": "https://github.com/tester-army/e2e"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-06-2",
+      "title": "Agent 正在抢操作系统",
+      "angle": "把 Thariq 的“本地双手”、Aditya 的本地 Muse/Dot 和 ruOS、cloudflare-os 放在一起看：入口之争已经从聊天框迁到系统层。",
+      "opening": "今天最有意思的不是又一个聊天机器人，而是大家都在给 Agent 找一双手、一张桌面、一个可长期停留的工作层。Claude 在云端跑，却能伸进本地文件系统；ruOS 把 Agent 包成云桌面；Cloudflare 也在做公司上下文里的 OS。",
+      "story_hook": {
+        "challenge": "聊天框只能回答问题，但真实工作发生在文件、浏览器、终端、手机和团队应用之间。",
+        "twist": "下一代 Agent 入口可能不是更好的对话 UI，而是一个能被授权、能记住上下文、能接管工具链的“工作系统”。"
+      },
+      "takeaway": "开发者做 Agent 产品时，优先思考运行环境：文件权限、任务队列、会话管理、插件接口和审计日志，可能比模型 prompt 更值钱。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Thariq：Claude 云端运行但能操作本地文件系统，本地双手模式",
+          "url": "https://x.com/trq212/status/2107229483015258493"
+        },
+        {
+          "tag": "builders",
+          "ref": "Aditya Agarwal：Muse/Dot 如果本地运行，可能比 macOS 更适合作为 agent 环境",
+          "url": "https://x.com/adityaag/status/2107133989941387282"
+        },
+        {
+          "tag": "pulse",
+          "ref": "ruOS：把 AI Agent 包装成云桌面",
+          "url": "https://www.producthunt.com/products/ruos"
+        },
+        {
+          "tag": "pulse",
+          "ref": "cloudflare/cloudflare-os 一周 663 stars",
+          "url": "https://github.com/cloudflare/cloudflare-os"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-06-3",
+      "title": "AI Agent 降温了吗？",
+      "angle": "用 Google Trends 的降温词和 GitHub 的高星项目做反差：降温的是概念词，升温的是具体替代工作流。",
+      "opening": "“ai agent”这个词一周跌了 22.7%，但 Agent 项目没有冷。paperclip 一周 6030 stars，hindsight 一周 6565 stars，Agent-Reach 一周 5703 stars；用户只是懒得再搜一个抽象概念了。",
+      "story_hook": {
+        "challenge": "表面数据看起来像 Agent 热潮退烧，项目数据却显示基础设施还在爆发。",
+        "twist": "真正变化是用户从问“什么是 Agent”，转向问“谁能替代 Cursor、谁能记忆、谁能浏览、谁能帮我管理会话”。"
+      },
+      "takeaway": "产品定位不要再写泛泛的 AI Agent，要写清楚替代对象、节省步骤和接入场景；SEO 和首页文案都该从概念词换成工作流词。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Dan Shipper：等 dot 自己把上下文接起来，别再手动喂信息",
+          "url": "https://x.com/danshipper/status/2107099152161095955"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Google Trends：ai agent 下降 -22.7%",
+          "url": "https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d"
+        },
+        {
+          "tag": "pulse",
+          "ref": "paperclipai/paperclip 一周 6030 stars",
+          "url": "https://github.com/paperclipai/paperclip"
+        },
+        {
+          "tag": "pulse",
+          "ref": "vectorize-io/hindsight 一周 6565 stars",
+          "url": "https://github.com/vectorize-io/hindsight"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-06-4",
+      "title": "人审不过来，类型来审",
+      "angle": "从 Guillermo Rauch 的 gdp-ts 切入：Agent 写代码越多，越需要编译期权限证明和确定性约束。",
+      "opening": "当 Agent 开始批量写代码，传统 code review 的瓶颈会先爆掉。Guillermo Rauch 提到的 gdp-ts 很反直觉：把“权限检查已完成”变成 TypeScript 类型证明，让敏感 API 在编译期就被拦住。",
+      "story_hook": {
+        "challenge": "AI 写代码速度越快，人类越不可能逐行审完安全边界。",
+        "twist": "过去被嫌弃心智负担太重的类型证明，反而可能在 Agent 时代重新变成主流护栏。"
+      },
+      "takeaway": "给 AI coding 项目加护栏时，不要只依赖 review 和 lint；把权限、数据访问、危险操作前置成类型、测试和可复现约束。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Guillermo Rauch：gdp-ts 用 TypeScript 证明敏感 API 已做权限检查",
+          "url": "https://x.com/rauchg/status/2107119811444748555"
+        },
+        {
+          "tag": "builders",
+          "ref": "Garry Tan：Grep 把 agent 使用过程转成确定性、可测试、可复现的代码",
+          "url": "https://x.com/garrytan/status/2107129959550685660"
+        },
+        {
+          "tag": "pulse",
+          "ref": "cursor/plugins 一周 1042 stars，IDE 插件生态仍是入口竞争",
+          "url": "https://github.com/cursor/plugins"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-06-5",
+      "title": "Agent 计费不该按座席",
+      "angle": "把 Amjad 的 AI 营销自动执行和 Chargebee 的 Agent run costs 放在一起：Agent 商业模式正在从账号数转向任务运行账本。",
+      "opening": "“在 TikTok 上推广我的 app”已经可以变成一句指令，问题随之变成：这次运行花了多少钱，带来了什么结果，该算在哪个团队头上？Chargebee 今天推的 AUDR 信号很明确，Agent 时代需要的不是聊天额度，而是运行成本标准。",
+      "story_hook": {
+        "challenge": "SaaS 习惯按座席收费，但 Agent 的价值发生在持续运行的任务里，不一定对应某个用户登录。",
+        "twist": "未来真正有定价权的，可能是能证明每次自动化运行成本、归因和节省额的账本层。"
+      },
+      "takeaway": "做 Agent 产品要尽早记录 run-level 数据：模型、token、耗时、成功率、人工替代步骤和业务结果，这些会变成定价与续费证据。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Amjad Masad：把“在 TikTok 上推广我的 app”变成 AI 自动执行指令",
+          "url": "https://x.com/amasad/status/2107252697162543255"
+        },
+        {
+          "tag": "builders",
+          "ref": "Aaron Levie：未来公司会有人专门管 agent eval、仿真环境和评测基础设施",
+          "url": "https://x.com/levie/status/2107283615247999257"
+        },
+        {
+          "tag": "pulse",
+          "ref": "AUDR by Chargebee：面向 Agent run costs 的开放标准",
+          "url": "https://www.producthunt.com/products/chargebee"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Aster by AsterWise：智能模型路由",
+          "url": "https://www.producthunt.com/products/aster-by-asterwise"
+        }
+      ]
+    }
+  ],
+  "notes": "今日主线很集中：Agent 不再作为概念被讨论，而是进入运行环境、评测、权限、成本和替代工作流。缺口是独立开发者的真实营收数据不足，暂不适合写 MRR/ARR 类故事。",
+  "generated_at": "2026-10-06T09:21:50+00:00",
+  "model": "gpt-5.5"
+}
