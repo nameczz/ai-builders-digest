@@ -1,0 +1,442 @@
+{
+  "date": "2026-10-06",
+  "generated_at": "2026-10-06T09:13:52+00:00",
+  "count": 29,
+  "items": [
+    {
+      "id": "c7512667b9",
+      "date": "2026-10-06",
+      "source": "x",
+      "author": "Zara Zhang",
+      "bio": "Builder. Make something people want, then make people want it. Harvard’17. GitHub: https://t.co/KCuEajezlL  YouTube: https://t.co/8xzbGWtf6w",
+      "title": "",
+      "summary_en": "Cool! https://t.co/kKbN8ESOQV",
+      "summary_zh": "这条推文本身没信息量，只是在转发链接并用一个“Cool!”表达认可；真正观点藏在链接里，不打开看不出他到底在夸什么。",
+      "url": "https://x.com/zarazhangrui/status/2107357316844802298",
+      "posted_at": "2026-10-06T06:28:31.000Z",
+      "tags": [
+        "@zarazhangrui"
+      ]
+    },
+    {
+      "id": "e67ed94a50",
+      "date": "2026-10-06",
+      "source": "x",
+      "author": "Thariq",
+      "bio": "Claude Code @anthropicai. prev YC W20, @spc, @medialab",
+      "title": "",
+      "summary_en": "if you're getting into game design, there are so many good resources out there to learn from! https://t.co/j3vAtf7nd1",
+      "summary_zh": "入门游戏设计不缺教材，真正稀缺的是你愿不愿意动手学。好资源已经摆在那儿了。",
+      "url": "https://x.com/trq212/status/2107340728380870868",
+      "posted_at": "2026-10-06T05:22:36.000Z",
+      "tags": [
+        "@trq212"
+      ]
+    },
+    {
+      "id": "69d7a0ddac",
+      "date": "2026-10-06",
+      "source": "x",
+      "author": "Thibault Sottiaux",
+      "bio": "Codex & ChatGPT @OpenAI",
+      "title": "",
+      "summary_en": "This might have been my best day so far at oai. Ridiculous amounts of fun and intensity. Future is bright",
+      "summary_zh": "这可能是我在 OpenAI 迄今最爽的一天：强度离谱，也好玩到离谱。未来很亮。",
+      "url": "https://x.com/thsottiaux/status/2107311729768353844",
+      "posted_at": "2026-10-06T03:27:22.000Z",
+      "tags": [
+        "@thsottiaux"
+      ]
+    },
+    {
+      "id": "7d9d13b83a",
+      "date": "2026-10-06",
+      "source": "x",
+      "author": "Thibault Sottiaux",
+      "bio": "Codex & ChatGPT @OpenAI",
+      "title": "",
+      "summary_en": "The real story is this one https://t.co/2ylTT1wMjY",
+      "summary_zh": "真正的重点不是他嘴上说的那套，而是链接里这件事；别被表面叙事带偏。",
+      "url": "https://x.com/thsottiaux/status/2107295839655952486",
+      "posted_at": "2026-10-06T02:24:14.000Z",
+      "tags": [
+        "@thsottiaux"
+      ]
+    },
+    {
+      "id": "7428d167d2",
+      "date": "2026-10-06",
+      "source": "x",
+      "author": "Thariq",
+      "bio": "Claude Code @anthropicai. prev YC W20, @spc, @medialab",
+      "title": "",
+      "summary_en": "a big advantage of doing planning like this is that it’s a lot more token efficient compared to raw HTML-\n\nthe model doesn’t need to remake the components or logic to do common things like state machines, diagrams, code snippets, etc. https://t.co/z2LsVJ9D3W",
+      "summary_zh": "这种规划方式比直接搓原始 HTML 省 token 得多：状态机、图表、代码片段这些常见组件和逻辑，不用让模型一遍遍重造轮子。",
+      "url": "https://x.com/trq212/status/2107294499282293017",
+      "posted_at": "2026-10-06T02:18:54.000Z",
+      "tags": [
+        "@trq212"
+      ]
+    },
+    {
+      "id": "3eba6d2b59",
+      "date": "2026-10-06",
+      "source": "x",
+      "author": "Madhu Guru",
+      "bio": "Sr Director, AI at Meta; Prev: Google - Led Gemini, Veo, Nano Banana.",
+      "title": "",
+      "summary_en": "The most common mistake teams make is to treat evals as an additional QA step once the agent is built.\n\nAI products are fundamentally different.\n\nYour evals are your product spec.",
+      "summary_zh": "",
+      "url": "https://x.com/realmadhuguru/status/2107292113214091355",
+      "posted_at": "2026-10-06T02:09:26.000Z",
+      "tags": [
+        "@realmadhuguru"
+      ]
+    },
+    {
+      "id": "c7cdcba7b9",
+      "date": "2026-10-06",
+      "source": "x",
+      "author": "Aaron Levie",
+      "bio": "ceo @box - your business lives in content. unleash it with AI",
+      "title": "",
+      "summary_en": "A decent amount of agent adoption and deployment is bottlenecked by being able to test, tune, and optimize agents on “real” work environments. The files agents need to access, the CRM environments, email, and more.\n\nIt’s impossible to know how agents are performing if you don’t understand how well they’re executing on your evals and how they’ll perform in the future with a model change or workflow upgrade. Every enterprise has to do this 1 by 1 right now, which is obviously slow and tedious.\n\nEvery enterprise is going to have someone managing evals, infrastructure for building and running evals and simulated environments, and more. Huge space.",
+      "summary_zh": "Agent 真正落地的瓶颈，不是模型多聪明，而是企业根本缺少能在真实文件、CRM、邮件等环境里测试和调优它的基础设施。\n\n未来每家公司都得有人专门管 agent eval、仿真环境和评测基础设施；现在一家公司一家公司手搓，慢得离谱，但这也意味着市场巨大。",
+      "url": "https://x.com/levie/status/2107283615247999257",
+      "posted_at": "2026-10-06T01:35:39.000Z",
+      "tags": [
+        "@levie"
+      ]
+    },
+    {
+      "id": "b1df881e65",
+      "date": "2026-10-06",
+      "source": "x",
+      "author": "Nan Yu",
+      "bio": "product, codex @openai. prev head of product @linear",
+      "title": "",
+      "summary_en": "You can just fix things",
+      "summary_zh": "别废话，也别等许可；问题摆在那儿，你直接修就行。",
+      "url": "https://x.com/thenanyu/status/2107262460675891640",
+      "posted_at": "2026-10-06T00:11:36.000Z",
+      "tags": [
+        "@thenanyu"
+      ]
+    },
+    {
+      "id": "b0f667f80b",
+      "date": "2026-10-06",
+      "source": "x",
+      "author": "Amjad Masad",
+      "bio": "ceo @replit. civilizationist",
+      "title": "",
+      "summary_en": "“Promote my app on tiktok” https://t.co/AeBkoCK9Ey",
+      "summary_zh": "直接把“在 TikTok 上推广我的 app”变成一句指令，AI 营销从拍脑袋进入自动执行。",
+      "url": "https://x.com/amasad/status/2107252697162543255",
+      "posted_at": "2026-10-05T23:32:48.000Z",
+      "tags": [
+        "@amasad"
+      ]
+    },
+    {
+      "id": "4be8969c9b",
+      "date": "2026-10-06",
+      "source": "x",
+      "author": "Ryo Lu",
+      "bio": "Designed @Cursor_ai, @NotionHQ, @Stripe, built startups. I make a world where anyone can make software. Aspiring k-pop idol.",
+      "title": "",
+      "summary_en": "remembering Steve\n\ni grew up with beige boxes. then i moved to Canada and saw the iMac G4.\n\nhow can computers be so beautiful?\n\ni couldn’t afford a Mac, so i made my PC look like one. changed the icons, the fonts, the windows. learned to make those shiny, lickable buttons. that’s how i got into interface design. i saw something i loved and wanted to make things like it.\n\ni burned DVDs of Steve’s keynotes and studied them. watched them again and again. there was so much care in the products, and so much joy in showing people what they could do.\n\nmy first iPod was a black nano. i carried it everywhere. then the iPhone happened and changed the world.\n\nit felt like anything was possible.\n\nsince he died, i’ve felt us getting stuck in a loop. constant refinement. better supply chains. more ways to keep people scrolling. so much talent spent on tiny improvements, so little room for something truly great and heartfelt.\n\nthe keynotes get more cinematic every year. i still miss the live demos. someone onstage playing with something they helped make. the excitement, the jokes, the things that went wrong. it felt human. it was fun.\n\nwe made computers faster. phones thinner. added more cameras. made machines smarter than us at more and more things. somehow, we’ve also become more disconnected and lonely.\n\nwe spend so much energy trying to beat humans. i wish we spent more time learning from people’s lives and making them better.\n\nwhen i work, i still sometimes think: what would Steve do?\n\ni’ll never know. i’m sad i never got to work with him. but his work reached a kid with a beige PC and changed the course of his life. i wonder how many others have a story like mine.\n\ni’ve kept these words with me:\n\n“the people who are crazy enough to think they can change the world, are the ones who do.”\n\nthere’s still so much worth making. things we can put our hearts into. things that make someone feel what i felt when i first saw that iMac.\n\nthank you, Steve. 💛",
+      "summary_zh": "他怀念的不是乔布斯神话，而是科技产品曾经有过的美、冒险和人的温度；今天的行业把天才消耗在更薄、更快、更会让人刷屏的微调里，却越来越少做真正伟大、真诚、能改变人生的东西。  \nAI 时代如果只想着打败人类，而不是从人的生活里学习、把生活变好，那就只是把孤独和空转做得更高效。",
+      "url": "https://x.com/ryolu_/status/2107246891977335049",
+      "posted_at": "2026-10-05T23:09:44.000Z",
+      "tags": [
+        "@ryolu_"
+      ]
+    },
+    {
+      "id": "d114ffae2f",
+      "date": "2026-10-06",
+      "source": "x",
+      "author": "Thariq",
+      "bio": "Claude Code @anthropicai. prev YC W20, @spc, @medialab",
+      "title": "",
+      "summary_en": "my favorite name for this pattern is \"local hands\", Claude runs in the cloud but can access your files locally- also coming to cowork https://t.co/fLX963TUxY",
+      "summary_zh": "这个模式最准确的名字叫“本地双手”：Claude 在云端跑，却能伸进你的本地文件系统干活。接下来 cowork 也要支持。",
+      "url": "https://x.com/trq212/status/2107229483015258493",
+      "posted_at": "2026-10-05T22:00:33.000Z",
+      "tags": [
+        "@trq212"
+      ]
+    },
+    {
+      "id": "627adcb49e",
+      "date": "2026-10-06",
+      "source": "x",
+      "author": "Amjad Masad",
+      "bio": "ceo @replit. civilizationist",
+      "title": "",
+      "summary_en": "Really proud of how many family-run businesses are powered by Replit. https://t.co/UUUbDYXGHA",
+      "summary_zh": "Replit 正在成为许多家族小生意的底层工具。不是炫技，而是真正把 AI 编程带进了日常经营。",
+      "url": "https://x.com/amasad/status/2107222889946898893",
+      "posted_at": "2026-10-05T21:34:21.000Z",
+      "tags": [
+        "@amasad"
+      ]
+    },
+    {
+      "id": "00f82bd965",
+      "date": "2026-10-06",
+      "source": "x",
+      "author": "Amjad Masad",
+      "bio": "ceo @replit. civilizationist",
+      "title": "",
+      "summary_en": "The US is catching up on open-weights models. https://t.co/Qb9PjOrqfo",
+      "summary_zh": "美国在开源权重模型上终于开始追上来了，之前的落后局面正在被改写。",
+      "url": "https://x.com/amasad/status/2107222388429766970",
+      "posted_at": "2026-10-05T21:32:22.000Z",
+      "tags": [
+        "@amasad"
+      ]
+    },
+    {
+      "id": "15d5ac0b6f",
+      "date": "2026-10-06",
+      "source": "x",
+      "author": "Thibault Sottiaux",
+      "bio": "Codex & ChatGPT @OpenAI",
+      "title": "",
+      "summary_en": "Sergio is cooking up magic with collaborative space right in ChatGPT. Improving leaps and bounds every day. https://t.co/9fgjS3jjGC",
+      "summary_zh": "Sergio 正在 ChatGPT 里把协作空间做出点魔法，而且每天都在狂飙式进化。",
+      "url": "https://x.com/thsottiaux/status/2107200530477101461",
+      "posted_at": "2026-10-05T20:05:31.000Z",
+      "tags": [
+        "@thsottiaux"
+      ]
+    },
+    {
+      "id": "13e78a3710",
+      "date": "2026-10-06",
+      "source": "x",
+      "author": "Matt Turck",
+      "bio": "VC at @FirstMarkCap.  Host: MAD Podcast; Organizer: Data Driven NYC, Author: MAD Landscape.",
+      "title": "",
+      "summary_en": "The guy who thought he was too late to crypto investing  https://t.co/U7lCDqMnOQ",
+      "summary_zh": "觉得自己错过 crypto 的人，最后错过的往往不是时机，而是下场的胆子。所谓“太晚了”，很多时候只是旁观者给自己找的借口。",
+      "url": "https://x.com/mattturck/status/2107182105201696858",
+      "posted_at": "2026-10-05T18:52:18.000Z",
+      "tags": [
+        "@mattturck"
+      ]
+    },
+    {
+      "id": "32c2ac0cbc",
+      "date": "2026-10-06",
+      "source": "x",
+      "author": "Garry Tan",
+      "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "title": "",
+      "summary_en": "AGI Science Loops are coming, and there will be Muse/Instinct for those AGI Science Loops. Halmos is building that. https://t.co/By7Gr2jOj9",
+      "summary_zh": "AGI 科学闭环要来了，而这些闭环也会需要自己的 Muse/Instinct。Halmos 正在做的就是这个。",
+      "url": "https://x.com/garrytan/status/2107173670699622830",
+      "posted_at": "2026-10-05T18:18:47.000Z",
+      "tags": [
+        "@garrytan"
+      ]
+    },
+    {
+      "id": "4ce46c4a4e",
+      "date": "2026-10-06",
+      "source": "x",
+      "author": "Dan Shipper",
+      "bio": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "title": "",
+      "summary_en": "what we promise @every:\n\nas the frontier advances, so do you.",
+      "summary_zh": "@every 的承诺很直接：AI 前沿每推进一步，你也不能停在原地。",
+      "url": "https://x.com/danshipper/status/2107173061313388636",
+      "posted_at": "2026-10-05T18:16:21.000Z",
+      "tags": [
+        "@danshipper"
+      ]
+    },
+    {
+      "id": "c2cb56e376",
+      "date": "2026-10-06",
+      "source": "x",
+      "author": "Aditya Agarwal",
+      "bio": "General Partner @SPC, Co-Founder @Bevel_Health | Ex: Early Eng @facebook, CTO @Dropbox, Board @Flipkart | Optimist, Builder, Dad",
+      "title": "",
+      "summary_en": "Final few spots left https://t.co/urL5bLr5Zf",
+      "summary_zh": "最后几个名额，错过就没了。",
+      "url": "https://x.com/adityaag/status/2107171589783748608",
+      "posted_at": "2026-10-05T18:10:31.000Z",
+      "tags": [
+        "@adityaag"
+      ]
+    },
+    {
+      "id": "cfacb505d3",
+      "date": "2026-10-06",
+      "source": "x",
+      "author": "Aditya Agarwal",
+      "bio": "General Partner @SPC, Co-Founder @Bevel_Health | Ex: Early Eng @facebook, CTO @Dropbox, Board @Flipkart | Optimist, Builder, Dad",
+      "title": "",
+      "summary_en": "Three Stanford degrees.\n\nBerkeley EECS faculty since 2016.\n\nCofounder of @physical_int.\n\n@svlevine builds the algorithms that let robots learn from experience, linking what they see to how they move. \n\nHe's coming to @spc tomorrow. https://t.co/G59GcmuR0I",
+      "summary_zh": "Sergey Levine 三个斯坦福学位、2016 年起任伯克利 EECS 教授，还联合创办 Physical Intelligence。真正锋利的是：他在做让机器人从经验中学习的算法，把“看见什么”和“怎么行动”接起来。",
+      "url": "https://x.com/adityaag/status/2107171588194152936",
+      "posted_at": "2026-10-05T18:10:30.000Z",
+      "tags": [
+        "@adityaag"
+      ]
+    },
+    {
+      "id": "c61b624894",
+      "date": "2026-10-06",
+      "source": "x",
+      "author": "Ryo Lu",
+      "bio": "Designed @Cursor_ai, @NotionHQ, @Stripe, built startups. I make a world where anyone can make software. Aspiring k-pop idol.",
+      "title": "",
+      "summary_en": "add ryOS Subtitles to Chrome\nhttps://t.co/hz9fgUsrXM",
+      "summary_zh": "把 ryOS Subtitles 加到 Chrome 里，让浏览器直接拥有实时字幕能力。插件化是最快的落地路径。",
+      "url": "https://x.com/ryolu_/status/2107146721591726323",
+      "posted_at": "2026-10-05T16:31:41.000Z",
+      "tags": [
+        "@ryolu_"
+      ]
+    },
+    {
+      "id": "a5df73b04c",
+      "date": "2026-10-06",
+      "source": "x",
+      "author": "Ryo Lu",
+      "bio": "Designed @Cursor_ai, @NotionHQ, @Stripe, built startups. I make a world where anyone can make software. Aspiring k-pop idol.",
+      "title": "",
+      "summary_en": "made a lil thing for language learners:\nwatch Netflix with subtitles in any two languages, plus pronunciation guides for Japanese, Chinese, and Korean. customizable styles, hand-picked defaults.\nenjoy 🍿 https://t.co/JFw0cfcBOW",
+      "summary_zh": "给语言学习者做了个小工具：看 Netflix 时能同时显示任意两种语言字幕，还给日语、中文、韩语加发音标注。\n\n字幕样式可自定义，也内置了一套精挑默认配置。",
+      "url": "https://x.com/ryolu_/status/2107146629338042853",
+      "posted_at": "2026-10-05T16:31:19.000Z",
+      "tags": [
+        "@ryolu_"
+      ]
+    },
+    {
+      "id": "a7be916f29",
+      "date": "2026-10-06",
+      "source": "x",
+      "author": "Aditya Agarwal",
+      "bio": "General Partner @SPC, Co-Founder @Bevel_Health | Ex: Early Eng @facebook, CTO @Dropbox, Board @Flipkart | Optimist, Builder, Dad",
+      "title": "",
+      "summary_en": "It would be interesting to be able to run the Muse/Dot \"computer\" locally. \n\nFeels like that is a better agent environment than increasingly locked down MacOS.",
+      "summary_zh": "如果能把 Muse/Dot 这套“电脑”跑在本地会很有意思。相比越来越封闭的 macOS，它看起来更适合作为 agent 的运行环境。",
+      "url": "https://x.com/adityaag/status/2107133989941387282",
+      "posted_at": "2026-10-05T15:41:06.000Z",
+      "tags": [
+        "@adityaag"
+      ]
+    },
+    {
+      "id": "e740b1874c",
+      "date": "2026-10-06",
+      "source": "x",
+      "author": "Garry Tan",
+      "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "title": "",
+      "summary_en": "Harnesses from labs have an incentive to burn tokens, which means harnesses from startups have a real utility, like how Grep can automatically swap token burn into deterministic tested code that is repeatable just by observing agent use https://t.co/a17UIpSAAW",
+      "summary_zh": "实验室出的 harness 天然有动力烧 token，而创业公司做的才更可能有真实效用。比如 Grep 能观察 agent 使用过程，把 token 消耗自动转成确定性、可测试、可复现的代码。",
+      "url": "https://x.com/garrytan/status/2107129959550685660",
+      "posted_at": "2026-10-05T15:25:05.000Z",
+      "tags": [
+        "@garrytan"
+      ]
+    },
+    {
+      "id": "4dd2b39f3b",
+      "date": "2026-10-06",
+      "source": "x",
+      "author": "Garry Tan",
+      "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "title": "",
+      "summary_en": "We should have competence and good outcomes but we can’t do that without leadership and accountability \n\nHigh speed rail has been waylaid into a bulk transfer of taxpayer dollars into special interests with no good working outcome in sight https://t.co/oQrYJdsL6R",
+      "summary_zh": "我们当然需要能力和好结果，但没有领导力和问责制就做不到。高铁项目已经被拖成一场把纳税人的钱大规模转给特殊利益集团的游戏，看不到任何可用成果。",
+      "url": "https://x.com/garrytan/status/2107127940635070905",
+      "posted_at": "2026-10-05T15:17:04.000Z",
+      "tags": [
+        "@garrytan"
+      ]
+    },
+    {
+      "id": "a4e01460ee",
+      "date": "2026-10-06",
+      "source": "x",
+      "author": "Guillermo Rauch",
+      "bio": "@vercel CEO",
+      "title": "",
+      "summary_en": "Introducing gdp-ts: Ghosts of Departed Proofs for TypeScript.\n\ngdp-ts is a library, linter and AI skill for safer API design. Under this contract, sensitive functions require 'proofs' that the caller performed an authorization check.\n\nThe typechecker verifies these proofs at compile time, preventing your team and agents from shipping catastrophic security (and other kinds of) bugs.\n\nWhile these patterns have existed for quite some time, especially in ecosystems like Haskell, ① human code review and ② cognitive and syntactic overhead made these solutions niche.\n\nThe situation is now inverted. Agents are writing more code than we can review, and they *thrive* in tight loops with hard constraints that would frustrate us. We see this with the rise of Rust, borrow checker, code aesthetics debate and all.\n\nThe README and examples model a real-world Vercel API product constraint: changing the password on a Project requires a proof of a certain role + a certain entitlement. Thanks to Matt Noonan and Ollie Charles for their research in this space.\n\nhttps://t.co/eRWdiMvQ2V",
+      "summary_zh": "gdp-ts 把 Haskell 里“证明已做权限检查”的老套路搬进 TypeScript：敏感 API 必须拿到授权证明，类型检查器在编译期拦住灾难级安全漏洞。\n\n过去这套东西因为代码审查、心智负担和语法噪音太重而小众；现在局面反过来了，Agent 写的代码多到人审不过来，反而更适合被这种硬约束关进笼子里。",
+      "url": "https://x.com/rauchg/status/2107119811444748555",
+      "posted_at": "2026-10-05T14:44:46.000Z",
+      "tags": [
+        "@rauchg"
+      ]
+    },
+    {
+      "id": "a6c48b32d6",
+      "date": "2026-10-06",
+      "source": "x",
+      "author": "Peter Yang",
+      "bio": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6",
+      "title": "",
+      "summary_en": "Learn more about Gemini 3.8 Live here: https://t.co/snlN2hRnEM",
+      "summary_zh": "这条推文几乎没有信息量，只是在把人往 Gemini 3.8 Live 的介绍链接上引流。",
+      "url": "https://x.com/petergyang/status/2107108768240796093",
+      "posted_at": "2026-10-05T14:00:53.000Z",
+      "tags": [
+        "@petergyang"
+      ]
+    },
+    {
+      "id": "34c53fec0b",
+      "date": "2026-10-06",
+      "source": "x",
+      "author": "Peter Yang",
+      "bio": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6",
+      "title": "",
+      "summary_en": "I built an AI language learning app that teaches me Japanese via live voice calls.\n\nHere's my new tutorial that shows you exactly how I built this, including:\n\n→ Using my spec skill to create key designs\n→ Setting up Gemini Live APIs for voice\n→ Creating diorama art with Nano Banana\n\nYou can follow along to build your own app to learn 100 phrases for any language before a trip.\n\n📌 Watch now: https://t.co/A0awOYADST",
+      "summary_zh": "他做了一个用实时语音通话教日语的 AI 语言学习应用，并把完整搭建过程拆成教程：用 spec skill 做设计、接 Gemini Live 语音 API、用 Nano Banana 生成微缩场景图。照着做，出国前可以给任意语言快速练 100 句实用短语。",
+      "url": "https://x.com/petergyang/status/2107108755699900459",
+      "posted_at": "2026-10-05T14:00:50.000Z",
+      "tags": [
+        "@petergyang"
+      ]
+    },
+    {
+      "id": "cb99abd13d",
+      "date": "2026-10-06",
+      "source": "x",
+      "author": "Dan Shipper",
+      "bio": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "title": "",
+      "summary_en": "waiting for your dot to pick up https://t.co/zgFfC31LLE https://t.co/dActcqDX8D",
+      "summary_zh": "等着你的“dot”自己把上下文接起来。潜台词很直：别再手动喂信息了，AI 该主动读懂你正在做什么。",
+      "url": "https://x.com/danshipper/status/2107099152161095955",
+      "posted_at": "2026-10-05T13:22:40.000Z",
+      "tags": [
+        "@danshipper"
+      ]
+    },
+    {
+      "id": "8c2383dce8",
+      "date": "2026-10-06",
+      "source": "x",
+      "author": "Dan Shipper",
+      "bio": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "title": "",
+      "summary_en": "great article by @ArielleShipper \n\nhttps://t.co/lKTS6XBwX0",
+      "summary_zh": "@ArielleShipper 这篇文章被转推者直接点名推荐，但这条推文本身没有给出观点，只是在为链接背书。",
+      "url": "https://x.com/danshipper/status/2107098678141804829",
+      "posted_at": "2026-10-05T13:20:47.000Z",
+      "tags": [
+        "@danshipper"
+      ]
+    }
+  ]
+}
