@@ -1,0 +1,153 @@
+{
+  "date": "2026-10-07",
+  "items": [
+    {
+      "id": "2026-10-07-1",
+      "title": "公司 Agent 要开始抢活了",
+      "angle": "从个人 coding agent 转向团队运行时：AI 不只是写代码，而是在组织里认领任务、找责任人、触发流程。",
+      "opening": "Peter Steinberger 把团队 agent 接上 X 后，一条推文就能触发任务，没人认领的 session 还会被别人抢走。更关键的是，agent 会去查代码最近是谁改的，再点名相关同事。这已经不是聊天框，是组织协作层。",
+      "story_hook": {
+        "challenge": "过去 agent 的问题是单兵作战，真正进公司后必须解决任务归属、上下文共享和责任追踪。",
+        "twist": "最像未来工作流的东西，可能不是一个复杂 SaaS，而只是一个 prompt 加插件热重载。"
+      },
+      "takeaway": "判断 agent 产品是否有企业价值，不要只看模型能力，要看它能不能接进现有任务流、权限流和责任流。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Peter Steinberger：团队 agent 接上 X 后可由推文触发任务",
+          "url": "https://x.com/steipete/status/2107697554448421160"
+        },
+        {
+          "tag": "builders",
+          "ref": "Dan Shipper：Every agent 底座是 Claude Managed Agents",
+          "url": "https://x.com/danshipper/status/2107575089441181861"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub weekly：mvschwarz/openrig 周增 3327 星",
+          "url": "https://github.com/mvschwarz/openrig"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-07-2",
+      "title": "Agent 越强，越需要刹车",
+      "angle": "把 agent 安全写成主线：真正的机会不是让它多自动化一点，而是让它出错时停得住、查得到。",
+      "opening": "Aaron Levie 说网络安全会成为 AI 时代最吃紧的战场，因为 vibe coding 漏洞、智能体攻击和误触发的 agent 群会一起涌进企业。另一边，Google Trends 里已经出现「macOS AI agent privacy」和「unauthorized AI agent activity」这种暴涨查询。用户不是不想用 agent，是开始害怕它乱动。",
+      "story_hook": {
+        "challenge": "agent 的卖点是自动执行，但企业最怕的也是自动执行。",
+        "twist": "最值钱的 agent 功能，可能不是执行任务，而是权限面板、审计日志、任务回放和人工确认点。"
+      },
+      "takeaway": "做 agent 产品时，把权限、审计、沙箱和撤销机制当核心功能，而不是企业版才补的安全附件。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Aaron Levie：AI 时代网络安全会成为最关键战场",
+          "url": "https://x.com/levie/status/2107680435644039269"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub weekly：NVIDIA/OpenShell 周增 5228 星",
+          "url": "https://github.com/NVIDIA/OpenShell"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Google Trends：apple macos ai agent privacy breakout",
+          "url": "https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-07-3",
+      "title": "Prompt 正在变成性能旋钮",
+      "angle": "从提示词玄学切到工程实践：prompt 不再只是表达需求，也开始直接影响性能、验证和系统行为。",
+      "opening": "Garry Tan 说又多喂 3 条 prompt，就把程序推到 640x480、35fps。这听起来像段子，但 Boris Cherny 的判断更狠：别再把提示词当玄学，真正重要的是目标、投入力度和验收方式。prompt 正在从文案技巧变成工程接口。",
+      "story_hook": {
+        "challenge": "开发者一边嫌 prompt 不可靠，一边又越来越依赖 prompt 去改行为、提性能、跑验证。",
+        "twist": "未来的提示词能力可能不是会写漂亮指令，而是会定义目标、预算、约束和验收标准。"
+      },
+      "takeaway": "写 agent prompt 时，少堆修辞，多写目标、资源边界、失败条件和验证方式，把它当接口契约而不是咒语。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Garry Tan：多喂 3 条 prompt 把性能推到 35fps",
+          "url": "https://x.com/garrytan/status/2107630303644938505"
+        },
+        {
+          "tag": "builders",
+          "ref": "Boris Cherny：提示词重点是目标、力度和验证",
+          "url": "https://x.com/bcherny/status/2107565388250874193"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub daily：tester-army/e2e 周增 1725 星",
+          "url": "https://github.com/tester-army/e2e"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-07-4",
+      "title": "AI 编程开始逃离单一 IDE",
+      "angle": "用「cursor alternative」暴涨切入：开发者不是抛弃 AI IDE，而是在寻找可迁移、可私有、可编排的新工具链。",
+      "opening": "Swyx 问大家 2026 年 10 月默认用哪个 coding agent，这个问题背后其实是一次迁移潮。Google Trends 里「cursor alternative」一周涨 88.6%，GitHub 上 cursor/plugins 也在涨。开发者已经不满足于一个云端 IDE 里调用一个模型。",
+      "story_hook": {
+        "challenge": "AI 编程工具越强，用户越担心上下文、插件和工作流被锁死。",
+        "twist": "Cursor 的替代品搜索上升，不一定是 Cursor 变弱，而是 IDE 正在变成平台。"
+      },
+      "takeaway": "评估 AI 编程工具时，优先看上下文能否迁移、插件能否扩展、agent 能否在本地或私有环境运行。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Swyx：现在默认拿来干活的 coding agent 是哪个",
+          "url": "https://x.com/swyx/status/2107646238585950540"
+        },
+        {
+          "tag": "builders",
+          "ref": "Thariq：Claude 大脑上云，本地只保留操作电脑的手",
+          "url": "https://x.com/trq212/status/2107580785456976085"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Google Trends：cursor alternative 本周 +88.6%",
+          "url": "https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub weekly：cursor/plugins 周增 1106 星",
+          "url": "https://github.com/cursor/plugins"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-07-5",
+      "title": "AI 视频栈不再是玩具",
+      "angle": "从 Mask 编辑、Figma Agent 到 HyperFrames：AI 内容生产正在从生成图片，升级成设计、界面、视频一条流水线。",
+      "opening": "Josh Woodward 说今天最亮眼的是基于 Mask 的编辑能力，而且这只是开胃菜。与此同时，HyperFrames 在 GitHub 周增 3614 星，Figma Agent 也把 prompt 放进画布。AI 创作的重点正在从「生成一张图」变成「把设计执行到可交付媒体」。",
+      "story_hook": {
+        "challenge": "过去 AI 视觉工具最大的问题是只能产出素材，离产品、视频和交互交付还差一截。",
+        "twist": "现在上升最快的不是单点生成器，而是能被 agent 调用的设计执行和视频渲染基础设施。"
+      },
+      "takeaway": "内容工具创业不要只做生成入口，要思考如何接入设计稿、HTML、编辑器和自动化发布链路。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Josh Woodward：基于 Mask 的编辑能力是今天最亮眼能力",
+          "url": "https://x.com/joshwoodward/status/2107679061854273656"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub weekly：heygen-com/hyperframes 周增 3614 星",
+          "url": "https://github.com/heygen-com/hyperframes"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt：Figma Agent",
+          "url": "https://www.producthunt.com/products/figma"
+        }
+      ]
+    }
+  ],
+  "notes": "今日最强主线是 agent 从个人工具进入团队运行时；次主线是权限、安全、可迁移和媒体执行。独立开发者素材偏少，适合用 builder 观点串起 GitHub 与趋势数据。",
+  "generated_at": "2026-10-07T09:21:32+00:00",
+  "model": "gpt-5.5"
+}
