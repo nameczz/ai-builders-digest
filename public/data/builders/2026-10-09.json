@@ -1,0 +1,502 @@
+{
+  "date": "2026-10-09",
+  "generated_at": "2026-10-09T09:15:14+00:00",
+  "count": 33,
+  "items": [
+    {
+      "id": "354a42fad0",
+      "date": "2026-10-09",
+      "source": "x",
+      "author": "Garry Tan",
+      "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "title": "",
+      "summary_en": "Logical: in the future ICs with agents will be more productive and create better outcomes than equivalent people managers from prior eras https://t.co/mzsCcyOanP",
+      "summary_zh": "未来，带着 AI agents 干活的 IC，会比旧时代同等层级的人员经理更高产，也能交付更好的结果。管理人头的时代正在输给调度智能体的个体。",
+      "url": "https://x.com/garrytan/status/2108433505038606620",
+      "posted_at": "2026-10-09T05:44:55.000Z",
+      "tags": [
+        "@garrytan"
+      ]
+    },
+    {
+      "id": "ce43807ff5",
+      "date": "2026-10-09",
+      "source": "x",
+      "author": "Aaron Levie",
+      "bio": "ceo @box - your business lives in content. unleash it with AI",
+      "title": "",
+      "summary_en": "This sounds weird, but it is actually probably a good policy. \n\nEven if you don’t believe AI is conscious (I don’t), it stands to reason that you don’t want future models trained on endless content of humans being rude to models. \n\nThe models only understand the data they’ve been trained on, or what they run into in their interactions, so if you want safe and aligned models we probably want AI to have lots of good interactions in their training data. \n\nAnthropic may have more extreme beliefs than this (though even if they didn’t, you may want to word policies like this), but this is sort of an easy Pascal’s wager for AI. Just be nice to the AI.",
+      "summary_zh": "即便你不信 AI 有意识，也别把“人类如何羞辱模型”的垃圾数据源源不断喂给未来模型。想要安全、对齐的 AI，就让训练数据里多一点正常互动；对 AI 客气点，是成本最低的帕斯卡赌注。",
+      "url": "https://x.com/levie/status/2108426594054533545",
+      "posted_at": "2026-10-09T05:17:27.000Z",
+      "tags": [
+        "@levie"
+      ]
+    },
+    {
+      "id": "abdd893cf3",
+      "date": "2026-10-09",
+      "source": "x",
+      "author": "Peter Yang",
+      "bio": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6",
+      "title": "",
+      "summary_en": "I don't understand how Grok @bot's new email feature works. I just tagged it on a thread and it doesn't seem to reply? What are ppl using it for?",
+      "summary_zh": "作者吐槽 Grok 的新邮件功能像个黑箱：在帖子里 @ 它也没反应，不知道到底怎么用。言下之意是功能发布了，但用户连最基本的使用场景都看不出来。",
+      "url": "https://x.com/petergyang/status/2108412799684915576",
+      "posted_at": "2026-10-09T04:22:38.000Z",
+      "tags": [
+        "@petergyang"
+      ]
+    },
+    {
+      "id": "1599669d25",
+      "date": "2026-10-09",
+      "source": "x",
+      "author": "Peter Yang",
+      "bio": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6",
+      "title": "",
+      "summary_en": "@poteto @thsottiaux If you enjoyed this, sign up for free to my newsletter to get my best AI and product guides.\n\nJoin 110,000+ subscribers here:\nhttps://t.co/yz9xcsfrhF",
+      "summary_zh": "喜欢这类内容就订阅他的免费 newsletter，里面是他最好的 AI 和产品指南。已经有 11 万多人订阅。",
+      "url": "https://x.com/petergyang/status/2108410706546905437",
+      "posted_at": "2026-10-09T04:14:19.000Z",
+      "tags": [
+        "@petergyang"
+      ]
+    },
+    {
+      "id": "690b0e7172",
+      "date": "2026-10-09",
+      "source": "x",
+      "author": "Nikunj Kothari",
+      "bio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
+      "title": "",
+      "summary_en": "Met a close friend who’s also a seed stage founder today..\n\nThey have been growing but runway is dwindling and he wanted advice on what he should do next. Stellar customers, getting close to a $1M in revenue. Not a rocket ship, but not bad at all. He thinks he’s a bit early since the models haven’t caught up to the capabilities he wants but he also really feels the opportunity cost. \n\nI have this same exact  conversation at least 2x a week. \n\nIn this moment, you only have essentially three options:\n\n1) if you have intense belief in the company, be a cockroach and get to default profitable. once the capabilities get there, you feel the demand, then go raise a large round and go for the jugular. \n\n2) find an orthogonal area that is much more relevant and growing like crazy. ride the coat tails of new existing capabilities and push hard to capture them quickly using unfair advantages. and if you don’t have that, then.. \n\n3) sell / get acquihired and join a far more ambitious company that has figured out a lot of the things you haven’t. And then get back to starting a new company 1-2 years later when you find the next thing you want to build. \n\nIt’s hard but honestly those are the three options you have. And it really depends what category you’re in. The bar continues to get harder every month on how to cross the chasm from seed -> series A. The old school metrics are just not relevant anymore and in this consensus market there’s only a few categories where there’s tremendous pull on the VC front. \n\nYou could lament that this is the state of the market, but it’s better to know it’s happening than be oblivious on what is actually happening.\n\nI get to share this directly which makes me uncomfortable but at least someone has to say it out loud 🙈",
+      "summary_zh": "Seed 阶段收入快到 100 万美元、客户也不错，但增长不够炸、钱快烧完的 AI 公司，现在基本只有三条路：坚信就像蟑螂一样活到默认盈利，换到一个被新模型能力猛拉的赛道，或者卖掉/被收购去更有野心的公司。\n\n从 seed 到 A 轮的门槛每个月都在变高，老指标已经失效；与其抱怨市场残酷，不如承认现实：VC 只追少数真正有巨大拉力的品类。",
+      "url": "https://x.com/nikunj/status/2108410378233549106",
+      "posted_at": "2026-10-09T04:13:01.000Z",
+      "tags": [
+        "@nikunj"
+      ]
+    },
+    {
+      "id": "7eab5351ea",
+      "date": "2026-10-09",
+      "source": "x",
+      "author": "Garry Tan",
+      "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "title": "",
+      "summary_en": "Actually truth already stranger than fiction https://t.co/OyAxJ67GmI",
+      "summary_zh": "现实已经比小说更离谱了。",
+      "url": "https://x.com/garrytan/status/2108408546128011351",
+      "posted_at": "2026-10-09T04:05:44.000Z",
+      "tags": [
+        "@garrytan"
+      ]
+    },
+    {
+      "id": "b1fcd8a700",
+      "date": "2026-10-09",
+      "source": "x",
+      "author": "Garry Tan",
+      "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "title": "",
+      "summary_en": "GTA SF omg https://t.co/JLqrVjFjRG",
+      "summary_zh": "",
+      "url": "https://x.com/garrytan/status/2108408297988723076",
+      "posted_at": "2026-10-09T04:04:45.000Z",
+      "tags": [
+        "@garrytan"
+      ]
+    },
+    {
+      "id": "c366a468f8",
+      "date": "2026-10-09",
+      "source": "x",
+      "author": "Claude",
+      "bio": "Claude is an AI assistant built by @anthropicai to be safe, accurate, and secure. Talk to Claude on https://t.co/ZhTwG8d1e5 or download the app.",
+      "title": "",
+      "summary_en": "We’ve loved seeing so many founders join the Claude Startups program. Unfortunately, we underestimated demand for the program, and we need to pause the Claude Team and $1,000 API credit offers.\n\nWith hundreds of thousands of applicants, we're re-reviewing applications so the program can serve as many startups as possible.\n\nIf you’ve already claimed the Claude offers, they’ll still remain in your account.\n\nIf you applied or were approved and haven’t claimed the offer, we're re-reviewing your application. Unfortunately, this means that some accounts who had already been approved will not get access to the offer. We know this is disappointing and we’re very sorry.\n\nAll accepted program members still have access to the Startup Stack and Applied AI office hours. If you're on a Claude Max or Team plan, your monthly API credits are available in Console as usual.\n\nWe appreciate your patience, and we're working to get you building as quickly as we can.\nhttps://t.co/cq6ce8VKlE",
+      "summary_zh": "Claude Startups 需求爆了，Anthropic 低估申请量，暂停 Claude Team 和 1000 美元 API 额度。已领取的不受影响；没领取的即使已获批也要重审，部分账号会被撤回资格。",
+      "url": "https://x.com/claudeai/status/2108404561413349695",
+      "posted_at": "2026-10-09T03:49:54.000Z",
+      "tags": [
+        "@claudeai"
+      ]
+    },
+    {
+      "id": "9ba9b0871f",
+      "date": "2026-10-09",
+      "source": "x",
+      "author": "Guillermo Rauch",
+      "bio": "@vercel CEO",
+      "title": "",
+      "summary_en": "Few things more enjoyable in work and life than discovering new talent. Seeing greatness in people, sometimes even before they fully see it themselves.",
+      "summary_zh": "",
+      "url": "https://x.com/rauchg/status/2108399406009798764",
+      "posted_at": "2026-10-09T03:29:25.000Z",
+      "tags": [
+        "@rauchg"
+      ]
+    },
+    {
+      "id": "0342c12a2b",
+      "date": "2026-10-09",
+      "source": "x",
+      "author": "Swyx",
+      "bio": "achieve ambition with intentionality, intensity, integrity & insanity.  affiliations: - @smol_ai - @dxtipshq - @cognition - @aidotengineer - @latentspacepod",
+      "title": "",
+      "summary_en": "to paraphrase modern family, there are 5 things wrong in this tweet. the talented {role} will already have posts covering most of them \nhttps://t.co/TEtI8UL5TA",
+      "summary_zh": "",
+      "url": "https://x.com/swyx/status/2108391703488958475",
+      "posted_at": "2026-10-09T02:58:48.000Z",
+      "tags": [
+        "@swyx"
+      ]
+    },
+    {
+      "id": "56fdb855a9",
+      "date": "2026-10-09",
+      "source": "x",
+      "author": "Swyx",
+      "bio": "achieve ambition with intentionality, intensity, integrity & insanity.  affiliations: - @smol_ai - @dxtipshq - @cognition - @aidotengineer - @latentspacepod",
+      "title": "",
+      "summary_en": "to paraphrase modern family, there are 5 things wrong in this tweet. the talented {role} will already have posts covering most of them \nhttps://t.co/TEtI8ULDJ8",
+      "summary_zh": "",
+      "url": "https://x.com/swyx/status/2108391663827849390",
+      "posted_at": "2026-10-09T02:58:39.000Z",
+      "tags": [
+        "@swyx"
+      ]
+    },
+    {
+      "id": "16e0695924",
+      "date": "2026-10-09",
+      "source": "x",
+      "author": "Swyx",
+      "bio": "achieve ambition with intentionality, intensity, integrity & insanity.  affiliations: - @smol_ai - @dxtipshq - @cognition - @aidotengineer - @latentspacepod",
+      "title": "",
+      "summary_en": "if you cant hire for it, my team will do oneoff consult for you, get in touch business@latent.space \n\nhttps://t.co/TrsDS8PK4l",
+      "summary_zh": "",
+      "url": "https://x.com/swyx/status/2108388128390086675",
+      "posted_at": "2026-10-09T02:44:36.000Z",
+      "tags": [
+        "@swyx"
+      ]
+    },
+    {
+      "id": "ca5eedf884",
+      "date": "2026-10-09",
+      "source": "x",
+      "author": "Peter Steinberger",
+      "bio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world. @OpenClaw🦞 + @OpenAI",
+      "title": "",
+      "summary_en": "WE GOT IT! .claw incoming! https://t.co/wn0a7q3FdL",
+      "summary_zh": "",
+      "url": "https://x.com/steipete/status/2108374513931165759",
+      "posted_at": "2026-10-09T01:50:30.000Z",
+      "tags": [
+        "@steipete"
+      ]
+    },
+    {
+      "id": "c05fb4ecb7",
+      "date": "2026-10-09",
+      "source": "x",
+      "author": "Nan Yu",
+      "bio": "product, codex @openai. prev head of product @linear",
+      "title": "",
+      "summary_en": "huge https://t.co/TBeAH6PxED",
+      "summary_zh": "重大进展，但原推只有 “huge” 和一个短链接；需要打开链接内容才能判断具体指什么。",
+      "url": "https://x.com/thenanyu/status/2108354844658737637",
+      "posted_at": "2026-10-09T00:32:20.000Z",
+      "tags": [
+        "@thenanyu"
+      ]
+    },
+    {
+      "id": "ba34fbe71d",
+      "date": "2026-10-09",
+      "source": "x",
+      "author": "Thibault Sottiaux",
+      "bio": "Codex & ChatGPT @OpenAI",
+      "title": "",
+      "summary_en": "Today, we are announcing ChatGPT.\n\nIt is here: https://t.co/Pgk3THSyOJ",
+      "summary_zh": "OpenAI 宣布 ChatGPT 正式上线：它来了，链接已经放出。",
+      "url": "https://x.com/thsottiaux/status/2108349826727588000",
+      "posted_at": "2026-10-09T00:12:24.000Z",
+      "tags": [
+        "@thsottiaux"
+      ]
+    },
+    {
+      "id": "e62524fd2b",
+      "date": "2026-10-09",
+      "source": "x",
+      "author": "Thariq",
+      "bio": "Claude Code @anthropicai. prev YC W20, @spc, @medialab",
+      "title": "",
+      "summary_en": "here's what I got today https://t.co/ua7zBXbpDP",
+      "summary_zh": "",
+      "url": "https://x.com/trq212/status/2108312751202537946",
+      "posted_at": "2026-10-08T21:45:05.000Z",
+      "tags": [
+        "@trq212"
+      ]
+    },
+    {
+      "id": "101f8ef41d",
+      "date": "2026-10-09",
+      "source": "x",
+      "author": "Thariq",
+      "bio": "Claude Code @anthropicai. prev YC W20, @spc, @medialab",
+      "title": "",
+      "summary_en": "whoops I hit send and went to a meeting, didn't realize the repo wasnt public- it is now! \n\nit's a chrome extension I use every day now https://t.co/OroAeTafj0 https://t.co/3AE65z3VqK",
+      "summary_zh": "",
+      "url": "https://x.com/trq212/status/2108312534222778407",
+      "posted_at": "2026-10-08T21:44:13.000Z",
+      "tags": [
+        "@trq212"
+      ]
+    },
+    {
+      "id": "b26dfa7ba3",
+      "date": "2026-10-09",
+      "source": "x",
+      "author": "Thariq",
+      "bio": "Claude Code @anthropicai. prev YC W20, @spc, @medialab",
+      "title": "",
+      "summary_en": "and read more about how to enable the API credits for yourself here: https://t.co/dXXsfLbxH6",
+      "summary_zh": "",
+      "url": "https://x.com/trq212/status/2108301672409960922",
+      "posted_at": "2026-10-08T21:01:03.000Z",
+      "tags": [
+        "@trq212"
+      ]
+    },
+    {
+      "id": "7a4ff2f5ef",
+      "date": "2026-10-09",
+      "source": "x",
+      "author": "Peter Yang",
+      "bio": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6",
+      "title": "",
+      "summary_en": "Just insane 😂 https://t.co/IwE5WF1sKX",
+      "summary_zh": "离谱到像开玩笑，但它真的发生了。已经不是“厉害”，是彻底疯了。",
+      "url": "https://x.com/petergyang/status/2108285232055263734",
+      "posted_at": "2026-10-08T19:55:44.000Z",
+      "tags": [
+        "@petergyang"
+      ]
+    },
+    {
+      "id": "99a6a08ea5",
+      "date": "2026-10-09",
+      "source": "x",
+      "author": "Aaron Levie",
+      "bio": "ceo @box - your business lives in content. unleash it with AI",
+      "title": "",
+      "summary_en": "We built Box Mount to allow developers to mount Box as a file system directly in any agent sandbox. As agents do more complex work, they need to be able to work with files and data just like a person would. The future is headless. https://t.co/hGBx3Tv4NL",
+      "summary_zh": "Box Mount 让开发者能把 Box 直接挂载成任意 agent 沙箱里的文件系统。Agent 要做复杂工作，就必须像人一样读写文件和数据；未来是无头化的。",
+      "url": "https://x.com/levie/status/2108279490510193078",
+      "posted_at": "2026-10-08T19:32:55.000Z",
+      "tags": [
+        "@levie"
+      ]
+    },
+    {
+      "id": "0d130e3f3d",
+      "date": "2026-10-09",
+      "source": "x",
+      "author": "Thibault Sottiaux",
+      "bio": "Codex & ChatGPT @OpenAI",
+      "title": "",
+      "summary_en": "Day 4/\n\nWe have improved steering to be instant, leading to the model now reacting much faster to adjustments you make, allowing you to course-correct direction in realtime and not have the model waste effort.\n\nAlso releasing GPT-6.1 Sol ultrafast. The two work very well together.",
+      "summary_zh": "",
+      "url": "https://x.com/thsottiaux/status/2108275041276420573",
+      "posted_at": "2026-10-08T19:15:14.000Z",
+      "tags": [
+        "@thsottiaux"
+      ]
+    },
+    {
+      "id": "0d2fad48b4",
+      "date": "2026-10-09",
+      "source": "x",
+      "author": "Claude",
+      "bio": "Claude is an AI assistant built by @anthropicai to be safe, accurate, and secure. Talk to Claude on https://t.co/ZhTwG8d1e5 or download the app.",
+      "title": "",
+      "summary_en": "When a question needs deeper analysis, send the dashboard to your analytics tool. When an animation needs finishing touches, open it in your video editor.\n\nSee the full list of supported tools: https://t.co/9PSMNUDtDg",
+      "summary_zh": "",
+      "url": "https://x.com/claudeai/status/2108271561337606300",
+      "posted_at": "2026-10-08T19:01:24.000Z",
+      "tags": [
+        "@claudeai"
+      ]
+    },
+    {
+      "id": "361163cb43",
+      "date": "2026-10-09",
+      "source": "x",
+      "author": "Claude",
+      "bio": "Claude is an AI assistant built by @anthropicai to be safe, accurate, and secure. Talk to Claude on https://t.co/ZhTwG8d1e5 or download the app.",
+      "title": "",
+      "summary_en": "Starting today, Claude Docs, Slides, and Design are out of beta and available on every plan including Free.\n\nYour team and Claude can edit the same doc, deck, or design together.",
+      "summary_zh": "Claude Docs、Slides 和 Design 今天结束 Beta，免费版也能用。团队和 Claude 可以在同一份文档、演示或设计里协同编辑，AI 助手正式挤进工作流现场。",
+      "url": "https://x.com/claudeai/status/2108271559928389679",
+      "posted_at": "2026-10-08T19:01:24.000Z",
+      "tags": [
+        "@claudeai"
+      ]
+    },
+    {
+      "id": "52f14da649",
+      "date": "2026-10-09",
+      "source": "x",
+      "author": "Aditya Agarwal",
+      "bio": "General Partner @SPC, Co-Founder @Bevel_Health | Ex: Early Eng @facebook, CTO @Dropbox, Board @Flipkart | Optimist, Builder, Dad",
+      "title": "",
+      "summary_en": "@Waymo @dmitri_dolgov @spc Full conversation out now https://t.co/WcPgl3BW1P",
+      "summary_zh": "Waymo 团队的完整对谈已经放出，重点看自动驾驶核心人物 Dmitri Dolgov 的最新说法。",
+      "url": "https://x.com/adityaag/status/2108260509241991586",
+      "posted_at": "2026-10-08T18:17:29.000Z",
+      "tags": [
+        "@adityaag"
+      ]
+    },
+    {
+      "id": "79e3af2581",
+      "date": "2026-10-09",
+      "source": "x",
+      "author": "Aditya Agarwal",
+      "bio": "General Partner @SPC, Co-Founder @Bevel_Health | Ex: Early Eng @facebook, CTO @Dropbox, Board @Flipkart | Optimist, Builder, Dad",
+      "title": "",
+      "summary_en": "Full conversation at @spc https://t.co/5fNQdHCLwp",
+      "summary_zh": "",
+      "url": "https://x.com/adityaag/status/2108255511443542176",
+      "posted_at": "2026-10-08T17:57:38.000Z",
+      "tags": [
+        "@adityaag"
+      ]
+    },
+    {
+      "id": "bbf5a977e6",
+      "date": "2026-10-09",
+      "source": "x",
+      "author": "Aditya Agarwal",
+      "bio": "General Partner @SPC, Co-Founder @Bevel_Health | Ex: Early Eng @facebook, CTO @Dropbox, Board @Flipkart | Optimist, Builder, Dad",
+      "title": "",
+      "summary_en": "When is an autonomous vehicle actually good enough? https://t.co/VQTbWP1Jfj https://t.co/MA8e3UAYgb",
+      "summary_zh": "自动驾驶到底什么时候才算真正够好？别再用演示和幻灯片糊弄人，标准必须落到现实路况里的安全与可靠性。",
+      "url": "https://x.com/adityaag/status/2108254520744517652",
+      "posted_at": "2026-10-08T17:53:41.000Z",
+      "tags": [
+        "@adityaag"
+      ]
+    },
+    {
+      "id": "1eba45ae89",
+      "date": "2026-10-09",
+      "source": "x",
+      "author": "Madhu Guru",
+      "bio": "Sr Director, AI at Meta; Prev: Google - Led Gemini, Veo, Nano Banana.",
+      "title": "",
+      "summary_en": "There are massive startup opportunities hiding in plain sight : every layer of the computing stack will need to be rebuilt for agents.\n\nFor the last few years, most of the focus has been on making enterprise software agent-ready: APIs, connectors, MCPs.\n\nNow personal agents are forcing the same conversation for consumer products - e-commerce is an early example.\n\nThis is just the tip of the iceberg.\n\nNow think about the rest of the stack:\n\nDesktop and mobile OSes where agents are first-class users\n\nCloud infra built for agents to operate directly.\n\nidentity, permissions and security designed for thousands of agents acting on our behalf.\n\nInterfaces designed for agent and human users or both working together.\n\nIf you’re looking for startup ideas, go through each layer of the computing stack and ask: what has to change when the primary user is an agent?",
+      "summary_zh": "",
+      "url": "https://x.com/realmadhuguru/status/2108236391641706813",
+      "posted_at": "2026-10-08T16:41:39.000Z",
+      "tags": [
+        "@realmadhuguru"
+      ]
+    },
+    {
+      "id": "157984b31b",
+      "date": "2026-10-09",
+      "source": "x",
+      "author": "Matt Turck",
+      "bio": "VC at @FirstMarkCap.  Host: MAD Podcast; Organizer: Data Driven NYC, Author: MAD Landscape.",
+      "title": "",
+      "summary_en": "Full transcript here:\n\nhttps://t.co/psAlOnufeY",
+      "summary_zh": "",
+      "url": "https://x.com/mattturck/status/2108223142699110727",
+      "posted_at": "2026-10-08T15:49:00.000Z",
+      "tags": [
+        "@mattturck"
+      ]
+    },
+    {
+      "id": "c370a910b7",
+      "date": "2026-10-09",
+      "source": "x",
+      "author": "Matt Turck",
+      "bio": "VC at @FirstMarkCap.  Host: MAD Podcast; Organizer: Data Driven NYC, Author: MAD Landscape.",
+      "title": "",
+      "summary_en": "This conversation with the great @andy_pavlo is also available on Spotify, Apple Podcasts and here on YouTube - like and subscribe!\n\nhttps://t.co/HsxVxJvjyF",
+      "summary_zh": "这期和 Andy Pavlo 的对话已经上线 Spotify、Apple Podcasts 和 YouTube。想听数据库硬核内容的，直接去看。",
+      "url": "https://x.com/mattturck/status/2108223141055180992",
+      "posted_at": "2026-10-08T15:49:00.000Z",
+      "tags": [
+        "@mattturck"
+      ]
+    },
+    {
+      "id": "ff614cca9c",
+      "date": "2026-10-09",
+      "source": "x",
+      "author": "Matt Turck",
+      "bio": "VC at @FirstMarkCap.  Host: MAD Podcast; Organizer: Data Driven NYC, Author: MAD Landscape.",
+      "title": "",
+      "summary_en": "Special treat for the @andy_pavlo fans out there: an in-depth discussion about what happens to databases when billions of AI agents hit them, his move to build a research lab at @ClickHouseDB, and plently of hot takes on the database market (Postgres, vector, graph, GPU etc)\n\n00:00 Cold open & Intro\n01:21 From vector databases and RAG to the age of agents\n04:09 Neon's stat: agents create 80% of databases? 07:25 Why agents keep deleting production databases 08:19 Guardrails: the toddler-and-stairs rule\n10:51 The four eras of database volume: 10–100x more queries\n15:10 Agent memory: files vs. databases (\"everything is a database\")\n18:24 Which database do AI models recommend? \n19:25 \"It cites me back to myself\"\n23:14 MCP for databases, and text-to-SQL from 60% to 99.5%\n27:09 Trust an agent the way you'd trust a junior developer\n27:47 Can AI build an entire database? Opus 4 and the CMU projects\n29:57 60% of open-source databases now have AI commits\n30:43 Ten years of self-driving databases, Peloton to today\n33:52 What LLMs changed: 85% of the tuning in 15 minutes\n35:42 Should anyone still study databases?\n38:27 Free CMU courses, the DJ, and the Wu-Tang final exam\n42:09 Why start a research lab inside ClickHouse?\n45:53 Why ClickHouse looked like vaporware in 2016\n47:46 What makes ClickHouse fast: columns, vectors, Snowflake's lineage\n52:22 Why Databricks, Snowflake and ClickHouse all added Postgres\n58:15 Vector, graph and GPU databases: thumbs up or down?\n1:08:34 Is the database market stagnant? \"A cheetah on cocaine in a Ferrari\"\n1:10:14 The relational model is arithmetic; SQL as the new assembly\n1:11:59 Larry Ellison, Linux, and why databases still matter",
+      "summary_zh": "Andy Pavlo 这期把数据库在 AI agent 时代的荒诞和硬核都聊透了：几十亿 agent 会把查询量打高 10-100 倍，还会像初级工程师一样删生产库，所以护栏不是可选项。\n\n他还顺手扫射 Postgres、向量库、图库、GPU 数据库、ClickHouse 和 Snowflake/Databricks：数据库市场不是停滞，而是“一只嗑了药的猎豹开着法拉利”。",
+      "url": "https://x.com/mattturck/status/2108223135673696504",
+      "posted_at": "2026-10-08T15:48:59.000Z",
+      "tags": [
+        "@mattturck"
+      ]
+    },
+    {
+      "id": "e13c12964f",
+      "date": "2026-10-09",
+      "source": "x",
+      "author": "Dan Shipper",
+      "bio": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "title": "",
+      "summary_en": "yup https://t.co/bQ3CAPqhnZ",
+      "summary_zh": "这条推文本身没信息量，只是在对链接内容点头背书：一句 “yup” 等于公开站队，但真正观点藏在链接里。",
+      "url": "https://x.com/danshipper/status/2108216876853596486",
+      "posted_at": "2026-10-08T15:24:06.000Z",
+      "tags": [
+        "@danshipper"
+      ]
+    },
+    {
+      "id": "ff6a2177fc",
+      "date": "2026-10-09",
+      "source": "x",
+      "author": "Dan Shipper",
+      "bio": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "title": "",
+      "summary_en": "NEW JOB ALERT:\n\n@every we've built a personal benchmarking platform, Checks, to help anyone measure how good new models are for their real work\n\nwe're looking for someone who understands why this is so important, and wants to help us build it into the future of how great human work gets done with AI:\n\nhttps://t.co/Rikke9hbOP",
+      "summary_zh": "他们做了一个个人模型评测平台 Checks，让每个人都能按自己的真实工作衡量新模型到底好不好用。现在招人一起把它做成未来人类借 AI 完成高质量工作的基础设施。",
+      "url": "https://x.com/danshipper/status/2108215087030800657",
+      "posted_at": "2026-10-08T15:17:00.000Z",
+      "tags": [
+        "@danshipper"
+      ]
+    },
+    {
+      "id": "7183ca96fe",
+      "date": "2026-10-09",
+      "source": "podcast",
+      "author": "Training Data",
+      "bio": "",
+      "title": "Google's AI Infrastructure Chief, Amin Vahdat, on the Physics &amp; Economics of Frontier AI",
+      "summary_en": "Speaker 1 | 00:00 - 00:35\nIn hardware, again, as you know, there is this opportunity where the more you specialize to a particular workload, the less flexible it is, the faster, the more power efficient the hardware is gonna be. So it is this art, and it's this projection of what are you designing to and how persistent is that workload. In other words, if it's gonna go away after a month or two months or three months, even if it's big for those three months, you got a really narrow window to intercept it. So it has to be somewhat durable, and you have to be able to project exact... Exactly what win you can get for specializing to it.\n\nSpeaker 2 | 00:52 - 00:56\nThrilled to welcome Amin Vedat to the show. Amin, thank you for joining us for today.\n\nSpeaker 1 | 00:56 - 00:59\nIt's really exciting to be here. I'm really looking forward to it.\n\nSpeaker 2 | 00:59 - 01:21\nI am very excited for today's topic because we are in the middle of the biggest CapEx build out in human history. You are in the middle of it. Google alone is expected to spend more than $200,000,000,000 on CapEx this year, most of which is going into building data centers. You're at the center of it all. You were named the head of Google's AI infra at the end of last year.\n\nSpeaker 2 | 01:22 - 01:30\nSo you are the man spearheading the efforts of one of the most capital intensive build outs in human history. And so I am really excited to get into it with you today.\n\nSpeaker 1 | 01:30 - 01:46\nYeah, it's a huge year, for sure, of course, across the industry, including at Google. Really, I don't think we've ever seen anything like this, honestly. Certainly not Google, but as you said, I think in the history of humanity in terms of the build outs and the pace of transformation, really unbelievable.\n\nSpeaker 2 | 01:",
+      "summary_zh": "AI 硬件的核心赌局是：越为特定负载定制，速度和能效越高，但窗口越窄，押错或负载只火三个月就会变成昂贵废铁。Google 正身处人类史上最大规模的 AI 基建军备竞赛，资本开支和建设速度都已经进入前所未有的区间。",
+      "url": "https://www.youtube.com/playlist?list=PLOhHNjZItNnMm5tdW61JpnyxeYH5NDDx8",
+      "posted_at": "2026-10-06T09:00:00.000Z",
+      "tags": [
+        "podcast"
+      ]
+    }
+  ]
+}
