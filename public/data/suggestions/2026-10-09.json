@@ -1,0 +1,148 @@
+{
+  "date": "2026-10-09",
+  "items": [
+    {
+      "id": "2026-10-09-1",
+      "title": "IC 的新晋升：管智能体",
+      "angle": "从 Garry Tan 的判断切入：未来高产 IC 不是写更多代码，而是像小团队负责人一样调度 agent、记忆和插件。",
+      "opening": "过去，一个人想扩大产出，路径通常是升管理岗、带团队。现在 Garry Tan 说，带着 AI agents 干活的 IC，可能会比旧时代同级人员经理更高产。问题来了：这到底是个人效率工具，还是组织结构开始重写？",
+      "story_hook": {
+        "challenge": "核心冲突是 IC 不再只是执行者，而要承担任务拆解、上下文管理和质量验收。",
+        "twist": "真正像管理能力的东西，可能不是管人，而是管一组有记忆、有角色、有权限的 agent。"
+      },
+      "takeaway": "读者可以重新设计自己的 AI 工作台：把 prompt 升级为角色分工、长期记忆、插件权限和任务复盘，而不是只换更强模型。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Garry Tan：带着 AI agents 干活的 IC 会比旧时代人员经理更高产",
+          "url": "https://x.com/garrytan/status/2108433505038606620"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub Trending：mvschwarz/openrig 周增 2693 星，用 Claude Code、Codex 和 Pi 组建持久 agent 团队",
+          "url": "https://github.com/mvschwarz/openrig"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub Trending：thedotmack/claude-mem 周增 3153 星，做 session 记忆压缩与注入",
+          "url": "https://github.com/thedotmack/claude-mem"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-09-2",
+      "title": "Agent 需要一个文件系统",
+      "angle": "从 Aaron Levie 的 Box Mount 出发，讲 agent 产品从聊天窗口走向真实工作流时，文件读写比模型参数更关键。",
+      "opening": "如果 agent 只能聊天，它就像一个没有手的实习生。Aaron Levie 今天提到 Box Mount：把 Box 直接挂进任意 agent 沙箱，让 agent 像人一样读写文件和数据。这个细节比很多模型发布更重要，因为它回答了一个老问题：AI 到底怎么进入真实工作？",
+      "story_hook": {
+        "challenge": "核心冲突是企业想要 agent 自动干活，但数据、文件、权限和审计都还停在人工工作流里。",
+        "twist": "下一代 agent 基建的入口，可能不是更炫的聊天 UI，而是最朴素的文件系统、挂载点和权限边界。"
+      },
+      "takeaway": "做 agent 产品时应优先思考数据落点、文件权限、操作日志和沙箱边界，把「能访问什么」当成核心产品设计。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Aaron Levie：Box Mount 让开发者能把 Box 挂载成任意 agent 沙箱里的文件系统",
+          "url": "https://x.com/levie/status/2108279490510193078"
+        },
+        {
+          "tag": "builders",
+          "ref": "Madhu Guru：每一层计算栈都要为 agents 重建，消费产品也会被 personal agents 逼着改造",
+          "url": "https://x.com/realmadhuguru/status/2108236391641706813"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt：OpenPilot 做可换模型的桌面 agent",
+          "url": "https://www.producthunt.com/products/openpilot"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-09-3",
+      "title": "AI 创业的 A 轮门槛变了",
+      "angle": "用 Nikunj Kothari 的 Seed 阶段观察，对照今天 openrig、hyperframes 等具体项目热度，写清楚 VC 追的不是 AI 公司，而是被模型能力猛拉的品类。",
+      "opening": "收入快到 100 万美元、客户也不错，放在以前可能是不错的 Seed 成绩。Nikunj Kothari 今天给了一个冷水判断：如果增长不够炸、现金快烧完，AI 公司只剩三条路。最残酷的变化是，老指标还在，但已经不够用了。",
+      "story_hook": {
+        "challenge": "核心冲突是创业者以为有收入就能融资，但资本市场只愿意押少数有巨大品类拉力的方向。",
+        "twist": "真正危险的不是产品没人用，而是产品有人用、收入也有，却不在新模型能力拉动的赛道上。"
+      },
+      "takeaway": "读者可以用一个问题自检项目：你的增长来自模型能力突然打开的新需求，还是只是把旧 SaaS 加了 AI 外壳。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Nikunj Kothari：Seed 到 A 轮门槛每个月变高，VC 只追少数真正有巨大拉力的品类",
+          "url": "https://x.com/nikunj/status/2108410378233549106"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Google Trends：openrig 上升 56.2%，对应 GitHub 2693 周星",
+          "url": "https://trends.google.com/trends/explore?q=openrig&date=now+7-d"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Google Trends：hyperframes 上升 55.3%，程序化视频成为 agent 生成媒体方向",
+          "url": "https://trends.google.com/trends/explore?q=hyperframes&date=now+7-d"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-09-4",
+      "title": "数据库会被 agent 打爆吗",
+      "angle": "从 Matt Turck 和 Andy Pavlo 的对谈切入：几十亿 agent 会让数据库查询量暴涨 10-100 倍，真正的机会在护栏和可观测性。",
+      "opening": "当 agent 数量从几百万变成几十亿，数据库会发生什么？Andy Pavlo 的判断很直白：查询量可能上升 10-100 倍，而且 agent 会像初级工程师一样删生产库。AI 基建的下一个瓶颈，可能不是推理速度，而是数据库能不能扛住一群永不下班的自动化员工。",
+      "story_hook": {
+        "challenge": "核心冲突是 agent 越能干，越会把数据库暴露给高频、不可预测、带副作用的操作。",
+        "twist": "数据库市场不是被 AI 边缘化，而是可能因为 agent 工作流变得更重要、更危险、更贵。"
+      },
+      "takeaway": "读者应把数据库权限、查询限流、回滚、审计和模拟环境纳入 agent 产品默认设计，而不是上线后补救。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Matt Turck：Andy Pavlo 称几十亿 agent 会把查询量打高 10-100 倍，还会像初级工程师一样删生产库",
+          "url": "https://x.com/mattturck/status/2108223135673696504"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub Trending：openrig 用多个 AI coding agents 组成持久团队",
+          "url": "https://github.com/mvschwarz/openrig"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Pulse 今日主线：agent 需要更长记忆、更强工具手和更具体执行环境",
+          "url": "https://github.com/thedotmack/claude-mem"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-09-5",
+      "title": "AI 助手开始挤进文件里",
+      "angle": "用 Claude Docs、Slides、Design 结束 Beta 对照 OpenVids 和 HyperFrames，讲 AI 产品正在从聊天入口迁移到文档、演示、设计和视频编辑现场。",
+      "opening": "Claude 今天把 Docs、Slides 和 Design 推出 Beta，免费版也能用。这个动作不只是多了几个工具，而是 AI 助手开始进入文件本体：团队、文档和模型在同一个工作现场里协作。聊天框不消失，但它可能不再是主战场。",
+      "story_hook": {
+        "challenge": "核心冲突是用户不想在 AI 聊天窗口和真实生产工具之间来回复制粘贴。",
+        "twist": "AI 产品的下一步不是造更大的助手，而是把助手拆进文档、视频、设计和本地项目这些具体对象里。"
+      },
+      "takeaway": "做 AI 产品时应少设计一个万能首页，多设计对象内操作：在文档里改写、在视频里剪辑、在项目里追踪成本。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Claude：Docs、Slides 和 Design 结束 Beta，免费版也能用，团队和 Claude 可在同一份文件里协同编辑",
+          "url": "https://x.com/claudeai/status/2108271559928389679"
+        },
+        {
+          "tag": "builders",
+          "ref": "Peter Yang：吐槽 Grok 新邮件功能像黑箱，用户看不出基本使用场景",
+          "url": "https://x.com/petergyang/status/2108412799684915576"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt：OpenVids 做可由 AI agent 聊天驱动的开源视频编辑器",
+          "url": "https://www.producthunt.com/products/openvids"
+        }
+      ]
+    }
+  ],
+  "notes": "今日整体素材适合写 agent 工作流重构、融资现实和基础设施风险。独立开发者素材偏少，若开主文建议少做产品罗列，多抓「agent 从聊天框进入真实执行环境」这条主线。",
+  "generated_at": "2026-10-09T09:23:03+00:00",
+  "model": "gpt-5.5"
+}

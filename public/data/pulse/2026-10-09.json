@@ -1,0 +1,389 @@
+{
+  "date": "2026-10-09",
+  "top3": [
+    "今天最值得关注的是 agent 工具链从写代码扩展到视频、CAD、逆向和持久团队，Builder 应该重新定义自己的自动化边界。",
+    "AnyPS5 用 10243 周星和 Google Trends +2382.2% 把「把封闭平台搬到开放系统」推成今天最强技术叙事。",
+    "HuggingFace 热榜从通用聊天转向决策模型、多模态 embedding 和可本地跑的视频生成，消费级产品机会正在变窄但更具体。"
+  ],
+  "intro": "今天的主线不是又一个聊天机器人，而是 agent 能否拥有更长记忆、更强工具手、更具体的执行环境。开源热度、Product Hunt 新品和 Google Trends 同时指向一个判断：用户愿意为「把 AI 接到真实工作流」买单，但不再愿意为泛泛的 AI 助手买单。",
+  "sections": [
+    {
+      "id": "discovery",
+      "title": "发现机会",
+      "blocks": [
+        {
+          "id": "indie-products",
+          "heading": "今天有哪些独立开发者的新产品？",
+          "summary_md": "HN Show HN 只有一个高信号项目：[Show HN: Quake ported to safe Rust, playable in browser](https://quake-srp.pages.dev/) 拿到 151 票、122 条评论，说明「经典项目 + 新安全栈 + 浏览器可玩」仍然是最容易穿透开发者社区的组合。Product Hunt 侧没有给出票数和评论数，但新品方向很集中：[OpenVids](https://www.producthunt.com/products/openvids) 做可由 AI agent 聊天驱动的开源视频编辑器，[Porch](https://www.producthunt.com/products/porch-6) 做 AI 编码项目的本地摘要和成本追踪，[OpenPilot](https://www.producthunt.com/products/openpilot) 做可换模型的桌面 agent。",
+          "items": [
+            {
+              "title": "Quake ported to safe Rust",
+              "url": "https://quake-srp.pages.dev/",
+              "source": "HN",
+              "score": 151
+            },
+            {
+              "title": "OpenVids",
+              "url": "https://www.producthunt.com/products/openvids",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "Porch",
+              "url": "https://www.producthunt.com/products/porch-6",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "OpenPilot",
+              "url": "https://www.producthunt.com/products/openpilot",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "今天独立产品的机会不在「AI 助手」大词，而在把 agent 接进一个具体本地工作流。"
+        },
+        {
+          "id": "github-traction",
+          "heading": "GitHub 上哪些高增长开源项目还没有商业化？",
+          "summary_md": "本周 GitHub 最强的未商业化线索是 [boykopovar/AnyPS5](https://github.com/boykopovar/AnyPS5)，周增 10243 星，总星 17861，定位是自动把 PS5 可执行文件移植到 Linux 和 Windows；这是强需求但高风险的底层工具。另一个值得盯的是 [DuarteSantos8/openGym](https://github.com/DuarteSantos8/openGym)，周增 6086 星，总星 8265，把健身记录、疲劳肌群和自托管数据主权打包在一起，商业化可以走 Pro 导入、家庭版、教练协作而不是卖模型。",
+          "items": [
+            {
+              "title": "boykopovar/AnyPS5",
+              "url": "https://github.com/boykopovar/AnyPS5",
+              "source": "GitHub",
+              "score": 10243
+            },
+            {
+              "title": "DuarteSantos8/openGym",
+              "url": "https://github.com/DuarteSantos8/openGym",
+              "source": "GitHub",
+              "score": 6086
+            },
+            {
+              "title": "pablostanley/yoinks",
+              "url": "https://github.com/pablostanley/yoinks",
+              "source": "GitHub",
+              "score": 2706
+            }
+          ],
+          "takeaway": "高增长开源项目里最可变现的不是通用 agent，而是能替代灰色、笨重或隐私敏感工作流的小工具。"
+        }
+      ]
+    },
+    {
+      "id": "tech-stack",
+      "title": "技术选型",
+      "blocks": [
+        {
+          "id": "dev-tools",
+          "heading": "本周增长最快的开发者工具是什么？",
+          "summary_md": "开发者工具榜今天有明显的「agent 基础设施化」倾向：[mvschwarz/openrig](https://github.com/mvschwarz/openrig) 周增 2693 星，用 Claude Code、Codex 和 Pi 组建持久 agent 团队；[thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) 周增 3153 星，把 session 记忆压缩后注入后续工作；[cursor/plugins](https://github.com/cursor/plugins) 周增 1109 星，说明插件规范正在变成 AI IDE 的竞争入口。对 Builder 来说，下一波工具不是单次 prompt，而是角色、记忆、权限和上下文的工程化。",
+          "items": [
+            {
+              "title": "mvschwarz/openrig",
+              "url": "https://github.com/mvschwarz/openrig",
+              "source": "GitHub",
+              "score": 2693
+            },
+            {
+              "title": "thedotmack/claude-mem",
+              "url": "https://github.com/thedotmack/claude-mem",
+              "source": "GitHub",
+              "score": 3153
+            },
+            {
+              "title": "cursor/plugins",
+              "url": "https://github.com/cursor/plugins",
+              "source": "GitHub",
+              "score": 1109
+            }
+          ],
+          "takeaway": "agent 产品的技术护城河正在从模型选择转向上下文、插件和团队编排。"
+        },
+        {
+          "id": "hf-models",
+          "heading": "HuggingFace 上最热的模型能做什么消费级产品？",
+          "summary_md": "HuggingFace 热榜的共同点是「可判断、可嵌入、可生成」。[autotrust/JEV-27B-VL](https://huggingface.co/autotrust/JEV-27B-VL) trending score 2689，1533034 下载，标签强调 typed-decisions 和 calibrated-probabilities，适合做购物决策、保险初筛、内容质检这类需要给出置信度的产品。[google/embeddinggemma-2](https://huggingface.co/google/embeddinggemma-2) trending score 1218，覆盖图像、音频、视频 embedding，适合做个人媒体库搜索。[Lightricks/LTX-2.5](https://huggingface.co/Lightricks/LTX-2.5) 1688807 下载，把图文音视频互转推向本地创作工具。",
+          "items": [
+            {
+              "title": "autotrust/JEV-27B-VL",
+              "url": "https://huggingface.co/autotrust/JEV-27B-VL",
+              "source": "HuggingFace",
+              "score": 2689
+            },
+            {
+              "title": "google/embeddinggemma-2",
+              "url": "https://huggingface.co/google/embeddinggemma-2",
+              "source": "HuggingFace",
+              "score": 1218
+            },
+            {
+              "title": "Lightricks/LTX-2.5",
+              "url": "https://huggingface.co/Lightricks/LTX-2.5",
+              "source": "HuggingFace",
+              "score": 495
+            }
+          ],
+          "takeaway": "消费级 AI 产品应少做聊天入口，多做带置信度的判断、跨媒体检索和一键生成。"
+        },
+        {
+          "id": "show-hn",
+          "heading": "Show HN 高关注项目用的什么技术栈？",
+          "summary_md": "[Quake ported to safe Rust](https://quake-srp.pages.dev/) 的技术栈信号很清楚：Rust 负责把 C 时代经典游戏带到更安全的实现，浏览器负责把试用门槛降到零。151 票、122 条评论不是因为 Quake 新，而是因为它把怀旧、可玩 demo、安全语言和 Web 分发叠在一起。对展示型开源项目来说，技术栈本身要能讲故事，最好还能 10 秒内让用户进入体验。",
+          "items": [
+            {
+              "title": "Quake ported to safe Rust",
+              "url": "https://quake-srp.pages.dev/",
+              "source": "HN",
+              "score": 151
+            }
+          ],
+          "takeaway": "Show HN 的高关注项目往往不是技术最复杂，而是技术选择本身能降低体验门槛。"
+        }
+      ]
+    },
+    {
+      "id": "competition",
+      "title": "竞争情报",
+      "blocks": [
+        {
+          "id": "comebacks",
+          "heading": "有没有沉寂的老项目突然复活？",
+          "summary_md": "今天的复活信号来自两条线：一条是 Quake 被安全 Rust 重写并能在浏览器玩，另一条是 [EpicGames/raddebugger](https://github.com/EpicGames/raddebugger) 周增 448 星、总星 8199，继续吸引对原生图形调试器的关注。它们说明老范式没有消失，只是在被新分发方式和新安全预期重新包装。Builder 可以从经典工具里找「功能已被证明、体验过时」的对象，而不是追逐完全未知的新需求。",
+          "items": [
+            {
+              "title": "Quake ported to safe Rust",
+              "url": "https://quake-srp.pages.dev/",
+              "source": "HN",
+              "score": 151
+            },
+            {
+              "title": "EpicGames/raddebugger",
+              "url": "https://github.com/EpicGames/raddebugger",
+              "source": "GitHub",
+              "score": 448
+            }
+          ],
+          "takeaway": "经典工具复活的机会在于换运行环境、换安全模型、换分发路径。"
+        },
+        {
+          "id": "migrations",
+          "heading": "有没有「XX is dead」或迁移类文章？",
+          "summary_md": "虽然 HN top 为空，迁移信号在 GitHub 和 Trends 里很强：[boykopovar/AnyPS5](https://github.com/boykopovar/AnyPS5) 周增 10243 星，Google Trends 里 [anyps5](https://trends.google.com/trends/explore?q=anyps5&date=now+7-d) 上升 +2382.2%，关联查询出现「ps5 port to pc」。这不是普通开发工具热度，而是用户对封闭平台内容迁移到开放 PC 生态的强烈想象。竞争上要注意法律、兼容性和社区治理风险，商业产品不宜直接碰版权灰区，但可以做迁移检测、兼容层分析和本地运行诊断。",
+          "items": [
+            {
+              "title": "boykopovar/AnyPS5",
+              "url": "https://github.com/boykopovar/AnyPS5",
+              "source": "GitHub",
+              "score": 10243
+            },
+            {
+              "title": "anyps5",
+              "url": "https://trends.google.com/trends/explore?q=anyps5&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 2382.2
+            }
+          ],
+          "takeaway": "迁移类需求最容易爆，但真正可做的商业层通常在诊断、合规和辅助工具。"
+        }
+      ]
+    },
+    {
+      "id": "trends",
+      "title": "趋势判断",
+      "blocks": [
+        {
+          "id": "keywords",
+          "heading": "本周技术关键词频率有什么变化？",
+          "summary_md": "最强上升词是 [anyps5](https://trends.google.com/trends/explore?q=anyps5&date=now+7-d) +2382.2%，其次是 [raddebugger](https://trends.google.com/trends/explore?q=raddebugger&date=now+7-d) +999.0%。AI 方向里，[openrig](https://trends.google.com/trends/explore?q=openrig&date=now+7-d) +56.2%、[hyperframes](https://trends.google.com/trends/explore?q=hyperframes&date=now+7-d) +55.3%、[claude mem](https://trends.google.com/trends/explore?q=claude+mem&date=now+7-d) +41.0%，对应 GitHub 上 openrig、hyperframes、claude-mem 的高增长。关键词变化说明注意力正在从「模型能力」转向「把模型放进工作流之后怎么长期运行」。",
+          "items": [
+            {
+              "title": "anyps5",
+              "url": "https://trends.google.com/trends/explore?q=anyps5&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 2382.2
+            },
+            {
+              "title": "raddebugger",
+              "url": "https://trends.google.com/trends/explore?q=raddebugger&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 999
+            },
+            {
+              "title": "openrig",
+              "url": "https://trends.google.com/trends/explore?q=openrig&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 56.2
+            }
+          ],
+          "takeaway": "今天的热词不是抽象 AI，而是可运行、可迁移、可持久化的具体系统。"
+        },
+        {
+          "id": "vc-radar",
+          "heading": "VC 和 YC 在关注什么主题？",
+          "summary_md": "从数据看，VC/YC 会继续盯三类：第一是 agent 工作台，[openrig](https://trends.google.com/trends/explore?q=openrig&date=now+7-d) +56.2% 配合 GitHub 2693 周星，证明多 agent 团队有真实开发者兴趣；第二是 agent 生成媒体，[hyperframes](https://trends.google.com/trends/explore?q=hyperframes&date=now+7-d) +55.3% 且 GitHub 周增 3996 星，说明「HTML 到视频」可能成为营销和教程生产基础设施；第三是本地隐私 agent，[ai agent](https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d) 的 rising 里出现「apple macos ai agent privacy」，与 Product Hunt 上 Sorted、De Stash、Rune 这类 Mac 本地工具互相印证。",
+          "items": [
+            {
+              "title": "openrig",
+              "url": "https://trends.google.com/trends/explore?q=openrig&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 56.2
+            },
+            {
+              "title": "hyperframes",
+              "url": "https://trends.google.com/trends/explore?q=hyperframes&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 55.3
+            },
+            {
+              "title": "ai agent",
+              "url": "https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 12.8
+            }
+          ],
+          "takeaway": "融资叙事会更偏向 agent 基础设施、程序化视频和隐私优先的本地 AI。"
+        },
+        {
+          "id": "cooling",
+          "heading": "哪些 AI 热词在降温？",
+          "summary_md": "降温最明显的是 [codex cli](https://trends.google.com/trends/explore?q=codex+cli&date=now+7-d) -2.1%，而 [plugins](https://trends.google.com/trends/explore?q=plugins&date=now+7-d) 只有 +1.1%、[self hosted](https://trends.google.com/trends/explore?q=self+hosted&date=now+7-d) 只有 +3.6%。这不是说这些方向不重要，而是单独把 CLI、插件或自托管当卖点已经不够了。用户今天更愿意搜索具体项目名和具体问题，例如 AnyPS5、raddebugger、openrig，而不是泛概念。",
+          "items": [
+            {
+              "title": "codex cli",
+              "url": "https://trends.google.com/trends/explore?q=codex+cli&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": -2.1
+            },
+            {
+              "title": "plugins",
+              "url": "https://trends.google.com/trends/explore?q=plugins&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 1.1
+            },
+            {
+              "title": "self hosted",
+              "url": "https://trends.google.com/trends/explore?q=self+hosted&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 3.6
+            }
+          ],
+          "takeaway": "AI 基础词在降温，具体项目名和具体痛点在升温。"
+        },
+        {
+          "id": "new-radar",
+          "heading": "新词雷达：有哪些从零起飞的新概念？",
+          "summary_md": "breakout 里最值得看的是「photocraft」29200 和「artcraft」20750，它们挂在 [anyps5](https://trends.google.com/trends/explore?q=anyps5&date=now+7-d) 的 rising 关联查询里，同时 GitHub daily 出现 [storytold/artcraft](https://github.com/storytold/artcraft) 日增 2103 星，描述是给艺术家、设计师和电影人的 intentional crafting engine。另一个弱信号是 [claude mem](https://trends.google.com/trends/explore?q=claude+mem&date=now+7-d) 的 rising「omniroute」+50，指向 agent 记忆和路由层的命名空间正在形成。",
+          "items": [
+            {
+              "title": "photocraft",
+              "url": "https://trends.google.com/trends/explore?q=anyps5&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 29200
+            },
+            {
+              "title": "artcraft",
+              "url": "https://trends.google.com/trends/explore?q=anyps5&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 20750
+            },
+            {
+              "title": "omniroute",
+              "url": "https://trends.google.com/trends/explore?q=claude+mem&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 50
+            }
+          ],
+          "takeaway": "新词机会集中在创作引擎和 agent 路由记忆层，不是又一个聊天前端。"
+        }
+      ]
+    },
+    {
+      "id": "actions",
+      "title": "行动触发",
+      "blocks": [
+        {
+          "id": "weekend-build",
+          "heading": "今天 2 小时和一个周末分别做什么？",
+          "summary_md": "2 小时版本：做一个本地 agent 成本与上下文面板，读取 Claude Code、Codex 或 Cursor 项目日志，显示最近任务、token 成本、失败命令和待办，直接对标 [Porch](https://www.producthunt.com/products/porch-6) 的本地项目摘要方向。周末版本：加上 [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) 式的 session 摘要、[mvschwarz/openrig](https://github.com/mvschwarz/openrig) 式角色分工，再做一个 GitHub issue 生成器。目标不是替代 IDE，而是成为所有 AI 编码工具外面的项目仪表盘。",
+          "items": [
+            {
+              "title": "Porch",
+              "url": "https://www.producthunt.com/products/porch-6",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "thedotmack/claude-mem",
+              "url": "https://github.com/thedotmack/claude-mem",
+              "source": "GitHub",
+              "score": 3153
+            },
+            {
+              "title": "mvschwarz/openrig",
+              "url": "https://github.com/mvschwarz/openrig",
+              "source": "GitHub",
+              "score": 2693
+            }
+          ],
+          "takeaway": "最快可做的产品是 AI 编码项目的本地控制台，而不是新的代码生成器。"
+        },
+        {
+          "id": "pricing-models",
+          "heading": "值得学习的定价和变现模式有哪些？",
+          "summary_md": "今天可学的定价不是按聊天次数，而是按工作流价值分层。OpenVids 可以免费开源编辑器，收费放在导出水印、团队素材库和云渲染；openGym 可以免费自托管，收费放在教练协作、设备同步和高级训练报告；Porch 这类 AI 编码成本工具可以按项目数、本地保留天数和团队审计收费。共同点是基础能力开源或本地免费，真正收费的是协作、历史、导出和合规。",
+          "items": [
+            {
+              "title": "OpenVids",
+              "url": "https://www.producthunt.com/products/openvids",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "DuarteSantos8/openGym",
+              "url": "https://github.com/DuarteSantos8/openGym",
+              "source": "GitHub",
+              "score": 6086
+            },
+            {
+              "title": "Porch",
+              "url": "https://www.producthunt.com/products/porch-6",
+              "source": "ProductHunt",
+              "score": 0
+            }
+          ],
+          "takeaway": "开源或本地优先产品的收费点应放在协作、历史记录、导出和可信审计。"
+        },
+        {
+          "id": "counterintuitive",
+          "heading": "今天最反直觉的发现是什么？",
+          "summary_md": "最反直觉的是：AI 越热，用户越在意本地、开源和可替换。Product Hunt 上 OpenVids、OpenPilot、Sorted、De Stash 都在强调开源、本地或隐私；GitHub 上 openrig、claude-mem、cursor/plugins 都在做模型外层的可控基础设施；Google Trends 里 [cursor alternative](https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d) 还上涨 +30.2%。这说明 Builder 不一定要做更强模型，反而可以做更可控、更透明、更容易退出的平台层。",
+          "items": [
+            {
+              "title": "cursor alternative",
+              "url": "https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d",
+              "source": "GoogleTrends",
+              "score": 30.2
+            },
+            {
+              "title": "OpenPilot",
+              "url": "https://www.producthunt.com/products/openpilot",
+              "source": "ProductHunt",
+              "score": 0
+            },
+            {
+              "title": "cursor/plugins",
+              "url": "https://github.com/cursor/plugins",
+              "source": "GitHub",
+              "score": 1109
+            }
+          ],
+          "takeaway": "AI 产品的反向机会是降低锁定感，而不是继续堆更封闭的一体化体验。"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2026-10-09T09:22:04+00:00",
+  "reddit_highlights": []
+}
