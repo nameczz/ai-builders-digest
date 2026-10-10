@@ -1,0 +1,163 @@
+{
+  "date": "2026-10-10",
+  "items": [
+    {
+      "id": "2026-10-10-1",
+      "title": "58% 流量不是人了",
+      "angle": "从 Vercel 的真实流量数字切入：Web 不是死了，而是正在变成 Agent 的工作场。",
+      "opening": "Vercel 现在 58.18% 的流量来自 bot，部署里 60% 以上是 agent 做的。更夸张的是，文档站最高 83% pageview 来自 agent。以前我们给人做网页，现在可能要先问：agent 看不看得懂？",
+      "story_hook": {
+        "challenge": "Web 产品过去默认服务人类点击，但流量、部署、文档阅读都开始被 agent 接管。",
+        "twist": "这不是反爬问题，而是新入口：网页会继续繁荣，只是主要读者和建设者都变了。"
+      },
+      "takeaway": "开发者要开始把文档、API、CLI、购买链路当成 agent-first 界面设计，而不是只优化人类 UI。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Guillermo Rauch 关于 Vercel bot 流量、agent 部署和 agent pageview 的推文",
+          "url": "https://x.com/rauchg/status/2108733051283050964"
+        },
+        {
+          "tag": "builders",
+          "ref": "Guillermo Rauch 关于 Agent 通过 CLI 自主购买基础设施和域名的推文",
+          "url": "https://x.com/rauchg/status/2108669027363295323"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Panniantong/Agent-Reach 一周新增 7,084 星，主打 Agent 零 API 费读取多平台",
+          "url": "https://github.com/Panniantong/Agent-Reach"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-10-2",
+      "title": "别再手搓常驻 Agent",
+      "angle": "用 Thariq 从自建 Agent SDK 到 Claude Managed Agents 的迁移故事，讲 Agent 基建正在从代码能力转向托管能力。",
+      "opening": "Thariq 之前花两周业余时间，用 Opus 4 写了个基于 Agent SDK 的项目，还要自己维护常驻进程，效果也不稳定。后来一句 prompt 让 Opus 5.5 迁到 Claude Managed Agents，可靠性直接上了一个台阶。Agent 创业的坑，可能不在 prompt，而在进程、记忆和恢复。",
+      "story_hook": {
+        "challenge": "开发者以为 Agent 产品的核心是模型和提示词，结果真正难的是长时间运行、状态管理和失败恢复。",
+        "twist": "一次迁移不是重写业务逻辑，而是把 Agent 从脚本变成托管工人。"
+      },
+      "takeaway": "做 Agent 产品时先评估托管、记忆、技能包和执行环境，别把第一版成本耗在自建常驻进程上。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Thariq 关于 Opus 4 项目迁移到 Claude Managed Agents 后可靠性提升的推文",
+          "url": "https://x.com/trq212/status/2108689101503566319"
+        },
+        {
+          "tag": "builders",
+          "ref": "Aaron Levie 关于后台持续 agent、agent swarm 会吃掉海量 token 的推文",
+          "url": "https://x.com/levie/status/2108750943680630893"
+        },
+        {
+          "tag": "pulse",
+          "ref": "mattpocock/skills 一周新增 8,156 星，代表可复用 Agent 技能包趋势",
+          "url": "https://github.com/mattpocock/skills"
+        },
+        {
+          "tag": "pulse",
+          "ref": "thedotmack/claude-mem 一周新增 3,850 星，主打跨会话持久上下文",
+          "url": "https://github.com/thedotmack/claude-mem"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-10-3",
+      "title": "Agent 开始进群上班",
+      "angle": "从 Slack 把 Agent 放进频道协作切入，讨论 AI 编程入口从 IDE 移向团队工作流。",
+      "opening": "Dan Shipper 看到的信号不是“Slack 又加了一个机器人”。真正变化是：Agent 被丢进频道，团队一起派活、看产出、审代码。AI 编程不再只是一个人和 IDE 的私聊，而是开始进入团队协作现场。",
+      "story_hook": {
+        "challenge": "个人 AI 助手很容易变成玩具，因为产出没人看、没人审、没人接到后续流程。",
+        "twist": "一旦 Agent 进入频道，它就从工具变成同事接口，协作入口可能从 IDE 和工单迁移到群聊。"
+      },
+      "takeaway": "团队 AI 产品要优先解决可见性、审计、权限和多人交接，而不是只做更聪明的单人助手。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Dan Shipper 关于 Slack 将 AI Agent 拉进团队频道协作的推文",
+          "url": "https://x.com/danshipper/status/2108588611000275009"
+        },
+        {
+          "tag": "builders",
+          "ref": "Peter Yang 关于给 Grok Bot 起独立名字、当成真正助理使用的推文",
+          "url": "https://x.com/petergyang/status/2108624122339287335"
+        },
+        {
+          "tag": "pulse",
+          "ref": "cursor/plugins 一周新增 1,125 星，代表 Agent 插件化工作流",
+          "url": "https://github.com/cursor/plugins"
+        },
+        {
+          "tag": "pulse",
+          "ref": "mvschwarz/openrig 一周新增 2,338 星，进入开发者评估期",
+          "url": "https://github.com/mvschwarz/openrig"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-10-4",
+      "title": "开源模型不是省钱玩具",
+      "angle": "把 No Priors 里开放模型用于网络防御的观点，和 REA/AnyPS5 的反向工程热度放在一起：开放能力正在进入硬工程现场。",
+      "opening": "今天最反直觉的 AI 热点，不是聊天，也不是写作，而是反向工程、PS5 移植和网络防御。No Priors 里 Misha Laskin 的判断很刺耳：去掉网络攻击能力，可能也会废掉网络防御能力。强模型一旦进入真实系统，开放模型就不只是便宜替代品，而是防守方的工具箱。",
+      "story_hook": {
+        "challenge": "安全叙事常把开放模型当风险源，但闭源强模型同样会被用于攻击，受害者还需要工具自救。",
+        "twist": "今天爆火的不是“更安全的聊天机器人”，而是能理解复杂软件行为的 Agent 和反向工程工具。"
+      },
+      "takeaway": "判断开源模型价值时，不能只看 benchmark 和价格，还要看它能否进入防御、逆向、兼容性测试等高门槛工作流。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "No Priors 访谈 Misha Laskin，讨论开放模型、网络攻击与防御能力的关系",
+          "url": "https://www.youtube.com/@NoPriorsPodcast"
+        },
+        {
+          "tag": "pulse",
+          "ref": "REA Reverse 在 HN 396 分、145 条评论，GitHub 对应 morluto/rea 一周新增 14,927 星",
+          "url": "https://rea.tools/"
+        },
+        {
+          "tag": "pulse",
+          "ref": "boykopovar/AnyPS5 一周新增 15,539 星，自动移植 PS5 可执行文件到 Linux 和 Windows",
+          "url": "https://github.com/boykopovar/AnyPS5"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-10-5",
+      "title": "智能单价还会继续塌",
+      "angle": "从 Madhu Guru 对模型降价原因的拆解，连接 HuggingFace 热榜和小工具变现：真正稀缺的不是智能，而是入口和工作流。",
+      "opening": "Madhu Guru 的判断很直接：开源权重模型不是智能降价的起点，只是给趋势加了一把风。真正压价的是蒸馏、更高效的推理基础设施和供应商互卷。也就是说，如果你的产品只是在转卖模型能力，毛利可能会越来越难看。",
+      "story_hook": {
+        "challenge": "很多 AI 产品还在把“更聪明的模型”当核心卖点，但同等智能正在快速变便宜。",
+        "twist": "价格坍塌不一定杀死创业机会，反而会把利润推向数据入口、专业流程和付费转化层。"
+      },
+      "takeaway": "AI 产品应把差异化放在专有上下文、垂直工作流、分发入口和付费路径上，而不是押注模型调用本身。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Madhu Guru 关于智能单价下跌来自蒸馏、推理效率和供应商竞争的推文",
+          "url": "https://x.com/realmadhuguru/status/2108618266776387886"
+        },
+        {
+          "tag": "builders",
+          "ref": "Amjad Masad 关于不同圈子对 AI 兴奋或恐惧取决于被放大还是被淘汰的推文",
+          "url": "https://x.com/amasad/status/2108597112707686552"
+        },
+        {
+          "tag": "pulse",
+          "ref": "google/embeddinggemma-2 今日 HuggingFace 热榜 trending score 1,347、下载 29,185",
+          "url": "https://huggingface.co/google/embeddinggemma-2"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Toolaby 在 Product Hunt 主打两行代码为 Chrome extension 接入收款",
+          "url": "https://www.producthunt.com/products/toolaby"
+        }
+      ]
+    }
+  ],
+  "notes": "今日主线很集中：Agent 正在从聊天界面进入真实工程、团队协作和自动采购链路。可写的强选题多，但独立开发者一手营收素材偏少，商业化部分更适合作为趋势判断而非案例复盘。",
+  "generated_at": "2026-10-10T09:20:17+00:00",
+  "model": "gpt-5.5"
+}
