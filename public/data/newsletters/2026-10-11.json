@@ -1,0 +1,118 @@
+{
+  "date": "2026-10-11",
+  "generated_at": "2026-10-11T00:47:19+00:00",
+  "inbox_id": "sanyoumu@agentmail.to",
+  "window": {
+    "start": "2026-10-10T00:47:59+00:00",
+    "end": "2026-10-11T00:46:00.164543+00:00",
+    "source": "previous_digest_generated_at"
+  },
+  "count": 3,
+  "highlights": [
+    "决策模型正在从单点产品快速变成新类别：OpenAI、微软、Perplexity、Cloudflare、Liquid、vLLM、LangSmith、Unsloth 等都围绕 typed decision / judge / route / score 场景给出实现。",
+    "工业机器人里的 AI 更像“可靠执行系统”而不是通用聊天模型：Standard Bots 强调高质量场景数据、本地推理、短周期任务和软硬件全栈协同。",
+    "Claude Motion 与 Claude Dashboards 把文档、图表、产品演示转成可编辑的代码化动效，可能降低产品视频、报告解释和 demo 制作门槛。",
+    "对 builder 来说，今天的主线不是更大的模型，而是更可控的输出形态：决策、动画、视觉感知和生产执行都在走向专用化工作流。"
+  ],
+  "items": [
+    {
+      "id": "ainews-decision-models-category",
+      "title_zh": "今日精读：决策模型成为新的 AI 产品类别",
+      "title_original": "[AINews] TypeSafe/Jev at >$100M ARR, $7.5B valuation 3 weeks after launch",
+      "source": "swyx.substack.com",
+      "from": "AINews <swyx+ainews@substack.com>",
+      "subject": "[AINews] TypeSafe/Jev at >$100M ARR, $7.5B valuation 3 weeks after launch",
+      "url": "https://www.latent.space/p/ainews-typesafejev-at-100m-arr-75b",
+      "message_id": "<20261010064557.3.8a59b2a88baa4792@mg-d0.substack.com>",
+      "published_at": "2026-10-10T06:45:57.000Z",
+      "importance": "high",
+      "summary_zh": "这封 AINews 把 2026 年 10 月 8 日至 9 日的 AI 社区动态浓缩成一个核心主题：以 Jev 为代表的“决策模型”正在被多个厂商快速复制和产品化。邮件称 TypeSafe/Jev 在发布三周后达到超过 1 亿美元 ARR、估值 75 亿美元，同时 OpenAI、微软、Perplexity、Cloudflare、Liquid、vLLM、LangSmith、Unsloth 等都在围绕分类、路由、打分、LLM judge、科学假设筛选和多模态决策推出能力。",
+      "deep_read_zh": "这期最值得精读的不是 TypeSafe/Jev 的融资和收入数字本身，而是它背后显示出的产品范式变化：AI 输出正在从“生成一段自由文本”转向“在一次前向推理中返回可类型化、可度量、可接入业务系统的判断”。邮件把这类能力称作 decision models，典型接口包括判断某个条件为真的概率、从列表中选择一个选项、按等级打分，或者对同一输入一次性回答多个结构化问题。这个形态对 builder 很关键，因为大量真实应用并不需要长篇回答，而是需要稳定的分类、路由、审核、评估、排序和策略选择。邮件列出的生态扩散速度很快：OpenAI Decisions API 基于 GPT-6 Luna，主打更快且无输出计费；Perplexity 的 pplx-decider-v1.1-27b 声称在 Decision Bench 上达到 94.5% 准确率；Cloudflare clef 扩展到音频、视频、图像和文本，且强调速度和价格；vLLM Semantic Router 的 Decision 2.0 支持一次输入、多问题、多选项概率；LangSmith 用 Jev 给 trace 返回难度与正确性等 typed answers；Unsloth 则给出在 8GB VRAM 上把 Qwen3.5-4B 训练成决策模型的 notebook。隐含判断是：如果这一类别成立，AI infra 的竞争点会从“谁能生成更聪明的文本”部分转向“谁能用更低延迟、更低成本、更高一致性做可审计决策”。不过邮件也提醒，早期评估者认为复杂决策和一致性仍是难点，所以 builder 在采用时应优先选择低风险、可验证、可回滚的场景。",
+      "why_important": "这是一个可能直接改变 AI 应用架构的类别信号：很多 agent、客服、审核、推荐、实验评估和数据管道，都需要结构化判断而不是自然语言答案。",
+      "impact": "短期看，builder 可以用决策模型替代一部分 prompt-based 分类器、LLM judge 和路由逻辑；中期看，围绕 typed decision 的基准、观测、成本模型和工作流工具会成为新的基础设施机会。",
+      "key_points": [
+        "邮件称 TypeSafe/Jev 发布三周后达到超过 1 亿美元 ARR、估值 75 亿美元，但也提到外界存在质疑。",
+        "OpenAI、微软、Perplexity、Cloudflare、Liquid 等都在同一方向推出决策模型或接口。",
+        "决策模型的核心是返回概率、选择、分数等 typed answers，而不是自由文本。",
+        "vLLM、LangSmith、Unsloth 的动态说明这个方向正在进入服务、评估和自训练工具链。",
+        "一致性和复杂决策能力仍是风险点，适合先落在可度量的低风险环节。"
+      ],
+      "reading_notes": [
+        "把它当成新的应用接口形态，而不只是又一个模型榜单。",
+        "观察哪些场景真的需要长文本生成，哪些只需要结构化判断。",
+        "关注成本、延迟、一致性和可解释性，而不只看 benchmark 准确率。",
+        "留意开源训练路径是否会压低商业 API 的溢价。"
+      ],
+      "tags": [
+        "model",
+        "infra",
+        "developer-tools",
+        "agent",
+        "evaluation"
+      ],
+      "related_sources": []
+    },
+    {
+      "id": "standard-bots-industrial-robotics-ai",
+      "title_zh": "工业机器人 AI 的重点是可靠执行，不是人形外观",
+      "title_original": "Building AI for Reliable Execution: Lessons From Industrial Robotics",
+      "source": "swyx.substack.com",
+      "from": "Latent.Space <swyx@substack.com>",
+      "subject": "Building AI for Reliable Execution: Lessons From Industrial Robotics",
+      "url": "https://www.latent.space/p/standard-bots",
+      "message_id": "<20261010140411.3.1c77a1b230e8447c@mg-d1.substack.com>",
+      "published_at": "2026-10-10T14:04:11.000Z",
+      "importance": "high",
+      "summary_zh": "Latent.Space 访谈了 Standard Bots 的 CEO Evan Beard 和 AI 负责人 Leif Jentoft，讨论工业机器人里的 AI 如何落地。邮件重点不是人形机器人叙事，而是机器人手臂在 machine tending、焊接、装配等生产任务中的可靠执行。Standard Bots 称其拥有共享基础模型，客户可通过演示和微调适配任务；最大模型只有低十亿参数级别，但公司强调高质量目标数据比单纯数据规模更重要。其机器看护方案中，模型主要负责零样本感知、定位和识别零件，运动与产线逻辑则由传统程序处理；训练在云端完成，推理本地运行。",
+      "why_important": "这封邮件给出了物理 AI 的务实落地视角：真实生产环境优先考虑安全、延迟、成本、可靠性和节拍，而不是追求端到端通用智能。",
+      "impact": "对 builder 的启发是，AI 产品可以把学习模型放在最有价值的不确定环节，把确定性流程继续交给传统程序；软硬件或系统全栈控制会变成性能和迭代速度优势。",
+      "key_points": [
+        "Standard Bots 最近融资 2 亿美元、估值 10 亿美元，客户包括 NASA、Amazon 和 Lockheed Martin。",
+        "公司强调短周期任务、本地推理、目标数据和少量边界案例修复。",
+        "Jentoft 认为没有模型真正硬件无关，低层控制与高层 AI 协同优化是优势。"
+      ],
+      "reading_notes": [],
+      "tags": [
+        "robotics",
+        "physical-ai",
+        "infra",
+        "model",
+        "enterprise"
+      ],
+      "related_sources": [],
+      "deep_read_zh": ""
+    },
+    {
+      "id": "claude-motion-design-studio-guide",
+      "title_zh": "Claude 正在把动效设计变成代码化工作流",
+      "title_original": "Claude Motion Design Studio: The Complete Guide",
+      "source": "opinionai.substack.com",
+      "from": "Opinion AI <opinionai@substack.com>",
+      "subject": "Claude Motion Design Studio: The Complete Guide",
+      "url": "https://opinionai.substack.com/p/claude-motion-design-studio-the-complete",
+      "message_id": "<20261010223015.3.aba00fc29ca9b866@mg2.substack.com>",
+      "published_at": "2026-10-10T22:30:15.000Z",
+      "importance": "medium",
+      "summary_zh": "Opinion AI 介绍了 Anthropic 在 10 月 8 日推出测试版 Claude Motion 和 Claude Dashboards 后，围绕 Claude 构建 motion design studio 的实践路径。邮件强调 Claude 可以把普通文档转成动态解释、用业务数据生成图表动画、演示产品流程或制作发布视频，而且这些动画以代码形式生成，因此文字、数字、形状、颜色、节奏和场景都可继续修改。文中还提到 Anthropic 称用户已经用 Claude 创建超过 4500 万份文档、幻灯片和设计，并举例有人用 Claude Opus 5.5、Three.js 做出可交互的 3D 喷气发动机解释。",
+      "why_important": "它展示了 AI 创作工具从静态文档、幻灯片进一步进入可编辑动效和产品演示的趋势。",
+      "impact": "对独立开发者和产品团队来说，这类工作流可能降低 demo、解释视频、动态图表和发布素材的制作成本；关键能力会从会剪辑转向会描述、会迭代、会审美把关。",
+      "key_points": [
+        "Claude Motion 与 Claude Dashboards 已进入 beta。",
+        "动效由代码生成，便于后续局部修改而不是整段重做。",
+        "适用场景包括解释视频、产品发布、AI 工作流演示、动态图表和 3D 交互说明。"
+      ],
+      "reading_notes": [],
+      "tags": [
+        "creative-tools",
+        "developer-tools",
+        "product",
+        "design",
+        "workflow"
+      ],
+      "related_sources": [],
+      "deep_read_zh": ""
+    }
+  ],
+  "skipped": [],
+  "notes": "今日精读选择 AINews，是因为它呈现了一个可能影响 AI 应用架构的新类别：决策模型。其余两封都是正式 newsletter，分别覆盖工业机器人 AI 落地和 Claude 动效工作流，没有发现欢迎邮件、确认订阅、广告或完全重复邮件。"
+}
