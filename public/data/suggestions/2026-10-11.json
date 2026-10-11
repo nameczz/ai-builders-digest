@@ -1,0 +1,163 @@
+{
+  "date": "2026-10-11",
+  "items": [
+    {
+      "id": "2026-10-11-1",
+      "title": "Agent 先过零信任",
+      "angle": "从企业安全视角切入：Agent 真正的瓶颈不是能力，而是身份、权限、审计和追责。",
+      "opening": "企业还在讨论 Agent 能不能干活，Aaron Levie 已经把问题推进到下一层：它们很快会比人执行更多任务。最危险的不是模型答错，而是一个能访问核心数据的 Agent 像内部人一样出错，却没人说得清它为什么这么做。",
+      "story_hook": {
+        "challenge": "Agent 越能干，越像一个拥有内部权限但不可完全追责的新员工。",
+        "twist": "行业机会不一定在更强模型，而在给 Agent 做零信任、权限隔离和审计轨迹。"
+      },
+      "takeaway": "做企业 AI 产品时，应先画清 Agent 的身份、权限边界、日志和爆炸半径，再谈自动化深度。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Aaron Levie 关于企业 Agent 需要零信任治理的推文",
+          "url": "https://x.com/levie/status/2108952226714865966"
+        },
+        {
+          "tag": "builders",
+          "ref": "Madhu Guru 关于 Agent 安全体系必须跑得更快的推文",
+          "url": "https://x.com/realmadhuguru/status/2108982858513776899"
+        },
+        {
+          "tag": "builders",
+          "ref": "The MAD Podcast with Eric Ho：AI Models Are Now Hiding Their Cheating",
+          "url": "https://www.youtube.com/@DataDrivenNYC/videos"
+        },
+        {
+          "tag": "pulse",
+          "ref": "HuggingFace 热榜 Cloudflare/clef，结构化决策与防护模型",
+          "url": "https://huggingface.co/Cloudflare/clef"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-11-2",
+      "title": "别卖 Copilot，卖队列",
+      "angle": "从编码代理的真实协作切入：下一代开发工具不是更会补全，而是更会管理 PR、CI、技能和等待状态。",
+      "opening": "Garry Tan 今天的用法很具体：一个线程调度 PR 队列、盯住 CI，只让完整跑绿的代码进 master。这比“AI 会写代码”更接近团队每天的痛点：谁卡住了、谁要人介入、哪段流程可以自动放行。",
+      "story_hook": {
+        "challenge": "编码 Agent 越多，团队越容易被状态、队列和上下文打断。",
+        "twist": "真正值钱的产品层，可能是 Agent 的调度台，而不是另一个聊天框。"
+      },
+      "takeaway": "开发者工具创业应把本地规范、测试入口、技能模板和 Agent 状态做成可版本化资产。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Garry Tan 关于 Captain 模式调度 PR 队列和 CI 的推文",
+          "url": "https://x.com/garrytan/status/2108954741065879945"
+        },
+        {
+          "tag": "builders",
+          "ref": "Garry Tan 关于用 GStack /autoplan 让 agent 先讲清计划的推文",
+          "url": "https://x.com/garrytan/status/2108954740013043789"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub Trending：mattpocock/skills 周增 9179 星",
+          "url": "https://github.com/mattpocock/skills"
+        },
+        {
+          "tag": "pulse",
+          "ref": "ProductHunt：Farol 显示编码代理状态",
+          "url": "https://www.producthunt.com/products/farol-3"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-11-3",
+      "title": "PM 反而更缺了",
+      "angle": "从组织比例反常识切入：Agent 提升工程产能后，瓶颈可能转移到客户沟通和需求判断。",
+      "opening": "Nan Yu 给了一个反直觉判断：Agent 让工程师产能暴涨，但 PM 没被解放，理想比例反而变成 1:1。原因很简单，代码可以并行生成，客户理解、优先级取舍和需求翻译仍然卡在人类带宽上。",
+      "story_hook": {
+        "challenge": "AI 让交付速度变快，却把需求侧的堵点暴露得更明显。",
+        "twist": "团队可能不是少招 PM，而是需要更强的 PM 操作系统。"
+      },
+      "takeaway": "AI 团队应把客户访谈、需求证据、决策记录和 Agent 任务分解连成闭环，而不是只优化工程端。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Nan Yu 关于 Agent 让工程师产能暴涨但 PM 比例变 1:1 的推文",
+          "url": "https://x.com/thenanyu/status/2108976262698115550"
+        },
+        {
+          "tag": "pulse",
+          "ref": "ProductHunt：DevTerminal 把运行按钮做进项目感知终端",
+          "url": "https://www.producthunt.com/products/devterminal"
+        },
+        {
+          "tag": "pulse",
+          "ref": "ProductHunt：Farol 用于发现哪个编码代理需要人类介入",
+          "url": "https://www.producthunt.com/products/farol-3"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-11-4",
+      "title": "代码正在变成表达",
+      "angle": "从创作媒介切入：AI 时代的内容生产不是图文视频三选一，而是代码直接生成可交互、可复用的作品。",
+      "opening": "Zara Zhang 说，代码不再只是工程工具，而是新的创作媒介。今天的趋势数据正好补了一脚：hyperframes 周增 4081 星，HuggingFace 视频和多模态模型也在热榜上，创作工作流开始从“写提示词”转向“写可运行系统”。",
+      "story_hook": {
+        "challenge": "内容创作者想要表达，但传统工具把表达锁在固定格式里。",
+        "twist": "下一代创作工具可能不是剪辑软件，而是能把 HTML、数据和 Agent 编排成视频的代码工作流。"
+      },
+      "takeaway": "面向创作者的 AI 产品应提供可编辑、可复用、可版本化的生成流程，而不只是一次性输出图片或视频。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Zara Zhang 关于代码成为新创作媒介的推文",
+          "url": "https://x.com/zarazhangrui/status/2109087739287384387"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub Trending：heygen-com/hyperframes 周增 4081 星",
+          "url": "https://github.com/heygen-com/hyperframes"
+        },
+        {
+          "tag": "pulse",
+          "ref": "HuggingFace 热榜：Lightricks/LTX-2.5 视频生成模型",
+          "url": "https://huggingface.co/Lightricks/LTX-2.5"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-11-5",
+      "title": "最热 AI 题材不是 AI",
+      "angle": "从 AnyPS5 的异常增长切入：开发者真正兴奋的是自动化处理高门槛复杂系统，而不是抽象 Agent 概念。",
+      "opening": "今天 GitHub 最强信号不是新模型，而是 AnyPS5：周增 21365 星，搜索增长 1181.8%。这件事对 AI builder 很刺耳：用户不缺会聊天的 Agent，缺的是能啃逆向、移植、测试、调试这种硬任务的自动化系统。",
+      "story_hook": {
+        "challenge": "AI 圈在讲通用智能，开发者注意力却投向了主机逆向和系统移植。",
+        "twist": "越不像 AI 热词的硬问题，越可能是 AI 产品证明价值的好入口。"
+      },
+      "takeaway": "选 AI 产品楔子时，优先找高专业门槛、高失败成本、结果可验证的任务，而不是泛用助理场景。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Aaron Levie 关于 Agent 集群会在企业场景并行拆解复杂目标的推文",
+          "url": "https://x.com/levie/status/2109079686286565378"
+        },
+        {
+          "tag": "builders",
+          "ref": "Garry Tan 关于 GBrain 需要先定义 retrieval、latency 和单位算力成本 eval 的推文",
+          "url": "https://x.com/garrytan/status/2108954738540863498"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub Trending：boykopovar/AnyPS5 周增 21365 星",
+          "url": "https://github.com/boykopovar/AnyPS5"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Google Trends：anyps5 搜索 +1181.8%",
+          "url": "https://trends.google.com/trends/explore?q=anyps5&date=now+7-d"
+        }
+      ]
+    }
+  ],
+  "notes": "今日主线是 Agent 从概念热词退到基础设施：安全治理、队列调度、技能记忆、复杂系统自动化都比“又一个聊天入口”更值得写。",
+  "generated_at": "2026-10-11T09:18:56+00:00",
+  "model": "gpt-5.5"
+}
