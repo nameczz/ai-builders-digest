@@ -1,0 +1,148 @@
+{
+  "date": "2026-10-12",
+  "items": [
+    {
+      "id": "2026-10-12-1",
+      "title": "最贵的 Agent 还没人会用",
+      "angle": "从 Karpathy 和 Aaron Levie 的共同判断切入：公众还把 AI 当搜索框，少数人已经在用 agent 压缩数月项目。",
+      "opening": "同一天，Karpathy 说大多数人还没真正见过 LLM 的能力，Aaron Levie 说多数人还只是把 AI 当下一代搜索框。最有意思的不是 AI 能力差距，而是使用方式的代差：一边在问问题，一边已经在调度算力。",
+      "story_hook": {
+        "challenge": "AI 的能力没有平均扩散，而是被少数懂工作流的人先吃掉。",
+        "twist": "真正的机会不在更聪明的聊天框，而在企业垂直工作流、合规、数据和 agent swarm 的重做。"
+      },
+      "takeaway": "开发者和 PM 应该把 AI 产品从“单次问答”改写成“可并行执行的任务系统”，优先找有重复流程、权限边界和审计需求的场景。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Andrej Karpathy 关于 LLM 能力认知漏斗的推文",
+          "url": "https://x.com/karpathy/status/2109361546505966046"
+        },
+        {
+          "tag": "builders",
+          "ref": "Aaron Levie 关于 agent swarm 和垂直 AI 应用层机会的推文",
+          "url": "https://x.com/levie/status/2109467575025578330"
+        },
+        {
+          "tag": "pulse",
+          "ref": "openrig 周增 2028 stars，主打多 agent 团队与共享上下文",
+          "url": "https://github.com/mvschwarz/openrig"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-12-2",
+      "title": "500K 上下文不是福利",
+      "angle": "把 GPT-6.1 Sol 的 500K 默认上下文和 claude-mem 的增长放在一起看：上下文正在从模型参数变成产品入口。",
+      "opening": "500K 上下文听起来像一次免费加量，但它真正改变的是工作方式。以前你要压缩、摘要、丢细节；现在产品会鼓励你把整个项目塞进去，让模型长期住在你的工作台里。",
+      "story_hook": {
+        "challenge": "长上下文越便宜，用户越不想再手动整理项目记忆。",
+        "twist": "真正受益的可能不是模型厂商，而是能管理、审计、迁移上下文的工具。"
+      },
+      "takeaway": "做 agent 工具时，不要只接入更长上下文；要提供项目记忆、版本回滚、团队共享和跨工具迁移能力。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Thibault Sottiaux 关于 GPT-6.1 Sol 默认上下文从 272k 提升到 500k 的推文",
+          "url": "https://x.com/thsottiaux/status/2109430343346581527"
+        },
+        {
+          "tag": "builders",
+          "ref": "Thibault Sottiaux 关于订阅用户不再收取长上下文费用的推文",
+          "url": "https://x.com/thsottiaux/status/2109430894604026039"
+        },
+        {
+          "tag": "pulse",
+          "ref": "claude-mem 周增 3803 stars，解决跨会话持久上下文",
+          "url": "https://github.com/thedotmack/claude-mem"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-12-3",
+      "title": "别把确定性代码交给 LLM",
+      "angle": "从 Garry Tan 的提醒切入，解释为什么今天增长最快的工具反而是移植、测试、CAD 这类确定性执行层。",
+      "opening": "Garry Tan 的建议很反 AI 狂热：能用确定性代码替代 LLM 调用，就别犹豫。巧的是，今天 GitHub 增长最猛的不是聊天机器人，而是 AnyPS5、E2E 测试和 text-to-CAD 这种硬执行工具。",
+      "story_hook": {
+        "challenge": "大家嘴上在谈智能，开发者收藏的却是更稳定、更可验证的工具。",
+        "twist": "AI 产品的竞争力可能不是“更像人”，而是把不该随机的部分重新变确定。"
+      },
+      "takeaway": "构建 AI 应用时，把 LLM 放在模糊判断和生成层，把规则、校验、格式转换、测试执行留给确定性代码。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Garry Tan 关于用确定性代码替代 LLM 调用的推文",
+          "url": "https://x.com/garrytan/status/2109410082769482174"
+        },
+        {
+          "tag": "pulse",
+          "ref": "AnyPS5 周增 25151 stars，做 PS5 可执行文件自动移植",
+          "url": "https://github.com/boykopovar/AnyPS5"
+        },
+        {
+          "tag": "pulse",
+          "ref": "tester-army/e2e 周增 6440 stars，切入 Web 与移动端 E2E 测试",
+          "url": "https://github.com/tester-army/e2e"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-12-4",
+      "title": "Agent 上线前先交证据",
+      "angle": "从 Peter Yang 对人工 review 和 evidence-driven testing 的判断切入，讲 agent 产品的信任门槛正在从 demo 转向证据链。",
+      "opening": "Peter Yang 说得很直接：AI agent 还没到能放心托付给真实用户的程度，人工 review 仍是最后防线。这句话刺中了所有 agent 产品的软肋：不是不能做事，而是做完之后没人敢信。",
+      "story_hook": {
+        "challenge": "agent 越能自动执行，开发者越需要知道它到底改了什么、为什么改、结果是否变好。",
+        "twist": "下一代 agent 工具的卖点可能不是更自主，而是更会自证。"
+      },
+      "takeaway": "给 agent 产品补齐 before/after、可复现测试、日志回放、差异解释和人工确认入口，比继续堆自动化能力更紧急。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Peter Yang 关于 evidence-driven testing、before/after 和人工 review 的推文",
+          "url": "https://x.com/petergyang/status/2109433961223180517"
+        },
+        {
+          "tag": "pulse",
+          "ref": "tester-army/e2e 周增 6440 stars，开发者对自动化测试需求强烈",
+          "url": "https://github.com/tester-army/e2e"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Dropstone CLI 把自学习 coding agent 放进终端",
+          "url": "https://www.producthunt.com/products/dropstone-cli"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-12-5",
+      "title": "AI 热词降温，老问题起飞",
+      "angle": "把 ai agent 搜索下滑和 AnyPS5 爆发放在一起看：市场不是不要 AI，而是开始奖励具体问题。",
+      "opening": "今天最反直觉的信号是：ai agent 这个词在降温，AnyPS5 却同时冲上 GitHub 和 Google Trends。开发者不是疲惫于自动化，而是疲惫于抽象叙事。",
+      "story_hook": {
+        "challenge": "通用 AI 叙事越来越难传播，具体工程痛点却能继续爆发。",
+        "twist": "越不像 AI 新闻的项目，反而越能说明 AI 产品该往哪里收缩。"
+      },
+      "takeaway": "创业者写产品定位时，少用“AI agent 平台”，多写用户正在搜索的具体任务：移植、记忆、替代、测试、格式转换。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Matt Turck 关于技术岗位不断换皮、未来会有 agent 管理员和 harness 工程师的推文",
+          "url": "https://x.com/mattturck/status/2109345191010472332"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Google Trends 中 ai agent 下滑 -23.3%",
+          "url": "https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d"
+        },
+        {
+          "tag": "pulse",
+          "ref": "AnyPS5 周增 25151 stars，并带动 anyps5 搜索上升 +478.4%",
+          "url": "https://github.com/boykopovar/AnyPS5"
+        }
+      ]
+    }
+  ],
+  "notes": "今日主线适合写 agent 工程化和产品化，不适合追新模型。最强编辑判断是：泛 AI 叙事降温，具体执行层、上下文管理和可验证工作流正在接走注意力。",
+  "generated_at": "2026-10-12T09:24:11+00:00",
+  "model": "gpt-5.5"
+}
