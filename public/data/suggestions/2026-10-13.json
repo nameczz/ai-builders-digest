@@ -1,0 +1,153 @@
+{
+  "date": "2026-10-13",
+  "items": [
+    {
+      "id": "2026-10-13-1",
+      "title": "Agent 降温，脏活爆了",
+      "angle": "从 Garry Tan 的“维修工”判断切入：AI 叙事退潮后，真正涨的是能修真实烂摊子的工具。",
+      "opening": "今天最反直觉的信号是：搜索里的“ai agent”在降温，但 GitHub 上处理二进制、CAD、测试和上下文的项目在暴涨。用户不是不想要 AI 了，而是不想再听“智能体平台”这种空话。",
+      "story_hook": {
+        "challenge": "AI 圈还在讲 agent 概念，但开发者投票给的是逆向工程、端到端测试、CAD 这类又脏又硬的工作流。",
+        "twist": "真正的机会可能不是造一个更聪明的助手，而是做一个愿意接手烂摊子的“维修工”。"
+      },
+      "takeaway": "写产品和选题时，把“agent”换成具体动词：修测试、读二进制、建 CAD、清上下文，可信度会立刻上升。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Garry Tan：我们需要的不是更多造概念的人，而是能把烂摊子修好的维修工",
+          "url": "https://x.com/garrytan/status/2109852144350470293"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Google Trends：ai agent 下滑 -16.3%",
+          "url": "https://trends.google.com/trends/explore?q=ai+agent&date=now+7-d"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub weekly：morluto/rea 一周新增 130471 星",
+          "url": "https://github.com/morluto/rea"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-13-2",
+      "title": "CLI 越智能越该变小",
+      "angle": "用 Guillermo Rauch 对重型 coding CLI 的吐槽，对照 Cursor 替代品搜索上升，看开发者为什么重新追求低摩擦工具。",
+      "opening": "编码 CLI 正在变成一个小型操作系统：守护进程、多层 TUI、客户端-服务器架构，一个都不少。但今天的搜索信号恰好相反：大家在找 cursor alternative 和 open source alternative。",
+      "story_hook": {
+        "challenge": "厂商想把 CLI 做成入口和平台，开发者却越来越在意启动速度、可替代性和本地控制权。",
+        "twist": "越是 AI 原生的开发工具，越可能要回到 Unix-like 的克制设计。"
+      },
+      "takeaway": "评估 AI coding 工具时，不只看模型能力，还要看它是否足够轻、可替换、模型无关、上下文可迁移。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Guillermo Rauch：CLI 应该 6MB、毫秒启动、模型无关，内置 MCP、Skills、Subagents 和 ACP",
+          "url": "https://x.com/rauchg/status/2109734766107099312"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Google Trends：cursor alternative 上升 +39.7%",
+          "url": "https://trends.google.com/trends/explore?q=cursor+alternative&date=now+7-d"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub：cursor/plugins 一周新增 1144 星",
+          "url": "https://github.com/cursor/plugins"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-13-3",
+      "title": "视频模型还没到交付时刻",
+      "angle": "从 Muse Wonder 的 API 缺口和粗糙实测切入，讨论 AI 视频为什么还停在“能生成”到“能交付”的中间地带。",
+      "opening": "Meta 的 Muse Wonder 已经能通过 Vercel AI Gateway 调用，但 Dan Shipper 的实测却很尴尬：视频粗糙，旁白还有固定口音。更奇怪的是，Standard 有 API，Full 反而暂时没有。",
+      "story_hook": {
+        "challenge": "大模型厂商在推视频生成能力，开发者却需要稳定 API、可控输出和可嵌入工作流。",
+        "twist": "视频生成的瓶颈不一定是画质，而是能不能被产品可靠调用和交付。"
+      },
+      "takeaway": "做 AI 视频产品时，先验证 API、批处理、旁白控制、重试和后期管线，再谈模型效果惊艳不惊艳。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Dan Shipper：Muse Wonder Standard 有 API，Wonder Full 暂无 API",
+          "url": "https://x.com/danshipper/status/2109800647575146906"
+        },
+        {
+          "tag": "builders",
+          "ref": "Guillermo Rauch：Meta Muse Wonder 1.0 已接入 Vercel AI Gateway",
+          "url": "https://x.com/rauchg/status/2109719267344261375"
+        },
+        {
+          "tag": "pulse",
+          "ref": "HuggingFace：Lightricks/LTX-2.5 trending score 430、下载 1719766",
+          "url": "https://huggingface.co/Lightricks/LTX-2.5"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-13-4",
+      "title": "CAD 是 Agent 的考场",
+      "angle": "把 Aaron Levie 的“AI 自己选择 harness”放进 CAD 热度里看：专业软件可能是 agent 最好的验收场。",
+      "opening": "聊天里的 agent 很难判断好坏，CAD 不一样：尺寸对不对、约束对不对、文件能不能继续编辑，结果很难糊弄。今天 SolidCraft 和 text-to-cad 同时冒头，说明 agent 正在进入更硬的生产软件。",
+      "story_hook": {
+        "challenge": "通用 agent 缺少可靠验收标准，专业工作流又复杂到普通 prompt wrapper 很难吃下。",
+        "twist": "CAD 这种看似小众的领域，反而可能最先证明 agent 的真实价值。"
+      },
+      "takeaway": "如果要做垂直 agent，优先找有结构化对象、明确约束和可验收产物的领域，而不是开放式聊天场景。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Aaron Levie：AI 终局可能是看见任务后自己决定该用什么 harness",
+          "url": "https://x.com/levie/status/2109788979952558255"
+        },
+        {
+          "tag": "pulse",
+          "ref": "HN：SolidCraft，Rust 开源参数化 CAD，带 MCP 支持",
+          "url": "https://github.com/bherbruck/solidcraft"
+        },
+        {
+          "tag": "pulse",
+          "ref": "GitHub：earthtojake/text-to-cad 一周新增 2441 星",
+          "url": "https://github.com/earthtojake/text-to-cad"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-13-5",
+      "title": "别卖助手，卖一队员工",
+      "angle": "从 Peter Yang 对 Grok Bot 的判断切入：用户想要的不是聊天串，而是分工明确、能持续跑任务的代理团队。",
+      "opening": "Peter Yang 说 Grok Bot 的关键不是聊天，而是“人格化员工”：客服、视频制作、家庭跑腿、健身监督各管一摊。Product Hunt 今天也在同一个方向上拥挤：CLI Manager、Xiryn、Scape 都在卖 agent 的编排和本地执行。",
+      "story_hook": {
+        "challenge": "大多数 AI 产品还在卖一个万能助手，但真实需求往往是一组稳定角色和清晰任务边界。",
+        "twist": "agent swarm 听起来像科幻，落到产品里可能只是“我雇了几个不会睡觉的工具人”。"
+      },
+      "takeaway": "设计 agent 产品时，用岗位、权限、交付物和复盘机制定义它，而不是用一个聊天框承载所有任务。",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Peter Yang：Grok Bot 的关键是人格化员工，而不是聊天串",
+          "url": "https://x.com/petergyang/status/2109803399332213090"
+        },
+        {
+          "tag": "builders",
+          "ref": "Aaron Levie：Agent swarm 会成为企业工作流核心",
+          "url": "https://x.com/levie/status/2109682812811137061"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt：CLI Manager，让一个 AI agent 打开并驱动其他 CLI agent",
+          "url": "https://www.producthunt.com/products/cli-manager"
+        },
+        {
+          "tag": "pulse",
+          "ref": "Product Hunt：Scape，面向 macOS 的 agent fleets 编排",
+          "url": "https://www.producthunt.com/products/scape-3"
+        }
+      ]
+    }
+  ],
+  "notes": "今日适合主打“agent 从概念转向可验证工作流”。builders 侧有足够观点素材，但独立开发者个人营收案例偏少，不建议硬写 MRR 或定价故事。",
+  "generated_at": "2026-10-13T09:25:09+00:00",
+  "model": "gpt-5.5"
+}
