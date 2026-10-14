@@ -1,0 +1,236 @@
+{
+  "date": "2026-10-14",
+  "top3": [],
+  "intro": "（无 LLM 编辑模式：以下为原始数据归档，建议安装 codex CLI 重新生成。）",
+  "sections": [
+    {
+      "id": "discovery",
+      "title": "发现机会",
+      "blocks": [
+        {
+          "id": "indie-products",
+          "heading": "今天有哪些独立开发者的新产品？",
+          "summary_md": "（自动归档模式）今日 Show HN 与 Product Hunt 上线的独立开发者产品列表。",
+          "items": [
+            {
+              "title": "Show HN: I built a tool to track what AI leaders say and how their views change",
+              "url": "https://blumify.io/people",
+              "source": "HN",
+              "score": 96
+            },
+            {
+              "title": "Dashrendr",
+              "url": "https://www.producthunt.com/products/dashrendr",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Table Canon",
+              "url": "https://www.producthunt.com/products/table-canon-ttrpg-campaign-memory",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Payload Peek",
+              "url": "https://www.producthunt.com/products/payload-peek",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Winq",
+              "url": "https://www.producthunt.com/products/winq",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Microsoft Maia 300",
+              "url": "https://www.producthunt.com/products/microsoft-maia-300",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "SlashDocs by Razorpay",
+              "url": "https://www.producthunt.com/products/razorpay",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Orbora",
+              "url": "https://www.producthunt.com/products/orbora",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Retriever AI",
+              "url": "https://www.producthunt.com/products/rtrvr-ai",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Etchv",
+              "url": "https://www.producthunt.com/products/etchv",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Gemini 4 Argon",
+              "url": "https://www.producthunt.com/products/gemini-4-argon-2",
+              "source": "ProductHunt"
+            }
+          ],
+          "takeaway": ""
+        },
+        {
+          "id": "github-traction",
+          "heading": "GitHub 上哪些高增长开源项目还没有商业化？",
+          "summary_md": "（自动归档模式）本周 GitHub Trending 高速增长的仓库。",
+          "items": [
+            {
+              "title": "boykopovar/AnyPS5",
+              "url": "https://github.com/boykopovar/AnyPS5",
+              "source": "GitHub",
+              "score": 28663
+            },
+            {
+              "title": "mattpocock/skills",
+              "url": "https://github.com/mattpocock/skills",
+              "source": "GitHub",
+              "score": 11955
+            },
+            {
+              "title": "tester-army/e2e",
+              "url": "https://github.com/tester-army/e2e",
+              "source": "GitHub",
+              "score": 4426
+            },
+            {
+              "title": "EpicGames/raddebugger",
+              "url": "https://github.com/EpicGames/raddebugger",
+              "source": "GitHub",
+              "score": 857
+            },
+            {
+              "title": "heygen-com/hyperframes",
+              "url": "https://github.com/heygen-com/hyperframes",
+              "source": "GitHub",
+              "score": 4732
+            },
+            {
+              "title": "thedotmack/claude-mem",
+              "url": "https://github.com/thedotmack/claude-mem",
+              "source": "GitHub",
+              "score": 3587
+            },
+            {
+              "title": "cursor/plugins",
+              "url": "https://github.com/cursor/plugins",
+              "source": "GitHub",
+              "score": 1141
+            },
+            {
+              "title": "earthtojake/text-to-cad",
+              "url": "https://github.com/earthtojake/text-to-cad",
+              "source": "GitHub",
+              "score": 2173
+            },
+            {
+              "title": "flutter/flutter",
+              "url": "https://github.com/flutter/flutter",
+              "source": "GitHub",
+              "score": 967
+            },
+            {
+              "title": "cathrynlavery/diagram-design",
+              "url": "https://github.com/cathrynlavery/diagram-design",
+              "source": "GitHub",
+              "score": 9867
+            }
+          ],
+          "takeaway": ""
+        }
+      ]
+    },
+    {
+      "id": "tech-stack",
+      "title": "技术选型",
+      "blocks": [
+        {
+          "id": "hf-models",
+          "heading": "HuggingFace 上最热的模型能做什么消费级产品？",
+          "summary_md": "（自动归档模式）HuggingFace trending 模型列表。",
+          "items": [
+            {
+              "title": "google/embeddinggemma-2",
+              "url": "https://huggingface.co/google/embeddinggemma-2",
+              "source": "HuggingFace",
+              "score": 1288
+            },
+            {
+              "title": "jialinyyzz/humanizer",
+              "url": "https://huggingface.co/jialinyyzz/humanizer",
+              "source": "HuggingFace",
+              "score": 1068
+            },
+            {
+              "title": "Qwen/Qwen-Image-2.1-Turbo",
+              "url": "https://huggingface.co/Qwen/Qwen-Image-2.1-Turbo",
+              "source": "HuggingFace",
+              "score": 687
+            },
+            {
+              "title": "abenzerps/Qwen-Image-2.1-Uncensored-Quantized",
+              "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-Quantized",
+              "source": "HuggingFace",
+              "score": 537
+            },
+            {
+              "title": "openbmb/MiniCPM-V-4.7-35B-A3B",
+              "url": "https://huggingface.co/openbmb/MiniCPM-V-4.7-35B-A3B",
+              "source": "HuggingFace",
+              "score": 458
+            },
+            {
+              "title": "autotrust/JEV-35B",
+              "url": "https://huggingface.co/autotrust/JEV-35B",
+              "source": "HuggingFace",
+              "score": 436
+            },
+            {
+              "title": "ConwayResearch/Underdog-Saluki-27B-1.0",
+              "url": "https://huggingface.co/ConwayResearch/Underdog-Saluki-27B-1.0",
+              "source": "HuggingFace",
+              "score": 424
+            },
+            {
+              "title": "Lightricks/LTX-2.5",
+              "url": "https://huggingface.co/Lightricks/LTX-2.5",
+              "source": "HuggingFace",
+              "score": 423
+            },
+            {
+              "title": "AtomicChat/Qwen-Image-2.1-Turbo-Uncensored-GGUF",
+              "url": "https://huggingface.co/AtomicChat/Qwen-Image-2.1-Turbo-Uncensored-GGUF",
+              "source": "HuggingFace",
+              "score": 375
+            },
+            {
+              "title": "LiquidAI/d1-3B",
+              "url": "https://huggingface.co/LiquidAI/d1-3B",
+              "source": "HuggingFace",
+              "score": 374
+            }
+          ],
+          "takeaway": ""
+        }
+      ]
+    },
+    {
+      "id": "competition",
+      "title": "竞争情报",
+      "blocks": []
+    },
+    {
+      "id": "trends",
+      "title": "趋势判断",
+      "blocks": []
+    },
+    {
+      "id": "actions",
+      "title": "行动触发",
+      "blocks": []
+    }
+  ],
+  "generated_at": "2026-10-14T09:13:54+00:00",
+  "reddit_highlights": []
+}
