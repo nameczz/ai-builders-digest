@@ -1,0 +1,236 @@
+{
+  "date": "2026-10-17",
+  "top3": [],
+  "intro": "（无 LLM 编辑模式：以下为原始数据归档，建议安装 codex CLI 重新生成。）",
+  "sections": [
+    {
+      "id": "discovery",
+      "title": "发现机会",
+      "blocks": [
+        {
+          "id": "indie-products",
+          "heading": "今天有哪些独立开发者的新产品？",
+          "summary_md": "（自动归档模式）今日 Show HN 与 Product Hunt 上线的独立开发者产品列表。",
+          "items": [
+            {
+              "title": "Show HN: Llmspeed – feel how fast a local LLM runs before you buy the hardware",
+              "url": "https://llmspeed.dev/",
+              "source": "HN",
+              "score": 62
+            },
+            {
+              "title": "Caldera",
+              "url": "https://www.producthunt.com/products/caldera",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "NitroStack",
+              "url": "https://www.producthunt.com/products/nitrostack",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Emochi",
+              "url": "https://www.producthunt.com/products/emochi-2",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Earnote",
+              "url": "https://www.producthunt.com/products/earnote",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Unfenced",
+              "url": "https://www.producthunt.com/products/unfenced",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Ultracite v8",
+              "url": "https://www.producthunt.com/products/ultracite",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Train with Pasta",
+              "url": "https://www.producthunt.com/products/train-with-pasta",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Korinotch",
+              "url": "https://www.producthunt.com/products/korinotch",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Notion: Context for your agents",
+              "url": "https://www.producthunt.com/products/notion",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Craft Agents",
+              "url": "https://www.producthunt.com/products/craft-agents",
+              "source": "ProductHunt"
+            }
+          ],
+          "takeaway": ""
+        },
+        {
+          "id": "github-traction",
+          "heading": "GitHub 上哪些高增长开源项目还没有商业化？",
+          "summary_md": "（自动归档模式）本周 GitHub Trending 高速增长的仓库。",
+          "items": [
+            {
+              "title": "morluto/rea",
+              "url": "https://github.com/morluto/rea",
+              "source": "GitHub",
+              "score": 248962
+            },
+            {
+              "title": "storytold/artcraft",
+              "url": "https://github.com/storytold/artcraft",
+              "source": "GitHub",
+              "score": 20267
+            },
+            {
+              "title": "boykopovar/AnyPS5",
+              "url": "https://github.com/boykopovar/AnyPS5",
+              "source": "GitHub",
+              "score": 20518
+            },
+            {
+              "title": "cathrynlavery/diagram-design",
+              "url": "https://github.com/cathrynlavery/diagram-design",
+              "source": "GitHub",
+              "score": 9024
+            },
+            {
+              "title": "heygen-com/hyperframes",
+              "url": "https://github.com/heygen-com/hyperframes",
+              "source": "GitHub",
+              "score": 5601
+            },
+            {
+              "title": "mattpocock/skills",
+              "url": "https://github.com/mattpocock/skills",
+              "source": "GitHub",
+              "score": 11937
+            },
+            {
+              "title": "NationalSecurityAgency/ghidra",
+              "url": "https://github.com/NationalSecurityAgency/ghidra",
+              "source": "GitHub",
+              "score": 7510
+            },
+            {
+              "title": "mksglu/context-mode",
+              "url": "https://github.com/mksglu/context-mode",
+              "source": "GitHub",
+              "score": 4207
+            },
+            {
+              "title": "ranxianglei/billion-context",
+              "url": "https://github.com/ranxianglei/billion-context",
+              "source": "GitHub",
+              "score": 779
+            },
+            {
+              "title": "anthropics/claude-plugins-official",
+              "url": "https://github.com/anthropics/claude-plugins-official",
+              "source": "GitHub",
+              "score": 2328
+            }
+          ],
+          "takeaway": ""
+        }
+      ]
+    },
+    {
+      "id": "tech-stack",
+      "title": "技术选型",
+      "blocks": [
+        {
+          "id": "hf-models",
+          "heading": "HuggingFace 上最热的模型能做什么消费级产品？",
+          "summary_md": "（自动归档模式）HuggingFace trending 模型列表。",
+          "items": [
+            {
+              "title": "google/embeddinggemma-2",
+              "url": "https://huggingface.co/google/embeddinggemma-2",
+              "source": "HuggingFace",
+              "score": 921
+            },
+            {
+              "title": "jialinyyzz/humanizer",
+              "url": "https://huggingface.co/jialinyyzz/humanizer",
+              "source": "HuggingFace",
+              "score": 819
+            },
+            {
+              "title": "openbmb/MiniCPM-V-4.7-35B-A3B",
+              "url": "https://huggingface.co/openbmb/MiniCPM-V-4.7-35B-A3B",
+              "source": "HuggingFace",
+              "score": 697
+            },
+            {
+              "title": "fishaudio/drama-3",
+              "url": "https://huggingface.co/fishaudio/drama-3",
+              "source": "HuggingFace",
+              "score": 552
+            },
+            {
+              "title": "Lightricks/LTX-2.5",
+              "url": "https://huggingface.co/Lightricks/LTX-2.5",
+              "source": "HuggingFace",
+              "score": 453
+            },
+            {
+              "title": "black-forest-labs/flux-3-image-klein-comfy",
+              "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy",
+              "source": "HuggingFace",
+              "score": 447
+            },
+            {
+              "title": "abenzerps/Qwen-Image-2.1-Uncensored-Quantized",
+              "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-Quantized",
+              "source": "HuggingFace",
+              "score": 446
+            },
+            {
+              "title": "Qwen/Qwen-Image-2.1-Turbo",
+              "url": "https://huggingface.co/Qwen/Qwen-Image-2.1-Turbo",
+              "source": "HuggingFace",
+              "score": 444
+            },
+            {
+              "title": "meta-models/Muse-Spark-Open-816B-A42B",
+              "url": "https://huggingface.co/meta-models/Muse-Spark-Open-816B-A42B",
+              "source": "HuggingFace",
+              "score": 437
+            },
+            {
+              "title": "LiquidAI/LFM2.5-24B-A2B",
+              "url": "https://huggingface.co/LiquidAI/LFM2.5-24B-A2B",
+              "source": "HuggingFace",
+              "score": 427
+            }
+          ],
+          "takeaway": ""
+        }
+      ]
+    },
+    {
+      "id": "competition",
+      "title": "竞争情报",
+      "blocks": []
+    },
+    {
+      "id": "trends",
+      "title": "趋势判断",
+      "blocks": []
+    },
+    {
+      "id": "actions",
+      "title": "行动触发",
+      "blocks": []
+    }
+  ],
+  "generated_at": "2026-10-17T09:14:13+00:00",
+  "reddit_highlights": []
+}
