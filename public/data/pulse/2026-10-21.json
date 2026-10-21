@@ -1,0 +1,230 @@
+{
+  "date": "2026-10-21",
+  "top3": [],
+  "intro": "（无 LLM 编辑模式：以下为原始数据归档，建议安装 codex CLI 重新生成。）",
+  "sections": [
+    {
+      "id": "discovery",
+      "title": "发现机会",
+      "blocks": [
+        {
+          "id": "indie-products",
+          "heading": "今天有哪些独立开发者的新产品？",
+          "summary_md": "（自动归档模式）今日 Show HN 与 Product Hunt 上线的独立开发者产品列表。",
+          "items": [
+            {
+              "title": "LearnExcel",
+              "url": "https://www.producthunt.com/products/learnexcel",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "UseIt Studio",
+              "url": "https://www.producthunt.com/products/useit-studio-from-idea-to-delivery",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "AskDoozy",
+              "url": "https://www.producthunt.com/products/askdoozy",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "BAND for Developers",
+              "url": "https://www.producthunt.com/products/band",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Lea by LeanAIOS",
+              "url": "https://www.producthunt.com/products/lea-by-leanaios",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Triage by Chodeberg",
+              "url": "https://www.producthunt.com/products/triage-by-chodeberg",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "NativeShip",
+              "url": "https://www.producthunt.com/products/nativeship",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "hibi",
+              "url": "https://www.producthunt.com/products/hibi",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Notion Auto",
+              "url": "https://www.producthunt.com/products/notion-99",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Hotly",
+              "url": "https://www.producthunt.com/products/hotly",
+              "source": "ProductHunt"
+            }
+          ],
+          "takeaway": ""
+        },
+        {
+          "id": "github-traction",
+          "heading": "GitHub 上哪些高增长开源项目还没有商业化？",
+          "summary_md": "（自动归档模式）本周 GitHub Trending 高速增长的仓库。",
+          "items": [
+            {
+              "title": "morluto/rea",
+              "url": "https://github.com/morluto/rea",
+              "source": "GitHub",
+              "score": 157631
+            },
+            {
+              "title": "MadsLorentzen/ai-job-search",
+              "url": "https://github.com/MadsLorentzen/ai-job-search",
+              "source": "GitHub",
+              "score": 12848
+            },
+            {
+              "title": "anthropics/claude-plugins-official",
+              "url": "https://github.com/anthropics/claude-plugins-official",
+              "source": "GitHub",
+              "score": 5650
+            },
+            {
+              "title": "mksglu/context-mode",
+              "url": "https://github.com/mksglu/context-mode",
+              "source": "GitHub",
+              "score": 3556
+            },
+            {
+              "title": "NationalSecurityAgency/ghidra",
+              "url": "https://github.com/NationalSecurityAgency/ghidra",
+              "source": "GitHub",
+              "score": 6184
+            },
+            {
+              "title": "K-Dense-AI/scientific-agent-skills",
+              "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+              "source": "GitHub",
+              "score": 4549
+            },
+            {
+              "title": "heygen-com/hyperframes",
+              "url": "https://github.com/heygen-com/hyperframes",
+              "source": "GitHub",
+              "score": 5994
+            },
+            {
+              "title": "debpalash/VoiceStudio",
+              "url": "https://github.com/debpalash/VoiceStudio",
+              "source": "GitHub",
+              "score": 17057
+            },
+            {
+              "title": "ruvnet/ruflo",
+              "url": "https://github.com/ruvnet/ruflo",
+              "source": "GitHub",
+              "score": 3143
+            },
+            {
+              "title": "android/skills",
+              "url": "https://github.com/android/skills",
+              "source": "GitHub",
+              "score": 1255
+            }
+          ],
+          "takeaway": ""
+        }
+      ]
+    },
+    {
+      "id": "tech-stack",
+      "title": "技术选型",
+      "blocks": [
+        {
+          "id": "hf-models",
+          "heading": "HuggingFace 上最热的模型能做什么消费级产品？",
+          "summary_md": "（自动归档模式）HuggingFace trending 模型列表。",
+          "items": [
+            {
+              "title": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+              "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+              "source": "HuggingFace",
+              "score": 1828
+            },
+            {
+              "title": "black-forest-labs/flux-3-image-klein-comfy",
+              "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy",
+              "source": "HuggingFace",
+              "score": 844
+            },
+            {
+              "title": "fishaudio/drama-3",
+              "url": "https://huggingface.co/fishaudio/drama-3",
+              "source": "HuggingFace",
+              "score": 630
+            },
+            {
+              "title": "meta-models/Muse-Spark-Open-816B-A42B",
+              "url": "https://huggingface.co/meta-models/Muse-Spark-Open-816B-A42B",
+              "source": "HuggingFace",
+              "score": 557
+            },
+            {
+              "title": "black-forest-labs/flux-3-image-klein",
+              "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein",
+              "source": "HuggingFace",
+              "score": 512
+            },
+            {
+              "title": "google/embeddinggemma-2",
+              "url": "https://huggingface.co/google/embeddinggemma-2",
+              "source": "HuggingFace",
+              "score": 487
+            },
+            {
+              "title": "OpenMOSS-Team/MOSS-Image-SFT",
+              "url": "https://huggingface.co/OpenMOSS-Team/MOSS-Image-SFT",
+              "source": "HuggingFace",
+              "score": 474
+            },
+            {
+              "title": "Lightricks/LTX-2.5",
+              "url": "https://huggingface.co/Lightricks/LTX-2.5",
+              "source": "HuggingFace",
+              "score": 435
+            },
+            {
+              "title": "jialinyyzz/humanizer",
+              "url": "https://huggingface.co/jialinyyzz/humanizer",
+              "source": "HuggingFace",
+              "score": 420
+            },
+            {
+              "title": "OpenMOSS-Team/MOSS-Image-Base",
+              "url": "https://huggingface.co/OpenMOSS-Team/MOSS-Image-Base",
+              "source": "HuggingFace",
+              "score": 419
+            }
+          ],
+          "takeaway": ""
+        }
+      ]
+    },
+    {
+      "id": "competition",
+      "title": "竞争情报",
+      "blocks": []
+    },
+    {
+      "id": "trends",
+      "title": "趋势判断",
+      "blocks": []
+    },
+    {
+      "id": "actions",
+      "title": "行动触发",
+      "blocks": []
+    }
+  ],
+  "generated_at": "2026-10-21T09:13:43+00:00",
+  "reddit_highlights": []
+}
