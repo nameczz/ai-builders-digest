@@ -1,0 +1,62 @@
+{
+  "date": "2026-10-23",
+  "items": [
+    {
+      "id": "2026-10-23-1",
+      "title": "This has always been the case ",
+      "angle": "（自动归档模式：未生成）",
+      "opening": "This has always been the case for designers and developers, but now it's extending to everybody else",
+      "story_hook": {
+        "challenge": "",
+        "twist": ""
+      },
+      "takeaway": "",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Zara Zhang",
+          "url": "https://x.com/zarazhangrui/status/2113510486834921598"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-23-2",
+      "title": "extremely impt for pipelining.",
+      "angle": "（自动归档模式：未生成）",
+      "opening": "extremely impt for pipelining... estimating ETA for its own pipeline fixes while running the pipeline still https://t.co/EGepLMXguH",
+      "story_hook": {
+        "challenge": "",
+        "twist": ""
+      },
+      "takeaway": "",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Swyx",
+          "url": "https://x.com/swyx/status/2113509413537693703"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-23-3",
+      "title": "Any form of security through o",
+      "angle": "（自动归档模式：未生成）",
+      "opening": "Any form of security through obscurity is fully over. This barely worked as a method with humans, but just simply is over in a world of autonomous systems that will look through every crevice and try ",
+      "story_hook": {
+        "challenge": "",
+        "twist": ""
+      },
+      "takeaway": "",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Aaron Levie",
+          "url": "https://x.com/levie/status/2113499900399034689"
+        }
+      ]
+    }
+  ],
+  "notes": "fallback mode: codex CLI not available",
+  "generated_at": "2026-10-23T09:13:18+00:00",
+  "model": "gpt-5.5"
+}
