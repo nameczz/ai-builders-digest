@@ -1,0 +1,62 @@
+{
+  "date": "2026-10-27",
+  "items": [
+    {
+      "id": "2026-10-27-1",
+      "title": "Maybe I should just change my ",
+      "angle": "（自动归档模式：未生成）",
+      "opening": "Maybe I should just change my job.. https://t.co/kHDC0z48LF",
+      "story_hook": {
+        "challenge": "",
+        "twist": ""
+      },
+      "takeaway": "",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Nikunj Kothari",
+          "url": "https://x.com/nikunj/status/2114929285890990574"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-27-2",
+      "title": "@bot This is probably not a go",
+      "angle": "（自动归档模式：未生成）",
+      "opening": "@bot This is probably not a good thing overall",
+      "story_hook": {
+        "challenge": "",
+        "twist": ""
+      },
+      "takeaway": "",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Peter Yang",
+          "url": "https://x.com/petergyang/status/2114928082712998087"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-27-3",
+      "title": "In the near future, instead of",
+      "angle": "（自动归档模式：未生成）",
+      "opening": "In the near future, instead of reading or doing anything online, people are just going to tag their agent to do it. \n\n@bot is an early signal of this.",
+      "story_hook": {
+        "challenge": "",
+        "twist": ""
+      },
+      "takeaway": "",
+      "refs": [
+        {
+          "tag": "builders",
+          "ref": "Peter Yang",
+          "url": "https://x.com/petergyang/status/2114927195332460940"
+        }
+      ]
+    }
+  ],
+  "notes": "fallback mode: codex CLI not available",
+  "generated_at": "2026-10-27T09:14:07+00:00",
+  "model": "gpt-5.5"
+}

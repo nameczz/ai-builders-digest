@@ -1,0 +1,230 @@
+{
+  "date": "2026-10-27",
+  "top3": [],
+  "intro": "（无 LLM 编辑模式：以下为原始数据归档，建议安装 codex CLI 重新生成。）",
+  "sections": [
+    {
+      "id": "discovery",
+      "title": "发现机会",
+      "blocks": [
+        {
+          "id": "indie-products",
+          "heading": "今天有哪些独立开发者的新产品？",
+          "summary_md": "（自动归档模式）今日 Show HN 与 Product Hunt 上线的独立开发者产品列表。",
+          "items": [
+            {
+              "title": "Spacesheep",
+              "url": "https://www.producthunt.com/products/spacesheep",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "TheySaid 4.0",
+              "url": "https://www.producthunt.com/products/theysaid",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Notra",
+              "url": "https://www.producthunt.com/products/notra-3",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "fswitcher",
+              "url": "https://www.producthunt.com/products/fswitcher",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "iPad mini 8",
+              "url": "https://www.producthunt.com/products/apple",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "PulseDev",
+              "url": "https://www.producthunt.com/products/pulsedev",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Arcade Controller Pro",
+              "url": "https://www.producthunt.com/products/bluetooth-snes-controller",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Paddock",
+              "url": "https://www.producthunt.com/products/paddock-2",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Coachare",
+              "url": "https://www.producthunt.com/products/coachare",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "OpenRadView",
+              "url": "https://www.producthunt.com/products/openradview",
+              "source": "ProductHunt"
+            }
+          ],
+          "takeaway": ""
+        },
+        {
+          "id": "github-traction",
+          "heading": "GitHub 上哪些高增长开源项目还没有商业化？",
+          "summary_md": "（自动归档模式）本周 GitHub Trending 高速增长的仓库。",
+          "items": [
+            {
+              "title": "cloudflare/security-audit-skill",
+              "url": "https://github.com/cloudflare/security-audit-skill",
+              "source": "GitHub",
+              "score": 16593
+            },
+            {
+              "title": "anthropics/knowledge-work-plugins",
+              "url": "https://github.com/anthropics/knowledge-work-plugins",
+              "source": "GitHub",
+              "score": 2822
+            },
+            {
+              "title": "ruvnet/ruflo",
+              "url": "https://github.com/ruvnet/ruflo",
+              "source": "GitHub",
+              "score": 2683
+            },
+            {
+              "title": "anomalyco/opencode",
+              "url": "https://github.com/anomalyco/opencode",
+              "source": "GitHub",
+              "score": 5070
+            },
+            {
+              "title": "stablyai/orca",
+              "url": "https://github.com/stablyai/orca",
+              "source": "GitHub",
+              "score": 9241
+            },
+            {
+              "title": "Graphify-Labs/graphify",
+              "url": "https://github.com/Graphify-Labs/graphify",
+              "source": "GitHub",
+              "score": 7183
+            },
+            {
+              "title": "android/skills",
+              "url": "https://github.com/android/skills",
+              "source": "GitHub",
+              "score": 823
+            },
+            {
+              "title": "akitaonrails/ai-memory",
+              "url": "https://github.com/akitaonrails/ai-memory",
+              "source": "GitHub",
+              "score": 2838
+            },
+            {
+              "title": "multica-ai/andrej-karpathy-skills",
+              "url": "https://github.com/multica-ai/andrej-karpathy-skills",
+              "source": "GitHub",
+              "score": 3286
+            },
+            {
+              "title": "TauricResearch/TradingAgents",
+              "url": "https://github.com/TauricResearch/TradingAgents",
+              "source": "GitHub",
+              "score": 3437
+            }
+          ],
+          "takeaway": ""
+        }
+      ]
+    },
+    {
+      "id": "tech-stack",
+      "title": "技术选型",
+      "blocks": [
+        {
+          "id": "hf-models",
+          "heading": "HuggingFace 上最热的模型能做什么消费级产品？",
+          "summary_md": "（自动归档模式）HuggingFace trending 模型列表。",
+          "items": [
+            {
+              "title": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+              "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+              "source": "HuggingFace",
+              "score": 1020
+            },
+            {
+              "title": "RecursiveSI/flint",
+              "url": "https://huggingface.co/RecursiveSI/flint",
+              "source": "HuggingFace",
+              "score": 897
+            },
+            {
+              "title": "Nanbeige/Nanbeige4.3-33B",
+              "url": "https://huggingface.co/Nanbeige/Nanbeige4.3-33B",
+              "source": "HuggingFace",
+              "score": 613
+            },
+            {
+              "title": "XHToken/Spark-X2.6-4B",
+              "url": "https://huggingface.co/XHToken/Spark-X2.6-4B",
+              "source": "HuggingFace",
+              "score": 595
+            },
+            {
+              "title": "black-forest-labs/flux-3-image-klein-comfy",
+              "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy",
+              "source": "HuggingFace",
+              "score": 426
+            },
+            {
+              "title": "Lightricks/LTX-2.5",
+              "url": "https://huggingface.co/Lightricks/LTX-2.5",
+              "source": "HuggingFace",
+              "score": 405
+            },
+            {
+              "title": "MiniMaxAI/MiniMax-M3.1-Flash",
+              "url": "https://huggingface.co/MiniMaxAI/MiniMax-M3.1-Flash",
+              "source": "HuggingFace",
+              "score": 376
+            },
+            {
+              "title": "ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
+              "url": "https://huggingface.co/ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
+              "source": "HuggingFace",
+              "score": 341
+            },
+            {
+              "title": "Qwen/Qwen3.8-27B",
+              "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
+              "source": "HuggingFace",
+              "score": 318
+            },
+            {
+              "title": "InternScience/Sage-A1.5",
+              "url": "https://huggingface.co/InternScience/Sage-A1.5",
+              "source": "HuggingFace",
+              "score": 312
+            }
+          ],
+          "takeaway": ""
+        }
+      ]
+    },
+    {
+      "id": "competition",
+      "title": "竞争情报",
+      "blocks": []
+    },
+    {
+      "id": "trends",
+      "title": "趋势判断",
+      "blocks": []
+    },
+    {
+      "id": "actions",
+      "title": "行动触发",
+      "blocks": []
+    }
+  ],
+  "generated_at": "2026-10-27T09:14:07+00:00",
+  "reddit_highlights": []
+}
