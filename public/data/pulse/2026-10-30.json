@@ -1,0 +1,236 @@
+{
+  "date": "2026-10-30",
+  "top3": [],
+  "intro": "（无 LLM 编辑模式：以下为原始数据归档，建议安装 codex CLI 重新生成。）",
+  "sections": [
+    {
+      "id": "discovery",
+      "title": "发现机会",
+      "blocks": [
+        {
+          "id": "indie-products",
+          "heading": "今天有哪些独立开发者的新产品？",
+          "summary_md": "（自动归档模式）今日 Show HN 与 Product Hunt 上线的独立开发者产品列表。",
+          "items": [
+            {
+              "title": "Show HN: Arsaze – Cursor for video editing (Tab-complete and agent edits)",
+              "url": "https://www.arsaze.com",
+              "source": "HN",
+              "score": 50
+            },
+            {
+              "title": "SpeakON Agent",
+              "url": "https://www.producthunt.com/products/speakon",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Faylee",
+              "url": "https://www.producthunt.com/products/faylee",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Norah Studio",
+              "url": "https://www.producthunt.com/products/norah-studio",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Nocto",
+              "url": "https://www.producthunt.com/products/nocto",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Cluinn",
+              "url": "https://www.producthunt.com/products/cluinn",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "ilse",
+              "url": "https://www.producthunt.com/products/ilse",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Kestrix",
+              "url": "https://www.producthunt.com/products/kestrix",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Axonnic",
+              "url": "https://www.producthunt.com/products/axonnic",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "StepGrab",
+              "url": "https://www.producthunt.com/products/stepgrab",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Canva Brush",
+              "url": "https://www.producthunt.com/products/canva",
+              "source": "ProductHunt"
+            }
+          ],
+          "takeaway": ""
+        },
+        {
+          "id": "github-traction",
+          "heading": "GitHub 上哪些高增长开源项目还没有商业化？",
+          "summary_md": "（自动归档模式）本周 GitHub Trending 高速增长的仓库。",
+          "items": [
+            {
+              "title": "cloudflare/security-audit-skill",
+              "url": "https://github.com/cloudflare/security-audit-skill",
+              "source": "GitHub",
+              "score": 14320
+            },
+            {
+              "title": "php/php-src",
+              "url": "https://github.com/php/php-src",
+              "source": "GitHub",
+              "score": 960
+            },
+            {
+              "title": "AgriciDaniel/claude-seo",
+              "url": "https://github.com/AgriciDaniel/claude-seo",
+              "source": "GitHub",
+              "score": 4110
+            },
+            {
+              "title": "pbakaus/impeccable",
+              "url": "https://github.com/pbakaus/impeccable",
+              "source": "GitHub",
+              "score": 9713
+            },
+            {
+              "title": "multica-ai/andrej-karpathy-skills",
+              "url": "https://github.com/multica-ai/andrej-karpathy-skills",
+              "source": "GitHub",
+              "score": 4250
+            },
+            {
+              "title": "TauricResearch/TradingAgents",
+              "url": "https://github.com/TauricResearch/TradingAgents",
+              "source": "GitHub",
+              "score": 5557
+            },
+            {
+              "title": "obra/superpowers",
+              "url": "https://github.com/obra/superpowers",
+              "source": "GitHub",
+              "score": 4894
+            },
+            {
+              "title": "anthropics/knowledge-work-plugins",
+              "url": "https://github.com/anthropics/knowledge-work-plugins",
+              "source": "GitHub",
+              "score": 2504
+            },
+            {
+              "title": "Leonxlnx/taste-skill",
+              "url": "https://github.com/Leonxlnx/taste-skill",
+              "source": "GitHub",
+              "score": 4359
+            },
+            {
+              "title": "jakubkrehel/skills",
+              "url": "https://github.com/jakubkrehel/skills",
+              "source": "GitHub",
+              "score": 980
+            }
+          ],
+          "takeaway": ""
+        }
+      ]
+    },
+    {
+      "id": "tech-stack",
+      "title": "技术选型",
+      "blocks": [
+        {
+          "id": "hf-models",
+          "heading": "HuggingFace 上最热的模型能做什么消费级产品？",
+          "summary_md": "（自动归档模式）HuggingFace trending 模型列表。",
+          "items": [
+            {
+              "title": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+              "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+              "source": "HuggingFace",
+              "score": 856
+            },
+            {
+              "title": "Nanbeige/Nanbeige4.3-33B",
+              "url": "https://huggingface.co/Nanbeige/Nanbeige4.3-33B",
+              "source": "HuggingFace",
+              "score": 768
+            },
+            {
+              "title": "LiquidAI/LFM3-1.7B",
+              "url": "https://huggingface.co/LiquidAI/LFM3-1.7B",
+              "source": "HuggingFace",
+              "score": 499
+            },
+            {
+              "title": "RecursiveSI/flint",
+              "url": "https://huggingface.co/RecursiveSI/flint",
+              "source": "HuggingFace",
+              "score": 448
+            },
+            {
+              "title": "ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
+              "url": "https://huggingface.co/ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
+              "source": "HuggingFace",
+              "score": 433
+            },
+            {
+              "title": "nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
+              "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
+              "source": "HuggingFace",
+              "score": 419
+            },
+            {
+              "title": "baidu/Unlimited-OCR-2",
+              "url": "https://huggingface.co/baidu/Unlimited-OCR-2",
+              "source": "HuggingFace",
+              "score": 387
+            },
+            {
+              "title": "Lightricks/LTX-2.5",
+              "url": "https://huggingface.co/Lightricks/LTX-2.5",
+              "source": "HuggingFace",
+              "score": 382
+            },
+            {
+              "title": "XHToken/Spark-X2.6-4B",
+              "url": "https://huggingface.co/XHToken/Spark-X2.6-4B",
+              "source": "HuggingFace",
+              "score": 353
+            },
+            {
+              "title": "black-forest-labs/flux-3-image-klein-comfy",
+              "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy",
+              "source": "HuggingFace",
+              "score": 349
+            }
+          ],
+          "takeaway": ""
+        }
+      ]
+    },
+    {
+      "id": "competition",
+      "title": "竞争情报",
+      "blocks": []
+    },
+    {
+      "id": "trends",
+      "title": "趋势判断",
+      "blocks": []
+    },
+    {
+      "id": "actions",
+      "title": "行动触发",
+      "blocks": []
+    }
+  ],
+  "generated_at": "2026-10-30T09:13:17+00:00",
+  "reddit_highlights": []
+}
