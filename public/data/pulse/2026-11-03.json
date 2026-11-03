@@ -1,0 +1,236 @@
+{
+  "date": "2026-11-03",
+  "top3": [],
+  "intro": "（无 LLM 编辑模式：以下为原始数据归档，建议安装 codex CLI 重新生成。）",
+  "sections": [
+    {
+      "id": "discovery",
+      "title": "发现机会",
+      "blocks": [
+        {
+          "id": "indie-products",
+          "heading": "今天有哪些独立开发者的新产品？",
+          "summary_md": "（自动归档模式）今日 Show HN 与 Product Hunt 上线的独立开发者产品列表。",
+          "items": [
+            {
+              "title": "Show HN: Hacker Times, a New York Times-inspired version of Hacker News",
+              "url": "https://hackertimes.ca/",
+              "source": "HN",
+              "score": 241
+            },
+            {
+              "title": "SUN Web & API",
+              "url": "https://www.producthunt.com/products/sun-ai",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Peji",
+              "url": "https://www.producthunt.com/products/peji",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "NEXUPIRA",
+              "url": "https://www.producthunt.com/products/nexupira",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Remote Gaze",
+              "url": "https://www.producthunt.com/products/remote-gaze",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Calendarly",
+              "url": "https://www.producthunt.com/products/calendarly-calendar-on-lock-screen",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Brink",
+              "url": "https://www.producthunt.com/products/brink-2",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "HoldTalk",
+              "url": "https://www.producthunt.com/products/holdtalk",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "kwant",
+              "url": "https://www.producthunt.com/products/kwant",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Corvo",
+              "url": "https://www.producthunt.com/products/corvo-3",
+              "source": "ProductHunt"
+            },
+            {
+              "title": "Infino AI",
+              "url": "https://www.producthunt.com/products/infino-ai",
+              "source": "ProductHunt"
+            }
+          ],
+          "takeaway": ""
+        },
+        {
+          "id": "github-traction",
+          "heading": "GitHub 上哪些高增长开源项目还没有商业化？",
+          "summary_md": "（自动归档模式）本周 GitHub Trending 高速增长的仓库。",
+          "items": [
+            {
+              "title": "Nutlope/hallmark",
+              "url": "https://github.com/Nutlope/hallmark",
+              "source": "GitHub",
+              "score": 10517
+            },
+            {
+              "title": "thedotmack/claude-mem",
+              "url": "https://github.com/thedotmack/claude-mem",
+              "source": "GitHub",
+              "score": 7255
+            },
+            {
+              "title": "pbakaus/impeccable",
+              "url": "https://github.com/pbakaus/impeccable",
+              "source": "GitHub",
+              "score": 11754
+            },
+            {
+              "title": "AgriciDaniel/claude-seo",
+              "url": "https://github.com/AgriciDaniel/claude-seo",
+              "source": "GitHub",
+              "score": 4091
+            },
+            {
+              "title": "obra/superpowers",
+              "url": "https://github.com/obra/superpowers",
+              "source": "GitHub",
+              "score": 5956
+            },
+            {
+              "title": "pingdotgg/t3code",
+              "url": "https://github.com/pingdotgg/t3code",
+              "source": "GitHub",
+              "score": 9770
+            },
+            {
+              "title": "JetBrains/thinkrail",
+              "url": "https://github.com/JetBrains/thinkrail",
+              "source": "GitHub",
+              "score": 4812
+            },
+            {
+              "title": "cloudflare/security-audit-skill",
+              "url": "https://github.com/cloudflare/security-audit-skill",
+              "source": "GitHub",
+              "score": 9155
+            },
+            {
+              "title": "jakubkrehel/skills",
+              "url": "https://github.com/jakubkrehel/skills",
+              "source": "GitHub",
+              "score": 1707
+            },
+            {
+              "title": "multica-ai/andrej-karpathy-skills",
+              "url": "https://github.com/multica-ai/andrej-karpathy-skills",
+              "source": "GitHub",
+              "score": 4397
+            }
+          ],
+          "takeaway": ""
+        }
+      ]
+    },
+    {
+      "id": "tech-stack",
+      "title": "技术选型",
+      "blocks": [
+        {
+          "id": "hf-models",
+          "heading": "HuggingFace 上最热的模型能做什么消费级产品？",
+          "summary_md": "（自动归档模式）HuggingFace trending 模型列表。",
+          "items": [
+            {
+              "title": "LiquidAI/LFM3-1.7B",
+              "url": "https://huggingface.co/LiquidAI/LFM3-1.7B",
+              "source": "HuggingFace",
+              "score": 802
+            },
+            {
+              "title": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+              "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+              "source": "HuggingFace",
+              "score": 653
+            },
+            {
+              "title": "nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
+              "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
+              "source": "HuggingFace",
+              "score": 621
+            },
+            {
+              "title": "mistralai/Mistral-Large-4-1T-A52B",
+              "url": "https://huggingface.co/mistralai/Mistral-Large-4-1T-A52B",
+              "source": "HuggingFace",
+              "score": 514
+            },
+            {
+              "title": "speridlabs/idol",
+              "url": "https://huggingface.co/speridlabs/idol",
+              "source": "HuggingFace",
+              "score": 428
+            },
+            {
+              "title": "baidu/Unlimited-OCR-2",
+              "url": "https://huggingface.co/baidu/Unlimited-OCR-2",
+              "source": "HuggingFace",
+              "score": 389
+            },
+            {
+              "title": "Lightricks/LTX-2.5",
+              "url": "https://huggingface.co/Lightricks/LTX-2.5",
+              "source": "HuggingFace",
+              "score": 384
+            },
+            {
+              "title": "ccore/Qwen3.5-4B-3D-Coder",
+              "url": "https://huggingface.co/ccore/Qwen3.5-4B-3D-Coder",
+              "source": "HuggingFace",
+              "score": 382
+            },
+            {
+              "title": "Pika-Labs/Pika-H3-Flex",
+              "url": "https://huggingface.co/Pika-Labs/Pika-H3-Flex",
+              "source": "HuggingFace",
+              "score": 347
+            },
+            {
+              "title": "Qwen/Qwen3.8-27B",
+              "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
+              "source": "HuggingFace",
+              "score": 293
+            }
+          ],
+          "takeaway": ""
+        }
+      ]
+    },
+    {
+      "id": "competition",
+      "title": "竞争情报",
+      "blocks": []
+    },
+    {
+      "id": "trends",
+      "title": "趋势判断",
+      "blocks": []
+    },
+    {
+      "id": "actions",
+      "title": "行动触发",
+      "blocks": []
+    }
+  ],
+  "generated_at": "2026-11-03T09:13:39+00:00",
+  "reddit_highlights": []
+}
