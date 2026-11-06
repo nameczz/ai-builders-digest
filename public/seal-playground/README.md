@@ -4,12 +4,12 @@
 
 ## 页面入口
 
-- `/seal-playground/#/home`：首页与海豹互动
-- `/seal-playground/#/draw`：画画
-- `/seal-playground/#/puzzle`：拼图
-- `/seal-playground/#/music`：音乐
+- `/seal-playground#/home`：首页与海豹互动
+- `/seal-playground#/draw`：画画
+- `/seal-playground#/puzzle`：拼图
+- `/seal-playground#/music`：音乐
 
-菜单可切换场景；首页按钮和 Escape 回首页；再玩一次重置当前游戏。浏览器前进/后退及直接打开、刷新各地址都使用相同入口。Hash 路由不需要服务器重写，进入另一个场景会重置该场景，不保存跨页游戏进度。
+菜单可切换场景；首页按钮和 Escape 回首页；再玩一次重置当前游戏。浏览器前进/后退及直接打开、刷新各地址都使用相同入口。生产域名会去除入口尾斜杠，HTML 的 base 固定指向 `/seal-playground/`，保证脚本、样式和图片仍从子目录加载。移动到其他子目录时同步修改 base。Hash 路由不需要服务器重写，进入另一个场景会重置该场景，不保存跨页游戏进度。
 
 ## 修改哪里
 

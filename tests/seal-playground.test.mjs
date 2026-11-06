@@ -1,4 +1,5 @@
 import test from 'node:test';
+import { readFileSync } from 'node:fs';
 import assert from 'node:assert/strict';
 import { createRouter, sceneFromHash } from '../public/seal-playground/shared/router.js';
 import { Spring } from '../public/seal-playground/shared/spring.js';
@@ -63,4 +64,13 @@ test('runtime initialization, repeated navigation and interrupted input',async()
  pointer('pointerdown',730,729);pointer('pointermove',730,420);pointer('pointercancel',730,420);assert.equal(d.state.drag,null);assert.equal(d.scenes.puzzle.debug.progress.locks,0);
  d.mode('music');d.scenes.music.toggle();b.dispatchEvent(new Event('blur'));assert.equal(d.scenes.music.debug.progress.music,false);
  // Test doubles verify logic, not WebGL pixels or audible playback.
+});
+
+test('production path without a trailing slash resolves all HTML resources inside the game',()=>{
+ const html=readFileSync(new URL('../public/seal-playground/index.html',import.meta.url),'utf8');
+ const base=html.match(/<base href="([^"]+)"/)[1];
+ for(const entry of ['https://example.com/seal-playground','https://example.com/seal-playground/','https://example.com/seal-playground/index.html']){
+  const resourceBase=new URL(base,entry);
+  for(const[,path]of html.matchAll(/(?:src|href)="(\.\/[^"]+)"/g))assert.ok(new URL(path,resourceBase).pathname.startsWith('/seal-playground/'));
+ }
 });
