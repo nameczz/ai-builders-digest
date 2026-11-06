@@ -1,0 +1,11 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#98d9f7"><title>团团游乐场</title><link rel="icon" href="data:,"><link rel="stylesheet" href="./styles.css"></head><body data-mode="home">
+<main id="shell" aria-label="小海豹互动游戏"><div id="canvas-host"></div>
+<nav id="menu" class="open" aria-label="游戏菜单"><button id="avatar" aria-expanded="true" aria-label="收起菜单"><img src="./assets/icon-avatar.png" alt=""></button><div id="menu-options"><button id="draw" aria-label="画画"><img src="./assets/icon-draw.png" alt=""></button><button id="puzzle" aria-label="拼图"><img src="./assets/icon-puzzle.png" alt=""></button><button id="music" aria-label="唱歌"><img src="./assets/icon-music.png" alt=""></button></div></nav>
+<div id="utilities" hidden><button id="music-play" class="util" aria-label="播放或停止旋律" hidden><svg viewBox="0 0 100 100"><path d="M38 22 76 50 38 78Z"/></svg></button><button id="replay" class="util" aria-label="再玩一次"><svg viewBox="0 0 100 100"><path d="M23 42A30 30 0 1 1 25 68M23 19V43H47"/></svg></button><button id="home" class="util" aria-label="回到首页"><svg viewBox="0 0 100 100"><path d="M16 44 50 15 84 44M25 40V84H75V40M43 84V60H57V84"/></svg></button></div>
+<div id="draw-tools" hidden></div><div id="loading" aria-label="正在打开游戏"><span class="dot"></span></div><div id="error" hidden><strong>暂时无法打开互动</strong><span id="error-detail"></span><button onclick="location.reload()">重新打开</button></div>
+<aside id="tuning" hidden><label for="strength">回弹幅度（Shift + D 显示或隐藏）</label><input id="strength" type="range" min="0.12" max="0.42" step="0.01" value="0.34"></aside>
+</main><div id="rotate" aria-label="请横过来玩"><svg viewBox="0 0 180 180"><rect x="33" y="58" width="114" height="66" rx="12" fill="#ffffff77"/><path d="M135 36A62 62 0 0 0 37 39M36 17V40H59M45 146A62 62 0 0 0 143 143M144 165V142H121"/><path d="M131 82V100"/></svg></div>
+
+<script src="./vendor/pixi.js"></script>
+<script type="module" src="./app.js"></script>
+</body></html>
