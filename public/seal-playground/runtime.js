@@ -1,3 +1,4 @@
+import { drawFold } from './scenes/fin-fold.js';
 import { ASSETS } from './shared/assets.js';
 import { clamp, lerp, dist } from './shared/math.js';
 import { Spring } from './shared/spring.js';
@@ -5,6 +6,7 @@ import { DeformMesh } from './shared/deform-mesh.js';
 import { Sound } from './shared/sound.js';
 import { bindInput } from './shared/input.js';
 import { createRouter } from './shared/router.js';
+import { createFeedScene } from './scenes/feed.js';
 import { createHomeScene } from './scenes/home.js';
 import { createDrawScene } from './scenes/draw.js';
 import { createPuzzleScene } from './scenes/puzzle.js';
@@ -29,12 +31,17 @@ export async function startPlayground() {
     const texture = async (name) => { const im = new Image(); im.src = ASSETS[name]; await im.decode(); return PIXI.Texture.from(im); };
     const tex = {};
     const assetNames = ['body-stable', 'hat-smooth', 'eye-left-base', 'eye-right-base', 'eye-left-closed', 'eye-right-closed', 'eye-left-dizzy-large', 'eye-right-dizzy-large', 'mouth-happy', 'mouth-surprise', 'mouth-large', 'mouth-dizzy'];
+    assetNames.push(...Object.keys(ASSETS).filter(name => name.startsWith('feed-')));
     await Promise.all(assetNames.map(async (n) => tex[n] = await texture(n)));
     // One immutable body bitmap for ALL states. Only the face has replaceable parts.
     const shadow = new PIXI.Graphics().ellipse(827, 849, 418, 49).fill({ color: 0x4eaae3, alpha: .43 });
     world.addChildAt(shadow, 0);
     const body = new DeformMesh(tex['body-stable'], { x: 380, y: 302, w: 868, h: 584 });
     const hat = new DeformMesh(tex['hat-smooth'], { x: 600, y: 178, w: 590, h: 414 }, 28, 20);
+    // A small fur patch covers just the old right-flipper crease as the fin rolls in.
+    const finPatch = new DeformMesh(tex['feed-fin-patch'], {x:948,y:625,w:176,h:192}, 9, 11);
+    const sideEdge=new PIXI.Graphics(), sideClip=new PIXI.Graphics();
+    sideEdge.visible=sideClip.visible=finPatch.visible=false;
     const eyeLeft = new DeformMesh(tex['eye-left-base'], { x: 614, y: 381, w: 135, h: 150 }, 11, 11);
     const eyeRight = new DeformMesh(tex['eye-right-base'], { x: 814, y: 418, w: 142, h: 154 }, 11, 11);
     const mouth = new DeformMesh(tex['mouth-happy'], { x: 711, y: 450, w: 127, h: 148 }, 13, 13);
@@ -43,7 +50,7 @@ export async function startPlayground() {
     eyeLeft.label = 'Left eye';
     eyeRight.label = 'Right eye';
     mouth.label = 'Expression mouth';
-    character.addChild(hat, body, eyeLeft, eyeRight, mouth);
+    character.addChild(hat, sideEdge, body, finPatch, eyeLeft, eyeRight, mouth, sideClip);
     // Rays are deliberately absent from the render tree and asset bundle in v0.5.
     const rays = new PIXI.Container();
     rays.visible = false;
@@ -111,16 +118,26 @@ export async function startPlayground() {
                 window.dispatchEvent(new CustomEvent('seal:dizzy', { detail: { duration: 2.0 } }));
             }
         }
-        const wanted = manualExpression ?? (pullState.active ? pullState.expression : state.time < state.dizzyUntil ? 'dizzy' : state.time < state.reactionUntil ? state.reaction : state.pendingDizzy ? 'surprised_large' : 'neutral');
+        const feeding = state.mode === 'feed' ? scenes.feed.face : null;
+        let feedingExpression = null;
+        if (feeding?.mood === 'sad') feedingExpression = 'disappointed';
+        else if (feeding?.open || feeding?.hiccup > .12) feedingExpression = 'surprised_soft';
+        else if (feeding?.mood === 'content' || feeding?.mood === 'eager') feedingExpression = 'happy';
+        const wanted = feedingExpression ?? manualExpression ?? (pullState.active ? pullState.expression : state.time < state.dizzyUntil ? 'dizzy' : state.time < state.reactionUntil ? state.reaction : state.pendingDizzy ? 'surprised_large' : 'neutral');
         state.expression = wanted;
         const strength = wanted === 'surprised_large' ? 3 : wanted === 'surprised_medium' ? 2 : wanted === 'surprised_soft' ? 1 : 0;
         expressionMix = lerp(expressionMix, strength, 1 - Math.exp(-dt * 20));
         largeMix = lerp(largeMix, pullState.active && pullState.effectiveLevel === 'large' ? 1 : 0, 1 - Math.exp(-dt * 10));
-        const mouthName = { neutral: 'mouth-happy', happy: 'mouth-happy', surprised_soft: 'mouth-surprise', surprised_medium: 'mouth-surprise', surprised_large: 'mouth-large', dizzy: 'mouth-dizzy' };
-        mouth.setTexture(tex[mouthName[wanted]]);
+        const mouthName = { disappointed:'mouth-happy', neutral: 'mouth-happy', happy: 'mouth-happy', surprised_soft: 'mouth-surprise', surprised_medium: 'mouth-surprise', surprised_large: 'mouth-large', dizzy: 'mouth-dizzy' };
+        const fullRest = feeding?.full && feeding.mood === 'idle' && wanted === 'neutral' && !state.drag;
+        const isMeal = feeding?.mood === 'eager' || feeding?.mood === 'content' || fullRest;
+        const opened = isMeal && feeding.aperture > .025;
+        const eatingEyes = feeding?.burp ? 'burp' : feeding?.mood === 'eager' && !opened ? 'eager' : 'smile';
+        const mouthPose = feeding?.burp ? 'burp' : opened ? 'open' : 'closed';
+        mouth.setTexture(tex[isMeal ? 'feed-mouth-' + mouthPose : mouthName[wanted]]);
         const eyeState = wanted === 'dizzy' ? 'dizzy-large' : wanted === 'surprised_large' ? 'closed' : 'base';
-        eyeLeft.setTexture(tex['eye-left-' + eyeState]);
-        eyeRight.setTexture(tex['eye-right-' + eyeState]);
+        eyeLeft.setTexture(tex[isMeal ? 'feed-eye-left-' + eatingEyes : 'eye-left-' + eyeState]);
+        eyeRight.setTexture(tex[isMeal ? 'feed-eye-right-' + eatingEyes : 'eye-right-' + eyeState]);
         const active = !!state.drag || Math.abs(spring.x) > .018 || Math.abs(pullX.x) + Math.abs(pullY.x) > 2 || wanted === 'dizzy';
         const target = idle.enabled && !active ? 1 : 0;
         idle.weight = lerp(idle.weight, target, 1 - Math.exp(-dt * (active ? 16 : 3.5)));
@@ -132,7 +149,7 @@ export async function startPlayground() {
         idle.rightFin = Math.sin(idle.phase * 2 * Math.PI / 4.7) * idleConfig.rightFin * k;
         const tailCycle = idle.phase % 7.2;
         idle.tail = (tailCycle > 3.9 && tailCycle < 6.5 ? Math.sin((tailCycle - 3.9) / 2.6 * Math.PI) * Math.sin((tailCycle - 3.9) * 4.4) : 0) * idleConfig.tail * k;
-        if (strength > 0 || wanted === 'dizzy' || state.drag) {
+        if ((feeding && feeding.mood !== 'idle') || strength > 0 || wanted === 'dizzy' || state.drag) {
             idle.blink = 0;
             idle.blinkStarted = -100;
             idle.nextBlink = Math.max(idle.nextBlink, state.time + .65);
@@ -158,8 +175,9 @@ export async function startPlayground() {
     function updateGaze(dt) {
         const d = state.drag, contact = !!d && (d.kind === 'body' || d.kind === 'hat');
         gaze.suppressed = state.expression === 'surprised_large' || state.expression === 'dizzy';
-        if (contact) {
-            gaze.contact = local(d.last);
+        const fish = state.mode === 'feed' && scenes.feed.face.gazeAt;
+        if (contact || fish) {
+            gaze.contact = fish || local(d.last);
             gaze.holdUntil = state.time + .16;
         }
         gaze.active = !gaze.suppressed && (contact || state.time < gaze.holdUntil);
@@ -214,7 +232,14 @@ export async function startPlayground() {
     // Initialize after cap geometry and input helpers below are constructed.
     addEventListener('resize', resize);
     dom('loading').hidden = true;
-    const setMenu = (open) => { state.menu = open; dom('menu').classList.toggle('open', open); dom('avatar').setAttribute('aria-expanded', String(open)); dom('avatar').setAttribute('aria-label', open ? '收起菜单' : '展开菜单'); dom('menu-options').inert = !open; };
+    function setMenu(group) {
+        state.menu = group || false;
+        for (const name of ['care','learn']) {
+            const open = group === name;
+            dom(name).setAttribute('aria-expanded', String(open));
+            dom(name+'-options').hidden = !open;
+        }
+    }
     function bump(strength = .30) { if (reduced)
         strength *= .35; spring.x = clamp(spring.x + strength, -.18, .43); spring.v = -1.8; sway.v += (Math.random() - .5) * .9; state.rayUntil = 0; state.reaction = 'happy'; state.reactionUntil = state.time + .65; sound.tone(350, .34, true); }
     function resetMotion() {
@@ -243,6 +268,7 @@ export async function startPlayground() {
     let scene = null;
     const scenes = {
         home: createHomeScene({ state }),
+        feed: createFeedScene({state,world,viewport,warp,sound,puffTexture:tex['feed-puff']}),
         draw: createDrawScene({ state, game, sound, bump, endPointer }),
         puzzle: createPuzzleScene({ state, game, sound, bump }),
         music: createMusicScene({ state, game, sound, bump })
@@ -260,10 +286,11 @@ export async function startPlayground() {
         dom('utilities').hidden = isHome;
         dom('draw-tools').hidden = name !== 'draw';
         dom('music-play').hidden = name !== 'music';
-        dom('replay').hidden = false;
-        setMenu(isHome);
+        dom('replay').hidden = name === 'feed';
+        setMenu(false);
+        dom('menu').hidden = !isHome && name !== 'feed';
         document.body.dataset.mode = name;
-        document.title = ({ home: '团团游乐场', draw: '画一画', puzzle: '拼一拼', music: '听一听' })[name] + ' · 团团';
+        document.title = ({ home: '团团游乐场', feed: '喂鱼', draw: '画一画', puzzle: '拼一拼', music: '听一听' })[name] + ' · 团团';
         for (const id of ['draw', 'puzzle', 'music']) {
             if (id === name) dom(id).setAttribute('aria-current', 'page');
             else dom(id).removeAttribute('aria-current');
@@ -272,9 +299,10 @@ export async function startPlayground() {
     const router = createRouter(activateScene);
     function home() { router.navigate('home'); }
     function mode(name) { router.navigate(name); }
-    dom('avatar').addEventListener('click', () => { sound.unlock(); setMenu(!state.menu); });
-    for (const name of ['draw', 'puzzle', 'music'])
-        dom(name).addEventListener('click', () => { sound.unlock(); mode(name); });
+    for (const group of ['care','learn'])
+        dom(group).addEventListener('click', () => { sound.unlock(); setMenu(state.menu === group ? false : group); });
+    for (const name of ['feed','draw','puzzle','music'])
+        dom(name).addEventListener('click', () => { sound.unlock(); setMenu(false); mode(name); });
     dom('home').addEventListener('click', home);
     dom('replay').addEventListener('click', () => router.restart());
     dom('music-play').addEventListener('click', () => scenes.music.toggle());
@@ -292,6 +320,25 @@ export async function startPlayground() {
         const stretchBoost = 1 + largeMix * .18;
         px += clamp(pullX.x, -250, 250) * w * stretchBoost;
         py += clamp(pullY.x, -230, 210) * w * stretchBoost;
+        if (state.mode === 'feed') {
+            const f = scenes.feed.face;
+            // Local cheek inflation, throat bob and flipper-to-belly motion share the existing skin.
+            if (f.chew) {
+                const left = f.chew > 0, cx = left ? 613 : 930, cy = left ? 526 : 578;
+                const cheek = Math.exp(-((x-cx)**2/17000 + (y-cy)**2/9600));
+                const jaw = Math.exp(-((x-775)**2/32000 + (y-555)**2/12000));
+                px -= 32 * f.chew * cheek;
+                py += Math.abs(f.chew) * (12*jaw - 11*cheek);
+            }
+            if (f.pat) py += 4*f.pat*Math.exp(-((x-790)**2/43000+(y-725)**2/11000));
+            if (f.fullness) px += .055*f.fullness*(x-813)*Math.exp(-((y-727)**2)/16500);
+            if (f.inhale) {
+                py -= 22*f.inhale*lift;
+                px += .022*f.inhale*(x-810)*Math.exp(-((y-600)**2)/34000);
+            }
+            if (f.swallow) py += 12*f.swallow*Math.exp(-((y-589)**2+(x-775)**2)/14000);
+            py -= f.hiccup * 27 * lift;
+        }
         if (state.expression === 'dizzy' && !reduced) {
             px += Math.sin((state.time - state.reboundAt) * 5.2) * 9 * lift;
         }
@@ -566,7 +613,7 @@ export async function startPlayground() {
         const d = state.drag;
         if (!d)
             return;
-        const wasPull = pullState.active, lastReaction = pullState.expression, large = state.peakPull === 'large';
+        const wasPull = pullState.active, lastReaction = pullState.expression, large = d.kind === 'body' && state.peakPull === 'large';
         if (wasPull && !cancel) {
             state.reaction = lastReaction;
             state.reactionUntil = state.time + .50;
@@ -607,7 +654,11 @@ export async function startPlayground() {
         canvas: app.canvas, state, sound,
         down(e) {
             const p = point(e), l = local(p);
-            if (!scene.pointerDown?.(p, l, e, makeDrag) && sealHit(l)) {
+            if (scene.pointerDown?.(p, l, e, makeDrag)) {
+                if (state.drag?.kind === 'fish') cancelRecovery();
+                return;
+            }
+            if (sealHit(l)) {
                 const isHat = capPoint(l);
                 state.drag = { kind: isHat ? 'hat' : 'body', id: e.pointerId, start: p, last: p, local: l, moved: false, startedAt: state.time, sampleAt: state.time, vx: 0, vy: 0 };
                 state.press = isHat;
@@ -676,26 +727,65 @@ export async function startPlayground() {
             d.sampleAt = state.time;
             updatePull();
         },
-        end(cancel) { sway.target = 0; endPointer(cancel); },
+        end(cancel, event) {
+            if (!cancel && state.drag?.kind === 'fish' && event) state.drag.last = point(event);
+            sway.target = 0; endPointer(cancel);
+        },
         pause() { scene?.pause?.(); }
     });
     function renderRig() {
+        const tuck = state.mode === 'feed' ? scenes.feed.face.tuck : 0;
         body.deform(warp);
+        sideEdge.visible=sideClip.visible=tuck>0;
+        if (tuck) {
+            drawFold(sideEdge,sideClip,warp,tuck);
+            if (body.mask!==sideClip) body.mask=sideClip;
+        } else if (body.mask) body.mask=null;
+        finPatch.visible=tuck>0;
+        if (tuck) {
+            finPatch.alpha=Math.min(1,tuck*7);
+            finPatch.deform(warp);
+        }
         hat.deform(hatWarp);
         const blinkScale = 1 - idle.blink * .88, eyeX = 1 + Math.min(expressionMix, 1) * .105;
         const dizzy = state.expression === 'dizzy', closed = state.expression === 'surprised_large';
+        const feeding = state.mode === 'feed' ? scenes.feed.face : null;
+        const eager = feeding?.mood === 'eager', sad = feeding?.mood === 'sad';
+        const mealPose = eager || feeding?.mood === 'content';
+        const shine = eager && feeding.aperture <= .025;
+        const chew = Math.abs(feeding?.chew || 0);
+        const wave = state.time * 4*Math.PI;
         const eyeFn = (cx, cy) => (x, y) => {
-            const sx = dizzy ? 1.0 : closed ? 1.0 : eyeX, sy = dizzy || closed ? 1.0 : blinkScale;
-            const p = warp(cx + (x - cx) * sx, cy + (y - cy) * sy);
+            const sx = mealPose ? 1 : sad ? 1.04 : dizzy || closed ? 1 : eyeX;
+            const sy = mealPose ? 1-.10*chew : sad ? .72 : dizzy || closed ? 1 : blinkScale*(1-.79*chew);
+            let dx=(x-cx)*sx, dy=(y-cy)*sy;
+            if (shine) {
+                // Only move sampling points inside the iris; eyebrow and eye rim stay pinned.
+                const r=(dx/60)**2+((dy-10)/46)**2, k=clamp((1-r)/.52,0,1);
+                dx += k*(3.8*Math.sin(wave)+.04*dx*Math.sin(wave-.4));
+                dy += k*(2.8*Math.cos(wave)+1.1*Math.sin(2*wave+dx/80));
+            }
+            const p = warp(cx+dx,cy+dy+(sad ? 9 : 3*chew));
             if (!dizzy && !closed) {
-                p.x += gaze.x;
-                p.y += gaze.y;
+                const track=shine ? .50 : mealPose ? 0 : 1;
+                p.x += gaze.x*track;
+                p.y += gaze.y*track;
             }
             return p;
         };
         eyeLeft.deform(eyeFn(681, 455));
         eyeRight.deform(eyeFn(885, 495));
-        mouth.deform(warp);
+        mouth.visible = !sad;
+        if (mealPose) {
+            mouth.deform((x,y) => {
+                // All cels share the nose registration. Only the jaw opens or closes.
+                const below=Math.max(0,y-480);
+                if (feeding.burp) y += Math.max(0,y-493)*(-.34+.60*feeding.hiccup);
+                else if (feeding.aperture>.025) y -= below*.83*(1-feeding.aperture);
+                else y += below*.12*chew;
+                return warp(x,y);
+            });
+        } else mouth.deform(warp);
         rays.visible = false;
         rays.renderable = false;
     }
@@ -703,6 +793,7 @@ export async function startPlayground() {
         dt = clamp(dt, 0, 1 / 30);
         state.time += dt;
         checkPeel();
+        if (scene === scenes.feed) scene.update();
         updateLife(dt);
         let left = dt;
         while (left > 0) {
@@ -714,7 +805,8 @@ export async function startPlayground() {
         }
         updateGaze(dt);
         renderRig();
-        scene?.update?.(dt);
+        if (scene === scenes.feed) scene.drawDetails();
+        else scene?.update?.(dt);
         character.scale.set(state.scale);
         character.position.set(state.ox, state.oy);
         shadow.scale.set(state.scale * (1 + spring.x * .26), state.scale * (1 - spring.x * .12));
@@ -724,7 +816,7 @@ export async function startPlayground() {
     app.ticker.add((ticker) => tick(ticker.deltaMS / 1000));
     resize();
     router.start();
-    const debug = { version: PIXI.VERSION, prototypeVersion: '0.11.0', bodyBaseline: '0.5.0', capBaseline: '0.7.0', engine: 'PixiJS WebGL', state, warp, hatWarp, bump: () => bump(tuning.amplitude), home, mode, setMenu, path: scenes.draw.debug.path, pieces: scenes.puzzle.debug.pieces, scenes, router, spring, capX, capY, resetMotion, get frameScale() { return frameScale; }, tuning, pullConfig, reactionMap, idle, body, hat, mouth, rays, eyeLeft, eyeRight, character, cap, capConfig, capBounds, capAnchor, updateCap, gaze, idleConfig, pullX, pullY, sway, viewport, point, bodyPoint, capPoint, checkPeel, peelDebug, touchingHead, wearZoneFrame,
+    const debug = { version: PIXI.VERSION, prototypeVersion: '0.11.0', bodyBaseline: '0.5.0', capBaseline: '0.7.0', engine: PIXI.VERSION === 'offline-canvas' ? 'Canvas 2D' : 'PixiJS WebGL', state, warp, hatWarp, bump: () => bump(tuning.amplitude), home, mode, setMenu, path: scenes.draw.debug.path, pieces: scenes.puzzle.debug.pieces, scenes, router, spring, capX, capY, resetMotion, get frameScale() { return frameScale; }, tuning, pullConfig, reactionMap, idle, body, hat, mouth, rays, eyeLeft, eyeRight, character, cap, capConfig, capBounds, capAnchor, updateCap, gaze, idleConfig, pullX, pullY, sway, viewport, point, bodyPoint, capPoint, checkPeel, peelDebug, touchingHead, wearZoneFrame,
         step: (seconds) => { for (let i = 0; i < Math.ceil(seconds * 120); i++)
             tick(Math.min(1 / 120, seconds - i / 120)); app.renderer.render(app.stage); },
         render: () => { renderRig(); app.renderer.render(app.stage); },

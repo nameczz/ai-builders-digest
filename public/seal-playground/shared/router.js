@@ -1,4 +1,4 @@
-export const SCENE_NAMES = Object.freeze(['home', 'draw', 'puzzle', 'music']);
+export const SCENE_NAMES = Object.freeze(['home', 'feed', 'draw', 'puzzle', 'music']);
 
 export function sceneFromHash(hash) {
     const name = hash.replace(/^#\/?/, '').replace(/\/$/, '');

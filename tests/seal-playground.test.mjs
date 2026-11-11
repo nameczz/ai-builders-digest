@@ -3,6 +3,7 @@ import { readFileSync } from 'node:fs';
 import assert from 'node:assert/strict';
 import { createRouter, sceneFromHash } from '../public/seal-playground/shared/router.js';
 import { Spring } from '../public/seal-playground/shared/spring.js';
+import { createFeedScene } from '../public/seal-playground/scenes/feed.js';
 import { createDrawScene } from '../public/seal-playground/scenes/draw.js';
 import { createPuzzleScene } from '../public/seal-playground/scenes/puzzle.js';
 import { createMusicScene } from '../public/seal-playground/scenes/music.js';
@@ -13,15 +14,16 @@ class Element extends EventTarget {
  getContext() { return {drawImage(){},getImageData:()=>({data:new Uint8ClampedArray(868*584*4).fill(255)})}; }
 }
 class Container {
- constructor() { this.children=[]; this.scale={set(){}}; this.position={set(){}}; }
+ constructor() { this.children=[]; this.scale={set(){}}; this.position={set:(x,y)=>{this.x=x;this.y=y}}; }
  addChild(...children) { this.children.push(...children); } addChildAt(child,i) { this.children.splice(i,0,child); }
  removeChildren() { return this.children.splice(0); } getChildIndex(child) { return this.children.indexOf(child); }
  onViewUpdate() {} destroy() { this.destroyed=true; }
 }
 class Graphics extends Container {}
-for(const name of ['ellipse','circle','fill','roundRect','stroke','poly','moveTo','lineTo','bezierCurveTo','star','clear']) Graphics.prototype[name]=function(){return this;};
+for(const name of ['rect','ellipse','circle','fill','roundRect','stroke','poly','moveTo','lineTo','bezierCurveTo','star','clear']) Graphics.prototype[name]=function(){return this;};
 let textureId=0;
-globalThis.PIXI={VERSION:'test-double',Container,ViewContainer:Container,Graphics,
+class Sprite extends Container { constructor(texture){ super(); this.texture=texture; this.anchor={set(){}}; } }
+globalThis.PIXI={Sprite,VERSION:'test-double',Container,ViewContainer:Container,Graphics,
  Application:class { constructor(){this.canvas=new Element();this.stage=new Container();this.ticker={add(){}};this.renderer={resize(){},render(){}};} async init(){} },
  Texture:{from:image=>({uid:textureId++,source:{resource:image}})},State:{for2d:()=>({})},
  Buffer:class{constructor(o){Object.assign(this,o);}update(){}},BufferUsage:{VERTEX:1,COPY_DST:2,INDEX:4},
@@ -63,6 +65,11 @@ test('runtime initialization, repeated navigation and interrupted input',async()
  d.mode('puzzle');pointer('pointerdown',730,729);pointer('pointermove',730,420);pointer('pointerup',730,420);assert.equal(d.scenes.puzzle.debug.progress.locks,1);d.router.restart();assert.equal(d.scenes.puzzle.debug.progress.locks,0);
  pointer('pointerdown',730,729);pointer('pointermove',730,420);pointer('pointercancel',730,420);assert.equal(d.state.drag,null);assert.equal(d.scenes.puzzle.debug.progress.locks,0);
  d.mode('music');d.scenes.music.toggle();b.dispatchEvent(new Event('blur'));assert.equal(d.scenes.music.debug.progress.music,false);
+ d.mode('feed');pointer('pointerdown',700,560);pointer('pointermove',430,640);pointer('pointerup',430,640);
+ assert.equal(d.state.pendingDizzy,true);
+ pointer('pointerdown',1500,830);pointer('pointermove',1260,430);pointer('pointerup',1260,430);
+ d.step(.7);assert.equal(d.state.expression,'disappointed');assert.equal(d.state.pendingDizzy,false);
+ assert.equal(d.state.dizzyUntil,0);assert.equal(d.state.dizzyCount,0);
  // Test doubles verify logic, not WebGL pixels or audible playback.
 });
 
@@ -73,4 +80,76 @@ test('production path without a trailing slash resolves all HTML resources insid
   const resourceBase=new URL(base,entry);
   for(const[,path]of html.matchAll(/(?:src|href)="(\.\/[^"]+)"/g))assert.ok(new URL(path,resourceBase).pathname.startsWith('/seal-playground/'));
  }
+});
+
+test('a fixed basket lends one fish, returns misses and refills only after the full meal', t => {
+ const values = new Map();
+ const browser = new EventTarget();
+ browser.localStorage = {getItem:key=>values.get(key)??null, setItem:(key,v)=>values.set(key,v)};
+ const previousWindow = globalThis.window;
+ globalThis.window = browser;
+ t.after(()=>{globalThis.window=previousWindow;});
+ let now=1000;
+ t.mock.method(Date,'now',()=>now);
+ const c={...context(),world:new Container(),viewport:{maxX:1648,maxY:928},warp:(x,y)=>({x,y}),gaze:{x:0,y:0}};
+ const makeScene=()=>createFeedScene(c);
+ let scene=makeScene();
+ scene.enter();
+ const origin={x:1530,y:850}, target={x:813,y:551}, outside={x:1050,y:390};
+ const event={pointerId:9};
+ const basket=()=>c.world.children.at(-1).children[1];
+ const count=()=>basket().children.slice(1,4).filter(n=>n.visible).length;
+ function down(){scene.pointerDown(origin,origin,event,makeDrag);}
+ function move(p){const d=c.state.drag; d.moved=true; scene.pointerMove(d,p); d.last=p;}
+ function up(cancel=false){const d=c.state.drag; c.state.drag=null; scene.pointerEnd(d,cancel);}
+ function advance(ms){now+=ms;scene.update();}
+ const anchor=[basket().x,basket().y];
+ const stockedFish=basket().children[1], seatedY=stockedFish.y;
+ advance(1000);assert.ok(stockedFish.y<seatedY);assert.ok(Math.abs(basket().rotation)>.005);
+ assert.deepEqual([basket().x,basket().y],anchor);
+ down();up();assert.equal(count(),3);
+ down();move(target);assert.equal(count(),2);assert.equal(scene.face.open,true);
+ // This point was outside the old 104-unit radius and is inside the new mouth zone.
+ move({x:950,y:548});assert.equal(scene.face.open,true);
+ const held=c.world.children.at(-1).children[2];advance(20);
+ const tail=held.children[0].rotation;advance(90);assert.notEqual(held.children[0].rotation,tail);
+ move(outside);assert.equal(scene.face.open,false);assert.deepEqual([basket().x,basket().y],anchor);
+ up();assert.equal(count(),2);assert.equal(scene.face.gazeAt,null);
+ assert.equal(scene.face.mood,'sad');const releaseY=held.y;
+ advance(50);assert.ok(held.y<releaseY);
+ advance(950);assert.equal(count(),2);assert.equal(scene.face.mood,'sad');
+ advance(350);assert.equal(count(),3);assert.equal(scene.face.mood,'idle');
+ down();move(target);up(true);assert.equal(count(),3);
+ for(let left=2;left>=0;left--){
+   const held=c.world.children.at(-1).children[2];
+   down();move(target);up();
+   assert.equal(count(),left);
+   advance(220);assert.ok(held.mask);assert.equal(scene.face.open,true);
+   advance(190);assert.equal(scene.face.aperture,0);
+   for(const [index,duration] of [860,920,850,940,930].entries()){
+     advance(duration*.45);
+     assert.equal(Math.sign(scene.face.chew),index%2 ? -1 : 1);
+     assert.ok(held.visible && held.mask);
+     assert.equal(scene.face.pat,0);
+     advance(duration*.55);
+   }
+   advance(120);assert.equal(held.visible,false);assert.ok(scene.face.swallow>0);
+   advance(440);
+   if(!left){
+     advance(600);assert.ok(scene.face.pat>.9);
+     advance(440);assert.ok(scene.face.pat<.15);
+     advance(450);assert.ok(scene.face.pat>.7);
+     advance(309);assert.ok(scene.face.inhale>.99);assert.equal(scene.face.burp,false);
+     advance(1);assert.equal(scene.face.burp,true);
+     advance(140);scene.drawDetails();assert.ok(scene.face.hiccup>.9);
+     assert.equal(c.world.children.at(-1).children[4].visible,true);
+     advance(3500);
+   }
+   assert.equal(scene.face.mood,'idle');
+   scene.exit();scene=makeScene();scene.enter();
+   assert.equal(count(),left);
+ }
+ down();assert.equal(c.state.drag,null);assert.equal(scene.face.full,true);
+ advance(29_999);assert.equal(count(),0);
+ advance(1);assert.equal(count(),3);assert.equal(scene.face.full,false);
 });

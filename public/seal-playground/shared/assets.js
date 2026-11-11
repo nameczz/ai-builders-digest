@@ -1,4 +1,16 @@
 export const ASSETS = {
+  "feed-fin-patch": new URL("../assets/feed-fin-patch.png", import.meta.url).href,
+  "feed-eye-left-burp": new URL("../assets/feed-eye-left-burp.png", import.meta.url).href,
+  "feed-eye-left-eager": new URL("../assets/feed-eye-left-eager.png", import.meta.url).href,
+  "feed-eye-left-smile": new URL("../assets/feed-eye-left-smile.png", import.meta.url).href,
+  "feed-eye-right-burp": new URL("../assets/feed-eye-right-burp.png", import.meta.url).href,
+  "feed-eye-right-eager": new URL("../assets/feed-eye-right-eager.png", import.meta.url).href,
+  "feed-eye-right-smile": new URL("../assets/feed-eye-right-smile.png", import.meta.url).href,
+  "feed-mouth-burp": new URL("../assets/feed-mouth-burp.png", import.meta.url).href,
+  "feed-mouth-closed": new URL("../assets/feed-mouth-closed.png", import.meta.url).href,
+  "feed-mouth-open": new URL("../assets/feed-mouth-open.png", import.meta.url).href,
+  "feed-puff": new URL("../assets/feed-puff.png", import.meta.url).href,
+
   "body-stable": new URL("../assets/body-stable.png", import.meta.url).href,
   "eye-left-base": new URL("../assets/eye-left-base.png", import.meta.url).href,
   "eye-left-closed": new URL("../assets/eye-left-closed.png", import.meta.url).href,

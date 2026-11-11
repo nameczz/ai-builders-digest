@@ -17,7 +17,7 @@ export function bindInput({ canvas, state, sound, down, move, end, pause }) {
     }, options);
     for (const type of ['pointerup', 'pointercancel', 'lostpointercapture']) {
         canvas.addEventListener(type, (event) => {
-            if (event.pointerId === state.drag?.id) end(type !== 'pointerup');
+            if (event.pointerId === state.drag?.id) end(type !== 'pointerup', event);
         }, options);
     }
     window.addEventListener('blur', () => { end(true); pause(); }, options);
