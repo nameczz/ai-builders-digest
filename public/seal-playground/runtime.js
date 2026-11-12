@@ -738,12 +738,11 @@ export async function startPlayground() {
         body.deform(warp);
         sideEdge.visible=sideClip.visible=tuck>0;
         if (tuck) {
-            drawFold(sideEdge,sideClip,warp,tuck);
+            drawFold(sideEdge,sideClip,warp);
             if (body.mask!==sideClip) body.mask=sideClip;
         } else if (body.mask) body.mask=null;
         finPatch.visible=tuck>0;
         if (tuck) {
-            finPatch.alpha=Math.min(1,tuck*7);
             finPatch.deform(warp);
         }
         hat.deform(hatWarp);
@@ -775,17 +774,9 @@ export async function startPlayground() {
         };
         eyeLeft.deform(eyeFn(681, 455));
         eyeRight.deform(eyeFn(885, 495));
-        mouth.visible = !sad;
-        if (mealPose) {
-            mouth.deform((x,y) => {
-                // All cels share the nose registration. Only the jaw opens or closes.
-                const below=Math.max(0,y-480);
-                if (feeding.burp) y += Math.max(0,y-493)*(-.34+.60*feeding.hiccup);
-                else if (feeding.aperture>.025) y -= below*.83*(1-feeding.aperture);
-                else y += below*.12*chew;
-                return warp(x,y);
-            });
-        } else mouth.deform(warp);
+        eyeLeft.visible = eyeRight.visible = !(feeding?.grip || feeding?.burp);
+        mouth.visible = !(sad || eager || feeding?.open || feeding?.grip || feeding?.burp);
+        mouth.deform(warp);
         rays.visible = false;
         rays.renderable = false;
     }

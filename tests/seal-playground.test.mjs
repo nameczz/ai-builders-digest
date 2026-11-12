@@ -30,7 +30,7 @@ globalThis.PIXI={Sprite,VERSION:'test-double',Container,ViewContainer:Container,
  Geometry:class{constructor(o){Object.assign(this,o);this.bounds={containsPoint:()=>true};}on(){}}
 };
 function context(){return{state:{time:0,drag:null},game:new Container(),sound:{tone(){},stop(){},unlock(){}},bump(){},endPointer(){}};}
-const makeDrag=(kind,start,local,e)=>({kind,start,local,last:start,id:e.pointerId});
+const makeDrag=(kind,start,local,e)=>({kind,start,local,last:start,moved:false,id:e.pointerId});
 function fakeBrowser(hash){const b=new EventTarget();b.location={hash};b.entries=[];b.history={replaceState:(_,__,h)=>{b.location.hash=h;},pushState:(_,__,h)=>{b.entries.push(h);b.location.hash=h;}};return b;}
 
 test('router deep links, history, invalid routes and replay',()=>{
@@ -118,24 +118,44 @@ test('a fixed basket lends one fish, returns misses and refills only after the f
  assert.equal(scene.face.mood,'sad');const releaseY=held.y;
  advance(50);assert.ok(held.y<releaseY);
  advance(950);assert.equal(count(),2);assert.equal(scene.face.mood,'sad');
- advance(350);assert.equal(count(),3);assert.equal(scene.face.mood,'idle');
+ advance(350);assert.equal(count(),3);assert.equal(scene.face.mood,'sad');
+ advance(1999);assert.equal(scene.face.mood,'sad');
+ advance(1);assert.equal(scene.face.mood,'idle');
+ down();move(outside);up();advance(1350);
+ down();move(outside);assert.equal(scene.face.mood,'eager');up(true);
  down();move(target);up(true);assert.equal(count(),3);
  for(let left=2;left>=0;left--){
    const held=c.world.children.at(-1).children[2];
-   down();move(target);up();
+   down();move(outside);up();advance(620);
+   const catchAt={x:held.x+36,y:held.y+4};
+   scene.pointerDown({x:catchAt.x-205,y:catchAt.y},{},event,makeDrag);
+   assert.equal(c.state.drag,null);assert.equal(scene.face.mood,'sad');
+   const fishX=held.x,fishY=held.y;
+   scene.pointerDown(catchAt,catchAt,event,makeDrag);
+   assert.equal(scene.face.mood,'eager');assert.equal(scene.face.open,false);
+   assert.equal(held.x,fishX);assert.equal(held.y,fishY);
+   advance(1600);assert.equal(count(),left);assert.equal(held.y,fishY);
+   if(left===2){
+     up();advance(260);
+     scene.pointerDown({x:held.x,y:held.y},{},event,makeDrag);
+     assert.equal(scene.face.mood,'eager');up(true);assert.equal(count(),3);
+     down();
+   }
+   move(target);up();
    assert.equal(count(),left);
    advance(220);assert.ok(held.mask);assert.equal(scene.face.open,true);
    advance(190);assert.equal(scene.face.aperture,0);
-   for(const [index,duration] of [860,920,850,940,930].entries()){
+   for(const [index,duration] of [520,570,510,570,530].entries()){
      advance(duration*.45);
      assert.equal(Math.sign(scene.face.chew),index%2 ? -1 : 1);
-     assert.ok(held.visible && held.mask);
+     scene.drawDetails();assert.ok(!held.visible && scene.face.grip);assert.equal(scene.face.tail,1);
      assert.equal(scene.face.pat,0);
      advance(duration*.55);
    }
    advance(120);assert.equal(held.visible,false);assert.ok(scene.face.swallow>0);
-   advance(440);
+   advance(439);assert.equal(scene.face.tuck,false);advance(1);
    if(!left){
+     assert.equal(scene.face.tuck,true);
      advance(600);assert.ok(scene.face.pat>.9);
      advance(440);assert.ok(scene.face.pat<.15);
      advance(450);assert.ok(scene.face.pat>.7);
@@ -143,7 +163,9 @@ test('a fixed basket lends one fish, returns misses and refills only after the f
      advance(1);assert.equal(scene.face.burp,true);
      advance(140);scene.drawDetails();assert.ok(scene.face.hiccup>.9);
      assert.equal(c.world.children.at(-1).children[4].visible,true);
-     advance(3500);
+     advance(1979);assert.equal(scene.face.tuck,true);
+     advance(1);assert.equal(scene.face.tuck,false);assert.equal(scene.face.burp,false);
+     advance(1520);
    }
    assert.equal(scene.face.mood,'idle');
    scene.exit();scene=makeScene();scene.enter();
